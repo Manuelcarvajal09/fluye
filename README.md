@@ -27,7 +27,7 @@ Requisitos: Node 22+ (probado con 24), una cuenta gratuita de **Clerk** y una ba
 git clone <este repo> fluye && cd fluye
 npm ci
 cp .env.example .env.local   # y rellena con TUS claves
-npm run db:migrate           # crea las tablas
+npm run db:dev-setup          # migra, MARCA esta base como desarrollo y carga datos ficticios
 npm run dev
 ```
 
@@ -54,6 +54,12 @@ npm run dev
 - Las voces HD se pre-generan en local con Kokoro: `npm run audio:build` y luego `npm run audio:pack`. Los paquetes (`public/audio/`) no van en git; se despliegan junto con la app. Si faltan, la app usa la voz del dispositivo y lo indica.
 - Catálogo de palabras: `python -I scripts/catalog/build.py` (ver `content/catalog/README.md`).
 - Datos de demostración: `node scripts/seed-demo.mjs <userId>` crea un perfil ficticio con algo de progreso.
+
+### Entornos: desarrollo y producción separados
+
+Usa **dos bases distintas** (en Neon: dos proyectos, o una rama de solo esquema `--schema-only` para desarrollo; una rama normal hereda los datos del padre). `npm run db:dev-setup` crea en la base de desarrollo la tabla `fluye_dev_marker`; **producción nunca debe tenerla**.
+
+Todo lo que escribe datos (la suite E2E, `scripts/seed-demo.mjs`) se niega a correr si `DATABASE_URL` no apunta a una base marcada como desarrollo, y la suite exige además claves de Clerk de prueba (`sk_test_`/`pk_test_`) y no acepta un `E2E_BASE_URL` remoto sin `E2E_ALLOW_REMOTE=1`. `scripts/migrate.mjs` también se detiene en una base sin marca: para migrar producción a propósito, haz antes un respaldo (`node scripts/db-dump.mjs <carpeta>`) y ejecuta con `FLUYE_ALLOW_PROD_MIGRATE=1`.
 
 ### Pruebas
 
@@ -82,6 +88,6 @@ Ver [CONTRIBUTING.md](CONTRIBUTING.md). No subas datos personales, grabaciones, 
 
 Fluye is an invite-only web app for Spanish speakers (Mexico) learning Canadian and US English. It merges useful real-life **missions**, **FSRS spaced repetition** per modality, **active listening** (hidden transcript, progressive subtitles, dictation, shadowing with A/B comparison), **honest pronunciation practice** (recordings never leave the device), **real-world English** (slang and swearing explained by intent, register and intensity, with a per-user explicit-language setting), a **12,000-lemma frequency catalog** (wordfreq + Wiktionary + Tatoeba) and kind gamification (companion, gems, cosmetic shop, challenges, streak freezes).
 
-**Setup:** Node 22+, a free Clerk app and a Neon (Postgres) database. `npm ci`, copy `.env.example` to `.env.local`, fill in your own keys, `npm run db:migrate`, `npm run dev`. Set Clerk's sign-up mode to **Restricted** and put your Clerk user id in `OWNER_USER_IDS` to manage invitations from *Perfil → Administrar acceso*. Every page and API also checks membership server-side.
+**Setup:** Node 22+, a free Clerk app and a Neon (Postgres) database. `npm ci`, copy `.env.example` to `.env.local`, fill in your own keys, `npm run db:dev-setup` (migrates, marks the DB as development and seeds fictional data), `npm run dev`. Keep development and production on **separate databases**: tests, seeds and migrations refuse to write to a database that is not marked as development. Set Clerk's sign-up mode to **Restricted** and put your Clerk user id in `OWNER_USER_IDS` to manage invitations from *Perfil → Administrar acceso*. Every page and API also checks membership server-side.
 
 **Licenses:** code is MIT; data and content licenses (CC BY-SA 4.0 for the Wiktionary-derived catalog, CC BY 2.0 FR for Tatoeba sentences, original content) are listed in `docs/DATA-LICENSES.md` and `NOTICE.md`. No song lyrics or commercial audio are included.

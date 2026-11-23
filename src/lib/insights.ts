@@ -37,7 +37,7 @@ export async function activeTimeStats(profile: Profile, from: string | null) {
 export async function sessionStats(userId: string, fromDate: Date | null) {
   const where = fromDate ? and(eq(schema.studySessions.userId, userId), gte(schema.studySessions.startedAt, fromDate)) : eq(schema.studySessions.userId, userId);
   const [r] = await db()
-    .select({ started: sql<number>`count(*)::int`, finished: sql<number>`count(${schema.studySessions.finishedAt})::int`, missions: sql<number>`count(*) filter (where ${schema.studySessions.kind} = 'mission')::int` })
+    .select({ started: sql<number>`count(*) filter (where ${schema.studySessions.done} > 0 or ${schema.studySessions.finishedAt} is not null)::int`, finished: sql<number>`count(${schema.studySessions.finishedAt})::int`, missions: sql<number>`count(*) filter (where ${schema.studySessions.kind} = 'mission' and (${schema.studySessions.done} > 0 or ${schema.studySessions.finishedAt} is not null))::int` })
     .from(schema.studySessions)
     .where(where);
   return r ?? { started: 0, finished: 0, missions: 0 };

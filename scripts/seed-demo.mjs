@@ -2,11 +2,13 @@
 // Uso: node scripts/seed-demo.mjs <userId> [correo-ficticio]
 import { config } from "dotenv";
 import { neon } from "@neondatabase/serverless";
+import { assertDevDatabase } from "./lib/db-guard.mjs";
 
 config({ path: ".env.local" });
 config();
 const [userId, email = "demo@example.com"] = process.argv.slice(2);
 if (!userId) throw new Error("uso: node scripts/seed-demo.mjs <userId> [correo]");
+await assertDevDatabase("la semilla de demostración");
 const sql = neon(process.env.DATABASE_URL);
 const day = (n) => new Date(Date.now() - n * 86_400_000).toISOString().slice(0, 10);
 

@@ -82,6 +82,29 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
   const step = queue[i];
   const done = i >= queue.length;
 
+  // Progreso real de la sesión: se envía al ocultar/cerrar la página y al salir, para que una sesión a medias cuente como tal.
+  const progressRef = useRef({ i: 0, n: 0 });
+  useEffect(() => {
+    progressRef.current = { i, n: queue.length };
+  }, [i, queue.length]);
+  useEffect(() => {
+    const send = () => {
+      const { i: done, n } = progressRef.current;
+      if (!done || finished.current) return;
+      const m = sessionMeta.current;
+      const body = JSON.stringify({ id: m.id, kind: m.kind, minutes: m.minutes, steps: n, done });
+      if (navigator.sendBeacon) navigator.sendBeacon("/api/session", new Blob([body], { type: "application/json" }));
+    };
+    const onHide = () => document.visibilityState === "hidden" && send();
+    document.addEventListener("visibilitychange", onHide);
+    window.addEventListener("pagehide", send);
+    return () => {
+      document.removeEventListener("visibilitychange", onHide);
+      window.removeEventListener("pagehide", send);
+      send();
+    };
+  }, []);
+
   useEffect(() => {
     try {
       if (i >= queue.length) localStorage.removeItem(SAVE_KEY);

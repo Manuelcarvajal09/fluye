@@ -16,7 +16,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "node scripts/migrate.mjs",
     "audio:build": "node scripts/build-content.mjs && node scripts/audio/generate.mjs",
-    "audio:pack": "node scripts/audio/pack.mjs"
+    "audio:pack": "node scripts/audio/pack.mjs",
+    "db:dev-setup": "node scripts/dev-db-setup.mjs --seed"
   },
   "dependencies": {
     "@clerk/localizations": "^4.26.3",

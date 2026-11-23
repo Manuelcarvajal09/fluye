@@ -155,6 +155,19 @@ test.describe.serial("propietario, intentos y tienda", () => {
     expect(ss.some((r) => r.finished_at)).toBe(true);
   });
 
+  test("una sesión a medias guarda su progreso al salir", async ({ page }) => {
+    await signIn(page, TEST_EMAIL);
+    await sql().query("delete from study_sessions where user_id = $1", [userId]);
+    await page.goto("/sesion?min=5");
+    await expect(page.getByRole("button", { name: "Continuar", exact: true }).first()).toBeVisible();
+    await page.getByRole("button", { name: "Continuar", exact: true }).first().click();
+    await page.waitForTimeout(800);
+    await page.goto("/hoy"); // al salir se envía el progreso (pagehide / desmontaje)
+    await expect.poll(async () => (await sql().query("select max(done)::int d from study_sessions where user_id = $1", [userId]))[0].d, { timeout: 15_000 }).toBeGreaterThan(0);
+    const [r] = await sql().query("select count(*)::int n from study_sessions where user_id = $1", [userId]);
+    expect(r.n).toBe(1); // una sola sesión, no duplicada
+  });
+
   test("tienda: sin gemas no compra; con gemas compra y equipa; no se puede equipar sin comprar", async ({ page }) => {
     await signIn(page, TEST_EMAIL);
     await sql().query("delete from inventory where user_id = $1", [userId]);

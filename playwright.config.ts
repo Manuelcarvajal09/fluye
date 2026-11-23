@@ -7,6 +7,8 @@ const BASE = process.env.E2E_BASE_URL ?? `http://localhost:${PORT}`;
 
 export default defineConfig({
   testDir: "tests/e2e",
+  // Barrera: sin base de desarrollo marcada y claves de prueba, no corre nada (ver scripts/lib/db-guard.mjs).
+  globalSetup: "./tests/e2e/guard.global.ts",
   timeout: 180_000,
   expect: { timeout: 15_000 },
   fullyParallel: false,
