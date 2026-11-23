@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "err-have-years",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I have 30 years.",
+    "right": [
+      "I'm 30.",
+      "I'm 30 years old."
+    ],
+    "pattern": "\\bi have \\d+ years\\b",
+    "why_es": "La edad se dice con *be*: I'm 30 (years old)."
+  },
+  {
+    "id": "err-am-agree",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I am agree with you.",
+    "right": [
+      "I agree with you."
+    ],
+    "pattern": "\\b(i am|i'm|im) agree\\b",
+    "why_es": "*Agree* ya es un verbo: no se usa *am*."
+  },
+  {
+    "id": "err-explain-me",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "Can you explain me this word?",
+    "right": [
+      "Can you explain this word to me?"
+    ],
+    "pattern": "\\bexplain (me|him|her|us|them)\\b",
+    "why_es": "*Explain* lleva *to* antes de la persona: explain it to me."
+  },
+  {
+    "id": "err-say-me",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "Say me the truth.",
+    "right": [
+      "Tell me the truth."
+    ],
+    "pattern": "\\bsay (me|him|her|us|them)\\b",
+    "why_es": "Con persona usa *tell*: tell me. *Say* se usa con lo que se dice: say hello."
+  },
+  {
+    "id": "err-make-question",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I want to make a question.",
+    "right": [
+      "I want to ask a question."
+    ],
+    "pattern": "\\bmake (a |the )?questions?\\b",
+    "why_es": "La colocación es *ask a question*."
+  },
+  {
+    "id": "err-discuss-about",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "We need to discuss about the budget.",
+    "right": [
+      "We need to discuss the budget.",
+      "We need to talk about the budget."
+    ],
+    "pattern": "\\bdiscuss about\\b",
+    "why_es": "*Discuss* no lleva preposición; *talk about* sí."
+  },
+  {
+    "id": "err-assist-meeting",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "I assisted a meeting yesterday.",
+    "right": [
+      "I attended a meeting yesterday.",
+      "I went to a meeting yesterday."
+    ],
+    "pattern": "\\bassist(ed|ing)? (to |at )?(a|the|this|that) (meeting|class|conference|event)\\b",
+    "why_es": "*Assist* es ayudar; asistir a una reunión es *attend*."
+  },
+  {
+    "id": "err-arrive-to",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "We arrived to the airport at six.",
+    "right": [
+      "We arrived at the airport at six."
+    ],
+    "pattern": "\\barrive(d|s)? to\\b",
+    "why_es": "*Arrive* va con *at* (lugar pequeño) o *in* (ciudad/país), no *to*."
+  },
+  {
+    "id": "err-enter-to",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "She entered to the room.",
+    "right": [
+      "She entered the room.",
+      "She went into the room."
+    ],
+    "pattern": "\\benter(ed|s|ing)? to\\b",
+    "why_es": "*Enter* no lleva preposición."
+  },
+  {
+    "id": "err-married-with",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "He is married with a doctor.",
+    "right": [
+      "He is married to a doctor."
+    ],
+    "pattern": "\\bmarried with\\b",
+    "why_es": "Casado con = *married to*."
+  },
+  {
+    "id": "err-depend-of",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "It depends of the weather.",
+    "right": [
+      "It depends on the weather."
+    ],
+    "pattern": "\\bdepend(s|ed|ing)? of\\b",
+    "why_es": "*Depend* va con *on*."
+  },
+  {
+    "id": "err-listen-music",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I like to listen music.",
+    "right": [
+      "I like to listen to music."
+    ],
+    "pattern": "\\blisten (music|radio|songs|the)\\b",
+    "why_es": "*Listen* siempre lleva *to*."
+  },
+  {
+    "id": "err-wait-you",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I am waiting you here.",
+    "right": [
+      "I'm waiting for you here."
+    ],
+    "pattern": "\\bwait(ing|ed|s)? (you|him|her|them|the bus|my)\\b",
+    "why_es": "*Wait* lleva *for*."
+  },
+  {
+    "id": "err-look-for-search",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I am looking a job.",
+    "right": [
+      "I'm looking for a job."
+    ],
+    "pattern": "\\blook(ing|ed|s)? (a|an|the|my) ",
+    "why_es": "Buscar = *look for*; *look* sin *for* es mirar."
+  },
+  {
+    "id": "err-did-went",
+    "category": "tiempos",
+    "level": "A2",
+    "wrong": "I didn't went to school.",
+    "right": [
+      "I didn't go to school."
+    ],
+    "pattern": "\\bdidn'?t (went|came|saw|ate|had|took|made|got|did|said)\\b",
+    "why_es": "Tras *didn't* el verbo va en base."
+  },
+  {
+    "id": "err-did-you-went",
+    "category": "tiempos",
+    "level": "A2",
+    "wrong": "Did you went to the party?",
+    "right": [
+      "Did you go to the party?"
+    ],
+    "pattern": "\\bdid (you|he|she|they|we|i) (went|came|saw|ate|had|took|made|got)\\b",
+    "why_es": "Tras *did* el verbo va en forma base."
+  },
+  {
+    "id": "err-does-works",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "She doesn't works here.",
+    "right": [
+      "She doesn't work here."
+    ],
+    "pattern": "\\bdoesn'?t (works|goes|likes|has|wants|needs|says)\\b",
+    "why_es": "Tras *doesn't* el verbo no lleva *-s*."
+  },
+  {
+    "id": "err-he-dont",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "He don't like coffee.",
+    "right": [
+      "He doesn't like coffee."
+    ],
+    "pattern": "\\b(he|she|it) don'?t\\b",
+    "why_es": "Con he/she/it se usa *doesn't*."
+  },
+  {
+    "id": "err-can-to",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I can to speak English.",
+    "right": [
+      "I can speak English."
+    ],
+    "pattern": "\\b(can|could|should|must|will|would) to (speak|go|do|help|see)\\b",
+    "why_es": "Los modales no llevan *to*."
+  },
+  {
+    "id": "err-want-that",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "I want that you come.",
+    "right": [
+      "I want you to come."
+    ],
+    "pattern": "\\bi want that\\b",
+    "why_es": "Después de *want* + persona va infinitivo: *want you to come*."
+  },
+  {
+    "id": "err-suggest-me",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "He suggested me to leave.",
+    "right": [
+      "He suggested that I leave.",
+      "He suggested I leave."
+    ],
+    "pattern": "\\bsuggest(ed|s)? (me|him|her|us|them) to\\b",
+    "why_es": "*Suggest* no admite persona + to."
+  },
+  {
+    "id": "err-let-me-to",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "Let me to explain.",
+    "right": [
+      "Let me explain."
+    ],
+    "pattern": "\\blet (me|him|her|us|them) to\\b",
+    "why_es": "Tras *let* + persona va verbo base, sin *to*."
+  },
+  {
+    "id": "err-make-me-to",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "It makes me to laugh.",
+    "right": [
+      "It makes me laugh."
+    ],
+    "pattern": "\\bmake(s)? (me|him|her|us|them) to\\b",
+    "why_es": "Tras *make* + persona va verbo base."
+  },
+  {
+    "id": "err-enjoy-it",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "I enjoy very much the movie.",
+    "right": [
+      "I really enjoy the movie.",
+      "I enjoyed the movie a lot."
+    ],
+    "pattern": "\\benjoy(ed)? very much\\b",
+    "why_es": "El adverbio no va entre el verbo y su objeto."
+  },
+  {
+    "id": "err-want-go",
+    "category": "verbos",
+    "level": "A2",
+    "wrong": "I want go home.",
+    "right": [
+      "I want to go home."
+    ],
+    "pattern": "\\bi want (go|eat|buy|see|have|do) ",
+    "why_es": "Falta *to* tras *want*."
+  },
+  {
+    "id": "err-avoid-to",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "Try to avoid to make mistakes.",
+    "right": [
+      "Try to avoid making mistakes."
+    ],
+    "pattern": "\\bavoid to\\b",
+    "why_es": "Tras *avoid* va gerundio: avoid making."
+  },
+  {
+    "id": "err-look-forward-see",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "I look forward to see you.",
+    "right": [
+      "I look forward to seeing you."
+    ],
+    "pattern": "\\blook(ing)? forward to (see|meet|hear|work|talk)\\b",
+    "why_es": "En *look forward to* la *to* es preposición: lleva *-ing*."
+  },
+  {
+    "id": "err-used-to-gerund",
+    "category": "verbos",
+    "level": "B1",
+    "wrong": "I'm used to wake up early.",
+    "right": [
+      "I'm used to waking up early."
+    ],
+    "pattern": "(\\b(am|is|are|get|got)|'m|'re|'s) used to (wake|work|live|eat|do|go|drive)\\b",
+    "why_es": "*Be used to* + gerundio (acostumbrado). *Used to* + base es hábito pasado."
+  },
+  {
+    "id": "err-lost-the-bus",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "I lost the bus.",
+    "right": [
+      "I missed the bus."
+    ],
+    "pattern": "\\blost the (bus|train|flight|plane|meeting)\\b",
+    "why_es": "No alcanzar un transporte = *miss*; *lose* es perder un objeto."
+  },
+  {
+    "id": "err-since-years",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "I live here since three years.",
+    "right": [
+      "I've lived here for three years."
+    ],
+    "pattern": "\\bsince (two|three|four|five|six|seven|eight|nine|ten|\\d+) (years|months|weeks|days)\\b",
+    "why_es": "Duración = *for*; *since* es punto de inicio."
+  },
+  {
+    "id": "err-live-since",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "I'm living here since 2020.",
+    "right": [
+      "I've lived here since 2020.",
+      "I've been living here since 2020."
+    ],
+    "pattern": "\\b(i'm|i am|im) (living|working|studying) \\w*\\s?(here )?since\\b",
+    "why_es": "Con *since/for* se usa present perfect, no presente continuo."
+  },
+  {
+    "id": "err-raining-since",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "It's raining since morning.",
+    "right": [
+      "It's been raining since morning."
+    ],
+    "pattern": "\\bit'?s raining since\\b",
+    "why_es": "Acción que empezó y continúa: present perfect continuous."
+  },
+  {
+    "id": "err-work-here-since",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "I work here since January.",
+    "right": [
+      "I've worked here since January.",
+      "I've been working here since January."
+    ],
+    "pattern": "\\bi (work|live|study|know) (here |there )?(him |her |them )?since\\b",
+    "why_es": "Con *since* usa present perfect."
+  },
+  {
+    "id": "err-yesterday-have",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "I have seen him yesterday.",
+    "right": [
+      "I saw him yesterday."
+    ],
+    "pattern": "\\bhave (seen|been|done|gone|met|called|talked|finished|visited|eaten|bought) .*\\byesterday\\b",
+    "why_es": "Con tiempo pasado concreto (*yesterday*) se usa pasado simple."
+  },
+  {
+    "id": "err-ago-present-perfect",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "I have finished two days ago.",
+    "right": [
+      "I finished two days ago."
+    ],
+    "pattern": "\\bhave \\w+ .*\\bago\\b",
+    "why_es": "Con *ago* se usa pasado simple."
+  },
+  {
+    "id": "err-when-will",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "When I will arrive, I will call you.",
+    "right": [
+      "When I arrive, I'll call you."
+    ],
+    "pattern": "\\b(when|as soon as|before|after|if|until) i will\\b",
+    "why_es": "Tras *when/if/until* se usa presente, no futuro."
+  },
+  {
+    "id": "err-if-would",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "If I would have time, I would help.",
+    "right": [
+      "If I had time, I would help."
+    ],
+    "pattern": "\\bif (i|you|he|she|we|they) would\\b",
+    "why_es": "En condicional 2, tras *if* va pasado simple, no *would*."
+  },
+  {
+    "id": "err-ever-been",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "Did you ever go to Banff?",
+    "right": [
+      "Have you ever been to Banff?"
+    ],
+    "pattern": "\\bdid you ever go to\\b",
+    "why_es": "Experiencia de vida: *Have you ever been to...?*"
+  },
+  {
+    "id": "err-been-to-was",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "I never was in Canada.",
+    "right": [
+      "I've never been to Canada."
+    ],
+    "pattern": "\\bi never was (in|at|to)\\b",
+    "why_es": "Experiencia hasta hoy: *I've never been to*."
+  },
+  {
+    "id": "err-i-am-going-yesterday",
+    "category": "tiempos",
+    "level": "A2",
+    "wrong": "I am go to the store tomorrow.",
+    "right": [
+      "I'm going to the store tomorrow."
+    ],
+    "pattern": "\\b(am|is|are) go to\\b",
+    "why_es": "Faltó *-ing*: *I'm going to*."
+  },
+  {
+    "id": "err-stative-continuous",
+    "category": "tiempos",
+    "level": "B2",
+    "wrong": "I'm knowing the answer.",
+    "right": [
+      "I know the answer."
+    ],
+    "pattern": "\\b(am|is|are|'m|'re) (knowing|understanding|wanting|having a car|believing|liking)\\b",
+    "why_es": "Verbos de estado (know, want, like) no se usan en continuo."
+  },
+  {
+    "id": "err-past-be-didnt",
+    "category": "tiempos",
+    "level": "A2",
+    "wrong": "I didn't was at home.",
+    "right": [
+      "I wasn't at home."
+    ],
+    "pattern": "\\bdidn'?t (was|were)\\b",
+    "why_es": "El pasado de *be* se niega con *wasn't/weren't*."
+  },
+  {
+    "id": "err-used-to-didnt",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "I didn't used to like coffee.",
+    "right": [
+      "I didn't use to like coffee."
+    ],
+    "pattern": "\\bdidn'?t used to\\b",
+    "why_es": "Con *didn't*, *use* va sin *-d*."
+  },
+  {
+    "id": "err-told-will",
+    "category": "tiempos",
+    "level": "B1",
+    "wrong": "She told me that she will come yesterday.",
+    "right": [
+      "She told me she would come."
+    ],
+    "pattern": "\\bshe told me (that )?she will\\b",
+    "why_es": "En estilo indirecto en pasado, *will* pasa a *would*."
+  },
+  {
+    "id": "err-in-the-weekend",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I'll see you in the weekend.",
+    "right": [
+      "I'll see you on the weekend.",
+      "I'll see you this weekend."
+    ],
+    "pattern": "\\bin the weekend\\b",
+    "why_es": "En Canadá/EE. UU.: *on the weekend* (o *on weekends*)."
+  },
+  {
+    "id": "err-in-monday",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "The meeting is in Monday.",
+    "right": [
+      "The meeting is on Monday."
+    ],
+    "pattern": "\\b(in|at) (monday|tuesday|wednesday|thursday|friday|saturday|sunday)\\b",
+    "why_es": "Con días se usa *on*."
+  },
+  {
+    "id": "err-at-the-morning",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I work at the morning.",
+    "right": [
+      "I work in the morning."
+    ],
+    "pattern": "\\bat the (morning|afternoon|evening)\\b",
+    "why_es": "Partes del día: *in the morning*. (*at night*, en cambio, sí lleva *at*.)"
+  },
+  {
+    "id": "err-in-night",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I sleep in the night.",
+    "right": [
+      "I sleep at night."
+    ],
+    "pattern": "\\bin the night\\b",
+    "why_es": "Se dice *at night*."
+  },
+  {
+    "id": "err-in-the-home",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I'm in the home.",
+    "right": [
+      "I'm at home."
+    ],
+    "pattern": "\\b(in|to) the home\\b",
+    "why_es": "*At home*, sin artículo."
+  },
+  {
+    "id": "err-go-to-home",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I'm going to home.",
+    "right": [
+      "I'm going home."
+    ],
+    "pattern": "\\bgo(ing|es)? to home\\b",
+    "why_es": "*Home* es adverbio: *go home*."
+  },
+  {
+    "id": "err-go-to-downtown",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I go to downtown by bus.",
+    "right": [
+      "I go downtown by bus."
+    ],
+    "pattern": "\\bto (the )?downtown\\b",
+    "why_es": "*Downtown* no lleva *to*."
+  },
+  {
+    "id": "err-by-foot",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I go to work by foot.",
+    "right": [
+      "I walk to work.",
+      "I go to work on foot."
+    ],
+    "pattern": "\\bby foot\\b",
+    "why_es": "Se dice *on foot* o simplemente *walk*."
+  },
+  {
+    "id": "err-in-the-bus",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "I'm in the bus.",
+    "right": [
+      "I'm on the bus."
+    ],
+    "pattern": "\\bin the (bus|train|plane|subway)\\b",
+    "why_es": "Transporte público: *on the bus*, *on the train*."
+  },
+  {
+    "id": "err-good-in",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "I'm good in math.",
+    "right": [
+      "I'm good at math."
+    ],
+    "pattern": "\\b(good|bad|great|terrible|excellent) in (math|maths|english|sports|cooking|languages)\\b",
+    "why_es": "Habilidad: *good at*."
+  },
+  {
+    "id": "err-interested-on",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "I'm interested on the job.",
+    "right": [
+      "I'm interested in the job."
+    ],
+    "pattern": "\\binterested (on|about|to)\\b",
+    "why_es": "*Interested in*."
+  },
+  {
+    "id": "err-afraid-to-of",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "I'm afraid to the dogs.",
+    "right": [
+      "I'm afraid of dogs."
+    ],
+    "pattern": "\\b(afraid|scared) (to|from) (the )?(dogs|cats|snakes|spiders|heights)\\b",
+    "why_es": "Miedo a algo = *afraid of*."
+  },
+  {
+    "id": "err-different-than",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "This is different of that.",
+    "right": [
+      "This is different from that."
+    ],
+    "pattern": "\\bdifferent (of|to the)\\b",
+    "why_es": "*Different from* (en EE. UU. también *than*)."
+  },
+  {
+    "id": "err-on-city",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "I'm living on the Edmonton city.",
+    "right": [
+      "I live in Edmonton."
+    ],
+    "pattern": "\\bon the edmonton\\b",
+    "why_es": "Ciudades: *in Edmonton*."
+  },
+  {
+    "id": "err-thank-for-all",
+    "category": "preposiciones",
+    "level": "A2",
+    "wrong": "Thank you by your help.",
+    "right": [
+      "Thank you for your help."
+    ],
+    "pattern": "\\bthank(s| you) (by|of|to) (the|your|all|you)\\b",
+    "why_es": "Agradecer por = *thank you for*."
+  },
+  {
+    "id": "err-depend-from",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "That depends from you.",
+    "right": [
+      "That depends on you."
+    ],
+    "pattern": "\\bdepends? from\\b",
+    "why_es": "*Depends on*."
+  },
+  {
+    "id": "err-consist-in",
+    "category": "preposiciones",
+    "level": "B2",
+    "wrong": "The job consists in answering calls.",
+    "right": [
+      "The job consists of answering calls."
+    ],
+    "pattern": "\\bconsists? in\\b",
+    "why_es": "*Consist of* = constar de."
+  },
+  {
+    "id": "err-dream-with",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "I dream with living in Canada.",
+    "right": [
+      "I dream of living in Canada.",
+      "I dream about living in Canada."
+    ],
+    "pattern": "\\bdream(s|ed)? with\\b",
+    "why_es": "Soñar con = *dream of/about*."
+  },
+  {
+    "id": "err-marry-with",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "She wants to marry with him.",
+    "right": [
+      "She wants to marry him."
+    ],
+    "pattern": "\\bmarry with\\b",
+    "why_es": "*Marry* es transitivo: sin *with*."
+  },
+  {
+    "id": "err-wait-in",
+    "category": "preposiciones",
+    "level": "B1",
+    "wrong": "I'm in the line.",
+    "right": [
+      "I'm in line.",
+      "I'm waiting in line."
+    ],
+    "pattern": "\\bin the line\\b",
+    "why_es": "*Stand in line* / *wait in line* sin artículo (EE. UU./Canadá)."
+  },
+  {
+    "id": "err-the-life",
+    "category": "articulos",
+    "level": "A2",
+    "wrong": "The life is hard.",
+    "right": [
+      "Life is hard."
+    ],
+    "pattern": "\\bthe (life|love|money|time|happiness|work|health) is\\b",
+    "why_es": "Conceptos generales no llevan *the*."
+  },
+  {
+    "id": "err-no-article-job",
+    "category": "articulos",
+    "level": "A2",
+    "wrong": "I have job interview tomorrow.",
+    "right": [
+      "I have a job interview tomorrow."
+    ],
+    "pattern": "\\bi have (job|interview|meeting|appointment|problem|question) ",
+    "why_es": "Sustantivo contable singular necesita *a/an*."
+  },
+  {
+    "id": "err-a-profession",
+    "category": "articulos",
+    "level": "A2",
+    "wrong": "I am engineer.",
+    "right": [
+      "I'm an engineer."
+    ],
+    "pattern": "\\b(i am|i'm|im|he is|she is) (engineer|teacher|doctor|nurse|student|developer|manager)\\b",
+    "why_es": "Las profesiones llevan *a/an*."
+  },
+  {
+    "id": "err-an-honest",
+    "category": "articulos",
+    "level": "B1",
+    "wrong": "She is a honest person.",
+    "right": [
+      "She is an honest person."
+    ],
+    "pattern": "\\ba (honest|hour|honor|heir)\\b",
+    "why_es": "La *h* es muda: *an honest*, *an hour*."
+  },
+  {
+    "id": "err-an-university",
+    "category": "articulos",
+    "level": "B1",
+    "wrong": "I study at an university.",
+    "right": [
+      "I study at a university."
+    ],
+    "pattern": "\\ban (university|uniform|european|one-|useful|user)\\b",
+    "why_es": "Por el sonido /j/ se usa *a*: *a university*."
+  },
+  {
+    "id": "err-the-people-all",
+    "category": "articulos",
+    "level": "B1",
+    "wrong": "The people are afraid of the change.",
+    "right": [
+      "People are afraid of change."
+    ],
+    "pattern": "\\bthe people (are|is) (afraid|happy|angry)\\b",
+    "why_es": "Generalizaciones sin *the*."
+  },
+  {
+    "id": "err-go-to-the-work",
+    "category": "articulos",
+    "level": "A2",
+    "wrong": "I go to the work by bus.",
+    "right": [
+      "I go to work by bus."
+    ],
+    "pattern": "\\bto the (work|school|bed|church|jail|hospital) (by|every|at|early)\\b",
+    "why_es": "Instituciones en su función habitual no llevan *the*: *go to work, go to school*."
+  },
+  {
+    "id": "err-play-the-soccer",
+    "category": "articulos",
+    "level": "A2",
+    "wrong": "I play the soccer.",
+    "right": [
+      "I play soccer."
+    ],
+    "pattern": "\\bplay the (soccer|tennis|football|basketball|chess|baseball|hockey)\\b",
+    "why_es": "Deportes sin artículo. (Instrumentos sí: *play the guitar*.)"
+  },
+  {
+    "id": "err-breakfast-the",
+    "category": "articulos",
+    "level": "A2",
+    "wrong": "I have the breakfast at eight.",
+    "right": [
+      "I have breakfast at eight."
+    ],
+    "pattern": "\\b(have|had|eat|ate) the (breakfast|lunch|dinner)\\b",
+    "why_es": "Comidas sin artículo."
+  },
+  {
+    "id": "err-in-the-hospital-ca",
+    "category": "articulos",
+    "level": "B1",
+    "wrong": "She is in hospital.",
+    "right": [
+      "She is in the hospital."
+    ],
+    "pattern": "\\bin hospital\\b",
+    "why_es": "En EE. UU./Canadá: *in the hospital* (en Reino Unido *in hospital*)."
+  },
+  {
+    "id": "err-a-advice",
+    "category": "plurales",
+    "level": "A2",
+    "wrong": "She gave me an advice.",
+    "right": [
+      "She gave me some advice.",
+      "She gave me a piece of advice."
+    ],
+    "pattern": "\\b(an|a|many|two|three) advices?\\b|\\badvices\\b",
+    "why_es": "*Advice* es incontable."
+  },
+  {
+    "id": "err-informations",
+    "category": "plurales",
+    "level": "A2",
+    "wrong": "I need more informations.",
+    "right": [
+      "I need more information."
+    ],
+    "pattern": "\\binformations\\b",
+    "why_es": "*Information* es incontable."
+  },
+  {
+    "id": "err-a-news",
+    "category": "plurales",
+    "level": "A2",
+    "wrong": "I have a good news.",
+    "right": [
+      "I have good news.",
+      "I have some good news."
+    ],
+    "pattern": "\\ba (good|bad|big|great) news\\b|\\bthe news (are|were)\\b",
+    "why_es": "*News* es incontable y singular."
+  },
+  {
+    "id": "err-furnitures",
+    "category": "plurales",
+    "level": "B1",
+    "wrong": "We bought new furnitures.",
+    "right": [
+      "We bought new furniture."
+    ],
+    "pattern": "\\bfurnitures\\b",
+    "why_es": "*Furniture* es incontable."
+  },
+  {
+    "id": "err-a-luggage",
+    "category": "plurales",
+    "level": "B1",
+    "wrong": "I lost my luggages at the airport.",
+    "right": [
+      "I lost my luggage at the airport."
+    ],
+    "pattern": "\\bluggages\\b|\\bbaggages\\b",
+    "why_es": "*Luggage/baggage* es incontable."
+  },
+  {
+    "id": "err-a-homework",
+    "category": "plurales",
+    "level": "B1",
+    "wrong": "I have many homeworks.",
+    "right": [
+      "I have a lot of homework."
+    ],
+    "pattern": "\\bhomeworks\\b|\\bworks to do\\b",
+    "why_es": "*Homework* es incontable."
+  },
+  {
+    "id": "err-peoples",
+    "category": "plurales",
+    "level": "A2",
+    "wrong": "The people is nice.",
+    "right": [
+      "The people are nice."
+    ],
+    "pattern": "\\bpeople is\\b",
+    "why_es": "*People* es plural: *people are*."
+  },
+  {
+    "id": "err-much-people",
+    "category": "plurales",
+    "level": "A2",
+    "wrong": "There are much people here.",
+    "right": [
+      "There are a lot of people here.",
+      "There are many people here."
+    ],
+    "pattern": "\\bmuch (people|cars|friends|things|books|students)\\b",
+    "why_es": "Contables: *many* o *a lot of*, no *much*."
+  },
+  {
+    "id": "err-feedbacks",
+    "category": "plurales",
+    "level": "B1",
+    "wrong": "Thanks for your feedbacks.",
+    "right": [
+      "Thanks for your feedback."
+    ],
+    "pattern": "\\bfeedbacks\\b",
+    "why_es": "*Feedback* es incontable."
+  },
+  {
+    "id": "err-stuffs",
+    "category": "plurales",
+    "level": "B1",
+    "wrong": "I have a lot of stuffs.",
+    "right": [
+      "I have a lot of stuff."
+    ],
+    "pattern": "\\bstuffs\\b|\\bequipments\\b|\\bresearchs\\b",
+    "why_es": "*Stuff, equipment, research* son incontables."
+  },
+  {
+    "id": "err-data-s",
+    "category": "plurales",
+    "level": "B1",
+    "wrong": "I have many datas.",
+    "right": [
+      "I have a lot of data."
+    ],
+    "pattern": "\\bdatas\\b",
+    "why_es": "*Data* no lleva plural con *-s*."
+  },
+  {
+    "id": "err-childs",
+    "category": "plurales",
+    "level": "A2",
+    "wrong": "I have two childs.",
+    "right": [
+      "I have two children."
+    ],
+    "pattern": "\\bchilds\\b|\\bmans\\b|\\bwomans\\b|\\bpersons\\b",
+    "why_es": "Plurales irregulares: *children, men, women, people*."
+  },
+  {
+    "id": "err-it-is-raining-no-subject",
+    "category": "pronombres",
+    "level": "A2",
+    "wrong": "Is cold today.",
+    "right": [
+      "It's cold today."
+    ],
+    "pattern": "^is (cold|hot|raining|snowing|late|important|necessary|possible|difficult|easy|better)\\b",
+    "why_es": "En inglés el sujeto es obligatorio: *It's...*."
+  },
+  {
+    "id": "err-is-necessary",
+    "category": "pronombres",
+    "level": "A2",
+    "wrong": "Is necessary to bring ID.",
+    "right": [
+      "It's necessary to bring ID."
+    ],
+    "pattern": "(^|[.!?] )is (necessary|important|possible|impossible|difficult|easy|better) to\\b",
+    "why_es": "Falta el sujeto *it*."
+  },
+  {
+    "id": "err-there-is-hay",
+    "category": "pronombres",
+    "level": "A2",
+    "wrong": "Has many people in the park.",
+    "right": [
+      "There are many people in the park."
+    ],
+    "pattern": "\\bhas (many|a lot of|some) (people|cars|things)\\b",
+    "why_es": "*Hay* = *there is/are*, no *has*."
+  },
+  {
+    "id": "err-no-subject-verb",
+    "category": "pronombres",
+    "level": "A2",
+    "wrong": "Yesterday went to the store.",
+    "right": [
+      "Yesterday I went to the store."
+    ],
+    "pattern": "^(yesterday|today|tomorrow) (went|go|going|am|have|had) ",
+    "why_es": "Falta el sujeto."
+  },
+  {
+    "id": "err-he-she-mix",
+    "category": "pronombres",
+    "level": "A2",
+    "wrong": "My wife, he is a nurse.",
+    "right": [
+      "My wife is a nurse."
+    ],
+    "pattern": "\\bmy (wife|mother|sister|girlfriend), he\\b",
+    "why_es": "Concuerda el pronombre: *she*. Evita repetir el sujeto."
+  },
+  {
+    "id": "err-me-and-friend",
+    "category": "pronombres",
+    "level": "B1",
+    "wrong": "Me and my friend went to the mall.",
+    "right": [
+      "My friend and I went to the mall."
+    ],
+    "pattern": "^me and (my|a|the)\\b",
+    "why_es": "Como sujeto: *My friend and I*."
+  },
+  {
+    "id": "err-between-you-and-i",
+    "category": "pronombres",
+    "level": "B2",
+    "wrong": "This is between you and I.",
+    "right": [
+      "This is between you and me."
+    ],
+    "pattern": "\\bbetween you and i\\b",
+    "why_es": "Tras preposición va *me*."
+  },
+  {
+    "id": "err-myself-reflexive",
+    "category": "pronombres",
+    "level": "B1",
+    "wrong": "I feel myself tired.",
+    "right": [
+      "I feel tired."
+    ],
+    "pattern": "\\bfeel myself\\b",
+    "why_es": "*Feel* con adjetivo no es reflexivo."
+  },
+  {
+    "id": "err-its-it-s",
+    "category": "pronombres",
+    "level": "B1",
+    "wrong": "Its a good idea.",
+    "right": [
+      "It's a good idea."
+    ],
+    "pattern": "\\bits (a|an|the|very|so|really|not|raining|cold)\\b",
+    "why_es": "*It's* = it is; *its* es posesivo."
+  },
+  {
+    "id": "err-them-self",
+    "category": "pronombres",
+    "level": "B1",
+    "wrong": "They did it themself.",
+    "right": [
+      "They did it themselves."
+    ],
+    "pattern": "\\bthemself\\b|\\btheirselves\\b",
+    "why_es": "Plural: *themselves*."
+  },
+  {
+    "id": "err-adj-after-noun",
+    "category": "orden",
+    "level": "A2",
+    "wrong": "I have a car red.",
+    "right": [
+      "I have a red car."
+    ],
+    "pattern": "\\ba (car|house|dog|shirt|bag) (red|blue|big|small|black|white|new|old)\\b",
+    "why_es": "El adjetivo va antes del sustantivo."
+  },
+  {
+    "id": "err-noun-noun",
+    "category": "orden",
+    "level": "B1",
+    "wrong": "The house of my sister is big.",
+    "right": [
+      "My sister's house is big."
+    ],
+    "pattern": "\\bthe (house|car|phone|name|job) of my (sister|brother|friend|boss|mother|father)\\b",
+    "why_es": "Posesión de personas: *'s*."
+  },
+  {
+    "id": "err-adverb-position",
+    "category": "orden",
+    "level": "B1",
+    "wrong": "I like very much coffee.",
+    "right": [
+      "I like coffee very much.",
+      "I really like coffee."
+    ],
+    "pattern": "\\b(like|love|want|need) very much (the |a |my )?\\w+\\b",
+    "why_es": "El adverbio no va entre el verbo y su objeto."
+  },
+  {
+    "id": "err-always-position",
+    "category": "orden",
+    "level": "A2",
+    "wrong": "I go always to the gym.",
+    "right": [
+      "I always go to the gym."
+    ],
+    "pattern": "\\bi go always\\b|\\bi eat always\\b|\\bi have always to\\b",
+    "why_es": "*Always* va antes del verbo principal."
+  },
+  {
+    "id": "err-time-place-order",
+    "category": "orden",
+    "level": "B1",
+    "wrong": "I went yesterday to the store.",
+    "right": [
+      "I went to the store yesterday."
+    ],
+    "pattern": "\\bwent (yesterday|today|last \\w+) to the\\b",
+    "why_es": "Orden habitual: lugar antes del tiempo."
+  },
+  {
+    "id": "err-enough-position",
+    "category": "orden",
+    "level": "B1",
+    "wrong": "He isn't enough old.",
+    "right": [
+      "He isn't old enough."
+    ],
+    "pattern": "\\benough (old|tall|big|good|fast|strong|tired)\\b",
+    "why_es": "*Enough* va después del adjetivo."
+  },
+  {
+    "id": "err-much-too",
+    "category": "orden",
+    "level": "B1",
+    "wrong": "It's too much cold.",
+    "right": [
+      "It's too cold."
+    ],
+    "pattern": "\\btoo much (cold|hot|big|expensive|late|early)\\b",
+    "why_es": "Con adjetivo: *too* + adj. *Too much* es para sustantivos."
+  },
+  {
+    "id": "err-also-position",
+    "category": "orden",
+    "level": "B1",
+    "wrong": "I also am a developer.",
+    "right": [
+      "I'm also a developer."
+    ],
+    "pattern": "\\bi also am\\b",
+    "why_es": "Con *be*, *also* va después: *I'm also...*."
+  },
+  {
+    "id": "err-very-much-adj",
+    "category": "orden",
+    "level": "A2",
+    "wrong": "It's very much expensive.",
+    "right": [
+      "It's very expensive."
+    ],
+    "pattern": "\\bvery much (expensive|cold|hot|big|good|nice|difficult)\\b",
+    "why_es": "Con adjetivos: *very*, no *very much*."
+  },
+  {
+    "id": "err-how-is-called",
+    "category": "preguntas",
+    "level": "A2",
+    "wrong": "How is called this in English?",
+    "right": [
+      "What is this called in English?"
+    ],
+    "pattern": "\\bhow is called\\b|\\bhow it is called\\b|\\bhow do you call\\b",
+    "why_es": "Se pregunta *What is this called?*"
+  },
+  {
+    "id": "err-what-means",
+    "category": "preguntas",
+    "level": "A2",
+    "wrong": "What means this word?",
+    "right": [
+      "What does this word mean?"
+    ],
+    "pattern": "\\bwhat means\\b",
+    "why_es": "Con *what* + auxiliar: *What does it mean?*"
+  },
+  {
+    "id": "err-no-aux-question",
+    "category": "preguntas",
+    "level": "A2",
+    "wrong": "Where you live?",
+    "right": [
+      "Where do you live?"
+    ],
+    "pattern": "\\b(where|what|when|why|how|who) you (live|work|go|want|need|have|do)\\b",
+    "why_es": "Falta el auxiliar *do*."
+  },
+  {
+    "id": "err-how-much-time",
+    "category": "preguntas",
+    "level": "A2",
+    "wrong": "How much time do you live here?",
+    "right": [
+      "How long have you lived here?"
+    ],
+    "pattern": "\\bhow much time (do|did|have)\\b",
+    "why_es": "Duración = *How long...?*"
+  },
+  {
+    "id": "err-how-old-years",
+    "category": "preguntas",
+    "level": "A2",
+    "wrong": "How many years do you have?",
+    "right": [
+      "How old are you?"
+    ],
+    "pattern": "\\bhow many years (do you|have you|are you)\\b",
+    "why_es": "Edad = *How old are you?*"
+  },
+  {
+    "id": "err-indirect-question",
+    "category": "preguntas",
+    "level": "B1",
+    "wrong": "Can you tell me where is the station?",
+    "right": [
+      "Can you tell me where the station is?"
+    ],
+    "pattern": "\\b(tell|show|know|ask) me (where|what|when|how|why|who) (is|are|do|does|did) ",
+    "why_es": "En preguntas indirectas el orden es de afirmación: *where the station is*."
+  },
+  {
+    "id": "err-do-you-know-where",
+    "category": "preguntas",
+    "level": "B1",
+    "wrong": "Do you know where does she live?",
+    "right": [
+      "Do you know where she lives?"
+    ],
+    "pattern": "\\bdo you know (where|what|when|how|why) (does|do|did) \\b",
+    "why_es": "Sin auxiliar en la pregunta indirecta."
+  },
+  {
+    "id": "err-what-for-why",
+    "category": "preguntas",
+    "level": "B1",
+    "wrong": "For what do you study English?",
+    "right": [
+      "Why do you study English?",
+      "What do you study English for?"
+    ],
+    "pattern": "\\bfor what (do|did|are|is)\\b",
+    "why_es": "Mejor *Why...?* o *What...for?* con la preposición al final."
+  },
+  {
+    "id": "err-question-tag-no",
+    "category": "preguntas",
+    "level": "B1",
+    "wrong": "You are Mexican, no?",
+    "right": [
+      "You're Mexican, aren't you?"
+    ],
+    "pattern": ", no\\?$",
+    "why_es": "Los tags se forman con el auxiliar: *aren't you?*"
+  },
+  {
+    "id": "err-do-you-have-time",
+    "category": "preguntas",
+    "level": "A2",
+    "wrong": "You have time?",
+    "right": [
+      "Do you have time?"
+    ],
+    "pattern": "^you have (time|a minute|a moment)\\?",
+    "why_es": "Falta el auxiliar *do*."
+  },
+  {
+    "id": "err-actually-actualmente",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "Actually I'm working in Edmonton.",
+    "right": [
+      "Currently, I'm working in Edmonton.",
+      "Right now I'm working in Edmonton."
+    ],
+    "pattern": "\\bactually i'?m (working|living|studying|looking)\\b",
+    "why_es": "*Actually* = en realidad; actualmente = *currently*."
+  },
+  {
+    "id": "err-bored-boring",
+    "category": "falsos-amigos",
+    "level": "A2",
+    "wrong": "I'm boring in this class.",
+    "right": [
+      "I'm bored in this class."
+    ],
+    "pattern": "\\b(i am|i'm|im) (boring|interesting|exciting|tiring|confusing|annoying)\\b",
+    "why_es": "*-ed* = cómo te sientes; *-ing* = cómo es algo."
+  },
+  {
+    "id": "err-lend-borrow",
+    "category": "falsos-amigos",
+    "level": "A2",
+    "wrong": "Can you borrow me your pen?",
+    "right": [
+      "Can you lend me your pen?",
+      "Can I borrow your pen?"
+    ],
+    "pattern": "\\bborrow me\\b",
+    "why_es": "*Borrow* = pedir prestado; *lend* = prestar."
+  },
+  {
+    "id": "err-lend-from",
+    "category": "falsos-amigos",
+    "level": "A2",
+    "wrong": "I lent a book from the library.",
+    "right": [
+      "I borrowed a book from the library."
+    ],
+    "pattern": "\\blent (a|the|my) \\w+ from\\b",
+    "why_es": "Pedir prestado = *borrow*."
+  },
+  {
+    "id": "err-embarrassed-embarazada",
+    "category": "falsos-amigos",
+    "level": "A2",
+    "wrong": "I'm embarrassed, we're having a baby.",
+    "right": [
+      "I'm pregnant, we're having a baby."
+    ],
+    "pattern": "\\bembarrassed,? (because|and|we'?re having|with a baby)",
+    "why_es": "Embarazada = *pregnant*; *embarrassed* es avergonzado."
+  },
+  {
+    "id": "err-constipated-constipado",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "I'm constipated, I have a cold.",
+    "right": [
+      "I have a cold.",
+      "I'm congested."
+    ],
+    "pattern": "\\b(i am|i'm|im) constipated\\b.*\\bcold\\b",
+    "why_es": "*Constipated* es estreñido; resfriado = *have a cold*."
+  },
+  {
+    "id": "err-library-libreria",
+    "category": "falsos-amigos",
+    "level": "A2",
+    "wrong": "I bought a book in the library.",
+    "right": [
+      "I bought a book at the bookstore."
+    ],
+    "pattern": "\\bbought .* (in|at) the library\\b",
+    "why_es": "*Library* es biblioteca; librería = *bookstore*."
+  },
+  {
+    "id": "err-realize-realizar",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "I realized a project last year.",
+    "right": [
+      "I carried out a project last year.",
+      "I did a project last year."
+    ],
+    "pattern": "\\brealized (a|the|my) (project|plan|task|job)\\b",
+    "why_es": "*Realize* = darse cuenta; realizar = *carry out / do*."
+  },
+  {
+    "id": "err-sensible-sensitive",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "She is very sensible about criticism.",
+    "right": [
+      "She is very sensitive about criticism."
+    ],
+    "pattern": "\\bsensible (about|to|with)\\b",
+    "why_es": "Sensible (emocional) = *sensitive*; *sensible* es sensato."
+  },
+  {
+    "id": "err-eventually-eventualmente",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "Eventually I go to the gym.",
+    "right": [
+      "Occasionally I go to the gym.",
+      "Sometimes I go to the gym."
+    ],
+    "pattern": "\\beventually i (go|eat|drink|play|call)\\b",
+    "why_es": "*Eventually* = al final; a veces = *occasionally*."
+  },
+  {
+    "id": "err-resume-resumen",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "Here is a resume of the meeting.",
+    "right": [
+      "Here is a summary of the meeting."
+    ],
+    "pattern": "\\ba resume of\\b",
+    "why_es": "Resumen = *summary*; *résumé* es currículum."
+  },
+  {
+    "id": "err-application-aplicacion",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "I applied a form to renew my passport.",
+    "right": [
+      "I filled out a form to renew my passport.",
+      "I submitted an application to renew my passport."
+    ],
+    "pattern": "\\bapplied (a|the) (form|application)\\b",
+    "why_es": "*Apply* es solicitar (*apply for*)."
+  },
+  {
+    "id": "err-pretend-pretender",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "I pretend to finish today.",
+    "right": [
+      "I'm planning to finish today.",
+      "I intend to finish today."
+    ],
+    "pattern": "\\bi pretend to (finish|go|learn|get|buy|start)\\b",
+    "why_es": "*Pretend* es fingir; pretender = *intend / plan to*."
+  },
+  {
+    "id": "err-attend-atender",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "She attends the customers at the store.",
+    "right": [
+      "She serves the customers at the store.",
+      "She helps customers at the store."
+    ],
+    "pattern": "\\battend(s|ed|ing)? (the )?(customers|clients|guests|patients)\\b",
+    "why_es": "Atender clientes = *serve / help*."
+  },
+  {
+    "id": "err-carpet-carpeta",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "Put the documents in the carpet.",
+    "right": [
+      "Put the documents in the folder."
+    ],
+    "pattern": "\\bin the carpet\\b",
+    "why_es": "*Carpet* es alfombra; carpeta = *folder*."
+  },
+  {
+    "id": "err-success-suceder",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "What success?",
+    "right": [
+      "What happened?"
+    ],
+    "pattern": "\\bwhat success\\b|\\bwhat is succeeding\\b",
+    "why_es": "Suceder = *happen*; *success* es éxito."
+  },
+  {
+    "id": "err-career-carrera",
+    "category": "falsos-amigos",
+    "level": "B1",
+    "wrong": "I study the career of Physics.",
+    "right": [
+      "I'm studying Physics.",
+      "I'm doing a degree in Physics."
+    ],
+    "pattern": "\\bthe career of (physics|law|medicine|engineering)\\b",
+    "why_es": "Carrera universitaria = *degree / major*."
+  },
+  {
+    "id": "err-do-mistake",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "I did a mistake.",
+    "right": [
+      "I made a mistake."
+    ],
+    "pattern": "\\bdid (a |the )?mistakes?\\b",
+    "why_es": "Colocación: *make a mistake*."
+  },
+  {
+    "id": "err-make-homework",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "I made my homework.",
+    "right": [
+      "I did my homework."
+    ],
+    "pattern": "\\bmade (my |the )?homework\\b",
+    "why_es": "Colocación: *do homework*."
+  },
+  {
+    "id": "err-take-a-decision",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "We took a decision yesterday.",
+    "right": [
+      "We made a decision yesterday."
+    ],
+    "pattern": "\\b(take|took|taking|takes) (a |the )?decisions?\\b",
+    "why_es": "Colocación: *make a decision*."
+  },
+  {
+    "id": "err-do-photo",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "Can you do a photo of us?",
+    "right": [
+      "Can you take a picture of us?"
+    ],
+    "pattern": "\\bdo (a |the )?(photo|picture)s?\\b",
+    "why_es": "Colocación: *take a picture*."
+  },
+  {
+    "id": "err-do-party",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "We will do a party on Saturday.",
+    "right": [
+      "We'll have a party on Saturday.",
+      "We're throwing a party on Saturday."
+    ],
+    "pattern": "\\b(do|make) (a |the )party\\b",
+    "why_es": "Colocación: *have / throw a party*."
+  },
+  {
+    "id": "err-do-friends",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "It's hard to do friends here.",
+    "right": [
+      "It's hard to make friends here."
+    ],
+    "pattern": "\\bdo friends\\b",
+    "why_es": "Colocación: *make friends*."
+  },
+  {
+    "id": "err-do-a-trip",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "We did a trip to Banff.",
+    "right": [
+      "We took a trip to Banff.",
+      "We went on a trip to Banff."
+    ],
+    "pattern": "\\bdid a trip\\b|\\bmade a trip\\b",
+    "why_es": "Colocación: *take a trip*."
+  },
+  {
+    "id": "err-put-the-tv",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "Put the TV, please.",
+    "right": [
+      "Turn on the TV, please."
+    ],
+    "pattern": "\\bput (on )?the (tv|light|lights|radio|music)\\b",
+    "why_es": "Encender = *turn on*."
+  },
+  {
+    "id": "err-see-tv",
+    "category": "colocaciones",
+    "level": "A2",
+    "wrong": "I see TV every night.",
+    "right": [
+      "I watch TV every night."
+    ],
+    "pattern": "\\bsee (the )?(tv|television|a movie|movies|a film|the game)\\b",
+    "why_es": "Colocación: *watch TV*."
+  },
+  {
+    "id": "err-take-a-class",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "I'm making a course online.",
+    "right": [
+      "I'm taking a course online."
+    ],
+    "pattern": "\\b(making|make|made|do|doing) (a |an )?(course|class|workshop)\\b",
+    "why_es": "Colocación: *take a course*."
+  },
+  {
+    "id": "err-win-money",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "I win 25 dollars per hour.",
+    "right": [
+      "I earn 25 dollars an hour.",
+      "I make 25 dollars an hour."
+    ],
+    "pattern": "\\bi win \\d+ dollars\\b|\\bi win (money|a salary)\\b",
+    "why_es": "Ganar dinero = *earn / make*; *win* es ganar un premio."
+  },
+  {
+    "id": "err-strong-rain",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "There is a strong rain.",
+    "right": [
+      "It's raining heavily.",
+      "There is heavy rain."
+    ],
+    "pattern": "\\bstrong (rain|snow|traffic|wind storm)\\b",
+    "why_es": "Colocación: *heavy rain*, *heavy snow*, *heavy traffic*."
+  },
+  {
+    "id": "err-strong-fever",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "I have a fever strong.",
+    "right": [
+      "I have a high fever."
+    ],
+    "pattern": "\\bstrong fever\\b|\\bfever strong\\b",
+    "why_es": "Colocación: *high fever*."
+  },
+  {
+    "id": "err-spend-good-time",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "I want to spend a good time.",
+    "right": [
+      "I want to have a good time."
+    ],
+    "pattern": "\\bspend a (good|nice|great) time\\b",
+    "why_es": "Colocación: *have a good time*."
+  },
+  {
+    "id": "err-lose-weight-down",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "I want to loose weight.",
+    "right": [
+      "I want to lose weight."
+    ],
+    "pattern": "\\bloose weight\\b|\\bloosing\\b",
+    "why_es": "*Lose* (perder) con una sola *o*; *loose* es flojo."
+  },
+  {
+    "id": "err-job-of-it",
+    "category": "colocaciones",
+    "level": "B1",
+    "wrong": "I'm looking for a job of IT.",
+    "right": [
+      "I'm looking for a job in IT."
+    ],
+    "pattern": "\\bjob of (it|sales|marketing|tech)\\b",
+    "why_es": "Sector = *a job in IT*."
+  },
+  {
+    "id": "err-i-want-order",
+    "category": "registro",
+    "level": "A2",
+    "wrong": "I want a coffee.",
+    "right": [
+      "Could I get a coffee, please?",
+      "Can I have a coffee, please?"
+    ],
+    "pattern": "^i want (a|an|the|some) (coffee|tea|latte|water|menu|table)\\b",
+    "why_es": "En un pedido, *I want* suena brusco. Usa *Could I get...?*"
+  },
+  {
+    "id": "err-give-me-order",
+    "category": "registro",
+    "level": "A2",
+    "wrong": "Give me the bill.",
+    "right": [
+      "Could I get the bill, please?"
+    ],
+    "pattern": "^give me (the|a|some)\\b",
+    "why_es": "*Give me* suena a orden; usa *Could I have...?*"
+  },
+  {
+    "id": "err-please-missing",
+    "category": "registro",
+    "level": "A2",
+    "wrong": "Open the window.",
+    "right": [
+      "Could you open the window, please?"
+    ],
+    "pattern": "^open the (window|door)\\b",
+    "why_es": "Las órdenes secas suenan descorteses: pide con *Could you...?*"
+  },
+  {
+    "id": "err-you-are-wrong",
+    "category": "registro",
+    "level": "B1",
+    "wrong": "You are wrong.",
+    "right": [
+      "I don't think that's right.",
+      "I see it a little differently."
+    ],
+    "pattern": "^you are wrong\\b",
+    "why_es": "En entornos profesionales suaviza el desacuerdo."
+  },
+  {
+    "id": "err-what-do-you-want",
+    "category": "registro",
+    "level": "B1",
+    "wrong": "What do you want?",
+    "right": [
+      "How can I help you?",
+      "What can I do for you?"
+    ],
+    "pattern": "^what do you want\\b",
+    "why_es": "A un cliente, *What do you want?* es descortés."
+  },
+  {
+    "id": "err-i-need-know",
+    "category": "registro",
+    "level": "B1",
+    "wrong": "I need that you send me the report.",
+    "right": [
+      "Could you send me the report, please?"
+    ],
+    "pattern": "\\bi need that you\\b",
+    "why_es": "Pide con cortesía: *Could you send...?*"
+  },
+  {
+    "id": "err-send-me-resume",
+    "category": "registro",
+    "level": "B1",
+    "wrong": "I attach my resume. (email)",
+    "right": [
+      "I've attached my résumé.",
+      "Please find my résumé attached."
+    ],
+    "pattern": "\\bi attach my (resume|cv)\\b",
+    "why_es": "En correos: *I've attached...* / *Please find ... attached*."
+  },
+  {
+    "id": "err-dear-sir",
+    "category": "registro",
+    "level": "B1",
+    "wrong": "Dear sir, I want a job.",
+    "right": [
+      "Dear Hiring Manager, I'm interested in the position."
+    ],
+    "pattern": "^dear sir,? i want\\b",
+    "why_es": "En cartas formales: *I'm interested in the position*."
+  },
+  {
+    "id": "err-gonna-formal",
+    "category": "registro",
+    "level": "B1",
+    "wrong": "In the interview I said: I'm gonna work hard.",
+    "right": [
+      "I will work hard.",
+      "I'm going to work hard."
+    ],
+    "pattern": "\\bgonna\\b|\\bwanna\\b|\\bgotta\\b",
+    "why_es": "*Gonna/wanna* son informales: evítalos en entrevistas y correos."
+  },
+  {
+    "id": "err-sorry-excuse-me",
+    "category": "registro",
+    "level": "A2",
+    "wrong": "Sorry, where is the washroom? (to a stranger)",
+    "right": [
+      "Excuse me, where's the washroom?"
+    ],
+    "pattern": "^sorry,? where",
+    "why_es": "Para llamar la atención: *Excuse me*. *Sorry* es para disculparse."
+  },
+  {
+    "id": "err-take-away-ca",
+    "category": "registro",
+    "level": "A2",
+    "wrong": "I want it for take away.",
+    "right": [
+      "I'll have it to go.",
+      "I'll have it takeout."
+    ],
+    "pattern": "\\bfor take away\\b|\\bfor carry\\b",
+    "why_es": "En Canadá: *to go* / *takeout*."
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "pro-word-stress",
+    "kind": "stress",
+    "order": 1,
+    "title_es": "Acento de palabra: una sílaba manda",
+    "explain_es": "En cada palabra inglesa una sílaba suena más larga, más fuerte y más aguda; las demás se encogen. No hay tilde que avise. Pistas útiles: casi todos los sustantivos y adjetivos de dos sílabas se acentúan en la primera (TAble, HAPpy); las terminaciones -tion, -sion, -ic e -ity ponen el acento justo antes (inforMAtion, ecoNOmic, aBIlity). Cambiar el acento de sitio confunde más que una vocal mal dicha.",
+    "drills": [
+      { "en": "photograph", "mark": "PHO-to-graph", "es": "fotografía (la foto)", "tip_es": "Fuerte al inicio; 'to' se apaga en schwa: FOU-tə-græf." },
+      { "en": "photography", "mark": "pho-TO-gra-phy", "es": "fotografía (el arte)", "tip_es": "El acento salta a TO y la primera 'o' se vuelve schwa: fə-TA-grə-fi." },
+      { "en": "photographic", "mark": "pho-to-GRA-phic", "es": "fotográfico", "tip_es": "Con -ic el acento cae justo antes: GRA." },
+      { "en": "It's a comfortable hotel.", "mark": "it's a COMF-ter-bul ho-TEL", "es": "Es un hotel cómodo.", "tip_es": "'Comfortable' tiene tres sílabas; 'hotel' se acentúa al final, como en español." },
+      { "en": "I need more information.", "mark": "I NEED MORE in-for-MA-tion", "es": "Necesito más información.", "tip_es": "-tion suena 'shən' y el acento va justo antes: MEI." },
+      { "en": "She's a university student.", "mark": "she's a u-ni-VER-si-ty STU-dent", "es": "Es estudiante universitaria.", "tip_es": "-ity atrae el acento a la sílaba anterior: VER." },
+      { "en": "Vegetables are interesting.", "mark": "VEJ-tuh-bulz are IN-tres-ting", "es": "Las verduras son interesantes.", "tip_es": "Las dos pierden una sílaba: VEJ-tə-bəl, IN-trəs-ting." }
+    ]
+  },
+  {
+    "id": "pro-stress-noun-verb",
+    "kind": "stress",
+    "order": 2,
+    "title_es": "Sustantivo o verbo: REcord / reCORD",
+    "explain_es": "Unas cuantas docenas de palabras de dos sílabas cambian de categoría según el acento: como sustantivo se acentúan en la primera sílaba (a REcord) y como verbo en la segunda (to reCORD). Además la vocal de la sílaba débil se reduce: REcord es /ˈɹɛkɚd/ y reCORD es /ɹɪˈkɔɹd/. Se parece a 'término / termino / terminó' en español, pero sin tilde que lo marque.",
+    "drills": [
+      { "en": "I want to record a record.", "mark": "I WANT to re-CORD a RE-cord", "es": "Quiero grabar un disco.", "tip_es": "Verbo con acento al final (re-CORD); sustantivo al inicio (RE-kərd)." },
+      { "en": "She gave me a present.", "mark": "she GAVE me a PRE-sent", "es": "Me dio un regalo.", "tip_es": "Sustantivo: PRE-zənt." },
+      { "en": "I'll present the results tomorrow.", "mark": "I'll pre-SENT the re-SULTS to-MO-rrow", "es": "Presentaré los resultados mañana.", "tip_es": "Verbo: prɪ-ZENT, con el acento al final." },
+      { "en": "Prices increase every year.", "mark": "PRI-ces in-CREASE EV-ery YEAR", "es": "Los precios suben cada año.", "tip_es": "Verbo: in-CREASE." },
+      { "en": "There was an increase in sales.", "mark": "there was an IN-crease in SALES", "es": "Hubo un aumento en las ventas.", "tip_es": "Sustantivo: IN-crease." },
+      { "en": "Do you need a permit?", "mark": "do you NEED a PER-mit ↗", "es": "¿Necesitas un permiso?", "tip_es": "Sustantivo PER-mit; el verbo es per-MIT (permitir)." },
+      { "en": "I object to that.", "mark": "I ob-JECT to THAT", "es": "Me opongo a eso.", "tip_es": "Verbo əb-JECT; el sustantivo es OB-ject (objeto)." }
+    ]
+  },
+  {
+    "id": "pro-stress-compounds-numbers",
+    "kind": "stress",
+    "order": 3,
+    "title_es": "Compuestos y números: thirTEEN vs THIRty",
+    "explain_es": "En los sustantivos compuestos el acento va en la primera parte: AIRport, BEDroom, CREDIT card. Si son adjetivo + sustantivo sueltos, gana el sustantivo: a green HOUSE (casa verde) frente a a GREENhouse (invernadero). Con los números, -teen lleva acento y una n clara (thirTEEN); -ty es débil y su t suena como r suave (THIRty). Confundir 13 con 30 o 15 con 50 es un clásico al dar precios, edades y direcciones.",
+    "drills": [
+      { "en": "Thirteen or thirty?", "mark": "thir-TEEN ↗ or THIR-ty ↘", "es": "¿Trece o treinta?", "tip_es": "En -teen alarga la 'i' y la n; en -ty la t es suave, casi 'THƏR-ri'." },
+      { "en": "It costs fifteen dollars, not fifty.", "mark": "it COSTS fif-TEEN DOL-lars, not FIF-ty", "es": "Cuesta quince dólares, no cincuenta.", "tip_es": "Al contrastar, exagera TEEN y deja -ty corto y débil." },
+      { "en": "Where's the airport parking lot?", "mark": "WHERE's the AIR-port PAR-king lot ↘", "es": "¿Dónde está el estacionamiento del aeropuerto?", "tip_es": "Compuestos: fuerte la primera parte, AIR y PAR." },
+      { "en": "They live in a white house.", "mark": "they LIVE in a white HOUSE", "es": "Viven en una casa blanca.", "tip_es": "Adjetivo + sustantivo: gana HOUSE. 'The WHITE House' es la de Washington." },
+      { "en": "I lost my credit card.", "mark": "I LOST my CRE-dit card", "es": "Perdí mi tarjeta de crédito.", "tip_es": "No acentúes 'card': es CRE-dit card." },
+      { "en": "She works at a coffee shop.", "mark": "she WORKS at a COF-fee shop", "es": "Trabaja en una cafetería.", "tip_es": "COF-fee fuerte; 'shop' más bajo y corto." },
+      { "en": "My birthday is on the nineteenth.", "mark": "my BIRTH-day is on the nine-TEENTH", "es": "Mi cumpleaños es el diecinueve.", "tip_es": "BIRTH-day es compuesto; nine-TEENTH lleva el acento en teen." }
+    ]
+  },
+  {
+    "id": "pro-schwa-reduction",
+    "kind": "reduction",
+    "order": 4,
+    "title_es": "Vocales átonas que se vuelven schwa",
+    "explain_es": "En español 'banana' tiene tres 'a' iguales. En inglés solo la sílaba acentuada conserva su vocal completa; las demás se reducen a schwa /ə/, un sonido breve y neutro: bə-NA-nə. No importa con qué letra se escriba: la 'o' de today, la 'a' de about, la 'e' de problem y la 'u' de support suenan igual. Incluso desaparecen sílabas enteras: 'chocolate' es CHOK-lət y 'family' es FAM-li. Pronunciar todas las vocales completas es lo que más delata el acento hispano.",
+    "drills": [
+      { "en": "I'd like a banana.", "mark": "I'd LIKE a buh-NA-nuh", "es": "Quisiera un plátano.", "tip_es": "Solo la NA del centro tiene vocal plena (/æ/); las otras dos son schwa." },
+      { "en": "See you tomorrow.", "mark": "SEE you tuh-MA-rrow", "es": "Nos vemos mañana.", "tip_es": "'to-' es 'tə', no 'tu'." },
+      { "en": "No problem at all.", "mark": "NO PRA-blum a-TALL", "es": "Ningún problema.", "tip_es": "'-blem' es 'bləm'; enlaza 'at‿all' con t suave." },
+      { "en": "I love chocolate.", "mark": "I LOVE CHOK-lit", "es": "Me encanta el chocolate.", "tip_es": "Dos sílabas, no cuatro: CHOK-lət." },
+      { "en": "My family is from Canada.", "mark": "my FAM-lee is from CA-nuh-duh", "es": "Mi familia es de Canadá.", "tip_es": "En 'Canada' solo CA lleva vocal plena; las otras dos 'a' son schwa." },
+      { "en": "It's a different camera.", "mark": "it's a DIF-rent CAM-ruh", "es": "Es una cámara distinta.", "tip_es": "Las dos palabras pierden la sílaba de en medio." },
+      { "en": "The police support us.", "mark": "the puh-LEES suh-PORT us", "es": "La policía nos apoya.", "tip_es": "La primera sílaba casi desaparece: p'LEES, s'PORT." }
+    ]
+  },
+  {
+    "id": "pro-sentence-stress",
+    "kind": "stress",
+    "order": 5,
+    "title_es": "Acento de frase: palabras de contenido vs de función",
+    "explain_es": "En una frase inglesa no todas las palabras pesan igual. Se acentúan las de contenido: sustantivos, verbos principales, adjetivos, adverbios, negaciones y palabras interrogativas. Las de función (artículos, preposiciones, pronombres, auxiliares, conjunciones) se dicen rápido, bajito y con vocal reducida. Al nativo le bastan las fuertes para entender; si acentúas todo por igual, como en español, suena plano y cuesta saber qué es lo importante.",
+    "drills": [
+      { "en": "I went to the store to buy some milk.", "mark": "I WENT to the STORE to BUY some MILK", "es": "Fui a la tienda a comprar leche.", "tip_es": "Cuatro golpes; 'to the' y 'some' pasan volando." },
+      { "en": "She's waiting for the bus.", "mark": "she's WAI-ting for the BUS", "es": "Está esperando el camión.", "tip_es": "'for the' suena 'fər-thə', sin peso." },
+      { "en": "What do you want to do?", "mark": "WHAT d'you WANT to DO ↘", "es": "¿Qué quieres hacer?", "tip_es": "'do you' se funde en 'dyə'." },
+      { "en": "He doesn't like his job.", "mark": "he DOE-sn't LIKE his JOB", "es": "No le gusta su trabajo.", "tip_es": "Las negaciones siempre llevan acento." },
+      { "en": "Can you give me a hand?", "mark": "c'n you GIVE me a HAND ↗", "es": "¿Me echas una mano?", "tip_es": "'Can' débil: 'kən'. Los golpes son GIVE y HAND." },
+      { "en": "I've been working at home all week.", "mark": "I've been WOR-king at HOME ALL WEEK", "es": "He estado trabajando en casa toda la semana.", "tip_es": "'I've been' es casi 'aiv-bin', sin peso." },
+      { "en": "The keys are on the table in the kitchen.", "mark": "the KEYS are on the TA-ble in the KIT-chen", "es": "Las llaves están en la mesa de la cocina.", "tip_es": "Tres golpes regulares: KEYS, TA, KIT." }
+    ]
+  },
+  {
+    "id": "pro-rhythm-stress-timed",
+    "kind": "rhythm",
+    "order": 6,
+    "title_es": "Ritmo acentual: el inglés va a golpes",
+    "explain_es": "El español es de ritmo silábico: cada sílaba dura más o menos lo mismo, como una ametralladora (ta-ta-ta-ta). El inglés es de ritmo acentual: lo que se reparte de forma regular son los golpes fuertes, y las sílabas débiles se comprimen entre ellos. Por eso 'CATS CHASE MICE' y 'the CATS have been CHAsing the MICE' tardan casi lo mismo. Para sonar natural no hables más rápido: alarga las sílabas fuertes y aplasta las débiles.",
+    "drills": [
+      { "en": "Cats chase mice.", "mark": "CATS CHASE MICE", "es": "Los gatos persiguen ratones.", "tip_es": "Da tres palmadas, una por palabra." },
+      { "en": "The cats chase the mice.", "mark": "the CATS CHASE the MICE", "es": "Los gatos persiguen a los ratones.", "tip_es": "Mismas tres palmadas; 'the' se cuela sin ocupar tiempo." },
+      { "en": "The cats have chased the mice.", "mark": "the CATS have CHASED the MICE", "es": "Los gatos han perseguido a los ratones.", "tip_es": "'have' se reduce a 'əv' y se pega: CATS-əv." },
+      { "en": "The cats have been chasing the mice.", "mark": "the CATS have been CHA-sing the MICE", "es": "Los gatos han estado persiguiendo a los ratones.", "tip_es": "Más sílabas débiles, mismos tres golpes y casi el mismo tiempo." },
+      { "en": "I'd like a cup of coffee and a piece of cake.", "mark": "I'd LIKE a CUP of COF-fee and a PIECE of CAKE", "es": "Quisiera una taza de café y una rebanada de pastel.", "tip_es": "'a', 'of' y 'and a' son relleno rápido entre golpes." },
+      { "en": "What time does the meeting start?", "mark": "WHAT TIME does the MEE-ting START ↘", "es": "¿A qué hora empieza la junta?", "tip_es": "Cuatro golpes; 'does the' suena 'dəz-thə'." },
+      { "en": "Thanks for coming to the party.", "mark": "THANKS for CO-ming to the PAR-ty", "es": "Gracias por venir a la fiesta.", "tip_es": "Palmadas en THANKS, CO y PAR; lo demás va comprimido." }
+    ]
+  },
+  {
+    "id": "pro-weak-forms",
+    "kind": "reduction",
+    "order": 7,
+    "title_es": "Formas débiles: to, for, can, and, of, your",
+    "explain_es": "Las palabras de función tienen dos pronunciaciones: la fuerte, que viene en el diccionario, y la débil, que es la que se usa casi siempre. En forma débil la vocal se vuelve schwa: to → /tə/, for → /fɚ/, can → /kən/, and → /ən/ o /n/, of → /əv/ o /ə/, your → /jɚ/, at → /ət/, from → /fɹəm/. La forma fuerte solo sale al final de frase o para enfatizar. Si no las conoces, no las reconocerás al escuchar aunque sepas las palabras.",
+    "drills": [
+      { "en": "I need to go to work.", "mark": "I NEED tuh GO tuh WORK", "es": "Necesito ir a trabajar.", "tip_es": "'to' = 'tə', nunca un 'tu' largo." },
+      { "en": "This is for you.", "mark": "THIS is fer YOU", "es": "Esto es para ti.", "tip_es": "'for' = 'fər', una f seguida de r inglesa." },
+      { "en": "I can help you.", "mark": "I kun HELP you", "es": "Puedo ayudarte.", "tip_es": "'can' = 'kən' o 'kn'; el golpe va en HELP." },
+      { "en": "Salt and pepper.", "mark": "SALT 'n' PE-pper", "es": "Sal y pimienta.", "tip_es": "'and' se queda en una 'n': SOL-tn-PE-pər." },
+      { "en": "A cup of coffee.", "mark": "a CUP uh COF-fee", "es": "Una taza de café.", "tip_es": "'of' = 'ə' ante consonante: suena 'cuppa coffee'." },
+      { "en": "What's your name?", "mark": "WHAT's yer NAME ↘", "es": "¿Cómo te llamas?", "tip_es": "'your' = 'yər'; 'what's‿your' suena 'uátsyər'." },
+      { "en": "I'm from Mexico, and I'm at home.", "mark": "I'm frum MEK-si-co, 'n' I'm ut HOME", "es": "Soy de México y estoy en casa.", "tip_es": "'from' = 'frəm', 'at' = 'ət'." },
+      { "en": "Who are you waiting for?", "mark": "WHO are you WAI-ting FOR ↘", "es": "¿A quién esperas?", "tip_es": "Al final de frase vuelve la forma fuerte: 'for' completo." }
+    ]
+  },
+  {
+    "id": "pro-can-cant",
+    "kind": "reduction",
+    "order": 8,
+    "title_es": "Can vs can't: la diferencia está en la vocal",
+    "explain_es": "En inglés norteamericano la t final de 'can't' casi no se oye, así que no sirve para distinguir. La diferencia real es de ritmo y vocal: 'can' afirmativo es débil y rápido, /kən/, y el golpe cae en el verbo (I kən GO). 'Can't' siempre lleva acento, vocal plena /æ/ y un corte seco al final (I CAN'T go). Si dices 'can' con una 'a' fuerte y clara, un nativo entenderá 'can't'. En respuestas cortas 'can' sí es fuerte: Yes, I CAN.",
+    "drills": [
+      { "en": "I can go.", "mark": "I kun GO", "es": "Puedo ir.", "tip_es": "'can' sin peso: 'ai-kn-GOU'." },
+      { "en": "I can't go.", "mark": "I CAN'T go", "es": "No puedo ir.", "tip_es": "Vocal /æ/ larga y un corte seco en lugar de la t." },
+      { "en": "She can swim, but she can't dive.", "mark": "she kun SWIM, but she CAN'T DIVE", "es": "Sabe nadar, pero no sabe echarse clavados.", "tip_es": "Contrasta 'kən' flojo con 'KÆN(T)' fuerte." },
+      { "en": "Can you hear me?", "mark": "kun you HEAR me ↗", "es": "¿Me oyes?", "tip_es": "En preguntas también es débil: 'kənyə'." },
+      { "en": "Yes, I can.", "mark": "YES, I CAN ↘", "es": "Sí, puedo.", "tip_es": "Al final de frase 'can' es fuerte, con /æ/ completa." },
+      { "en": "I can't believe it.", "mark": "I CAN'T buh-LIEVE it", "es": "No lo puedo creer.", "tip_es": "La t se traga: 'KÆN-bə-LIV'." },
+      { "en": "You can call me, but I can't talk long.", "mark": "you kun CALL me, but I CAN'T TALK LONG", "es": "Puedes llamarme, pero no puedo hablar mucho.", "tip_es": "Si dudas al escuchar: ¿oíste una 'a' fuerte? Entonces fue can't." }
+    ]
+  },
+  {
+    "id": "pro-contractions",
+    "kind": "reduction",
+    "order": 9,
+    "title_es": "Contracciones: lo normal al hablar",
+    "explain_es": "En el inglés hablado las contracciones no son informales ni opcionales: son lo normal. Decir 'I am', 'do not' o 'I will' completos suena enfático, molesto o robótico. Cuida tres cosas: I'll, you'll y we'll terminan en l oscura ('aol', 'yul'); I'd y you'd llevan una d que apenas se oye pero cambia el sentido; y hay homófonos como you're/your, they're/there, it's/its. Las negativas (don't, won't, isn't) sí llevan acento.",
+    "drills": [
+      { "en": "I'm sure it's fine.", "mark": "I'm SURE it's FINE", "es": "Seguro que está bien.", "tip_es": "'I'm' es una sola sílaba: 'aim'." },
+      { "en": "I'll call you later.", "mark": "aol CALL you LA-ter", "es": "Te llamo luego.", "tip_es": "'I'll' suena casi 'aol' o 'al', con l oscura." },
+      { "en": "I'd like some water.", "mark": "I'd LIKE some WA-ter", "es": "Quisiera agua.", "tip_es": "'I'd like' (quisiera) no es 'I like' (me gusta): marca la d." },
+      { "en": "They're over there.", "mark": "ther O-ver THERE", "es": "Están por allá.", "tip_es": "'They're' y 'there' suenan igual: 'ðer'." },
+      { "en": "She's been here before.", "mark": "sheez bin HERE be-FORE", "es": "Ya ha estado aquí.", "tip_es": "Aquí 's = has. 'been' suena 'bin'." },
+      { "en": "I won't do it.", "mark": "I WON'T DO it", "es": "No lo voy a hacer.", "tip_es": "'won't' = 'uount'; no lo confundas con 'want' /wɑnt/." },
+      { "en": "We've got time, haven't we?", "mark": "weev GOT TIME ↘, HA-ven't we ↘", "es": "Tenemos tiempo, ¿no?", "tip_es": "'We've' = 'uiv'; la negativa lleva acento: HA-ven't." },
+      { "en": "It doesn't matter.", "mark": "it DUH-zn MA-tter", "es": "No importa.", "tip_es": "'doesn't' = 'DƏ-zənt'; la t final casi no suena." }
+    ]
+  },
+  {
+    "id": "pro-intonation-falling",
+    "kind": "intonation",
+    "order": 10,
+    "title_es": "Entonación descendente: afirmaciones y preguntas wh-",
+    "explain_es": "La voz baja al final (↘) en afirmaciones, órdenes y preguntas con palabra interrogativa (what, where, when, why, how, who). La caída ocurre en la última palabra de contenido y es más marcada que en español: sube en la sílaba fuerte y luego cae hasta el fondo. Ojo: una pregunta wh- que sube suena a que no oíste bien y pides que te repitan. Una caída clara transmite seguridad; quedarse a media altura suena a duda o a frase sin terminar.",
+    "drills": [
+      { "en": "I live in Mexico City.", "mark": "I LIVE in MEK-si-co CI-ty ↘", "es": "Vivo en la Ciudad de México.", "tip_es": "Sube en CI y cae en '-ty'." },
+      { "en": "Where do you work?", "mark": "WHERE d'you WORK ↘", "es": "¿Dónde trabajas?", "tip_es": "Pregunta wh-: termina abajo, no arriba." },
+      { "en": "What time is it?", "mark": "WHAT TIME is it ↘", "es": "¿Qué hora es?", "tip_es": "El pico está en TIME; 'is it' cae." },
+      { "en": "How much does it cost?", "mark": "HOW MUCH does it COST ↘", "es": "¿Cuánto cuesta?", "tip_es": "La voz cae sobre COST." },
+      { "en": "Please close the door.", "mark": "PLEASE CLOSE the DOOR ↘", "es": "Cierra la puerta, por favor.", "tip_es": "Las órdenes y peticiones directas bajan." },
+      { "en": "Why didn't you call me?", "mark": "WHY DI-dn't you CALL me ↘", "es": "¿Por qué no me llamaste?", "tip_es": "Sube en CALL y baja en 'me'." },
+      { "en": "You work where?", "mark": "you WORK WHERE ↗", "es": "¿Que trabajas dónde?", "tip_es": "Excepción: si la wh- sube, significa 'repítemelo, no te oí'." }
+    ]
+  },
+  {
+    "id": "pro-intonation-rising",
+    "kind": "intonation",
+    "order": 11,
+    "title_es": "Entonación ascendente: sí/no, listas y uptalk",
+    "explain_es": "La voz sube al final (↗) en preguntas de sí o no: 'Are you READY ↗'. En las listas cada elemento sube y el último baja: 'eggs ↗, milk ↗ and bread ↘'. En las tag questions, subir expresa duda real y bajar solo busca confirmación. El 'uptalk' es subir al final de afirmaciones; es muy común entre jóvenes de EE. UU. y Canadá para comprobar que el otro sigue la idea, pero en exceso suena inseguro. Subir a media frase indica que aún no terminas.",
+    "drills": [
+      { "en": "Are you ready?", "mark": "are you REA-dy ↗", "es": "¿Estás listo?", "tip_es": "Sube desde REA hasta el final." },
+      { "en": "Do you speak Spanish?", "mark": "d'you SPEAK SPA-nish ↗", "es": "¿Hablas español?", "tip_es": "Sí/no: sube en la última palabra de contenido." },
+      { "en": "I bought eggs, milk, and bread.", "mark": "I BOUGHT EGGS ↗, MILK ↗, and BREAD ↘", "es": "Compré huevos, leche y pan.", "tip_es": "Sube en cada elemento y baja en el último para cerrar." },
+      { "en": "You're from Canada, aren't you?", "mark": "you're from CA-na-da ↘, AREN'T you ↗", "es": "Eres de Canadá, ¿verdad?", "tip_es": "Tag que sube = no estoy seguro. Si baja = solo confirmo." },
+      { "en": "Coffee or tea?", "mark": "COF-fee ↗ or TEA ↘", "es": "¿Café o té?", "tip_es": "Opción cerrada: sube en la primera y baja en la última." },
+      { "en": "If you have time, call me.", "mark": "if you HAVE TIME ↗, CALL me ↘", "es": "Si tienes tiempo, llámame.", "tip_es": "La subida a media frase avisa que falta algo." },
+      { "en": "So I went to the store, and it was closed.", "mark": "so I WENT to the STORE ↗, and it was CLOSED ↗", "es": "Entonces fui a la tienda y estaba cerrada.", "tip_es": "Uptalk: afirmaciones que suben. Reconócelo; no es una pregunta." },
+      { "en": "Really?", "mark": "REA-lly ↗", "es": "¿En serio?", "tip_es": "Una subida amplia muestra interés; plana suena a indiferencia." }
+    ]
+  },
+  {
+    "id": "pro-linking-cv",
+    "kind": "linking",
+    "order": 12,
+    "title_es": "Enlazar consonante con vocal",
+    "explain_es": "El inglés hablado no separa palabras: cuando una termina en consonante y la siguiente empieza con vocal, la consonante salta y se pega a esa vocal, como si iniciara la sílaba siguiente. 'Pick it up' suena 'pi-ki-tap'. En español hacemos lo mismo ('los‿amigos' = 'lo-sa-mi-gos'), así que ya tienes el reflejo; solo falta aplicarlo. Además te ayuda a no comerte las consonantes finales, un error típico del hispanohablante.",
+    "drills": [
+      { "en": "Pick it up.", "mark": "pi-cki-tup", "es": "Recógelo.", "tip_es": "La k salta a la siguiente vocal: no hagas pausa entre palabras." },
+      { "en": "Turn it off.", "mark": "tur-ni-toff", "es": "Apágalo.", "tip_es": "La n y la t se pegan a la vocal siguiente; esa t suena como r suave." },
+      { "en": "Come in and sit down.", "mark": "co-min‿an SIT DOWN", "es": "Pasa y siéntate.", "tip_es": "'come‿in' = 'kə-MIN'; 'and' queda en 'ən'." },
+      { "en": "I'm an engineer.", "mark": "I'm‿an‿en-gi-NEER", "es": "Soy ingeniero.", "tip_es": "Tres palabras, un solo bloque: 'ai-mə-nen-yi-NIR'." },
+      { "en": "It's an old apartment.", "mark": "it's‿an‿old‿a-PART-ment", "es": "Es un departamento viejo.", "tip_es": "'old‿apartment': la d inicia la sílaba siguiente, 'oul-də-PART'." },
+      { "en": "Take it easy.", "mark": "tay-ki-TEE-zy", "es": "Tómalo con calma.", "tip_es": "La k y la t saltan: 'tei-ki-RI-zi'." },
+      { "en": "Can I have a glass of water?", "mark": "can‿I HAVE‿a GLASS‿of WA-ter ↗", "es": "¿Me das un vaso de agua?", "tip_es": "'have‿a' = 'hæ-və'; 'glass‿of' = 'glæ-səv'." },
+      { "en": "Not at all.", "mark": "no-ta-TALL", "es": "Para nada.", "tip_es": "Las dos t se enlazan y suenan suaves: 'na-rə-ROL'." }
+    ]
+  },
+  {
+    "id": "pro-linking-vv",
+    "kind": "linking",
+    "order": 13,
+    "title_es": "Enlazar vocal con vocal: /j/ y /w/ de enlace",
+    "explain_es": "Cuando una palabra termina en vocal y la siguiente empieza con vocal, el inglés no hace pausa ni corte: desliza una mini 'y' /j/ o una mini 'w' entre ambas. Si la primera termina en sonido de 'i' (/i/, /eɪ/, /aɪ/, /ɔɪ/), aparece /j/: 'I am' = 'ai-yam'. Si termina en sonido de 'u' (/u/, /oʊ/, /aʊ/), aparece /w/: 'go on' = 'gou-won'. No las exageres: salen solas si no cortas el aire. Es como decir 'y‿ahora' sin pausa.",
+    "drills": [
+      { "en": "I am here.", "mark": "I‿(y)am HERE", "es": "Aquí estoy.", "tip_es": "Entre 'I' y 'am' se cuela una y: 'ai-yəm'." },
+      { "en": "Go on.", "mark": "go‿(w)ON", "es": "Continúa.", "tip_es": "'gou-WON', sin corte entre las dos vocales." },
+      { "en": "She asked me.", "mark": "she‿(y)ASKED me", "es": "Me preguntó.", "tip_es": "'shi-yæskt': una y pequeña une las vocales." },
+      { "en": "Do it again.", "mark": "do‿(w)it‿a-GAIN", "es": "Hazlo otra vez.", "tip_es": "'du-wi-rə-GEN': w de enlace y luego t suave." },
+      { "en": "The end.", "mark": "thee‿(y)END", "es": "Fin.", "tip_es": "Ante vocal, 'the' se dice 'ði': 'ði-yend'." },
+      { "en": "How are you?", "mark": "how‿(w)ARE you ↘", "es": "¿Cómo estás?", "tip_es": "'hau-war-yu' en un solo bloque." },
+      { "en": "Who is it?", "mark": "who‿(w)I-zit ↘", "es": "¿Quién es?", "tip_es": "'hu-wi-zit': w de enlace y luego consonante con vocal." },
+      { "en": "Say it again.", "mark": "say‿(y)it‿a-GAIN", "es": "Dilo otra vez.", "tip_es": "'sei-yi-rə-GEN', todo pegado." }
+    ]
+  },
+  {
+    "id": "pro-elision-td",
+    "kind": "reduction",
+    "order": 14,
+    "title_es": "La t y la d que desaparecen",
+    "explain_es": "Cuando una t o d queda atrapada entre dos consonantes, normalmente se elimina: 'next day' suena 'neks-day', 'last night' 'las-night' y 'just now' 'jus-now'. Pasa igual con -nd y -st antes de consonante ('and then' = 'an-then', 'best friend' = 'bes-friend') y tras n en palabras frecuentes: 'twenty' ≈ 'tweny', 'internet' ≈ 'innernet'. No es descuido: es la pronunciación normal. Si después viene vocal, la t o d no se pierde: se enlaza con ella.",
+    "drills": [
+      { "en": "The next day it rained.", "mark": "the NEKS DAY it RAINED", "es": "Al día siguiente llovió.", "tip_es": "La t de 'next' desaparece entre s y d." },
+      { "en": "I saw him last night.", "mark": "I SAW 'im LAS NIGHT", "es": "Lo vi anoche.", "tip_es": "'last night' = 'læs-nait'; además 'him' pierde la h." },
+      { "en": "She's my best friend.", "mark": "she's my BES FRIEND", "es": "Es mi mejor amiga.", "tip_es": "'best friend' = 'bes-frend'." },
+      { "en": "I just need a minute.", "mark": "I JUS NEED a MI-nute", "es": "Solo necesito un minuto.", "tip_es": "'just' pierde la t ante consonante: 'jəs-nid'." },
+      { "en": "I don't know.", "mark": "I DON-know / I dunno", "es": "No sé.", "tip_es": "La t se va: 'ai-dou-nou'; muy rápido, 'dunno'." },
+      { "en": "It costs twenty dollars.", "mark": "it COSTS TWE-ny DOL-lars", "es": "Cuesta veinte dólares.", "tip_es": "'twenty' = 'tweni': tras n la t suele perderse." },
+      { "en": "Check it on the internet.", "mark": "CHE-ckit on the I-nner-net", "es": "Revísalo en internet.", "tip_es": "'innernet', igual que 'cenner' (center) y 'winner' (winter)." },
+      { "en": "Last August was hot.", "mark": "LAS-TAU-gust was HOT", "es": "El agosto pasado hizo calor.", "tip_es": "Ante vocal la t NO se pierde: se enlaza, 'læs-tɔ-gəst'." }
+    ]
+  },
+  {
+    "id": "pro-assimilation",
+    "kind": "reduction",
+    "order": 15,
+    "title_es": "Sonidos que se funden: didja, wanna, gotta, gonna",
+    "explain_es": "Al hablar rápido, los sonidos vecinos se mezclan. T + you da 'ch' (don't you → 'doncha', what are you → 'whatcha') y d + you da /dʒ/ (did you → 'didja', would you → 'wouldja'). Además hay reducciones fijas: want to → wanna, going to + verbo → gonna, got to → gotta, have to → hafta, let me → lemme, give me → gimme. Se usan en todos los registros hablados, también en el trabajo. Al escribir usa la forma completa; al hablar, lo mínimo es reconocerlas.",
+    "drills": [
+      { "en": "Did you eat yet?", "mark": "didja EAT yet ↗", "es": "¿Ya comiste?", "tip_es": "d + y = /dʒ/: 'dɪdʒə'. Muy rápido se oye 'jeet yet?'." },
+      { "en": "What do you want to do?", "mark": "whaddaya WANNA DO ↘", "es": "¿Qué quieres hacer?", "tip_es": "'want to' = 'wanna' /ˈwɑnə/, sin t." },
+      { "en": "I'm going to call her.", "mark": "I'm gonna CALL 'er", "es": "Le voy a llamar.", "tip_es": "'gonna' solo antes de verbo; nunca 'I'm gonna the store'." },
+      { "en": "I've got to go.", "mark": "I gotta GO", "es": "Me tengo que ir.", "tip_es": "'gotta' = 'gárə', con t suave." },
+      { "en": "Don't you like it?", "mark": "DON-cha LIKE it ↗", "es": "¿No te gusta?", "tip_es": "t + y = 'ch': 'douncha'." },
+      { "en": "Would you mind helping me?", "mark": "wouldja MIND HEL-ping me ↗", "es": "¿Te importaría ayudarme?", "tip_es": "'would you' = 'wʊdʒə'. Suena amable, no descuidado." },
+      { "en": "Let me see. Give me a second.", "mark": "lemme SEE ↘ gimme a SE-cond ↘", "es": "Déjame ver. Dame un segundo.", "tip_es": "'lemme', 'gimme': la t y la v desaparecen." },
+      { "en": "I have to work tomorrow.", "mark": "I hafta WORK tuh-MA-rrow", "es": "Tengo que trabajar mañana.", "tip_es": "'have to' = 'hæftə': la v se vuelve f por la t que sigue." }
+    ]
+  },
+  {
+    "id": "pro-flap-linking",
+    "kind": "linking",
+    "order": 16,
+    "title_es": "La t suave entre palabras: get it, a lot of",
+    "explain_es": "El flap, esa t que suena como la r de 'pero', también aparece entre palabras: cuando una termina en t o d y la siguiente empieza con vocal, la t se vuelve un toque rápido y se enlaza. 'Get it' suena 'gue-rit', 'a lot of' suena 'a-la-rəv' y 'what are you' suena 'wa-rə-yu'. Para un mexicano es una ventaja enorme: ya tienes ese sonido. Si dices una t dura y separada suena cortado y, sobre todo, no reconocerás estas frases al oírlas.",
+    "drills": [
+      { "en": "Get it?", "mark": "ge-rit ↗", "es": "¿Entiendes?", "tip_es": "t entre vocales = r de 'pero': 'gue-rit'." },
+      { "en": "I got a lot of work.", "mark": "I GA-ra LA-ra WORK", "es": "Tengo mucho trabajo.", "tip_es": "'got a' = 'gá-rə' y 'lot of' = 'lá-rə'." },
+      { "en": "What are you doing?", "mark": "wa-ra-you DO-ing ↘", "es": "¿Qué haces?", "tip_es": "'what are' = 'wá-rər'; no digas 'uat ar' separado." },
+      { "en": "Put it on.", "mark": "pu-ri-RON", "es": "Póntelo.", "tip_es": "Dos toques seguidos: 'pu-ri-ron'." },
+      { "en": "Wait a minute.", "mark": "way-ra MI-nit", "es": "Espera un minuto.", "tip_es": "'wait a' = 'uei-rə'." },
+      { "en": "I thought about it.", "mark": "I THAW-ra-BOU-rit", "es": "Lo pensé.", "tip_es": "Dos t suaves en 'thought‿about‿it'; la última t se traga." },
+      { "en": "Check it out.", "mark": "che-cki-ROUT", "es": "Échale un ojo.", "tip_es": "'it out' = 'i-raut'; la t final de 'out' no explota." },
+      { "en": "I need it right away.", "mark": "I NEE-dit RIGH-ra-WAY", "es": "Lo necesito ahora mismo.", "tip_es": "'right away' = 'rai-rə-uei'; la d de 'need it' también es un toque." }
+    ]
+  },
+  {
+    "id": "pro-contrastive-stress",
+    "kind": "stress",
+    "order": 17,
+    "title_es": "Énfasis contrastivo",
+    "explain_es": "En español cambiamos el orden de las palabras para enfatizar ('Eso lo hice YO'). En inglés el orden casi no se mueve: se cambia el acento. Cualquier palabra, incluso una de función, puede recibir el golpe principal si es la información nueva o la que corrige algo, y el resto de la frase baja de tono. 'I didn't say he stole it' tiene varios significados según la palabra acentuada. Para marcarla: más larga, más aguda y más fuerte; después, todo plano.",
+    "drills": [
+      { "en": "I ordered tea, not coffee.", "mark": "I ordered TEA, not COF-fee ↘", "es": "Pedí té, no café.", "tip_es": "Sube y alarga TEA; lo anterior va rápido." },
+      { "en": "No, I said Tuesday.", "mark": "no, I said TUES-day ↘", "es": "No, dije martes.", "tip_es": "Corrección: todo el peso en TUES." },
+      { "en": "She lives in New York, not New Jersey.", "mark": "she lives in new YORK, not new JER-sey", "es": "Vive en Nueva York, no en Nueva Jersey.", "tip_es": "Contrasta solo lo que cambia: YORK frente a JER." },
+      { "en": "I didn't take your keys.", "mark": "I didn't take YOUR keys", "es": "No tomé TUS llaves (tomé otras).", "tip_es": "Hasta un posesivo puede llevar el golpe principal." },
+      { "en": "I didn't take your keys.", "mark": "I didn't TAKE your keys", "es": "No TOMÉ tus llaves (solo las moví).", "tip_es": "Misma frase, otro significado al mover el acento." },
+      { "en": "It's on the table, not under it.", "mark": "it's ON the table, not UN-der it", "es": "Está sobre la mesa, no debajo.", "tip_es": "Las preposiciones se acentúan cuando son el contraste." },
+      { "en": "I can do it; I just don't want to.", "mark": "I CAN do it; I just don't WANT to", "es": "Sí puedo hacerlo; es que no quiero.", "tip_es": "Aquí 'can' es fuerte (/kæn/) porque enfatiza." },
+      { "en": "Do you want this one or that one?", "mark": "do you want THIS one ↗ or THAT one ↘", "es": "¿Quieres este o aquel?", "tip_es": "'one' queda débil; el contraste está en THIS y THAT." }
+    ]
+  },
+  {
+    "id": "pro-thought-groups",
+    "kind": "rhythm",
+    "order": 18,
+    "title_es": "Grupos de sentido y pausas",
+    "explain_es": "Los nativos no hablan palabra por palabra ni de corrido sin fin: agrupan las palabras en bloques de sentido de unas 2 a 7 palabras, cada uno con un solo golpe principal y una mini pausa al final. Dentro del bloque todo va enlazado; la pausa cae entre bloques, nunca entre un artículo y su sustantivo ni entre un verbo y su preposición. Hablar en bloques te da tiempo para pensar, mejora el ritmo y hace que te entiendan aunque tu pronunciación no sea perfecta.",
+    "drills": [
+      { "en": "When I got home, I made dinner.", "mark": "when I got HOME ↗ / I made DIN-ner ↘", "es": "Cuando llegué a casa, hice la cena.", "tip_es": "Dos bloques, un golpe principal en cada uno." },
+      { "en": "The woman who lives next door is a doctor.", "mark": "the WO-man who lives next DOOR ↗ / is a DOC-tor ↘", "es": "La mujer que vive al lado es doctora.", "tip_es": "Pausa después del sujeto largo, no en medio." },
+      { "en": "If you ask me, it's too expensive.", "mark": "if you ASK me ↗ / it's TOO ex-PEN-sive ↘", "es": "Para mí, es demasiado caro.", "tip_es": "El comentario inicial sube y se separa con una mini pausa." },
+      { "en": "I'd like a coffee, please, with milk and no sugar.", "mark": "I'd like a COF-fee, please ↗ / with MILK ↗ / and NO SU-gar ↘", "es": "Un café, por favor, con leche y sin azúcar.", "tip_es": "Tres bloques cortos se entienden mejor que una frase corrida." },
+      { "en": "First, turn left; then go straight for two blocks.", "mark": "FIRST ↗ / turn LEFT ↘ / then go STRAIGHT ↗ / for TWO BLOCKS ↘", "es": "Primero da vuelta a la izquierda; luego sigue derecho dos cuadras.", "tip_es": "En instrucciones, cada paso es un bloque." },
+      { "en": "Honestly, I don't think that's a good idea.", "mark": "HO-nest-ly ↗ / I DON'T think that's a GOOD i-DE-a ↘", "es": "La verdad, no creo que sea buena idea.", "tip_es": "No pauses entre 'a' y 'good idea': artículo y sustantivo van juntos." },
+      { "en": "My sister, who lives in Toronto, is visiting next week.", "mark": "my SIS-ter ↗ / who lives in to-RON-to ↗ / is VI-si-ting NEXT WEEK ↘", "es": "Mi hermana, que vive en Toronto, viene de visita la próxima semana.", "tip_es": "El inciso va en tono más bajo; en Canadá 'Toronto' suena 'tə-RA-no'." }
+    ]
+  }
+]

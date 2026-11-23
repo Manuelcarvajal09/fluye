@@ -1,0 +1,1077 @@
+{
+  "id": "invierno",
+  "title_es": "Invierno canadiense",
+  "icon": "snowflake",
+  "scene": null,
+  "areas": [
+    "transporte",
+    "canada"
+  ],
+  "season": "invierno",
+  "objective_es": "Entender el clima, vestirte por capas, manejar con nieve y hielo y pedir ayuda cuando el invierno complica el día.",
+  "tracks": [
+    {
+      "id": "invierno-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 10,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Entender el frío del invierno canadiense, vestirte por capas y avisar o pedir ayuda con la nieve y el hielo.",
+      "items": [
+        "phr-im-freezing",
+        "phr-its-minus-twenty-today",
+        "voc-layers",
+        "voc-toque",
+        "voc-snow-boots",
+        "voc-ice-scraper",
+        "col-warm-up-the-car",
+        "col-shovel-the-driveway",
+        "phr-watch-your-step",
+        "voc-mittens",
+        "phr-the-roads-look-icy-today"
+      ],
+      "lesson": {
+        "id": "ls-invierno-a",
+        "level": "A2",
+        "topic": "canada",
+        "order": 904,
+        "title": "Minus twenty this morning",
+        "title_es": "Veinte bajo cero esta mañana",
+        "intro_es": "Mei vive su primer invierno en Edmonton. Su roommate Dave le explica cómo salir de casa sin congelarse.",
+        "lines": [
+          {
+            "who": "Mei",
+            "en": "Brrr! [I'm freezing]. What is the temperature?",
+            "es": "¡Brrr! Me estoy congelando. ¿Cuál es la temperatura?",
+            "item": "phr-im-freezing"
+          },
+          {
+            "who": "Dave",
+            "en": "[It's minus twenty today]. With the wind, it feels like minus thirty.",
+            "es": "Hoy hace veinte bajo cero. Con el viento, se siente como treinta bajo cero.",
+            "item": "phr-its-minus-twenty-today"
+          },
+          {
+            "who": "Mei",
+            "en": "Minus thirty? That is crazy! What should I wear?",
+            "es": "¿Treinta bajo cero? ¡Es una locura! ¿Qué me pongo?"
+          },
+          {
+            "who": "Dave",
+            "en": "Wear [layers]: a sweater, then a warm coat.",
+            "es": "Ponte capas: un suéter y luego un abrigo grueso.",
+            "item": "voc-layers"
+          },
+          {
+            "who": "Dave",
+            "en": "And put on your [toque]. And mittens, please.",
+            "es": "Y ponte tu gorro. Y guantes de manopla, por favor.",
+            "item": "voc-toque"
+          },
+          {
+            "who": "Mei",
+            "en": "I have my [snow boots] too.",
+            "es": "También tengo mis botas de nieve.",
+            "item": "voc-snow-boots"
+          },
+          {
+            "who": "Dave",
+            "en": "Good. Your car is under the snow. Take my [ice scraper].",
+            "es": "Bien. Tu carro está bajo la nieve. Toma mi raspador de hielo.",
+            "item": "voc-ice-scraper"
+          },
+          {
+            "who": "Mei",
+            "en": "Thanks! Should I [warm up the car] first?",
+            "es": "¡Gracias! ¿Primero debo calentar el carro?",
+            "item": "col-warm-up-the-car"
+          },
+          {
+            "who": "Dave",
+            "en": "Yes, for ten minutes. I will [shovel the driveway] while you wait.",
+            "es": "Sí, diez minutos. Yo palearé la entrada mientras esperas.",
+            "item": "col-shovel-the-driveway"
+          },
+          {
+            "who": "Mei",
+            "en": "You are so kind. I love Canada, but the cold is hard.",
+            "es": "Eres muy amable. Me encanta Canadá, pero el frío es duro."
+          },
+          {
+            "who": "Dave",
+            "en": "Oh, [watch your step]! The sidewalk is icy.",
+            "es": "¡Ay, cuidado al caminar! La banqueta está helada.",
+            "item": "phr-watch-your-step"
+          },
+          {
+            "who": "Mei",
+            "en": "Whoa! I almost fell.",
+            "es": "¡Uy! Casi me caigo."
+          },
+          {
+            "who": "Dave",
+            "en": "Take small steps, like a penguin.",
+            "es": "Da pasos pequeños, como pingüino."
+          },
+          {
+            "who": "Mei",
+            "en": "Okay, penguin steps. Thank you, Dave!",
+            "es": "Está bien, pasos de pingüino. ¡Gracias, Dave!"
+          }
+        ],
+        "items": [
+          "phr-im-freezing",
+          "phr-its-minus-twenty-today",
+          "voc-layers",
+          "voc-toque",
+          "voc-snow-boots",
+          "voc-ice-scraper",
+          "col-warm-up-the-car",
+          "col-shovel-the-driveway",
+          "phr-watch-your-step"
+        ],
+        "questions": [
+          {
+            "q": "What is the temperature today?",
+            "options": [
+              "Minus ten",
+              "Minus twenty",
+              "Zero"
+            ],
+            "answer": 1,
+            "why_es": "Dave dice que hace minus twenty."
+          },
+          {
+            "q": "What does Dave give Mei?",
+            "options": [
+              "An ice scraper",
+              "A new toque",
+              "A shovel"
+            ],
+            "answer": 0,
+            "why_es": "Le da su ice scraper para el carro."
+          },
+          {
+            "q": "What will Dave do while Mei waits?",
+            "options": [
+              "Warm up the car",
+              "Shovel the driveway",
+              "Call a tow truck"
+            ],
+            "answer": 1,
+            "why_es": "Dice: I will shovel the driveway."
+          },
+          {
+            "q": "Why does Dave say \"watch your step\"?",
+            "options": [
+              "The sidewalk is icy",
+              "Mei is late",
+              "The car is broken"
+            ],
+            "answer": 0,
+            "why_es": "La banqueta está helada."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di que tienes mucho frío y pregunta qué temperatura hace.",
+          "model": [
+            "I'm freezing! What's the temperature?",
+            "I'm so cold. What is the temperature outside?"
+          ],
+          "expect": [
+            [
+              "freezing",
+              "cold"
+            ],
+            [
+              "temperature",
+              "degrees",
+              "minus"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta a un amigo qué ropa te conviene para hoy.",
+          "model": [
+            "What should I wear today?",
+            "What do I wear? Is it very cold?"
+          ],
+          "expect": [
+            [
+              "wear",
+              "clothes",
+              "coat",
+              "jacket"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Avisa a otra persona que tenga cuidado con el hielo.",
+          "model": [
+            "Watch your step! It's icy.",
+            "Be careful, the sidewalk is slippery."
+          ],
+          "expect": [
+            [
+              "watch",
+              "careful",
+              "carefully"
+            ],
+            [
+              "step",
+              "icy",
+              "ice",
+              "slippery",
+              "sidewalk"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No oíste la temperatura.",
+          "en": "Sorry, what did you say? Minus what?",
+          "es": "Perdón, ¿qué dijiste? ¿Menos cuánto?"
+        },
+        {
+          "situation_es": "Necesitas que hablen más lento.",
+          "en": "Could you say that again, a little more slowly?",
+          "es": "¿Podrías repetirlo un poco más despacio?"
+        },
+        {
+          "situation_es": "No conoces una palabra de ropa.",
+          "en": "What is a toque?",
+          "es": "¿Qué es un toque?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-invierno-a",
+        "area": "transporte",
+        "level": "A2",
+        "title": "Getting ready for the cold",
+        "title_es": "Salir de casa con mucho frío",
+        "setting_es": "Es una mañana de enero en Edmonton. Tu vecino Luc te saluda antes de que salgas a caminar al trabajo.",
+        "npc": "Luc",
+        "turns": [
+          {
+            "npc": "Good morning, {name}! Wow, it is cold today, eh?",
+            "npc_es": "¡Buenos días, {name}! Uf, hace frío hoy, ¿verdad?",
+            "task_es": "Responde que sí, que tienes mucho frío.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "very",
+                "so",
+                "really"
+              ],
+              [
+                "cold",
+                "freezing",
+                "minus"
+              ]
+            ],
+            "model": [
+              "Yes! I'm freezing.",
+              "Yeah, it's very cold today."
+            ]
+          },
+          {
+            "npc": "It's minus twenty-five. Are you walking to work?",
+            "npc_es": "Hace veinticinco bajo cero. ¿Vas caminando al trabajo?",
+            "task_es": "Di que sí, que caminas quince minutos.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "walk",
+                "walking"
+              ],
+              [
+                "fifteen",
+                "15",
+                "minutes",
+                "work"
+              ]
+            ],
+            "model": [
+              "Yes, I walk to work. It's fifteen minutes.",
+              "Yeah, I'm walking. It takes fifteen minutes."
+            ]
+          },
+          {
+            "npc": "That's okay, but dress in layers. What are you wearing?",
+            "npc_es": "Está bien, pero vístete por capas. ¿Qué llevas puesto?",
+            "task_es": "Di qué ropa llevas (abrigo, botas, gorro).",
+            "expect": [
+              [
+                "coat",
+                "jacket",
+                "parka",
+                "sweater",
+                "boots",
+                "toque",
+                "hat",
+                "mittens",
+                "gloves",
+                "scarf",
+                "layers"
+              ]
+            ],
+            "model": [
+              "I'm wearing a coat, a sweater and snow boots.",
+              "I have a parka, a toque and mittens."
+            ]
+          },
+          {
+            "npc": "Perfect! Oh, the sidewalk is icy. Watch your step!",
+            "npc_es": "¡Perfecto! Ah, la banqueta está helada. ¡Cuidado al caminar!",
+            "task_es": "Agradece y di que caminarás despacio.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "slow",
+                "slowly",
+                "careful",
+                "carefully",
+                "small steps",
+                "watch"
+              ]
+            ],
+            "model": [
+              "Thanks! I will walk slowly.",
+              "Thank you. I'll be careful."
+            ]
+          },
+          {
+            "npc": "Good idea. Do you want a ride? My car is warm.",
+            "npc_es": "Buena idea. ¿Quieres que te lleve? Mi carro está caliente.",
+            "task_es": "Acepta con gusto y agradece.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "sure",
+                "please",
+                "okay",
+                "ok",
+                "great"
+              ],
+              [
+                "thank",
+                "thanks",
+                "kind",
+                "nice"
+              ]
+            ],
+            "model": [
+              "Yes, please! Thank you, that's very kind.",
+              "Sure, thanks! That's great."
+            ]
+          }
+        ],
+        "useful": [
+          "I'm freezing.",
+          "It's minus twenty today.",
+          "Watch your step.",
+          "What should I wear?"
+        ]
+      }
+    },
+    {
+      "id": "invierno-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hablar de avisos de clima, carros en frío extremo y hielo; pedir y entender recomendaciones de seguridad.",
+      "items": [
+        "voc-extreme-cold-warning",
+        "col-plug-in-your-car",
+        "col-block-heater",
+        "col-road-conditions",
+        "voc-black-ice",
+        "voc-snow-tires",
+        "col-dead-battery",
+        "voc-jump-start",
+        "voc-snowfall-warning",
+        "col-stay-off-the-roads",
+        "col-get-snowed-in"
+      ],
+      "lesson": {
+        "id": "ls-invierno-b",
+        "level": "B1",
+        "topic": "canada",
+        "order": 905,
+        "title": "Plug it in or it won't start",
+        "title_es": "Si no lo conectas, no arranca",
+        "intro_es": "Ahmed lleva pocas semanas en Edmonton. Su compañera Gwen le explica cómo sobrevivir con el carro a treinta y cinco bajo cero.",
+        "lines": [
+          {
+            "who": "Gwen",
+            "en": "Did you see the [extreme cold warning]? It's minus thirty-five with the wind chill.",
+            "es": "¿Viste el aviso de frío extremo? Son treinta y cinco bajo cero con la sensación térmica.",
+            "item": "voc-extreme-cold-warning"
+          },
+          {
+            "who": "Ahmed",
+            "en": "I saw it. Honestly, I'm still getting used to this. Do I really need to [plug in my car]?",
+            "es": "Lo vi. Sinceramente, aún me estoy acostumbrando. ¿De verdad necesito conectar mi carro?",
+            "item": "col-plug-in-your-car"
+          },
+          {
+            "who": "Gwen",
+            "en": "If it has a [block heater], yes. A couple of hours before you leave, or it might not start.",
+            "es": "Si tiene calentador de motor, sí. Un par de horas antes de salir, o quizá no arranque.",
+            "item": "col-block-heater"
+          },
+          {
+            "who": "Ahmed",
+            "en": "Mine does. I never knew what that cord in the grille was for!",
+            "es": "El mío tiene. ¡Nunca supe para qué era ese cable en la parrilla!"
+          },
+          {
+            "who": "Gwen",
+            "en": "Ha! Everyone's first winter. And check the [road conditions] before you drive.",
+            "es": "¡Ja! El primer invierno de todos. Y revisa las condiciones del camino antes de manejar.",
+            "item": "col-road-conditions"
+          },
+          {
+            "who": "Ahmed",
+            "en": "Last week I hit a patch of [black ice] on the ramp, and the car just slid.",
+            "es": "La semana pasada pisé una capa de hielo negro en la rampa y el carro se deslizó.",
+            "item": "voc-black-ice"
+          },
+          {
+            "who": "Gwen",
+            "en": "Scary. Are you on [snow tires]?",
+            "es": "Qué susto. ¿Traes llantas de invierno?",
+            "item": "voc-snow-tires"
+          },
+          {
+            "who": "Ahmed",
+            "en": "No, all-season. Should I switch?",
+            "es": "No, todo clima. ¿Debería cambiarlas?"
+          },
+          {
+            "who": "Gwen",
+            "en": "I would. All-season tires get stiff when it's really cold. It's about safety, not luxury.",
+            "es": "Yo sí. Las de todo clima se ponen duras con mucho frío. Es cuestión de seguridad, no de lujo."
+          },
+          {
+            "who": "Ahmed",
+            "en": "Okay. And last Monday I had a [dead battery], so I was late.",
+            "es": "Bueno. Y el lunes pasado tuve la batería descargada, por eso llegué tarde.",
+            "item": "col-dead-battery"
+          },
+          {
+            "who": "Gwen",
+            "en": "Then you need a [jump-start]. Keep cables in your trunk, or call a tow truck.",
+            "es": "Entonces necesitas pasar corriente. Lleva cables en la cajuela o llama una grúa.",
+            "item": "voc-jump-start"
+          },
+          {
+            "who": "Ahmed",
+            "en": "Noted. The forecast says heavy snow tomorrow.",
+            "es": "Anotado. El pronóstico dice nevada fuerte mañana."
+          },
+          {
+            "who": "Gwen",
+            "en": "When there's a [snowfall warning], work from home if you can.",
+            "es": "Cuando hay aviso de nevada, trabaja desde casa si puedes.",
+            "item": "voc-snowfall-warning"
+          },
+          {
+            "who": "Gwen",
+            "en": "Officials often ask people to [stay off the roads] unless it's essential.",
+            "es": "Las autoridades suelen pedir que la gente no salga a manejar si no es esencial.",
+            "item": "col-stay-off-the-roads"
+          },
+          {
+            "who": "Gwen",
+            "en": "You might even [get snowed in] for a day. It happens.",
+            "es": "Hasta podrías quedar atrapado por la nieve un día. Pasa.",
+            "item": "col-get-snowed-in"
+          },
+          {
+            "who": "Ahmed",
+            "en": "Then I'll buy groceries tonight. Thanks, Gwen. This is really helpful.",
+            "es": "Entonces compraré comida esta noche. Gracias, Gwen. Esto me ayuda mucho."
+          }
+        ],
+        "items": [
+          "voc-extreme-cold-warning",
+          "col-plug-in-your-car",
+          "col-block-heater",
+          "col-road-conditions",
+          "voc-black-ice",
+          "voc-snow-tires",
+          "col-dead-battery",
+          "voc-jump-start",
+          "voc-snowfall-warning",
+          "col-stay-off-the-roads",
+          "col-get-snowed-in"
+        ],
+        "questions": [
+          {
+            "q": "Why does Gwen say to plug in the car?",
+            "options": [
+              "The engine may not start in the extreme cold",
+              "The radio needs power",
+              "The car needs to be washed"
+            ],
+            "answer": 0,
+            "why_es": "Con un block heater conectado el motor arranca mejor."
+          },
+          {
+            "q": "What happened to Ahmed on the ramp?",
+            "options": [
+              "He ran out of gas",
+              "He hit black ice and slid",
+              "He got a flat tire"
+            ],
+            "answer": 1,
+            "why_es": "Pisó hielo negro y el carro se deslizó."
+          },
+          {
+            "q": "Why does Gwen recommend snow tires?",
+            "options": [
+              "All-season tires get stiff in very cold weather",
+              "They are cheaper",
+              "They are quieter"
+            ],
+            "answer": 0,
+            "why_es": "Dice que las de todo clima se endurecen con mucho frío."
+          },
+          {
+            "q": "What should Ahmed do during a snowfall warning?",
+            "options": [
+              "Drive faster",
+              "Work from home if possible",
+              "Buy a new car"
+            ],
+            "answer": 1,
+            "why_es": "Gwen recomienda trabajar desde casa y evitar manejar."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica a un colega por qué tu carro no arrancó esta mañana.",
+          "model": [
+            "My car wouldn't start. The battery is dead, so I need a jump-start.",
+            "My car won't start. I think it's the battery. Do you have jumper cables?"
+          ],
+          "expect": [
+            [
+              "battery",
+              "start",
+              "dead"
+            ],
+            [
+              "jump",
+              "jump-start",
+              "jumpstart",
+              "cables",
+              "help"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta si necesitas conectar el carro con este frío.",
+          "model": [
+            "Do I need to plug in my car when it's this cold?",
+            "Should I plug in the block heater tonight?"
+          ],
+          "expect": [
+            [
+              "plug",
+              "block heater",
+              "heater"
+            ],
+            [
+              "car",
+              "truck",
+              "vehicle",
+              "engine",
+              "it",
+              "tonight"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Avisa que llegarás tarde por el hielo en el camino.",
+          "model": [
+            "I'll be a bit late. The roads are icy and traffic is slow.",
+            "Sorry, I'm running late. There's ice on the roads."
+          ],
+          "expect": [
+            [
+              "late",
+              "delay",
+              "delayed"
+            ],
+            [
+              "road",
+              "roads",
+              "ice",
+              "icy",
+              "snow",
+              "traffic"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Describe cómo te vistes cuando hace treinta bajo cero.",
+          "model": [
+            "I wear layers: a thermal shirt, a sweater, a parka, plus a toque and mittens.",
+            "I dress in layers and wear a parka, boots, a toque and warm mittens."
+          ],
+          "expect": [
+            [
+              "layers",
+              "parka",
+              "coat",
+              "toque",
+              "mittens",
+              "boots",
+              "thermal"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres pedir que repitan más lento.",
+          "en": "Sorry, could you say that a little more slowly?",
+          "es": "Perdón, ¿podrías decirlo un poco más despacio?"
+        },
+        {
+          "situation_es": "Quieres confirmar una instrucción.",
+          "en": "So you're saying I should plug it in two hours before?",
+          "es": "O sea, ¿dices que debo conectarlo dos horas antes?"
+        },
+        {
+          "situation_es": "Quieres verificar un dato del aviso.",
+          "en": "Let me make sure I got that: the warning starts at six, right?",
+          "es": "Déjame asegurarme: el aviso empieza a las seis, ¿verdad?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-invierno-b",
+        "area": "transporte",
+        "level": "B1",
+        "title": "Car won't start",
+        "title_es": "El carro no arranca",
+        "setting_es": "Es una mañana de enero a menos treinta y dos. Tu carro no enciende en el estacionamiento del trabajo y llamas a asistencia en carretera.",
+        "npc": "Sam (dispatcher)",
+        "turns": [
+          {
+            "npc": "Roadside assistance, this is Sam. How can I help you?",
+            "npc_es": "Asistencia en carretera, habla Sam. ¿En qué puedo ayudarle?",
+            "task_es": "Explica que tu carro no arranca.",
+            "expect": [
+              [
+                "car",
+                "truck",
+                "vehicle"
+              ],
+              [
+                "start",
+                "won't start",
+                "wont start",
+                "not starting",
+                "dead",
+                "battery"
+              ]
+            ],
+            "model": [
+              "Hi, my car won't start. I think the battery is dead.",
+              "Hello, my car is not starting this morning."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bdoes ?n[o']?t turn on\\b|\\bit no start\\b",
+                "fix": "my car won't start",
+                "why_es": "Para un carro que no enciende se dice *won't start*, no *doesn't turn on*."
+              }
+            ]
+          },
+          {
+            "npc": "Okay. Where are you right now, and is it safe where you are?",
+            "npc_es": "Bien. ¿Dónde está ahora y es seguro el lugar?",
+            "task_es": "Di dónde estás y que estás a salvo.",
+            "expect": [
+              [
+                "parking",
+                "lot",
+                "parkade",
+                "work",
+                "office",
+                "street",
+                "home",
+                "driveway",
+                "mall",
+                "building"
+              ],
+              [
+                "safe",
+                "fine",
+                "okay",
+                "ok",
+                "inside",
+                "warm"
+              ]
+            ],
+            "model": [
+              "I'm in the parking lot at my office. It's safe, and I'm inside where it's warm.",
+              "I'm at the parkade downtown. I'm okay, just cold."
+            ]
+          },
+          {
+            "npc": "Got it. Is the block heater plugged in, do you know? It's minus thirty-two out there.",
+            "npc_es": "Entendido. ¿Sabe si el calentador de motor estaba conectado? Hay treinta y dos bajo cero.",
+            "task_es": "Di que lo olvidaste conectar anoche y que es tu primer invierno.",
+            "expect": [
+              [
+                "didn't",
+                "did not",
+                "forgot",
+                "no",
+                "not",
+                "never"
+              ],
+              [
+                "plug",
+                "plugged",
+                "heater",
+                "first winter",
+                "first"
+              ]
+            ],
+            "model": [
+              "No, I forgot to plug it in last night. It's my first winter here.",
+              "I didn't plug it in. I'm new here, so it's my first winter."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi forgot (to )?plug\\b(?! it)|\\bi forgot of\\b",
+                "fix": "I forgot to plug it in",
+                "why_es": "Después de *forgot* usa *to* + verbo: *I forgot to plug it in*."
+              }
+            ]
+          },
+          {
+            "npc": "No problem, it happens a lot during a cold snap. A technician can give you a jump-start in about forty minutes. Does that work?",
+            "npc_es": "No hay problema, pasa mucho en una ola de frío. Un técnico puede pasarle corriente en unos cuarenta minutos. ¿Le sirve?",
+            "task_es": "Acepta y pregunta si está cubierto o si tiene costo.",
+            "expect": [
+              [
+                "yes",
+                "okay",
+                "ok",
+                "sure",
+                "works",
+                "fine"
+              ],
+              [
+                "cost",
+                "charge",
+                "fee",
+                "pay",
+                "covered",
+                "included",
+                "price",
+                "how much"
+              ]
+            ],
+            "model": [
+              "Yes, that works. Is it covered, or is there a fee?",
+              "Sure, that's fine. How much does it cost?"
+            ]
+          },
+          {
+            "npc": "It's covered by your plan. Can I get a number where we can reach you?",
+            "npc_es": "Está cubierto por su plan. ¿Me da un número donde podamos localizarlo?",
+            "task_es": "Da un número y pide que el técnico llame antes de llegar.",
+            "expect": [
+              [
+                "name",
+                "number",
+                "it's",
+                "its",
+                "i'm",
+                "im",
+                "my"
+              ],
+              [
+                "call",
+                "text",
+                "phone",
+                "ring"
+              ]
+            ],
+            "model": [
+              "My number is 780-555-0142. Could the technician call me before he arrives?",
+              "Sure, it's under my name. Please text me when he's close."
+            ]
+          },
+          {
+            "npc": "Will do. Stay warm, and keep your phone charged. Anything else?",
+            "npc_es": "Así será. Manténgase abrigado y con el teléfono cargado. ¿Algo más?",
+            "task_es": "Agradece y confirma que esperarás adentro.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "wait",
+                "inside",
+                "here",
+                "building",
+                "warm"
+              ]
+            ],
+            "model": [
+              "No, that's all. Thanks so much! I'll wait inside.",
+              "Thank you, Sam. I'll stay in the building where it's warm."
+            ]
+          }
+        ],
+        "useful": [
+          "My car won't start.",
+          "I think the battery is dead.",
+          "Is it covered by my plan?",
+          "I forgot to plug it in."
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "phr-im-freezing",
+      "type": "phrase",
+      "term": "I'm freezing",
+      "ipa": "/aɪm ˈfriːzɪŋ/",
+      "level": "A1",
+      "topic": "daily",
+      "freq": 5,
+      "es": "me estoy congelando; tengo mucho frío",
+      "def": "I feel very cold",
+      "note": "Exagerado y muy común. No es literal: se dice aunque no haya hielo. Más suave: I'm cold.",
+      "ex": [
+        {
+          "en": "Can we go inside? [I'm freezing].",
+          "es": "¿Podemos entrar? Me estoy congelando."
+        },
+        {
+          "en": "[I'm freezing]! Where is my toque?",
+          "es": "¡Me estoy congelando! ¿Dónde está mi gorro?"
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ]
+    },
+    {
+      "id": "col-shovel-the-driveway",
+      "type": "collocation",
+      "term": "shovel the driveway",
+      "level": "A2",
+      "topic": "home",
+      "freq": 3,
+      "es": "palear la nieve de la entrada",
+      "def": "to remove snow from the area where you park, using a shovel",
+      "note": "Se dice *shovel snow*, *shovel the driveway* o *shovel the walk*. Es tarea de todos los inviernos.",
+      "ex": [
+        {
+          "en": "I have to [shovel the driveway] before work.",
+          "es": "Tengo que palear la entrada antes de ir al trabajo."
+        },
+        {
+          "en": "Dad [shoveled the driveway] twice yesterday.",
+          "es": "Mi papá paleó la entrada dos veces ayer."
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-warm-up-the-car",
+      "type": "collocation",
+      "term": "warm up the car",
+      "level": "A2",
+      "topic": "daily",
+      "freq": 3,
+      "es": "calentar el carro (motor y cabina)",
+      "def": "to run the engine for a few minutes before you drive",
+      "note": "En Canadá es común en días muy fríos. Se dice *warm up the car* o *let the car warm up*.",
+      "ex": [
+        {
+          "en": "I'll go [warm up the car] while you find your gloves.",
+          "es": "Voy a calentar el carro mientras buscas tus guantes."
+        },
+        {
+          "en": "She always [warms up the car] for five minutes.",
+          "es": "Ella siempre calienta el carro cinco minutos."
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ]
+    },
+    {
+      "id": "voc-ice-scraper",
+      "type": "vocab",
+      "term": "ice scraper",
+      "ipa": "/ˈaɪs ˌskreɪpər/",
+      "level": "B1",
+      "topic": "daily",
+      "freq": 3,
+      "es": "raspador de hielo (para el parabrisas)",
+      "def": "a plastic tool for removing ice from a car window",
+      "note": "Se guarda en el carro en invierno. En Canadá también se oye *scraper* o *snow brush* (cepillo).",
+      "ex": [
+        {
+          "en": "Where is the [ice scraper]? The windshield is frozen.",
+          "es": "¿Dónde está el raspador de hielo? El parabrisas está congelado."
+        },
+        {
+          "en": "He keeps an [ice scraper] in the back seat.",
+          "es": "Guarda un raspador de hielo en el asiento de atrás."
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-watch-your-step",
+      "type": "phrase",
+      "term": "watch your step",
+      "ipa": "/wɑːtʃ jʊr stɛp/",
+      "level": "A2",
+      "topic": "daily",
+      "freq": 4,
+      "es": "ten cuidado al caminar; cuidado con el piso",
+      "def": "a warning to walk carefully",
+      "note": "Se dice antes de escalones, hielo o piso mojado. Mismo tono amable en cualquier registro.",
+      "ex": [
+        {
+          "en": "[Watch your step]. The stairs are icy.",
+          "es": "Cuidado al caminar. Las escaleras están heladas."
+        },
+        {
+          "en": "The sign said, \"[Watch your step].\"",
+          "es": "El letrero decía: «Cuidado al caminar»."
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ]
+    },
+    {
+      "id": "col-road-conditions",
+      "type": "collocation",
+      "term": "road conditions",
+      "level": "B1",
+      "topic": "travel",
+      "freq": 3,
+      "es": "condiciones del camino",
+      "def": "how safe or difficult the roads are for driving",
+      "note": "Casi siempre plural. Se consultan en apps y en la radio: *Check the road conditions before you go.*",
+      "ex": [
+        {
+          "en": "Check the [road conditions] before you leave.",
+          "es": "Revisa las condiciones del camino antes de salir."
+        },
+        {
+          "en": "The [road conditions] were terrible after the storm.",
+          "es": "Las condiciones del camino estaban terribles después de la tormenta."
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ]
+    },
+    {
+      "id": "col-get-snowed-in",
+      "type": "collocation",
+      "term": "get snowed in",
+      "level": "B2",
+      "topic": "daily",
+      "freq": 2,
+      "es": "quedar atrapado por la nieve",
+      "def": "to be unable to leave a place because of heavy snow",
+      "note": "Se puede decir *be snowed in* (estado) o *get snowed in* (proceso). Suena más tranquilo que *trapped*.",
+      "ex": [
+        {
+          "en": "We got [snowed in] at the cabin for two days.",
+          "es": "Nos quedamos atrapados por la nieve en la cabaña dos días."
+        },
+        {
+          "en": "Stock up on food in case you get [snowed in].",
+          "es": "Compra provisiones por si te quedas atrapado por la nieve."
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ]
+    },
+    {
+      "id": "col-stay-off-the-roads",
+      "type": "collocation",
+      "term": "stay off the roads",
+      "level": "B2",
+      "topic": "travel",
+      "freq": 3,
+      "es": "no salir a manejar; evitar las carreteras",
+      "def": "to avoid driving, usually because conditions are dangerous",
+      "note": "Frase de avisos oficiales: *Please stay off the roads unless necessary.*",
+      "ex": [
+        {
+          "en": "Authorities asked people to [stay off the roads].",
+          "es": "Las autoridades pidieron a la gente no salir a manejar."
+        },
+        {
+          "en": "If it keeps snowing, we should [stay off the roads].",
+          "es": "Si sigue nevando, deberíamos evitar manejar."
+        }
+      ],
+      "areas": [
+        "transporte",
+        "canada"
+      ]
+    }
+  ]
+}

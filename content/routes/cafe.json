@@ -1,0 +1,1851 @@
+{
+  "id": "cafe",
+  "title_es": "Cafeterías y restaurantes",
+  "icon": "coffee",
+  "scene": null,
+  "areas": [
+    "restaurantes",
+    "conversacion"
+  ],
+  "season": null,
+  "objective_es": "Pedir, personalizar y aclarar tu orden; corregir errores, dividir la cuenta y dejar propina.",
+  "tracks": [
+    {
+      "id": "cafe-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 10,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Pedir y personalizar un café, pagar con tarjeta y corregir una orden equivocada.",
+      "items": [
+        "phr-can-i-get",
+        "voc-oat-milk",
+        "phr-for-here-or-to-go",
+        "phr-anything-else",
+        "phr-can-i-tap",
+        "phr-can-i-get-a-receipt-please",
+        "phr-this-isnt-what-i-ordered",
+        "phr-ill-have",
+        "phr-double-double",
+        "voc-takeout",
+        "voc-refill"
+      ],
+      "lesson": {
+        "id": "ls-cafe-a",
+        "level": "A2",
+        "topic": "food",
+        "order": 909,
+        "title": "A large latte, please",
+        "title_es": "Un latte grande, por favor",
+        "intro_es": "Lina entra a una cafetería de Edmonton. Pide un latte y un muffin, pero la bebida llega con un error.",
+        "lines": [
+          {
+            "who": "Theo",
+            "en": "Hi! What can I get for you?",
+            "es": "¡Hola! ¿Qué te preparo?"
+          },
+          {
+            "who": "Lina",
+            "en": "[Can I get] a large latte, please?",
+            "es": "¿Me das un latte grande, por favor?",
+            "item": "phr-can-i-get"
+          },
+          {
+            "who": "Theo",
+            "en": "Sure. What kind of milk?",
+            "es": "Claro. ¿Qué tipo de leche?"
+          },
+          {
+            "who": "Lina",
+            "en": "[Oat milk], please.",
+            "es": "Leche de avena, por favor.",
+            "item": "voc-oat-milk"
+          },
+          {
+            "who": "Theo",
+            "en": "[For here or to go]?",
+            "es": "¿Para tomar aquí o para llevar?",
+            "item": "phr-for-here-or-to-go"
+          },
+          {
+            "who": "Lina",
+            "en": "To go, please.",
+            "es": "Para llevar, por favor."
+          },
+          {
+            "who": "Theo",
+            "en": "[Anything else]? We have fresh muffins.",
+            "es": "¿Algo más? Tenemos muffins frescos.",
+            "item": "phr-anything-else"
+          },
+          {
+            "who": "Lina",
+            "en": "Yes, one blueberry muffin. That's all.",
+            "es": "Sí, un muffin de arándano. Es todo."
+          },
+          {
+            "who": "Theo",
+            "en": "That's seven fifty.",
+            "es": "Son siete cincuenta."
+          },
+          {
+            "who": "Lina",
+            "en": "[Can I tap]?",
+            "es": "¿Puedo pagar con tarjeta sin contacto?",
+            "item": "phr-can-i-tap"
+          },
+          {
+            "who": "Theo",
+            "en": "Yes, tap here.",
+            "es": "Sí, acerca la tarjeta aquí."
+          },
+          {
+            "who": "Lina",
+            "en": "[Can I get a receipt, please]?",
+            "es": "¿Me das el recibo, por favor?",
+            "item": "phr-can-i-get-a-receipt-please"
+          },
+          {
+            "who": "Theo",
+            "en": "Of course. Your latte will be ready in two minutes.",
+            "es": "Claro. Tu latte estará listo en dos minutos."
+          },
+          {
+            "who": "Lina",
+            "en": "Excuse me, [this isn't what I ordered]. I asked for oat milk.",
+            "es": "Disculpa, esto no es lo que pedí. Pedí leche de avena.",
+            "item": "phr-this-isnt-what-i-ordered"
+          },
+          {
+            "who": "Theo",
+            "en": "Oh, sorry! I'll make a new one.",
+            "es": "¡Ay, perdón! Haré uno nuevo."
+          }
+        ],
+        "items": [
+          "phr-can-i-get",
+          "voc-oat-milk",
+          "phr-for-here-or-to-go",
+          "phr-anything-else",
+          "phr-can-i-tap",
+          "phr-can-i-get-a-receipt-please",
+          "phr-this-isnt-what-i-ordered"
+        ],
+        "questions": [
+          {
+            "q": "What size is Lina's latte?",
+            "options": [
+              "Small",
+              "Large",
+              "Medium"
+            ],
+            "answer": 1,
+            "why_es": "Pide a large latte."
+          },
+          {
+            "q": "Is Lina's order for here or to go?",
+            "options": [
+              "For here",
+              "To go",
+              "She doesn't say"
+            ],
+            "answer": 1,
+            "why_es": "Dice: To go, please."
+          },
+          {
+            "q": "How does Lina pay?",
+            "options": [
+              "With cash",
+              "By tapping her card",
+              "She doesn't pay"
+            ],
+            "answer": 1,
+            "why_es": "Pregunta: Can I tap?"
+          },
+          {
+            "q": "What is the problem at the end?",
+            "options": [
+              "The milk is not oat milk",
+              "The latte is cold",
+              "The muffin is gone"
+            ],
+            "answer": 0,
+            "why_es": "Ella pidió leche de avena y no la recibió."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pide un latte grande con leche de avena.",
+          "model": [
+            "Can I get a large oat milk latte, please?",
+            "I'll have a large latte with oat milk."
+          ],
+          "expect": [
+            [
+              "latte"
+            ],
+            [
+              "oat"
+            ],
+            [
+              "large",
+              "big"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta si puedes pagar con tarjeta sin contacto.",
+          "model": [
+            "Can I tap?",
+            "Can I pay by tap, please?"
+          ],
+          "expect": [
+            [
+              "tap",
+              "card",
+              "debit",
+              "credit"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di con cortesía que te dieron algo distinto de lo que pediste.",
+          "model": [
+            "Excuse me, this isn't what I ordered.",
+            "Sorry, I think this is the wrong drink."
+          ],
+          "expect": [
+            [
+              "ordered",
+              "wrong",
+              "mistake",
+              "not what",
+              "asked"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste el total.",
+          "en": "Sorry, how much was that?",
+          "es": "Perdón, ¿cuánto fue?"
+        },
+        {
+          "situation_es": "No oíste la pregunta.",
+          "en": "Sorry, can you say that again?",
+          "es": "Perdón, ¿puedes repetirlo?"
+        },
+        {
+          "situation_es": "No conoces una palabra del menú.",
+          "en": "What is that? Can you explain?",
+          "es": "¿Qué es eso? ¿Me lo explicas?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-cafe-a",
+        "area": "restaurantes",
+        "level": "A2",
+        "title": "Ordering at a café",
+        "title_es": "Pedir en una cafetería",
+        "setting_es": "Entras a una cafetería del centro de Edmonton. La barista te recibe detrás del mostrador.",
+        "npc": "Barista",
+        "turns": [
+          {
+            "npc": "Hi! What can I get for you?",
+            "npc_es": "¡Hola! ¿Qué te preparo?",
+            "task_es": "Pide una bebida con cortesía.",
+            "expect": [
+              [
+                "can i get",
+                "could i get",
+                "i'd like",
+                "id like",
+                "i will have",
+                "i'll have",
+                "i would like",
+                "can i have",
+                "could i have"
+              ],
+              [
+                "coffee",
+                "latte",
+                "tea",
+                "cappuccino",
+                "americano",
+                "mocha",
+                "flat white",
+                "chai"
+              ]
+            ],
+            "model": [
+              "Can I get a medium latte, please?",
+              "I'll have a large coffee, please."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi want (a|one)\\b",
+                "fix": "Can I get... / I'd like...",
+                "why_es": "*I want* suena brusco al pedir. Mejor *Can I get...?* o *I'd like...*."
+              }
+            ]
+          },
+          {
+            "npc": "Sure! What kind of milk would you like?",
+            "npc_es": "¡Claro! ¿Qué tipo de leche quieres?",
+            "task_es": "Elige la leche.",
+            "expect": [
+              [
+                "oat",
+                "almond",
+                "soy",
+                "regular",
+                "skim",
+                "2%",
+                "whole",
+                "no milk",
+                "milk",
+                "cream"
+              ]
+            ],
+            "model": [
+              "Oat milk, please.",
+              "Regular milk is fine."
+            ]
+          },
+          {
+            "npc": "For here or to go?",
+            "npc_es": "¿Para tomar aquí o para llevar?",
+            "task_es": "Contesta.",
+            "expect": [
+              [
+                "to go",
+                "takeout",
+                "take out",
+                "take-out",
+                "for here",
+                "here",
+                "stay"
+              ]
+            ],
+            "model": [
+              "To go, please.",
+              "For here, please."
+            ]
+          },
+          {
+            "npc": "Anything else? We have fresh muffins today.",
+            "npc_es": "¿Algo más? Hoy hay muffins frescos.",
+            "task_es": "Pide un muffin o di que eso es todo.",
+            "expect": [
+              [
+                "muffin",
+                "cookie",
+                "that's all",
+                "thats all",
+                "that is all",
+                "no thanks",
+                "no thank",
+                "nothing",
+                "bagel",
+                "croissant",
+                "all"
+              ]
+            ],
+            "model": [
+              "One blueberry muffin, please.",
+              "No, that's all. Thanks!"
+            ]
+          },
+          {
+            "npc": "That's six fifty. Cash or card?",
+            "npc_es": "Son seis cincuenta. ¿Efectivo o tarjeta?",
+            "task_es": "Di que pagas con tarjeta.",
+            "expect": [
+              [
+                "card",
+                "tap",
+                "debit",
+                "credit"
+              ]
+            ],
+            "model": [
+              "Card, please. Can I tap?",
+              "I'll pay by debit card."
+            ]
+          },
+          {
+            "npc": "Here you go. One large latte with regular milk.",
+            "npc_es": "Aquí tienes. Un latte grande con leche normal.",
+            "task_es": "Notaste que pediste leche de avena. Corrige con cortesía.",
+            "expect": [
+              [
+                "oat"
+              ],
+              [
+                "ordered",
+                "asked",
+                "wanted",
+                "wrong",
+                "isn't",
+                "not",
+                "mistake"
+              ]
+            ],
+            "model": [
+              "Sorry, this isn't what I ordered. I asked for oat milk.",
+              "Excuse me, I asked for oat milk, not regular."
+            ]
+          }
+        ],
+        "useful": [
+          "Can I get a large latte, please?",
+          "For here or to go?",
+          "Can I tap?",
+          "This isn't what I ordered."
+        ]
+      }
+    },
+    {
+      "id": "cafe-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Ordenar con alergia y preferencias, corregir un platillo equivocado y resolver la cuenta y la propina.",
+      "items": [
+        "phr-i-have-a-peanut-allergy",
+        "voc-cross-contamination",
+        "phr-on-the-side",
+        "phr-hold-the-onions",
+        "phr-this-isnt-what-i-ordered",
+        "voc-undercooked",
+        "phr-could-you-remake-it",
+        "idi-on-the-house",
+        "phr-could-we-split-it-three-ways",
+        "phr-is-tip-included",
+        "col-add-a-tip",
+        "voc-allergy"
+      ],
+      "lesson": {
+        "id": "ls-cafe-b",
+        "level": "B1",
+        "topic": "food",
+        "order": 910,
+        "title": "Dinner with a peanut allergy",
+        "title_es": "Cena con alergia a los cacahuates",
+        "intro_es": "Sofía y Ben cenan en un restaurante en Calgary. Sofía avisa de su alergia y después hay un error con el platillo de Ben.",
+        "lines": [
+          {
+            "who": "Kwame",
+            "en": "Hi folks, welcome! Can I start you off with something to drink?",
+            "es": "Hola, bienvenidos. ¿Les traigo algo de tomar?"
+          },
+          {
+            "who": "Sofía",
+            "en": "Just water for now. Quick question: [I have a peanut allergy]. Which dishes are safe?",
+            "es": "Solo agua por ahora. Una pregunta rápida: tengo alergia a los cacahuates. ¿Qué platillos son seguros?",
+            "item": "phr-i-have-a-peanut-allergy"
+          },
+          {
+            "who": "Kwame",
+            "en": "Good thing you asked. The pad thai and the satay have peanuts. I'll tell the chef to avoid [cross-contamination].",
+            "es": "Qué bueno que preguntó. El pad thai y el satay llevan cacahuate. Le diré al chef que evite la contaminación cruzada.",
+            "item": "voc-cross-contamination"
+          },
+          {
+            "who": "Sofía",
+            "en": "Thank you so much. I'll have the grilled salmon, with the sauce [on the side].",
+            "es": "Muchas gracias. Quiero el salmón a la parrilla, con la salsa aparte.",
+            "item": "phr-on-the-side"
+          },
+          {
+            "who": "Ben",
+            "en": "And I'll have the burger, medium. [Hold the onions], please.",
+            "es": "Y yo la hamburguesa, término medio. Sin cebolla, por favor.",
+            "item": "phr-hold-the-onions"
+          },
+          {
+            "who": "Ben",
+            "en": "Sorry to bother you, but [this isn't what I ordered]. I asked for no onions.",
+            "es": "Perdón por molestar, pero esto no es lo que pedí. Pedí sin cebolla.",
+            "item": "phr-this-isnt-what-i-ordered"
+          },
+          {
+            "who": "Ben",
+            "en": "And it's a bit [undercooked] in the middle.",
+            "es": "Y está un poco crudo por dentro.",
+            "item": "voc-undercooked"
+          },
+          {
+            "who": "Ben",
+            "en": "[Could you remake it], please? No rush.",
+            "es": "¿Podría prepararla de nuevo, por favor? Sin prisa.",
+            "item": "phr-could-you-remake-it"
+          },
+          {
+            "who": "Kwame",
+            "en": "I'm so sorry! And the nachos are [on the house] for the wait.",
+            "es": "¡Lo lamento mucho! Y los nachos van por cuenta de la casa por la espera.",
+            "item": "idi-on-the-house"
+          },
+          {
+            "who": "Sofía",
+            "en": "Could we get the bill? And could we [split it three ways]? My sister is joining us.",
+            "es": "¿Nos trae la cuenta? ¿Y podemos dividirla en tres? Mi hermana se nos une.",
+            "item": "phr-could-we-split-it-three-ways"
+          },
+          {
+            "who": "Kwame",
+            "en": "Of course.",
+            "es": "Claro."
+          },
+          {
+            "who": "Ben",
+            "en": "[Is tip included]?",
+            "es": "¿La propina está incluida?",
+            "item": "phr-is-tip-included"
+          },
+          {
+            "who": "Kwame",
+            "en": "Not for a table of three. It's up to you.",
+            "es": "No para una mesa de tres. Es opcional."
+          },
+          {
+            "who": "Sofía",
+            "en": "We'll [add a tip] on the machine. Twenty percent.",
+            "es": "Agregaremos propina en la terminal. Veinte por ciento.",
+            "item": "col-add-a-tip"
+          },
+          {
+            "who": "Kwame",
+            "en": "Thank you, that's very kind.",
+            "es": "Gracias, es muy amable."
+          }
+        ],
+        "items": [
+          "phr-i-have-a-peanut-allergy",
+          "voc-cross-contamination",
+          "phr-on-the-side",
+          "phr-hold-the-onions",
+          "phr-this-isnt-what-i-ordered",
+          "voc-undercooked",
+          "phr-could-you-remake-it",
+          "idi-on-the-house",
+          "phr-could-we-split-it-three-ways",
+          "phr-is-tip-included",
+          "col-add-a-tip"
+        ],
+        "questions": [
+          {
+            "q": "Why does Sofía ask which dishes are safe?",
+            "options": [
+              "She has a peanut allergy",
+              "She is on a diet",
+              "She doesn't like spicy food"
+            ],
+            "answer": 0,
+            "why_es": "Avisa que tiene alergia a los cacahuates."
+          },
+          {
+            "q": "What does Kwame promise about the kitchen?",
+            "options": [
+              "To tell the chef to avoid cross-contamination",
+              "To change the menu",
+              "To close the kitchen"
+            ],
+            "answer": 0,
+            "why_es": "Dice que avisará al chef para evitar contaminación cruzada."
+          },
+          {
+            "q": "What two problems does Ben's burger have?",
+            "options": [
+              "It has onions and is undercooked",
+              "It is cold and too small",
+              "It is the wrong size and too salty"
+            ],
+            "answer": 0,
+            "why_es": "Pidió sin cebolla y está poco cocida."
+          },
+          {
+            "q": "Why are the nachos free?",
+            "options": [
+              "It's a birthday",
+              "To apologize for the wait",
+              "They are old"
+            ],
+            "answer": 1,
+            "why_es": "Son por cuenta de la casa por la espera."
+          },
+          {
+            "q": "How will they pay the tip?",
+            "options": [
+              "On the card machine, twenty percent",
+              "In cash only",
+              "They won't tip"
+            ],
+            "answer": 0,
+            "why_es": "Sofía dice que agregarán veinte por ciento en la terminal."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica una alergia y pregunta qué platillos son seguros.",
+          "model": [
+            "I have a peanut allergy. Which dishes are safe for me?",
+            "I'm allergic to peanuts. What can I eat here?"
+          ],
+          "expect": [
+            [
+              "allergy",
+              "allergic"
+            ],
+            [
+              "safe",
+              "dishes",
+              "options",
+              "contain",
+              "without",
+              "free",
+              "eat"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Personaliza tu pedido: hamburguesa sin cebolla y salsa aparte.",
+          "model": [
+            "Could I get the burger with no onions and the sauce on the side?",
+            "I'll have the burger, hold the onions, and sauce on the side, please."
+          ],
+          "expect": [
+            [
+              "onions",
+              "onion",
+              "sauce"
+            ],
+            [
+              "side",
+              "without",
+              "no",
+              "hold"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Corrige con cortesía un platillo equivocado.",
+          "model": [
+            "Sorry to bother you, but this isn't what I ordered. I asked for the salmon.",
+            "Excuse me, I think this is the wrong dish. I ordered the salmon."
+          ],
+          "expect": [
+            [
+              "ordered",
+              "asked",
+              "wrong",
+              "mistake"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide dividir la cuenta en tres y pregunta por la propina.",
+          "model": [
+            "Could we split the bill three ways? And is tip included?",
+            "Can we split it three ways? Is the tip included?"
+          ],
+          "expect": [
+            [
+              "split",
+              "separate"
+            ],
+            [
+              "tip",
+              "gratuity"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No oíste el nombre del platillo del día.",
+          "en": "Sorry, could you repeat the special? I didn't catch the name.",
+          "es": "Perdón, ¿podría repetir el platillo del día? No escuché el nombre."
+        },
+        {
+          "situation_es": "Quieres confirmar que el platillo es seguro.",
+          "en": "Just to confirm, there's no peanut oil in that?",
+          "es": "Solo para confirmar, ¿no lleva aceite de cacahuate?"
+        },
+        {
+          "situation_es": "Necesitas que hablen más lento.",
+          "en": "Could you say that a bit slower? I'm still learning English.",
+          "es": "¿Podría decirlo un poco más despacio? Todavía estoy aprendiendo inglés."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-cafe-b",
+        "area": "restaurantes",
+        "level": "B1",
+        "title": "Dinner with dietary needs",
+        "title_es": "Cena con necesidades alimenticias",
+        "setting_es": "Cenas en un restaurante de Calgary. Kwame, tu mesero, llega a tomar tu orden. Tienes alergia a los cacahuates.",
+        "npc": "Kwame",
+        "turns": [
+          {
+            "npc": "Welcome! Can I start you off with something to drink?",
+            "npc_es": "¡Bienvenido! ¿Le traigo algo de tomar?",
+            "task_es": "Pide una bebida y avisa que tienes alergia a los cacahuates.",
+            "expect": [
+              [
+                "water",
+                "juice",
+                "coffee",
+                "tea",
+                "soda",
+                "pop",
+                "drink",
+                "beer",
+                "wine"
+              ],
+              [
+                "allergy",
+                "allergic",
+                "can't eat",
+                "cant eat"
+              ]
+            ],
+            "model": [
+              "Just water, please. And I have a peanut allergy.",
+              "Water for me. I'm allergic to peanuts."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi (am|'m) allergic (of|with|at)\\b",
+                "fix": "I'm allergic to",
+                "why_es": "Con alergia se usa *allergic to*, no *of* o *with*."
+              }
+            ]
+          },
+          {
+            "npc": "Thanks for letting me know. The pad thai and satay have peanuts. The grilled salmon and the veggie curry are fine, though the kitchen does share some equipment.",
+            "npc_es": "Gracias por avisar. El pad thai y el satay llevan cacahuate. El salmón a la parrilla y el curry vegetal están bien, aunque la cocina comparte algunos utensilios.",
+            "task_es": "Pide el salmón y pregunta si pueden evitar la contaminación cruzada.",
+            "expect": [
+              [
+                "salmon",
+                "curry",
+                "veggie"
+              ],
+              [
+                "cross",
+                "contamination",
+                "avoid",
+                "separate",
+                "separately",
+                "careful",
+                "clean",
+                "chef",
+                "kitchen",
+                "same"
+              ]
+            ],
+            "model": [
+              "I'll have the salmon. Could the chef avoid cross-contamination, please?",
+              "The salmon, please. Can the kitchen prepare it separately?"
+            ]
+          },
+          {
+            "npc": "Absolutely. How would you like it cooked, and would you like the sauce on it or on the side?",
+            "npc_es": "Por supuesto. ¿Cómo lo quiere y la salsa encima o aparte?",
+            "task_es": "Pide el pescado bien cocido o medio y la salsa aparte.",
+            "expect": [
+              [
+                "well done",
+                "medium",
+                "cooked",
+                "through"
+              ],
+              [
+                "side",
+                "separate",
+                "separately"
+              ]
+            ],
+            "model": [
+              "Well done, please, and the sauce on the side.",
+              "Medium, with the sauce on the side, please."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bapart\\b",
+                "fix": "on the side",
+                "why_es": "«Aparte» en este sentido es *on the side*; *apart* significa separado o a distancia."
+              }
+            ]
+          },
+          {
+            "npc": "Perfect. Here you are! Enjoy your meal.",
+            "npc_es": "Perfecto. ¡Aquí tiene! Buen provecho.",
+            "task_es": "Notas que la salsa viene encima. Señálalo con cortesía y pide que lo rehagan.",
+            "expect": [
+              [
+                "sauce",
+                "on it",
+                "wrong",
+                "mistake",
+                "isn't",
+                "not what",
+                "ordered",
+                "asked"
+              ],
+              [
+                "remake",
+                "redo",
+                "new one",
+                "again",
+                "fix",
+                "replace",
+                "another",
+                "could you"
+              ]
+            ],
+            "model": [
+              "Sorry to bother you, but this has sauce on it. I asked for it on the side. Could you remake it?",
+              "Excuse me, I ordered the sauce on the side. Could you fix it, please?"
+            ]
+          },
+          {
+            "npc": "I'm so sorry! I'll have it remade right now. Dessert will be on the house for the wait.",
+            "npc_es": "¡Lo lamento mucho! Lo haré preparar de nuevo ahora mismo. El postre va por cuenta de la casa por la espera.",
+            "task_es": "Agradece y di que no hay prisa.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "rush",
+                "hurry",
+                "time",
+                "no problem",
+                "okay",
+                "ok",
+                "fine",
+                "understand",
+                "kind"
+              ]
+            ],
+            "model": [
+              "Thank you, that's very kind. No rush at all.",
+              "Thanks, I appreciate it. Take your time."
+            ]
+          },
+          {
+            "npc": "Here's the bill. Would you like separate checks or all together?",
+            "npc_es": "Aquí está la cuenta. ¿Cuentas separadas o todo junto?",
+            "task_es": "Pide dividir la cuenta en dos y pregunta si la propina está incluida.",
+            "expect": [
+              [
+                "split",
+                "separate",
+                "two",
+                "together",
+                "half",
+                "two ways"
+              ],
+              [
+                "tip",
+                "gratuity"
+              ]
+            ],
+            "model": [
+              "Could we split it two ways? And is tip included?",
+              "Can we split it in half? Is the tip included?"
+            ]
+          }
+        ],
+        "useful": [
+          "I have a peanut allergy.",
+          "Could I get the sauce on the side?",
+          "This isn't what I ordered.",
+          "Is tip included?"
+        ]
+      }
+    },
+    {
+      "id": "cafe-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 17,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Quejarte con tacto en una comida de negocios, negociar un gesto de la casa y corregir un cargo.",
+      "items": [
+        "idi-its-a-toss-up",
+        "voc-lukewarm",
+        "idi-a-far-cry-from",
+        "phr-i-hate-to-be-a-pain-but",
+        "phr-i-dont-want-to-make-a-fuss",
+        "col-fall-short-of-expectations",
+        "voc-comp",
+        "idi-on-the-house",
+        "idi-hit-the-spot",
+        "voc-service-charge"
+      ],
+      "lesson": {
+        "id": "ls-cafe-c",
+        "level": "C1",
+        "topic": "food",
+        "order": 911,
+        "title": "A business lunch gone lukewarm",
+        "title_es": "Una comida de negocios que se enfrió",
+        "intro_es": "Hana invita a Julian a una comida cara en Toronto. La comida llega tibia y deciden hablar con el gerente sin perder la elegancia.",
+        "lines": [
+          {
+            "who": "Julian",
+            "en": "I can't decide. [It's a toss-up] between the duck and the halibut.",
+            "es": "No me decido. Está parejo entre el pato y el halibut.",
+            "item": "idi-its-a-toss-up"
+          },
+          {
+            "who": "Hana",
+            "en": "Take the duck. I'll order the halibut, and we can sample each other's.",
+            "es": "Pide el pato. Yo pido el halibut y probamos lo del otro."
+          },
+          {
+            "who": "Julian",
+            "en": "Hmm. This is [lukewarm].",
+            "es": "Mmm. Esto está tibio.",
+            "item": "voc-lukewarm"
+          },
+          {
+            "who": "Hana",
+            "en": "Mine too. For what we're paying, it's [a far cry from] the review I read.",
+            "es": "El mío también. Por lo que pagamos, está muy lejos de la reseña que leí.",
+            "item": "idi-a-far-cry-from"
+          },
+          {
+            "who": "Julian",
+            "en": "[I hate to be a pain, but] should we flag it?",
+            "es": "Odio ser pesado, pero ¿deberíamos avisar?",
+            "item": "phr-i-hate-to-be-a-pain-but"
+          },
+          {
+            "who": "Hana",
+            "en": "Yes. [I don't want to make a fuss], but a hundred dollars a head should buy a hot dinner.",
+            "es": "Sí. No quiero armar un escándalo, pero cien dólares por cabeza deberían garantizar una cena caliente.",
+            "item": "phr-i-dont-want-to-make-a-fuss"
+          },
+          {
+            "who": "Rowan",
+            "en": "Is everything alright with your meals?",
+            "es": "¿Todo bien con sus platillos?"
+          },
+          {
+            "who": "Hana",
+            "en": "To be candid, the food has [fallen short of expectations]. Both dishes are lukewarm.",
+            "es": "Para ser franca, la comida no ha estado a la altura. Ambos platillos están tibios.",
+            "item": "col-fall-short-of-expectations"
+          },
+          {
+            "who": "Rowan",
+            "en": "I'm so sorry. Let me get the manager.",
+            "es": "Lo lamento mucho. Voy por la gerente."
+          },
+          {
+            "who": "Elise",
+            "en": "I apologize. We'll remake both dishes, and we'd like to [comp] your wine.",
+            "es": "Me disculpo. Prepararemos de nuevo ambos platillos y queremos regalarles el vino.",
+            "item": "voc-comp"
+          },
+          {
+            "who": "Elise",
+            "en": "Dessert is [on the house], of course.",
+            "es": "Por supuesto, el postre va por cuenta de la casa.",
+            "item": "idi-on-the-house"
+          },
+          {
+            "who": "Julian",
+            "en": "That's generous, thank you. If the second round [hits the spot], we'll be back.",
+            "es": "Es generoso, gracias. Si la segunda ronda nos cae bien, volveremos.",
+            "item": "idi-hit-the-spot"
+          },
+          {
+            "who": "Hana",
+            "en": "One more thing: the bill shows a [service charge]. Is that standard for our party size?",
+            "es": "Una cosa más: la cuenta muestra un cargo por servicio. ¿Es lo normal para nuestro grupo?",
+            "item": "voc-service-charge"
+          },
+          {
+            "who": "Elise",
+            "en": "It's added automatically for parties of six or more. It was applied to your table by mistake. I'll remove it.",
+            "es": "Se agrega automáticamente a grupos de seis o más. Se aplicó a su mesa por error. Lo quitaré."
+          },
+          {
+            "who": "Hana",
+            "en": "I appreciate that. Thank you for handling this gracefully.",
+            "es": "Lo agradezco. Gracias por manejar esto con elegancia."
+          }
+        ],
+        "items": [
+          "idi-its-a-toss-up",
+          "voc-lukewarm",
+          "idi-a-far-cry-from",
+          "phr-i-hate-to-be-a-pain-but",
+          "phr-i-dont-want-to-make-a-fuss",
+          "col-fall-short-of-expectations",
+          "voc-comp",
+          "idi-on-the-house",
+          "idi-hit-the-spot",
+          "voc-service-charge"
+        ],
+        "questions": [
+          {
+            "q": "What does \"it's a toss-up\" mean?",
+            "options": [
+              "Both choices seem equally good",
+              "One choice is clearly bad",
+              "He wants to leave"
+            ],
+            "answer": 0,
+            "why_es": "Julian no puede decidir porque ambas opciones le parecen igual de buenas."
+          },
+          {
+            "q": "What is wrong with the food?",
+            "options": [
+              "It's too spicy",
+              "It's lukewarm",
+              "It's too expensive"
+            ],
+            "answer": 1,
+            "why_es": "Julian y Hana dicen que está tibio."
+          },
+          {
+            "q": "What does Hana mean by \"a far cry from the review\"?",
+            "options": [
+              "Exactly as described",
+              "Cheaper than expected",
+              "Very different from what she expected"
+            ],
+            "answer": 2,
+            "why_es": "Es una expresión para algo muy distinto de lo prometido."
+          },
+          {
+            "q": "What does the manager offer?",
+            "options": [
+              "To remake the dishes, comp the wine and give free dessert",
+              "Only a discount coupon",
+              "Nothing"
+            ],
+            "answer": 0,
+            "why_es": "Ofrece rehacer los platillos, el vino gratis y el postre de la casa."
+          },
+          {
+            "q": "Why is the service charge removed?",
+            "options": [
+              "It was applied by mistake",
+              "Hana asked for a discount",
+              "The restaurant is closing"
+            ],
+            "answer": 0,
+            "why_es": "Se aplica a grupos de seis o más; fue un error."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Plantea una queja con tacto sin dramatizar.",
+          "model": [
+            "I hate to be a pain, but the soup is lukewarm. Could you heat it up?",
+            "I don't want to make a fuss, but my dish is cold. Could it be warmed up?"
+          ],
+          "expect": [
+            [
+              "hate to be a pain",
+              "sorry to",
+              "don't want to make a fuss",
+              "dont want to make a fuss",
+              "excuse me",
+              "pardon",
+              "apologize",
+              "bother"
+            ],
+            [
+              "lukewarm",
+              "cold",
+              "warm",
+              "heat",
+              "hot",
+              "temperature"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Expresa decepción comparando con lo esperado, con 'a far cry from' o 'fall short'.",
+          "model": [
+            "Honestly, this is a far cry from what the reviews promised.",
+            "I'm afraid the meal fell short of my expectations."
+          ],
+          "expect": [
+            [
+              "far cry",
+              "fall short",
+              "fell short",
+              "falls short",
+              "expect",
+              "expectations"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide con diplomacia un gesto de la casa.",
+          "model": [
+            "Given the wait, would it be possible to have the dessert comped?",
+            "Would you consider taking something off the bill, or offering dessert on the house?"
+          ],
+          "expect": [
+            [
+              "comp",
+              "comped",
+              "on the house",
+              "discount",
+              "complimentary",
+              "free",
+              "courtesy",
+              "off the bill"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Cuestiona un cargo en la cuenta con cortesía.",
+          "model": [
+            "I noticed a service charge on the bill. Could you explain what it covers?",
+            "There's a service charge here. Is that standard for a table of two?"
+          ],
+          "expect": [
+            [
+              "service charge",
+              "charge",
+              "gratuity",
+              "fee"
+            ],
+            [
+              "explain",
+              "covers",
+              "why",
+              "what",
+              "remove",
+              "reverse",
+              "mistake",
+              "applied",
+              "standard"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No estás seguro de lo que cubre un cargo.",
+          "en": "I'm not sure I follow. Could you clarify what the surcharge covers?",
+          "es": "No estoy seguro de seguirle. ¿Podría aclarar qué cubre el cargo?"
+        },
+        {
+          "situation_es": "Quieres suavizar el tono de tu queja.",
+          "en": "Let me rephrase that: I'm not upset, just a little disappointed.",
+          "es": "Permítame decirlo de otra forma: no estoy molesto, solo un poco decepcionado."
+        },
+        {
+          "situation_es": "Quieres confirmar el alcance de la oferta.",
+          "en": "If I understand correctly, you're offering to comp the dessert, not the entrées?",
+          "es": "Si entiendo bien, ¿ofrece regalar el postre, no los platos fuertes?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-cafe-c",
+        "area": "restaurantes",
+        "level": "C1",
+        "title": "Raising a complaint with the manager",
+        "title_es": "Una queja con la gerente",
+        "setting_es": "Almuerzas con un cliente en un restaurante caro de Toronto. La comida llegó tibia y la gerente, Elise, se acerca a tu mesa.",
+        "npc": "Elise (manager)",
+        "turns": [
+          {
+            "npc": "Good afternoon. My server tells me there's an issue with your meal. I'm all ears.",
+            "npc_es": "Buenas tardes. Mi mesero me dice que hay un problema con su comida. La escucho.",
+            "task_es": "Explica con tacto: comida tibia y por debajo de lo esperado para el precio.",
+            "expect": [
+              [
+                "lukewarm",
+                "cold",
+                "tepid",
+                "not hot",
+                "warm",
+                "temperature"
+              ],
+              [
+                "expect",
+                "expectations",
+                "expected",
+                "price",
+                "paying",
+                "short",
+                "far cry"
+              ]
+            ],
+            "model": [
+              "I don't want to make a fuss, but the food is lukewarm, and for this price it falls short of what I expected.",
+              "To be candid, both dishes arrived cold, which is a far cry from what we were promised."
+            ]
+          },
+          {
+            "npc": "I apologize. That's not our standard. We can remake both dishes right away.",
+            "npc_es": "Me disculpo. Ese no es nuestro estándar. Podemos preparar ambos platillos de nuevo ahora mismo.",
+            "task_es": "Acepta, pero explica que tienes poco tiempo (reunión) y pide rapidez.",
+            "expect": [
+              [
+                "yes",
+                "please",
+                "thank",
+                "thanks",
+                "appreciate",
+                "go ahead",
+                "that would"
+              ],
+              [
+                "quickly",
+                "soon",
+                "time",
+                "meeting",
+                "tight",
+                "fast",
+                "priority",
+                "rush",
+                "hurry",
+                "promptly",
+                "asap"
+              ]
+            ],
+            "model": [
+              "Yes, please, thank you. We're a bit tight on time, so as quickly as possible.",
+              "That would be appreciated. We have a meeting at two, so we need it soon."
+            ]
+          },
+          {
+            "npc": "Of course. And for the inconvenience, I'd like to offer dessert on the house. Would that be acceptable?",
+            "npc_es": "Por supuesto. Y por las molestias, me gustaría ofrecer el postre por cuenta de la casa. ¿Le parece aceptable?",
+            "task_es": "Agradece, pero pide algo más sustancial (descuento en la cuenta).",
+            "expect": [
+              [
+                "appreciate",
+                "thank",
+                "thanks",
+                "kind",
+                "generous",
+                "gesture"
+              ],
+              [
+                "discount",
+                "bill",
+                "comp",
+                "wine",
+                "percent",
+                "off",
+                "something",
+                "more"
+              ]
+            ],
+            "model": [
+              "That's a kind gesture, thank you. Would you consider taking something off the bill as well?",
+              "I appreciate it. Could you also comp the wine or give us a discount?"
+            ]
+          },
+          {
+            "npc": "Let me see... I could comp the wine. Would that be fair?",
+            "npc_es": "Veamos... Podría regalarles el vino. ¿Le parecería justo?",
+            "task_es": "Acepta con cortesía y pide que quede reflejado en la cuenta.",
+            "expect": [
+              [
+                "fair",
+                "accept",
+                "sounds",
+                "works",
+                "agree",
+                "good",
+                "happy",
+                "yes",
+                "great"
+              ],
+              [
+                "bill",
+                "check",
+                "receipt",
+                "itemized",
+                "reflect",
+                "reflected",
+                "see",
+                "written"
+              ]
+            ],
+            "model": [
+              "That sounds fair. Could you make sure it's reflected on the bill?",
+              "Yes, that works. Please make sure it shows on the check."
+            ]
+          },
+          {
+            "npc": "Certainly. One more thing: I see an automatic service charge was added. It's meant for parties of six or more.",
+            "npc_es": "Por supuesto. Una cosa más: veo que se agregó un cargo por servicio automático. Es para grupos de seis o más.",
+            "task_es": "Señala con diplomacia que fue un error y pide quitarlo.",
+            "expect": [
+              [
+                "mistake",
+                "error",
+                "party",
+                "two",
+                "only",
+                "shouldn't",
+                "should not",
+                "not six",
+                "remove",
+                "take off"
+              ],
+              [
+                "remove",
+                "take off",
+                "take it off",
+                "reverse",
+                "adjust",
+                "fix",
+                "correct",
+                "cancel",
+                "taken off"
+              ]
+            ],
+            "model": [
+              "That must be a mistake, since there are only two of us. Could you remove it?",
+              "I think that was applied in error. Could you take it off, please?"
+            ]
+          },
+          {
+            "npc": "You're right, I'll remove it. Thank you for being so understanding. We hope you'll give us another chance.",
+            "npc_es": "Tiene razón, lo quitaré. Gracias por ser tan comprensivo. Esperamos que nos dé otra oportunidad.",
+            "task_es": "Cierra con tono cordial dejando la puerta abierta.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "chance",
+                "again",
+                "back",
+                "return",
+                "next time",
+                "visit",
+                "fix",
+                "hit the spot",
+                "enjoy"
+              ]
+            ],
+            "model": [
+              "I appreciate how you handled this. If the second round is good, we'll definitely come back.",
+              "Thank you, Elise. We'll give you another chance, and hopefully the meal hits the spot."
+            ]
+          }
+        ],
+        "useful": [
+          "I hate to be a pain, but...",
+          "It falls short of what I expected.",
+          "Would it be possible to...?",
+          "Could you remove the service charge?"
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "voc-oat-milk",
+      "type": "vocab",
+      "term": "oat milk",
+      "ipa": "/ˈoʊt mɪlk/",
+      "level": "A2",
+      "topic": "food",
+      "freq": 4,
+      "es": "leche de avena",
+      "def": "a plant-based milk made from oats",
+      "note": "En cafeterías se pide con el tamaño: *a large latte with oat milk*. Otras opciones: almond, soy, 2%, skim.",
+      "ex": [
+        {
+          "en": "Can I get a latte with [oat milk]?",
+          "es": "¿Me das un latte con leche de avena?"
+        },
+        {
+          "en": "They charge extra for [oat milk].",
+          "es": "Cobran extra por la leche de avena."
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "phr-i-have-a-peanut-allergy",
+      "type": "phrase",
+      "term": "I have a peanut allergy",
+      "ipa": "/aɪ hæv ə ˈpiːnʌt ˈælərdʒi/",
+      "level": "A2",
+      "topic": "food",
+      "freq": 4,
+      "es": "tengo alergia a los cacahuates",
+      "def": "a way to tell a server that peanuts are unsafe for you",
+      "note": "Frase para comunicar, no consejo médico. También: *I'm allergic to shellfish*. Dilo antes de pedir.",
+      "ex": [
+        {
+          "en": "Please note [I have a peanut allergy].",
+          "es": "Por favor tome nota: tengo alergia a los cacahuates."
+        },
+        {
+          "en": "Hi, [I have a peanut allergy]. What's safe to eat?",
+          "es": "Hola, tengo alergia a los cacahuates. ¿Qué puedo comer?"
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "salud"
+      ]
+    },
+    {
+      "id": "voc-cross-contamination",
+      "type": "vocab",
+      "term": "cross-contamination",
+      "ipa": "/ˌkrɔːs kənˌtæmɪˈneɪʃən/",
+      "level": "B2",
+      "topic": "food",
+      "freq": 2,
+      "es": "contaminación cruzada",
+      "def": "when a food touches another food and picks up something you must avoid",
+      "note": "Se menciona con alergias. Pregunta: *Do you take steps to avoid cross-contamination?*",
+      "ex": [
+        {
+          "en": "Ask the kitchen about [cross-contamination].",
+          "es": "Pregunta a la cocina por la contaminación cruzada."
+        },
+        {
+          "en": "Separate boards help prevent [cross-contamination].",
+          "es": "Las tablas separadas ayudan a evitar la contaminación cruzada."
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-on-the-side",
+      "type": "phrase",
+      "term": "on the side",
+      "ipa": "/ɑːn ðə saɪd/",
+      "level": "B1",
+      "topic": "food",
+      "freq": 4,
+      "es": "aparte (en un recipiente distinto)",
+      "def": "served separately, not on top of the food",
+      "note": "Se pide con salsas y aderezos: *dressing on the side*. No confundir con *aside*.",
+      "ex": [
+        {
+          "en": "Could I get the dressing [on the side]?",
+          "es": "¿Me puede poner el aderezo aparte?"
+        },
+        {
+          "en": "She ordered fries [on the side].",
+          "es": "Ella pidió las papas aparte."
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "phr-hold-the-onions",
+      "type": "phrase",
+      "term": "hold the onions",
+      "ipa": "/hoʊld ði ˈʌnjənz/",
+      "level": "B1",
+      "topic": "food",
+      "freq": 3,
+      "es": "sin cebolla (en mi pedido)",
+      "def": "please do not put onions in my food",
+      "note": "*Hold* aquí significa omitir. Se puede decir *no onions* o *without onions*. Informal y muy común.",
+      "ex": [
+        {
+          "en": "I'll have a burger, and [hold the onions].",
+          "es": "Quiero una hamburguesa, sin cebolla."
+        },
+        {
+          "en": "Can you [hold the onions] on my sandwich?",
+          "es": "¿Puede omitir la cebolla en mi sándwich?"
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ],
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "id": "phr-this-isnt-what-i-ordered",
+      "type": "phrase",
+      "term": "this isn't what I ordered",
+      "ipa": "/ðɪs ˈɪzənt wʌt aɪ ˈɔːrdərd/",
+      "level": "A2",
+      "topic": "food",
+      "freq": 4,
+      "es": "esto no es lo que pedí",
+      "def": "a polite way to point out a wrong order",
+      "note": "Dilo con tono amable: *Sorry, this isn't what I ordered.* Se agrega *I asked for...* para aclarar.",
+      "ex": [
+        {
+          "en": "Excuse me, [this isn't what I ordered].",
+          "es": "Disculpe, esto no es lo que pedí."
+        },
+        {
+          "en": "I think [this isn't what I ordered].",
+          "es": "Creo que esto no es lo que pedí."
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "voc-undercooked",
+      "type": "vocab",
+      "term": "undercooked",
+      "ipa": "/ˌʌndərˈkʊkt/",
+      "level": "B1",
+      "topic": "food",
+      "freq": 3,
+      "es": "poco cocido; crudo por dentro",
+      "def": "not cooked long enough",
+      "note": "Con carnes y huevos es importante. Lo contrario: *overcooked*. Dilo con tacto: *a bit undercooked*.",
+      "ex": [
+        {
+          "en": "The chicken is [undercooked] in the middle.",
+          "es": "El pollo está poco cocido por dentro."
+        },
+        {
+          "en": "My eggs were [undercooked], so I asked for new ones.",
+          "es": "Mis huevos estaban poco cocidos, así que pedí otros."
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "phr-could-you-remake-it",
+      "type": "phrase",
+      "term": "could you remake it?",
+      "ipa": "/kʊd jʊ riːˈmeɪk ɪt/",
+      "level": "B1",
+      "topic": "food",
+      "freq": 3,
+      "es": "¿podría prepararlo de nuevo?",
+      "def": "a polite request to cook or prepare something again",
+      "note": "Se usa con bebidas y platillos. Más suave: *Would it be possible to remake it?* Casi siempre lo hacen sin problema.",
+      "ex": [
+        {
+          "en": "This is cold. [Could you remake it]?",
+          "es": "Esto está frío. ¿Podría prepararlo de nuevo?"
+        },
+        {
+          "en": "I'm sorry, [could you remake it] with oat milk?",
+          "es": "Perdón, ¿podría prepararlo otra vez con leche de avena?"
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "phr-could-we-split-it-three-ways",
+      "type": "phrase",
+      "term": "could we split it three ways?",
+      "ipa": "/kʊd wi splɪt ɪt θriː weɪz/",
+      "level": "B1",
+      "topic": "food",
+      "freq": 3,
+      "es": "¿podemos dividirla en tres?",
+      "def": "a request to divide the bill equally",
+      "note": "Se cambia el número: *two ways*, *four ways*. Para cuentas separadas: *separate checks*.",
+      "ex": [
+        {
+          "en": "[Could we split it three ways], please?",
+          "es": "¿Podemos dividirla entre tres, por favor?"
+        },
+        {
+          "en": "The server asked, \"[Could we split it three ways]?\"",
+          "es": "La mesera preguntó: «¿La dividimos en tres?»"
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "col-add-a-tip",
+      "type": "collocation",
+      "term": "add a tip",
+      "level": "B1",
+      "topic": "money",
+      "freq": 3,
+      "es": "agregar propina",
+      "def": "to include extra money for the server when paying",
+      "note": "En la terminal de pago aparece *Add tip*. En Canadá y EE. UU. es común dejar de 15 a 20 %.",
+      "ex": [
+        {
+          "en": "I'll [add a tip] on the card machine.",
+          "es": "Voy a agregar la propina en la terminal."
+        },
+        {
+          "en": "Don't forget to [add a tip].",
+          "es": "No olvides agregar la propina."
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "voc-lukewarm",
+      "type": "vocab",
+      "term": "lukewarm",
+      "ipa": "/ˌluːkˈwɔːrm/",
+      "level": "B2",
+      "topic": "food",
+      "freq": 2,
+      "es": "tibio (ni caliente ni frío)",
+      "def": "only slightly warm; not hot enough",
+      "note": "Para comida o café se considera defecto. Más suave: *not as hot as I'd like*.",
+      "ex": [
+        {
+          "en": "My soup was [lukewarm] when it arrived.",
+          "es": "Mi sopa llegó tibia."
+        },
+        {
+          "en": "Nobody likes [lukewarm] coffee.",
+          "es": "A nadie le gusta el café tibio."
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ]
+    },
+    {
+      "id": "idi-its-a-toss-up",
+      "type": "idiom",
+      "term": "it's a toss-up",
+      "ipa": "/ɪts ə ˈtɔːs ʌp/",
+      "level": "C1",
+      "topic": "daily",
+      "freq": 2,
+      "es": "está parejo; da lo mismo",
+      "def": "both choices seem equally good",
+      "note": "Viene de lanzar una moneda. Úsalo cuando no hay favorita clara.",
+      "ex": [
+        {
+          "en": "Pizza or sushi? [It's a toss-up].",
+          "es": "¿Pizza o sushi? Está parejo."
+        },
+        {
+          "en": "For me, [it's a toss-up] between the two.",
+          "es": "Para mí, ambas opciones están parejas."
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "idi-a-far-cry-from",
+      "type": "idiom",
+      "term": "a far cry from",
+      "ipa": "/ə fɑːr kraɪ frʌm/",
+      "level": "C1",
+      "topic": "daily",
+      "freq": 2,
+      "es": "muy distinto de",
+      "def": "very different from something",
+      "note": "Suele expresar decepción: *This is a far cry from what I expected.*",
+      "ex": [
+        {
+          "en": "The meal was [a far cry from] the photos online.",
+          "es": "La comida fue muy distinta a las fotos de internet."
+        },
+        {
+          "en": "Today's service was [a far cry from] last time.",
+          "es": "El servicio de hoy fue muy distinto al de la última vez."
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "phr-i-hate-to-be-a-pain-but",
+      "type": "phrase",
+      "term": "I hate to be a pain, but",
+      "ipa": "/aɪ heɪt tə bi ə peɪn bʌt/",
+      "level": "B2",
+      "topic": "social",
+      "freq": 3,
+      "es": "odio ser pesado, pero",
+      "def": "a polite opening before a request or complaint",
+      "note": "Suaviza una queja o una petición. *Pain* aquí es molestia (informal).",
+      "ex": [
+        {
+          "en": "[I hate to be a pain, but] this is cold.",
+          "es": "Odio ser pesado, pero esto está frío."
+        },
+        {
+          "en": "[I hate to be a pain, but] could we get another fork?",
+          "es": "Odio ser pesado, pero ¿podemos pedir otro tenedor?"
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "conversacion"
+      ],
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "id": "phr-i-dont-want-to-make-a-fuss",
+      "type": "phrase",
+      "term": "I don't want to make a fuss",
+      "ipa": "/aɪ doʊnt wɑːnt tə meɪk ə fʌs/",
+      "level": "B2",
+      "topic": "social",
+      "freq": 3,
+      "es": "no quiero armar un escándalo",
+      "def": "a polite way to say that you are not going to complain loudly",
+      "note": "Se usa antes de quejarte con tacto: *I don't want to make a fuss, but...* Contrasta con *cause a scene* (hacer un escándalo).",
+      "ex": [
+        {
+          "en": "[I don't want to make a fuss], but this is wrong.",
+          "es": "No quiero armar un escándalo, pero esto está mal."
+        },
+        {
+          "en": "She said, \"[I don't want to make a fuss], but we waited an hour.\"",
+          "es": "Dijo: «No quiero armar un escándalo, pero esperamos una hora.»"
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "col-fall-short-of-expectations",
+      "type": "collocation",
+      "term": "fall short of expectations",
+      "level": "C1",
+      "topic": "work",
+      "freq": 3,
+      "es": "quedar por debajo de lo esperado",
+      "def": "to be worse than people hoped or were told",
+      "note": "Registro formal/profesional. Sujeto: *the service, the results, the film*...",
+      "ex": [
+        {
+          "en": "The service [fell short of expectations].",
+          "es": "El servicio quedó por debajo de lo esperado."
+        },
+        {
+          "en": "Sales may [fall short of expectations] this quarter.",
+          "es": "Las ventas podrían quedar por debajo de lo esperado este trimestre."
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "reuniones"
+      ],
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "id": "voc-comp",
+      "type": "vocab",
+      "term": "comp",
+      "ipa": "/kɑːmp/",
+      "level": "B2",
+      "topic": "food",
+      "freq": 2,
+      "es": "regalar sin cobrar (cortesía de la casa)",
+      "def": "to give something free to make up for a problem",
+      "note": "Verbo informal en restaurantes: *They comped our dessert.* Viene de *complimentary*.",
+      "ex": [
+        {
+          "en": "The manager [comped] our desserts.",
+          "es": "El gerente nos regaló los postres."
+        },
+        {
+          "en": "Could you [comp] the coffee for the wait?",
+          "es": "¿Podría regalarnos el café por la espera?"
+        }
+      ],
+      "areas": [
+        "restaurantes"
+      ],
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "id": "voc-service-charge",
+      "type": "vocab",
+      "term": "service charge",
+      "ipa": "/ˈsɜːrvɪs tʃɑːrdʒ/",
+      "level": "B2",
+      "topic": "money",
+      "freq": 2,
+      "es": "cargo por servicio",
+      "def": "an extra fee added to a restaurant bill",
+      "note": "A veces se añade automáticamente a grupos grandes. Pregunta: *Is the service charge optional?*",
+      "ex": [
+        {
+          "en": "There's a [service charge] for large groups.",
+          "es": "Hay un cargo por servicio para grupos grandes."
+        },
+        {
+          "en": "I noticed a [service charge] on the bill.",
+          "es": "Noté un cargo por servicio en la cuenta."
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "bancos"
+      ]
+    }
+  ]
+}

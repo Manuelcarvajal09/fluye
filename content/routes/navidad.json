@@ -1,0 +1,1852 @@
+{
+  "id": "navidad",
+  "title_es": "Navidad y reuniones",
+  "icon": "gift",
+  "scene": null,
+  "areas": [
+    "relaciones",
+    "conversacion"
+  ],
+  "season": "navidad",
+  "objective_es": "Moverte en fiestas, cenas familiares e intercambios de regalos en Canadá y EE. UU.: saludar, agradecer, platicar y rechazar con cortesía.",
+  "tracks": [
+    {
+      "id": "navidad-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 11,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Felicitar, hablar de planes para las fiestas y rechazar más comida con cortesía.",
+      "items": [
+        "phr-merry-christmas",
+        "col-wrap-a-gift",
+        "voc-secret-santa",
+        "phr-any-plans-for-the-holidays",
+        "col-exchange-gifts",
+        "phr-would-you-like-seconds",
+        "phr-im-stuffed",
+        "phr-happy-holidays",
+        "voc-leftovers",
+        "phr-help-yourself"
+      ],
+      "lesson": {
+        "id": "ls-navidad-a",
+        "level": "A2",
+        "topic": "social",
+        "order": 901,
+        "title": "Secret Santa at the office",
+        "title_es": "Intercambio navideño en la oficina",
+        "intro_es": "Amira y Dave platican en la oficina unos días antes de la fiesta de Navidad.",
+        "lines": [
+          {
+            "who": "Amira",
+            "en": "[Merry Christmas], Dave!",
+            "es": "¡Feliz Navidad, Dave!",
+            "item": "phr-merry-christmas"
+          },
+          {
+            "who": "Dave",
+            "en": "Happy holidays, Amira! Are you ready for the office party?",
+            "es": "¡Felices fiestas, Amira! ¿Lista para la fiesta de la oficina?"
+          },
+          {
+            "who": "Amira",
+            "en": "Almost. I still need to [wrap a gift] for my person.",
+            "es": "Casi. Todavía tengo que envolver el regalo para mi persona.",
+            "item": "col-wrap-a-gift"
+          },
+          {
+            "who": "Amira",
+            "en": "It is for [Secret Santa]. The limit is twenty dollars.",
+            "es": "Es para el intercambio. El límite es de veinte dólares.",
+            "item": "voc-secret-santa"
+          },
+          {
+            "who": "Dave",
+            "en": "Who did you get?",
+            "es": "¿A quién te tocó?"
+          },
+          {
+            "who": "Amira",
+            "en": "I can't tell you. It's a secret!",
+            "es": "No te puedo decir. ¡Es un secreto!"
+          },
+          {
+            "who": "Dave",
+            "en": "Right. I bought a warm scarf for my person.",
+            "es": "Cierto. Yo compré una bufanda abrigadora para mi persona."
+          },
+          {
+            "who": "Amira",
+            "en": "That's nice. Do you have [any plans for the holidays]?",
+            "es": "Qué bien. ¿Tienes planes para las fiestas?",
+            "item": "phr-any-plans-for-the-holidays"
+          },
+          {
+            "who": "Dave",
+            "en": "We're driving to my parents' house in Calgary. And you?",
+            "es": "Vamos en coche a casa de mis papás en Calgary. ¿Y tú?"
+          },
+          {
+            "who": "Amira",
+            "en": "I'm staying here. My sister is coming, and we will [exchange gifts] on the 24th.",
+            "es": "Me quedo aquí. Viene mi hermana e intercambiaremos regalos el 24.",
+            "item": "col-exchange-gifts"
+          },
+          {
+            "who": "Dave",
+            "en": "Sounds fun. I bet there will be a lot of food.",
+            "es": "Suena divertido. Seguro habrá mucha comida."
+          },
+          {
+            "who": "Amira",
+            "en": "Yes! My dad always asks, \"[Would you like seconds]?\"",
+            "es": "¡Sí! Mi papá siempre pregunta: «¿Quieres repetir?»",
+            "item": "phr-would-you-like-seconds"
+          },
+          {
+            "who": "Dave",
+            "en": "And what do you say?",
+            "es": "¿Y tú qué dices?"
+          },
+          {
+            "who": "Amira",
+            "en": "I say, \"[I'm stuffed]!\" But then I eat more.",
+            "es": "Digo: «¡Estoy llenísima!». Pero luego como más.",
+            "item": "phr-im-stuffed"
+          }
+        ],
+        "items": [
+          "phr-merry-christmas",
+          "col-wrap-a-gift",
+          "voc-secret-santa",
+          "phr-any-plans-for-the-holidays",
+          "col-exchange-gifts",
+          "phr-would-you-like-seconds",
+          "phr-im-stuffed"
+        ],
+        "questions": [
+          {
+            "q": "What does Amira need to do?",
+            "options": [
+              "Buy food",
+              "Wrap a gift",
+              "Call her sister"
+            ],
+            "answer": 1,
+            "why_es": "Dice: I still need to wrap a gift."
+          },
+          {
+            "q": "What did Dave buy?",
+            "options": [
+              "A warm scarf",
+              "A book",
+              "A mug"
+            ],
+            "answer": 0,
+            "why_es": "Dave dice que compró una bufanda abrigadora."
+          },
+          {
+            "q": "Where is Dave going for the holidays?",
+            "options": [
+              "To Calgary",
+              "To Vancouver",
+              "He is staying home"
+            ],
+            "answer": 0,
+            "why_es": "Va a casa de sus papás en Calgary."
+          },
+          {
+            "q": "What does Amira say when her dad offers more food?",
+            "options": [
+              "Yes, please",
+              "I'm stuffed",
+              "I'm hungry"
+            ],
+            "answer": 1,
+            "why_es": "Ella dice: I'm stuffed (estoy llenísima)."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Desea Feliz Navidad a un compañero de trabajo.",
+          "model": [
+            "Merry Christmas!",
+            "Merry Christmas! Happy holidays!"
+          ],
+          "expect": [
+            [
+              "merry christmas",
+              "happy holidays"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta a alguien si tiene planes para las fiestas.",
+          "model": [
+            "Do you have any plans for the holidays?",
+            "Any plans for the holidays?"
+          ],
+          "expect": [
+            [
+              "plans"
+            ],
+            [
+              "holiday",
+              "holidays",
+              "christmas"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Rechaza más comida con cortesía porque estás lleno.",
+          "model": [
+            "No more for me, thanks. I'm stuffed!",
+            "I'm full, thank you. It was delicious."
+          ],
+          "expect": [
+            [
+              "stuffed",
+              "full"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste lo que dijeron.",
+          "en": "Sorry, can you say that again?",
+          "es": "Perdón, ¿puedes repetirlo?"
+        },
+        {
+          "situation_es": "Hablan muy rápido.",
+          "en": "Can you speak more slowly, please?",
+          "es": "¿Puedes hablar más despacio, por favor?"
+        },
+        {
+          "situation_es": "No conoces una palabra.",
+          "en": "What does that mean?",
+          "es": "¿Qué significa eso?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-navidad-a",
+        "area": "relaciones",
+        "level": "A2",
+        "title": "Office holiday party",
+        "title_es": "Fiesta navideña de la oficina",
+        "setting_es": "Es diciembre. Llegas a la fiesta de tu oficina en Edmonton. Jordan, tu compañero, te recibe en la puerta.",
+        "npc": "Jordan",
+        "turns": [
+          {
+            "npc": "Hi {name}! Merry Christmas! Welcome to our office party.",
+            "npc_es": "¡Hola {name}! ¡Feliz Navidad! Bienvenido a nuestra fiesta de la oficina.",
+            "task_es": "Devuelve el saludo y agradece la invitación.",
+            "expect": [
+              [
+                "merry christmas",
+                "happy holidays",
+                "hi",
+                "hello"
+              ],
+              [
+                "thank",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "Merry Christmas, Jordan! Thanks for inviting me.",
+              "Hi Jordan! Happy holidays, and thank you for having me."
+            ]
+          },
+          {
+            "npc": "Come on in! Would you like some eggnog or some juice?",
+            "npc_es": "¡Pasa! ¿Quieres ponche de huevo o jugo?",
+            "task_es": "Elige una bebida con cortesía.",
+            "expect": [
+              [
+                "juice",
+                "eggnog",
+                "water",
+                "coffee",
+                "tea",
+                "pop",
+                "soda"
+              ]
+            ],
+            "model": [
+              "Juice, please.",
+              "I'd like some eggnog, please."
+            ]
+          },
+          {
+            "npc": "Great. We're doing Secret Santa in a minute. Did you bring your gift?",
+            "npc_es": "Perfecto. En un momento hacemos el intercambio. ¿Trajiste tu regalo?",
+            "task_es": "Di que sí y que ya lo envolviste.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "i did",
+                "i have"
+              ],
+              [
+                "gift",
+                "present",
+                "wrapped",
+                "wrap",
+                "it"
+              ]
+            ],
+            "model": [
+              "Yes, I did. I wrapped it this morning.",
+              "Yes! I have my gift right here."
+            ]
+          },
+          {
+            "npc": "Nice! So, do you have any plans for the holidays?",
+            "npc_es": "¡Qué bien! ¿Y tienes planes para las fiestas?",
+            "task_es": "Cuenta qué harás (quedarte, viajar o ver a tu familia).",
+            "expect": [
+              [
+                "family",
+                "stay",
+                "staying",
+                "home",
+                "visit",
+                "visiting",
+                "travel",
+                "traveling",
+                "going",
+                "fly",
+                "friends",
+                "parents",
+                "plans",
+                "nothing"
+              ]
+            ],
+            "model": [
+              "I'm staying here. Some friends are coming over.",
+              "I'm going to visit my family in Mexico."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bin (the )?holidays\\b",
+                "fix": "for the holidays / over the holidays",
+                "why_es": "«En las fiestas» se dice *for the holidays* u *over the holidays*, no *in holidays*."
+              }
+            ]
+          },
+          {
+            "npc": "That sounds lovely. Please, have some more cake!",
+            "npc_es": "Qué bonito. ¡Por favor, come más pastel!",
+            "task_es": "Rechaza con cortesía: estás lleno y estaba rico.",
+            "expect": [
+              [
+                "stuffed",
+                "full",
+                "no more",
+                "enough",
+                "no thanks",
+                "no thank"
+              ]
+            ],
+            "model": [
+              "No, thanks. I'm stuffed! It was delicious.",
+              "I'm full, thank you. The cake was great."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am (very )?(satisfied|fulled)\\b",
+                "fix": "I'm full / I'm stuffed",
+                "why_es": "Para decir que ya no cabe más comida usa *I'm full* o *I'm stuffed*."
+              }
+            ]
+          },
+          {
+            "npc": "Okay, the party is over! Drive safe, and merry Christmas!",
+            "npc_es": "¡Se acabó la fiesta! Maneja con cuidado, ¡y feliz Navidad!",
+            "task_es": "Agradece y despídete.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "bye",
+                "goodbye",
+                "see you",
+                "night",
+                "merry christmas",
+                "happy holidays",
+                "you too"
+              ]
+            ],
+            "model": [
+              "Thanks, Jordan! Merry Christmas, see you soon.",
+              "Thank you! You too. Happy holidays!"
+            ]
+          }
+        ],
+        "useful": [
+          "Merry Christmas!",
+          "Do you have any plans for the holidays?",
+          "Would you like seconds?",
+          "I'm stuffed."
+        ]
+      }
+    },
+    {
+      "id": "navidad-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Ser buen invitado en una cena familiar: agradecer, recibir regalos, aclarar preferencias y rechazar con tacto.",
+      "items": [
+        "phr-thanks-for-having-us",
+        "phr-you-shouldnt-have",
+        "col-host-a-dinner",
+        "idi-the-more-the-merrier",
+        "idi-its-the-thought-that-counts",
+        "voc-eggnog",
+        "voc-leftovers",
+        "voc-boxing-day",
+        "phr-can-i-bring-anything",
+        "pv-have-over",
+        "voc-potluck"
+      ],
+      "lesson": {
+        "id": "ls-navidad-b",
+        "level": "B1",
+        "topic": "social",
+        "order": 902,
+        "title": "Christmas dinner with Marcus's family",
+        "title_es": "Cena de Navidad con la familia de Marcus",
+        "intro_es": "Priya conoce a la familia de su pareja, Marcus, en Ontario. Hay más invitados de los previstos y detalles que aclarar.",
+        "lines": [
+          {
+            "who": "Rosa",
+            "en": "Priya! Come in out of the cold. You must be freezing.",
+            "es": "¡Priya! Pasa, sal del frío. Debes estar congelada."
+          },
+          {
+            "who": "Priya",
+            "en": "[Thanks for having us], Mrs. Delgado. I brought some samosas. I wasn't sure what to bring.",
+            "es": "Gracias por recibirnos, señora Delgado. Traje samosas. No sabía qué llevar.",
+            "item": "phr-thanks-for-having-us"
+          },
+          {
+            "who": "Rosa",
+            "en": "Oh, [you shouldn't have]! Marcus, look at this.",
+            "es": "Ay, ¡no tenías que molestarte! Marcus, mira esto.",
+            "item": "phr-you-shouldnt-have"
+          },
+          {
+            "who": "Priya",
+            "en": "It's the least I could do. You're [hosting a dinner] for fifteen people!",
+            "es": "Es lo mínimo. ¡Estás organizando una cena para quince personas!",
+            "item": "col-host-a-dinner"
+          },
+          {
+            "who": "Rosa",
+            "en": "Sixteen, actually. Marcus's cousin is bringing a friend, but [the more the merrier].",
+            "es": "Dieciséis, en realidad. El primo de Marcus trae a un amigo, pero entre más, mejor.",
+            "item": "idi-the-more-the-merrier"
+          },
+          {
+            "who": "Marcus",
+            "en": "Mom, Priya got you a candle too. It's nothing fancy.",
+            "es": "Mamá, Priya también te trajo una vela. Nada elegante."
+          },
+          {
+            "who": "Priya",
+            "en": "I hope you like lavender. I couldn't find anything more original.",
+            "es": "Espero que te guste la lavanda. No encontré nada más original."
+          },
+          {
+            "who": "Rosa",
+            "en": "Don't worry, [it's the thought that counts]. And I love lavender.",
+            "es": "No te preocupes, lo que cuenta es el detalle. Y me encanta la lavanda.",
+            "item": "idi-its-the-thought-that-counts"
+          },
+          {
+            "who": "Marcus",
+            "en": "Can I get you some [eggnog]? Dad makes it from scratch.",
+            "es": "¿Te sirvo ponche de huevo? Mi papá lo hace desde cero.",
+            "item": "voc-eggnog"
+          },
+          {
+            "who": "Priya",
+            "en": "Does it have alcohol in it? I'm driving us back to Toronto tonight.",
+            "es": "¿Lleva alcohol? Yo manejo de regreso a Toronto esta noche."
+          },
+          {
+            "who": "Marcus",
+            "en": "A bit of rum. But there's a non-alcoholic one in the fridge.",
+            "es": "Un poco de ron. Pero hay uno sin alcohol en el refri."
+          },
+          {
+            "who": "Priya",
+            "en": "The non-alcoholic one, please. And I'll help with the dishes later.",
+            "es": "El que no tiene alcohol, por favor. Y luego ayudo con los platos."
+          },
+          {
+            "who": "Rosa",
+            "en": "Absolutely not. You're a guest. Besides, we'll have [leftovers] for days.",
+            "es": "Para nada. Eres invitada. Además, tendremos sobras por días.",
+            "item": "voc-leftovers"
+          },
+          {
+            "who": "Marcus",
+            "en": "And on [Boxing Day] we stay in pyjamas and eat them.",
+            "es": "Y el 26 nos quedamos en pijama y nos las comemos.",
+            "item": "voc-boxing-day"
+          }
+        ],
+        "items": [
+          "phr-thanks-for-having-us",
+          "phr-you-shouldnt-have",
+          "col-host-a-dinner",
+          "idi-the-more-the-merrier",
+          "idi-its-the-thought-that-counts",
+          "voc-eggnog",
+          "voc-leftovers",
+          "voc-boxing-day"
+        ],
+        "questions": [
+          {
+            "q": "Why does Rosa say \"the more the merrier\"?",
+            "options": [
+              "She doesn't mind more guests",
+              "She wants fewer people",
+              "She is angry about the guests"
+            ],
+            "answer": 0,
+            "why_es": "La frase significa que no le molesta tener más invitados."
+          },
+          {
+            "q": "What does Priya choose to drink?",
+            "options": [
+              "Eggnog with rum",
+              "The non-alcoholic eggnog",
+              "Hot chocolate"
+            ],
+            "answer": 1,
+            "why_es": "Ella pide el que no tiene alcohol porque va a manejar."
+          },
+          {
+            "q": "Why won't Rosa let Priya wash the dishes?",
+            "options": [
+              "Priya is a guest",
+              "There are no dishes",
+              "Priya is tired"
+            ],
+            "answer": 0,
+            "why_es": "Rosa dice: You're a guest."
+          },
+          {
+            "q": "What do they usually do on Boxing Day?",
+            "options": [
+              "Go to work",
+              "Stay in pyjamas and eat leftovers",
+              "Travel to Toronto"
+            ],
+            "answer": 1,
+            "why_es": "Marcus dice que se quedan en pijama y comen sobras."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Agradece a la anfitriona y ofrece ayuda sin imponerte.",
+          "model": [
+            "Thanks so much for having us. Is there anything I can help with?",
+            "Thank you for inviting us. Can I give you a hand with anything?"
+          ],
+          "expect": [
+            [
+              "thank",
+              "thanks"
+            ],
+            [
+              "help",
+              "hand",
+              "anything",
+              "bring"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Te dan un regalo inesperado: reacciona con sorpresa agradecida.",
+          "model": [
+            "Oh, you shouldn't have! Thank you, this is so thoughtful.",
+            "Wow, you shouldn't have! That's so kind of you."
+          ],
+          "expect": [
+            [
+              "shouldn't have",
+              "shouldnt have",
+              "thoughtful",
+              "kind",
+              "thank"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Rechaza con cortesía una bebida con alcohol y pide una sin alcohol.",
+          "model": [
+            "I'll pass on the rum, thanks. Do you have something non-alcoholic?",
+            "I'm driving, so I'll have something non-alcoholic, please."
+          ],
+          "expect": [
+            [
+              "non-alcoholic",
+              "nonalcoholic",
+              "no alcohol",
+              "without alcohol",
+              "juice",
+              "soda",
+              "pop",
+              "water",
+              "virgin"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica a un amigo qué es Boxing Day.",
+          "model": [
+            "Boxing Day is the day after Christmas in Canada. People shop the sales or relax at home.",
+            "It's December 26th. Many stores have big sales, and it's a holiday in Canada."
+          ],
+          "expect": [
+            [
+              "day after",
+              "december 26",
+              "26th",
+              "26"
+            ],
+            [
+              "christmas",
+              "sales",
+              "holiday",
+              "shop"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres confirmar un dato.",
+          "en": "Just to make sure I understand, dinner is at six?",
+          "es": "Para asegurarme de entender, ¿la cena es a las seis?"
+        },
+        {
+          "situation_es": "Quieres reformular lo que entendiste.",
+          "en": "So what you're saying is that we don't need to bring anything?",
+          "es": "O sea, ¿lo que dices es que no necesitamos llevar nada?"
+        },
+        {
+          "situation_es": "No conoces una palabra.",
+          "en": "I haven't heard that one before. What is it?",
+          "es": "No había oído esa. ¿Qué es?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-navidad-b",
+        "area": "relaciones",
+        "level": "B1",
+        "title": "Guest at a family dinner",
+        "title_es": "Invitado a una cena familiar",
+        "setting_es": "Es Nochebuena. Llegas con tu pareja a casa de sus padres en Ontario. Rosa, la mamá, te abre la puerta.",
+        "npc": "Rosa",
+        "turns": [
+          {
+            "npc": "Come in, come in! Did you find parking okay? It's so icy out there.",
+            "npc_es": "¡Pasen, pasen! ¿Encontraron dónde estacionarse? Está muy helado allá afuera.",
+            "task_es": "Agradece, di que sí encontraste (costó un poco) y que estás contento de estar ahí.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "happy",
+                "glad",
+                "great to"
+              ],
+              [
+                "park",
+                "parking",
+                "street",
+                "icy",
+                "yes",
+                "fine",
+                "found"
+              ]
+            ],
+            "model": [
+              "Thanks so much! We found a spot on the street. We're really glad to be here.",
+              "Yes, it took a minute, but we parked nearby. Thank you for having us."
+            ]
+          },
+          {
+            "npc": "Dinner's almost ready. I hope you're hungry. I may have gone a little overboard with the food!",
+            "npc_es": "La cena casi está lista. Espero que tengan hambre. ¡Creo que me pasé con la comida!",
+            "task_es": "Elogia el aroma y ofrece ayuda.",
+            "expect": [
+              [
+                "smell",
+                "smells",
+                "looks",
+                "delicious",
+                "amazing",
+                "great",
+                "can't wait",
+                "cant wait",
+                "wonderful"
+              ],
+              [
+                "help",
+                "hand",
+                "anything"
+              ]
+            ],
+            "model": [
+              "It smells amazing! Can I give you a hand with anything?",
+              "Everything looks delicious. Is there anything I can help with?"
+            ]
+          },
+          {
+            "npc": "No, no, sit down! Oh, before I forget, do you eat meat? Marcus said you might be vegetarian.",
+            "npc_es": "¡No, siéntate! Ah, antes de que se me olvide, ¿comes carne? Marcus dijo que quizá eres vegetariana.",
+            "task_es": "Aclara que eres vegetariana, pero sin causar molestias.",
+            "expect": [
+              [
+                "vegetarian",
+                "don't eat meat",
+                "dont eat meat",
+                "no meat",
+                "meat"
+              ],
+              [
+                "trouble",
+                "problem",
+                "worry",
+                "fuss",
+                "bother",
+                "sides",
+                "fine",
+                "happy",
+                "vegetables"
+              ]
+            ],
+            "model": [
+              "I'm vegetarian, but please don't go to any trouble. I'm happy with the sides.",
+              "I don't eat meat, but there's no need to worry. The vegetables look great."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi (am|'m|m) vegetarian (for|since) \\d",
+                "fix": "I've been vegetarian for X years",
+                "why_es": "Para duración usa presente perfecto: *I've been vegetarian for five years*."
+              }
+            ]
+          },
+          {
+            "npc": "Don't worry, there's a lentil dish just for you. Now, would you like some eggnog? There's a non-alcoholic one too.",
+            "npc_es": "No te preocupes, hay un platillo de lentejas para ti. ¿Quieres ponche de huevo? También hay uno sin alcohol.",
+            "task_es": "Elige una opción y agradece.",
+            "expect": [
+              [
+                "eggnog",
+                "non-alcoholic",
+                "nonalcoholic",
+                "juice",
+                "water",
+                "sparkling",
+                "yes",
+                "please",
+                "no",
+                "pop"
+              ],
+              [
+                "thank",
+                "thanks",
+                "please",
+                "great",
+                "lovely"
+              ]
+            ],
+            "model": [
+              "The non-alcoholic one, please. Thank you!",
+              "I'd love some eggnog, thanks. Just a small glass."
+            ]
+          },
+          {
+            "npc": "Here, have some more stuffing. You've hardly eaten anything!",
+            "npc_es": "Toma, come más relleno. ¡Casi no has comido nada!",
+            "task_es": "Rechaza con cortesía sin ofender: ya comiste mucho y todo estaba delicioso.",
+            "expect": [
+              [
+                "full",
+                "stuffed",
+                "enough",
+                "plenty",
+                "couldn't",
+                "couldnt",
+                "no more"
+              ],
+              [
+                "delicious",
+                "amazing",
+                "great",
+                "wonderful",
+                "good",
+                "lovely",
+                "thank",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "I couldn't eat another bite, but everything was delicious. Thank you!",
+              "I'm full, honestly, but it was wonderful. Maybe a little later."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am satisfied\\b",
+                "fix": "I'm full / I couldn't eat another bite",
+                "why_es": "*Satisfied* no se usa así para comida; di *I'm full* o *I'm stuffed*."
+              }
+            ]
+          },
+          {
+            "npc": "Well, you two are staying through Boxing Day, aren't you? We'll have leftovers for days!",
+            "npc_es": "Bueno, ustedes se quedan hasta el 26, ¿verdad? ¡Tendremos sobras por días!",
+            "task_es": "Responde que encantados y pregunta qué hacen normalmente el 26.",
+            "expect": [
+              [
+                "love",
+                "happy",
+                "glad",
+                "sounds",
+                "yes",
+                "great"
+              ],
+              [
+                "boxing day",
+                "usually",
+                "normally",
+                "what do you",
+                "what are the plans",
+                "tradition"
+              ]
+            ],
+            "model": [
+              "We'd love to! What do you usually do on Boxing Day?",
+              "Yes, thank you! What's the plan for Boxing Day?"
+            ]
+          }
+        ],
+        "useful": [
+          "Thanks so much for having us.",
+          "You shouldn't have!",
+          "I couldn't eat another bite.",
+          "The more the merrier.",
+          "Is there anything I can help with?"
+        ]
+      }
+    },
+    {
+      "id": "navidad-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 17,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Manejar temas incómodos, humor sutil y rechazos elegantes en una fiesta de trabajo.",
+      "items": [
+        "idi-steer-clear-of",
+        "idi-bite-your-tongue",
+        "idi-break-the-ice",
+        "voc-regift",
+        "idi-the-elephant-in-the-room",
+        "phr-read-the-room",
+        "phr-i-couldnt-possibly",
+        "idi-overstay-your-welcome",
+        "idi-take-a-rain-check"
+      ],
+      "lesson": {
+        "id": "ls-navidad-c",
+        "level": "C1",
+        "topic": "social",
+        "order": 903,
+        "title": "The office party minefield",
+        "title_es": "La fiesta de oficina, campo minado",
+        "intro_es": "En la fiesta navideña de la empresa en Toronto, Naomi e Idris intercambian chismes inofensivos y esquivan conversaciones incómodas.",
+        "lines": [
+          {
+            "who": "Idris",
+            "en": "Naomi! I was about to send a search party. Where have you been?",
+            "es": "¡Naomi! Ya iba a mandar una brigada de rescate. ¿Dónde andabas?"
+          },
+          {
+            "who": "Naomi",
+            "en": "Cornered by Walt. He's on his third rant about property taxes, and it's barely eight o'clock.",
+            "es": "Acorralada por Walt. Va en su tercer sermón sobre el predial y apenas son las ocho."
+          },
+          {
+            "who": "Idris",
+            "en": "Ah, the classic. My strategy is to [steer clear of] anyone who starts with \"Back in my day.\"",
+            "es": "Ah, el clásico. Mi estrategia es evitar a cualquiera que empiece con «En mis tiempos».",
+            "item": "idi-steer-clear-of"
+          },
+          {
+            "who": "Naomi",
+            "en": "I'm [biting my tongue] so hard it hurts. He asked if remote work is just a fancy word for napping.",
+            "es": "Me estoy mordiendo la lengua con tanta fuerza que duele. Preguntó si el trabajo remoto es solo un nombre elegante para dormir la siesta.",
+            "item": "idi-bite-your-tongue"
+          },
+          {
+            "who": "Idris",
+            "en": "Charming. Anyway, did you pull a name for Secret Santa? That should [break the ice] with the new hires.",
+            "es": "Encantador. Bueno, ¿te tocó alguien en el intercambio? Eso debería romper el hielo con los de nuevo ingreso.",
+            "item": "idi-break-the-ice"
+          },
+          {
+            "who": "Naomi",
+            "en": "I did, and I'm slightly ashamed. I [regifted] a candle my aunt gave me in 2021.",
+            "es": "Sí, y me da algo de pena. Regalé de nuevo una vela que me dio mi tía en 2021.",
+            "item": "voc-regift"
+          },
+          {
+            "who": "Idris",
+            "en": "Bold. Let's hope the recipient doesn't check the dust on the lid.",
+            "es": "Audaz. Esperemos que quien la reciba no revise el polvo de la tapa."
+          },
+          {
+            "who": "Naomi",
+            "en": "Speaking of awkward, nobody's mentioned [the elephant in the room]: Fatima's team being reorganized.",
+            "es": "Hablando de incómodo, nadie ha mencionado el tema de fondo: la reorganización del equipo de Fatima.",
+            "item": "idi-the-elephant-in-the-room"
+          },
+          {
+            "who": "Idris",
+            "en": "Everyone's walking on eggshells. [Read the room]: it's a party, not a town hall.",
+            "es": "Todos pisan con cuidado. Lee el ambiente: es una fiesta, no una asamblea.",
+            "item": "phr-read-the-room"
+          },
+          {
+            "who": "Idris",
+            "en": "Can I top up your drink?",
+            "es": "¿Te sirvo otro poco?"
+          },
+          {
+            "who": "Naomi",
+            "en": "[I couldn't possibly]. I'm driving, and the director is watching me like a hawk.",
+            "es": "No podría. Voy a manejar, y la directora me vigila como halcón.",
+            "item": "phr-i-couldnt-possibly"
+          },
+          {
+            "who": "Idris",
+            "en": "Suit yourself. You've got that look, though. Planning to slip out before dessert?",
+            "es": "Como quieras. Aun así tienes esa cara. ¿Piensas escaparte antes del postre?"
+          },
+          {
+            "who": "Naomi",
+            "en": "Not yet. I don't want to [overstay my welcome], but leaving before the speeches would look worse.",
+            "es": "Todavía no. No quiero pasarme de la raya, pero irme antes de los discursos se vería peor.",
+            "item": "idi-overstay-your-welcome"
+          },
+          {
+            "who": "Naomi",
+            "en": "I'll [take a rain check] on karaoke, though.",
+            "es": "Pero lo de karaoke lo dejo para otra ocasión.",
+            "item": "idi-take-a-rain-check"
+          },
+          {
+            "who": "Idris",
+            "en": "Wise woman. Same time next year?",
+            "es": "Mujer sabia. ¿Mismo lugar el próximo año?"
+          }
+        ],
+        "items": [
+          "idi-steer-clear-of",
+          "idi-bite-your-tongue",
+          "idi-break-the-ice",
+          "voc-regift",
+          "idi-the-elephant-in-the-room",
+          "phr-read-the-room",
+          "phr-i-couldnt-possibly",
+          "idi-overstay-your-welcome",
+          "idi-take-a-rain-check"
+        ],
+        "questions": [
+          {
+            "q": "Why was Naomi avoiding Walt?",
+            "options": [
+              "He kept ranting and made unfair remarks",
+              "He owes her money",
+              "He asked her to sing"
+            ],
+            "answer": 0,
+            "why_es": "Walt se queja de impuestos y se burla del trabajo remoto."
+          },
+          {
+            "q": "What does \"I'm biting my tongue\" suggest?",
+            "options": [
+              "She is injured",
+              "She is holding back what she wants to say",
+              "She is eating something"
+            ],
+            "answer": 1,
+            "why_es": "Es un modismo: se contiene para no responder mal."
+          },
+          {
+            "q": "What does Idris mean by \"read the room\"?",
+            "options": [
+              "Look at the schedule",
+              "Notice the mood and behave accordingly",
+              "Read a document aloud"
+            ],
+            "answer": 1,
+            "why_es": "Pide que perciba el ambiente: es fiesta, no asamblea."
+          },
+          {
+            "q": "Why does Naomi refuse another drink?",
+            "options": [
+              "She doesn't like it",
+              "She is driving and being watched",
+              "It is too expensive"
+            ],
+            "answer": 1,
+            "why_es": "Dice que va a manejar y la directora la observa."
+          },
+          {
+            "q": "What will Naomi skip?",
+            "options": [
+              "The speeches",
+              "Karaoke",
+              "Dessert"
+            ],
+            "answer": 1,
+            "why_es": "Dice: I'll take a rain check on karaoke."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Cambia de tema con tacto cuando alguien empieza a hablar de política.",
+          "model": [
+            "I'd rather steer clear of politics tonight. Did you catch the game?",
+            "Let's not get into politics. Speaking of which, have you tried the dessert?"
+          ],
+          "expect": [
+            [
+              "steer",
+              "rather",
+              "change",
+              "topic",
+              "politics",
+              "speaking of",
+              "anyway",
+              "let's not",
+              "lets not"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Rechaza con ironía suave una tercera copa o postre.",
+          "model": [
+            "I couldn't possibly. Another bite and you'd have to roll me to the car.",
+            "I couldn't possibly, but you're a terrible influence."
+          ],
+          "expect": [
+            [
+              "couldn't possibly",
+              "couldnt possibly",
+              "can't",
+              "cant",
+              "no more",
+              "full",
+              "stuffed",
+              "enough",
+              "pass"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Menciona con diplomacia un tema incómodo que todos evitan.",
+          "model": [
+            "I think we should address the elephant in the room before it gets worse.",
+            "Can we talk about the elephant in the room? People are clearly uncomfortable."
+          ],
+          "expect": [
+            [
+              "elephant",
+              "awkward",
+              "uncomfortable",
+              "address",
+              "avoid",
+              "avoiding",
+              "bring up",
+              "elephant in the room"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Declina una invitación a cantar karaoke sin cerrar la puerta.",
+          "model": [
+            "I'll take a rain check on karaoke, but count me in next time.",
+            "Not tonight, but I'll take a rain check. Save me a slot for next year."
+          ],
+          "expect": [
+            [
+              "rain check",
+              "next time",
+              "another time",
+              "count me in",
+              "some other time"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No sabes si hablan en serio o con ironía.",
+          "en": "Sorry, was that a joke, or should I take it at face value?",
+          "es": "Perdón, ¿era broma o debo tomarlo al pie de la letra?"
+        },
+        {
+          "situation_es": "Lo que dijiste sonó mal.",
+          "en": "That came out wrong. What I meant to say was that I'm busy this week.",
+          "es": "Eso salió mal. Lo que quise decir es que estoy ocupado esta semana."
+        },
+        {
+          "situation_es": "Quieres comprobar que entendiste el matiz.",
+          "en": "If I'm reading you right, you'd rather we didn't bring it up. Is that fair?",
+          "es": "Si te estoy entendiendo bien, preferirías que no lo mencionáramos. ¿Es así?"
+        },
+        {
+          "situation_es": "Necesitas ganar tiempo para responder.",
+          "en": "Let me think about that for a second.",
+          "es": "Déjame pensarlo un segundo."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-navidad-c",
+        "area": "relaciones",
+        "level": "C1",
+        "title": "Dodging Walt at the holiday party",
+        "title_es": "Esquivando a Walt en la fiesta",
+        "setting_es": "Estás en la fiesta navideña de tu empresa en Toronto. Walt, un vicepresidente algo pasado de copas, te intercepta junto al buffet.",
+        "npc": "Walt",
+        "turns": [
+          {
+            "npc": "{name}! Just the person I wanted to see. So tell me, is this 'working from home' of yours just a fancy name for napping?",
+            "npc_es": "¡{name}! Justo a quien quería ver. Dime, ¿eso de 'trabajar desde casa' es un nombre elegante para dormir la siesta?",
+            "task_es": "Responde con humor y firmeza, defendiendo tu productividad sin ofender.",
+            "expect": [
+              [
+                "productive",
+                "productivity",
+                "results",
+                "delivered",
+                "deliver",
+                "output",
+                "get more done",
+                "work",
+                "done"
+              ],
+              [
+                "ha",
+                "joke",
+                "kidding",
+                "funny",
+                "fair",
+                "well",
+                "not quite",
+                "afraid",
+                "wish",
+                "actually",
+                "assure"
+              ]
+            ],
+            "model": [
+              "Ha! I wish. Honestly, I get more done at home, and the results speak for themselves.",
+              "I'm afraid not, Walt. My output has actually gone up, and I haven't napped once."
+            ]
+          },
+          {
+            "npc": "Hmm. In my day we showed up at the office. Anyway, don't get me started on the budget. You know what's wrong with this province?",
+            "npc_es": "Mmm. En mis tiempos íbamos a la oficina. En fin, ni me hagas hablar del presupuesto. ¿Sabes qué le pasa a esta provincia?",
+            "task_es": "Cambia el tema con tacto: no entres en política, propón otra cosa.",
+            "expect": [
+              [
+                "rather",
+                "steer",
+                "another",
+                "something else",
+                "change",
+                "topic",
+                "speaking of",
+                "anyway",
+                "how about",
+                "let's not",
+                "lets not"
+              ],
+              [
+                "holiday",
+                "party",
+                "food",
+                "dessert",
+                "plans",
+                "game",
+                "weekend",
+                "season",
+                "christmas",
+                "dinner",
+                "family",
+                "buffet",
+                "tried",
+                "try"
+              ]
+            ],
+            "model": [
+              "I'd rather steer clear of politics tonight, Walt. Speaking of which, have you tried the dessert table?",
+              "Let's not get into that at a party. How about the buffet, though? The salmon is excellent."
+            ]
+          },
+          {
+            "npc": "Ha! Fair enough. You're a diplomat. Here, let me top up your glass. It's an open bar!",
+            "npc_es": "¡Ja! Justo. Eres toda una diplomática. Ven, te lleno la copa. ¡Hay barra libre!",
+            "task_es": "Rechaza con elegancia (manejas o madrugas) sin sonar seca.",
+            "expect": [
+              [
+                "couldn't possibly",
+                "couldnt possibly",
+                "i'm good",
+                "im good",
+                "no thank",
+                "no thanks",
+                "i'll pass",
+                "ill pass",
+                "driving",
+                "early",
+                "enough",
+                "i'm fine",
+                "im fine"
+              ],
+              [
+                "thank",
+                "thanks",
+                "appreciate",
+                "kind",
+                "generous"
+              ]
+            ],
+            "model": [
+              "I couldn't possibly, I'm driving. But thank you, that's very generous.",
+              "I'm good, thanks. I have an early start tomorrow, but I appreciate it."
+            ]
+          },
+          {
+            "npc": "Suit yourself. Listen, between us, did you hear about Fatima's team? Nobody's saying a word about it.",
+            "npc_es": "Como quieras. Oye, entre nosotros, ¿supiste lo del equipo de Fatima? Nadie dice nada.",
+            "task_es": "Muestra prudencia: no especules y sugiere esperar la comunicación oficial.",
+            "expect": [
+              [
+                "speculate",
+                "rumour",
+                "rumor",
+                "gossip",
+                "not my place",
+                "wait",
+                "hear it from",
+                "official",
+                "not sure",
+                "don't know",
+                "dont know",
+                "rather not",
+                "officially",
+                "announce"
+              ]
+            ],
+            "model": [
+              "I'd rather not speculate. If there's news, I'm sure we'll hear it officially.",
+              "It's not my place to say. I'll wait for the official announcement."
+            ]
+          },
+          {
+            "npc": "Fair enough. Now, we're doing karaoke in the back room. I've put your name down for a duet with me.",
+            "npc_es": "Está bien. Ahora hay karaoke en el salón del fondo. Te anoté para un dueto conmigo.",
+            "task_es": "Declina con humor pero deja la puerta abierta.",
+            "expect": [
+              [
+                "rain check",
+                "next time",
+                "another time",
+                "some other time",
+                "maybe",
+                "pass",
+                "later"
+              ]
+            ],
+            "model": [
+              "I'll have to take a rain check, Walt. The audience deserves better.",
+              "Maybe next year! I'll take a rain check tonight."
+            ]
+          },
+          {
+            "npc": "Spoilsport! Well, thanks for the chat. Merry Christmas. And don't tell anyone I said this, but your last report was excellent.",
+            "npc_es": "¡Aguafiestas! En fin, gracias por la plática. Feliz Navidad. Y no le digas a nadie que lo dije, pero tu último informe estuvo excelente.",
+            "task_es": "Agradece el comentario, devuelve la felicitación y despídete con elegancia.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "merry christmas",
+                "happy holidays",
+                "season",
+                "enjoy",
+                "have a good",
+                "great night",
+                "goodnight",
+                "good night",
+                "you too"
+              ]
+            ],
+            "model": [
+              "Thank you, Walt, I really appreciate that. Merry Christmas, and enjoy the rest of the evening.",
+              "That means a lot, thanks. Happy holidays, and good night!"
+            ]
+          }
+        ],
+        "useful": [
+          "I'd rather steer clear of that topic.",
+          "I'll take a rain check.",
+          "I couldn't possibly.",
+          "I'd rather not speculate.",
+          "Let's not overstay our welcome."
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "phr-merry-christmas",
+      "type": "phrase",
+      "term": "Merry Christmas",
+      "ipa": "/ˈmɛri ˈkrɪsməs/",
+      "level": "A1",
+      "topic": "social",
+      "freq": 5,
+      "es": "¡Feliz Navidad!",
+      "def": "a greeting you say at Christmas time",
+      "note": "Se responde igual: «Merry Christmas to you too». En el trabajo muchos prefieren Happy holidays.",
+      "ex": [
+        {
+          "en": "[Merry Christmas], everyone! See you in January.",
+          "es": "¡Feliz Navidad a todos! Nos vemos en enero."
+        },
+        {
+          "en": "She hugged me and said, \"[Merry Christmas]!\"",
+          "es": "Me abrazó y dijo: «¡Feliz Navidad!»"
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "phr-happy-holidays",
+      "type": "phrase",
+      "term": "Happy holidays",
+      "ipa": "/ˈhæpi ˈhɑːlədeɪz/",
+      "level": "A1",
+      "topic": "social",
+      "freq": 5,
+      "es": "¡Felices fiestas!",
+      "def": "a friendly greeting for the winter holiday season",
+      "note": "Muy común en Canadá y EE. UU. porque sirve para cualquier celebración de diciembre.",
+      "ex": [
+        {
+          "en": "[Happy holidays]! Are you traveling this year?",
+          "es": "¡Felices fiestas! ¿Vas a viajar este año?"
+        },
+        {
+          "en": "The barista smiled and said, \"[Happy holidays]!\"",
+          "es": "La barista sonrió y dijo: «¡Felices fiestas!»"
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "voc-secret-santa",
+      "type": "vocab",
+      "term": "Secret Santa",
+      "ipa": "/ˌsiːkrət ˈsæntə/",
+      "level": "A2",
+      "topic": "social",
+      "freq": 4,
+      "es": "intercambio de regalos con nombre secreto",
+      "def": "a game where each person buys a gift for one person, without telling who they are",
+      "note": "Muy común en oficinas. Se saca un nombre al azar y se compra un regalo con un tope de precio.",
+      "ex": [
+        {
+          "en": "Our office is doing [Secret Santa] with a twenty-dollar limit.",
+          "es": "En la oficina haremos intercambio de regalos con tope de veinte dólares."
+        },
+        {
+          "en": "I picked Jordan's name for [Secret Santa].",
+          "es": "Me tocó el nombre de Jordan en el intercambio."
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "voc-boxing-day",
+      "type": "vocab",
+      "term": "Boxing Day",
+      "ipa": "/ˈbɑːksɪŋ deɪ/",
+      "level": "B1",
+      "topic": "canada",
+      "freq": 3,
+      "es": "el 26 de diciembre (día de rebajas y descanso)",
+      "def": "the day after Christmas, a holiday in Canada, known for big sales",
+      "note": "En Canadá es feriado y día de grandes ofertas. En EE. UU. no es feriado.",
+      "ex": [
+        {
+          "en": "We always shop the sales on [Boxing Day].",
+          "es": "Siempre aprovechamos las rebajas el 26 de diciembre."
+        },
+        {
+          "en": "Most families just rest and eat leftovers on [Boxing Day].",
+          "es": "Casi todas las familias descansan y comen sobras el 26."
+        }
+      ],
+      "areas": [
+        "canada",
+        "compras"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-wrap-a-gift",
+      "type": "collocation",
+      "term": "wrap a gift",
+      "level": "A2",
+      "topic": "daily",
+      "freq": 4,
+      "es": "envolver un regalo",
+      "def": "to cover a present with paper",
+      "note": "Presente: wrap. Pasado: wrapped. Nunca «roll a gift».",
+      "ex": [
+        {
+          "en": "I still need to [wrap a gift] for my sister.",
+          "es": "Todavía tengo que envolver un regalo para mi hermana."
+        },
+        {
+          "en": "He [wrapped a gift] in blue paper at the last minute.",
+          "es": "Envolvió un regalo con papel azul a última hora."
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "col-exchange-gifts",
+      "type": "collocation",
+      "term": "exchange gifts",
+      "level": "A2",
+      "topic": "social",
+      "freq": 3,
+      "es": "intercambiar regalos",
+      "def": "to give presents to each other",
+      "note": "Ojo: *exchange* aquí es dar y recibir; para devolver algo a la tienda se dice *return* o *exchange it for another size*.",
+      "ex": [
+        {
+          "en": "We [exchange gifts] on Christmas Eve, after dinner.",
+          "es": "Intercambiamos regalos en Nochebuena, después de la cena."
+        },
+        {
+          "en": "Do your friends [exchange gifts] at the holidays?",
+          "es": "¿Tus amigos intercambian regalos en las fiestas?"
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "phr-im-stuffed",
+      "type": "phrase",
+      "term": "I'm stuffed",
+      "ipa": "/aɪm stʌft/",
+      "level": "A2",
+      "topic": "food",
+      "freq": 4,
+      "es": "estoy llenísimo",
+      "def": "I ate so much that I can't eat more",
+      "note": "Informal. Más suave y neutro: I'm full. Muy usado tras una cena grande.",
+      "ex": [
+        {
+          "en": "Thanks, but [I'm stuffed]. That turkey was huge.",
+          "es": "Gracias, pero estoy llenísimo. Ese pavo estaba enorme."
+        },
+        {
+          "en": "After two plates of pasta, [I'm stuffed].",
+          "es": "Después de dos platos de pasta, estoy llenísimo."
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "conversacion"
+      ],
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "id": "phr-would-you-like-seconds",
+      "type": "phrase",
+      "term": "would you like seconds?",
+      "ipa": "/wʊd jʊ laɪk ˈsɛkəndz/",
+      "level": "A2",
+      "topic": "food",
+      "freq": 3,
+      "es": "¿te sirvo más? (otro plato)",
+      "def": "a polite way to offer a second serving of food",
+      "note": "Se usa en casa: *seconds* = segunda ración. Respuesta: «Yes, please» o «No thanks, I'm full».",
+      "ex": [
+        {
+          "en": "[Would you like seconds]? There's plenty of soup.",
+          "es": "¿Quieres repetir? Hay mucha sopa."
+        },
+        {
+          "en": "My dad always asks, \"[Would you like seconds]?\"",
+          "es": "Mi papá siempre pregunta: «¿Quieres repetir?»"
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "relaciones"
+      ]
+    },
+    {
+      "id": "phr-you-shouldnt-have",
+      "type": "phrase",
+      "term": "you shouldn't have",
+      "ipa": "/jʊ ˈʃʊdnt hæv/",
+      "level": "B1",
+      "topic": "social",
+      "freq": 4,
+      "es": "no tenías que molestarte",
+      "def": "an expression of thanks when someone gives you a gift",
+      "note": "Es una frase hecha de cortesía: agradece el detalle aunque en realidad estés contento. Suele ir con tono cálido.",
+      "ex": [
+        {
+          "en": "Flowers? [You shouldn't have]! They're beautiful.",
+          "es": "¿Flores? ¡No tenías que molestarte! Están hermosas."
+        },
+        {
+          "en": "Oh, [you shouldn't have]. This is so thoughtful.",
+          "es": "Ay, no tenías que molestarte. Qué detalle."
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "idi-its-the-thought-that-counts",
+      "type": "idiom",
+      "term": "it's the thought that counts",
+      "ipa": "/ɪts ðə θɔːt ðæt kaʊnts/",
+      "level": "B1",
+      "topic": "social",
+      "freq": 3,
+      "es": "lo que cuenta es el detalle",
+      "def": "what matters is the kind intention, not the gift itself",
+      "note": "Se dice para consolar a quien da un regalo modesto o cuando algo no salió perfecto.",
+      "ex": [
+        {
+          "en": "It's just a card, but [it's the thought that counts].",
+          "es": "Es solo una tarjeta, pero lo que cuenta es el detalle."
+        },
+        {
+          "en": "The gift was small, but [it's the thought that counts].",
+          "es": "El regalo fue pequeño, pero lo que cuenta es la intención."
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "phr-any-plans-for-the-holidays",
+      "type": "phrase",
+      "term": "any plans for the holidays?",
+      "ipa": "/ˈɛni plænz fɔːr ðə ˈhɑːlədeɪz/",
+      "level": "A2",
+      "topic": "social",
+      "freq": 4,
+      "es": "¿tienes planes para las fiestas?",
+      "def": "a common small-talk question in December",
+      "note": "Se pregunta en noviembre y diciembre como conversación ligera. Con *over the holidays* también suena natural.",
+      "ex": [
+        {
+          "en": "Hey, [any plans for the holidays]?",
+          "es": "Oye, ¿tienes planes para las fiestas?"
+        },
+        {
+          "en": "She asked me, \"[Any plans for the holidays]?\"",
+          "es": "Me preguntó: «¿Tienes planes para las fiestas?»"
+        }
+      ],
+      "areas": [
+        "conversacion",
+        "relaciones"
+      ]
+    },
+    {
+      "id": "voc-eggnog",
+      "type": "vocab",
+      "term": "eggnog",
+      "ipa": "/ˈɛɡnɑːɡ/",
+      "level": "B1",
+      "topic": "food",
+      "freq": 2,
+      "es": "ponche de huevo (bebida navideña)",
+      "def": "a creamy holiday drink made with milk, eggs and spices",
+      "note": "Se vende en cartón en diciembre. Puede llevar ron o ser sin alcohol; conviene preguntar.",
+      "ex": [
+        {
+          "en": "Do you want some [eggnog] with your pie?",
+          "es": "¿Quieres ponche de huevo con tu pay?"
+        },
+        {
+          "en": "The [eggnog] had a little rum in it.",
+          "es": "El ponche de huevo llevaba un poco de ron."
+        }
+      ],
+      "areas": [
+        "restaurantes",
+        "relaciones"
+      ]
+    },
+    {
+      "id": "col-host-a-dinner",
+      "type": "collocation",
+      "term": "host a dinner",
+      "level": "B1",
+      "topic": "social",
+      "freq": 3,
+      "es": "ser anfitrión de una cena",
+      "def": "to invite people to your home and serve them a meal",
+      "note": "*Host* es anfitrión (no «hostear»). También: host a party, host Christmas.",
+      "ex": [
+        {
+          "en": "We're going to [host a dinner] for twelve people.",
+          "es": "Vamos a organizar una cena en casa para doce personas."
+        },
+        {
+          "en": "She [hosts a dinner] every Thanksgiving.",
+          "es": "Ella organiza una cena cada Día de Acción de Gracias."
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "idi-the-more-the-merrier",
+      "type": "idiom",
+      "term": "the more the merrier",
+      "ipa": "/ðə mɔːr ðə ˈmɛriər/",
+      "level": "B1",
+      "topic": "social",
+      "freq": 3,
+      "es": "entre más, mejor",
+      "def": "it's good if more people join",
+      "note": "Respuesta típica a «¿puedo llevar a un amigo?». Tono cálido y relajado.",
+      "ex": [
+        {
+          "en": "Can I bring my cousin? Sure, [the more the merrier]!",
+          "es": "¿Puedo llevar a mi primo? ¡Claro, entre más, mejor!"
+        },
+        {
+          "en": "Come along with us. [The more the merrier].",
+          "es": "Vente con nosotros. Entre más, mejor."
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "voc-regift",
+      "type": "vocab",
+      "term": "regift",
+      "ipa": "/ˌriːˈɡɪft/",
+      "level": "B2",
+      "topic": "social",
+      "freq": 2,
+      "es": "regalar de nuevo un regalo que recibiste",
+      "def": "to give someone a present you received from another person",
+      "note": "Verbo informal. Puede tener tono de broma o de culpa; muchos lo hacen pero pocos lo admiten.",
+      "ex": [
+        {
+          "en": "I might [regift] that scented candle to my boss.",
+          "es": "Quizá le regale a mi jefe esa vela aromática que me dieron."
+        },
+        {
+          "en": "He got caught [regifting] a sweater he'd never worn.",
+          "es": "Lo cacharon regalando un suéter que él nunca usó."
+        }
+      ],
+      "areas": [
+        "conversacion",
+        "relaciones"
+      ],
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "id": "idi-overstay-your-welcome",
+      "type": "idiom",
+      "term": "overstay your welcome",
+      "ipa": "/ˌoʊvərˈsteɪ jɔːr ˈwɛlkəm/",
+      "level": "C1",
+      "topic": "social",
+      "freq": 2,
+      "es": "quedarse más de lo apropiado",
+      "def": "to stay somewhere longer than the host wants",
+      "note": "Se usa con visitas y con invitados. Ejemplo típico: «We don't want to overstay our welcome».",
+      "ex": [
+        {
+          "en": "We should leave soon; I don't want to [overstay our welcome].",
+          "es": "Deberíamos irnos pronto; no quiero abusar de la hospitalidad."
+        },
+        {
+          "en": "Houseguests can easily [overstay their welcome] after a week.",
+          "es": "Los huéspedes pueden abusar de la hospitalidad después de una semana."
+        }
+      ],
+      "areas": [
+        "relaciones"
+      ]
+    },
+    {
+      "id": "idi-steer-clear-of",
+      "type": "idiom",
+      "term": "steer clear of",
+      "ipa": "/stɪr klɪr ʌv/",
+      "level": "C1",
+      "topic": "social",
+      "freq": 3,
+      "es": "mantenerse alejado de; evitar",
+      "def": "to deliberately avoid a person, topic or place",
+      "note": "Sirve para temas delicados (politics, money) y para lugares. Se dice «steer clear of X».",
+      "ex": [
+        {
+          "en": "At family dinners we [steer clear of] politics.",
+          "es": "En las cenas familiares evitamos hablar de política."
+        },
+        {
+          "en": "I'd [steer clear of] that road in the snow.",
+          "es": "Yo evitaría ese camino cuando hay nieve."
+        }
+      ],
+      "areas": [
+        "conversacion",
+        "relaciones"
+      ]
+    },
+    {
+      "id": "idi-bite-your-tongue",
+      "type": "idiom",
+      "term": "bite your tongue",
+      "ipa": "/baɪt jʊr tʌŋ/",
+      "level": "C1",
+      "topic": "feelings",
+      "freq": 3,
+      "es": "morderse la lengua; callarse",
+      "def": "to stop yourself from saying what you really think",
+      "note": "Se usa cuando quieres decir algo pero te contienes por educación o prudencia.",
+      "ex": [
+        {
+          "en": "I had to [bite my tongue] when he insulted the project.",
+          "es": "Tuve que morderme la lengua cuando insultó el proyecto."
+        },
+        {
+          "en": "She [bit her tongue] and smiled through dinner.",
+          "es": "Se mordió la lengua y sonrió durante toda la cena."
+        }
+      ],
+      "areas": [
+        "conversacion",
+        "relaciones"
+      ]
+    },
+    {
+      "id": "phr-i-couldnt-possibly",
+      "type": "phrase",
+      "term": "I couldn't possibly",
+      "ipa": "/aɪ ˈkʊdnt ˈpɑːsəbli/",
+      "level": "C1",
+      "topic": "social",
+      "freq": 2,
+      "es": "no podría (aceptar / comer más)",
+      "def": "a polite and slightly formal way to refuse an offer",
+      "note": "Rechazo cortés y algo teatral: «I couldn't possibly eat another bite». Puede sonar irónico entre amigos.",
+      "ex": [
+        {
+          "en": "Another slice? [I couldn't possibly].",
+          "es": "¿Otra rebanada? No podría ni un bocado más."
+        },
+        {
+          "en": "[I couldn't possibly] accept such an expensive gift.",
+          "es": "No podría aceptar un regalo tan caro."
+        }
+      ],
+      "areas": [
+        "conversacion",
+        "relaciones"
+      ],
+      "tags": [
+        "formal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1249 @@
+{
+  "id": "sistemas",
+  "title_es": "Sistemas, CRM y automatización",
+  "icon": "workflow",
+  "scene": null,
+  "areas": [
+    "crm",
+    "automatizacion",
+    "software"
+  ],
+  "season": null,
+  "objective_es": "Explicar flujos de trabajo, pipelines de CRM, integraciones y errores en inglés sencillo, y hablar con clientes no técnicos.",
+  "tracks": [
+    {
+      "id": "sistemas-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Explicar un flujo sencillo de pasos, entender un sistema de clientes y reportar un problema básico.",
+      "items": [
+        "col-fill-in-a-form",
+        "col-add-a-contact",
+        "col-send-a-reminder",
+        "col-save-the-changes",
+        "phr-its-not-working",
+        "phr-it-happens-automatically",
+        "voc-workflow",
+        "voc-spreadsheet",
+        "voc-ticket",
+        "col-reduce-manual-work"
+      ],
+      "lesson": {
+        "id": "ls-sistemas-a",
+        "level": "A2",
+        "topic": "work",
+        "order": 1012,
+        "title": "How does the new system work?",
+        "title_es": "¿Cómo funciona el sistema nuevo?",
+        "intro_es": "Ana le explica a Ben, su ayudante, cómo funciona el nuevo sistema de clientes de la tienda.",
+        "lines": [
+          {
+            "who": "Ben",
+            "en": "Ana, how does the new system work?",
+            "es": "Ana, ¿cómo funciona el sistema nuevo?"
+          },
+          {
+            "who": "Ana",
+            "en": "It's simple. First, the customer [fills in a form] on our website.",
+            "es": "Es sencillo. Primero, el cliente llena un formulario en nuestro sitio web.",
+            "item": "col-fill-in-a-form"
+          },
+          {
+            "who": "Ben",
+            "en": "Then what happens?",
+            "es": "¿Y luego qué pasa?"
+          },
+          {
+            "who": "Ana",
+            "en": "The system [adds a contact] for you. You can see the name and the phone number.",
+            "es": "El sistema agrega un contacto por ti. Puedes ver el nombre y el teléfono.",
+            "item": "col-add-a-contact"
+          },
+          {
+            "who": "Ben",
+            "en": "And then I call the customer?",
+            "es": "¿Y luego llamo al cliente?"
+          },
+          {
+            "who": "Ana",
+            "en": "Yes, but check the status first. If it says \"Waiting\", [send a reminder].",
+            "es": "Sí, pero revisa primero el estado. Si dice \"Waiting\", envía un recordatorio.",
+            "item": "col-send-a-reminder"
+          },
+          {
+            "who": "Ben",
+            "en": "What if the customer doesn't answer?",
+            "es": "¿Y si el cliente no contesta?"
+          },
+          {
+            "who": "Ana",
+            "en": "Write a note and change the status. [Save the changes] every time.",
+            "es": "Escribe una nota y cambia el estado. Guarda los cambios cada vez.",
+            "item": "col-save-the-changes"
+          },
+          {
+            "who": "Ben",
+            "en": "Okay. Sorry, [it's not working]. The page is blank.",
+            "es": "Bien. Perdón, no funciona. La página está en blanco.",
+            "item": "phr-its-not-working"
+          },
+          {
+            "who": "Ana",
+            "en": "Refresh the page. If it's still not working, tell me.",
+            "es": "Actualiza la página. Si sigue sin funcionar, dime."
+          },
+          {
+            "who": "Ben",
+            "en": "It works now! This is easier than our old spreadsheet.",
+            "es": "¡Ya funciona! Esto es más fácil que nuestra hoja de cálculo."
+          },
+          {
+            "who": "Ana",
+            "en": "That's the idea. [It happens automatically], so we don't forget anyone.",
+            "es": "Esa es la idea. Sucede automáticamente, así que no olvidamos a nadie.",
+            "item": "phr-it-happens-automatically"
+          }
+        ],
+        "items": [
+          "col-fill-in-a-form",
+          "col-add-a-contact",
+          "col-send-a-reminder",
+          "col-save-the-changes",
+          "phr-its-not-working",
+          "phr-it-happens-automatically"
+        ],
+        "questions": [
+          {
+            "q": "What does the customer do first?",
+            "options": [
+              "Calls the shop",
+              "Fills in a form on the website",
+              "Sends a text"
+            ],
+            "answer": 1,
+            "why_es": "Ana dice: primero el cliente llena un formulario en el sitio web."
+          },
+          {
+            "q": "What does the system do after that?",
+            "options": [
+              "It adds a contact",
+              "It closes the shop",
+              "It deletes the form"
+            ],
+            "answer": 0,
+            "why_es": "El sistema agrega un contacto automáticamente."
+          },
+          {
+            "q": "What should Ben do if the status is \"Waiting\"?",
+            "options": [
+              "Send a reminder",
+              "Delete the contact",
+              "Do nothing"
+            ],
+            "answer": 0,
+            "why_es": "Ana dice que envíe un recordatorio."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica el primer paso: el cliente llena un formulario en el sitio web.",
+          "model": [
+            "First, the customer fills in a form on our website.",
+            "The first step is the customer fills out a form on the website."
+          ],
+          "expect": [
+            [
+              "first",
+              "step",
+              "start"
+            ],
+            [
+              "form"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica qué hace el sistema automáticamente después.",
+          "model": [
+            "Then the system adds a new contact automatically.",
+            "After that, the system sends an email automatically."
+          ],
+          "expect": [
+            [
+              "then",
+              "after that",
+              "next"
+            ],
+            [
+              "automatic",
+              "system",
+              "adds",
+              "sends"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Reporta un problema sencillo: la página está en blanco y no funciona.",
+          "model": [
+            "The page is blank. It's not working.",
+            "Sorry, the page isn't working. It's blank."
+          ],
+          "expect": [
+            [
+              "not working",
+              "isn't working",
+              "doesn't work",
+              "does not work",
+              "broken"
+            ],
+            [
+              "page",
+              "blank",
+              "screen"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres que te lo muestren de nuevo paso a paso.",
+          "en": "Sorry, can you show me again, step by step?",
+          "es": "Perdón, ¿puedes mostrármelo otra vez, paso a paso?"
+        },
+        {
+          "situation_es": "No sabes qué significa una palabra del sistema.",
+          "en": "What does 'status' mean?",
+          "es": "¿Qué significa 'status'?"
+        },
+        {
+          "situation_es": "No sabes a qué botón se refiere.",
+          "en": "Do you mean this button or that button?",
+          "es": "¿Te refieres a este botón o a aquel?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-sistemas-a",
+        "area": "crm",
+        "level": "A2",
+        "title": "First day with the customer system",
+        "title_es": "Primer día con el sistema de clientes",
+        "setting_es": "Es tu primer día en una tienda pequeña. Ana, la dueña, te muestra el sistema donde se guardan los datos de los clientes.",
+        "npc": "Shop owner (Ana)",
+        "turns": [
+          {
+            "npc": "Welcome, {name}! This is our new customer system. Any questions?",
+            "npc_es": "¡Bienvenido, {name}! Este es nuestro nuevo sistema de clientes. ¿Alguna pregunta?",
+            "task_es": "Pregunta cómo funciona: qué pasa cuando un cliente llena el formulario.",
+            "expect": [
+              [
+                "what happens",
+                "how does",
+                "how do",
+                "what do i"
+              ],
+              [
+                "form",
+                "customer",
+                "fills",
+                "fill"
+              ]
+            ],
+            "model": [
+              "How does it work? What happens when a customer fills in the form?",
+              "What happens after a customer fills out the form?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bwhat happen\\b",
+                "fix": "What happens",
+                "why_es": "Con *it/he/she/the system* el verbo lleva -s: *happens*."
+              }
+            ]
+          },
+          {
+            "npc": "The system adds a new contact automatically. Then you call them. Do you see the name?",
+            "npc_es": "El sistema agrega un contacto automáticamente. Luego tú les llamas. ¿Ves el nombre?",
+            "task_es": "Di que sí ves el nombre, pero no ves el número de teléfono.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "i see",
+                "i can see",
+                "there"
+              ],
+              [
+                "phone",
+                "number"
+              ]
+            ],
+            "model": [
+              "Yes, I see the name, but I can't see the phone number.",
+              "Yeah, the name is there. The phone number is missing."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi no see\\b",
+                "fix": "I can't see",
+                "why_es": "La negación se hace con *can't* o *don't*."
+              }
+            ]
+          },
+          {
+            "npc": "Click 'Refresh'. Now?",
+            "npc_es": "Haz clic en 'Refresh'. ¿Ahora?",
+            "task_es": "Di que ahora sí funciona y pregunta qué hacer después.",
+            "expect": [
+              [
+                "works",
+                "working",
+                "fine",
+                "okay",
+                "now"
+              ],
+              [
+                "what",
+                "next",
+                "then",
+                "do i do"
+              ]
+            ],
+            "model": [
+              "It works now. What do I do next?",
+              "Now it's working. What should I do next?"
+            ]
+          },
+          {
+            "npc": "Next, change the status to 'Called' and write a note. Then save the changes.",
+            "npc_es": "Luego cambia el estado a 'Called' y escribe una nota. Después guarda los cambios.",
+            "task_es": "Repite las instrucciones para confirmar que las entendiste.",
+            "expect": [
+              [
+                "status",
+                "called"
+              ],
+              [
+                "note"
+              ],
+              [
+                "save"
+              ]
+            ],
+            "model": [
+              "So I change the status to Called, write a note, and save the changes. Right?",
+              "Okay: change the status to 'Called', add a note, then save. Is that correct?"
+            ]
+          },
+          {
+            "npc": "Exactly! You're a fast learner.",
+            "npc_es": "¡Exacto! Aprendes rápido.",
+            "task_es": "Agradece y di que el sistema es más fácil que la hoja de cálculo.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "easier",
+                "easy",
+                "better",
+                "simple"
+              ]
+            ],
+            "model": [
+              "Thanks! This is easier than the spreadsheet.",
+              "Thank you! It's much better than the old spreadsheet."
+            ]
+          }
+        ],
+        "useful": [
+          "First…, then…",
+          "It happens automatically",
+          "It's not working",
+          "Could you show me again?",
+          "Save the changes"
+        ]
+      }
+    },
+    {
+      "id": "sistemas-b",
+      "band": "B1-B2",
+      "level": "B2",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Explicar flujos de CRM e integraciones en lenguaje sencillo y escribir reportes de bug claros.",
+      "items": [
+        "phr-let-me-walk-you-through-the-process-step-by-step",
+        "col-qualify-a-lead",
+        "col-integrate-with",
+        "voc-webhook",
+        "voc-retry",
+        "col-report-a-bug",
+        "col-steps-to-reproduce",
+        "phr-ill-look-into-the-issue-and-get-back-to-you",
+        "phr-in-plain-english",
+        "col-api-key",
+        "voc-integration",
+        "phr-it-works-on-my-machine-but-i-cant-reproduce-it-here"
+      ],
+      "lesson": {
+        "id": "ls-sistemas-b",
+        "level": "B2",
+        "topic": "tech",
+        "order": 1013,
+        "title": "The pipeline, in plain English",
+        "title_es": "El pipeline, en lenguaje sencillo",
+        "intro_es": "Imani, consultora, le explica a Greg, dueño de un gimnasio, cómo funcionan su CRM, la integración con su sitio y cómo reportar un error.",
+        "lines": [
+          {
+            "who": "Imani",
+            "en": "[Let me walk you through the process step by step].",
+            "es": "Déjame explicarte el proceso paso a paso.",
+            "item": "phr-let-me-walk-you-through-the-process-step-by-step"
+          },
+          {
+            "who": "Imani",
+            "en": "Every inquiry enters the pipeline as a lead. When you [qualify a lead], we move it to the \"Qualified\" stage.",
+            "es": "Cada consulta entra al pipeline como un lead. Cuando calificas un lead, lo movemos a la etapa \"Qualified\".",
+            "item": "col-qualify-a-lead"
+          },
+          {
+            "who": "Greg",
+            "en": "And the website form? Does it connect to the CRM?",
+            "es": "¿Y el formulario del sitio? ¿Se conecta con el CRM?"
+          },
+          {
+            "who": "Imani",
+            "en": "Yes. We [integrate with] your website, so the two systems talk to each other.",
+            "es": "Sí. Nos integramos con tu sitio, así que los dos sistemas se comunican.",
+            "item": "col-integrate-with"
+          },
+          {
+            "who": "Imani",
+            "en": "When someone submits the form, a [webhook] sends the data to the CRM, like a doorbell for your system.",
+            "es": "Cuando alguien envía el formulario, un webhook manda los datos al CRM, como un timbre para tu sistema.",
+            "item": "voc-webhook"
+          },
+          {
+            "who": "Greg",
+            "en": "What if it fails? Last month a lead never showed up.",
+            "es": "¿Y si falla? El mes pasado un lead nunca apareció."
+          },
+          {
+            "who": "Imani",
+            "en": "Good question. If the request fails, the system [retries] automatically, and we get a notification.",
+            "es": "Buena pregunta. Si la solicitud falla, el sistema reintenta automáticamente y recibimos una notificación.",
+            "item": "voc-retry"
+          },
+          {
+            "who": "Imani",
+            "en": "Last month's problem was a bug. Let me show you how to [report a bug].",
+            "es": "El problema del mes pasado fue un bug. Te muestro cómo reportar un bug.",
+            "item": "col-report-a-bug"
+          },
+          {
+            "who": "Imani",
+            "en": "Write the [steps to reproduce] it, what you expected, and what actually happened.",
+            "es": "Escribe los pasos para reproducirlo, lo que esperabas y lo que realmente pasó.",
+            "item": "col-steps-to-reproduce"
+          },
+          {
+            "who": "Greg",
+            "en": "So: \"I click Save, I expect a confirmation, but nothing happens.\" Like that?",
+            "es": "O sea: \"Hago clic en Guardar, espero una confirmación, pero no pasa nada.\" ¿Así?"
+          },
+          {
+            "who": "Imani",
+            "en": "Exactly. Add a screenshot, and [I'll look into the issue and get back to you] by tomorrow.",
+            "es": "Exacto. Añade una captura y revisaré el problema y te respondo para mañana.",
+            "item": "phr-ill-look-into-the-issue-and-get-back-to-you"
+          },
+          {
+            "who": "Greg",
+            "en": "[In plain English]: the form talks to the CRM, and if something breaks, I send the steps and you fix it.",
+            "es": "En palabras simples: el formulario habla con el CRM y, si algo se rompe, te mando los pasos y tú lo arreglas.",
+            "item": "phr-in-plain-english"
+          },
+          {
+            "who": "Imani",
+            "en": "That's exactly it. You've got the whole picture.",
+            "es": "Exacto. Ya tienes el panorama completo."
+          }
+        ],
+        "items": [
+          "phr-let-me-walk-you-through-the-process-step-by-step",
+          "col-qualify-a-lead",
+          "col-integrate-with",
+          "voc-webhook",
+          "voc-retry",
+          "col-report-a-bug",
+          "col-steps-to-reproduce",
+          "phr-ill-look-into-the-issue-and-get-back-to-you",
+          "phr-in-plain-english"
+        ],
+        "questions": [
+          {
+            "q": "What happens when someone submits the website form?",
+            "options": [
+              "A webhook sends the data to the CRM",
+              "An employee types the data",
+              "The form is deleted"
+            ],
+            "answer": 0,
+            "why_es": "Un webhook manda los datos al CRM."
+          },
+          {
+            "q": "What happens if the request fails?",
+            "options": [
+              "Nothing, it's lost",
+              "The customer must call",
+              "The system retries automatically"
+            ],
+            "answer": 2,
+            "why_es": "El sistema reintenta automáticamente y avisa."
+          },
+          {
+            "q": "What should a bug report include?",
+            "options": [
+              "Only a screenshot",
+              "Steps to reproduce, expected result and actual result",
+              "The client's password"
+            ],
+            "answer": 1,
+            "why_es": "Imani pide pasos, lo esperado y lo que sucedió."
+          },
+          {
+            "q": "When will Imani give an answer?",
+            "options": [
+              "By tomorrow",
+              "Next month",
+              "Right now"
+            ],
+            "answer": 0,
+            "why_es": "Dice que responderá para mañana."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica un flujo a un cliente no técnico: cuando alguien llena el formulario, el CRM crea un lead y envía un correo.",
+          "model": [
+            "When someone fills in the form, the CRM creates a new lead and sends a confirmation email automatically."
+          ],
+          "expect": [
+            [
+              "form"
+            ],
+            [
+              "crm",
+              "lead",
+              "system"
+            ],
+            [
+              "email",
+              "automatic"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Escribe un reporte de bug breve: pasos, resultado esperado y resultado real.",
+          "model": [
+            "Steps: 1) Click Save. Expected: a confirmation message. Actual: nothing happens and the page freezes."
+          ],
+          "expect": [
+            [
+              "steps",
+              "step",
+              "1"
+            ],
+            [
+              "expected"
+            ],
+            [
+              "actual",
+              "instead",
+              "but"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica qué es un webhook con una comparación sencilla.",
+          "model": [
+            "Think of a webhook as a doorbell: when something happens, it sends a message to the other system.",
+            "A webhook is like a notification: one system tells the other when something happens."
+          ],
+          "expect": [
+            [
+              "webhook"
+            ],
+            [
+              "like",
+              "think of",
+              "doorbell",
+              "notification",
+              "message"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te hablan con demasiada jerga.",
+          "en": "Could you explain that in plain English? I'm not technical.",
+          "es": "¿Podrías explicarlo en palabras simples? No soy técnico."
+        },
+        {
+          "situation_es": "Quieres comprobar que entendiste el flujo.",
+          "en": "Just to make sure I understand: when the lead moves to 'Qualified', the CRM sends an email. Is that right?",
+          "es": "Solo para asegurarme: cuando el lead pasa a 'Qualified', el CRM envía un correo. ¿Es correcto?"
+        },
+        {
+          "situation_es": "Necesitas ver el error que ve el cliente.",
+          "en": "Could you send a screenshot of the error?",
+          "es": "¿Podrías enviar una captura del error?"
+        },
+        {
+          "situation_es": "No puedes responder todavía.",
+          "en": "I'll need to check with my team and get back to you.",
+          "es": "Tengo que consultarlo con mi equipo y te respondo."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-sistemas-b",
+        "area": "crm",
+        "level": "B2",
+        "title": "The leads stopped arriving",
+        "title_es": "Dejaron de llegar los leads",
+        "setting_es": "Estás en una llamada con una clienta que no es técnica. Su formulario web dejó de enviar leads al CRM y necesita una explicación clara.",
+        "npc": "Client (non-technical)",
+        "turns": [
+          {
+            "npc": "Hi {name}. Our website form isn't sending leads to the CRM anymore. Can you tell me what's going on?",
+            "npc_es": "Hola {name}. Nuestro formulario web ya no manda leads al CRM. ¿Puedes decirme qué pasa?",
+            "task_es": "Pide detalles: cuándo empezó, si ven algún mensaje de error y si pueden enviar una captura.",
+            "expect": [
+              [
+                "when",
+                "since when",
+                "started",
+                "began"
+              ],
+              [
+                "screenshot",
+                "error",
+                "message",
+                "see"
+              ]
+            ],
+            "model": [
+              "Sorry about that. When did it start? And do you see an error message? A screenshot would help.",
+              "Let me look into it. Since when has it stopped, and could you send a screenshot of the error?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bwhat happen\\b",
+                "fix": "What happened",
+                "why_es": "Pasado: *What happened?*"
+              }
+            ]
+          },
+          {
+            "npc": "It stopped on Monday. There's no error, the leads just don't show up.",
+            "npc_es": "Se detuvo el lunes. No hay error, simplemente los leads no aparecen.",
+            "task_es": "Explica en palabras sencillas una posible causa (la conexión o webhook falló) y propón revisar los registros.",
+            "expect": [
+              [
+                "connection",
+                "webhook",
+                "integration",
+                "link",
+                "talks"
+              ],
+              [
+                "logs",
+                "check",
+                "look",
+                "test",
+                "investigate"
+              ]
+            ],
+            "model": [
+              "It could be that the connection between the form and the CRM broke. I'll check the logs to see what happened.",
+              "Maybe the webhook stopped working. Let me look at the logs and test it."
+            ]
+          },
+          {
+            "npc": "Okay. Is this something we did? I don't want to blame anyone, I just need to know what to tell my boss.",
+            "npc_es": "Bien. ¿Fue algo que hicimos nosotros? No quiero culpar a nadie, solo necesito saber qué decirle a mi jefe.",
+            "task_es": "Tranquilízala: es pronto para saber, buscas la causa y le darás una actualización en una hora.",
+            "expect": [
+              [
+                "not sure",
+                "too early",
+                "no one",
+                "nobody",
+                "blame",
+                "yet",
+                "find out",
+                "cause"
+              ],
+              [
+                "hour",
+                "update",
+                "let you know",
+                "get back",
+                "report"
+              ]
+            ],
+            "model": [
+              "It's too early to say. I'm looking for the cause, and I'll give you an update in an hour.",
+              "Nobody is to blame yet. I'll find out what happened and get back to you within an hour."
+            ]
+          },
+          {
+            "npc": "Thanks. While you check, is there a workaround? We can't lose leads.",
+            "npc_es": "Gracias. Mientras revisas, ¿hay una solución provisional? No podemos perder leads.",
+            "task_es": "Propón una solución temporal: exportar los leads manualmente y subirlos al CRM mientras tanto.",
+            "expect": [
+              [
+                "export",
+                "download",
+                "manual",
+                "manually",
+                "spreadsheet",
+                "csv"
+              ],
+              [
+                "upload",
+                "import",
+                "crm",
+                "add",
+                "enter"
+              ]
+            ],
+            "model": [
+              "As a workaround, you can export the form responses manually and import them into the CRM.",
+              "For now, download the leads as a spreadsheet and I'll upload them to the CRM."
+            ]
+          },
+          {
+            "npc": "Great idea. Wait, I just got an update from my developer: the API key expired. Does that explain it?",
+            "npc_es": "Buena idea. Espera, mi desarrollador me acaba de decir: la clave de API caducó. ¿Eso lo explica?",
+            "task_es": "Confirma que probablemente es eso: la clave caducó y por eso la solicitud falla; di que la renovarás.",
+            "expect": [
+              [
+                "expired",
+                "api key",
+                "key"
+              ],
+              [
+                "renew",
+                "replace",
+                "update",
+                "fix",
+                "new key",
+                "generate"
+              ]
+            ],
+            "model": [
+              "Yes, that probably explains it. An expired API key makes the request fail, so I'll renew it now.",
+              "That's likely the cause. I'll generate a new key and update the connection."
+            ]
+          },
+          {
+            "npc": "Perfect. How can I be sure it won't happen again?",
+            "npc_es": "Perfecto. ¿Cómo puedo estar segura de que no volverá a pasar?",
+            "task_es": "Propón prevención: una alerta antes de que venza la clave y una revisión mensual.",
+            "expect": [
+              [
+                "alert",
+                "notification",
+                "reminder",
+                "warn",
+                "monitor"
+              ],
+              [
+                "monthly",
+                "every month",
+                "before",
+                "expires",
+                "expire",
+                "check"
+              ]
+            ],
+            "model": [
+              "We can set up an alert a week before the key expires, and I'll check the integration every month.",
+              "I'll add a reminder before it expires and monitor the connection monthly."
+            ]
+          }
+        ],
+        "useful": [
+          "Could you send a screenshot?",
+          "I'll look into it and get back to you",
+          "As a workaround,…",
+          "In plain English,…",
+          "The request failed because…"
+        ]
+      }
+    },
+    {
+      "id": "sistemas-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Explicar un incidente técnico a un directivo, presentar opciones y trade-offs, pedir respaldo y cerrar con un plan.",
+      "items": [
+        "col-blast-radius",
+        "col-root-cause",
+        "voc-idempotent",
+        "voc-post-mortem",
+        "col-fail-gracefully",
+        "idi-band-aid-solution",
+        "phr-its-a-judgment-call",
+        "col-get-buy-in",
+        "col-set-up-an-alert",
+        "phr-lets-circle-back-on",
+        "voc-stakeholder",
+        "col-manage-expectations"
+      ],
+      "lesson": {
+        "id": "ls-sistemas-c",
+        "level": "C1",
+        "topic": "tech",
+        "order": 1014,
+        "title": "Explaining an outage to leadership",
+        "title_es": "Explicar una caída a la dirección",
+        "intro_es": "Rowan, líder de ingeniería, le explica a Delphine (directora de operaciones, no técnica) y a Sunil (atención al cliente) un incidente de cobros duplicados y la decisión que debe tomarse.",
+        "lines": [
+          {
+            "who": "Delphine",
+            "en": "Let's start with the headline, Rowan. What happened on Tuesday, in plain terms?",
+            "es": "Empecemos por lo principal, Rowan. ¿Qué pasó el martes, en palabras simples?"
+          },
+          {
+            "who": "Rowan",
+            "en": "A routine change to our billing integration had a wider [blast radius] than we expected. For about ninety minutes, some customers were charged twice.",
+            "es": "Un cambio rutinario en nuestra integración de facturación tuvo un alcance mayor al esperado. Durante unos noventa minutos, algunos clientes recibieron un cobro doble.",
+            "item": "col-blast-radius"
+          },
+          {
+            "who": "Delphine",
+            "en": "Ninety minutes is a long time. What was the [root cause]?",
+            "es": "Noventa minutos es mucho tiempo. ¿Cuál fue la causa raíz?",
+            "item": "col-root-cause"
+          },
+          {
+            "who": "Rowan",
+            "en": "The retry logic wasn't [idempotent], so when the payment provider timed out, we sent the charge again.",
+            "es": "La lógica de reintento no era idempotente, así que cuando el proveedor de pagos agotó el tiempo, enviamos el cobro de nuevo.",
+            "item": "voc-idempotent"
+          },
+          {
+            "who": "Sunil",
+            "en": "Support took the brunt of it. Tickets doubled and people asked whether they could still trust us.",
+            "es": "Soporte cargó con lo peor. Los tickets se duplicaron y la gente preguntó si todavía podía confiar en nosotros."
+          },
+          {
+            "who": "Delphine",
+            "en": "I'll be direct: I want a blameless [post-mortem] by Friday.",
+            "es": "Seré directa: quiero un análisis posterior sin culpables para el viernes.",
+            "item": "voc-post-mortem"
+          },
+          {
+            "who": "Rowan",
+            "en": "Understood. There's a harder question, though: do we patch it now, or rebuild so the system can [fail gracefully]?",
+            "es": "Entendido. Aunque hay una pregunta más difícil: ¿lo parchamos ahora o reconstruimos para que el sistema falle de forma controlada?",
+            "item": "col-fail-gracefully"
+          },
+          {
+            "who": "Sunil",
+            "en": "If we only patch it, that's a [band-aid solution]. We'll be back here in six months.",
+            "es": "Si solo lo parchamos, es una solución superficial. Volveremos aquí en seis meses.",
+            "item": "idi-band-aid-solution"
+          },
+          {
+            "who": "Rowan",
+            "en": "Honestly, [it's a judgment call]. The proper fix touches four services and could delay the launch.",
+            "es": "Sinceramente, es cuestión de criterio. La solución completa toca cuatro servicios y podría retrasar el lanzamiento.",
+            "item": "phr-its-a-judgment-call"
+          },
+          {
+            "who": "Delphine",
+            "en": "What do you recommend, and what do you need from me?",
+            "es": "¿Qué recomiendas y qué necesitas de mí?"
+          },
+          {
+            "who": "Rowan",
+            "en": "Ship the small patch this week, add a safeguard, and schedule the rebuild. I'd need you to [get buy-in] from the board for moving the launch by two weeks.",
+            "es": "Lanzar el parche pequeño esta semana, agregar una salvaguarda y programar la reconstrucción. Necesitaría que consigas el respaldo del consejo para mover el lanzamiento dos semanas.",
+            "item": "col-get-buy-in"
+          },
+          {
+            "who": "Delphine",
+            "en": "I can do that, provided the safeguard is real. How would you [set up an alert] so we catch it before customers do?",
+            "es": "Puedo hacerlo, siempre que la salvaguarda sea real. ¿Cómo configurarías una alerta para detectarlo antes que los clientes?",
+            "item": "col-set-up-an-alert"
+          },
+          {
+            "who": "Rowan",
+            "en": "A monitor that flags duplicate charges within five minutes and pages whoever is on call.",
+            "es": "Un monitor que marque cobros duplicados en cinco minutos y avise a quien esté de guardia."
+          },
+          {
+            "who": "Delphine",
+            "en": "Approved. Let's [circle back on] Friday with the post-mortem.",
+            "es": "Aprobado. Retomemos el viernes con el análisis posterior.",
+            "item": "phr-lets-circle-back-on"
+          }
+        ],
+        "items": [
+          "col-blast-radius",
+          "col-root-cause",
+          "voc-idempotent",
+          "voc-post-mortem",
+          "col-fail-gracefully",
+          "idi-band-aid-solution",
+          "phr-its-a-judgment-call",
+          "col-get-buy-in",
+          "col-set-up-an-alert",
+          "phr-lets-circle-back-on"
+        ],
+        "questions": [
+          {
+            "q": "What caused some customers to be charged twice?",
+            "options": [
+              "A hacker",
+              "Retry logic that wasn't idempotent after a timeout",
+              "A customer mistake"
+            ],
+            "answer": 1,
+            "why_es": "La lógica de reintento reenvió el cobro tras un timeout."
+          },
+          {
+            "q": "Why does Sunil call a quick patch a band-aid solution?",
+            "options": [
+              "It is too expensive",
+              "It won't solve the underlying problem",
+              "It is too complicated"
+            ],
+            "answer": 1,
+            "why_es": "Porque probablemente volverán a tener el problema en seis meses."
+          },
+          {
+            "q": "What does Rowan need from Delphine?",
+            "options": [
+              "More engineers",
+              "Buy-in from the board to move the launch by two weeks",
+              "A new payment provider"
+            ],
+            "answer": 1,
+            "why_es": "Necesita respaldo del consejo para mover el lanzamiento."
+          },
+          {
+            "q": "What safeguard is proposed?",
+            "options": [
+              "A monitor that flags duplicate charges within five minutes",
+              "A weekly manual check",
+              "A new logo"
+            ],
+            "answer": 0,
+            "why_es": "Un monitor que detecta cobros duplicados en cinco minutos."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica la causa raíz a un directivo no técnico en dos frases, sin jerga.",
+          "model": [
+            "In plain terms, our system retried a payment when it shouldn't have, so some customers were charged twice. The retry logic didn't check whether the first charge had already gone through."
+          ],
+          "expect": [
+            [
+              "plain terms",
+              "simply",
+              "in short",
+              "basically",
+              "in other words"
+            ],
+            [
+              "retry",
+              "retried",
+              "twice",
+              "charged",
+              "charge"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Presenta dos opciones con su costo y recomienda una.",
+          "model": [
+            "We have two options: a quick patch that ships this week but leaves some risk, or a proper rebuild that takes a month. I'd recommend the patch plus a safeguard, because it limits the risk while we plan the rebuild."
+          ],
+          "expect": [
+            [
+              "option",
+              "options",
+              "choice"
+            ],
+            [
+              "recommend",
+              "suggest",
+              "i'd go with",
+              "prefer"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide el respaldo de un directivo con el impacto concreto.",
+          "model": [
+            "I'd need your buy-in to move the launch by two weeks. It's the only way to fix this properly without risking another incident."
+          ],
+          "expect": [
+            [
+              "buy-in",
+              "buy in",
+              "approval",
+              "support",
+              "green light",
+              "sign-off",
+              "sign off"
+            ],
+            [
+              "launch",
+              "weeks",
+              "delay",
+              "move",
+              "timeline",
+              "incident"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te das cuenta de que usas demasiada jerga.",
+          "en": "Let me rephrase that without the jargon.",
+          "es": "Déjame decirlo sin tanta jerga."
+        },
+        {
+          "situation_es": "Quieres confirmar tu entendimiento de la cadena de eventos.",
+          "en": "Am I right in saying that the charge was sent twice because of the timeout?",
+          "es": "¿Entiendo bien que el cobro se envió dos veces por el timeout?"
+        },
+        {
+          "situation_es": "Te piden algo que aún no sabes.",
+          "en": "I don't want to speculate. Let me verify before I answer.",
+          "es": "No quiero especular. Déjame verificar antes de responder."
+        },
+        {
+          "situation_es": "Necesitas contexto sobre cómo fue el incidente.",
+          "en": "Could you walk me through the timeline of events?",
+          "es": "¿Podrías explicarme la línea de tiempo de los eventos?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-sistemas-c",
+        "area": "devops",
+        "level": "C1",
+        "title": "Briefing the COO after an outage",
+        "title_es": "Informar a la directora tras una caída",
+        "setting_es": "Hubo un incidente de cobros duplicados. La directora de operaciones, que no es técnica, te pide una explicación y una recomendación para el consejo.",
+        "npc": "COO (non-technical)",
+        "turns": [
+          {
+            "npc": "Thanks for making time. I'll be frank: the board is asking about Tuesday's outage. {name}, in plain English, what happened?",
+            "npc_es": "Gracias por hacer tiempo. Seré franca: el consejo pregunta por la caída del martes. {name}, en palabras simples, ¿qué pasó?",
+            "task_es": "Explica en lenguaje sencillo: un cambio rutinario en la integración de pagos provocó cobros duplicados durante unos noventa minutos.",
+            "expect": [
+              [
+                "change",
+                "update",
+                "deploy",
+                "integration",
+                "payment"
+              ],
+              [
+                "twice",
+                "duplicate",
+                "double",
+                "charged",
+                "ninety",
+                "90"
+              ]
+            ],
+            "model": [
+              "In plain English, a routine change to our payment integration caused some customers to be charged twice for about ninety minutes.",
+              "A normal update to the billing connection went wrong, and some payments were duplicated for an hour and a half."
+            ]
+          },
+          {
+            "npc": "Ninety minutes! Why wasn't it caught earlier? Do we not have monitoring?",
+            "npc_es": "¡Noventa minutos! ¿Por qué no se detectó antes? ¿No tenemos monitoreo?",
+            "task_es": "Admite la limitación sin excusas: había monitoreo de caídas pero no de cobros duplicados; lo corregirás.",
+            "expect": [
+              [
+                "monitoring",
+                "monitored",
+                "monitor",
+                "monitors",
+                "alert",
+                "alerts",
+                "detect",
+                "detected"
+              ],
+              [
+                "didn't",
+                "did not",
+                "gap",
+                "missing",
+                "weren't",
+                "wasn't",
+                "fix",
+                "add",
+                "will",
+                "going to",
+                "nothing"
+              ]
+            ],
+            "model": [
+              "Fair question. We monitored outages but not duplicate charges. That's a gap, and we're going to fix it.",
+              "We had alerts for downtime, but nothing for duplicate payments. I'll add that this week."
+            ]
+          },
+          {
+            "npc": "Understood. Now, should we roll back or push a patch? I need a recommendation I can defend to the board.",
+            "npc_es": "Entendido. Ahora, ¿revertimos o lanzamos un parche? Necesito una recomendación que pueda defender ante el consejo.",
+            "task_es": "Recomienda con razones: parche pequeño ahora, más una salvaguarda y una reconstrucción programada; menciona el trade-off.",
+            "expect": [
+              [
+                "patch",
+                "fix"
+              ],
+              [
+                "trade-off",
+                "tradeoff",
+                "risk",
+                "because",
+                "safeguard",
+                "rebuild",
+                "recommend"
+              ]
+            ],
+            "model": [
+              "I recommend a small patch now plus a safeguard, and a proper rebuild next quarter. The trade-off is we accept some risk for two weeks, but we avoid delaying everything.",
+              "I'd go with the patch because it limits the risk quickly; the rebuild can follow. The trade-off is time."
+            ]
+          },
+          {
+            "npc": "What do you need from me?",
+            "npc_es": "¿Qué necesitas de mí?",
+            "task_es": "Pide respaldo para mover el lanzamiento dos semanas y apoyo temporal para soporte.",
+            "expect": [
+              [
+                "buy-in",
+                "buy in",
+                "approval",
+                "support",
+                "sign off",
+                "sign-off"
+              ],
+              [
+                "launch",
+                "two weeks",
+                "delay",
+                "extra",
+                "support",
+                "temporary",
+                "help"
+              ]
+            ],
+            "model": [
+              "I need your buy-in to move the launch by two weeks, and a bit of extra support capacity for customer tickets.",
+              "Your approval to delay the launch two weeks, plus temporary help for support."
+            ]
+          },
+          {
+            "npc": "Done. How do we make sure customers trust us again?",
+            "npc_es": "Hecho. ¿Cómo hacemos que los clientes vuelvan a confiar en nosotros?",
+            "task_es": "Propón comunicación transparente: una nota breve y honesta con disculpa y reembolsos automáticos.",
+            "expect": [
+              [
+                "note",
+                "email",
+                "message",
+                "communicate",
+                "communication",
+                "apologize",
+                "apologise",
+                "apology",
+                "honest",
+                "transparent"
+              ],
+              [
+                "refund",
+                "refunds",
+                "credit",
+                "automatic",
+                "automatically"
+              ]
+            ],
+            "model": [
+              "Send a short, honest note with an apology, and process refunds automatically so nobody has to ask.",
+              "Be transparent: apologize clearly and refund everyone automatically."
+            ]
+          },
+          {
+            "npc": "I like that. Let's circle back Friday with the post-mortem. Anything else?",
+            "npc_es": "Me gusta. Retomemos el viernes con el análisis posterior. ¿Algo más?",
+            "task_es": "Cierra confirmando el entregable: análisis posterior sin culpables el viernes, con acciones y responsables.",
+            "expect": [
+              [
+                "post-mortem",
+                "postmortem",
+                "post mortem"
+              ],
+              [
+                "friday",
+                "blameless",
+                "action",
+                "owners",
+                "owner"
+              ]
+            ],
+            "model": [
+              "Nothing else. I'll deliver a blameless post-mortem on Friday, with action items and owners.",
+              "Just confirming: post-mortem on Friday, with clear actions and who owns each one."
+            ]
+          }
+        ],
+        "useful": [
+          "In plain English,…",
+          "The root cause was…",
+          "It's a judgment call",
+          "I'd need your buy-in",
+          "a blameless post-mortem"
+        ]
+      }
+    }
+  ],
+  "new_items": []
+}

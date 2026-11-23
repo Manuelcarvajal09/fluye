@@ -1,0 +1,1249 @@
+{
+  "id": "biologia",
+  "title_es": "Biología: campo y laboratorio",
+  "icon": "microscope",
+  "scene": null,
+  "areas": [
+    "biologia",
+    "ciencia"
+  ],
+  "season": null,
+  "objective_es": "Trabajar en campo y laboratorio en inglés: muestreo, seguridad, protocolos, reporte de resultados con cautela y venta honesta de un producto científico.",
+  "tracks": [
+    {
+      "id": "biologia-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Seguir indicaciones de campo: equipo de seguridad, tomar y etiquetar muestras, medir y contar.",
+      "items": [
+        "col-wear-gloves",
+        "voc-safety-goggles",
+        "col-collect-samples",
+        "col-label-a-sample",
+        "col-take-measurements",
+        "col-field-notes",
+        "phr-how-many-are-there",
+        "voc-habitat",
+        "voc-specimen",
+        "col-field-work"
+      ],
+      "lesson": {
+        "id": "ls-biologia-a",
+        "level": "A2",
+        "topic": "study",
+        "order": 1015,
+        "title": "A morning at the pond",
+        "title_es": "Una mañana en el estanque",
+        "intro_es": "Lin es estudiante y hoy va con la doctora Okoye a tomar muestras de agua y contar ranas en un estanque.",
+        "lines": [
+          {
+            "who": "Okoye",
+            "en": "Good morning, Lin. Today we're at the pond. First, [wear gloves] and your boots.",
+            "es": "Buenos días, Lin. Hoy estamos en el estanque. Primero, ponte guantes y tus botas.",
+            "item": "col-wear-gloves"
+          },
+          {
+            "who": "Lin",
+            "en": "Good morning! Do I need [safety goggles] too?",
+            "es": "¡Buenos días! ¿También necesito gafas de seguridad?",
+            "item": "voc-safety-goggles"
+          },
+          {
+            "who": "Okoye",
+            "en": "Only in the lab. Here, we [collect samples] from three places.",
+            "es": "Solo en el laboratorio. Aquí tomamos muestras de tres lugares.",
+            "item": "col-collect-samples"
+          },
+          {
+            "who": "Lin",
+            "en": "Should I [label the sample] now?",
+            "es": "¿Debo etiquetar la muestra ahora?",
+            "item": "col-label-a-sample"
+          },
+          {
+            "who": "Okoye",
+            "en": "Yes. Write the date, the place and your initials.",
+            "es": "Sí. Escribe la fecha, el lugar y tus iniciales."
+          },
+          {
+            "who": "Lin",
+            "en": "Done. Now I [take measurements]. The water temperature is eight degrees.",
+            "es": "Listo. Ahora tomo medidas. La temperatura del agua es de ocho grados.",
+            "item": "col-take-measurements"
+          },
+          {
+            "who": "Okoye",
+            "en": "Good. Write it in your [field notes].",
+            "es": "Bien. Anótalo en tus notas de campo.",
+            "item": "col-field-notes"
+          },
+          {
+            "who": "Okoye",
+            "en": "Now let's count the frogs. [How many are there]?",
+            "es": "Ahora contemos las ranas. ¿Cuántas hay?",
+            "item": "phr-how-many-are-there"
+          },
+          {
+            "who": "Lin",
+            "en": "I see five. No, six! One is behind the plant.",
+            "es": "Veo cinco. ¡No, seis! Una está detrás de la planta."
+          },
+          {
+            "who": "Okoye",
+            "en": "Careful, don't touch them. Just count and write down the number.",
+            "es": "Cuidado, no las toques. Solo cuenta y anota el número."
+          },
+          {
+            "who": "Lin",
+            "en": "Okay. Six frogs at the pond. This is my favourite part of the job!",
+            "es": "Bien. Seis ranas en el estanque. ¡Esta es mi parte favorita del trabajo!"
+          }
+        ],
+        "items": [
+          "col-wear-gloves",
+          "voc-safety-goggles",
+          "col-collect-samples",
+          "col-label-a-sample",
+          "col-take-measurements",
+          "col-field-notes",
+          "phr-how-many-are-there"
+        ],
+        "questions": [
+          {
+            "q": "What does Lin wear to start?",
+            "options": [
+              "Gloves and boots",
+              "A lab coat",
+              "Only a hat"
+            ],
+            "answer": 0,
+            "why_es": "Okoye le dice que use guantes y botas."
+          },
+          {
+            "q": "When does Lin need safety goggles?",
+            "options": [
+              "Always at the pond",
+              "Only in the lab",
+              "Never"
+            ],
+            "answer": 1,
+            "why_es": "Okoye dice: 'Only in the lab'."
+          },
+          {
+            "q": "What is the water temperature?",
+            "options": [
+              "Six degrees",
+              "Eight degrees",
+              "Eighteen degrees"
+            ],
+            "answer": 1,
+            "why_es": "Lin dice que son ocho grados."
+          },
+          {
+            "q": "How many frogs does Lin count?",
+            "options": [
+              "Five",
+              "Six",
+              "Seven"
+            ],
+            "answer": 1,
+            "why_es": "Primero ve cinco, pero corrige: seis."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pregunta si necesitas guantes o gafas de seguridad.",
+          "model": [
+            "Do I need gloves or safety goggles?",
+            "Do I need to wear gloves today?"
+          ],
+          "expect": [
+            [
+              "do i need",
+              "should i wear",
+              "do we need"
+            ],
+            [
+              "gloves",
+              "goggles"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di cómo etiquetas una muestra: fecha, lugar y tus iniciales.",
+          "model": [
+            "I write the date, the place and my initials on the label.",
+            "On the label I write the date, the place, and my initials."
+          ],
+          "expect": [
+            [
+              "label",
+              "write"
+            ],
+            [
+              "date"
+            ],
+            [
+              "place",
+              "location",
+              "initials"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Reporta una medida: la temperatura del agua es de ocho grados.",
+          "model": [
+            "The water temperature is eight degrees.",
+            "The temperature of the water is eight degrees."
+          ],
+          "expect": [
+            [
+              "temperature"
+            ],
+            [
+              "eight",
+              "8"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No conoces una palabra del trabajo de campo.",
+          "en": "Sorry, what does 'initials' mean?",
+          "es": "Perdón, ¿qué significa 'initials'?"
+        },
+        {
+          "situation_es": "Quieres que te muestren cómo hacerlo.",
+          "en": "Could you show me how to do it?",
+          "es": "¿Podrías mostrarme cómo se hace?"
+        },
+        {
+          "situation_es": "No estás seguro de tomar la muestra correcta.",
+          "en": "Is this the right bottle?",
+          "es": "¿Esta es la botella correcta?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-biologia-a",
+        "area": "biologia",
+        "level": "A2",
+        "title": "Field day at the pond",
+        "title_es": "Día de campo en el estanque",
+        "setting_es": "Estás en un estanque con la doctora Okoye, tu supervisora. Hoy toman muestras de agua y miden la temperatura.",
+        "npc": "Supervisor (Dr. Okoye)",
+        "turns": [
+          {
+            "npc": "Good morning, {name}! Ready for the pond? What do you need to wear?",
+            "npc_es": "¡Buenos días, {name}! ¿Listo para el estanque? ¿Qué necesitas ponerte?",
+            "task_es": "Di que llevas guantes y botas, y pregunta si necesitas gafas.",
+            "expect": [
+              [
+                "gloves"
+              ],
+              [
+                "boots",
+                "goggles",
+                "need"
+              ]
+            ],
+            "model": [
+              "I have gloves and boots. Do I need goggles?",
+              "I'm wearing gloves and boots. Should I wear safety goggles too?"
+            ]
+          },
+          {
+            "npc": "Just gloves today. Okay, please collect a water sample from here. Do you see the bottle?",
+            "npc_es": "Solo guantes hoy. Bien, toma una muestra de agua desde aquí. ¿Ves la botella?",
+            "task_es": "Di que sí ves la botella y pregunta hasta dónde llenarla.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "see",
+                "i see"
+              ],
+              [
+                "fill",
+                "how much",
+                "line",
+                "where",
+                "full"
+              ]
+            ],
+            "model": [
+              "Yes, I see it. How full should I fill it?",
+              "Yeah. Where do I fill it up to?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bhow much full\\b",
+                "fix": "How full",
+                "why_es": "Con adjetivos se usa *how* + adjetivo: *how full*."
+              }
+            ]
+          },
+          {
+            "npc": "Fill it to the black line. Then label it.",
+            "npc_es": "Llénala hasta la línea negra. Luego etiquétala.",
+            "task_es": "Pregunta qué debes escribir en la etiqueta.",
+            "expect": [
+              [
+                "what",
+                "which"
+              ],
+              [
+                "label",
+                "write",
+                "on it"
+              ]
+            ],
+            "model": [
+              "What should I write on the label?",
+              "What do I write on the label?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bwhat i should write\\b",
+                "fix": "What should I write…?",
+                "why_es": "En preguntas el orden es *What should I write?*"
+              }
+            ]
+          },
+          {
+            "npc": "Date, place and your initials.",
+            "npc_es": "Fecha, lugar y tus iniciales.",
+            "task_es": "Confirma que ya lo hiciste y reporta la temperatura: nueve grados.",
+            "expect": [
+              [
+                "done",
+                "finished",
+                "labelled",
+                "labeled",
+                "i wrote",
+                "i have"
+              ],
+              [
+                "nine",
+                "9",
+                "degrees",
+                "temperature"
+              ]
+            ],
+            "model": [
+              "Done. The temperature is nine degrees.",
+              "I labelled it. The water is nine degrees."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bnine grades\\b",
+                "fix": "nine degrees",
+                "why_es": "*Grade* es calificación; la temperatura se mide en *degrees*."
+              }
+            ]
+          },
+          {
+            "npc": "Perfect. Please write it in your field notes. Great work today!",
+            "npc_es": "Perfecto. Anótalo en tus notas de campo. ¡Buen trabajo hoy!",
+            "task_es": "Agradece y di que te gusta trabajar en el campo.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "like",
+                "love",
+                "enjoy",
+                "fun",
+                "favourite",
+                "favorite"
+              ]
+            ],
+            "model": [
+              "Thank you! I really like field work.",
+              "Thanks! I love working outside."
+            ]
+          }
+        ],
+        "useful": [
+          "Do I need gloves?",
+          "Collect a sample",
+          "Label the sample",
+          "Write it in your field notes",
+          "How many are there?"
+        ]
+      }
+    },
+    {
+      "id": "biologia-b",
+      "band": "B1-B2",
+      "level": "B2",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hablar de protocolo y seguridad en el laboratorio, y reportar resultados con la cautela que pide la ciencia.",
+      "items": [
+        "col-follow-the-protocol",
+        "voc-fume-hood",
+        "col-dispose-of-waste",
+        "voc-contamination",
+        "col-run-a-control",
+        "voc-sample-size",
+        "voc-inconclusive",
+        "phr-the-results-suggest-that",
+        "col-flag-a-concern",
+        "voc-lab-report",
+        "col-lab-coat",
+        "voc-pipette"
+      ],
+      "lesson": {
+        "id": "ls-biologia-b",
+        "level": "B2",
+        "topic": "study",
+        "order": 1016,
+        "title": "Protocol, safety and cautious results",
+        "title_es": "Protocolo, seguridad y resultados con cautela",
+        "intro_es": "En el laboratorio, la doctora Salma repasa con Kofi el protocolo, la seguridad y cómo redactar resultados poco claros.",
+        "lines": [
+          {
+            "who": "Salma",
+            "en": "Before we start, [follow the protocol] exactly. Step one: lab coat and gloves.",
+            "es": "Antes de empezar, sigue el protocolo exactamente. Paso uno: bata y guantes.",
+            "item": "col-follow-the-protocol"
+          },
+          {
+            "who": "Kofi",
+            "en": "And safety goggles. I'm using the [fume hood] for the ethanol.",
+            "es": "Y gafas de seguridad. Usaré la campana de extracción para el etanol.",
+            "item": "voc-fume-hood"
+          },
+          {
+            "who": "Salma",
+            "en": "Good. And [dispose of waste] in the labelled containers, never in the sink.",
+            "es": "Bien. Y desecha los residuos en los contenedores etiquetados, nunca en el lavabo.",
+            "item": "col-dispose-of-waste"
+          },
+          {
+            "who": "Kofi",
+            "en": "Got it. Last time we had [contamination] in the cultures. I think it came from my pipette tips.",
+            "es": "Entendido. La última vez tuvimos contaminación en los cultivos. Creo que venía de mis puntas de pipeta.",
+            "item": "voc-contamination"
+          },
+          {
+            "who": "Salma",
+            "en": "Then use fresh tips for every sample. Did you [run a control] for each batch?",
+            "es": "Entonces usa puntas nuevas en cada muestra. ¿Corriste un control para cada lote?",
+            "item": "col-run-a-control"
+          },
+          {
+            "who": "Kofi",
+            "en": "Yes. The control stayed clean, so the problem was in the treatment plates.",
+            "es": "Sí. El control se mantuvo limpio, así que el problema estaba en las placas de tratamiento."
+          },
+          {
+            "who": "Salma",
+            "en": "Record everything in the notebook. Our [sample size] is small, so every number matters.",
+            "es": "Anótalo todo en el cuaderno. Nuestro tamaño de muestra es pequeño, así que cada número cuenta.",
+            "item": "voc-sample-size"
+          },
+          {
+            "who": "Kofi",
+            "en": "The results were [inconclusive] for two of the plates. The numbers were too close.",
+            "es": "Los resultados no fueron concluyentes en dos placas. Los números estaban muy cerca.",
+            "item": "voc-inconclusive"
+          },
+          {
+            "who": "Salma",
+            "en": "Then don't overstate it. In the report, write \"[the results suggest that] the treatment may help\", not \"we proved\".",
+            "es": "Entonces no exageres. En el informe escribe \"los resultados sugieren que el tratamiento podría ayudar\", no \"demostramos\".",
+            "item": "phr-the-results-suggest-that"
+          },
+          {
+            "who": "Kofi",
+            "en": "Understood. I'll prepare a short slide for Friday's meeting.",
+            "es": "Entendido. Prepararé una diapositiva breve para la junta del viernes."
+          },
+          {
+            "who": "Salma",
+            "en": "Perfect. And if something looks wrong, [flag a concern] early. A small problem is easier to fix.",
+            "es": "Perfecto. Y si algo se ve mal, avisa pronto. Un problema pequeño es más fácil de arreglar.",
+            "item": "col-flag-a-concern"
+          },
+          {
+            "who": "Kofi",
+            "en": "Will do. Thanks, Dr. Salma.",
+            "es": "Así lo haré. Gracias, doctora Salma."
+          }
+        ],
+        "items": [
+          "col-follow-the-protocol",
+          "voc-fume-hood",
+          "col-dispose-of-waste",
+          "voc-contamination",
+          "col-run-a-control",
+          "voc-sample-size",
+          "voc-inconclusive",
+          "phr-the-results-suggest-that",
+          "col-flag-a-concern"
+        ],
+        "questions": [
+          {
+            "q": "Where should lab waste go?",
+            "options": [
+              "Down the sink",
+              "In the labelled containers",
+              "In the regular trash"
+            ],
+            "answer": 1,
+            "why_es": "Salma dice que los residuos van en contenedores etiquetados, nunca en el lavabo."
+          },
+          {
+            "q": "What does Salma ask about each batch?",
+            "options": [
+              "If Kofi ran a control",
+              "If Kofi had lunch",
+              "If Kofi ordered more gloves"
+            ],
+            "answer": 0,
+            "why_es": "Pregunta si corrió un control en cada lote."
+          },
+          {
+            "q": "How should the report phrase the result?",
+            "options": [
+              "\"We proved the treatment works\"",
+              "\"The results suggest that the treatment may help\"",
+              "\"The treatment is perfect\""
+            ],
+            "answer": 1,
+            "why_es": "Salma pide cautela: 'the results suggest'."
+          },
+          {
+            "q": "What should Kofi do if something looks wrong?",
+            "options": [
+              "Wait until Friday",
+              "Flag a concern early",
+              "Ignore it"
+            ],
+            "answer": 1,
+            "why_es": "Salma: 'flag a concern early'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica brevemente por qué es importante seguir el protocolo exactamente.",
+          "model": [
+            "Following the protocol exactly keeps the results reliable and prevents contamination.",
+            "If we change the protocol, we can't compare the results, and we risk contamination."
+          ],
+          "expect": [
+            [
+              "protocol"
+            ],
+            [
+              "reliable",
+              "contamination",
+              "compare",
+              "accurate",
+              "safe",
+              "safety",
+              "results"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Reporta un resultado con cautela: los resultados sugieren una mejora, pero la muestra es pequeña.",
+          "model": [
+            "The results suggest an improvement, but our sample size is small, so we need to repeat the experiment.",
+            "The data suggest a small improvement. However, the sample is small."
+          ],
+          "expect": [
+            [
+              "suggest",
+              "indicate"
+            ],
+            [
+              "small",
+              "limited",
+              "few",
+              "more data",
+              "repeat"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Avisa de un problema: la placa 3 parece contaminada y propones repetirla.",
+          "model": [
+            "I want to flag a concern: plate three looks contaminated. I suggest we repeat it with fresh tips.",
+            "Plate three seems contaminated, so I'd like to repeat it."
+          ],
+          "expect": [
+            [
+              "contaminated",
+              "contamination",
+              "contaminate"
+            ],
+            [
+              "repeat",
+              "redo",
+              "again",
+              "fresh",
+              "new",
+              "discard",
+              "dispose"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres asegurarte de seguir bien un paso.",
+          "en": "Sorry, could you repeat step four? I want to make sure I follow the protocol.",
+          "es": "Perdón, ¿podrías repetir el paso cuatro? Quiero asegurarme de seguir el protocolo."
+        },
+        {
+          "situation_es": "Quieres confirmar dónde va un residuo.",
+          "en": "Just to confirm: ethanol waste goes in the red container, right?",
+          "es": "Solo para confirmar: el residuo de etanol va en el contenedor rojo, ¿verdad?"
+        },
+        {
+          "situation_es": "No sabes dónde está el equipo de emergencia.",
+          "en": "I'm not sure where the eyewash station is. Could you show me?",
+          "es": "No estoy seguro de dónde está la estación lavaojos. ¿Podrías mostrármela?"
+        },
+        {
+          "situation_es": "Quieres entender un término de resultados.",
+          "en": "Could you explain what 'inconclusive' means in this case?",
+          "es": "¿Podrías explicar qué significa 'inconclusive' en este caso?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-biologia-b",
+        "area": "biologia",
+        "level": "B2",
+        "title": "Lab safety check",
+        "title_es": "Revisión de seguridad en el laboratorio",
+        "setting_es": "Eres estudiante o técnico en un laboratorio. Tu supervisora quiere asegurarse de que sigues el protocolo y sabes reportar resultados.",
+        "npc": "Lab supervisor",
+        "turns": [
+          {
+            "npc": "Morning, {name}. Before you start the assay, tell me: what safety equipment are you wearing and what's the first step?",
+            "npc_es": "Buenos días, {name}. Antes de empezar el ensayo, dime: ¿qué equipo de seguridad llevas y cuál es el primer paso?",
+            "task_es": "Di que llevas bata, guantes y gafas, y que el primer paso es revisar el protocolo.",
+            "expect": [
+              [
+                "coat",
+                "gloves",
+                "goggles"
+              ],
+              [
+                "protocol",
+                "first step",
+                "check",
+                "read",
+                "review"
+              ]
+            ],
+            "model": [
+              "I'm wearing a lab coat, gloves and safety goggles. The first step is to review the protocol.",
+              "Lab coat, gloves and goggles. First I'll read the protocol again."
+            ]
+          },
+          {
+            "npc": "Good. Remember, the ethanol goes under the fume hood. Where will you put the used pipette tips?",
+            "npc_es": "Bien. Recuerda, el etanol va en la campana de extracción. ¿Dónde pondrás las puntas de pipeta usadas?",
+            "task_es": "Di que las tirarás en el contenedor etiquetado para residuos, no en el lavabo.",
+            "expect": [
+              [
+                "waste",
+                "container",
+                "bin",
+                "dispose",
+                "discard",
+                "throw"
+              ],
+              [
+                "labelled",
+                "labeled",
+                "biohazard",
+                "not in the sink",
+                "sink",
+                "special"
+              ]
+            ],
+            "model": [
+              "I'll dispose of them in the labelled waste container, not in the sink.",
+              "I'll throw them in the special waste bin, and never in the sink."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bthrow them to the\\b",
+                "fix": "throw them in the…",
+                "why_es": "En inglés se tira *in/into* el contenedor, no *to*."
+              }
+            ]
+          },
+          {
+            "npc": "Exactly. Okay, one plate looks cloudy. What do you do?",
+            "npc_es": "Exacto. Bien, una placa se ve turbia. ¿Qué haces?",
+            "task_es": "Explica que podría estar contaminada: la apartas, avisas y la repites con puntas nuevas.",
+            "expect": [
+              [
+                "contaminated",
+                "contamination",
+                "cloudy",
+                "separate",
+                "set aside",
+                "discard",
+                "remove"
+              ],
+              [
+                "tell",
+                "inform",
+                "notify",
+                "let you know",
+                "repeat",
+                "fresh",
+                "new tips",
+                "again"
+              ]
+            ],
+            "model": [
+              "It might be contaminated. I'll set it aside, tell you right away, and repeat it with fresh tips.",
+              "I'll remove the plate, let you know, and run it again with new tips."
+            ]
+          },
+          {
+            "npc": "Good call. Later, you'll present the results. How would you describe a result that isn't clear?",
+            "npc_es": "Buena decisión. Más tarde presentarás los resultados. ¿Cómo describirías un resultado poco claro?",
+            "task_es": "Di que el resultado no es concluyente y que se necesita repetir con más muestras.",
+            "expect": [
+              [
+                "inconclusive",
+                "not clear",
+                "unclear",
+                "not conclusive"
+              ],
+              [
+                "more",
+                "repeat",
+                "larger",
+                "additional",
+                "sample"
+              ]
+            ],
+            "model": [
+              "I'd say the result is inconclusive and we need to repeat it with more samples.",
+              "The data are unclear, so we need a larger sample size."
+            ]
+          },
+          {
+            "npc": "Right. And for the report, how should you phrase your conclusion if the effect is small?",
+            "npc_es": "Correcto. Y en el informe, ¿cómo formularías tu conclusión si el efecto es pequeño?",
+            "task_es": "Formula una conclusión cautelosa: los resultados sugieren un efecto pequeño, pero hay que confirmarlo.",
+            "expect": [
+              [
+                "suggest",
+                "indicate",
+                "may",
+                "might",
+                "seem"
+              ],
+              [
+                "small",
+                "confirm",
+                "more research",
+                "further",
+                "repeat"
+              ]
+            ],
+            "model": [
+              "The results suggest a small effect, but this needs to be confirmed with further experiments.",
+              "The data indicate a small effect. More research is needed to confirm it."
+            ]
+          },
+          {
+            "npc": "Excellent. Last question: if you see a colleague without gloves, what do you say?",
+            "npc_es": "Excelente. Última pregunta: si ves a un colega sin guantes, ¿qué le dices?",
+            "task_es": "Dile con cortesía que se ponga guantes porque es una regla de seguridad.",
+            "expect": [
+              [
+                "gloves",
+                "glove"
+              ],
+              [
+                "safety",
+                "rule",
+                "protocol",
+                "please",
+                "could you",
+                "remember",
+                "reminder",
+                "sorry"
+              ]
+            ],
+            "model": [
+              "Sorry to interrupt, but could you put on gloves? It's a safety rule.",
+              "Hey, just a reminder: gloves are required here for safety."
+            ]
+          }
+        ],
+        "useful": [
+          "Follow the protocol",
+          "Dispose of waste in…",
+          "The results suggest that…",
+          "The result is inconclusive",
+          "Could you repeat that step?"
+        ]
+      }
+    },
+    {
+      "id": "biologia-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Presentar un producto científico con honestidad: propuesta de valor, evidencia, límites del producto, costos, piloto y referencias.",
+      "items": [
+        "col-value-proposition",
+        "phr-can-you-back-that-up",
+        "col-margin-of-error",
+        "phr-i-wouldnt-want-to-overstate",
+        "col-cost-per-test",
+        "col-turnaround-time",
+        "col-pilot-program",
+        "pv-set-apart",
+        "col-reference-customer",
+        "col-set-up-a-demo",
+        "voc-objection",
+        "voc-accuracy"
+      ],
+      "lesson": {
+        "id": "ls-biologia-c",
+        "level": "C1",
+        "topic": "work",
+        "order": 1017,
+        "title": "Selling a field test kit, honestly",
+        "title_es": "Vender un kit de campo, con honestidad",
+        "intro_es": "Dario presenta un kit de análisis de agua (producto ficticio) a la doctora Whitfield, gerente de un distrito de conservación. Ella pide pruebas y él debe vender sin exagerar.",
+        "lines": [
+          {
+            "who": "Dario",
+            "en": "Thanks for meeting, Dr. Whitfield. Let me start with the [value proposition]: our field kit gives you nutrient readings in ten minutes, without sending samples to a lab.",
+            "es": "Gracias por reunirse, doctora Whitfield. Empiezo con la propuesta de valor: nuestro kit de campo da lecturas de nutrientes en diez minutos, sin enviar muestras a un laboratorio.",
+            "item": "col-value-proposition"
+          },
+          {
+            "who": "Whitfield",
+            "en": "Ten minutes is attractive. [Can you back that up] with data? How do the readings compare with lab results?",
+            "es": "Diez minutos es atractivo. ¿Puede respaldarlo con datos? ¿Cómo se comparan las lecturas con las del laboratorio?",
+            "item": "phr-can-you-back-that-up"
+          },
+          {
+            "who": "Dario",
+            "en": "Fair question. In a validation study across forty sites, the kit was within fifteen percent of certified lab results.",
+            "es": "Buena pregunta. En un estudio de validación en cuarenta sitios, el kit estuvo dentro del quince por ciento de los resultados de laboratorios certificados."
+          },
+          {
+            "who": "Whitfield",
+            "en": "Fifteen percent is within the [margin of error] I can accept for screening, but not for official reporting.",
+            "es": "Un quince por ciento está dentro del margen de error que acepto para cribado, pero no para reportes oficiales.",
+            "item": "col-margin-of-error"
+          },
+          {
+            "who": "Dario",
+            "en": "Exactly, and [I wouldn't want to overstate] what it can do. Customers use it to decide where to send lab samples.",
+            "es": "Exacto, y no quisiera exagerar lo que puede hacer. Los clientes lo usan para decidir a dónde enviar muestras al laboratorio.",
+            "item": "phr-i-wouldnt-want-to-overstate"
+          },
+          {
+            "who": "Whitfield",
+            "en": "What about cost? I have to justify this to the board.",
+            "es": "¿Y el costo? Tengo que justificarlo ante el consejo."
+          },
+          {
+            "who": "Dario",
+            "en": "Each kit has fifty tests. The [cost per test] is about three dollars, compared with around sixty at a lab.",
+            "es": "Cada kit tiene cincuenta pruebas. El costo por prueba es de unos tres dólares, frente a unos sesenta en un laboratorio.",
+            "item": "col-cost-per-test"
+          },
+          {
+            "who": "Whitfield",
+            "en": "And the [turnaround time] for replacement kits?",
+            "es": "¿Y el tiempo de entrega de los kits de reemplazo?",
+            "item": "col-turnaround-time"
+          },
+          {
+            "who": "Dario",
+            "en": "About two weeks. For a larger order, I can set up a [pilot program]: three months, one region, so you see the results before you commit.",
+            "es": "Unas dos semanas. Para un pedido mayor, puedo organizar un programa piloto: tres meses, una región, para que vea los resultados antes de comprometerse.",
+            "item": "col-pilot-program"
+          },
+          {
+            "who": "Whitfield",
+            "en": "That reduces the risk. What would [set you apart] from the other kits on the market?",
+            "es": "Eso reduce el riesgo. ¿Qué los distingue de los otros kits del mercado?",
+            "item": "pv-set-apart"
+          },
+          {
+            "who": "Dario",
+            "en": "Two things: a published validation study and a clear protocol anyone on your team can follow.",
+            "es": "Dos cosas: un estudio de validación publicado y un protocolo claro que cualquiera de su equipo puede seguir."
+          },
+          {
+            "who": "Whitfield",
+            "en": "I'll need a [reference customer]. Someone in a similar role.",
+            "es": "Necesitaré un cliente de referencia. Alguien en un puesto similar.",
+            "item": "col-reference-customer"
+          },
+          {
+            "who": "Dario",
+            "en": "Of course. A watershed coordinator ran the pilot last year, and I can connect you with her.",
+            "es": "Por supuesto. Una coordinadora de cuencas ejecutó el piloto el año pasado y puedo ponerlas en contacto."
+          },
+          {
+            "who": "Whitfield",
+            "en": "Good. Send me the study and a quote, and I'll take it to the board.",
+            "es": "Bien. Envíeme el estudio y una cotización, y lo llevaré al consejo."
+          }
+        ],
+        "items": [
+          "col-value-proposition",
+          "phr-can-you-back-that-up",
+          "col-margin-of-error",
+          "phr-i-wouldnt-want-to-overstate",
+          "col-cost-per-test",
+          "col-turnaround-time",
+          "col-pilot-program",
+          "pv-set-apart",
+          "col-reference-customer"
+        ],
+        "questions": [
+          {
+            "q": "What is Dario's main value proposition?",
+            "options": [
+              "Readings in ten minutes without sending samples to a lab",
+              "A free lab upgrade",
+              "Official reports for the government"
+            ],
+            "answer": 0,
+            "why_es": "Ofrece lecturas en diez minutos sin enviar muestras a un laboratorio."
+          },
+          {
+            "q": "How should the kit be used, according to the conversation?",
+            "options": [
+              "To replace certified lab analysis",
+              "For screening, not for official reporting",
+              "Only for training"
+            ],
+            "answer": 1,
+            "why_es": "Whitfield lo acepta para cribado, no para reportes oficiales; Dario evita exagerar."
+          },
+          {
+            "q": "What does Dario offer to reduce Dr. Whitfield's risk?",
+            "options": [
+              "A pilot program for three months in one region",
+              "A refund in cash",
+              "A free kit forever"
+            ],
+            "answer": 0,
+            "why_es": "Ofrece un piloto de tres meses en una región."
+          },
+          {
+            "q": "What will Dario send her?",
+            "options": [
+              "Nothing yet",
+              "The study and a quote",
+              "A new brochure only"
+            ],
+            "answer": 1,
+            "why_es": "Ella pide el estudio y una cotización."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Presenta la propuesta de valor de un kit científico en una frase, con un beneficio concreto.",
+          "model": [
+            "Our kit gives you reliable water readings in ten minutes, so you can decide where to send lab samples and cut your testing costs."
+          ],
+          "expect": [
+            [
+              "kit",
+              "product",
+              "test",
+              "tool"
+            ],
+            [
+              "minutes",
+              "faster",
+              "cut",
+              "reduce",
+              "save",
+              "costs"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Responde a '¿pueden respaldarlo con datos?' con un dato y sin exagerar.",
+          "model": [
+            "Yes. In our validation study across forty sites, the kit was within fifteen percent of lab results. I wouldn't want to overstate it: it's for screening, not for official reporting.",
+            "We tested it against certified lab results at forty sites, and the readings were within fifteen percent. It's a screening tool."
+          ],
+          "expect": [
+            [
+              "study",
+              "tested",
+              "validation",
+              "data",
+              "sites"
+            ],
+            [
+              "screening",
+              "overstate",
+              "not for",
+              "within",
+              "percent",
+              "margin"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Maneja una objeción de precio: reencuadra con el costo por prueba y ofrece un piloto.",
+          "model": [
+            "I understand the price concern. But the cost per test is about three dollars versus sixty at a lab, and I can set up a three-month pilot so you can see the savings first."
+          ],
+          "expect": [
+            [
+              "cost per test",
+              "per test",
+              "per sample",
+              "savings",
+              "save",
+              "compared"
+            ],
+            [
+              "pilot",
+              "trial",
+              "try",
+              "demo",
+              "test it"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres precisar un término que usaste.",
+          "en": "Let me clarify what I mean by 'accurate': within fifteen percent of lab results.",
+          "es": "Déjeme precisar qué quiero decir con 'preciso': dentro del quince por ciento de los resultados de laboratorio."
+        },
+        {
+          "situation_es": "Te desafían y prefieres responder con datos.",
+          "en": "That's a fair challenge. I'd rather give you the data than a promise.",
+          "es": "Es un desafío justo. Prefiero darle los datos que una promesa."
+        },
+        {
+          "situation_es": "Quieres confirmar la preocupación real del cliente.",
+          "en": "If I understand your concern correctly, it's about regulatory reporting. Is that right?",
+          "es": "Si entiendo bien su preocupación, es sobre reportes regulatorios. ¿Es correcto?"
+        },
+        {
+          "situation_es": "No tienes una cifra a la mano.",
+          "en": "I don't have that figure in front of me. Let me confirm and send it by tomorrow.",
+          "es": "No tengo esa cifra a la mano. Déjeme confirmarla y se la envío mañana."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-biologia-c",
+        "area": "ciencia",
+        "level": "C1",
+        "title": "Pitching a water test kit",
+        "title_es": "Presentar un kit de análisis de agua",
+        "setting_es": "Presentas un kit de campo (producto ficticio) a la gerente de un distrito de conservación. Ella es escéptica y pide pruebas. No exageres lo que el producto hace.",
+        "npc": "Prospective client (Dr. Whitfield)",
+        "turns": [
+          {
+            "npc": "Thanks for coming. I've seen your brochure: 'accurate lab-quality results in ten minutes'. That's a strong claim. How do you justify it?",
+            "npc_es": "Gracias por venir. Vi su folleto: 'resultados precisos de calidad de laboratorio en diez minutos'. Es una afirmación fuerte. ¿Cómo la justifica?",
+            "task_es": "Matiza la afirmación: es una herramienta de cribado, no sustituye al laboratorio; menciona el estudio de validación.",
+            "expect": [
+              [
+                "screening",
+                "screen"
+              ],
+              [
+                "validation",
+                "study",
+                "tested",
+                "data",
+                "compared",
+                "within"
+              ]
+            ],
+            "model": [
+              "That's fair, and I'd phrase it more carefully: it's a screening tool, not a replacement for a lab. Our validation study compared it against certified lab results.",
+              "Good point. It's meant for screening. We tested it against lab results in a validation study."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bis as accurate as a lab\\b",
+                "fix": "close to lab results for screening",
+                "why_es": "No prometas igualdad con el laboratorio: suena exagerado."
+              }
+            ]
+          },
+          {
+            "npc": "Okay. What happens if a reading is near the regulatory threshold?",
+            "npc_es": "Bien. ¿Qué pasa si una lectura está cerca del umbral regulatorio?",
+            "task_es": "Explica que en ese caso se debe confirmar con un laboratorio certificado; el kit no sustituye el análisis oficial.",
+            "expect": [
+              [
+                "lab",
+                "laboratory",
+                "certified"
+              ],
+              [
+                "confirm",
+                "verify",
+                "send",
+                "follow up",
+                "official",
+                "not replace",
+                "doesn't replace"
+              ]
+            ],
+            "model": [
+              "In that case, you should confirm it with a certified lab. The kit doesn't replace official analysis.",
+              "We'd recommend sending a sample to a certified lab to verify it."
+            ]
+          },
+          {
+            "npc": "That's honest. But a lab test costs sixty dollars and I have a limited budget. Why should I pay for both?",
+            "npc_es": "Eso es honesto. Pero una prueba de laboratorio cuesta sesenta dólares y mi presupuesto es limitado. ¿Por qué pagar por ambas?",
+            "task_es": "Reencuadra: el kit reduce costos porque solo envías al laboratorio las muestras que lo necesitan; menciona el costo por prueba.",
+            "expect": [
+              [
+                "only",
+                "fewer",
+                "reduce",
+                "cut",
+                "save",
+                "decide"
+              ],
+              [
+                "cost per test",
+                "per test",
+                "three dollars",
+                "$3",
+                "3 dollars",
+                "savings"
+              ]
+            ],
+            "model": [
+              "The kit helps you send only the samples that need a lab, so you cut costs. It's about three dollars per test.",
+              "You'd save money because you'd send fewer samples to the lab. Each test costs about three dollars."
+            ]
+          },
+          {
+            "npc": "Hmm. I'm still not sure. I'd prefer not to commit before seeing it work in our watershed.",
+            "npc_es": "Mmm. Aún no estoy segura. Preferiría no comprometerme antes de verlo funcionar en nuestra cuenca.",
+            "task_es": "Ofrece un programa piloto de tres meses en una región, con criterios de éxito claros.",
+            "expect": [
+              [
+                "pilot",
+                "trial"
+              ],
+              [
+                "three months",
+                "3 months",
+                "one region",
+                "success",
+                "criteria",
+                "clear",
+                "measure"
+              ]
+            ],
+            "model": [
+              "I'd suggest a three-month pilot in one region, with clear success criteria we agree on up front.",
+              "How about a pilot program? Three months, one region, and we'd define success together."
+            ]
+          },
+          {
+            "npc": "A pilot could work. Do you have a customer I can speak to?",
+            "npc_es": "Un piloto podría funcionar. ¿Tiene un cliente con quien pueda hablar?",
+            "task_es": "Ofrece un cliente de referencia y di que organizarás la llamada esta semana.",
+            "expect": [
+              [
+                "reference",
+                "customer",
+                "coordinator",
+                "client",
+                "user"
+              ],
+              [
+                "this week",
+                "introduce",
+                "connect",
+                "set up",
+                "arrange",
+                "call"
+              ]
+            ],
+            "model": [
+              "Absolutely. I'll connect you with a reference customer who ran the pilot last year, and I'll set up a call this week.",
+              "Yes, a watershed coordinator used it last year. I'll arrange a call for this week."
+            ]
+          },
+          {
+            "npc": "Good. Send me the study and a quote, and I'll take it to the board.",
+            "npc_es": "Bien. Envíeme el estudio y una cotización y lo llevaré al consejo.",
+            "task_es": "Cierra: confirma que enviarás ambos mañana y agradece, sin presionar.",
+            "expect": [
+              [
+                "send",
+                "email",
+                "tomorrow"
+              ],
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ]
+            ],
+            "model": [
+              "I'll send both tomorrow. Thank you for your time, and please let me know if you have any questions.",
+              "Both will be in your inbox tomorrow. I appreciate your time."
+            ]
+          }
+        ],
+        "useful": [
+          "Our value proposition is…",
+          "I wouldn't want to overstate…",
+          "It's for screening, not for official reporting",
+          "Could I offer a pilot?",
+          "a reference customer"
+        ]
+      }
+    }
+  ],
+  "new_items": []
+}

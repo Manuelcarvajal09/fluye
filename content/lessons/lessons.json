@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "les-a1-meet-priya",
+    "level": "A1",
+    "topic": "social",
+    "order": 1,
+    "title": "Meet Priya",
+    "title_es": "Conoce a Priya",
+    "intro_es": "Leo le presenta a Maya su nueva roommate, Priya, en un café de Toronto.",
+    "lines": [
+      { "who": "Leo", "en": "Hey, Maya! [How's it going]?", "es": "¡Hola, Maya! ¿Cómo va todo?", "item": "phr-hows-it-going" },
+      { "who": "Maya", "en": "Good, thanks. Who is your friend?", "es": "Bien, gracias. ¿Quién es tu amiga?" },
+      { "who": "Leo", "en": "This is Priya. She's my new roommate.", "es": "Ella es Priya. Es mi nueva roomie." },
+      { "who": "Maya", "en": "Hi, Priya! [Nice to meet you].", "es": "¡Hola, Priya! Mucho gusto.", "item": "phr-nice-to-meet-you" },
+      { "who": "Priya", "en": "Nice to meet you too, Maya.", "es": "Igualmente, Maya." },
+      { "who": "Maya", "en": "So, Priya, [what do you do]?", "es": "Oye, Priya, ¿a qué te dedicas?", "item": "phr-what-do-you-do" },
+      { "who": "Priya", "en": "I'm a nurse. I work at a hospital downtown.", "es": "Soy enfermera. Trabajo en un hospital del centro." },
+      { "who": "Leo", "en": "Okay, I [am hungry]. Let's order some food.", "es": "Bueno, yo tengo hambre. Pidamos algo de comer.", "item": "col-be-hungry" }
+    ],
+    "items": ["phr-hows-it-going", "phr-nice-to-meet-you", "phr-what-do-you-do", "col-be-hungry"],
+    "questions": [
+      { "q": "Who is Priya?", "options": ["Leo's sister", "Leo's roommate", "Maya's boss"], "answer": 1, "why_es": "Leo dice que es su nueva roommate." },
+      { "q": "What is Priya's job?", "options": ["She is a nurse", "She is a teacher", "She is a cook"], "answer": 0, "why_es": "Priya dice: I'm a nurse." },
+      { "q": "Why does Leo want to order food?", "options": ["He is tired", "He is cold", "He is hungry"], "answer": 2, "why_es": "Leo dice que tiene hambre." }
+    ]
+  },
+  {
+    "id": "les-a1-leos-morning",
+    "level": "A1",
+    "topic": "daily",
+    "order": 2,
+    "title": "Leo's morning",
+    "title_es": "La mañana de Leo",
+    "intro_es": "Leo cuenta cómo es una mañana normal antes de ir a trabajar.",
+    "lines": [
+      { "who": "Leo", "en": "I [wake up] at six thirty every day.", "es": "Me despierto a las seis y media todos los días.", "item": "pv-wake-up" },
+      { "who": "Leo", "en": "But I don't [get up] right away.", "es": "Pero no me levanto luego luego.", "item": "pv-get-up" },
+      { "who": "Leo", "en": "I check my phone for ten minutes.", "es": "Reviso mi celular diez minutos." },
+      { "who": "Leo", "en": "Then I [take a shower]. The water is very hot.", "es": "Luego me baño. El agua está muy caliente.", "item": "col-take-a-shower" },
+      { "who": "Leo", "en": "I [have breakfast] with Priya in the kitchen.", "es": "Desayuno con Priya en la cocina.", "item": "col-have-breakfast" },
+      { "who": "Leo", "en": "Usually it's toast and coffee.", "es": "Casi siempre es pan tostado y café." },
+      { "who": "Leo", "en": "I [brush my teeth] and I leave at eight.", "es": "Me lavo los dientes y salgo a las ocho.", "item": "col-brush-your-teeth" }
+    ],
+    "items": ["pv-wake-up", "pv-get-up", "col-take-a-shower", "col-have-breakfast", "col-brush-your-teeth"],
+    "questions": [
+      { "q": "What time does Leo wake up?", "options": ["At six thirty", "At eight", "At seven thirty"], "answer": 0, "why_es": "Dice que se despierta a las seis y media." },
+      { "q": "What does Leo do before he gets up?", "options": ["He makes coffee", "He checks his phone", "He calls his mom"], "answer": 1, "why_es": "Revisa su celular diez minutos." },
+      { "q": "Who has breakfast with Leo?", "options": ["Maya", "Sam", "Priya"], "answer": 2, "why_es": "Desayuna con Priya en la cocina." }
+    ]
+  },
+  {
+    "id": "les-a1-tim-hortons",
+    "level": "A1",
+    "topic": "canada",
+    "order": 3,
+    "title": "At Tim Hortons",
+    "title_es": "En Tim Hortons",
+    "intro_es": "Maya pide un café en Tim Hortons en una mañana fría.",
+    "lines": [
+      { "who": "Maya", "en": "[Excuse me], is this the line?", "es": "Disculpe, ¿esta es la fila?", "item": "phr-excuse-me" },
+      { "who": "Man", "en": "Yes, it is. Go ahead.", "es": "Sí. Pásele." },
+      { "who": "Cashier", "en": "Hi! What can I get for you?", "es": "¡Hola! ¿Qué le sirvo?" },
+      { "who": "Maya", "en": "A medium double-double, please. My hands [are cold]!", "es": "Un double-double mediano, por favor. ¡Tengo las manos heladas!", "item": "col-be-cold" },
+      { "who": "Cashier", "en": "It's minus twenty outside. Here you go.", "es": "Afuera está a menos veinte. Aquí tiene." },
+      { "who": "Maya", "en": "[Thanks so much]!", "es": "¡Muchas gracias!", "item": "phr-thanks-so-much" },
+      { "who": "Cashier", "en": "[You're welcome]. Have a nice day!", "es": "De nada. ¡Que tenga buen día!", "item": "phr-youre-welcome" }
+    ],
+    "items": ["phr-excuse-me", "col-be-cold", "phr-thanks-so-much", "phr-youre-welcome"],
+    "questions": [
+      { "q": "What does Maya order?", "options": ["A tea", "A double-double", "A hot chocolate"], "answer": 1, "why_es": "Pide un double-double mediano (café con dos cremas y dos azúcares)." },
+      { "q": "How is the weather?", "options": ["Very cold", "Hot", "Rainy"], "answer": 0, "why_es": "Afuera está a menos veinte." }
+    ]
+  },
+  {
+    "id": "les-a1-welcome-home",
+    "level": "A1",
+    "topic": "home",
+    "order": 4,
+    "title": "Welcome home",
+    "title_es": "Bienvenida a casa",
+    "intro_es": "Priya llega por primera vez al depa que va a compartir con Leo.",
+    "lines": [
+      { "who": "Leo", "en": "Hi, Priya! [Come in], come in.", "es": "¡Hola, Priya! Pásale, pásale.", "item": "pv-come-in" },
+      { "who": "Priya", "en": "Wow, the apartment is really nice.", "es": "Guau, el depa está bien bonito." },
+      { "who": "Leo", "en": "Thanks. Please [sit down]. Do you want some water?", "es": "Gracias. Siéntate, por favor. ¿Quieres agua?", "item": "pv-sit-down" },
+      { "who": "Priya", "en": "Yes, please. I'm tired.", "es": "Sí, por favor. Estoy cansada." },
+      { "who": "Leo", "en": "So, where do you [come from]?", "es": "Oye, ¿de dónde eres?", "item": "pv-come-from" },
+      { "who": "Priya", "en": "I'm from Mississauga. It's near here.", "es": "Soy de Mississauga. Está cerca de aquí." },
+      { "who": "Leo", "en": "Cool. What do you like to do in your [free time]?", "es": "Qué padre. ¿Qué te gusta hacer en tu tiempo libre?", "item": "col-free-time" },
+      { "who": "Priya", "en": "I like to cook and watch movies.", "es": "Me gusta cocinar y ver películas." }
+    ],
+    "items": ["pv-come-in", "pv-sit-down", "pv-come-from", "col-free-time"],
+    "questions": [
+      { "q": "Where is Priya from?", "options": ["Vancouver", "Mississauga", "Chicago"], "answer": 1, "why_es": "Dice que es de Mississauga." },
+      { "q": "What does Priya like to do?", "options": ["Cook and watch movies", "Play hockey", "Go shopping"], "answer": 0, "why_es": "Le gusta cocinar y ver películas." }
+    ]
+  },
+  {
+    "id": "les-a1-snow-day",
+    "level": "A1",
+    "topic": "canada",
+    "order": 5,
+    "title": "Snow day",
+    "title_es": "Día de nieve",
+    "intro_es": "Es el primer día de nieve del año y Priya ayuda a Leo a prepararse para salir.",
+    "lines": [
+      { "who": "Priya", "en": "Leo, look outside! It's snowing.", "es": "¡Leo, mira afuera! Está nevando." },
+      { "who": "Leo", "en": "Oh no. I have to go to work.", "es": "Ay, no. Tengo que ir a trabajar." },
+      { "who": "Priya", "en": "[Put on] your big coat and your boots.", "es": "Ponte tu abrigo grueso y tus botas.", "item": "pv-put-on" },
+      { "who": "Leo", "en": "Okay. Can you [turn on] the heater?", "es": "Okey. ¿Puedes prender la calefacción?", "item": "pv-turn-on" },
+      { "who": "Priya", "en": "Sure. And [be careful] on the sidewalk. It's icy.", "es": "Claro. Y ten cuidado en la banqueta. Hay hielo.", "item": "col-be-careful" },
+      { "who": "Leo", "en": "Thanks. I love snow, but I hate ice.", "es": "Gracias. Me encanta la nieve, pero odio el hielo." }
+    ],
+    "items": ["pv-put-on", "pv-turn-on", "col-be-careful"],
+    "questions": [
+      { "q": "What is the weather like?", "options": ["It's sunny", "It's snowing", "It's raining"], "answer": 1, "why_es": "Priya dice: It's snowing." },
+      { "q": "Why does Leo need to be careful?", "options": ["The sidewalk is icy", "The bus is late", "The coat is old"], "answer": 0, "why_es": "La banqueta tiene hielo." }
+    ]
+  },
+  {
+    "id": "les-a1-dinner-at-home",
+    "level": "A1",
+    "topic": "food",
+    "order": 6,
+    "title": "Dinner at home",
+    "title_es": "Cena en casa",
+    "intro_es": "Leo y Priya se reparten las tareas de la cena.",
+    "lines": [
+      { "who": "Priya", "en": "I can [make dinner] tonight. Is pasta okay?", "es": "Yo puedo hacer la cena hoy. ¿Está bien pasta?", "item": "col-make-dinner" },
+      { "who": "Leo", "en": "Pasta is perfect. I love pasta.", "es": "La pasta está perfecta. Me encanta." },
+      { "who": "Priya", "en": "Can you [set the table]?", "es": "¿Puedes poner la mesa?", "item": "col-set-the-table" },
+      { "who": "Leo", "en": "Sure. And I can [do the dishes] after.", "es": "Claro. Y yo lavo los trastes después.", "item": "col-do-the-dishes" },
+      { "who": "Priya", "en": "Deal. I'm so tired today.", "es": "Trato hecho. Hoy estoy muy cansada." },
+      { "who": "Leo", "en": "Me too. I want to [go to bed] early.", "es": "Yo también. Quiero irme a dormir temprano.", "item": "col-go-to-bed" }
+    ],
+    "items": ["col-make-dinner", "col-set-the-table", "col-do-the-dishes", "col-go-to-bed"],
+    "questions": [
+      { "q": "Who makes dinner?", "options": ["Leo", "Priya", "Maya"], "answer": 1, "why_es": "Priya dice que ella hace la cena." },
+      { "q": "What does Leo do after dinner?", "options": ["He watches TV", "He goes out", "He does the dishes"], "answer": 2, "why_es": "Leo dice que lava los trastes después." }
+    ]
+  },
+  {
+    "id": "les-a1-saturday-shopping",
+    "level": "A1",
+    "topic": "daily",
+    "order": 7,
+    "title": "Saturday shopping",
+    "title_es": "Compras del sábado",
+    "intro_es": "Maya y Leo van de compras al Eaton Centre un sábado.",
+    "lines": [
+      { "who": "Maya", "en": "Do you want to [go shopping] on Saturday?", "es": "¿Quieres ir de compras el sábado?", "item": "col-go-shopping" },
+      { "who": "Leo", "en": "Yes! I need new shoes.", "es": "¡Sí! Necesito zapatos nuevos." },
+      { "who": "Maya", "en": "I always [make a list] first.", "es": "Yo siempre hago una lista primero.", "item": "col-make-a-list" },
+      { "who": "Leo", "en": "Good idea. I'm [looking for] black boots.", "es": "Buena idea. Estoy buscando botas negras.", "item": "pv-look-for" },
+      { "who": "Maya", "en": "These are nice. And they're on sale.", "es": "Estas están bonitas. Y están en oferta." },
+      { "who": "Leo", "en": "Great. Can I [pay for] them with my card?", "es": "Genial. ¿Las puedo pagar con tarjeta?", "item": "pv-pay-for" },
+      { "who": "Cashier", "en": "Of course. That's sixty dollars.", "es": "Claro. Son sesenta dólares." }
+    ],
+    "items": ["col-go-shopping", "col-make-a-list", "pv-look-for", "pv-pay-for"],
+    "questions": [
+      { "q": "What does Leo need?", "options": ["A new coat", "New shoes", "A new phone"], "answer": 1, "why_es": "Dice que necesita zapatos nuevos." },
+      { "q": "How much are the boots?", "options": ["Sixty dollars", "Sixteen dollars", "Six dollars"], "answer": 0, "why_es": "La cajera dice: sixty dollars." }
+    ]
+  },
+  {
+    "id": "les-a1-bus-to-work",
+    "level": "A1",
+    "topic": "daily",
+    "order": 8,
+    "title": "The bus to work",
+    "title_es": "El camión al trabajo",
+    "intro_es": "Maya y Leo se encuentran en la parada del camión.",
+    "lines": [
+      { "who": "Maya", "en": "Leo! Do you [take the bus] to work?", "es": "¡Leo! ¿Te vas en camión al trabajo?", "item": "col-take-the-bus" },
+      { "who": "Leo", "en": "Yes, every day. It's fast.", "es": "Sí, diario. Es rápido." },
+      { "who": "Maya", "en": "I usually walk, but it's too cold today.", "es": "Normalmente camino, pero hoy hace demasiado frío." },
+      { "who": "Leo", "en": "Look, the bus is there. We need to [cross the street].", "es": "Mira, ahí está el camión. Tenemos que cruzar la calle.", "item": "col-cross-the-street" },
+      { "who": "Maya", "en": "What time do you [get home] tonight?", "es": "¿A qué hora llegas a tu casa hoy en la noche?", "item": "col-get-home" },
+      { "who": "Leo", "en": "Around six. Why?", "es": "Como a las seis. ¿Por qué?" },
+      { "who": "Maya", "en": "Let's have dinner! [Talk to you later]!", "es": "¡Vamos a cenar! ¡Luego hablamos!", "item": "phr-talk-to-you-later" }
+    ],
+    "items": ["col-take-the-bus", "col-cross-the-street", "col-get-home", "phr-talk-to-you-later"],
+    "questions": [
+      { "q": "Why does Maya take the bus today?", "options": ["She is late", "It's too cold to walk", "Her car is broken"], "answer": 1, "why_es": "Dice que normalmente camina, pero hoy hace mucho frío." },
+      { "q": "When does Leo get home?", "options": ["Around six", "Around nine", "At noon"], "answer": 0, "why_es": "Leo dice: Around six." }
+    ]
+  },
+  {
+    "id": "les-a1-call-from-mom",
+    "level": "A1",
+    "topic": "social",
+    "order": 9,
+    "title": "A call from Mom",
+    "title_es": "Una llamada de mamá",
+    "intro_es": "La mamá de Leo le llama desde Vancouver.",
+    "lines": [
+      { "who": "Mom", "en": "Hi, sweetie! [How are you doing]?", "es": "¡Hola, mi amor! ¿Cómo estás?", "item": "phr-how-are-you-doing" },
+      { "who": "Leo", "en": "Good, Mom. How are you and Dad?", "es": "Bien, mamá. ¿Cómo están tú y papá?" },
+      { "who": "Mom", "en": "We're fine. What's new in Toronto?", "es": "Estamos bien. ¿Qué hay de nuevo en Toronto?" },
+      { "who": "Leo", "en": "[Not much]. Work, snow, the usual.", "es": "No mucho. Trabajo, nieve, lo de siempre.", "item": "phr-not-much" },
+      { "who": "Mom", "en": "When do you [come back] to Vancouver?", "es": "¿Cuándo regresas a Vancouver?", "item": "pv-come-back" },
+      { "who": "Leo", "en": "In December, for Christmas. [Say hello] to Dad for me.", "es": "En diciembre, para Navidad. Salúdame a papá.", "item": "col-say-hello" },
+      { "who": "Mom", "en": "I will. [Take care], honey!", "es": "Claro. ¡Cuídate, mi amor!", "item": "phr-take-care" }
+    ],
+    "items": ["phr-how-are-you-doing", "phr-not-much", "pv-come-back", "col-say-hello", "phr-take-care"],
+    "questions": [
+      { "q": "Where does Leo's mom live?", "options": ["In Toronto", "In Chicago", "In Vancouver"], "answer": 2, "why_es": "Le llama desde Vancouver y pregunta cuándo regresa ahí." },
+      { "q": "When will Leo go to Vancouver?", "options": ["In December", "In June", "Next week"], "answer": 0, "why_es": "Dice que en diciembre, para Navidad." }
+    ]
+  },
+  {
+    "id": "les-a1-big-test",
+    "level": "A1",
+    "topic": "study",
+    "order": 10,
+    "title": "The big test",
+    "title_es": "El examen importante",
+    "intro_es": "Maya toma clases de francés y tiene examen el lunes.",
+    "lines": [
+      { "who": "Leo", "en": "Hey, Maya. [What's up]?", "es": "Hola, Maya. ¿Qué onda?", "item": "phr-whats-up" },
+      { "who": "Maya", "en": "I have a French test on Monday.", "es": "Tengo examen de francés el lunes." },
+      { "who": "Leo", "en": "Are you ready?", "es": "¿Ya estás lista?" },
+      { "who": "Maya", "en": "Not really. I need to [do my homework] tonight.", "es": "No mucho. Tengo que hacer mi tarea hoy en la noche.", "item": "col-do-your-homework" },
+      { "who": "Leo", "en": "Your teacher is nice. You can [ask a question] in class.", "es": "Tu maestra es buena onda. Puedes hacer una pregunta en clase.", "item": "col-ask-a-question" },
+      { "who": "Maya", "en": "True. I can do it.", "es": "Es cierto. Sí puedo." },
+      { "who": "Leo", "en": "Of course you can. [Good luck]!", "es": "Claro que puedes. ¡Suerte!", "item": "phr-good-luck" }
+    ],
+    "items": ["phr-whats-up", "col-do-your-homework", "col-ask-a-question", "phr-good-luck"],
+    "questions": [
+      { "q": "What is on Monday?", "options": ["A party", "A French test", "A hockey game"], "answer": 1, "why_es": "Maya tiene examen de francés el lunes." },
+      { "q": "What does Maya need to do tonight?", "options": ["Her homework", "Her laundry", "Her shopping"], "answer": 0, "why_es": "Dice que tiene que hacer su tarea." }
+    ]
+  },
+  {
+    "id": "les-a2-apartment-hunt",
+    "level": "A2",
+    "topic": "home",
+    "order": 11,
+    "title": "Apartment hunt",
+    "title_es": "Buscando depa",
+    "intro_es": "Maya visita un departamento en renta en el barrio de Leslieville.",
+    "lines": [
+      { "who": "Maya", "en": "Hi, I'm here to see the apartment. I want to [rent an apartment] close to work.", "es": "Hola, vengo a ver el depa. Quiero rentar un departamento cerca del trabajo.", "item": "col-rent-an-apartment" },
+      { "who": "Landlord", "en": "Sure. Come in and [look around].", "es": "Claro. Pásele y échele un ojo.", "item": "pv-look-around" },
+      { "who": "Maya", "en": "It's small, but the kitchen is really nice.", "es": "Está chico, pero la cocina está muy bonita." },
+      { "who": "Maya", "en": "Do I [pay rent] on the first of the month?", "es": "¿La renta se paga el primero de cada mes?", "item": "col-pay-rent" },
+      { "who": "Landlord", "en": "Yes. It's eighteen hundred, and that includes heat.", "es": "Sí. Son mil ochocientos, y eso incluye la calefacción." },
+      { "who": "Maya", "en": "Heat is included? That [makes sense] in Toronto!", "es": "¿Incluye la calefacción? ¡Tiene sentido en Toronto!", "item": "col-make-sense" },
+      { "who": "Landlord", "en": "You can [move in] on the first of the month.", "es": "Se puede mudar el primero del mes.", "item": "pv-move-in" },
+      { "who": "Maya", "en": "Great. Can I think about it until tomorrow?", "es": "Perfecto. ¿Lo puedo pensar hasta mañana?" }
+    ],
+    "items": ["col-rent-an-apartment", "pv-look-around", "col-pay-rent", "col-make-sense", "pv-move-in"],
+    "questions": [
+      { "q": "What does Maya like about the apartment?", "options": ["The kitchen", "The big bedroom", "The view"], "answer": 0, "why_es": "Dice que la cocina está muy bonita." },
+      { "q": "What is included in the rent?", "options": ["Internet", "Parking", "Heat"], "answer": 2, "why_es": "El casero dice que incluye la calefacción (heat)." },
+      { "q": "When can Maya move in?", "options": ["Tomorrow", "On the first of the month", "Next year"], "answer": 1, "why_es": "Se puede mudar el primero del mes." }
+    ]
+  },
+  {
+    "id": "les-a2-first-day",
+    "level": "A2",
+    "topic": "work",
+    "order": 12,
+    "title": "First day at the startup",
+    "title_es": "Primer día en la startup",
+    "intro_es": "Es el primer día de Leo en una startup de software y Sam le ayuda a empezar.",
+    "lines": [
+      { "who": "Sam", "en": "Welcome, Leo! I'm Sam. This is your desk.", "es": "¡Bienvenido, Leo! Soy Sam. Este es tu escritorio." },
+      { "who": "Leo", "en": "Thanks! Can you help me [set up] my laptop?", "es": "¡Gracias! ¿Me ayudas a configurar mi laptop?", "item": "pv-set-up" },
+      { "who": "Sam", "en": "Sure. First, [log in] with the password on this paper.", "es": "Claro. Primero, inicia sesión con la contraseña de este papel.", "item": "pv-log-in" },
+      { "who": "Leo", "en": "Oh, sorry, I think I typed it wrong.", "es": "Ay, perdón, creo que la escribí mal." },
+      { "who": "Sam", "en": "[No worries]. Everybody does that on day one.", "es": "No te preocupes. A todos nos pasa el primer día.", "item": "phr-no-worries" },
+      { "who": "Leo", "en": "[Quick question]: what time is lunch here?", "es": "Una pregunta rápida: ¿a qué hora es la comida aquí?", "item": "col-quick-question" },
+      { "who": "Sam", "en": "Around noon. And you can [take a break] any time.", "es": "Como a las doce. Y puedes tomar un descanso cuando quieras.", "item": "col-take-a-break" },
+      { "who": "Leo", "en": "I like this place already.", "es": "Ya me está gustando este lugar." }
+    ],
+    "items": ["pv-set-up", "pv-log-in", "phr-no-worries", "col-quick-question", "col-take-a-break"],
+    "questions": [
+      { "q": "What does Leo need help with?", "options": ["His laptop", "His car", "His lunch"], "answer": 0, "why_es": "Pide ayuda para configurar su laptop." },
+      { "q": "What time is lunch?", "options": ["Around ten", "Around noon", "Around three"], "answer": 1, "why_es": "Sam dice: Around noon." }
+    ]
+  },
+  {
+    "id": "les-a2-out-of-coffee",
+    "level": "A2",
+    "topic": "food",
+    "order": 13,
+    "title": "Out of coffee",
+    "title_es": "Sin café",
+    "intro_es": "Priya y Leo descubren que no hay café en casa antes de trabajar.",
+    "lines": [
+      { "who": "Priya", "en": "Leo, did you drink all the coffee?", "es": "Leo, ¿te tomaste todo el café?" },
+      { "who": "Leo", "en": "Oh no. [My bad]. I forgot to buy more.", "es": "Ay, no. Mi culpa. Se me olvidó comprar más.", "item": "phr-my-bad" },
+      { "who": "Priya", "en": "We [ran out of] milk too.", "es": "También se nos acabó la leche.", "item": "pv-run-out-of" },
+      { "who": "Leo", "en": "I can [pick up] coffee and milk after work.", "es": "Puedo comprar café y leche saliendo del trabajo.", "item": "pv-pick-up-4" },
+      { "who": "Priya", "en": "Thanks. But I need coffee now!", "es": "Gracias. ¡Pero necesito café ya!" },
+      { "who": "Leo", "en": "There's a café on the corner. They have really [strong coffee].", "es": "Hay un café en la esquina. Tienen café bien cargado.", "item": "col-strong-coffee" },
+      { "who": "Priya", "en": "Perfect. You're paying, right?", "es": "Perfecto. Tú invitas, ¿verdad?" }
+    ],
+    "items": ["phr-my-bad", "pv-run-out-of", "pv-pick-up-4", "col-strong-coffee"],
+    "questions": [
+      { "q": "What did they run out of?", "options": ["Coffee and milk", "Bread and eggs", "Tea and sugar"], "answer": 0, "why_es": "No hay café y también se acabó la leche." },
+      { "q": "Who will probably pay at the café?", "options": ["Priya", "Leo", "Sam"], "answer": 1, "why_es": "Priya dice: You're paying, right? porque Leo se acabó el café." }
+    ]
+  },
+  {
+    "id": "les-a2-sick-day",
+    "level": "A2",
+    "topic": "health",
+    "order": 14,
+    "title": "A sick day",
+    "title_es": "Un día enfermo",
+    "intro_es": "Maya se siente mal y Priya, que es enfermera, le da consejos.",
+    "lines": [
+      { "who": "Maya", "en": "Priya, I feel terrible. I think I [have a cold].", "es": "Priya, me siento fatal. Creo que tengo gripa.", "item": "col-have-a-cold" },
+      { "who": "Priya", "en": "Oh no. Do you have a fever?", "es": "Ay, no. ¿Tienes fiebre?" },
+      { "who": "Maya", "en": "No, but I have a [sore throat] and my nose is running.", "es": "No, pero me duele la garganta y tengo escurrimiento.", "item": "col-sore-throat" },
+      { "who": "Priya", "en": "Drink a lot of tea and [get some rest].", "es": "Toma mucho té y descansa.", "item": "col-get-some-rest" },
+      { "who": "Maya", "en": "Should I go to the clinic?", "es": "¿Debería ir a la clínica?" },
+      { "who": "Priya", "en": "If you aren't better in three days, [see a doctor].", "es": "Si no te sientes mejor en tres días, ve al doctor.", "item": "col-see-a-doctor" },
+      { "who": "Maya", "en": "Okay. I'll [feel better] soon, I hope.", "es": "Okey. Ojalá me sienta mejor pronto.", "item": "col-feel-better" }
+    ],
+    "items": ["col-have-a-cold", "col-sore-throat", "col-get-some-rest", "col-see-a-doctor", "col-feel-better"],
+    "questions": [
+      { "q": "What is wrong with Maya?", "options": ["She broke her arm", "She has a cold", "She is hungry"], "answer": 1, "why_es": "Dice que cree que tiene gripa." },
+      { "q": "When should Maya see a doctor?", "options": ["Today", "If she isn't better in three days", "Next month"], "answer": 1, "why_es": "Priya dice que si no mejora en tres días, vaya al doctor." }
+    ]
+  },
+  {
+    "id": "les-a2-hockey-night",
+    "level": "A2",
+    "topic": "canada",
+    "order": 15,
+    "title": "Hockey night",
+    "title_es": "Noche de hockey",
+    "intro_es": "Leo invita a Maya a ver el partido de los Leafs en su casa.",
+    "lines": [
+      { "who": "Leo", "en": "Hey, [any plans for the weekend]?", "es": "Oye, ¿tienes planes para el fin de semana?", "item": "phr-any-plans-for-the-weekend" },
+      { "who": "Maya", "en": "Not really. Why?", "es": "La verdad no. ¿Por qué?" },
+      { "who": "Leo", "en": "The Leafs play on Saturday. Do you want to [come over]?", "es": "Los Leafs juegan el sábado. ¿Quieres venir a la casa?", "item": "pv-come-over" },
+      { "who": "Maya", "en": "Sure! I love to [hang out] with you guys.", "es": "¡Claro! Me encanta pasar el rato con ustedes.", "item": "pv-hang-out" },
+      { "en": "On Saturday night, the Leafs win four to one.", "es": "El sábado en la noche, los Leafs ganan cuatro a uno." },
+      { "who": "Maya", "en": "[No way]! That was an amazing goal!", "es": "¡No manches! ¡Qué golazo!", "item": "phr-no-way" },
+      { "who": "Leo", "en": "See? I told you hockey is fun.", "es": "¿Ves? Te dije que el hockey está divertido." },
+      { "who": "Maya", "en": "I [had a good time]. Thanks, Leo.", "es": "La pasé muy bien. Gracias, Leo.", "item": "col-have-a-good-time" }
+    ],
+    "items": ["phr-any-plans-for-the-weekend", "pv-come-over", "pv-hang-out", "phr-no-way", "col-have-a-good-time"],
+    "questions": [
+      { "q": "When is the hockey game?", "options": ["On Friday", "On Saturday", "On Sunday"], "answer": 1, "why_es": "Leo dice que los Leafs juegan el sábado." },
+      { "q": "What was the final score?", "options": ["Four to one", "Two to two", "One to four"], "answer": 0, "why_es": "Los Leafs ganan cuatro a uno." }
+    ]
+  },
+  {
+    "id": "les-a2-airport-rush",
+    "level": "A2",
+    "topic": "travel",
+    "order": 16,
+    "title": "Airport rush",
+    "title_es": "Carrera en el aeropuerto",
+    "intro_es": "Leo llega tarde a Pearson para su vuelo a Vancouver.",
+    "lines": [
+      { "who": "Leo", "en": "Sorry, I'm late! I [missed the bus].", "es": "¡Perdón, llegué tarde! Se me fue el camión.", "item": "col-miss-the-bus" },
+      { "who": "Agent", "en": "No problem. You can [check in] here.", "es": "No hay problema. Puede registrarse aquí.", "item": "pv-check-in" },
+      { "who": "Agent", "en": "But your flight [takes off] in forty minutes.", "es": "Pero su vuelo despega en cuarenta minutos.", "item": "pv-take-off" },
+      { "who": "Leo", "en": "Forty minutes? I [am in a hurry], then!", "es": "¿Cuarenta minutos? ¡Entonces voy con prisa!", "item": "col-be-in-a-hurry" },
+      { "who": "Agent", "en": "Here's your boarding pass. Gate C twelve.", "es": "Aquí está su pase de abordar. Sala C doce." },
+      { "who": "Agent", "en": "Please [hurry up]. Security is busy today.", "es": "Por favor, apúrese. Hoy hay mucha gente en seguridad.", "item": "pv-hurry-up" },
+      { "who": "Leo", "en": "Thank you so much!", "es": "¡Muchísimas gracias!" }
+    ],
+    "items": ["col-miss-the-bus", "pv-check-in", "pv-take-off", "col-be-in-a-hurry", "pv-hurry-up"],
+    "questions": [
+      { "q": "Why is Leo late?", "options": ["He missed the bus", "He woke up late", "He lost his passport"], "answer": 0, "why_es": "Dice que se le fue el camión." },
+      { "q": "When does the flight take off?", "options": ["In four hours", "In forty minutes", "In fourteen minutes"], "answer": 1, "why_es": "La agente dice: in forty minutes." }
+    ]
+  },
+  {
+    "id": "les-a2-back-in-vancouver",
+    "level": "A2",
+    "topic": "social",
+    "order": 17,
+    "title": "Back in Vancouver",
+    "title_es": "De vuelta en Vancouver",
+    "intro_es": "Leo llega a casa de su familia y su abuela lo recibe.",
+    "lines": [
+      { "who": "Grandma", "en": "Leo! [Long time no see]!", "es": "¡Leo! ¡Cuánto tiempo sin verte!", "item": "phr-long-time-no-see" },
+      { "who": "Leo", "en": "Hi, Grandma! I missed you.", "es": "¡Hola, abuela! Te extrañé." },
+      { "who": "Grandma", "en": "Look at you. I remember when you were small.", "es": "Mírate nada más. Me acuerdo cuando eras chiquito." },
+      { "who": "Leo", "en": "I [grew up] in this house, Grandma.", "es": "Crecí en esta casa, abuela.", "item": "pv-grow-up" },
+      { "who": "Grandma", "en": "Yes, and I [looked after] you every summer.", "es": "Sí, y yo te cuidaba todos los veranos.", "item": "pv-look-after" },
+      { "who": "Leo", "en": "Can you [tell a story] about Dad as a kid?", "es": "¿Puedes contar una historia de papá cuando era niño?", "item": "col-tell-a-story" },
+      { "who": "Grandma", "en": "After dinner. I'm [looking forward to] a long talk.", "es": "Después de la cena. Tengo muchas ganas de platicar largo.", "item": "pv-look-forward-to" }
+    ],
+    "items": ["phr-long-time-no-see", "pv-grow-up", "pv-look-after", "col-tell-a-story", "pv-look-forward-to"],
+    "questions": [
+      { "q": "Who took care of Leo in the summer?", "options": ["His dad", "His grandma", "Maya"], "answer": 1, "why_es": "La abuela dice que lo cuidaba todos los veranos." },
+      { "q": "What story does Leo want to hear?", "options": ["About his dad as a kid", "About Toronto", "About hockey"], "answer": 0, "why_es": "Pide una historia de su papá cuando era niño." }
+    ]
+  },
+  {
+    "id": "les-a2-at-the-bank",
+    "level": "A2",
+    "topic": "money",
+    "order": 18,
+    "title": "At the bank",
+    "title_es": "En el banco",
+    "intro_es": "Leo va al banco para abrir una cuenta de ahorro.",
+    "lines": [
+      { "who": "Banker", "en": "Good morning. How can I help you?", "es": "Buenos días. ¿En qué le puedo ayudar?" },
+      { "who": "Leo", "en": "I want to [save money]. I need a savings account.", "es": "Quiero ahorrar. Necesito una cuenta de ahorro.", "item": "col-save-money" },
+      { "who": "Banker", "en": "Sure. Please [fill out] this form.", "es": "Claro. Por favor llene este formulario.", "item": "pv-fill-out" },
+      { "who": "Leo", "en": "I [get paid] every two weeks. Can I move money automatically?", "es": "Me pagan cada dos semanas. ¿Puedo pasar dinero en automático?", "item": "col-get-paid" },
+      { "who": "Banker", "en": "Yes, a little every payday. It's easy.", "es": "Sí, un poquito cada día de pago. Es fácil." },
+      { "who": "Leo", "en": "Good. I [spend money] too fast on food.", "es": "Qué bien. Gasto dinero demasiado rápido en comida.", "item": "col-spend-money" },
+      { "who": "Banker", "en": "You're not the only one!", "es": "¡No es el único!" }
+    ],
+    "items": ["col-save-money", "pv-fill-out", "col-get-paid", "col-spend-money"],
+    "questions": [
+      { "q": "What kind of account does Leo want?", "options": ["A savings account", "A business account", "A student account"], "answer": 0, "why_es": "Dice que necesita una cuenta de ahorro." },
+      { "q": "How often does Leo get paid?", "options": ["Every week", "Every two weeks", "Every month"], "answer": 1, "why_es": "Dice: I get paid every two weeks." }
+    ]
+  },
+  {
+    "id": "les-a2-chore-day",
+    "level": "A2",
+    "topic": "home",
+    "order": 19,
+    "title": "Chore day",
+    "title_es": "Día de quehaceres",
+    "intro_es": "Priya y Leo limpian el depa un domingo.",
+    "lines": [
+      { "who": "Priya", "en": "It's Sunday. Time to [do chores]!", "es": "Es domingo. ¡Hora de los quehaceres!", "item": "col-do-chores" },
+      { "who": "Leo", "en": "Ugh. Okay. What do you want me to do?", "es": "Uf. Okey. ¿Qué quieres que haga?" },
+      { "who": "Priya", "en": "Can you [do the laundry]? Your clothes are everywhere.", "es": "¿Puedes lavar la ropa? Tu ropa está por todos lados.", "item": "col-do-the-laundry" },
+      { "who": "Leo", "en": "Fine. And you [clean up] the kitchen?", "es": "Va. ¿Y tú arreglas la cocina?", "item": "pv-clean-up" },
+      { "who": "Priya", "en": "Sure. I'll also [throw away] the old pizza.", "es": "Sí. También voy a tirar la pizza vieja.", "item": "pv-throw-away" },
+      { "who": "Leo", "en": "Sorry, that was mine. I forgot about it.", "es": "Perdón, era mía. Se me olvidó." },
+      { "who": "Priya", "en": "[Don't worry about it]. Just don't do it again!", "es": "No te preocupes. ¡Nada más no lo vuelvas a hacer!", "item": "phr-dont-worry-about-it" }
+    ],
+    "items": ["col-do-chores", "col-do-the-laundry", "pv-clean-up", "pv-throw-away", "phr-dont-worry-about-it"],
+    "questions": [
+      { "q": "What does Leo have to do?", "options": ["Cook dinner", "Do the laundry", "Clean the bathroom"], "answer": 1, "why_es": "Priya le pide que lave la ropa." },
+      { "q": "Whose pizza was it?", "options": ["Priya's", "Maya's", "Leo's"], "answer": 2, "why_es": "Leo dice: that was mine." }
+    ]
+  },
+  {
+    "id": "les-a2-minus-thirty",
+    "level": "A2",
+    "topic": "canada",
+    "order": 20,
+    "title": "Minus thirty",
+    "title_es": "Menos treinta",
+    "intro_es": "Maya y Leo salen a caminar en el día más frío del invierno.",
+    "lines": [
+      { "who": "Maya", "en": "I need some [fresh air]. Let's walk to the park.", "es": "Necesito aire fresco. Vamos a caminar al parque.", "item": "col-fresh-air" },
+      { "who": "Leo", "en": "It's minus thirty with the wind chill! I want to [stay in].", "es": "¡Está a menos treinta con la sensación térmica! Quiero quedarme en casa.", "item": "pv-stay-in" },
+      { "who": "Maya", "en": "Come on, it's only fifteen minutes. [Zip up] your jacket.", "es": "Ándale, son nada más quince minutos. Súbele el cierre a tu chamarra.", "item": "pv-zip-up" },
+      { "who": "Leo", "en": "Okay, okay. But [slow down]! The sidewalk is icy.", "es": "Ya, ya. ¡Pero ve más despacio! La banqueta tiene hielo.", "item": "pv-slow-down" },
+      { "who": "Maya", "en": "Look, the lake is frozen. It's so beautiful.", "es": "Mira, el lago está congelado. Está bien bonito." },
+      { "who": "Leo", "en": "Beautiful, yes. But my face is frozen too.", "es": "Bonito, sí. Pero también tengo la cara congelada." },
+      { "who": "Maya", "en": "Let's go home and [warm up] some soup.", "es": "Vámonos a casa a calentar una sopa.", "item": "pv-warm-up-2" }
+    ],
+    "items": ["col-fresh-air", "pv-stay-in", "pv-zip-up", "pv-slow-down", "pv-warm-up-2"],
+    "questions": [
+      { "q": "What does Leo want to do at first?", "options": ["Go to the park", "Stay at home", "Go skating"], "answer": 1, "why_es": "Dice que quiere quedarse en casa por el frío." },
+      { "q": "Why does Leo say 'slow down'?", "options": ["The sidewalk is icy", "He is tired", "The park is closed"], "answer": 0, "why_es": "La banqueta tiene hielo." }
+    ]
+  },
+  {
+    "id": "les-a2-series-night",
+    "level": "A2",
+    "topic": "daily",
+    "order": 21,
+    "title": "Series night",
+    "title_es": "Noche de series",
+    "intro_es": "Priya y Leo ven el último episodio de su serie favorita.",
+    "lines": [
+      { "who": "Priya", "en": "It's the last episode! Can you [turn up] the volume?", "es": "¡Es el último episodio! ¿Le puedes subir al volumen?", "item": "pv-turn-up" },
+      { "who": "Leo", "en": "Sure. I want to [find out] who the killer is.", "es": "Claro. Quiero saber quién es el asesino.", "item": "pv-find-out" },
+      { "who": "Priya", "en": "I think it's the brother.", "es": "Yo creo que es el hermano." },
+      { "who": "Leo", "en": "It's the mom! [Seriously]?", "es": "¡Es la mamá! ¿En serio?", "item": "phr-seriously" },
+      { "who": "Priya", "en": "Wow. I didn't expect that.", "es": "Guau. No me lo esperaba." },
+      { "who": "Leo", "en": "Let's watch the next show. I can [stay up] late.", "es": "Veamos la siguiente serie. Me puedo desvelar.", "item": "pv-stay-up" },
+      { "who": "Priya", "en": "No way. Last time you [fell asleep] on the couch.", "es": "Ni loco. La última vez te quedaste dormido en el sillón.", "item": "col-fall-asleep" }
+    ],
+    "items": ["pv-turn-up", "pv-find-out", "phr-seriously", "pv-stay-up", "col-fall-asleep"],
+    "questions": [
+      { "q": "Who is the killer in the show?", "options": ["The brother", "The mom", "The doctor"], "answer": 1, "why_es": "Leo dice: It's the mom!" },
+      { "q": "What happened last time?", "options": ["Leo fell asleep on the couch", "Priya went to bed early", "The TV broke"], "answer": 0, "why_es": "Priya dice que la última vez Leo se quedó dormido en el sillón." }
+    ]
+  },
+  {
+    "id": "les-a2-new-friends",
+    "level": "A2",
+    "topic": "social",
+    "order": 22,
+    "title": "Making new friends",
+    "title_es": "Haciendo amigos nuevos",
+    "intro_es": "Maya conoce a alguien en su nueva clase de cerámica.",
+    "lines": [
+      { "who": "Maya", "en": "I want to [make friends] in Toronto, so I'm here.", "es": "Quiero hacer amigos en Toronto, por eso estoy aquí.", "item": "col-make-friends" },
+      { "who": "Jen", "en": "Me too! I [signed up] last week.", "es": "¡Yo también! Me inscribí la semana pasada.", "item": "pv-sign-up" },
+      { "who": "Maya", "en": "Is this your first time? I've never [taken a class] like this.", "es": "¿Es tu primera vez? Nunca he tomado una clase así.", "item": "col-take-a-class" },
+      { "who": "Jen", "en": "Yes. My bowl looks terrible!", "es": "Sí. ¡Mi tazón se ve horrible!" },
+      { "who": "Maya", "en": "Mine too. Ha! Same time next week?", "es": "El mío también. ¡Ja! ¿Misma hora la próxima semana?" },
+      { "who": "Jen", "en": "For sure. [It was nice talking to you], Maya.", "es": "Claro que sí. Me dio gusto platicar contigo, Maya.", "item": "phr-it-was-nice-talking-to-you" },
+      { "who": "Maya", "en": "You too, Jen. [Catch you later]!", "es": "Igualmente, Jen. ¡Nos vemos!", "item": "phr-catch-you-later" }
+    ],
+    "items": ["col-make-friends", "pv-sign-up", "col-take-a-class", "phr-it-was-nice-talking-to-you", "phr-catch-you-later"],
+    "questions": [
+      { "q": "Why is Maya in the class?", "options": ["To make friends", "For her job", "Her mom told her"], "answer": 0, "why_es": "Dice que quiere hacer amigos en Toronto." },
+      { "q": "When will they see each other again?", "options": ["Tomorrow", "Next week", "Next month"], "answer": 1, "why_es": "Quedan para la misma hora la próxima semana." }
+    ]
+  },
+  {
+    "id": "les-b1-job-interview",
+    "level": "B1",
+    "topic": "interview",
+    "order": 23,
+    "title": "The job interview",
+    "title_es": "La entrevista de trabajo",
+    "intro_es": "Maya tiene una entrevista para un puesto de diseñadora en la startup de Sam.",
+    "lines": [
+      { "who": "Maya", "en": "I'm so nervous. I [have an interview] at ten.", "es": "Estoy bien nerviosa. Tengo una entrevista a las diez.", "item": "col-have-an-interview" },
+      { "who": "Sam", "en": "Relax. Dan is friendly. Just tell a joke to [break the ice].", "es": "Relájate. Dan es buena onda. Cuenta un chiste para romper el hielo.", "item": "idi-break-the-ice" },
+      { "who": "Dan", "en": "So, Maya, why did you [apply for the job]?", "es": "Entonces, Maya, ¿por qué te postulaste para el puesto?", "item": "col-apply-for-a-job" },
+      { "who": "Maya", "en": "I love your app, and I want to work on a product people actually use.", "es": "Me encanta su app, y quiero trabajar en un producto que la gente de verdad use." },
+      { "who": "Dan", "en": "Tell me about your [previous experience].", "es": "Platícame de tu experiencia previa.", "item": "col-previous-experience" },
+      { "who": "Maya", "en": "I worked for three years at a small agency in Mexico City.", "es": "Trabajé tres años en una agencia chica en la Ciudad de México." },
+      { "who": "Sam", "en": "After the interview: so? Did it go well?", "es": "Después de la entrevista: ¿y? ¿Cómo te fue?" },
+      { "who": "Maya", "en": "I think I [made a good impression]. Dan laughed at my joke!", "es": "Creo que causé buena impresión. ¡Dan se rio de mi chiste!", "item": "col-make-a-good-impression" }
+    ],
+    "items": ["col-have-an-interview", "idi-break-the-ice", "col-apply-for-a-job", "col-previous-experience", "col-make-a-good-impression"],
+    "questions": [
+      { "q": "Where did Maya work before?", "options": ["At a big bank in Toronto", "At a small agency in Mexico City", "At a café"], "answer": 1, "why_es": "Trabajó tres años en una agencia en la Ciudad de México." },
+      { "q": "Why does Maya think the interview went well?", "options": ["Dan laughed at her joke", "Dan offered her money", "Sam told her"], "answer": 0, "why_es": "Dice que Dan se rio de su chiste." }
+    ]
+  },
+  {
+    "id": "les-b1-bug-in-production",
+    "level": "B1",
+    "topic": "tech",
+    "order": 24,
+    "title": "Bug in production",
+    "title_es": "Bug en producción",
+    "intro_es": "Un viernes en la tarde la app de la startup deja de funcionar.",
+    "lines": [
+      { "who": "Sam", "en": "Leo, the app is down! Users can't log in.", "es": "¡Leo, la app se cayó! Los usuarios no pueden entrar." },
+      { "who": "Leo", "en": "Okay, don't panic. Let's [figure out] what changed.", "es": "Okey, que no cunda el pánico. Averigüemos qué cambió.", "item": "pv-figure-out" },
+      { "who": "Sam", "en": "We deployed a new version an hour ago.", "es": "Subimos una versión nueva hace una hora." },
+      { "who": "Leo", "en": "Did we [back up] the database first?", "es": "¿Respaldamos la base de datos antes?", "item": "pv-back-up" },
+      { "who": "Sam", "en": "Yes, thank God. Should we [shut down] the server?", "es": "Sí, gracias a Dios. ¿Apagamos el servidor?", "item": "pv-shut-down" },
+      { "who": "Leo", "en": "Not yet. I think I found it. One line in the login code.", "es": "Todavía no. Creo que ya lo encontré. Una línea en el código del login." },
+      { "who": "Sam", "en": "Can you [fix the bug] in ten minutes?", "es": "¿Puedes arreglar el bug en diez minutos?", "item": "col-fix-a-bug" },
+      { "who": "Leo", "en": "Done. [Long story short], someone deleted a comma.", "es": "Listo. En pocas palabras, alguien borró una coma.", "item": "idi-long-story-short" }
+    ],
+    "items": ["pv-figure-out", "pv-back-up", "pv-shut-down", "col-fix-a-bug", "idi-long-story-short"],
+    "questions": [
+      { "q": "What is the problem?", "options": ["Users can't log in", "The office has no internet", "Sam lost his laptop"], "answer": 0, "why_es": "Sam dice que los usuarios no pueden entrar." },
+      { "q": "What caused the bug?", "options": ["A hacker", "A deleted comma", "An old server"], "answer": 1, "why_es": "Leo dice que alguien borró una coma." },
+      { "q": "Did they shut down the server?", "options": ["Yes, right away", "No, Leo found the problem first", "Yes, for a day"], "answer": 1, "why_es": "Leo dice 'Not yet' y encuentra el error antes." }
+    ]
+  },
+  {
+    "id": "les-b1-monday-meeting",
+    "level": "B1",
+    "topic": "work",
+    "order": 25,
+    "title": "Monday meeting",
+    "title_es": "La junta del lunes",
+    "intro_es": "Dan dirige la junta semanal del equipo.",
+    "lines": [
+      { "who": "Dan", "en": "Morning, team. Let's [go over] this week's plan.", "es": "Buenos días, equipo. Repasemos el plan de esta semana.", "item": "pv-go-over" },
+      { "who": "Dan", "en": "Sam, can you [give an update] on the new feature?", "es": "Sam, ¿das una actualización de la nueva función?", "item": "col-give-an-update" },
+      { "who": "Sam", "en": "Sure. It's almost ready. We just need more testing.", "es": "Claro. Ya casi está. Solo nos faltan más pruebas." },
+      { "who": "Dan", "en": "Can we [meet the deadline] on Friday?", "es": "¿Podemos cumplir con la fecha límite del viernes?", "item": "col-meet-a-deadline" },
+      { "who": "Leo", "en": "I think so, if Maya sends the final designs today.", "es": "Creo que sí, si Maya manda los diseños finales hoy." },
+      { "who": "Maya", "en": "I'll send them by three.", "es": "Los mando antes de las tres." },
+      { "who": "Dan", "en": "Great. So we're all [on the same page]?", "es": "Perfecto. ¿Entonces estamos todos en la misma sintonía?", "item": "idi-on-the-same-page" },
+      { "who": "Dan", "en": "I'll [follow up] with everyone on Wednesday.", "es": "Le doy seguimiento con todos el miércoles.", "item": "pv-follow-up" }
+    ],
+    "items": ["pv-go-over", "col-give-an-update", "col-meet-a-deadline", "idi-on-the-same-page", "pv-follow-up"],
+    "questions": [
+      { "q": "When is the deadline?", "options": ["Wednesday", "Friday", "Monday"], "answer": 1, "why_es": "Dan pregunta si pueden cumplir el viernes." },
+      { "q": "What does the team need from Maya?", "options": ["The final designs", "A new laptop", "Coffee"], "answer": 0, "why_es": "Leo dice que necesitan los diseños finales de Maya." }
+    ]
+  },
+  {
+    "id": "les-b1-first-date",
+    "level": "B1",
+    "topic": "social",
+    "order": 26,
+    "title": "First date",
+    "title_es": "Primera cita",
+    "intro_es": "Maya le cuenta a Priya que un chico de su clase de cerámica la invitó a salir.",
+    "lines": [
+      { "who": "Maya", "en": "Guess what? Daniel from my pottery class [asked me out]!", "es": "¿Qué crees? ¡Daniel, el de mi clase de cerámica, me invitó a salir!", "item": "pv-ask-out" },
+      { "who": "Priya", "en": "What? That came [out of the blue]!", "es": "¿Qué? ¡Eso salió de la nada!", "item": "idi-out-of-the-blue" },
+      { "who": "Maya", "en": "I know. We only made a little [small talk] before.", "es": "Ya sé. Antes solo habíamos platicado de cosas sin importancia.", "item": "col-small-talk" },
+      { "who": "Priya", "en": "So, how was the date?", "es": "¿Y qué tal la cita?" },
+      { "who": "Maya", "en": "Really good. We [have a lot in common]: food, music, bad jokes.", "es": "Muy bien. Tenemos mucho en común: comida, música, chistes malos.", "item": "col-have-a-lot-in-common" },
+      { "who": "Priya", "en": "Are you going to [go out with] him again?", "es": "¿Vas a volver a salir con él?", "item": "pv-go-out-with" },
+      { "who": "Maya", "en": "Maybe. He wants to try a Mexican restaurant on Saturday.", "es": "Tal vez. Quiere ir a un restaurante mexicano el sábado." },
+      { "who": "Priya", "en": "Ha! He's trying to impress you.", "es": "¡Ja! Te quiere impresionar." }
+    ],
+    "items": ["pv-ask-out", "idi-out-of-the-blue", "col-small-talk", "col-have-a-lot-in-common", "pv-go-out-with"],
+    "questions": [
+      { "q": "Where did Maya meet Daniel?", "options": ["At work", "In her pottery class", "At a hockey game"], "answer": 1, "why_es": "Daniel es de su clase de cerámica." },
+      { "q": "Why was Priya surprised?", "options": ["Maya hates dates", "The invitation was unexpected", "Daniel is her brother"], "answer": 1, "why_es": "Dice que salió de la nada (out of the blue)." }
+    ]
+  },
+  {
+    "id": "les-b1-moving-day",
+    "level": "B1",
+    "topic": "home",
+    "order": 27,
+    "title": "Moving day",
+    "title_es": "Día de mudanza",
+    "intro_es": "Maya se muda a su nuevo depa y Leo le ayuda.",
+    "lines": [
+      { "who": "Maya", "en": "Leo, can you [give me a hand] with these boxes?", "es": "Leo, ¿me echas la mano con estas cajas?", "item": "col-give-me-a-hand" },
+      { "who": "Leo", "en": "Sure. Wow, you have a lot of stuff.", "es": "Claro. Guau, tienes un montón de cosas." },
+      { "who": "Maya", "en": "I know. I have to [move out] of this place by noon.", "es": "Ya sé. Tengo que salirme de este lugar antes del mediodía.", "item": "pv-move-out" },
+      { "who": "Leo", "en": "Why don't you [get rid of] some of these old clothes?", "es": "¿Por qué no te deshaces de algo de esta ropa vieja?", "item": "col-get-rid-of" },
+      { "who": "Maya", "en": "Good idea. I'll [give away] the bags to the shelter.", "es": "Buena idea. Voy a regalar las bolsas al albergue.", "item": "pv-give-away" },
+      { "en": "Later, at the new apartment, the bed is still in pieces.", "es": "Más tarde, en el depa nuevo, la cama sigue en piezas." },
+      { "who": "Leo", "en": "Don't worry. I'll [put together] the bed tonight.", "es": "No te preocupes. Yo armo la cama hoy en la noche.", "item": "pv-put-together" },
+      { "who": "Maya", "en": "You're the best. Pizza is on me.", "es": "Eres el mejor. Yo invito la pizza." }
+    ],
+    "items": ["col-give-me-a-hand", "pv-move-out", "col-get-rid-of", "pv-give-away", "pv-put-together"],
+    "questions": [
+      { "q": "What will Maya do with her old clothes?", "options": ["Sell them online", "Give them to a shelter", "Keep them"], "answer": 1, "why_es": "Dice que va a regalar las bolsas al albergue." },
+      { "q": "What will Leo do tonight?", "options": ["Put the bed together", "Paint the walls", "Cook dinner"], "answer": 0, "why_es": "Leo dice que va a armar la cama." }
+    ]
+  },
+  {
+    "id": "les-b1-office-gossip",
+    "level": "B1",
+    "topic": "informal",
+    "order": 28,
+    "title": "Office gossip",
+    "title_es": "Chisme de oficina",
+    "intro_es": "Sam tiene un chisme y Leo quiere saberlo todo.",
+    "lines": [
+      { "who": "Sam", "en": "Okay, I have news. But you can't tell anyone.", "es": "Okey, tengo un chisme. Pero no le puedes decir a nadie." },
+      { "who": "Leo", "en": "Come on, [spill the beans]!", "es": "¡Ándale, suéltalo!", "item": "idi-spill-the-beans" },
+      { "who": "Sam", "en": "Jessica from sales and Mark from marketing [broke up].", "es": "Jessica de ventas y Mark de marketing tronaron.", "item": "pv-break-up" },
+      { "who": "Leo", "en": "[Are you kidding me]? They just got a dog together!", "es": "¿Es en serio? ¡Acaban de adoptar un perro juntos!", "item": "phr-are-you-kidding-me" },
+      { "who": "Sam", "en": "I know. I [found out] this morning in the kitchen.", "es": "Ya sé. Me enteré hoy en la mañana en la cocina.", "item": "pv-find-out" },
+      { "who": "Leo", "en": "Who gets the dog?", "es": "¿Y quién se queda con el perro?" },
+      { "who": "Sam", "en": "Shh! [Speak of the devil]. Here comes Mark.", "es": "¡Shh! Hablando del rey de Roma. Ahí viene Mark.", "item": "idi-speak-of-the-devil" },
+      { "who": "Leo", "en": "Hey, Mark! Nice weather today, huh?", "es": "¡Hola, Mark! Qué buen clima hoy, ¿no?" }
+    ],
+    "items": ["idi-spill-the-beans", "pv-break-up", "phr-are-you-kidding-me", "pv-find-out", "idi-speak-of-the-devil"],
+    "questions": [
+      { "q": "What is the news?", "options": ["Mark got fired", "Jessica and Mark broke up", "Sam got a dog"], "answer": 1, "why_es": "Sam dice que Jessica y Mark tronaron." },
+      { "q": "Why does Leo talk about the weather?", "options": ["He loves snow", "Mark arrives and he changes the topic", "Sam asks him"], "answer": 1, "why_es": "Llega Mark y Leo cambia de tema para disimular." }
+    ]
+  },
+  {
+    "id": "les-b1-new-york-arrival",
+    "level": "B1",
+    "topic": "travel",
+    "order": 29,
+    "title": "Hello, New York",
+    "title_es": "Hola, Nueva York",
+    "intro_es": "Maya y Leo llegan a Nueva York para un viaje de una semana.",
+    "lines": [
+      { "who": "Leo", "en": "We're finally here! Let's drop our bags and [hit the road].", "es": "¡Por fin llegamos! Dejemos las maletas y vámonos.", "item": "idi-hit-the-road" },
+      { "who": "Maya", "en": "Wait. Should we take a taxi to the hotel?", "es": "Espera. ¿Tomamos un taxi al hotel?" },
+      { "who": "Leo", "en": "No way. It's [rush hour]. The subway is faster.", "es": "Ni de broma. Es hora pico. El metro es más rápido.", "item": "col-rush-hour" },
+      { "who": "Maya", "en": "Is it easy to [get around] by subway?", "es": "¿Es fácil moverse en metro?", "item": "pv-get-around" },
+      { "who": "Leo", "en": "Yeah, once you understand the map. I want to [check out] that pizza place in Brooklyn.", "es": "Sí, cuando le entiendes al mapa. Quiero conocer esa pizzería de Brooklyn.", "item": "pv-check-out" },
+      { "who": "Maya", "en": "And I want to see a Broadway show.", "es": "Y yo quiero ver una obra en Broadway." },
+      { "who": "Leo", "en": "Tickets [cost an arm and a leg], you know.", "es": "Los boletos cuestan un ojo de la cara, ¿eh?", "item": "idi-cost-an-arm-and-a-leg" },
+      { "who": "Maya", "en": "I know. That's why you're paying.", "es": "Ya sé. Por eso pagas tú." }
+    ],
+    "items": ["idi-hit-the-road", "col-rush-hour", "pv-get-around", "pv-check-out", "idi-cost-an-arm-and-a-leg"],
+    "questions": [
+      { "q": "Why does Leo prefer the subway?", "options": ["It's rush hour and it's faster", "Taxis are closed", "He loves trains"], "answer": 0, "why_es": "Dice que es hora pico y el metro es más rápido." },
+      { "q": "What does Maya want to see?", "options": ["A hockey game", "A Broadway show", "A museum"], "answer": 1, "why_es": "Quiere ver una obra en Broadway." }
+    ]
+  },
+  {
+    "id": "les-b1-chicago-pizza",
+    "level": "B1",
+    "topic": "food",
+    "order": 30,
+    "title": "Deep-dish in Chicago",
+    "title_es": "Pizza deep-dish en Chicago",
+    "intro_es": "En Chicago, Maya y Leo prueban la famosa pizza gruesa.",
+    "lines": [
+      { "who": "Maya", "en": "I'm starving. Can we just grab a [quick bite]?", "es": "Me muero de hambre. ¿Podemos comer algo rápido?", "item": "col-quick-bite" },
+      { "who": "Leo", "en": "No! We're in Chicago. We have to [eat out] properly tonight.", "es": "¡No! Estamos en Chicago. Hoy tenemos que salir a comer como se debe.", "item": "pv-eat-out" },
+      { "who": "Leo", "en": "My coworker [highly recommends] this deep-dish place.", "es": "Mi compañero de trabajo recomienda muchísimo esta pizzería deep-dish.", "item": "col-highly-recommend" },
+      { "who": "Maya", "en": "Is it busy? It's Friday night.", "es": "¿Habrá mucha gente? Es viernes en la noche." },
+      { "who": "Leo", "en": "Don't worry. I [booked a table] for eight.", "es": "No te preocupes. Reservé mesa para las ocho.", "item": "col-book-a-table" },
+      { "who": "Maya", "en": "Later... This pizza is like a cake! I can't finish it.", "es": "Más tarde... ¡Esta pizza parece pastel! No me la puedo acabar." },
+      { "who": "Leo", "en": "Same. Should we [split the bill]?", "es": "Yo tampoco. ¿Dividimos la cuenta?", "item": "col-split-the-bill" },
+      { "who": "Maya", "en": "Sure. Half and half.", "es": "Va. Mitad y mitad." }
+    ],
+    "items": ["col-quick-bite", "pv-eat-out", "col-highly-recommend", "col-book-a-table", "col-split-the-bill"],
+    "questions": [
+      { "q": "Who recommended the restaurant?", "options": ["Maya's mom", "Leo's coworker", "The hotel"], "answer": 1, "why_es": "Leo dice que su compañero de trabajo la recomienda." },
+      { "q": "How do they pay?", "options": ["Leo pays everything", "They split the bill", "Maya pays everything"], "answer": 1, "why_es": "Deciden dividir la cuenta mitad y mitad." }
+    ]
+  },
+  {
+    "id": "les-b1-calling-in-sick",
+    "level": "B1",
+    "topic": "health",
+    "order": 31,
+    "title": "Calling in sick",
+    "title_es": "Reportarse enfermo",
+    "intro_es": "Leo se siente mal y le manda mensaje a Dan.",
+    "lines": [
+      { "who": "Leo", "en": "Hi Dan, I'm feeling a bit [under the weather] today.", "es": "Hola Dan, hoy me siento un poco mal.", "item": "idi-under-the-weather" },
+      { "who": "Dan", "en": "Sorry to hear that. Thanks for [calling in] early.", "es": "Lamento oír eso. Gracias por reportarte temprano.", "item": "pv-call-in" },
+      { "who": "Leo", "en": "Is it okay if I [take a day off]?", "es": "¿Está bien si me tomo el día?", "item": "col-take-a-day-off" },
+      { "who": "Dan", "en": "Of course. Sam can cover your tasks.", "es": "Claro. Sam puede cubrir tus pendientes." },
+      { "who": "Leo", "en": "Thanks. I think I'll [get over] it fast. It's just a cold.", "es": "Gracias. Creo que se me va a pasar rápido. Es solo un resfriado.", "item": "pv-get-over" },
+      { "who": "Dan", "en": "Drink lots of water. Half the office is sick this month.", "es": "Toma mucha agua. Medio equipo anda enfermo este mes." },
+      { "who": "Leo", "en": "I know. It's hard to [stay healthy] in February.", "es": "Ya sé. Es difícil mantenerse sano en febrero.", "item": "col-stay-healthy" }
+    ],
+    "items": ["idi-under-the-weather", "pv-call-in", "col-take-a-day-off", "pv-get-over", "col-stay-healthy"],
+    "questions": [
+      { "q": "Who will do Leo's tasks?", "options": ["Dan", "Maya", "Sam"], "answer": 2, "why_es": "Dan dice que Sam puede cubrir sus pendientes." },
+      { "q": "What does Leo have?", "options": ["A cold", "A broken leg", "The flu and a fever"], "answer": 0, "why_es": "Dice: It's just a cold." }
+    ]
+  },
+  {
+    "id": "les-b1-the-argument",
+    "level": "B1",
+    "topic": "feelings",
+    "order": 32,
+    "title": "The argument",
+    "title_es": "La discusión",
+    "intro_es": "Priya y Leo discuten por los platos sucios.",
+    "lines": [
+      { "who": "Priya", "en": "Leo, can we talk? I don't want to [have an argument], but…", "es": "Leo, ¿podemos hablar? No quiero que nos peleemos, pero…", "item": "col-have-an-argument" },
+      { "who": "Leo", "en": "Uh-oh. What's wrong?", "es": "Ay, ay. ¿Qué pasa?" },
+      { "who": "Priya", "en": "I have to [bring up] the dishes again. They're in the sink for days.", "es": "Tengo que volver a sacar el tema de los trastes. Se quedan en el fregadero por días.", "item": "pv-bring-up" },
+      { "who": "Leo", "en": "Days? That's not true! It's one day, maybe two.", "es": "¿Días? ¡No es cierto! Es un día, tal vez dos." },
+      { "who": "Priya", "en": "See? You never listen. Honestly, that [hurt my feelings] last week.", "es": "¿Ves? Nunca escuchas. La neta, eso me dolió la semana pasada.", "item": "col-hurt-my-feelings" },
+      { "who": "Leo", "en": "Okay, okay. Let's both [calm down].", "es": "Ya, ya. Calmémonos los dos.", "item": "pv-calm-down" },
+      { "who": "Priya", "en": "I'm calm. I just want things to be fair.", "es": "Estoy calmada. Solo quiero que las cosas sean justas." },
+      { "who": "Leo", "en": "You're right. I [changed my mind]. Let's make a schedule.", "es": "Tienes razón. Ya cambié de opinión. Hagamos un horario.", "item": "col-change-your-mind" }
+    ],
+    "items": ["col-have-an-argument", "pv-bring-up", "col-hurt-my-feelings", "pv-calm-down", "col-change-your-mind"],
+    "questions": [
+      { "q": "What is the problem?", "options": ["The rent", "The dirty dishes", "The noise"], "answer": 1, "why_es": "Priya habla de los trastes en el fregadero." },
+      { "q": "What do they decide at the end?", "options": ["To make a schedule", "To get a new roommate", "To buy paper plates"], "answer": 0, "why_es": "Leo propone hacer un horario." }
+    ]
+  },
+  {
+    "id": "les-b1-making-up",
+    "level": "B1",
+    "topic": "feelings",
+    "order": 33,
+    "title": "Making up",
+    "title_es": "Reconciliarse",
+    "intro_es": "Al día siguiente, Leo y Priya hacen las paces.",
+    "lines": [
+      { "who": "Leo", "en": "Priya, I made you breakfast. I want to [make up] after yesterday.", "es": "Priya, te hice el desayuno. Quiero que hagamos las paces después de lo de ayer.", "item": "pv-make-up-2" },
+      { "who": "Priya", "en": "Aww, pancakes! Okay, you're forgiven.", "es": "¡Ay, hot cakes! Okey, estás perdonado." },
+      { "who": "Leo", "en": "I washed every dish this morning. I [keep my promises].", "es": "Lavé todos los trastes en la mañana. Yo cumplo mis promesas.", "item": "col-keep-a-promise" },
+      { "who": "Priya", "en": "[Fair enough]. I was a little dramatic too.", "es": "Está bien. Yo también me puse un poco dramática.", "item": "col-fair-enough" },
+      { "who": "Leo", "en": "So can we [move on]?", "es": "¿Entonces ya le damos vuelta a la página?", "item": "pv-move-on" },
+      { "who": "Priya", "en": "Yes. [At the end of the day], you're a good roommate.", "es": "Sí. Al final de cuentas, eres buen roomie.", "item": "idi-at-the-end-of-the-day" },
+      { "who": "Leo", "en": "A good roommate with great pancakes.", "es": "Un buen roomie con hot cakes increíbles." }
+    ],
+    "items": ["pv-make-up-2", "col-keep-a-promise", "col-fair-enough", "pv-move-on", "idi-at-the-end-of-the-day"],
+    "questions": [
+      { "q": "What did Leo make?", "options": ["Coffee", "Pancakes", "Pasta"], "answer": 1, "why_es": "Priya dice: pancakes!" },
+      { "q": "What does Priya admit?", "options": ["She was a little dramatic", "She broke a plate", "She wants to move out"], "answer": 0, "why_es": "Dice que ella también se puso un poco dramática." }
+    ]
+  },
+  {
+    "id": "les-b1-saving-for-a-trip",
+    "level": "B1",
+    "topic": "money",
+    "order": 34,
+    "title": "Saving for a trip",
+    "title_es": "Ahorrando para un viaje",
+    "intro_es": "Maya quiere ir a México en verano y necesita organizar su dinero.",
+    "lines": [
+      { "who": "Maya", "en": "I want to visit my family in Guadalajara this summer.", "es": "Quiero visitar a mi familia en Guadalajara este verano." },
+      { "who": "Leo", "en": "Nice! Are you going to [save up] for it?", "es": "¡Qué padre! ¿Vas a ahorrar para eso?", "item": "pv-save-up" },
+      { "who": "Maya", "en": "Yes. I'm on a [tight budget] right now, so I need a plan.", "es": "Sí. Ahorita ando muy justa de dinero, así que necesito un plan.", "item": "col-tight-budget" },
+      { "who": "Leo", "en": "First, [set a budget] for every month.", "es": "Primero, ponte un presupuesto para cada mes.", "item": "col-set-a-budget" },
+      { "who": "Maya", "en": "Good idea. And I'll [cut down on] takeout.", "es": "Buena idea. Y voy a pedir menos comida a domicilio.", "item": "pv-cut-down-on" },
+      { "who": "Leo", "en": "Also, book your flight early. You'll [get a good deal].", "es": "Además, compra tu vuelo con tiempo. Te va a salir más barato.", "item": "col-get-a-good-deal" },
+      { "who": "Maya", "en": "Okay. No more fancy lattes for me.", "es": "Okey. Se acabaron los lattes caros para mí." }
+    ],
+    "items": ["pv-save-up", "col-tight-budget", "col-set-a-budget", "pv-cut-down-on", "col-get-a-good-deal"],
+    "questions": [
+      { "q": "Where does Maya want to go?", "options": ["New York", "Guadalajara", "Vancouver"], "answer": 1, "why_es": "Quiere visitar a su familia en Guadalajara." },
+      { "q": "What will Maya buy less of?", "options": ["Takeout food", "Clothes", "Books"], "answer": 0, "why_es": "Dice que va a pedir menos comida a domicilio (takeout)." }
+    ]
+  },
+  {
+    "id": "les-b2-asking-for-a-raise",
+    "level": "B2",
+    "topic": "work",
+    "order": 35,
+    "title": "Asking for a raise",
+    "title_es": "Pidiendo aumento",
+    "intro_es": "Después de un año en la startup, Leo junta valor para pedirle aumento a Dan.",
+    "lines": [
+      { "who": "Leo", "en": "Dan, got a minute? I'd like to talk about my salary.", "es": "Dan, ¿tienes un minuto? Me gustaría hablar de mi sueldo." },
+      { "who": "Dan", "en": "Sure, have a seat. What's on your mind?", "es": "Claro, siéntate. ¿Qué traes en mente?" },
+      { "who": "Leo", "en": "I've [put in] a lot of late nights this year, especially during the launch.", "es": "Le he metido muchas noches de desvelo este año, sobre todo con el lanzamiento.", "item": "pv-put-in" },
+      { "who": "Dan", "en": "No argument there. You always [go the extra mile].", "es": "En eso no hay discusión. Siempre das más de lo que te piden.", "item": "idi-go-the-extra-mile" },
+      { "who": "Leo", "en": "Thanks. So I think it's fair to [get a raise] — around ten percent.", "es": "Gracias. Por eso creo que es justo que me den un aumento, como de diez por ciento.", "item": "col-get-a-raise" },
+      { "who": "Dan", "en": "Ten is a lot for us right now. Could we do seven, plus stock options?", "es": "Diez es mucho para nosotros ahorita. ¿Qué tal siete, más acciones?" },
+      { "who": "Leo", "en": "I'm open to that. I just wanted to [negotiate my salary] before my review.", "es": "Estoy abierto. Solo quería negociar mi sueldo antes de mi evaluación.", "item": "col-negotiate-a-salary" },
+      { "who": "Dan", "en": "Okay. Send me a proposal in writing, and then [the ball is in my court].", "es": "Va. Mándame una propuesta por escrito y entonces la decisión es mía.", "item": "idi-the-ball-is-in-your-court" }
+    ],
+    "items": ["pv-put-in", "idi-go-the-extra-mile", "col-get-a-raise", "col-negotiate-a-salary", "idi-the-ball-is-in-your-court"],
+    "questions": [
+      { "q": "What does Dan offer instead of ten percent?", "options": ["Five percent and a bonus", "Seven percent plus stock options", "Nothing for now"], "answer": 1, "why_es": "Dan propone siete por ciento más acciones (stock options)." },
+      { "q": "What does Dan ask Leo to do next?", "options": ["Send a written proposal", "Talk to Sam", "Wait a year"], "answer": 0, "why_es": "Le pide una propuesta por escrito." }
+    ]
+  },
+  {
+    "id": "les-b2-the-postmortem",
+    "level": "B2",
+    "topic": "tech",
+    "order": 36,
+    "title": "The postmortem",
+    "title_es": "El análisis del incidente",
+    "intro_es": "Después de una caída grave, el equipo revisa qué salió mal.",
+    "lines": [
+      { "who": "Dan", "en": "Okay, let's talk about Tuesday. Two hours of downtime isn't great.", "es": "Bueno, hablemos del martes. Dos horas sin servicio no es poca cosa." },
+      { "who": "Sam", "en": "That's on me. I [dropped the ball] on the code review.", "es": "Fue mi culpa. Se me fue la revisión de código.", "item": "idi-drop-the-ball" },
+      { "who": "Dan", "en": "I appreciate you [owning up] to it. That's not easy.", "es": "Te agradezco que lo admitas. No es fácil.", "item": "pv-own-up" },
+      { "who": "Leo", "en": "To be fair, we all approved it. We all [take responsibility] here.", "es": "Para ser justos, todos lo aprobamos. Aquí todos asumimos la responsabilidad.", "item": "col-take-responsibility" },
+      { "who": "Dan", "en": "Why did it take so long to [roll back] the release?", "es": "¿Por qué tardamos tanto en revertir la versión?", "item": "pv-roll-back" },
+      { "who": "Sam", "en": "The rollback script was broken too, so we were [back to square one] twice.", "es": "El script de reversión también estaba roto, así que volvimos a empezar de cero dos veces.", "item": "idi-back-to-square-one" },
+      { "who": "Dan", "en": "Then that's our first action item: test the rollback every sprint.", "es": "Entonces esa es nuestra primera tarea: probar la reversión cada sprint." }
+    ],
+    "items": ["idi-drop-the-ball", "pv-own-up", "col-take-responsibility", "pv-roll-back", "idi-back-to-square-one"],
+    "questions": [
+      { "q": "Why did the rollback take so long?", "options": ["Nobody was online", "The rollback script was also broken", "Dan said no"], "answer": 1, "why_es": "Sam explica que el script de reversión también estaba roto." },
+      { "q": "What is the team's first action item?", "options": ["Fire someone", "Test the rollback every sprint", "Stop releasing on Tuesdays"], "answer": 1, "why_es": "Dan dice que probarán la reversión cada sprint." }
+    ]
+  },
+  {
+    "id": "les-b2-crunch-time",
+    "level": "B2",
+    "topic": "work",
+    "order": 37,
+    "title": "Crunch time",
+    "title_es": "A contrarreloj",
+    "intro_es": "El equipo va atrasado y Sam intenta negociar más tiempo con Dan.",
+    "lines": [
+      { "who": "Sam", "en": "Dan, quick heads-up: we're on a really [tight deadline] with the mobile app.", "es": "Dan, aviso rápido: estamos muy apretados de tiempo con la app móvil.", "item": "col-tight-deadline" },
+      { "who": "Dan", "en": "How far behind are we?", "es": "¿Qué tan atrasados vamos?" },
+      { "who": "Sam", "en": "We've [fallen behind] by about a week since Priya's cousin quit.", "es": "Nos atrasamos como una semana desde que renunció el primo de Priya.", "item": "pv-fall-behind" },
+      { "who": "Dan", "en": "Can we [push back] the launch to the fifteenth?", "es": "¿Podemos recorrer el lanzamiento al quince?", "item": "pv-push-back" },
+      { "who": "Sam", "en": "That would help a lot. Can I also [squeeze in] a call with the client today?", "es": "Eso ayudaría muchísimo. ¿Puedo meter también una llamada con el cliente hoy?", "item": "pv-squeeze-in" },
+      { "who": "Dan", "en": "Do it. Let's [touch base] again tomorrow morning.", "es": "Hazlo. Nos reportamos otra vez mañana temprano.", "item": "idi-touch-base" },
+      { "who": "Sam", "en": "Perfect. And maybe order pizza for the team tonight?", "es": "Perfecto. ¿Y si pedimos pizza para el equipo hoy en la noche?" }
+    ],
+    "items": ["col-tight-deadline", "pv-fall-behind", "pv-push-back", "pv-squeeze-in", "idi-touch-base"],
+    "questions": [
+      { "q": "How far behind is the team?", "options": ["About a day", "About a week", "About a month"], "answer": 1, "why_es": "Sam dice que van atrasados como una semana." },
+      { "q": "What is the new launch date?", "options": ["The fifth", "The fifteenth", "The fiftieth"], "answer": 1, "why_es": "Dan propone recorrerlo al quince." }
+    ]
+  },
+  {
+    "id": "les-b2-landlord-trouble",
+    "level": "B2",
+    "topic": "home",
+    "order": 38,
+    "title": "Landlord trouble",
+    "title_es": "Problemas con el casero",
+    "intro_es": "Maya está harta de su casero y se lo cuenta a Priya.",
+    "lines": [
+      { "who": "Maya", "en": "My landlord charged me a [late fee] — and the rent was only one day late!", "es": "Mi casero me cobró recargo, ¡y la renta se retrasó solo un día!", "item": "col-late-fee" },
+      { "who": "Priya", "en": "Ugh. Is that even legal in Ontario?", "es": "Uf. ¿Eso es legal en Ontario?" },
+      { "who": "Maya", "en": "No idea. And the heat's been broken for two weeks. I've [put up with] it so far.", "es": "Ni idea. Y la calefacción lleva dos semanas descompuesta. Hasta ahorita lo he aguantado.", "item": "pv-put-up-with" },
+      { "who": "Priya", "en": "Two weeks? In January? That would be [the last straw] for me.", "es": "¿Dos semanas? ¿En enero? Para mí eso sería el colmo.", "item": "idi-the-last-straw" },
+      { "who": "Maya", "en": "The problem is I [signed a lease] for a full year.", "es": "El problema es que firmé un contrato de renta por un año completo.", "item": "col-sign-a-lease" },
+      { "who": "Priya", "en": "Check the contract. Usually you just have to [give notice] sixty days before you leave.", "es": "Revisa el contrato. Normalmente nada más tienes que avisar con sesenta días de anticipación.", "item": "col-give-notice" },
+      { "who": "Maya", "en": "Okay. First I'll email him, then I'll call the tenant board.", "es": "Okey. Primero le mando correo y luego le llamo a la oficina de inquilinos." }
+    ],
+    "items": ["col-late-fee", "pv-put-up-with", "idi-the-last-straw", "col-sign-a-lease", "col-give-notice"],
+    "questions": [
+      { "q": "What has been broken for two weeks?", "options": ["The heat", "The fridge", "The door"], "answer": 0, "why_es": "Maya dice que la calefacción lleva dos semanas descompuesta." },
+      { "q": "How long is Maya's lease?", "options": ["Six months", "One year", "Two years"], "answer": 1, "why_es": "Firmó un contrato por un año completo." }
+    ]
+  },
+  {
+    "id": "les-b2-cold-feet",
+    "level": "B2",
+    "topic": "feelings",
+    "order": 39,
+    "title": "Cold feet",
+    "title_es": "Echarse para atrás",
+    "intro_es": "La hermana de Leo, en Vancouver, le llama con dudas a un mes de su boda.",
+    "lines": [
+      { "who": "Emma", "en": "Leo, I think I'm [getting cold feet] about the wedding.", "es": "Leo, creo que me está entrando el miedo con la boda.", "item": "idi-get-cold-feet" },
+      { "who": "Leo", "en": "Whoa. Is it about Jake, or about the whole marriage thing?", "es": "Órale. ¿Es por Jake o por todo el rollo del matrimonio?" },
+      { "who": "Emma", "en": "Honestly? I have [mixed feelings]. I love him, but it's so fast.", "es": "¿La verdad? Tengo sentimientos encontrados. Lo amo, pero todo va muy rápido.", "item": "col-mixed-feelings" },
+      { "who": "Leo", "en": "So you're [on the fence] about the date, not about him.", "es": "O sea que tienes dudas con la fecha, no con él.", "item": "idi-on-the-fence" },
+      { "who": "Emma", "en": "Exactly. But Mom would kill me if I [backed out] now.", "es": "Exacto. Pero mamá me mata si me echo para atrás ahorita.", "item": "pv-back-out" },
+      { "who": "Leo", "en": "Nobody should be [talked out of] their own feelings — not even by Mom.", "es": "Nadie debería convencerte de no sentir lo que sientes, ni siquiera mamá.", "item": "pv-talk-out-of" },
+      { "who": "Emma", "en": "You're right. I'll talk to Jake tonight. Thanks, little brother.", "es": "Tienes razón. Hoy hablo con Jake. Gracias, hermanito." }
+    ],
+    "items": ["idi-get-cold-feet", "col-mixed-feelings", "idi-on-the-fence", "pv-back-out", "pv-talk-out-of"],
+    "questions": [
+      { "q": "What is Emma unsure about?", "options": ["Whether she loves Jake", "The speed and the date of the wedding", "Moving to Toronto"], "answer": 1, "why_es": "Dice que lo ama, pero todo va muy rápido; duda de la fecha, no de él." },
+      { "q": "What will Emma do tonight?", "options": ["Cancel the wedding", "Talk to Jake", "Call her mom"], "answer": 1, "why_es": "Dice que hoy en la noche habla con Jake." }
+    ]
+  },
+  {
+    "id": "les-b2-roommate-tension",
+    "level": "B2",
+    "topic": "feelings",
+    "order": 40,
+    "title": "Roommate tension",
+    "title_es": "Tensión entre roomies",
+    "intro_es": "Priya llega agotada de un turno doble y explota con Leo.",
+    "lines": [
+      { "who": "Leo", "en": "Hey, welcome home! Want to watch the game? It's tied in the third.", "es": "¡Hola, bienvenida! ¿Vemos el partido? Van empatados en el tercer periodo." },
+      { "who": "Priya", "en": "Leo, I just did a sixteen-hour shift. Can you turn that down?", "es": "Leo, acabo de salir de un turno de dieciséis horas. ¿Le bajas?" },
+      { "who": "Leo", "en": "Whoa, okay. No need to [snap at] me.", "es": "Órale, okey. No tienes que contestarme así.", "item": "pv-snap-at" },
+      { "who": "Priya", "en": "Sorry. I didn't mean to [blow up] like that. It's been a brutal week.", "es": "Perdón. No quería explotar así. Ha sido una semana brutal.", "item": "pv-blow-up-2" },
+      { "who": "Leo", "en": "It's fine. I [lose my temper] too when I'm exhausted.", "es": "No pasa nada. Yo también pierdo los estribos cuando estoy agotado.", "item": "col-lose-your-temper" },
+      { "who": "Priya", "en": "So… [no hard feelings]?", "es": "Entonces… ¿sin rencores?", "item": "col-hard-feelings" },
+      { "who": "Leo", "en": "None. Now [lighten up] and have some of my poutine.", "es": "Ninguno. Ahora relájate y cómete un poco de mi poutine.", "item": "pv-lighten-up" }
+    ],
+    "items": ["pv-snap-at", "pv-blow-up-2", "col-lose-your-temper", "col-hard-feelings", "pv-lighten-up"],
+    "questions": [
+      { "q": "Why is Priya so tired?", "options": ["She did a sixteen-hour shift", "She went to a party", "She was sick"], "answer": 0, "why_es": "Acaba de salir de un turno de dieciséis horas." },
+      { "q": "How does the conversation end?", "options": ["They stop talking", "They are fine and share food", "Priya moves out"], "answer": 1, "why_es": "Quedan sin rencores y Leo le ofrece poutine." }
+    ]
+  },
+  {
+    "id": "les-b2-launch-day",
+    "level": "B2",
+    "topic": "work",
+    "order": 41,
+    "title": "Launch day",
+    "title_es": "Día de lanzamiento",
+    "intro_es": "La startup lanza su nueva app y Dan le habla al equipo.",
+    "lines": [
+      { "who": "Dan", "en": "Alright, people, it's the big day. We [launch the product] at noon.", "es": "Bueno, gente, llegó el gran día. Lanzamos el producto a las doce.", "item": "col-launch-a-product" },
+      { "who": "Dan", "en": "Let's [kick off] with a quick status check. Sam?", "es": "Arranquemos con un repaso rápido del estatus. ¿Sam?" , "item": "pv-kick-off" },
+      { "who": "Sam", "en": "Servers are ready. Marketing has been [hyping up] the launch all week.", "es": "Los servidores están listos. Marketing ha estado inflando el lanzamiento toda la semana.", "item": "pv-hype-up" },
+      { "who": "Maya", "en": "So expectations are sky-high. No pressure, right?", "es": "O sea que las expectativas están por los cielos. Nada de presión, ¿verdad?" },
+      { "who": "Dan", "en": "Our new hire, Ava, starts today too. She'll [hit the ground running] on support.", "es": "Nuestra nueva contratación, Ava, también empieza hoy. Va a entrarle con todo al soporte.", "item": "idi-hit-the-ground-running" },
+      { "who": "Leo", "en": "If sign-ups explode, we'll need to [ramp up] server capacity fast.", "es": "Si los registros se disparan, vamos a tener que aumentar la capacidad de los servidores rápido.", "item": "pv-ramp-up" },
+      { "who": "Dan", "en": "Good problem to have. Okay — let's do this.", "es": "Ojalá ese sea el problema. Bueno, ¡a darle!" }
+    ],
+    "items": ["col-launch-a-product", "pv-kick-off", "pv-hype-up", "idi-hit-the-ground-running", "pv-ramp-up"],
+    "questions": [
+      { "q": "When does the product launch?", "options": ["At noon", "At midnight", "Next week"], "answer": 0, "why_es": "Dan dice que lanzan a las doce." },
+      { "q": "What might the team need to do if many people sign up?", "options": ["Hire more designers", "Increase server capacity", "Stop the launch"], "answer": 1, "why_es": "Leo dice que tendrían que aumentar la capacidad de los servidores." }
+    ]
+  },
+  {
+    "id": "les-b2-chicago-meetup",
+    "level": "B2",
+    "topic": "social",
+    "order": 42,
+    "title": "A meetup in Chicago",
+    "title_es": "Un meetup en Chicago",
+    "intro_es": "En su viaje, Leo va a un evento de tecnología en Chicago y conoce a una fundadora.",
+    "lines": [
+      { "who": "Leo", "en": "Hi, I'm Leo. I think we have a [mutual friend] — Sam from Toronto?", "es": "Hola, soy Leo. Creo que tenemos un amigo en común: Sam, de Toronto.", "item": "col-mutual-friend" },
+      { "who": "Nora", "en": "No way! Sam and I worked together years ago. I'm Nora.", "es": "¡No manches! Sam y yo trabajamos juntos hace años. Soy Nora." },
+      { "en": "They talk for an hour about apps, hockey and bad startup ideas.", "es": "Platican una hora de apps, hockey y malas ideas de startups." },
+      { "who": "Nora", "en": "Honestly, we really [hit it off]. Are you looking for new projects?", "es": "La verdad, nos caímos súper bien. ¿Andas buscando proyectos nuevos?", "item": "pv-hit-it-off" },
+      { "who": "Leo", "en": "Maybe. A job in Chicago is [a long shot], but I'm curious.", "es": "Tal vez. Un trabajo en Chicago lo veo difícil, pero me da curiosidad.", "item": "idi-a-long-shot" },
+      { "who": "Nora", "en": "Feel free to [reach out] next week. Here's my card.", "es": "Con confianza escríbeme la próxima semana. Aquí está mi tarjeta.", "item": "pv-reach-out" },
+      { "who": "Leo", "en": "I will. I always [follow through] on what I say.", "es": "Claro. Siempre cumplo lo que digo.", "item": "pv-follow-through" }
+    ],
+    "items": ["col-mutual-friend", "pv-hit-it-off", "idi-a-long-shot", "pv-reach-out", "pv-follow-through"],
+    "questions": [
+      { "q": "How do Leo and Nora know each other?", "options": ["Through Sam", "From school", "From Vancouver"], "answer": 0, "why_es": "Sam es su amigo en común." },
+      { "q": "What does Leo think about a job in Chicago?", "options": ["It's guaranteed", "It's unlikely, but he's curious", "He hates the idea"], "answer": 1, "why_es": "Dice que es a long shot (poco probable), pero le da curiosidad." }
+    ]
+  },
+  {
+    "id": "les-b2-burnout",
+    "level": "B2",
+    "topic": "health",
+    "order": 43,
+    "title": "Running on empty",
+    "title_es": "Sin pila",
+    "intro_es": "Maya nota que Leo está agotado después de meses de trabajo intenso.",
+    "lines": [
+      { "who": "Maya", "en": "You look exhausted. Are you okay?", "es": "Te ves agotado. ¿Estás bien?" },
+      { "who": "Leo", "en": "Not really. I'm [losing sleep] over work. I check Slack at 2 a.m.", "es": "No mucho. El trabajo me está quitando el sueño. Reviso Slack a las dos de la mañana.", "item": "col-lose-sleep" },
+      { "who": "Maya", "en": "Leo, that's how people [burn out]. You need to stop.", "es": "Leo, así es como la gente truena de cansancio. Tienes que parar.", "item": "pv-burn-out" },
+      { "who": "Leo", "en": "I know, but if I'm not online, things break.", "es": "Ya sé, pero si no estoy conectado, todo se descompone." },
+      { "who": "Maya", "en": "Then [step back] and look at the system, not just the fires.", "es": "Entonces toma distancia y mira el sistema, no solo los incendios.", "item": "pv-step-back" },
+      { "who": "Maya", "en": "And [set boundaries]. No notifications after eight.", "es": "Y pon límites. Nada de notificaciones después de las ocho.", "item": "col-set-boundaries" },
+      { "who": "Leo", "en": "You're right. I need a way to [wind down] at night.", "es": "Tienes razón. Necesito una forma de relajarme en las noches.", "item": "pv-wind-down" },
+      { "who": "Maya", "en": "Start tonight. Movie, tea, phone in another room.", "es": "Empieza hoy. Película, té y el celular en otro cuarto." }
+    ],
+    "items": ["col-lose-sleep", "pv-burn-out", "pv-step-back", "col-set-boundaries", "pv-wind-down"],
+    "questions": [
+      { "q": "What time does Leo check Slack?", "options": ["At 8 p.m.", "At 2 a.m.", "At noon"], "answer": 1, "why_es": "Dice que revisa Slack a las dos de la mañana." },
+      { "q": "What rule does Maya suggest?", "options": ["No notifications after eight", "Work on weekends", "Quit the job"], "answer": 0, "why_es": "Le sugiere nada de notificaciones después de las ocho." }
+    ]
+  },
+  {
+    "id": "les-c1-reorg-rumors",
+    "level": "C1",
+    "topic": "work",
+    "order": 44,
+    "title": "Reorg rumors",
+    "title_es": "Rumores de reestructura",
+    "intro_es": "Corre el rumor de una reestructura y Dan intenta calmar al equipo sin prometer demasiado.",
+    "lines": [
+      { "who": "Sam", "en": "So, are the rumors true? People are saying half the team's getting moved around.", "es": "¿Entonces es cierto el rumor? Dicen que van a mover a medio equipo." },
+      { "who": "Dan", "en": "I won't [play down] the changes — they're real. But nobody's losing their job.", "es": "No voy a minimizar los cambios: son reales. Pero nadie se queda sin trabajo.", "item": "pv-play-down" },
+      { "who": "Maya", "en": "Then what's actually changing?", "es": "¿Entonces qué es lo que realmente cambia?" },
+      { "who": "Dan", "en": "It all [boils down to] focus. We're doing twelve things and finishing three.", "es": "Todo se reduce a enfoque. Hacemos doce cosas y terminamos tres.", "item": "pv-boil-down-to" },
+      { "who": "Dan", "en": "We'll start with the [low-hanging fruit]: kill the features nobody uses.", "es": "Empezaremos con lo más fácil: eliminar las funciones que nadie usa.", "item": "idi-low-hanging-fruit" },
+      { "who": "Leo", "en": "Will we get to [weigh in] before it's final, or is this already decided?", "es": "¿Vamos a poder opinar antes de que sea definitivo, o ya está decidido?", "item": "pv-weigh-in" },
+      { "who": "Dan", "en": "Fair question. Leadership wants your input; we'll [iron out] the details together next week.", "es": "Buena pregunta. La dirección quiere su opinión; pulimos los detalles juntos la próxima semana.", "item": "pv-iron-out" },
+      { "who": "Sam", "en": "Translation: it's mostly decided, but we can pick the font.", "es": "Traducción: ya casi está decidido, pero podemos escoger la tipografía." }
+    ],
+    "items": ["pv-play-down", "pv-boil-down-to", "idi-low-hanging-fruit", "pv-weigh-in", "pv-iron-out"],
+    "questions": [
+      { "q": "According to Dan, what is the main problem?", "options": ["Lack of money", "Lack of focus", "Bad employees"], "answer": 1, "why_es": "Dice que todo se reduce a enfoque: hacen doce cosas y terminan tres." },
+      { "q": "What is Sam's attitude at the end?", "options": ["Sarcastic", "Very excited", "Angry"], "answer": 0, "why_es": "Su 'traducción' es irónica: insinúa que ya está casi todo decidido." }
+    ]
+  },
+  {
+    "id": "les-c1-budget-cuts",
+    "level": "C1",
+    "topic": "money",
+    "order": 45,
+    "title": "Budget cuts",
+    "title_es": "Recortes de presupuesto",
+    "intro_es": "Dan y Sam revisan dónde recortar gastos sin arruinar el producto.",
+    "lines": [
+      { "who": "Dan", "en": "The board wants us to [cut costs] by twenty percent before Q3.", "es": "El consejo quiere que recortemos gastos un veinte por ciento antes del tercer trimestre.", "item": "col-cut-costs" },
+      { "who": "Sam", "en": "Well, we [shell out] almost four grand a month on tools nobody opens.", "es": "Pues soltamos casi cuatro mil al mes en herramientas que nadie abre.", "item": "pv-shell-out" },
+      { "who": "Dan", "en": "Then let's [weed out] anything with fewer than five active users.", "es": "Entonces eliminemos todo lo que tenga menos de cinco usuarios activos.", "item": "pv-weed-out" },
+      { "who": "Sam", "en": "And the offsite in Banff? Do we [scale back] or cancel it outright?", "es": "¿Y el retiro en Banff? ¿Lo reducimos o lo cancelamos de plano?", "item": "pv-scale-back" },
+      { "who": "Dan", "en": "Scale it back. Cancel it and morale tanks.", "es": "Lo reducimos. Si lo cancelamos, la moral se va al piso." },
+      { "who": "Sam", "en": "Just promise me we won't [water down] the roadmap to hit some spreadsheet target.", "es": "Nada más prométeme que no vamos a diluir el roadmap para cumplir una meta de hoja de cálculo.", "item": "pv-water-down" },
+      { "who": "Dan", "en": "Promise. We trim the fat, not the muscle.", "es": "Prometido. Quitamos la grasa, no el músculo." }
+    ],
+    "items": ["col-cut-costs", "pv-shell-out", "pv-weed-out", "pv-scale-back", "pv-water-down"],
+    "questions": [
+      { "q": "Which tools will they remove?", "options": ["The most expensive ones", "Those with fewer than five active users", "All of them"], "answer": 1, "why_es": "Dan propone eliminar las que tengan menos de cinco usuarios activos." },
+      { "q": "What happens to the Banff offsite?", "options": ["It's canceled", "It's scaled back", "It's moved to Chicago"], "answer": 1, "why_es": "Dan decide reducirlo, no cancelarlo." },
+      { "q": "What does 'trim the fat, not the muscle' mean here?", "options": ["Cut waste, not what's essential", "Start a diet", "Fire the weakest people"], "answer": 0, "why_es": "Es una metáfora: quitar lo que sobra sin dañar lo esencial." }
+    ]
+  },
+  {
+    "id": "les-c1-difficult-client",
+    "level": "C1",
+    "topic": "work",
+    "order": 46,
+    "title": "The difficult client",
+    "title_es": "El cliente difícil",
+    "intro_es": "Maya y Leo preparan una llamada con un cliente que cambia de opinión cada semana.",
+    "lines": [
+      { "who": "Maya", "en": "Every call, he changes the scope. I can't [pin down] what he actually wants.", "es": "En cada llamada cambia el alcance. No logro precisar qué quiere realmente.", "item": "pv-pin-down" },
+      { "who": "Leo", "en": "So today we [nail down] three priorities, in writing, before we hang up.", "es": "Entonces hoy dejamos amarradas tres prioridades, por escrito, antes de colgar.", "item": "pv-nail-down" },
+      { "who": "Maya", "en": "And if he [pushes back] on the timeline again?", "es": "¿Y si vuelve a poner peros con los tiempos?", "item": "pv-push-back-2" },
+      { "who": "Leo", "en": "We [zero in on] the one thing he actually cares about: the checkout flow.", "es": "Nos enfocamos de lleno en lo único que le importa de verdad: el flujo de pago.", "item": "pv-zero-in-on" },
+      { "who": "Maya", "en": "Last time he got pretty annoyed when Sam corrected him.", "es": "La última vez se molestó bastante cuando Sam lo corrigió." },
+      { "who": "Leo", "en": "Right, so let me [smooth over] the tension at the start. A little flattery never hurt.", "es": "Exacto, entonces déjame suavizar la tensión al principio. Un poco de halago nunca está de más.", "item": "pv-smooth-over" },
+      { "who": "Maya", "en": "Look at you, Mr. Diplomacy. Okay, let's dial in.", "es": "Mírate, el señor diplomacia. Bueno, entremos a la llamada." }
+    ],
+    "items": ["pv-pin-down", "pv-nail-down", "pv-push-back-2", "pv-zero-in-on", "pv-smooth-over"],
+    "questions": [
+      { "q": "What is the client's main problem?", "options": ["He never pays", "He keeps changing the scope", "He never shows up"], "answer": 1, "why_es": "Maya dice que en cada llamada cambia el alcance y no sabe qué quiere." },
+      { "q": "What does the client really care about?", "options": ["The logo", "The checkout flow", "The price"], "answer": 1, "why_es": "Leo dice que lo único que le importa es el flujo de pago." }
+    ]
+  },
+  {
+    "id": "les-c1-performance-review",
+    "level": "C1",
+    "topic": "work",
+    "order": 47,
+    "title": "Performance review",
+    "title_es": "Evaluación de desempeño",
+    "intro_es": "Sam recibe su evaluación anual y no es lo que esperaba.",
+    "lines": [
+      { "who": "Dan", "en": "Sam, your technical work is excellent. Leadership is another story.", "es": "Sam, tu trabajo técnico es excelente. El liderazgo es otra historia." },
+      { "who": "Sam", "en": "I'll be honest, I'm [bitterly disappointed]. I thought I was ready for team lead.", "es": "Te seré honesto: estoy muy decepcionado. Creí que ya estaba listo para líder de equipo.", "item": "col-bitterly-disappointed" },
+      { "who": "Dan", "en": "You're close. But when the outage happened, you tried to [shrug off] the feedback.", "es": "Estás cerca. Pero cuando pasó la caída, intentaste quitarle importancia a la retroalimentación.", "item": "pv-shrug-off" },
+      { "who": "Sam", "en": "Fair. I guess I didn't [measure up] in that moment.", "es": "Es justo. Supongo que en ese momento no estuve a la altura.", "item": "pv-measure-up" },
+      { "who": "Dan", "en": "One bad week doesn't define you. Let's [map out] a six-month plan together.", "es": "Una mala semana no te define. Tracemos juntos un plan de seis meses.", "item": "pv-map-out" },
+      { "who": "Sam", "en": "What does that look like?", "es": "¿Y cómo sería eso?" },
+      { "who": "Dan", "en": "Mentoring Ava, running retros, and owning the next launch. Plenty of chances [lie ahead].", "es": "Ser mentor de Ava, dirigir las retrospectivas y encargarte del próximo lanzamiento. Hay muchas oportunidades por delante.", "item": "pv-lie-ahead" }
+    ],
+    "items": ["col-bitterly-disappointed", "pv-shrug-off", "pv-measure-up", "pv-map-out", "pv-lie-ahead"],
+    "questions": [
+      { "q": "Why is Sam disappointed?", "options": ["He didn't get the team lead role yet", "He got fired", "His salary was cut"], "answer": 0, "why_es": "Creía que ya estaba listo para ser líder de equipo." },
+      { "q": "What did Sam do wrong during the outage?", "options": ["He deleted the database", "He didn't take feedback seriously", "He went on vacation"], "answer": 1, "why_es": "Dan dice que intentó quitarle importancia a la retroalimentación." }
+    ]
+  },
+  {
+    "id": "les-c1-dans-farewell",
+    "level": "C1",
+    "topic": "work",
+    "order": 48,
+    "title": "Dan's farewell",
+    "title_es": "La despedida de Dan",
+    "intro_es": "En unas cervezas después del trabajo, Dan les cuenta a Leo y Maya que se va de la empresa.",
+    "lines": [
+      { "who": "Dan", "en": "So, I've been [mulling over] this for months, and… I'm leaving in June.", "es": "Bueno, llevo meses dándole vueltas a esto y… me voy en junio.", "item": "pv-mull-over" },
+      { "who": "Maya", "en": "Wait, what? Are you being pushed out?", "es": "Espera, ¿qué? ¿Te están corriendo?" },
+      { "who": "Dan", "en": "Not at all. I'm [stepping down] so someone with fresh eyes can take over.", "es": "Para nada. Dejo el puesto para que alguien con ojos frescos tome el mando.", "item": "pv-step-down" },
+      { "who": "Leo", "en": "And you? Another startup?", "es": "¿Y tú? ¿Otra startup?" },
+      { "who": "Dan", "en": "Something different. I want to [branch out] into teaching — maybe a bootcamp.", "es": "Algo distinto. Quiero diversificarme hacia la enseñanza, tal vez un bootcamp.", "item": "pv-branch-out" },
+      { "who": "Maya", "en": "Okay, I have to say it: I'm gonna miss you, you grumpy old man!", "es": "Okey, lo tengo que decir: ¡te voy a extrañar, viejo gruñón!" },
+      { "who": "Dan", "en": "Ha! You always [blurt out] what everyone else is thinking.", "es": "¡Ja! Siempre sueltas lo que todos los demás están pensando.", "item": "pv-blurt-out" },
+      { "who": "Leo", "en": "Better than [bottling up] your feelings. To Dan!", "es": "Mejor que guardarte lo que sientes. ¡Salud por Dan!", "item": "pv-bottle-up" }
+    ],
+    "items": ["pv-mull-over", "pv-step-down", "pv-branch-out", "pv-blurt-out", "pv-bottle-up"],
+    "questions": [
+      { "q": "Why is Dan leaving?", "options": ["He was fired", "He wants someone new to lead and to try teaching", "He's moving to Vancouver"], "answer": 1, "why_es": "Deja el puesto para que alguien nuevo tome el mando y quiere dedicarse a enseñar." },
+      { "q": "What does Dan say about Maya?", "options": ["She is always quiet", "She always says what others are thinking", "She is a bad designer"], "answer": 1, "why_es": "Dice que siempre suelta lo que los demás están pensando." }
+    ]
+  }
+]

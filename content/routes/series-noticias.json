@@ -1,0 +1,809 @@
+{
+  "id": "series-noticias",
+  "title_es": "Series y noticias",
+  "icon": "tv",
+  "scene": null,
+  "areas": [
+    "series",
+    "noticias"
+  ],
+  "season": null,
+  "objective_es": "Hablar de series y recomendaciones sin spoilers, y entender y comentar reportes de noticias (simulados) con ojo crítico.",
+  "tracks": [
+    {
+      "id": "series-noticias-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hablar de series (de qué tratan, evitar spoilers) y entender un reporte breve de noticias con nieve y cierres de calles.",
+      "items": [
+        "phr-have-you-seen",
+        "phr-whats-it-about",
+        "phr-no-spoilers",
+        "phr-im-hooked",
+        "voc-headline",
+        "col-road-closure",
+        "col-according-to",
+        "voc-spoiler",
+        "voc-binge-watch",
+        "col-plot-twist",
+        "phr-i-highly-recommend-it"
+      ],
+      "lesson": {
+        "id": "ls-series-noticias-a",
+        "level": "A2",
+        "topic": "informal",
+        "order": 1010,
+        "title": "A new show and a snow warning",
+        "title_es": "Una serie nueva y un aviso de nevada",
+        "intro_es": "Nia y Ravi hablan de una serie inventada y la tele cambia a las noticias. Noticia simulada para practicar; no es real. Contexto: invierno 2026, aviso de nevada en una ciudad ficticia.",
+        "simulated": true,
+        "lines": [
+          {
+            "who": "Nia",
+            "en": "[Have you seen] \"Harbour Lights\"? It's my new favourite show.",
+            "es": "¿Has visto \"Harbour Lights\"? Es mi nueva serie favorita.",
+            "item": "phr-have-you-seen"
+          },
+          {
+            "who": "Ravi",
+            "en": "No, I haven't. [What's it about]?",
+            "es": "No. ¿De qué trata?",
+            "item": "phr-whats-it-about"
+          },
+          {
+            "who": "Nia",
+            "en": "A family runs a lighthouse, and in the first episode they find a letter from—",
+            "es": "Una familia atiende un faro y en el primer episodio encuentran una carta de…"
+          },
+          {
+            "who": "Ravi",
+            "en": "[No spoilers]! I want to watch it myself.",
+            "es": "¡Sin spoilers! Quiero verla yo.",
+            "item": "phr-no-spoilers"
+          },
+          {
+            "who": "Nia",
+            "en": "Okay, okay. I'm on episode six now and I'm totally [hooked].",
+            "es": "Bueno, bueno. Ya voy en el episodio seis y estoy totalmente enganchada.",
+            "item": "phr-im-hooked"
+          },
+          {
+            "who": "Ravi",
+            "en": "Fine, I'll start tonight. Wait, the news just came on.",
+            "es": "Bien, la empiezo esta noche. Espera, empezaron las noticias."
+          },
+          {
+            "who": "Anchor",
+            "en": "Good evening. Tonight's top [headline]: a heavy snowfall warning is in effect for the city.",
+            "es": "Buenas noches. El titular de esta noche: hay una advertencia de nevada fuerte en la ciudad.",
+            "item": "voc-headline"
+          },
+          {
+            "who": "Anchor",
+            "en": "The weather office says up to twenty centimetres of snow could fall by morning. Buses may run late, and there could be [road closures] downtown.",
+            "es": "La oficina del clima dice que podrían caer hasta veinte centímetros de nieve para la mañana. Los autobuses podrían retrasarse y quizá haya cierres de calles en el centro.",
+            "item": "col-road-closure"
+          },
+          {
+            "who": "Nia",
+            "en": "[According to] the report, twenty centimetres! That's a lot.",
+            "es": "Según el reporte, ¡veinte centímetros! Es mucho.",
+            "item": "col-according-to"
+          },
+          {
+            "who": "Ravi",
+            "en": "I should buy groceries before it starts. Come with me?",
+            "es": "Debería comprar comida antes de que empiece. ¿Vienes conmigo?"
+          },
+          {
+            "who": "Nia",
+            "en": "Sure. Let's finish this episode first, then we'll go.",
+            "es": "Claro. Primero terminemos este episodio y luego vamos."
+          },
+          {
+            "who": "Ravi",
+            "en": "Deal. And remember, no spoilers on the way!",
+            "es": "Trato. Y recuerda, ¡sin spoilers en el camino!"
+          }
+        ],
+        "items": [
+          "phr-have-you-seen",
+          "phr-whats-it-about",
+          "phr-no-spoilers",
+          "phr-im-hooked",
+          "voc-headline",
+          "col-road-closure",
+          "col-according-to"
+        ],
+        "questions": [
+          {
+            "q": "What is \"Harbour Lights\" about?",
+            "options": [
+              "A detective",
+              "A family that runs a lighthouse",
+              "Two friends in a school"
+            ],
+            "answer": 1,
+            "why_es": "Nia dice que una familia atiende un faro."
+          },
+          {
+            "q": "Why does Ravi say \"No spoilers\"?",
+            "options": [
+              "He wants to discover the story himself",
+              "He already watched it",
+              "He doesn't like TV"
+            ],
+            "answer": 0,
+            "why_es": "Quiere verla él mismo."
+          },
+          {
+            "q": "What does the news report say?",
+            "options": [
+              "The buses are free tonight",
+              "A heavy snowfall warning is in effect",
+              "The schools are open late"
+            ],
+            "answer": 1,
+            "why_es": "El titular es una advertencia de nevada fuerte."
+          },
+          {
+            "q": "What will Ravi and Nia do after the episode?",
+            "options": [
+              "Go buy groceries",
+              "Go to the cinema",
+              "Call the weather office"
+            ],
+            "answer": 0,
+            "why_es": "Ravi quiere comprar comida antes de la nevada y Nia acepta ir."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pregunta si alguien ha visto una serie y de qué trata.",
+          "model": [
+            "Have you seen this show? What's it about?"
+          ],
+          "expect": [
+            [
+              "have you seen",
+              "did you watch",
+              "do you know"
+            ],
+            [
+              "what's it about",
+              "what is it about",
+              "about"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide que no te cuenten el final: sin spoilers.",
+          "model": [
+            "Please, no spoilers! I haven't finished it yet.",
+            "No spoilers, please!"
+          ],
+          "expect": [
+            [
+              "spoiler",
+              "spoil"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Resume una noticia en una frase: se espera mucha nieve esta noche.",
+          "model": [
+            "The report says a lot of snow is coming tonight.",
+            "According to the news, it's going to snow a lot tonight."
+          ],
+          "expect": [
+            [
+              "snow",
+              "snowfall"
+            ],
+            [
+              "tonight",
+              "report",
+              "news",
+              "according"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No captaste lo que dijo el reportero.",
+          "en": "Sorry, I didn't catch that. What did the reporter say?",
+          "es": "Perdón, no lo entendí. ¿Qué dijo el reportero?"
+        },
+        {
+          "situation_es": "No conoces una palabra de la noticia.",
+          "en": "What does 'headline' mean?",
+          "es": "¿Qué significa 'headline'?"
+        },
+        {
+          "situation_es": "No sabes de qué temporada hablan.",
+          "en": "Do you mean the first season or the second?",
+          "es": "¿Hablas de la primera temporada o de la segunda?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-series-noticias-a",
+        "area": "series",
+        "level": "A2",
+        "title": "Talking about a show",
+        "title_es": "Hablar de una serie",
+        "setting_es": "Estás con una amiga, Nia, viendo qué ver esta noche. Ella quiere saber qué series te gustan.",
+        "npc": "Nia (friend)",
+        "turns": [
+          {
+            "npc": "Hey {name}! Have you seen any good shows lately?",
+            "npc_es": "¡Hola {name}! ¿Has visto alguna serie buena últimamente?",
+            "task_es": "Di que estás viendo una serie y que te encanta.",
+            "expect": [
+              [
+                "watching",
+                "watched",
+                "seen",
+                "show",
+                "series"
+              ],
+              [
+                "like",
+                "love",
+                "good",
+                "great",
+                "favourite",
+                "favorite",
+                "enjoy"
+              ]
+            ],
+            "model": [
+              "Yes! I'm watching a show about a detective. I love it.",
+              "I watched a comedy series last week. It was great."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am seeing a (show|series)\\b",
+                "fix": "I'm watching a show",
+                "why_es": "Las series se *watch*, no se *see*."
+              }
+            ]
+          },
+          {
+            "npc": "Cool! What's it about?",
+            "npc_es": "¡Qué bien! ¿De qué trata?",
+            "task_es": "Explica en una frase de qué trata.",
+            "expect": [
+              [
+                "about",
+                "follows",
+                "story"
+              ]
+            ],
+            "model": [
+              "It's about a detective in a small town.",
+              "It's a story about two friends who open a restaurant."
+            ]
+          },
+          {
+            "npc": "Sounds interesting. Is it funny or serious?",
+            "npc_es": "Suena interesante. ¿Es divertida o seria?",
+            "task_es": "Di que es divertida pero a veces triste.",
+            "expect": [
+              [
+                "funny",
+                "fun",
+                "comedy",
+                "laugh"
+              ],
+              [
+                "sad",
+                "serious",
+                "emotional",
+                "dark"
+              ]
+            ],
+            "model": [
+              "It's funny, but sometimes it's sad.",
+              "It's a comedy, but some episodes are emotional."
+            ]
+          },
+          {
+            "npc": "I might watch it. Do you want to tell me how it ends?",
+            "npc_es": "Quizá la vea. ¿Me quieres contar cómo termina?",
+            "task_es": "Rechaza con humor: no spoilers.",
+            "expect": [
+              [
+                "no spoilers",
+                "spoiler",
+                "spoil",
+                "can't tell",
+                "won't tell",
+                "not telling"
+              ]
+            ],
+            "model": [
+              "No spoilers! You have to watch it.",
+              "I can't tell you, that would spoil it!"
+            ]
+          },
+          {
+            "npc": "Ha! Okay. Which episode should I start with?",
+            "npc_es": "¡Ja! Bueno. ¿Con qué episodio debo empezar?",
+            "task_es": "Dile que empiece por el primero y que te diga qué piensa.",
+            "expect": [
+              [
+                "first",
+                "one",
+                "start",
+                "beginning",
+                "pilot"
+              ],
+              [
+                "tell me",
+                "let me know",
+                "what you think",
+                "your opinion",
+                "hear"
+              ]
+            ],
+            "model": [
+              "Start with episode one, and tell me what you think!",
+              "Begin with the first episode. Let me know what you think."
+            ]
+          }
+        ],
+        "useful": [
+          "Have you seen…?",
+          "What's it about?",
+          "No spoilers!",
+          "I'm hooked",
+          "According to the report,…"
+        ]
+      }
+    },
+    {
+      "id": "series-noticias-b",
+      "band": "B1-B2",
+      "level": "B2",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Entender un reporte de noticias, distinguir afirmaciones de evidencia, cuestionar fuentes y hablar de series con opinión.",
+      "items": [
+        "col-fare-increase",
+        "voc-claim",
+        "voc-evidence",
+        "voc-survey",
+        "phr-the-vote-is-scheduled-for",
+        "phr-im-not-sure-the-headline-tells-the-whole-story",
+        "voc-misleading",
+        "voc-source",
+        "voc-fact-check",
+        "phr-the-ending-was-predictable",
+        "idi-not-my-cup-of-tea",
+        "voc-spoiler"
+      ],
+      "lesson": {
+        "id": "ls-series-noticias-b",
+        "level": "B2",
+        "topic": "informal",
+        "order": 1011,
+        "title": "Fares, claims and sources",
+        "title_es": "Tarifas, afirmaciones y fuentes",
+        "intro_es": "Escuchas un reporte de radio y luego dos colegas lo analizan con ojo crítico. Noticia simulada para practicar; no es real. Contexto: invierno 2026, ciudad y personas ficticias.",
+        "simulated": true,
+        "lines": [
+          {
+            "who": "Host",
+            "en": "Good evening. This is a practice report set in winter 2026. Tonight's top story: a proposed [fare increase] on city buses starting in March.",
+            "es": "Buenas noches. Este es un reporte de práctica ambientado en el invierno de 2026. La noticia principal: un aumento de tarifas propuesto en los autobuses a partir de marzo.",
+            "item": "col-fare-increase"
+          },
+          {
+            "who": "Host",
+            "en": "A city spokesperson said the increase would pay for new buses and more frequent service on busy routes.",
+            "es": "Un vocero de la ciudad dijo que el aumento pagaría autobuses nuevos y más frecuencia en las rutas con más demanda."
+          },
+          {
+            "who": "Host",
+            "en": "But a riders' group disagrees. Its leader, Omar Haddad, [claims] the plan would hurt low-income families.",
+            "es": "Pero un grupo de usuarios no está de acuerdo. Su líder, Omar Haddad, afirma que el plan perjudicaría a las familias de bajos ingresos.",
+            "item": "voc-claim"
+          },
+          {
+            "who": "Omar",
+            "en": "The city has no [evidence] that higher fares will improve service. We asked for the numbers and never got them.",
+            "es": "La ciudad no tiene evidencia de que tarifas más altas mejoren el servicio. Pedimos los números y nunca los recibimos.",
+            "item": "voc-evidence"
+          },
+          {
+            "who": "Host",
+            "en": "The city says it will release the full data next week. A public [survey] shows six in ten riders would accept a small increase if service improves.",
+            "es": "La ciudad dice que publicará los datos completos la próxima semana. Una encuesta pública muestra que seis de cada diez usuarios aceptarían un pequeño aumento si mejora el servicio.",
+            "item": "voc-survey"
+          },
+          {
+            "who": "Host",
+            "en": "[The vote is scheduled for] February. That's the news at nine.",
+            "es": "La votación está programada para febrero. Esas son las noticias de las nueve.",
+            "item": "phr-the-vote-is-scheduled-for"
+          },
+          {
+            "who": "Mina",
+            "en": "Did you hear that? Fares are going up. Honestly, [I'm not sure the headline tells the whole story].",
+            "es": "¿Oíste eso? Suben las tarifas. La verdad, no estoy segura de que el titular cuente toda la historia.",
+            "item": "phr-im-not-sure-the-headline-tells-the-whole-story"
+          },
+          {
+            "who": "Theo",
+            "en": "Right, the council hasn't voted yet. And that survey could be [misleading] if they only asked people downtown.",
+            "es": "Cierto, el consejo todavía no vota. Y esa encuesta podría ser engañosa si solo preguntaron a gente del centro.",
+            "item": "voc-misleading"
+          },
+          {
+            "who": "Mina",
+            "en": "Good point. What's the [source] of that survey?",
+            "es": "Buen punto. ¿Cuál es la fuente de esa encuesta?",
+            "item": "voc-source"
+          },
+          {
+            "who": "Theo",
+            "en": "Probably the city itself, so I'd want to [fact-check] it before sharing anything.",
+            "es": "Probablemente la propia ciudad, así que querría verificar los datos antes de compartir algo.",
+            "item": "voc-fact-check"
+          },
+          {
+            "who": "Mina",
+            "en": "Agreed. Let's read the full report tonight.",
+            "es": "De acuerdo. Leamos el informe completo esta noche."
+          },
+          {
+            "who": "Theo",
+            "en": "And if the increase passes, I'll start walking to work. Good for my steps, bad for my mornings!",
+            "es": "Y si el aumento se aprueba, empezaré a caminar al trabajo. Bueno para mis pasos, malo para mis mañanas."
+          }
+        ],
+        "items": [
+          "col-fare-increase",
+          "voc-claim",
+          "voc-evidence",
+          "voc-survey",
+          "phr-the-vote-is-scheduled-for",
+          "phr-im-not-sure-the-headline-tells-the-whole-story",
+          "voc-misleading",
+          "voc-source",
+          "voc-fact-check"
+        ],
+        "questions": [
+          {
+            "q": "What does the city propose?",
+            "options": [
+              "To lower bus fares",
+              "To close bus routes",
+              "To raise bus fares in March"
+            ],
+            "answer": 2,
+            "why_es": "Propone un aumento de tarifas a partir de marzo."
+          },
+          {
+            "q": "What does Omar Haddad say?",
+            "options": [
+              "The city has no evidence that higher fares will improve service",
+              "The increase is necessary",
+              "The survey is perfect"
+            ],
+            "answer": 0,
+            "why_es": "Omar dice que la ciudad no tiene evidencia."
+          },
+          {
+            "q": "When will the council vote?",
+            "options": [
+              "In February",
+              "Next week",
+              "In March"
+            ],
+            "answer": 0,
+            "why_es": "La votación está programada para febrero."
+          },
+          {
+            "q": "Why does Theo want to fact-check the survey?",
+            "options": [
+              "The survey is too long",
+              "It could be misleading and the source is probably the city",
+              "He wants to cancel it"
+            ],
+            "answer": 1,
+            "why_es": "Piensa que la encuesta podría ser engañosa y que su fuente es la ciudad."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Resume la noticia en dos frases usando 'according to'.",
+          "model": [
+            "According to the report, the city wants to raise bus fares by fifty cents. The council will vote in February."
+          ],
+          "expect": [
+            [
+              "according to",
+              "the report says",
+              "the news says"
+            ],
+            [
+              "fare",
+              "fares",
+              "bus",
+              "vote",
+              "council"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Cuestiona un titular con cortesía: sugiere que no cuenta toda la historia y pide evidencia.",
+          "model": [
+            "I'm not sure the headline tells the whole story. What evidence do they have?"
+          ],
+          "expect": [
+            [
+              "not sure",
+              "doesn't tell",
+              "does not tell",
+              "whole story",
+              "misleading"
+            ],
+            [
+              "evidence",
+              "source",
+              "proof",
+              "data",
+              "numbers"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Recomienda una serie sin spoilers y di por qué vale la pena.",
+          "model": [
+            "You should watch it. The first episode is slow, but it really picks up. No spoilers, I promise!",
+            "I'd recommend it. The characters are great and there's a big twist. I won't spoil anything."
+          ],
+          "expect": [
+            [
+              "watch",
+              "recommend",
+              "should"
+            ],
+            [
+              "spoil",
+              "spoilers",
+              "twist",
+              "picks up",
+              "characters",
+              "slow"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No captaste un número del reporte.",
+          "en": "Sorry, I didn't catch the last number. Could you repeat it?",
+          "es": "Perdón, no capté el último número. ¿Podrías repetirlo?"
+        },
+        {
+          "situation_es": "Quieres comprobar si entendiste las fechas.",
+          "en": "Let me make sure I understood: the fare goes up in March, but the vote is in February. Right?",
+          "es": "Para asegurarme de entender: la tarifa sube en marzo, pero la votación es en febrero. ¿Correcto?"
+        },
+        {
+          "situation_es": "Quieres saber de dónde viene una información.",
+          "en": "Where did you read that? What's the source?",
+          "es": "¿Dónde lo leíste? ¿Cuál es la fuente?"
+        },
+        {
+          "situation_es": "Crees que alguien citó mal el reporte.",
+          "en": "That's not what the report said. Let me check.",
+          "es": "Eso no es lo que decía el reporte. Déjame revisarlo."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-series-noticias-b",
+        "area": "noticias",
+        "level": "B2",
+        "title": "Coffee break: news and shows",
+        "title_es": "Café: noticias y series",
+        "setting_es": "En el café de la oficina, una colega comenta una noticia (simulada) sobre el aumento de tarifas del transporte y luego hablan de series.",
+        "npc": "Coworker (Mina)",
+        "turns": [
+          {
+            "npc": "Did you see the news about the bus fares? Fifty cents more starting in March!",
+            "npc_es": "¿Viste la noticia de las tarifas del autobús? ¡Cincuenta centavos más a partir de marzo!",
+            "task_es": "Reacciona con matiz: lo viste, pero el consejo todavía no vota, así que no es definitivo.",
+            "expect": [
+              [
+                "saw",
+                "heard",
+                "read",
+                "yes",
+                "yeah"
+              ],
+              [
+                "vote",
+                "council",
+                "not final",
+                "hasn't passed",
+                "isn't decided",
+                "not decided",
+                "not official"
+              ]
+            ],
+            "model": [
+              "Yes, I saw it. But the council hasn't voted yet, so it's not final.",
+              "I heard about it. It isn't decided yet; the council votes in February."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bdidn't vote yet\\b",
+                "fix": "hasn't voted yet",
+                "why_es": "Con *yet* se usa presente perfecto: *hasn't voted yet*."
+              }
+            ]
+          },
+          {
+            "npc": "True. Still, the report says most riders would accept it. Sounds convincing, right?",
+            "npc_es": "Cierto. Aun así, el reporte dice que la mayoría de los usuarios lo aceptaría. Suena convincente, ¿no?",
+            "task_es": "Cuestiona la encuesta: pregunta quién la hizo y a cuántas personas preguntaron.",
+            "expect": [
+              [
+                "who",
+                "source",
+                "where",
+                "how many"
+              ],
+              [
+                "survey",
+                "poll",
+                "asked",
+                "people",
+                "riders",
+                "did it",
+                "made",
+                "ran",
+                "conducted"
+              ]
+            ],
+            "model": [
+              "Who did that survey? And how many people did they ask?",
+              "Where does that poll come from, and how many riders did they ask?"
+            ]
+          },
+          {
+            "npc": "Good question. It said the city ran it, with about two hundred riders.",
+            "npc_es": "Buena pregunta. Decía que la ciudad la hizo, con unos doscientos usuarios.",
+            "task_es": "Di que doscientos usuarios es una muestra pequeña y que podría ser engañosa.",
+            "expect": [
+              [
+                "small",
+                "not many",
+                "few",
+                "only"
+              ],
+              [
+                "sample",
+                "survey",
+                "misleading",
+                "represent",
+                "people",
+                "riders",
+                "200",
+                "two hundred"
+              ]
+            ],
+            "model": [
+              "Only two hundred riders is a small sample, so it could be misleading.",
+              "That's not many people. The survey might be misleading."
+            ]
+          },
+          {
+            "npc": "Fair point. Anyway, enough news. What are you watching these days?",
+            "npc_es": "Buen punto. En fin, basta de noticias. ¿Qué estás viendo estos días?",
+            "task_es": "Cambia de tema: di que empezaste una serie y pregunta si ella ha visto algo bueno.",
+            "expect": [
+              [
+                "watching",
+                "started",
+                "been watching",
+                "binge"
+              ],
+              [
+                "have you",
+                "did you",
+                "do you",
+                "you seen",
+                "anything"
+              ]
+            ],
+            "model": [
+              "I just started a new series. Have you watched anything good lately?",
+              "I've been binge-watching a mystery show. Have you seen it?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am seeing a series\\b",
+                "fix": "I'm watching a series",
+                "why_es": "Las series se *watch*, no se *see*."
+              }
+            ]
+          },
+          {
+            "npc": "I finished a thriller last week. The ending was so predictable, though. Honestly, not my cup of tea.",
+            "npc_es": "Terminé un thriller la semana pasada. Aunque el final fue muy predecible. Sinceramente, no es lo mío.",
+            "task_es": "Responde con interés y recomienda una serie tuya sin spoilers.",
+            "expect": [
+              [
+                "recommend",
+                "should watch",
+                "try",
+                "you'd like",
+                "you might like",
+                "check out",
+                "should check"
+              ],
+              [
+                "spoil",
+                "spoiler",
+                "twist",
+                "slow",
+                "picks up",
+                "characters"
+              ]
+            ],
+            "model": [
+              "Oh, I'd recommend a lighthouse drama I love. It starts slow, but it picks up, and there's a great twist. No spoilers!",
+              "You should check out a show I love. The characters are great, and I won't spoil the twist."
+            ]
+          },
+          {
+            "npc": "Okay, I'll add it to my list. Thanks for the tip!",
+            "npc_es": "Bien, la añado a mi lista. ¡Gracias por el dato!",
+            "task_es": "Cierra con amabilidad: que ojalá le guste y que te cuente.",
+            "expect": [
+              [
+                "hope",
+                "let me know",
+                "tell me",
+                "enjoy",
+                "you'll like",
+                "like it"
+              ]
+            ],
+            "model": [
+              "I hope you like it! Let me know what you think.",
+              "Enjoy it, and tell me when you finish the first season."
+            ]
+          }
+        ],
+        "useful": [
+          "According to the report,…",
+          "I'm not sure the headline tells the whole story",
+          "What's the source?",
+          "No spoilers!",
+          "It's not really my thing"
+        ]
+      }
+    }
+  ],
+  "new_items": []
+}

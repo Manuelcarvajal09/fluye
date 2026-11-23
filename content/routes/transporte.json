@@ -1,0 +1,778 @@
+{
+  "id": "transporte",
+  "title_es": "Transporte",
+  "icon": "bus",
+  "scene": null,
+  "areas": [
+    "transporte"
+  ],
+  "season": null,
+  "objective_es": "Moverte por la ciudad: autobús, tren, taxi, estacionamiento y retrasos.",
+  "tracks": [
+    {
+      "id": "transporte-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Subir al autobús, preguntar si va a tu destino, pagar y saber dónde bajar.",
+      "items": [
+        "phr-does-this-bus-go-to",
+        "voc-fare",
+        "col-tap-your-card",
+        "phr-how-far-is-it-from-here",
+        "phr-which-stop-should-i-get-off-at",
+        "voc-bus-stop",
+        "col-take-the-bus",
+        "voc-day-pass",
+        "col-get-directions",
+        "phr-im-lost"
+      ],
+      "lesson": {
+        "id": "ls-transporte-a",
+        "level": "A2",
+        "topic": "daily",
+        "order": 1000,
+        "title": "Which bus to the library?",
+        "title_es": "¿Qué autobús va a la biblioteca?",
+        "intro_es": "Amira espera el autobús y le pregunta al conductor, Tom, cómo llegar a la biblioteca.",
+        "lines": [
+          {
+            "who": "Amira",
+            "en": "Excuse me, [does this bus go to] the library?",
+            "es": "Disculpe, ¿este autobús va a la biblioteca?",
+            "item": "phr-does-this-bus-go-to"
+          },
+          {
+            "who": "Tom",
+            "en": "Yes, it does. It's the number eight. Hop on.",
+            "es": "Sí. Es el número ocho. Suba."
+          },
+          {
+            "who": "Amira",
+            "en": "Thank you. How much is the [fare]?",
+            "es": "Gracias. ¿Cuánto es el pasaje?",
+            "item": "voc-fare"
+          },
+          {
+            "who": "Tom",
+            "en": "Three dollars. You can [tap your card] here.",
+            "es": "Tres dólares. Puede pasar su tarjeta aquí.",
+            "item": "col-tap-your-card"
+          },
+          {
+            "who": "Amira",
+            "en": "I only have cash. Sorry.",
+            "es": "Solo tengo efectivo. Perdón."
+          },
+          {
+            "who": "Tom",
+            "en": "That's okay. Put in the exact change, please.",
+            "es": "Está bien. Ponga el monto exacto, por favor."
+          },
+          {
+            "who": "Amira",
+            "en": "Okay. [How far is it from here]?",
+            "es": "Bien. ¿Qué tan lejos está de aquí?",
+            "item": "phr-how-far-is-it-from-here"
+          },
+          {
+            "who": "Tom",
+            "en": "About twenty minutes. I'll tell you when we get there.",
+            "es": "Unos veinte minutos. Yo le aviso cuando lleguemos."
+          },
+          {
+            "who": "Amira",
+            "en": "[Which stop should I get off at]?",
+            "es": "¿En qué parada debo bajar?",
+            "item": "phr-which-stop-should-i-get-off-at"
+          },
+          {
+            "who": "Tom",
+            "en": "Library Station. It's right across the street.",
+            "es": "Library Station. Está justo al otro lado de la calle."
+          },
+          {
+            "who": "Amira",
+            "en": "Perfect. Thanks, Tom!",
+            "es": "Perfecto. ¡Gracias, Tom!"
+          },
+          {
+            "who": "Tom",
+            "en": "No problem. Have a good one!",
+            "es": "De nada. ¡Que le vaya bien!"
+          }
+        ],
+        "items": [
+          "phr-does-this-bus-go-to",
+          "voc-fare",
+          "col-tap-your-card",
+          "phr-how-far-is-it-from-here",
+          "phr-which-stop-should-i-get-off-at"
+        ],
+        "questions": [
+          {
+            "q": "Where does Amira want to go?",
+            "options": [
+              "The library",
+              "The airport",
+              "The hospital"
+            ],
+            "answer": 0,
+            "why_es": "Amira pregunta si el autobús va a la biblioteca."
+          },
+          {
+            "q": "How does Amira pay?",
+            "options": [
+              "With her card",
+              "With exact change in cash",
+              "With her phone"
+            ],
+            "answer": 1,
+            "why_es": "Dice que solo tiene efectivo y Tom le pide el monto exacto."
+          },
+          {
+            "q": "How long is the trip?",
+            "options": [
+              "About ten minutes",
+              "About twenty minutes",
+              "About an hour"
+            ],
+            "answer": 1,
+            "why_es": "Tom dice 'about twenty minutes'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pregunta si este autobús va al centro (downtown).",
+          "model": [
+            "Does this bus go downtown?",
+            "Excuse me, does this bus go to downtown?"
+          ],
+          "expect": [
+            [
+              "does this bus go",
+              "is this bus going",
+              "this bus go",
+              "is this the bus"
+            ],
+            [
+              "downtown"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta cuánto cuesta el pasaje.",
+          "model": [
+            "How much is the fare?",
+            "How much is a ticket?"
+          ],
+          "expect": [
+            [
+              "how much"
+            ],
+            [
+              "fare",
+              "ticket",
+              "bus",
+              "pay"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta en qué parada debes bajar para ir al hospital.",
+          "model": [
+            "Which stop should I get off at for the hospital?",
+            "Where should I get off for the hospital?"
+          ],
+          "expect": [
+            [
+              "which stop",
+              "what stop",
+              "where"
+            ],
+            [
+              "off",
+              "hospital"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste lo que dijo el conductor.",
+          "en": "Sorry, could you say that again?",
+          "es": "Perdón, ¿podría repetirlo?"
+        },
+        {
+          "situation_es": "Habla muy rápido.",
+          "en": "Could you speak a little slower, please?",
+          "es": "¿Podría hablar un poco más despacio, por favor?"
+        },
+        {
+          "situation_es": "Quieres confirmar tu parada.",
+          "en": "So I get off at Library Station, right?",
+          "es": "Entonces bajo en Library Station, ¿verdad?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-transporte-a",
+        "area": "transporte",
+        "level": "A2",
+        "title": "Bus to the hospital",
+        "title_es": "Autobús al hospital",
+        "setting_es": "Estás en una parada de autobús de la ciudad. Necesitas ir al hospital y el conductor acaba de abrir la puerta.",
+        "npc": "Bus driver",
+        "turns": [
+          {
+            "npc": "Hi there. Where are you headed?",
+            "npc_es": "Hola. ¿A dónde va?",
+            "task_es": "Di que vas al hospital y pregunta si este autobús va para allá.",
+            "expect": [
+              [
+                "hospital"
+              ],
+              [
+                "does this bus",
+                "this bus go",
+                "is this bus",
+                "go to",
+                "going to"
+              ]
+            ],
+            "model": [
+              "Does this bus go to the hospital?",
+              "I need to go to the hospital. Does this bus go there?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bis go to\\b",
+                "fix": "Does this bus go to…?",
+                "why_es": "Para preguntar empieza con *Does*."
+              }
+            ]
+          },
+          {
+            "npc": "Yes, it does. That's three dollars.",
+            "npc_es": "Sí, va para allá. Son tres dólares.",
+            "task_es": "Pregunta si puedes pagar con tarjeta.",
+            "expect": [
+              [
+                "card",
+                "cards",
+                "tap"
+              ],
+              [
+                "can i",
+                "could i",
+                "do you take",
+                "do you accept",
+                "is it ok",
+                "is it okay",
+                "can you"
+              ]
+            ],
+            "model": [
+              "Can I pay by card?",
+              "Do you take cards?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bcan i to pay\\b",
+                "fix": "Can I pay…",
+                "why_es": "Después de *can* el verbo va sin *to*."
+              }
+            ]
+          },
+          {
+            "npc": "Sure, just tap your card there. The hospital stop is about fifteen minutes away.",
+            "npc_es": "Claro, pase su tarjeta ahí. La parada del hospital está como a quince minutos.",
+            "task_es": "Pregunta en qué parada debes bajar.",
+            "expect": [
+              [
+                "which stop",
+                "what stop",
+                "where",
+                "what station"
+              ],
+              [
+                "off",
+                "down",
+                "hospital",
+                "stop"
+              ]
+            ],
+            "model": [
+              "Which stop should I get off at?",
+              "Where should I get off for the hospital?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bget down\\b",
+                "fix": "get off",
+                "why_es": "Bajar del autobús es *get off*, no *get down*."
+              }
+            ]
+          },
+          {
+            "npc": "Get off at Hospital Station. I'll call it out.",
+            "npc_es": "Baje en Hospital Station. Yo se la anuncio.",
+            "task_es": "Dale las gracias y confirma que bajas en Hospital Station.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "hospital"
+              ]
+            ],
+            "model": [
+              "Thanks! So I get off at Hospital Station, right?",
+              "Thank you. Hospital Station, got it."
+            ]
+          },
+          {
+            "npc": "Exactly. Have a good one!",
+            "npc_es": "Exacto. ¡Que le vaya bien!",
+            "task_es": "Despídete.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "bye",
+                "you too",
+                "have a good",
+                "take care"
+              ]
+            ],
+            "model": [
+              "Thanks, you too!",
+              "Thank you, bye!"
+            ]
+          }
+        ],
+        "useful": [
+          "Does this bus go to…?",
+          "Which stop should I get off at?",
+          "How far is it from here?",
+          "Could you say that again?",
+          "Have a good one!"
+        ]
+      }
+    },
+    {
+      "id": "transporte-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hablar de retrasos y desvíos, pedir que te dejen en un lugar y resolver el estacionamiento.",
+      "items": [
+        "col-service-disruption",
+        "phr-the-bus-is-running-late",
+        "phr-could-you-drop-me-off-at",
+        "col-rush-hour",
+        "voc-detour",
+        "phr-im-stuck-in-traffic",
+        "col-find-parking",
+        "col-pay-for-parking",
+        "col-book-a-ride",
+        "pv-flag-down",
+        "col-road-closure",
+        "phr-keep-the-change"
+      ],
+      "lesson": {
+        "id": "ls-transporte-b",
+        "level": "B1",
+        "topic": "daily",
+        "order": 1001,
+        "title": "Delays and detours",
+        "title_es": "Retrasos y desvíos",
+        "intro_es": "Una mañana de caos: Priya espera un autobús retrasado y Luc la rescata en su coche.",
+        "lines": [
+          {
+            "who": "Luc",
+            "en": "Did you see the alert? There's a [service disruption] on the LRT this morning.",
+            "es": "¿Viste la alerta? Hay una interrupción del servicio en el tren ligero esta mañana.",
+            "item": "col-service-disruption"
+          },
+          {
+            "who": "Priya",
+            "en": "No! And [the bus is running late] again. I've been standing here for twenty minutes.",
+            "es": "¡No! Y el autobús viene retrasado otra vez. Llevo veinte minutos parada aquí.",
+            "item": "phr-the-bus-is-running-late"
+          },
+          {
+            "who": "Luc",
+            "en": "I'm driving today. I can give you a lift if you want.",
+            "es": "Hoy voy en coche. Te puedo llevar si quieres."
+          },
+          {
+            "who": "Priya",
+            "en": "Really? You're a lifesaver. [Could you drop me off at] the corner of Main and Fifth?",
+            "es": "¿En serio? Me salvas la vida. ¿Podrías dejarme en la esquina de Main y la Quinta?",
+            "item": "phr-could-you-drop-me-off-at"
+          },
+          {
+            "who": "Luc",
+            "en": "Sure, hop in. Fair warning, [rush hour] is brutal today.",
+            "es": "Claro, sube. Te aviso que la hora pico está pesadísima hoy.",
+            "item": "col-rush-hour"
+          },
+          {
+            "who": "Priya",
+            "en": "Look, they've closed the road up ahead. There's a [detour].",
+            "es": "Mira, cerraron la calle más adelante. Hay un desvío.",
+            "item": "voc-detour"
+          },
+          {
+            "who": "Luc",
+            "en": "Of course there is. Now [I'm stuck in traffic] with a passenger and no coffee.",
+            "es": "Claro que sí. Ahora estoy atorado en el tráfico con una pasajera y sin café.",
+            "item": "phr-im-stuck-in-traffic"
+          },
+          {
+            "who": "Priya",
+            "en": "Relax, we have time. Where are you going to [find parking] downtown?",
+            "es": "Relájate, hay tiempo. ¿Dónde vas a encontrar estacionamiento en el centro?",
+            "item": "col-find-parking"
+          },
+          {
+            "who": "Luc",
+            "en": "There's a lot beside the office. I'll [pay for parking] on my phone.",
+            "es": "Hay un lote junto a la oficina. Pagaré el estacionamiento desde mi celular.",
+            "item": "col-pay-for-parking"
+          },
+          {
+            "who": "Priya",
+            "en": "Smart. Thanks again for the ride, seriously.",
+            "es": "Buena idea. Gracias otra vez por el aventón, en serio."
+          },
+          {
+            "who": "Luc",
+            "en": "Anytime. Next time, check the transit alerts before you leave the house.",
+            "es": "Cuando quieras. La próxima vez revisa las alertas de transporte antes de salir."
+          },
+          {
+            "who": "Priya",
+            "en": "Noted. I'll buy you a coffee as a thank-you.",
+            "es": "Anotado. Te invito un café para agradecerte."
+          }
+        ],
+        "items": [
+          "col-service-disruption",
+          "phr-the-bus-is-running-late",
+          "phr-could-you-drop-me-off-at",
+          "col-rush-hour",
+          "voc-detour",
+          "phr-im-stuck-in-traffic",
+          "col-find-parking",
+          "col-pay-for-parking"
+        ],
+        "questions": [
+          {
+            "q": "Why is Priya waiting so long?",
+            "options": [
+              "Her car broke down",
+              "The bus is late",
+              "She missed her alarm"
+            ],
+            "answer": 1,
+            "why_es": "Dice que el autobús viene retrasado otra vez."
+          },
+          {
+            "q": "What does Luc offer to do?",
+            "options": [
+              "Give her a ride",
+              "Pay for a taxi",
+              "Buy her a bus pass"
+            ],
+            "answer": 0,
+            "why_es": "Luc ofrece llevarla en su coche ('give you a lift')."
+          },
+          {
+            "q": "Why is the drive slower than expected?",
+            "options": [
+              "A road is closed, so they take a detour",
+              "Luc is lost",
+              "The car is very old"
+            ],
+            "answer": 0,
+            "why_es": "Hay una calle cerrada y toman un desvío."
+          },
+          {
+            "q": "How will Luc pay for parking?",
+            "options": [
+              "With cash at a machine",
+              "On his phone",
+              "He won't pay"
+            ],
+            "answer": 1,
+            "why_es": "Dice que pagará 'on my phone'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Escríbele a tu jefa: llegarás tarde porque hay un retraso en el tren y estás atorado en el tráfico.",
+          "model": [
+            "Hi, I'm running late. There's a delay on the train and I'm stuck in traffic. I'll be there in about twenty minutes."
+          ],
+          "expect": [
+            [
+              "late"
+            ],
+            [
+              "delay",
+              "traffic",
+              "lrt",
+              "train",
+              "disruption",
+              "detour"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pídele a un taxista que te deje en la esquina de Main y la Quinta.",
+          "model": [
+            "Could you drop me off at the corner of Main and Fifth, please?"
+          ],
+          "expect": [
+            [
+              "drop me off",
+              "drop me at",
+              "let me off",
+              "stop"
+            ],
+            [
+              "main",
+              "corner",
+              "fifth"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta cómo se paga el estacionamiento en este lugar.",
+          "model": [
+            "How do I pay for parking here? Is there an app?",
+            "Can I pay for parking on my phone?"
+          ],
+          "expect": [
+            [
+              "pay"
+            ],
+            [
+              "parking"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No captaste la última parte de las indicaciones.",
+          "en": "Sorry, I didn't catch the last part. Could you repeat the directions?",
+          "es": "Perdón, no entendí la última parte. ¿Podría repetir las indicaciones?"
+        },
+        {
+          "situation_es": "Quieres comprobar que entendiste la ruta.",
+          "en": "So I take the eight to Central Station and then transfer to the LRT. Is that right?",
+          "es": "O sea que tomo el ocho hasta Central Station y luego transbordo al tren. ¿Es correcto?"
+        },
+        {
+          "situation_es": "La línea está cerrada y necesitas otra opción.",
+          "en": "Is there another way to get there if the line is down?",
+          "es": "¿Hay otra forma de llegar si la línea está fuera de servicio?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-transporte-b",
+        "area": "transporte",
+        "level": "B1",
+        "title": "Rideshare to the airport",
+        "title_es": "Viaje al aeropuerto",
+        "setting_es": "Pediste un viaje por la app para ir al aeropuerto temprano en la mañana. El conductor ya llegó, pero no te ve.",
+        "npc": "Driver",
+        "turns": [
+          {
+            "npc": "Hi, I'm outside the building but I don't see you. Where exactly are you?",
+            "npc_es": "Hola, estoy afuera del edificio pero no te veo. ¿Dónde estás exactamente?",
+            "task_es": "Explica que estás en la entrada lateral, junto a la parada del autobús.",
+            "expect": [
+              [
+                "entrance",
+                "door",
+                "side"
+              ],
+              [
+                "bus stop",
+                "next to",
+                "beside",
+                "by the",
+                "near",
+                "right by"
+              ]
+            ],
+            "model": [
+              "I'm at the side entrance, right next to the bus stop.",
+              "I'm standing by the side door, near the bus stop."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bin the side entrance\\b",
+                "fix": "at the side entrance",
+                "why_es": "Con lugares específicos se usa *at*: *at the side entrance*."
+              }
+            ]
+          },
+          {
+            "npc": "Got it, I see you now. Just to confirm, you're heading to the airport?",
+            "npc_es": "Ya te vi. Solo para confirmar, ¿vas al aeropuerto?",
+            "task_es": "Confirma y di que tienes que llegar antes de las 8:30 porque tu vuelo sale temprano.",
+            "expect": [
+              [
+                "flight",
+                "flight's",
+                "plane"
+              ],
+              [
+                "early",
+                "before",
+                "by",
+                "need to be",
+                "have to be",
+                "on time"
+              ]
+            ],
+            "model": [
+              "Yes, that's right. I need to be there by 8:30 because my flight leaves early.",
+              "Yeah, the airport. My flight's pretty early, so could we get there before 8:30?"
+            ]
+          },
+          {
+            "npc": "No problem. Heads up, there's a road closure on the highway, so I'll take a detour. It might add ten minutes.",
+            "npc_es": "Sin problema. Aviso: hay una calle cerrada en la autopista, así que tomaré un desvío. Podría sumar diez minutos.",
+            "task_es": "Pregunta si llegarán a tiempo y si hay una ruta más rápida.",
+            "expect": [
+              [
+                "on time",
+                "make it",
+                "in time",
+                "late",
+                "enough time"
+              ],
+              [
+                "another",
+                "other",
+                "faster",
+                "quicker",
+                "route",
+                "way"
+              ]
+            ],
+            "model": [
+              "Will we still make it on time? Is there a faster route?",
+              "Do you think we'll be there on time, or is there another way?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bfast way\\b",
+                "fix": "a faster route",
+                "why_es": "Para comparar usa *faster route*, no *fast way*."
+              }
+            ]
+          },
+          {
+            "npc": "We'll be fine. Traffic's light this early. Do you mind if I turn the heat up a bit?",
+            "npc_es": "Vamos bien. Hay poco tráfico a esta hora. ¿Te molesta si subo un poco la calefacción?",
+            "task_es": "Di que no hay problema y pide con cortesía que maneje un poco más despacio porque se ve hielo en la calle.",
+            "expect": [
+              [
+                "no",
+                "not at all",
+                "sure",
+                "go ahead",
+                "fine",
+                "okay",
+                "ok"
+              ],
+              [
+                "slow",
+                "careful",
+                "icy",
+                "ice",
+                "slippery"
+              ]
+            ],
+            "model": [
+              "Not at all, go ahead. And could you take it a little slower? The roads look icy.",
+              "Sure, no problem. Maybe go a bit slower though, it looks slippery."
+            ]
+          },
+          {
+            "npc": "Of course, safety first. Okay, we're here. That'll be thirty-eight dollars. Do you want a receipt?",
+            "npc_es": "Por supuesto, primero la seguridad. Ya llegamos. Son treinta y ocho dólares. ¿Quieres el recibo?",
+            "task_es": "Pide el recibo por correo y dile que se quede con el cambio.",
+            "expect": [
+              [
+                "receipt"
+              ],
+              [
+                "email",
+                "e-mail",
+                "send",
+                "text"
+              ]
+            ],
+            "model": [
+              "Yes, please. Could you email me the receipt? And keep the change.",
+              "A receipt by email would be great, thanks. Keep the change!"
+            ]
+          },
+          {
+            "npc": "Thanks a lot! Safe travels.",
+            "npc_es": "¡Muchas gracias! Buen viaje.",
+            "task_es": "Despídete y agradece.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "bye",
+                "safe",
+                "have a good",
+                "you too",
+                "take care",
+                "good day"
+              ]
+            ],
+            "model": [
+              "Thanks, you too! Have a good day.",
+              "Thank you, take care!"
+            ]
+          }
+        ],
+        "useful": [
+          "Could you drop me off at…?",
+          "Is there a faster route?",
+          "I'm stuck in traffic",
+          "The bus is running late",
+          "Keep the change"
+        ]
+      }
+    }
+  ],
+  "new_items": []
+}

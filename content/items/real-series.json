@@ -1,0 +1,5483 @@
+[
+  {
+    "id": "col-settle-out-of-court",
+    "type": "collocation",
+    "term": "settle out of court",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "llegar a un acuerdo sin ir a juicio",
+    "def": "to end a legal dispute with an agreement before a trial",
+    "ex": [
+      {
+        "en": "They decided to [settle out of court] to save money.",
+        "es": "Decidieron llegar a un acuerdo sin ir a juicio para ahorrar dinero."
+      },
+      {
+        "en": "The company [settled out of court] last spring.",
+        "es": "La empresa llegó a un acuerdo extrajudicial la primavera pasada."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "analisis"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "voc-leverage",
+    "type": "vocab",
+    "term": "leverage",
+    "ipa": "/ˈlɛvərɪdʒ/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 4,
+    "es": "ventaja para negociar; presión a tu favor",
+    "def": "something you can use to get a better deal or force a result",
+    "ex": [
+      {
+        "en": "We have no [leverage] if they can easily walk away.",
+        "es": "No tenemos ventaja si ellos pueden irse sin problema."
+      },
+      {
+        "en": "Our long contract gives us [leverage] in the talks.",
+        "es": "Nuestro contrato largo nos da fuerza en la negociación."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "idi-call-someones-bluff",
+    "type": "idiom",
+    "term": "call someone's bluff",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "pagarle de su propia moneda; retar a alguien a que lo demuestre",
+    "def": "to challenge someone to prove a threat or claim is real",
+    "note": "Bluff = fanfarronada. Viene del póker.",
+    "ex": [
+      {
+        "en": "I decided to [call his bluff] and refused to pay more.",
+        "es": "Decidí retarlo y me negué a pagar más."
+      },
+      {
+        "en": "She [called their bluff] and the deal went ahead.",
+        "es": "Los puso a prueba y el trato siguió."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "voc-lowball",
+    "type": "vocab",
+    "term": "lowball",
+    "ipa": "/ˈloʊbɔl/",
+    "level": "C1",
+    "topic": "money",
+    "freq": 3,
+    "es": "ofrecer muy poco; oferta ridícula de baja",
+    "def": "to make an offer that is much lower than the real value",
+    "ex": [
+      {
+        "en": "They tried to [lowball] us with a tiny offer.",
+        "es": "Intentaron ofrecernos una miseria."
+      },
+      {
+        "en": "Don't [lowball] the seller, he'll walk away.",
+        "es": "No le ofrezcas una miseria al vendedor, se va a ir."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "col-cut-a-deal",
+    "type": "collocation",
+    "term": "cut a deal",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "cerrar un trato; negociar un acuerdo",
+    "def": "to reach an agreement, often after bargaining",
+    "ex": [
+      {
+        "en": "They [cut a deal] to avoid a long trial.",
+        "es": "Hicieron un trato para evitar un juicio largo."
+      },
+      {
+        "en": "Let's [cut a deal] and move on.",
+        "es": "Hagamos un trato y sigamos adelante."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist",
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-have-the-upper-hand",
+    "type": "idiom",
+    "term": "have the upper hand",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "tener la ventaja; llevar la mano",
+    "def": "to be in a stronger position than the other side",
+    "ex": [
+      {
+        "en": "After the report, we [had the upper hand].",
+        "es": "Tras el reporte, teníamos la ventaja."
+      },
+      {
+        "en": "She finally [has the upper hand] in the talks.",
+        "es": "Por fin ella tiene la ventaja en las pláticas."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "idi-play-hardball",
+    "type": "idiom",
+    "term": "play hardball",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "jugar rudo; negociar sin ceder",
+    "def": "to be very tough and aggressive in order to win",
+    "ex": [
+      {
+        "en": "The lawyers started to [play hardball].",
+        "es": "Los abogados empezaron a jugar rudo."
+      },
+      {
+        "en": "If you [play hardball], they might walk away.",
+        "es": "Si juegas rudo, quizá se vayan."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "idi-lay-your-cards-on-the-table",
+    "type": "idiom",
+    "term": "lay your cards on the table",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "poner las cartas sobre la mesa; ser totalmente franco",
+    "def": "to be completely honest about your plans or position",
+    "ex": [
+      {
+        "en": "Let me [lay my cards on the table]: I want the job.",
+        "es": "Déjame poner las cartas sobre la mesa: quiero el puesto."
+      },
+      {
+        "en": "They [laid their cards on the table] at the meeting.",
+        "es": "Pusieron las cartas sobre la mesa en la junta."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "voc-non-negotiable",
+    "type": "vocab",
+    "term": "non-negotiable",
+    "ipa": "/ˌnɑn nɪˈɡoʊʃiəbəl/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "innegociable; no se discute",
+    "def": "not open to discussion or change",
+    "ex": [
+      {
+        "en": "Safety is [non-negotiable] on this site.",
+        "es": "La seguridad es innegociable en esta obra."
+      },
+      {
+        "en": "The deadline is [non-negotiable].",
+        "es": "La fecha límite no se negocia."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "voc-counteroffer",
+    "type": "vocab",
+    "term": "counteroffer",
+    "ipa": "/ˈkaʊntərˌɔfər/",
+    "level": "C1",
+    "topic": "money",
+    "freq": 3,
+    "es": "contraoferta",
+    "def": "a new offer made after rejecting a first one",
+    "ex": [
+      {
+        "en": "They made a [counteroffer] of fifty thousand.",
+        "es": "Hicieron una contraoferta de cincuenta mil."
+      },
+      {
+        "en": "We should send a [counteroffer] today.",
+        "es": "Deberíamos enviar una contraoferta hoy."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "idi-off-the-record",
+    "type": "idiom",
+    "term": "off the record",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "extraoficialmente; que no quede asentado",
+    "def": "said privately, not to be reported or recorded",
+    "ex": [
+      {
+        "en": "[Off the record], I think the plan will fail.",
+        "es": "Extraoficialmente, creo que el plan va a fallar."
+      },
+      {
+        "en": "Can we talk [off the record]?",
+        "es": "¿Podemos hablar extraoficialmente?"
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "phr-pro-bono",
+    "type": "phrase",
+    "term": "pro bono",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "gratis, por el bien público (trabajo profesional)",
+    "def": "done for free as a public service",
+    "ex": [
+      {
+        "en": "She does [pro bono] work for local families.",
+        "es": "Hace trabajo gratuito para familias de la zona."
+      },
+      {
+        "en": "The firm took the case [pro bono].",
+        "es": "El despacho tomó el caso sin cobrar."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "voc-loophole",
+    "type": "vocab",
+    "term": "loophole",
+    "ipa": "/ˈluphoʊl/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "vacío legal; resquicio; escapatoria",
+    "def": "a gap in a rule or law that people can use to avoid it",
+    "ex": [
+      {
+        "en": "The contract had a [loophole].",
+        "es": "El contrato tenía un vacío legal."
+      },
+      {
+        "en": "They found a [loophole] to avoid tax.",
+        "es": "Encontraron un resquicio para evitar el impuesto."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "analisis"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "col-due-diligence",
+    "type": "collocation",
+    "term": "due diligence",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "debida diligencia; investigación previa",
+    "def": "careful checking before a business or legal decision",
+    "ex": [
+      {
+        "en": "We did our [due diligence] before signing.",
+        "es": "Hicimos nuestra investigación previa antes de firmar."
+      },
+      {
+        "en": "The buyer wants more [due diligence].",
+        "es": "El comprador quiere más revisión previa."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "analisis"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "voc-ironclad",
+    "type": "vocab",
+    "term": "ironclad",
+    "ipa": "/ˈaɪərnˌklæd/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "blindado; a prueba de fallas",
+    "def": "so strong it cannot be broken or challenged",
+    "ex": [
+      {
+        "en": "We need an [ironclad] contract.",
+        "es": "Necesitamos un contrato blindado."
+      },
+      {
+        "en": "He had an [ironclad] alibi.",
+        "es": "Tenía una coartada a prueba de todo."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "idi-up-the-ante",
+    "type": "idiom",
+    "term": "up the ante",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "subir la apuesta; endurecer las exigencias",
+    "def": "to increase the risk or demand in a situation",
+    "ex": [
+      {
+        "en": "They [upped the ante] with a bigger demand.",
+        "es": "Subieron la apuesta con una exigencia mayor."
+      },
+      {
+        "en": "Don't [up the ante] now.",
+        "es": "No subas la apuesta ahora."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "idi-poker-face",
+    "type": "idiom",
+    "term": "poker face",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "cara de póker; rostro sin emoción",
+    "def": "a face that hides what you are thinking",
+    "ex": [
+      {
+        "en": "She kept a [poker face] during the offer.",
+        "es": "Mantuvo la cara de póker durante la oferta."
+      },
+      {
+        "en": "I can't keep a [poker face] when I'm nervous.",
+        "es": "No puedo mantener la cara de póker cuando me pongo nervioso."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "idi-walk-away-from-the-table",
+    "type": "idiom",
+    "term": "walk away from the table",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "levantarse de la mesa de negociación; dejar plantadas las pláticas",
+    "def": "to end negotiations because the deal is bad",
+    "ex": [
+      {
+        "en": "If they refuse, we [walk away from the table].",
+        "es": "Si se niegan, nos levantamos de la mesa."
+      },
+      {
+        "en": "He threatened to [walk away from the table].",
+        "es": "Amenazó con levantarse de la mesa."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "idi-twist-someones-arm",
+    "type": "idiom",
+    "term": "twist someone's arm",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "presionar a alguien; convencer a la fuerza",
+    "def": "to pressure someone to do something",
+    "ex": [
+      {
+        "en": "You don't have to [twist my arm]; I'll come.",
+        "es": "No hace falta que me presiones; voy."
+      },
+      {
+        "en": "They [twisted his arm] to sign.",
+        "es": "Lo presionaron para que firmara."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "col-in-good-faith",
+    "type": "collocation",
+    "term": "in good faith",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "de buena fe",
+    "def": "honestly, without trying to cheat",
+    "ex": [
+      {
+        "en": "We negotiated [in good faith].",
+        "es": "Negociamos de buena fe."
+      },
+      {
+        "en": "She acted [in good faith].",
+        "es": "Ella actuó de buena fe."
+      }
+    ],
+    "areas": [
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "col-the-fine-print",
+    "type": "collocation",
+    "term": "the fine print",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "la letra pequeña",
+    "def": "the small details of a contract that are easy to miss",
+    "ex": [
+      {
+        "en": "Always read [the fine print].",
+        "es": "Siempre lee la letra pequeña."
+      },
+      {
+        "en": "[The fine print] says no refunds.",
+        "es": "La letra pequeña dice que no hay reembolsos."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "bancos"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "suits"
+    ]
+  },
+  {
+    "id": "col-read-people",
+    "type": "collocation",
+    "term": "read people",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "leer a la gente; interpretar a las personas",
+    "def": "to understand someone's feelings or intentions from small signs",
+    "ex": [
+      {
+        "en": "She's good at [reading people].",
+        "es": "Es buena leyendo a la gente."
+      },
+      {
+        "en": "I can usually [read people] in minutes.",
+        "es": "Normalmente puedo leer a la gente en minutos."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist",
+      "suits"
+    ]
+  },
+  {
+    "id": "col-cold-reading",
+    "type": "collocation",
+    "term": "cold reading",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "lectura en frío; adivinar con trucos de psicología",
+    "def": "guessing details about someone using body language and clever hints",
+    "note": "Técnica usada por falsos videntes y mentalistas.",
+    "ex": [
+      {
+        "en": "Magicians use [cold reading] to seem psychic.",
+        "es": "Los magos usan la lectura en frío para parecer videntes."
+      },
+      {
+        "en": "He explained how [cold reading] works.",
+        "es": "Explicó cómo funciona la lectura en frío."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "col-con-artist",
+    "type": "collocation",
+    "term": "con artist",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "estafador; timador",
+    "def": "a person who tricks others to take money",
+    "ex": [
+      {
+        "en": "The [con artist] sold fake tickets.",
+        "es": "El estafador vendió boletos falsos."
+      },
+      {
+        "en": "She was fooled by a [con artist].",
+        "es": "La engañó un timador."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist",
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "voc-con",
+    "type": "vocab",
+    "term": "con",
+    "ipa": "/kɑn/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "estafar; timar; timo",
+    "def": "to trick someone by lying, often for money",
+    "ex": [
+      {
+        "en": "He [conned] her out of her savings.",
+        "es": "La estafó y se quedó con sus ahorros."
+      },
+      {
+        "en": "It was a clever [con].",
+        "es": "Fue un timo muy hábil."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "voc-alibi",
+    "type": "vocab",
+    "term": "alibi",
+    "ipa": "/ˈæləbaɪ/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "coartada",
+    "def": "proof you were somewhere else when a crime happened",
+    "ex": [
+      {
+        "en": "He had a perfect [alibi].",
+        "es": "Tenía una coartada perfecta."
+      },
+      {
+        "en": "Her [alibi] fell apart.",
+        "es": "Su coartada se vino abajo."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "voc-hunch",
+    "type": "vocab",
+    "term": "hunch",
+    "ipa": "/hʌntʃ/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "corazonada; presentimiento",
+    "def": "a strong feeling about something without proof",
+    "ex": [
+      {
+        "en": "I have a [hunch] he's lying.",
+        "es": "Tengo la corazonada de que miente."
+      },
+      {
+        "en": "Her [hunch] was right.",
+        "es": "Su corazonada era cierta."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "voc-stakeout",
+    "type": "vocab",
+    "term": "stakeout",
+    "ipa": "/ˈsteɪkaʊt/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "vigilancia encubierta; operativo de vigilancia",
+    "def": "watching a place secretly for a long time",
+    "ex": [
+      {
+        "en": "The police planned a [stakeout].",
+        "es": "La policía planeó una vigilancia."
+      },
+      {
+        "en": "They spent the night on a [stakeout].",
+        "es": "Pasaron la noche en un operativo de vigilancia."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "phr-tail-someone",
+    "type": "phrase",
+    "term": "tail someone",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "seguir a alguien; perseguir a alguien discretamente",
+    "def": "to follow someone secretly",
+    "ex": [
+      {
+        "en": "Detectives [tailed him] for a week.",
+        "es": "Los detectives lo siguieron durante una semana."
+      },
+      {
+        "en": "I think someone is [tailing me].",
+        "es": "Creo que alguien me sigue."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "idi-red-herring",
+    "type": "idiom",
+    "term": "red herring",
+    "level": "C1",
+    "topic": "social",
+    "freq": 3,
+    "es": "pista falsa; distracción",
+    "def": "a false clue that leads you away from the truth",
+    "ex": [
+      {
+        "en": "The note was a [red herring].",
+        "es": "La nota fue una pista falsa."
+      },
+      {
+        "en": "Don't follow the [red herring].",
+        "es": "No sigas la pista falsa."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "idi-good-cop-bad-cop",
+    "type": "idiom",
+    "term": "good cop, bad cop",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "policía bueno, policía malo; táctica de interrogatorio",
+    "def": "a technique where one person is kind and another is harsh",
+    "ex": [
+      {
+        "en": "They played [good cop, bad cop] to get answers.",
+        "es": "Jugaron al policía bueno y al malo para sacar respuestas."
+      },
+      {
+        "en": "It's a classic [good cop, bad cop] trick.",
+        "es": "Es un truco clásico del policía bueno y el malo."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "col-cover-story",
+    "type": "collocation",
+    "term": "cover story",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "historia falsa para ocultar la verdad",
+    "def": "a false explanation used to hide the truth",
+    "ex": [
+      {
+        "en": "His [cover story] was too perfect.",
+        "es": "Su historia falsa era demasiado perfecta."
+      },
+      {
+        "en": "She prepared a [cover story].",
+        "es": "Preparó una versión falsa de los hechos."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "col-crack-a-case",
+    "type": "collocation",
+    "term": "crack a case",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "resolver un caso",
+    "def": "to find the solution to a crime or problem",
+    "ex": [
+      {
+        "en": "He [cracked the case] in a day.",
+        "es": "Resolvió el caso en un día."
+      },
+      {
+        "en": "They finally [cracked the case].",
+        "es": "Por fin resolvieron el caso."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "idi-smoking-gun",
+    "type": "idiom",
+    "term": "smoking gun",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "la prueba definitiva",
+    "def": "clear evidence that proves guilt",
+    "ex": [
+      {
+        "en": "The email was the [smoking gun].",
+        "es": "El correo fue la prueba definitiva."
+      },
+      {
+        "en": "Detectives need a [smoking gun].",
+        "es": "Los detectives necesitan la prueba contundente."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist",
+      "suits"
+    ]
+  },
+  {
+    "id": "col-gut-feeling",
+    "type": "collocation",
+    "term": "gut feeling",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "intuición; presentimiento",
+    "def": "an instinct that tells you something is true",
+    "ex": [
+      {
+        "en": "My [gut feeling] says we shouldn't go.",
+        "es": "Mi intuición dice que no deberíamos ir."
+      },
+      {
+        "en": "Trust your [gut feeling].",
+        "es": "Confía en tu intuición."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "col-frame-someone",
+    "type": "collocation",
+    "term": "frame someone",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "incriminar falsamente; tenderle una trampa",
+    "def": "to make an innocent person look guilty",
+    "ex": [
+      {
+        "en": "Someone tried to [frame him] for the theft.",
+        "es": "Alguien intentó incriminarlo por el robo."
+      },
+      {
+        "en": "She claims she was [framed].",
+        "es": "Ella dice que la incriminaron."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "phr-fall-for-it",
+    "type": "phrase",
+    "term": "fall for it",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "caer en la trampa; creérselo",
+    "def": "to believe a trick",
+    "ex": [
+      {
+        "en": "He didn't [fall for it].",
+        "es": "No cayó en la trampa."
+      },
+      {
+        "en": "I can't believe you [fell for it].",
+        "es": "No puedo creer que hayas caído."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist",
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "idi-wild-goose-chase",
+    "type": "idiom",
+    "term": "wild-goose chase",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "búsqueda inútil; persecución sin sentido",
+    "def": "a pointless search for something that can't be found",
+    "ex": [
+      {
+        "en": "The tip turned out to be a [wild-goose chase].",
+        "es": "La pista resultó ser una búsqueda inútil."
+      },
+      {
+        "en": "We wasted a day on a [wild-goose chase].",
+        "es": "Perdimos un día persiguiendo algo que no existía."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "col-cold-case",
+    "type": "collocation",
+    "term": "cold case",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "caso sin resolver desde hace años",
+    "def": "an unsolved crime that is no longer actively investigated",
+    "ex": [
+      {
+        "en": "They reopened a [cold case].",
+        "es": "Reabrieron un caso sin resolver."
+      },
+      {
+        "en": "She works on [cold cases].",
+        "es": "Trabaja en casos sin resolver."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "voc-motive",
+    "type": "vocab",
+    "term": "motive",
+    "ipa": "/ˈmoʊtɪv/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "motivo; móvil (del crimen)",
+    "def": "the reason why a person does something wrong",
+    "ex": [
+      {
+        "en": "Money was the [motive].",
+        "es": "El dinero fue el motivo."
+      },
+      {
+        "en": "Police couldn't find a [motive].",
+        "es": "La policía no encontró un móvil."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "pv-give-someone-away",
+    "type": "phrasal",
+    "term": "give someone away",
+    "ipa": "/ɡɪv əˈweɪ/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "delatar a alguien; descubrirlo",
+    "def": "to accidentally show a secret or reveal who someone is",
+    "sep": true,
+    "ex": [
+      {
+        "en": "His smile [gave him away].",
+        "es": "Su sonrisa lo delató."
+      },
+      {
+        "en": "Don't [give me away].",
+        "es": "No me delates."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "pv-geek-out",
+    "type": "phrasal",
+    "term": "geek out",
+    "ipa": "/ɡik aʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "emocionarse como fan (con un tema técnico)",
+    "def": "to talk with great enthusiasm about a technical hobby",
+    "sep": false,
+    "ex": [
+      {
+        "en": "We [geek out] over new gadgets.",
+        "es": "Nos emocionamos como fans con los nuevos gadgets."
+      },
+      {
+        "en": "They [geeked out] about the telescope.",
+        "es": "Se emocionaron hablando del telescopio."
+      }
+    ],
+    "areas": [
+      "series",
+      "ciencia"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "pv-nerd-out",
+    "type": "phrasal",
+    "term": "nerd out",
+    "ipa": "/nɜrd aʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "ponerse a hablar de cosas nerd con pasión",
+    "def": "to enjoy and talk a lot about a nerdy topic",
+    "sep": false,
+    "ex": [
+      {
+        "en": "He loves to [nerd out] about chemistry.",
+        "es": "Le encanta ponerse nerd con la química."
+      },
+      {
+        "en": "We [nerded out] all night.",
+        "es": "Estuvimos de nerds toda la noche."
+      }
+    ],
+    "areas": [
+      "series",
+      "ciencia"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "col-socially-awkward",
+    "type": "collocation",
+    "term": "socially awkward",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "torpe socialmente; incómodo con la gente",
+    "def": "uncomfortable or clumsy in social situations",
+    "ex": [
+      {
+        "en": "He's [socially awkward] but kind.",
+        "es": "Es torpe socialmente pero amable."
+      },
+      {
+        "en": "I felt [socially awkward] at the party.",
+        "es": "Me sentí incómodo socialmente en la fiesta."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "phr-sarcasm-tag",
+    "type": "phrase",
+    "term": "/s",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 2,
+    "es": "/s: etiqueta de sarcasmo en mensajes escritos",
+    "def": "a tag written at the end of a text to show sarcasm",
+    "note": "Se escribe al final de un mensaje; no se pronuncia como palabra normal.",
+    "ex": [
+      {
+        "en": "Great idea, genius [/s].",
+        "es": "Gran idea, genio (sarcasmo)."
+      },
+      {
+        "en": "[S]ure, he's so humble /s.",
+        "es": "Claro, es tan humilde (sarcasmo)."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "voc-know-it-all",
+    "type": "vocab",
+    "term": "know-it-all",
+    "ipa": "/ˈnoʊ ɪt ˌɔl/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "sabelotodo",
+    "def": "someone who acts as if they know everything",
+    "ex": [
+      {
+        "en": "Nobody likes a [know-it-all].",
+        "es": "A nadie le cae bien un sabelotodo."
+      },
+      {
+        "en": "She was a [know-it-all] in class.",
+        "es": "En clase era una sabelotodo."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Criticar o bromear sobre alguien que presume saber todo.",
+    "tone_es": "Burla; puede molestar si es sincero.",
+    "situations_es": "Puede ser cariñoso con un amigo curioso o crítico con un fanfarrón.",
+    "softer": "someone who knows a lot",
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "voc-dork",
+    "type": "vocab",
+    "term": "dork",
+    "ipa": "/dɔrk/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "ñoño; tonto simpático",
+    "def": "a clumsy, awkward person",
+    "ex": [
+      {
+        "en": "He's a total [dork], but I like him.",
+        "es": "Es un ñoño total, pero me cae bien."
+      },
+      {
+        "en": "Don't be a [dork].",
+        "es": "No seas ñoño."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Burlarte con cariño de alguien torpe.",
+    "tone_es": "Puede ofender si no hay confianza.",
+    "situations_es": "Entre amigos es burla suave; con extraños es insulto leve.",
+    "softer": "silly person",
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "voc-fanboy",
+    "type": "vocab",
+    "term": "fanboy",
+    "ipa": "/ˈfænˌbɔɪ/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "fanático",
+    "def": "a person who is overly enthusiastic about a hobby",
+    "ex": [
+      {
+        "en": "He's a [fanboy] of space movies.",
+        "es": "Es fanático de las películas espaciales."
+      },
+      {
+        "en": "The [fanboys] lined up for hours.",
+        "es": "Los fans hicieron fila por horas."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "voc-cosplay",
+    "type": "vocab",
+    "term": "cosplay",
+    "ipa": "/ˈkɑzˌpleɪ/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "disfrazarse de un personaje; cosplay",
+    "def": "to dress up as a character from fiction",
+    "ex": [
+      {
+        "en": "They [cosplay] at every convention.",
+        "es": "Hacen cosplay en cada convención."
+      },
+      {
+        "en": "She made her own [cosplay] outfit.",
+        "es": "Hizo su propio disfraz de cosplay."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "voc-spoiler",
+    "type": "vocab",
+    "term": "spoiler",
+    "ipa": "/ˈspɔɪlər/",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "spoiler; revelación del final",
+    "def": "information that reveals the end of a story",
+    "ex": [
+      {
+        "en": "No [spoilers], please!",
+        "es": "¡Sin spoilers, por favor!"
+      },
+      {
+        "en": "That review had a huge [spoiler].",
+        "es": "Esa reseña tenía un spoiler enorme."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-in-joke",
+    "type": "vocab",
+    "term": "in-joke",
+    "ipa": "/ˈɪn dʒoʊk/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "chiste interno",
+    "def": "a joke only a certain group of people understands",
+    "ex": [
+      {
+        "en": "It's an [in-joke] among us.",
+        "es": "Es un chiste interno entre nosotros."
+      },
+      {
+        "en": "I didn't get the [in-joke].",
+        "es": "No entendí el chiste interno."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "himym",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-stickler",
+    "type": "vocab",
+    "term": "stickler",
+    "ipa": "/ˈstɪklər/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "quisquilloso; muy estricto",
+    "def": "a person who insists on strict rules",
+    "ex": [
+      {
+        "en": "She's a [stickler] for rules.",
+        "es": "Es muy estricta con las reglas."
+      },
+      {
+        "en": "He is a [stickler] for details.",
+        "es": "Es quisquilloso con los detalles."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "suits"
+    ]
+  },
+  {
+    "id": "voc-pedantic",
+    "type": "vocab",
+    "term": "pedantic",
+    "ipa": "/pəˈdæntɪk/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "pedante; exageradamente detallista",
+    "def": "too focused on small rules or details",
+    "ex": [
+      {
+        "en": "Don't be so [pedantic] about grammar.",
+        "es": "No seas tan pedante con la gramática."
+      },
+      {
+        "en": "He's [pedantic] when explaining.",
+        "es": "Es pedante cuando explica."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "voc-overthink",
+    "type": "vocab",
+    "term": "overthink",
+    "ipa": "/ˌoʊvərˈθɪŋk/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "darle demasiadas vueltas; pensar de más",
+    "def": "to think about something too much",
+    "ex": [
+      {
+        "en": "Stop [overthinking] it.",
+        "es": "Deja de darle tantas vueltas."
+      },
+      {
+        "en": "I always [overthink] texts.",
+        "es": "Siempre le doy vueltas a los mensajes."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-quirky",
+    "type": "vocab",
+    "term": "quirky",
+    "ipa": "/ˈkwɜrki/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "peculiar; con manías simpáticas",
+    "def": "unusual in a charming way",
+    "ex": [
+      {
+        "en": "She has a [quirky] sense of humor.",
+        "es": "Tiene un humor peculiar."
+      },
+      {
+        "en": "It's a [quirky] little shop.",
+        "es": "Es una tiendita peculiar."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-back-of-the-envelope",
+    "type": "collocation",
+    "term": "back-of-the-envelope",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "cálculo rápido y aproximado",
+    "def": "a quick rough estimate",
+    "ex": [
+      {
+        "en": "Here's a [back-of-the-envelope] calculation.",
+        "es": "Aquí va un cálculo rápido y aproximado."
+      },
+      {
+        "en": "It was a [back-of-the-envelope] guess.",
+        "es": "Fue una estimación a ojo."
+      }
+    ],
+    "areas": [
+      "ciencia",
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "col-awkward-silence",
+    "type": "collocation",
+    "term": "awkward silence",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "silencio incómodo",
+    "def": "a quiet moment that makes people uncomfortable",
+    "ex": [
+      {
+        "en": "There was an [awkward silence].",
+        "es": "Hubo un silencio incómodo."
+      },
+      {
+        "en": "I broke the [awkward silence] with a joke.",
+        "es": "Rompí el silencio incómodo con un chiste."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "himym",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "idi-run-the-numbers",
+    "type": "idiom",
+    "term": "run the numbers",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "hacer las cuentas; analizar los números",
+    "def": "to calculate carefully to see if something makes sense",
+    "ex": [
+      {
+        "en": "Let me [run the numbers] first.",
+        "es": "Déjame hacer las cuentas primero."
+      },
+      {
+        "en": "We [ran the numbers] twice.",
+        "es": "Hicimos las cuentas dos veces."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "ciencia"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "suits"
+    ]
+  },
+  {
+    "id": "voc-binge-watch",
+    "type": "vocab",
+    "term": "binge-watch",
+    "ipa": "/ˈbɪndʒ wɑtʃ/",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "maratonear (ver muchos capítulos seguidos)",
+    "def": "to watch many episodes in a row",
+    "ex": [
+      {
+        "en": "We [binge-watched] the whole season.",
+        "es": "Maratoneamos toda la temporada."
+      },
+      {
+        "en": "I love to [binge-watch] on weekends.",
+        "es": "Me encanta maratonear en fines de semana."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory",
+      "sitcoms",
+      "himym",
+      "helluva-boss",
+      "hazbin-hotel",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-nitpick",
+    "type": "vocab",
+    "term": "nitpick",
+    "ipa": "/ˈnɪtˌpɪk/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "buscarle peros a todo; criticar detalles",
+    "def": "to criticize small, unimportant details",
+    "ex": [
+      {
+        "en": "Stop [nitpicking] my report.",
+        "es": "Deja de buscarle peros a mi reporte."
+      },
+      {
+        "en": "He always [nitpick]s.",
+        "es": "Siempre critica detalles mínimos."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "col-blind-date",
+    "type": "collocation",
+    "term": "blind date",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "cita a ciegas",
+    "def": "a date with someone you have never met",
+    "ex": [
+      {
+        "en": "She went on a [blind date] last night.",
+        "es": "Fue a una cita a ciegas anoche."
+      },
+      {
+        "en": "A [blind date] can be fun.",
+        "es": "Una cita a ciegas puede ser divertida."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-pickup-line",
+    "type": "collocation",
+    "term": "pickup line",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "frase para ligar",
+    "def": "a phrase used to start flirting",
+    "ex": [
+      {
+        "en": "That was the worst [pickup line] ever.",
+        "es": "Esa fue la peor frase para ligar."
+      },
+      {
+        "en": "He tried a cheesy [pickup line].",
+        "es": "Probó con una frase cursi para ligar."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-plus-one",
+    "type": "vocab",
+    "term": "plus-one",
+    "ipa": "/ˌplʌs ˈwʌn/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "acompañante invitado",
+    "def": "a guest you can bring to an event",
+    "ex": [
+      {
+        "en": "Can I bring a [plus-one]?",
+        "es": "¿Puedo llevar un acompañante?"
+      },
+      {
+        "en": "He asked her to be his [plus-one].",
+        "es": "Le pidió que fuera su acompañante."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-bachelor-party",
+    "type": "collocation",
+    "term": "bachelor party",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "despedida de soltero",
+    "def": "a party for a man before he gets married",
+    "ex": [
+      {
+        "en": "We planned his [bachelor party].",
+        "es": "Organizamos su despedida de soltero."
+      },
+      {
+        "en": "The [bachelor party] was in Vegas.",
+        "es": "La despedida de soltero fue en Las Vegas."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "col-designated-driver",
+    "type": "collocation",
+    "term": "designated driver",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "conductor designado",
+    "def": "a person who agrees not to drink to drive friends home",
+    "ex": [
+      {
+        "en": "I'm the [designated driver] tonight.",
+        "es": "Soy el conductor designado esta noche."
+      },
+      {
+        "en": "We need a [designated driver].",
+        "es": "Necesitamos un conductor designado."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series",
+      "transporte"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "col-last-call",
+    "type": "collocation",
+    "term": "last call",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "última llamada (en un bar)",
+    "def": "final chance to order drinks before the bar closes",
+    "ex": [
+      {
+        "en": "It's [last call], folks.",
+        "es": "Es la última llamada, amigos."
+      },
+      {
+        "en": "We left after [last call].",
+        "es": "Nos fuimos después de la última llamada."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "idi-go-dutch",
+    "type": "idiom",
+    "term": "go Dutch",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "pagar cada quien lo suyo",
+    "def": "each person pays their own share",
+    "ex": [
+      {
+        "en": "Let's [go Dutch] tonight.",
+        "es": "Paguemos cada quien lo suyo esta noche."
+      },
+      {
+        "en": "They always [go Dutch].",
+        "es": "Siempre pagan cada quien lo suyo."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "restaurantes"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-tipsy",
+    "type": "vocab",
+    "term": "tipsy",
+    "ipa": "/ˈtɪpsi/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "medio borracho; alegre por el alcohol",
+    "def": "slightly drunk",
+    "ex": [
+      {
+        "en": "I'm a little [tipsy].",
+        "es": "Estoy medio ebrio."
+      },
+      {
+        "en": "She got [tipsy] after two glasses.",
+        "es": "Se puso alegre con dos copas."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-hungover",
+    "type": "vocab",
+    "term": "hungover",
+    "ipa": "/ˌhʌŋˈoʊvər/",
+    "level": "B2",
+    "topic": "health",
+    "freq": 3,
+    "es": "con resaca",
+    "def": "feeling sick after drinking too much alcohol",
+    "ex": [
+      {
+        "en": "I'm so [hungover] today.",
+        "es": "Hoy tengo mucha resaca."
+      },
+      {
+        "en": "He showed up [hungover].",
+        "es": "Llegó con resaca."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-wasted",
+    "type": "vocab",
+    "term": "wasted",
+    "ipa": "/ˈweɪstɪd/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "hecho polvo; muy borracho",
+    "def": "extremely drunk",
+    "ex": [
+      {
+        "en": "He got [wasted] at the party.",
+        "es": "Se puso hasta atrás en la fiesta."
+      },
+      {
+        "en": "We were totally [wasted].",
+        "es": "Estábamos bien borrachos."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "slang",
+      "tv"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir a alguien muy ebrio.",
+    "tone_es": "Informal; puede sonar burlón.",
+    "situations_es": "Puede ser broma o crítica.",
+    "softer": "very drunk",
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "col-commitment-issues",
+    "type": "collocation",
+    "term": "commitment issues",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "miedo al compromiso",
+    "def": "fear of serious relationships",
+    "ex": [
+      {
+        "en": "He has [commitment issues].",
+        "es": "Tiene miedo al compromiso."
+      },
+      {
+        "en": "She's afraid of [commitment issues].",
+        "es": "Le preocupa tener problemas de compromiso."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "idi-cold-feet",
+    "type": "idiom",
+    "term": "cold feet",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "miedo de último minuto; echarse para atrás",
+    "def": "sudden fear before a big step",
+    "ex": [
+      {
+        "en": "He got [cold feet] before the wedding.",
+        "es": "Le dio miedo antes de la boda."
+      },
+      {
+        "en": "I had [cold feet] about the job.",
+        "es": "Me dio miedo el trabajo."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "idi-on-the-rebound",
+    "type": "idiom",
+    "term": "on the rebound",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "recién salido de una relación (buscando consuelo)",
+    "def": "dating someone soon after a breakup",
+    "ex": [
+      {
+        "en": "He's [on the rebound].",
+        "es": "Está en plena recaída emocional tras la ruptura."
+      },
+      {
+        "en": "She dated him [on the rebound].",
+        "es": "Salió con él tras terminar con otra persona."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "idi-love-at-first-sight",
+    "type": "idiom",
+    "term": "love at first sight",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "amor a primera vista",
+    "def": "falling in love instantly",
+    "ex": [
+      {
+        "en": "It was [love at first sight].",
+        "es": "Fue amor a primera vista."
+      },
+      {
+        "en": "He believes in [love at first sight].",
+        "es": "Cree en el amor a primera vista."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "idi-friends-with-benefits",
+    "type": "idiom",
+    "term": "friends with benefits",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "amigos con derechos",
+    "def": "friends who also have a casual sexual relationship",
+    "ex": [
+      {
+        "en": "They're [friends with benefits].",
+        "es": "Son amigos con derechos."
+      },
+      {
+        "en": "It was only [friends with benefits].",
+        "es": "Solo eran amigos con derechos."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir una relación casual.",
+    "tone_es": "Neutro pero íntimo; evita en entornos formales.",
+    "situations_es": "Puede ser acuerdo cómodo o fuente de problemas.",
+    "softer": "casual partners",
+    "goal": "understand",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "idi-play-the-field",
+    "type": "idiom",
+    "term": "play the field",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "salir con varias personas sin compromiso",
+    "def": "to date several people without committing",
+    "ex": [
+      {
+        "en": "He wants to [play the field].",
+        "es": "Quiere salir con varias personas."
+      },
+      {
+        "en": "She [played the field] for years.",
+        "es": "Salió con muchos por años."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym"
+    ]
+  },
+  {
+    "id": "pv-get-over-someone",
+    "type": "phrasal",
+    "term": "get over someone",
+    "ipa": "/ɡɛt ˈoʊvər/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "superar a alguien; olvidar a un ex",
+    "def": "to stop having strong feelings for someone",
+    "sep": false,
+    "ex": [
+      {
+        "en": "I'm still trying to [get over her].",
+        "es": "Todavía intento olvidarla."
+      },
+      {
+        "en": "He [got over] his ex quickly.",
+        "es": "Superó rápido a su ex."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "himym",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "idi-sell-your-soul",
+    "type": "idiom",
+    "term": "sell your soul",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "venderle el alma al diablo",
+    "def": "to give up your values or life for power or money",
+    "ex": [
+      {
+        "en": "He would [sell his soul] for fame.",
+        "es": "Vendería su alma por la fama."
+      },
+      {
+        "en": "Don't [sell your soul] to that company.",
+        "es": "No le vendas el alma a esa empresa."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-strike-a-deal",
+    "type": "collocation",
+    "term": "strike a deal",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "cerrar un trato",
+    "def": "to reach an agreement after bargaining",
+    "ex": [
+      {
+        "en": "The imp [struck a deal] with a client.",
+        "es": "El diablillo cerró un trato con un cliente."
+      },
+      {
+        "en": "They [struck a deal] at midnight.",
+        "es": "Cerraron un trato a medianoche."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel",
+      "suits"
+    ]
+  },
+  {
+    "id": "voc-redemption",
+    "type": "vocab",
+    "term": "redemption",
+    "ipa": "/rɪˈdɛmpʃən/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "redención",
+    "def": "the act of becoming forgiven or saved after doing wrong",
+    "ex": [
+      {
+        "en": "The story is about [redemption].",
+        "es": "La historia trata de la redención."
+      },
+      {
+        "en": "He seeks [redemption] for his past.",
+        "es": "Busca la redención por su pasado."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-sinner",
+    "type": "vocab",
+    "term": "sinner",
+    "ipa": "/ˈsɪnər/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "pecador",
+    "def": "a person who has done morally wrong things",
+    "ex": [
+      {
+        "en": "Hell is full of [sinners].",
+        "es": "El infierno está lleno de pecadores."
+      },
+      {
+        "en": "She called him a [sinner].",
+        "es": "Lo llamó pecador."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "helluva-boss"
+    ]
+  },
+  {
+    "id": "voc-hell-bent",
+    "type": "vocab",
+    "term": "hell-bent",
+    "ipa": "/ˈhɛl ˌbɛnt/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "empeñado a toda costa; obsesionado con lograr algo",
+    "def": "determined to do something, no matter what",
+    "ex": [
+      {
+        "en": "He's [hell-bent] on revenge.",
+        "es": "Está empeñado en la venganza."
+      },
+      {
+        "en": "They are [hell-bent] on winning.",
+        "es": "Están empeñados en ganar."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Describir una determinación obsesiva.",
+    "tone_es": "Intenso; suena dramático.",
+    "situations_es": "Puede ser admirable o peligrosa.",
+    "softer": "determined",
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "helluva-boss"
+    ]
+  },
+  {
+    "id": "voc-damned",
+    "type": "vocab",
+    "term": "damned",
+    "ipa": "/dæmd/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "condenado; maldito",
+    "def": "cursed or sent to hell",
+    "ex": [
+      {
+        "en": "The [damned] souls cried out.",
+        "es": "Las almas condenadas gritaron."
+      },
+      {
+        "en": "He felt [damned].",
+        "es": "Se sintió condenado."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "helluva-boss"
+    ]
+  },
+  {
+    "id": "idi-raise-hell",
+    "type": "idiom",
+    "term": "raise hell",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "armar un escándalo; hacer un desmadre",
+    "def": "to cause trouble or protest loudly",
+    "ex": [
+      {
+        "en": "The fans [raised hell] after the loss.",
+        "es": "Los fans armaron un escándalo tras la derrota."
+      },
+      {
+        "en": "She likes to [raise hell].",
+        "es": "Le gusta armar desmadres."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Describir conducta escandalosa.",
+    "tone_es": "Suave pero de actitud.",
+    "situations_es": "Puede ser protesta o travesura.",
+    "softer": "make trouble",
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-all-hell-broke-loose",
+    "type": "idiom",
+    "term": "all hell broke loose",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "se armó un caos; se desató el desastre",
+    "def": "everything suddenly became chaotic",
+    "ex": [
+      {
+        "en": "Then [all hell broke loose].",
+        "es": "Entonces se armó el caos."
+      },
+      {
+        "en": "[All hell broke loose] after the announcement.",
+        "es": "Se desató el caos tras el anuncio."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Describir un desorden repentino.",
+    "tone_es": "Dramático.",
+    "situations_es": "Puede ser exagerado.",
+    "softer": "chaos began",
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-hell-on-earth",
+    "type": "idiom",
+    "term": "hell on earth",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "un infierno; un lugar terrible",
+    "def": "a place or situation that is extremely unpleasant",
+    "ex": [
+      {
+        "en": "Traffic today was [hell on earth].",
+        "es": "El tráfico hoy fue un infierno."
+      },
+      {
+        "en": "The job felt like [hell on earth].",
+        "es": "El trabajo se sentía como un infierno."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Exagerar una experiencia terrible.",
+    "tone_es": "Hiperbólico.",
+    "situations_es": "Se entiende como exageración.",
+    "softer": "terrible",
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-devils-advocate",
+    "type": "idiom",
+    "term": "devil's advocate",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "abogado del diablo",
+    "def": "someone who argues the other side to test an idea",
+    "ex": [
+      {
+        "en": "Let me play [devil's advocate].",
+        "es": "Déjame hacer de abogado del diablo."
+      },
+      {
+        "en": "He's just being a [devil's advocate].",
+        "es": "Solo está haciendo de abogado del diablo."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel",
+      "suits"
+    ]
+  },
+  {
+    "id": "idi-rock-bottom",
+    "type": "idiom",
+    "term": "rock bottom",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "tocar fondo",
+    "def": "the lowest point in life",
+    "ex": [
+      {
+        "en": "He hit [rock bottom] last year.",
+        "es": "Tocó fondo el año pasado."
+      },
+      {
+        "en": "[Rock bottom] made him change.",
+        "es": "Tocar fondo lo hizo cambiar."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-fall-from-grace",
+    "type": "idiom",
+    "term": "fall from grace",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "caída en desgracia",
+    "def": "to lose respect or status after doing wrong",
+    "ex": [
+      {
+        "en": "The star suffered a [fall from grace].",
+        "es": "La estrella sufrió una caída en desgracia."
+      },
+      {
+        "en": "His [fall from grace] was public.",
+        "es": "Su caída fue pública."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-deal-with-the-devil",
+    "type": "idiom",
+    "term": "deal with the devil",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "pacto con el diablo",
+    "def": "a bargain that brings a terrible price later",
+    "ex": [
+      {
+        "en": "That contract was a [deal with the devil].",
+        "es": "Ese contrato fue un pacto con el diablo."
+      },
+      {
+        "en": "She made a [deal with the devil].",
+        "es": "Hizo un pacto con el diablo."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "col-second-chance",
+    "type": "collocation",
+    "term": "second chance",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "segunda oportunidad",
+    "def": "another opportunity after failing",
+    "ex": [
+      {
+        "en": "Everyone deserves a [second chance].",
+        "es": "Todos merecen una segunda oportunidad."
+      },
+      {
+        "en": "He got a [second chance] at the job.",
+        "es": "Recibió una segunda oportunidad en el trabajo."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "pv-atone-for",
+    "type": "phrasal",
+    "term": "atone for",
+    "ipa": "/əˈtoʊn fɔr/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "expiar; reparar el daño de",
+    "def": "to make up for a wrong you did",
+    "sep": false,
+    "ex": [
+      {
+        "en": "He wants to [atone for] his mistakes.",
+        "es": "Quiere expiar sus errores."
+      },
+      {
+        "en": "She tried to [atone for] lying.",
+        "es": "Intentó compensar haber mentido."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-repent",
+    "type": "vocab",
+    "term": "repent",
+    "ipa": "/rɪˈpɛnt/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "arrepentirse",
+    "def": "to feel deep regret for wrongdoing",
+    "ex": [
+      {
+        "en": "He wants to [repent].",
+        "es": "Quiere arrepentirse."
+      },
+      {
+        "en": "They [repent]ed too late.",
+        "es": "Se arrepintieron demasiado tarde."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-temptation",
+    "type": "vocab",
+    "term": "temptation",
+    "ipa": "/tɛmpˈteɪʃən/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "tentación",
+    "def": "a strong urge to do something you shouldn't",
+    "ex": [
+      {
+        "en": "She resisted [temptation].",
+        "es": "Resistió la tentación."
+      },
+      {
+        "en": "Cake is my biggest [temptation].",
+        "es": "El pastel es mi mayor tentación."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "helluva-boss",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-salvation",
+    "type": "vocab",
+    "term": "salvation",
+    "ipa": "/sælˈveɪʃən/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "salvación",
+    "def": "being saved from harm or sin",
+    "ex": [
+      {
+        "en": "They seek [salvation].",
+        "es": "Buscan la salvación."
+      },
+      {
+        "en": "Music was his [salvation].",
+        "es": "La música fue su salvación."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-purgatory",
+    "type": "vocab",
+    "term": "purgatory",
+    "ipa": "/ˈpɜrɡəˌtɔri/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "purgatorio; limbo",
+    "def": "a place or state of suffering before something better",
+    "ex": [
+      {
+        "en": "Waiting felt like [purgatory].",
+        "es": "Esperar parecía un purgatorio."
+      },
+      {
+        "en": "He was stuck in [purgatory].",
+        "es": "Estaba atrapado en el limbo."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-backstab",
+    "type": "vocab",
+    "term": "backstab",
+    "ipa": "/ˈbækˌstæb/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "traicionar por la espalda; puñalada trapera",
+    "def": "to betray someone who trusts you",
+    "ex": [
+      {
+        "en": "He [backstabbed] his partner.",
+        "es": "Traicionó a su socio por la espalda."
+      },
+      {
+        "en": "Never trust a [backstab]ber.",
+        "es": "Nunca confíes en un traidor."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-double-cross",
+    "type": "vocab",
+    "term": "double-cross",
+    "ipa": "/ˌdʌbəl ˈkrɔs/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "traicionar; jugar doble",
+    "def": "to betray someone you pretended to help",
+    "ex": [
+      {
+        "en": "They [double-crossed] the boss.",
+        "es": "Traicionaron al jefe."
+      },
+      {
+        "en": "I was [double-cross]ed.",
+        "es": "Me traicionaron."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-grudge",
+    "type": "vocab",
+    "term": "grudge",
+    "ipa": "/ɡrʌdʒ/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "rencor",
+    "def": "a long-lasting feeling of anger about past harm",
+    "ex": [
+      {
+        "en": "He holds a [grudge].",
+        "es": "Guarda rencor."
+      },
+      {
+        "en": "I don't hold [grudge]s.",
+        "es": "No guardo rencores."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-hot-mess",
+    "type": "idiom",
+    "term": "hot mess",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "un desastre andante; un caos",
+    "def": "someone or something messy and chaotic",
+    "ex": [
+      {
+        "en": "She is a [hot mess] today.",
+        "es": "Hoy es un desastre andante."
+      },
+      {
+        "en": "My schedule is a [hot mess].",
+        "es": "Mi agenda es un caos."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "slang",
+      "tv"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir desorden personal.",
+    "tone_es": "Cariñoso o burlón.",
+    "situations_es": "Puede ser broma o crítica.",
+    "softer": "chaos",
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-snarky",
+    "type": "vocab",
+    "term": "snarky",
+    "ipa": "/ˈsnɑrki/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 3,
+    "es": "sarcástico y mordaz",
+    "def": "sarcastic in a cutting, sometimes rude way",
+    "ex": [
+      {
+        "en": "She made a [snarky] comment.",
+        "es": "Hizo un comentario mordaz."
+      },
+      {
+        "en": "Why are you so [snarky]?",
+        "es": "¿Por qué eres tan sarcástico?"
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Burlarte con sarcasmo.",
+    "tone_es": "Divertido o hiriente.",
+    "situations_es": "Depende de la intención.",
+    "softer": "sarcastic",
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel",
+      "big-bang-theory",
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-sassy",
+    "type": "vocab",
+    "term": "sassy",
+    "ipa": "/ˈsæsi/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "descarado; con mucha actitud",
+    "def": "bold, lively and a bit rude in a charming way",
+    "ex": [
+      {
+        "en": "He has a [sassy] reply for everything.",
+        "es": "Tiene una respuesta descarada para todo."
+      },
+      {
+        "en": "She's [sassy] and confident.",
+        "es": "Es respondona y segura."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-diva",
+    "type": "vocab",
+    "term": "diva",
+    "ipa": "/ˈdivə/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "diva; persona que se cree el centro de todo",
+    "def": "a person who acts self-important or demanding",
+    "ex": [
+      {
+        "en": "Don't be such a [diva].",
+        "es": "No seas tan diva."
+      },
+      {
+        "en": "The lead singer is a [diva].",
+        "es": "La cantante principal es una diva."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "hazbin-hotel",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-plot-twist",
+    "type": "collocation",
+    "term": "plot twist",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "giro inesperado en la trama",
+    "def": "a sudden surprise change in a story",
+    "ex": [
+      {
+        "en": "What a [plot twist]!",
+        "es": "¡Qué giro inesperado!"
+      },
+      {
+        "en": "The [plot twist] shocked everyone.",
+        "es": "El giro sorprendió a todos."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel",
+      "sitcoms",
+      "the-mentalist"
+    ]
+  },
+  {
+    "id": "voc-villain",
+    "type": "vocab",
+    "term": "villain",
+    "ipa": "/ˈvɪlən/",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "villano",
+    "def": "the bad character in a story",
+    "ex": [
+      {
+        "en": "The [villain] smiled.",
+        "es": "El villano sonrió."
+      },
+      {
+        "en": "I like a good [villain].",
+        "es": "Me gusta un buen villano."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-minion",
+    "type": "vocab",
+    "term": "minion",
+    "ipa": "/ˈmɪnjən/",
+    "level": "B2",
+    "topic": "work",
+    "freq": 2,
+    "es": "secuaz; subordinado",
+    "def": "a follower who does the orders of a powerful person",
+    "ex": [
+      {
+        "en": "The [minions] obeyed.",
+        "es": "Los secuaces obedecieron."
+      },
+      {
+        "en": "He treats staff like [minion]s.",
+        "es": "Trata al personal como si fueran secuaces."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-hellhole",
+    "type": "vocab",
+    "term": "hellhole",
+    "ipa": "/ˈhɛlhoʊl/",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 2,
+    "es": "antro; lugar horrible",
+    "def": "a very unpleasant place",
+    "ex": [
+      {
+        "en": "This motel is a [hellhole].",
+        "es": "Este motel es un antro."
+      },
+      {
+        "en": "He grew up in a [hellhole].",
+        "es": "Creció en un lugar horrible."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Describir un lugar horrible.",
+    "tone_es": "Fuerte.",
+    "situations_es": "Hipérbole.",
+    "softer": "awful place",
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-bad-blood",
+    "type": "idiom",
+    "term": "bad blood",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "rencor entre personas; enemistad",
+    "def": "anger between people because of past events",
+    "ex": [
+      {
+        "en": "There's [bad blood] between them.",
+        "es": "Hay rencor entre ellos."
+      },
+      {
+        "en": "The [bad blood] goes back years.",
+        "es": "La enemistad viene de años."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "idi-burn-bridges",
+    "type": "idiom",
+    "term": "burn bridges",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "quemar las naves; cortar relaciones sin retorno",
+    "def": "to ruin a relationship so you can't return",
+    "ex": [
+      {
+        "en": "Don't [burn bridges] with your boss.",
+        "es": "No quemes tus puentes con tu jefe."
+      },
+      {
+        "en": "He [burned bridges] when he left.",
+        "es": "Quemó sus puentes al irse."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "bojack-horseman",
+      "suits"
+    ]
+  },
+  {
+    "id": "idi-settle-a-score",
+    "type": "idiom",
+    "term": "settle a score",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "ajustar cuentas; cobrarse una venganza",
+    "def": "to get revenge for something in the past",
+    "ex": [
+      {
+        "en": "He wants to [settle a score].",
+        "es": "Quiere ajustar cuentas."
+      },
+      {
+        "en": "They [settled the score].",
+        "es": "Ajustaron cuentas."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-revenge",
+    "type": "vocab",
+    "term": "revenge",
+    "ipa": "/rɪˈvɛndʒ/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "venganza",
+    "def": "harm done to someone because they harmed you",
+    "ex": [
+      {
+        "en": "She seeks [revenge].",
+        "es": "Busca venganza."
+      },
+      {
+        "en": "[Revenge] is never worth it.",
+        "es": "La venganza nunca vale la pena."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-betrayal",
+    "type": "vocab",
+    "term": "betrayal",
+    "ipa": "/bɪˈtreɪəl/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "traición",
+    "def": "breaking someone's trust",
+    "ex": [
+      {
+        "en": "It felt like a [betrayal].",
+        "es": "Se sintió como una traición."
+      },
+      {
+        "en": "He couldn't forgive the [betrayal].",
+        "es": "No pudo perdonar la traición."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-goddamn",
+    "type": "vocab",
+    "term": "goddamn",
+    "ipa": "/ˈɡɑdˌdæm/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "maldito; chingado (intensificador)",
+    "def": "a strong swear word used to express anger",
+    "ex": [
+      {
+        "en": "Where's my [goddamn] phone?",
+        "es": "¿Dónde está mi maldito teléfono?"
+      },
+      {
+        "en": "It's a [goddamn] mess.",
+        "es": "Es un maldito desastre."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "vulgar",
+      "tv"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Dar énfasis a una molestia.",
+    "tone_es": "Fuerte y religioso; puede ofender.",
+    "situations_es": "Casi siempre desahogo.",
+    "softer": "damn",
+    "goal": "understand",
+    "shows": [
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-shithole",
+    "type": "vocab",
+    "term": "shithole",
+    "ipa": "/ˈʃɪthoʊl/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "una pocilga; un lugar de mierda",
+    "def": "a very dirty or terrible place",
+    "ex": [
+      {
+        "en": "This apartment is a [shithole].",
+        "es": "Este departamento es una pocilga."
+      },
+      {
+        "en": "He's stuck in a [shithole] job.",
+        "es": "Está atorado en un trabajo de mierda."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "vulgar",
+      "tv"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Despreciar un lugar.",
+    "tone_es": "Muy fuerte.",
+    "situations_es": "Casi siempre exagerado.",
+    "softer": "terrible place",
+    "goal": "understand",
+    "shows": [
+      "helluva-boss"
+    ]
+  },
+  {
+    "id": "voc-shithead",
+    "type": "vocab",
+    "term": "shithead",
+    "ipa": "/ˈʃɪthɛd/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "pendejo; idiota",
+    "def": "an insulting word for a stupid or mean person",
+    "ex": [
+      {
+        "en": "Don't be a [shithead].",
+        "es": "No seas pendejo."
+      },
+      {
+        "en": "That [shithead] cut me off.",
+        "es": "Ese pendejo me cerró el paso."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "vulgar",
+      "tv"
+    ],
+    "register": "offensive",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Insultar.",
+    "tone_es": "Muy ofensivo.",
+    "situations_es": "En pelea o broma muy confianzuda.",
+    "softer": "jerk",
+    "goal": "understand",
+    "shows": [
+      "helluva-boss"
+    ]
+  },
+  {
+    "id": "col-office-politics",
+    "type": "collocation",
+    "term": "office politics",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "política de oficina; grillas",
+    "def": "power games and competition at work",
+    "ex": [
+      {
+        "en": "I hate [office politics].",
+        "es": "Odio las grillas de la oficina."
+      },
+      {
+        "en": "She avoids [office politics].",
+        "es": "Evita la política de oficina."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "suits",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-dead-end-job",
+    "type": "collocation",
+    "term": "dead-end job",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "trabajo sin futuro",
+    "def": "a job with no chance of promotion",
+    "ex": [
+      {
+        "en": "He feels trapped in a [dead-end job].",
+        "es": "Se siente atrapado en un trabajo sin futuro."
+      },
+      {
+        "en": "She quit her [dead-end job].",
+        "es": "Renunció a su trabajo sin futuro."
+      }
+    ],
+    "areas": [
+      "entrevistas",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "helluva-boss",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-has-been",
+    "type": "vocab",
+    "term": "has-been",
+    "ipa": "/ˈhæz ˌbɪn/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "viejo famoso que ya pasó de moda",
+    "def": "someone who was famous in the past but isn't now",
+    "ex": [
+      {
+        "en": "He's a [has-been] actor.",
+        "es": "Es un actor que ya pasó de moda."
+      },
+      {
+        "en": "Nobody wants a [has-been].",
+        "es": "Nadie quiere a un ex famoso."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Criticar a alguien por haber perdido fama.",
+    "tone_es": "Hiriente.",
+    "situations_es": "Puede ser cruel.",
+    "softer": "former star",
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-washed-up",
+    "type": "vocab",
+    "term": "washed-up",
+    "ipa": "/ˌwɑʃt ˈʌp/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "acabado; sin carrera",
+    "def": "no longer successful or useful",
+    "ex": [
+      {
+        "en": "The singer is [washed-up].",
+        "es": "El cantante está acabado."
+      },
+      {
+        "en": "He felt [washed-up] at forty.",
+        "es": "Se sintió acabado a los cuarenta."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "informal",
+      "tv"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Descartar a alguien que fracasó.",
+    "tone_es": "Duro.",
+    "situations_es": "A veces autocrítica.",
+    "softer": "no longer successful",
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-relapse",
+    "type": "vocab",
+    "term": "relapse",
+    "ipa": "/ˈriˌlæps/",
+    "level": "C1",
+    "topic": "health",
+    "freq": 2,
+    "es": "recaída",
+    "def": "returning to a bad habit or illness after improvement",
+    "note": "Tema sensible. Úsalo con respeto.",
+    "ex": [
+      {
+        "en": "He had a [relapse].",
+        "es": "Tuvo una recaída."
+      },
+      {
+        "en": "A [relapse] doesn't mean failure.",
+        "es": "Una recaída no es un fracaso."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-pitch-a-show",
+    "type": "collocation",
+    "term": "pitch a show",
+    "level": "B2",
+    "topic": "work",
+    "freq": 2,
+    "es": "presentar una idea de serie a productores",
+    "def": "to explain a TV idea to people who could produce it",
+    "ex": [
+      {
+        "en": "She's going to [pitch a show] to the network.",
+        "es": "Va a presentar una idea de serie al canal."
+      },
+      {
+        "en": "He [pitched a show] about robots.",
+        "es": "Presentó una serie sobre robots."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-self-sabotage",
+    "type": "vocab",
+    "term": "self-sabotage",
+    "ipa": "/ˌsɛlfˈsæbətɑʒ/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "autosabotearse",
+    "def": "to ruin your own chances of success",
+    "ex": [
+      {
+        "en": "He tends to [self-sabotage].",
+        "es": "Suele autosabotearse."
+      },
+      {
+        "en": "[Self-sabotage] hurt her career.",
+        "es": "El autosabotaje dañó su carrera."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-spiral",
+    "type": "vocab",
+    "term": "spiral",
+    "ipa": "/ˈspaɪrəl/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "caer en picada; entrar en una espiral",
+    "def": "to get worse quickly, especially emotionally",
+    "ex": [
+      {
+        "en": "He began to [spiral].",
+        "es": "Empezó a caer en picada."
+      },
+      {
+        "en": "She's in a downward [spiral].",
+        "es": "Está en una espiral descendente."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-numb",
+    "type": "vocab",
+    "term": "numb",
+    "ipa": "/nʌm/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "adormecido; sin sentir nada",
+    "def": "unable to feel emotions or sensations",
+    "ex": [
+      {
+        "en": "I felt [numb] after the news.",
+        "es": "Me sentí adormecido tras la noticia."
+      },
+      {
+        "en": "He drank to feel [numb].",
+        "es": "Bebía para no sentir."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-coping-mechanism",
+    "type": "collocation",
+    "term": "coping mechanism",
+    "level": "C1",
+    "topic": "health",
+    "freq": 2,
+    "es": "mecanismo de afrontamiento",
+    "def": "a way of dealing with stress or pain",
+    "ex": [
+      {
+        "en": "Humor is her [coping mechanism].",
+        "es": "El humor es su forma de afrontar el estrés."
+      },
+      {
+        "en": "That's an unhealthy [coping mechanism].",
+        "es": "Es un mecanismo de afrontamiento poco sano."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-sober",
+    "type": "vocab",
+    "term": "sober",
+    "ipa": "/ˈsoʊbər/",
+    "level": "B2",
+    "topic": "health",
+    "freq": 3,
+    "es": "sobrio; sin tomar",
+    "def": "not drunk, or not using alcohol or drugs",
+    "ex": [
+      {
+        "en": "He's been [sober] for a year.",
+        "es": "Lleva un año sobrio."
+      },
+      {
+        "en": "I stay [sober] at work events.",
+        "es": "Me mantengo sobrio en eventos de trabajo."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-rehab",
+    "type": "vocab",
+    "term": "rehab",
+    "ipa": "/ˈriˌhæb/",
+    "level": "B2",
+    "topic": "health",
+    "freq": 2,
+    "es": "centro de rehabilitación",
+    "def": "treatment to recover from addiction",
+    "ex": [
+      {
+        "en": "He checked into [rehab].",
+        "es": "Ingresó a rehabilitación."
+      },
+      {
+        "en": "She completed [rehab].",
+        "es": "Terminó su rehabilitación."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-enabler",
+    "type": "vocab",
+    "term": "enabler",
+    "ipa": "/ɪˈneɪblər/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "persona que permite o fomenta la conducta dañina",
+    "def": "someone who allows another's harmful behavior to continue",
+    "ex": [
+      {
+        "en": "Her friends were [enablers].",
+        "es": "Sus amigos fomentaban su conducta."
+      },
+      {
+        "en": "Don't be an [enabler].",
+        "es": "No seas cómplice de eso."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-toxic",
+    "type": "vocab",
+    "term": "toxic",
+    "ipa": "/ˈtɑksɪk/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "tóxico; dañino",
+    "def": "harmful to your mental health or well-being",
+    "ex": [
+      {
+        "en": "That's a [toxic] friendship.",
+        "es": "Esa es una amistad tóxica."
+      },
+      {
+        "en": "He left a [toxic] workplace.",
+        "es": "Dejó un trabajo tóxico."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-canceled",
+    "type": "vocab",
+    "term": "canceled",
+    "ipa": "/ˈkænsəld/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "cancelado; boicoteado públicamente; (serie) cancelada",
+    "def": "removed from a TV schedule, or publicly rejected after controversy",
+    "ex": [
+      {
+        "en": "The show got [canceled].",
+        "es": "Cancelaron la serie."
+      },
+      {
+        "en": "He was [canceled] online.",
+        "es": "Lo cancelaron en internet."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-greenlight",
+    "type": "vocab",
+    "term": "greenlight",
+    "ipa": "/ˈɡrinˌlaɪt/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "dar luz verde; aprobar",
+    "def": "to officially approve a project",
+    "ex": [
+      {
+        "en": "They [greenlit] the movie.",
+        "es": "Aprobaron la película."
+      },
+      {
+        "en": "We need a [greenlight].",
+        "es": "Necesitamos luz verde."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-pilot",
+    "type": "vocab",
+    "term": "pilot",
+    "ipa": "/ˈpaɪlət/",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "episodio piloto",
+    "def": "the first episode of a TV series",
+    "ex": [
+      {
+        "en": "The [pilot] was funny.",
+        "es": "El piloto estuvo divertido."
+      },
+      {
+        "en": "They shot a [pilot].",
+        "es": "Grabaron un piloto."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-audition",
+    "type": "vocab",
+    "term": "audition",
+    "ipa": "/ɔˈdɪʃən/",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "audición; hacer una audición",
+    "def": "a short performance to try to get a role",
+    "ex": [
+      {
+        "en": "She had an [audition] today.",
+        "es": "Hoy tuvo una audición."
+      },
+      {
+        "en": "He [audition]ed for the part.",
+        "es": "Hizo audición para el papel."
+      }
+    ],
+    "areas": [
+      "series",
+      "entrevistas"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-paparazzi",
+    "type": "vocab",
+    "term": "paparazzi",
+    "ipa": "/ˌpɑpəˈrɑtsi/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "paparazzi; fotógrafos de farándula",
+    "def": "photographers who chase celebrities",
+    "ex": [
+      {
+        "en": "The [paparazzi] followed her.",
+        "es": "Los paparazzi la siguieron."
+      },
+      {
+        "en": "He hates the [paparazzi].",
+        "es": "Odia a los paparazzi."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-tabloid",
+    "type": "vocab",
+    "term": "tabloid",
+    "ipa": "/ˈtæbˌlɔɪd/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "periódico amarillista",
+    "def": "a newspaper focused on celebrity gossip",
+    "ex": [
+      {
+        "en": "The [tabloids] loved the scandal.",
+        "es": "Los diarios amarillistas amaron el escándalo."
+      },
+      {
+        "en": "I read it in a [tabloid].",
+        "es": "Lo leí en un diario amarillista."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-comeback",
+    "type": "vocab",
+    "term": "comeback",
+    "ipa": "/ˈkʌmˌbæk/",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "regreso exitoso",
+    "def": "a return to success after a bad period",
+    "ex": [
+      {
+        "en": "He's planning a [comeback].",
+        "es": "Planea un regreso exitoso."
+      },
+      {
+        "en": "Her [comeback] was a hit.",
+        "es": "Su regreso fue un éxito."
+      }
+    ],
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "idi-one-hit-wonder",
+    "type": "idiom",
+    "term": "one-hit wonder",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "artista de un solo éxito",
+    "def": "an artist known for only one successful song",
+    "ex": [
+      {
+        "en": "He was a [one-hit wonder].",
+        "es": "Fue un artista de un solo éxito."
+      },
+      {
+        "en": "Don't be a [one-hit wonder].",
+        "es": "No seas de un solo éxito."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "idi-fall-off-the-wagon",
+    "type": "idiom",
+    "term": "fall off the wagon",
+    "level": "C1",
+    "topic": "health",
+    "freq": 2,
+    "es": "recaer en un vicio",
+    "def": "to start drinking or using drugs again after stopping",
+    "note": "Tema sensible. Úsalo con respeto.",
+    "ex": [
+      {
+        "en": "He [fell off the wagon].",
+        "es": "Recayó en el vicio."
+      },
+      {
+        "en": "She [fell off the wagon] last week.",
+        "es": "Recayó la semana pasada."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-self-loathing",
+    "type": "vocab",
+    "term": "self-loathing",
+    "ipa": "/ˌsɛlf ˈloʊðɪŋ/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "autodesprecio",
+    "def": "strong hatred of yourself",
+    "ex": [
+      {
+        "en": "He is full of [self-loathing].",
+        "es": "Está lleno de autodesprecio."
+      },
+      {
+        "en": "Her [self-loathing] grew.",
+        "es": "Su autodesprecio creció."
+      }
+    ],
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-imposter-syndrome",
+    "type": "collocation",
+    "term": "imposter syndrome",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "síndrome del impostor",
+    "def": "feeling like you don't deserve your success",
+    "ex": [
+      {
+        "en": "I have [imposter syndrome].",
+        "es": "Tengo síndrome del impostor."
+      },
+      {
+        "en": "Many actors feel [imposter syndrome].",
+        "es": "Muchos actores sienten síndrome del impostor."
+      }
+    ],
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-emotional-baggage",
+    "type": "collocation",
+    "term": "emotional baggage",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "cargas emocionales; traumas del pasado",
+    "def": "unresolved feelings from past experiences",
+    "ex": [
+      {
+        "en": "He carries [emotional baggage].",
+        "es": "Carga con heridas emocionales."
+      },
+      {
+        "en": "Don't bring [emotional baggage].",
+        "es": "No traigas cargas emocionales."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "himym"
+    ]
+  },
+  {
+    "id": "col-rough-patch",
+    "type": "collocation",
+    "term": "rough patch",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "mala racha",
+    "def": "a difficult period",
+    "ex": [
+      {
+        "en": "We're in a [rough patch].",
+        "es": "Estamos en una mala racha."
+      },
+      {
+        "en": "She went through a [rough patch].",
+        "es": "Pasó por una mala racha."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "bojack-horseman",
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-laugh-track",
+    "type": "collocation",
+    "term": "laugh track",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "risas grabadas",
+    "def": "recorded laughter added to a comedy show",
+    "ex": [
+      {
+        "en": "The old sitcom has a [laugh track].",
+        "es": "La sitcom vieja tiene risas grabadas."
+      },
+      {
+        "en": "I find the [laugh track] annoying.",
+        "es": "Me molestan las risas grabadas."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-running-gag",
+    "type": "collocation",
+    "term": "running gag",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "chiste recurrente",
+    "def": "a joke repeated through a show",
+    "ex": [
+      {
+        "en": "It became a [running gag].",
+        "es": "Se volvió un chiste recurrente."
+      },
+      {
+        "en": "The coffee machine is a [running gag].",
+        "es": "La cafetera es un chiste recurrente."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-cliffhanger",
+    "type": "vocab",
+    "term": "cliffhanger",
+    "ipa": "/ˈklɪfˌhæŋər/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "final en suspenso",
+    "def": "an ending that leaves the story unresolved",
+    "ex": [
+      {
+        "en": "The season ended on a [cliffhanger].",
+        "es": "La temporada terminó en suspenso."
+      },
+      {
+        "en": "I hate [cliffhanger]s.",
+        "es": "Odio los finales en suspenso."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-spin-off",
+    "type": "vocab",
+    "term": "spin-off",
+    "ipa": "/ˈspɪnˌɔf/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "serie derivada",
+    "def": "a new show based on a character from another show",
+    "ex": [
+      {
+        "en": "They announced a [spin-off].",
+        "es": "Anunciaron una serie derivada."
+      },
+      {
+        "en": "The [spin-off] was better.",
+        "es": "La serie derivada fue mejor."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "voc-rerun",
+    "type": "vocab",
+    "term": "rerun",
+    "ipa": "/ˈriˌrʌn/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "repetición de un programa",
+    "def": "a repeated broadcast of a TV episode",
+    "ex": [
+      {
+        "en": "I watch [reruns] at night.",
+        "es": "Veo repeticiones por la noche."
+      },
+      {
+        "en": "That's a [rerun].",
+        "es": "Eso es una repetición."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-season-finale",
+    "type": "collocation",
+    "term": "season finale",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "final de temporada",
+    "def": "the last episode of a season",
+    "ex": [
+      {
+        "en": "The [season finale] was intense.",
+        "es": "El final de temporada fue intenso."
+      },
+      {
+        "en": "I can't wait for the [season finale].",
+        "es": "No puedo esperar al final."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-cameo",
+    "type": "vocab",
+    "term": "cameo",
+    "ipa": "/ˈkæmioʊ/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "cameo; aparición breve",
+    "def": "a short appearance by a famous person",
+    "ex": [
+      {
+        "en": "He had a [cameo] in the show.",
+        "es": "Tuvo un cameo en la serie."
+      },
+      {
+        "en": "Her [cameo] was hilarious.",
+        "es": "Su cameo fue divertidísimo."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "col-guest-star",
+    "type": "collocation",
+    "term": "guest star",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "invitado especial (actor)",
+    "def": "a famous actor who appears in one episode",
+    "ex": [
+      {
+        "en": "A famous [guest star] joined the cast.",
+        "es": "Un invitado famoso se unió al elenco."
+      },
+      {
+        "en": "She [guest-starred] on the show.",
+        "es": "Fue invitada especial en la serie."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "voc-catchphrase",
+    "type": "vocab",
+    "term": "catchphrase",
+    "ipa": "/ˈkætʃˌfreɪz/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "frase característica de un personaje",
+    "def": "a phrase a character is known for",
+    "ex": [
+      {
+        "en": "His [catchphrase] became famous.",
+        "es": "Su frase característica se hizo famosa."
+      },
+      {
+        "en": "Every sitcom needs a [catchphrase].",
+        "es": "Toda sitcom necesita una frase característica."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-ensemble-cast",
+    "type": "collocation",
+    "term": "ensemble cast",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "reparto coral",
+    "def": "a cast where no single actor is the only star",
+    "ex": [
+      {
+        "en": "It's an [ensemble cast].",
+        "es": "Es un reparto coral."
+      },
+      {
+        "en": "The [ensemble cast] is great.",
+        "es": "El elenco coral es excelente."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "himym"
+    ]
+  },
+  {
+    "id": "idi-break-the-fourth-wall",
+    "type": "idiom",
+    "term": "break the fourth wall",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "romper la cuarta pared",
+    "def": "when a character speaks to the audience",
+    "ex": [
+      {
+        "en": "The hero [breaks the fourth wall].",
+        "es": "El héroe rompe la cuarta pared."
+      },
+      {
+        "en": "It's funny when they [break the fourth wall].",
+        "es": "Es gracioso cuando rompen la cuarta pared."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "helluva-boss",
+      "hazbin-hotel",
+      "bojack-horseman"
+    ]
+  },
+  {
+    "id": "idi-fish-out-of-water",
+    "type": "idiom",
+    "term": "fish out of water",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "fuera de su elemento; como pez fuera del agua",
+    "def": "someone in an unfamiliar place or situation",
+    "ex": [
+      {
+        "en": "He felt like a [fish out of water].",
+        "es": "Se sentía fuera de su elemento."
+      },
+      {
+        "en": "She's a [fish out of water] in the city.",
+        "es": "Se siente fuera de lugar en la ciudad."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "big-bang-theory"
+    ]
+  },
+  {
+    "id": "idi-will-they-wont-they",
+    "type": "idiom",
+    "term": "will-they-won't-they",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "tensión de si terminarán juntos o no",
+    "def": "a storyline where two characters may or may not become a couple",
+    "ex": [
+      {
+        "en": "It's a classic [will-they-won't-they] story.",
+        "es": "Es una clásica historia de tensión sentimental."
+      },
+      {
+        "en": "I'm tired of the [will-they-won't-they].",
+        "es": "Ya me cansé de ese juego de si terminarán juntos."
+      }
+    ],
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "himym"
+    ]
+  },
+  {
+    "id": "col-comic-relief",
+    "type": "collocation",
+    "term": "comic relief",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "alivio cómico",
+    "def": "a funny part that reduces tension",
+    "ex": [
+      {
+        "en": "He provides the [comic relief].",
+        "es": "Aporta el alivio cómico."
+      },
+      {
+        "en": "The scene was [comic relief].",
+        "es": "La escena fue un alivio cómico."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "helluva-boss",
+      "hazbin-hotel"
+    ]
+  },
+  {
+    "id": "voc-b-plot",
+    "type": "vocab",
+    "term": "B-plot",
+    "ipa": "/ˈbi plɑt/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 1,
+    "es": "trama secundaria",
+    "def": "a secondary story in an episode",
+    "ex": [
+      {
+        "en": "The [B-plot] was funnier.",
+        "es": "La trama secundaria fue más graciosa."
+      },
+      {
+        "en": "I loved the [B-plot].",
+        "es": "Me encantó la trama secundaria."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms"
+    ]
+  },
+  {
+    "id": "col-recurring-character",
+    "type": "collocation",
+    "term": "recurring character",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "personaje recurrente",
+    "def": "a character who appears in many episodes",
+    "ex": [
+      {
+        "en": "She's a [recurring character].",
+        "es": "Es un personaje recurrente."
+      },
+      {
+        "en": "The landlord is a [recurring character].",
+        "es": "El casero es un personaje recurrente."
+      }
+    ],
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "bojack-horseman",
+      "himym"
+    ]
+  },
+  {
+    "id": "voc-sitcom",
+    "type": "vocab",
+    "term": "sitcom",
+    "ipa": "/ˈsɪtˌkɑm/",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "comedia de situación; sitcom",
+    "def": "a funny TV show with the same characters each week",
+    "ex": [
+      {
+        "en": "I grew up watching a [sitcom].",
+        "es": "Crecí viendo una sitcom."
+      },
+      {
+        "en": "The [sitcom] ran for ten years.",
+        "es": "La sitcom duró diez años."
+      }
+    ],
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "intensity": 0,
+    "explicit": false,
+    "goal": "both",
+    "shows": [
+      "sitcoms",
+      "big-bang-theory",
+      "himym"
+    ]
+  }
+]

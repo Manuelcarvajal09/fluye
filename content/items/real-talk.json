@@ -1,0 +1,5989 @@
+[
+  {
+    "id": "phr-get-the-fuck-off-my-back",
+    "type": "phrase",
+    "term": "get the fuck off my back",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "deja de chingarme; ya déjame en paz",
+    "def": "stop pressuring or bothering me all the time",
+    "ex": [
+      {
+        "en": "Just [get the fuck off my back] and let me work!",
+        "es": "¡Ya déjame en paz y deja que trabaje!"
+      },
+      {
+        "en": "I said I'd call him, so [get the fuck off my back].",
+        "es": "Dije que le llamaba, así que ya deja de chingar."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Frenar a alguien que te presiona o te vigila sin parar.",
+    "tone_es": "Muy agresivo. Solo entre amigos o en un arranque de enojo; nunca con jefes, clientes ni desconocidos.",
+    "situations_es": "Un compañero o familiar te insiste una y otra vez con lo mismo. También lo dice alguien harto de que su pareja lo controle.",
+    "softer": "Could you please give me some space?",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-get-off-my-case",
+    "type": "phrase",
+    "term": "get off my case",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "deja de estar encima de mí; ya no me estés molestando",
+    "def": "stop criticizing or checking on me all the time",
+    "ex": [
+      {
+        "en": "Mom, [get off my case], I'll clean my room later.",
+        "es": "Mamá, ya no me estés molestando, luego limpio mi cuarto."
+      },
+      {
+        "en": "He keeps asking about the report. I wish he'd [get off my case].",
+        "es": "Me pregunta todo el tiempo por el reporte. Ojalá me dejara en paz."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Quejarte de que alguien te presiona o te regaña de más.",
+    "tone_es": "Molesto pero común; sirve con familia y amigos. Con un jefe suena grosero.",
+    "situations_es": "Alguien te recuerda una tarea cada cinco minutos; o un padre critica cada decisión de su hijo.",
+    "softer": "Could you give me a little room on this?",
+    "goal": "both"
+  },
+  {
+    "id": "phr-give-me-a-break",
+    "type": "phrase",
+    "term": "give me a break",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 5,
+    "es": "ya párale; no manches; dame chance",
+    "def": "stop being unreasonable, or I can't believe that",
+    "note": "También: «give me a break» = pedir una oportunidad. Se distingue por el contexto.",
+    "ex": [
+      {
+        "en": "Oh, [give me a break], you've said that ten times.",
+        "es": "Ay, ya párale, eso lo has dicho diez veces."
+      },
+      {
+        "en": "He claims he walked ten miles? [Give me a break]!",
+        "es": "¿Dice que caminó dieciséis kilómetros? ¡No manches!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Protestar porque algo es exagerado, falso o ya cansa; o pedir que te den una oportunidad.",
+    "tone_es": "Suena exasperado pero no ofensivo; va bien entre amigos y compañeros.",
+    "situations_es": "Ambigua: puede ser incredulidad («no te creo»), hartazgo («ya basta») o súplica («dame una oportunidad»). El tono y el contexto deciden.",
+    "softer": "Come on, that's a bit much.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-thats-bullshit",
+    "type": "phrase",
+    "term": "that's bullshit",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "eso es puro cuento; qué mamada; eso es mentira",
+    "def": "that is false, unfair or nonsense",
+    "note": "Se oye también como «that's BS» o solo «bullshit!» como exclamación.",
+    "ex": [
+      {
+        "en": "[That's bullshit], I never said that.",
+        "es": "Eso es mentira, yo nunca dije eso."
+      },
+      {
+        "en": "They fired him for being late once? That's [bullshit].",
+        "es": "¿Lo corrieron por llegar tarde una vez? Qué mamada."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Rechazar algo como falso, injusto o hipócrita.",
+    "tone_es": "Fuerte pero muy común entre adultos; evítalo con el jefe o con gente que no conoces.",
+    "situations_es": "Puede usarse contra una mentira («eso es falso») o una injusticia («eso no se vale»). En voz baja y con risa también expresa incredulidad entre amigos.",
+    "softer": "That doesn't sound right to me.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-im-over-it",
+    "type": "phrase",
+    "term": "I'm over it",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "ya lo superé; ya me harté",
+    "def": "I no longer care, or I'm tired of it",
+    "syn": [
+      "I'm done with it"
+    ],
+    "ex": [
+      {
+        "en": "Honestly, [I'm over it]. It happened months ago.",
+        "es": "La verdad, ya lo superé. Pasó hace meses."
+      },
+      {
+        "en": "I'm so [over it]. Every meeting is the same argument.",
+        "es": "Ya me harté. Todas las juntas son la misma discusión."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Decir que algo ya no te afecta, o que te tiene cansado.",
+    "tone_es": "Neutro-informal; con amigos suena franco. Puede sonar frío si se lo dices a alguien que aún sufre.",
+    "situations_es": "Ambigua: puede ser alivio («ya lo superé») o hartazgo («ya no aguanto esto»). A veces es sarcasmo: dice «ya lo superé» y claramente no.",
+    "softer": "I've moved on.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-screw-it",
+    "type": "phrase",
+    "term": "screw it",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "ya qué; al diablo con esto; ni modo",
+    "def": "I give up on caring about it, let's just do it anyway",
+    "ex": [
+      {
+        "en": "[Screw it], let's just order pizza.",
+        "es": "Ya qué, pidamos pizza."
+      },
+      {
+        "en": "I was nervous, but [screw it], I'm doing it.",
+        "es": "Estaba nervioso, pero al diablo, lo voy a hacer."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Dejar de dudar o rendirte; ya no vale la pena darle vueltas.",
+    "tone_es": "Relajado; no es ofensivo. «Screw» es algo vulgar, evítalo en entornos formales.",
+    "situations_es": "Puede ser decisión valiente («lo hago ya») o resignación («ya qué, que pase lo que pase»).",
+    "softer": "Forget it, let's just do it.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-no-way-2",
+    "type": "phrase",
+    "term": "no way",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "no manches; ni de broma; ¡no puede ser!",
+    "def": "used to say that something is impossible or you refuse",
+    "ex": [
+      {
+        "en": "[No way]! You got the job?",
+        "es": "¡No manches! ¿Conseguiste el trabajo?"
+      },
+      {
+        "en": "[No way] am I going out in this storm.",
+        "es": "Ni de broma salgo con esta tormenta."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar sorpresa o rechazar algo con firmeza.",
+    "tone_es": "Neutro y común con cualquiera, salvo en ambientes muy formales.",
+    "situations_es": "Dos usos: sorpresa positiva o negativa («¡no puede ser!») y rechazo («de ninguna manera»).",
+    "softer": "That's hard to believe.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-you-wish",
+    "type": "phrase",
+    "term": "you wish",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "sigue soñando; ni lo sueñes",
+    "def": "used to say what someone wants will never happen",
+    "ex": [
+      {
+        "en": "You think I'll cook for you? [You wish].",
+        "es": "¿Crees que te voy a cocinar? Sigue soñando."
+      },
+      {
+        "en": "\"I bet I'll beat you.\" \"[You wish]!\"",
+        "es": "—Seguro te gano. —¡Sigue soñando!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Burlarte de alguien que espera algo imposible; es parte del juego entre amigos.",
+    "tone_es": "Burla cariñosa entre amigos y parejas; con alguien que no conoces suena arrogante.",
+    "situations_es": "En pareja o amigos es juego de bromas; en un ligue puede ser rechazo jocoso. Con tono frío es desdén real.",
+    "softer": "In your dreams, buddy.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-piss-off",
+    "type": "phrase",
+    "term": "piss off!",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "¡lárgate!; ¡vete al diablo!",
+    "def": "go away, said angrily",
+    "note": "No confundir con el phrasal «piss off» = hacer enojar a alguien (ya existe en la app).",
+    "ex": [
+      {
+        "en": "Just [piss off] and leave me alone!",
+        "es": "¡Lárgate y déjame en paz!"
+      },
+      {
+        "en": "He told the reporter to [piss off].",
+        "es": "Le dijo al reportero que se largara."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Mandar a alguien lejos con enojo.",
+    "tone_es": "Agresivo; más común en inglés británico y canadiense. Solo con confianza o en una pelea; nunca en el trabajo.",
+    "situations_es": "Gritado es insulto serio; dicho en broma entre amigos puede ser burla con cariño, pero es arriesgado.",
+    "softer": "Please leave me alone.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-pissed",
+    "type": "phrase",
+    "term": "pissed",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "bien enojado; encabronado (EE. UU./Canadá)",
+    "def": "very angry (US/Canada)",
+    "note": "EE. UU./CA: enojado. Reino Unido/Irlanda: borracho.",
+    "ex": [
+      {
+        "en": "I'm so [pissed] right now. They canceled my flight.",
+        "es": "Estoy bien encabronado. Me cancelaron el vuelo."
+      },
+      {
+        "en": "She was [pissed] about the noise all night.",
+        "es": "Estaba hecha una furia por el ruido toda la noche."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Decir que estás muy enojado, sin llegar a gritar.",
+    "tone_es": "Común y poco ofensivo en EE. UU. y Canadá, pero informal y algo grosero. En Reino Unido significa otra cosa.",
+    "situations_es": "En EE. UU./Canadá «pissed» = furioso. En Reino Unido, Irlanda y Australia «pissed» = borracho. Si hay duda, el contexto aclara.",
+    "softer": "really angry",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-pissed-uk-drunk",
+    "type": "phrase",
+    "term": "pissed (UK: drunk)",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "borracho; pedo (Reino Unido, Irlanda, Australia)",
+    "def": "very drunk (British and Irish English)",
+    "syn": [
+      "wasted"
+    ],
+    "ex": [
+      {
+        "en": "He was completely [pissed] by ten o'clock.",
+        "es": "Estaba totalmente borracho a las diez."
+      },
+      {
+        "en": "We got [pissed] at the wedding and sang all night.",
+        "es": "Nos pusimos pedos en la boda y cantamos toda la noche."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "uk",
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Contar que alguien se emborrachó, muchas veces en tono divertido.",
+    "tone_es": "Informal británico; entre amigos es normal. Con un estadounidense puede confundirse con «enojado».",
+    "situations_es": "Si escuchas «he was pissed» en una serie británica, probablemente significa «estaba ebrio». En una americana, «enojado». Mira el acento y el contexto.",
+    "softer": "very drunk",
+    "goal": "understand",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-high-key",
+    "type": "phrase",
+    "term": "high-key",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "la neta; bien en serio; sin pena",
+    "def": "openly or very much, the opposite of low-key",
+    "ex": [
+      {
+        "en": "I'm [high-key] obsessed with this show.",
+        "es": "La neta estoy bien obsesionada con esta serie."
+      },
+      {
+        "en": "She [high-key] hated the party but stayed.",
+        "es": "En serio odiaba la fiesta pero se quedó."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Aclarar que algo lo dices abiertamente y con fuerza.",
+    "tone_es": "Lenguaje joven de redes y mensajes; en trabajo suena muy casual.",
+    "situations_es": "Lo contrario de «low-key» (discretamente). En ocasiones se usa solo como intensificador.",
+    "softer": "really, openly",
+    "goal": "both"
+  },
+  {
+    "id": "phr-salty",
+    "type": "phrase",
+    "term": "salty",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "resentido; picado; amargado",
+    "def": "bitter or annoyed, often over a small thing",
+    "ex": [
+      {
+        "en": "He's still [salty] about losing the game.",
+        "es": "Sigue picado por haber perdido el juego."
+      },
+      {
+        "en": "Don't be [salty] just because she won.",
+        "es": "No te amargues solo porque ella ganó."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Señalar que alguien está molesto o resentido por algo menor, a veces para burlarte.",
+    "tone_es": "Burla ligera entre amigos o en videojuegos; puede enojar a quien se siente juzgado.",
+    "situations_es": "Puede ser cariñoso («qué sensible») o desdeñoso. No describe enojo grande: es un berrinche chiquito.",
+    "softer": "upset, bitter",
+    "goal": "both"
+  },
+  {
+    "id": "phr-ghost",
+    "type": "phrase",
+    "term": "ghost",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "desaparecer sin explicar; dejar en visto para siempre",
+    "def": "to stop replying and cut contact without a word",
+    "ex": [
+      {
+        "en": "She [ghosted] me after our second date.",
+        "es": "Desapareció después de la segunda cita."
+      },
+      {
+        "en": "Don't [ghost] your tutor, just say you're busy.",
+        "es": "No desaparezcas con tu tutor, di que estás ocupado."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir que alguien cortó la comunicación sin dar explicaciones.",
+    "tone_es": "Ligeramente crítico; es normal entre jóvenes. Quien lo hace suele ser visto como inmaduro.",
+    "situations_es": "Sirve para citas, amistades y hasta trabajo (un candidato que nunca responde). El sustantivo es «ghosting».",
+    "softer": "to stop replying",
+    "goal": "both"
+  },
+  {
+    "id": "phr-simp",
+    "type": "phrase",
+    "term": "simp",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "mandilón; baboso por alguien (despectivo)",
+    "def": "a person who does too much for someone who doesn't care, mocked",
+    "ex": [
+      {
+        "en": "Stop being a [simp] and text someone else.",
+        "es": "Deja de ser mandilón y escríbele a otra persona."
+      },
+      {
+        "en": "He buys her lunch every day. What a [simp].",
+        "es": "Le compra la comida diario. Qué mandilón."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 2,
+    "explicit": false,
+    "intent_es": "Burlarte de alguien que se desvive por una persona que no le corresponde.",
+    "tone_es": "Burla; puede ser humillante. Entre amigos de confianza es broma; hacia otros es ofensivo.",
+    "situations_es": "Algo ambiguo: se usa con ironía o con desprecio. A veces alguien se llama a sí mismo «simp» en broma.",
+    "softer": "to be very devoted",
+    "goal": "understand",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-rizz",
+    "type": "phrase",
+    "term": "rizz",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "labia para ligar; carisma",
+    "def": "charm and skill in flirting",
+    "ex": [
+      {
+        "en": "Wow, he's got serious [rizz].",
+        "es": "Guau, tiene mucha labia para ligar."
+      },
+      {
+        "en": "I have no [rizz] when I'm nervous.",
+        "es": "No tengo ni una gota de carisma cuando estoy nervioso."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Elogiar o burlarte del encanto de alguien para ligar.",
+    "tone_es": "Lenguaje muy de Gen Z; ligero y de broma. Fuera de ese círculo suena forzado.",
+    "situations_es": "Positivo: tener «rizz» es ser seductor. En broma, «no rizz» es ser torpe en el coqueteo.",
+    "softer": "charm",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-touch-grass",
+    "type": "phrase",
+    "term": "touch grass",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "sal a la calle; baja de tu nube",
+    "def": "go outside; stop being too obsessed with the internet",
+    "ex": [
+      {
+        "en": "You've been arguing online all day. Go [touch grass].",
+        "es": "Llevas todo el día peleando en internet. Sal a la calle."
+      },
+      {
+        "en": "Maybe he needs to [touch grass] for a bit.",
+        "es": "A lo mejor necesita salir un rato del internet."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Decir en broma que alguien está demasiado absorbido por lo online.",
+    "tone_es": "Burla; a muchos les molesta. Úsalo solo con confianza.",
+    "situations_es": "Puede ser un consejo honesto o un insulto leve («estás obsesionado y fuera de la realidad»).",
+    "softer": "Maybe take a break from the internet.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-cut-the-crap",
+    "type": "phrase",
+    "term": "cut the crap",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "déjate de payasadas; ya dime la verdad",
+    "def": "stop lying or wasting time, be honest",
+    "ex": [
+      {
+        "en": "[Cut the crap] and tell me what happened.",
+        "es": "Déjate de payasadas y dime qué pasó."
+      },
+      {
+        "en": "Come on, [cut the crap], you know you did it.",
+        "es": "Ya, déjate de cuentos, tú sabes que lo hiciste."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Exigir que alguien deje de evadir o engañar.",
+    "tone_es": "Impaciente y firme; con amigos o familia está bien, con jefe o cliente es descortés.",
+    "situations_es": "Se dice al descubrir una mentira o al querer ir al grano.",
+    "softer": "Let's be straight with each other.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-kiss-ass",
+    "type": "phrase",
+    "term": "kiss-ass",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 2,
+    "es": "lambiscón; lamehuevos",
+    "def": "a person who flatters someone in power to get ahead",
+    "syn": [
+      "suck up to"
+    ],
+    "ex": [
+      {
+        "en": "Everyone knows Dave is a [kiss-ass].",
+        "es": "Todos saben que Dave es un lambiscón."
+      },
+      {
+        "en": "Don't be such a [kiss-ass], just do your job.",
+        "es": "No seas tan lambiscón, solo haz tu trabajo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Criticar a alguien por adular a los superiores.",
+    "tone_es": "Insulto de oficina; si lo oye la persona se pone agresivo. Mejor solo entre amigos.",
+    "situations_es": "Puede ser rencor por envidia o crítica legítima de oportunismo.",
+    "softer": "brown-noser, someone who flatters the boss",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-what-the-hell",
+    "type": "phrase",
+    "term": "what the hell",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 5,
+    "es": "¿qué diablos?; ¿qué onda?; ¿qué te pasa?",
+    "def": "used to show surprise, anger or confusion",
+    "ex": [
+      {
+        "en": "[What the hell] is that smell?",
+        "es": "¿Qué diablos es ese olor?"
+      },
+      {
+        "en": "[What the hell] were you thinking?",
+        "es": "¿Qué diablos estabas pensando?"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Expresar sorpresa, enojo o confusión de inmediato.",
+    "tone_es": "Suave comparado con «what the fuck», pero aún es informal. Con jefes o ancianos mejor evitarlo.",
+    "situations_es": "Puede ser sorpresa (¡qué raro!), enojo (¡qué te pasa!) o resignación («what the hell, let's go»).",
+    "softer": "What on earth…?",
+    "goal": "both"
+  },
+  {
+    "id": "phr-damn-right",
+    "type": "phrase",
+    "term": "damn right",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "claro que sí; ¡y tanto!; ¡exacto!",
+    "def": "used to agree strongly",
+    "ex": [
+      {
+        "en": "\"Did you earn that?\" \"[Damn right] I did.\"",
+        "es": "—¿Te lo ganaste? —Claro que sí."
+      },
+      {
+        "en": "You're [damn right] we're going to win.",
+        "es": "Tienes toda la razón, vamos a ganar."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Confirmar con fuerza y orgullo.",
+    "tone_es": "Seguro de sí mismo; informal. Muy común en películas y deportes.",
+    "situations_es": "Respuesta afirmativa enérgica. En otro contexto puede sonar desafiante.",
+    "softer": "Absolutely.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-dumbass",
+    "type": "phrase",
+    "term": "dumbass",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "pendejo; imbécil",
+    "def": "a stupid person, used as an insult",
+    "ex": [
+      {
+        "en": "That was a [dumbass] idea.",
+        "es": "Esa fue una idea pendeja."
+      },
+      {
+        "en": "Don't be a [dumbass], check the oven first.",
+        "es": "No seas pendejo, revisa primero el horno."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Insultar a alguien por hacer algo tonto.",
+    "tone_es": "Ofende. Entre amigos puede ser cariñoso (como «pendejo»), pero con otros es insulto directo.",
+    "situations_es": "En broma entre amigos es burla suave; con extraños o en pelea es insulto serio.",
+    "softer": "silly, foolish",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-jerk",
+    "type": "phrase",
+    "term": "jerk",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "patán; gandalla; mala onda",
+    "def": "a rude or selfish person",
+    "ex": [
+      {
+        "en": "Don't be such a [jerk], say sorry.",
+        "es": "No seas tan gandalla, pide perdón."
+      },
+      {
+        "en": "He's a [jerk] to everyone at work.",
+        "es": "Es un patán con todos en el trabajo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Criticar a alguien por ser grosero o egoísta.",
+    "tone_es": "Insulto leve y muy común; entre amigos puede ser broma. Con alguien que no conoces sigue siendo duro.",
+    "situations_es": "Puede describir a alguien malo (un patán) o ser una queja de momento («te portaste como un patán»).",
+    "softer": "rude person",
+    "goal": "both"
+  },
+  {
+    "id": "phr-youre-killing-me",
+    "type": "phrase",
+    "term": "you're killing me",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "me estás matando (de risa o de desesperación)",
+    "def": "used when someone makes you laugh a lot or frustrates you",
+    "ex": [
+      {
+        "en": "Stop it, you're [killing me]! That's so funny.",
+        "es": "¡Ya basta, me estás matando de risa!"
+      },
+      {
+        "en": "You're [killing me], we've been waiting an hour.",
+        "es": "Me estás desesperando, llevamos una hora esperando."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Reaccionar de forma exagerada a algo muy gracioso o frustrante.",
+    "tone_es": "Cercano y expresivo; se entiende por el tono.",
+    "situations_es": "Muy ambigua: puede significar risa o exasperación. Mira el tono y la cara.",
+    "softer": "You're making me laugh so much / This is so frustrating.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-smooth-talker",
+    "type": "phrase",
+    "term": "smooth talker",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "labioso; quien habla bonito para convencer",
+    "def": "someone who speaks charmingly to persuade or flirt",
+    "ex": [
+      {
+        "en": "Watch out, he's a [smooth talker].",
+        "es": "Cuidado, es muy labioso."
+      },
+      {
+        "en": "She's a [smooth talker] and sold me the car.",
+        "es": "Habla muy bonito y me vendió el coche."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Describir a alguien con labia, con admiración o desconfianza.",
+    "tone_es": "Puede ser halago o advertencia según el tono.",
+    "situations_es": "Ambigua: halago (carismático) o crítica (embaucador).",
+    "softer": "someone who speaks charmingly",
+    "goal": "both"
+  },
+  {
+    "id": "phr-real-smooth",
+    "type": "phrase",
+    "term": "real smooth",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "qué fino (irónico); qué torpe",
+    "def": "sarcastic way to say someone did something clumsy",
+    "ex": [
+      {
+        "en": "You spilled coffee on her? [Real smooth].",
+        "es": "¿Le tiraste café encima? Qué finura."
+      },
+      {
+        "en": "Oh, [real smooth], now everyone saw it.",
+        "es": "Ah, qué fino, ahora todos lo vieron."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Burlarte de un error o torpeza.",
+    "tone_es": "Sarcástico, de amigos o compañeros; puede dar vergüenza.",
+    "situations_es": "Casi siempre sarcasmo. Con tono sincero y en otro contexto podría ser halago, pero es raro.",
+    "softer": "That didn't go well.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-are-you-hitting-on-me",
+    "type": "phrase",
+    "term": "are you hitting on me?",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "¿me estás tirando la onda?; ¿me estás coqueteando?",
+    "def": "asking if someone is flirting with you",
+    "ex": [
+      {
+        "en": "Wait, [are you hitting on me]?",
+        "es": "Espera, ¿me estás tirando la onda?"
+      },
+      {
+        "en": "Is he nice or [is he hitting on] me?",
+        "es": "¿Es amable o me está tirando la onda?"
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Confirmar o poner a prueba si alguien coquetea contigo.",
+    "tone_es": "Directo; puede ser juguetón o incómodo. Si es incómodo dicho en serio, equivale a poner un límite.",
+    "situations_es": "Muy ambigua: puede ser tímida curiosidad, coqueteo de vuelta o rechazo. Importa la sonrisa y el contexto.",
+    "softer": "Are you interested in me?",
+    "goal": "both"
+  },
+  {
+    "id": "phr-thats-what-she-said",
+    "type": "phrase",
+    "term": "that's what she said",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "eso dijo ella (broma de doble sentido)",
+    "def": "a joke formula that turns a sentence into a sexual innuendo",
+    "ex": [
+      {
+        "en": "\"It's too big.\" \"[That's what she said]!\"",
+        "es": "—Es demasiado grande. —¡Eso dijo ella!"
+      },
+      {
+        "en": "He couldn't resist saying [that's what she said].",
+        "es": "No pudo resistir soltar el «eso dijo ella»."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "innuendo",
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": false,
+    "intent_es": "Convertir una frase inocente en un chiste sexual.",
+    "tone_es": "Humor de doble sentido; bien entre amigos adultos, mal en trabajo o con desconocidos. Muchos lo consideran de mal gusto.",
+    "situations_es": "El chiste depende del doble sentido de la frase previa; si no hay ambigüedad, no funciona.",
+    "softer": "(sin alternativa; mejor evitar)",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-get-a-room",
+    "type": "phrase",
+    "term": "get a room",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "búsquense un cuarto",
+    "def": "tell a couple to stop showing affection in public",
+    "ex": [
+      {
+        "en": "Ugh, you two, [get a room]!",
+        "es": "¡Uf, ustedes dos, búsquense un cuarto!"
+      },
+      {
+        "en": "They were kissing at lunch. Someone said, [get a room].",
+        "es": "Se estaban besando en la comida. Alguien dijo: búsquense un cuarto."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Bromear con una pareja demasiado cariñosa.",
+    "tone_es": "Bromista entre amigos; puede ser grosero con desconocidos.",
+    "situations_es": "Normalmente es chiste; si se dice con asco, es crítica real.",
+    "softer": "Maybe save that for later!",
+    "goal": "both"
+  },
+  {
+    "id": "phr-beauty",
+    "type": "phrase",
+    "term": "beauty",
+    "level": "B2",
+    "topic": "canada",
+    "freq": 3,
+    "es": "¡qué chido!; excelente (Canadá)",
+    "def": "Canadian slang for great or awesome",
+    "ex": [
+      {
+        "en": "You got tickets? [Beauty]!",
+        "es": "¿Conseguiste boletos? ¡Qué chido!"
+      },
+      {
+        "en": "That goal was a [beauty].",
+        "es": "Ese gol estuvo buenísimo."
+      }
+    ],
+    "areas": [
+      "canada",
+      "conversacion"
+    ],
+    "tags": [
+      "ca",
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar entusiasmo o aprobación.",
+    "tone_es": "Amistoso y masculino/informal, muy canadiense. Raro en inglés estadounidense.",
+    "situations_es": "Puede ser exclamación («¡excelente!») o sustantivo («a beauty» = algo muy bueno).",
+    "softer": "great",
+    "goal": "both"
+  },
+  {
+    "id": "phr-hoser",
+    "type": "phrase",
+    "term": "hoser",
+    "level": "B2",
+    "topic": "canada",
+    "freq": 2,
+    "es": "tonto; torpe (burla canadiense)",
+    "def": "Canadian: a clumsy or foolish person, a bit stereotypical",
+    "ex": [
+      {
+        "en": "He's a total [hoser] sometimes, but he's a good guy.",
+        "es": "A veces es un tonto, pero es buena persona."
+      },
+      {
+        "en": "Don't be a [hoser], hold the door.",
+        "es": "No seas cabezón, detén la puerta."
+      }
+    ],
+    "areas": [
+      "canada",
+      "conversacion"
+    ],
+    "tags": [
+      "ca",
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Burlarte cariñosamente de alguien torpe o ingenuo.",
+    "tone_es": "Anticuado y bromista. Algunos canadienses lo usan con ironía como estereotipo. Evita usarlo si no conoces a la persona.",
+    "situations_es": "Ambigua: insulto suave o broma con cariño. Es más viejo y menos común hoy.",
+    "softer": "a bit silly",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-fuck-you",
+    "type": "phrase",
+    "term": "fuck you",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "chinga tu madre; vete a la chingada",
+    "def": "an extremely rude way to reject or insult someone",
+    "ex": [
+      {
+        "en": "He yelled, \"[Fuck you]!\" and slammed the door.",
+        "es": "Gritó «chinga tu madre» y azotó la puerta."
+      },
+      {
+        "en": "She texted [fuck you] and blocked him.",
+        "es": "Le escribió «vete a la chingada» y lo bloqueó."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Insultar o rechazar con máxima agresividad.",
+    "tone_es": "Fortísimo. Rompe relaciones y puede escalar a pelea; en el trabajo puede costar el empleo.",
+    "situations_es": "En broma entre amigos muy cercanos puede ser un «jajaja chinga tu madre» ligero, pero con riesgo. Entender, no usar.",
+    "softer": "I really disagree with you.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-fuck-off",
+    "type": "phrase",
+    "term": "fuck off",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "vete a la chingada; lárgate",
+    "def": "go away, very rude",
+    "ex": [
+      {
+        "en": "I told him to [fuck off] and walked out.",
+        "es": "Le dije que se fuera a la chingada y me salí."
+      },
+      {
+        "en": "\"Why don't you [fuck off]?\" she snapped.",
+        "es": "—¿Por qué no te largas? —soltó ella."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Mandar a alguien lejos con rabia.",
+    "tone_es": "Muy agresivo; no usarlo en el trabajo.",
+    "situations_es": "Insulto directo. Entre amigos cercanos puede ser broma muy confianzuda, pero si hay duda mejor no.",
+    "softer": "Please leave me alone.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-fuck-it",
+    "type": "phrase",
+    "term": "fuck it",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "me vale madres; ya qué; me da igual",
+    "def": "I don't care anymore, let's just do it or let it go",
+    "ex": [
+      {
+        "en": "[Fuck it], let's go to the beach anyway.",
+        "es": "Ya qué, vámonos a la playa de todos modos."
+      },
+      {
+        "en": "I'm tired, so [fuck it], I'm skipping the gym.",
+        "es": "Estoy cansado, así que me vale madres, no voy al gimnasio."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Soltar la preocupación y tomar una decisión impulsiva.",
+    "tone_es": "Fuerte pero de desahogo; no ofende a nadie en concreto. Aun así es soez.",
+    "situations_es": "Puede ser liberación («me animo») o rendición («me da igual»). Más fuerte que «screw it».",
+    "softer": "Screw it",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-what-the-fuck",
+    "type": "phrase",
+    "term": "what the fuck",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 5,
+    "es": "¿qué chingados?; ¿qué pedo?; ¿pero qué…?",
+    "def": "very strong way to express shock, anger or confusion",
+    "ex": [
+      {
+        "en": "[What the fuck] was that noise?",
+        "es": "¿Qué chingados fue ese ruido?"
+      },
+      {
+        "en": "[What the fuck] is wrong with you?",
+        "es": "¿Qué chingados te pasa?"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Exclamar con sorpresa o rabia extrema.",
+    "tone_es": "Muy fuerte, pero común entre adultos. Evitar con jefes, clientes o gente mayor. «WTF» es la versión escrita, más ligera.",
+    "situations_es": "Dos tonos: sorpresa («¡no puede ser!») o hostilidad («¿qué te pasa?»). A veces es solo desahogo.",
+    "softer": "What on earth?",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-wtf",
+    "type": "phrase",
+    "term": "WTF",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¿qué pedo?; ¿qué onda?; ¿pero qué…?",
+    "def": "abbreviation of what the fuck, used in texts",
+    "ex": [
+      {
+        "en": "[WTF]? I just paid for that!",
+        "es": "¿Qué pedo? ¡Acabo de pagar eso!"
+      },
+      {
+        "en": "He texted me [WTF] after the meeting.",
+        "es": "Me escribió «¿qué onda?» después de la junta."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Reaccionar con sorpresa o molestia por mensaje.",
+    "tone_es": "Más ligero que la frase completa, pero sigue siendo informal. Evita en correo de trabajo.",
+    "situations_es": "Puede ser sorpresa divertida o enojo, según emojis y contexto.",
+    "softer": "What?!",
+    "goal": "both"
+  },
+  {
+    "id": "phr-holy-shit",
+    "type": "phrase",
+    "term": "holy shit",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "¡no manches!; ¡no inventes!; ¡madre mía!",
+    "def": "very strong surprise",
+    "ex": [
+      {
+        "en": "[Holy shit], that car almost hit us!",
+        "es": "¡No manches, ese coche casi nos pega!"
+      },
+      {
+        "en": "[Holy shit], you won the lottery?",
+        "es": "¡No inventes! ¿Ganaste la lotería?"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Mostrar un asombro extremo, bueno o malo.",
+    "tone_es": "Informal fuerte; está bien entre amigos o en una situación límite.",
+    "situations_es": "Sirve para sorpresa positiva o susto. El tono dice cuál.",
+    "softer": "Wow!",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-oh-shit",
+    "type": "phrase",
+    "term": "oh shit",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "¡ay, caray!; ¡la chin…!; ¡híjole!",
+    "def": "reaction to a sudden problem or realization",
+    "ex": [
+      {
+        "en": "[Oh shit], I forgot my keys inside.",
+        "es": "Híjole, dejé las llaves adentro."
+      },
+      {
+        "en": "[Oh shit], the meeting started ten minutes ago.",
+        "es": "Ay, caray, la junta empezó hace diez minutos."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Reaccionar al darte cuenta de un problema.",
+    "tone_es": "Suave frente a otras groserías, pero aún es vulgar. Con amigos suena normal.",
+    "situations_es": "Puede ser pánico, sorpresa o ironía.",
+    "softer": "Oh no.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-shit-happens",
+    "type": "phrase",
+    "term": "shit happens",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "así es la vida; cosas que pasan",
+    "def": "bad things happen and you can't avoid them",
+    "ex": [
+      {
+        "en": "You missed the bus? [Shit happens].",
+        "es": "¿Perdiste el camión? Así es la vida."
+      },
+      {
+        "en": "It's unfortunate, but [shit happens].",
+        "es": "Es una lástima, pero cosas que pasan."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Consolar o resignarte ante un contratiempo.",
+    "tone_es": "Resignado, a veces frío. En un duelo o tragedia suena insensible.",
+    "situations_es": "Puede ser consuelo («no te claves») o desdén («y qué quieres que haga»).",
+    "softer": "These things happen.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-screw-you",
+    "type": "phrase",
+    "term": "screw you",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "vete a la fregada; que te lleve la chingada",
+    "def": "rude way to reject someone",
+    "ex": [
+      {
+        "en": "[Screw you], I'm done helping.",
+        "es": "Vete a la fregada, ya no te ayudo más."
+      },
+      {
+        "en": "He said [screw you] and quit the team.",
+        "es": "Dijo «vete a la fregada» y dejó el equipo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": false,
+    "intent_es": "Rechazar con enojo.",
+    "tone_es": "Fuerte pero menos que «fuck you». Evitar con jefes.",
+    "situations_es": "En pelea es insulto; entre amigos puede ser broma si hay confianza.",
+    "softer": "I disagree, and I'm upset.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-go-to-hell",
+    "type": "phrase",
+    "term": "go to hell",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "vete al diablo; vete a la chingada",
+    "def": "an angry way to tell someone to go away",
+    "ex": [
+      {
+        "en": "[Go to hell]! I never want to see you again.",
+        "es": "¡Vete al diablo! No quiero verte nunca más."
+      },
+      {
+        "en": "She told him to [go to hell].",
+        "es": "Le dijo que se fuera al diablo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Cortar con una persona de forma dramática.",
+    "tone_es": "Dramático y agresivo; en el trabajo es inaceptable.",
+    "situations_es": "Puede ser ruptura definitiva o desahogo teatral.",
+    "softer": "I don't want to talk to you.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-shut-the-hell-up",
+    "type": "phrase",
+    "term": "shut the hell up",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "cállate ya, carajo; cállate de una vez",
+    "def": "very rude way to tell someone to be quiet",
+    "ex": [
+      {
+        "en": "Will you [shut the hell up] for one minute?",
+        "es": "¿Te callas de una vez, carajo?"
+      },
+      {
+        "en": "He told the crowd to [shut the hell up].",
+        "es": "Le dijo a la gente que se callara ya."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Exigir silencio con enojo.",
+    "tone_es": "Muy grosero; solo en una discusión acalorada.",
+    "situations_es": "Casi siempre hostil. En broma entre amigos puede aparecer, pero es raro.",
+    "softer": "Please be quiet.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-are-you-serious-right-now",
+    "type": "phrase",
+    "term": "are you serious right now?",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "¿es en serio?; ¿me estás hablando en serio?",
+    "def": "expressing disbelief or anger at what someone just said",
+    "ex": [
+      {
+        "en": "[Are you serious right now?] You forgot again?",
+        "es": "¿Es en serio? ¿Otra vez se te olvidó?"
+      },
+      {
+        "en": "I can't believe it. [Are you serious right now]?",
+        "es": "No lo puedo creer. ¿Hablas en serio?"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Expresar incredulidad o molestia.",
+    "tone_es": "Directo; suena molesto pero no grosero.",
+    "situations_es": "Puede ser incredulidad divertida o enojo real.",
+    "softer": "Is that really true?",
+    "goal": "both"
+  },
+  {
+    "id": "phr-whats-your-problem",
+    "type": "phrase",
+    "term": "what's your problem?",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "¿cuál es tu problema?; ¿qué te pasa?",
+    "def": "asking angrily why someone is being rude or hostile",
+    "ex": [
+      {
+        "en": "[What's your problem?] I didn't do anything.",
+        "es": "¿Cuál es tu problema? No hice nada."
+      },
+      {
+        "en": "[What's your problem], man?",
+        "es": "¿Qué te pasa, güey?"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Confrontar a alguien por su actitud.",
+    "tone_es": "Reta; puede escalar una discusión.",
+    "situations_es": "Si es tono tranquilo, puede ser preocupación; si es tono duro, agresión.",
+    "softer": "Is something wrong?",
+    "goal": "both"
+  },
+  {
+    "id": "phr-get-over-yourself",
+    "type": "phrase",
+    "term": "get over yourself",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "bájale; no te creas tanto",
+    "def": "stop acting as if you're so important",
+    "ex": [
+      {
+        "en": "Oh, [get over yourself], nobody is staring at you.",
+        "es": "Ay, no te creas tanto, nadie te está viendo."
+      },
+      {
+        "en": "You need to [get over yourself] and say sorry.",
+        "es": "Necesitas bajarle a tu orgullo y pedir perdón."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 2,
+    "explicit": false,
+    "intent_es": "Decirle a alguien que se baje del pedestal.",
+    "tone_es": "Duro y burlón; con amigos cercanos puede ser cariñoso; con otros es ofensivo.",
+    "situations_es": "Puede ser crítica a la arrogancia o a un exceso de drama.",
+    "softer": "Come back to earth.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-full-of-yourself",
+    "type": "phrase",
+    "term": "full of yourself",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "muy creído; se la cree",
+    "def": "too proud of yourself",
+    "ex": [
+      {
+        "en": "He's so [full of himself] since the promotion.",
+        "es": "Está muy creído desde el ascenso."
+      },
+      {
+        "en": "Don't be [full of yourself], you got lucky.",
+        "es": "No te la creas tanto, tuviste suerte."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Criticar la arrogancia de alguien.",
+    "tone_es": "Crítica; entre amigos puede ser chiste.",
+    "situations_es": "Puede ser percepción exagerada de una persona segura.",
+    "softer": "very confident / arrogant",
+    "goal": "both"
+  },
+  {
+    "id": "phr-drama-queen",
+    "type": "phrase",
+    "term": "drama queen",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "dramático/a; exagerado/a",
+    "def": "someone who overreacts to small problems",
+    "ex": [
+      {
+        "en": "Don't be such a [drama queen], it's just a scratch.",
+        "es": "No seas tan dramático, es solo un rasguño."
+      },
+      {
+        "en": "My sister is a [drama queen] about everything.",
+        "es": "Mi hermana es una dramática con todo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Criticar la exageración de alguien.",
+    "tone_es": "Se usa con hombres y mujeres; suena de burla. Evitar en espacios formales.",
+    "situations_es": "Puede ser crítica a un exceso real o forma de callar emociones válidas.",
+    "softer": "someone who overreacts",
+    "goal": "both"
+  },
+  {
+    "id": "phr-knock-it-off",
+    "type": "phrase",
+    "term": "knock it off",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "ya párale; ya basta; ya déjalo",
+    "def": "stop doing something annoying",
+    "ex": [
+      {
+        "en": "Hey, [knock it off], you're scaring the dog.",
+        "es": "Oye, ya párale, estás asustando al perro."
+      },
+      {
+        "en": "The kids kept shouting until she said, [knock it off].",
+        "es": "Los niños seguían gritando hasta que ella dijo: ya basta."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Pedir que alguien pare algo molesto.",
+    "tone_es": "Firme pero no grosero; típico de padres y compañeros.",
+    "situations_es": "Puede ser regaño suave o advertencia seria según el tono.",
+    "softer": "Please stop.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-none-of-your-business",
+    "type": "phrase",
+    "term": "none of your business",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "no es asunto tuyo; no te metas",
+    "def": "that is private, don't ask",
+    "ex": [
+      {
+        "en": "Who I date is [none of your business].",
+        "es": "Con quién salgo no es asunto tuyo."
+      },
+      {
+        "en": "It's [none of your business], okay?",
+        "es": "No es asunto tuyo, ¿ok?"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Poner un límite a la curiosidad ajena.",
+    "tone_es": "Cortante; muy claro. Con un jefe puede sonar descortés.",
+    "situations_es": "Es un límite legítimo o una reacción defensiva.",
+    "softer": "I'd rather not talk about it.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-buzz-off",
+    "type": "phrase",
+    "term": "buzz off",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "lárgate; piérdete",
+    "def": "go away, informal and mild",
+    "ex": [
+      {
+        "en": "Just [buzz off], I'm busy.",
+        "es": "Lárgate, estoy ocupado."
+      },
+      {
+        "en": "She told the salesman to [buzz off].",
+        "es": "Le dijo al vendedor que se largara."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Mandar a alguien lejos sin groserías.",
+    "tone_es": "Más suave que «piss off»; algo anticuado.",
+    "situations_es": "Casi siempre es sincero; la persona quiere que te vayas.",
+    "softer": "Please go away.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-as-if",
+    "type": "phrase",
+    "term": "as if!",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "¡cómo no!; ¡sí, cómo no!; ¡ni en sueños!",
+    "def": "used to say you don't believe or accept something",
+    "ex": [
+      {
+        "en": "\"She'll apologize.\" \"[As if]!\"",
+        "es": "—Va a pedir perdón. —¡Cómo no!"
+      },
+      {
+        "en": "Me, wake up at five? [As if!]",
+        "es": "¿Yo, levantarme a las cinco? ¡Ni en sueños!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Rechazar con ironía algo que te parece imposible.",
+    "tone_es": "Burlón; entre amigos es común.",
+    "situations_es": "Ambigua si no hay tono: puede ser burla o incredulidad.",
+    "softer": "No way.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-yeah-right",
+    "type": "phrase",
+    "term": "yeah, right",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "sí, cómo no; ajá, claro",
+    "def": "sarcastic way to say you don't believe it",
+    "ex": [
+      {
+        "en": "\"I'll finish today.\" \"Yeah, [right].\"",
+        "es": "—Hoy termino. —Sí, cómo no."
+      },
+      {
+        "en": "He said he'd pay me back. [Yeah, right].",
+        "es": "Dijo que me pagaría. Ajá, claro."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Expresar escepticismo con sarcasmo.",
+    "tone_es": "Sarcástico; puede ofender si dudas del honor de alguien.",
+    "situations_es": "Con tono sincero puede ser afirmación, pero casi siempre es sarcasmo.",
+    "softer": "I doubt it.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-good-for-you",
+    "type": "phrase",
+    "term": "good for you",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "qué bien por ti; ¡qué padre!; (sarcástico) qué bueno por ti",
+    "def": "praise, or sarcasm depending on tone",
+    "ex": [
+      {
+        "en": "You got the job? [Good for you]!",
+        "es": "¿Conseguiste el trabajo? ¡Qué bien por ti!"
+      },
+      {
+        "en": "\"I don't need your help.\" \"Well, [good for you].\"",
+        "es": "—No necesito tu ayuda. —Pues qué bueno por ti."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Felicitar o mostrar desdén.",
+    "tone_es": "Ambiguo: puede ser sincero o irónico. El tono y los gestos lo definen.",
+    "situations_es": "Sincero = «me alegro»; sarcástico = «a mí qué me importa».",
+    "softer": "I'm happy for you.",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-thanks-a-lot",
+    "type": "phrase",
+    "term": "thanks a lot",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "gracias, eh (sarcástico); muchas gracias",
+    "def": "sincere thanks, or sarcasm",
+    "ex": [
+      {
+        "en": "[Thanks a lot], you saved me.",
+        "es": "Muchas gracias, me salvaste."
+      },
+      {
+        "en": "Oh, [thanks a lot], now I'm late.",
+        "es": "Ah, gracias, eh, ahora voy a llegar tarde."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Agradecer o reprochar con ironía.",
+    "tone_es": "Ambigua: sincero con sonrisa, sarcástico con suspiro.",
+    "situations_es": "En un reclamo suele ser sarcasmo.",
+    "softer": "Thank you so much.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-nice-going",
+    "type": "phrase",
+    "term": "nice going",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "qué bien lo hiciste (irónico); bien hecho",
+    "def": "praise or sarcasm after a mistake",
+    "ex": [
+      {
+        "en": "[Nice going], you deleted the file.",
+        "es": "Qué bien lo hiciste, borraste el archivo."
+      },
+      {
+        "en": "[Nice going]! We won!",
+        "es": "¡Bien hecho! ¡Ganamos!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Felicitar o burlarte.",
+    "tone_es": "Ambigua; casi siempre sarcástica si hay un error de por medio.",
+    "situations_es": "Si hubo desastre, es burla; si hubo éxito, es halago.",
+    "softer": "Well done.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-great-just-great",
+    "type": "phrase",
+    "term": "great, just great",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "perfecto, lo que faltaba; qué bien (irónico)",
+    "def": "sarcastic reaction to a bad surprise",
+    "ex": [
+      {
+        "en": "[Great, just great], my phone died.",
+        "es": "Perfecto, lo que faltaba, se me murió el teléfono."
+      },
+      {
+        "en": "[Great, just great]. It's snowing again.",
+        "es": "Qué bien, otra vez está nevando."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Quejarte con ironía.",
+    "tone_es": "Sarcástico e inofensivo; no apunta a nadie.",
+    "situations_es": "Casi siempre ironía; solo en contexto bueno es sincero.",
+    "softer": "That's unfortunate.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-no-kidding",
+    "type": "phrase",
+    "term": "no kidding",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¡no me digas!; en serio; (sarcástico) qué novedad",
+    "def": "surprise, or sarcasm for something obvious",
+    "ex": [
+      {
+        "en": "You met a famous actor? [No kidding]!",
+        "es": "¿Conociste a un actor famoso? ¡No me digas!"
+      },
+      {
+        "en": "\"It's cold.\" \"[No kidding].\"",
+        "es": "—Hace frío. —No me digas."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Mostrar sorpresa genuina o ironía.",
+    "tone_es": "Ambiguo: «no me digas» sincero o burlón.",
+    "situations_es": "Si lo obvio se menciona, es sarcasmo.",
+    "softer": "Really?",
+    "goal": "both"
+  },
+  {
+    "id": "phr-what-a-surprise",
+    "type": "phrase",
+    "term": "what a surprise",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "qué sorpresa (irónico); cómo no",
+    "def": "sarcastic comment on something predictable",
+    "ex": [
+      {
+        "en": "Late again? [What a surprise].",
+        "es": "¿Tarde otra vez? Qué sorpresa."
+      },
+      {
+        "en": "He forgot my birthday. [What a surprise].",
+        "es": "Se le olvidó mi cumpleaños. Qué novedad."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Señalar con ironía que algo era previsible.",
+    "tone_es": "Sarcástico; puede doler si se dirige a una persona.",
+    "situations_es": "Con tono sincero es agradable sorpresa, pero casi siempre ironía.",
+    "softer": "That's not surprising.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-sus",
+    "type": "phrase",
+    "term": "sus",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "sospechoso; raro; medio feo",
+    "def": "suspicious or shady, slang",
+    "ex": [
+      {
+        "en": "That email looks [sus] to me.",
+        "es": "Ese correo se me hace sospechoso."
+      },
+      {
+        "en": "He was acting a bit [sus] today.",
+        "es": "Hoy estaba actuando medio raro."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Marcar algo como sospechoso.",
+    "tone_es": "Muy de internet y de videojuegos; ligero, a veces de broma.",
+    "situations_es": "Un mensaje raro, un amigo que actúa extraño. Puede ser burla ligera o una sospecha en serio.",
+    "softer": "suspicious",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-thats-cap",
+    "type": "phrase",
+    "term": "that's cap",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 2,
+    "es": "eso es mentira; no te creo",
+    "def": "that's a lie, slang",
+    "ex": [
+      {
+        "en": "That's [cap], you never met him.",
+        "es": "Eso es mentira, nunca lo conociste."
+      },
+      {
+        "en": "He said he runs ten miles? [Cap].",
+        "es": "¿Dice que corre dieciséis kilómetros? Mentira."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Decir que algo es falso.",
+    "tone_es": "Jerga juvenil de internet. Entre amigos jóvenes es común; con adultos puede no entenderse.",
+    "situations_es": "Alguien presume algo que no te cuadra: dices «cap» y listo. «No cap» es lo opuesto: «en serio, no miento».",
+    "softer": "That's not true.",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-flex",
+    "type": "phrase",
+    "term": "flex",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "presumir; alardear",
+    "def": "to show off",
+    "ex": [
+      {
+        "en": "He likes to [flex] his new watch.",
+        "es": "Le gusta presumir su reloj nuevo."
+      },
+      {
+        "en": "Okay, [flex] on us, we get it.",
+        "es": "Ya, presume, ya entendimos."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar algo con orgullo o para impresionar.",
+    "tone_es": "Neutral-juguetón. Presumir puede ser divertido o antipático según quién lo haga.",
+    "situations_es": "«He flexed his new car» = lo presumió. «A weird flex, but okay» = qué raro presumir eso.",
+    "softer": "show off",
+    "goal": "both"
+  },
+  {
+    "id": "phr-lit",
+    "type": "phrase",
+    "term": "lit",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "padrísimo; prendido; muy animado",
+    "def": "very exciting, slang",
+    "ex": [
+      {
+        "en": "The party last night was [lit].",
+        "es": "La fiesta de anoche estuvo padrísima."
+      },
+      {
+        "en": "That concert was so [lit]!",
+        "es": "¡Ese concierto estuvo increíble!"
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Calificar algo como emocionante.",
+    "tone_es": "Positivo; hoy suena un poco pasado entre jóvenes, pero se sigue entendiendo.",
+    "situations_es": "Fiesta, concierto o ambiente animado. Casi nunca es crítica.",
+    "softer": "exciting",
+    "goal": "both"
+  },
+  {
+    "id": "phr-slay",
+    "type": "phrase",
+    "term": "slay",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "¡la rompiste!; ¡qué rifada!; ¡lo hiciste increíble!",
+    "def": "to do something extremely well",
+    "ex": [
+      {
+        "en": "You [slay] in that dress!",
+        "es": "¡Te ves espectacular con ese vestido!"
+      },
+      {
+        "en": "She totally [slay]ed the presentation.",
+        "es": "Rompió en su presentación."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Elogiar con entusiasmo.",
+    "tone_es": "Halago entusiasta, muy de redes. Con cariño.",
+    "situations_es": "Comentas el atuendo o el desempeño de alguien. Si hay humor, puede exagerarse.",
+    "softer": "do really well",
+    "goal": "both"
+  },
+  {
+    "id": "phr-mid",
+    "type": "phrase",
+    "term": "mid",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "regular; nada especial; medio",
+    "def": "mediocre",
+    "ex": [
+      {
+        "en": "The movie was [mid].",
+        "es": "La película estuvo regular."
+      },
+      {
+        "en": "Honestly the pizza was kind of [mid].",
+        "es": "La neta la pizza estuvo así nomás."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Calificar algo como mediocre.",
+    "tone_es": "Crítica suave pero seca; muy online.",
+    "situations_es": "«Mid» no es «malo»; es «regular, nada especial». Dicho a un amigo puede dolerle si le gustaba.",
+    "softer": "average",
+    "goal": "both"
+  },
+  {
+    "id": "phr-cringe",
+    "type": "phrase",
+    "term": "cringe",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "pena ajena; qué oso",
+    "def": "causing secondhand embarrassment",
+    "ex": [
+      {
+        "en": "That karaoke was so [cringe].",
+        "es": "Ese karaoke fue pura pena ajena."
+      },
+      {
+        "en": "I [cringe] every time I read my old posts.",
+        "es": "Me da pena ajena cada vez que leo mis publicaciones viejas."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Expresar vergüenza ajena.",
+    "tone_es": "Informal y juvenil. Puede ser comentario divertido o desaprobación real.",
+    "situations_es": "Un video o chiste que da vergüenza ajena. Si lo dices de lo que hace alguien, puede herir.",
+    "softer": "embarrassing",
+    "goal": "both"
+  },
+  {
+    "id": "phr-situationship",
+    "type": "phrase",
+    "term": "situationship",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "relación sin etiqueta; amigovios",
+    "def": "an unclear romantic relationship",
+    "ex": [
+      {
+        "en": "We're not dating, it's a [situationship].",
+        "es": "No somos novios, es una relación sin etiqueta."
+      },
+      {
+        "en": "She is tired of her [situationship].",
+        "es": "Está cansada de su amistad con derechos poco clara."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Describir algo ambiguo entre amistad y pareja.",
+    "tone_es": "Informal y juvenil; suele implicar confusión emocional.",
+    "situations_es": "Dos personas se ven y se tratan como pareja pero no lo han definido. Puede ser cómodo para uno y doloroso para otro.",
+    "softer": "unclear relationship",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-friend-zone",
+    "type": "phrase",
+    "term": "friend zone",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "friendzone; quedar como solo amigo",
+    "def": "when someone sees you only as a friend",
+    "ex": [
+      {
+        "en": "I think I'm in the [friend zone].",
+        "es": "Creo que estoy en la friendzone."
+      },
+      {
+        "en": "She put him in the [friend zone] after one date.",
+        "es": "Lo mandó a la friendzone tras una cita."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Hablar de un amor no correspondido.",
+    "tone_es": "Popular, con cierto lamento. Algunos la critican porque sugiere que la amistad es un premio de consolación.",
+    "situations_es": "«I got friend-zoned» = ella o él solo me ve como amigo. Entre hombres bromistas se dice sin mala intención.",
+    "softer": "only friends",
+    "goal": "both"
+  },
+  {
+    "id": "phr-have-a-crush-on",
+    "type": "phrase",
+    "term": "have a crush on",
+    "level": "A2",
+    "topic": "social",
+    "freq": 4,
+    "es": "gustarle a alguien; traerle ganas a alguien",
+    "def": "to like someone romantically, often secretly",
+    "ex": [
+      {
+        "en": "I [have a crush on] my coworker.",
+        "es": "Me gusta mi compañero de trabajo."
+      },
+      {
+        "en": "She [had a crush on] him in high school.",
+        "es": "Él le gustaba en la prepa."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Confesar atracción romántica.",
+    "tone_es": "Tierno, adolescente, muy común también en adultos.",
+    "situations_es": "Confiesas una atracción a un amigo. Normalmente es secreto o tímido.",
+    "softer": "to like someone",
+    "goal": "both"
+  },
+  {
+    "id": "phr-make-a-move",
+    "type": "phrase",
+    "term": "make a move",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "dar el primer paso; hacer un intento",
+    "def": "to try to start a romantic relationship",
+    "ex": [
+      {
+        "en": "He finally [made a move] at the party.",
+        "es": "Al fin dio el primer paso en la fiesta."
+      },
+      {
+        "en": "Should I [make a move] or wait?",
+        "es": "¿Doy el primer paso o espero?"
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Pasar de la amistad al coqueteo.",
+    "tone_es": "Neutral. Puede ser tierno o incómodo según la reacción.",
+    "situations_es": "«He didn't make a move» puede significar que respetó el espacio o que fue tímido.",
+    "softer": "show interest",
+    "goal": "both"
+  },
+  {
+    "id": "idi-play-hard-to-get",
+    "type": "idiom",
+    "term": "play hard to get",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "hacerse del rogar",
+    "def": "to act uninterested to attract someone",
+    "note": "Ojo: si alguien dice no, respétalo.",
+    "ex": [
+      {
+        "en": "She's just [playing hard to get].",
+        "es": "Solo se está haciendo del rogar."
+      },
+      {
+        "en": "Stop [playing hard to get] and say yes!",
+        "es": "Deja de hacerte del rogar y di que sí."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Describir un juego de coqueteo.",
+    "tone_es": "Ligero; puede resultar ofensivo si se interpreta como no respetar un no.",
+    "situations_es": "Ambigua: ¿juego o rechazo real? Un «no» es un «no».",
+    "softer": "act uninterested",
+    "goal": "both"
+  },
+  {
+    "id": "pv-lead-someone-on",
+    "type": "phrasal",
+    "term": "lead someone on",
+    "ipa": "/lid ɑn/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "darle falsas esperanzas a alguien",
+    "def": "make someone believe you like them more than you do",
+    "sep": true,
+    "ex": [
+      {
+        "en": "Don't [lead him on] if you aren't interested.",
+        "es": "No le des falsas esperanzas si no te interesa."
+      },
+      {
+        "en": "She felt he was [leading her on].",
+        "es": "Sentía que él le daba falsas esperanzas."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Reprochar a alguien jugar con los sentimientos de otro.",
+    "tone_es": "Crítico; se usa en conflictos.",
+    "situations_es": "Puede ser acusación fuerte; ten cuidado al decirlo.",
+    "softer": "mislead romantically",
+    "goal": "both"
+  },
+  {
+    "id": "phr-netflix-and-chill",
+    "type": "phrase",
+    "term": "Netflix and chill",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "ver Netflix y… (invitación con doble sentido)",
+    "def": "an invitation that may mean watching a show or having sex",
+    "ex": [
+      {
+        "en": "He texted, [Netflix and chill]?",
+        "es": "Le escribió: ¿vemos Netflix y qué?"
+      },
+      {
+        "en": "Is it just [Netflix and chill] or more?",
+        "es": "¿Es solo Netflix y relajarse o algo más?"
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Invitar a alguien a casa con doble intención.",
+    "tone_es": "Ambiguo y delicado; puede confundirse. Es mejor aclararlo.",
+    "situations_es": "Muy ambigua: puede ser literal o sugerencia sexual.",
+    "softer": "Do you want to watch a movie?",
+    "goal": "understand",
+    "confidence": "low"
+  },
+  {
+    "id": "idi-slide-into-someones-dms",
+    "type": "idiom",
+    "term": "slide into someone's DMs",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "escribirle por mensaje privado para ligar",
+    "def": "to send a private message to start flirting",
+    "ex": [
+      {
+        "en": "He tried to [slide into her DMs].",
+        "es": "Intentó escribirle por mensaje privado para ligar."
+      },
+      {
+        "en": "Don't [slide into my DMs] with that.",
+        "es": "No me escribas al privado con eso."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir un coqueteo en redes.",
+    "tone_es": "Informal; sugiere cierto descaro, a veces con humor.",
+    "situations_es": "Escribirle a alguien por redes para ligar. Puede ser bien recibido o spam romántico. Ver tono.",
+    "softer": "message privately",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-check-someone-out",
+    "type": "phrase",
+    "term": "check someone out",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "echarle el ojo a alguien; fijarse en alguien",
+    "def": "to look at someone because you find them attractive",
+    "ex": [
+      {
+        "en": "He was [checking her out] across the bar.",
+        "es": "Le estaba echando el ojo desde el otro lado del bar."
+      },
+      {
+        "en": "Stop [checking them out], it's rude.",
+        "es": "Deja de mirarlos así, es de mala educación."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Admitir que miras con atracción.",
+    "tone_es": "Informal; admitir que miras a alguien con interés. Puede ser halago o incomodidad.",
+    "situations_es": "«He was checking her out» describe miradas insistentes. Puede ser tímido o invasivo; si la persona se siente incómoda, es acoso.",
+    "softer": "look at someone with interest",
+    "goal": "both"
+  },
+  {
+    "id": "idi-out-of-my-league",
+    "type": "idiom",
+    "term": "out of my league",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "fuera de mi liga; demasiado para mí",
+    "def": "too attractive or successful for you",
+    "ex": [
+      {
+        "en": "She's way [out of my league].",
+        "es": "Ella está muy fuera de mi liga."
+      },
+      {
+        "en": "He felt the job was [out of his league].",
+        "es": "Sentía que el trabajo estaba fuera de su nivel."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Expresar inseguridad o admiración.",
+    "tone_es": "Autoironía o inseguridad; no suele ofender.",
+    "situations_es": "Admitir que te gusta alguien «demasiado bueno para ti». A veces es falsa modestia.",
+    "softer": "too good for me",
+    "goal": "both"
+  },
+  {
+    "id": "phr-a-catch",
+    "type": "phrase",
+    "term": "a catch",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "un buen partido",
+    "def": "a very desirable partner",
+    "ex": [
+      {
+        "en": "Jake is such [a catch].",
+        "es": "Jake es un buen partido."
+      },
+      {
+        "en": "You're [a catch], don't settle.",
+        "es": "Eres un buen partido, no te conformes."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Elogiar a alguien como pareja potencial.",
+    "tone_es": "Halago amable, algo anticuado pero vigente.",
+    "situations_es": "Alguien dice «you're a catch» para elevar tu autoestima tras un rechazo.",
+    "softer": "great partner",
+    "goal": "both"
+  },
+  {
+    "id": "phr-blow-someone-off",
+    "type": "phrase",
+    "term": "blow someone off",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "plantar a alguien; dejar plantado; ignorar",
+    "def": "to not show up or ignore someone",
+    "ex": [
+      {
+        "en": "She [blew me off] again.",
+        "es": "Me dejó plantado otra vez."
+      },
+      {
+        "en": "Don't [blow off] your friends.",
+        "es": "No ignores a tus amigos."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Quejarte de un plantón o desprecio.",
+    "tone_es": "Reproche; informal y directo.",
+    "situations_es": "Cancelan una cita sin avisar, o ignoran tus mensajes. «Blow off steam» es otra expresión diferente.",
+    "softer": "cancel on someone",
+    "goal": "both"
+  },
+  {
+    "id": "phr-stand-someone-up",
+    "type": "phrase",
+    "term": "stand someone up",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "dejar plantado a alguien",
+    "def": "to not come to a date",
+    "ex": [
+      {
+        "en": "He [stood me up] at the restaurant.",
+        "es": "Me dejó plantada en el restaurante."
+      },
+      {
+        "en": "She would never [stand you up].",
+        "es": "Ella jamás te dejaría plantado."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Quejarte de una cita a la que alguien no fue.",
+    "tone_es": "Cargado de dolor o enojo; informal.",
+    "situations_es": "Esperaste en un restaurante y nadie llegó. Es una acción concreta (no ir a una cita).",
+    "softer": "not show up",
+    "goal": "both"
+  },
+  {
+    "id": "phr-dump-someone",
+    "type": "phrase",
+    "term": "dump someone",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "cortar con alguien; mandar a volar a alguien",
+    "def": "to end a romantic relationship",
+    "ex": [
+      {
+        "en": "She [dumped him] by text.",
+        "es": "Ella cortó con él por mensaje."
+      },
+      {
+        "en": "Did you really [dump her] on her birthday?",
+        "es": "¿De verdad cortaste con ella en su cumpleaños?"
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Contar que una relación terminó.",
+    "tone_es": "Duro; implica que quien terminó fue el otro.",
+    "situations_es": "«She dumped him» = lo cortó. También puede usarse con humor: «I got dumped by my barber».",
+    "softer": "break up with",
+    "goal": "both"
+  },
+  {
+    "id": "phr-booty-call",
+    "type": "phrase",
+    "term": "booty call",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "llamada para acostarse; ligue de una noche",
+    "def": "a call to meet only for sex",
+    "ex": [
+      {
+        "en": "He only texts me for a [booty call].",
+        "es": "Solo me escribe para verme de noche."
+      },
+      {
+        "en": "That was a [booty call], not a date.",
+        "es": "Eso fue para acostarse, no una cita."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Describir una relación sexual casual.",
+    "tone_es": "Explícito y casual; poco apto para entornos formales.",
+    "situations_es": "Una llamada o mensaje tarde por la noche solo para tener sexo, sin compromiso. A veces con resentimiento.",
+    "softer": "late-night hookup",
+    "goal": "understand"
+  },
+  {
+    "id": "idi-one-night-stand",
+    "type": "idiom",
+    "term": "one-night stand",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "aventura de una noche",
+    "def": "a sexual encounter with someone for just one night",
+    "ex": [
+      {
+        "en": "It was just a [one-night stand].",
+        "es": "Fue solo una aventura de una noche."
+      },
+      {
+        "en": "She regretted the [one-night stand].",
+        "es": "Se arrepintió de la aventura de una noche."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir un encuentro casual.",
+    "tone_es": "Neutral-informal; algunos lo ven con juicio moral.",
+    "situations_es": "Un encuentro sexual de una sola noche. Quien lo cuenta puede hacerlo con orgullo, vergüenza o humor.",
+    "softer": "casual encounter",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-thirsty",
+    "type": "phrase",
+    "term": "thirsty",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "desesperado por atención o ligue",
+    "def": "too eager for attention or romance",
+    "ex": [
+      {
+        "en": "Don't be so [thirsty], wait for her to reply.",
+        "es": "No seas tan desesperado, espera a que conteste."
+      },
+      {
+        "en": "That comment was [thirsty].",
+        "es": "Ese comentario fue de desesperado."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Criticar una actitud demasiado ansiosa.",
+    "tone_es": "Burlón; implica desesperación. Puede avergonzar.",
+    "situations_es": "Comentarios muy insistentes en redes sociales o a una persona que no responde. También: tener sed (literal).",
+    "softer": "overeager",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-player",
+    "type": "phrase",
+    "term": "player",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "mujeriego; ligador serial",
+    "def": "someone who flirts with many people without commitment",
+    "ex": [
+      {
+        "en": "Don't trust him, he's a [player].",
+        "es": "No confíes en él, es un mujeriego."
+      },
+      {
+        "en": "She said she's tired of [players].",
+        "es": "Dijo que está cansada de los mujeriegos."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Advertir sobre alguien sin compromiso.",
+    "tone_es": "Crítico; en algunos grupos masculinos puede sonar admirativo.",
+    "situations_es": "Advertencia a una amiga sobre un hombre que coquetea con todas. También se usa con mujeres.",
+    "softer": "someone who dates many people",
+    "goal": "both"
+  },
+  {
+    "id": "phr-sweet-talk",
+    "type": "phrase",
+    "term": "sweet-talk",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "endulzar el oído; convencer con halagos",
+    "def": "to persuade with flattery",
+    "ex": [
+      {
+        "en": "He tried to [sweet-talk] the guard.",
+        "es": "Intentó convencer al guardia con halagos."
+      },
+      {
+        "en": "Don't [sweet-talk] me, I want the truth.",
+        "es": "No me endulces el oído, quiero la verdad."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Persuadir con palabras suaves.",
+    "tone_es": "Ligero; suena entre halago y manipulación.",
+    "situations_es": "Convencer a alguien con halagos para conseguir un favor, un descuento o un beso.",
+    "softer": "charm someone with words",
+    "goal": "both"
+  },
+  {
+    "id": "phr-roast",
+    "type": "phrase",
+    "term": "roast",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "burlarse con gracia de alguien; destrozar con bromas",
+    "def": "to make fun of someone in a funny way",
+    "ex": [
+      {
+        "en": "We [roasted] him at his birthday.",
+        "es": "Nos burlamos con humor de él en su cumpleaños."
+      },
+      {
+        "en": "She can take a [roast], she's funny.",
+        "es": "Ella aguanta una burla, es divertida."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Bromear de forma ingeniosa e hiriente.",
+    "tone_es": "Humor cruel; solo funciona si todos aceptan el juego.",
+    "situations_es": "Cumpleaños o fiestas donde se bromea de manera exagerada. Si no hay confianza, puede ser acoso.",
+    "softer": "tease",
+    "goal": "both"
+  },
+  {
+    "id": "phr-sick-burn",
+    "type": "phrase",
+    "term": "sick burn",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "buena puya; zas, qué respuesta",
+    "def": "a clever insult that hits hard",
+    "ex": [
+      {
+        "en": "Oh, [sick burn]! Everyone laughed.",
+        "es": "¡Zas, qué puya! Todos rieron."
+      },
+      {
+        "en": "That was a [sick burn], well played.",
+        "es": "Esa fue buena puya, bien jugado."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Admirar una respuesta ingeniosa.",
+    "tone_es": "Admiración por la agudeza; la víctima puede sentirse herida.",
+    "situations_es": "Alguien responde con una frase ingeniosa y devastadora. «Sick» aquí es «genial».",
+    "softer": "clever comeback",
+    "goal": "both"
+  },
+  {
+    "id": "idi-throw-shade",
+    "type": "idiom",
+    "term": "throw shade",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "tirar indirectas; hablar mal sutilmente",
+    "def": "to criticize or insult indirectly",
+    "ex": [
+      {
+        "en": "She's always [throwing shade] at her ex.",
+        "es": "Siempre le tira indirectas a su ex."
+      },
+      {
+        "en": "Don't [throw shade], say it directly.",
+        "es": "No tires indirectas, dilo directamente."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Criticar sin decirlo abiertamente.",
+    "tone_es": "Pasivo-agresivo; desprecio sin decirlo directamente.",
+    "situations_es": "Una indirecta en redes, un cumplido envenenado. Se entiende por el contexto, pocas veces se dice en la cara.",
+    "softer": "criticize indirectly",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "pv-clap-back",
+    "type": "phrasal",
+    "term": "clap back",
+    "ipa": "/klæp bæk/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "responder con todo; contestar con fuerza",
+    "def": "to respond sharply to criticism",
+    "ex": [
+      {
+        "en": "She [clapped back] at the haters.",
+        "es": "Respondió con todo a los envidiosos."
+      },
+      {
+        "en": "He [clapped back] with a joke.",
+        "es": "Contestó con una broma."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Defenderte con ingenio o dureza.",
+    "tone_es": "Atrevido; admira o alarma según quién lo vea.",
+    "situations_es": "Responder con ingenio a un comentario negativo en redes, a veces exagerando.",
+    "softer": "reply strongly",
+    "goal": "both"
+  },
+  {
+    "id": "phr-side-eye",
+    "type": "phrase",
+    "term": "side-eye",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "mirada de reojo con desaprobación",
+    "def": "a sideways look showing doubt or disapproval",
+    "ex": [
+      {
+        "en": "She gave me the [side-eye].",
+        "es": "Me lanzó una mirada de reojo."
+      },
+      {
+        "en": "I'm giving that idea the [side-eye].",
+        "es": "Veo esa idea con desconfianza."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar desconfianza sin hablar.",
+    "tone_es": "Gesto divertido; sin palabras.",
+    "situations_es": "Una mirada de lado con duda o desaprobación. También se usa como verbo: «I'm side-eyeing this plan».",
+    "softer": "doubtful look",
+    "goal": "both"
+  },
+  {
+    "id": "phr-dad-joke",
+    "type": "phrase",
+    "term": "dad joke",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "chiste malo (de papá)",
+    "def": "a corny, pun-based joke",
+    "ex": [
+      {
+        "en": "That was such a [dad joke].",
+        "es": "Eso fue un chiste de papá."
+      },
+      {
+        "en": "He tells [dad jokes] all day.",
+        "es": "Cuenta chistes malos todo el día."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Burlarte con cariño de un chiste malo.",
+    "tone_es": "Cariñoso; se burla del humor ingenuo pero lo aprecia.",
+    "situations_es": "Juego de palabras tonto que todos celebran con un gemido. No ofende.",
+    "softer": "corny joke",
+    "goal": "both"
+  },
+  {
+    "id": "phr-cheesy",
+    "type": "phrase",
+    "term": "cheesy",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "cursi; choteado",
+    "def": "overly sentimental or corny",
+    "ex": [
+      {
+        "en": "That pickup line was [cheesy].",
+        "es": "Esa frase para ligar fue cursi."
+      },
+      {
+        "en": "I love [cheesy] movies.",
+        "es": "Amo las películas cursis."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Calificar algo tierno pero exagerado.",
+    "tone_es": "Casi siempre cariñoso; suena a «cursi pero tierno».",
+    "situations_es": "Una canción, un detalle o una frase romántica pasada de azúcar.",
+    "softer": "corny",
+    "goal": "both"
+  },
+  {
+    "id": "phr-extra",
+    "type": "phrase",
+    "term": "extra",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "exagerado/a; de más",
+    "def": "overly dramatic or elaborate",
+    "ex": [
+      {
+        "en": "She's so [extra] about birthdays.",
+        "es": "Es muy exagerada con los cumpleaños."
+      },
+      {
+        "en": "That outfit is a bit [extra].",
+        "es": "Ese atuendo es un poco exagerado."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Describir exceso de drama o estilo.",
+    "tone_es": "Informal; puede ser halago o crítica.",
+    "situations_es": "«She's so extra» = exagera todo; en algunos grupos es cumplido, en otros reproche.",
+    "softer": "over the top",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-thats-rough",
+    "type": "phrase",
+    "term": "that's rough",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "qué duro; qué mal",
+    "def": "a sympathetic reaction to bad news",
+    "ex": [
+      {
+        "en": "You lost your job? [That's rough].",
+        "es": "¿Perdiste tu trabajo? Qué duro."
+      },
+      {
+        "en": "[That's rough], I'm sorry.",
+        "es": "Qué mal, lo siento."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar empatía.",
+    "tone_es": "Empático pero breve; suena más fácil que «I'm so sorry».",
+    "situations_es": "Alguien cuenta un mal día o una pérdida laboral. Si no sigues con ayuda, puede sonar frío.",
+    "softer": "I'm sorry to hear that.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-hold-my-beer",
+    "type": "phrase",
+    "term": "hold my beer",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "ahora verás; mira cómo lo hago",
+    "def": "said before doing something reckless or showing off",
+    "ex": [
+      {
+        "en": "He said [hold my beer] and jumped.",
+        "es": "Dijo «ahora verás» y saltó."
+      },
+      {
+        "en": "\"[Hold my beer],\" he said, and tried the trick.",
+        "es": "—Ahora verás —dijo, y probó el truco."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Anunciar una acción arriesgada con humor.",
+    "tone_es": "Humor irónico de «mira lo que voy a hacer».",
+    "situations_es": "Se dice antes de una acción tonta o arriesgada. Puede ser un chiste o un aviso de que alguien se va a lastimar.",
+    "softer": "watch this",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-no-offense-but",
+    "type": "phrase",
+    "term": "no offense, but",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "sin ofender, pero…; no te lo tomes a mal, pero…",
+    "def": "a phrase before saying something that may offend",
+    "ex": [
+      {
+        "en": "[No offense, but] that haircut looks odd.",
+        "es": "Sin ofender, pero ese corte se ve raro."
+      },
+      {
+        "en": "[No offense, but] I disagree.",
+        "es": "No te lo tomes a mal, pero no estoy de acuerdo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Suavizar una crítica o un comentario fuerte.",
+    "tone_es": "Aunque intenta suavizar, a veces ofende igual.",
+    "situations_es": "Puede ser sincero o excusa para ser grosero.",
+    "softer": "With respect,",
+    "goal": "both"
+  },
+  {
+    "id": "phr-with-all-due-respect",
+    "type": "phrase",
+    "term": "with all due respect",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "con todo respeto (pero no estoy de acuerdo)",
+    "def": "a polite phrase before disagreeing strongly",
+    "ex": [
+      {
+        "en": "[With all due respect], that plan won't work.",
+        "es": "Con todo respeto, ese plan no va a funcionar."
+      },
+      {
+        "en": "[With all due respect], I disagree.",
+        "es": "Con todo respeto, no estoy de acuerdo."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Disentir con cortesía.",
+    "tone_es": "Cortés en apariencia; casi siempre precede a un desacuerdo.",
+    "situations_es": "En reuniones o debates. Si cambia el tono a frío, suena a «con todo respeto… se equivoca».",
+    "softer": "I respectfully disagree",
+    "goal": "both"
+  },
+  {
+    "id": "phr-bless-your-heart",
+    "type": "phrase",
+    "term": "bless your heart",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 2,
+    "es": "qué ternura (con doble sentido); pobrecito/a",
+    "def": "Southern US: sweet, or condescending, depending on tone",
+    "ex": [
+      {
+        "en": "Oh, [bless your heart], you tried.",
+        "es": "Ay, qué ternura, lo intentaste."
+      },
+      {
+        "en": "She said [bless your heart] and walked away.",
+        "es": "Dijo «pobrecita» y se fue."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Mostrar cariño o condescender.",
+    "tone_es": "Muy del sur de EE. UU.; la dulzura puede ser real o venenosa.",
+    "situations_es": "Se dice con ternura a un niño; con sonrisa congelada a un adulto torpe. Es el ejemplo clásico de insulto educado.",
+    "softer": "That's sweet",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-pardon-my-french",
+    "type": "phrase",
+    "term": "pardon my French",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "perdón la expresión; perdón la grosería",
+    "def": "excuse me for swearing",
+    "ex": [
+      {
+        "en": "[Pardon my French], but that was awful.",
+        "es": "Perdón la expresión, pero eso estuvo horrible."
+      },
+      {
+        "en": "[Pardon my French], I'm furious.",
+        "es": "Perdón la grosería, estoy furioso."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Excusarte antes de decir una grosería.",
+    "tone_es": "Humorístico y cortés; sin ofensa.",
+    "situations_es": "Excusarse antes o después de soltar una grosería. Nada que ver con el idioma francés.",
+    "softer": "excuse my language",
+    "goal": "both"
+  },
+  {
+    "id": "phr-watch-your-language",
+    "type": "phrase",
+    "term": "watch your language",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "cuida tu lenguaje; no digas groserías",
+    "def": "don't use rude words",
+    "ex": [
+      {
+        "en": "[Watch your language], there are kids here.",
+        "es": "Cuida tu lenguaje, hay niños."
+      },
+      {
+        "en": "Mom told him to [watch his language].",
+        "es": "Mamá le pidió que cuidara su lenguaje."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Pedir respeto en el hablar.",
+    "tone_es": "Autoritario; suena a padre o jefe.",
+    "situations_es": "Se lo dices a alguien que dice groserías frente a niños o en un lugar formal.",
+    "softer": "Please don't swear.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-what-the-heck",
+    "type": "phrase",
+    "term": "what the heck",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "¿qué rayos?; ¿qué onda?",
+    "def": "mild version of what the hell",
+    "ex": [
+      {
+        "en": "[What the heck] is that?",
+        "es": "¿Qué rayos es eso?"
+      },
+      {
+        "en": "[What the heck], let's try it.",
+        "es": "Qué más da, probémoslo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Sorpresa o decisión impulsiva sin groserías.",
+    "tone_es": "Seguro para casi cualquier ambiente. Es la versión limpia de «what the hell».",
+    "situations_es": "Sorpresa («¿qué rayos?») o decisión impulsiva («what the heck, why not»).",
+    "softer": "what on earth",
+    "goal": "both"
+  },
+  {
+    "id": "phr-oh-my-god",
+    "type": "phrase",
+    "term": "oh my god",
+    "level": "A2",
+    "topic": "feelings",
+    "freq": 5,
+    "es": "¡Dios mío!; ¡no manches!",
+    "def": "expression of surprise or shock",
+    "ex": [
+      {
+        "en": "[Oh my god], I forgot your gift!",
+        "es": "¡Dios mío, olvidé tu regalo!"
+      },
+      {
+        "en": "[Oh my god], it's so cute!",
+        "es": "¡No manches, qué lindo!"
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Expresar emoción o sorpresa.",
+    "tone_es": "Muy común; algunos lo evitan por motivos religiosos.",
+    "situations_es": "Sorpresa, alegría o susto. En mensajes se abrevia «OMG».",
+    "softer": "wow",
+    "goal": "both"
+  },
+  {
+    "id": "phr-holy-crap",
+    "type": "phrase",
+    "term": "holy crap",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "¡no inventes!; ¡híjole!",
+    "def": "mild version of holy shit",
+    "ex": [
+      {
+        "en": "[Holy crap], look at that view!",
+        "es": "¡No inventes, mira esa vista!"
+      },
+      {
+        "en": "[Holy crap], I'm late!",
+        "es": "¡Híjole, voy tarde!"
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Sorpresa sin ser tan fuerte.",
+    "tone_es": "Menos fuerte que «holy shit»; apto para casi cualquier adulto.",
+    "situations_es": "Reacción ante algo enorme, bueno o malo.",
+    "softer": "wow",
+    "goal": "both"
+  },
+  {
+    "id": "phr-freaking",
+    "type": "phrase",
+    "term": "freaking",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "pinche; bien; un montón (suave)",
+    "def": "mild intensifier replacing fucking",
+    "ex": [
+      {
+        "en": "It's [freaking] cold outside.",
+        "es": "Hace un frío de la fregada afuera."
+      },
+      {
+        "en": "That movie was [freaking] awesome.",
+        "es": "Esa película estuvo buenísima."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Enfatizar sin usar groserías.",
+    "tone_es": "Suave y seguro.",
+    "situations_es": "Puede reemplazar «fucking» sin ofender.",
+    "softer": "very",
+    "goal": "both"
+  },
+  {
+    "id": "phr-fucking",
+    "type": "phrase",
+    "term": "fucking",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "pinche; chingado; bien (enfático)",
+    "def": "very strong intensifier",
+    "ex": [
+      {
+        "en": "It's [fucking] freezing out here.",
+        "es": "Hace un pinche frío aquí afuera."
+      },
+      {
+        "en": "That was a [fucking] great show.",
+        "es": "Fue un show bien chingón."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Enfatizar emoción positiva o negativa.",
+    "tone_es": "Muy fuerte; coloquial.",
+    "situations_es": "Puede ser elogio o queja.",
+    "softer": "really",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-shit",
+    "type": "phrase",
+    "term": "shit",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "mierda; madres; cosas",
+    "def": "slang for stuff, or an exclamation",
+    "ex": [
+      {
+        "en": "I have a lot of [shit] to do today.",
+        "es": "Tengo un montón de cosas por hacer hoy."
+      },
+      {
+        "en": "Oh [shit], I forgot the keys!",
+        "es": "¡Ay, caray, olvidé las llaves!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Referirte a cosas o exclamar.",
+    "tone_es": "Vulgar pero cotidiano en inglés. Evita con jefes o clientes.",
+    "situations_es": "Dos usos: «cosas» («my shit» = mis cosas) y exclamación de problema.",
+    "softer": "stuff",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-i-dont-give-a-shit",
+    "type": "phrase",
+    "term": "I don't give a shit",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "me vale madres; me importa un comino",
+    "def": "I don't care at all",
+    "ex": [
+      {
+        "en": "I [don't give a shit] what they think.",
+        "es": "Me vale madres lo que piensen."
+      },
+      {
+        "en": "Honestly, [I don't give a shit].",
+        "es": "La neta me vale madres."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Mostrar desprecio total.",
+    "tone_es": "Desdén total; con amigos puede ser desahogo.",
+    "situations_es": "Alguien te presiona por una opinión ajena y respondes con rabia.",
+    "softer": "I don't care.",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-i-dont-give-a-damn",
+    "type": "phrase",
+    "term": "I don't give a damn",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "me importa un cacahuate; no me importa",
+    "def": "I don't care at all, milder",
+    "ex": [
+      {
+        "en": "I [don't give a damn] about the rules.",
+        "es": "Me importa un cacahuate el reglamento."
+      },
+      {
+        "en": "She doesn't [give a damn].",
+        "es": "A ella le importa un cacahuate."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Decir que algo no te importa.",
+    "tone_es": "Menos fuerte que la versión con «shit»; dramático.",
+    "situations_es": "Dicho con calma suena frío; dicho gritando, desahogo.",
+    "softer": "I don't care.",
+    "goal": "both"
+  },
+  {
+    "id": "phr-pain-in-the-ass",
+    "type": "phrase",
+    "term": "pain in the ass",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "una lata; un fastidio; un dolor de cabeza",
+    "def": "someone or something very annoying",
+    "ex": [
+      {
+        "en": "This form is a [pain in the ass].",
+        "es": "Este formulario es un fastidio."
+      },
+      {
+        "en": "My neighbor is a [pain in the ass].",
+        "es": "Mi vecino es una lata."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Quejarte de algo molesto.",
+    "tone_es": "Soez pero común; se aplica a personas, trámites o situaciones.",
+    "situations_es": "Una burocracia lenta, un vecino ruidoso o una tarea tediosa.",
+    "softer": "pain in the neck",
+    "goal": "both"
+  },
+  {
+    "id": "phr-get-your-shit-together",
+    "type": "phrase",
+    "term": "get your shit together",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "ponte las pilas; acomódate",
+    "def": "organize your life and act responsibly",
+    "ex": [
+      {
+        "en": "Time to [get your shit together].",
+        "es": "Es hora de ponerte las pilas."
+      },
+      {
+        "en": "He needs to [get his shit together].",
+        "es": "Necesita acomodarse."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Exigir madurez.",
+    "tone_es": "Crudo; motivación brusca o regaño.",
+    "situations_es": "Un amigo te lo dice cuando llevas semanas desordenado. También en equipos deportivos.",
+    "softer": "get organized",
+    "goal": "both"
+  },
+  {
+    "id": "phr-no-shit",
+    "type": "phrase",
+    "term": "no shit",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "no me digas; obvio; ¿en serio?",
+    "def": "sarcastic or surprised reaction",
+    "ex": [
+      {
+        "en": "\"It's raining.\" \"[No shit].\"",
+        "es": "—Está lloviendo. —No me digas."
+      },
+      {
+        "en": "[No shit]? You met him?",
+        "es": "¿En serio? ¿Lo conociste?"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Mostrar sarcasmo o asombro.",
+    "tone_es": "Sarcástico o sorprendido; muy informal.",
+    "situations_es": "«No shit?» con interrogación = «¿en serio?». «No shit.» con punto = «obvio».",
+    "softer": "really?",
+    "goal": "understand",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-trash-talk",
+    "type": "phrase",
+    "term": "trash talk",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "echar carrilla; provocar con insultos",
+    "def": "insulting talk to provoke opponents",
+    "ex": [
+      {
+        "en": "They [trash talk] before every game.",
+        "es": "Se echan carrilla antes de cada partido."
+      },
+      {
+        "en": "He loves to [trash talk] online.",
+        "es": "Le encanta provocar en línea."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir provocaciones en deporte o juegos.",
+    "tone_es": "Provocación de deportes o juegos; puede ser amistoso o tóxico.",
+    "situations_es": "Antes de un partido o en el chat de un videojuego. Si pasa a insultos personales, deja de ser juego.",
+    "softer": "tease",
+    "goal": "both"
+  },
+  {
+    "id": "pv-bad-mouth",
+    "type": "phrasal",
+    "term": "bad-mouth",
+    "ipa": "/ˈbæd maʊð/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "hablar mal de alguien",
+    "def": "to say bad things about someone",
+    "sep": false,
+    "ex": [
+      {
+        "en": "Don't [bad-mouth] your boss.",
+        "es": "No hables mal de tu jefe."
+      },
+      {
+        "en": "She [bad-mouth]ed her ex.",
+        "es": "Habló mal de su ex."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Quejarte de alguien a sus espaldas.",
+    "tone_es": "Feo pero común; implica hablar a espaldas.",
+    "situations_es": "«Don't bad-mouth your boss» = no hables mal de él. Puede ser desahogo normal o chisme dañino.",
+    "softer": "criticize",
+    "goal": "both"
+  },
+  {
+    "id": "phr-hater",
+    "type": "phrase",
+    "term": "hater",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "envidioso; hater",
+    "def": "someone who criticizes out of jealousy",
+    "ex": [
+      {
+        "en": "Ignore the [haters].",
+        "es": "Ignora a los envidiosos."
+      },
+      {
+        "en": "She has [hater]s online.",
+        "es": "Tiene haters en línea."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Descalificar críticas con humor.",
+    "tone_es": "Informal; descalifica a quien critica. Puede ser defensa o burla.",
+    "situations_es": "Celebridades o gente en redes llama «haters» a sus críticos, justos o no.",
+    "softer": "critic",
+    "goal": "both"
+  },
+  {
+    "id": "phr-dude",
+    "type": "phrase",
+    "term": "dude",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "güey; wey; compa",
+    "def": "friendly way to address a person",
+    "ex": [
+      {
+        "en": "[Dude], that was amazing!",
+        "es": "¡Güey, eso estuvo increíble!"
+      },
+      {
+        "en": "Hey [dude], wait up!",
+        "es": "¡Oye, güey, espérame!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Dirigirte a alguien con confianza.",
+    "tone_es": "Camaradería informal. Equivale al «güey» amistoso; no es insulto.",
+    "situations_es": "Se usa para llamar la atención, expresar asombro («Dude!») o mostrar acuerdo. Entre mujeres también se oye.",
+    "softer": "man",
+    "goal": "both"
+  },
+  {
+    "id": "phr-bro",
+    "type": "phrase",
+    "term": "bro",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "carnal; hermano; compa",
+    "def": "friendly way to address a male friend",
+    "ex": [
+      {
+        "en": "[Bro], that's awesome!",
+        "es": "¡Carnal, qué chido!"
+      },
+      {
+        "en": "Thanks for the ride, [bro].",
+        "es": "Gracias por el aventón, compa."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar camaradería.",
+    "tone_es": "Camaradería informal; a veces irónica («bro culture»).",
+    "situations_es": "Entre amigos; si lo dice un desconocido con tono condescendiente puede sonar a falta de respeto.",
+    "softer": "friend",
+    "goal": "both"
+  },
+  {
+    "id": "phr-oh-man",
+    "type": "phrase",
+    "term": "oh man",
+    "level": "A2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "ay, güey; ay, no",
+    "def": "exclamation of frustration or disappointment",
+    "ex": [
+      {
+        "en": "[Oh man], I missed the bus again.",
+        "es": "Ay, güey, perdí el camión otra vez."
+      },
+      {
+        "en": "[Oh man], this is bad.",
+        "es": "Ay, no, esto está mal."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar frustración.",
+    "tone_es": "Desahogo suave y común.",
+    "situations_es": "Frustración leve, decepción o sorpresa. No es insulto.",
+    "softer": "oh no",
+    "goal": "both"
+  },
+  {
+    "id": "phr-buddy",
+    "type": "phrase",
+    "term": "buddy",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "amigo; compadre; (tono amenazante) amigo",
+    "def": "friendly or warning term for a person",
+    "ex": [
+      {
+        "en": "Hey [buddy], how's it going?",
+        "es": "Oye compadre, ¿cómo va todo?"
+      },
+      {
+        "en": "Listen, [buddy], you're in the wrong place.",
+        "es": "Mira, amigo, estás en el lugar equivocado."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Dirigirte con confianza o advertir.",
+    "tone_es": "Cambia radicalmente según el tono: cariño, condescendencia o amenaza.",
+    "situations_es": "«Hey, buddy!» es saludo; «Listen, buddy…» anuncia una advertencia.",
+    "softer": "friend",
+    "goal": "both"
+  },
+  {
+    "id": "phr-homie",
+    "type": "phrase",
+    "term": "homie",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "carnal; compa",
+    "def": "close friend, slang",
+    "ex": [
+      {
+        "en": "He's my [homie].",
+        "es": "Es mi carnal."
+      },
+      {
+        "en": "Hey, [homie], long time no see!",
+        "es": "¡Qué onda, compa, cuánto tiempo!"
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Referirte a un amigo cercano.",
+    "tone_es": "Callejero y amistoso; informal.",
+    "situations_es": "Referirse a un amigo muy cercano. En Mx equivale a «carnal».",
+    "softer": "close friend",
+    "goal": "both"
+  },
+  {
+    "id": "phr-lucky-bastard",
+    "type": "phrase",
+    "term": "lucky bastard",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "suertudo; cabrón con suerte",
+    "def": "someone who is lucky, said with friendly envy",
+    "ex": [
+      {
+        "en": "You won again? [Lucky bastard]!",
+        "es": "¿Ganaste otra vez? ¡Suertudo!"
+      },
+      {
+        "en": "He's a [lucky bastard].",
+        "es": "Es un suertudo."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Admirar la suerte de alguien con humor.",
+    "tone_es": "Envidia amistosa entre amigos. Fuera de confianza es ofensivo.",
+    "situations_es": "Alguien gana un premio o consigue algo difícil. La palabra «bastard» pierde su carga negativa aquí.",
+    "softer": "lucky guy",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-asshole",
+    "type": "phrase",
+    "term": "asshole",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "culero; cabrón; pendejo",
+    "def": "a very rude or cruel person",
+    "ex": [
+      {
+        "en": "Don't be such an [asshole].",
+        "es": "No seas tan culero."
+      },
+      {
+        "en": "He's an [asshole] to everyone.",
+        "es": "Es un cabrón con todos."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Insultar a alguien por su actitud.",
+    "tone_es": "Insulto directo y fuerte. En broma entre amigos de confianza pierde peso, pero es riesgoso.",
+    "situations_es": "Describir a alguien cruel, maleducado o prepotente. Equivale a «culero» o «cabrón» en el sentido de mala persona.",
+    "softer": "rude person",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-jackass",
+    "type": "phrase",
+    "term": "jackass",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "pendejo; payaso",
+    "def": "a stupid or rude person",
+    "ex": [
+      {
+        "en": "What a [jackass].",
+        "es": "Qué pendejo."
+      },
+      {
+        "en": "He acted like a [jackass].",
+        "es": "Se portó como un payaso."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Insultar a alguien.",
+    "tone_es": "Fuerte pero a veces cariñoso; apunta a tonto o patán.",
+    "situations_es": "Se usa para alguien que hace tonterías o actúa con prepotencia.",
+    "softer": "fool",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-douchebag",
+    "type": "phrase",
+    "term": "douchebag",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "patán; naco; imbécil",
+    "def": "an arrogant, obnoxious person",
+    "ex": [
+      {
+        "en": "He's a [douchebag].",
+        "es": "Es un patán."
+      },
+      {
+        "en": "Stop being a [douchebag].",
+        "es": "Deja de ser un patán."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 2,
+    "explicit": false,
+    "intent_es": "Despreciar a alguien arrogante.",
+    "tone_es": "Insulto fuerte; se asocia con prepotencia y vanidad.",
+    "situations_es": "Alguien presumido, grosero o egoísta. En algunos círculos suena más suave que «asshole».",
+    "softer": "obnoxious person",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-son-of-a-bitch",
+    "type": "phrase",
+    "term": "son of a bitch",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "hijo de la chingada; hijo de su madre",
+    "def": "very strong insult for a person",
+    "ex": [
+      {
+        "en": "That [son of a bitch] cheated me.",
+        "es": "Ese hijo de la chingada me estafó."
+      },
+      {
+        "en": "[Son of a bitch], I spilled it!",
+        "es": "¡Chin, lo tiré!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Insultar a alguien o expresar frustración.",
+    "tone_es": "Insulto muy fuerte; también exclamación de frustración.",
+    "situations_es": "«That son of a bitch!» ataca a una persona; «Son of a bitch!» al derramar café, solo desahoga.",
+    "softer": "damn it",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-bastard",
+    "type": "phrase",
+    "term": "bastard",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "desgraciado; cabrón",
+    "def": "a cruel or unpleasant man",
+    "ex": [
+      {
+        "en": "He's a [bastard].",
+        "es": "Es un desgraciado."
+      },
+      {
+        "en": "That [bastard] lied to me.",
+        "es": "Ese desgraciado me mintió."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Insultar a un hombre.",
+    "tone_es": "Fuerte; puede ser insulto o broma entre amigos.",
+    "situations_es": "«You bastard!» puede ser enojo real o admiración divertida. «Poor bastard» = pobre diablo.",
+    "softer": "mean man",
+    "goal": "understand"
+  },
+  {
+    "id": "pv-bitch-about",
+    "type": "phrasal",
+    "term": "bitch about",
+    "ipa": "/bɪtʃ əˈbaʊt/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "quejarse de todo; chillar",
+    "def": "to complain a lot",
+    "ex": [
+      {
+        "en": "Stop [bitching about] the weather.",
+        "es": "Deja de quejarte del clima."
+      },
+      {
+        "en": "They [bitch about] work all day.",
+        "es": "Se quejan del trabajo todo el día."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Describir quejas constantes.",
+    "tone_es": "Vulgar; quejarse de todo. No lo uses con jefes.",
+    "situations_es": "Quejas constantes: «stop bitching about the weather». Ojo con el género: «bitch» como insulto a mujeres es ofensivo.",
+    "softer": "complain",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-bitchy",
+    "type": "phrase",
+    "term": "bitchy",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "grosero/a; de mala leche",
+    "def": "rude or in a bad mood",
+    "ex": [
+      {
+        "en": "She's being [bitchy] today.",
+        "es": "Está de mala leche hoy."
+      },
+      {
+        "en": "Don't be [bitchy].",
+        "es": "No seas grosera."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Criticar una actitud mala.",
+    "tone_es": "Soez y sexista en muchos contextos; hay quien lo evita.",
+    "situations_es": "Se aplica a alguien de mala leche o sarcástico. Puede ser una crítica injusta a mujeres.",
+    "softer": "grumpy",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-dick-move",
+    "type": "phrase",
+    "term": "dick move",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "una gandallada; una jugada ruin",
+    "def": "a selfish or unfair action",
+    "ex": [
+      {
+        "en": "That was a [dick move].",
+        "es": "Fue una gandallada."
+      },
+      {
+        "en": "Leaving without paying is a [dick move].",
+        "es": "Irse sin pagar es una ruindad."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Criticar un acto egoísta.",
+    "tone_es": "Vulgar; juzga la acción, no a toda la persona.",
+    "situations_es": "Dejar a un amigo tirado, romper un trato, hacer trampa. «Don't be a dick» es versión más fuerte.",
+    "softer": "unfair move",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-badass",
+    "type": "phrase",
+    "term": "badass",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "chingón; rudo; muy cool",
+    "def": "tough and impressive",
+    "ex": [
+      {
+        "en": "She's a [badass].",
+        "es": "Es una chingona."
+      },
+      {
+        "en": "That was a [badass] move.",
+        "es": "Fue un movimiento muy cool."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Elogiar a alguien impresionante.",
+    "tone_es": "Positivo pero soez; no es insulto.",
+    "situations_es": "Admiración hacia alguien valiente, rudo o muy hábil.",
+    "softer": "impressive",
+    "goal": "both"
+  },
+  {
+    "id": "phr-kick-ass",
+    "type": "phrase",
+    "term": "kick-ass",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "chingón; buenísimo",
+    "def": "very good or impressive",
+    "ex": [
+      {
+        "en": "That was a [kick-ass] concert.",
+        "es": "Ese concierto estuvo chingón."
+      },
+      {
+        "en": "She gave a [kick-ass] speech.",
+        "es": "Dio un discurso chingón."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Elogiar con fuerza.",
+    "tone_es": "Positivo y enérgico; vulgar suave.",
+    "situations_es": "Elogiar un concierto, una persona o una idea. «Kick someone's ass» es otro uso: golpear o ganar con claridad.",
+    "softer": "great",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-full-of-shit",
+    "type": "phrase",
+    "term": "full of shit",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "puro cuento; mentiroso",
+    "def": "lying or exaggerating",
+    "ex": [
+      {
+        "en": "He's [full of shit].",
+        "es": "Es puro cuento."
+      },
+      {
+        "en": "You're [full of shit], I saw you.",
+        "es": "Eres un mentiroso, te vi."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Acusar a alguien de mentir.",
+    "tone_es": "Acusación agresiva de mentir; entre amigos puede ser broma.",
+    "situations_es": "Alguien exagera o presume. «You're full of shit» no es un cumplido.",
+    "softer": "not honest",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-hell-yeah",
+    "type": "phrase",
+    "term": "hell yeah",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¡a huevo!; ¡claro que sí!",
+    "def": "strong yes",
+    "ex": [
+      {
+        "en": "[Hell yeah], let's go!",
+        "es": "¡A huevo, vámonos!"
+      },
+      {
+        "en": "[Hell yeah], I'm in.",
+        "es": "Claro que sí, me apunto."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Aceptar con emoción.",
+    "tone_es": "Entusiasta y enérgico; entre amigos y en deporte es normal. «Hell» lo vuelve informal: evítalo en una entrevista.",
+    "situations_es": "Aceptas un plan con emoción («¡a huevo!»). Si lo dices entre dientes y sin ganas, puede sonar sarcástico.",
+    "softer": "yes, absolutely",
+    "goal": "both"
+  },
+  {
+    "id": "phr-hell-no",
+    "type": "phrase",
+    "term": "hell no",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¡ni madres!; ¡para nada!",
+    "def": "strong no",
+    "ex": [
+      {
+        "en": "[Hell no], I'm not going.",
+        "es": "¡Ni madres, no voy!"
+      },
+      {
+        "en": "[Hell no], I'm not paying for that!",
+        "es": "¡Para nada, eso no lo pago!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Rechazar enfáticamente.",
+    "tone_es": "Rechazo rotundo pero no insultante; entre amigos puede ser broma. Con un jefe o cliente mejor «absolutely not».",
+    "situations_es": "Rechazas una propuesta absurda o peligrosa. También puede decirse riendo como reacción exagerada.",
+    "softer": "no way",
+    "goal": "both"
+  },
+  {
+    "id": "phr-like-hell",
+    "type": "phrase",
+    "term": "like hell",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "¡ni de chiste!; ¡claro que no!",
+    "def": "emphatic refusal",
+    "ex": [
+      {
+        "en": "[Like hell] I'll apologize!",
+        "es": "¡Ni de chiste pido perdón!"
+      },
+      {
+        "en": "[Like hell] you will.",
+        "es": "Claro que no lo harás."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Rechazar con firmeza.",
+    "tone_es": "Desafiante; suena a «¡que se atreva!». Informal fuerte.",
+    "situations_es": "Casi siempre va con un verbo: «like hell I will» = «ni de chiste lo haré». Si no hay verbo, puede ser incredulidad.",
+    "softer": "no way",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-hell-of-a",
+    "type": "phrase",
+    "term": "hell of a",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "un chingo de; todo un/a",
+    "def": "used to intensify, good or bad",
+    "ex": [
+      {
+        "en": "That was one [hell of a] party.",
+        "es": "Esa fue una fiestota."
+      },
+      {
+        "en": "He did a [hell of a] job.",
+        "es": "Hizo un trabajazo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Enfatizar algo.",
+    "tone_es": "Realza lo que viene después y suele sonar entusiasta; informal, pero no ofensivo.",
+    "situations_es": "«A hell of a job» es elogio; «a hell of a mess» es queja. La palabra que sigue define el sentido.",
+    "softer": "really great",
+    "goal": "both"
+  },
+  {
+    "id": "phr-damn-it",
+    "type": "phrase",
+    "term": "damn it",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "¡demonios!; ¡chin!",
+    "def": "expression of frustration",
+    "ex": [
+      {
+        "en": "[Damn it], I missed the train.",
+        "es": "¡Demonios, perdí el tren!"
+      },
+      {
+        "en": "[Damn it], not again.",
+        "es": "¡Chin, otra vez no!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Desahogar frustración.",
+    "tone_es": "Desahogo de molestia sin atacar a nadie; común entre adultos. Es más suave que «fuck».",
+    "situations_es": "Se te cae algo, pierdes un tren, fallas un examen. Entre amigos nadie se ofende; ante un cliente puede sonar poco profesional.",
+    "softer": "oh no",
+    "goal": "both"
+  },
+  {
+    "id": "phr-damn",
+    "type": "phrase",
+    "term": "damn",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¡guau!; ¡caray!",
+    "def": "reaction of surprise or admiration",
+    "ex": [
+      {
+        "en": "[Damn], you look great!",
+        "es": "¡Guau, te ves increíble!"
+      },
+      {
+        "en": "[Damn], that hurt.",
+        "es": "¡Caray, eso dolió!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Mostrar sorpresa.",
+    "tone_es": "Reacción corta y cotidiana; informal pero suave.",
+    "situations_es": "Ante un halago puede ser admiración («¡qué guapo!»); ante un golpe, dolor. El tono decide si es positivo o negativo.",
+    "softer": "wow",
+    "goal": "both"
+  },
+  {
+    "id": "phr-oh-crap",
+    "type": "phrase",
+    "term": "oh, crap",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "¡ay, caray!; ¡híjole!",
+    "def": "mild reaction to a problem",
+    "ex": [
+      {
+        "en": "[Oh, crap], I forgot my wallet.",
+        "es": "Ay, caray, olvidé mi cartera."
+      },
+      {
+        "en": "[Oh crap], he saw us.",
+        "es": "Híjole, nos vio."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Reaccionar a un error.",
+    "tone_es": "Suave; se oye incluso en películas familiares. Informal pero poco ofensivo.",
+    "situations_es": "Descubres un olvido o un error pequeño. Más cómico que grave.",
+    "softer": "oh no",
+    "goal": "both"
+  },
+  {
+    "id": "phr-were-screwed",
+    "type": "phrase",
+    "term": "we're screwed",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "estamos fregados; ya nos llevó la chingada",
+    "def": "we're in serious trouble",
+    "ex": [
+      {
+        "en": "If it rains, [we're screwed].",
+        "es": "Si llueve, estamos fregados."
+      },
+      {
+        "en": "I forgot the report. I'm [screwed].",
+        "es": "Olvidé el reporte. Estoy fregado."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": false,
+    "intent_es": "Describir una situación grave.",
+    "tone_es": "Dramático y franco; entre compañeros es normal, con un jefe puede sonar alarmista.",
+    "situations_es": "Un plazo vencido, un fallo en producción, una cuenta bancaria vacía. A veces es exageración con humor.",
+    "softer": "we're in trouble",
+    "goal": "both"
+  },
+  {
+    "id": "phr-fucked-up",
+    "type": "phrase",
+    "term": "fucked up",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "la cagué; está jodido",
+    "def": "ruined, messed up, or morally wrong",
+    "ex": [
+      {
+        "en": "I [fucked up] the order.",
+        "es": "La cagué con el pedido."
+      },
+      {
+        "en": "That's [fucked up].",
+        "es": "Eso está de la chingada."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Admitir un error o juzgar algo.",
+    "tone_es": "Muy fuerte. Como adjetivo («that's fucked up») juzga algo como moralmente mal o perturbador; como verbo («I fucked up») admite un error.",
+    "situations_es": "Dos sentidos distintos: «la cagué» (error propio) y «qué cosa tan retorcida» (juicio). El pronombre delante lo aclara.",
+    "softer": "messed up",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-shitty",
+    "type": "phrase",
+    "term": "shitty",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "gacho; de mala calidad",
+    "def": "very bad quality",
+    "ex": [
+      {
+        "en": "That was a [shitty] movie.",
+        "es": "Esa fue una película gacha."
+      },
+      {
+        "en": "I feel [shitty] today.",
+        "es": "Me siento gacho hoy."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Calificar algo como muy malo.",
+    "tone_es": "Soez pero común; equivale a «gacho». Evítalo con clientes.",
+    "situations_es": "Describir una película, un día o un servicio malo. «I feel shitty» = me siento mal, física o emocionalmente.",
+    "softer": "bad",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-crappy",
+    "type": "phrase",
+    "term": "crappy",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "chafa; de mala calidad",
+    "def": "of poor quality",
+    "ex": [
+      {
+        "en": "My phone is [crappy].",
+        "es": "Mi teléfono es chafa."
+      },
+      {
+        "en": "The service was [crappy].",
+        "es": "El servicio fue malo."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": true,
+    "intent_es": "Criticar calidad.",
+    "tone_es": "Menos fuerte que «shitty»; se oye hasta en medios de comunicación.",
+    "situations_es": "Producto o servicio de mala calidad («un celular chafa»). No suele ser insulto a una persona.",
+    "softer": "poor",
+    "goal": "both"
+  },
+  {
+    "id": "phr-trash",
+    "type": "phrase",
+    "term": "trash",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "una porquería; basura",
+    "def": "very bad, worthless",
+    "ex": [
+      {
+        "en": "That game is [trash].",
+        "es": "Ese juego es basura."
+      },
+      {
+        "en": "I felt like [trash].",
+        "es": "Me sentí como basura."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Descalificar algo.",
+    "tone_es": "Informal; puede ser burla o crítica. Aplicado a personas es hiriente.",
+    "situations_es": "«The game is trash» = es una porquería. «I feel like trash» = me siento fatal por dentro.",
+    "softer": "very bad",
+    "goal": "both"
+  },
+  {
+    "id": "phr-bullshitter",
+    "type": "phrase",
+    "term": "bullshitter",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "mentiroso; fanfarrón",
+    "def": "someone who lies or exaggerates",
+    "ex": [
+      {
+        "en": "He's a [bullshitter].",
+        "es": "Es un mentiroso."
+      },
+      {
+        "en": "Don't trust that [bullshitter].",
+        "es": "No confíes en ese fanfarrón."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 2,
+    "explicit": true,
+    "intent_es": "Acusar de fanfarronear.",
+    "tone_es": "Vulgar; puede ser burla entre amigos pero también acusación de mentir.",
+    "situations_es": "Alguien que exagera sus historias o miente sin pudor. Entre amigos puede ser un apodo cariñoso.",
+    "softer": "exaggerator",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-motherfucker",
+    "type": "phrase",
+    "term": "motherfucker",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "hijo de la chingada; pinche cabrón",
+    "def": "extremely strong insult",
+    "ex": [
+      {
+        "en": "That [motherfucker] stole my bike.",
+        "es": "Ese hijo de la chingada me robó la bici."
+      },
+      {
+        "en": "[Motherfucker], I'm late!",
+        "es": "¡Chingado, voy tarde!"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Insultar o desahogarte.",
+    "tone_es": "De lo más fuerte del inglés. Insulto directo; en otros contextos es exclamación de frustración o incluso admiración entre amigos.",
+    "situations_es": "Muy ambigua: puede ser «hijo de la chingada» (odio) o «¡cabrón!» (admiración o frustración). No la uses; reconócela.",
+    "softer": "damn it",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-kiss-my-ass",
+    "type": "phrase",
+    "term": "kiss my ass",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "vete a la chingada; bésame el trasero",
+    "def": "rude refusal",
+    "ex": [
+      {
+        "en": "You can [kiss my ass].",
+        "es": "Puedes irte a la chingada."
+      },
+      {
+        "en": "Tell him to [kiss my ass].",
+        "es": "Dile que se vaya a la chingada."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "vulgar",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Despreciar a alguien.",
+    "tone_es": "Desafío vulgar; equivale a mandar a alguien a la chingada.",
+    "situations_es": "Alguien te da una orden que rechazas con furia. Rara vez se dice en serio fuera de una pelea.",
+    "softer": "no way",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-kiss-and-make-up",
+    "type": "phrase",
+    "term": "kiss and make up",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "hacer las paces",
+    "def": "reconcile after a fight",
+    "ex": [
+      {
+        "en": "They [kissed and made up] quickly.",
+        "es": "Hicieron las paces rápido."
+      },
+      {
+        "en": "Let's [kiss and make up].",
+        "es": "Hagamos las paces."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Reconciliar.",
+    "tone_es": "Cálido y coloquial; sin groserías. A veces literal (un beso), casi siempre figurado.",
+    "situations_es": "Después de una discusión entre amigos o pareja. «Let's kiss and make up» suele decirse con humor.",
+    "softer": "reconcile",
+    "goal": "both"
+  },
+  {
+    "id": "phr-piece-of-shit",
+    "type": "phrase",
+    "term": "piece of shit",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "pedazo de mierda; basura",
+    "def": "extremely insulting term for a person or thing",
+    "ex": [
+      {
+        "en": "This car is a [piece of shit].",
+        "es": "Este coche es un pedazo de basura."
+      },
+      {
+        "en": "He is a [piece of shit].",
+        "es": "Es un pedazo de basura."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "vulgar"
+    ],
+    "register": "offensive",
+    "intensity": 3,
+    "explicit": true,
+    "intent_es": "Insultar o criticar.",
+    "tone_es": "Extremadamente insultante si va dirigido a una persona; para cosas es solo queja fuerte («este coche es un cacharro»).",
+    "situations_es": "Con un coche o aparato viejo es desahogo. Con una persona es un insulto de ruptura.",
+    "softer": "terrible",
+    "goal": "understand"
+  },
+  {
+    "id": "phr-im-so-done",
+    "type": "phrase",
+    "term": "I'm so done",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "ya no puedo más; hasta aquí llegué",
+    "def": "I've reached my limit",
+    "ex": [
+      {
+        "en": "I'm [so done] with this job.",
+        "es": "Ya no puedo más con este trabajo."
+      },
+      {
+        "en": "She's [so done] with his excuses.",
+        "es": "Ya está harta de sus excusas."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Expresar agotamiento.",
+    "tone_es": "Franco y cansado; no ofende a nadie. Informal.",
+    "situations_es": "Puede ser agotamiento puntual («ya no aguanto hoy») o decisión de rendirte («ya no más con este trabajo»).",
+    "softer": "I'm finished",
+    "goal": "both"
+  },
+  {
+    "id": "phr-i-cant-even",
+    "type": "phrase",
+    "term": "I can't even",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "no puedo con esto; me rebasa",
+    "def": "I'm overwhelmed",
+    "ex": [
+      {
+        "en": "I [can't even] right now.",
+        "es": "No puedo con esto ahorita."
+      },
+      {
+        "en": "[I can't even] believe it.",
+        "es": "Ni siquiera lo puedo creer."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Mostrar saturación.",
+    "tone_es": "Joven y expresivo; sin groserías.",
+    "situations_es": "Puede ser risa («¡no puedo, qué gracioso!») o agobio («esto me rebasa»). Se completa con el contexto o los emojis.",
+    "softer": "I'm overwhelmed",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-as-if-i-care",
+    "type": "phrase",
+    "term": "as if I care",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "como si me importara",
+    "def": "sarcastic dismissal",
+    "ex": [
+      {
+        "en": "[As if I care], go ahead.",
+        "es": "Como si me importara, adelante."
+      },
+      {
+        "en": "He left. [As if I care].",
+        "es": "Se fue. Como si me importara."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Decir que no te importa.",
+    "tone_es": "Sarcasmo defensivo; a veces esconde que sí te importa.",
+    "situations_es": "Alguien se va de un grupo y dices «as if I care». Entre amigos puede ser broma; en una pelea, desprecio.",
+    "softer": "I don't care",
+    "goal": "both"
+  },
+  {
+    "id": "phr-in-your-dreams",
+    "type": "phrase",
+    "term": "in your dreams",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "en tus sueños; sigue soñando",
+    "def": "it will never happen",
+    "ex": [
+      {
+        "en": "You'll beat me? [In your dreams]!",
+        "es": "¿Me vas a ganar? ¡En tus sueños!"
+      },
+      {
+        "en": "A date with her? [In your dreams].",
+        "es": "¿Una cita con ella? En tus sueños."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Burlarte de una ilusión.",
+    "tone_es": "Burlón y juguetón entre amigos; en un coqueteo no correspondido puede doler.",
+    "situations_es": "Retas a un amigo que presume que te ganará. Si alguien te pide una cita y respondes así, es rechazo.",
+    "softer": "no chance",
+    "goal": "both"
+  },
+  {
+    "id": "phr-nice-try",
+    "type": "phrase",
+    "term": "nice try",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "buen intento; ni lo sueñes",
+    "def": "your attempt failed or was obvious",
+    "ex": [
+      {
+        "en": "[Nice try], but I know the trick.",
+        "es": "Buen intento, pero conozco el truco."
+      },
+      {
+        "en": "[Nice try], buddy.",
+        "es": "Buen intento, amigo."
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Descartar con humor.",
+    "tone_es": "Ligero y burlón; reconoce el intento pero lo desestima.",
+    "situations_es": "Un compañero trata de colarte una broma o un truco. Con tono amable es juego; con voz plana, descarte.",
+    "softer": "good attempt",
+    "goal": "both"
+  },
+  {
+    "id": "phr-get-out-of-here",
+    "type": "phrase",
+    "term": "get out of here",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "¡no manches!; ¡no te creo!",
+    "def": "expressing disbelief or playful surprise",
+    "ex": [
+      {
+        "en": "You met him? [Get out of here]!",
+        "es": "¿Lo conociste? ¡No manches!"
+      },
+      {
+        "en": "[Get out]! That's incredible.",
+        "es": "¡No inventes! Es increíble."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Mostrar asombro.",
+    "tone_es": "Incredulidad amistosa; suena simpático. Informal.",
+    "situations_es": "Alguien te cuenta algo sorprendente. Ojo: si lo dices en serio y con el brazo extendido, también puede ser «lárgate».",
+    "softer": "no way",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-youre-something-else",
+    "type": "phrase",
+    "term": "you're something else",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "eres único; eres de lo que no hay",
+    "def": "can be admiring or annoyed",
+    "ex": [
+      {
+        "en": "Wow, you're [something else].",
+        "es": "Guau, eres único."
+      },
+      {
+        "en": "[You're something else], you know that?",
+        "es": "Eres de lo que no hay, ¿sabes?"
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Elogiar o criticar.",
+    "tone_es": "Ambigua por diseño: admiración o exasperación según el tono.",
+    "situations_es": "Con una sonrisa y voz suave: «eres único». Con un suspiro y ojos en blanco: «no te soporto». Depende de la cara.",
+    "softer": "unique",
+    "goal": "both"
+  },
+  {
+    "id": "phr-interesting-choice",
+    "type": "phrase",
+    "term": "interesting choice",
+    "level": "C1",
+    "topic": "social",
+    "freq": 3,
+    "es": "interesante elección (no me convence)",
+    "def": "polite criticism",
+    "ex": [
+      {
+        "en": "That's an [interesting choice].",
+        "es": "Esa es una elección interesante."
+      },
+      {
+        "en": "[Interesting choice] of shoes.",
+        "es": "Interesante elección de zapatos."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Criticar con cortesía.",
+    "tone_es": "Educada por fuera, crítica por dentro. Muy común en inglés británico y de oficina.",
+    "situations_es": "Alguien enseña un diseño, un peinado o una decisión que no te convence. Equivale a «no sé si me gusta».",
+    "softer": "I'm not sure about that",
+    "goal": "both"
+  },
+  {
+    "id": "phr-dont-get-me-started",
+    "type": "phrase",
+    "term": "don't get me started",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "ni me hagas hablar; no me pongas a hablar",
+    "def": "I have many complaints",
+    "ex": [
+      {
+        "en": "[Don't get me started] on traffic.",
+        "es": "No me hagas hablar del tráfico."
+      },
+      {
+        "en": "[Don't get me started]!",
+        "es": "¡No me pongas a hablar!"
+      }
+    ],
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Avisar que tienes mucho que decir.",
+    "tone_es": "Ligero.",
+    "situations_es": "Puede ser humor o queja.",
+    "softer": "I could talk for hours",
+    "goal": "both"
+  },
+  {
+    "id": "phr-its-fine",
+    "type": "phrase",
+    "term": "it's fine",
+    "level": "A2",
+    "topic": "feelings",
+    "freq": 5,
+    "es": "está bien (sí está mal); no pasa nada",
+    "def": "can mean it's okay or the opposite",
+    "ex": [
+      {
+        "en": "It's [fine], really.",
+        "es": "Está bien, en serio."
+      },
+      {
+        "en": "\"Are you mad?\" \"No, [it's fine].\"",
+        "es": "—¿Estás enojada? —No, está bien."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Evitar conflicto o aceptar.",
+    "tone_es": "Ambiguo.",
+    "situations_es": "Puede significar lo contrario.",
+    "softer": "it's okay",
+    "goal": "both"
+  },
+  {
+    "id": "phr-if-you-say-so",
+    "type": "phrase",
+    "term": "if you say so",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "si tú lo dices; ajá",
+    "def": "I don't really believe you",
+    "ex": [
+      {
+        "en": "Sure, [if you say so].",
+        "es": "Claro, si tú lo dices."
+      },
+      {
+        "en": "[If you say so], boss.",
+        "es": "Si tú lo dices, jefe."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Mostrar escepticismo.",
+    "tone_es": "Pasivo-agresivo.",
+    "situations_es": "Casi siempre escéptico.",
+    "softer": "I doubt it",
+    "goal": "both"
+  },
+  {
+    "id": "phr-per-my-last-email",
+    "type": "phrase",
+    "term": "per my last email",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "como ya te dije en mi correo anterior",
+    "def": "polite but passive-aggressive reminder",
+    "ex": [
+      {
+        "en": "As [per my last email], the deadline is Friday.",
+        "es": "Como ya te dije en mi correo anterior, la fecha es el viernes."
+      },
+      {
+        "en": "[Per my last email], please check.",
+        "es": "Según mi correo anterior, revisa por favor."
+      }
+    ],
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Recordar con reproche.",
+    "tone_es": "Corporativo; suena molesto.",
+    "situations_es": "Muchas veces sarcástico.",
+    "softer": "As I mentioned before",
+    "goal": "both"
+  },
+  {
+    "id": "phr-thanks-for-nothing",
+    "type": "phrase",
+    "term": "thanks for nothing",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "gracias por nada",
+    "def": "sarcastic complaint",
+    "ex": [
+      {
+        "en": "[Thanks for nothing], you didn't help.",
+        "es": "Gracias por nada, no ayudaste."
+      },
+      {
+        "en": "[Thanks for nothing], pal.",
+        "es": "Gracias por nada, amigo."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Reprochar una ayuda inexistente.",
+    "tone_es": "Hostil.",
+    "situations_es": "Siempre sarcástico.",
+    "softer": "that wasn't helpful",
+    "goal": "both"
+  },
+  {
+    "id": "phr-im-not-mad-im-just-disappointed",
+    "type": "phrase",
+    "term": "I'm not mad, I'm just disappointed",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "no estoy enojado, estoy decepcionado",
+    "def": "I'm sad because you let me down",
+    "ex": [
+      {
+        "en": "I'm [not mad, I'm just disappointed].",
+        "es": "No estoy enojada, solo decepcionada."
+      },
+      {
+        "en": "He said he wasn't [mad, just disappointed].",
+        "es": "Dijo que no estaba enojado, solo decepcionado."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Hacer sentir culpa.",
+    "tone_es": "Familiar.",
+    "situations_es": "Puede doler más que el enojo.",
+    "softer": "I'm disappointed",
+    "goal": "both"
+  },
+  {
+    "id": "phr-chemistry",
+    "type": "phrase",
+    "term": "chemistry",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "química; conexión",
+    "def": "natural attraction",
+    "ex": [
+      {
+        "en": "They have great [chemistry].",
+        "es": "Tienen buena química."
+      },
+      {
+        "en": "We had no [chemistry].",
+        "es": "No teníamos química."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Describir atracción.",
+    "tone_es": "Neutral.",
+    "situations_es": "Puede ser romántico o profesional.",
+    "softer": "connection",
+    "goal": "both"
+  },
+  {
+    "id": "phr-wingman",
+    "type": "phrase",
+    "term": "wingman",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "el compa que te ayuda a ligar",
+    "def": "a friend who helps you meet someone",
+    "ex": [
+      {
+        "en": "I need a [wingman] tonight.",
+        "es": "Necesito un compa que me ayude esta noche."
+      },
+      {
+        "en": "He's the best [wingman] ever.",
+        "es": "Es el mejor compa para ligar."
+      }
+    ],
+    "areas": [
+      "relaciones",
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Pedir apoyo social.",
+    "tone_es": "Amistoso.",
+    "situations_es": "Puede ser humorístico.",
+    "softer": "friend",
+    "goal": "both"
+  },
+  {
+    "id": "phr-gong-show",
+    "type": "phrase",
+    "term": "gong show",
+    "level": "C1",
+    "topic": "canada",
+    "freq": 2,
+    "es": "un desmadre; un caos",
+    "def": "Canadian: a chaotic, messy situation",
+    "ex": [
+      {
+        "en": "The meeting was a total [gong show].",
+        "es": "La junta fue un desmadre total."
+      },
+      {
+        "en": "The airport was a [gong show].",
+        "es": "El aeropuerto era un caos."
+      }
+    ],
+    "areas": [
+      "canada",
+      "conversacion"
+    ],
+    "tags": [
+      "ca",
+      "tv",
+      "slang",
+      "informal"
+    ],
+    "register": "slang",
+    "intensity": 1,
+    "explicit": false,
+    "intent_es": "Describir caos.",
+    "tone_es": "Informal canadiense.",
+    "situations_es": "Se entiende por el contexto.",
+    "softer": "mess",
+    "goal": "both",
+    "confidence": "low"
+  },
+  {
+    "id": "phr-bud",
+    "type": "phrase",
+    "term": "bud",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 3,
+    "es": "amigo; compa",
+    "def": "friendly term in Canada",
+    "ex": [
+      {
+        "en": "Thanks for the help, [bud].",
+        "es": "Gracias por la ayuda, compa."
+      },
+      {
+        "en": "Hey [bud], how's it going?",
+        "es": "Oye, amigo, ¿cómo va?"
+      }
+    ],
+    "areas": [
+      "canada",
+      "conversacion"
+    ],
+    "tags": [
+      "ca",
+      "tv",
+      "informal"
+    ],
+    "register": "informal",
+    "intensity": 0,
+    "explicit": false,
+    "intent_es": "Dirigirse con confianza.",
+    "tone_es": "Amistoso.",
+    "situations_es": "A veces con tono condescendiente.",
+    "softer": "friend",
+    "goal": "both"
+  }
+]

@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "col-carry-out-a-study",
+    "type": "collocation",
+    "term": "carry out a study",
+    "level": "B2",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "llevar a cabo un estudio",
+    "def": "to do a planned piece of research",
+    "note": "Verbo formal de ciencia: \"carry out\" + study / experiment / survey. Más natural en artículos que \"make a study\".",
+    "ex": [
+      {
+        "en": "We [carried out a study] on local bird populations.",
+        "es": "Llevamos a cabo un estudio sobre las poblaciones locales de aves."
+      },
+      {
+        "en": "Researchers will [carry out a study] next spring.",
+        "es": "Los investigadores llevarán a cabo un estudio la próxima primavera."
+      }
+    ]
+  },
+  {
+    "id": "col-collect-samples",
+    "type": "collocation",
+    "term": "collect samples",
+    "level": "B2",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "recolectar muestras",
+    "def": "to gather small amounts of material for testing",
+    "note": "\"Sample\" es muestra. También \"take samples\" (tomar). Pasado: \"collected\". Usa \"collect\" con muestras de campo.",
+    "ex": [
+      {
+        "en": "We [collected samples] from three different lakes.",
+        "es": "Recolectamos muestras de tres lagos diferentes."
+      },
+      {
+        "en": "She [collects samples] of soil every week.",
+        "es": "Ella recolecta muestras de suelo cada semana."
+      }
+    ]
+  },
+  {
+    "id": "col-conduct-an-experiment",
+    "type": "collocation",
+    "term": "conduct an experiment",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "realizar un experimento",
+    "def": "to organize and carry out a scientific test",
+    "note": "\"Conduct\" es más formal que \"do\". En inglés académico: \"conduct research / an experiment\".",
+    "ex": [
+      {
+        "en": "The team will [conduct an experiment] next week.",
+        "es": "El equipo realizará un experimento la próxima semana."
+      },
+      {
+        "en": "Students [conducted an experiment] on plant growth.",
+        "es": "Los estudiantes realizaron un experimento sobre el crecimiento de las plantas."
+      }
+    ]
+  },
+  {
+    "id": "voc-sample-size",
+    "type": "vocab",
+    "term": "sample size",
+    "ipa": "/ˈsæmpl saɪz/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "datos"
+    ],
+    "es": "tamaño de la muestra",
+    "def": "the number of items or people studied",
+    "note": "\"Small sample size\" = muestra pequeña. Importante para confiar en los resultados.",
+    "ex": [
+      {
+        "en": "The [sample size] was too small to be sure.",
+        "es": "El tamaño de la muestra era demasiado pequeño para estar seguros."
+      },
+      {
+        "en": "A larger [sample size] gives better results.",
+        "es": "Un tamaño de muestra mayor da mejores resultados."
+      }
+    ]
+  },
+  {
+    "id": "voc-control-group",
+    "type": "vocab",
+    "term": "control group",
+    "ipa": "/kənˈtroʊl ɡruːp/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "grupo de control",
+    "def": "a group that does not receive the treatment being tested",
+    "note": "Se compara con el \"experimental group\". Permite saber si el tratamiento causa el efecto.",
+    "ex": [
+      {
+        "en": "The [control group] received no treatment.",
+        "es": "El grupo de control no recibió tratamiento."
+      },
+      {
+        "en": "We compared the results with the [control group].",
+        "es": "Comparamos los resultados con el grupo de control."
+      }
+    ]
+  },
+  {
+    "id": "voc-specimen",
+    "type": "vocab",
+    "term": "specimen",
+    "ipa": "/ˈspesɪmən/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "espécimen; muestra de ejemplar",
+    "def": "one animal, plant or sample used for study",
+    "note": "Plural: \"specimens\". Se usa en museos y laboratorios.",
+    "ex": [
+      {
+        "en": "The museum keeps a rare [specimen] of this beetle.",
+        "es": "El museo conserva un espécimen raro de este escarabajo."
+      },
+      {
+        "en": "We labeled each [specimen] carefully.",
+        "es": "Etiquetamos cada espécimen con cuidado."
+      }
+    ]
+  },
+  {
+    "id": "voc-microscope",
+    "type": "vocab",
+    "term": "microscope",
+    "ipa": "/ˈmaɪkrəskoʊp/",
+    "level": "A2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "microscopio",
+    "def": "a tool that makes very small things look bigger",
+    "note": "Acento en la primera sílaba. \"Under the microscope\" = bajo el microscopio.",
+    "ex": [
+      {
+        "en": "We looked at the cells under a [microscope].",
+        "es": "Vimos las células bajo un microscopio."
+      },
+      {
+        "en": "The [microscope] needs better light.",
+        "es": "El microscopio necesita mejor luz."
+      }
+    ]
+  },
+  {
+    "id": "voc-petri-dish",
+    "type": "vocab",
+    "term": "petri dish",
+    "ipa": "/ˈpiːtri dɪʃ/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "caja de Petri",
+    "def": "a small round dish used to grow cells or bacteria",
+    "note": "Se escribe \"Petri dish\" con P mayúscula por el apellido. Plural: \"Petri dishes\".",
+    "ex": [
+      {
+        "en": "The bacteria grew in the [petri dish].",
+        "es": "Las bacterias crecieron en la caja de Petri."
+      },
+      {
+        "en": "Wash the [petri dish] before the test.",
+        "es": "Lava la caja de Petri antes de la prueba."
+      }
+    ]
+  },
+  {
+    "id": "col-lab-coat",
+    "type": "collocation",
+    "term": "lab coat",
+    "level": "A2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "bata de laboratorio",
+    "def": "a white coat worn to protect clothes in a lab",
+    "note": "Se pronuncia \"lab\" /læb/. Alternativa: \"laboratory coat\". No es \"bata de baño\".",
+    "ex": [
+      {
+        "en": "Put on your [lab coat] and gloves.",
+        "es": "Ponte tu bata de laboratorio y los guantes."
+      },
+      {
+        "en": "He forgot his [lab coat] at home.",
+        "es": "Olvidó su bata de laboratorio en casa."
+      }
+    ]
+  },
+  {
+    "id": "voc-pipette",
+    "type": "vocab",
+    "term": "pipette",
+    "ipa": "/paɪˈpet/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "pipeta",
+    "def": "a small tube used to measure and move liquid",
+    "note": "Se pronuncia \"pai-PET\". Suelen usarse en laboratorios para pequeñas cantidades.",
+    "ex": [
+      {
+        "en": "Use a [pipette] to add two milliliters.",
+        "es": "Usa una pipeta para añadir dos mililitros."
+      },
+      {
+        "en": "She filled the [pipette] carefully.",
+        "es": "Ella llenó la pipeta con cuidado."
+      }
+    ]
+  },
+  {
+    "id": "col-camera-trap",
+    "type": "collocation",
+    "term": "camera trap",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "cámara trampa",
+    "def": "a camera that takes photos when an animal moves",
+    "note": "Se usa para estudiar animales sin molestarlos. Plural: \"camera traps\".",
+    "ex": [
+      {
+        "en": "We placed a [camera trap] near the stream.",
+        "es": "Colocamos una cámara trampa cerca del arroyo."
+      },
+      {
+        "en": "The [camera trap] caught a fox at night.",
+        "es": "La cámara trampa captó un zorro de noche."
+      }
+    ]
+  },
+  {
+    "id": "col-field-work",
+    "type": "collocation",
+    "term": "field work",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "trabajo de campo",
+    "def": "research done outside the lab, in nature",
+    "note": "También \"fieldwork\" (una palabra). \"Do fieldwork\" = hacer trabajo de campo.",
+    "ex": [
+      {
+        "en": "She does [field work] in the mountains every summer.",
+        "es": "Ella hace trabajo de campo en las montañas cada verano."
+      },
+      {
+        "en": "The [field work] begins in May.",
+        "es": "El trabajo de campo comienza en mayo."
+      }
+    ]
+  },
+  {
+    "id": "col-field-notes",
+    "type": "collocation",
+    "term": "field notes",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "notas de campo",
+    "def": "notes written while observing in nature",
+    "note": "Siempre en plural. Incluyen fecha, lugar, clima y observaciones.",
+    "ex": [
+      {
+        "en": "I wrote everything in my [field notes].",
+        "es": "Escribí todo en mis notas de campo."
+      },
+      {
+        "en": "Her [field notes] include sketches of the birds.",
+        "es": "Sus notas de campo incluyen bocetos de las aves."
+      }
+    ]
+  },
+  {
+    "id": "col-field-site",
+    "type": "collocation",
+    "term": "field site",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "sitio de estudio (en campo)",
+    "def": "the outdoor place where a study is done",
+    "note": "También \"study site\". Se pregunta: \"Where's your field site?\"",
+    "ex": [
+      {
+        "en": "Our [field site] is near a wetland.",
+        "es": "Nuestro sitio de estudio está cerca de un humedal."
+      },
+      {
+        "en": "We drove to the [field site] at dawn.",
+        "es": "Fuimos al sitio de estudio al amanecer."
+      }
+    ]
+  },
+  {
+    "id": "col-take-measurements",
+    "type": "collocation",
+    "term": "take measurements",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "tomar medidas",
+    "def": "to measure things during research",
+    "note": "\"Measurement\" es medida. Verbo: \"measure\". Se dice \"take\", no \"do\".",
+    "ex": [
+      {
+        "en": "We [took measurements] every morning.",
+        "es": "Tomamos medidas cada mañana."
+      },
+      {
+        "en": "Please [take measurements] of each leaf.",
+        "es": "Por favor toma medidas de cada hoja."
+      }
+    ]
+  },
+  {
+    "id": "pv-break-down-4",
+    "type": "phrasal",
+    "term": "break down",
+    "ipa": "/ˌbreɪk ˈdaʊn/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "descomponer; degradar",
+    "def": "to separate into smaller parts or simple substances",
+    "note": "Ejemplo: \"Fungi break down organic matter.\" Con enzimas, bacterias, químicos. Ya hay otros sentidos de break down.",
+    "sep": true,
+    "ex": [
+      {
+        "en": "Fungi [break down] organic matter in the soil.",
+        "es": "Los hongos descomponen la materia orgánica del suelo."
+      },
+      {
+        "en": "Enzymes [break down] food into small molecules.",
+        "es": "Las enzimas descomponen los alimentos en moléculas pequeñas."
+      }
+    ]
+  },
+  {
+    "id": "pv-die-out",
+    "type": "phrasal",
+    "term": "die out",
+    "ipa": "/ˌdaɪ ˈaʊt/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "extinguirse; desaparecer",
+    "def": "to disappear completely from a place or from the world",
+    "note": "Intransitivo: \"Some species may die out.\" Con \"die off\" = morir muchos, no todos.",
+    "ex": [
+      {
+        "en": "Some species may [die out] if the habitat disappears.",
+        "es": "Algunas especies podrían extinguirse si desaparece el hábitat."
+      },
+      {
+        "en": "The language began to [die out] in the 1990s.",
+        "es": "La lengua empezó a desaparecer en los años noventa."
+      }
+    ]
+  },
+  {
+    "id": "pv-die-off",
+    "type": "phrasal",
+    "term": "die off",
+    "ipa": "/ˌdaɪ ˈɔːf/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "morir en gran número",
+    "def": "to die one after another, in large numbers",
+    "note": "\"Die out\" es desaparecer por completo; \"die off\" es morirse muchos. Se oye con plantas, peces y aves.",
+    "ex": [
+      {
+        "en": "Many fish [died off] after the temperature rose.",
+        "es": "Muchos peces murieron en gran número cuando subió la temperatura."
+      },
+      {
+        "en": "The plants [die off] each winter.",
+        "es": "Las plantas mueren cada invierno."
+      }
+    ]
+  },
+  {
+    "id": "voc-ecosystem",
+    "type": "vocab",
+    "term": "ecosystem",
+    "ipa": "/ˈiːkoʊsɪstəm/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "ecosistema",
+    "def": "a community of living things and their environment",
+    "note": "Plural: \"ecosystems\". Acento en la primera sílaba. \"Fragile ecosystem\" = ecosistema frágil.",
+    "ex": [
+      {
+        "en": "A wetland is a very rich [ecosystem].",
+        "es": "Un humedal es un ecosistema muy rico."
+      },
+      {
+        "en": "Pollution can damage the whole [ecosystem].",
+        "es": "La contaminación puede dañar todo el ecosistema."
+      }
+    ]
+  },
+  {
+    "id": "voc-habitat",
+    "type": "vocab",
+    "term": "habitat",
+    "ipa": "/ˈhæbɪtæt/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "hábitat",
+    "def": "the natural home of a plant or animal",
+    "note": "Plural: \"habitats\". Acento en la primera sílaba. \"Habitat loss\" = pérdida de hábitat.",
+    "ex": [
+      {
+        "en": "The frog's [habitat] is shrinking.",
+        "es": "El hábitat de la rana se está reduciendo."
+      },
+      {
+        "en": "Wetlands are important [habitats] for birds.",
+        "es": "Los humedales son hábitats importantes para las aves."
+      }
+    ]
+  },
+  {
+    "id": "col-habitat-loss",
+    "type": "collocation",
+    "term": "habitat loss",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "pérdida de hábitat",
+    "def": "the destruction of the place where a species lives",
+    "note": "Tema común en noticias ambientales. Se usa sin artículo: \"Habitat loss threatens many species.\"",
+    "ex": [
+      {
+        "en": "[Habitat loss] threatens many species.",
+        "es": "La pérdida de hábitat amenaza a muchas especies."
+      },
+      {
+        "en": "They are studying the effects of [habitat loss].",
+        "es": "Están estudiando los efectos de la pérdida de hábitat."
+      }
+    ]
+  },
+  {
+    "id": "voc-biodiversity",
+    "type": "vocab",
+    "term": "biodiversity",
+    "ipa": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "biodiversidad",
+    "def": "the variety of living things in an area",
+    "note": "Incontable. Acento en la 4.ª sílaba: bi-o-di-VER-si-ty. \"High biodiversity\" = alta biodiversidad.",
+    "ex": [
+      {
+        "en": "Rainforests have very high [biodiversity].",
+        "es": "Las selvas tienen una biodiversidad muy alta."
+      },
+      {
+        "en": "We must protect [biodiversity] for the future.",
+        "es": "Debemos proteger la biodiversidad para el futuro."
+      }
+    ]
+  },
+  {
+    "id": "voc-species",
+    "type": "vocab",
+    "term": "species",
+    "ipa": "/ˈspiːʃiːz/",
+    "level": "B1",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "especie",
+    "def": "a type of living thing",
+    "note": "Singular y plural son iguales: \"one species, two species\". Error típico: \"specie\".",
+    "ex": [
+      {
+        "en": "This [species] lives only in Alberta.",
+        "es": "Esta especie vive solo en Alberta."
+      },
+      {
+        "en": "Scientists found three new [species].",
+        "es": "Los científicos encontraron tres especies nuevas."
+      }
+    ]
+  },
+  {
+    "id": "col-endangered-species",
+    "type": "collocation",
+    "term": "endangered species",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "especie en peligro de extinción",
+    "def": "an animal or plant that may disappear forever",
+    "note": "Plural normal \"endangered species\". Contraste: \"extinct\" = ya desapareció.",
+    "ex": [
+      {
+        "en": "The wolf is an [endangered species] in this region.",
+        "es": "El lobo es una especie en peligro de extinción en esta región."
+      },
+      {
+        "en": "We need laws to protect [endangered species].",
+        "es": "Necesitamos leyes para proteger las especies en peligro de extinción."
+      }
+    ]
+  },
+  {
+    "id": "voc-invasive-species",
+    "type": "vocab",
+    "term": "invasive species",
+    "ipa": "/ɪnˈveɪsɪv ˈspiːʃiːz/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "especie invasora",
+    "def": "a non-native species that spreads and harms nature",
+    "note": "Aparece en noticias y proyectos de conservación. \"Invasive\" = que invade.",
+    "ex": [
+      {
+        "en": "[Invasive species] can harm local ecosystems.",
+        "es": "Las especies invasoras pueden dañar los ecosistemas locales."
+      },
+      {
+        "en": "The lake has an [invasive species] of mussel.",
+        "es": "El lago tiene una especie invasora de mejillón."
+      }
+    ]
+  },
+  {
+    "id": "voc-predator",
+    "type": "vocab",
+    "term": "predator",
+    "ipa": "/ˈpredətər/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "depredador",
+    "def": "an animal that hunts other animals",
+    "note": "\"Prey\" = presa. Plural: \"predators\". En cadena alimenticia: \"top predator\".",
+    "ex": [
+      {
+        "en": "The wolf is a top [predator] in this forest.",
+        "es": "El lobo es un depredador de alto nivel en este bosque."
+      },
+      {
+        "en": "Without [predators], the deer population grows quickly.",
+        "es": "Sin depredadores, la población de venados crece rápido."
+      }
+    ]
+  },
+  {
+    "id": "voc-prey",
+    "type": "vocab",
+    "term": "prey",
+    "ipa": "/preɪ/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "presa",
+    "def": "an animal that is hunted by another animal",
+    "note": "Incontable: \"prey\" no cambia en plural. Verbo: \"prey on\" = alimentarse de.",
+    "ex": [
+      {
+        "en": "The owl searched for [prey] at night.",
+        "es": "El búho buscó presa de noche."
+      },
+      {
+        "en": "Mice are common [prey] for hawks.",
+        "es": "Los ratones son presa común de los halcones."
+      }
+    ]
+  },
+  {
+    "id": "voc-food-chain",
+    "type": "vocab",
+    "term": "food chain",
+    "ipa": "/ˈfuːd tʃeɪn/",
+    "level": "B1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "cadena alimenticia",
+    "def": "the order in which living things eat each other",
+    "note": "También \"food web\" (red alimenticia, más compleja). \"At the top of the food chain.\"",
+    "ex": [
+      {
+        "en": "Plants are at the base of the [food chain].",
+        "es": "Las plantas están en la base de la cadena alimenticia."
+      },
+      {
+        "en": "Wolves sit at the top of the [food chain].",
+        "es": "Los lobos están en la cima de la cadena alimenticia."
+      }
+    ]
+  },
+  {
+    "id": "voc-organism",
+    "type": "vocab",
+    "term": "organism",
+    "ipa": "/ˈɔːrɡənɪzəm/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "organismo",
+    "def": "any living thing",
+    "note": "Plural: \"organisms\". \"Microorganism\" = microorganismo. Se pronuncia \"OR-guh-niz-um\".",
+    "ex": [
+      {
+        "en": "Bacteria are tiny [organisms].",
+        "es": "Las bacterias son organismos diminutos."
+      },
+      {
+        "en": "Every [organism] needs energy.",
+        "es": "Todo organismo necesita energía."
+      }
+    ]
+  },
+  {
+    "id": "voc-microorganism",
+    "type": "vocab",
+    "term": "microorganism",
+    "ipa": "/ˌmaɪkroʊˈɔːrɡənɪzəm/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "microorganismo",
+    "def": "a living thing too small to see without a microscope",
+    "note": "También \"microbe\". Incluye bacterias, hongos y virus según el contexto.",
+    "ex": [
+      {
+        "en": "The [microorganism] grows quickly in warm water.",
+        "es": "El microorganismo crece rápido en agua tibia."
+      },
+      {
+        "en": "Each [microorganism] was counted under the microscope.",
+        "es": "Cada microorganismo se contó bajo el microscopio."
+      }
+    ]
+  },
+  {
+    "id": "voc-photosynthesis",
+    "type": "vocab",
+    "term": "photosynthesis",
+    "ipa": "/ˌfoʊtoʊˈsɪnθəsɪs/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "fotosíntesis",
+    "def": "how plants use sunlight to make food",
+    "note": "Acento en la 3.ª sílaba: pho-to-SYN-the-sis. Lleva \"ph\" que suena /f/.",
+    "ex": [
+      {
+        "en": "Plants use [photosynthesis] to make sugar.",
+        "es": "Las plantas usan la fotosíntesis para producir azúcar."
+      },
+      {
+        "en": "[Photosynthesis] needs light, water and carbon dioxide.",
+        "es": "La fotosíntesis necesita luz, agua y dióxido de carbono."
+      }
+    ]
+  },
+  {
+    "id": "voc-nutrient",
+    "type": "vocab",
+    "term": "nutrient",
+    "ipa": "/ˈnuːtriənt/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "salud"
+    ],
+    "es": "nutriente",
+    "def": "a substance that living things need to grow",
+    "note": "Plural: \"nutrients\". En suelo: \"soil nutrients\".",
+    "ex": [
+      {
+        "en": "Plants take [nutrients] from the soil.",
+        "es": "Las plantas toman nutrientes del suelo."
+      },
+      {
+        "en": "The water was rich in [nutrients].",
+        "es": "El agua era rica en nutrientes."
+      }
+    ]
+  },
+  {
+    "id": "voc-organic-matter",
+    "type": "vocab",
+    "term": "organic matter",
+    "ipa": "/ɔːrˈɡænɪk ˈmætər/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "materia orgánica",
+    "def": "dead plants and animals in the soil",
+    "note": "Incontable. Ejemplo: \"Fungi break down organic matter.\" No significa \"alimento orgánico\".",
+    "ex": [
+      {
+        "en": "Fungi turn [organic matter] into nutrients.",
+        "es": "Los hongos convierten la materia orgánica en nutrientes."
+      },
+      {
+        "en": "The soil is full of [organic matter].",
+        "es": "El suelo está lleno de materia orgánica."
+      }
+    ]
+  },
+  {
+    "id": "voc-genome",
+    "type": "vocab",
+    "term": "genome",
+    "ipa": "/ˈdʒiːnoʊm/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "genoma",
+    "def": "all the genetic material of a living thing",
+    "note": "Pronunciación: \"JEE-nome\". Plural: \"genomes\". \"Sequence a genome\" = secuenciar un genoma.",
+    "ex": [
+      {
+        "en": "Scientists sequenced the whole [genome].",
+        "es": "Los científicos secuenciaron todo el genoma."
+      },
+      {
+        "en": "The [genome] of this plant is very large.",
+        "es": "El genoma de esta planta es muy grande."
+      }
+    ]
+  },
+  {
+    "id": "voc-mutation",
+    "type": "vocab",
+    "term": "mutation",
+    "ipa": "/mjuːˈteɪʃn/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "mutación",
+    "def": "a change in the genetic material of a cell",
+    "note": "Plural: \"mutations\". Verbo: \"mutate\". No siempre es negativa.",
+    "ex": [
+      {
+        "en": "A single [mutation] changed the color.",
+        "es": "Una sola mutación cambió el color."
+      },
+      {
+        "en": "Some [mutations] are harmless.",
+        "es": "Algunas mutaciones son inofensivas."
+      }
+    ]
+  },
+  {
+    "id": "voc-cell",
+    "type": "vocab",
+    "term": "cell",
+    "ipa": "/sel/",
+    "level": "A2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "célula",
+    "def": "the smallest living unit of an organism",
+    "note": "Se pronuncia \"sel\". Plural: \"cells\". También significa \"celda\" en cárcel; en biología: célula.",
+    "ex": [
+      {
+        "en": "Every living thing is made of [cells].",
+        "es": "Todo ser vivo está hecho de células."
+      },
+      {
+        "en": "The [cell] divides into two.",
+        "es": "La célula se divide en dos."
+      }
+    ]
+  },
+  {
+    "id": "voc-tissue",
+    "type": "vocab",
+    "term": "tissue",
+    "ipa": "/ˈtɪʃuː/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "salud"
+    ],
+    "es": "tejido (biológico)",
+    "def": "a group of similar cells in the body",
+    "note": "También significa \"pañuelo desechable\". Contexto biológico: \"muscle tissue\", \"plant tissue\".",
+    "ex": [
+      {
+        "en": "The doctor took a small [tissue] sample.",
+        "es": "La doctora tomó una pequeña muestra de tejido."
+      },
+      {
+        "en": "Muscle [tissue] repairs itself over time.",
+        "es": "El tejido muscular se repara con el tiempo."
+      }
+    ]
+  },
+  {
+    "id": "voc-bacteria",
+    "type": "vocab",
+    "term": "bacteria",
+    "ipa": "/bækˈtɪriə/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "salud"
+    ],
+    "es": "bacterias",
+    "def": "tiny living things that can cause disease or help",
+    "note": "Plural de \"bacterium\". Se usa con verbo plural: \"Bacteria are...\" Acento en la 2.ª sílaba.",
+    "ex": [
+      {
+        "en": "Some [bacteria] live in the human gut.",
+        "es": "Algunas bacterias viven en el intestino humano."
+      },
+      {
+        "en": "Heat can kill [bacteria].",
+        "es": "El calor puede matar bacterias."
+      }
+    ]
+  },
+  {
+    "id": "voc-fungus",
+    "type": "vocab",
+    "term": "fungus",
+    "ipa": "/ˈfʌŋɡəs/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "hongo",
+    "def": "a living thing like a mushroom or mold",
+    "note": "Plural: \"fungi\" /ˈfʌndʒaɪ/. \"Mushroom\" es el hongo comestible; \"fungus\" es el término científico.",
+    "ex": [
+      {
+        "en": "A [fungus] grows on the dead tree.",
+        "es": "Un hongo crece sobre el árbol muerto."
+      },
+      {
+        "en": "This type of [fungus] needs a damp place.",
+        "es": "Este tipo de hongo necesita un lugar húmedo."
+      }
+    ]
+  },
+  {
+    "id": "voc-wetland",
+    "type": "vocab",
+    "term": "wetland",
+    "ipa": "/ˈwetlænd/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "canada"
+    ],
+    "tags": [
+      "ca"
+    ],
+    "es": "humedal",
+    "def": "an area of land covered with shallow water",
+    "note": "Muy relevante en Alberta. Plural: \"wetlands\". Importante para aves y control de inundaciones.",
+    "ex": [
+      {
+        "en": "The [wetland] is a home for many birds.",
+        "es": "El humedal es hogar de muchas aves."
+      },
+      {
+        "en": "They protect the [wetland] near the river.",
+        "es": "Protegen el humedal cerca del río."
+      }
+    ]
+  },
+  {
+    "id": "voc-boreal-forest",
+    "type": "vocab",
+    "term": "boreal forest",
+    "ipa": "/ˈbɔːriəl ˈfɔːrɪst/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "canada"
+    ],
+    "tags": [
+      "ca"
+    ],
+    "es": "bosque boreal",
+    "def": "a large northern forest of mostly evergreen trees",
+    "note": "Cubre gran parte de Alberta y Canadá. \"Boreal\" se pronuncia \"BOR-ee-ul\".",
+    "ex": [
+      {
+        "en": "The [boreal forest] covers much of northern Alberta.",
+        "es": "El bosque boreal cubre gran parte del norte de Alberta."
+      },
+      {
+        "en": "Moose live in the [boreal forest].",
+        "es": "Los alces viven en el bosque boreal."
+      }
+    ]
+  },
+  {
+    "id": "voc-wildlife",
+    "type": "vocab",
+    "term": "wildlife",
+    "ipa": "/ˈwaɪldlaɪf/",
+    "level": "B1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "canada"
+    ],
+    "tags": [
+      "ca"
+    ],
+    "es": "fauna silvestre",
+    "def": "wild animals living in nature",
+    "note": "Incontable: \"wildlife is...\". Frase típica: \"Do not feed the wildlife\".",
+    "ex": [
+      {
+        "en": "Alberta has a lot of [wildlife].",
+        "es": "Alberta tiene mucha fauna silvestre."
+      },
+      {
+        "en": "Please do not disturb the [wildlife].",
+        "es": "Por favor no moleste a la fauna silvestre."
+      }
+    ]
+  },
+  {
+    "id": "voc-conservation",
+    "type": "vocab",
+    "term": "conservation",
+    "ipa": "/ˌkɑːnsərˈveɪʃn/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "conservación",
+    "def": "protecting nature and natural resources",
+    "note": "Palabra de ambiente: \"conservation efforts\". No es \"conservative\". Incontable.",
+    "ex": [
+      {
+        "en": "[Conservation] helps protect rare species.",
+        "es": "La conservación ayuda a proteger especies raras."
+      },
+      {
+        "en": "She works in wildlife [conservation].",
+        "es": "Ella trabaja en conservación de fauna silvestre."
+      }
+    ]
+  },
+  {
+    "id": "voc-climate-change",
+    "type": "vocab",
+    "term": "climate change",
+    "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+    "level": "B1",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "cambio climático",
+    "def": "long-term change in Earth's weather patterns",
+    "note": "Incontable. Se usa con \"the effects of climate change\". Tema frecuente en noticias.",
+    "ex": [
+      {
+        "en": "[Climate change] affects many ecosystems.",
+        "es": "El cambio climático afecta a muchos ecosistemas."
+      },
+      {
+        "en": "Scientists warn about [climate change].",
+        "es": "Los científicos advierten sobre el cambio climático."
+      }
+    ]
+  },
+  {
+    "id": "col-population-decline",
+    "type": "collocation",
+    "term": "population decline",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "disminución de la población",
+    "def": "a fall in the number of animals or plants",
+    "note": "Se usa en artículos: \"a steady population decline\". Verbo: \"decline\".",
+    "ex": [
+      {
+        "en": "Researchers noticed a [population decline] in frogs.",
+        "es": "Los investigadores notaron una disminución de población en ranas."
+      },
+      {
+        "en": "The [population decline] began ten years ago.",
+        "es": "La disminución de población comenzó hace diez años."
+      }
+    ]
+  },
+  {
+    "id": "pv-feed-on",
+    "type": "phrasal",
+    "term": "feed on",
+    "ipa": "/ˈfiːd ɑːn/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "alimentarse de",
+    "def": "to eat a certain food as a main source of energy",
+    "note": "Inseparable: \"feed on insects\". \"Bats feed on insects.\" Se usa con animales y organismos.",
+    "ex": [
+      {
+        "en": "Bats [feed on] insects at night.",
+        "es": "Los murciélagos se alimentan de insectos por la noche."
+      },
+      {
+        "en": "These fish [feed on] small plants.",
+        "es": "Estos peces se alimentan de plantas pequeñas."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-up-3",
+    "type": "phrasal",
+    "term": "take up",
+    "ipa": "/ˌteɪk ˈʌp/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "absorber (agua o nutrientes)",
+    "def": "to absorb a substance, as plants do",
+    "note": "Con otro sentido que \"take up a hobby\". Ej.: \"Roots take up water.\" Separable: \"take water up\".",
+    "sep": true,
+    "ex": [
+      {
+        "en": "Roots [take up] water from the soil.",
+        "es": "Las raíces absorben agua del suelo."
+      },
+      {
+        "en": "Plants [take up] nutrients through their roots.",
+        "es": "Las plantas absorben nutrientes por sus raíces."
+      }
+    ]
+  },
+  {
+    "id": "pv-give-off-2",
+    "type": "phrasal",
+    "term": "give off",
+    "ipa": "/ˌɡɪv ˈɔːf/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "emitir; despedir (olor, calor, gas)",
+    "def": "to send out gas, heat, light or a smell",
+    "note": "Separable: \"give off heat\". Se usa con procesos naturales.",
+    "ex": [
+      {
+        "en": "Plants [give off] oxygen during the day.",
+        "es": "Las plantas emiten oxígeno durante el día."
+      },
+      {
+        "en": "The compost [gives off] a strong smell.",
+        "es": "La composta despide un olor fuerte."
+      }
+    ]
+  },
+  {
+    "id": "pv-kill-off",
+    "type": "phrasal",
+    "term": "kill off",
+    "ipa": "/ˌkɪl ˈɔːf/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "exterminar; acabar con",
+    "def": "to destroy a population completely",
+    "note": "Más fuerte que \"die out\": hay una causa externa. Ej.: \"A fungus killed off the frogs.\"",
+    "sep": true,
+    "ex": [
+      {
+        "en": "A disease [killed off] most of the frogs.",
+        "es": "Una enfermedad exterminó a la mayoría de las ranas."
+      },
+      {
+        "en": "Pesticides can [kill off] helpful insects.",
+        "es": "Los pesticidas pueden acabar con insectos útiles."
+      }
+    ]
+  },
+  {
+    "id": "pv-bring-about",
+    "type": "phrasal",
+    "term": "bring about",
+    "ipa": "/ˌbrɪŋ əˈbaʊt/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "provocar; causar",
+    "def": "to make something happen",
+    "note": "Formal. \"Bring about change\". Separable: \"bring it about\". Se usa en artículos.",
+    "sep": true,
+    "ex": [
+      {
+        "en": "Warmer winters can [bring about] major changes.",
+        "es": "Los inviernos más cálidos pueden provocar grandes cambios."
+      },
+      {
+        "en": "The new law [brought about] better protection.",
+        "es": "La nueva ley provocó una mejor protección."
+      }
+    ]
+  },
+  {
+    "id": "col-give-rise-to",
+    "type": "collocation",
+    "term": "give rise to",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "dar origen a; provocar",
+    "def": "to cause something to begin or develop",
+    "note": "Formal. Se usa en inglés académico: \"give rise to new species\".",
+    "ex": [
+      {
+        "en": "Isolation can [give rise to] new species.",
+        "es": "El aislamiento puede dar origen a nuevas especies."
+      },
+      {
+        "en": "Pollution may [give rise to] serious health problems.",
+        "es": "La contaminación puede provocar graves problemas de salud."
+      }
+    ]
+  },
+  {
+    "id": "col-result-in",
+    "type": "collocation",
+    "term": "result in",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "resultar en; tener como consecuencia",
+    "def": "to cause a certain outcome",
+    "note": "Preposición \"in\": \"result in\" + consecuencia. \"Result from\" = ser consecuencia de.",
+    "ex": [
+      {
+        "en": "Too much fertilizer can [result in] algae blooms.",
+        "es": "Demasiado fertilizante puede resultar en floraciones de algas."
+      },
+      {
+        "en": "The change [resulted in] lower yields.",
+        "es": "El cambio resultó en rendimientos menores."
+      }
+    ]
+  },
+  {
+    "id": "col-peer-review",
+    "type": "collocation",
+    "term": "peer review",
+    "level": "C1",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "revisión por pares",
+    "def": "evaluation of research by other experts",
+    "note": "Sustantivo y verbo: \"peer-reviewed article\". Garantiza cierta calidad, no que sea perfecto.",
+    "ex": [
+      {
+        "en": "The paper is still under [peer review].",
+        "es": "El artículo todavía está en revisión por pares."
+      },
+      {
+        "en": "A [peer review] can take several months.",
+        "es": "Una revisión por pares puede tardar varios meses."
+      }
+    ]
+  },
+  {
+    "id": "col-peer-reviewed-journal",
+    "type": "collocation",
+    "term": "peer-reviewed journal",
+    "level": "C1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "revista arbitrada (con revisión por pares)",
+    "def": "a scientific journal that checks articles with expert review",
+    "note": "En Canadá y EE. UU. se usa \"peer-reviewed\". Útil al buscar fuentes confiables.",
+    "ex": [
+      {
+        "en": "She published in a [peer-reviewed journal].",
+        "es": "Ella publicó en una revista arbitrada."
+      },
+      {
+        "en": "Use only [peer-reviewed journals] for the review.",
+        "es": "Usa solo revistas arbitradas para la revisión."
+      }
+    ]
+  },
+  {
+    "id": "voc-abstract",
+    "type": "vocab",
+    "term": "abstract",
+    "ipa": "/ˈæbstrækt/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "resumen (de un artículo científico)",
+    "def": "a short summary at the start of a research paper",
+    "note": "Como sustantivo, acento en la 1.ª sílaba. Como adjetivo, \"abstract\" = abstracto. Se lee primero para decidir si el artículo sirve.",
+    "ex": [
+      {
+        "en": "I read the [abstract] before the full paper.",
+        "es": "Leí el resumen antes del artículo completo."
+      },
+      {
+        "en": "The [abstract] is only 200 words.",
+        "es": "El resumen tiene solo 200 palabras."
+      }
+    ]
+  },
+  {
+    "id": "voc-citation",
+    "type": "vocab",
+    "term": "citation",
+    "ipa": "/saɪˈteɪʃn/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "cita bibliográfica",
+    "def": "a reference to a source in a text",
+    "note": "Verbo: \"to cite\". \"Cite your sources\" = cita tus fuentes. No es \"cita\" de reunión.",
+    "ex": [
+      {
+        "en": "Add a [citation] after that sentence.",
+        "es": "Añade una cita bibliográfica después de esa oración."
+      },
+      {
+        "en": "The paper has over a hundred [citations].",
+        "es": "El artículo tiene más de cien citas."
+      }
+    ]
+  },
+  {
+    "id": "voc-literature-review",
+    "type": "vocab",
+    "term": "literature review",
+    "ipa": "/ˈlɪtərətʃər rɪˈvjuː/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "revisión de la literatura",
+    "def": "a summary of previous research on a topic",
+    "note": "\"Literature\" aquí = estudios publicados. Es una sección típica de tesis y artículos.",
+    "ex": [
+      {
+        "en": "I'm writing a [literature review] on amphibians.",
+        "es": "Estoy escribiendo una revisión de la literatura sobre anfibios."
+      },
+      {
+        "en": "A good [literature review] shows what is still unknown.",
+        "es": "Una buena revisión de la literatura muestra qué se desconoce todavía."
+      }
+    ]
+  },
+  {
+    "id": "voc-findings",
+    "type": "vocab",
+    "term": "findings",
+    "ipa": "/ˈfaɪndɪŋz/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "hallazgos; resultados",
+    "def": "results or discoveries from a study",
+    "note": "Casi siempre plural. \"Key findings\" = hallazgos clave. Verbo: \"to find\".",
+    "ex": [
+      {
+        "en": "The [findings] surprised the whole team.",
+        "es": "Los hallazgos sorprendieron a todo el equipo."
+      },
+      {
+        "en": "We will present our [findings] at the conference.",
+        "es": "Presentaremos nuestros hallazgos en la conferencia."
+      }
+    ]
+  },
+  {
+    "id": "voc-bias",
+    "type": "vocab",
+    "term": "bias",
+    "ipa": "/ˈbaɪəs/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "datos"
+    ],
+    "es": "sesgo",
+    "def": "an unfair tendency that affects results",
+    "note": "También significa prejuicio. En ciencia: \"sampling bias\". Verbo: \"to bias\". Acento en la 1.ª sílaba.",
+    "ex": [
+      {
+        "en": "Small samples can introduce [bias].",
+        "es": "Las muestras pequeñas pueden introducir sesgo."
+      },
+      {
+        "en": "The study tried to avoid [bias].",
+        "es": "El estudio trató de evitar el sesgo."
+      }
+    ]
+  },
+  {
+    "id": "voc-replicate",
+    "type": "vocab",
+    "term": "replicate",
+    "ipa": "/ˈreplɪkeɪt/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "replicar (un estudio)",
+    "def": "to repeat an experiment to see if results are the same",
+    "note": "Sustantivo: \"replication\". Un resultado confiable se puede \"replicate\".",
+    "ex": [
+      {
+        "en": "Other labs tried to [replicate] the results.",
+        "es": "Otros laboratorios intentaron replicar los resultados."
+      },
+      {
+        "en": "It's hard to [replicate] field conditions.",
+        "es": "Es difícil replicar las condiciones de campo."
+      }
+    ]
+  },
+  {
+    "id": "col-reach-a-conclusion",
+    "type": "collocation",
+    "term": "reach a conclusion",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "llegar a una conclusión",
+    "def": "to finally decide after thinking or studying",
+    "note": "Sinónimo de \"draw a conclusion\". \"Come to a conclusion\" ya existe en la base.",
+    "ex": [
+      {
+        "en": "The team [reached a conclusion] after the final test.",
+        "es": "El equipo llegó a una conclusión tras la prueba final."
+      },
+      {
+        "en": "It took years to [reach a conclusion].",
+        "es": "Se necesitaron años para llegar a una conclusión."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-results-suggest-that",
+    "type": "phrase",
+    "term": "the results suggest that",
+    "level": "C1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "los resultados sugieren que",
+    "def": "a careful way to state a finding",
+    "note": "\"Suggest\" suaviza: no dice \"prove\". Muy usado en artículos científicos.",
+    "ex": [
+      {
+        "en": "[The results suggest that] temperature affects growth.",
+        "es": "Los resultados sugieren que la temperatura afecta el crecimiento."
+      },
+      {
+        "en": "[The results suggest that] the treatment works.",
+        "es": "Los resultados sugieren que el tratamiento funciona."
+      }
+    ]
+  },
+  {
+    "id": "phr-further-research-is-needed",
+    "type": "phrase",
+    "term": "further research is needed",
+    "level": "C1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "se necesita más investigación",
+    "def": "a common phrase at the end of scientific papers",
+    "note": "Se usa para reconocer límites del estudio. Variante: \"more research is needed\".",
+    "ex": [
+      {
+        "en": "[Further research is needed] to confirm these results.",
+        "es": "Se necesita más investigación para confirmar estos resultados."
+      },
+      {
+        "en": "The authors say [further research is needed].",
+        "es": "Los autores dicen que se necesita más investigación."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-data-show-that",
+    "type": "phrase",
+    "term": "the data show that",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "datos"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "los datos muestran que",
+    "def": "a phrase to introduce results",
+    "note": "En inglés académico \"data\" puede ir con \"show\" (plural). En uso diario: \"the data shows\" es común.",
+    "ex": [
+      {
+        "en": "[The data show that] numbers dropped in winter.",
+        "es": "Los datos muestran que las cifras bajaron en invierno."
+      },
+      {
+        "en": "[The data show that] the method is reliable.",
+        "es": "Los datos muestran que el método es confiable."
+      }
+    ]
+  },
+  {
+    "id": "phr-let-me-walk-you-through-the-results",
+    "type": "phrase",
+    "term": "let me walk you through the results",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "entrevistas"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "déjame explicarte los resultados paso a paso",
+    "def": "a phrase to begin explaining results in a talk",
+    "note": "Útil en presentaciones. \"Walk through\" = guiar paso a paso. Alternativa: \"Let me take you through...\".",
+    "ex": [
+      {
+        "en": "[Let me walk you through the results] on this slide.",
+        "es": "Déjame explicarte los resultados paso a paso en esta diapositiva."
+      },
+      {
+        "en": "Next, [let me walk you through the results].",
+        "es": "A continuación, déjame explicarte los resultados paso a paso."
+      }
+    ]
+  },
+  {
+    "id": "phr-as-you-can-see-on-this-slide",
+    "type": "phrase",
+    "term": "as you can see on this slide",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "como pueden ver en esta diapositiva",
+    "def": "a phrase used while presenting",
+    "note": "Frase típica en presentaciones. \"On this slide\" = en esta diapositiva (no \"in\").",
+    "ex": [
+      {
+        "en": "[As you can see on this slide], the trend is clear.",
+        "es": "Como pueden ver en esta diapositiva, la tendencia es clara."
+      },
+      {
+        "en": "[As you can see on this slide], samples increased.",
+        "es": "Como pueden ver en esta diapositiva, las muestras aumentaron."
+      }
+    ]
+  },
+  {
+    "id": "phr-any-questions",
+    "type": "phrase",
+    "term": "any questions?",
+    "level": "A2",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "¿alguna pregunta?",
+    "def": "a standard way to finish a presentation",
+    "note": "Se usa al final. Complemento: \"Feel free to ask.\" Para pedir preguntas educadamente.",
+    "ex": [
+      {
+        "en": "That's all from me. [Any questions]?",
+        "es": "Eso es todo de mi parte. ¿Alguna pregunta?"
+      },
+      {
+        "en": "Thanks for listening. [Any questions]?",
+        "es": "Gracias por escuchar. ¿Alguna pregunta?"
+      }
+    ]
+  },
+  {
+    "id": "phr-thats-a-good-question",
+    "type": "phrase",
+    "term": "that's a good question",
+    "level": "B1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "es una buena pregunta",
+    "def": "a way to respond while thinking",
+    "note": "Da tiempo para pensar. Después: \"Let me think...\" o \"I'm not sure, but...\".",
+    "ex": [
+      {
+        "en": "[That's a good question]. Let me think about it.",
+        "es": "Es una buena pregunta. Déjame pensarlo."
+      },
+      {
+        "en": "[That's a good question]; we haven't tested that yet.",
+        "es": "Es una buena pregunta; todavía no lo hemos probado."
+      }
+    ]
+  },
+  {
+    "id": "phr-id-like-to-start-with-a-brief-overview",
+    "type": "phrase",
+    "term": "I'd like to start with a brief overview",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "es": "me gustaría empezar con un breve panorama",
+    "def": "a way to begin a presentation",
+    "note": "\"Overview\" = visión general. Variante: \"Let me begin by...\".",
+    "ex": [
+      {
+        "en": "[I'd like to start with a brief overview] of the project.",
+        "es": "Me gustaría empezar con un breve panorama del proyecto."
+      },
+      {
+        "en": "[I'd like to start with a brief overview] of our methods.",
+        "es": "Me gustaría empezar con un breve panorama de nuestros métodos."
+      }
+    ]
+  },
+  {
+    "id": "voc-methodology",
+    "type": "vocab",
+    "term": "methodology",
+    "ipa": "/ˌmeθəˈdɑːlədʒi/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "metodología",
+    "def": "the methods used in a study",
+    "note": "Plural: \"methodologies\". Se parece a \"method\", pero es el conjunto de métodos. Sección \"Methods\" en artículos.",
+    "ex": [
+      {
+        "en": "The [methodology] is explained in section two.",
+        "es": "La metodología se explica en la sección dos."
+      },
+      {
+        "en": "Their [methodology] was criticized.",
+        "es": "Su metodología fue criticada."
+      }
+    ]
+  },
+  {
+    "id": "voc-reproducibility",
+    "type": "vocab",
+    "term": "reproducibility",
+    "ipa": "/ˌriːprəˌduːsəˈbɪləti/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "reproducibilidad",
+    "def": "how easily a study's results can be repeated",
+    "note": "Palabra larga: re-pro-du-ci-BIL-i-ty. Aparece en discusiones sobre ciencia confiable.",
+    "ex": [
+      {
+        "en": "[Reproducibility] is essential in science.",
+        "es": "La reproducibilidad es esencial en la ciencia."
+      },
+      {
+        "en": "They shared the code to improve [reproducibility].",
+        "es": "Compartieron el código para mejorar la reproducibilidad."
+      }
+    ]
+  },
+  {
+    "id": "voc-journal-article",
+    "type": "vocab",
+    "term": "journal article",
+    "ipa": "/ˈdʒɜːrnl ˈɑːrtɪkl/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "artículo de revista científica",
+    "def": "a research paper published in a scientific journal",
+    "note": "También \"research paper\". \"Journal\" aquí no es \"diario personal\".",
+    "ex": [
+      {
+        "en": "I found a [journal article] about bees.",
+        "es": "Encontré un artículo de revista científica sobre abejas."
+      },
+      {
+        "en": "She has written three [journal articles].",
+        "es": "Ella ha escrito tres artículos de revista científica."
+      }
+    ]
+  },
+  {
+    "id": "voc-grant",
+    "type": "vocab",
+    "term": "grant",
+    "ipa": "/ɡrænt/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "beca de investigación; financiamiento",
+    "def": "money given for research or study",
+    "note": "Verbo: \"to grant\" = otorgar. \"Apply for a grant\" = solicitar financiamiento.",
+    "ex": [
+      {
+        "en": "She applied for a research [grant].",
+        "es": "Ella solicitó una beca de investigación."
+      },
+      {
+        "en": "The [grant] covers equipment and travel.",
+        "es": "El financiamiento cubre equipo y viajes."
+      }
+    ]
+  },
+  {
+    "id": "col-apply-for-funding",
+    "type": "collocation",
+    "term": "apply for funding",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "solicitar financiamiento",
+    "def": "to ask for money to pay for a project",
+    "note": "\"Funding\" es incontable. Formal. Ej.: \"The lab applied for funding.\"",
+    "ex": [
+      {
+        "en": "We plan to [apply for funding] next month.",
+        "es": "Planeamos solicitar financiamiento el próximo mes."
+      },
+      {
+        "en": "The team [applied for funding] to buy equipment.",
+        "es": "El equipo solicitó financiamiento para comprar equipo."
+      }
+    ]
+  },
+  {
+    "id": "voc-thesis",
+    "type": "vocab",
+    "term": "thesis",
+    "ipa": "/ˈθiːsɪs/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "canada"
+    ],
+    "tags": [
+      "ca"
+    ],
+    "es": "tesis",
+    "def": "a long written work for a university degree",
+    "note": "Plural: \"theses\" /ˈθiːsiːz/. En Canadá \"thesis\" suele ser para maestría y doctorado.",
+    "ex": [
+      {
+        "en": "She's writing her master's [thesis].",
+        "es": "Ella está escribiendo su tesis de maestría."
+      },
+      {
+        "en": "My [thesis] is about wetland birds.",
+        "es": "Mi tesis trata de aves de humedales."
+      }
+    ]
+  },
+  {
+    "id": "voc-supervisor",
+    "type": "vocab",
+    "term": "supervisor",
+    "ipa": "/ˈsuːpərvaɪzər/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "asesor o supervisor (de tesis)",
+    "def": "the professor who guides a student's research",
+    "note": "En Canadá es la persona clave del posgrado. También \"advisor\". No es \"jefe\" necesariamente.",
+    "ex": [
+      {
+        "en": "My [supervisor] reviewed my draft.",
+        "es": "Mi asesor revisó mi borrador."
+      },
+      {
+        "en": "Ask your [supervisor] for feedback.",
+        "es": "Pide retroalimentación a tu asesor."
+      }
+    ]
+  },
+  {
+    "id": "voc-lab-report",
+    "type": "vocab",
+    "term": "lab report",
+    "ipa": "/ˈlæb rɪˌpɔːrt/",
+    "level": "B1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "reporte de laboratorio",
+    "def": "a written document that explains an experiment",
+    "note": "Incluye título, métodos, resultados y conclusión. Se entrega en cursos de ciencias.",
+    "ex": [
+      {
+        "en": "I have to finish my [lab report] tonight.",
+        "es": "Tengo que terminar mi reporte de laboratorio esta noche."
+      },
+      {
+        "en": "The [lab report] must include a graph.",
+        "es": "El reporte de laboratorio debe incluir una gráfica."
+      }
+    ]
+  },
+  {
+    "id": "voc-poster-presentation",
+    "type": "vocab",
+    "term": "poster presentation",
+    "ipa": "/ˈpoʊstər ˌprezənˈteɪʃn/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "presentación en cartel (póster científico)",
+    "def": "showing research on a large printed poster at a conference",
+    "note": "Común en congresos. Te quedas junto al póster y explicas. \"Present a poster.\"",
+    "ex": [
+      {
+        "en": "I'll give a [poster presentation] on Friday.",
+        "es": "Daré una presentación en cartel el viernes."
+      },
+      {
+        "en": "The [poster presentation] session starts at noon.",
+        "es": "La sesión de presentaciones en cartel comienza al mediodía."
+      }
+    ]
+  },
+  {
+    "id": "col-sales-pitch",
+    "type": "collocation",
+    "term": "sales pitch",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm"
+    ],
+    "es": "discurso de ventas",
+    "def": "a short talk to convince someone to buy",
+    "note": "\"Pitch\" = presentación persuasiva. Verbo: \"to pitch\". \"Elevator pitch\" = versión de 30 segundos.",
+    "ex": [
+      {
+        "en": "She gave a strong [sales pitch] to the client.",
+        "es": "Ella dio un discurso de ventas contundente al cliente."
+      },
+      {
+        "en": "Keep your [sales pitch] short and clear.",
+        "es": "Mantén tu discurso de ventas corto y claro."
+      }
+    ]
+  },
+  {
+    "id": "col-sales-funnel",
+    "type": "collocation",
+    "term": "sales funnel",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm"
+    ],
+    "es": "embudo de ventas",
+    "def": "the steps a customer takes before buying",
+    "note": "También \"marketing funnel\". Etapas: awareness, interest, decision, action.",
+    "ex": [
+      {
+        "en": "We lose many leads at the top of the [sales funnel].",
+        "es": "Perdemos muchos prospectos en la parte superior del embudo de ventas."
+      },
+      {
+        "en": "Let's map the [sales funnel] first.",
+        "es": "Primero mapeemos el embudo de ventas."
+      }
+    ]
+  },
+  {
+    "id": "col-close-a-sale",
+    "type": "collocation",
+    "term": "close a sale",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "crm"
+    ],
+    "es": "cerrar una venta",
+    "def": "to complete a sale successfully",
+    "note": "También \"close the deal\". \"Closing\" = cierre. Se usa en conversaciones de ventas.",
+    "ex": [
+      {
+        "en": "It took three calls to [close a sale].",
+        "es": "Se necesitaron tres llamadas para cerrar una venta."
+      },
+      {
+        "en": "He knows how to [close a sale].",
+        "es": "Él sabe cerrar una venta."
+      }
+    ]
+  },
+  {
+    "id": "col-follow-up-email",
+    "type": "collocation",
+    "term": "follow-up email",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm"
+    ],
+    "es": "correo de seguimiento",
+    "def": "an email sent after a meeting or call",
+    "note": "Con guion cuando es sustantivo: \"follow-up email\". Verbo sin guion: \"follow up\".",
+    "ex": [
+      {
+        "en": "I'll send a [follow-up email] this afternoon.",
+        "es": "Enviaré un correo de seguimiento esta tarde."
+      },
+      {
+        "en": "A short [follow-up email] can keep the lead warm.",
+        "es": "Un correo de seguimiento corto puede mantener caliente al prospecto."
+      }
+    ]
+  },
+  {
+    "id": "col-target-audience",
+    "type": "collocation",
+    "term": "target audience",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm"
+    ],
+    "es": "público objetivo",
+    "def": "the group of people a message is meant for",
+    "note": "\"Audience\" = público. Variantes: \"target market\". Ej.: \"Know your target audience.\"",
+    "ex": [
+      {
+        "en": "Who is our [target audience] for this campaign?",
+        "es": "¿Quién es nuestro público objetivo para esta campaña?"
+      },
+      {
+        "en": "The ad didn't reach the right [target audience].",
+        "es": "El anuncio no llegó al público objetivo correcto."
+      }
+    ]
+  },
+  {
+    "id": "voc-pollinator",
+    "type": "vocab",
+    "term": "pollinator",
+    "ipa": "/ˈpɑːləneɪtər/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "polinizador",
+    "def": "an animal that carries pollen between flowers",
+    "note": "Abejas, mariposas y murciélagos son polinizadores. Verbo: \"pollinate\". Acento en la 1.ª sílaba.",
+    "ex": [
+      {
+        "en": "Bees are important [pollinators] for crops.",
+        "es": "Las abejas son polinizadores importantes para los cultivos."
+      },
+      {
+        "en": "Planting flowers helps local [pollinators].",
+        "es": "Plantar flores ayuda a los polinizadores locales."
+      }
+    ]
+  },
+  {
+    "id": "col-nesting-site",
+    "type": "collocation",
+    "term": "nesting site",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "sitio de anidación",
+    "def": "a place where birds or animals build nests",
+    "note": "Ejemplo: \"We tracked down the nesting site.\" \"Nest\" = nido.",
+    "ex": [
+      {
+        "en": "The birds return to the same [nesting site] each year.",
+        "es": "Las aves regresan al mismo sitio de anidación cada año."
+      },
+      {
+        "en": "We marked the [nesting site] on the map.",
+        "es": "Marcamos el sitio de anidación en el mapa."
+      }
+    ]
+  },
+  {
+    "id": "voc-migration",
+    "type": "vocab",
+    "term": "migration",
+    "ipa": "/maɪˈɡreɪʃn/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "migración",
+    "def": "the seasonal movement of animals from one place to another",
+    "note": "Verbo: \"migrate\". Aves, peces y mamíferos. \"Spring migration\" = migración de primavera.",
+    "ex": [
+      {
+        "en": "The [migration] of geese begins in autumn.",
+        "es": "La migración de gansos comienza en otoño."
+      },
+      {
+        "en": "Scientists track bird [migration] with small tags.",
+        "es": "Los científicos rastrean la migración de aves con pequeñas etiquetas."
+      }
+    ]
+  },
+  {
+    "id": "col-bird-count",
+    "type": "collocation",
+    "term": "bird count",
+    "level": "B1",
+    "topic": "study",
+    "freq": 2,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "canada"
+    ],
+    "tags": [
+      "ca"
+    ],
+    "es": "conteo de aves",
+    "def": "an organized count of birds in an area",
+    "note": "En Canadá hay conteos comunitarios anuales de aves. Plural: \"bird counts\".",
+    "ex": [
+      {
+        "en": "We joined the winter [bird count].",
+        "es": "Participamos en el conteo invernal de aves."
+      },
+      {
+        "en": "The [bird count] takes place every December.",
+        "es": "El conteo de aves se realiza cada diciembre."
+      }
+    ]
+  },
+  {
+    "id": "col-monitor-a-population",
+    "type": "collocation",
+    "term": "monitor a population",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "monitorear una población",
+    "def": "to observe how a group of animals or plants changes over time",
+    "note": "\"Monitor\" = dar seguimiento. Ej.: \"We have been monitoring this forest for six months.\"",
+    "ex": [
+      {
+        "en": "Rangers [monitor the population] of elk each winter.",
+        "es": "Los guardabosques monitorean la población de alces cada invierno."
+      },
+      {
+        "en": "We [monitor the population] using camera traps.",
+        "es": "Monitoreamos la población con cámaras trampa."
+      }
+    ]
+  },
+  {
+    "id": "col-water-quality",
+    "type": "collocation",
+    "term": "water quality",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia",
+      "noticias"
+    ],
+    "es": "calidad del agua",
+    "def": "how clean and safe water is",
+    "note": "Incontable. Ej.: \"water quality testing\". En noticias ambientales es tema recurrente.",
+    "ex": [
+      {
+        "en": "We tested the [water quality] of the river.",
+        "es": "Probamos la calidad del agua del río."
+      },
+      {
+        "en": "[Water quality] dropped after the heavy rain.",
+        "es": "La calidad del agua bajó tras la lluvia fuerte."
+      }
+    ]
+  },
+  {
+    "id": "col-soil-sample",
+    "type": "collocation",
+    "term": "soil sample",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "muestra de suelo",
+    "def": "a small amount of soil taken for testing",
+    "note": "Ejemplo de \"collect samples\". Se etiqueta con fecha y lugar.",
+    "ex": [
+      {
+        "en": "We took a [soil sample] from each plot.",
+        "es": "Tomamos una muestra de suelo de cada parcela."
+      },
+      {
+        "en": "Label every [soil sample] clearly.",
+        "es": "Etiqueta claramente cada muestra de suelo."
+      }
+    ]
+  },
+  {
+    "id": "col-natural-selection",
+    "type": "collocation",
+    "term": "natural selection",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "selección natural",
+    "def": "the process in which better adapted organisms survive",
+    "note": "Incontable. Concepto central de la evolución. \"Survival of the fittest\" es su resumen popular.",
+    "ex": [
+      {
+        "en": "[Natural selection] favors traits that help survival.",
+        "es": "La selección natural favorece rasgos que ayudan a sobrevivir."
+      },
+      {
+        "en": "Darwin described [natural selection] in 1859.",
+        "es": "Darwin describió la selección natural en 1859."
+      }
+    ]
+  },
+  {
+    "id": "voc-adaptation",
+    "type": "vocab",
+    "term": "adaptation",
+    "ipa": "/ˌædæpˈteɪʃn/",
+    "level": "C1",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "adaptación",
+    "def": "a change that helps a living thing survive",
+    "note": "Verbo: \"adapt\". Ej.: \"Thick fur is an adaptation to cold.\"",
+    "ex": [
+      {
+        "en": "Thick fur is an [adaptation] to cold winters.",
+        "es": "El pelaje grueso es una adaptación a inviernos fríos."
+      },
+      {
+        "en": "This [adaptation] helps the plant save water.",
+        "es": "Esta adaptación ayuda a la planta a ahorrar agua."
+      }
+    ]
+  },
+  {
+    "id": "col-lead-nurturing",
+    "type": "collocation",
+    "term": "lead nurturing",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "crm"
+    ],
+    "es": "nutrición de prospectos",
+    "def": "building a relationship with leads until they are ready to buy",
+    "note": "Término de marketing. \"Nurture leads\" = cultivar prospectos con contenido y seguimiento.",
+    "ex": [
+      {
+        "en": "[Lead nurturing] keeps potential customers interested.",
+        "es": "La nutrición de prospectos mantiene interesados a los clientes potenciales."
+      },
+      {
+        "en": "Our team focuses on [lead nurturing] with email.",
+        "es": "Nuestro equipo se enfoca en nutrir prospectos por correo."
+      }
+    ]
+  },
+  {
+    "id": "col-upsell-a-customer",
+    "type": "collocation",
+    "term": "upsell a customer",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "areas": [
+      "crm"
+    ],
+    "es": "ofrecer un producto de mayor valor a un cliente",
+    "def": "to offer a customer a better or larger product",
+    "note": "También sustantivo: \"upsell\". Con respeto: no presionar. \"Cross-sell\" = ofrecer producto complementario.",
+    "ex": [
+      {
+        "en": "The agent tried to [upsell the customer] a premium plan.",
+        "es": "El agente intentó ofrecer al cliente un plan premium."
+      },
+      {
+        "en": "It's easier to [upsell a customer] than to find a new one.",
+        "es": "Es más fácil ofrecer algo mayor a un cliente que encontrar uno nuevo."
+      }
+    ]
+  }
+]

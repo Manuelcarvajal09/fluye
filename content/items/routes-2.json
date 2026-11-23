@@ -1,0 +1,2444 @@
+[
+  {
+    "id": "phr-does-this-bus-go-to",
+    "type": "phrase",
+    "term": "does this bus go to…?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "areas": [
+      "transporte"
+    ],
+    "es": "¿Este autobús va a…?",
+    "def": "a question to check if a bus goes to a place",
+    "note": "Para confirmar el destino antes de subir. También: 'Is this the bus to…?'.",
+    "ex": [
+      {
+        "en": "Excuse me, [does this bus go to] the airport?",
+        "es": "Disculpe, ¿este autobús va al aeropuerto?"
+      },
+      {
+        "en": "[Does this bus go to] the university or only to the mall?",
+        "es": "¿Este autobús va a la universidad o solo al centro comercial?"
+      }
+    ]
+  },
+  {
+    "id": "col-tap-your-card",
+    "type": "collocation",
+    "term": "tap your card",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "areas": [
+      "transporte"
+    ],
+    "es": "pasar la tarjeta (en el lector)",
+    "def": "to touch a transit card to a reader to pay",
+    "note": "En Canadá muchas ciudades usan tarjetas de transporte: se 'tapea' al subir (tap on) y a veces al bajar (tap off).",
+    "ex": [
+      {
+        "en": "You need to [tap your card] when you get on.",
+        "es": "Tienes que pasar tu tarjeta al subir."
+      },
+      {
+        "en": "I forgot to [tap my card] and the driver reminded me.",
+        "es": "Olvidé pasar mi tarjeta y el conductor me lo recordó."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-how-far-is-it-from-here",
+    "type": "phrase",
+    "term": "how far is it from here?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "areas": [
+      "transporte"
+    ],
+    "es": "¿qué tan lejos está de aquí?",
+    "def": "a question about the distance to a place",
+    "note": "Se contesta con minutos o cuadras: 'About ten minutes by bus'. No digas 'How far is from here'.",
+    "ex": [
+      {
+        "en": "Sorry, [how far is it from here] to the museum?",
+        "es": "Perdón, ¿qué tan lejos está el museo de aquí?"
+      },
+      {
+        "en": "I'm new in town. [How far is it from here] to the hospital?",
+        "es": "Soy nuevo en la ciudad. ¿Qué tan lejos está el hospital de aquí?"
+      }
+    ]
+  },
+  {
+    "id": "col-service-disruption",
+    "type": "collocation",
+    "term": "service disruption",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 3,
+    "areas": [
+      "transporte"
+    ],
+    "es": "interrupción del servicio",
+    "def": "a problem that stops or delays public transport",
+    "note": "Es el aviso típico de transporte público: 'There's a service disruption on Line 2'. Más formal que 'delay'.",
+    "ex": [
+      {
+        "en": "There's a [service disruption] on the train line this morning.",
+        "es": "Hay una interrupción del servicio en la línea del tren esta mañana."
+      },
+      {
+        "en": "The app sent an alert about a [service disruption].",
+        "es": "La aplicación mandó una alerta por una interrupción del servicio."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-bus-is-running-late",
+    "type": "phrase",
+    "term": "the bus is running late",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "areas": [
+      "transporte"
+    ],
+    "es": "el autobús viene retrasado",
+    "def": "the bus has not arrived on time",
+    "note": "'Running late' sirve también para personas: 'I'm running late'. Se puede decir 'is late', pero 'running late' suena más natural.",
+    "ex": [
+      {
+        "en": "[The bus is running late] again, so I'll be a bit behind.",
+        "es": "El autobús viene retrasado otra vez, así que me voy a retrasar."
+      },
+      {
+        "en": "Don't wait for me. [The bus is running late].",
+        "es": "No me esperes. El autobús viene retrasado."
+      }
+    ]
+  },
+  {
+    "id": "phr-could-you-drop-me-off-at",
+    "type": "phrase",
+    "term": "could you drop me off at…?",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "areas": [
+      "transporte"
+    ],
+    "es": "¿podría dejarme en…?",
+    "def": "a polite way to tell a driver where to stop",
+    "note": "Para taxi, rideshare o un amigo que maneja. Más cortés que 'Drop me at'.",
+    "ex": [
+      {
+        "en": "[Could you drop me off at] the front entrance, please?",
+        "es": "¿Podría dejarme en la entrada principal, por favor?"
+      },
+      {
+        "en": "[Could you drop me off at] the corner of Main and Fifth?",
+        "es": "¿Podría dejarme en la esquina de Main y la Quinta?"
+      }
+    ]
+  },
+  {
+    "id": "phr-im-stuck-in-traffic",
+    "type": "phrase",
+    "term": "I'm stuck in traffic",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "areas": [
+      "transporte"
+    ],
+    "es": "estoy atorado en el tráfico",
+    "def": "I cannot move because there are too many cars",
+    "note": "Muy usado en mensajes: 'Stuck in traffic, be there in 15'. Se dice 'in traffic', sin 'the'.",
+    "ex": [
+      {
+        "en": "Sorry, [I'm stuck in traffic] on the bridge.",
+        "es": "Perdón, estoy atorado en el tráfico en el puente."
+      },
+      {
+        "en": "[I'm stuck in traffic], so start the meeting without me.",
+        "es": "Estoy atorado en el tráfico, así que empiecen la junta sin mí."
+      }
+    ]
+  },
+  {
+    "id": "col-pay-for-parking",
+    "type": "collocation",
+    "term": "pay for parking",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "areas": [
+      "transporte"
+    ],
+    "es": "pagar el estacionamiento",
+    "def": "to pay money to leave a car in a place",
+    "note": "En Canadá muchas veces se paga por app o en una máquina con el número de placa (licence plate).",
+    "ex": [
+      {
+        "en": "I'll [pay for parking] with the app.",
+        "es": "Voy a pagar el estacionamiento con la aplicación."
+      },
+      {
+        "en": "You have to [pay for parking] before nine in the morning.",
+        "es": "Tienes que pagar el estacionamiento antes de las nueve de la mañana."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-book-a-ride",
+    "type": "collocation",
+    "term": "book a ride",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 3,
+    "areas": [
+      "transporte"
+    ],
+    "es": "pedir un viaje (en app)",
+    "def": "to request a car trip with a taxi or rideshare app",
+    "note": "'Book' se usa si planeas la hora; 'call a cab' también es común.",
+    "ex": [
+      {
+        "en": "I'll [book a ride] for you right now.",
+        "es": "Te pido un viaje ahora mismo."
+      },
+      {
+        "en": "It's cheaper to [book a ride] before the rush hour.",
+        "es": "Es más barato pedir un viaje antes de la hora pico."
+      }
+    ]
+  },
+  {
+    "id": "phr-keep-the-change",
+    "type": "phrase",
+    "term": "keep the change",
+    "level": "A2",
+    "topic": "money",
+    "freq": 4,
+    "areas": [
+      "transporte"
+    ],
+    "es": "quédese con el cambio",
+    "def": "a polite way to let someone keep the extra money",
+    "note": "Se dice al pagar en efectivo, como pequeña propina. Muy común con taxistas.",
+    "ex": [
+      {
+        "en": "Here's twenty. [Keep the change].",
+        "es": "Aquí hay veinte. Quédese con el cambio."
+      },
+      {
+        "en": "Thanks for the ride! [Keep the change].",
+        "es": "¡Gracias por el viaje! Quédese con el cambio."
+      }
+    ]
+  },
+  {
+    "id": "voc-day-pass",
+    "type": "vocab",
+    "term": "day pass",
+    "ipa": "/ˈdeɪ pæs/",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 3,
+    "areas": [
+      "transporte"
+    ],
+    "es": "pase de un día",
+    "def": "a ticket you can use all day on the bus and train",
+    "note": "'Pass' = pase; 'monthly pass' = pase mensual.",
+    "ex": [
+      {
+        "en": "A [day pass] is cheaper than three single tickets.",
+        "es": "Un pase de un día sale más barato que tres boletos sencillos."
+      },
+      {
+        "en": "I bought a [day pass] for the weekend.",
+        "es": "Compré un pase de un día para el fin de semana."
+      }
+    ]
+  },
+  {
+    "id": "pv-flag-down",
+    "type": "phrasal",
+    "term": "flag down",
+    "ipa": "/flæɡ daʊn/",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 2,
+    "areas": [
+      "transporte"
+    ],
+    "es": "hacer la parada (a un taxi); detener (a alguien)",
+    "def": "to wave to make a car or person stop",
+    "note": "Separable: flag down a taxi / flag a taxi down. En ciudades de Canadá es más común pedirlo por app.",
+    "sep": true,
+    "ex": [
+      {
+        "en": "He tried to [flag down] a taxi in the rain.",
+        "es": "Intentó parar un taxi bajo la lluvia."
+      },
+      {
+        "en": "We [flagged down] a driver and asked for help.",
+        "es": "Paramos a un conductor y le pedimos ayuda."
+      }
+    ]
+  },
+  {
+    "id": "col-speed-limit",
+    "type": "collocation",
+    "term": "speed limit",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 3,
+    "areas": [
+      "transporte"
+    ],
+    "es": "límite de velocidad",
+    "def": "the fastest speed allowed on a road",
+    "note": "En Canadá los letreros están en km/h, no en millas.",
+    "ex": [
+      {
+        "en": "The [speed limit] here is fifty.",
+        "es": "El límite de velocidad aquí es cincuenta."
+      },
+      {
+        "en": "He got a ticket for going over the [speed limit].",
+        "es": "Le pusieron una multa por pasarse del límite de velocidad."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-i-have-years-of-experience",
+    "type": "phrase",
+    "term": "I have … years of experience",
+    "level": "A2",
+    "topic": "interview",
+    "freq": 5,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "Tengo … años de experiencia",
+    "def": "a sentence to say how long you have worked in a field",
+    "note": "Se dice 'years of experience in/as…', no 'years in'. Con un solo año: 'a year of experience'.",
+    "ex": [
+      {
+        "en": "[I have three years of experience] in sales.",
+        "es": "Tengo tres años de experiencia en ventas."
+      },
+      {
+        "en": "[I have two years of experience] as a barista.",
+        "es": "Tengo dos años de experiencia como barista."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-good-at",
+    "type": "phrase",
+    "term": "I'm good at…",
+    "level": "A2",
+    "topic": "interview",
+    "freq": 5,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "Soy bueno para…",
+    "def": "a way to say what you can do well",
+    "note": "Después de 'at' va un verbo en -ing: 'good at cooking'. Con personas: 'good with kids'.",
+    "ex": [
+      {
+        "en": "[I'm good at] solving problems.",
+        "es": "Soy bueno para resolver problemas."
+      },
+      {
+        "en": "[I'm good at] explaining things to customers.",
+        "es": "Soy bueno para explicarles las cosas a los clientes."
+      }
+    ]
+  },
+  {
+    "id": "col-work-part-time",
+    "type": "collocation",
+    "term": "work part-time",
+    "level": "A2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "trabajar medio tiempo",
+    "def": "to have a job with fewer hours than a full job",
+    "note": "En Canadá también se dice 'part-time job'. Lo contrario: work full-time.",
+    "ex": [
+      {
+        "en": "I want to [work part-time] while I study.",
+        "es": "Quiero trabajar medio tiempo mientras estudio."
+      },
+      {
+        "en": "She [works part-time] at a bakery.",
+        "es": "Ella trabaja medio tiempo en una panadería."
+      }
+    ]
+  },
+  {
+    "id": "col-behavioural-question",
+    "type": "collocation",
+    "term": "behavioural question",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "pregunta de comportamiento",
+    "def": "an interview question about what you did in a past situation",
+    "note": "Se escribe 'behavioural' en Canadá y 'behavioral' en EE. UU. Suele empezar con 'Tell me about a time when…'.",
+    "ex": [
+      {
+        "en": "The first round is mostly [behavioural questions].",
+        "es": "La primera ronda son sobre todo preguntas de comportamiento."
+      },
+      {
+        "en": "I practised my answer to a [behavioural question] last night.",
+        "es": "Anoche practiqué mi respuesta a una pregunta de comportamiento."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-tell-me-about-a-time-when",
+    "type": "phrase",
+    "term": "tell me about a time when…",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 5,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "cuéntame de una vez en que…",
+    "def": "a request for a real example from your past",
+    "note": "Pide un ejemplo concreto. Responde en pasado: 'Last year, I…'.",
+    "ex": [
+      {
+        "en": "[Tell me about a time when] you disagreed with a coworker.",
+        "es": "Cuéntame de una vez en que no estuviste de acuerdo con un compañero."
+      },
+      {
+        "en": "[Tell me about a time when] you made a mistake at work.",
+        "es": "Cuéntame de una vez en que cometiste un error en el trabajo."
+      }
+    ]
+  },
+  {
+    "id": "col-take-the-initiative",
+    "type": "collocation",
+    "term": "take the initiative",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "tomar la iniciativa",
+    "def": "to start doing something without being told",
+    "note": "Se dice 'take the initiative to do something'. Es muy valorado en entrevistas.",
+    "ex": [
+      {
+        "en": "She [took the initiative] and called the client herself.",
+        "es": "Tomó la iniciativa y llamó ella misma al cliente."
+      },
+      {
+        "en": "I [took the initiative] to fix the process.",
+        "es": "Tomé la iniciativa de arreglar el proceso."
+      }
+    ]
+  },
+  {
+    "id": "phr-as-a-result",
+    "type": "phrase",
+    "term": "as a result",
+    "level": "B2",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "como resultado; por eso",
+    "def": "a phrase that introduces what happened because of something",
+    "note": "Va al inicio de la frase, con coma. En entrevistas introduce el resultado (la R de STAR).",
+    "ex": [
+      {
+        "en": "[As a result], sales went up ten percent.",
+        "es": "Como resultado, las ventas subieron un diez por ciento."
+      },
+      {
+        "en": "The road was closed. [As a result], we arrived late.",
+        "es": "La calle estaba cerrada. Por eso llegamos tarde."
+      }
+    ]
+  },
+  {
+    "id": "col-work-under-pressure",
+    "type": "collocation",
+    "term": "work under pressure",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "trabajar bajo presión",
+    "def": "to do a good job when there is a lot of stress or little time",
+    "note": "Se dice 'under pressure', no 'with pressure'. Es muy común en ofertas de empleo.",
+    "ex": [
+      {
+        "en": "I can [work under pressure] without panicking.",
+        "es": "Puedo trabajar bajo presión sin entrar en pánico."
+      },
+      {
+        "en": "The job requires you to [work under pressure].",
+        "es": "El trabajo requiere trabajar bajo presión."
+      }
+    ]
+  },
+  {
+    "id": "phr-to-be-candid",
+    "type": "phrase",
+    "term": "to be candid",
+    "level": "C1",
+    "topic": "interview",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "para ser franco",
+    "def": "a phrase used before saying something honest and direct",
+    "note": "Suaviza o avisa una opinión sincera. Similar: 'to be honest', pero más formal.",
+    "ex": [
+      {
+        "en": "[To be candid], this isn't my strongest area.",
+        "es": "Para ser franco, esta no es mi área más fuerte."
+      },
+      {
+        "en": "[To be candid], I expected a higher offer.",
+        "es": "Para ser franco, esperaba una oferta más alta."
+      }
+    ]
+  },
+  {
+    "id": "idi-play-to-your-strengths",
+    "type": "idiom",
+    "term": "play to your strengths",
+    "level": "C1",
+    "topic": "interview",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "aprovechar tus fortalezas",
+    "def": "to use the things you do best",
+    "note": "Con 'to': play to someone's strengths. Muy usado en reseñas y entrevistas.",
+    "ex": [
+      {
+        "en": "The role [plays to my strengths] in organizing teams.",
+        "es": "El puesto aprovecha mis fortalezas para organizar equipos."
+      },
+      {
+        "en": "Good managers [play to their team's strengths].",
+        "es": "Los buenos jefes aprovechan las fortalezas de su equipo."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-steep-learning-curve",
+    "type": "idiom",
+    "term": "a steep learning curve",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "una curva de aprendizaje empinada",
+    "def": "something that is hard to learn at the beginning",
+    "note": "'Steep' = empinada: mucho que aprender rápido. No significa que sea imposible.",
+    "ex": [
+      {
+        "en": "The new software has [a steep learning curve].",
+        "es": "El software nuevo tiene una curva de aprendizaje empinada."
+      },
+      {
+        "en": "Expect [a steep learning curve] in your first month.",
+        "es": "Espera una curva de aprendizaje empinada en tu primer mes."
+      }
+    ]
+  },
+  {
+    "id": "phr-is-there-any-flexibility-on",
+    "type": "phrase",
+    "term": "is there any flexibility on…?",
+    "level": "C1",
+    "topic": "interview",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "¿hay algo de flexibilidad en…?",
+    "def": "a polite way to ask if something can be changed",
+    "note": "Se usa al negociar salario, fechas o condiciones. Suena menos exigente que 'Can you change…?'.",
+    "ex": [
+      {
+        "en": "[Is there any flexibility on] the start date?",
+        "es": "¿Hay algo de flexibilidad en la fecha de inicio?"
+      },
+      {
+        "en": "[Is there any flexibility on] the price?",
+        "es": "¿Hay algo de flexibilidad en el precio?"
+      }
+    ]
+  },
+  {
+    "id": "col-total-compensation",
+    "type": "collocation",
+    "term": "total compensation",
+    "level": "C1",
+    "topic": "money",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "compensación total",
+    "def": "salary plus bonuses and benefits together",
+    "note": "Incluye sueldo, bonos y beneficios. En negociaciones: 'Let's look at the total compensation'.",
+    "ex": [
+      {
+        "en": "I'd like to see the [total compensation] before I decide.",
+        "es": "Me gustaría ver la compensación total antes de decidir."
+      },
+      {
+        "en": "The [total compensation] includes a bonus and extra vacation.",
+        "es": "La compensación total incluye un bono y más vacaciones."
+      }
+    ]
+  },
+  {
+    "id": "col-benefits-package",
+    "type": "collocation",
+    "term": "benefits package",
+    "level": "B2",
+    "topic": "money",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "paquete de prestaciones",
+    "def": "the extra things a job gives, like health insurance",
+    "note": "En Canadá suele incluir seguro médico complementario y dental. 'Benefits' casi siempre va en plural.",
+    "ex": [
+      {
+        "en": "The [benefits package] includes dental coverage.",
+        "es": "El paquete de prestaciones incluye cobertura dental."
+      },
+      {
+        "en": "Ask about the [benefits package] before you sign.",
+        "es": "Pregunta por el paquete de prestaciones antes de firmar."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-what-does-the-interview-process-look-like",
+    "type": "phrase",
+    "term": "what does the interview process look like?",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 3,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "¿cómo es el proceso de entrevistas?",
+    "def": "a question about the steps of hiring",
+    "note": "Una buena pregunta para hacer al final. Sustituye 'process' por 'timeline' si preguntas por fechas.",
+    "ex": [
+      {
+        "en": "[What does the interview process look like] from here?",
+        "es": "¿Cómo es el proceso de entrevistas de aquí en adelante?"
+      },
+      {
+        "en": "Could you tell me [what the interview process looks like]?",
+        "es": "¿Podría decirme cómo es el proceso de entrevistas?"
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-get-started",
+    "type": "phrase",
+    "term": "let's get started",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "empecemos",
+    "def": "a way to begin a meeting or activity",
+    "note": "Lo dices al abrir una junta o una clase. Más informal: 'Okay, let's get going'.",
+    "ex": [
+      {
+        "en": "Okay everyone, [let's get started].",
+        "es": "Muy bien, empecemos."
+      },
+      {
+        "en": "We have a lot to cover, so [let's get started].",
+        "es": "Hay mucho que cubrir, así que empecemos."
+      }
+    ]
+  },
+  {
+    "id": "phr-can-everyone-hear-me",
+    "type": "phrase",
+    "term": "can everyone hear me?",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "¿todos me escuchan?",
+    "def": "a question to check the sound in a video call",
+    "note": "Se usa al empezar una videollamada. También: 'Can you hear me okay?'.",
+    "ex": [
+      {
+        "en": "[Can everyone hear me]? I'll turn up my volume.",
+        "es": "¿Todos me escuchan? Subiré mi volumen."
+      },
+      {
+        "en": "Before I begin, [can everyone hear me]?",
+        "es": "Antes de empezar, ¿todos me escuchan?"
+      }
+    ]
+  },
+  {
+    "id": "phr-i-agree-with-that",
+    "type": "phrase",
+    "term": "I agree with that",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "estoy de acuerdo con eso",
+    "def": "a way to say you have the same opinion",
+    "note": "Se dice 'agree with someone/something'. No digas 'I am agree'.",
+    "ex": [
+      {
+        "en": "I think we need more time. [I agree with that].",
+        "es": "Creo que necesitamos más tiempo. Estoy de acuerdo con eso."
+      },
+      {
+        "en": "[I agree with that] plan.",
+        "es": "Estoy de acuerdo con ese plan."
+      }
+    ]
+  },
+  {
+    "id": "phr-could-you-share-your-screen",
+    "type": "phrase",
+    "term": "could you share your screen?",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "¿podrías compartir tu pantalla?",
+    "def": "a request to show your computer screen to others",
+    "note": "Verbo 'share'. También: 'Can you pull up the document?'.",
+    "ex": [
+      {
+        "en": "[Could you share your screen] so we can see the chart?",
+        "es": "¿Podrías compartir tu pantalla para ver la gráfica?"
+      },
+      {
+        "en": "[Could you share your screen] and walk us through it?",
+        "es": "¿Podrías compartir tu pantalla y explicárnoslo?"
+      }
+    ]
+  },
+  {
+    "id": "phr-youre-breaking-up",
+    "type": "phrase",
+    "term": "you're breaking up",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "se te corta la voz; no se te entiende",
+    "def": "a way to say the connection is bad and the voice is cutting out",
+    "note": "Sirve para audio o video con mala conexión. También: 'You cut out for a second'.",
+    "ex": [
+      {
+        "en": "Sorry, [you're breaking up]. Can you repeat that?",
+        "es": "Perdón, se te corta. ¿Puedes repetirlo?"
+      },
+      {
+        "en": "I think [you're breaking up] because of the wifi.",
+        "es": "Creo que se te corta por el wifi."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-not-sure-i-agree",
+    "type": "phrase",
+    "term": "I'm not sure I agree",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "no estoy seguro de estar de acuerdo",
+    "def": "a polite way to disagree",
+    "note": "Más suave que 'I disagree'. Después se da una razón: 'I'm not sure I agree, because…'.",
+    "ex": [
+      {
+        "en": "[I'm not sure I agree] with that timeline.",
+        "es": "No estoy seguro de estar de acuerdo con ese calendario."
+      },
+      {
+        "en": "[I'm not sure I agree], but I'm open to discussing it.",
+        "es": "No estoy seguro de estar de acuerdo, pero estoy abierto a hablarlo."
+      }
+    ]
+  },
+  {
+    "id": "phr-to-sum-up",
+    "type": "phrase",
+    "term": "to sum up",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "para resumir",
+    "def": "a phrase used before a short summary",
+    "note": "Va al final. Equivalentes: 'to summarize', 'to wrap up'. Más formal: 'in summary'.",
+    "ex": [
+      {
+        "en": "[To sum up], we need a new date and a new budget.",
+        "es": "Para resumir, necesitamos una fecha nueva y un presupuesto nuevo."
+      },
+      {
+        "en": "[To sum up], the plan is simple.",
+        "es": "Para resumir, el plan es sencillo."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-circle-back-on",
+    "type": "phrase",
+    "term": "let's circle back on…",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "retomemos… más adelante",
+    "def": "a way to say you will discuss something again later",
+    "note": "'Circle back' = volver a un tema o a una persona. Muy usado en juntas y correos.",
+    "ex": [
+      {
+        "en": "[Let's circle back on] pricing on Monday.",
+        "es": "Retomemos el tema de precios el lunes."
+      },
+      {
+        "en": "[Let's circle back on] this after the demo.",
+        "es": "Retomemos esto después de la demostración."
+      }
+    ]
+  },
+  {
+    "id": "col-flag-a-concern",
+    "type": "collocation",
+    "term": "flag a concern",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "señalar una preocupación",
+    "def": "to tell people about a possible problem",
+    "note": "'Flag' = marcar, avisar. También: 'flag an issue/a risk'.",
+    "ex": [
+      {
+        "en": "I want to [flag a concern] about the deadline.",
+        "es": "Quiero señalar una preocupación sobre la fecha límite."
+      },
+      {
+        "en": "She [flagged a concern] about the budget.",
+        "es": "Ella señaló una preocupación sobre el presupuesto."
+      }
+    ]
+  },
+  {
+    "id": "phr-where-do-we-land-on",
+    "type": "phrase",
+    "term": "where do we land on…?",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "¿en qué quedamos con…?",
+    "def": "a question that asks for a final decision",
+    "note": "Pide cerrar una decisión: 'Where do we land on the budget?'. Informal-profesional.",
+    "ex": [
+      {
+        "en": "So, [where do we land on] pricing?",
+        "es": "Entonces, ¿en qué quedamos con los precios?"
+      },
+      {
+        "en": "[Where do we land on] the launch date?",
+        "es": "¿En qué quedamos con la fecha de lanzamiento?"
+      }
+    ]
+  },
+  {
+    "id": "idi-play-devils-advocate",
+    "type": "idiom",
+    "term": "play devil's advocate",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "hacer de abogado del diablo",
+    "def": "to argue the opposite side to test an idea",
+    "note": "No significa que estés en contra. Se anuncia: 'Let me play devil's advocate for a second'.",
+    "ex": [
+      {
+        "en": "Let me [play devil's advocate] for a second.",
+        "es": "Déjame hacer de abogado del diablo un segundo."
+      },
+      {
+        "en": "He likes to [play devil's advocate] in meetings.",
+        "es": "Le gusta hacer de abogado del diablo en las juntas."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-take-your-point-but",
+    "type": "phrase",
+    "term": "I take your point, but…",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "entiendo tu punto, pero…",
+    "def": "a way to accept a good point before disagreeing",
+    "note": "Es más natural en inglés canadiense y británico. En EE. UU.: 'I see your point, but…'.",
+    "ex": [
+      {
+        "en": "[I take your point, but] we can't wait longer.",
+        "es": "Entiendo tu punto, pero no podemos esperar más."
+      },
+      {
+        "en": "[I take your point, but] the numbers say otherwise.",
+        "es": "Entiendo tu punto, pero los números dicen otra cosa."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-lets-park-that-for-now",
+    "type": "phrase",
+    "term": "let's park that for now",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "dejemos eso en pausa por ahora",
+    "def": "a way to put a topic aside to discuss later",
+    "note": "'Park' = estacionar, dejar a un lado. Parecido a 'table' (en EE. UU. 'table it' puede significar lo contrario).",
+    "ex": [
+      {
+        "en": "[Let's park that for now] and finish the agenda.",
+        "es": "Dejemos eso en pausa y terminemos la agenda."
+      },
+      {
+        "en": "[Let's park that for now]; it needs more data.",
+        "es": "Dejemos eso en pausa; necesita más datos."
+      }
+    ]
+  },
+  {
+    "id": "col-meeting-minutes",
+    "type": "collocation",
+    "term": "meeting minutes",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "reuniones"
+    ],
+    "es": "minuta; acta de la reunión",
+    "def": "the written record of what was said and decided",
+    "note": "'Minutes' casi siempre va en plural: 'the minutes'. Formal.",
+    "ex": [
+      {
+        "en": "I'll send the [meeting minutes] tonight.",
+        "es": "Enviaré la minuta de la reunión esta noche."
+      },
+      {
+        "en": "Please review the [meeting minutes].",
+        "es": "Por favor revisa la minuta de la reunión."
+      }
+    ]
+  },
+  {
+    "id": "phr-what-are-you-up-to-this-weekend",
+    "type": "phrase",
+    "term": "what are you up to this weekend?",
+    "level": "A2",
+    "topic": "social",
+    "freq": 5,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "¿qué vas a hacer este fin de semana?",
+    "def": "a casual question about someone's plans",
+    "note": "'Be up to' = estar haciendo. Respuesta común: 'Not much, you?'.",
+    "ex": [
+      {
+        "en": "[What are you up to this weekend]?",
+        "es": "¿Qué vas a hacer este fin de semana?"
+      },
+      {
+        "en": "So, [what are you up to this weekend]? Any plans?",
+        "es": "Entonces, ¿qué vas a hacer este fin de semana? ¿Tienes planes?"
+      }
+    ]
+  },
+  {
+    "id": "phr-do-you-want-to-join-us",
+    "type": "phrase",
+    "term": "do you want to join us?",
+    "level": "A2",
+    "topic": "social",
+    "freq": 5,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "¿quieres venir con nosotros?",
+    "def": "an invitation to do something together",
+    "note": "'Join' no lleva 'to': join us, join me. También: 'Want to come along?'.",
+    "ex": [
+      {
+        "en": "We're going for pizza. [Do you want to join us]?",
+        "es": "Vamos por pizza. ¿Quieres venir con nosotros?"
+      },
+      {
+        "en": "[Do you want to join us] for a walk?",
+        "es": "¿Quieres acompañarnos a caminar?"
+      }
+    ]
+  },
+  {
+    "id": "phr-id-love-to-but",
+    "type": "phrase",
+    "term": "I'd love to, but…",
+    "level": "A2",
+    "topic": "social",
+    "freq": 5,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "me encantaría, pero…",
+    "def": "a polite way to say no to an invitation",
+    "note": "Después de 'but' das la razón: 'I'd love to, but I have to work'. Suena amable.",
+    "ex": [
+      {
+        "en": "[I'd love to, but] I'm busy on Friday.",
+        "es": "Me encantaría, pero el viernes estoy ocupado."
+      },
+      {
+        "en": "[I'd love to, but] I have homework.",
+        "es": "Me encantaría, pero tengo tarea."
+      }
+    ]
+  },
+  {
+    "id": "phr-that-sounds-fun",
+    "type": "phrase",
+    "term": "that sounds fun",
+    "level": "A2",
+    "topic": "social",
+    "freq": 5,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "suena divertido",
+    "def": "a friendly reaction to a plan",
+    "note": "Para reaccionar a una invitación. Variantes: 'That sounds great', 'That sounds good'.",
+    "ex": [
+      {
+        "en": "A picnic on Saturday? [That sounds fun]!",
+        "es": "¿Un picnic el sábado? ¡Suena divertido!"
+      },
+      {
+        "en": "[That sounds fun]. What time should I be there?",
+        "es": "Suena divertido. ¿A qué hora debo llegar?"
+      }
+    ]
+  },
+  {
+    "id": "phr-tell-me-more",
+    "type": "phrase",
+    "term": "tell me more",
+    "level": "A2",
+    "topic": "social",
+    "freq": 5,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "cuéntame más",
+    "def": "a way to show interest and ask for details",
+    "note": "Se dice cuando algo te interesa. También: 'Go on', 'Really? What happened?'.",
+    "ex": [
+      {
+        "en": "You met an actor? [Tell me more]!",
+        "es": "¿Conociste a un actor? ¡Cuéntame más!"
+      },
+      {
+        "en": "I'm planning a trip. — Oh, [tell me more].",
+        "es": "Estoy planeando un viaje. — Ay, cuéntame más."
+      }
+    ]
+  },
+  {
+    "id": "col-grab-a-bite",
+    "type": "collocation",
+    "term": "grab a bite",
+    "level": "A2",
+    "topic": "food",
+    "freq": 4,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "comer algo rápido",
+    "def": "to eat a small meal quickly",
+    "note": "Informal. 'Let's grab a bite' = vamos a comer algo. No implica una comida elegante.",
+    "ex": [
+      {
+        "en": "Let's [grab a bite] after work.",
+        "es": "Vamos a comer algo después del trabajo."
+      },
+      {
+        "en": "I'm hungry. Want to [grab a bite]?",
+        "es": "Tengo hambre. ¿Quieres ir a comer algo?"
+      }
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "phr-no-pressure",
+    "type": "phrase",
+    "term": "no pressure",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "sin presión; sin compromiso",
+    "def": "a way to say that the other person doesn't have to decide now",
+    "note": "Suaviza una invitación: 'Come if you can, no pressure'. Muy común en Canadá.",
+    "ex": [
+      {
+        "en": "Come if you want. [No pressure].",
+        "es": "Ven si quieres. Sin presión."
+      },
+      {
+        "en": "Think about it. [No pressure], really.",
+        "es": "Piénsalo. Sin presión, de verdad."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-i-hate-to-cancel-but",
+    "type": "phrase",
+    "term": "I hate to cancel, but…",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "odio cancelar, pero…",
+    "def": "a polite way to start canceling a plan",
+    "note": "Siempre da una razón breve y propón otra fecha: 'I hate to cancel, but I'm sick. Can we reschedule?'.",
+    "ex": [
+      {
+        "en": "[I hate to cancel, but] something came up.",
+        "es": "Odio cancelar, pero surgió algo."
+      },
+      {
+        "en": "[I hate to cancel, but] my car won't start.",
+        "es": "Odio cancelar, pero mi coche no arranca."
+      }
+    ]
+  },
+  {
+    "id": "idi-no-hard-feelings",
+    "type": "idiom",
+    "term": "no hard feelings",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "sin rencores",
+    "def": "a phrase that says you are not angry",
+    "note": "Se usa después de un desacuerdo o un rechazo: 'No hard feelings?' — 'Of course not'.",
+    "ex": [
+      {
+        "en": "Sorry I said no. [No hard feelings]?",
+        "es": "Perdón por decir que no. ¿Sin rencores?"
+      },
+      {
+        "en": "We disagreed, but [no hard feelings].",
+        "es": "No estuvimos de acuerdo, pero sin rencores."
+      }
+    ]
+  },
+  {
+    "id": "phr-speaking-of",
+    "type": "phrase",
+    "term": "speaking of…",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "hablando de…",
+    "def": "a phrase used to move to a related topic",
+    "note": "Después va el sustantivo: 'Speaking of music, have you heard…?'.",
+    "ex": [
+      {
+        "en": "[Speaking of] food, are you hungry?",
+        "es": "Hablando de comida, ¿tienes hambre?"
+      },
+      {
+        "en": "[Speaking of] work, how's your new job?",
+        "es": "Hablando de trabajo, ¿cómo va tu trabajo nuevo?"
+      }
+    ]
+  },
+  {
+    "id": "phr-fair-enough",
+    "type": "phrase",
+    "term": "fair enough",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "es justo; me parece bien",
+    "def": "a way to accept someone's reasoning",
+    "note": "Muestra que aceptas una razón aunque no sea tu idea. Puede sonar seco si lo dices cortante.",
+    "ex": [
+      {
+        "en": "You're tired? [Fair enough].",
+        "es": "¿Estás cansado? Es justo."
+      },
+      {
+        "en": "[Fair enough], let's do it your way.",
+        "es": "Es justo, hagámoslo a tu manera."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-afraid-i-cant-make-it",
+    "type": "phrase",
+    "term": "I'm afraid I can't make it",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "es": "me temo que no podré ir",
+    "def": "a polite way to say you cannot come",
+    "note": "'Afraid' aquí significa 'lo siento'. Más formal que 'I can't come'.",
+    "ex": [
+      {
+        "en": "[I'm afraid I can't make it] on Friday.",
+        "es": "Me temo que no podré ir el viernes."
+      },
+      {
+        "en": "[I'm afraid I can't make it], but thanks for inviting me.",
+        "es": "Me temo que no podré ir, pero gracias por invitarme."
+      }
+    ]
+  },
+  {
+    "id": "phr-have-you-seen",
+    "type": "phrase",
+    "term": "have you seen…?",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "es": "¿has visto…?",
+    "def": "a question to ask if someone has watched a show or movie",
+    "note": "Para series o películas se usa 'seen' o 'watched'. 'Have you seen X?' es la forma más natural.",
+    "ex": [
+      {
+        "en": "[Have you seen] the new comedy on Friday nights?",
+        "es": "¿Has visto la nueva comedia de los viernes?"
+      },
+      {
+        "en": "[Have you seen] this movie? It's really good.",
+        "es": "¿Has visto esta película? Está muy buena."
+      }
+    ],
+    "tags": [
+      "tv"
+    ]
+  },
+  {
+    "id": "phr-whats-it-about",
+    "type": "phrase",
+    "term": "what's it about?",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "es": "¿de qué trata?",
+    "def": "a question to ask about the story of a show or book",
+    "note": "Se responde con 'It's about…'. También: 'What's the plot?'.",
+    "ex": [
+      {
+        "en": "I heard it's good. [What's it about]?",
+        "es": "Escuché que es buena. ¿De qué trata?"
+      },
+      {
+        "en": "[What's it about]? Is it a comedy or a drama?",
+        "es": "¿De qué trata? ¿Es comedia o drama?"
+      }
+    ],
+    "tags": [
+      "tv"
+    ]
+  },
+  {
+    "id": "phr-im-hooked",
+    "type": "phrase",
+    "term": "I'm hooked",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 5,
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "es": "me tiene enganchado",
+    "def": "a phrase that says you cannot stop enjoying something",
+    "note": "Sirve para series, libros y juegos. 'Hooked on' = enganchado a: 'I'm hooked on this show'.",
+    "ex": [
+      {
+        "en": "I started it last night and now [I'm hooked].",
+        "es": "La empecé anoche y ahora estoy enganchado."
+      },
+      {
+        "en": "After one episode, [I'm hooked].",
+        "es": "Después de un episodio, ya estoy enganchado."
+      }
+    ],
+    "tags": [
+      "tv"
+    ]
+  },
+  {
+    "id": "phr-i-highly-recommend-it",
+    "type": "phrase",
+    "term": "I highly recommend it",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "es": "te la recomiendo mucho",
+    "def": "a strong way to suggest something to someone",
+    "note": "'Highly' va con 'recommend'. No digas 'I recommend you to watch'; di 'I recommend watching it'.",
+    "ex": [
+      {
+        "en": "It's a great show. [I highly recommend it].",
+        "es": "Es una gran serie. Te la recomiendo mucho."
+      },
+      {
+        "en": "[I highly recommend it], but start from the first season.",
+        "es": "Te la recomiendo mucho, pero empieza por la primera temporada."
+      }
+    ],
+    "tags": [
+      "tv"
+    ]
+  },
+  {
+    "id": "phr-the-ending-was-predictable",
+    "type": "phrase",
+    "term": "the ending was predictable",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "es": "el final fue predecible",
+    "def": "a criticism that says you knew what would happen",
+    "note": "'Predictable' no es ofensivo, pero suena a crítica. Contrario: 'unexpected', 'surprising'.",
+    "ex": [
+      {
+        "en": "I liked it, but [the ending was predictable].",
+        "es": "Me gustó, pero el final fue predecible."
+      },
+      {
+        "en": "Honestly, [the ending was predictable].",
+        "es": "Sinceramente, el final fue predecible."
+      }
+    ],
+    "tags": [
+      "tv"
+    ]
+  },
+  {
+    "id": "phr-it-starts-off-slow",
+    "type": "phrase",
+    "term": "it starts off slow",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "es": "empieza lento",
+    "def": "a way to say that a story is slow at the beginning",
+    "note": "Se suele seguir de 'but it picks up': empieza lento, pero se pone bueno.",
+    "ex": [
+      {
+        "en": "[It starts off slow], but it gets great after episode three.",
+        "es": "Empieza lento, pero se pone muy buena después del episodio tres."
+      },
+      {
+        "en": "I almost quit because [it starts off slow].",
+        "es": "Casi la dejo porque empieza lento."
+      }
+    ],
+    "tags": [
+      "tv"
+    ]
+  },
+  {
+    "id": "col-character-development",
+    "type": "collocation",
+    "term": "character development",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "es": "desarrollo de personajes",
+    "def": "how characters change and grow during a story",
+    "note": "Se usa en reseñas: 'great character development' = personajes bien construidos.",
+    "ex": [
+      {
+        "en": "The show has great [character development].",
+        "es": "La serie tiene un gran desarrollo de personajes."
+      },
+      {
+        "en": "I wanted more [character development] in season two.",
+        "es": "Quería más desarrollo de personajes en la temporada dos."
+      }
+    ],
+    "tags": [
+      "tv"
+    ]
+  },
+  {
+    "id": "col-fare-increase",
+    "type": "collocation",
+    "term": "fare increase",
+    "level": "B1",
+    "topic": "money",
+    "freq": 3,
+    "areas": [
+      "noticias"
+    ],
+    "es": "aumento de tarifas (del transporte)",
+    "def": "a rise in the price of a bus or train ticket",
+    "note": "'Fare' es el precio del transporte público; 'price' se usa para productos. Noticia típica: 'proposed fare increase'.",
+    "ex": [
+      {
+        "en": "A [fare increase] is planned for March.",
+        "es": "Se planea un aumento de tarifas para marzo."
+      },
+      {
+        "en": "Riders are upset about the [fare increase].",
+        "es": "Los usuarios están molestos por el aumento de tarifas."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-vote-is-scheduled-for",
+    "type": "phrase",
+    "term": "the vote is scheduled for…",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "noticias"
+    ],
+    "es": "la votación está programada para…",
+    "def": "a news phrase that gives the date of a decision",
+    "note": "'Scheduled for' = programado para. Muy usado en noticias y agendas oficiales.",
+    "ex": [
+      {
+        "en": "[The vote is scheduled for] next Tuesday.",
+        "es": "La votación está programada para el próximo martes."
+      },
+      {
+        "en": "[The vote is scheduled for] February.",
+        "es": "La votación está programada para febrero."
+      }
+    ]
+  },
+  {
+    "id": "col-fill-in-a-form",
+    "type": "collocation",
+    "term": "fill in a form",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "crm",
+      "analisis"
+    ],
+    "es": "llenar un formulario",
+    "def": "to write your information in a form",
+    "note": "En EE. UU. se dice más 'fill out a form'; en Canadá y Reino Unido, 'fill in' es común. Ambos son correctos.",
+    "ex": [
+      {
+        "en": "Please [fill in a form] to get started.",
+        "es": "Por favor llena un formulario para empezar."
+      },
+      {
+        "en": "Customers [fill in a form] on our website.",
+        "es": "Los clientes llenan un formulario en nuestro sitio web."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-add-a-contact",
+    "type": "collocation",
+    "term": "add a contact",
+    "level": "A2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm",
+      "analisis"
+    ],
+    "es": "agregar un contacto",
+    "def": "to put a new person in the list of contacts",
+    "note": "En un CRM, un 'contact' es una persona; una 'company' o 'account' es la empresa.",
+    "ex": [
+      {
+        "en": "You can [add a contact] with one click.",
+        "es": "Puedes agregar un contacto con un clic."
+      },
+      {
+        "en": "I forgot to [add a contact] after the call.",
+        "es": "Olvidé agregar un contacto después de la llamada."
+      }
+    ]
+  },
+  {
+    "id": "col-send-a-reminder",
+    "type": "collocation",
+    "term": "send a reminder",
+    "level": "A2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm",
+      "analisis"
+    ],
+    "es": "enviar un recordatorio",
+    "def": "to send a message that helps someone remember something",
+    "note": "'Reminder' también es el aviso del calendario. 'Set a reminder' = programar un recordatorio.",
+    "ex": [
+      {
+        "en": "Please [send a reminder] to the client.",
+        "es": "Por favor envía un recordatorio al cliente."
+      },
+      {
+        "en": "The system will [send a reminder] on Friday.",
+        "es": "El sistema enviará un recordatorio el viernes."
+      }
+    ]
+  },
+  {
+    "id": "col-save-the-changes",
+    "type": "collocation",
+    "term": "save the changes",
+    "level": "A2",
+    "topic": "tech",
+    "freq": 5,
+    "areas": [
+      "automatizacion",
+      "software"
+    ],
+    "es": "guardar los cambios",
+    "def": "to keep what you edited in a file or system",
+    "note": "Botón típico: 'Save changes'. Sin guardar, se pierden: 'unsaved changes'.",
+    "ex": [
+      {
+        "en": "Don't forget to [save the changes].",
+        "es": "No olvides guardar los cambios."
+      },
+      {
+        "en": "I closed the page before I could [save the changes].",
+        "es": "Cerré la página antes de poder guardar los cambios."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-not-working",
+    "type": "phrase",
+    "term": "it's not working",
+    "level": "A2",
+    "topic": "tech",
+    "freq": 5,
+    "areas": [
+      "automatizacion",
+      "software"
+    ],
+    "es": "no funciona",
+    "def": "a way to say that something does not work",
+    "note": "Muy general. Después se añade detalle: 'It's not working. I get an error'. 'Doesn't work' también es común.",
+    "ex": [
+      {
+        "en": "Sorry, [it's not working]. The page is blank.",
+        "es": "Perdón, no funciona. La página está en blanco."
+      },
+      {
+        "en": "[It's not working] on my phone.",
+        "es": "No funciona en mi teléfono."
+      }
+    ]
+  },
+  {
+    "id": "phr-it-happens-automatically",
+    "type": "phrase",
+    "term": "it happens automatically",
+    "level": "A2",
+    "topic": "tech",
+    "freq": 4,
+    "areas": [
+      "automatizacion",
+      "software"
+    ],
+    "es": "sucede automáticamente",
+    "def": "a phrase that says no person has to do it",
+    "note": "'Automatically' se pone al final de la frase o antes del verbo: 'it automatically sends an email'.",
+    "ex": [
+      {
+        "en": "You do nothing. [It happens automatically].",
+        "es": "No haces nada. Sucede automáticamente."
+      },
+      {
+        "en": "[It happens automatically] every night at midnight.",
+        "es": "Sucede automáticamente todas las noches a medianoche."
+      }
+    ]
+  },
+  {
+    "id": "col-integrate-with",
+    "type": "collocation",
+    "term": "integrate with",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 4,
+    "areas": [
+      "automatizacion",
+      "software"
+    ],
+    "es": "integrarse con; conectarse con",
+    "def": "to connect one system to another so they share data",
+    "note": "Se dice 'integrate X with Y' o 'X integrates with Y'. El sustantivo es 'integration'.",
+    "ex": [
+      {
+        "en": "The CRM can [integrate with] your email.",
+        "es": "El CRM puede integrarse con tu correo."
+      },
+      {
+        "en": "We want to [integrate with] the billing system.",
+        "es": "Queremos integrarnos con el sistema de facturación."
+      }
+    ]
+  },
+  {
+    "id": "col-steps-to-reproduce",
+    "type": "collocation",
+    "term": "steps to reproduce",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 4,
+    "areas": [
+      "automatizacion",
+      "software"
+    ],
+    "es": "pasos para reproducir (el error)",
+    "def": "a list of actions that makes a problem happen again",
+    "note": "Es una parte estándar de un reporte de bug, junto con 'expected result' y 'actual result'.",
+    "ex": [
+      {
+        "en": "Please add the [steps to reproduce] to the ticket.",
+        "es": "Por favor agrega los pasos para reproducir el error al ticket."
+      },
+      {
+        "en": "The [steps to reproduce] are very short.",
+        "es": "Los pasos para reproducir el error son muy cortos."
+      }
+    ]
+  },
+  {
+    "id": "phr-in-plain-english",
+    "type": "phrase",
+    "term": "in plain English",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "en lenguaje sencillo; en palabras simples",
+    "def": "a phrase to explain something without technical words",
+    "note": "Útil con clientes no técnicos. Variante: 'in plain terms', 'in simple terms'.",
+    "ex": [
+      {
+        "en": "[In plain English], the system sends the message for you.",
+        "es": "En palabras simples, el sistema envía el mensaje por ti."
+      },
+      {
+        "en": "Can you explain that [in plain English]?",
+        "es": "¿Puedes explicarlo en palabras simples?"
+      }
+    ]
+  },
+  {
+    "id": "col-api-key",
+    "type": "collocation",
+    "term": "API key",
+    "ipa": "/ˌeɪ piː ˈaɪ kiː/",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 4,
+    "areas": [
+      "automatizacion",
+      "software"
+    ],
+    "es": "clave de API",
+    "def": "a secret code that lets one program use another program",
+    "note": "Se trata como una contraseña: nunca se comparte en chats ni correos. Se pronuncia letra por letra: A-P-I.",
+    "ex": [
+      {
+        "en": "The [API key] expired yesterday.",
+        "es": "La clave de API caducó ayer."
+      },
+      {
+        "en": "Never share your [API key] in a chat.",
+        "es": "Nunca compartas tu clave de API en un chat."
+      }
+    ]
+  },
+  {
+    "id": "col-blast-radius",
+    "type": "collocation",
+    "term": "blast radius",
+    "level": "C1",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "alcance del impacto (de un fallo)",
+    "def": "how many things are affected when something goes wrong",
+    "note": "Metáfora de explosión. En ingeniería: 'limit the blast radius' = limitar el daño de un error.",
+    "ex": [
+      {
+        "en": "A smaller release has a smaller [blast radius].",
+        "es": "Un lanzamiento pequeño tiene un menor alcance de impacto."
+      },
+      {
+        "en": "We need to understand the [blast radius] first.",
+        "es": "Primero necesitamos entender el alcance del impacto."
+      }
+    ]
+  },
+  {
+    "id": "voc-idempotent",
+    "type": "vocab",
+    "term": "idempotent",
+    "ipa": "/ˌaɪdəmˈpoʊtənt/",
+    "level": "C1",
+    "topic": "tech",
+    "freq": 2,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "idempotente (repetir no cambia el resultado)",
+    "def": "giving the same result even if you do it many times",
+    "note": "Una operación idempotente puede repetirse sin duplicar efectos (por ejemplo, un cobro). Clave en reintentos.",
+    "ex": [
+      {
+        "en": "The charge request must be [idempotent].",
+        "es": "La solicitud de cobro debe ser idempotente."
+      },
+      {
+        "en": "An [idempotent] API is safe to retry.",
+        "es": "Una API idempotente es segura de reintentar."
+      }
+    ]
+  },
+  {
+    "id": "voc-post-mortem",
+    "type": "vocab",
+    "term": "post-mortem",
+    "ipa": "/ˌpoʊst ˈmɔːrtəm/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "análisis posterior a un incidente",
+    "def": "a review of what went wrong after a problem",
+    "note": "Se escribe 'post-mortem' o 'postmortem'. 'Blameless post-mortem' = sin buscar culpables.",
+    "ex": [
+      {
+        "en": "We'll write a [post-mortem] after the outage.",
+        "es": "Escribiremos un análisis posterior después de la caída."
+      },
+      {
+        "en": "The [post-mortem] showed three small mistakes.",
+        "es": "El análisis posterior mostró tres errores pequeños."
+      }
+    ]
+  },
+  {
+    "id": "col-fail-gracefully",
+    "type": "collocation",
+    "term": "fail gracefully",
+    "level": "C1",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "fallar de forma controlada",
+    "def": "to stop working without causing big problems",
+    "note": "Un sistema bien diseñado 'fails gracefully': muestra un mensaje claro en vez de romperse.",
+    "ex": [
+      {
+        "en": "The app should [fail gracefully] if the server is down.",
+        "es": "La app debería fallar de forma controlada si el servidor está caído."
+      },
+      {
+        "en": "We want the system to [fail gracefully].",
+        "es": "Queremos que el sistema falle de forma controlada."
+      }
+    ]
+  },
+  {
+    "id": "idi-band-aid-solution",
+    "type": "idiom",
+    "term": "band-aid solution",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "parche temporal; solución superficial",
+    "def": "a quick fix that does not solve the real problem",
+    "note": "'Band-Aid' es una marca, pero se usa como nombre común en EE. UU. y Canadá. Reino Unido: 'sticking plaster'.",
+    "ex": [
+      {
+        "en": "A quick patch is just a [band-aid solution].",
+        "es": "Un parche rápido es solo una solución superficial."
+      },
+      {
+        "en": "We don't want another [band-aid solution].",
+        "es": "No queremos otra solución superficial."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-its-a-judgment-call",
+    "type": "phrase",
+    "term": "it's a judgment call",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "es cuestión de criterio",
+    "def": "a phrase that says there is no clear right answer",
+    "note": "Se dice cuando la decisión depende de la experiencia. En Reino Unido: 'judgement'.",
+    "ex": [
+      {
+        "en": "Honestly, [it's a judgment call].",
+        "es": "Honestamente, es cuestión de criterio."
+      },
+      {
+        "en": "With these numbers, [it's a judgment call].",
+        "es": "Con estos números, es cuestión de criterio."
+      }
+    ]
+  },
+  {
+    "id": "col-get-buy-in",
+    "type": "collocation",
+    "term": "get buy-in",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "devops",
+      "soporte"
+    ],
+    "es": "conseguir el respaldo; que acepten la idea",
+    "def": "to get people to agree and support a plan",
+    "note": "'Buy-in' = apoyo, compromiso. 'We need buy-in from leadership'.",
+    "ex": [
+      {
+        "en": "We need to [get buy-in] from the board.",
+        "es": "Necesitamos conseguir el respaldo del consejo."
+      },
+      {
+        "en": "It's hard to [get buy-in] without data.",
+        "es": "Es difícil conseguir respaldo sin datos."
+      }
+    ]
+  },
+  {
+    "id": "col-wear-gloves",
+    "type": "collocation",
+    "term": "wear gloves",
+    "level": "A2",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "usar guantes",
+    "def": "to have gloves on your hands for safety",
+    "note": "En laboratorio y campo: 'put on gloves' = ponerse los guantes; 'take off' = quitárselos.",
+    "ex": [
+      {
+        "en": "Please [wear gloves] when you touch the samples.",
+        "es": "Por favor usa guantes cuando toques las muestras."
+      },
+      {
+        "en": "You have to [wear gloves] in this lab.",
+        "es": "Tienes que usar guantes en este laboratorio."
+      }
+    ]
+  },
+  {
+    "id": "voc-safety-goggles",
+    "type": "vocab",
+    "term": "safety goggles",
+    "ipa": "/ˈseɪfti ˈɡɑːɡlz/",
+    "level": "A2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "gafas de seguridad",
+    "def": "strong glasses that protect your eyes",
+    "note": "Casi siempre en plural. Se ponen en el laboratorio, no solo en el campo.",
+    "ex": [
+      {
+        "en": "Put on your [safety goggles] before you start.",
+        "es": "Ponte las gafas de seguridad antes de empezar."
+      },
+      {
+        "en": "I can't see well through these [safety goggles].",
+        "es": "No veo bien con estas gafas de seguridad."
+      }
+    ]
+  },
+  {
+    "id": "col-label-a-sample",
+    "type": "collocation",
+    "term": "label a sample",
+    "level": "A2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "etiquetar una muestra",
+    "def": "to write information on a sample container",
+    "note": "Normalmente: fecha, lugar, número de muestra e iniciales. 'Label' lleva doble L en inglés canadiense: labelled.",
+    "ex": [
+      {
+        "en": "Always [label a sample] right away.",
+        "es": "Siempre etiqueta una muestra de inmediato."
+      },
+      {
+        "en": "I forgot to [label a sample] at the pond.",
+        "es": "Olvidé etiquetar una muestra en el estanque."
+      }
+    ]
+  },
+  {
+    "id": "phr-how-many-are-there",
+    "type": "phrase",
+    "term": "how many are there?",
+    "level": "A2",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "¿cuántos hay?",
+    "def": "a question to ask about a number of things",
+    "note": "Para plural contable. Con incontable: 'How much is there?'.",
+    "ex": [
+      {
+        "en": "There are birds in the trees. [How many are there]?",
+        "es": "Hay pájaros en los árboles. ¿Cuántos hay?"
+      },
+      {
+        "en": "[How many are there] in this area?",
+        "es": "¿Cuántos hay en esta zona?"
+      }
+    ]
+  },
+  {
+    "id": "col-follow-the-protocol",
+    "type": "collocation",
+    "term": "follow the protocol",
+    "level": "B1",
+    "topic": "study",
+    "freq": 5,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "seguir el protocolo",
+    "def": "to do the steps exactly as written",
+    "note": "'Protocol' = lista de pasos de un procedimiento. 'Deviate from the protocol' = desviarse del protocolo.",
+    "ex": [
+      {
+        "en": "You must [follow the protocol] exactly.",
+        "es": "Debes seguir el protocolo exactamente."
+      },
+      {
+        "en": "We didn't [follow the protocol], so the test failed.",
+        "es": "No seguimos el protocolo, así que la prueba falló."
+      }
+    ]
+  },
+  {
+    "id": "voc-fume-hood",
+    "type": "vocab",
+    "term": "fume hood",
+    "ipa": "/fjuːm hʊd/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "campana de extracción",
+    "def": "a ventilated cabinet that removes harmful gases",
+    "note": "En Canadá y EE. UU.: 'fume hood'. Se trabaja con solventes dentro de ella.",
+    "ex": [
+      {
+        "en": "Open the ethanol under the [fume hood].",
+        "es": "Abre el etanol bajo la campana de extracción."
+      },
+      {
+        "en": "Never use acids outside the [fume hood].",
+        "es": "Nunca uses ácidos fuera de la campana de extracción."
+      }
+    ]
+  },
+  {
+    "id": "col-dispose-of-waste",
+    "type": "collocation",
+    "term": "dispose of waste",
+    "level": "B1",
+    "topic": "study",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "desechar residuos",
+    "def": "to throw away waste in the correct way",
+    "note": "En laboratorio hay contenedores distintos (biológico, químico, punzocortantes). 'Waste' casi siempre es incontable.",
+    "ex": [
+      {
+        "en": "Please [dispose of waste] in the labelled containers.",
+        "es": "Por favor desecha los residuos en los contenedores etiquetados."
+      },
+      {
+        "en": "Never [dispose of waste] in the sink.",
+        "es": "Nunca deseches residuos en el lavabo."
+      }
+    ]
+  },
+  {
+    "id": "voc-contamination",
+    "type": "vocab",
+    "term": "contamination",
+    "ipa": "/kənˌtæməˈneɪʃn/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "contaminación",
+    "def": "the presence of unwanted material in a sample",
+    "note": "Se dice 'contamination' para muestras y 'pollution' para ambiente. Verbo: 'contaminate'.",
+    "ex": [
+      {
+        "en": "We found [contamination] in two plates.",
+        "es": "Encontramos contaminación en dos placas."
+      },
+      {
+        "en": "Use fresh tips to avoid [contamination].",
+        "es": "Usa puntas nuevas para evitar la contaminación."
+      }
+    ]
+  },
+  {
+    "id": "col-run-a-control",
+    "type": "collocation",
+    "term": "run a control",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "correr un control",
+    "def": "to do a comparison test without the treatment",
+    "note": "'Control' sirve de comparación. Se dice 'run a control' o 'include a control'.",
+    "ex": [
+      {
+        "en": "Did you [run a control] for each batch?",
+        "es": "¿Corriste un control para cada lote?"
+      },
+      {
+        "en": "We forgot to [run a control] last time.",
+        "es": "Se nos olvidó correr un control la última vez."
+      }
+    ]
+  },
+  {
+    "id": "voc-inconclusive",
+    "type": "vocab",
+    "term": "inconclusive",
+    "ipa": "/ˌɪnkənˈkluːsɪv/",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "no concluyente",
+    "def": "not giving a clear answer",
+    "note": "Se usa en resultados: 'The results were inconclusive'. Contrario: 'conclusive'.",
+    "ex": [
+      {
+        "en": "The results were [inconclusive].",
+        "es": "Los resultados no fueron concluyentes."
+      },
+      {
+        "en": "We need more data because it is [inconclusive].",
+        "es": "Necesitamos más datos porque no es concluyente."
+      }
+    ]
+  },
+  {
+    "id": "col-value-proposition",
+    "type": "collocation",
+    "term": "value proposition",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "ciencia",
+      "crm"
+    ],
+    "es": "propuesta de valor",
+    "def": "the main reason a customer should choose a product",
+    "note": "Frase corta que dice qué beneficio ofreces. 'Our value proposition is speed.'.",
+    "ex": [
+      {
+        "en": "Our [value proposition] is simple: fast, reliable results.",
+        "es": "Nuestra propuesta de valor es simple: resultados rápidos y fiables."
+      },
+      {
+        "en": "Start with the [value proposition], then show the data.",
+        "es": "Empieza con la propuesta de valor y luego muestra los datos."
+      }
+    ]
+  },
+  {
+    "id": "phr-can-you-back-that-up",
+    "type": "phrase",
+    "term": "can you back that up?",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "ciencia",
+      "crm"
+    ],
+    "es": "¿puede respaldar eso?",
+    "def": "a request for evidence to support a claim",
+    "note": "Se completa: 'back that up with data'. Cortés pero firme.",
+    "ex": [
+      {
+        "en": "[Can you back that up] with data?",
+        "es": "¿Puede respaldar eso con datos?"
+      },
+      {
+        "en": "That's a big claim. [Can you back that up]?",
+        "es": "Es una afirmación fuerte. ¿Puede respaldarla?"
+      }
+    ]
+  },
+  {
+    "id": "phr-i-wouldnt-want-to-overstate",
+    "type": "phrase",
+    "term": "I wouldn't want to overstate…",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "ciencia",
+      "crm"
+    ],
+    "es": "no quisiera exagerar…",
+    "def": "a careful phrase used before describing a result",
+    "note": "Marca honestidad en ventas o ciencia: 'I wouldn't want to overstate the results'.",
+    "ex": [
+      {
+        "en": "[I wouldn't want to overstate] what the kit can do.",
+        "es": "No quisiera exagerar lo que puede hacer el kit."
+      },
+      {
+        "en": "[I wouldn't want to overstate] the evidence.",
+        "es": "No quisiera exagerar la evidencia."
+      }
+    ]
+  },
+  {
+    "id": "col-cost-per-test",
+    "type": "collocation",
+    "term": "cost per test",
+    "level": "B2",
+    "topic": "money",
+    "freq": 3,
+    "areas": [
+      "ciencia",
+      "crm"
+    ],
+    "es": "costo por prueba",
+    "def": "the price of doing one test",
+    "note": "Patrón 'cost per + unidad': cost per unit, cost per sample.",
+    "ex": [
+      {
+        "en": "The [cost per test] is only three dollars.",
+        "es": "El costo por prueba es de solo tres dólares."
+      },
+      {
+        "en": "Compare the [cost per test], not just the price.",
+        "es": "Compara el costo por prueba, no solo el precio."
+      }
+    ]
+  },
+  {
+    "id": "col-turnaround-time",
+    "type": "collocation",
+    "term": "turnaround time",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "ciencia",
+      "crm"
+    ],
+    "es": "tiempo de entrega; plazo de respuesta",
+    "def": "the time between a request and the finished result",
+    "note": "En laboratorios: tiempo entre enviar una muestra y recibir resultados.",
+    "ex": [
+      {
+        "en": "The [turnaround time] is two weeks.",
+        "es": "El tiempo de entrega es de dos semanas."
+      },
+      {
+        "en": "We need a shorter [turnaround time].",
+        "es": "Necesitamos un tiempo de entrega más corto."
+      }
+    ]
+  },
+  {
+    "id": "col-pilot-program",
+    "type": "collocation",
+    "term": "pilot program",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "ciencia",
+      "crm"
+    ],
+    "es": "programa piloto",
+    "def": "a small test of a plan before using it widely",
+    "note": "También 'pilot project' o 'pilot study'. Reduce el riesgo antes de comprometerse.",
+    "ex": [
+      {
+        "en": "We can start with a [pilot program].",
+        "es": "Podemos empezar con un programa piloto."
+      },
+      {
+        "en": "The [pilot program] runs for three months.",
+        "es": "El programa piloto dura tres meses."
+      }
+    ]
+  },
+  {
+    "id": "col-reference-customer",
+    "type": "collocation",
+    "term": "reference customer",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "ciencia",
+      "crm"
+    ],
+    "es": "cliente de referencia",
+    "def": "a customer who can tell others about a good experience",
+    "note": "En ventas: alguien que acepta hablar con prospectos. No es lo mismo que 'reference' laboral.",
+    "ex": [
+      {
+        "en": "Can I speak to a [reference customer]?",
+        "es": "¿Puedo hablar con un cliente de referencia?"
+      },
+      {
+        "en": "We have a [reference customer] in your area.",
+        "es": "Tenemos un cliente de referencia en su zona."
+      }
+    ]
+  }
+]

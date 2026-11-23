@@ -1,0 +1,4246 @@
+[
+  {
+    "id": "idi-a-piece-of-cake",
+    "type": "idiom",
+    "term": "a piece of cake",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "pan comido; facilísimo",
+    "def": "something that is very easy to do",
+    "note": "Informal. Imagen: tan fácil como comerse una rebanada de pastel. Casi siempre con 'be': it was a piece of cake.",
+    "syn": [
+      "a breeze",
+      "no sweat"
+    ],
+    "ex": [
+      {
+        "en": "Don't worry, the driving test is [a piece of cake].",
+        "es": "No te preocupes, el examen de manejo es pan comido."
+      },
+      {
+        "en": "Setting up the new phone was [a piece of cake].",
+        "es": "Configurar el teléfono nuevo fue facilísimo."
+      }
+    ]
+  },
+  {
+    "id": "idi-hit-the-road",
+    "type": "idiom",
+    "term": "hit the road",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 4,
+    "es": "ponerse en camino; irse ya",
+    "def": "to leave a place and start a trip",
+    "note": "Informal. También para despedirse de una reunión: I should hit the road = ya me voy.",
+    "ex": [
+      {
+        "en": "We should [hit the road] before traffic gets bad.",
+        "es": "Deberíamos salir antes de que se ponga pesado el tráfico."
+      },
+      {
+        "en": "They [hit the road] at six and drove all day.",
+        "es": "Salieron a las seis y manejaron todo el día."
+      }
+    ]
+  },
+  {
+    "id": "idi-call-it-a-day",
+    "type": "idiom",
+    "term": "call it a day",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "es": "dar por terminado el día; hasta aquí por hoy",
+    "def": "to stop working for the rest of the day",
+    "note": "Muy común al final de la jornada o de una junta. Variante de noche: call it a night.",
+    "ex": [
+      {
+        "en": "We've done enough. Let's [call it a day].",
+        "es": "Ya hicimos suficiente. Hasta aquí por hoy."
+      },
+      {
+        "en": "After ten hours of painting, we finally [called it a day].",
+        "es": "Después de diez horas pintando, por fin le paramos."
+      }
+    ]
+  },
+  {
+    "id": "idi-under-the-weather",
+    "type": "idiom",
+    "term": "under the weather",
+    "level": "B1",
+    "topic": "health",
+    "freq": 4,
+    "es": "sentirse mal; andar malito",
+    "def": "feeling a little sick",
+    "note": "Solo para malestares leves (gripa, cansancio), no para algo grave. Con 'feel' o 'be'.",
+    "ex": [
+      {
+        "en": "I'm feeling a bit [under the weather], so I'll stay home.",
+        "es": "Me siento medio mal, así que me quedo en casa."
+      },
+      {
+        "en": "She was [under the weather] all weekend and skipped the party.",
+        "es": "Anduvo malita todo el fin y no fue a la fiesta."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-the-same-page",
+    "type": "idiom",
+    "term": "on the same page",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "es": "estar en la misma sintonía; estar de acuerdo",
+    "def": "having the same understanding or plan as someone else",
+    "note": "De oficina, muy frecuente. 'Just to make sure we're on the same page...' abre muchas juntas.",
+    "ex": [
+      {
+        "en": "Let's meet quickly to make sure we're all [on the same page].",
+        "es": "Hay que juntarnos rápido para asegurarnos de que todos estamos en la misma sintonía."
+      },
+      {
+        "en": "My wife and I weren't [on the same page] about moving.",
+        "es": "Mi esposa y yo no pensábamos igual sobre mudarnos."
+      }
+    ]
+  },
+  {
+    "id": "idi-the-ball-is-in-your-court",
+    "type": "idiom",
+    "term": "the ball is in your court",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "te toca a ti decidir; la pelota está en tu cancha",
+    "def": "it is now your turn to act or decide",
+    "note": "Imagen del tenis. Cambia el posesivo: the ball is in their court.",
+    "ex": [
+      {
+        "en": "I sent them our offer, so [the ball is in their court].",
+        "es": "Ya les mandé nuestra oferta, así que les toca a ellos."
+      },
+      {
+        "en": "I apologized twice. Now [the ball is in your court].",
+        "es": "Ya me disculpé dos veces. Ahora te toca a ti."
+      }
+    ]
+  },
+  {
+    "id": "idi-cut-to-the-chase",
+    "type": "idiom",
+    "term": "cut to the chase",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "ir al grano",
+    "def": "to talk about the important part without wasting time",
+    "note": "Directo; con jefes o clientes suaviza: 'Let me cut to the chase'. Viene del cine: saltar a la persecución.",
+    "syn": [
+      "get to the point"
+    ],
+    "ex": [
+      {
+        "en": "I know you're busy, so I'll [cut to the chase].",
+        "es": "Sé que andas ocupado, así que voy al grano."
+      },
+      {
+        "en": "He [cut to the chase] and asked how much it cost.",
+        "es": "Fue al grano y preguntó cuánto costaba."
+      }
+    ]
+  },
+  {
+    "id": "idi-break-the-ice",
+    "type": "idiom",
+    "term": "break the ice",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "romper el hielo",
+    "def": "to say or do something to make people feel relaxed when they first meet",
+    "note": "Igual que en español. Sustantivo: an icebreaker = dinámica o comentario para romper el hielo.",
+    "ex": [
+      {
+        "en": "He told a joke to [break the ice] at the meeting.",
+        "es": "Contó un chiste para romper el hielo en la junta."
+      },
+      {
+        "en": "A quick game really [broke the ice] on the first day.",
+        "es": "Un juego rápido de verdad rompió el hielo el primer día."
+      }
+    ]
+  },
+  {
+    "id": "idi-long-story-short",
+    "type": "idiom",
+    "term": "long story short",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "en resumen; para no hacerte el cuento largo",
+    "def": "used when you tell only the main point of a long story",
+    "note": "Forma completa: to make a long story short. En conversación casi siempre va al inicio de la frase.",
+    "syn": [
+      "in a nutshell"
+    ],
+    "ex": [
+      {
+        "en": "[Long story short], we missed the flight and stayed another night.",
+        "es": "Para no hacerte el cuento largo, perdimos el vuelo y nos quedamos otra noche."
+      },
+      {
+        "en": "Anyway, [long story short], I got the job.",
+        "es": "En fin, en resumen, me dieron el trabajo."
+      }
+    ]
+  },
+  {
+    "id": "idi-no-brainer",
+    "type": "idiom",
+    "term": "no-brainer",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "decisión obvia; ni se piensa",
+    "def": "a choice that is so easy you do not need to think about it",
+    "note": "Informal. Es sustantivo: it's a no-brainer. No es insulto; habla de la decisión, no de la persona.",
+    "ex": [
+      {
+        "en": "Free shipping and a lower price? It's a [no-brainer].",
+        "es": "¿Envío gratis y más barato? Ni se piensa."
+      },
+      {
+        "en": "Taking the job closer to home was a [no-brainer].",
+        "es": "Aceptar el trabajo más cerca de casa era lo obvio."
+      }
+    ]
+  },
+  {
+    "id": "idi-take-a-rain-check",
+    "type": "idiom",
+    "term": "take a rain check",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "dejarlo para otra ocasión",
+    "def": "to say no to an invitation now but offer to do it later",
+    "note": "Forma amable de rechazar un plan. Viene del boleto que daban si llovía en el beisbol. 'Can I take a rain check?'",
+    "ex": [
+      {
+        "en": "I'm exhausted tonight. Can I [take a rain check] on dinner?",
+        "es": "Estoy muerto hoy. ¿Dejamos la cena para otro día?"
+      },
+      {
+        "en": "She [took a rain check] because her kid was sick.",
+        "es": "Lo dejó para otra ocasión porque su hijo estaba enfermo."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-the-hang-of",
+    "type": "idiom",
+    "term": "get the hang of",
+    "level": "B1",
+    "topic": "study",
+    "freq": 5,
+    "es": "agarrarle la onda; agarrarle el modo",
+    "def": "to learn how to do something after some practice",
+    "note": "Informal y muy común. Con 'it': You'll get the hang of it. No se dice 'get the hang' sin 'of'.",
+    "ex": [
+      {
+        "en": "The app is confusing at first, but you'll [get the hang of] it.",
+        "es": "La app confunde al principio, pero le vas a agarrar la onda."
+      },
+      {
+        "en": "I finally [got the hang of] parallel parking.",
+        "es": "Por fin le agarré el modo a estacionarme en paralelo."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-the-fence",
+    "type": "idiom",
+    "term": "on the fence",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "indeciso; sin decidirse",
+    "def": "not able to decide between two choices",
+    "note": "Imagen: sentado en la barda sin bajar a ningún lado. 'I'm on the fence about it.'",
+    "ex": [
+      {
+        "en": "I'm still [on the fence] about buying that car.",
+        "es": "Sigo indeciso sobre comprar ese carro."
+      },
+      {
+        "en": "She was [on the fence] until she saw the salary.",
+        "es": "No se decidía hasta que vio el sueldo."
+      }
+    ]
+  },
+  {
+    "id": "idi-touch-base",
+    "type": "idiom",
+    "term": "touch base",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "ponerse en contacto; hablar rápido para ponerse al día",
+    "def": "to talk to someone for a short time to share news or check on something",
+    "note": "De oficina (viene del beisbol). 'Let's touch base next week.' Lleva 'with': touch base with the client.",
+    "ex": [
+      {
+        "en": "Let's [touch base] on Friday to see where things stand.",
+        "es": "Hablamos el viernes para ver cómo va todo."
+      },
+      {
+        "en": "I [touched base] with the supplier this morning.",
+        "es": "Me puse en contacto con el proveedor en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "idi-hit-the-ground-running",
+    "type": "idiom",
+    "term": "hit the ground running",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 4,
+    "es": "empezar con todo desde el primer día",
+    "def": "to start a new job or activity quickly and with a lot of energy",
+    "note": "Muy usado en entrevistas y ofertas de trabajo: 'someone who can hit the ground running'.",
+    "ex": [
+      {
+        "en": "With my experience, I can [hit the ground running] from day one.",
+        "es": "Con mi experiencia, puedo empezar con todo desde el primer día."
+      },
+      {
+        "en": "The new manager [hit the ground running] and fixed three problems.",
+        "es": "La nueva gerente entró con todo y arregló tres problemas."
+      }
+    ]
+  },
+  {
+    "id": "idi-think-outside-the-box",
+    "type": "idiom",
+    "term": "think outside the box",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "pensar de forma creativa; salirse de lo convencional",
+    "def": "to think in a new and creative way",
+    "note": "Cliché de oficina, pero se sigue usando mucho. Adjetivo: an outside-the-box idea.",
+    "ex": [
+      {
+        "en": "We have no budget, so we need to [think outside the box].",
+        "es": "No tenemos presupuesto, así que hay que ser creativos."
+      },
+      {
+        "en": "She [thought outside the box] and sold the product online.",
+        "es": "Se salió de lo convencional y vendió el producto en línea."
+      }
+    ]
+  },
+  {
+    "id": "idi-up-in-the-air",
+    "type": "idiom",
+    "term": "up in the air",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "en el aire; sin definir",
+    "def": "not decided or certain yet",
+    "note": "Para planes, fechas o decisiones pendientes. Igual que 'está en el aire' en español.",
+    "ex": [
+      {
+        "en": "Our vacation plans are still [up in the air].",
+        "es": "Nuestros planes de vacaciones siguen en el aire."
+      },
+      {
+        "en": "The launch date was [up in the air] for months.",
+        "es": "La fecha de lanzamiento estuvo sin definir durante meses."
+      }
+    ]
+  },
+  {
+    "id": "idi-by-the-book",
+    "type": "idiom",
+    "term": "by the book",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "al pie de la letra; según las reglas",
+    "def": "exactly following the rules",
+    "note": "Con 'do' o 'go': do everything by the book. Puede sonar a elogio o a crítica (demasiado rígido).",
+    "ex": [
+      {
+        "en": "The inspector does everything [by the book].",
+        "es": "El inspector hace todo al pie de la letra."
+      },
+      {
+        "en": "We went [by the book] so nobody could complain later.",
+        "es": "Hicimos todo según las reglas para que nadie se quejara después."
+      }
+    ]
+  },
+  {
+    "id": "idi-behind-the-scenes",
+    "type": "idiom",
+    "term": "behind the scenes",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "tras bambalinas; detrás de cámaras",
+    "def": "in a way that the public does not see",
+    "note": "También como adjetivo con guiones: a behind-the-scenes video.",
+    "ex": [
+      {
+        "en": "A lot of people work [behind the scenes] to run this event.",
+        "es": "Mucha gente trabaja tras bambalinas para sacar este evento."
+      },
+      {
+        "en": "The deal was arranged [behind the scenes] weeks ago.",
+        "es": "El trato se arregló tras bambalinas hace semanas."
+      }
+    ]
+  },
+  {
+    "id": "idi-in-a-nutshell",
+    "type": "idiom",
+    "term": "in a nutshell",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "en pocas palabras; en resumen",
+    "def": "said in a very short and clear way",
+    "note": "Imagen: algo tan corto que cabe en una cáscara de nuez. Útil para resumir en presentaciones.",
+    "syn": [
+      "long story short"
+    ],
+    "ex": [
+      {
+        "en": "[In a nutshell], we need more time and more people.",
+        "es": "En pocas palabras, necesitamos más tiempo y más gente."
+      },
+      {
+        "en": "That's the plan [in a nutshell]. Any questions?",
+        "es": "Ese es el plan en resumen. ¿Alguna pregunta?"
+      }
+    ]
+  },
+  {
+    "id": "idi-out-of-the-blue",
+    "type": "idiom",
+    "term": "out of the blue",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "de la nada; de repente",
+    "def": "suddenly and without any warning",
+    "note": "Imagen: como un rayo que cae de un cielo azul. Para llamadas, noticias o visitas inesperadas.",
+    "syn": [
+      "out of nowhere"
+    ],
+    "ex": [
+      {
+        "en": "My old roommate texted me [out of the blue] yesterday.",
+        "es": "Mi antiguo roomie me escribió de la nada ayer."
+      },
+      {
+        "en": "[Out of the blue], he quit and moved to Vancouver.",
+        "es": "De repente renunció y se fue a Vancouver."
+      }
+    ]
+  },
+  {
+    "id": "idi-bite-the-bullet",
+    "type": "idiom",
+    "term": "bite the bullet",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 3,
+    "es": "hacer de tripas corazón; aguantarse y hacerlo",
+    "def": "to do something hard or unpleasant that you have been avoiding",
+    "note": "Imagen: morder una bala para aguantar el dolor. Para decisiones que ya no se pueden posponer.",
+    "ex": [
+      {
+        "en": "I finally [bit the bullet] and went to the dentist.",
+        "es": "Por fin hice de tripas corazón y fui al dentista."
+      },
+      {
+        "en": "We'll have to [bite the bullet] and replace the roof.",
+        "es": "Vamos a tener que aguantarnos y cambiar el techo."
+      }
+    ]
+  },
+  {
+    "id": "idi-miss-the-boat",
+    "type": "idiom",
+    "term": "miss the boat",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 3,
+    "es": "dejar pasar la oportunidad; írsele el tren",
+    "def": "to lose a chance because you were too slow",
+    "note": "En español se va el tren; en inglés, el barco.",
+    "ex": [
+      {
+        "en": "Tickets sold out in an hour. We [missed the boat].",
+        "es": "Los boletos se acabaron en una hora. Se nos fue el tren."
+      },
+      {
+        "en": "Apply this week or you'll [miss the boat].",
+        "es": "Aplica esta semana o vas a dejar pasar la oportunidad."
+      }
+    ]
+  },
+  {
+    "id": "idi-pull-someones-leg",
+    "type": "idiom",
+    "term": "pull someone's leg",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "tomarle el pelo a alguien; vacilar",
+    "def": "to tell someone something untrue as a joke",
+    "note": "Broma amistosa. Falso amigo: no es 'jalar la pierna'. 'Are you pulling my leg?' = ¿me estás vacilando?",
+    "syn": [
+      "mess with someone"
+    ],
+    "ex": [
+      {
+        "en": "Relax, I'm just [pulling your leg]. You didn't break it.",
+        "es": "Tranquilo, te estoy vacilando. No lo rompiste."
+      },
+      {
+        "en": "I thought he was [pulling my leg], but he really won.",
+        "es": "Pensé que me estaba tomando el pelo, pero sí ganó."
+      }
+    ]
+  },
+  {
+    "id": "idi-cost-an-arm-and-a-leg",
+    "type": "idiom",
+    "term": "cost an arm and a leg",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "costar un ojo de la cara",
+    "def": "to be very expensive",
+    "note": "En español cuesta un ojo; en inglés, un brazo y una pierna.",
+    "syn": [
+      "cost a fortune"
+    ],
+    "ex": [
+      {
+        "en": "Rent downtown [costs an arm and a leg].",
+        "es": "La renta en el centro cuesta un ojo de la cara."
+      },
+      {
+        "en": "The repair [cost an arm and a leg], but the car runs.",
+        "es": "La reparación costó un ojo de la cara, pero el carro jala."
+      }
+    ]
+  },
+  {
+    "id": "idi-back-to-square-one",
+    "type": "idiom",
+    "term": "back to square one",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "de vuelta al punto de partida; volver a empezar",
+    "def": "at the beginning again because the first try failed",
+    "syn": [
+      "back to the drawing board"
+    ],
+    "ex": [
+      {
+        "en": "The client rejected the design, so we're [back to square one].",
+        "es": "El cliente rechazó el diseño, así que volvemos a empezar."
+      },
+      {
+        "en": "When the buyer backed out, we were [back to square one].",
+        "es": "Cuando el comprador se echó para atrás, quedamos en el punto de partida."
+      }
+    ]
+  },
+  {
+    "id": "idi-play-it-by-ear",
+    "type": "idiom",
+    "term": "play it by ear",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "ver sobre la marcha; improvisar",
+    "def": "to decide what to do as things happen, without a fixed plan",
+    "note": "Imagen: tocar música de oído, sin partitura. Común al hacer planes: 'Let's play it by ear'.",
+    "syn": [
+      "wing it"
+    ],
+    "ex": [
+      {
+        "en": "I don't know when I'll finish, so let's [play it by ear].",
+        "es": "No sé a qué hora termino, así que vemos sobre la marcha."
+      },
+      {
+        "en": "We had no reservations and just [played it by ear].",
+        "es": "No teníamos reservaciones y fuimos improvisando."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-blessing-in-disguise",
+    "type": "idiom",
+    "term": "a blessing in disguise",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "no hay mal que por bien no venga",
+    "def": "something that seems bad at first but brings a good result",
+    "note": "Literal: una bendición disfrazada. Se dice después, cuando ya se vio el lado bueno.",
+    "ex": [
+      {
+        "en": "Losing that job was [a blessing in disguise].",
+        "es": "Perder ese trabajo fue lo mejor que me pudo pasar."
+      },
+      {
+        "en": "The delay turned out to be [a blessing in disguise].",
+        "es": "El retraso resultó ser para bien."
+      }
+    ]
+  },
+  {
+    "id": "idi-the-last-straw",
+    "type": "idiom",
+    "term": "the last straw",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "la gota que derramó el vaso",
+    "def": "the last problem in a series that makes you finally lose patience",
+    "note": "Viene de 'la paja que le rompió el lomo al camello'. Variante: the final straw.",
+    "ex": [
+      {
+        "en": "When he forgot my birthday, that was [the last straw].",
+        "es": "Cuando se le olvidó mi cumpleaños, esa fue la gota que derramó el vaso."
+      },
+      {
+        "en": "The third late payment was [the last straw] for the landlord.",
+        "es": "El tercer pago atrasado fue la gota que derramó el vaso para el casero."
+      }
+    ]
+  },
+  {
+    "id": "idi-give-someone-a-heads-up",
+    "type": "idiom",
+    "term": "give someone a heads-up",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "es": "avisar con tiempo; poner sobre aviso",
+    "def": "to tell someone about something before it happens",
+    "note": "Muy común en oficina y mensajes. 'Just a heads-up: ...' = nada más para avisarte. 'Thanks for the heads-up.'",
+    "ex": [
+      {
+        "en": "She [gave me a heads-up] about the schedule change.",
+        "es": "Me avisó con tiempo del cambio de horario."
+      },
+      {
+        "en": "Just [give us a heads-up] if you're running late.",
+        "es": "Nada más avísanos si vas a llegar tarde."
+      }
+    ]
+  },
+  {
+    "id": "idi-drop-the-ball",
+    "type": "idiom",
+    "term": "drop the ball",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "regarla; fallar con una responsabilidad",
+    "def": "to make a mistake by not doing something you were responsible for",
+    "note": "Imagen deportiva. Útil para aceptar culpa: 'I dropped the ball on that, sorry.'",
+    "syn": [
+      "mess up"
+    ],
+    "ex": [
+      {
+        "en": "I [dropped the ball] and forgot to send the invoice.",
+        "es": "La regué y se me olvidó mandar la factura."
+      },
+      {
+        "en": "Someone [dropped the ball], and the order never shipped.",
+        "es": "Alguien falló y el pedido nunca salió."
+      }
+    ]
+  },
+  {
+    "id": "idi-go-the-extra-mile",
+    "type": "idiom",
+    "term": "go the extra mile",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 4,
+    "es": "dar un extra; esforzarse más de lo esperado",
+    "def": "to do more than what people expect from you",
+    "note": "Positivo; muy usado en entrevistas, evaluaciones y reseñas de servicio.",
+    "ex": [
+      {
+        "en": "Our guide really [went the extra mile] for us.",
+        "es": "Nuestro guía de verdad se esforzó de más por nosotros."
+      },
+      {
+        "en": "I always [go the extra mile] for my customers.",
+        "es": "Siempre doy un extra por mis clientes."
+      }
+    ]
+  },
+  {
+    "id": "idi-in-the-loop",
+    "type": "idiom",
+    "term": "in the loop",
+    "level": "B2",
+    "topic": "work",
+    "freq": 5,
+    "es": "al tanto; enterado de lo que pasa",
+    "def": "knowing what is happening in a group or project",
+    "note": "De oficina. 'Keep me in the loop' = mantenme al tanto. Contrario: out of the loop.",
+    "syn": [
+      "keep someone posted",
+      "up to speed"
+    ],
+    "ex": [
+      {
+        "en": "Please keep me [in the loop] about the budget.",
+        "es": "Por favor mantenme al tanto del presupuesto."
+      },
+      {
+        "en": "I wasn't [in the loop], so the news surprised me.",
+        "es": "Yo no estaba enterado, así que la noticia me sorprendió."
+      }
+    ]
+  },
+  {
+    "id": "idi-from-scratch",
+    "type": "idiom",
+    "term": "from scratch",
+    "level": "B1",
+    "topic": "food",
+    "freq": 5,
+    "es": "desde cero",
+    "def": "from the very beginning, without using anything already made",
+    "note": "En cocina: sin mezclas ni cosas preparadas. También en trabajo y código: start from scratch.",
+    "ex": [
+      {
+        "en": "My grandma makes her tortillas [from scratch].",
+        "es": "Mi abuela hace sus tortillas desde cero."
+      },
+      {
+        "en": "We lost the file and had to start [from scratch].",
+        "es": "Perdimos el archivo y tuvimos que empezar desde cero."
+      }
+    ]
+  },
+  {
+    "id": "idi-at-the-end-of-the-day",
+    "type": "idiom",
+    "term": "at the end of the day",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "a fin de cuentas; al final del día",
+    "def": "used before saying the most important fact after thinking about everything",
+    "note": "Muletilla frecuentísima en conversación, juntas y entrevistas. No habla de la hora.",
+    "syn": [
+      "when all is said and done"
+    ],
+    "ex": [
+      {
+        "en": "[At the end of the day], it's your decision.",
+        "es": "A fin de cuentas, es tu decisión."
+      },
+      {
+        "en": "We argue a lot, but [at the end of the day] we're family.",
+        "es": "Peleamos mucho, pero a fin de cuentas somos familia."
+      }
+    ]
+  },
+  {
+    "id": "idi-its-not-rocket-science",
+    "type": "idiom",
+    "term": "it's not rocket science",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "no es nada del otro mundo; no es ciencia",
+    "def": "used to say that something is not hard to understand or do",
+    "note": "Puede sonar impaciente o sarcástico si se lo dices a alguien que no entiende.",
+    "ex": [
+      {
+        "en": "Just follow the steps. [It's not rocket science].",
+        "es": "Nada más sigue los pasos. No es nada del otro mundo."
+      },
+      {
+        "en": "Come on, making pasta? [It's not rocket science].",
+        "es": "Ay, ¿hacer pasta? No es ninguna ciencia."
+      }
+    ]
+  },
+  {
+    "id": "idi-ring-a-bell",
+    "type": "idiom",
+    "term": "ring a bell",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "sonar; sonarle a uno",
+    "def": "to sound familiar",
+    "note": "'Does that ring a bell?' = ¿te suena? Negativo: It doesn't ring a bell.",
+    "ex": [
+      {
+        "en": "Her name [rings a bell], but I can't place her.",
+        "es": "Su nombre me suena, pero no la ubico."
+      },
+      {
+        "en": "Does the address [ring a bell] to you?",
+        "es": "¿Te suena la dirección?"
+      }
+    ]
+  },
+  {
+    "id": "idi-the-big-picture",
+    "type": "idiom",
+    "term": "the big picture",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "el panorama general",
+    "def": "the whole situation, not just the small details",
+    "note": "'Look at the big picture' = ve el panorama completo. Adjetivo: big-picture thinking.",
+    "ex": [
+      {
+        "en": "Forget the details for a second and look at [the big picture].",
+        "es": "Olvida los detalles un segundo y ve el panorama general."
+      },
+      {
+        "en": "She's great at details, but he sees [the big picture].",
+        "es": "Ella es buenísima con los detalles, pero él ve el panorama general."
+      }
+    ]
+  },
+  {
+    "id": "idi-low-hanging-fruit",
+    "type": "idiom",
+    "term": "low-hanging fruit",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "lo más fácil de lograr; resultados rápidos",
+    "def": "the easiest tasks or goals, which give quick results",
+    "note": "Jerga de oficina. Imagen: la fruta que alcanzas sin escalera. No lleva plural: the low-hanging fruit.",
+    "ex": [
+      {
+        "en": "Let's start with the [low-hanging fruit] and fix the typos.",
+        "es": "Empecemos por lo más fácil y arreglemos los errores de dedo."
+      },
+      {
+        "en": "We already picked the [low-hanging fruit]. Now it gets harder.",
+        "es": "Ya sacamos lo fácil. Ahora se pone más difícil."
+      }
+    ]
+  },
+  {
+    "id": "idi-red-flag",
+    "type": "idiom",
+    "term": "red flag",
+    "level": "B1",
+    "topic": "social",
+    "freq": 5,
+    "es": "señal de alerta; foco rojo",
+    "def": "a sign that something may be wrong or dangerous",
+    "note": "Muy usado hoy para citas, trabajos y tratos. Contrario reciente: green flag (buena señal).",
+    "syn": [
+      "warning sign"
+    ],
+    "ex": [
+      {
+        "en": "He was rude to the waiter. That's a [red flag].",
+        "es": "Fue grosero con el mesero. Eso es un foco rojo."
+      },
+      {
+        "en": "No contract? That was the first [red flag] for me.",
+        "es": "¿Sin contrato? Esa fue la primera señal de alerta para mí."
+      }
+    ]
+  },
+  {
+    "id": "idi-game-changer",
+    "type": "idiom",
+    "term": "game changer",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 4,
+    "es": "algo que lo cambia todo",
+    "def": "a new thing or idea that changes a situation in a big way",
+    "note": "Positivo. Para productos, herramientas o hábitos: 'This is a game changer.'",
+    "ex": [
+      {
+        "en": "Working from home has been a [game changer] for my family.",
+        "es": "Trabajar desde casa lo cambió todo para mi familia."
+      },
+      {
+        "en": "That air fryer is a total [game changer].",
+        "es": "Esa freidora de aire lo cambia todo."
+      }
+    ]
+  },
+  {
+    "id": "idi-win-win",
+    "type": "idiom",
+    "term": "win-win",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "ganar-ganar; todos salen ganando",
+    "def": "good for everyone who is involved",
+    "note": "Adjetivo o sustantivo: a win-win situation / it's a win-win.",
+    "ex": [
+      {
+        "en": "You save money and we get a client. It's a [win-win].",
+        "es": "Tú ahorras y nosotros ganamos un cliente. Todos salimos ganando."
+      },
+      {
+        "en": "Carpooling is a [win-win] situation for both of us.",
+        "es": "Compartir el carro es un ganar-ganar para los dos."
+      }
+    ]
+  },
+  {
+    "id": "idi-deal-breaker",
+    "type": "idiom",
+    "term": "deal breaker",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "algo innegociable; motivo para decir que no",
+    "def": "one thing that makes you say no to an agreement or relationship",
+    "note": "En citas, rentas y negociaciones. 'That's a deal breaker for me.'",
+    "ex": [
+      {
+        "en": "No parking is a [deal breaker] for me.",
+        "es": "Que no haya estacionamiento es motivo para decir que no."
+      },
+      {
+        "en": "Smoking was a [deal breaker] when she was dating.",
+        "es": "Que fumaran era innegociable cuando salía con alguien."
+      }
+    ]
+  },
+  {
+    "id": "idi-rule-of-thumb",
+    "type": "idiom",
+    "term": "rule of thumb",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "regla general; regla práctica",
+    "def": "a simple rule based on experience, not on exact science",
+    "note": "Casi siempre: 'As a rule of thumb, ...' o 'A good rule of thumb is ...'.",
+    "ex": [
+      {
+        "en": "As a [rule of thumb], tip between fifteen and twenty percent.",
+        "es": "Como regla general, deja entre quince y veinte por ciento de propina."
+      },
+      {
+        "en": "A good [rule of thumb] is one cup of rice per two people.",
+        "es": "Una buena regla práctica es una taza de arroz por cada dos personas."
+      }
+    ]
+  },
+  {
+    "id": "idi-once-in-a-blue-moon",
+    "type": "idiom",
+    "term": "once in a blue moon",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 3,
+    "es": "muy de vez en cuando; cada mil años",
+    "def": "very rarely",
+    "syn": [
+      "hardly ever"
+    ],
+    "ex": [
+      {
+        "en": "We only eat out [once in a blue moon].",
+        "es": "Solo comemos fuera muy de vez en cuando."
+      },
+      {
+        "en": "My brother calls me [once in a blue moon].",
+        "es": "Mi hermano me llama cada mil años."
+      }
+    ]
+  },
+  {
+    "id": "idi-better-late-than-never",
+    "type": "idiom",
+    "term": "better late than never",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "más vale tarde que nunca",
+    "def": "doing something late is better than not doing it at all",
+    "ex": [
+      {
+        "en": "You finally got your license! [Better late than never].",
+        "es": "¡Por fin sacaste tu licencia! Más vale tarde que nunca."
+      },
+      {
+        "en": "He apologized a year later. Well, [better late than never].",
+        "es": "Se disculpó un año después. Bueno, más vale tarde que nunca."
+      }
+    ]
+  },
+  {
+    "id": "idi-speak-of-the-devil",
+    "type": "idiom",
+    "term": "speak of the devil",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "hablando del rey de Roma",
+    "def": "said when a person you were just talking about appears",
+    "note": "De broma, no es ofensivo. Se dice justo cuando la persona entra o llama.",
+    "ex": [
+      {
+        "en": "[Speak of the devil]! We were just talking about you.",
+        "es": "¡Hablando del rey de Roma! Justo estábamos hablando de ti."
+      },
+      {
+        "en": "Well, [speak of the devil]. Dan just walked in.",
+        "es": "Mira, hablando del rey de Roma. Dan acaba de entrar."
+      }
+    ]
+  },
+  {
+    "id": "idi-hit-the-nail-on-the-head",
+    "type": "idiom",
+    "term": "hit the nail on the head",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 3,
+    "es": "dar en el clavo",
+    "def": "to say exactly the right thing about a problem or situation",
+    "ex": [
+      {
+        "en": "You [hit the nail on the head]. That's exactly the problem.",
+        "es": "Diste en el clavo. Ese es exactamente el problema."
+      },
+      {
+        "en": "Her review [hits the nail on the head] about the slow service.",
+        "es": "Su reseña da en el clavo con lo del servicio lento."
+      }
+    ]
+  },
+  {
+    "id": "idi-let-the-cat-out-of-the-bag",
+    "type": "idiom",
+    "term": "let the cat out of the bag",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "irse de la lengua; soltar el secreto sin querer",
+    "def": "to tell a secret, usually by accident",
+    "note": "Normalmente sin querer. 'The cat's out of the bag' = ya se supo.",
+    "syn": [
+      "spill the beans"
+    ],
+    "ex": [
+      {
+        "en": "My sister [let the cat out of the bag] about the surprise party.",
+        "es": "A mi hermana se le salió lo de la fiesta sorpresa."
+      },
+      {
+        "en": "Don't [let the cat out of the bag] before Friday.",
+        "es": "No se te vaya a salir antes del viernes."
+      }
+    ]
+  },
+  {
+    "id": "idi-spill-the-beans",
+    "type": "idiom",
+    "term": "spill the beans",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "soltar la sopa",
+    "def": "to tell people secret information",
+    "note": "Informal. Versión actual entre jóvenes para chisme: spill the tea.",
+    "syn": [
+      "let the cat out of the bag"
+    ],
+    "ex": [
+      {
+        "en": "Come on, [spill the beans]! Who are you dating?",
+        "es": "Ándale, ¡suelta la sopa! ¿Con quién andas?"
+      },
+      {
+        "en": "He [spilled the beans] about the layoffs at lunch.",
+        "es": "Soltó la sopa sobre los despidos en la comida."
+      }
+    ]
+  },
+  {
+    "id": "idi-kill-two-birds-with-one-stone",
+    "type": "idiom",
+    "term": "kill two birds with one stone",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 3,
+    "es": "matar dos pájaros de un tiro",
+    "def": "to finish two tasks with one action",
+    "ex": [
+      {
+        "en": "I'll bike to work and [kill two birds with one stone].",
+        "es": "Me voy en bici al trabajo y mato dos pájaros de un tiro."
+      },
+      {
+        "en": "We [killed two birds with one stone] by meeting at the gym.",
+        "es": "Matamos dos pájaros de un tiro al vernos en el gimnasio."
+      }
+    ]
+  },
+  {
+    "id": "idi-the-tip-of-the-iceberg",
+    "type": "idiom",
+    "term": "the tip of the iceberg",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "la punta del iceberg",
+    "def": "a small part of a much bigger problem that you can see",
+    "ex": [
+      {
+        "en": "These complaints are just [the tip of the iceberg].",
+        "es": "Estas quejas son solo la punta del iceberg."
+      },
+      {
+        "en": "The leak was only [the tip of the iceberg] in that house.",
+        "es": "La gotera era solo la punta del iceberg en esa casa."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-long-shot",
+    "type": "idiom",
+    "term": "a long shot",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "algo poco probable; un intento difícil",
+    "def": "something you try even though it will probably not work",
+    "note": "'It's a long shot, but...' introduce un intento con pocas esperanzas. Ojo: 'not by a long shot' = ni de lejos.",
+    "ex": [
+      {
+        "en": "It's [a long shot], but I applied anyway.",
+        "es": "Es poco probable, pero de todos modos apliqué."
+      },
+      {
+        "en": "Getting a table tonight is [a long shot].",
+        "es": "Conseguir mesa hoy está difícil."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-cold-feet",
+    "type": "idiom",
+    "term": "get cold feet",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "echarse para atrás por miedo; acobardarse",
+    "def": "to become too nervous to do something you planned",
+    "note": "Típico antes de bodas, mudanzas o decisiones grandes.",
+    "syn": [
+      "chicken out"
+    ],
+    "ex": [
+      {
+        "en": "He [got cold feet] and canceled the skydiving trip.",
+        "es": "Le dio miedo y canceló el salto en paracaídas."
+      },
+      {
+        "en": "I always [get cold feet] before signing a lease.",
+        "es": "Siempre me entran los nervios antes de firmar un contrato de renta."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-thin-ice",
+    "type": "idiom",
+    "term": "on thin ice",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "en la cuerda floja",
+    "def": "in a risky situation where one more mistake could cause trouble",
+    "note": "Imagen: caminar sobre hielo delgado. Con 'be', 'skate' o 'walk'.",
+    "syn": [
+      "in hot water"
+    ],
+    "ex": [
+      {
+        "en": "You're [on thin ice] after being late three times.",
+        "es": "Estás en la cuerda floja después de llegar tarde tres veces."
+      },
+      {
+        "en": "He knew he was [on thin ice] with his landlord.",
+        "es": "Sabía que estaba en la cuerda floja con su casero."
+      }
+    ]
+  },
+  {
+    "id": "idi-so-far-so-good",
+    "type": "idiom",
+    "term": "so far, so good",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "hasta ahora todo bien",
+    "def": "things are going well up to now",
+    "note": "Respuesta típica a 'How's the new job going?'. Deja abierto que algo pueda cambiar después.",
+    "ex": [
+      {
+        "en": "How's the new apartment? [So far, so good].",
+        "es": "¿Qué tal el depa nuevo? Hasta ahora todo bien."
+      },
+      {
+        "en": "We're halfway through the move and [so far, so good].",
+        "es": "Vamos a la mitad de la mudanza y hasta ahora todo bien."
+      }
+    ]
+  },
+  {
+    "id": "idi-easier-said-than-done",
+    "type": "idiom",
+    "term": "easier said than done",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "del dicho al hecho hay mucho trecho; se dice fácil",
+    "def": "not as easy to do as it sounds",
+    "ex": [
+      {
+        "en": "Just relax? That's [easier said than done].",
+        "es": "¿Que me relaje? Se dice fácil."
+      },
+      {
+        "en": "Saving half your salary is [easier said than done].",
+        "es": "Ahorrar la mitad del sueldo se dice fácil."
+      }
+    ]
+  },
+  {
+    "id": "idi-time-flies",
+    "type": "idiom",
+    "term": "time flies",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "el tiempo vuela",
+    "def": "time seems to pass very quickly",
+    "note": "Dicho completo: Time flies when you're having fun.",
+    "ex": [
+      {
+        "en": "Your son is ten already? Wow, [time flies].",
+        "es": "¿Tu hijo ya tiene diez? Cómo vuela el tiempo."
+      },
+      {
+        "en": "[Time flew] during our week at the lake.",
+        "es": "El tiempo se fue volando en nuestra semana en el lago."
+      }
+    ]
+  },
+  {
+    "id": "idi-up-to-you",
+    "type": "idiom",
+    "term": "up to you",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "como tú quieras; depende de ti",
+    "def": "used to say that the other person can decide",
+    "note": "Imprescindible. 'It's up to you' = tú decides. Con otros pronombres: it's up to her, up to us.",
+    "syn": [
+      "your call"
+    ],
+    "ex": [
+      {
+        "en": "Pizza or tacos? It's [up to you].",
+        "es": "¿Pizza o tacos? Como tú quieras."
+      },
+      {
+        "en": "I'd wait, but it's totally [up to you] guys.",
+        "es": "Yo esperaría, pero depende totalmente de ustedes."
+      }
+    ]
+  },
+  {
+    "id": "idi-keep-an-eye-on",
+    "type": "idiom",
+    "term": "keep an eye on",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "echarle un ojo a; vigilar",
+    "def": "to watch someone or something carefully",
+    "note": "Casi idéntico al español 'echar un ojo'. Para niños, maletas, comida en la estufa, precios.",
+    "syn": [
+      "watch"
+    ],
+    "ex": [
+      {
+        "en": "Can you [keep an eye on] my bag for a minute?",
+        "es": "¿Le echas un ojo a mi mochila un minuto?"
+      },
+      {
+        "en": "I [kept an eye on] the kids while she cooked.",
+        "es": "Cuidé a los niños mientras ella cocinaba."
+      }
+    ]
+  },
+  {
+    "id": "idi-give-it-a-shot",
+    "type": "idiom",
+    "term": "give it a shot",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "intentarlo; hacer el intento",
+    "def": "to try to do something, often for the first time",
+    "note": "Informal. Aquí 'shot' = intento, no disparo ni trago.",
+    "syn": [
+      "give it a try",
+      "give it a go"
+    ],
+    "ex": [
+      {
+        "en": "I've never tried skiing, but I'll [give it a shot].",
+        "es": "Nunca he esquiado, pero voy a hacer el intento."
+      },
+      {
+        "en": "She [gave it a shot] and loved the class.",
+        "es": "Lo intentó y le encantó la clase."
+      }
+    ]
+  },
+  {
+    "id": "idi-take-it-easy",
+    "type": "idiom",
+    "term": "take it easy",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "tomársela con calma; relajarse",
+    "def": "to relax and not work or worry too much",
+    "note": "También es despedida informal ('Take it easy!' = cuídate) y sirve para calmar a alguien alterado.",
+    "ex": [
+      {
+        "en": "The doctor told me to [take it easy] this week.",
+        "es": "El doctor me dijo que me la tomara con calma esta semana."
+      },
+      {
+        "en": "We just [took it easy] and watched movies all Sunday.",
+        "es": "Nada más nos relajamos y vimos películas todo el domingo."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-on-someones-nerves",
+    "type": "idiom",
+    "term": "get on someone's nerves",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "sacar de quicio; poner de nervios",
+    "def": "to annoy someone a lot",
+    "note": "No es 'poner nervioso' (eso es make someone nervous); es irritar.",
+    "syn": [
+      "drive someone crazy",
+      "bug"
+    ],
+    "ex": [
+      {
+        "en": "That noise is really [getting on my nerves].",
+        "es": "Ese ruido de verdad me está sacando de quicio."
+      },
+      {
+        "en": "His constant jokes [got on her nerves] during the trip.",
+        "es": "Sus bromas a cada rato la sacaron de quicio en el viaje."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-pain-in-the-neck",
+    "type": "idiom",
+    "term": "a pain in the neck",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "una lata; una monserga",
+    "def": "a person or thing that is very annoying",
+    "note": "Versión suave. La más común en la calle es 'a pain in the ass/butt' (vulgar suave). También solo: it's a pain.",
+    "ex": [
+      {
+        "en": "Renewing my passport was [a pain in the neck].",
+        "es": "Renovar mi pasaporte fue una lata."
+      },
+      {
+        "en": "My little brother can be [a pain in the neck] sometimes.",
+        "es": "Mi hermanito a veces es una monserga."
+      }
+    ]
+  },
+  {
+    "id": "idi-in-the-same-boat",
+    "type": "idiom",
+    "term": "in the same boat",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "en la misma situación; en las mismas",
+    "def": "in the same difficult situation as other people",
+    "ex": [
+      {
+        "en": "Don't feel bad. We're all [in the same boat].",
+        "es": "No te sientas mal. Todos estamos en las mismas."
+      },
+      {
+        "en": "Rent went up for everyone, so we were [in the same boat].",
+        "es": "A todos nos subieron la renta, así que estábamos en las mismas."
+      }
+    ]
+  },
+  {
+    "id": "idi-see-eye-to-eye",
+    "type": "idiom",
+    "term": "see eye to eye",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "estar de acuerdo; coincidir",
+    "def": "to agree with someone",
+    "note": "Casi siempre en negativo: we don't see eye to eye on/about...",
+    "ex": [
+      {
+        "en": "My dad and I don't [see eye to eye] on money.",
+        "es": "Mi papá y yo no coincidimos en temas de dinero."
+      },
+      {
+        "en": "We finally [saw eye to eye] about the wedding budget.",
+        "es": "Por fin nos pusimos de acuerdo en el presupuesto de la boda."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-out-of-hand",
+    "type": "idiom",
+    "term": "get out of hand",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "salirse de control",
+    "def": "to become too hard to control",
+    "syn": [
+      "get out of control"
+    ],
+    "ex": [
+      {
+        "en": "The party [got out of hand], and the neighbors complained.",
+        "es": "La fiesta se salió de control y los vecinos se quejaron."
+      },
+      {
+        "en": "Fix the leak now before it [gets out of hand].",
+        "es": "Arregla la fuga ya, antes de que se salga de control."
+      }
+    ]
+  },
+  {
+    "id": "idi-for-good",
+    "type": "idiom",
+    "term": "for good",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "para siempre; definitivamente",
+    "def": "forever; in a way that will not change back",
+    "note": "Falso amigo: no significa 'para bien'. He left for good = se fue para siempre.",
+    "syn": [
+      "permanently"
+    ],
+    "ex": [
+      {
+        "en": "She quit smoking [for good] two years ago.",
+        "es": "Dejó de fumar definitivamente hace dos años."
+      },
+      {
+        "en": "Are you moving to Canada [for good]?",
+        "es": "¿Te vas a Canadá para siempre?"
+      }
+    ]
+  },
+  {
+    "id": "idi-on-the-house",
+    "type": "idiom",
+    "term": "on the house",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "cortesía de la casa; va por la casa",
+    "def": "given free by a restaurant or bar",
+    "ex": [
+      {
+        "en": "Sorry for the wait. Dessert is [on the house].",
+        "es": "Perdón por la espera. El postre es cortesía de la casa."
+      },
+      {
+        "en": "The bartender said our first round was [on the house].",
+        "es": "El bartender dijo que la primera ronda iba por la casa."
+      }
+    ]
+  },
+  {
+    "id": "idi-break-the-bank",
+    "type": "idiom",
+    "term": "break the bank",
+    "level": "B2",
+    "topic": "money",
+    "freq": 4,
+    "es": "costar una fortuna; dejarte en la ruina",
+    "def": "to cost too much money",
+    "note": "Casi siempre en negativo: it won't break the bank = no sale tan caro.",
+    "ex": [
+      {
+        "en": "You can eat well here without [breaking the bank].",
+        "es": "Aquí puedes comer bien sin gastar una fortuna."
+      },
+      {
+        "en": "A weekend trip won't [break the bank].",
+        "es": "Un viaje de fin de semana no te va a dejar en la ruina."
+      }
+    ]
+  },
+  {
+    "id": "idi-make-ends-meet",
+    "type": "idiom",
+    "term": "make ends meet",
+    "level": "B2",
+    "topic": "money",
+    "freq": 4,
+    "es": "llegar a fin de mes; que alcance el dinero",
+    "def": "to have just enough money to pay for what you need",
+    "ex": [
+      {
+        "en": "He works two jobs to [make ends meet].",
+        "es": "Tiene dos trabajos para que le alcance."
+      },
+      {
+        "en": "With these prices, it's hard to [make ends meet].",
+        "es": "Con estos precios, cuesta llegar a fin de mes."
+      }
+    ]
+  },
+  {
+    "id": "idi-live-paycheck-to-paycheck",
+    "type": "idiom",
+    "term": "live paycheck to paycheck",
+    "level": "B2",
+    "topic": "money",
+    "freq": 4,
+    "es": "vivir al día",
+    "def": "to spend all the money from your job before the next pay arrives",
+    "note": "Muy frecuente en noticias y conversación sobre costo de vida.",
+    "ex": [
+      {
+        "en": "A lot of families [live paycheck to paycheck] right now.",
+        "es": "Muchas familias viven al día ahorita."
+      },
+      {
+        "en": "We were [living paycheck to paycheck] until I got promoted.",
+        "es": "Vivíamos al día hasta que me ascendieron."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-rip-off",
+    "type": "idiom",
+    "term": "a rip-off",
+    "level": "B1",
+    "topic": "money",
+    "freq": 5,
+    "es": "una estafa; un robo",
+    "def": "something that costs much more than it is worth",
+    "note": "Informal. Sustantivo con guion; el verbo es 'rip off': they ripped me off = me vieron la cara.",
+    "ex": [
+      {
+        "en": "Eight dollars for a coffee? What [a rip-off]!",
+        "es": "¿Ocho dólares por un café? ¡Qué robo!"
+      },
+      {
+        "en": "That airport taxi was [a rip-off].",
+        "es": "Ese taxi del aeropuerto fue una estafa."
+      }
+    ]
+  },
+  {
+    "id": "idi-cut-corners",
+    "type": "idiom",
+    "term": "cut corners",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "hacer las cosas al ahí se va; escatimar",
+    "def": "to do something in a cheaper or faster way that makes it worse",
+    "note": "Siempre negativo: ahorrar tiempo o dinero sacrificando calidad o seguridad.",
+    "ex": [
+      {
+        "en": "The builder [cut corners], and now the roof leaks.",
+        "es": "El constructor hizo todo al ahí se va y ahora el techo gotea."
+      },
+      {
+        "en": "We can't [cut corners] on safety.",
+        "es": "No podemos escatimar en seguridad."
+      }
+    ]
+  },
+  {
+    "id": "idi-bang-for-your-buck",
+    "type": "idiom",
+    "term": "bang for your buck",
+    "level": "B2",
+    "topic": "money",
+    "freq": 4,
+    "es": "lo que más rinde por tu dinero",
+    "def": "good value for the money you spend",
+    "note": "Informal. Buck = dólar. Con 'more', 'the most' o 'the best': the best bang for your buck.",
+    "syn": [
+      "value for money"
+    ],
+    "ex": [
+      {
+        "en": "This phone gives you the most [bang for your buck].",
+        "es": "Este teléfono es el que más rinde por lo que cuesta."
+      },
+      {
+        "en": "You get more [bang for your buck] at the buffet.",
+        "es": "Tu dinero rinde más en el buffet."
+      }
+    ]
+  },
+  {
+    "id": "idi-ballpark-figure",
+    "type": "idiom",
+    "term": "ballpark figure",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "cifra aproximada; un estimado",
+    "def": "a number that is not exact but is close enough",
+    "note": "De oficina y cotizaciones (ballpark = estadio de beisbol). También: 'Just give me a ballpark.'",
+    "syn": [
+      "rough estimate"
+    ],
+    "ex": [
+      {
+        "en": "I don't need an exact price, just a [ballpark figure].",
+        "es": "No necesito el precio exacto, nada más un estimado."
+      },
+      {
+        "en": "He gave us a [ballpark figure] of two thousand dollars.",
+        "es": "Nos dio una cifra aproximada de dos mil dólares."
+      }
+    ]
+  },
+  {
+    "id": "idi-the-bottom-line",
+    "type": "idiom",
+    "term": "the bottom line",
+    "level": "B2",
+    "topic": "work",
+    "freq": 5,
+    "es": "lo esencial; el punto clave",
+    "def": "the most important fact in a situation",
+    "note": "Viene del último renglón de un estado financiero (la ganancia neta); en negocios también significa eso.",
+    "ex": [
+      {
+        "en": "[The bottom line] is we can't afford it right now.",
+        "es": "El punto clave es que ahorita no nos alcanza."
+      },
+      {
+        "en": "Skip the details and tell me [the bottom line].",
+        "es": "Sáltate los detalles y dime lo esencial."
+      }
+    ]
+  },
+  {
+    "id": "idi-raise-the-bar",
+    "type": "idiom",
+    "term": "raise the bar",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "subir el nivel; poner la vara más alta",
+    "def": "to make the expected level of quality higher",
+    "note": "Imagen del salto de altura. Relacionado: set the bar high.",
+    "ex": [
+      {
+        "en": "Her presentation really [raised the bar] for the rest of us.",
+        "es": "Su presentación nos puso la vara más alta a los demás."
+      },
+      {
+        "en": "This restaurant keeps [raising the bar] every year.",
+        "es": "Este restaurante sube el nivel cada año."
+      }
+    ]
+  },
+  {
+    "id": "idi-learn-the-ropes",
+    "type": "idiom",
+    "term": "learn the ropes",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "aprender cómo funciona todo; agarrar el modo",
+    "def": "to learn how to do a new job or activity",
+    "note": "Imagen de los marineros aprendiendo las cuerdas. Enseñar: show someone the ropes.",
+    "ex": [
+      {
+        "en": "It took me a month to [learn the ropes] here.",
+        "es": "Me tomó un mes aprender cómo funciona todo aquí."
+      },
+      {
+        "en": "Ana will show you around while you [learn the ropes].",
+        "es": "Ana te va a acompañar mientras agarras el modo."
+      }
+    ]
+  },
+  {
+    "id": "idi-pull-strings",
+    "type": "idiom",
+    "term": "pull strings",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "mover palancas; usar contactos",
+    "def": "to use your influence or friends to get something",
+    "note": "Imagen de los hilos de un títere. 'Pull some strings' es lo más común.",
+    "ex": [
+      {
+        "en": "My uncle [pulled some strings] to get us tickets.",
+        "es": "Mi tío movió sus palancas para conseguirnos boletos."
+      },
+      {
+        "en": "I can't [pull strings] for you. You have to apply.",
+        "es": "No puedo mover palancas por ti. Tienes que aplicar."
+      }
+    ]
+  },
+  {
+    "id": "idi-call-the-shots",
+    "type": "idiom",
+    "term": "call the shots",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "llevar la batuta; ser quien manda",
+    "def": "to be the person who makes the important decisions",
+    "syn": [
+      "be in charge"
+    ],
+    "ex": [
+      {
+        "en": "In this kitchen, the chef [calls the shots].",
+        "es": "En esta cocina, la chef es quien manda."
+      },
+      {
+        "en": "Who's [calling the shots] on this project?",
+        "es": "¿Quién lleva la batuta en este proyecto?"
+      }
+    ]
+  },
+  {
+    "id": "idi-wear-many-hats",
+    "type": "idiom",
+    "term": "wear many hats",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 3,
+    "es": "hacer de todo; tener varios roles",
+    "def": "to do several different jobs or roles at once",
+    "note": "Común en startups y entrevistas. Variantes: wear a lot of hats, wear multiple hats.",
+    "ex": [
+      {
+        "en": "At a small company, you [wear many hats].",
+        "es": "En una empresa chica, haces de todo."
+      },
+      {
+        "en": "She [wore many hats] as owner, cook, and cashier.",
+        "es": "Hacía de todo: dueña, cocinera y cajera."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-the-ball-rolling",
+    "type": "idiom",
+    "term": "get the ball rolling",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "arrancar; poner las cosas en marcha",
+    "def": "to start an activity so that it can continue",
+    "syn": [
+      "kick things off"
+    ],
+    "ex": [
+      {
+        "en": "Let's [get the ball rolling] with a quick intro.",
+        "es": "Arranquemos con una presentación rápida."
+      },
+      {
+        "en": "One email [got the ball rolling] on the whole deal.",
+        "es": "Un correo puso en marcha todo el trato."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-the-back-burner",
+    "type": "idiom",
+    "term": "on the back burner",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "en pausa; dejado para después",
+    "def": "waiting to be done later because it is less important now",
+    "note": "Imagen: la hornilla de atrás de la estufa, donde algo se queda a fuego lento. Con 'put' o 'be'.",
+    "ex": [
+      {
+        "en": "We put the redesign [on the back burner] until January.",
+        "es": "Dejamos el rediseño para después, hasta enero."
+      },
+      {
+        "en": "My travel plans are [on the back burner] for now.",
+        "es": "Mis planes de viaje están en pausa por ahora."
+      }
+    ]
+  },
+  {
+    "id": "idi-put-out-fires",
+    "type": "idiom",
+    "term": "put out fires",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "apagar fuegos; resolver urgencias",
+    "def": "to spend your time fixing urgent problems instead of planned work",
+    "ex": [
+      {
+        "en": "I spent the whole morning [putting out fires].",
+        "es": "Me pasé toda la mañana apagando fuegos."
+      },
+      {
+        "en": "A good plan means you [put out fires] less often.",
+        "es": "Con un buen plan apagas fuegos menos seguido."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-lot-on-your-plate",
+    "type": "idiom",
+    "term": "a lot on your plate",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "es": "mucho encima; muchos pendientes",
+    "def": "many things to do or deal with at the same time",
+    "note": "Muy común para explicar que no puedes con más o para ser comprensivo: 'I know you have a lot on your plate.'",
+    "syn": [
+      "have your hands full"
+    ],
+    "ex": [
+      {
+        "en": "I can't help this week. I have [a lot on my plate].",
+        "es": "No puedo ayudar esta semana. Traigo mucho encima."
+      },
+      {
+        "en": "She had [a lot on her plate] with work and the baby.",
+        "es": "Tenía muchísimos pendientes con el trabajo y el bebé."
+      }
+    ]
+  },
+  {
+    "id": "idi-up-to-speed",
+    "type": "idiom",
+    "term": "up to speed",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "al corriente; al día",
+    "def": "having all the latest information about something",
+    "note": "Con 'get' o 'bring': bring someone up to speed = poner al corriente.",
+    "syn": [
+      "in the loop"
+    ],
+    "ex": [
+      {
+        "en": "Let me bring you [up to speed] on the project.",
+        "es": "Déjame ponerte al corriente del proyecto."
+      },
+      {
+        "en": "It took a week to get [up to speed] after vacation.",
+        "es": "Me tomó una semana ponerme al día después de vacaciones."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-track",
+    "type": "idiom",
+    "term": "on track",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "es": "bien encaminado; según lo planeado",
+    "def": "making progress as planned",
+    "note": "'We're on track to finish Friday.' Contrario: off track. Volver al plan: get back on track.",
+    "ex": [
+      {
+        "en": "We're [on track] to finish by Friday.",
+        "es": "Vamos bien para terminar el viernes."
+      },
+      {
+        "en": "After a bad month, I'm back [on track] with my savings.",
+        "es": "Después de un mal mes, ya voy bien otra vez con mis ahorros."
+      }
+    ]
+  },
+  {
+    "id": "idi-ahead-of-the-curve",
+    "type": "idiom",
+    "term": "ahead of the curve",
+    "level": "C1",
+    "topic": "tech",
+    "freq": 3,
+    "es": "adelantado a su tiempo; un paso adelante",
+    "def": "more advanced or modern than others",
+    "note": "Con 'be' o 'stay'. Contrario: behind the curve.",
+    "ex": [
+      {
+        "en": "They were [ahead of the curve] with online ordering.",
+        "es": "Iban un paso adelante con los pedidos en línea."
+      },
+      {
+        "en": "Taking courses helps me stay [ahead of the curve].",
+        "es": "Tomar cursos me ayuda a ir un paso adelante."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-learning-curve",
+    "type": "idiom",
+    "term": "a learning curve",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "es": "curva de aprendizaje; periodo de adaptación",
+    "def": "the time and effort needed to learn something new",
+    "note": "'A steep learning curve' = cuesta trabajo al principio. 'There's a bit of a learning curve.'",
+    "ex": [
+      {
+        "en": "There's [a learning curve], but the software is worth it.",
+        "es": "Hay una curva de aprendizaje, pero el programa vale la pena."
+      },
+      {
+        "en": "Driving in snow was [a learning curve] for me.",
+        "es": "Manejar en la nieve fue todo un periodo de adaptación para mí."
+      }
+    ]
+  },
+  {
+    "id": "idi-the-elephant-in-the-room",
+    "type": "idiom",
+    "term": "the elephant in the room",
+    "level": "C1",
+    "topic": "social",
+    "freq": 3,
+    "es": "el tema incómodo que nadie menciona",
+    "def": "a big problem that everyone knows about but nobody wants to discuss",
+    "note": "Suele ir con 'address': Let's address the elephant in the room.",
+    "ex": [
+      {
+        "en": "Let's address [the elephant in the room]: we're over budget.",
+        "es": "Hablemos del tema que todos evitamos: nos pasamos del presupuesto."
+      },
+      {
+        "en": "His drinking was [the elephant in the room] at dinner.",
+        "es": "Que tomara tanto era el tema incómodo que nadie tocaba en la cena."
+      }
+    ]
+  },
+  {
+    "id": "idi-throw-someone-under-the-bus",
+    "type": "idiom",
+    "term": "throw someone under the bus",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "echarle la culpa a alguien para salvarse",
+    "def": "to blame someone else to protect yourself",
+    "note": "Informal, muy de oficina y series. Implica traición a un compañero.",
+    "ex": [
+      {
+        "en": "He [threw me under the bus] in front of the boss.",
+        "es": "Me echó la culpa enfrente del jefe para salvarse."
+      },
+      {
+        "en": "I'm not going to [throw my team under the bus].",
+        "es": "No voy a echarle la culpa a mi equipo."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-your-foot-in-the-door",
+    "type": "idiom",
+    "term": "get your foot in the door",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 4,
+    "es": "lograr entrar; dar el primer paso en una empresa",
+    "def": "to get a first small chance in a company or field",
+    "ex": [
+      {
+        "en": "An internship is a great way to [get your foot in the door].",
+        "es": "Unas prácticas son una gran forma de entrar a la empresa."
+      },
+      {
+        "en": "I [got my foot in the door] as a receptionist.",
+        "es": "Logré entrar como recepcionista."
+      }
+    ]
+  },
+  {
+    "id": "idi-back-to-the-drawing-board",
+    "type": "idiom",
+    "term": "back to the drawing board",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "a replantearlo todo; a empezar de nuevo",
+    "def": "time to make a new plan because the old one failed",
+    "note": "Imagen: volver al restirador a dibujar otro plano.",
+    "syn": [
+      "back to square one"
+    ],
+    "ex": [
+      {
+        "en": "The test failed, so it's [back to the drawing board].",
+        "es": "La prueba falló, así que a replantearlo todo."
+      },
+      {
+        "en": "They went [back to the drawing board] after the bad reviews.",
+        "es": "Empezaron de nuevo después de las malas reseñas."
+      }
+    ]
+  },
+  {
+    "id": "idi-crunch-time",
+    "type": "idiom",
+    "term": "crunch time",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "la hora de la verdad; la recta final con presión",
+    "def": "a short period when you must work very hard to finish something",
+    "syn": [
+      "down to the wire"
+    ],
+    "ex": [
+      {
+        "en": "It's [crunch time]. The report is due tomorrow.",
+        "es": "Es la hora de la verdad. El reporte se entrega mañana."
+      },
+      {
+        "en": "During [crunch time], we order dinner at the office.",
+        "es": "En la recta final, pedimos la cena a la oficina."
+      }
+    ]
+  },
+  {
+    "id": "idi-down-to-the-wire",
+    "type": "idiom",
+    "term": "down to the wire",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "hasta el último momento",
+    "def": "until the very last moment before the end",
+    "note": "Viene de las carreras de caballos. Con 'go' o 'come': it went down to the wire.",
+    "syn": [
+      "crunch time"
+    ],
+    "ex": [
+      {
+        "en": "The game went [down to the wire].",
+        "es": "El partido se definió hasta el último momento."
+      },
+      {
+        "en": "We're [down to the wire] on this deadline.",
+        "es": "Estamos al límite con esta fecha de entrega."
+      }
+    ]
+  },
+  {
+    "id": "idi-pull-an-all-nighter",
+    "type": "idiom",
+    "term": "pull an all-nighter",
+    "level": "B1",
+    "topic": "study",
+    "freq": 4,
+    "es": "desvelarse toda la noche trabajando o estudiando",
+    "def": "to stay awake all night to study or work",
+    "note": "Informal, muy de estudiantes. Solo por trabajo o estudio, no por fiesta.",
+    "ex": [
+      {
+        "en": "I [pulled an all-nighter] to finish my essay.",
+        "es": "Me desvelé toda la noche para terminar mi ensayo."
+      },
+      {
+        "en": "Don't [pull an all-nighter] before the exam.",
+        "es": "No te desveles toda la noche antes del examen."
+      }
+    ]
+  },
+  {
+    "id": "idi-over-the-moon",
+    "type": "idiom",
+    "term": "over the moon",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "feliz de la vida; que no cabe de felicidad",
+    "def": "extremely happy about something",
+    "syn": [
+      "on cloud nine",
+      "thrilled"
+    ],
+    "ex": [
+      {
+        "en": "She was [over the moon] when she got the visa.",
+        "es": "Estaba feliz de la vida cuando le dieron la visa."
+      },
+      {
+        "en": "My parents are [over the moon] about the baby.",
+        "es": "Mis papás no caben de felicidad con el bebé."
+      }
+    ]
+  },
+  {
+    "id": "idi-sick-and-tired-of",
+    "type": "idiom",
+    "term": "sick and tired of",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "harto de; hasta el gorro de",
+    "def": "very annoyed by something that has gone on too long",
+    "note": "Más fuerte que 'tired of'. Va seguido de sustantivo o verbo en -ing.",
+    "syn": [
+      "fed up with"
+    ],
+    "ex": [
+      {
+        "en": "I'm [sick and tired of] this traffic every morning.",
+        "es": "Estoy hasta el gorro de este tráfico todas las mañanas."
+      },
+      {
+        "en": "She was [sick and tired of] cleaning up after everyone.",
+        "es": "Estaba harta de recoger el tiradero de todos."
+      }
+    ]
+  },
+  {
+    "id": "idi-blow-off-steam",
+    "type": "idiom",
+    "term": "blow off steam",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "desahogarse; sacar el estrés",
+    "def": "to do something to get rid of anger or stress",
+    "note": "Imagen: una olla de presión soltando vapor. Variante: let off steam.",
+    "ex": [
+      {
+        "en": "I go running to [blow off steam] after work.",
+        "es": "Salgo a correr para sacar el estrés después del trabajo."
+      },
+      {
+        "en": "He was just [blowing off steam]. Don't take it personally.",
+        "es": "Nada más se estaba desahogando. No te lo tomes personal."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-something-off-your-chest",
+    "type": "idiom",
+    "term": "get something off your chest",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "desahogarse; sacar lo que traes adentro",
+    "def": "to tell someone about something that has been worrying you",
+    "ex": [
+      {
+        "en": "I need to [get something off my chest]. Do you have a minute?",
+        "es": "Necesito desahogarme. ¿Tienes un minuto?"
+      },
+      {
+        "en": "She felt better after she [got it off her chest].",
+        "es": "Se sintió mejor después de sacar lo que traía."
+      }
+    ]
+  },
+  {
+    "id": "idi-butterflies-in-your-stomach",
+    "type": "idiom",
+    "term": "butterflies in your stomach",
+    "level": "B1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "mariposas en el estómago; nervios",
+    "def": "a nervous feeling in your stomach before something important",
+    "note": "En inglés es por nervios (entrevista, examen, cita), no solo por amor. Con 'have' o 'get'.",
+    "ex": [
+      {
+        "en": "I always get [butterflies in my stomach] before an interview.",
+        "es": "Siempre me dan nervios antes de una entrevista."
+      },
+      {
+        "en": "He had [butterflies in his stomach] on their first date.",
+        "es": "Sentía mariposas en el estómago en su primera cita."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-edge",
+    "type": "idiom",
+    "term": "on edge",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "con los nervios de punta; tenso",
+    "def": "nervous and not able to relax",
+    "syn": [
+      "tense",
+      "jumpy"
+    ],
+    "ex": [
+      {
+        "en": "I've been [on edge] all day waiting for the results.",
+        "es": "He estado con los nervios de punta todo el día esperando los resultados."
+      },
+      {
+        "en": "Everyone was [on edge] after the layoff rumors.",
+        "es": "Todos andaban tensos después de los rumores de despidos."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-weight-off-my-shoulders",
+    "type": "idiom",
+    "term": "a weight off my shoulders",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "un peso menos; un peso de encima",
+    "def": "a feeling of relief when a worry is gone",
+    "note": "Cambia el posesivo: a weight off her shoulders. También: a load off my mind.",
+    "syn": [
+      "a relief"
+    ],
+    "ex": [
+      {
+        "en": "Paying off that loan was [a weight off my shoulders].",
+        "es": "Terminar de pagar ese préstamo fue quitarme un peso de encima."
+      },
+      {
+        "en": "Finding a daycare was [a weight off our shoulders].",
+        "es": "Encontrar guardería fue un peso menos para nosotros."
+      }
+    ]
+  },
+  {
+    "id": "idi-rub-someone-the-wrong-way",
+    "type": "idiom",
+    "term": "rub someone the wrong way",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "caerle mal a alguien; chocarle",
+    "def": "to annoy someone without meaning to",
+    "note": "Imagen: acariciar a un gato a contrapelo.",
+    "ex": [
+      {
+        "en": "I don't know why, but he [rubs me the wrong way].",
+        "es": "No sé por qué, pero me cae mal."
+      },
+      {
+        "en": "Her comment [rubbed everyone the wrong way].",
+        "es": "Su comentario les chocó a todos."
+      }
+    ]
+  },
+  {
+    "id": "idi-give-someone-the-cold-shoulder",
+    "type": "idiom",
+    "term": "give someone the cold shoulder",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "hacerle el feo; aplicar la ley del hielo",
+    "def": "to ignore someone or be unfriendly on purpose",
+    "syn": [
+      "ignore"
+    ],
+    "ex": [
+      {
+        "en": "She's been [giving me the cold shoulder] since Monday.",
+        "es": "Me aplica la ley del hielo desde el lunes."
+      },
+      {
+        "en": "His coworkers [gave him the cold shoulder] after the argument.",
+        "es": "Sus compañeros le hicieron el feo después de la discusión."
+      }
+    ]
+  },
+  {
+    "id": "idi-hold-a-grudge",
+    "type": "idiom",
+    "term": "hold a grudge",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 4,
+    "es": "guardar rencor",
+    "def": "to stay angry with someone for a long time",
+    "note": "Con 'against': hold a grudge against someone.",
+    "ex": [
+      {
+        "en": "I'm not the type to [hold a grudge].",
+        "es": "No soy de los que guardan rencor."
+      },
+      {
+        "en": "He [held a grudge] against his brother for years.",
+        "es": "Le guardó rencor a su hermano durante años."
+      }
+    ]
+  },
+  {
+    "id": "idi-clear-the-air",
+    "type": "idiom",
+    "term": "clear the air",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "aclarar las cosas; limar asperezas",
+    "def": "to talk about a problem so that bad feelings go away",
+    "ex": [
+      {
+        "en": "We had coffee to [clear the air] after the fight.",
+        "es": "Nos tomamos un café para aclarar las cosas después del pleito."
+      },
+      {
+        "en": "One honest talk [cleared the air] between them.",
+        "es": "Una plática honesta limó las asperezas entre ellos."
+      }
+    ]
+  },
+  {
+    "id": "idi-head-over-heels",
+    "type": "idiom",
+    "term": "head over heels",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "perdidamente enamorado",
+    "def": "completely in love",
+    "note": "Casi siempre: head over heels in love (with) o fall head over heels for someone.",
+    "ex": [
+      {
+        "en": "He's [head over heels] in love with her.",
+        "es": "Está perdidamente enamorado de ella."
+      },
+      {
+        "en": "They fell [head over heels] for each other in college.",
+        "es": "Se enamoraron perdidamente en la universidad."
+      }
+    ]
+  },
+  {
+    "id": "idi-tie-the-knot",
+    "type": "idiom",
+    "term": "tie the knot",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "casarse; dar el sí",
+    "def": "to get married",
+    "note": "Informal y de titulares. Imagen: atar el nudo.",
+    "syn": [
+      "get married"
+    ],
+    "ex": [
+      {
+        "en": "They're [tying the knot] in Cancún next spring.",
+        "es": "Se casan en Cancún la próxima primavera."
+      },
+      {
+        "en": "My cousin finally [tied the knot] last weekend.",
+        "es": "Mi prima por fin se casó el fin pasado."
+      }
+    ]
+  },
+  {
+    "id": "idi-third-wheel",
+    "type": "idiom",
+    "term": "third wheel",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "mal tercio; el que hace violín",
+    "def": "a person who is with a couple and feels they should not be there",
+    "note": "Informal. Como verbo coloquial: I don't want to third-wheel.",
+    "ex": [
+      {
+        "en": "I felt like a [third wheel] at dinner with them.",
+        "es": "Me sentí el mal tercio en la cena con ellos."
+      },
+      {
+        "en": "Come with us! You won't be a [third wheel].",
+        "es": "¡Ven con nosotros! No vas a hacer mal tercio."
+      }
+    ]
+  },
+  {
+    "id": "idi-hit-rock-bottom",
+    "type": "idiom",
+    "term": "hit rock bottom",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "tocar fondo",
+    "def": "to reach the lowest or worst point in your life or in a situation",
+    "ex": [
+      {
+        "en": "I [hit rock bottom] when I lost my apartment.",
+        "es": "Toqué fondo cuando perdí mi departamento."
+      },
+      {
+        "en": "Sales [hit rock bottom] in January and then recovered.",
+        "es": "Las ventas tocaron fondo en enero y luego se recuperaron."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-wake-up-call",
+    "type": "idiom",
+    "term": "a wake-up call",
+    "level": "B2",
+    "topic": "health",
+    "freq": 4,
+    "es": "una llamada de atención; un aviso serio",
+    "def": "an event that shows you that you need to change something",
+    "note": "Literal es la llamada del hotel para despertarte; figurado es mucho más común.",
+    "ex": [
+      {
+        "en": "The blood test was [a wake-up call] for my dad.",
+        "es": "El análisis de sangre fue una llamada de atención para mi papá."
+      },
+      {
+        "en": "Failing that class was [a wake-up call].",
+        "es": "Reprobar esa materia fue un aviso serio."
+      }
+    ]
+  },
+  {
+    "id": "idi-get-your-act-together",
+    "type": "idiom",
+    "term": "get your act together",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "ponerse las pilas; organizarse de una vez",
+    "def": "to start behaving in a more organized and serious way",
+    "note": "Informal y algo regañón si se lo dices a otro. Versión vulgar suave muy común: get your shit together.",
+    "ex": [
+      {
+        "en": "You need to [get your act together] before finals.",
+        "es": "Tienes que ponerte las pilas antes de los finales."
+      },
+      {
+        "en": "He [got his act together] and found a steady job.",
+        "es": "Se puso las pilas y consiguió un trabajo estable."
+      }
+    ]
+  },
+  {
+    "id": "idi-take-something-with-a-grain-of-salt",
+    "type": "idiom",
+    "term": "take something with a grain of salt",
+    "level": "C1",
+    "topic": "daily",
+    "freq": 3,
+    "es": "no creérselo todo; tomarlo con reservas",
+    "def": "to not completely believe something that you hear or read",
+    "ex": [
+      {
+        "en": "I'd [take that review with a grain of salt].",
+        "es": "Yo no me creería del todo esa reseña."
+      },
+      {
+        "en": "She [takes his stories with a grain of salt].",
+        "es": "Toma sus historias con reservas."
+      }
+    ]
+  },
+  {
+    "id": "idi-beat-around-the-bush",
+    "type": "idiom",
+    "term": "beat around the bush",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "andarse por las ramas; darle vueltas",
+    "def": "to avoid talking about the main point directly",
+    "note": "Casi siempre en negativo o imperativo: Stop beating around the bush.",
+    "ex": [
+      {
+        "en": "Stop [beating around the bush] and tell me what happened.",
+        "es": "Deja de darle vueltas y dime qué pasó."
+      },
+      {
+        "en": "I won't [beat around the bush]: we need to cut costs.",
+        "es": "No me voy a andar por las ramas: hay que recortar gastos."
+      }
+    ]
+  },
+  {
+    "id": "idi-read-between-the-lines",
+    "type": "idiom",
+    "term": "read between the lines",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "leer entre líneas",
+    "def": "to understand what someone really means but does not say",
+    "ex": [
+      {
+        "en": "If you [read between the lines], she's not happy there.",
+        "es": "Si lees entre líneas, no está contenta ahí."
+      },
+      {
+        "en": "I [read between the lines] and knew the answer was no.",
+        "es": "Leí entre líneas y supe que la respuesta era no."
+      }
+    ]
+  },
+  {
+    "id": "idi-jump-to-conclusions",
+    "type": "idiom",
+    "term": "jump to conclusions",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "sacar conclusiones precipitadas",
+    "def": "to decide that something is true before you know all the facts",
+    "ex": [
+      {
+        "en": "Let's not [jump to conclusions] until we hear from him.",
+        "es": "No saquemos conclusiones precipitadas hasta saber de él."
+      },
+      {
+        "en": "I [jumped to conclusions] and blamed the wrong person.",
+        "es": "Saqué conclusiones precipitadas y culpé a quien no era."
+      }
+    ]
+  },
+  {
+    "id": "idi-give-someone-the-benefit-of-the-doubt",
+    "type": "idiom",
+    "term": "give someone the benefit of the doubt",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "darle el beneficio de la duda",
+    "def": "to decide to believe someone even if you are not sure",
+    "ex": [
+      {
+        "en": "He's usually on time, so I [gave him the benefit of the doubt].",
+        "es": "Casi siempre es puntual, así que le di el beneficio de la duda."
+      },
+      {
+        "en": "Let's [give her the benefit of the doubt] this once.",
+        "es": "Vamos a darle el beneficio de la duda por esta vez."
+      }
+    ]
+  },
+  {
+    "id": "idi-word-of-mouth",
+    "type": "idiom",
+    "term": "word of mouth",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "recomendación de boca en boca",
+    "def": "people telling other people about something, not advertising",
+    "note": "Con 'by' o 'through'. Como adjetivo lleva guiones: word-of-mouth marketing.",
+    "ex": [
+      {
+        "en": "Most of our customers find us through [word of mouth].",
+        "es": "La mayoría de nuestros clientes nos encuentra por recomendación."
+      },
+      {
+        "en": "The taco stand got famous by [word of mouth].",
+        "es": "El puesto de tacos se hizo famoso de boca en boca."
+      }
+    ]
+  },
+  {
+    "id": "idi-behind-someones-back",
+    "type": "idiom",
+    "term": "behind someone's back",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "a espaldas de alguien",
+    "def": "without a person knowing, in a way that is not fair to them",
+    "ex": [
+      {
+        "en": "I don't like people talking [behind my back].",
+        "es": "No me gusta que hablen a mis espaldas."
+      },
+      {
+        "en": "They changed the plan [behind her back].",
+        "es": "Cambiaron el plan a sus espaldas."
+      }
+    ]
+  },
+  {
+    "id": "idi-stab-someone-in-the-back",
+    "type": "idiom",
+    "term": "stab someone in the back",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "apuñalar por la espalda; traicionar",
+    "def": "to do something harmful to a person who trusted you",
+    "note": "Sustantivo: a backstabber = un traicionero.",
+    "syn": [
+      "betray"
+    ],
+    "ex": [
+      {
+        "en": "I trusted him, and he [stabbed me in the back].",
+        "es": "Confié en él y me apuñaló por la espalda."
+      },
+      {
+        "en": "She'd never [stab a friend in the back] for a promotion.",
+        "es": "Jamás traicionaría a una amiga por un ascenso."
+      }
+    ]
+  },
+  {
+    "id": "idi-white-lie",
+    "type": "idiom",
+    "term": "white lie",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "mentira piadosa",
+    "def": "a small lie you tell to be polite or to not hurt someone",
+    "note": "En inglés la mentira es 'blanca', no 'piadosa'.",
+    "ex": [
+      {
+        "en": "I told a [white lie] and said I loved the gift.",
+        "es": "Dije una mentira piadosa y que me encantó el regalo."
+      },
+      {
+        "en": "A little [white lie] never hurt anyone, right?",
+        "es": "Una mentirita piadosa no le hace daño a nadie, ¿no?"
+      }
+    ]
+  },
+  {
+    "id": "idi-couch-potato",
+    "type": "idiom",
+    "term": "couch potato",
+    "level": "B1",
+    "topic": "home",
+    "freq": 3,
+    "es": "flojo de sillón; persona que vive echada viendo tele",
+    "def": "a person who spends a lot of time sitting and watching TV",
+    "note": "Informal y de broma. Imagen: una papa echada en el sillón.",
+    "ex": [
+      {
+        "en": "I turn into a [couch potato] every winter.",
+        "es": "Cada invierno me la vivo echado en el sillón."
+      },
+      {
+        "en": "Don't be such a [couch potato]. Let's go for a walk.",
+        "es": "No seas tan flojo. Vamos a caminar."
+      }
+    ]
+  },
+  {
+    "id": "idi-night-owl",
+    "type": "idiom",
+    "term": "night owl",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "noctámbulo; persona nocturna",
+    "def": "a person who likes to stay up late at night",
+    "note": "Contrario: early bird o morning person.",
+    "ex": [
+      {
+        "en": "I'm a [night owl], so I do my best work after ten.",
+        "es": "Soy nocturno, así que trabajo mejor después de las diez."
+      },
+      {
+        "en": "She was a [night owl] until she had kids.",
+        "es": "Era muy desvelada hasta que tuvo hijos."
+      }
+    ]
+  },
+  {
+    "id": "idi-early-bird",
+    "type": "idiom",
+    "term": "early bird",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "madrugador",
+    "def": "a person who gets up or arrives early",
+    "note": "Del dicho 'the early bird gets the worm' (al que madruga Dios lo ayuda). Early-bird price = precio de preventa.",
+    "syn": [
+      "morning person"
+    ],
+    "ex": [
+      {
+        "en": "My dad is an [early bird]. He's up at five.",
+        "es": "Mi papá es madrugador. Se levanta a las cinco."
+      },
+      {
+        "en": "The [early bird] tickets are twenty dollars cheaper.",
+        "es": "Los boletos de preventa cuestan veinte dólares menos."
+      }
+    ]
+  },
+  {
+    "id": "idi-people-person",
+    "type": "idiom",
+    "term": "people person",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "es": "persona sociable; con don de gentes",
+    "def": "someone who enjoys being with and talking to other people",
+    "note": "Muy usado en entrevistas: 'I'm a people person.'",
+    "ex": [
+      {
+        "en": "I'm a [people person], so I enjoy customer service.",
+        "es": "Tengo don de gentes, así que disfruto la atención al cliente."
+      },
+      {
+        "en": "He's smart but not much of a [people person].",
+        "es": "Es listo, pero no es muy sociable."
+      }
+    ]
+  },
+  {
+    "id": "idi-control-freak",
+    "type": "idiom",
+    "term": "control freak",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "controlador; obsesivo del control",
+    "def": "a person who wants to control everything around them",
+    "note": "Informal y crítico; dicho de uno mismo suena a broma.",
+    "ex": [
+      {
+        "en": "My boss is a [control freak] about every little detail.",
+        "es": "Mi jefa es una controladora con cada detallito."
+      },
+      {
+        "en": "I'm a bit of a [control freak] when I travel.",
+        "es": "Soy medio obsesivo del control cuando viajo."
+      }
+    ]
+  },
+  {
+    "id": "idi-hit-the-sack",
+    "type": "idiom",
+    "term": "hit the sack",
+    "level": "B1",
+    "topic": "home",
+    "freq": 3,
+    "es": "irse a dormir; irse al sobre",
+    "def": "to go to bed",
+    "note": "Informal. Variante igual de común: hit the hay.",
+    "syn": [
+      "hit the hay",
+      "go to bed"
+    ],
+    "ex": [
+      {
+        "en": "I'm exhausted. I'm going to [hit the sack].",
+        "es": "Estoy muerto. Ya me voy al sobre."
+      },
+      {
+        "en": "We [hit the sack] early because of the morning flight.",
+        "es": "Nos fuimos a dormir temprano por el vuelo de la mañana."
+      }
+    ]
+  },
+  {
+    "id": "idi-hit-the-books",
+    "type": "idiom",
+    "term": "hit the books",
+    "level": "B1",
+    "topic": "study",
+    "freq": 3,
+    "es": "ponerse a estudiar; clavarse en los libros",
+    "def": "to start studying hard",
+    "note": "Informal, de estudiantes. No es golpear libros.",
+    "ex": [
+      {
+        "en": "I can't go out tonight. I have to [hit the books].",
+        "es": "No puedo salir hoy. Tengo que ponerme a estudiar."
+      },
+      {
+        "en": "She [hit the books] all weekend for her nursing exam.",
+        "es": "Se clavó en los libros todo el fin para su examen de enfermería."
+      }
+    ]
+  },
+  {
+    "id": "idi-make-yourself-at-home",
+    "type": "idiom",
+    "term": "make yourself at home",
+    "level": "A2",
+    "topic": "home",
+    "freq": 4,
+    "es": "estás en tu casa; ponte cómodo",
+    "def": "said to a guest so they feel relaxed in your house",
+    "ex": [
+      {
+        "en": "Come in and [make yourself at home].",
+        "es": "Pásale, estás en tu casa."
+      },
+      {
+        "en": "Please [make yourself at home] while I get some drinks.",
+        "es": "Ponte cómodo mientras traigo algo de tomar."
+      }
+    ]
+  },
+  {
+    "id": "idi-run-in-the-family",
+    "type": "idiom",
+    "term": "run in the family",
+    "level": "B1",
+    "topic": "health",
+    "freq": 4,
+    "es": "ser de familia; venir de familia",
+    "def": "to be common in a family, like a quality or an illness",
+    "note": "Útil con el doctor: Diabetes runs in my family.",
+    "ex": [
+      {
+        "en": "Diabetes [runs in the family], so I get tested every year.",
+        "es": "La diabetes es de familia, así que me hago estudios cada año."
+      },
+      {
+        "en": "Being stubborn [runs in the family].",
+        "es": "Lo necio nos viene de familia."
+      }
+    ]
+  },
+  {
+    "id": "idi-not-my-cup-of-tea",
+    "type": "idiom",
+    "term": "not my cup of tea",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "no es lo mío; no es de mi agrado",
+    "def": "not the kind of thing that I like",
+    "note": "Forma amable de decir que algo no te gusta. Más informal hoy: not my thing.",
+    "syn": [
+      "not my thing"
+    ],
+    "ex": [
+      {
+        "en": "Horror movies are [not my cup of tea].",
+        "es": "Las películas de terror no son lo mío."
+      },
+      {
+        "en": "Camping is [not my cup of tea], but the kids love it.",
+        "es": "Acampar no es lo mío, pero a los niños les encanta."
+      }
+    ]
+  },
+  {
+    "id": "idi-have-a-sweet-tooth",
+    "type": "idiom",
+    "term": "have a sweet tooth",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "ser dulcero; tener debilidad por lo dulce",
+    "def": "to like sweet food very much",
+    "ex": [
+      {
+        "en": "I [have a sweet tooth], so I always order dessert.",
+        "es": "Soy bien dulcero, así que siempre pido postre."
+      },
+      {
+        "en": "He [has a sweet tooth] and keeps candy in his desk.",
+        "es": "Tiene debilidad por lo dulce y guarda dulces en su escritorio."
+      }
+    ]
+  },
+  {
+    "id": "idi-grab-a-bite",
+    "type": "idiom",
+    "term": "grab a bite",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "comer algo rápido; echarse un taco",
+    "def": "to get something quick to eat",
+    "note": "Informal. Forma completa: grab a bite to eat. No es morder nada.",
+    "ex": [
+      {
+        "en": "Do you want to [grab a bite] before the movie?",
+        "es": "¿Quieres comer algo rápido antes de la película?"
+      },
+      {
+        "en": "We [grabbed a bite] at the food court.",
+        "es": "Comimos algo rápido en el área de comida."
+      }
+    ]
+  },
+  {
+    "id": "idi-hit-the-spot",
+    "type": "idiom",
+    "term": "hit the spot",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "caer de maravilla; ser justo lo que se antojaba",
+    "def": "to be exactly what you wanted to eat or drink",
+    "ex": [
+      {
+        "en": "That hot soup really [hit the spot].",
+        "es": "Esa sopa caliente cayó de maravilla."
+      },
+      {
+        "en": "A cold lemonade would [hit the spot] right now.",
+        "es": "Una limonada fría caería de maravilla ahorita."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-the-go",
+    "type": "idiom",
+    "term": "on the go",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "de un lado a otro; sin parar",
+    "def": "very busy and moving from place to place",
+    "note": "También 'para llevar o mientras te mueves': breakfast on the go.",
+    "ex": [
+      {
+        "en": "I've been [on the go] since six this morning.",
+        "es": "Ando de un lado a otro desde las seis de la mañana."
+      },
+      {
+        "en": "I usually eat breakfast [on the go].",
+        "es": "Casi siempre desayuno a las carreras."
+      }
+    ]
+  },
+  {
+    "id": "idi-off-the-beaten-path",
+    "type": "idiom",
+    "term": "off the beaten path",
+    "level": "B2",
+    "topic": "travel",
+    "freq": 3,
+    "es": "fuera de la ruta turística; poco conocido",
+    "def": "in a place that few people visit",
+    "note": "En EE. UU./Canadá se dice 'path'; en inglés británico, 'off the beaten track'.",
+    "ex": [
+      {
+        "en": "We found a great beach [off the beaten path].",
+        "es": "Encontramos una playa buenísima fuera de la ruta turística."
+      },
+      {
+        "en": "I like restaurants that are a little [off the beaten path].",
+        "es": "Me gustan los restaurantes poco conocidos."
+      }
+    ]
+  },
+  {
+    "id": "idi-in-the-middle-of-nowhere",
+    "type": "idiom",
+    "term": "in the middle of nowhere",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 4,
+    "es": "en medio de la nada; donde el diablo perdió el poncho",
+    "def": "in a place that is very far from towns and people",
+    "ex": [
+      {
+        "en": "Our car broke down [in the middle of nowhere].",
+        "es": "Se nos descompuso el carro en medio de la nada."
+      },
+      {
+        "en": "The cabin is [in the middle of nowhere], with no signal.",
+        "es": "La cabaña está en medio de la nada, sin señal."
+      }
+    ]
+  },
+  {
+    "id": "idi-tourist-trap",
+    "type": "idiom",
+    "term": "tourist trap",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 4,
+    "es": "trampa para turistas; lugar caro y turístico",
+    "def": "a place that gets many visitors and charges too much",
+    "ex": [
+      {
+        "en": "Skip that restaurant. It's a total [tourist trap].",
+        "es": "Sáltate ese restaurante. Es pura trampa para turistas."
+      },
+      {
+        "en": "The market felt like a [tourist trap], so we left.",
+        "es": "El mercado parecía trampa para turistas, así que nos fuimos."
+      }
+    ]
+  },
+  {
+    "id": "idi-bucket-list",
+    "type": "idiom",
+    "term": "bucket list",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 4,
+    "es": "lista de cosas por hacer antes de morir",
+    "def": "a list of things you want to do in your life",
+    "note": "Viene de 'kick the bucket' (estirar la pata). 'It's on my bucket list.'",
+    "ex": [
+      {
+        "en": "Seeing the northern lights is on my [bucket list].",
+        "es": "Ver las auroras boreales está en mi lista de cosas por hacer en la vida."
+      },
+      {
+        "en": "I crossed skydiving off my [bucket list] last year.",
+        "es": "El año pasado taché el paracaidismo de mi lista de pendientes en la vida."
+      }
+    ]
+  },
+  {
+    "id": "idi-around-the-corner",
+    "type": "idiom",
+    "term": "around the corner",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "a la vuelta de la esquina; muy cerca",
+    "def": "going to happen very soon",
+    "note": "Igual que en español: sirve para lugar y para tiempo. Suele ir con 'just' o 'right'.",
+    "ex": [
+      {
+        "en": "Christmas is right [around the corner].",
+        "es": "La Navidad está a la vuelta de la esquina."
+      },
+      {
+        "en": "With exams just [around the corner], the library was packed.",
+        "es": "Con los exámenes a la vuelta de la esquina, la biblioteca estaba llena."
+      }
+    ]
+  },
+  {
+    "id": "idi-in-no-time",
+    "type": "idiom",
+    "term": "in no time",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "en un dos por tres; en nada de tiempo",
+    "def": "very quickly or very soon",
+    "syn": [
+      "right away"
+    ],
+    "ex": [
+      {
+        "en": "Take this exit and you'll be there [in no time].",
+        "es": "Toma esta salida y llegas en un dos por tres."
+      },
+      {
+        "en": "The kids finished the pizza [in no time].",
+        "es": "Los niños se acabaron la pizza en nada de tiempo."
+      }
+    ]
+  },
+  {
+    "id": "idi-about-time",
+    "type": "idiom",
+    "term": "about time",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "ya era hora",
+    "def": "used to say that something should have happened earlier",
+    "note": "'It's about time!' puede sonar a reclamo o a broma, según el tono.",
+    "ex": [
+      {
+        "en": "You cleaned your room? It's [about time]!",
+        "es": "¿Limpiaste tu cuarto? ¡Ya era hora!"
+      },
+      {
+        "en": "It was [about time] they fixed that elevator.",
+        "es": "Ya era hora de que arreglaran ese elevador."
+      }
+    ]
+  },
+  {
+    "id": "idi-for-the-time-being",
+    "type": "idiom",
+    "term": "for the time being",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "por el momento; por ahora",
+    "def": "for now, until something changes",
+    "syn": [
+      "for now"
+    ],
+    "ex": [
+      {
+        "en": "I'm staying with my sister [for the time being].",
+        "es": "Me estoy quedando con mi hermana por el momento."
+      },
+      {
+        "en": "[For the time being], we'll keep the old system.",
+        "es": "Por ahora nos quedamos con el sistema anterior."
+      }
+    ]
+  },
+  {
+    "id": "idi-twenty-four-seven",
+    "type": "idiom",
+    "term": "24/7",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "las 24 horas; todo el tiempo",
+    "def": "all day and every day, without stopping",
+    "note": "Se lee 'twenty-four seven'. Literal para negocios abiertos siempre; exagerado para 'todo el tiempo'.",
+    "syn": [
+      "around the clock"
+    ],
+    "ex": [
+      {
+        "en": "The pharmacy on Main Street is open [24/7].",
+        "es": "La farmacia de la calle Main abre las 24 horas."
+      },
+      {
+        "en": "He's on his phone [24/7].",
+        "es": "Está en el celular todo el tiempo."
+      }
+    ]
+  },
+  {
+    "id": "idi-kill-time",
+    "type": "idiom",
+    "term": "kill time",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 4,
+    "es": "matar el tiempo; hacer tiempo",
+    "def": "to do something that is not important while you wait",
+    "ex": [
+      {
+        "en": "We played cards to [kill time] at the airport.",
+        "es": "Jugamos cartas para matar el tiempo en el aeropuerto."
+      },
+      {
+        "en": "I was just [killing time] until the store opened.",
+        "es": "Nada más estaba haciendo tiempo hasta que abrieran la tienda."
+      }
+    ]
+  },
+  {
+    "id": "idi-call-it-quits",
+    "type": "idiom",
+    "term": "call it quits",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 3,
+    "es": "dejarlo por la paz; darlo por terminado",
+    "def": "to decide to stop doing something or end a relationship",
+    "note": "Más definitivo que 'call it a day': puede ser dejar un negocio, un proyecto o una pareja.",
+    "ex": [
+      {
+        "en": "After ten years, the band [called it quits].",
+        "es": "Después de diez años, la banda lo dejó por la paz."
+      },
+      {
+        "en": "I'm not ready to [call it quits] on this business.",
+        "es": "No estoy listo para dar por terminado este negocio."
+      }
+    ]
+  },
+  {
+    "id": "idi-back-on-your-feet",
+    "type": "idiom",
+    "term": "back on your feet",
+    "level": "B2",
+    "topic": "health",
+    "freq": 4,
+    "es": "recuperado; otra vez de pie",
+    "def": "healthy again or doing well again after a hard time",
+    "note": "Para salud y para dinero. Con 'be' o 'get': get back on your feet.",
+    "ex": [
+      {
+        "en": "You'll be [back on your feet] in a week or two.",
+        "es": "En una o dos semanas vas a estar recuperado."
+      },
+      {
+        "en": "It took a year to get [back on my feet] after the layoff.",
+        "es": "Me tomó un año levantarme después del despido."
+      }
+    ]
+  },
+  {
+    "id": "idi-off-the-top-of-my-head",
+    "type": "idiom",
+    "term": "off the top of my head",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "así de memoria; sin pensarlo mucho",
+    "def": "from memory, without checking or thinking for long",
+    "note": "Útil para dar un dato sin comprometerte: 'Off the top of my head, around fifty.'",
+    "ex": [
+      {
+        "en": "[Off the top of my head], I'd say around fifty people.",
+        "es": "Así de memoria, diría que unas cincuenta personas."
+      },
+      {
+        "en": "I can't think of his name [off the top of my head].",
+        "es": "No me acuerdo de su nombre así de memoria."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-the-tip-of-my-tongue",
+    "type": "idiom",
+    "term": "on the tip of my tongue",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "en la punta de la lengua",
+    "def": "almost remembered, but not quite",
+    "ex": [
+      {
+        "en": "Her name is [on the tip of my tongue].",
+        "es": "Tengo su nombre en la punta de la lengua."
+      },
+      {
+        "en": "The answer was [on the tip of my tongue] the whole time.",
+        "es": "Tuve la respuesta en la punta de la lengua todo el tiempo."
+      }
+    ]
+  },
+  {
+    "id": "idi-slip-your-mind",
+    "type": "idiom",
+    "term": "slip your mind",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "pasársele a uno; olvidársele",
+    "def": "to be forgotten",
+    "note": "El sujeto es la cosa olvidada: It slipped my mind = se me pasó. Disculpa suave y común.",
+    "ex": [
+      {
+        "en": "Sorry I didn't call. It completely [slipped my mind].",
+        "es": "Perdón por no llamar. Se me pasó por completo."
+      },
+      {
+        "en": "Her birthday always [slips his mind].",
+        "es": "Siempre se le olvida su cumpleaños."
+      }
+    ]
+  },
+  {
+    "id": "idi-draw-a-blank",
+    "type": "idiom",
+    "term": "draw a blank",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "es": "quedarse en blanco",
+    "def": "to not be able to remember or think of something",
+    "syn": [
+      "blank out"
+    ],
+    "ex": [
+      {
+        "en": "I [drew a blank] on the last exam question.",
+        "es": "Me quedé en blanco en la última pregunta del examen."
+      },
+      {
+        "en": "I'm [drawing a blank]. What was that restaurant called?",
+        "es": "Me quedé en blanco. ¿Cómo se llamaba ese restaurante?"
+      }
+    ]
+  },
+  {
+    "id": "idi-state-of-the-art",
+    "type": "idiom",
+    "term": "state of the art",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 3,
+    "es": "de última generación; de punta",
+    "def": "using the newest and best technology",
+    "note": "Como adjetivo antes del sustantivo lleva guiones: a state-of-the-art kitchen.",
+    "syn": [
+      "cutting-edge"
+    ],
+    "ex": [
+      {
+        "en": "The new hospital's equipment is [state of the art].",
+        "es": "El equipo del hospital nuevo es de última generación."
+      },
+      {
+        "en": "Their security system was [state of the art] ten years ago.",
+        "es": "Su sistema de seguridad era de punta hace diez años."
+      }
+    ]
+  },
+  {
+    "id": "idi-go-viral",
+    "type": "idiom",
+    "term": "go viral",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 5,
+    "es": "hacerse viral",
+    "def": "to spread very quickly to many people on the internet",
+    "ex": [
+      {
+        "en": "Her cooking video [went viral] overnight.",
+        "es": "Su video de cocina se hizo viral de la noche a la mañana."
+      },
+      {
+        "en": "You never know which post will [go viral].",
+        "es": "Nunca sabes qué publicación se va a hacer viral."
+      }
+    ]
+  },
+  {
+    "id": "idi-reinvent-the-wheel",
+    "type": "idiom",
+    "term": "reinvent the wheel",
+    "level": "C1",
+    "topic": "tech",
+    "freq": 3,
+    "es": "reinventar la rueda; inventar el hilo negro",
+    "def": "to waste time creating something that already exists",
+    "note": "Casi siempre en negativo: Let's not reinvent the wheel.",
+    "ex": [
+      {
+        "en": "Use the template. There's no need to [reinvent the wheel].",
+        "es": "Usa la plantilla. No hay que inventar el hilo negro."
+      },
+      {
+        "en": "We [reinvented the wheel] instead of using a free library.",
+        "es": "Reinventamos la rueda en vez de usar una librería gratuita."
+      }
+    ]
+  },
+  {
+    "id": "idi-up-and-running",
+    "type": "idiom",
+    "term": "up and running",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 4,
+    "es": "funcionando; ya en operación",
+    "def": "working correctly, especially after being set up or fixed",
+    "ex": [
+      {
+        "en": "The website is back [up and running].",
+        "es": "El sitio ya está funcionando otra vez."
+      },
+      {
+        "en": "We got the new printer [up and running] in ten minutes.",
+        "es": "Dejamos la impresora nueva funcionando en diez minutos."
+      }
+    ]
+  },
+  {
+    "id": "idi-pull-the-plug",
+    "type": "idiom",
+    "term": "pull the plug",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "cancelar; cortarle el apoyo a algo",
+    "def": "to stop a project or activity, often by stopping the money for it",
+    "note": "Imagen: desenchufar. Lleva 'on': pull the plug on the project.",
+    "ex": [
+      {
+        "en": "The company [pulled the plug] on the project after a year.",
+        "es": "La empresa canceló el proyecto después de un año."
+      },
+      {
+        "en": "If sales don't improve, they'll [pull the plug].",
+        "es": "Si las ventas no mejoran, lo van a cancelar."
+      }
+    ]
+  },
+  {
+    "id": "idi-in-the-works",
+    "type": "idiom",
+    "term": "in the works",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "en preparación; en proceso",
+    "def": "being planned or prepared now",
+    "ex": [
+      {
+        "en": "A new version of the app is [in the works].",
+        "es": "Ya viene en camino una nueva versión de la app."
+      },
+      {
+        "en": "We have a few surprises [in the works] for her birthday.",
+        "es": "Tenemos unas sorpresas en preparación para su cumpleaños."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-work-in-progress",
+    "type": "idiom",
+    "term": "a work in progress",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "algo en proceso; todavía sin terminar",
+    "def": "something that is not finished and is still being improved",
+    "note": "También para personas o habilidades, con humor: 'My English is a work in progress.'",
+    "ex": [
+      {
+        "en": "My English is still [a work in progress].",
+        "es": "Mi inglés todavía está en proceso."
+      },
+      {
+        "en": "The backyard is [a work in progress], but come see it.",
+        "es": "El patio todavía no está terminado, pero ven a verlo."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-gray-area",
+    "type": "idiom",
+    "term": "a gray area",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "es": "zona gris; algo que no está claro",
+    "def": "a situation where the rules are not clear",
+    "note": "En EE. UU. se escribe 'gray'; en Canadá casi siempre 'grey'.",
+    "ex": [
+      {
+        "en": "Working for two companies is [a gray area] in my contract.",
+        "es": "Trabajar para dos empresas es una zona gris en mi contrato."
+      },
+      {
+        "en": "Tipping for takeout is kind of [a gray area].",
+        "es": "Dejar propina en pedidos para llevar no está muy claro."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-double-edged-sword",
+    "type": "idiom",
+    "term": "a double-edged sword",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "un arma de doble filo",
+    "def": "something that has both good and bad effects",
+    "ex": [
+      {
+        "en": "Working from home is [a double-edged sword].",
+        "es": "Trabajar desde casa es un arma de doble filo."
+      },
+      {
+        "en": "Fame was [a double-edged sword] for the young actor.",
+        "es": "La fama fue un arma de doble filo para el joven actor."
+      }
+    ]
+  },
+  {
+    "id": "idi-the-best-of-both-worlds",
+    "type": "idiom",
+    "term": "the best of both worlds",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "lo mejor de los dos mundos",
+    "def": "the good parts of two different things at the same time",
+    "ex": [
+      {
+        "en": "A hybrid schedule gives me [the best of both worlds].",
+        "es": "El horario híbrido me da lo mejor de los dos mundos."
+      },
+      {
+        "en": "Living near the lake and downtown is [the best of both worlds].",
+        "es": "Vivir cerca del lago y del centro es lo mejor de los dos mundos."
+      }
+    ]
+  },
+  {
+    "id": "idi-it-is-what-it-is",
+    "type": "idiom",
+    "term": "it is what it is",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "ni modo; así es esto",
+    "def": "said to accept a bad situation that you cannot change",
+    "note": "El 'ni modo' del inglés. Resignación tranquila; no lo uses para quitarle importancia al problema de otro.",
+    "ex": [
+      {
+        "en": "I didn't get the raise, but [it is what it is].",
+        "es": "No me dieron el aumento, pero ni modo."
+      },
+      {
+        "en": "The flight is delayed again. [It is what it is].",
+        "es": "Se volvió a retrasar el vuelo. Ni modo, así es esto."
+      }
+    ]
+  },
+  {
+    "id": "idi-keep-your-fingers-crossed",
+    "type": "idiom",
+    "term": "keep your fingers crossed",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "cruzar los dedos",
+    "def": "to hope that something will happen the way you want",
+    "note": "Forma corta muy común: 'Fingers crossed!' = ¡crucemos los dedos!",
+    "ex": [
+      {
+        "en": "I have my interview tomorrow. [Keep your fingers crossed]!",
+        "es": "Mañana tengo mi entrevista. ¡Cruza los dedos!"
+      },
+      {
+        "en": "We're [keeping our fingers crossed] for good weather.",
+        "es": "Estamos cruzando los dedos para que haga buen clima."
+      }
+    ]
+  },
+  {
+    "id": "idi-knock-on-wood",
+    "type": "idiom",
+    "term": "knock on wood",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "toco madera",
+    "def": "said to keep your good luck after you mention something good",
+    "note": "En EE. UU./Canadá es 'knock on wood'; en inglés británico, 'touch wood'. Se dice tocando algo de madera.",
+    "ex": [
+      {
+        "en": "I haven't been sick all year, [knock on wood].",
+        "es": "No me he enfermado en todo el año, toco madera."
+      },
+      {
+        "en": "The car is running fine so far, [knock on wood].",
+        "es": "El carro va bien hasta ahora, toco madera."
+      }
+    ]
+  },
+  {
+    "id": "idi-a-close-call",
+    "type": "idiom",
+    "term": "a close call",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "por un pelo; un susto del que te salvaste",
+    "def": "a situation where something bad almost happened",
+    "ex": [
+      {
+        "en": "That truck almost hit us. That was [a close call]!",
+        "es": "Ese camión casi nos pega. ¡Nos salvamos por un pelo!"
+      },
+      {
+        "en": "We made our connection, but it was [a close call].",
+        "es": "Alcanzamos la conexión, pero fue por un pelo."
+      }
+    ]
+  },
+  {
+    "id": "idi-better-safe-than-sorry",
+    "type": "idiom",
+    "term": "better safe than sorry",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "más vale prevenir que lamentar",
+    "def": "it is better to be careful than to have a problem later",
+    "ex": [
+      {
+        "en": "Take an umbrella. [Better safe than sorry].",
+        "es": "Llévate un paraguas. Más vale prevenir que lamentar."
+      },
+      {
+        "en": "I backed up everything twice. [Better safe than sorry].",
+        "es": "Respaldé todo dos veces. Más vale prevenir."
+      }
+    ]
+  },
+  {
+    "id": "idi-play-it-safe",
+    "type": "idiom",
+    "term": "play it safe",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "irse a la segura; no arriesgarse",
+    "def": "to avoid taking risks",
+    "ex": [
+      {
+        "en": "Let's [play it safe] and leave an hour early.",
+        "es": "Vámonos a la segura y salgamos una hora antes."
+      },
+      {
+        "en": "I [played it safe] and ordered the chicken.",
+        "es": "Me fui a la segura y pedí el pollo."
+      }
+    ]
+  },
+  {
+    "id": "idi-go-with-the-flow",
+    "type": "idiom",
+    "term": "go with the flow",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "dejarse llevar; fluir",
+    "def": "to relax and accept what happens instead of trying to control it",
+    "ex": [
+      {
+        "en": "I don't have a plan. I'll just [go with the flow].",
+        "es": "No tengo plan. Nada más me voy a dejar llevar."
+      },
+      {
+        "en": "On vacation, she [goes with the flow] and never rushes.",
+        "es": "En vacaciones se deja llevar y nunca anda con prisas."
+      }
+    ]
+  },
+  {
+    "id": "idi-go-with-your-gut",
+    "type": "idiom",
+    "term": "go with your gut",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "hacerle caso a tu instinto; seguir tu corazonada",
+    "def": "to decide by following your feelings, not careful thinking",
+    "note": "Gut = tripas; aquí, intuición. Relacionado: a gut feeling = una corazonada.",
+    "syn": [
+      "trust your instincts"
+    ],
+    "ex": [
+      {
+        "en": "I [went with my gut] and took the smaller apartment.",
+        "es": "Le hice caso a mi instinto y agarré el depa más chico."
+      },
+      {
+        "en": "When you're not sure, [go with your gut].",
+        "es": "Cuando no estés seguro, sigue tu corazonada."
+      }
+    ]
+  },
+  {
+    "id": "idi-off-the-hook",
+    "type": "idiom",
+    "term": "off the hook",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "librado; salvado de una obligación",
+    "def": "no longer in trouble or no longer having to do something",
+    "note": "Imagen: el pez que se zafa del anzuelo. 'Let someone off the hook' = perdonársela.",
+    "ex": [
+      {
+        "en": "The meeting got canceled, so you're [off the hook].",
+        "es": "Se canceló la junta, así que te libraste."
+      },
+      {
+        "en": "I'm not letting you [off the hook] that easily.",
+        "es": "No te la voy a perdonar tan fácil."
+      }
+    ]
+  },
+  {
+    "id": "idi-put-someone-on-the-spot",
+    "type": "idiom",
+    "term": "put someone on the spot",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "poner en aprietos; agarrar en curva",
+    "def": "to make someone answer a hard question right away, in front of others",
+    "note": "Ojo: 'on the spot' solo significa 'en ese mismo momento' (hired on the spot).",
+    "ex": [
+      {
+        "en": "I don't want to [put you on the spot], but can you come?",
+        "es": "No quiero ponerte en aprietos, pero ¿puedes venir?"
+      },
+      {
+        "en": "The interviewer [put me on the spot] with a salary question.",
+        "es": "El entrevistador me agarró en curva con una pregunta de sueldo."
+      }
+    ]
+  },
+  {
+    "id": "idi-learn-the-hard-way",
+    "type": "idiom",
+    "term": "learn the hard way",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "aprender a la mala; aprender por las malas",
+    "def": "to learn something from a bad experience, not from advice",
+    "ex": [
+      {
+        "en": "I [learned the hard way] to always read the contract.",
+        "es": "Aprendí a la mala a leer siempre el contrato."
+      },
+      {
+        "en": "Back up your files, or you'll [learn the hard way].",
+        "es": "Respalda tus archivos o vas a aprender por las malas."
+      }
+    ]
+  },
+  {
+    "id": "idi-mind-your-own-business",
+    "type": "idiom",
+    "term": "mind your own business",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "métete en tus asuntos; no te metas",
+    "def": "to not ask about or get involved in other people's private things",
+    "note": "Como orden es grosero. Neutral cuando hablas de ti: I was just minding my own business.",
+    "ex": [
+      {
+        "en": "I was [minding my own business] when he started yelling.",
+        "es": "Yo estaba en lo mío cuando empezó a gritar."
+      },
+      {
+        "en": "Just tell him to [mind his own business].",
+        "es": "Nada más dile que no se meta."
+      }
+    ]
+  },
+  {
+    "id": "idi-cross-the-line",
+    "type": "idiom",
+    "term": "cross the line",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "pasarse de la raya",
+    "def": "to behave in a way that is not acceptable",
+    "syn": [
+      "go too far"
+    ],
+    "ex": [
+      {
+        "en": "That joke about her family [crossed the line].",
+        "es": "Ese chiste sobre su familia se pasó de la raya."
+      },
+      {
+        "en": "I like honesty, but don't [cross the line].",
+        "es": "Me gusta la honestidad, pero no te pases de la raya."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-a-roll",
+    "type": "idiom",
+    "term": "on a roll",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "en racha; imparable",
+    "def": "having a period of success or good luck",
+    "ex": [
+      {
+        "en": "Three sales before lunch? You're [on a roll]!",
+        "es": "¿Tres ventas antes de la comida? ¡Andas en racha!"
+      },
+      {
+        "en": "The team was [on a roll] until their captain got hurt.",
+        "es": "El equipo andaba en racha hasta que se lastimó su capitán."
+      }
+    ]
+  },
+  {
+    "id": "idi-nail-it",
+    "type": "idiom",
+    "term": "nail it",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "lucirse; hacerlo perfecto",
+    "def": "to do something perfectly",
+    "note": "Informal y muy común. 'Nailed it!' también se usa con ironía cuando algo salió fatal.",
+    "syn": [
+      "crush it"
+    ],
+    "ex": [
+      {
+        "en": "Great presentation! You totally [nailed it].",
+        "es": "¡Qué buena presentación! Te luciste."
+      },
+      {
+        "en": "I was nervous, but I think I [nailed it] in the interview.",
+        "es": "Estaba nervioso, pero creo que me fue perfecto en la entrevista."
+      }
+    ]
+  },
+  {
+    "id": "idi-team-player",
+    "type": "idiom",
+    "term": "team player",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "es": "alguien que sabe trabajar en equipo",
+    "def": "a person who works well with other people in a group",
+    "note": "Clásico de entrevistas y vacantes. Acompáñalo con un ejemplo concreto para que no suene vacío.",
+    "ex": [
+      {
+        "en": "I'm a [team player], and I enjoy helping my coworkers.",
+        "es": "Sé trabajar en equipo y me gusta ayudar a mis compañeros."
+      },
+      {
+        "en": "We need a [team player], not a lone star.",
+        "es": "Necesitamos a alguien que sepa trabajar en equipo, no a una estrella solitaria."
+      }
+    ]
+  },
+  {
+    "id": "idi-pull-your-weight",
+    "type": "idiom",
+    "term": "pull your weight",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "hacer la parte que te toca",
+    "def": "to do your fair share of the work in a group",
+    "ex": [
+      {
+        "en": "Everyone has to [pull their weight] on this project.",
+        "es": "Todos tienen que hacer su parte en este proyecto."
+      },
+      {
+        "en": "My roommate never [pulled his weight] with the chores.",
+        "es": "Mi roomie nunca hizo su parte con los quehaceres."
+      }
+    ]
+  },
+  {
+    "id": "idi-think-on-your-feet",
+    "type": "idiom",
+    "term": "think on your feet",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 4,
+    "es": "reaccionar rápido; resolver sobre la marcha",
+    "def": "to make good decisions quickly without time to prepare",
+    "ex": [
+      {
+        "en": "In customer service, you have to [think on your feet].",
+        "es": "En atención al cliente tienes que reaccionar rápido."
+      },
+      {
+        "en": "She [thought on her feet] when the projector died.",
+        "es": "Resolvió sobre la marcha cuando se murió el proyector."
+      }
+    ]
+  },
+  {
+    "id": "idi-out-of-your-comfort-zone",
+    "type": "idiom",
+    "term": "out of your comfort zone",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 4,
+    "es": "fuera de tu zona de confort",
+    "def": "in a situation that feels new and a little scary for you",
+    "note": "Con 'step', 'get' o 'be': step out of your comfort zone.",
+    "ex": [
+      {
+        "en": "Moving abroad pushed me [out of my comfort zone].",
+        "es": "Mudarme al extranjero me sacó de mi zona de confort."
+      },
+      {
+        "en": "Public speaking is way [out of his comfort zone].",
+        "es": "Hablar en público está muy fuera de su zona de confort."
+      }
+    ]
+  },
+  {
+    "id": "idi-bite-off-more-than-you-can-chew",
+    "type": "idiom",
+    "term": "bite off more than you can chew",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "abarcar más de lo que puedes",
+    "def": "to try to do more than you are able to do",
+    "note": "Como el dicho 'el que mucho abarca, poco aprieta'.",
+    "syn": [
+      "in over your head"
+    ],
+    "ex": [
+      {
+        "en": "I [bit off more than I could chew] with three classes.",
+        "es": "Quise abarcar demasiado con tres materias."
+      },
+      {
+        "en": "Don't [bite off more than you can chew] in your first month.",
+        "es": "No quieras abarcar de más en tu primer mes."
+      }
+    ]
+  },
+  {
+    "id": "idi-wrap-your-head-around",
+    "type": "idiom",
+    "term": "wrap your head around",
+    "level": "B2",
+    "topic": "study",
+    "freq": 4,
+    "es": "terminar de entender; asimilar",
+    "def": "to understand something that is difficult or surprising",
+    "note": "Casi siempre en negativo: I can't wrap my head around it = no me cabe en la cabeza.",
+    "ex": [
+      {
+        "en": "I can't [wrap my head around] these tax rules.",
+        "es": "No termino de entender estas reglas de impuestos."
+      },
+      {
+        "en": "It took me a while to [wrap my head around] the news.",
+        "es": "Me tardé en asimilar la noticia."
+      }
+    ]
+  },
+  {
+    "id": "idi-on-second-thought",
+    "type": "idiom",
+    "term": "on second thought",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "pensándolo bien",
+    "def": "used when you change your mind after thinking again",
+    "note": "En EE. UU./Canadá va en singular: on second thought. No confundir con 'have second thoughts' (tener dudas).",
+    "ex": [
+      {
+        "en": "I'll have a coffee. [On second thought], make it a tea.",
+        "es": "Quiero un café. Pensándolo bien, mejor un té."
+      },
+      {
+        "en": "[On second thought], let's just stay home tonight.",
+        "es": "Pensándolo bien, mejor nos quedamos en casa hoy."
+      }
+    ]
+  },
+  {
+    "id": "idi-be-all-ears",
+    "type": "idiom",
+    "term": "be all ears",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "ser todo oídos",
+    "def": "to be ready and happy to listen",
+    "ex": [
+      {
+        "en": "Tell me what happened. [I'm all ears].",
+        "es": "Cuéntame qué pasó. Soy todo oídos."
+      },
+      {
+        "en": "If you have a better idea, [we're all ears].",
+        "es": "Si tienes una mejor idea, somos todo oídos."
+      }
+    ]
+  },
+  {
+    "id": "idi-have-someones-back",
+    "type": "idiom",
+    "term": "have someone's back",
+    "level": "B1",
+    "topic": "social",
+    "freq": 5,
+    "es": "respaldar a alguien; no dejarlo solo",
+    "def": "to be ready to help and protect someone",
+    "note": "Informal y muy común: 'I've got your back' = cuentas conmigo, yo te cubro.",
+    "ex": [
+      {
+        "en": "Don't worry about the meeting. I [have your back].",
+        "es": "No te preocupes por la junta. Yo te respaldo."
+      },
+      {
+        "en": "My sister always [had my back] when we were kids.",
+        "es": "Mi hermana nunca me dejó solo cuando éramos niños."
+      }
+    ]
+  },
+  {
+    "id": "idi-too-good-to-be-true",
+    "type": "idiom",
+    "term": "too good to be true",
+    "level": "B1",
+    "topic": "money",
+    "freq": 5,
+    "es": "demasiado bueno para ser verdad",
+    "def": "so good that it is hard to believe, and probably not real",
+    "note": "Frase clave para detectar estafas: 'If it sounds too good to be true, it probably is.'",
+    "ex": [
+      {
+        "en": "A free phone? That sounds [too good to be true].",
+        "es": "¿Un teléfono gratis? Suena demasiado bueno para ser verdad."
+      },
+      {
+        "en": "The rent seemed [too good to be true], and it was.",
+        "es": "La renta parecía demasiado buena para ser verdad, y sí lo era."
+      }
+    ]
+  },
+  {
+    "id": "idi-no-strings-attached",
+    "type": "idiom",
+    "term": "no strings attached",
+    "level": "B2",
+    "topic": "money",
+    "freq": 4,
+    "es": "sin compromiso; sin condiciones",
+    "def": "with no special rules or limits that you must accept",
+    "note": "En ofertas y promociones. En relaciones: algo casual, sin compromiso.",
+    "ex": [
+      {
+        "en": "You get a free month, [no strings attached].",
+        "es": "Te dan un mes gratis, sin compromiso."
+      },
+      {
+        "en": "He lent me the money with [no strings attached].",
+        "es": "Me prestó el dinero sin condiciones."
+      }
+    ]
+  },
+  {
+    "id": "idi-cut-someone-some-slack",
+    "type": "idiom",
+    "term": "cut someone some slack",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "no ser tan duro con alguien; darle chance",
+    "def": "to be less strict with someone because of their situation",
+    "note": "Informal. Slack = cuerda floja: aflojarle la cuerda a alguien.",
+    "syn": [
+      "give someone a break",
+      "go easy on"
+    ],
+    "ex": [
+      {
+        "en": "[Cut him some slack]. It's only his second day.",
+        "es": "Dale chance. Apenas es su segundo día."
+      },
+      {
+        "en": "My teacher [cut me some slack] because I was sick.",
+        "es": "Mi maestra no fue tan dura conmigo porque estaba enfermo."
+      }
+    ]
+  },
+  {
+    "id": "idi-wing-it",
+    "type": "idiom",
+    "term": "wing it",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "improvisar; aventarse sin preparar",
+    "def": "to do something without preparing or planning",
+    "note": "Informal. Para presentaciones, exámenes, recetas: I'll just wing it.",
+    "syn": [
+      "play it by ear",
+      "improvise"
+    ],
+    "ex": [
+      {
+        "en": "I didn't prepare a speech, so I'll just [wing it].",
+        "es": "No preparé discurso, así que voy a improvisar."
+      },
+      {
+        "en": "We had no recipe, so we [winged it].",
+        "es": "No teníamos receta, así que improvisamos."
+      }
+    ]
+  },
+  {
+    "id": "idi-second-nature",
+    "type": "idiom",
+    "term": "second nature",
+    "level": "B2",
+    "topic": "study",
+    "freq": 3,
+    "es": "algo que sale natural; ya automático",
+    "def": "something you do easily without thinking, because you have done it often",
+    "note": "Sin artículo: it becomes second nature (to you).",
+    "ex": [
+      {
+        "en": "After a few months, driving on ice becomes [second nature].",
+        "es": "Después de unos meses, manejar sobre hielo ya te sale natural."
+      },
+      {
+        "en": "Speaking English at work is [second nature] to her now.",
+        "es": "Hablar inglés en el trabajo ya le sale en automático."
+      }
+    ]
+  },
+  {
+    "id": "idi-keep-someone-posted",
+    "type": "idiom",
+    "term": "keep someone posted",
+    "level": "B1",
+    "topic": "work",
+    "freq": 5,
+    "es": "mantener al tanto; ir avisando",
+    "def": "to keep giving someone the latest news about something",
+    "note": "Muy común para cerrar correos y mensajes: 'I'll keep you posted.' / 'Keep me posted!'",
+    "syn": [
+      "in the loop",
+      "keep someone updated"
+    ],
+    "ex": [
+      {
+        "en": "I'll [keep you posted] on the delivery.",
+        "es": "Te voy avisando de la entrega."
+      },
+      {
+        "en": "Good luck at the doctor, and [keep me posted].",
+        "es": "Suerte con el doctor, y me mantienes al tanto."
+      }
+    ]
+  },
+  {
+    "id": "idi-plan-b",
+    "type": "idiom",
+    "term": "plan B",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "plan B; alternativa",
+    "def": "a second plan that you use if the first one does not work",
+    "syn": [
+      "backup plan"
+    ],
+    "ex": [
+      {
+        "en": "If it rains, what's our [plan B]?",
+        "es": "Si llueve, ¿cuál es nuestro plan B?"
+      },
+      {
+        "en": "The hotel was full, so we went with [plan B].",
+        "es": "El hotel estaba lleno, así que nos fuimos con el plan B."
+      }
+    ]
+  },
+  {
+    "id": "idi-down-to-earth",
+    "type": "idiom",
+    "term": "down-to-earth",
+    "level": "B2",
+    "topic": "social",
+    "freq": 4,
+    "es": "sencillo; con los pies en la tierra",
+    "def": "practical and friendly, not acting like you are better than others",
+    "note": "Es un cumplido. Suele decirse de alguien famoso o con dinero que es sencillo.",
+    "ex": [
+      {
+        "en": "For a famous chef, he's surprisingly [down-to-earth].",
+        "es": "Para ser un chef famoso, es sorprendentemente sencillo."
+      },
+      {
+        "en": "I like her because she's so [down-to-earth].",
+        "es": "Me cae bien porque es bien sencilla."
+      }
+    ]
+  },
+  {
+    "id": "idi-raining-cats-and-dogs",
+    "type": "idiom",
+    "term": "raining cats and dogs",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 1,
+    "es": "llover a cántaros",
+    "def": "raining very hard",
+    "note": "Sale en todos los libros, pero hoy suena anticuado. Lo natural: it's pouring / it's really coming down.",
+    "syn": [
+      "pouring"
+    ],
+    "ex": [
+      {
+        "en": "Take a jacket. It's [raining cats and dogs] out there.",
+        "es": "Llévate una chamarra. Está lloviendo a cántaros allá afuera."
+      },
+      {
+        "en": "It was [raining cats and dogs] when we landed.",
+        "es": "Estaba lloviendo a cántaros cuando aterrizamos."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1306 @@
+[
+ {
+  "id": "pt-g-001",
+  "section": "grammar",
+  "level": "A1",
+  "prompt": "My sister ___ a nurse.",
+  "options": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "answer": 0,
+  "why_es": "Sujeto singular (she) → *is*."
+ },
+ {
+  "id": "pt-g-002",
+  "section": "grammar",
+  "level": "A1",
+  "prompt": "There ___ two buses to downtown every hour.",
+  "options": [
+   "is",
+   "are",
+   "be",
+   "have"
+  ],
+  "answer": 1,
+  "why_es": "*There are* + plural."
+ },
+ {
+  "id": "pt-g-003",
+  "section": "grammar",
+  "level": "A1",
+  "prompt": "I ___ coffee every morning.",
+  "options": [
+   "drinks",
+   "am drink",
+   "drink",
+   "drinking"
+  ],
+  "answer": 2,
+  "why_es": "Presente simple con *I*: verbo base, sin -s."
+ },
+ {
+  "id": "pt-g-004",
+  "section": "grammar",
+  "level": "A1",
+  "prompt": "The meeting is ___ Monday.",
+  "options": [
+   "at",
+   "in",
+   "to",
+   "on"
+  ],
+  "answer": 3,
+  "why_es": "Días de la semana → *on*."
+ },
+ {
+  "id": "pt-g-005",
+  "section": "grammar",
+  "level": "A1",
+  "prompt": "She ___ a car.",
+  "options": [
+   "don't have",
+   "doesn't have",
+   "doesn't has",
+   "isn't have"
+  ],
+  "answer": 1,
+  "why_es": "3.ª persona negativa: *doesn't* + verbo base."
+ },
+ {
+  "id": "pt-g-006",
+  "section": "grammar",
+  "level": "A1",
+  "prompt": "This is ___ apple.",
+  "options": [
+   "a",
+   "some",
+   "an",
+   "two"
+  ],
+  "answer": 2,
+  "why_es": "Antes de sonido vocal → *an*."
+ },
+ {
+  "id": "pt-g-007",
+  "section": "grammar",
+  "level": "A2",
+  "prompt": "Yesterday we ___ to the museum.",
+  "options": [
+   "go",
+   "goed",
+   "have gone",
+   "went"
+  ],
+  "answer": 3,
+  "why_es": "*Yesterday* → pasado simple; *go* es irregular (went)."
+ },
+ {
+  "id": "pt-g-008",
+  "section": "grammar",
+  "level": "A2",
+  "prompt": "I'm ___ than my brother.",
+  "options": [
+   "taller",
+   "more tall",
+   "tallest",
+   "most tall"
+  ],
+  "answer": 0,
+  "why_es": "Adjetivo corto → -er + *than*."
+ },
+ {
+  "id": "pt-g-009",
+  "section": "grammar",
+  "level": "A2",
+  "prompt": "At 8 p.m. last night, she ___ dinner.",
+  "options": [
+   "cooks",
+   "is cooking",
+   "was cooking",
+   "has cooked"
+  ],
+  "answer": 2,
+  "why_es": "Acción en progreso en un momento del pasado → pasado continuo."
+ },
+ {
+  "id": "pt-g-010",
+  "section": "grammar",
+  "level": "A2",
+  "prompt": "We ___ to Calgary next weekend. I already bought the tickets.",
+  "options": [
+   "went",
+   "have gone",
+   "did go",
+   "are going"
+  ],
+  "answer": 3,
+  "why_es": "Plan ya decidido → presente continuo o *going to*."
+ },
+ {
+  "id": "pt-g-011",
+  "section": "grammar",
+  "level": "A2",
+  "prompt": "You ___ park here. There's a no-parking sign.",
+  "options": [
+   "mustn't",
+   "can",
+   "have to",
+   "may"
+  ],
+  "answer": 0,
+  "why_es": "*mustn't* = prohibición."
+ },
+ {
+  "id": "pt-g-012",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "He ___ at the clinic for five years, and he still loves it.",
+  "options": [
+   "works",
+   "has worked",
+   "worked",
+   "is working"
+  ],
+  "answer": 1,
+  "why_es": "*for five years* + continúa hasta hoy → present perfect."
+ },
+ {
+  "id": "pt-g-013",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "If it ___ tomorrow, we'll cancel the hike.",
+  "options": [
+   "will rain",
+   "rained",
+   "would rain",
+   "rains"
+  ],
+  "answer": 3,
+  "why_es": "Primer condicional: *if* + presente simple, *will* en el resultado."
+ },
+ {
+  "id": "pt-g-014",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "The report ___ by the manager yesterday.",
+  "options": [
+   "was finished",
+   "finished",
+   "is finishing",
+   "has finish"
+  ],
+  "answer": 0,
+  "why_es": "Voz pasiva en pasado: *was/were* + participio."
+ },
+ {
+  "id": "pt-g-015",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "I enjoy ___ in the snow.",
+  "options": [
+   "to walk",
+   "walking",
+   "walk",
+   "walked"
+  ],
+  "answer": 1,
+  "why_es": "*Enjoy* se sigue de gerundio."
+ },
+ {
+  "id": "pt-g-016",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "He told me that he ___ the contract the day before.",
+  "options": [
+   "signs",
+   "has signed",
+   "had signed",
+   "will sign"
+  ],
+  "answer": 2,
+  "why_es": "Estilo indirecto: pasado perfecto para algo anterior."
+ },
+ {
+  "id": "pt-g-017",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "She asked me where ___.",
+  "options": [
+   "I lived",
+   "did I live",
+   "I did live",
+   "do I live"
+  ],
+  "answer": 0,
+  "why_es": "Pregunta indirecta: orden de afirmación, sin *did*."
+ },
+ {
+  "id": "pt-g-018",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "By the time we arrived, the movie ___.",
+  "options": [
+   "has already started",
+   "had already started",
+   "already starts",
+   "was already start"
+  ],
+  "answer": 1,
+  "why_es": "Acción anterior a otro momento pasado → past perfect."
+ },
+ {
+  "id": "pt-g-019",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "If I ___ more time, I would learn French.",
+  "options": [
+   "have",
+   "would have",
+   "had",
+   "will have"
+  ],
+  "answer": 2,
+  "why_es": "Segundo condicional: *if* + pasado simple."
+ },
+ {
+  "id": "pt-g-020",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "If she ___ the instructions, she wouldn't have broken the printer.",
+  "options": [
+   "would have read",
+   "has read",
+   "reads",
+   "had read"
+  ],
+  "answer": 3,
+  "why_es": "Tercer condicional: *if* + past perfect."
+ },
+ {
+  "id": "pt-g-021",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "The new policy, ___ was announced last week, affects all employees.",
+  "options": [
+   "who",
+   "which",
+   "what",
+   "whose"
+  ],
+  "answer": 1,
+  "why_es": "Relativo no restrictivo para cosas → *which*."
+ },
+ {
+  "id": "pt-g-022",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "I'm not used to ___ up so early.",
+  "options": [
+   "get",
+   "got",
+   "getting",
+   "have got"
+  ],
+  "answer": 2,
+  "why_es": "*Be used to* + gerundio."
+ },
+ {
+  "id": "pt-g-023",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "The suspect is believed ___ the country last week.",
+  "options": [
+   "leaving",
+   "to leave",
+   "that left",
+   "to have left"
+  ],
+  "answer": 3,
+  "why_es": "Pasiva impersonal con pasado: *to have* + participio."
+ },
+ {
+  "id": "pt-g-024",
+  "section": "grammar",
+  "level": "C1",
+  "prompt": "Not only ___ the deadline, but they also exceeded the budget.",
+  "options": [
+   "did they miss",
+   "they missed",
+   "they did miss",
+   "missed they"
+  ],
+  "answer": 0,
+  "why_es": "Inversión tras *not only*: auxiliar + sujeto."
+ },
+ {
+  "id": "pt-g-025",
+  "section": "grammar",
+  "level": "C1",
+  "prompt": "Had I known about the delay, I ___ earlier.",
+  "options": [
+   "would leave",
+   "had left",
+   "would have left",
+   "left"
+  ],
+  "answer": 2,
+  "why_es": "Tercer condicional invertido: *Had I known…* = *If I had known…*"
+ },
+ {
+  "id": "pt-g-026",
+  "section": "grammar",
+  "level": "C1",
+  "prompt": "Rarely ___ such a clear explanation.",
+  "options": [
+   "I have heard",
+   "did I heard",
+   "I heard",
+   "have I heard"
+  ],
+  "answer": 3,
+  "why_es": "Adverbio negativo al inicio → inversión con auxiliar."
+ },
+ {
+  "id": "pt-g-027",
+  "section": "grammar",
+  "level": "C1",
+  "prompt": "Hardly ___ the office when it started to pour.",
+  "options": [
+   "had she left",
+   "she had left",
+   "did she leave",
+   "was she leaving"
+  ],
+  "answer": 0,
+  "why_es": "*Hardly … when* exige inversión con past perfect."
+ },
+ {
+  "id": "pt-g-028",
+  "section": "grammar",
+  "level": "C1",
+  "prompt": "She'd rather you ___ smoke in here.",
+  "options": [
+   "don't",
+   "didn't",
+   "won't",
+   "not"
+  ],
+  "answer": 1,
+  "why_es": "*Would rather* + sujeto distinto → pasado simple."
+ },
+ {
+  "id": "pt-v-001",
+  "section": "vocab",
+  "level": "A1",
+  "prompt": "I'm hungry. Let's have ___.",
+  "options": [
+   "a bed",
+   "a coat",
+   "a bus",
+   "lunch"
+  ],
+  "answer": 3,
+  "why_es": "Se *has* lunch: comida del mediodía."
+ },
+ {
+  "id": "pt-v-002",
+  "section": "vocab",
+  "level": "A1",
+  "prompt": "It's very cold today. Wear your ___.",
+  "options": [
+   "coat",
+   "sandals",
+   "shorts",
+   "sunglasses"
+  ],
+  "answer": 0,
+  "why_es": "Para el frío se usa *coat* (abrigo)."
+ },
+ {
+  "id": "pt-v-003",
+  "section": "vocab",
+  "level": "A1",
+  "prompt": "My mother's brother is my ___.",
+  "options": [
+   "cousin",
+   "uncle",
+   "grandfather",
+   "nephew"
+  ],
+  "answer": 1,
+  "why_es": "*Uncle* = tío."
+ },
+ {
+  "id": "pt-v-004",
+  "section": "vocab",
+  "level": "A1",
+  "prompt": "I need milk. Let's go to the ___.",
+  "options": [
+   "hospital",
+   "airport",
+   "supermarket",
+   "bank"
+  ],
+  "answer": 2,
+  "why_es": "La leche se compra en el *supermarket*."
+ },
+ {
+  "id": "pt-v-005",
+  "section": "vocab",
+  "level": "A1",
+  "prompt": "The opposite of \"open\" is ___.",
+  "options": [
+   "closed",
+   "clean",
+   "cold",
+   "slow"
+  ],
+  "answer": 0,
+  "why_es": "*Open* ↔ *closed*."
+ },
+ {
+  "id": "pt-v-006",
+  "section": "vocab",
+  "level": "A2",
+  "prompt": "I need to make an ___ with the dentist.",
+  "options": [
+   "invitation",
+   "appointment",
+   "agreement",
+   "adventure"
+  ],
+  "answer": 1,
+  "why_es": "*Make an appointment* = agendar una cita."
+ },
+ {
+  "id": "pt-v-007",
+  "section": "vocab",
+  "level": "A2",
+  "prompt": "Please ___ the form and sign it at the bottom.",
+  "options": [
+   "find out",
+   "fall out",
+   "fill out",
+   "feel out"
+  ],
+  "answer": 2,
+  "why_es": "*Fill out* = llenar un formulario."
+ },
+ {
+  "id": "pt-v-008",
+  "section": "vocab",
+  "level": "A2",
+  "prompt": "The flight was ___ because of the snowstorm.",
+  "options": [
+   "borrowed",
+   "remembered",
+   "invited",
+   "cancelled"
+  ],
+  "answer": 3,
+  "why_es": "*Cancelled* = cancelado."
+ },
+ {
+  "id": "pt-v-009",
+  "section": "vocab",
+  "level": "A2",
+  "prompt": "I only work on weekends. It's a ___ job.",
+  "options": [
+   "full-time",
+   "part-time",
+   "over-time",
+   "all-time"
+  ],
+  "answer": 1,
+  "why_es": "*Part-time* = medio tiempo."
+ },
+ {
+  "id": "pt-v-010",
+  "section": "vocab",
+  "level": "B1",
+  "prompt": "Can you do me a ___? My car won't start.",
+  "options": [
+   "service",
+   "help",
+   "favour",
+   "gift"
+  ],
+  "answer": 2,
+  "why_es": "Collocation fija: *do someone a favour*."
+ },
+ {
+  "id": "pt-v-011",
+  "section": "vocab",
+  "level": "B1",
+  "prompt": "We ran ___ milk, so I went to the store.",
+  "options": [
+   "away from",
+   "into",
+   "over",
+   "out of"
+  ],
+  "answer": 3,
+  "why_es": "*Run out of* = quedarse sin."
+ },
+ {
+  "id": "pt-v-012",
+  "section": "vocab",
+  "level": "B1",
+  "prompt": "He's very ___. He always arrives ten minutes early.",
+  "options": [
+   "punctual",
+   "polite",
+   "patient",
+   "lazy"
+  ],
+  "answer": 0,
+  "why_es": "*Punctual* = puntual."
+ },
+ {
+  "id": "pt-v-013",
+  "section": "vocab",
+  "level": "B1",
+  "prompt": "Could you ___ the volume? I can't hear the TV.",
+  "options": [
+   "turn off",
+   "turn into",
+   "turn up",
+   "turn over"
+  ],
+  "answer": 2,
+  "why_es": "*Turn up* = subir (volumen)."
+ },
+ {
+  "id": "pt-v-014",
+  "section": "vocab",
+  "level": "B1",
+  "prompt": "The landlord asked for a security ___ before we moved in.",
+  "options": [
+   "refund",
+   "tip",
+   "fine",
+   "deposit"
+  ],
+  "answer": 3,
+  "why_es": "*Security deposit* = depósito de garantía."
+ },
+ {
+  "id": "pt-v-015",
+  "section": "vocab",
+  "level": "B2",
+  "prompt": "She decided to ___ a complaint about the noise.",
+  "options": [
+   "make",
+   "do",
+   "say",
+   "put"
+  ],
+  "answer": 0,
+  "why_es": "Collocation: *make a complaint*."
+ },
+ {
+  "id": "pt-v-016",
+  "section": "vocab",
+  "level": "B2",
+  "prompt": "The company plans to ___ fifty new employees this year.",
+  "options": [
+   "take off",
+   "take on",
+   "take up",
+   "take away"
+  ],
+  "answer": 1,
+  "why_es": "*Take on* = contratar / asumir."
+ },
+ {
+  "id": "pt-v-017",
+  "section": "vocab",
+  "level": "B2",
+  "prompt": "I can't put ___ with this noise any longer.",
+  "options": [
+   "on",
+   "off",
+   "out",
+   "up"
+  ],
+  "answer": 3,
+  "why_es": "*Put up with* = soportar."
+ },
+ {
+  "id": "pt-v-018",
+  "section": "vocab",
+  "level": "B2",
+  "prompt": "The manager was very ___ about the delay and apologised several times.",
+  "options": [
+   "apologetic",
+   "ambitious",
+   "optimistic",
+   "suspicious"
+  ],
+  "answer": 0,
+  "why_es": "*Apologetic* = que pide disculpas."
+ },
+ {
+  "id": "pt-v-019",
+  "section": "vocab",
+  "level": "B2",
+  "prompt": "That offer sounds too good to be true. It could be a ___.",
+  "options": [
+   "scene",
+   "scam",
+   "scale",
+   "scar"
+  ],
+  "answer": 1,
+  "why_es": "*Scam* = estafa."
+ },
+ {
+  "id": "pt-v-020",
+  "section": "vocab",
+  "level": "C1",
+  "prompt": "Her findings were ___ by other researchers, which strengthened her claim.",
+  "options": [
+   "contradicted",
+   "fabricated",
+   "corroborated",
+   "jeopardized"
+  ],
+  "answer": 2,
+  "why_es": "*Corroborate* = confirmar con evidencia."
+ },
+ {
+  "id": "pt-v-021",
+  "section": "vocab",
+  "level": "C1",
+  "prompt": "Her argument was so ___ that nobody could disagree.",
+  "options": [
+   "compelling",
+   "compulsive",
+   "complacent",
+   "compliant"
+  ],
+  "answer": 0,
+  "why_es": "*Compelling* = convincente."
+ },
+ {
+  "id": "pt-v-022",
+  "section": "vocab",
+  "level": "C1",
+  "prompt": "The government was criticized for its ___ response; it waited weeks to act.",
+  "options": [
+   "swift",
+   "sluggish",
+   "lavish",
+   "vigilant"
+  ],
+  "answer": 1,
+  "why_es": "*Sluggish* = lento, perezoso."
+ },
+ {
+  "id": "pt-v-023",
+  "section": "vocab",
+  "level": "C1",
+  "prompt": "We should ___ the risks before signing the contract.",
+  "options": [
+   "weigh down",
+   "weigh out",
+   "weigh up",
+   "weight up"
+  ],
+  "answer": 2,
+  "why_es": "*Weigh up* = sopesar (pros y contras)."
+ },
+ {
+  "id": "pt-v-024",
+  "section": "vocab",
+  "level": "C1",
+  "prompt": "Formal email: \"I am writing to ___ about the status of my application.\"",
+  "options": [
+   "ask around",
+   "poke around",
+   "check on it",
+   "inquire"
+  ],
+  "answer": 3,
+  "why_es": "*Inquire* es el registro formal; los demás son informales."
+ },
+ {
+  "id": "pt-r-001",
+  "section": "reading",
+  "level": "A2",
+  "group": "r1",
+  "passage": "Hi Ana, I live in Edmonton now. It is November and it is very cold! Yesterday it was minus 20 degrees. I bought a big coat, warm boots, and a toque at a store near my apartment. The bus stops in front of my building, but I walk to work on sunny days. My job is at a bakery. I start at six in the morning, so I wake up at five. My boss is kind and gives me free bread every Friday. On weekends I go to a free English class at the library. The teacher is from Ontario and she is very funny. I miss you and our food! Next month I want to cook tamales for my new friends. Come and visit in the summer. Maria",
+  "prompt": "What time does Maria start work?",
+  "options": [
+   "At 5:00 a.m.",
+   "At 6:00 a.m.",
+   "At 7:00 a.m.",
+   "At 9:00 a.m."
+  ],
+  "answer": 1,
+  "why_es": "Dice *I start at six in the morning*."
+ },
+ {
+  "id": "pt-r-002",
+  "section": "reading",
+  "level": "A2",
+  "group": "r1",
+  "passage": "Hi Ana, I live in Edmonton now. It is November and it is very cold! Yesterday it was minus 20 degrees. I bought a big coat, warm boots, and a toque at a store near my apartment. The bus stops in front of my building, but I walk to work on sunny days. My job is at a bakery. I start at six in the morning, so I wake up at five. My boss is kind and gives me free bread every Friday. On weekends I go to a free English class at the library. The teacher is from Ontario and she is very funny. I miss you and our food! Next month I want to cook tamales for my new friends. Come and visit in the summer. Maria",
+  "prompt": "Where does Maria study English?",
+  "options": [
+   "At the bakery",
+   "At a store",
+   "At the library",
+   "At her apartment"
+  ],
+  "answer": 2,
+  "why_es": "Va a una clase gratis *at the library*."
+ },
+ {
+  "id": "pt-r-003",
+  "section": "reading",
+  "level": "A2",
+  "group": "r1",
+  "passage": "Hi Ana, I live in Edmonton now. It is November and it is very cold! Yesterday it was minus 20 degrees. I bought a big coat, warm boots, and a toque at a store near my apartment. The bus stops in front of my building, but I walk to work on sunny days. My job is at a bakery. I start at six in the morning, so I wake up at five. My boss is kind and gives me free bread every Friday. On weekends I go to a free English class at the library. The teacher is from Ontario and she is very funny. I miss you and our food! Next month I want to cook tamales for my new friends. Come and visit in the summer. Maria",
+  "prompt": "What does Maria plan to do next month?",
+  "options": [
+   "Visit Ana",
+   "Move to Ontario",
+   "Change jobs",
+   "Cook tamales for her friends"
+  ],
+  "answer": 3,
+  "why_es": "Dice *Next month I want to cook tamales*."
+ },
+ {
+  "id": "pt-r-004",
+  "section": "reading",
+  "level": "B1",
+  "group": "r2",
+  "passage": "Finding an apartment in a big Canadian city can be stressful, especially in winter. Most landlords ask for a rental application, proof of income, and sometimes a reference from a previous landlord. Newcomers often have no Canadian references, which makes it harder. One useful tip is to prepare a short letter that explains your situation and to include a letter from your employer. Another is to ask whether utilities such as heat and water are included in the rent, because they can add up to $200 a month. Be careful with offers that seem too cheap: scammers sometimes post fake listings and ask for a deposit before you have seen the place. A real landlord will usually let you visit the apartment first. Finally, read the lease carefully before you sign it. It should state the rent, the length of the contract, and the rules about pets and guests.",
+  "prompt": "What problem do newcomers often have?",
+  "options": [
+   "They don't have Canadian references.",
+   "They can't read the lease.",
+   "They earn too much money.",
+   "They can't visit apartments."
+  ],
+  "answer": 0,
+  "why_es": "El texto dice que *often have no Canadian references*."
+ },
+ {
+  "id": "pt-r-005",
+  "section": "reading",
+  "level": "B1",
+  "group": "r2",
+  "passage": "Finding an apartment in a big Canadian city can be stressful, especially in winter. Most landlords ask for a rental application, proof of income, and sometimes a reference from a previous landlord. Newcomers often have no Canadian references, which makes it harder. One useful tip is to prepare a short letter that explains your situation and to include a letter from your employer. Another is to ask whether utilities such as heat and water are included in the rent, because they can add up to $200 a month. Be careful with offers that seem too cheap: scammers sometimes post fake listings and ask for a deposit before you have seen the place. A real landlord will usually let you visit the apartment first. Finally, read the lease carefully before you sign it. It should state the rent, the length of the contract, and the rules about pets and guests.",
+  "prompt": "Why should you ask about utilities?",
+  "options": [
+   "They are always free.",
+   "They decide the length of the lease.",
+   "They can add a lot to the monthly cost.",
+   "They are illegal in winter."
+  ],
+  "answer": 2,
+  "why_es": "Pueden sumar hasta $200 al mes."
+ },
+ {
+  "id": "pt-r-006",
+  "section": "reading",
+  "level": "B1",
+  "group": "r2",
+  "passage": "Finding an apartment in a big Canadian city can be stressful, especially in winter. Most landlords ask for a rental application, proof of income, and sometimes a reference from a previous landlord. Newcomers often have no Canadian references, which makes it harder. One useful tip is to prepare a short letter that explains your situation and to include a letter from your employer. Another is to ask whether utilities such as heat and water are included in the rent, because they can add up to $200 a month. Be careful with offers that seem too cheap: scammers sometimes post fake listings and ask for a deposit before you have seen the place. A real landlord will usually let you visit the apartment first. Finally, read the lease carefully before you sign it. It should state the rent, the length of the contract, and the rules about pets and guests.",
+  "prompt": "What is a warning sign of a scam?",
+  "options": [
+   "The landlord asks for a lease.",
+   "The listing includes heat.",
+   "The landlord wants a reference.",
+   "Someone asks for a deposit before you see the apartment."
+  ],
+  "answer": 3,
+  "why_es": "Los estafadores piden depósito antes de que veas el lugar."
+ },
+ {
+  "id": "pt-r-007",
+  "section": "reading",
+  "level": "B1",
+  "group": "r3",
+  "passage": "From next month, our company will introduce a hybrid schedule. Employees will work from the office on Tuesdays and Thursdays and can choose where to work on the other days. The change follows a survey in which 68 percent of staff said they were more productive at home, although many also said they missed informal conversations with colleagues. Managers argue that in-person days will help teams solve problems faster and welcome new hires more effectively. Employees who commute more than 90 minutes may ask for an exemption, but they must submit a written request by the 15th. The company will also reduce the number of desks and introduce a booking system, so people should reserve a space before they arrive. We will review the policy after three months and adjust it if necessary. Questions should be sent to Human Resources, not to individual managers.",
+  "prompt": "What did the survey show?",
+  "options": [
+   "Most staff felt more productive at home but missed chatting with coworkers.",
+   "Most staff wanted to work only in the office.",
+   "Managers wanted fewer desks.",
+   "68 percent asked for an exemption."
+  ],
+  "answer": 0,
+  "why_es": "68 % más productivo en casa, pero extrañaban las conversaciones informales."
+ },
+ {
+  "id": "pt-r-008",
+  "section": "reading",
+  "level": "B2",
+  "group": "r3",
+  "passage": "From next month, our company will introduce a hybrid schedule. Employees will work from the office on Tuesdays and Thursdays and can choose where to work on the other days. The change follows a survey in which 68 percent of staff said they were more productive at home, although many also said they missed informal conversations with colleagues. Managers argue that in-person days will help teams solve problems faster and welcome new hires more effectively. Employees who commute more than 90 minutes may ask for an exemption, but they must submit a written request by the 15th. The company will also reduce the number of desks and introduce a booking system, so people should reserve a space before they arrive. We will review the policy after three months and adjust it if necessary. Questions should be sent to Human Resources, not to individual managers.",
+  "prompt": "According to managers, why are in-person days useful?",
+  "options": [
+   "Employees commute less.",
+   "Teams solve problems faster and new hires feel welcome.",
+   "The company needs fewer desks.",
+   "Staff can take exemptions."
+  ],
+  "answer": 1,
+  "why_es": "Los gerentes lo justifican con resolver problemas y recibir a nuevos."
+ },
+ {
+  "id": "pt-r-009",
+  "section": "reading",
+  "level": "B2",
+  "group": "r3",
+  "passage": "From next month, our company will introduce a hybrid schedule. Employees will work from the office on Tuesdays and Thursdays and can choose where to work on the other days. The change follows a survey in which 68 percent of staff said they were more productive at home, although many also said they missed informal conversations with colleagues. Managers argue that in-person days will help teams solve problems faster and welcome new hires more effectively. Employees who commute more than 90 minutes may ask for an exemption, but they must submit a written request by the 15th. The company will also reduce the number of desks and introduce a booking system, so people should reserve a space before they arrive. We will review the policy after three months and adjust it if necessary. Questions should be sent to Human Resources, not to individual managers.",
+  "prompt": "What must employees do before coming to the office?",
+  "options": [
+   "Send a written request.",
+   "Ask Human Resources for a desk.",
+   "Tell their manager the commute time.",
+   "Reserve a space."
+  ],
+  "answer": 3,
+  "why_es": "Hay sistema de reservas: *reserve a space before they arrive*."
+ },
+ {
+  "id": "pt-r-010",
+  "section": "reading",
+  "level": "B2",
+  "group": "r4",
+  "passage": "Every autumn, forests across Canada turn red, orange and gold. Many people assume that leaves suddenly produce new colours, but the process is more subtle. During spring and summer, leaves are green because they contain chlorophyll, the pigment that captures sunlight for photosynthesis. Yellow and orange pigments, called carotenoids, are also present, yet they are hidden by the abundance of chlorophyll. As days shorten and temperatures fall, trees stop making chlorophyll, and the green fades, revealing the yellows underneath. Reds, by contrast, come from anthocyanins, which are produced only in autumn when sugars become trapped in the leaf. Scientists believe these pigments may protect the leaf from sunlight while the tree recovers nutrients before dropping it. The brightness of the display varies from year to year: sunny days followed by cool, dry nights usually produce the most vivid colours, whereas a warm, rainy autumn tends to give a dull result.",
+  "prompt": "Why do leaves look green in summer?",
+  "options": [
+   "Chlorophyll hides the other pigments.",
+   "They produce extra carotenoids.",
+   "Sugars are trapped in the leaf.",
+   "The days are shorter."
+  ],
+  "answer": 0,
+  "why_es": "La abundancia de clorofila oculta los carotenoides."
+ },
+ {
+  "id": "pt-r-011",
+  "section": "reading",
+  "level": "B2",
+  "group": "r4",
+  "passage": "Every autumn, forests across Canada turn red, orange and gold. Many people assume that leaves suddenly produce new colours, but the process is more subtle. During spring and summer, leaves are green because they contain chlorophyll, the pigment that captures sunlight for photosynthesis. Yellow and orange pigments, called carotenoids, are also present, yet they are hidden by the abundance of chlorophyll. As days shorten and temperatures fall, trees stop making chlorophyll, and the green fades, revealing the yellows underneath. Reds, by contrast, come from anthocyanins, which are produced only in autumn when sugars become trapped in the leaf. Scientists believe these pigments may protect the leaf from sunlight while the tree recovers nutrients before dropping it. The brightness of the display varies from year to year: sunny days followed by cool, dry nights usually produce the most vivid colours, whereas a warm, rainy autumn tends to give a dull result.",
+  "prompt": "How are red colours different from yellow ones?",
+  "options": [
+   "Yellows form only when it rains.",
+   "Reds are made in autumn, while yellows were already there.",
+   "Reds are present all year but hidden.",
+   "Reds appear when chlorophyll increases."
+  ],
+  "answer": 1,
+  "why_es": "Las antocianinas se producen solo en otoño; los amarillos ya estaban."
+ },
+ {
+  "id": "pt-r-012",
+  "section": "reading",
+  "level": "B2",
+  "group": "r4",
+  "passage": "Every autumn, forests across Canada turn red, orange and gold. Many people assume that leaves suddenly produce new colours, but the process is more subtle. During spring and summer, leaves are green because they contain chlorophyll, the pigment that captures sunlight for photosynthesis. Yellow and orange pigments, called carotenoids, are also present, yet they are hidden by the abundance of chlorophyll. As days shorten and temperatures fall, trees stop making chlorophyll, and the green fades, revealing the yellows underneath. Reds, by contrast, come from anthocyanins, which are produced only in autumn when sugars become trapped in the leaf. Scientists believe these pigments may protect the leaf from sunlight while the tree recovers nutrients before dropping it. The brightness of the display varies from year to year: sunny days followed by cool, dry nights usually produce the most vivid colours, whereas a warm, rainy autumn tends to give a dull result.",
+  "prompt": "Which conditions give the most vivid colours?",
+  "options": [
+   "Warm, rainy weather",
+   "Cold, cloudy days",
+   "Sunny days and cool, dry nights",
+   "Heavy early snow"
+  ],
+  "answer": 2,
+  "why_es": "Lo dice la última oración."
+ },
+ {
+  "id": "pt-r-013",
+  "section": "reading",
+  "level": "C1",
+  "group": "r5",
+  "passage": "Proponents of the four-day work week have long maintained that shorter hours need not undermine output. A recent pilot involving thirty-three companies seems to bear this out: revenue remained broadly stable, while resignations fell by more than a third. Yet the findings warrant caution. The firms that volunteered were, almost by definition, those most inclined to see the experiment succeed, and many were in knowledge-based sectors where output is easier to compress than in, say, healthcare or manufacturing. Critics also note that several employers achieved results only by eliminating meetings and tightening workflows, changes that could have been implemented under any schedule. Nonetheless, it would be a mistake to dismiss the trial as a mere novelty. Employees reported lower burnout, and managers, initially sceptical, overwhelmingly chose to keep the arrangement. The question, then, is less whether a shorter week can work than for whom it can work, and under what conditions. Until researchers study a more representative sample, the evidence remains promising rather than conclusive.",
+  "prompt": "Why does the author urge caution about the pilot's results?",
+  "options": [
+   "The participating firms may not represent the wider economy.",
+   "Revenue fell sharply in most firms.",
+   "Employees disliked the shorter week.",
+   "The trial was too short to measure resignations."
+  ],
+  "answer": 0,
+  "why_es": "Voluntarios y mayormente de sectores del conocimiento → muestra no representativa."
+ },
+ {
+  "id": "pt-r-014",
+  "section": "reading",
+  "level": "C1",
+  "group": "r5",
+  "passage": "Proponents of the four-day work week have long maintained that shorter hours need not undermine output. A recent pilot involving thirty-three companies seems to bear this out: revenue remained broadly stable, while resignations fell by more than a third. Yet the findings warrant caution. The firms that volunteered were, almost by definition, those most inclined to see the experiment succeed, and many were in knowledge-based sectors where output is easier to compress than in, say, healthcare or manufacturing. Critics also note that several employers achieved results only by eliminating meetings and tightening workflows, changes that could have been implemented under any schedule. Nonetheless, it would be a mistake to dismiss the trial as a mere novelty. Employees reported lower burnout, and managers, initially sceptical, overwhelmingly chose to keep the arrangement. The question, then, is less whether a shorter week can work than for whom it can work, and under what conditions. Until researchers study a more representative sample, the evidence remains promising rather than conclusive.",
+  "prompt": "What do critics suggest about the improvements?",
+  "options": [
+   "They were caused by higher salaries.",
+   "They may have come from better organisation, not fewer days.",
+   "They appeared only in manufacturing.",
+   "They disappeared after the trial."
+  ],
+  "answer": 1,
+  "why_es": "Eliminar reuniones y ajustar procesos se podía hacer con cualquier horario."
+ },
+ {
+  "id": "pt-r-015",
+  "section": "reading",
+  "level": "C1",
+  "group": "r5",
+  "passage": "Proponents of the four-day work week have long maintained that shorter hours need not undermine output. A recent pilot involving thirty-three companies seems to bear this out: revenue remained broadly stable, while resignations fell by more than a third. Yet the findings warrant caution. The firms that volunteered were, almost by definition, those most inclined to see the experiment succeed, and many were in knowledge-based sectors where output is easier to compress than in, say, healthcare or manufacturing. Critics also note that several employers achieved results only by eliminating meetings and tightening workflows, changes that could have been implemented under any schedule. Nonetheless, it would be a mistake to dismiss the trial as a mere novelty. Employees reported lower burnout, and managers, initially sceptical, overwhelmingly chose to keep the arrangement. The question, then, is less whether a shorter week can work than for whom it can work, and under what conditions. Until researchers study a more representative sample, the evidence remains promising rather than conclusive.",
+  "prompt": "What is the author's overall position?",
+  "options": [
+   "It should be dismissed as a novelty.",
+   "It has been conclusively demonstrated.",
+   "The idea is encouraging but not yet proven.",
+   "It works only in healthcare."
+  ],
+  "answer": 2,
+  "why_es": "Concluye: *promising rather than conclusive*."
+ },
+ {
+  "id": "pt-l-001",
+  "section": "listening",
+  "level": "A1",
+  "group": "l1",
+  "audio": "A: Good morning! What would you like?\nB: Hi. A large coffee, please.\nA: With milk?\nB: Yes, with milk, but no sugar.\nA: Anything to eat?\nB: Yes, a blueberry muffin, please. How much is it?\nA: The coffee is three dollars and the muffin is two fifty. Five fifty in total.\nB: Here you go. Can I pay by card?\nA: Of course. Enjoy your breakfast!",
+  "prompt": "What does the customer order to drink?",
+  "options": [
+   "A large coffee with milk and sugar",
+   "A small coffee with milk",
+   "A large tea with no sugar",
+   "A large coffee with milk but no sugar"
+  ],
+  "answer": 3,
+  "why_es": "Pide *large coffee*, *with milk*, *no sugar*."
+ },
+ {
+  "id": "pt-l-002",
+  "section": "listening",
+  "level": "A1",
+  "group": "l1",
+  "audio": "A: Good morning! What would you like?\nB: Hi. A large coffee, please.\nA: With milk?\nB: Yes, with milk, but no sugar.\nA: Anything to eat?\nB: Yes, a blueberry muffin, please. How much is it?\nA: The coffee is three dollars and the muffin is two fifty. Five fifty in total.\nB: Here you go. Can I pay by card?\nA: Of course. Enjoy your breakfast!",
+  "prompt": "How much is the total?",
+  "options": [
+   "$3.00",
+   "$5.50",
+   "$2.50",
+   "$3.50"
+  ],
+  "answer": 1,
+  "why_es": "Café 3.00 + muffin 2.50 = 5.50."
+ },
+ {
+  "id": "pt-l-003",
+  "section": "listening",
+  "level": "A1",
+  "group": "l1",
+  "audio": "A: Good morning! What would you like?\nB: Hi. A large coffee, please.\nA: With milk?\nB: Yes, with milk, but no sugar.\nA: Anything to eat?\nB: Yes, a blueberry muffin, please. How much is it?\nA: The coffee is three dollars and the muffin is two fifty. Five fifty in total.\nB: Here you go. Can I pay by card?\nA: Of course. Enjoy your breakfast!",
+  "prompt": "How does the customer pay?",
+  "options": [
+   "With cash",
+   "With a gift card",
+   "By card",
+   "With his phone"
+  ],
+  "answer": 2,
+  "why_es": "Pregunta *Can I pay by card?* y le dicen *Of course*."
+ },
+ {
+  "id": "pt-l-004",
+  "section": "listening",
+  "level": "A2",
+  "group": "l2",
+  "audio": "A: Hello, I'm calling about the one-bedroom apartment on Whyte Avenue.\nB: Yes, it's still available. The rent is eleven fifty a month, and heat is included.\nA: Is the apartment furnished?\nB: No, it's empty, but there's a fridge and a stove. There's also a laundry room in the basement.\nA: Can I see it this week?\nB: Sure. I'm free on Thursday at four o'clock or on Saturday morning.\nA: Thursday is difficult because I work until five. Saturday at ten is better.\nB: Perfect. Please bring your ID and a recent pay stub.\nA: Great. Thanks a lot.",
+  "prompt": "How much is the rent, and what is included?",
+  "options": [
+   "$1,150, with no utilities",
+   "$1,050, with heat included",
+   "$1,500, with laundry included",
+   "$1,150, with heat included"
+  ],
+  "answer": 3,
+  "why_es": "*Eleven fifty a month* y *heat is included*."
+ },
+ {
+  "id": "pt-l-005",
+  "section": "listening",
+  "level": "A2",
+  "group": "l2",
+  "audio": "A: Hello, I'm calling about the one-bedroom apartment on Whyte Avenue.\nB: Yes, it's still available. The rent is eleven fifty a month, and heat is included.\nA: Is the apartment furnished?\nB: No, it's empty, but there's a fridge and a stove. There's also a laundry room in the basement.\nA: Can I see it this week?\nB: Sure. I'm free on Thursday at four o'clock or on Saturday morning.\nA: Thursday is difficult because I work until five. Saturday at ten is better.\nB: Perfect. Please bring your ID and a recent pay stub.\nA: Great. Thanks a lot.",
+  "prompt": "When will the man see the apartment?",
+  "options": [
+   "On Saturday at ten",
+   "On Thursday at four",
+   "On Saturday at four",
+   "On Thursday at five"
+  ],
+  "answer": 0,
+  "why_es": "Jueves es difícil porque trabaja hasta las cinco."
+ },
+ {
+  "id": "pt-l-006",
+  "section": "listening",
+  "level": "A2",
+  "group": "l2",
+  "audio": "A: Hello, I'm calling about the one-bedroom apartment on Whyte Avenue.\nB: Yes, it's still available. The rent is eleven fifty a month, and heat is included.\nA: Is the apartment furnished?\nB: No, it's empty, but there's a fridge and a stove. There's also a laundry room in the basement.\nA: Can I see it this week?\nB: Sure. I'm free on Thursday at four o'clock or on Saturday morning.\nA: Thursday is difficult because I work until five. Saturday at ten is better.\nB: Perfect. Please bring your ID and a recent pay stub.\nA: Great. Thanks a lot.",
+  "prompt": "What should he bring?",
+  "options": [
+   "A deposit and his ID",
+   "A reference letter and a photo",
+   "His ID and a recent pay stub",
+   "His passport and a bank card"
+  ],
+  "answer": 2,
+  "why_es": "*Bring your ID and a recent pay stub*."
+ },
+ {
+  "id": "pt-l-007",
+  "section": "listening",
+  "level": "A2",
+  "group": "l3",
+  "audio": "Hello, this is a message for Daniel Reyes from Dr. Patel's office at Riverside Clinic. Your blood test results are ready, and everything looks normal except your vitamin D, which is a little low. Dr. Patel would like you to take a supplement once a day and come back for a short check-up in three months. Please call us before Friday to book an appointment. Our office is open from eight thirty to four thirty, Monday to Friday. If you feel worse or have any urgent symptoms, don't wait for the appointment; go to the nearest emergency room. Thank you, and have a good day.",
+  "prompt": "What is the problem in the results?",
+  "options": [
+   "Cholesterol is high.",
+   "Iron is low.",
+   "Everything is normal.",
+   "Vitamin D is a little low."
+  ],
+  "answer": 3,
+  "why_es": "Todo normal excepto la vitamina D."
+ },
+ {
+  "id": "pt-l-008",
+  "section": "listening",
+  "level": "A2",
+  "group": "l3",
+  "audio": "Hello, this is a message for Daniel Reyes from Dr. Patel's office at Riverside Clinic. Your blood test results are ready, and everything looks normal except your vitamin D, which is a little low. Dr. Patel would like you to take a supplement once a day and come back for a short check-up in three months. Please call us before Friday to book an appointment. Our office is open from eight thirty to four thirty, Monday to Friday. If you feel worse or have any urgent symptoms, don't wait for the appointment; go to the nearest emergency room. Thank you, and have a good day.",
+  "prompt": "What does the doctor recommend?",
+  "options": [
+   "A daily supplement and a check-up in three months",
+   "Surgery next week",
+   "A new blood test tomorrow",
+   "Stopping work for a month"
+  ],
+  "answer": 0,
+  "why_es": "Un suplemento al día y revisión en tres meses."
+ },
+ {
+  "id": "pt-l-009",
+  "section": "listening",
+  "level": "B1",
+  "group": "l3",
+  "audio": "Hello, this is a message for Daniel Reyes from Dr. Patel's office at Riverside Clinic. Your blood test results are ready, and everything looks normal except your vitamin D, which is a little low. Dr. Patel would like you to take a supplement once a day and come back for a short check-up in three months. Please call us before Friday to book an appointment. Our office is open from eight thirty to four thirty, Monday to Friday. If you feel worse or have any urgent symptoms, don't wait for the appointment; go to the nearest emergency room. Thank you, and have a good day.",
+  "prompt": "What should Daniel do if he feels much worse?",
+  "options": [
+   "Wait until Friday",
+   "Go to an emergency room",
+   "Leave a message at the clinic",
+   "Take a double dose"
+  ],
+  "answer": 1,
+  "why_es": "*Don't wait for the appointment; go to the nearest emergency room*."
+ },
+ {
+  "id": "pt-l-010",
+  "section": "listening",
+  "level": "B1",
+  "group": "l4",
+  "audio": "A: Okay, let's get started. The main topic today is the client presentation next Wednesday.\nB: The slides are almost ready, but I'm still waiting for the sales figures from the finance team.\nA: When do you expect them?\nB: They promised to send them by Monday noon. If they're late, I'll have to use last quarter's data.\nA: That wouldn't look good. Let's not take that risk. I'll email them again this afternoon.\nB: Thanks. Also, the client asked us to cut the presentation from sixty minutes to forty-five.\nA: Fine. Then let's remove the section on pricing and send it as a separate document afterwards.\nB: Good idea. Should I book the large meeting room?\nA: No, the large room is being painted. Reserve room 204 instead.",
+  "prompt": "What is B waiting for?",
+  "options": [
+   "Feedback from the client",
+   "The final version of the slides",
+   "The key to the meeting room",
+   "The sales figures from finance"
+  ],
+  "answer": 3,
+  "why_es": "Espera *the sales figures from the finance team*."
+ },
+ {
+  "id": "pt-l-011",
+  "section": "listening",
+  "level": "B1",
+  "group": "l4",
+  "audio": "A: Okay, let's get started. The main topic today is the client presentation next Wednesday.\nB: The slides are almost ready, but I'm still waiting for the sales figures from the finance team.\nA: When do you expect them?\nB: They promised to send them by Monday noon. If they're late, I'll have to use last quarter's data.\nA: That wouldn't look good. Let's not take that risk. I'll email them again this afternoon.\nB: Thanks. Also, the client asked us to cut the presentation from sixty minutes to forty-five.\nA: Fine. Then let's remove the section on pricing and send it as a separate document afterwards.\nB: Good idea. Should I book the large meeting room?\nA: No, the large room is being painted. Reserve room 204 instead.",
+  "prompt": "How will the presentation change?",
+  "options": [
+   "It will be shorter, and pricing will be sent separately.",
+   "It will be longer, with a pricing section.",
+   "Pricing will move to the end.",
+   "It will be cancelled."
+  ],
+  "answer": 0,
+  "why_es": "De 60 a 45 minutos; el precio va en documento aparte."
+ },
+ {
+  "id": "pt-l-012",
+  "section": "listening",
+  "level": "B1",
+  "group": "l4",
+  "audio": "A: Okay, let's get started. The main topic today is the client presentation next Wednesday.\nB: The slides are almost ready, but I'm still waiting for the sales figures from the finance team.\nA: When do you expect them?\nB: They promised to send them by Monday noon. If they're late, I'll have to use last quarter's data.\nA: That wouldn't look good. Let's not take that risk. I'll email them again this afternoon.\nB: Thanks. Also, the client asked us to cut the presentation from sixty minutes to forty-five.\nA: Fine. Then let's remove the section on pricing and send it as a separate document afterwards.\nB: Good idea. Should I book the large meeting room?\nA: No, the large room is being painted. Reserve room 204 instead.",
+  "prompt": "Why can't they use the large meeting room?",
+  "options": [
+   "It is too small.",
+   "It is being painted.",
+   "Another client booked it.",
+   "It is closed on Wednesdays."
+  ],
+  "answer": 1,
+  "why_es": "*The large room is being painted*."
+ },
+ {
+  "id": "pt-l-013",
+  "section": "listening",
+  "level": "B2",
+  "group": "l5",
+  "audio": "Good evening. Our top story: Edmonton city council has voted seven to five to extend the winter parking ban by two weeks after the heaviest snowfall in a decade. Crews say they have only cleared about forty percent of residential streets so far, and drivers who leave vehicles on marked routes could face a one hundred and fifty dollar fine and towing. Councillor Mark Ellis, who opposed the extension, argued that it unfairly penalizes people without driveways, while the mayor insisted that safety must come first, noting that two ambulances were delayed on Monday. Residents can check which streets are scheduled for plowing on the city's website. In other news, the weather service predicts a sharp drop in temperatures this weekend, with a low of minus thirty-two.",
+  "prompt": "What did the council decide?",
+  "options": [
+   "To end the parking ban",
+   "To raise the fines",
+   "To extend the parking ban by two weeks",
+   "To hire more crews"
+  ],
+  "answer": 2,
+  "why_es": "Votó 7-5 para extender la prohibición dos semanas."
+ },
+ {
+  "id": "pt-l-014",
+  "section": "listening",
+  "level": "B2",
+  "group": "l5",
+  "audio": "Good evening. Our top story: Edmonton city council has voted seven to five to extend the winter parking ban by two weeks after the heaviest snowfall in a decade. Crews say they have only cleared about forty percent of residential streets so far, and drivers who leave vehicles on marked routes could face a one hundred and fifty dollar fine and towing. Councillor Mark Ellis, who opposed the extension, argued that it unfairly penalizes people without driveways, while the mayor insisted that safety must come first, noting that two ambulances were delayed on Monday. Residents can check which streets are scheduled for plowing on the city's website. In other news, the weather service predicts a sharp drop in temperatures this weekend, with a low of minus thirty-two.",
+  "prompt": "Why did the mayor support the decision?",
+  "options": [
+   "Emergency vehicles had been delayed.",
+   "Most streets were already clear.",
+   "It would raise money.",
+   "Residents had asked for it."
+  ],
+  "answer": 0,
+  "why_es": "Mencionó dos ambulancias retrasadas."
+ },
+ {
+  "id": "pt-l-015",
+  "section": "listening",
+  "level": "B2",
+  "group": "l5",
+  "audio": "Good evening. Our top story: Edmonton city council has voted seven to five to extend the winter parking ban by two weeks after the heaviest snowfall in a decade. Crews say they have only cleared about forty percent of residential streets so far, and drivers who leave vehicles on marked routes could face a one hundred and fifty dollar fine and towing. Councillor Mark Ellis, who opposed the extension, argued that it unfairly penalizes people without driveways, while the mayor insisted that safety must come first, noting that two ambulances were delayed on Monday. Residents can check which streets are scheduled for plowing on the city's website. In other news, the weather service predicts a sharp drop in temperatures this weekend, with a low of minus thirty-two.",
+  "prompt": "Why did Councillor Ellis object?",
+  "options": [
+   "The fines were too low.",
+   "It is unfair to people without driveways.",
+   "The crews were too slow.",
+   "It was unsafe for ambulances."
+  ],
+  "answer": 1,
+  "why_es": "Dijo que penaliza injustamente a quien no tiene cochera."
+ },
+ {
+  "id": "pt-l-016",
+  "section": "listening",
+  "level": "B1",
+  "group": "l6",
+  "audio": "A: Thank you for calling TechLine, my name is Sam. How can I help?\nB: Hi, my laptop won't connect to the Wi-Fi at home. It worked fine yesterday.\nA: I'm sorry to hear that. Do your other devices connect okay?\nB: Yes, my phone is working perfectly.\nA: Good. Let's try restarting the laptop first. Have you done that?\nB: Twice, actually. It didn't help.\nA: Okay. Click on the Wi-Fi icon, select your network, and choose Forget. Then reconnect and enter the password again.\nB: Hold on... Okay, it says the password is incorrect, but I'm sure I'm typing it right.\nA: Maybe your router's password was changed after an update. Check the sticker on the back of the router.\nB: Oh, there's a new one here. That must be it. Thanks!\nA: Happy to help. If it still doesn't work, call us back and ask for a technician visit.",
+  "prompt": "What did the caller already try?",
+  "options": [
+   "Resetting the router",
+   "Changing the password",
+   "Restarting the laptop twice",
+   "Calling a technician"
+  ],
+  "answer": 2,
+  "why_es": "Dice *Twice, actually* sobre reiniciar la laptop."
+ },
+ {
+  "id": "pt-l-017",
+  "section": "listening",
+  "level": "B2",
+  "group": "l6",
+  "audio": "A: Thank you for calling TechLine, my name is Sam. How can I help?\nB: Hi, my laptop won't connect to the Wi-Fi at home. It worked fine yesterday.\nA: I'm sorry to hear that. Do your other devices connect okay?\nB: Yes, my phone is working perfectly.\nA: Good. Let's try restarting the laptop first. Have you done that?\nB: Twice, actually. It didn't help.\nA: Okay. Click on the Wi-Fi icon, select your network, and choose Forget. Then reconnect and enter the password again.\nB: Hold on... Okay, it says the password is incorrect, but I'm sure I'm typing it right.\nA: Maybe your router's password was changed after an update. Check the sticker on the back of the router.\nB: Oh, there's a new one here. That must be it. Thanks!\nA: Happy to help. If it still doesn't work, call us back and ask for a technician visit.",
+  "prompt": "What does the agent think caused the problem?",
+  "options": [
+   "The laptop is broken.",
+   "There is a provider outage.",
+   "The phone is interfering.",
+   "The router's password probably changed."
+  ],
+  "answer": 3,
+  "why_es": "Sugiere que cambió la contraseña tras una actualización."
+ },
+ {
+  "id": "pt-l-018",
+  "section": "listening",
+  "level": "B2",
+  "group": "l6",
+  "audio": "A: Thank you for calling TechLine, my name is Sam. How can I help?\nB: Hi, my laptop won't connect to the Wi-Fi at home. It worked fine yesterday.\nA: I'm sorry to hear that. Do your other devices connect okay?\nB: Yes, my phone is working perfectly.\nA: Good. Let's try restarting the laptop first. Have you done that?\nB: Twice, actually. It didn't help.\nA: Okay. Click on the Wi-Fi icon, select your network, and choose Forget. Then reconnect and enter the password again.\nB: Hold on... Okay, it says the password is incorrect, but I'm sure I'm typing it right.\nA: Maybe your router's password was changed after an update. Check the sticker on the back of the router.\nB: Oh, there's a new one here. That must be it. Thanks!\nA: Happy to help. If it still doesn't work, call us back and ask for a technician visit.",
+  "prompt": "What should the caller do if the problem continues?",
+  "options": [
+   "Buy a new router",
+   "Ask for a technician visit",
+   "Restart the laptop again",
+   "Change internet provider"
+  ],
+  "answer": 1,
+  "why_es": "*Call us back and ask for a technician visit*."
+ },
+ {
+  "id": "pt-l-019",
+  "section": "listening",
+  "level": "C1",
+  "group": "l7",
+  "audio": "A: Hey! Long time no see. What're you up to these days?\nB: Oh, you know, same old. I'm gonna quit my job, actually.\nA: Seriously? I thought you loved it.\nB: I did, but they wanna move me to the Calgary office, and I just don't wanna relocate. I gotta think about my mom, she's not getting any younger.\nA: Yeah, I get that. So what's the plan?\nB: I dunno yet. I might do some freelancing for a while. I've got a couple of leads already.\nA: Well, if you need a hand, lemme know. My cousin's looking for a designer, and she's willing to pay well.\nB: Really? That'd be awesome. Could you give me her number?\nA: Sure, I'll text it to you in a sec.",
+  "prompt": "Why doesn't B want the new position?",
+  "options": [
+   "The salary is lower.",
+   "She dislikes the Calgary office.",
+   "She would have to relocate and wants to stay near her mother.",
+   "Her boss is difficult."
+  ],
+  "answer": 2,
+  "why_es": "No quiere mudarse (*relocate*) y piensa en su mamá."
+ },
+ {
+  "id": "pt-l-020",
+  "section": "listening",
+  "level": "C1",
+  "group": "l7",
+  "audio": "A: Hey! Long time no see. What're you up to these days?\nB: Oh, you know, same old. I'm gonna quit my job, actually.\nA: Seriously? I thought you loved it.\nB: I did, but they wanna move me to the Calgary office, and I just don't wanna relocate. I gotta think about my mom, she's not getting any younger.\nA: Yeah, I get that. So what's the plan?\nB: I dunno yet. I might do some freelancing for a while. I've got a couple of leads already.\nA: Well, if you need a hand, lemme know. My cousin's looking for a designer, and she's willing to pay well.\nB: Really? That'd be awesome. Could you give me her number?\nA: Sure, I'll text it to you in a sec.",
+  "prompt": "What does B plan to do for now?",
+  "options": [
+   "Start her own company",
+   "Study design",
+   "Move to Calgary temporarily",
+   "Possibly work as a freelancer"
+  ],
+  "answer": 3,
+  "why_es": "*I might do some freelancing*."
+ },
+ {
+  "id": "pt-l-021",
+  "section": "listening",
+  "level": "C1",
+  "group": "l7",
+  "audio": "A: Hey! Long time no see. What're you up to these days?\nB: Oh, you know, same old. I'm gonna quit my job, actually.\nA: Seriously? I thought you loved it.\nB: I did, but they wanna move me to the Calgary office, and I just don't wanna relocate. I gotta think about my mom, she's not getting any younger.\nA: Yeah, I get that. So what's the plan?\nB: I dunno yet. I might do some freelancing for a while. I've got a couple of leads already.\nA: Well, if you need a hand, lemme know. My cousin's looking for a designer, and she's willing to pay well.\nB: Really? That'd be awesome. Could you give me her number?\nA: Sure, I'll text it to you in a sec.",
+  "prompt": "What does B mean by \"I gotta think about my mom\"?",
+  "options": [
+   "I have to take my mother into account.",
+   "I got a gift for my mom.",
+   "I'd like to call my mom.",
+   "I forgot about my mom."
+  ],
+  "answer": 0,
+  "why_es": "*Gotta* = *got to* = *have to*."
+ }
+]

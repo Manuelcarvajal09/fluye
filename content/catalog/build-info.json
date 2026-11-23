@@ -1,0 +1,86 @@
+{
+  "built_at": "2026-11-23T14:16:08-0600",
+  "provenance": {
+    "freq": "wordfreq 3.1.1",
+    "sense": "wiktionary/kaikki 2026-10-30",
+    "ex": "tatoeba 2026-11-21"
+  },
+  "packages": {
+    "wordfreq": "3.1.1",
+    "lemminflect": "0.2.3"
+  },
+  "sources": {
+    "kaikki_en": {
+      "url": "https://kaikki.org/dictionary/English/kaikki.org-dictionary-English.jsonl.gz",
+      "file": "raw/kaikki/kaikki.org-dictionary-English.jsonl.gz",
+      "bytes": 534186395,
+      "last_modified": "Fri, 30 Oct 2026 23:09:26 GMT",
+      "sha256": "4d03b6cba283744756c57ff661c2c6cbfe34fcf8ff513a966576cf7d97e91a99",
+      "downloaded_at": "2026-11-23T13:15:55-0600"
+    },
+    "tatoeba_eng": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences_detailed.tsv.bz2",
+      "file": "raw/tatoeba/eng_sentences_detailed.tsv.bz2",
+      "bytes": 35004488,
+      "last_modified": "Sat, 21 Nov 2026 06:30:12 GMT",
+      "sha256": "3a0e7a2fdd7cbad76f226de4c28371a15a2fc4d115001617288b16a35c6293db",
+      "downloaded_at": "2026-11-23T13:15:59-0600"
+    },
+    "tatoeba_spa": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/spa/spa_sentences_detailed.tsv.bz2",
+      "file": "raw/tatoeba/spa_sentences_detailed.tsv.bz2",
+      "bytes": 9532522,
+      "last_modified": "Sat, 21 Nov 2026 06:30:12 GMT",
+      "sha256": "7c41001b1790fffa0dd794f05ec8dcac6d51251d4374d884e5c88d14b4b2e327",
+      "downloaded_at": "2026-11-23T13:16:03-0600"
+    },
+    "tatoeba_links": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng-spa_links.tsv.bz2",
+      "file": "raw/tatoeba/eng-spa_links.tsv.bz2",
+      "bytes": 1763020,
+      "last_modified": "Sat, 21 Nov 2026 06:41:30 GMT",
+      "sha256": "2fcc064f5c38029c770ac943d3b2c51b100166d88f1b8ba44da2e8e19747b8f8",
+      "downloaded_at": "2026-11-23T13:16:05-0600"
+    },
+    "tatoeba_eng_users": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_user_languages.tsv.bz2",
+      "file": "raw/tatoeba/eng_user_languages.tsv.bz2",
+      "bytes": 293495,
+      "last_modified": "Sat, 21 Nov 2026 06:41:31 GMT",
+      "sha256": "f96d749b4c404c6f56fcd06e7ae316c7223e9265cb2f9988f21233197df267f5",
+      "downloaded_at": "2026-11-23T13:16:07-0600"
+    },
+    "tatoeba_spa_users": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/spa/spa_user_languages.tsv.bz2",
+      "file": "raw/tatoeba/spa_user_languages.tsv.bz2",
+      "bytes": 39739,
+      "last_modified": "Sat, 21 Nov 2026 06:41:31 GMT",
+      "sha256": "73f711395e2846827fe39a61e4c6d6471d191a0459e111b185889aa7315a59e1",
+      "downloaded_at": "2026-11-23T13:16:09-0600"
+    },
+    "kaikki_es": {
+      "url": "https://kaikki.org/dictionary/Spanish/kaikki.org-dictionary-Spanish.jsonl.gz",
+      "file": "raw/kaikki-es/kaikki.org-dictionary-Spanish.jsonl.gz",
+      "bytes": 102536460,
+      "last_modified": "Fri, 30 Oct 2026 23:17:42 GMT",
+      "sha256": "b25cd18584e510c516e4c9afac42a87e5acfd6bc1a13ea96a94057899521a427",
+      "downloaded_at": "2026-11-23T13:36:15-0600"
+    }
+  },
+  "wordfreq": {
+    "wordfreq_version": "3.1.1",
+    "top_n": 80000,
+    "kept": 75448,
+    "wordlist": "best",
+    "lang": "en"
+  },
+  "kaikki": {
+    "lines": 1499161,
+    "kept": 119565
+  },
+  "tatoeba": {
+    "pairs_en": 210957,
+    "es_sentences": 226051
+  },
+  "cache_dir": ".catalog-cache"
+}

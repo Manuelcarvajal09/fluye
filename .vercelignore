@@ -1,0 +1,11 @@
+.audio-cache
+.catalog-cache
+.env*
+.git
+.next
+.poc-cache
+.private
+.voice-samples
+node_modules
+playwright-report
+test-results

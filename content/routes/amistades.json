@@ -1,0 +1,815 @@
+{
+  "id": "amistades",
+  "title_es": "Amistades y conversación",
+  "icon": "message-circle",
+  "scene": null,
+  "areas": [
+    "relaciones",
+    "conversacion"
+  ],
+  "season": null,
+  "objective_es": "Conversar con naturalidad: small talk, hacer planes, invitar, rechazar con cortesía y bromear.",
+  "tracks": [
+    {
+      "id": "amistades-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hacer conversación casual, invitar, aceptar y rechazar con amabilidad.",
+      "items": [
+        "phr-how-was-your-weekend",
+        "phr-what-are-you-up-to-this-weekend",
+        "phr-do-you-want-to-join-us",
+        "phr-that-sounds-fun",
+        "col-grab-a-bite",
+        "phr-id-love-to-but",
+        "phr-tell-me-more",
+        "phr-im-just-kidding",
+        "phr-sounds-good",
+        "col-make-plans",
+        "pv-hang-out"
+      ],
+      "lesson": {
+        "id": "ls-amistades-a",
+        "level": "A2",
+        "topic": "social",
+        "order": 1008,
+        "title": "Plans for the weekend",
+        "title_es": "Planes para el fin de semana",
+        "intro_es": "Jordan y Aiko se encuentran el lunes y Jordan la invita al cine.",
+        "lines": [
+          {
+            "who": "Jordan",
+            "en": "Hey, Aiko! [How was your weekend]?",
+            "es": "¡Hola, Aiko! ¿Cómo estuvo tu fin de semana?",
+            "item": "phr-how-was-your-weekend"
+          },
+          {
+            "who": "Aiko",
+            "en": "Pretty good! I went hiking with my sister. [What are you up to this weekend]?",
+            "es": "¡Bastante bien! Fui a caminar con mi hermana. ¿Qué vas a hacer este fin de semana?",
+            "item": "phr-what-are-you-up-to-this-weekend"
+          },
+          {
+            "who": "Jordan",
+            "en": "Not much. Luc and I want to watch a movie on Saturday. [Do you want to join us]?",
+            "es": "Nada especial. Luc y yo queremos ver una película el sábado. ¿Quieres venir con nosotros?",
+            "item": "phr-do-you-want-to-join-us"
+          },
+          {
+            "who": "Aiko",
+            "en": "[That sounds fun]! What movie?",
+            "es": "¡Suena divertido! ¿Qué película?",
+            "item": "phr-that-sounds-fun"
+          },
+          {
+            "who": "Jordan",
+            "en": "A comedy. Then we can [grab a bite] after.",
+            "es": "Una comedia. Después podemos comer algo.",
+            "item": "col-grab-a-bite"
+          },
+          {
+            "who": "Aiko",
+            "en": "Hmm, [I'd love to, but] I have a class on Saturday morning.",
+            "es": "Mmm, me encantaría, pero tengo clase el sábado en la mañana.",
+            "item": "phr-id-love-to-but"
+          },
+          {
+            "who": "Jordan",
+            "en": "The movie is at seven in the evening.",
+            "es": "La película es a las siete de la noche."
+          },
+          {
+            "who": "Aiko",
+            "en": "Oh, then I'm free! [Tell me more]. Where is it?",
+            "es": "¡Ah, entonces estoy libre! Cuéntame más. ¿Dónde es?",
+            "item": "phr-tell-me-more"
+          },
+          {
+            "who": "Jordan",
+            "en": "The old cinema on Main Street. Luc is bringing popcorn.",
+            "es": "En el cine viejo de Main Street. Luc lleva palomitas."
+          },
+          {
+            "who": "Aiko",
+            "en": "Tell Luc to bring extra popcorn. [I'm just kidding]! I'll buy some.",
+            "es": "Dile a Luc que lleve más palomitas. ¡Es broma! Yo compro.",
+            "item": "phr-im-just-kidding"
+          },
+          {
+            "who": "Jordan",
+            "en": "Ha! See you Saturday at 6:45.",
+            "es": "¡Ja! Nos vemos el sábado a las 6:45."
+          },
+          {
+            "who": "Aiko",
+            "en": "See you then!",
+            "es": "¡Nos vemos!"
+          }
+        ],
+        "items": [
+          "phr-how-was-your-weekend",
+          "phr-what-are-you-up-to-this-weekend",
+          "phr-do-you-want-to-join-us",
+          "phr-that-sounds-fun",
+          "col-grab-a-bite",
+          "phr-id-love-to-but",
+          "phr-tell-me-more",
+          "phr-im-just-kidding"
+        ],
+        "questions": [
+          {
+            "q": "What did Aiko do last weekend?",
+            "options": [
+              "She watched a movie",
+              "She went hiking with her sister",
+              "She studied all weekend"
+            ],
+            "answer": 1,
+            "why_es": "Aiko dice que fue a caminar con su hermana."
+          },
+          {
+            "q": "What does Jordan invite Aiko to do?",
+            "options": [
+              "Watch a movie on Saturday",
+              "Go to class",
+              "Cook dinner"
+            ],
+            "answer": 0,
+            "why_es": "Jordan la invita a ver una película el sábado."
+          },
+          {
+            "q": "Why can Aiko come in the end?",
+            "options": [
+              "The movie is in the evening and her class is in the morning",
+              "The class is cancelled",
+              "Jordan pays for her ticket"
+            ],
+            "answer": 0,
+            "why_es": "Su clase es en la mañana y la película es a las siete de la noche."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pregunta a un amigo cómo estuvo su fin de semana y qué hará el próximo.",
+          "model": [
+            "How was your weekend? What are you up to this weekend?",
+            "How was your weekend? What are you doing next weekend?"
+          ],
+          "expect": [
+            [
+              "how was your weekend",
+              "how was the weekend"
+            ],
+            [
+              "what are you",
+              "this weekend",
+              "next weekend"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Invita a un amigo a comer algo después de clase.",
+          "model": [
+            "Do you want to grab a bite after class?",
+            "Do you want to get something to eat after class?"
+          ],
+          "expect": [
+            [
+              "do you want",
+              "would you like",
+              "wanna",
+              "want to"
+            ],
+            [
+              "grab",
+              "eat",
+              "lunch",
+              "dinner",
+              "food",
+              "bite"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Rechaza amablemente una invitación para el sábado porque tienes que trabajar.",
+          "model": [
+            "I'd love to, but I have to work on Saturday.",
+            "Thanks for asking, but I can't. I have to work on Saturday."
+          ],
+          "expect": [
+            [
+              "love to",
+              "can't",
+              "cannot",
+              "sorry",
+              "thanks"
+            ],
+            [
+              "work"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste lo que dijo tu amigo.",
+          "en": "Sorry, what did you say? Could you say that more slowly?",
+          "es": "Perdón, ¿qué dijiste? ¿Podrías decirlo más despacio?"
+        },
+        {
+          "situation_es": "No conoces una expresión.",
+          "en": "What does 'grab a bite' mean?",
+          "es": "¿Qué significa 'grab a bite'?"
+        },
+        {
+          "situation_es": "No sabes si es este sábado o el próximo.",
+          "en": "Do you mean this Saturday or next Saturday?",
+          "es": "¿Hablas de este sábado o del próximo?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-amistades-a",
+        "area": "relaciones",
+        "level": "A2",
+        "title": "Picnic invitation",
+        "title_es": "Invitación a un picnic",
+        "setting_es": "Te encuentras a un compañero amable, Jordan, antes de clase un lunes.",
+        "npc": "Jordan (friend)",
+        "turns": [
+          {
+            "npc": "Hey, {name}! How was your weekend?",
+            "npc_es": "¡Hola, {name}! ¿Cómo estuvo tu fin de semana?",
+            "task_es": "Di que estuvo bien y cuenta una cosa que hiciste.",
+            "expect": [
+              [
+                "good",
+                "great",
+                "nice",
+                "fine",
+                "fun",
+                "relaxing",
+                "busy"
+              ]
+            ],
+            "model": [
+              "It was great! I visited a friend and we cooked together.",
+              "Pretty good. I stayed home and watched a movie."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bit was (very )?funny\\b",
+                "fix": "It was fun",
+                "why_es": "*Funny* es gracioso; *fun* es divertido."
+              }
+            ]
+          },
+          {
+            "npc": "Nice! So, what are you up to this Saturday?",
+            "npc_es": "¡Qué bien! ¿Y qué haces este sábado?",
+            "task_es": "Di que no tienes planes todavía.",
+            "expect": [
+              [
+                "no plans",
+                "nothing",
+                "not much",
+                "free",
+                "don't have",
+                "do not have",
+                "haven't"
+              ]
+            ],
+            "model": [
+              "Nothing special. I don't have any plans yet.",
+              "Not much. I'm free on Saturday."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi have not plans\\b",
+                "fix": "I don't have any plans",
+                "why_es": "La negación va con *don't have any*."
+              }
+            ]
+          },
+          {
+            "npc": "Cool. Do you want to come with us to the park? We're having a little picnic.",
+            "npc_es": "Qué bien. ¿Quieres venir con nosotros al parque? Haremos un pequeño picnic.",
+            "task_es": "Acepta con entusiasmo y pregunta qué puedes llevar.",
+            "expect": [
+              [
+                "love",
+                "sounds",
+                "yes",
+                "sure",
+                "great",
+                "count me in"
+              ],
+              [
+                "bring"
+              ]
+            ],
+            "model": [
+              "That sounds fun! Can I bring something?",
+              "I'd love to! What should I bring?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bwhat i can bring\\b",
+                "fix": "What can I bring?",
+                "why_es": "En preguntas el orden es *What can I bring?*"
+              }
+            ]
+          },
+          {
+            "npc": "Maybe some fruit or a drink. It starts at two o'clock at the main gate.",
+            "npc_es": "Quizá fruta o una bebida. Empieza a las dos en la entrada principal.",
+            "task_es": "Confirma la hora y el lugar para estar seguro.",
+            "expect": [
+              [
+                "two",
+                "2"
+              ],
+              [
+                "main gate",
+                "gate",
+                "park"
+              ]
+            ],
+            "model": [
+              "So it's at two o'clock at the main gate, right?",
+              "Okay, two o'clock at the main gate. Got it."
+            ]
+          },
+          {
+            "npc": "Exactly! See you on Saturday.",
+            "npc_es": "¡Exacto! Nos vemos el sábado.",
+            "task_es": "Despídete y agradece la invitación.",
+            "expect": [
+              [
+                "see you",
+                "bye",
+                "thanks",
+                "thank you",
+                "can't wait",
+                "looking forward"
+              ]
+            ],
+            "model": [
+              "See you on Saturday! Thanks for inviting me.",
+              "Great, I can't wait. See you!"
+            ]
+          }
+        ],
+        "useful": [
+          "How was your weekend?",
+          "What are you up to this weekend?",
+          "Do you want to join us?",
+          "That sounds fun!",
+          "I'd love to, but…"
+        ]
+      }
+    },
+    {
+      "id": "amistades-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hacer y cancelar planes con naturalidad, bromear sin ofender y cambiar de tema con fluidez.",
+      "items": [
+        "phr-count-me-in",
+        "phr-no-pressure",
+        "phr-that-reminds-me",
+        "idi-pull-someones-leg",
+        "phr-i-hate-to-cancel-but",
+        "idi-take-a-rain-check",
+        "phr-sounds-like-a-plan",
+        "idi-no-hard-feelings",
+        "phr-speaking-of",
+        "phr-fair-enough",
+        "phr-im-afraid-i-cant-make-it",
+        "pv-bail-on"
+      ],
+      "lesson": {
+        "id": "ls-amistades-b",
+        "level": "B1",
+        "topic": "social",
+        "order": 1009,
+        "title": "Dinner plans and a prank",
+        "title_es": "Planes de cena y una broma",
+        "intro_es": "Dev y Zoe planean una cena, hay una broma entre amigos y luego Zoe tiene que cancelar.",
+        "lines": [
+          {
+            "who": "Dev",
+            "en": "We're getting ramen on Friday at seven at that new place. Interested?",
+            "es": "Vamos por ramen el viernes a las siete a ese lugar nuevo. ¿Te interesa?"
+          },
+          {
+            "who": "Zoe",
+            "en": "[Count me in]! I've been craving ramen all week.",
+            "es": "¡Cuenta conmigo! Llevo toda la semana con antojo de ramen.",
+            "item": "phr-count-me-in"
+          },
+          {
+            "who": "Dev",
+            "en": "Awesome. Hannah might come too, but she's not sure yet. [No pressure], though.",
+            "es": "Genial. Hannah quizá venga también, pero no está segura. Aunque sin presión.",
+            "item": "phr-no-pressure"
+          },
+          {
+            "who": "Zoe",
+            "en": "Oh, [that reminds me]: Hannah got that big promotion!",
+            "es": "Ah, eso me recuerda: ¡a Hannah le dieron ese gran ascenso!",
+            "item": "phr-that-reminds-me"
+          },
+          {
+            "who": "Dev",
+            "en": "No way! Seriously? She told me last week she wanted to quit.",
+            "es": "¡No manches! ¿En serio? La semana pasada me dijo que quería renunciar."
+          },
+          {
+            "who": "Zoe",
+            "en": "I'm [pulling your leg]. She didn't get any promotion.",
+            "es": "Te estoy tomando el pelo. No le dieron ningún ascenso.",
+            "item": "idi-pull-someones-leg"
+          },
+          {
+            "who": "Dev",
+            "en": "Ha! You got me. I'll get you back on Friday.",
+            "es": "¡Ja! Me atrapaste. Me desquito el viernes."
+          },
+          {
+            "who": "Zoe",
+            "en": "Deal. Oh no, I just checked my calendar. I have a work deadline Friday night. [I hate to cancel, but] I might not make it.",
+            "es": "Trato. Ay no, acabo de revisar mi calendario. Tengo una fecha de entrega el viernes en la noche. Odio cancelar, pero quizá no pueda ir.",
+            "item": "phr-i-hate-to-cancel-but"
+          },
+          {
+            "who": "Dev",
+            "en": "That's a bummer. Do you want to [take a rain check]? We could do ramen next week.",
+            "es": "Qué lástima. ¿Lo dejamos para otra ocasión? Podemos ir por ramen la próxima semana.",
+            "item": "idi-take-a-rain-check"
+          },
+          {
+            "who": "Zoe",
+            "en": "Yes, please. [Sounds like a plan]. Next Thursday?",
+            "es": "Sí, por favor. Quedamos así. ¿El próximo jueves?",
+            "item": "phr-sounds-like-a-plan"
+          },
+          {
+            "who": "Dev",
+            "en": "Thursday works. Say hi to your deadline for me.",
+            "es": "El jueves funciona. Saluda a tu fecha de entrega de mi parte."
+          },
+          {
+            "who": "Zoe",
+            "en": "Ha! I will. [No hard feelings]?",
+            "es": "¡Ja! Lo haré. ¿Sin rencores?",
+            "item": "idi-no-hard-feelings"
+          }
+        ],
+        "items": [
+          "phr-count-me-in",
+          "phr-no-pressure",
+          "phr-that-reminds-me",
+          "idi-pull-someones-leg",
+          "phr-i-hate-to-cancel-but",
+          "idi-take-a-rain-check",
+          "phr-sounds-like-a-plan",
+          "idi-no-hard-feelings"
+        ],
+        "questions": [
+          {
+            "q": "What are Dev and Zoe planning?",
+            "options": [
+              "A movie night",
+              "A ramen dinner on Friday",
+              "A hike on Sunday"
+            ],
+            "answer": 1,
+            "why_es": "Dev propone ir por ramen el viernes a las siete."
+          },
+          {
+            "q": "Was Hannah's promotion real?",
+            "options": [
+              "Yes, she told Zoe",
+              "Nobody knows",
+              "No, Zoe was joking"
+            ],
+            "answer": 2,
+            "why_es": "Zoe dice 'I'm pulling your leg'."
+          },
+          {
+            "q": "Why does Zoe cancel?",
+            "options": [
+              "She has a work deadline",
+              "She is sick",
+              "She doesn't like ramen"
+            ],
+            "answer": 0,
+            "why_es": "Tiene una fecha de entrega el viernes en la noche."
+          },
+          {
+            "q": "What do they agree to do?",
+            "options": [
+              "Cancel the dinner forever",
+              "Go for ramen next Thursday",
+              "Meet on Friday anyway"
+            ],
+            "answer": 1,
+            "why_es": "Acuerdan ir por ramen el próximo jueves."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Rechaza una invitación con cortesía, explica brevemente por qué y propón otra fecha.",
+          "model": [
+            "I'm afraid I can't make it on Friday because I have a deadline. Can we do next week instead?",
+            "I'd love to, but I have a deadline on Friday. Could we take a rain check and do it next week?"
+          ],
+          "expect": [
+            [
+              "can't",
+              "cannot",
+              "afraid",
+              "rain check",
+              "sorry",
+              "unfortunately",
+              "not able"
+            ],
+            [
+              "next week",
+              "another day",
+              "next",
+              "rain check",
+              "reschedule",
+              "instead"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Haz una broma amistosa y aclara que bromeas.",
+          "model": [
+            "You really believed me? I'm just kidding!",
+            "I was pulling your leg. Don't worry!"
+          ],
+          "expect": [
+            [
+              "kidding",
+              "pulling your leg",
+              "joking",
+              "joke"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Cambia de tema con naturalidad usando 'speaking of…' o 'that reminds me'.",
+          "model": [
+            "Speaking of movies, have you seen the new comedy?",
+            "That reminds me, did you hear about Hannah's new job?"
+          ],
+          "expect": [
+            [
+              "speaking of",
+              "that reminds me",
+              "by the way"
+            ],
+            [
+              "have you",
+              "did you",
+              "do you",
+              "what about",
+              "how"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste algo que dijo tu amigo.",
+          "en": "Sorry, I missed that. Could you say it again?",
+          "es": "Perdón, no lo capté. ¿Puedes repetirlo?"
+        },
+        {
+          "situation_es": "No sabes si bromea o habla en serio.",
+          "en": "Wait, are you joking or are you serious?",
+          "es": "Espera, ¿bromeas o hablas en serio?"
+        },
+        {
+          "situation_es": "Tu comentario sonó mal.",
+          "en": "I didn't mean it that way. Sorry if it sounded rude.",
+          "es": "No quise decirlo así. Perdón si sonó grosero."
+        },
+        {
+          "situation_es": "No conoces una expresión nueva.",
+          "en": "What do you mean by 'a bummer'?",
+          "es": "¿Qué quieres decir con 'a bummer'?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-amistades-b",
+        "area": "relaciones",
+        "level": "B1",
+        "title": "Bowling night",
+        "title_es": "Noche de boliche",
+        "setting_es": "Hablas por teléfono con Dev, un amigo, que te invita a salir con un grupo el sábado.",
+        "npc": "Friend (Dev)",
+        "turns": [
+          {
+            "npc": "Hey {name}! A few of us are going bowling on Saturday night. Are you in?",
+            "npc_es": "¡Oye {name}! Algunos vamos a jugar boliche el sábado en la noche. ¿Te apuntas?",
+            "task_es": "Muestra interés pero di que primero debes revisar tu agenda.",
+            "expect": [
+              [
+                "sounds",
+                "love",
+                "interested",
+                "cool",
+                "fun",
+                "great"
+              ],
+              [
+                "check",
+                "schedule",
+                "calendar",
+                "let you know",
+                "get back"
+              ]
+            ],
+            "model": [
+              "That sounds fun! Let me check my schedule and I'll let you know.",
+              "I'd love to. Let me check my calendar first."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi need to see my agenda\\b",
+                "fix": "check my schedule/calendar",
+                "why_es": "*Agenda* en inglés es el orden del día de una reunión."
+              }
+            ]
+          },
+          {
+            "npc": "No rush! Oh, and Priya's coming. She's bringing her brother, who I think you'd get along with.",
+            "npc_es": "¡Sin prisa! Ah, y viene Priya. Trae a su hermano, creo que te caería bien.",
+            "task_es": "Pregunta con curiosidad cómo es él y a qué se dedica.",
+            "expect": [
+              [
+                "what",
+                "tell me",
+                "what's",
+                "what is"
+              ],
+              [
+                "like",
+                "does",
+                "do for",
+                "work",
+                "job"
+              ]
+            ],
+            "model": [
+              "Oh nice! What does he do? Tell me more.",
+              "What's he like? What does he do for work?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bhow is he\\b",
+                "fix": "What's he like?",
+                "why_es": "Para describir personalidad: *What's he like?*"
+              }
+            ]
+          },
+          {
+            "npc": "He's a nurse, super funny. Anyway, I checked: the game starts at eight. Does that work?",
+            "npc_es": "Es enfermero, muy gracioso. En fin, ya revisé: el juego empieza a las ocho. ¿Te funciona?",
+            "task_es": "Di que, por desgracia, tienes algo ese día y no puedes ir; discúlpate y propón otro plan.",
+            "expect": [
+              [
+                "can't",
+                "cannot",
+                "afraid",
+                "unfortunately",
+                "not able",
+                "won't be able"
+              ],
+              [
+                "next",
+                "another",
+                "instead",
+                "rain check",
+                "sunday",
+                "weekend"
+              ]
+            ],
+            "model": [
+              "I'm afraid I can't make it. I have a family dinner. Can we do something next weekend instead?",
+              "Unfortunately I won't be able to come. Can I take a rain check? Maybe we can grab coffee on Sunday."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi cannot to go\\b",
+                "fix": "I can't go",
+                "why_es": "Después de *can't* el verbo va sin *to*."
+              }
+            ]
+          },
+          {
+            "npc": "Aw, that's a bummer. No worries! Are you still up for coffee? Is Sunday morning good?",
+            "npc_es": "Qué lástima. ¡No te preocupes! ¿Todavía quieres ir por un café? ¿Te sirve el domingo en la mañana?",
+            "task_es": "Acepta y sugiere una hora o un lugar.",
+            "expect": [
+              [
+                "sunday",
+                "works",
+                "yes",
+                "sure",
+                "sounds"
+              ],
+              [
+                "ten",
+                "nine",
+                "eleven",
+                "o'clock",
+                "cafe",
+                "café",
+                "place",
+                "downtown",
+                "morning",
+                "at"
+              ]
+            ],
+            "model": [
+              "Sunday works! How about ten o'clock at that café near the library?",
+              "Sounds like a plan. Is ten okay? We could meet downtown."
+            ]
+          },
+          {
+            "npc": "Ten is perfect. I'll bring the board game I told you about. Fair warning, I'm very competitive.",
+            "npc_es": "Las diez es perfecto. Llevo el juego de mesa del que te conté. Te aviso que soy muy competitivo.",
+            "task_es": "Bromea: di que tú también eres competitivo, pero que es broma, no te importa perder.",
+            "expect": [
+              [
+                "competitive",
+                "win",
+                "lose",
+                "beat",
+                "game"
+              ],
+              [
+                "kidding",
+                "joke",
+                "joking",
+                "just",
+                "fair"
+              ]
+            ],
+            "model": [
+              "Same here! I'm very competitive too. I'm just kidding, I don't mind losing.",
+              "Bring it on. I'll beat you, I'm just kidding!"
+            ]
+          },
+          {
+            "npc": "Ha! We'll see. Okay, I gotta go. Talk soon!",
+            "npc_es": "¡Ja! Ya veremos. Bueno, me tengo que ir. ¡Hablamos pronto!",
+            "task_es": "Despídete con calidez.",
+            "expect": [
+              [
+                "talk",
+                "see you",
+                "bye",
+                "later",
+                "keep in touch",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "Talk soon! Thanks for inviting me.",
+              "See you Sunday! Keep in touch."
+            ]
+          }
+        ],
+        "useful": [
+          "Count me in",
+          "I hate to cancel, but…",
+          "Can we take a rain check?",
+          "Sounds like a plan",
+          "I'm just kidding"
+        ]
+      }
+    }
+  ],
+  "new_items": []
+}

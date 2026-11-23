@@ -1,0 +1,1237 @@
+{
+  "id": "medico",
+  "title_es": "Médico y farmacia",
+  "icon": "stethoscope",
+  "scene": null,
+  "areas": [
+    "salud",
+    "conversacion"
+  ],
+  "season": null,
+  "objective_es": "Comunicarte en una clínica y en la farmacia: pedir cita, describir síntomas, entender instrucciones y preguntar por el seguro. Solo lenguaje, no consejo médico.",
+  "tracks": [
+    {
+      "id": "medico-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 11,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Pedir una cita o ir a una clínica, describir un síntoma sencillo y recoger una receta con frases claras. Solo lenguaje, no consejo médico.",
+      "items": [
+        "phr-do-you-have-any-openings-today",
+        "col-sore-throat",
+        "phr-ive-had-it-for-three-days",
+        "voc-fever",
+        "phr-health-card",
+        "pv-fill-out",
+        "voc-waiting-room",
+        "col-pick-up-a-prescription",
+        "phr-how-often-do-i-take-it",
+        "phr-take-it-with-food",
+        "voc-appointment",
+        "voc-pharmacy"
+      ],
+      "lesson": {
+        "id": "ls-medico-a",
+        "level": "A2",
+        "topic": "health",
+        "order": 917,
+        "title": "A sore throat at the walk-in clinic",
+        "title_es": "Dolor de garganta en la clínica",
+        "intro_es": "Diego llama o llega a una clínica sin cita en Edmonton con dolor de garganta. Es solo práctica de lenguaje; no es consejo médico.",
+        "lines": [
+          {
+            "who": "Diego",
+            "en": "Hello. [Do you have any openings today]?",
+            "es": "Hola. ¿Tienen citas disponibles hoy?",
+            "item": "phr-do-you-have-any-openings-today"
+          },
+          {
+            "who": "Noor",
+            "en": "Yes, we do. What's the problem?",
+            "es": "Sí, hay. ¿Cuál es el problema?"
+          },
+          {
+            "who": "Diego",
+            "en": "I have a [sore throat].",
+            "es": "Tengo dolor de garganta.",
+            "item": "col-sore-throat"
+          },
+          {
+            "who": "Noor",
+            "en": "How long have you had it?",
+            "es": "¿Desde cuándo lo tiene?"
+          },
+          {
+            "who": "Diego",
+            "en": "[I've had it for three days].",
+            "es": "Lo tengo desde hace tres días.",
+            "item": "phr-ive-had-it-for-three-days"
+          },
+          {
+            "who": "Noor",
+            "en": "Do you have a [fever]?",
+            "es": "¿Tiene fiebre?",
+            "item": "voc-fever"
+          },
+          {
+            "who": "Diego",
+            "en": "A little, and I'm very tired.",
+            "es": "Un poco, y estoy muy cansado."
+          },
+          {
+            "who": "Noor",
+            "en": "Do you have your [health card]?",
+            "es": "¿Trae su tarjeta de salud?",
+            "item": "phr-health-card"
+          },
+          {
+            "who": "Diego",
+            "en": "Yes, here it is.",
+            "es": "Sí, aquí está."
+          },
+          {
+            "who": "Noor",
+            "en": "The doctor can see you at four. Please [fill out] this form.",
+            "es": "El doctor lo puede ver a las cuatro. Por favor llene este formulario.",
+            "item": "pv-fill-out"
+          },
+          {
+            "who": "Diego",
+            "en": "Can I wait in the [waiting room]? It's my first time here.",
+            "es": "¿Puedo esperar en la sala de espera? Es mi primera vez aquí.",
+            "item": "voc-waiting-room"
+          },
+          {
+            "who": "Noor",
+            "en": "Of course. The nurse will call your name.",
+            "es": "Claro. La enfermera dirá su nombre."
+          },
+          {
+            "who": "Diego",
+            "en": "Hi. I need to [pick up a prescription]. My name is Diego Ruiz.",
+            "es": "Hola. Necesito recoger una receta. Me llamo Diego Ruiz.",
+            "item": "col-pick-up-a-prescription"
+          },
+          {
+            "who": "Diego",
+            "en": "[How often do I take it]?",
+            "es": "¿Cada cuánto lo tomo?",
+            "item": "phr-how-often-do-i-take-it"
+          },
+          {
+            "who": "Hana",
+            "en": "The label says twice a day. Please [take it with food].",
+            "es": "La etiqueta dice dos veces al día. Por favor tómelo con comida.",
+            "item": "phr-take-it-with-food"
+          },
+          {
+            "who": "Diego",
+            "en": "Thank you very much.",
+            "es": "Muchas gracias."
+          }
+        ],
+        "items": [
+          "phr-do-you-have-any-openings-today",
+          "col-sore-throat",
+          "phr-ive-had-it-for-three-days",
+          "voc-fever",
+          "phr-health-card",
+          "pv-fill-out",
+          "voc-waiting-room",
+          "col-pick-up-a-prescription",
+          "phr-how-often-do-i-take-it",
+          "phr-take-it-with-food"
+        ],
+        "questions": [
+          {
+            "q": "What is Diego's problem?",
+            "options": [
+              "A sore throat",
+              "A broken arm",
+              "A sore knee"
+            ],
+            "answer": 0,
+            "why_es": "Dice: I have a sore throat."
+          },
+          {
+            "q": "How long has he had it?",
+            "options": [
+              "One day",
+              "Three days",
+              "A month"
+            ],
+            "answer": 1,
+            "why_es": "Dice: I've had it for three days."
+          },
+          {
+            "q": "When can the doctor see him?",
+            "options": [
+              "At four",
+              "At nine",
+              "Tomorrow"
+            ],
+            "answer": 0,
+            "why_es": "Noor dice que el doctor lo puede ver a las cuatro."
+          },
+          {
+            "q": "What does the pharmacist read from the label?",
+            "options": [
+              "Twice a day, with food",
+              "Once a week",
+              "Only at night"
+            ],
+            "answer": 0,
+            "why_es": "Hana dice: twice a day, take it with food."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pregunta si hay citas disponibles hoy.",
+          "model": [
+            "Do you have any openings today?",
+            "Do you have any appointments today?"
+          ],
+          "expect": [
+            [
+              "openings",
+              "appointments",
+              "opening",
+              "available",
+              "appointment"
+            ],
+            [
+              "today"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di qué síntoma tienes y desde cuándo.",
+          "model": [
+            "I have a sore throat. I've had it for three days.",
+            "I have a cough. I've had it since Monday."
+          ],
+          "expect": [
+            [
+              "sore throat",
+              "headache",
+              "cough",
+              "fever",
+              "stomach",
+              "pain",
+              "hurts"
+            ],
+            [
+              "day",
+              "days",
+              "since",
+              "for",
+              "week",
+              "yesterday"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta cada cuánto tomar un medicamento.",
+          "model": [
+            "How often do I take it?",
+            "How often should I take this?"
+          ],
+          "expect": [
+            [
+              "how often"
+            ],
+            [
+              "take",
+              "use",
+              "medicine",
+              "it",
+              "this"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste algo.",
+          "en": "Sorry, could you repeat that more slowly?",
+          "es": "Perdón, ¿podría repetirlo más despacio?"
+        },
+        {
+          "situation_es": "No sabes cómo decir una palabra.",
+          "en": "I don't know the word for this. It hurts here.",
+          "es": "No sé la palabra para esto. Me duele aquí."
+        },
+        {
+          "situation_es": "Quieres tenerlo por escrito.",
+          "en": "Could you write it down, please?",
+          "es": "¿Podría escribirlo, por favor?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-medico-a",
+        "area": "salud",
+        "level": "A2",
+        "title": "Walk-in clinic reception",
+        "title_es": "En la recepción de una clínica",
+        "setting_es": "Llegas a una clínica sin cita en Edmonton con dolor de garganta. Noor, la recepcionista, te atiende.",
+        "npc": "Noor",
+        "turns": [
+          {
+            "npc": "Good morning. How can I help you?",
+            "npc_es": "Buenos días. ¿En qué puedo ayudarle?",
+            "task_es": "Pregunta si hay citas disponibles hoy.",
+            "expect": [
+              [
+                "openings",
+                "appointments",
+                "opening",
+                "appointment",
+                "available",
+                "see a doctor",
+                "book"
+              ],
+              [
+                "today",
+                "now",
+                "this morning",
+                "this afternoon"
+              ]
+            ],
+            "model": [
+              "Do you have any openings today?",
+              "I need to book an appointment for today."
+            ]
+          },
+          {
+            "npc": "Yes, we have one at four. What's the problem?",
+            "npc_es": "Sí, hay una a las cuatro. ¿Cuál es el problema?",
+            "task_es": "Di que tienes dolor de garganta (o tos).",
+            "expect": [
+              [
+                "sore throat",
+                "cough",
+                "headache",
+                "fever",
+                "stomach",
+                "pain",
+                "hurts",
+                "cold",
+                "flu",
+                "sick"
+              ]
+            ],
+            "model": [
+              "I have a sore throat.",
+              "I have a cough and a headache."
+            ]
+          },
+          {
+            "npc": "How long have you had it?",
+            "npc_es": "¿Desde cuándo lo tiene?",
+            "task_es": "Di desde hace cuánto (tres días, o desde el lunes).",
+            "expect": [
+              [
+                "three",
+                "3",
+                "two",
+                "2",
+                "four",
+                "few",
+                "days",
+                "day",
+                "since",
+                "week",
+                "yesterday"
+              ]
+            ],
+            "model": [
+              "I've had it for three days.",
+              "Since Monday."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi have (three|\\d+) days\\b|\\bsince (three|\\d+) days\\b",
+                "fix": "I've had it for three days / since Monday",
+                "why_es": "La duración se dice con presente perfecto: *I've had it for three days* o *since Monday*."
+              }
+            ]
+          },
+          {
+            "npc": "Do you have your health card with you?",
+            "npc_es": "¿Trae su tarjeta de salud?",
+            "task_es": "Di que sí y entrégala.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "here",
+                "sure",
+                "of course"
+              ]
+            ],
+            "model": [
+              "Yes, here it is.",
+              "Sure, here you go."
+            ]
+          },
+          {
+            "npc": "Thanks. Please fill out this form and have a seat in the waiting room. The nurse will call your name.",
+            "npc_es": "Gracias. Llene este formulario y tome asiento en la sala de espera. La enfermera dirá su nombre.",
+            "task_es": "Pregunta cuánto tiempo hay que esperar.",
+            "expect": [
+              [
+                "wait",
+                "waiting",
+                "long",
+                "minutes"
+              ]
+            ],
+            "model": [
+              "How long is the wait?",
+              "What's the wait time?"
+            ]
+          },
+          {
+            "npc": "About fifteen minutes. Anything else?",
+            "npc_es": "Unos quince minutos. ¿Algo más?",
+            "task_es": "Agradece y di que esperarás.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "wait",
+                "waiting",
+                "okay",
+                "ok",
+                "fine",
+                "sit",
+                "seat",
+                "here"
+              ]
+            ],
+            "model": [
+              "No, thank you. I'll wait here.",
+              "Thanks. I'll wait in the waiting room."
+            ]
+          }
+        ],
+        "useful": [
+          "Do you have any openings today?",
+          "I've had it for three days.",
+          "How long is the wait?",
+          "How often do I take it?"
+        ]
+      }
+    },
+    {
+      "id": "medico-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Cambiar una cita, describir síntomas con detalle, pedir explicaciones más simples y entender la farmacia y el seguro. Solo comunicación, sin consejo médico.",
+      "items": [
+        "col-reschedule-an-appointment",
+        "phr-walk-in-clinic",
+        "phr-whats-the-wait-time",
+        "phr-what-brings-you-in-today",
+        "col-feel-nauseous",
+        "phr-it-comes-and-goes",
+        "phr-it-hurts-when-i",
+        "phr-explain-that-in-simpler-terms",
+        "col-fill-a-prescription",
+        "col-generic-version",
+        "phr-is-it-covered-by-my-insurance"
+      ],
+      "lesson": {
+        "id": "ls-medico-b",
+        "level": "B1",
+        "topic": "health",
+        "order": 918,
+        "title": "From the phone call to the pharmacy",
+        "title_es": "De la llamada a la farmacia",
+        "intro_es": "Lucía se siente peor y llama para cambiar su cita. Después describe sus síntomas y pasa por la farmacia. Practica lenguaje, no es consejo médico.",
+        "lines": [
+          {
+            "who": "Imran",
+            "en": "Maple Health Clinic. How can I help?",
+            "es": "Clínica Maple. ¿En qué puedo ayudarle?"
+          },
+          {
+            "who": "Lucía",
+            "en": "Hi, I'd like to [reschedule an appointment]. I'm feeling worse and can't wait until Thursday.",
+            "es": "Hola, quisiera reprogramar una cita. Me siento peor y no puedo esperar hasta el jueves.",
+            "item": "col-reschedule-an-appointment"
+          },
+          {
+            "who": "Imran",
+            "en": "We don't have openings today, but our [walk-in clinic] opens at one.",
+            "es": "No tenemos citas hoy, pero nuestra clínica sin cita abre a la una.",
+            "item": "phr-walk-in-clinic"
+          },
+          {
+            "who": "Lucía",
+            "en": "[What's the wait time] usually?",
+            "es": "¿Cuál suele ser el tiempo de espera?",
+            "item": "phr-whats-the-wait-time"
+          },
+          {
+            "who": "Imran",
+            "en": "About an hour. Bring your health card.",
+            "es": "Como una hora. Traiga su tarjeta de salud."
+          },
+          {
+            "who": "Dr. Chen",
+            "en": "[What brings you in today]?",
+            "es": "¿Qué la trae por aquí hoy?",
+            "item": "phr-what-brings-you-in-today"
+          },
+          {
+            "who": "Lucía",
+            "en": "I've been [feeling nauseous] since Monday.",
+            "es": "He sentido náuseas desde el lunes.",
+            "item": "col-feel-nauseous"
+          },
+          {
+            "who": "Lucía",
+            "en": "And my headache [comes and goes].",
+            "es": "Y el dolor de cabeza va y viene.",
+            "item": "phr-it-comes-and-goes"
+          },
+          {
+            "who": "Dr. Chen",
+            "en": "Does anything make it worse?",
+            "es": "¿Algo lo empeora?"
+          },
+          {
+            "who": "Lucía",
+            "en": "[It hurts when I] bend over.",
+            "es": "Me duele cuando me agacho.",
+            "item": "phr-it-hurts-when-i"
+          },
+          {
+            "who": "Dr. Chen",
+            "en": "Thanks. I'll write a prescription, and I'd like to see you for a follow-up next week.",
+            "es": "Gracias. Le daré una receta y quisiera verla en una cita de seguimiento la próxima semana."
+          },
+          {
+            "who": "Lucía",
+            "en": "Sorry, [could you explain that in simpler terms]? Some words are new to me.",
+            "es": "Perdón, ¿podría explicarlo con palabras más simples? Algunas palabras son nuevas para mí.",
+            "item": "phr-explain-that-in-simpler-terms"
+          },
+          {
+            "who": "Dr. Chen",
+            "en": "Of course. I'm giving you a medicine, and we'll meet again in a week to see how you're doing.",
+            "es": "Claro. Le doy un medicamento y nos veremos en una semana para ver cómo sigue."
+          },
+          {
+            "who": "Lucía",
+            "en": "Hi, I'd like to [fill a prescription], please.",
+            "es": "Hola, quisiera surtir una receta, por favor.",
+            "item": "col-fill-a-prescription"
+          },
+          {
+            "who": "Hana",
+            "en": "Sure. There's a [generic version] that costs less. Do you want that one?",
+            "es": "Claro. Hay una versión genérica que cuesta menos. ¿Quiere esa?",
+            "item": "col-generic-version"
+          },
+          {
+            "who": "Lucía",
+            "en": "Maybe. [Is it covered by my insurance]?",
+            "es": "Quizá. ¿Lo cubre mi seguro?",
+            "item": "phr-is-it-covered-by-my-insurance"
+          }
+        ],
+        "items": [
+          "col-reschedule-an-appointment",
+          "phr-walk-in-clinic",
+          "phr-whats-the-wait-time",
+          "phr-what-brings-you-in-today",
+          "col-feel-nauseous",
+          "phr-it-comes-and-goes",
+          "phr-it-hurts-when-i",
+          "phr-explain-that-in-simpler-terms",
+          "col-fill-a-prescription",
+          "col-generic-version",
+          "phr-is-it-covered-by-my-insurance"
+        ],
+        "questions": [
+          {
+            "q": "Why does Lucía call the clinic?",
+            "options": [
+              "To cancel forever",
+              "To change her appointment because she feels worse",
+              "To ask for a refund"
+            ],
+            "answer": 1,
+            "why_es": "Quiere reprogramar porque se siente peor."
+          },
+          {
+            "q": "What does Imran offer?",
+            "options": [
+              "A walk-in clinic that opens at one",
+              "A free ride",
+              "A different city"
+            ],
+            "answer": 0,
+            "why_es": "Ofrece la clínica sin cita que abre a la una."
+          },
+          {
+            "q": "How does Lucía describe the headache?",
+            "options": [
+              "It's constant",
+              "It comes and goes",
+              "It's gone"
+            ],
+            "answer": 1,
+            "why_es": "Dice: it comes and goes."
+          },
+          {
+            "q": "Why does she ask for simpler terms?",
+            "options": [
+              "Some words are new to her",
+              "The doctor is rude",
+              "The room is loud"
+            ],
+            "answer": 0,
+            "why_es": "Dice que algunas palabras son nuevas para ella."
+          },
+          {
+            "q": "What does the pharmacist mention?",
+            "options": [
+              "A generic version that costs less",
+              "A free vacation",
+              "A bigger prescription"
+            ],
+            "answer": 0,
+            "why_es": "Hana dice que hay una versión genérica más barata."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pide cambiar tu cita porque te sientes peor.",
+          "model": [
+            "I'd like to reschedule my appointment. I'm feeling worse.",
+            "Could I move my appointment to today? I'm feeling worse."
+          ],
+          "expect": [
+            [
+              "reschedule",
+              "change",
+              "move"
+            ],
+            [
+              "appointment",
+              "today",
+              "sooner",
+              "earlier",
+              "worse"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Describe un síntoma que va y viene.",
+          "model": [
+            "My headache comes and goes. It started on Monday.",
+            "The pain comes and goes. I've had it for a week."
+          ],
+          "expect": [
+            [
+              "comes and goes",
+              "on and off",
+              "sometimes",
+              "off and on"
+            ],
+            [
+              "since",
+              "started",
+              "began",
+              "monday",
+              "days",
+              "week"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide al médico que explique con palabras más simples.",
+          "model": [
+            "Could you explain that in simpler terms, please? I don't know some of the words.",
+            "Sorry, could you use simpler words? I want to understand everything."
+          ],
+          "expect": [
+            [
+              "explain",
+              "simpler",
+              "simple",
+              "slowly",
+              "again",
+              "rephrase",
+              "different words"
+            ],
+            [
+              "words",
+              "terms",
+              "english",
+              "understand",
+              "please"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta en la farmacia si tu seguro lo cubre y si hay genérico.",
+          "model": [
+            "Is this covered by my insurance? Is there a generic version?",
+            "Does my insurance cover it? And is there a cheaper generic?"
+          ],
+          "expect": [
+            [
+              "covered",
+              "insurance",
+              "coverage",
+              "cover"
+            ],
+            [
+              "generic",
+              "cheaper",
+              "less",
+              "version"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No oíste bien un nombre.",
+          "en": "Sorry, could you spell that name for me?",
+          "es": "Perdón, ¿podría deletrearme ese nombre?"
+        },
+        {
+          "situation_es": "No encuentras la palabra en inglés.",
+          "en": "I'm not sure how to say this in English. It's a burning feeling here.",
+          "es": "No sé cómo decirlo en inglés. Es una sensación de ardor aquí."
+        },
+        {
+          "situation_es": "Quieres confirmar la cita de seguimiento.",
+          "en": "Let me make sure I understood: I come back in a week?",
+          "es": "Déjeme asegurarme: ¿regreso en una semana?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-medico-b",
+        "area": "salud",
+        "level": "B1",
+        "title": "Describing symptoms to the doctor",
+        "title_es": "Describir síntomas al médico",
+        "setting_es": "Estás en una clínica en Calgary. La doctora Chen te recibe en el consultorio. Practica lenguaje; no es consejo médico.",
+        "npc": "Dr. Chen",
+        "turns": [
+          {
+            "npc": "Hi, I'm Dr. Chen. What brings you in today?",
+            "npc_es": "Hola, soy la doctora Chen. ¿Qué la trae hoy?",
+            "task_es": "Explica que tienes náusea desde el lunes y dolor de cabeza.",
+            "expect": [
+              [
+                "nauseous",
+                "nausea",
+                "sick to my stomach",
+                "headache",
+                "stomach"
+              ],
+              [
+                "since",
+                "monday",
+                "days",
+                "started",
+                "for",
+                "few"
+              ]
+            ],
+            "model": [
+              "I've been feeling nauseous since Monday, and I have a headache.",
+              "I've had a headache and nausea for a few days."
+            ]
+          },
+          {
+            "npc": "I see. Is the headache constant?",
+            "npc_es": "Ya veo. ¿El dolor de cabeza es constante?",
+            "task_es": "Di que va y viene.",
+            "expect": [
+              [
+                "comes and goes",
+                "on and off",
+                "off and on",
+                "sometimes",
+                "not constant",
+                "goes away"
+              ]
+            ],
+            "model": [
+              "No, it comes and goes.",
+              "It's on and off."
+            ]
+          },
+          {
+            "npc": "Does anything make it worse?",
+            "npc_es": "¿Algo lo empeora?",
+            "task_es": "Di que te duele cuando te agachas.",
+            "expect": [
+              [
+                "hurts",
+                "worse",
+                "pain"
+              ],
+              [
+                "bend",
+                "bending",
+                "lean",
+                "leaning",
+                "bend over",
+                "down",
+                "stand",
+                "move"
+              ]
+            ],
+            "model": [
+              "It hurts when I bend over.",
+              "It gets worse when I stand up quickly."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bit hurts me when\\b|\\bit's hurting me\\b",
+                "fix": "It hurts when I...",
+                "why_es": "Se dice *It hurts when I bend*, sin *me*: *hurts* ya incluye el dolor."
+              }
+            ]
+          },
+          {
+            "npc": "Okay. I'm going to prescribe something, and I'd like to see you again in a week for a follow-up appointment.",
+            "npc_es": "Bien. Voy a recetar algo y quisiera verla de nuevo en una semana para una cita de seguimiento.",
+            "task_es": "Pide que te lo expliquen en términos más simples.",
+            "expect": [
+              [
+                "explain",
+                "simpler",
+                "simple",
+                "slowly",
+                "again",
+                "rephrase",
+                "different words",
+                "repeat"
+              ],
+              [
+                "words",
+                "terms",
+                "english",
+                "understand",
+                "please"
+              ]
+            ],
+            "model": [
+              "Sorry, could you explain that in simpler terms? Some words are new to me.",
+              "Could you say that again with simpler words, please?"
+            ]
+          },
+          {
+            "npc": "Of course. I'll write you a prescription, and you'll come back next week so I can see how you're doing.",
+            "npc_es": "Claro. Le haré una receta y vendrá la próxima semana para ver cómo está.",
+            "task_es": "Confirma lo que entendiste y pregunta dónde está la farmacia.",
+            "expect": [
+              [
+                "prescription",
+                "medicine",
+                "come back",
+                "next week",
+                "week",
+                "follow-up",
+                "follow up"
+              ],
+              [
+                "pharmacy",
+                "where",
+                "drugstore"
+              ]
+            ],
+            "model": [
+              "So I get a prescription and come back in a week. Where is the nearest pharmacy?",
+              "Okay, I'll come back next week. Where is the pharmacy?"
+            ]
+          },
+          {
+            "npc": "Yes, exactly. There's one next door. Is there anything else?",
+            "npc_es": "Sí, exacto. Hay una junto. ¿Algo más?",
+            "task_es": "Agradece y pide una nota para el trabajo.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "note",
+                "work",
+                "doctor's note",
+                "doctors note",
+                "letter"
+              ]
+            ],
+            "model": [
+              "No, thank you. Could I get a doctor's note for work?",
+              "Thanks. Could you give me a note for my job?"
+            ]
+          }
+        ],
+        "useful": [
+          "It comes and goes.",
+          "It hurts when I...",
+          "Could you explain that in simpler terms?",
+          "Is it covered by my insurance?"
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "phr-do-you-have-any-openings-today",
+      "type": "phrase",
+      "term": "do you have any openings today?",
+      "ipa": "/duː jʊ hæv ˈɛni ˈoʊpənɪŋz təˈdeɪ/",
+      "level": "A2",
+      "topic": "health",
+      "freq": 4,
+      "es": "¿tienen citas disponibles hoy?",
+      "def": "a question to find out if you can book an appointment today",
+      "note": "*Opening* = espacio libre en la agenda. También: *Do you have any appointments available?* Sirve en clínicas, peluquerías y talleres.",
+      "ex": [
+        {
+          "en": "[Do you have any openings today]? It's urgent.",
+          "es": "¿Tienen citas disponibles hoy? Es urgente."
+        },
+        {
+          "en": "I called and asked, \"[Do you have any openings today]?\"",
+          "es": "Llamé y pregunté: «¿Tienen citas disponibles hoy?»"
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-ive-had-it-for-three-days",
+      "type": "phrase",
+      "term": "I've had it for three days",
+      "ipa": "/aɪv hæd ɪt fɔːr θriː deɪz/",
+      "level": "A2",
+      "topic": "health",
+      "freq": 4,
+      "es": "lo tengo desde hace tres días",
+      "def": "a way to say how long you have had a symptom",
+      "note": "Duración con presente perfecto + *for*: *I've had it for a week*. Con fecha usa *since*: *since Monday*. Solo para describir, no para diagnosticar.",
+      "ex": [
+        {
+          "en": "[I've had it for three days], and it's not going away.",
+          "es": "Lo tengo desde hace tres días y no se quita."
+        },
+        {
+          "en": "She said, \"[I've had it for three days].\"",
+          "es": "Dijo: «Lo tengo desde hace tres días»."
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "col-pick-up-a-prescription",
+      "type": "collocation",
+      "term": "pick up a prescription",
+      "level": "A2",
+      "topic": "health",
+      "freq": 3,
+      "es": "recoger una receta (medicamento) en la farmacia",
+      "def": "to collect medicine from the pharmacy after the doctor ordered it",
+      "note": "*Fill* = surtir; *pick up* = recoger. Muchas farmacias avisan por mensaje cuando está lista.",
+      "ex": [
+        {
+          "en": "I need to [pick up a prescription] after work.",
+          "es": "Necesito recoger una receta después del trabajo."
+        },
+        {
+          "en": "Did you [pick up the prescription] yet?",
+          "es": "¿Ya recogiste la receta?"
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-how-often-do-i-take-it",
+      "type": "phrase",
+      "term": "how often do I take it?",
+      "ipa": "/haʊ ˈɔːfən duː aɪ teɪk ɪt/",
+      "level": "A2",
+      "topic": "health",
+      "freq": 3,
+      "es": "¿cada cuánto lo tomo?",
+      "def": "a question about how frequently to use a medicine",
+      "note": "Para entender la etiqueta. Respuestas típicas: *twice a day*, *every eight hours*. Solo lenguaje; sigue siempre lo que dice el profesional.",
+      "ex": [
+        {
+          "en": "Excuse me, [how often do I take it]?",
+          "es": "Disculpe, ¿cada cuánto lo tomo?"
+        },
+        {
+          "en": "I asked the pharmacist, \"[How often do I take it]?\"",
+          "es": "Le pregunté al farmacéutico: «¿Cada cuánto lo tomo?»"
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-take-it-with-food",
+      "type": "phrase",
+      "term": "take it with food",
+      "ipa": "/teɪk ɪt wɪð fuːd/",
+      "level": "A2",
+      "topic": "health",
+      "freq": 2,
+      "es": "tómalo con comida",
+      "def": "an instruction found on some medicine labels",
+      "note": "Se oye en la farmacia. Variante: *on an empty stomach*. Solo para entender instrucciones.",
+      "ex": [
+        {
+          "en": "The label says to [take it with food].",
+          "es": "La etiqueta dice que se tome con comida."
+        },
+        {
+          "en": "Please [take it with food] in the morning.",
+          "es": "Por favor tómalo con comida por la mañana."
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "col-reschedule-an-appointment",
+      "type": "collocation",
+      "term": "reschedule an appointment",
+      "level": "B1",
+      "topic": "health",
+      "freq": 3,
+      "es": "reprogramar una cita",
+      "def": "to change the date or time of an appointment",
+      "note": "*Reschedule* es cambiar a otra fecha. *Cancel* es cancelarla. En clínicas piden avisar con anticipación.",
+      "ex": [
+        {
+          "en": "I'd like to [reschedule an appointment], please.",
+          "es": "Quisiera reprogramar una cita, por favor."
+        },
+        {
+          "en": "She had to [reschedule her appointment] twice.",
+          "es": "Tuvo que reprogramar su cita dos veces."
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-whats-the-wait-time",
+      "type": "phrase",
+      "term": "what's the wait time?",
+      "ipa": "/wʌts ðə weɪt taɪm/",
+      "level": "A2",
+      "topic": "health",
+      "freq": 3,
+      "es": "¿cuánto es el tiempo de espera?",
+      "def": "a question about how long you will wait",
+      "note": "En clínicas sin cita (walk-in) es frecuente. También: *How long is the wait?*",
+      "ex": [
+        {
+          "en": "[What's the wait time] right now?",
+          "es": "¿Cuánto es el tiempo de espera ahora?"
+        },
+        {
+          "en": "I called to ask, \"[What's the wait time]?\"",
+          "es": "Llamé para preguntar: «¿Cuánto es el tiempo de espera?»"
+        }
+      ],
+      "areas": [
+        "salud"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-feel-nauseous",
+      "type": "collocation",
+      "term": "feel nauseous",
+      "level": "B1",
+      "topic": "health",
+      "freq": 3,
+      "es": "tener náuseas",
+      "def": "to feel like you might vomit",
+      "note": "Alternativas: *feel sick to my stomach* (más natural y coloquial). Comunica síntomas; no diagnostiques.",
+      "ex": [
+        {
+          "en": "I started to [feel nauseous] on the bus.",
+          "es": "Empecé a sentir náuseas en el autobús."
+        },
+        {
+          "en": "She [felt nauseous] all morning.",
+          "es": "Sintió náuseas toda la mañana."
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-it-comes-and-goes",
+      "type": "phrase",
+      "term": "it comes and goes",
+      "ipa": "/ɪt kʌmz ænd ɡoʊz/",
+      "level": "B1",
+      "topic": "health",
+      "freq": 4,
+      "es": "va y viene",
+      "def": "a symptom or feeling that appears and disappears",
+      "note": "Sirve para dolor, mareos o ruidos. Sinónimo informal: *on and off*.",
+      "ex": [
+        {
+          "en": "The pain [comes and goes] during the day.",
+          "es": "El dolor va y viene durante el día."
+        },
+        {
+          "en": "I don't have it all the time; [it comes and goes].",
+          "es": "No lo tengo todo el tiempo; va y viene."
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-it-hurts-when-i",
+      "type": "phrase",
+      "term": "it hurts when I...",
+      "ipa": "/ɪt hɜːrts wɛn aɪ/",
+      "level": "B1",
+      "topic": "health",
+      "freq": 4,
+      "es": "me duele cuando...",
+      "def": "a way to say what movement or action causes pain",
+      "note": "Estructura: *It hurts when I bend / swallow / walk*. No se dice *it hurts me when*.",
+      "ex": [
+        {
+          "en": "[It hurts when I] swallow.",
+          "es": "Me duele cuando trago."
+        },
+        {
+          "en": "[It hurts when I] lift my arm above my head.",
+          "es": "Me duele cuando levanto el brazo por encima de la cabeza."
+        }
+      ],
+      "areas": [
+        "salud"
+      ]
+    },
+    {
+      "id": "phr-explain-that-in-simpler-terms",
+      "type": "phrase",
+      "term": "could you explain that in simpler terms?",
+      "ipa": "/kʊd jʊ ɪkˈspleɪn ðæt ɪn ˈsɪmplər tɜːrmz/",
+      "level": "B1",
+      "topic": "health",
+      "freq": 3,
+      "es": "¿podría explicarlo con palabras más simples?",
+      "def": "a polite request to use easier words",
+      "note": "Muy útil con doctores, abogados y bancos. Mostrar que quieres entender bien es normal y bien visto.",
+      "ex": [
+        {
+          "en": "Sorry, [could you explain that in simpler terms]?",
+          "es": "Perdón, ¿podría explicarlo con palabras más simples?"
+        },
+        {
+          "en": "I asked, \"[Could you explain that in simpler terms]?\"",
+          "es": "Pregunté: «¿Podría explicarlo con palabras más simples?»"
+        }
+      ],
+      "areas": [
+        "salud",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "phr-is-it-covered-by-my-insurance",
+      "type": "phrase",
+      "term": "is it covered by my insurance?",
+      "ipa": "/ɪz ɪt ˈkʌvərd baɪ maɪ ɪnˈʃʊrəns/",
+      "level": "B1",
+      "topic": "money",
+      "freq": 3,
+      "es": "¿lo cubre mi seguro?",
+      "def": "a question about whether your insurance pays for something",
+      "note": "Sirve en farmacias, clínicas y talleres. Puedes pedir *the price before insurance* (precio sin seguro).",
+      "ex": [
+        {
+          "en": "[Is it covered by my insurance]?",
+          "es": "¿Lo cubre mi seguro?"
+        },
+        {
+          "en": "Before I buy it, [is it covered by my insurance]?",
+          "es": "Antes de comprarlo, ¿lo cubre mi seguro?"
+        }
+      ],
+      "areas": [
+        "salud",
+        "bancos"
+      ]
+    },
+    {
+      "id": "col-generic-version",
+      "type": "collocation",
+      "term": "generic version",
+      "level": "B2",
+      "topic": "health",
+      "freq": 2,
+      "es": "versión genérica",
+      "def": "a cheaper medicine with the same active ingredient as a brand name one",
+      "note": "Pregunta a la farmacia: *Is there a generic version?* Es una pregunta de precio y disponibilidad; el profesional decide.",
+      "ex": [
+        {
+          "en": "Is there a [generic version] of this medicine?",
+          "es": "¿Hay una versión genérica de este medicamento?"
+        },
+        {
+          "en": "The [generic version] costs less.",
+          "es": "La versión genérica cuesta menos."
+        }
+      ],
+      "areas": [
+        "salud",
+        "compras"
+      ]
+    }
+  ]
+}

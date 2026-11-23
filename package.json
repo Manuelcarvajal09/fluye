@@ -1,0 +1,56 @@
+{
+  "name": "fluye",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "content": "node scripts/build-content.mjs && node scripts/build-catalog.mjs",
+    "predev": "npm run content",
+    "dev": "next dev",
+    "prebuild": "npm run content",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "node scripts/migrate.mjs",
+    "audio:build": "node scripts/build-content.mjs && node scripts/audio/generate.mjs",
+    "audio:pack": "node scripts/audio/pack.mjs"
+  },
+  "dependencies": {
+    "@clerk/localizations": "^4.26.3",
+    "@clerk/nextjs": "^7.10.7",
+    "@neondatabase/serverless": "^1.2.1",
+    "drizzle-orm": "^0.45.4",
+    "lucide-react": "^1.77.0",
+    "motion": "^14.14.0",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "ts-fsrs": "^6.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@clerk/testing": "^2.3.6",
+    "@huggingface/transformers": "^3.8.1",
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "dotenv": "^18.0.10",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "kokoro-js": "^1.2.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5",
+    "vitest": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

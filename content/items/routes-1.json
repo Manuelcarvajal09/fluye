@@ -1,0 +1,2614 @@
+[
+  {
+    "id": "phr-merry-christmas",
+    "type": "phrase",
+    "term": "Merry Christmas",
+    "ipa": "/ˈmɛri ˈkrɪsməs/",
+    "level": "A1",
+    "topic": "social",
+    "freq": 5,
+    "es": "¡Feliz Navidad!",
+    "def": "a greeting you say at Christmas time",
+    "note": "Se responde igual: «Merry Christmas to you too». En el trabajo muchos prefieren Happy holidays.",
+    "ex": [
+      {
+        "en": "[Merry Christmas], everyone! See you in January.",
+        "es": "¡Feliz Navidad a todos! Nos vemos en enero."
+      },
+      {
+        "en": "She hugged me and said, \"[Merry Christmas]!\"",
+        "es": "Me abrazó y dijo: «¡Feliz Navidad!»"
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "phr-happy-holidays",
+    "type": "phrase",
+    "term": "Happy holidays",
+    "ipa": "/ˈhæpi ˈhɑːlədeɪz/",
+    "level": "A1",
+    "topic": "social",
+    "freq": 5,
+    "es": "¡Felices fiestas!",
+    "def": "a friendly greeting for the winter holiday season",
+    "note": "Muy común en Canadá y EE. UU. porque sirve para cualquier celebración de diciembre.",
+    "ex": [
+      {
+        "en": "[Happy holidays]! Are you traveling this year?",
+        "es": "¡Felices fiestas! ¿Vas a viajar este año?"
+      },
+      {
+        "en": "The barista smiled and said, \"[Happy holidays]!\"",
+        "es": "La barista sonrió y dijo: «¡Felices fiestas!»"
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "voc-secret-santa",
+    "type": "vocab",
+    "term": "Secret Santa",
+    "ipa": "/ˌsiːkrət ˈsæntə/",
+    "level": "A2",
+    "topic": "social",
+    "freq": 4,
+    "es": "intercambio de regalos con nombre secreto",
+    "def": "a game where each person buys a gift for one person, without telling who they are",
+    "note": "Muy común en oficinas. Se saca un nombre al azar y se compra un regalo con un tope de precio.",
+    "ex": [
+      {
+        "en": "Our office is doing [Secret Santa] with a twenty-dollar limit.",
+        "es": "En la oficina haremos intercambio de regalos con tope de veinte dólares."
+      },
+      {
+        "en": "I picked Jordan's name for [Secret Santa].",
+        "es": "Me tocó el nombre de Jordan en el intercambio."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "voc-boxing-day",
+    "type": "vocab",
+    "term": "Boxing Day",
+    "ipa": "/ˈbɑːksɪŋ deɪ/",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 3,
+    "es": "el 26 de diciembre (día de rebajas y descanso)",
+    "def": "the day after Christmas, a holiday in Canada, known for big sales",
+    "note": "En Canadá es feriado y día de grandes ofertas. En EE. UU. no es feriado.",
+    "ex": [
+      {
+        "en": "We always shop the sales on [Boxing Day].",
+        "es": "Siempre aprovechamos las rebajas el 26 de diciembre."
+      },
+      {
+        "en": "Most families just rest and eat leftovers on [Boxing Day].",
+        "es": "Casi todas las familias descansan y comen sobras el 26."
+      }
+    ],
+    "areas": [
+      "canada",
+      "compras"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-wrap-a-gift",
+    "type": "collocation",
+    "term": "wrap a gift",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "envolver un regalo",
+    "def": "to cover a present with paper",
+    "note": "Presente: wrap. Pasado: wrapped. Nunca «roll a gift».",
+    "ex": [
+      {
+        "en": "I still need to [wrap a gift] for my sister.",
+        "es": "Todavía tengo que envolver un regalo para mi hermana."
+      },
+      {
+        "en": "He [wrapped a gift] in blue paper at the last minute.",
+        "es": "Envolvió un regalo con papel azul a última hora."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "col-exchange-gifts",
+    "type": "collocation",
+    "term": "exchange gifts",
+    "level": "A2",
+    "topic": "social",
+    "freq": 3,
+    "es": "intercambiar regalos",
+    "def": "to give presents to each other",
+    "note": "Ojo: *exchange* aquí es dar y recibir; para devolver algo a la tienda se dice *return* o *exchange it for another size*.",
+    "ex": [
+      {
+        "en": "We [exchange gifts] on Christmas Eve, after dinner.",
+        "es": "Intercambiamos regalos en Nochebuena, después de la cena."
+      },
+      {
+        "en": "Do your friends [exchange gifts] at the holidays?",
+        "es": "¿Tus amigos intercambian regalos en las fiestas?"
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "phr-im-stuffed",
+    "type": "phrase",
+    "term": "I'm stuffed",
+    "ipa": "/aɪm stʌft/",
+    "level": "A2",
+    "topic": "food",
+    "freq": 4,
+    "es": "estoy llenísimo",
+    "def": "I ate so much that I can't eat more",
+    "note": "Informal. Más suave y neutro: I'm full. Muy usado tras una cena grande.",
+    "ex": [
+      {
+        "en": "Thanks, but [I'm stuffed]. That turkey was huge.",
+        "es": "Gracias, pero estoy llenísimo. Ese pavo estaba enorme."
+      },
+      {
+        "en": "After two plates of pasta, [I'm stuffed].",
+        "es": "Después de dos platos de pasta, estoy llenísimo."
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "conversacion"
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "phr-would-you-like-seconds",
+    "type": "phrase",
+    "term": "would you like seconds?",
+    "ipa": "/wʊd jʊ laɪk ˈsɛkəndz/",
+    "level": "A2",
+    "topic": "food",
+    "freq": 3,
+    "es": "¿te sirvo más? (otro plato)",
+    "def": "a polite way to offer a second serving of food",
+    "note": "Se usa en casa: *seconds* = segunda ración. Respuesta: «Yes, please» o «No thanks, I'm full».",
+    "ex": [
+      {
+        "en": "[Would you like seconds]? There's plenty of soup.",
+        "es": "¿Quieres repetir? Hay mucha sopa."
+      },
+      {
+        "en": "My dad always asks, \"[Would you like seconds]?\"",
+        "es": "Mi papá siempre pregunta: «¿Quieres repetir?»"
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "relaciones"
+    ]
+  },
+  {
+    "id": "phr-you-shouldnt-have",
+    "type": "phrase",
+    "term": "you shouldn't have",
+    "ipa": "/jʊ ˈʃʊdnt hæv/",
+    "level": "B1",
+    "topic": "social",
+    "freq": 4,
+    "es": "no tenías que molestarte",
+    "def": "an expression of thanks when someone gives you a gift",
+    "note": "Es una frase hecha de cortesía: agradece el detalle aunque en realidad estés contento. Suele ir con tono cálido.",
+    "ex": [
+      {
+        "en": "Flowers? [You shouldn't have]! They're beautiful.",
+        "es": "¿Flores? ¡No tenías que molestarte! Están hermosas."
+      },
+      {
+        "en": "Oh, [you shouldn't have]. This is so thoughtful.",
+        "es": "Ay, no tenías que molestarte. Qué detalle."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "idi-its-the-thought-that-counts",
+    "type": "idiom",
+    "term": "it's the thought that counts",
+    "ipa": "/ɪts ðə θɔːt ðæt kaʊnts/",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "lo que cuenta es el detalle",
+    "def": "what matters is the kind intention, not the gift itself",
+    "note": "Se dice para consolar a quien da un regalo modesto o cuando algo no salió perfecto.",
+    "ex": [
+      {
+        "en": "It's just a card, but [it's the thought that counts].",
+        "es": "Es solo una tarjeta, pero lo que cuenta es el detalle."
+      },
+      {
+        "en": "The gift was small, but [it's the thought that counts].",
+        "es": "El regalo fue pequeño, pero lo que cuenta es la intención."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "phr-any-plans-for-the-holidays",
+    "type": "phrase",
+    "term": "any plans for the holidays?",
+    "ipa": "/ˈɛni plænz fɔːr ðə ˈhɑːlədeɪz/",
+    "level": "A2",
+    "topic": "social",
+    "freq": 4,
+    "es": "¿tienes planes para las fiestas?",
+    "def": "a common small-talk question in December",
+    "note": "Se pregunta en noviembre y diciembre como conversación ligera. Con *over the holidays* también suena natural.",
+    "ex": [
+      {
+        "en": "Hey, [any plans for the holidays]?",
+        "es": "Oye, ¿tienes planes para las fiestas?"
+      },
+      {
+        "en": "She asked me, \"[Any plans for the holidays]?\"",
+        "es": "Me preguntó: «¿Tienes planes para las fiestas?»"
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ]
+  },
+  {
+    "id": "voc-eggnog",
+    "type": "vocab",
+    "term": "eggnog",
+    "ipa": "/ˈɛɡnɑːɡ/",
+    "level": "B1",
+    "topic": "food",
+    "freq": 2,
+    "es": "ponche de huevo (bebida navideña)",
+    "def": "a creamy holiday drink made with milk, eggs and spices",
+    "note": "Se vende en cartón en diciembre. Puede llevar ron o ser sin alcohol; conviene preguntar.",
+    "ex": [
+      {
+        "en": "Do you want some [eggnog] with your pie?",
+        "es": "¿Quieres ponche de huevo con tu pay?"
+      },
+      {
+        "en": "The [eggnog] had a little rum in it.",
+        "es": "El ponche de huevo llevaba un poco de ron."
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "relaciones"
+    ]
+  },
+  {
+    "id": "col-host-a-dinner",
+    "type": "collocation",
+    "term": "host a dinner",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "ser anfitrión de una cena",
+    "def": "to invite people to your home and serve them a meal",
+    "note": "*Host* es anfitrión (no «hostear»). También: host a party, host Christmas.",
+    "ex": [
+      {
+        "en": "We're going to [host a dinner] for twelve people.",
+        "es": "Vamos a organizar una cena en casa para doce personas."
+      },
+      {
+        "en": "She [hosts a dinner] every Thanksgiving.",
+        "es": "Ella organiza una cena cada Día de Acción de Gracias."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "idi-the-more-the-merrier",
+    "type": "idiom",
+    "term": "the more the merrier",
+    "ipa": "/ðə mɔːr ðə ˈmɛriər/",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "entre más, mejor",
+    "def": "it's good if more people join",
+    "note": "Respuesta típica a «¿puedo llevar a un amigo?». Tono cálido y relajado.",
+    "ex": [
+      {
+        "en": "Can I bring my cousin? Sure, [the more the merrier]!",
+        "es": "¿Puedo llevar a mi primo? ¡Claro, entre más, mejor!"
+      },
+      {
+        "en": "Come along with us. [The more the merrier].",
+        "es": "Vente con nosotros. Entre más, mejor."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "voc-regift",
+    "type": "vocab",
+    "term": "regift",
+    "ipa": "/ˌriːˈɡɪft/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 2,
+    "es": "regalar de nuevo un regalo que recibiste",
+    "def": "to give someone a present you received from another person",
+    "note": "Verbo informal. Puede tener tono de broma o de culpa; muchos lo hacen pero pocos lo admiten.",
+    "ex": [
+      {
+        "en": "I might [regift] that scented candle to my boss.",
+        "es": "Quizá le regale a mi jefe esa vela aromática que me dieron."
+      },
+      {
+        "en": "He got caught [regifting] a sweater he'd never worn.",
+        "es": "Lo cacharon regalando un suéter que él nunca usó."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "idi-overstay-your-welcome",
+    "type": "idiom",
+    "term": "overstay your welcome",
+    "ipa": "/ˌoʊvərˈsteɪ jɔːr ˈwɛlkəm/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "quedarse más de lo apropiado",
+    "def": "to stay somewhere longer than the host wants",
+    "note": "Se usa con visitas y con invitados. Ejemplo típico: «We don't want to overstay our welcome».",
+    "ex": [
+      {
+        "en": "We should leave soon; I don't want to [overstay our welcome].",
+        "es": "Deberíamos irnos pronto; no quiero abusar de la hospitalidad."
+      },
+      {
+        "en": "Houseguests can easily [overstay their welcome] after a week.",
+        "es": "Los huéspedes pueden abusar de la hospitalidad después de una semana."
+      }
+    ],
+    "areas": [
+      "relaciones"
+    ]
+  },
+  {
+    "id": "idi-steer-clear-of",
+    "type": "idiom",
+    "term": "steer clear of",
+    "ipa": "/stɪr klɪr ʌv/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 3,
+    "es": "mantenerse alejado de; evitar",
+    "def": "to deliberately avoid a person, topic or place",
+    "note": "Sirve para temas delicados (politics, money) y para lugares. Se dice «steer clear of X».",
+    "ex": [
+      {
+        "en": "At family dinners we [steer clear of] politics.",
+        "es": "En las cenas familiares evitamos hablar de política."
+      },
+      {
+        "en": "I'd [steer clear of] that road in the snow.",
+        "es": "Yo evitaría ese camino cuando hay nieve."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ]
+  },
+  {
+    "id": "idi-bite-your-tongue",
+    "type": "idiom",
+    "term": "bite your tongue",
+    "ipa": "/baɪt jʊr tʌŋ/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "morderse la lengua; callarse",
+    "def": "to stop yourself from saying what you really think",
+    "note": "Se usa cuando quieres decir algo pero te contienes por educación o prudencia.",
+    "ex": [
+      {
+        "en": "I had to [bite my tongue] when he insulted the project.",
+        "es": "Tuve que morderme la lengua cuando insultó el proyecto."
+      },
+      {
+        "en": "She [bit her tongue] and smiled through dinner.",
+        "es": "Se mordió la lengua y sonrió durante toda la cena."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ]
+  },
+  {
+    "id": "phr-i-couldnt-possibly",
+    "type": "phrase",
+    "term": "I couldn't possibly",
+    "ipa": "/aɪ ˈkʊdnt ˈpɑːsəbli/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "no podría (aceptar / comer más)",
+    "def": "a polite and slightly formal way to refuse an offer",
+    "note": "Rechazo cortés y algo teatral: «I couldn't possibly eat another bite». Puede sonar irónico entre amigos.",
+    "ex": [
+      {
+        "en": "Another slice? [I couldn't possibly].",
+        "es": "¿Otra rebanada? No podría ni un bocado más."
+      },
+      {
+        "en": "[I couldn't possibly] accept such an expensive gift.",
+        "es": "No podría aceptar un regalo tan caro."
+      }
+    ],
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "phr-im-freezing",
+    "type": "phrase",
+    "term": "I'm freezing",
+    "ipa": "/aɪm ˈfriːzɪŋ/",
+    "level": "A1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "me estoy congelando; tengo mucho frío",
+    "def": "I feel very cold",
+    "note": "Exagerado y muy común. No es literal: se dice aunque no haya hielo. Más suave: I'm cold.",
+    "ex": [
+      {
+        "en": "Can we go inside? [I'm freezing].",
+        "es": "¿Podemos entrar? Me estoy congelando."
+      },
+      {
+        "en": "[I'm freezing]! Where is my toque?",
+        "es": "¡Me estoy congelando! ¿Dónde está mi gorro?"
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ]
+  },
+  {
+    "id": "col-shovel-the-driveway",
+    "type": "collocation",
+    "term": "shovel the driveway",
+    "level": "A2",
+    "topic": "home",
+    "freq": 3,
+    "es": "palear la nieve de la entrada",
+    "def": "to remove snow from the area where you park, using a shovel",
+    "note": "Se dice *shovel snow*, *shovel the driveway* o *shovel the walk*. Es tarea de todos los inviernos.",
+    "ex": [
+      {
+        "en": "I have to [shovel the driveway] before work.",
+        "es": "Tengo que palear la entrada antes de ir al trabajo."
+      },
+      {
+        "en": "Dad [shoveled the driveway] twice yesterday.",
+        "es": "Mi papá paleó la entrada dos veces ayer."
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-warm-up-the-car",
+    "type": "collocation",
+    "term": "warm up the car",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 3,
+    "es": "calentar el carro (motor y cabina)",
+    "def": "to run the engine for a few minutes before you drive",
+    "note": "En Canadá es común en días muy fríos. Se dice *warm up the car* o *let the car warm up*.",
+    "ex": [
+      {
+        "en": "I'll go [warm up the car] while you find your gloves.",
+        "es": "Voy a calentar el carro mientras buscas tus guantes."
+      },
+      {
+        "en": "She always [warms up the car] for five minutes.",
+        "es": "Ella siempre calienta el carro cinco minutos."
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ]
+  },
+  {
+    "id": "voc-ice-scraper",
+    "type": "vocab",
+    "term": "ice scraper",
+    "ipa": "/ˈaɪs ˌskreɪpər/",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 3,
+    "es": "raspador de hielo (para el parabrisas)",
+    "def": "a plastic tool for removing ice from a car window",
+    "note": "Se guarda en el carro en invierno. En Canadá también se oye *scraper* o *snow brush* (cepillo).",
+    "ex": [
+      {
+        "en": "Where is the [ice scraper]? The windshield is frozen.",
+        "es": "¿Dónde está el raspador de hielo? El parabrisas está congelado."
+      },
+      {
+        "en": "He keeps an [ice scraper] in the back seat.",
+        "es": "Guarda un raspador de hielo en el asiento de atrás."
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-watch-your-step",
+    "type": "phrase",
+    "term": "watch your step",
+    "ipa": "/wɑːtʃ jʊr stɛp/",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "ten cuidado al caminar; cuidado con el piso",
+    "def": "a warning to walk carefully",
+    "note": "Se dice antes de escalones, hielo o piso mojado. Mismo tono amable en cualquier registro.",
+    "ex": [
+      {
+        "en": "[Watch your step]. The stairs are icy.",
+        "es": "Cuidado al caminar. Las escaleras están heladas."
+      },
+      {
+        "en": "The sign said, \"[Watch your step].\"",
+        "es": "El letrero decía: «Cuidado al caminar»."
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ]
+  },
+  {
+    "id": "col-road-conditions",
+    "type": "collocation",
+    "term": "road conditions",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 3,
+    "es": "condiciones del camino",
+    "def": "how safe or difficult the roads are for driving",
+    "note": "Casi siempre plural. Se consultan en apps y en la radio: *Check the road conditions before you go.*",
+    "ex": [
+      {
+        "en": "Check the [road conditions] before you leave.",
+        "es": "Revisa las condiciones del camino antes de salir."
+      },
+      {
+        "en": "The [road conditions] were terrible after the storm.",
+        "es": "Las condiciones del camino estaban terribles después de la tormenta."
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ]
+  },
+  {
+    "id": "col-get-snowed-in",
+    "type": "collocation",
+    "term": "get snowed in",
+    "level": "B2",
+    "topic": "daily",
+    "freq": 2,
+    "es": "quedar atrapado por la nieve",
+    "def": "to be unable to leave a place because of heavy snow",
+    "note": "Se puede decir *be snowed in* (estado) o *get snowed in* (proceso). Suena más tranquilo que *trapped*.",
+    "ex": [
+      {
+        "en": "We got [snowed in] at the cabin for two days.",
+        "es": "Nos quedamos atrapados por la nieve en la cabaña dos días."
+      },
+      {
+        "en": "Stock up on food in case you get [snowed in].",
+        "es": "Compra provisiones por si te quedas atrapado por la nieve."
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ]
+  },
+  {
+    "id": "col-stay-off-the-roads",
+    "type": "collocation",
+    "term": "stay off the roads",
+    "level": "B2",
+    "topic": "travel",
+    "freq": 3,
+    "es": "no salir a manejar; evitar las carreteras",
+    "def": "to avoid driving, usually because conditions are dangerous",
+    "note": "Frase de avisos oficiales: *Please stay off the roads unless necessary.*",
+    "ex": [
+      {
+        "en": "Authorities asked people to [stay off the roads].",
+        "es": "Las autoridades pidieron a la gente no salir a manejar."
+      },
+      {
+        "en": "If it keeps snowing, we should [stay off the roads].",
+        "es": "Si sigue nevando, deberíamos evitar manejar."
+      }
+    ],
+    "areas": [
+      "transporte",
+      "canada"
+    ]
+  },
+  {
+    "id": "voc-passport",
+    "type": "vocab",
+    "term": "passport",
+    "ipa": "/ˈpæspɔːrt/",
+    "level": "A1",
+    "topic": "travel",
+    "freq": 5,
+    "es": "pasaporte",
+    "def": "an official document you show when you travel to another country",
+    "note": "En vuelos nacionales en Canadá piden *photo ID* (identificación con foto); el pasaporte es para vuelos internacionales.",
+    "ex": [
+      {
+        "en": "Please show your [passport] at the counter.",
+        "es": "Muestre su pasaporte en el mostrador, por favor."
+      },
+      {
+        "en": "I left my [passport] in the taxi!",
+        "es": "¡Dejé mi pasaporte en el taxi!"
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "phr-which-gate-is-it",
+    "type": "phrase",
+    "term": "which gate is it?",
+    "ipa": "/wɪtʃ ɡeɪt ɪz ɪt/",
+    "level": "A2",
+    "topic": "travel",
+    "freq": 4,
+    "es": "¿cuál es la puerta de embarque?",
+    "def": "a question to find your departure gate",
+    "note": "También: *What gate are we at?* o *Which gate does the flight leave from?*",
+    "ex": [
+      {
+        "en": "Sorry, [which gate is it]? The screen is blank.",
+        "es": "Perdón, ¿cuál es la puerta? La pantalla está en blanco."
+      },
+      {
+        "en": "I forgot, [which gate is it]?",
+        "es": "Se me olvidó, ¿cuál es la puerta?"
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "phr-my-flight-was-cancelled",
+    "type": "phrase",
+    "term": "my flight was cancelled",
+    "ipa": "/maɪ flaɪt wʌz ˈkænsəld/",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 4,
+    "es": "cancelaron mi vuelo",
+    "def": "the airline decided not to operate the flight",
+    "note": "*Cancelled* (británico/canadiense) o *canceled* (EE. UU.). Para «perdí el vuelo» se dice *I missed my flight*, no *I lost*.",
+    "ex": [
+      {
+        "en": "[My flight was cancelled] because of the snowstorm.",
+        "es": "Cancelaron mi vuelo por la tormenta de nieve."
+      },
+      {
+        "en": "Ma'am, [my flight was cancelled]. What are my options?",
+        "es": "Señorita, cancelaron mi vuelo. ¿Qué opciones tengo?"
+      }
+    ],
+    "areas": [
+      "viajes"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-rebook-a-flight",
+    "type": "collocation",
+    "term": "rebook a flight",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 3,
+    "es": "reprogramar un vuelo",
+    "def": "to change a ticket to a different flight",
+    "note": "El agente dice: *I can rebook you on the 7:15.* Es gratis si la aerolínea canceló el vuelo (normalmente).",
+    "ex": [
+      {
+        "en": "Can you [rebook a flight] for tomorrow morning?",
+        "es": "¿Puede reprogramar un vuelo para mañana temprano?"
+      },
+      {
+        "en": "They [rebooked my flight] to the evening.",
+        "es": "Me reprogramaron el vuelo para la noche."
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "voc-standby",
+    "type": "vocab",
+    "term": "standby",
+    "ipa": "/ˈstændbaɪ/",
+    "level": "B2",
+    "topic": "travel",
+    "freq": 2,
+    "es": "lista de espera (por un asiento)",
+    "def": "a waiting list for a seat that might become free",
+    "note": "*On standby* = en lista de espera. No garantiza lugar. Ojo: se escribe junto en EE. UU.",
+    "ex": [
+      {
+        "en": "I'm on [standby] for the earlier flight.",
+        "es": "Estoy en lista de espera para el vuelo más temprano."
+      },
+      {
+        "en": "The agent put us on [standby], but there were no seats.",
+        "es": "La agente nos puso en lista de espera, pero no había asientos."
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "voc-meal-voucher",
+    "type": "vocab",
+    "term": "meal voucher",
+    "ipa": "/ˈmiːl ˌvaʊtʃər/",
+    "level": "B2",
+    "topic": "travel",
+    "freq": 2,
+    "es": "vale de comida",
+    "def": "a paper or digital coupon for food, given by an airline after a delay",
+    "note": "Se entrega a veces tras una cancelación larga. Se canjea en restaurantes del aeropuerto.",
+    "ex": [
+      {
+        "en": "The airline gave us a [meal voucher] for dinner.",
+        "es": "La aerolínea nos dio un vale de comida para la cena."
+      },
+      {
+        "en": "Can I use this [meal voucher] at the café?",
+        "es": "¿Puedo usar este vale de comida en la cafetería?"
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "col-file-a-claim",
+    "type": "collocation",
+    "term": "file a claim",
+    "level": "B2",
+    "topic": "travel",
+    "freq": 3,
+    "es": "presentar un reclamo",
+    "def": "to make a formal request for help, money or a missing item",
+    "note": "Se usa con aerolíneas y seguros: *file a claim for lost luggage*. *File* aquí es presentar, no archivar.",
+    "ex": [
+      {
+        "en": "I'd like to [file a claim] for my missing bag.",
+        "es": "Quisiera presentar un reclamo por mi maleta perdida."
+      },
+      {
+        "en": "She [filed a claim] online right away.",
+        "es": "Ella presentó el reclamo en línea de inmediato."
+      }
+    ],
+    "areas": [
+      "viajes",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "col-lost-luggage",
+    "type": "collocation",
+    "term": "lost luggage",
+    "level": "B1",
+    "topic": "travel",
+    "freq": 3,
+    "es": "equipaje extraviado",
+    "def": "bags that the airline cannot find",
+    "note": "Se dice *delayed* si va a llegar tarde y *lost* si no se encuentra. Las aerolíneas dicen *baggage* o *luggage*.",
+    "ex": [
+      {
+        "en": "My [lost luggage] arrived two days later.",
+        "es": "Mi equipaje extraviado llegó dos días después."
+      },
+      {
+        "en": "Go to the desk to report [lost luggage].",
+        "es": "Ve al mostrador para reportar equipaje extraviado."
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "voc-key-card",
+    "type": "vocab",
+    "term": "key card",
+    "ipa": "/ˈkiː kɑːrd/",
+    "level": "A2",
+    "topic": "travel",
+    "freq": 3,
+    "es": "tarjeta de la habitación (llave)",
+    "def": "a plastic card used to open a hotel room door",
+    "note": "Se devuelve al salir. Si no abre: *My key card isn't working*. Es lo normal; casi nadie usa llaves metálicas.",
+    "ex": [
+      {
+        "en": "My [key card] doesn't open the door.",
+        "es": "Mi tarjeta no abre la puerta."
+      },
+      {
+        "en": "Here is your [key card] for room 412.",
+        "es": "Aquí está su tarjeta para la habitación 412."
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "phr-is-breakfast-included",
+    "type": "phrase",
+    "term": "is breakfast included?",
+    "ipa": "/ɪz ˈbrɛkfəst ɪnˈkluːdɪd/",
+    "level": "A2",
+    "topic": "travel",
+    "freq": 3,
+    "es": "¿el desayuno está incluido?",
+    "def": "a question about whether breakfast is part of the hotel price",
+    "note": "También sirve para otras cosas: *Is tax included? Is Wi-Fi included?*",
+    "ex": [
+      {
+        "en": "[Is breakfast included]? Or is it extra?",
+        "es": "¿El desayuno está incluido? ¿O es extra?"
+      },
+      {
+        "en": "I asked, \"[Is breakfast included]?\" and she said yes.",
+        "es": "Pregunté: «¿Incluye el desayuno?» y dijo que sí."
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "voc-overbooked",
+    "type": "vocab",
+    "term": "overbooked",
+    "ipa": "/ˌoʊvərˈbʊkt/",
+    "level": "B2",
+    "topic": "travel",
+    "freq": 2,
+    "es": "con sobreventa (más reservas que lugares)",
+    "def": "sold to more passengers than there are seats",
+    "note": "Se dice del vuelo, hotel o restaurante: *The flight is overbooked.* El sustantivo es *overbooking*.",
+    "ex": [
+      {
+        "en": "The flight was [overbooked], so they asked for volunteers.",
+        "es": "El vuelo tenía sobreventa, así que pidieron voluntarios."
+      },
+      {
+        "en": "Hotels are often [overbooked] during big events.",
+        "es": "Los hoteles suelen estar saturados durante eventos grandes."
+      }
+    ],
+    "areas": [
+      "viajes"
+    ]
+  },
+  {
+    "id": "idi-out-of-your-hands",
+    "type": "idiom",
+    "term": "out of your hands",
+    "ipa": "/aʊt ʌv jʊr hændz/",
+    "level": "C1",
+    "topic": "feelings",
+    "freq": 2,
+    "es": "fuera de tu control",
+    "def": "not something you can decide or change",
+    "note": "Se usa para reconocer que la otra persona no puede hacer más: *I know it's out of your hands.* Tono comprensivo.",
+    "ex": [
+      {
+        "en": "I know it's [out of your hands], but I'm worried.",
+        "es": "Sé que no depende de ti, pero estoy preocupado."
+      },
+      {
+        "en": "Once the form is submitted, it's [out of your hands].",
+        "es": "Una vez enviado el formulario, ya no depende de ti."
+      }
+    ],
+    "areas": [
+      "viajes",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "phr-id-appreciate-any-flexibility",
+    "type": "phrase",
+    "term": "I'd appreciate any flexibility",
+    "ipa": "/aɪd əˈpriːʃieɪt ˈɛni ˌflɛksəˈbɪləti/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "agradecería cualquier flexibilidad",
+    "def": "a polite way to ask someone to bend the rules a little",
+    "note": "Petición indirecta y diplomática: no exige, deja espacio. Muy útil en servicio al cliente y trabajo.",
+    "ex": [
+      {
+        "en": "[I'd appreciate any flexibility] you can offer.",
+        "es": "Agradecería cualquier flexibilidad que pueda ofrecer."
+      },
+      {
+        "en": "Given the circumstances, [I'd appreciate any flexibility] on the deadline.",
+        "es": "Dadas las circunstancias, agradecería flexibilidad con la fecha límite."
+      }
+    ],
+    "areas": [
+      "viajes",
+      "soporte"
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "col-goodwill-gesture",
+    "type": "collocation",
+    "term": "goodwill gesture",
+    "level": "C1",
+    "topic": "money",
+    "freq": 2,
+    "es": "gesto de buena voluntad (compensación)",
+    "def": "something small a company offers to make up for a problem",
+    "note": "Cuando una empresa reconoce un error y ofrece un crédito, descuento o mejora sin estar obligada.",
+    "ex": [
+      {
+        "en": "The airline offered a [goodwill gesture] of fifty dollars.",
+        "es": "La aerolínea ofreció un gesto de buena voluntad de cincuenta dólares."
+      },
+      {
+        "en": "A [goodwill gesture] can calm an unhappy customer.",
+        "es": "Un gesto de buena voluntad puede calmar a un cliente molesto."
+      }
+    ],
+    "areas": [
+      "viajes",
+      "soporte"
+    ]
+  },
+  {
+    "id": "idi-make-the-best-of-it",
+    "type": "idiom",
+    "term": "make the best of it",
+    "ipa": "/meɪk ðə bɛst ʌv ɪt/",
+    "level": "B2",
+    "topic": "feelings",
+    "freq": 3,
+    "es": "sacarle el mejor partido",
+    "def": "to try to enjoy or use a bad situation as well as you can",
+    "note": "Se dice *make the best of a bad situation*. Tono positivo y práctico.",
+    "ex": [
+      {
+        "en": "The flight is late, so let's [make the best of it].",
+        "es": "El vuelo se retrasó, así que saquémosle provecho."
+      },
+      {
+        "en": "They [made the best of it] and explored the city.",
+        "es": "Le sacaron provecho y exploraron la ciudad."
+      }
+    ],
+    "areas": [
+      "viajes",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "voc-oat-milk",
+    "type": "vocab",
+    "term": "oat milk",
+    "ipa": "/ˈoʊt mɪlk/",
+    "level": "A2",
+    "topic": "food",
+    "freq": 4,
+    "es": "leche de avena",
+    "def": "a plant-based milk made from oats",
+    "note": "En cafeterías se pide con el tamaño: *a large latte with oat milk*. Otras opciones: almond, soy, 2%, skim.",
+    "ex": [
+      {
+        "en": "Can I get a latte with [oat milk]?",
+        "es": "¿Me das un latte con leche de avena?"
+      },
+      {
+        "en": "They charge extra for [oat milk].",
+        "es": "Cobran extra por la leche de avena."
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "phr-i-have-a-peanut-allergy",
+    "type": "phrase",
+    "term": "I have a peanut allergy",
+    "ipa": "/aɪ hæv ə ˈpiːnʌt ˈælərdʒi/",
+    "level": "A2",
+    "topic": "food",
+    "freq": 4,
+    "es": "tengo alergia a los cacahuates",
+    "def": "a way to tell a server that peanuts are unsafe for you",
+    "note": "Frase para comunicar, no consejo médico. También: *I'm allergic to shellfish*. Dilo antes de pedir.",
+    "ex": [
+      {
+        "en": "Please note [I have a peanut allergy].",
+        "es": "Por favor tome nota: tengo alergia a los cacahuates."
+      },
+      {
+        "en": "Hi, [I have a peanut allergy]. What's safe to eat?",
+        "es": "Hola, tengo alergia a los cacahuates. ¿Qué puedo comer?"
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "salud"
+    ]
+  },
+  {
+    "id": "voc-cross-contamination",
+    "type": "vocab",
+    "term": "cross-contamination",
+    "ipa": "/ˌkrɔːs kənˌtæmɪˈneɪʃən/",
+    "level": "B2",
+    "topic": "food",
+    "freq": 2,
+    "es": "contaminación cruzada",
+    "def": "when a food touches another food and picks up something you must avoid",
+    "note": "Se menciona con alergias. Pregunta: *Do you take steps to avoid cross-contamination?*",
+    "ex": [
+      {
+        "en": "Ask the kitchen about [cross-contamination].",
+        "es": "Pregunta a la cocina por la contaminación cruzada."
+      },
+      {
+        "en": "Separate boards help prevent [cross-contamination].",
+        "es": "Las tablas separadas ayudan a evitar la contaminación cruzada."
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-on-the-side",
+    "type": "phrase",
+    "term": "on the side",
+    "ipa": "/ɑːn ðə saɪd/",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "aparte (en un recipiente distinto)",
+    "def": "served separately, not on top of the food",
+    "note": "Se pide con salsas y aderezos: *dressing on the side*. No confundir con *aside*.",
+    "ex": [
+      {
+        "en": "Could I get the dressing [on the side]?",
+        "es": "¿Me puede poner el aderezo aparte?"
+      },
+      {
+        "en": "She ordered fries [on the side].",
+        "es": "Ella pidió las papas aparte."
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "phr-hold-the-onions",
+    "type": "phrase",
+    "term": "hold the onions",
+    "ipa": "/hoʊld ði ˈʌnjənz/",
+    "level": "B1",
+    "topic": "food",
+    "freq": 3,
+    "es": "sin cebolla (en mi pedido)",
+    "def": "please do not put onions in my food",
+    "note": "*Hold* aquí significa omitir. Se puede decir *no onions* o *without onions*. Informal y muy común.",
+    "ex": [
+      {
+        "en": "I'll have a burger, and [hold the onions].",
+        "es": "Quiero una hamburguesa, sin cebolla."
+      },
+      {
+        "en": "Can you [hold the onions] on my sandwich?",
+        "es": "¿Puede omitir la cebolla en mi sándwich?"
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "phr-this-isnt-what-i-ordered",
+    "type": "phrase",
+    "term": "this isn't what I ordered",
+    "ipa": "/ðɪs ˈɪzənt wʌt aɪ ˈɔːrdərd/",
+    "level": "A2",
+    "topic": "food",
+    "freq": 4,
+    "es": "esto no es lo que pedí",
+    "def": "a polite way to point out a wrong order",
+    "note": "Dilo con tono amable: *Sorry, this isn't what I ordered.* Se agrega *I asked for...* para aclarar.",
+    "ex": [
+      {
+        "en": "Excuse me, [this isn't what I ordered].",
+        "es": "Disculpe, esto no es lo que pedí."
+      },
+      {
+        "en": "I think [this isn't what I ordered].",
+        "es": "Creo que esto no es lo que pedí."
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "voc-undercooked",
+    "type": "vocab",
+    "term": "undercooked",
+    "ipa": "/ˌʌndərˈkʊkt/",
+    "level": "B1",
+    "topic": "food",
+    "freq": 3,
+    "es": "poco cocido; crudo por dentro",
+    "def": "not cooked long enough",
+    "note": "Con carnes y huevos es importante. Lo contrario: *overcooked*. Dilo con tacto: *a bit undercooked*.",
+    "ex": [
+      {
+        "en": "The chicken is [undercooked] in the middle.",
+        "es": "El pollo está poco cocido por dentro."
+      },
+      {
+        "en": "My eggs were [undercooked], so I asked for new ones.",
+        "es": "Mis huevos estaban poco cocidos, así que pedí otros."
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "phr-could-you-remake-it",
+    "type": "phrase",
+    "term": "could you remake it?",
+    "ipa": "/kʊd jʊ riːˈmeɪk ɪt/",
+    "level": "B1",
+    "topic": "food",
+    "freq": 3,
+    "es": "¿podría prepararlo de nuevo?",
+    "def": "a polite request to cook or prepare something again",
+    "note": "Se usa con bebidas y platillos. Más suave: *Would it be possible to remake it?* Casi siempre lo hacen sin problema.",
+    "ex": [
+      {
+        "en": "This is cold. [Could you remake it]?",
+        "es": "Esto está frío. ¿Podría prepararlo de nuevo?"
+      },
+      {
+        "en": "I'm sorry, [could you remake it] with oat milk?",
+        "es": "Perdón, ¿podría prepararlo otra vez con leche de avena?"
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "phr-could-we-split-it-three-ways",
+    "type": "phrase",
+    "term": "could we split it three ways?",
+    "ipa": "/kʊd wi splɪt ɪt θriː weɪz/",
+    "level": "B1",
+    "topic": "food",
+    "freq": 3,
+    "es": "¿podemos dividirla en tres?",
+    "def": "a request to divide the bill equally",
+    "note": "Se cambia el número: *two ways*, *four ways*. Para cuentas separadas: *separate checks*.",
+    "ex": [
+      {
+        "en": "[Could we split it three ways], please?",
+        "es": "¿Podemos dividirla entre tres, por favor?"
+      },
+      {
+        "en": "The server asked, \"[Could we split it three ways]?\"",
+        "es": "La mesera preguntó: «¿La dividimos en tres?»"
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "col-add-a-tip",
+    "type": "collocation",
+    "term": "add a tip",
+    "level": "B1",
+    "topic": "money",
+    "freq": 3,
+    "es": "agregar propina",
+    "def": "to include extra money for the server when paying",
+    "note": "En la terminal de pago aparece *Add tip*. En Canadá y EE. UU. es común dejar de 15 a 20 %.",
+    "ex": [
+      {
+        "en": "I'll [add a tip] on the card machine.",
+        "es": "Voy a agregar la propina en la terminal."
+      },
+      {
+        "en": "Don't forget to [add a tip].",
+        "es": "No olvides agregar la propina."
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "voc-lukewarm",
+    "type": "vocab",
+    "term": "lukewarm",
+    "ipa": "/ˌluːkˈwɔːrm/",
+    "level": "B2",
+    "topic": "food",
+    "freq": 2,
+    "es": "tibio (ni caliente ni frío)",
+    "def": "only slightly warm; not hot enough",
+    "note": "Para comida o café se considera defecto. Más suave: *not as hot as I'd like*.",
+    "ex": [
+      {
+        "en": "My soup was [lukewarm] when it arrived.",
+        "es": "Mi sopa llegó tibia."
+      },
+      {
+        "en": "Nobody likes [lukewarm] coffee.",
+        "es": "A nadie le gusta el café tibio."
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ]
+  },
+  {
+    "id": "idi-its-a-toss-up",
+    "type": "idiom",
+    "term": "it's a toss-up",
+    "ipa": "/ɪts ə ˈtɔːs ʌp/",
+    "level": "C1",
+    "topic": "daily",
+    "freq": 2,
+    "es": "está parejo; da lo mismo",
+    "def": "both choices seem equally good",
+    "note": "Viene de lanzar una moneda. Úsalo cuando no hay favorita clara.",
+    "ex": [
+      {
+        "en": "Pizza or sushi? [It's a toss-up].",
+        "es": "¿Pizza o sushi? Está parejo."
+      },
+      {
+        "en": "For me, [it's a toss-up] between the two.",
+        "es": "Para mí, ambas opciones están parejas."
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "idi-a-far-cry-from",
+    "type": "idiom",
+    "term": "a far cry from",
+    "ipa": "/ə fɑːr kraɪ frʌm/",
+    "level": "C1",
+    "topic": "daily",
+    "freq": 2,
+    "es": "muy distinto de",
+    "def": "very different from something",
+    "note": "Suele expresar decepción: *This is a far cry from what I expected.*",
+    "ex": [
+      {
+        "en": "The meal was [a far cry from] the photos online.",
+        "es": "La comida fue muy distinta a las fotos de internet."
+      },
+      {
+        "en": "Today's service was [a far cry from] last time.",
+        "es": "El servicio de hoy fue muy distinto al de la última vez."
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "phr-i-hate-to-be-a-pain-but",
+    "type": "phrase",
+    "term": "I hate to be a pain, but",
+    "ipa": "/aɪ heɪt tə bi ə peɪn bʌt/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "odio ser pesado, pero",
+    "def": "a polite opening before a request or complaint",
+    "note": "Suaviza una queja o una petición. *Pain* aquí es molestia (informal).",
+    "ex": [
+      {
+        "en": "[I hate to be a pain, but] this is cold.",
+        "es": "Odio ser pesado, pero esto está frío."
+      },
+      {
+        "en": "[I hate to be a pain, but] could we get another fork?",
+        "es": "Odio ser pesado, pero ¿podemos pedir otro tenedor?"
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "conversacion"
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "phr-i-dont-want-to-make-a-fuss",
+    "type": "phrase",
+    "term": "I don't want to make a fuss",
+    "ipa": "/aɪ doʊnt wɑːnt tə meɪk ə fʌs/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "no quiero armar un escándalo",
+    "def": "a polite way to say that you are not going to complain loudly",
+    "note": "Se usa antes de quejarte con tacto: *I don't want to make a fuss, but...* Contrasta con *cause a scene* (hacer un escándalo).",
+    "ex": [
+      {
+        "en": "[I don't want to make a fuss], but this is wrong.",
+        "es": "No quiero armar un escándalo, pero esto está mal."
+      },
+      {
+        "en": "She said, \"[I don't want to make a fuss], but we waited an hour.\"",
+        "es": "Dijo: «No quiero armar un escándalo, pero esperamos una hora.»"
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "col-fall-short-of-expectations",
+    "type": "collocation",
+    "term": "fall short of expectations",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "es": "quedar por debajo de lo esperado",
+    "def": "to be worse than people hoped or were told",
+    "note": "Registro formal/profesional. Sujeto: *the service, the results, the film*...",
+    "ex": [
+      {
+        "en": "The service [fell short of expectations].",
+        "es": "El servicio quedó por debajo de lo esperado."
+      },
+      {
+        "en": "Sales may [fall short of expectations] this quarter.",
+        "es": "Las ventas podrían quedar por debajo de lo esperado este trimestre."
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "reuniones"
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "voc-comp",
+    "type": "vocab",
+    "term": "comp",
+    "ipa": "/kɑːmp/",
+    "level": "B2",
+    "topic": "food",
+    "freq": 2,
+    "es": "regalar sin cobrar (cortesía de la casa)",
+    "def": "to give something free to make up for a problem",
+    "note": "Verbo informal en restaurantes: *They comped our dessert.* Viene de *complimentary*.",
+    "ex": [
+      {
+        "en": "The manager [comped] our desserts.",
+        "es": "El gerente nos regaló los postres."
+      },
+      {
+        "en": "Could you [comp] the coffee for the wait?",
+        "es": "¿Podría regalarnos el café por la espera?"
+      }
+    ],
+    "areas": [
+      "restaurantes"
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "voc-service-charge",
+    "type": "vocab",
+    "term": "service charge",
+    "ipa": "/ˈsɜːrvɪs tʃɑːrdʒ/",
+    "level": "B2",
+    "topic": "money",
+    "freq": 2,
+    "es": "cargo por servicio",
+    "def": "an extra fee added to a restaurant bill",
+    "note": "A veces se añade automáticamente a grupos grandes. Pregunta: *Is the service charge optional?*",
+    "ex": [
+      {
+        "en": "There's a [service charge] for large groups.",
+        "es": "Hay un cargo por servicio para grupos grandes."
+      },
+      {
+        "en": "I noticed a [service charge] on the bill.",
+        "es": "Noté un cargo por servicio en la cuenta."
+      }
+    ],
+    "areas": [
+      "restaurantes",
+      "bancos"
+    ]
+  },
+  {
+    "id": "voc-self-checkout",
+    "type": "vocab",
+    "term": "self-checkout",
+    "ipa": "/ˌsɛlf ˈtʃɛkaʊt/",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "caja de autoservicio",
+    "def": "a machine where customers scan and pay for their own groceries",
+    "note": "Se dice *the self-checkout* o *self-serve checkout*. Suele haber un empleado cerca para ayudar.",
+    "ex": [
+      {
+        "en": "I'll use the [self-checkout] because the line is long.",
+        "es": "Voy a usar la caja de autoservicio porque la fila es larga."
+      },
+      {
+        "en": "The [self-checkout] stopped working again.",
+        "es": "La caja de autoservicio dejó de funcionar otra vez."
+      }
+    ],
+    "areas": [
+      "compras"
+    ]
+  },
+  {
+    "id": "phr-where-can-i-find",
+    "type": "phrase",
+    "term": "where can I find...?",
+    "ipa": "/wɛr kæn aɪ faɪnd/",
+    "level": "A1",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿dónde puedo encontrar...?",
+    "def": "a question to locate a product in a store",
+    "note": "Muy útil en tiendas. Más directo: *Where's the milk?* Con empleados también: *Do you know where the milk is?*",
+    "ex": [
+      {
+        "en": "Excuse me, [where can I find] the bread?",
+        "es": "Disculpe, ¿dónde puedo encontrar el pan?"
+      },
+      {
+        "en": "[Where can I find] rice and beans?",
+        "es": "¿Dónde encuentro arroz y frijoles?"
+      }
+    ],
+    "areas": [
+      "compras"
+    ]
+  },
+  {
+    "id": "voc-reusable-bag",
+    "type": "vocab",
+    "term": "reusable bag",
+    "ipa": "/riˈjuːzəbəl bæɡ/",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "bolsa reutilizable",
+    "def": "a strong bag you bring from home instead of using plastic",
+    "note": "En muchas tiendas canadienses cobran por las bolsas (5–25 centavos). Se dice *I brought my own bag*.",
+    "ex": [
+      {
+        "en": "I always bring a [reusable bag] to the store.",
+        "es": "Siempre llevo una bolsa reutilizable a la tienda."
+      },
+      {
+        "en": "Don't forget your [reusable bags]!",
+        "es": "¡No olvides tus bolsas reutilizables!"
+      }
+    ],
+    "areas": [
+      "compras"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-would-you-like-a-bag",
+    "type": "phrase",
+    "term": "would you like a bag?",
+    "ipa": "/wʊd jʊ laɪk ə bæɡ/",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¿quiere una bolsa?",
+    "def": "a question the cashier asks at checkout",
+    "note": "A veces la bolsa tiene costo. Respuestas: *No, thanks, I have my own* / *Yes, one, please*.",
+    "ex": [
+      {
+        "en": "[Would you like a bag]? It's twenty-five cents.",
+        "es": "¿Quiere una bolsa? Cuesta veinticinco centavos."
+      },
+      {
+        "en": "The cashier asked, \"[Would you like a bag]?\"",
+        "es": "La cajera preguntó: «¿Quiere una bolsa?»"
+      }
+    ],
+    "areas": [
+      "compras"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-price-per-kilo",
+    "type": "collocation",
+    "term": "price per kilo",
+    "level": "B1",
+    "topic": "money",
+    "freq": 3,
+    "es": "precio por kilo",
+    "def": "how much a kilogram of something costs",
+    "note": "En Canadá se ven kilos y libras: *per kilo* o *per pound*. Un kilo es más o menos 2.2 libras.",
+    "ex": [
+      {
+        "en": "What's the [price per kilo] for this cheese?",
+        "es": "¿Cuál es el precio por kilo de este queso?"
+      },
+      {
+        "en": "The [price per kilo] is on the shelf label.",
+        "es": "El precio por kilo está en la etiqueta del estante."
+      }
+    ],
+    "areas": [
+      "compras"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-could-you-slice-it-thin",
+    "type": "phrase",
+    "term": "could you slice it thin?",
+    "ipa": "/kʊd jʊ slaɪs ɪt θɪn/",
+    "level": "B1",
+    "topic": "food",
+    "freq": 2,
+    "es": "¿podría cortarlo delgado?",
+    "def": "a request at the deli counter for thin slices",
+    "note": "También: *thick* (grueso), *medium*. Se pide al comprar jamón, queso o pavo al corte.",
+    "ex": [
+      {
+        "en": "[Could you slice it thin]? It's for sandwiches.",
+        "es": "¿Podría cortarlo delgado? Es para sándwiches."
+      },
+      {
+        "en": "I asked, \"[Could you slice it thin], please?\"",
+        "es": "Pregunté: «¿Podría cortarlo delgado, por favor?»"
+      }
+    ],
+    "areas": [
+      "compras"
+    ]
+  },
+  {
+    "id": "phr-unexpected-item-in-the-bagging-area",
+    "type": "phrase",
+    "term": "unexpected item in the bagging area",
+    "ipa": "/ˌʌnɪkˈspɛktɪd ˈaɪtəm ɪn ðə ˈbæɡɪŋ ˈɛriə/",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 2,
+    "es": "artículo inesperado en el área de embolsado",
+    "def": "a message from self-checkout when the scale detects a weight problem",
+    "note": "Mensaje común. Normalmente se resuelve esperando o pidiendo ayuda a un empleado.",
+    "ex": [
+      {
+        "en": "The machine keeps saying, \"[unexpected item in the bagging area].\"",
+        "es": "La máquina sigue diciendo: «artículo inesperado en el área de embolsado.»"
+      },
+      {
+        "en": "I got an [unexpected item in the bagging area] error again.",
+        "es": "Me salió otra vez el error de artículo inesperado en el área de embolsado."
+      }
+    ],
+    "areas": [
+      "compras"
+    ]
+  },
+  {
+    "id": "phr-it-scanned-at-the-wrong-price",
+    "type": "phrase",
+    "term": "it scanned at the wrong price",
+    "ipa": "/ɪt skænd æt ðə rɔːŋ praɪs/",
+    "level": "B1",
+    "topic": "money",
+    "freq": 3,
+    "es": "se escaneó con el precio equivocado",
+    "def": "the register charged a different price than the one shown",
+    "note": "Para reclamar con calma: *It scanned at the wrong price. The flyer says...*. También: *rang up*.",
+    "ex": [
+      {
+        "en": "Excuse me, [it scanned at the wrong price].",
+        "es": "Disculpe, se escaneó con el precio equivocado."
+      },
+      {
+        "en": "The cashier checked, and [it scanned at the wrong price].",
+        "es": "La cajera revisó y se había escaneado con el precio equivocado."
+      }
+    ],
+    "areas": [
+      "compras"
+    ]
+  },
+  {
+    "id": "voc-flyer",
+    "type": "vocab",
+    "term": "flyer",
+    "ipa": "/ˈflaɪər/",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 3,
+    "es": "folleto de ofertas",
+    "def": "a printed or digital ad with sale prices",
+    "note": "En Canadá las tiendas publican un *weekly flyer* con las ofertas de la semana.",
+    "ex": [
+      {
+        "en": "The [flyer] says chicken is on sale.",
+        "es": "El folleto dice que el pollo está en oferta."
+      },
+      {
+        "en": "I check the weekly [flyer] before I shop.",
+        "es": "Reviso el folleto semanal antes de ir de compras."
+      }
+    ],
+    "areas": [
+      "compras"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "voc-price-check",
+    "type": "vocab",
+    "term": "price check",
+    "ipa": "/ˈpraɪs tʃɛk/",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 3,
+    "es": "verificación de precio",
+    "def": "when a store employee confirms the price of an item",
+    "note": "Se dice por altavoz: *Price check on aisle four.* También: *Could you do a price check?*",
+    "ex": [
+      {
+        "en": "Could you do a [price check] on this item?",
+        "es": "¿Podría verificar el precio de este artículo?"
+      },
+      {
+        "en": "The cashier called for a [price check].",
+        "es": "La cajera pidió una verificación de precio."
+      }
+    ],
+    "areas": [
+      "compras"
+    ]
+  },
+  {
+    "id": "col-collect-points",
+    "type": "collocation",
+    "term": "collect points",
+    "level": "B1",
+    "topic": "money",
+    "freq": 3,
+    "es": "acumular puntos",
+    "def": "to earn reward points when you buy things",
+    "note": "Con tarjeta o app de lealtad. Otros verbos: *earn*, *redeem* (canjear).",
+    "ex": [
+      {
+        "en": "I [collect points] every time I shop here.",
+        "es": "Acumulo puntos cada vez que compro aquí."
+      },
+      {
+        "en": "Do I [collect points] on this purchase?",
+        "es": "¿Acumulo puntos con esta compra?"
+      }
+    ],
+    "areas": [
+      "compras"
+    ]
+  },
+  {
+    "id": "col-schedule-a-viewing",
+    "type": "collocation",
+    "term": "schedule a viewing",
+    "level": "A2",
+    "topic": "home",
+    "freq": 3,
+    "es": "agendar una visita (para ver un departamento)",
+    "def": "to make an appointment to see an apartment",
+    "note": "*Viewing* es la visita al lugar. También: *book a viewing*, *see the unit*. Se acuerda por mensaje o llamada.",
+    "ex": [
+      {
+        "en": "We [scheduled a viewing] for five o'clock.",
+        "es": "Agendamos una visita para las cinco."
+      },
+      {
+        "en": "I'd like to [schedule a viewing] for Saturday.",
+        "es": "Quisiera agendar una visita para el sábado."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "phr-how-long-is-the-lease",
+    "type": "phrase",
+    "term": "how long is the lease?",
+    "ipa": "/haʊ lɔːŋ ɪz ðə liːs/",
+    "level": "A2",
+    "topic": "home",
+    "freq": 3,
+    "es": "¿cuánto dura el contrato de renta?",
+    "def": "a question about the length of a rental contract",
+    "note": "Respuestas típicas: *a year*, *six months*, *month-to-month*. Solo vocabulario: no es asesoría legal.",
+    "ex": [
+      {
+        "en": "[How long is the lease]? A year?",
+        "es": "¿Cuánto dura el contrato? ¿Un año?"
+      },
+      {
+        "en": "Before I sign, [how long is the lease]?",
+        "es": "Antes de firmar, ¿cuánto dura el contrato?"
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "phr-the-faucet-is-leaking",
+    "type": "phrase",
+    "term": "the faucet is leaking",
+    "ipa": "/ðə ˈfɔːsɪt ɪz ˈliːkɪŋ/",
+    "level": "B1",
+    "topic": "home",
+    "freq": 3,
+    "es": "la llave gotea",
+    "def": "water drips from the tap",
+    "note": "*Faucet* es de EE. UU. y Canadá; en inglés británico se dice *tap*. *Leak* es gotear o filtrar; *spill* es derramar.",
+    "ex": [
+      {
+        "en": "[The faucet is leaking] under the sink.",
+        "es": "La llave gotea debajo del fregadero."
+      },
+      {
+        "en": "I called because [the faucet is leaking] again.",
+        "es": "Llamé porque la llave gotea otra vez."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "phr-the-sink-is-clogged",
+    "type": "phrase",
+    "term": "the sink is clogged",
+    "ipa": "/ðə sɪŋk ɪz klɑːɡd/",
+    "level": "B1",
+    "topic": "home",
+    "freq": 3,
+    "es": "el lavabo está tapado",
+    "def": "water cannot go down the drain",
+    "note": "También se oye *blocked* o *plugged* (Canadá). El plomero usa *drain*.",
+    "ex": [
+      {
+        "en": "[The sink is clogged] and the water won't go down.",
+        "es": "El lavabo está tapado y el agua no baja."
+      },
+      {
+        "en": "Please send someone, [the sink is clogged].",
+        "es": "Por favor mande a alguien, el lavabo está tapado."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-hire-movers",
+    "type": "collocation",
+    "term": "hire movers",
+    "level": "B1",
+    "topic": "home",
+    "freq": 3,
+    "es": "contratar una mudanza (mudanceros)",
+    "def": "to pay a company or people to move your belongings",
+    "note": "*Movers* son quienes cargan los muebles. *Moving company* es la empresa. Se pregunta por tarifa por hora.",
+    "ex": [
+      {
+        "en": "We decided to [hire movers] for the heavy furniture.",
+        "es": "Decidimos contratar mudanceros para los muebles pesados."
+      },
+      {
+        "en": "It's worth it to [hire movers] if you live on the fifth floor.",
+        "es": "Vale la pena contratar mudanceros si vives en el quinto piso."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "voc-fragile",
+    "type": "vocab",
+    "term": "fragile",
+    "ipa": "/ˈfrædʒəl/",
+    "level": "B1",
+    "topic": "home",
+    "freq": 3,
+    "es": "frágil",
+    "def": "easy to break or damage",
+    "note": "Se escribe en cajas con vidrio o cerámica. En voz: *Careful, it's fragile!*",
+    "ex": [
+      {
+        "en": "This box is [fragile], so please carry it carefully.",
+        "es": "Esta caja es frágil, por favor llévela con cuidado."
+      },
+      {
+        "en": "She wrote \"[fragile]\" on the box.",
+        "es": "Escribió «frágil» en la caja."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "col-book-the-elevator",
+    "type": "collocation",
+    "term": "book the elevator",
+    "level": "B1",
+    "topic": "home",
+    "freq": 2,
+    "es": "reservar el elevador (para una mudanza)",
+    "def": "to reserve the building's elevator for a time",
+    "note": "En condominios y edificios grandes suelen pedirlo con anticipación. *Elevator* en EE. UU. y Canadá (británico: *lift*).",
+    "ex": [
+      {
+        "en": "I need to [book the elevator] for Saturday.",
+        "es": "Necesito reservar el elevador para el sábado."
+      },
+      {
+        "en": "Did you [book the elevator] for your move?",
+        "es": "¿Reservaste el elevador para tu mudanza?"
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "idi-keep-it-down",
+    "type": "idiom",
+    "term": "keep it down",
+    "ipa": "/kiːp ɪt daʊn/",
+    "level": "B1",
+    "topic": "social",
+    "freq": 3,
+    "es": "bájale el volumen; no hagas tanto ruido",
+    "def": "to be quieter",
+    "note": "Petición de un vecino: *Could you keep it down?* Tono cortés. Más fuerte: *Be quiet!*",
+    "ex": [
+      {
+        "en": "Could you [keep it down]? The baby is sleeping.",
+        "es": "¿Podrías bajarle? El bebé está durmiendo."
+      },
+      {
+        "en": "They asked us to [keep it down] after ten.",
+        "es": "Nos pidieron no hacer ruido después de las diez."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "voc-quiet-hours",
+    "type": "vocab",
+    "term": "quiet hours",
+    "ipa": "/ˈkwaɪət aʊərz/",
+    "level": "B2",
+    "topic": "home",
+    "freq": 2,
+    "es": "horario de silencio",
+    "def": "a time of day when residents should avoid noise",
+    "note": "Reglas del edificio: *Quiet hours are 10 p.m. to 7 a.m.* Se informa en el contrato o por carteles.",
+    "ex": [
+      {
+        "en": "The building has [quiet hours] after ten.",
+        "es": "El edificio tiene horario de silencio después de las diez."
+      },
+      {
+        "en": "Please respect the [quiet hours].",
+        "es": "Por favor respeten el horario de silencio."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "col-renew-the-lease",
+    "type": "collocation",
+    "term": "renew the lease",
+    "level": "B2",
+    "topic": "home",
+    "freq": 3,
+    "es": "renovar el contrato de renta",
+    "def": "to sign a new agreement to keep renting",
+    "note": "Antes de hacerlo se negocia el monto. *Renew* = renovar; *extend* = extender.",
+    "ex": [
+      {
+        "en": "We plan to [renew the lease] for another year.",
+        "es": "Planeamos renovar el contrato un año más."
+      },
+      {
+        "en": "Do you want to [renew the lease] or move out?",
+        "es": "¿Quieres renovar el contrato o mudarte?"
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "voc-month-to-month",
+    "type": "vocab",
+    "term": "month-to-month",
+    "ipa": "/ˌmʌnθ tə ˈmʌnθ/",
+    "level": "B2",
+    "topic": "home",
+    "freq": 2,
+    "es": "mes a mes (sin plazo fijo)",
+    "def": "a rental arrangement that continues one month at a time",
+    "note": "Más flexible, pero el arrendador puede cambiar condiciones antes. Se dice *on a month-to-month basis*.",
+    "ex": [
+      {
+        "en": "We're renting [month-to-month] until we find a house.",
+        "es": "Rentamos mes a mes hasta encontrar una casa."
+      },
+      {
+        "en": "A [month-to-month] lease gives you flexibility.",
+        "es": "Un contrato mes a mes te da flexibilidad."
+      }
+    ],
+    "areas": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "idi-wiggle-room",
+    "type": "idiom",
+    "term": "wiggle room",
+    "ipa": "/ˈwɪɡəl ruːm/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "margen de maniobra",
+    "def": "some freedom to adjust or negotiate",
+    "note": "Informal-neutral. Pregunta: *Is there any wiggle room on the price?* Sugiere que se puede ceder un poco.",
+    "ex": [
+      {
+        "en": "Is there any [wiggle room] on the rent?",
+        "es": "¿Hay algo de margen en la renta?"
+      },
+      {
+        "en": "The deadline has no [wiggle room].",
+        "es": "El plazo no tiene margen."
+      }
+    ],
+    "areas": [
+      "vivienda",
+      "conversacion"
+    ],
+    "tags": [
+      "informal"
+    ]
+  },
+  {
+    "id": "idi-meet-halfway",
+    "type": "idiom",
+    "term": "meet halfway",
+    "ipa": "/miːt ˈhæfˌweɪ/",
+    "level": "B2",
+    "topic": "social",
+    "freq": 3,
+    "es": "llegar a un punto medio",
+    "def": "to compromise so each side gives a little",
+    "note": "*Meet someone halfway* o *meet in the middle*. Se usa en negociaciones y desacuerdos.",
+    "ex": [
+      {
+        "en": "Let's [meet halfway] and say four percent.",
+        "es": "Lleguemos a un punto medio: cuatro por ciento."
+      },
+      {
+        "en": "She offered to [meet him halfway].",
+        "es": "Ella ofreció llegar a un punto medio con él."
+      }
+    ],
+    "areas": [
+      "vivienda",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "phr-i-was-under-the-impression",
+    "type": "phrase",
+    "term": "I was under the impression that",
+    "ipa": "/aɪ wʌz ˈʌndər ði ɪmˈprɛʃən ðæt/",
+    "level": "C1",
+    "topic": "social",
+    "freq": 2,
+    "es": "yo tenía entendido que",
+    "def": "a polite way to show you believed something that may be wrong",
+    "note": "Cortés: no acusa, solo deja ver que hay un malentendido posible. *I was under the impression we'd agreed.*",
+    "ex": [
+      {
+        "en": "[I was under the impression that] the deposit was refundable.",
+        "es": "Yo tenía entendido que el depósito era reembolsable."
+      },
+      {
+        "en": "[I was under the impression that] you'd call me first.",
+        "es": "Yo tenía entendido que me llamarías primero."
+      }
+    ],
+    "areas": [
+      "vivienda",
+      "conversacion"
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "idi-put-it-in-writing",
+    "type": "idiom",
+    "term": "put it in writing",
+    "ipa": "/pʊt ɪt ɪn ˈraɪtɪŋ/",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "es": "ponerlo por escrito",
+    "def": "to record an agreement in a written form",
+    "note": "Muy útil con contratos y promesas verbales: *Could you put that in writing?* Un correo cuenta.",
+    "ex": [
+      {
+        "en": "Could you [put it in writing], please?",
+        "es": "¿Podría ponerlo por escrito, por favor?"
+      },
+      {
+        "en": "Always [put it in writing] when you agree on a price.",
+        "es": "Siempre pon por escrito lo que acuerdes sobre un precio."
+      }
+    ],
+    "areas": [
+      "vivienda",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "idi-the-fine-print",
+    "type": "idiom",
+    "term": "the fine print",
+    "ipa": "/ðə faɪn prɪnt/",
+    "level": "B2",
+    "topic": "money",
+    "freq": 2,
+    "es": "la letra pequeña",
+    "def": "the detailed terms of a contract that are easy to miss",
+    "note": "Se dice *read the fine print* antes de firmar. Aplica a contratos, ofertas y suscripciones.",
+    "ex": [
+      {
+        "en": "Read [the fine print] before you sign.",
+        "es": "Lee la letra pequeña antes de firmar."
+      },
+      {
+        "en": "The discount is real, but [the fine print] has limits.",
+        "es": "El descuento es real, pero la letra pequeña tiene límites."
+      }
+    ],
+    "areas": [
+      "vivienda",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "voc-clause",
+    "type": "vocab",
+    "term": "clause",
+    "ipa": "/klɔːz/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "es": "cláusula",
+    "def": "a specific part of a contract",
+    "note": "Se dice *a clause in the lease*. Solo vocabulario: para temas legales consulta fuentes oficiales.",
+    "ex": [
+      {
+        "en": "There's a [clause] about early termination.",
+        "es": "Hay una cláusula sobre terminación anticipada."
+      },
+      {
+        "en": "Please read this [clause] carefully.",
+        "es": "Por favor lea esta cláusula con cuidado."
+      }
+    ],
+    "areas": [
+      "vivienda",
+      "conversacion"
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "phr-do-you-have-any-openings-today",
+    "type": "phrase",
+    "term": "do you have any openings today?",
+    "ipa": "/duː jʊ hæv ˈɛni ˈoʊpənɪŋz təˈdeɪ/",
+    "level": "A2",
+    "topic": "health",
+    "freq": 4,
+    "es": "¿tienen citas disponibles hoy?",
+    "def": "a question to find out if you can book an appointment today",
+    "note": "*Opening* = espacio libre en la agenda. También: *Do you have any appointments available?* Sirve en clínicas, peluquerías y talleres.",
+    "ex": [
+      {
+        "en": "[Do you have any openings today]? It's urgent.",
+        "es": "¿Tienen citas disponibles hoy? Es urgente."
+      },
+      {
+        "en": "I called and asked, \"[Do you have any openings today]?\"",
+        "es": "Llamé y pregunté: «¿Tienen citas disponibles hoy?»"
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-ive-had-it-for-three-days",
+    "type": "phrase",
+    "term": "I've had it for three days",
+    "ipa": "/aɪv hæd ɪt fɔːr θriː deɪz/",
+    "level": "A2",
+    "topic": "health",
+    "freq": 4,
+    "es": "lo tengo desde hace tres días",
+    "def": "a way to say how long you have had a symptom",
+    "note": "Duración con presente perfecto + *for*: *I've had it for a week*. Con fecha usa *since*: *since Monday*. Solo para describir, no para diagnosticar.",
+    "ex": [
+      {
+        "en": "[I've had it for three days], and it's not going away.",
+        "es": "Lo tengo desde hace tres días y no se quita."
+      },
+      {
+        "en": "She said, \"[I've had it for three days].\"",
+        "es": "Dijo: «Lo tengo desde hace tres días»."
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "col-pick-up-a-prescription",
+    "type": "collocation",
+    "term": "pick up a prescription",
+    "level": "A2",
+    "topic": "health",
+    "freq": 3,
+    "es": "recoger una receta (medicamento) en la farmacia",
+    "def": "to collect medicine from the pharmacy after the doctor ordered it",
+    "note": "*Fill* = surtir; *pick up* = recoger. Muchas farmacias avisan por mensaje cuando está lista.",
+    "ex": [
+      {
+        "en": "I need to [pick up a prescription] after work.",
+        "es": "Necesito recoger una receta después del trabajo."
+      },
+      {
+        "en": "Did you [pick up the prescription] yet?",
+        "es": "¿Ya recogiste la receta?"
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-how-often-do-i-take-it",
+    "type": "phrase",
+    "term": "how often do I take it?",
+    "ipa": "/haʊ ˈɔːfən duː aɪ teɪk ɪt/",
+    "level": "A2",
+    "topic": "health",
+    "freq": 3,
+    "es": "¿cada cuánto lo tomo?",
+    "def": "a question about how frequently to use a medicine",
+    "note": "Para entender la etiqueta. Respuestas típicas: *twice a day*, *every eight hours*. Solo lenguaje; sigue siempre lo que dice el profesional.",
+    "ex": [
+      {
+        "en": "Excuse me, [how often do I take it]?",
+        "es": "Disculpe, ¿cada cuánto lo tomo?"
+      },
+      {
+        "en": "I asked the pharmacist, \"[How often do I take it]?\"",
+        "es": "Le pregunté al farmacéutico: «¿Cada cuánto lo tomo?»"
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-take-it-with-food",
+    "type": "phrase",
+    "term": "take it with food",
+    "ipa": "/teɪk ɪt wɪð fuːd/",
+    "level": "A2",
+    "topic": "health",
+    "freq": 2,
+    "es": "tómalo con comida",
+    "def": "an instruction found on some medicine labels",
+    "note": "Se oye en la farmacia. Variante: *on an empty stomach*. Solo para entender instrucciones.",
+    "ex": [
+      {
+        "en": "The label says to [take it with food].",
+        "es": "La etiqueta dice que se tome con comida."
+      },
+      {
+        "en": "Please [take it with food] in the morning.",
+        "es": "Por favor tómalo con comida por la mañana."
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "col-reschedule-an-appointment",
+    "type": "collocation",
+    "term": "reschedule an appointment",
+    "level": "B1",
+    "topic": "health",
+    "freq": 3,
+    "es": "reprogramar una cita",
+    "def": "to change the date or time of an appointment",
+    "note": "*Reschedule* es cambiar a otra fecha. *Cancel* es cancelarla. En clínicas piden avisar con anticipación.",
+    "ex": [
+      {
+        "en": "I'd like to [reschedule an appointment], please.",
+        "es": "Quisiera reprogramar una cita, por favor."
+      },
+      {
+        "en": "She had to [reschedule her appointment] twice.",
+        "es": "Tuvo que reprogramar su cita dos veces."
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-whats-the-wait-time",
+    "type": "phrase",
+    "term": "what's the wait time?",
+    "ipa": "/wʌts ðə weɪt taɪm/",
+    "level": "A2",
+    "topic": "health",
+    "freq": 3,
+    "es": "¿cuánto es el tiempo de espera?",
+    "def": "a question about how long you will wait",
+    "note": "En clínicas sin cita (walk-in) es frecuente. También: *How long is the wait?*",
+    "ex": [
+      {
+        "en": "[What's the wait time] right now?",
+        "es": "¿Cuánto es el tiempo de espera ahora?"
+      },
+      {
+        "en": "I called to ask, \"[What's the wait time]?\"",
+        "es": "Llamé para preguntar: «¿Cuánto es el tiempo de espera?»"
+      }
+    ],
+    "areas": [
+      "salud"
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-feel-nauseous",
+    "type": "collocation",
+    "term": "feel nauseous",
+    "level": "B1",
+    "topic": "health",
+    "freq": 3,
+    "es": "tener náuseas",
+    "def": "to feel like you might vomit",
+    "note": "Alternativas: *feel sick to my stomach* (más natural y coloquial). Comunica síntomas; no diagnostiques.",
+    "ex": [
+      {
+        "en": "I started to [feel nauseous] on the bus.",
+        "es": "Empecé a sentir náuseas en el autobús."
+      },
+      {
+        "en": "She [felt nauseous] all morning.",
+        "es": "Sintió náuseas toda la mañana."
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-it-comes-and-goes",
+    "type": "phrase",
+    "term": "it comes and goes",
+    "ipa": "/ɪt kʌmz ænd ɡoʊz/",
+    "level": "B1",
+    "topic": "health",
+    "freq": 4,
+    "es": "va y viene",
+    "def": "a symptom or feeling that appears and disappears",
+    "note": "Sirve para dolor, mareos o ruidos. Sinónimo informal: *on and off*.",
+    "ex": [
+      {
+        "en": "The pain [comes and goes] during the day.",
+        "es": "El dolor va y viene durante el día."
+      },
+      {
+        "en": "I don't have it all the time; [it comes and goes].",
+        "es": "No lo tengo todo el tiempo; va y viene."
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-it-hurts-when-i",
+    "type": "phrase",
+    "term": "it hurts when I...",
+    "ipa": "/ɪt hɜːrts wɛn aɪ/",
+    "level": "B1",
+    "topic": "health",
+    "freq": 4,
+    "es": "me duele cuando...",
+    "def": "a way to say what movement or action causes pain",
+    "note": "Estructura: *It hurts when I bend / swallow / walk*. No se dice *it hurts me when*.",
+    "ex": [
+      {
+        "en": "[It hurts when I] swallow.",
+        "es": "Me duele cuando trago."
+      },
+      {
+        "en": "[It hurts when I] lift my arm above my head.",
+        "es": "Me duele cuando levanto el brazo por encima de la cabeza."
+      }
+    ],
+    "areas": [
+      "salud"
+    ]
+  },
+  {
+    "id": "phr-explain-that-in-simpler-terms",
+    "type": "phrase",
+    "term": "could you explain that in simpler terms?",
+    "ipa": "/kʊd jʊ ɪkˈspleɪn ðæt ɪn ˈsɪmplər tɜːrmz/",
+    "level": "B1",
+    "topic": "health",
+    "freq": 3,
+    "es": "¿podría explicarlo con palabras más simples?",
+    "def": "a polite request to use easier words",
+    "note": "Muy útil con doctores, abogados y bancos. Mostrar que quieres entender bien es normal y bien visto.",
+    "ex": [
+      {
+        "en": "Sorry, [could you explain that in simpler terms]?",
+        "es": "Perdón, ¿podría explicarlo con palabras más simples?"
+      },
+      {
+        "en": "I asked, \"[Could you explain that in simpler terms]?\"",
+        "es": "Pregunté: «¿Podría explicarlo con palabras más simples?»"
+      }
+    ],
+    "areas": [
+      "salud",
+      "conversacion"
+    ]
+  },
+  {
+    "id": "phr-is-it-covered-by-my-insurance",
+    "type": "phrase",
+    "term": "is it covered by my insurance?",
+    "ipa": "/ɪz ɪt ˈkʌvərd baɪ maɪ ɪnˈʃʊrəns/",
+    "level": "B1",
+    "topic": "money",
+    "freq": 3,
+    "es": "¿lo cubre mi seguro?",
+    "def": "a question about whether your insurance pays for something",
+    "note": "Sirve en farmacias, clínicas y talleres. Puedes pedir *the price before insurance* (precio sin seguro).",
+    "ex": [
+      {
+        "en": "[Is it covered by my insurance]?",
+        "es": "¿Lo cubre mi seguro?"
+      },
+      {
+        "en": "Before I buy it, [is it covered by my insurance]?",
+        "es": "Antes de comprarlo, ¿lo cubre mi seguro?"
+      }
+    ],
+    "areas": [
+      "salud",
+      "bancos"
+    ]
+  },
+  {
+    "id": "col-generic-version",
+    "type": "collocation",
+    "term": "generic version",
+    "level": "B2",
+    "topic": "health",
+    "freq": 2,
+    "es": "versión genérica",
+    "def": "a cheaper medicine with the same active ingredient as a brand name one",
+    "note": "Pregunta a la farmacia: *Is there a generic version?* Es una pregunta de precio y disponibilidad; el profesional decide.",
+    "ex": [
+      {
+        "en": "Is there a [generic version] of this medicine?",
+        "es": "¿Hay una versión genérica de este medicamento?"
+      },
+      {
+        "en": "The [generic version] costs less.",
+        "es": "La versión genérica cuesta menos."
+      }
+    ],
+    "areas": [
+      "salud",
+      "compras"
+    ]
+  }
+]

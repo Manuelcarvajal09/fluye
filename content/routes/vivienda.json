@@ -1,0 +1,1852 @@
+{
+  "id": "vivienda",
+  "title_es": "Vivienda y mudanza",
+  "icon": "home",
+  "scene": null,
+  "areas": [
+    "vivienda",
+    "conversacion"
+  ],
+  "season": null,
+  "objective_es": "Ver un departamento, entender el vocabulario del contrato, reportar reparaciones, organizar una mudanza y negociar. Es lenguaje, no asesoría legal.",
+  "tracks": [
+    {
+      "id": "vivienda-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 11,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Ver un departamento y preguntar por servicios, depósito, fecha de pago, duración del contrato y mascotas.",
+      "items": [
+        "col-schedule-a-viewing",
+        "voc-one-bedroom",
+        "voc-furnished",
+        "voc-in-suite-laundry",
+        "phr-are-utilities-included",
+        "col-damage-deposit",
+        "phr-when-is-rent-due",
+        "phr-how-long-is-the-lease",
+        "voc-pet-friendly",
+        "phr-can-i-read-the-lease-first",
+        "voc-landlord",
+        "voc-rent"
+      ],
+      "lesson": {
+        "id": "ls-vivienda-a",
+        "level": "A2",
+        "topic": "home",
+        "order": 914,
+        "title": "Viewing a one-bedroom",
+        "title_es": "Visita a un departamento de una recámara",
+        "intro_es": "Camila visita un departamento en Edmonton. El dueño, el señor Okoye, le enseña el lugar. Es vocabulario de comunicación, no asesoría legal.",
+        "lines": [
+          {
+            "who": "Camila",
+            "en": "Hello, Mr. Okoye. I'm Camila. We [scheduled a viewing] for five o'clock.",
+            "es": "Hola, señor Okoye. Soy Camila. Agendamos una visita para las cinco.",
+            "item": "col-schedule-a-viewing"
+          },
+          {
+            "who": "Tunde",
+            "en": "Welcome, Camila. Come in. This is the [one-bedroom] on the second floor.",
+            "es": "Bienvenida, Camila. Pase. Este es el departamento de una recámara en el segundo piso.",
+            "item": "voc-one-bedroom"
+          },
+          {
+            "who": "Camila",
+            "en": "It's very bright. Is it [furnished]?",
+            "es": "Es muy luminoso. ¿Está amueblado?",
+            "item": "voc-furnished"
+          },
+          {
+            "who": "Tunde",
+            "en": "No, it's empty. The fridge and the stove are included, and there is [in-suite laundry].",
+            "es": "No, está vacío. El refri y la estufa están incluidos, y hay lavandería dentro del departamento.",
+            "item": "voc-in-suite-laundry"
+          },
+          {
+            "who": "Camila",
+            "en": "[Are utilities included]?",
+            "es": "¿Los servicios están incluidos?",
+            "item": "phr-are-utilities-included"
+          },
+          {
+            "who": "Tunde",
+            "en": "Water and heat, yes. You pay electricity and internet.",
+            "es": "Agua y calefacción, sí. Usted paga la luz y el internet."
+          },
+          {
+            "who": "Camila",
+            "en": "And how much is the [damage deposit]?",
+            "es": "¿Y cuánto es el depósito de daños?",
+            "item": "col-damage-deposit"
+          },
+          {
+            "who": "Tunde",
+            "en": "Half a month's rent. The rent is thirteen hundred dollars.",
+            "es": "Medio mes de renta. La renta es mil trescientos dólares."
+          },
+          {
+            "who": "Camila",
+            "en": "[When is rent due]?",
+            "es": "¿Cuándo se paga la renta?",
+            "item": "phr-when-is-rent-due"
+          },
+          {
+            "who": "Tunde",
+            "en": "On the first of each month.",
+            "es": "El primero de cada mes."
+          },
+          {
+            "who": "Camila",
+            "en": "[How long is the lease]?",
+            "es": "¿Cuánto dura el contrato?",
+            "item": "phr-how-long-is-the-lease"
+          },
+          {
+            "who": "Tunde",
+            "en": "One year. After that, you can renew.",
+            "es": "Un año. Después se puede renovar."
+          },
+          {
+            "who": "Camila",
+            "en": "Is it [pet-friendly]? I have a small cat.",
+            "es": "¿Aceptan mascotas? Tengo un gato pequeño.",
+            "item": "voc-pet-friendly"
+          },
+          {
+            "who": "Tunde",
+            "en": "Yes, cats are fine.",
+            "es": "Sí, los gatos están bien."
+          },
+          {
+            "who": "Camila",
+            "en": "Great! [Can I read the lease first]? And when can I move in?",
+            "es": "¡Excelente! ¿Puedo leer el contrato primero? ¿Y cuándo puedo mudarme?",
+            "item": "phr-can-i-read-the-lease-first"
+          },
+          {
+            "who": "Tunde",
+            "en": "Of course. You can move in next Monday.",
+            "es": "Claro. Puede mudarse el próximo lunes."
+          }
+        ],
+        "items": [
+          "col-schedule-a-viewing",
+          "voc-one-bedroom",
+          "voc-furnished",
+          "voc-in-suite-laundry",
+          "phr-are-utilities-included",
+          "col-damage-deposit",
+          "phr-when-is-rent-due",
+          "phr-how-long-is-the-lease",
+          "voc-pet-friendly",
+          "phr-can-i-read-the-lease-first"
+        ],
+        "questions": [
+          {
+            "q": "What kind of apartment is it?",
+            "options": [
+              "A one-bedroom",
+              "A studio",
+              "A two-bedroom"
+            ],
+            "answer": 0,
+            "why_es": "Tunde dice: This is the one-bedroom."
+          },
+          {
+            "q": "Is the apartment furnished?",
+            "options": [
+              "Yes, fully",
+              "No, but fridge and stove are included",
+              "No, and there is no kitchen"
+            ],
+            "answer": 1,
+            "why_es": "Está vacío, pero incluye refri y estufa."
+          },
+          {
+            "q": "What does the tenant pay besides rent?",
+            "options": [
+              "Electricity and internet",
+              "Water and heat",
+              "Nothing"
+            ],
+            "answer": 0,
+            "why_es": "Agua y calefacción están incluidas; luz e internet no."
+          },
+          {
+            "q": "What does Camila want to do before signing?",
+            "options": [
+              "Read the lease",
+              "Call a lawyer",
+              "Paint the walls"
+            ],
+            "answer": 0,
+            "why_es": "Pide leer el contrato primero."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pregunta si los servicios (luz, agua, calefacción) están incluidos.",
+          "model": [
+            "Are utilities included?",
+            "Is water included in the rent?"
+          ],
+          "expect": [
+            [
+              "utilities",
+              "heat",
+              "water",
+              "electricity",
+              "included",
+              "include"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta cuándo se paga la renta y cuánto es el depósito.",
+          "model": [
+            "When is rent due? And how much is the damage deposit?",
+            "When do I pay rent, and what is the deposit?"
+          ],
+          "expect": [
+            [
+              "due",
+              "when",
+              "pay",
+              "first"
+            ],
+            [
+              "deposit"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta si aceptan mascotas, porque tienes un gato.",
+          "model": [
+            "Is it pet-friendly? I have a cat.",
+            "Are pets allowed? I have a small cat."
+          ],
+          "expect": [
+            [
+              "pet",
+              "pets",
+              "cat",
+              "dog",
+              "animals",
+              "pet-friendly"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide leer el contrato antes de firmar.",
+          "model": [
+            "Can I read the lease first?",
+            "Could I read the contract before I sign?"
+          ],
+          "expect": [
+            [
+              "read",
+              "see",
+              "review"
+            ],
+            [
+              "lease",
+              "contract",
+              "agreement"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste la cantidad.",
+          "en": "Sorry, how much was the rent?",
+          "es": "Perdón, ¿cuánto era la renta?"
+        },
+        {
+          "situation_es": "No entendiste una palabra del contrato.",
+          "en": "What does that word mean?",
+          "es": "¿Qué significa esa palabra?"
+        },
+        {
+          "situation_es": "Quieres confirmar la fecha.",
+          "en": "So the first of each month, right?",
+          "es": "Entonces es el primero de cada mes, ¿verdad?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-vivienda-a",
+        "area": "vivienda",
+        "level": "A2",
+        "title": "Apartment viewing",
+        "title_es": "Visita a un departamento",
+        "setting_es": "Llegas a ver un departamento en Edmonton. El dueño, el señor Okoye, te recibe en la puerta.",
+        "npc": "Mr. Okoye",
+        "turns": [
+          {
+            "npc": "Hello, you must be {name}. Come in!",
+            "npc_es": "Hola, usted debe ser {name}. ¡Pase!",
+            "task_es": "Saluda y confirma que vienes a la visita de las cinco.",
+            "expect": [
+              [
+                "hello",
+                "hi",
+                "good"
+              ],
+              [
+                "viewing",
+                "appointment",
+                "scheduled",
+                "five",
+                "today",
+                "here",
+                "visit"
+              ]
+            ],
+            "model": [
+              "Hello, Mr. Okoye. I'm here for the viewing at five.",
+              "Hi! Yes, we scheduled a viewing for today."
+            ]
+          },
+          {
+            "npc": "This is the living room. It's a one-bedroom, and the fridge and stove are included.",
+            "npc_es": "Esta es la sala. Es un departamento de una recámara y el refri y la estufa están incluidos.",
+            "task_es": "Pregunta si hay lavandería dentro del departamento.",
+            "expect": [
+              [
+                "laundry",
+                "washer",
+                "dryer"
+              ],
+              [
+                "in suite",
+                "in-suite",
+                "apartment",
+                "unit",
+                "inside",
+                "building"
+              ]
+            ],
+            "model": [
+              "Is there in-suite laundry?",
+              "Does the apartment have a washer and dryer?"
+            ]
+          },
+          {
+            "npc": "Yes, there's a washer and dryer in the closet. Anything else you'd like to know?",
+            "npc_es": "Sí, hay lavadora y secadora en el clóset. ¿Algo más que quiera saber?",
+            "task_es": "Pregunta si los servicios están incluidos.",
+            "expect": [
+              [
+                "utilities",
+                "heat",
+                "water",
+                "electricity",
+                "internet"
+              ]
+            ],
+            "model": [
+              "Are utilities included?",
+              "Is heat included in the rent?"
+            ]
+          },
+          {
+            "npc": "Water and heat are included. You pay for electricity and internet.",
+            "npc_es": "El agua y la calefacción están incluidas. Usted paga luz e internet.",
+            "task_es": "Pregunta cuánto es el depósito y cuándo se paga la renta.",
+            "expect": [
+              [
+                "deposit"
+              ],
+              [
+                "due",
+                "when",
+                "first",
+                "pay"
+              ]
+            ],
+            "model": [
+              "How much is the damage deposit? And when is rent due?",
+              "What is the deposit, and when do I pay rent?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bwarranty\\b",
+                "fix": "damage deposit / security deposit",
+                "why_es": "*Warranty* es la garantía de un producto. El depósito de renta es *damage deposit* o *security deposit*."
+              }
+            ]
+          },
+          {
+            "npc": "The deposit is half a month's rent, and rent is due on the first of each month.",
+            "npc_es": "El depósito es medio mes de renta y la renta se paga el primero de cada mes.",
+            "task_es": "Pregunta si aceptan mascotas (tienes un gato).",
+            "expect": [
+              [
+                "pet",
+                "pets",
+                "cat",
+                "dog",
+                "animals",
+                "pet-friendly"
+              ]
+            ],
+            "model": [
+              "Is it pet-friendly? I have a small cat.",
+              "Are pets allowed? I have a cat."
+            ]
+          },
+          {
+            "npc": "Cats are fine. Do you like the place? Would you like to apply?",
+            "npc_es": "Los gatos están bien. ¿Le gusta el lugar? ¿Quiere solicitar?",
+            "task_es": "Di que te gusta y pide leer el contrato antes de firmar.",
+            "expect": [
+              [
+                "like",
+                "love",
+                "great",
+                "nice",
+                "good",
+                "beautiful"
+              ],
+              [
+                "read",
+                "lease",
+                "contract",
+                "before",
+                "first",
+                "sign"
+              ]
+            ],
+            "model": [
+              "I love it. Can I read the lease first?",
+              "It's nice. Could I read the contract before I sign?"
+            ]
+          }
+        ],
+        "useful": [
+          "Are utilities included?",
+          "When is rent due?",
+          "How long is the lease?",
+          "Can I read the lease first?"
+        ]
+      }
+    },
+    {
+      "id": "vivienda-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Reportar una reparación, coordinar una mudanza y responder a un vecino con tacto.",
+      "items": [
+        "voc-superintendent",
+        "phr-the-faucet-is-leaking",
+        "voc-maintenance-request",
+        "phr-the-sink-is-clogged",
+        "col-hire-movers",
+        "col-book-the-elevator",
+        "voc-fragile",
+        "idi-keep-it-down",
+        "voc-quiet-hours",
+        "voc-neighbour",
+        "pv-move-in"
+      ],
+      "lesson": {
+        "id": "ls-vivienda-b",
+        "level": "B1",
+        "topic": "home",
+        "order": 915,
+        "title": "A leak, a move and a noisy night",
+        "title_es": "Una fuga, una mudanza y una noche ruidosa",
+        "intro_es": "Elias ya vive en el edificio, pero tiene problemas con la llave, organiza una mudanza dentro del edificio y conoce a su vecina Nadia.",
+        "lines": [
+          {
+            "who": "Elias",
+            "en": "Hi, is this the [superintendent]? It's Elias in 305.",
+            "es": "Hola, ¿es usted el encargado del edificio? Soy Elias del 305.",
+            "item": "voc-superintendent"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Speaking. What's going on?",
+            "es": "Soy yo. ¿Qué pasa?"
+          },
+          {
+            "who": "Elias",
+            "en": "[The faucet is leaking] in the kitchen, and it's getting worse.",
+            "es": "La llave de la cocina gotea y está empeorando.",
+            "item": "phr-the-faucet-is-leaking"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Did you submit a [maintenance request]?",
+            "es": "¿Envió una solicitud de mantenimiento?",
+            "item": "voc-maintenance-request"
+          },
+          {
+            "who": "Elias",
+            "en": "This morning, online. Also, [the sink is clogged] in the bathroom.",
+            "es": "Esta mañana, en línea. Además, el lavabo del baño está tapado.",
+            "item": "phr-the-sink-is-clogged"
+          },
+          {
+            "who": "Rhonda",
+            "en": "I'll send a plumber tomorrow between nine and noon. Will you be home?",
+            "es": "Mandaré a un plomero mañana entre nueve y mediodía. ¿Estará en casa?"
+          },
+          {
+            "who": "Elias",
+            "en": "I'll be at work. Could you give me a heads-up before anyone goes in?",
+            "es": "Estaré en el trabajo. ¿Podría avisarme antes de que alguien entre?"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Sure, I'll text you.",
+            "es": "Claro, le mando un mensaje."
+          },
+          {
+            "who": "Elias",
+            "en": "I [hired movers] for Saturday afternoon, by the way.",
+            "es": "Por cierto, contraté mudanceros para el sábado en la tarde.",
+            "item": "col-hire-movers"
+          },
+          {
+            "who": "Elias",
+            "en": "Could you [book the elevator] from two to four?",
+            "es": "¿Podría reservar el elevador de dos a cuatro?",
+            "item": "col-book-the-elevator"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Done. It's on the calendar. Good luck!",
+            "es": "Listo. Está en el calendario. ¡Suerte!"
+          },
+          {
+            "who": "Elias",
+            "en": "Careful with this box, please. It's [fragile].",
+            "es": "Cuidado con esta caja, por favor. Es frágil.",
+            "item": "voc-fragile"
+          },
+          {
+            "who": "Kai",
+            "en": "No problem. We'll put it on top.",
+            "es": "Sin problema. La pondremos arriba."
+          },
+          {
+            "who": "Nadia",
+            "en": "Hi! I'm Nadia from 307. Welcome! Quick favour: could you [keep it down] after ten?",
+            "es": "¡Hola! Soy Nadia del 307. ¡Bienvenido! Un favor: ¿podrías hacer menos ruido después de las diez?",
+            "item": "idi-keep-it-down"
+          },
+          {
+            "who": "Elias",
+            "en": "Of course, sorry. I didn't know about the [quiet hours].",
+            "es": "Claro, perdón. No sabía lo del horario de silencio.",
+            "item": "voc-quiet-hours"
+          },
+          {
+            "who": "Nadia",
+            "en": "They start at ten. It's a friendly building, don't worry.",
+            "es": "Empiezan a las diez. Es un edificio amable, no te preocupes."
+          }
+        ],
+        "items": [
+          "voc-superintendent",
+          "phr-the-faucet-is-leaking",
+          "voc-maintenance-request",
+          "phr-the-sink-is-clogged",
+          "col-hire-movers",
+          "col-book-the-elevator",
+          "voc-fragile",
+          "idi-keep-it-down",
+          "voc-quiet-hours"
+        ],
+        "questions": [
+          {
+            "q": "What two problems does Elias report?",
+            "options": [
+              "A leaking faucet and a clogged sink",
+              "A broken door and no heat",
+              "A missing key and a loud neighbour"
+            ],
+            "answer": 0,
+            "why_es": "Reporta una llave que gotea y un lavabo tapado."
+          },
+          {
+            "q": "What does Elias ask before anyone enters his suite?",
+            "options": [
+              "A discount",
+              "A heads-up message",
+              "A new key"
+            ],
+            "answer": 1,
+            "why_es": "Pide que le avisen antes de que alguien entre."
+          },
+          {
+            "q": "Why does Elias ask to book the elevator?",
+            "options": [
+              "For his moving day",
+              "To fix it",
+              "To meet a neighbour"
+            ],
+            "answer": 0,
+            "why_es": "Quiere usarlo para la mudanza del sábado."
+          },
+          {
+            "q": "What does Nadia ask Elias to do?",
+            "options": [
+              "Keep it down after ten",
+              "Move his car",
+              "Pay for repairs"
+            ],
+            "answer": 0,
+            "why_es": "Le pide hacer menos ruido después de las diez."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Reporta que la llave de la cocina gotea y pide que manden a alguien.",
+          "model": [
+            "The kitchen faucet is leaking. Could you send someone to fix it?",
+            "The tap in my kitchen is leaking. Can you send a plumber, please?"
+          ],
+          "expect": [
+            [
+              "faucet",
+              "sink",
+              "leak",
+              "leaking",
+              "pipe",
+              "tap"
+            ],
+            [
+              "fix",
+              "repair",
+              "send",
+              "plumber",
+              "someone",
+              "maintenance"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide que te avisen antes de que entre el plomero.",
+          "model": [
+            "Could you give me a heads-up before the plumber comes?",
+            "Please text me before the plumber goes in."
+          ],
+          "expect": [
+            [
+              "heads-up",
+              "heads up",
+              "let me know",
+              "notice",
+              "tell me",
+              "text me",
+              "call me"
+            ],
+            [
+              "before",
+              "plumber",
+              "come",
+              "comes",
+              "enter",
+              "arrive",
+              "goes in"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Reserva el elevador para tu mudanza del sábado.",
+          "model": [
+            "Could I book the elevator for Saturday from two to four for my move?",
+            "I'd like to reserve the elevator for my moving day on Saturday."
+          ],
+          "expect": [
+            [
+              "elevator",
+              "lift"
+            ],
+            [
+              "book",
+              "reserve",
+              "saturday",
+              "move",
+              "moving"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Responde a un vecino que pide silencio con una disculpa y un compromiso.",
+          "model": [
+            "Sorry about the noise. I'll keep it down after ten.",
+            "I apologize. I'll be quieter after ten."
+          ],
+          "expect": [
+            [
+              "sorry",
+              "apologize",
+              "apologise"
+            ],
+            [
+              "keep it down",
+              "quiet",
+              "quieter",
+              "noise",
+              "after ten",
+              "ten"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No oíste el horario del plomero.",
+          "en": "Sorry, what time did you say? Between nine and noon?",
+          "es": "Perdón, ¿qué hora dijo? ¿Entre nueve y mediodía?"
+        },
+        {
+          "situation_es": "Quieres confirmar la visita.",
+          "en": "So, just to confirm, the plumber comes tomorrow morning?",
+          "es": "Entonces, solo para confirmar, ¿el plomero viene mañana en la mañana?"
+        },
+        {
+          "situation_es": "No entendiste una palabra.",
+          "en": "I'm not familiar with that word. Could you explain it?",
+          "es": "No conozco esa palabra. ¿Podría explicarla?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-vivienda-b",
+        "area": "vivienda",
+        "level": "B1",
+        "title": "Reporting a repair",
+        "title_es": "Reportar una reparación",
+        "setting_es": "Vives en el departamento 305 de un edificio en Edmonton. Llamas a la encargada del edificio, Rhonda, porque la llave de la cocina gotea.",
+        "npc": "Rhonda",
+        "turns": [
+          {
+            "npc": "Building office, Rhonda speaking.",
+            "npc_es": "Oficina del edificio, habla Rhonda.",
+            "task_es": "Preséntate (departamento 305) y di que tienes un problema con la llave de la cocina.",
+            "expect": [
+              [
+                "305",
+                "suite",
+                "apartment",
+                "unit"
+              ],
+              [
+                "problem",
+                "issue",
+                "leak",
+                "leaking",
+                "faucet",
+                "sink",
+                "clogged"
+              ]
+            ],
+            "model": [
+              "Hi, this is Elias in 305. I have a problem with my kitchen faucet.",
+              "Hello, I'm in suite 305. There's an issue with the sink."
+            ]
+          },
+          {
+            "npc": "What exactly is wrong?",
+            "npc_es": "¿Qué le pasa exactamente?",
+            "task_es": "Explica que gotea y que ha empeorado desde ayer.",
+            "expect": [
+              [
+                "leak",
+                "leaking",
+                "drip",
+                "dripping",
+                "water"
+              ],
+              [
+                "worse",
+                "yesterday",
+                "getting",
+                "bigger",
+                "more",
+                "since"
+              ]
+            ],
+            "model": [
+              "It's leaking, and it's gotten worse since yesterday.",
+              "The faucet is dripping a lot more than yesterday."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bspilling\\b|\\bit is spilling\\b",
+                "fix": "leaking / dripping",
+                "why_es": "Para una llave que gotea se dice *leaking* o *dripping*; *spill* es derramar."
+              }
+            ]
+          },
+          {
+            "npc": "Okay. Did you put in a maintenance request? I can send the plumber tomorrow morning.",
+            "npc_es": "Bien. ¿Hizo una solicitud de mantenimiento? Puedo mandar al plomero mañana en la mañana.",
+            "task_es": "Di que enviaste la solicitud en línea y pregunta a qué hora vendrá.",
+            "expect": [
+              [
+                "request",
+                "submitted",
+                "online",
+                "sent",
+                "filled"
+              ],
+              [
+                "time",
+                "when",
+                "what time",
+                "morning",
+                "hour",
+                "come"
+              ]
+            ],
+            "model": [
+              "Yes, I submitted a request online. What time will the plumber come?",
+              "I sent it online this morning. When will he come?"
+            ]
+          },
+          {
+            "npc": "Between nine and noon. Will you be home?",
+            "npc_es": "Entre nueve y mediodía. ¿Estará en casa?",
+            "task_es": "Di que estarás en el trabajo y pide aviso por mensaje antes de que entren.",
+            "expect": [
+              [
+                "work",
+                "not home",
+                "away",
+                "out",
+                "won't",
+                "wont"
+              ],
+              [
+                "text",
+                "call",
+                "message",
+                "notify",
+                "let me know",
+                "heads-up",
+                "heads up",
+                "notice"
+              ]
+            ],
+            "model": [
+              "I'll be at work. Could you text me before the plumber goes in?",
+              "I won't be home. Please let me know before he enters."
+            ]
+          },
+          {
+            "npc": "Sure, I'll text you. Also, is there anything else that needs fixing?",
+            "npc_es": "Claro, le mando un mensaje. ¿Hay algo más que arreglar?",
+            "task_es": "Menciona que el lavabo del baño está tapado.",
+            "expect": [
+              [
+                "sink",
+                "drain",
+                "bathroom"
+              ],
+              [
+                "clogged",
+                "blocked",
+                "slow",
+                "stuck",
+                "won't drain",
+                "wont drain",
+                "plugged"
+              ]
+            ],
+            "model": [
+              "Yes, the bathroom sink is clogged.",
+              "The bathroom drain is blocked, too."
+            ]
+          },
+          {
+            "npc": "Noted. I'll tell the plumber to look at both. Anything else?",
+            "npc_es": "Anotado. Le diré al plomero que revise ambos. ¿Algo más?",
+            "task_es": "Agradece y confirma que esperarás el mensaje.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "text",
+                "message",
+                "wait",
+                "hear",
+                "expect",
+                "appreciate",
+                "great",
+                "perfect"
+              ]
+            ],
+            "model": [
+              "No, that's all. Thank you! I'll wait for your text.",
+              "Thanks, Rhonda. I'll be expecting your message."
+            ]
+          }
+        ],
+        "useful": [
+          "The faucet is leaking.",
+          "Could you give me a heads-up?",
+          "I submitted a maintenance request.",
+          "The sink is clogged."
+        ]
+      }
+    },
+    {
+      "id": "vivienda-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 17,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Negociar una renovación con diplomacia: cuestionar un aumento, proponer un punto medio y pedir todo por escrito.",
+      "items": [
+        "voc-rent-increase",
+        "col-renew-the-lease",
+        "phr-i-was-under-the-impression",
+        "phr-with-all-due-respect",
+        "idi-wiggle-room",
+        "idi-meet-halfway",
+        "voc-month-to-month",
+        "idi-the-fine-print",
+        "voc-clause",
+        "idi-put-it-in-writing"
+      ],
+      "lesson": {
+        "id": "ls-vivienda-c",
+        "level": "C1",
+        "topic": "home",
+        "order": 916,
+        "title": "Renewing the lease, negotiating the rent",
+        "title_es": "Renovar el contrato y negociar la renta",
+        "intro_es": "Valeria y su arrendador, el señor Haddad, hablan de renovar. Es práctica de lenguaje de negociación, no asesoría legal ni de reglas de renta.",
+        "lines": [
+          {
+            "who": "Haddad",
+            "en": "Thanks for coming by, Valeria. Your lease ends next month, and I'd like to discuss a [rent increase].",
+            "es": "Gracias por venir, Valeria. Su contrato termina el próximo mes y quisiera hablar de un aumento de renta.",
+            "item": "voc-rent-increase"
+          },
+          {
+            "who": "Valeria",
+            "en": "I appreciate you raising it in person. Honestly, I'd like to [renew the lease], but the number matters.",
+            "es": "Agradezco que lo plantee en persona. Sinceramente, quiero renovar el contrato, pero el monto importa.",
+            "item": "col-renew-the-lease"
+          },
+          {
+            "who": "Haddad",
+            "en": "It would be eight percent. Market rents have gone up across the city.",
+            "es": "Sería un ocho por ciento. Las rentas del mercado han subido en toda la ciudad."
+          },
+          {
+            "who": "Valeria",
+            "en": "[I was under the impression that] there was a limit on how often rent can rise. I may be wrong, so I'll check the official sources.",
+            "es": "Yo tenía entendido que había un límite de cuántas veces puede subir la renta. Quizá me equivoque, así que revisaré las fuentes oficiales.",
+            "item": "phr-i-was-under-the-impression"
+          },
+          {
+            "who": "Haddad",
+            "en": "I know the rules, and I'm following them. This chat is a courtesy.",
+            "es": "Conozco las reglas y las estoy siguiendo. Esta plática es una cortesía."
+          },
+          {
+            "who": "Valeria",
+            "en": "Understood. [With all due respect], eight percent is steep for a unit with aging appliances.",
+            "es": "Entendido. Con todo respeto, ocho por ciento es mucho para un departamento con electrodomésticos viejos.",
+            "item": "phr-with-all-due-respect"
+          },
+          {
+            "who": "Haddad",
+            "en": "The appliances still work. I do have a little [wiggle room], but not much.",
+            "es": "Los electrodomésticos aún funcionan. Tengo un poco de margen, pero no mucho.",
+            "item": "idi-wiggle-room"
+          },
+          {
+            "who": "Valeria",
+            "en": "Could we [meet halfway] at four percent? I'd happily sign for two years.",
+            "es": "¿Podríamos llegar a un punto medio, cuatro por ciento? Con gusto firmo por dos años.",
+            "item": "idi-meet-halfway"
+          },
+          {
+            "who": "Haddad",
+            "en": "Two years is attractive. Otherwise I could offer a [month-to-month] arrangement, but the rent could change sooner.",
+            "es": "Dos años es atractivo. Si no, podría ofrecer mes a mes, pero la renta podría cambiar antes.",
+            "item": "voc-month-to-month"
+          },
+          {
+            "who": "Valeria",
+            "en": "I'd prefer stability. Before I sign, I'd like to read [the fine print].",
+            "es": "Prefiero estabilidad. Antes de firmar, quiero leer la letra pequeña.",
+            "item": "idi-the-fine-print"
+          },
+          {
+            "who": "Haddad",
+            "en": "Fair enough. There's a [clause] about early termination that you should read closely.",
+            "es": "Justo. Hay una cláusula sobre terminación anticipada que debería leer con atención.",
+            "item": "voc-clause"
+          },
+          {
+            "who": "Valeria",
+            "en": "Could you [put it in writing]: the new rent, the term and that clause?",
+            "es": "¿Podría ponerlo por escrito: la nueva renta, el plazo y esa cláusula?",
+            "item": "idi-put-it-in-writing"
+          },
+          {
+            "who": "Haddad",
+            "en": "Of course. I'll email it tonight.",
+            "es": "Por supuesto. Se lo envío esta noche por correo."
+          },
+          {
+            "who": "Valeria",
+            "en": "Thank you. I'll review it with fresh eyes and get back to you by Friday.",
+            "es": "Gracias. Lo revisaré con calma y le responderé el viernes."
+          },
+          {
+            "who": "Haddad",
+            "en": "Sounds fair. I'd hate to lose a good tenant.",
+            "es": "Me parece justo. Odiaría perder a una buena inquilina."
+          }
+        ],
+        "items": [
+          "voc-rent-increase",
+          "col-renew-the-lease",
+          "phr-i-was-under-the-impression",
+          "phr-with-all-due-respect",
+          "idi-wiggle-room",
+          "idi-meet-halfway",
+          "voc-month-to-month",
+          "idi-the-fine-print",
+          "voc-clause",
+          "idi-put-it-in-writing"
+        ],
+        "questions": [
+          {
+            "q": "What does Haddad want to discuss?",
+            "options": [
+              "A broken window",
+              "A rent increase",
+              "A new roommate"
+            ],
+            "answer": 1,
+            "why_es": "Quiere hablar de un aumento de renta."
+          },
+          {
+            "q": "Why does Valeria say \"I was under the impression\"?",
+            "options": [
+              "To politely challenge an assumption",
+              "To accept the offer",
+              "To end the meeting"
+            ],
+            "answer": 0,
+            "why_es": "Es una forma cortés de dudar de lo que él sugiere sin acusarlo."
+          },
+          {
+            "q": "What does Valeria propose?",
+            "options": [
+              "Four percent for two years",
+              "No increase at all",
+              "Month-to-month at eight percent"
+            ],
+            "answer": 0,
+            "why_es": "Propone cuatro por ciento a cambio de firmar dos años."
+          },
+          {
+            "q": "What does \"wiggle room\" mean?",
+            "options": [
+              "A small room",
+              "Some flexibility",
+              "A noisy neighbour"
+            ],
+            "answer": 1,
+            "why_es": "Significa margen para ajustar o negociar."
+          },
+          {
+            "q": "Why does Valeria ask to put it in writing?",
+            "options": [
+              "So she can review the terms and clause carefully",
+              "Because she doesn't speak English",
+              "To avoid paying rent"
+            ],
+            "answer": 0,
+            "why_es": "Quiere revisar con calma renta, plazo y cláusula."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Cuestiona con diplomacia un aumento de renta pidiendo margen.",
+          "model": [
+            "With all due respect, eight percent feels steep. Is there any wiggle room?",
+            "I appreciate the heads-up, but that increase is high. Is there any flexibility?"
+          ],
+          "expect": [
+            [
+              "with all due respect",
+              "respectfully",
+              "i understand",
+              "i appreciate"
+            ],
+            [
+              "steep",
+              "high",
+              "wiggle room",
+              "flexibility",
+              "reconsider",
+              "increase",
+              "percent"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Propón un punto medio a cambio de un compromiso más largo.",
+          "model": [
+            "Could we meet halfway at four percent if I sign for two years?",
+            "I'd be willing to commit to two years if we could split the difference."
+          ],
+          "expect": [
+            [
+              "meet halfway",
+              "halfway",
+              "compromise",
+              "middle",
+              "split the difference"
+            ],
+            [
+              "percent",
+              "two years",
+              "year",
+              "sign",
+              "commit",
+              "longer",
+              "term"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Matiza una suposición sin acusar al otro de mentir.",
+          "model": [
+            "I was under the impression that we had agreed on the original date.",
+            "My understanding was that notice was required. Could you clarify?"
+          ],
+          "expect": [
+            [
+              "under the impression",
+              "thought",
+              "understood",
+              "assumed",
+              "my understanding"
+            ],
+            [
+              "agreed",
+              "date",
+              "original",
+              "notice",
+              "rent",
+              "lease",
+              "clarify"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide que todo quede por escrito antes de firmar.",
+          "model": [
+            "Before I sign, could you put the new rent and the term in writing?",
+            "I'd like to read the fine print. Could you email me the lease terms?"
+          ],
+          "expect": [
+            [
+              "writing",
+              "written",
+              "email",
+              "in writing"
+            ],
+            [
+              "rent",
+              "term",
+              "terms",
+              "lease",
+              "clause",
+              "details",
+              "agreement"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres confirmar cuándo entra en vigor el cambio.",
+          "en": "If I understand correctly, the increase takes effect next month?",
+          "es": "Si entiendo bien, ¿el aumento aplica el próximo mes?"
+        },
+        {
+          "situation_es": "Quieres que parafraseen una cláusula.",
+          "en": "I want to be sure I'm reading this clause correctly. Could you paraphrase it?",
+          "es": "Quiero asegurarme de leer bien esta cláusula. ¿Podría parafrasearla?"
+        },
+        {
+          "situation_es": "Quieres aclarar tu pregunta.",
+          "en": "Let me back up: what I meant to ask is how the notice period works.",
+          "es": "Déjeme retroceder: lo que quise preguntar es cómo funciona el periodo de aviso."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-vivienda-c",
+        "area": "vivienda",
+        "level": "C1",
+        "title": "Negotiating a lease renewal",
+        "title_es": "Negociar la renovación del contrato",
+        "setting_es": "Te reúnes con tu arrendador, el señor Haddad, para hablar de renovar tu contrato. Propone un aumento de renta del ocho por ciento. Practicas lenguaje de negociación; no es asesoría legal.",
+        "npc": "Mr. Haddad",
+        "turns": [
+          {
+            "npc": "{name}, thanks for coming by. Your lease is up next month, and I'd like to discuss a rent increase of eight percent.",
+            "npc_es": "{name}, gracias por venir. Su contrato termina el próximo mes y quisiera hablar de un aumento de renta del ocho por ciento.",
+            "task_es": "Agradece el aviso en persona, expresa interés en renovar y di que el monto te preocupa.",
+            "expect": [
+              [
+                "appreciate",
+                "thank",
+                "thanks"
+              ],
+              [
+                "renew",
+                "stay",
+                "lease",
+                "interested",
+                "concern",
+                "steep",
+                "high",
+                "number",
+                "increase",
+                "worried"
+              ]
+            ],
+            "model": [
+              "I appreciate you telling me in person. I'd like to renew, but the increase concerns me.",
+              "Thanks for raising it. I'm interested in staying, but eight percent is a worry."
+            ]
+          },
+          {
+            "npc": "I understand. Market rents have climbed across the city. This is fairly typical.",
+            "npc_es": "Entiendo. Las rentas del mercado han subido en toda la ciudad. Es bastante típico.",
+            "task_es": "Cuestiona con respeto: los electrodomésticos son viejos; pide flexibilidad.",
+            "expect": [
+              [
+                "respect",
+                "understand",
+                "appreciate",
+                "however",
+                "but"
+              ],
+              [
+                "appliances",
+                "old",
+                "aging",
+                "older",
+                "unit",
+                "flexibility",
+                "wiggle room",
+                "room",
+                "reconsider"
+              ]
+            ],
+            "model": [
+              "With all due respect, the appliances are quite old. Is there any wiggle room on the increase?",
+              "I understand, but the unit has aging appliances. Is there any flexibility?"
+            ]
+          },
+          {
+            "npc": "I do have some flexibility, but not much. What did you have in mind?",
+            "npc_es": "Tengo algo de flexibilidad, pero no mucha. ¿Qué tiene en mente?",
+            "task_es": "Propón un punto medio a cambio de un contrato más largo.",
+            "expect": [
+              [
+                "halfway",
+                "four percent",
+                "4",
+                "compromise",
+                "middle",
+                "split"
+              ],
+              [
+                "two years",
+                "two-year",
+                "longer",
+                "term",
+                "sign",
+                "commit",
+                "year"
+              ]
+            ],
+            "model": [
+              "Could we meet halfway at four percent if I sign a two-year lease?",
+              "I'd commit to two years if we could compromise at four percent."
+            ]
+          },
+          {
+            "npc": "Two years is attractive. I could do five percent, though. Does that work?",
+            "npc_es": "Dos años es atractivo. Podría hacerlo en cinco por ciento. ¿Le parece bien?",
+            "task_es": "Responde con cortesía que lo consideras, pero quieres revisar los detalles antes de decidir.",
+            "expect": [
+              [
+                "consider",
+                "think",
+                "review",
+                "read",
+                "look",
+                "before",
+                "think about",
+                "weigh"
+              ],
+              [
+                "clause",
+                "clauses",
+                "details",
+                "terms",
+                "fine print",
+                "lease",
+                "contract",
+                "agreement"
+              ]
+            ],
+            "model": [
+              "That's closer. I'd like to review the terms and the fine print before deciding.",
+              "Thank you. Let me think about it and read the lease details first."
+            ]
+          },
+          {
+            "npc": "Of course. There's a clause about early termination you should read carefully. Shall I send everything over?",
+            "npc_es": "Por supuesto. Hay una cláusula sobre terminación anticipada que debería leer con cuidado. ¿Le envío todo?",
+            "task_es": "Pide que se envíe por escrito (correo) y di cuándo responderás.",
+            "expect": [
+              [
+                "writing",
+                "written",
+                "email",
+                "send",
+                "in writing"
+              ],
+              [
+                "friday",
+                "monday",
+                "week",
+                "days",
+                "tomorrow",
+                "by",
+                "two days",
+                "tuesday",
+                "wednesday",
+                "thursday"
+              ]
+            ],
+            "model": [
+              "Yes, please put it in writing by email. I'll get back to you by Friday.",
+              "Please send it by email. I'll respond within two days."
+            ]
+          },
+          {
+            "npc": "Absolutely. I'd hate to lose a good tenant. Talk to you Friday.",
+            "npc_es": "Por supuesto. Odiaría perder a una buena inquilina. Hablamos el viernes.",
+            "task_es": "Cierra con agradecimiento y tono cordial.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "friday",
+                "talk",
+                "speak",
+                "soon",
+                "see you",
+                "good day",
+                "have a good",
+                "chat",
+                "reaching out"
+              ]
+            ],
+            "model": [
+              "Thank you, Mr. Haddad. I appreciate your flexibility. Talk to you Friday.",
+              "Thanks for your time. I'll speak to you soon."
+            ]
+          }
+        ],
+        "useful": [
+          "With all due respect...",
+          "Is there any wiggle room?",
+          "Could we meet halfway?",
+          "Could you put that in writing?"
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "col-schedule-a-viewing",
+      "type": "collocation",
+      "term": "schedule a viewing",
+      "level": "A2",
+      "topic": "home",
+      "freq": 3,
+      "es": "agendar una visita (para ver un departamento)",
+      "def": "to make an appointment to see an apartment",
+      "note": "*Viewing* es la visita al lugar. También: *book a viewing*, *see the unit*. Se acuerda por mensaje o llamada.",
+      "ex": [
+        {
+          "en": "We [scheduled a viewing] for five o'clock.",
+          "es": "Agendamos una visita para las cinco."
+        },
+        {
+          "en": "I'd like to [schedule a viewing] for Saturday.",
+          "es": "Quisiera agendar una visita para el sábado."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "phr-how-long-is-the-lease",
+      "type": "phrase",
+      "term": "how long is the lease?",
+      "ipa": "/haʊ lɔːŋ ɪz ðə liːs/",
+      "level": "A2",
+      "topic": "home",
+      "freq": 3,
+      "es": "¿cuánto dura el contrato de renta?",
+      "def": "a question about the length of a rental contract",
+      "note": "Respuestas típicas: *a year*, *six months*, *month-to-month*. Solo vocabulario: no es asesoría legal.",
+      "ex": [
+        {
+          "en": "[How long is the lease]? A year?",
+          "es": "¿Cuánto dura el contrato? ¿Un año?"
+        },
+        {
+          "en": "Before I sign, [how long is the lease]?",
+          "es": "Antes de firmar, ¿cuánto dura el contrato?"
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "phr-the-faucet-is-leaking",
+      "type": "phrase",
+      "term": "the faucet is leaking",
+      "ipa": "/ðə ˈfɔːsɪt ɪz ˈliːkɪŋ/",
+      "level": "B1",
+      "topic": "home",
+      "freq": 3,
+      "es": "la llave gotea",
+      "def": "water drips from the tap",
+      "note": "*Faucet* es de EE. UU. y Canadá; en inglés británico se dice *tap*. *Leak* es gotear o filtrar; *spill* es derramar.",
+      "ex": [
+        {
+          "en": "[The faucet is leaking] under the sink.",
+          "es": "La llave gotea debajo del fregadero."
+        },
+        {
+          "en": "I called because [the faucet is leaking] again.",
+          "es": "Llamé porque la llave gotea otra vez."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "phr-the-sink-is-clogged",
+      "type": "phrase",
+      "term": "the sink is clogged",
+      "ipa": "/ðə sɪŋk ɪz klɑːɡd/",
+      "level": "B1",
+      "topic": "home",
+      "freq": 3,
+      "es": "el lavabo está tapado",
+      "def": "water cannot go down the drain",
+      "note": "También se oye *blocked* o *plugged* (Canadá). El plomero usa *drain*.",
+      "ex": [
+        {
+          "en": "[The sink is clogged] and the water won't go down.",
+          "es": "El lavabo está tapado y el agua no baja."
+        },
+        {
+          "en": "Please send someone, [the sink is clogged].",
+          "es": "Por favor mande a alguien, el lavabo está tapado."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-hire-movers",
+      "type": "collocation",
+      "term": "hire movers",
+      "level": "B1",
+      "topic": "home",
+      "freq": 3,
+      "es": "contratar una mudanza (mudanceros)",
+      "def": "to pay a company or people to move your belongings",
+      "note": "*Movers* son quienes cargan los muebles. *Moving company* es la empresa. Se pregunta por tarifa por hora.",
+      "ex": [
+        {
+          "en": "We decided to [hire movers] for the heavy furniture.",
+          "es": "Decidimos contratar mudanceros para los muebles pesados."
+        },
+        {
+          "en": "It's worth it to [hire movers] if you live on the fifth floor.",
+          "es": "Vale la pena contratar mudanceros si vives en el quinto piso."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "voc-fragile",
+      "type": "vocab",
+      "term": "fragile",
+      "ipa": "/ˈfrædʒəl/",
+      "level": "B1",
+      "topic": "home",
+      "freq": 3,
+      "es": "frágil",
+      "def": "easy to break or damage",
+      "note": "Se escribe en cajas con vidrio o cerámica. En voz: *Careful, it's fragile!*",
+      "ex": [
+        {
+          "en": "This box is [fragile], so please carry it carefully.",
+          "es": "Esta caja es frágil, por favor llévela con cuidado."
+        },
+        {
+          "en": "She wrote \"[fragile]\" on the box.",
+          "es": "Escribió «frágil» en la caja."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "col-book-the-elevator",
+      "type": "collocation",
+      "term": "book the elevator",
+      "level": "B1",
+      "topic": "home",
+      "freq": 2,
+      "es": "reservar el elevador (para una mudanza)",
+      "def": "to reserve the building's elevator for a time",
+      "note": "En condominios y edificios grandes suelen pedirlo con anticipación. *Elevator* en EE. UU. y Canadá (británico: *lift*).",
+      "ex": [
+        {
+          "en": "I need to [book the elevator] for Saturday.",
+          "es": "Necesito reservar el elevador para el sábado."
+        },
+        {
+          "en": "Did you [book the elevator] for your move?",
+          "es": "¿Reservaste el elevador para tu mudanza?"
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "idi-keep-it-down",
+      "type": "idiom",
+      "term": "keep it down",
+      "ipa": "/kiːp ɪt daʊn/",
+      "level": "B1",
+      "topic": "social",
+      "freq": 3,
+      "es": "bájale el volumen; no hagas tanto ruido",
+      "def": "to be quieter",
+      "note": "Petición de un vecino: *Could you keep it down?* Tono cortés. Más fuerte: *Be quiet!*",
+      "ex": [
+        {
+          "en": "Could you [keep it down]? The baby is sleeping.",
+          "es": "¿Podrías bajarle? El bebé está durmiendo."
+        },
+        {
+          "en": "They asked us to [keep it down] after ten.",
+          "es": "Nos pidieron no hacer ruido después de las diez."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ],
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "id": "voc-quiet-hours",
+      "type": "vocab",
+      "term": "quiet hours",
+      "ipa": "/ˈkwaɪət aʊərz/",
+      "level": "B2",
+      "topic": "home",
+      "freq": 2,
+      "es": "horario de silencio",
+      "def": "a time of day when residents should avoid noise",
+      "note": "Reglas del edificio: *Quiet hours are 10 p.m. to 7 a.m.* Se informa en el contrato o por carteles.",
+      "ex": [
+        {
+          "en": "The building has [quiet hours] after ten.",
+          "es": "El edificio tiene horario de silencio después de las diez."
+        },
+        {
+          "en": "Please respect the [quiet hours].",
+          "es": "Por favor respeten el horario de silencio."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "col-renew-the-lease",
+      "type": "collocation",
+      "term": "renew the lease",
+      "level": "B2",
+      "topic": "home",
+      "freq": 3,
+      "es": "renovar el contrato de renta",
+      "def": "to sign a new agreement to keep renting",
+      "note": "Antes de hacerlo se negocia el monto. *Renew* = renovar; *extend* = extender.",
+      "ex": [
+        {
+          "en": "We plan to [renew the lease] for another year.",
+          "es": "Planeamos renovar el contrato un año más."
+        },
+        {
+          "en": "Do you want to [renew the lease] or move out?",
+          "es": "¿Quieres renovar el contrato o mudarte?"
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "voc-month-to-month",
+      "type": "vocab",
+      "term": "month-to-month",
+      "ipa": "/ˌmʌnθ tə ˈmʌnθ/",
+      "level": "B2",
+      "topic": "home",
+      "freq": 2,
+      "es": "mes a mes (sin plazo fijo)",
+      "def": "a rental arrangement that continues one month at a time",
+      "note": "Más flexible, pero el arrendador puede cambiar condiciones antes. Se dice *on a month-to-month basis*.",
+      "ex": [
+        {
+          "en": "We're renting [month-to-month] until we find a house.",
+          "es": "Rentamos mes a mes hasta encontrar una casa."
+        },
+        {
+          "en": "A [month-to-month] lease gives you flexibility.",
+          "es": "Un contrato mes a mes te da flexibilidad."
+        }
+      ],
+      "areas": [
+        "vivienda"
+      ]
+    },
+    {
+      "id": "idi-wiggle-room",
+      "type": "idiom",
+      "term": "wiggle room",
+      "ipa": "/ˈwɪɡəl ruːm/",
+      "level": "C1",
+      "topic": "work",
+      "freq": 2,
+      "es": "margen de maniobra",
+      "def": "some freedom to adjust or negotiate",
+      "note": "Informal-neutral. Pregunta: *Is there any wiggle room on the price?* Sugiere que se puede ceder un poco.",
+      "ex": [
+        {
+          "en": "Is there any [wiggle room] on the rent?",
+          "es": "¿Hay algo de margen en la renta?"
+        },
+        {
+          "en": "The deadline has no [wiggle room].",
+          "es": "El plazo no tiene margen."
+        }
+      ],
+      "areas": [
+        "vivienda",
+        "conversacion"
+      ],
+      "tags": [
+        "informal"
+      ]
+    },
+    {
+      "id": "idi-meet-halfway",
+      "type": "idiom",
+      "term": "meet halfway",
+      "ipa": "/miːt ˈhæfˌweɪ/",
+      "level": "B2",
+      "topic": "social",
+      "freq": 3,
+      "es": "llegar a un punto medio",
+      "def": "to compromise so each side gives a little",
+      "note": "*Meet someone halfway* o *meet in the middle*. Se usa en negociaciones y desacuerdos.",
+      "ex": [
+        {
+          "en": "Let's [meet halfway] and say four percent.",
+          "es": "Lleguemos a un punto medio: cuatro por ciento."
+        },
+        {
+          "en": "She offered to [meet him halfway].",
+          "es": "Ella ofreció llegar a un punto medio con él."
+        }
+      ],
+      "areas": [
+        "vivienda",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "phr-i-was-under-the-impression",
+      "type": "phrase",
+      "term": "I was under the impression that",
+      "ipa": "/aɪ wʌz ˈʌndər ði ɪmˈprɛʃən ðæt/",
+      "level": "C1",
+      "topic": "social",
+      "freq": 2,
+      "es": "yo tenía entendido que",
+      "def": "a polite way to show you believed something that may be wrong",
+      "note": "Cortés: no acusa, solo deja ver que hay un malentendido posible. *I was under the impression we'd agreed.*",
+      "ex": [
+        {
+          "en": "[I was under the impression that] the deposit was refundable.",
+          "es": "Yo tenía entendido que el depósito era reembolsable."
+        },
+        {
+          "en": "[I was under the impression that] you'd call me first.",
+          "es": "Yo tenía entendido que me llamarías primero."
+        }
+      ],
+      "areas": [
+        "vivienda",
+        "conversacion"
+      ],
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "id": "idi-put-it-in-writing",
+      "type": "idiom",
+      "term": "put it in writing",
+      "ipa": "/pʊt ɪt ɪn ˈraɪtɪŋ/",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "es": "ponerlo por escrito",
+      "def": "to record an agreement in a written form",
+      "note": "Muy útil con contratos y promesas verbales: *Could you put that in writing?* Un correo cuenta.",
+      "ex": [
+        {
+          "en": "Could you [put it in writing], please?",
+          "es": "¿Podría ponerlo por escrito, por favor?"
+        },
+        {
+          "en": "Always [put it in writing] when you agree on a price.",
+          "es": "Siempre pon por escrito lo que acuerdes sobre un precio."
+        }
+      ],
+      "areas": [
+        "vivienda",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "idi-the-fine-print",
+      "type": "idiom",
+      "term": "the fine print",
+      "ipa": "/ðə faɪn prɪnt/",
+      "level": "B2",
+      "topic": "money",
+      "freq": 2,
+      "es": "la letra pequeña",
+      "def": "the detailed terms of a contract that are easy to miss",
+      "note": "Se dice *read the fine print* antes de firmar. Aplica a contratos, ofertas y suscripciones.",
+      "ex": [
+        {
+          "en": "Read [the fine print] before you sign.",
+          "es": "Lee la letra pequeña antes de firmar."
+        },
+        {
+          "en": "The discount is real, but [the fine print] has limits.",
+          "es": "El descuento es real, pero la letra pequeña tiene límites."
+        }
+      ],
+      "areas": [
+        "vivienda",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "voc-clause",
+      "type": "vocab",
+      "term": "clause",
+      "ipa": "/klɔːz/",
+      "level": "C1",
+      "topic": "work",
+      "freq": 2,
+      "es": "cláusula",
+      "def": "a specific part of a contract",
+      "note": "Se dice *a clause in the lease*. Solo vocabulario: para temas legales consulta fuentes oficiales.",
+      "ex": [
+        {
+          "en": "There's a [clause] about early termination.",
+          "es": "Hay una cláusula sobre terminación anticipada."
+        },
+        {
+          "en": "Please read this [clause] carefully.",
+          "es": "Por favor lea esta cláusula con cuidado."
+        }
+      ],
+      "areas": [
+        "vivienda",
+        "conversacion"
+      ],
+      "tags": [
+        "formal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1270 @@
+{
+  "id": "reuniones",
+  "title_es": "Reuniones de trabajo",
+  "icon": "users",
+  "scene": null,
+  "areas": [
+    "reuniones"
+  ],
+  "season": null,
+  "objective_es": "Participar en juntas presenciales y por video: agenda, actualizaciones, acuerdos y desacuerdos, tareas y seguimiento.",
+  "tracks": [
+    {
+      "id": "reuniones-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Abrir una videollamada, comprobar el audio, dar una actualización breve y aceptar un horario.",
+      "items": [
+        "phr-lets-get-started",
+        "phr-youre-on-mute",
+        "phr-can-everyone-hear-me",
+        "voc-agenda",
+        "col-give-an-update",
+        "phr-that-works-for-me",
+        "phr-i-agree-with-that",
+        "col-take-notes",
+        "col-schedule-a-meeting",
+        "phr-sorry-could-you-repeat-that"
+      ],
+      "lesson": {
+        "id": "ls-reuniones-a",
+        "level": "A2",
+        "topic": "work",
+        "order": 1005,
+        "title": "A short team call",
+        "title_es": "Una llamada breve de equipo",
+        "intro_es": "Sam abre la llamada semanal con Noor y Ken. Primero hay un problema con el micrófono.",
+        "lines": [
+          {
+            "who": "Sam",
+            "en": "Okay, everyone. [Let's get started].",
+            "es": "Muy bien, todos. Empecemos.",
+            "item": "phr-lets-get-started"
+          },
+          {
+            "who": "Sam",
+            "en": "Noor, I can't hear you. [You're on mute].",
+            "es": "Noor, no te escucho. Tienes el micrófono silenciado.",
+            "item": "phr-youre-on-mute"
+          },
+          {
+            "who": "Noor",
+            "en": "Oh, sorry! [Can everyone hear me] now?",
+            "es": "¡Ay, perdón! ¿Ya me escuchan todos?",
+            "item": "phr-can-everyone-hear-me"
+          },
+          {
+            "who": "Sam",
+            "en": "Yes, we can. Thanks. Today's [agenda] has two things: the new website and next week's schedule.",
+            "es": "Sí, te oímos. Gracias. La agenda de hoy tiene dos cosas: el sitio nuevo y el calendario de la próxima semana.",
+            "item": "voc-agenda"
+          },
+          {
+            "who": "Noor",
+            "en": "I'll [give an update] on the website. It's almost ready.",
+            "es": "Daré una actualización del sitio. Ya casi está listo.",
+            "item": "col-give-an-update"
+          },
+          {
+            "who": "Ken",
+            "en": "Great. Do we need more photos?",
+            "es": "Qué bien. ¿Necesitamos más fotos?"
+          },
+          {
+            "who": "Noor",
+            "en": "Yes, five more photos by Friday, please.",
+            "es": "Sí, cinco fotos más para el viernes, por favor."
+          },
+          {
+            "who": "Ken",
+            "en": "Okay, [that works for me]. I'll send them on Thursday.",
+            "es": "Está bien, me funciona. Las envío el jueves.",
+            "item": "phr-that-works-for-me"
+          },
+          {
+            "who": "Sam",
+            "en": "Thanks, Ken. Next week I have a meeting on Tuesday, so can we meet on Wednesday?",
+            "es": "Gracias, Ken. La próxima semana tengo una junta el martes, ¿podemos reunirnos el miércoles?"
+          },
+          {
+            "who": "Noor",
+            "en": "Wednesday is fine. [I agree with that].",
+            "es": "El miércoles está bien. Estoy de acuerdo.",
+            "item": "phr-i-agree-with-that"
+          },
+          {
+            "who": "Sam",
+            "en": "Perfect. I'll [take notes] and send them to everyone.",
+            "es": "Perfecto. Tomaré notas y se las envío a todos.",
+            "item": "col-take-notes"
+          },
+          {
+            "who": "Ken",
+            "en": "Thanks, Sam. Bye, everyone!",
+            "es": "Gracias, Sam. ¡Adiós a todos!"
+          }
+        ],
+        "items": [
+          "phr-lets-get-started",
+          "phr-youre-on-mute",
+          "phr-can-everyone-hear-me",
+          "voc-agenda",
+          "col-give-an-update",
+          "phr-that-works-for-me",
+          "phr-i-agree-with-that",
+          "col-take-notes"
+        ],
+        "questions": [
+          {
+            "q": "Why can't Sam hear Noor?",
+            "options": [
+              "Her camera is off",
+              "She is on mute",
+              "She is late"
+            ],
+            "answer": 1,
+            "why_es": "Sam dice 'You're on mute'."
+          },
+          {
+            "q": "What will Ken send on Thursday?",
+            "options": [
+              "Photos",
+              "A report",
+              "Lunch"
+            ],
+            "answer": 0,
+            "why_es": "Noor pide cinco fotos más y Ken las enviará el jueves."
+          },
+          {
+            "q": "When is the next meeting?",
+            "options": [
+              "Monday",
+              "Tuesday",
+              "Wednesday"
+            ],
+            "answer": 2,
+            "why_es": "Sam propone el miércoles y Noor lo acepta."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Abre una junta: di que empiecen y pregunta si todos te oyen.",
+          "model": [
+            "Let's get started. Can everyone hear me?"
+          ],
+          "expect": [
+            [
+              "get started",
+              "start",
+              "begin"
+            ],
+            [
+              "hear"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Avisa a un compañero que tiene el micrófono silenciado.",
+          "model": [
+            "Sorry, you're on mute.",
+            "I think you're on mute."
+          ],
+          "expect": [
+            [
+              "mute"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Da una actualización: el informe casi está listo y lo enviarás el viernes.",
+          "model": [
+            "Here's my update: the report is almost ready. I'll send it on Friday.",
+            "Quick update: the report is almost ready, and I'll send it on Friday."
+          ],
+          "expect": [
+            [
+              "update",
+              "report",
+              "ready",
+              "almost"
+            ],
+            [
+              "friday"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No se oye bien lo que dice alguien.",
+          "en": "Sorry, I can't hear you. Can you say that again?",
+          "es": "Perdón, no te escucho. ¿Puedes repetirlo?"
+        },
+        {
+          "situation_es": "El audio está mal y prefieres leerlo.",
+          "en": "Sorry, the sound is bad. Could you type it in the chat?",
+          "es": "Perdón, el audio está mal. ¿Podrías escribirlo en el chat?"
+        },
+        {
+          "situation_es": "Quieres confirmar la fecha de la próxima junta.",
+          "en": "So the meeting is Wednesday at ten, right?",
+          "es": "Entonces la junta es el miércoles a las diez, ¿verdad?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-reuniones-a",
+        "area": "reuniones",
+        "level": "A2",
+        "title": "Weekly check-in call",
+        "title_es": "Llamada semanal con tu jefa",
+        "setting_es": "Estás en una videollamada con tu jefa, Sam, para revisar cómo va tu trabajo de la semana.",
+        "npc": "Team lead (Sam)",
+        "turns": [
+          {
+            "npc": "Hi {name}. Can you hear me okay?",
+            "npc_es": "Hola {name}. ¿Me oyes bien?",
+            "task_es": "Responde que sí la oyes y salúdala.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "i can",
+                "loud and clear",
+                "fine"
+              ],
+              [
+                "hear",
+                "hi",
+                "hello",
+                "good morning"
+              ]
+            ],
+            "model": [
+              "Yes, I can hear you. Hi, Sam!",
+              "Yeah, I can hear you fine. Good morning!"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi hear you good\\b",
+                "fix": "I can hear you fine/well",
+                "why_es": "Con *good* no; di *I can hear you well/fine*."
+              }
+            ]
+          },
+          {
+            "npc": "Great. Okay, quick update, please. How is your task going?",
+            "npc_es": "Muy bien. Una actualización rápida, por favor. ¿Cómo va tu tarea?",
+            "task_es": "Di que terminaste la mitad y que estará lista mañana.",
+            "expect": [
+              [
+                "half",
+                "50",
+                "fifty",
+                "most",
+                "almost"
+              ],
+              [
+                "tomorrow",
+                "friday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "ready",
+                "finish"
+              ]
+            ],
+            "model": [
+              "I finished half of it. It will be ready tomorrow.",
+              "I'm almost done. I can finish it tomorrow."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi have finished the half\\b",
+                "fix": "half of it",
+                "why_es": "Se dice *half of it*, sin *the*."
+              }
+            ]
+          },
+          {
+            "npc": "Good. Can you send me the file by Friday?",
+            "npc_es": "Bien. ¿Puedes enviarme el archivo para el viernes?",
+            "task_es": "Di que sí y que lo enviarás el jueves.",
+            "expect": [
+              [
+                "yes",
+                "sure",
+                "okay",
+                "ok",
+                "no problem",
+                "of course"
+              ],
+              [
+                "thursday"
+              ]
+            ],
+            "model": [
+              "Sure, no problem. I'll send it on Thursday.",
+              "Yes, I can send it on Thursday."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bin thursday\\b",
+                "fix": "on Thursday",
+                "why_es": "Con días de la semana se usa *on*."
+              }
+            ]
+          },
+          {
+            "npc": "Sorry, you're breaking up. Can you repeat that?",
+            "npc_es": "Perdón, se te corta. ¿Puedes repetirlo?",
+            "task_es": "Repite despacio que enviarás el archivo el jueves.",
+            "expect": [
+              [
+                "thursday"
+              ],
+              [
+                "send",
+                "file",
+                "it"
+              ]
+            ],
+            "model": [
+              "Sure. I will send the file on Thursday.",
+              "Of course. I'll send it on Thursday."
+            ]
+          },
+          {
+            "npc": "Got it. Thanks, {name}. That's all for today. Any questions?",
+            "npc_es": "Entendido. Gracias, {name}. Es todo por hoy. ¿Preguntas?",
+            "task_es": "Di que no tienes preguntas y despídete.",
+            "expect": [
+              [
+                "no",
+                "not",
+                "nothing",
+                "all good"
+              ],
+              [
+                "bye",
+                "thanks",
+                "thank you",
+                "see you",
+                "have a good",
+                "good day"
+              ]
+            ],
+            "model": [
+              "No questions. Thanks, bye!",
+              "Nothing from me. Thank you, see you tomorrow!"
+            ]
+          }
+        ],
+        "useful": [
+          "Let's get started",
+          "Can everyone hear me?",
+          "You're on mute",
+          "That works for me",
+          "Could you say that again?"
+        ]
+      }
+    },
+    {
+      "id": "reuniones-b",
+      "band": "B1-B2",
+      "level": "B2",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Dar actualizaciones, discrepar con cortesía, proponer sacar un tema de la junta y cerrar con acciones claras.",
+      "items": [
+        "pv-get-down-to",
+        "phr-could-you-share-your-screen",
+        "phr-youre-breaking-up",
+        "phr-im-not-sure-i-agree",
+        "phr-i-see-your-point-but-i-have-a-different-view",
+        "phr-lets-take-this-offline-2",
+        "phr-to-sum-up",
+        "voc-action-item",
+        "pv-loop-in",
+        "phr-lets-circle-back-on",
+        "col-flag-a-concern",
+        "voc-blocker"
+      ],
+      "lesson": {
+        "id": "ls-reuniones-b",
+        "level": "B2",
+        "topic": "work",
+        "order": 1006,
+        "title": "A project that is running late",
+        "title_es": "Un proyecto con retraso",
+        "intro_es": "Hana dirige la junta de seguimiento. Marcus y Leila no coinciden sobre por qué el proyecto va tarde.",
+        "lines": [
+          {
+            "who": "Hana",
+            "en": "Thanks for joining, everyone. We only have twenty minutes, so let's [get down to] business.",
+            "es": "Gracias por unirse. Solo tenemos veinte minutos, así que vayamos al grano.",
+            "item": "pv-get-down-to"
+          },
+          {
+            "who": "Hana",
+            "en": "Marcus, [could you share your screen] and walk us through the timeline?",
+            "es": "Marcus, ¿podrías compartir tu pantalla y explicarnos el calendario?",
+            "item": "phr-could-you-share-your-screen"
+          },
+          {
+            "who": "Hana",
+            "en": "Marcus, [you're breaking up]. Could you turn off your camera?",
+            "es": "Marcus, se te corta. ¿Podrías apagar tu cámara?",
+            "item": "phr-youre-breaking-up"
+          },
+          {
+            "who": "Marcus",
+            "en": "Better? As I was saying, we're two weeks behind because the client changed the requirements.",
+            "es": "¿Mejor? Como decía, llevamos dos semanas de retraso porque el cliente cambió los requisitos."
+          },
+          {
+            "who": "Leila",
+            "en": "[I'm not sure I agree]. The requirements changed once, but we also lost a week on testing.",
+            "es": "No estoy segura de estar de acuerdo. Los requisitos cambiaron una vez, pero además perdimos una semana en las pruebas.",
+            "item": "phr-im-not-sure-i-agree"
+          },
+          {
+            "who": "Marcus",
+            "en": "[I see your point, but I have a different view] on that. The testing was on schedule.",
+            "es": "Entiendo tu punto, pero yo lo veo diferente. Las pruebas iban según lo programado.",
+            "item": "phr-i-see-your-point-but-i-have-a-different-view"
+          },
+          {
+            "who": "Hana",
+            "en": "Let's not go in circles. [Let's take this offline] and look at the logs together.",
+            "es": "No demos vueltas en círculo. Veamos esto fuera de la junta y revisemos los registros juntos.",
+            "item": "phr-lets-take-this-offline-2"
+          },
+          {
+            "who": "Hana",
+            "en": "[To sum up], the project is two weeks behind and we need a new plan.",
+            "es": "Para resumir, el proyecto lleva dos semanas de retraso y necesitamos un plan nuevo.",
+            "item": "phr-to-sum-up"
+          },
+          {
+            "who": "Hana",
+            "en": "Marcus, you'll update the timeline. Leila, you'll talk to the client. Those are our [action items].",
+            "es": "Marcus, actualizas el calendario. Leila, hablas con el cliente. Esas son nuestras tareas pendientes.",
+            "item": "voc-action-item"
+          },
+          {
+            "who": "Leila",
+            "en": "Okay. Can I [loop in] Tomasz from design?",
+            "es": "Está bien. ¿Puedo incluir a Tomasz, de diseño?",
+            "item": "pv-loop-in"
+          },
+          {
+            "who": "Hana",
+            "en": "Please do. [Let's circle back on] Thursday.",
+            "es": "Por favor. Retomemos el jueves.",
+            "item": "phr-lets-circle-back-on"
+          },
+          {
+            "who": "Marcus",
+            "en": "Works for me. I'll send the updated plan by noon on Wednesday.",
+            "es": "Me funciona. Enviaré el plan actualizado antes del mediodía del miércoles."
+          }
+        ],
+        "items": [
+          "pv-get-down-to",
+          "phr-could-you-share-your-screen",
+          "phr-youre-breaking-up",
+          "phr-im-not-sure-i-agree",
+          "phr-i-see-your-point-but-i-have-a-different-view",
+          "phr-lets-take-this-offline-2",
+          "phr-to-sum-up",
+          "voc-action-item",
+          "pv-loop-in",
+          "phr-lets-circle-back-on"
+        ],
+        "questions": [
+          {
+            "q": "According to Marcus, why is the project late?",
+            "options": [
+              "The client changed the requirements",
+              "The team was on vacation",
+              "The software was too expensive"
+            ],
+            "answer": 0,
+            "why_es": "Marcus dice que el cliente cambió los requisitos."
+          },
+          {
+            "q": "What does Leila add?",
+            "options": [
+              "She agrees completely",
+              "She wants to cancel the project",
+              "Testing also cost the team a week"
+            ],
+            "answer": 2,
+            "why_es": "Leila dice que también perdieron una semana en pruebas."
+          },
+          {
+            "q": "What do they decide about the disagreement?",
+            "options": [
+              "Vote right now",
+              "Take it offline and check the logs",
+              "Ignore it"
+            ],
+            "answer": 1,
+            "why_es": "Hana propone verlo fuera de la junta y revisar los registros."
+          },
+          {
+            "q": "Who will talk to the client?",
+            "options": [
+              "Marcus",
+              "Leila",
+              "Tomasz"
+            ],
+            "answer": 1,
+            "why_es": "Leila hablará con el cliente."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di con cortesía que no estás seguro de estar de acuerdo y da una razón.",
+          "model": [
+            "I'm not sure I agree. I think the main problem was the testing, not the design."
+          ],
+          "expect": [
+            [
+              "not sure",
+              "don't agree",
+              "disagree",
+              "different view",
+              "see your point"
+            ],
+            [
+              "because",
+              "think",
+              "problem",
+              "testing",
+              "reason",
+              "main"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Propón llevar este tema a otra conversación fuera de la junta.",
+          "model": [
+            "Let's take this offline and look at the data together.",
+            "Maybe we should take this offline so we can use everyone's time better."
+          ],
+          "expect": [
+            [
+              "offline",
+              "after the meeting",
+              "separately",
+              "afterwards"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Cierra con un resumen y dos acciones, con responsables y fecha.",
+          "model": [
+            "To sum up, we're two weeks behind. Marcus will update the timeline by Wednesday, and Leila will call the client."
+          ],
+          "expect": [
+            [
+              "sum up",
+              "summary",
+              "recap",
+              "to summarize",
+              "to conclude"
+            ],
+            [
+              "will",
+              "by",
+              "wednesday",
+              "friday",
+              "thursday",
+              "monday",
+              "tuesday"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Se cortó la conexión un segundo.",
+          "en": "Sorry, I lost you for a second. Could you repeat the last part?",
+          "es": "Perdón, te perdí un segundo. ¿Podrías repetir la última parte?"
+        },
+        {
+          "situation_es": "No entiendes un término.",
+          "en": "Could you clarify what you mean by 'scope'?",
+          "es": "¿Podrías aclarar qué quieres decir con 'scope'?"
+        },
+        {
+          "situation_es": "Quieres confirmar tu tarea.",
+          "en": "Just to confirm, I'm responsible for the timeline, and the deadline is Wednesday. Is that right?",
+          "es": "Solo para confirmar, soy responsable del calendario y la fecha límite es el miércoles. ¿Es correcto?"
+        },
+        {
+          "situation_es": "Quieres intervenir con cortesía.",
+          "en": "Sorry to interrupt, but may I add something?",
+          "es": "Perdón por interrumpir, ¿puedo agregar algo?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-reuniones-b",
+        "area": "reuniones",
+        "level": "B2",
+        "title": "Weekly project meeting",
+        "title_es": "Junta semanal de proyecto",
+        "setting_es": "Estás en la junta semanal del proyecto. Hana, la project manager, va pidiendo actualizaciones a cada persona.",
+        "npc": "Project manager (Hana)",
+        "turns": [
+          {
+            "npc": "Okay, we're all here. {name}, could you give us a quick status update on your part?",
+            "npc_es": "Muy bien, ya estamos todos. {name}, ¿podrías darnos una actualización rápida de tu parte?",
+            "task_es": "Di que terminaste el diseño pero esperas comentarios del cliente, lo que podría retrasar.",
+            "expect": [
+              [
+                "finished",
+                "done",
+                "completed",
+                "ready"
+              ],
+              [
+                "waiting",
+                "feedback",
+                "client",
+                "delay",
+                "risk"
+              ]
+            ],
+            "model": [
+              "I've finished the design, but I'm still waiting for feedback from the client. That could delay us a bit.",
+              "The design is done. The only risk is the client's feedback, and if it's late, we might fall behind."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am waiting the feedback\\b",
+                "fix": "waiting for feedback",
+                "why_es": "*Wait* lleva *for*: waiting for."
+              }
+            ]
+          },
+          {
+            "npc": "Hmm. I'd prefer to launch on the fifteenth. Can you finish the revisions in two days?",
+            "npc_es": "Mmm. Prefiero lanzar el quince. ¿Puedes terminar las revisiones en dos días?",
+            "task_es": "Discrepa con cortesía: di que no estás segura de que sea realista y propone cuatro días.",
+            "expect": [
+              [
+                "not sure",
+                "don't think",
+                "isn't realistic",
+                "not realistic",
+                "unrealistic",
+                "difficult",
+                "tight"
+              ],
+              [
+                "four",
+                "4",
+                "days",
+                "friday",
+                "thursday"
+              ]
+            ],
+            "model": [
+              "I'm not sure that's realistic. Could we have four days instead?",
+              "I don't think two days is enough. Four days would be safer."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am not agree\\b",
+                "fix": "I'm not sure I agree / I don't agree",
+                "why_es": "No existe *I am not agree*: es *I don't agree* o *I'm not sure I agree*."
+              }
+            ]
+          },
+          {
+            "npc": "Okay, four days works, but then we'll have no buffer. What do you need from the team to make that happen?",
+            "npc_es": "Bien, cuatro días funciona, pero no tendremos margen. ¿Qué necesitas del equipo para lograrlo?",
+            "task_es": "Pide que alguien revise tus textos mañana y que te avisen pronto si cambia algo.",
+            "expect": [
+              [
+                "review",
+                "check",
+                "proofread",
+                "help"
+              ],
+              [
+                "tomorrow",
+                "early",
+                "let me know",
+                "tell me",
+                "notify"
+              ]
+            ],
+            "model": [
+              "Could someone review my texts tomorrow? And please let me know early if anything changes.",
+              "I need help with proofreading tomorrow. Also, please tell me as soon as possible if the plan changes."
+            ]
+          },
+          {
+            "npc": "Sure, Ravi can proofread. Does anyone else have a concern before we move on?",
+            "npc_es": "Claro, Ravi puede revisar. ¿Alguien más tiene una preocupación antes de seguir?",
+            "task_es": "Menciona una preocupación: el presupuesto de las fotos todavía no está aprobado.",
+            "expect": [
+              [
+                "concern",
+                "worried",
+                "issue",
+                "problem",
+                "noticed"
+              ],
+              [
+                "budget",
+                "approved",
+                "approval",
+                "photos"
+              ]
+            ],
+            "model": [
+              "Yes, one concern: the budget for the photos hasn't been approved yet.",
+              "I'm a bit worried because we still don't have approval for the photo budget."
+            ]
+          },
+          {
+            "npc": "Good catch. I'll follow up with finance today. Can you confirm the action items so we're all on the same page?",
+            "npc_es": "Buen punto. Hoy hablo con finanzas. ¿Puedes confirmar las tareas para que estemos todos en la misma página?",
+            "task_es": "Resume tus acciones: terminas las revisiones en cuatro días y envías el diseño el jueves.",
+            "expect": [
+              [
+                "revisions",
+                "revision",
+                "finish",
+                "complete",
+                "send",
+                "design"
+              ],
+              [
+                "thursday",
+                "four days",
+                "friday",
+                "wednesday"
+              ]
+            ],
+            "model": [
+              "I'll finish the revisions in four days and send the final design on Thursday.",
+              "So, my action items: complete the revisions by Thursday and send the design to the client."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bin thursday\\b",
+                "fix": "on Thursday",
+                "why_es": "Con días de la semana se usa *on*."
+              }
+            ]
+          },
+          {
+            "npc": "Perfect. Thanks, everyone. I'll send out the notes after the call.",
+            "npc_es": "Perfecto. Gracias a todos. Envío las notas después de la llamada.",
+            "task_es": "Agradece y di que estarás atento a las notas.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "email",
+                "notes",
+                "look out",
+                "watch",
+                "check",
+                "inbox"
+              ]
+            ],
+            "model": [
+              "Thanks, Hana. I'll look out for your email with the notes.",
+              "Thank you! I'll check the notes when they arrive."
+            ]
+          }
+        ],
+        "useful": [
+          "I'm not sure I agree",
+          "Let's take this offline",
+          "To sum up,…",
+          "Let's circle back on Thursday",
+          "Could you share your screen?"
+        ]
+      }
+    },
+    {
+      "id": "reuniones-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Defender una posición con tacto, aceptar y matizar puntos ajenos, aparcar temas y cerrar con responsables y fechas.",
+      "items": [
+        "phr-where-do-we-land-on",
+        "phr-with-all-due-respect",
+        "idi-play-devils-advocate",
+        "col-technical-debt",
+        "phr-i-take-your-point-but",
+        "phr-lets-park-that-for-now",
+        "voc-bandwidth",
+        "idi-on-the-same-page",
+        "col-manage-expectations",
+        "col-sign-off",
+        "idi-touch-base",
+        "col-reach-a-consensus"
+      ],
+      "lesson": {
+        "id": "ls-reuniones-c",
+        "level": "C1",
+        "topic": "work",
+        "order": 1007,
+        "title": "Roadmap showdown",
+        "title_es": "Duelo por el roadmap",
+        "intro_es": "Isabelle necesita una decisión sobre el roadmap del trimestre. Kwame (ingeniería) y Anjali (ventas) defienden prioridades distintas.",
+        "lines": [
+          {
+            "who": "Isabelle",
+            "en": "We need a decision on the Q2 roadmap, so [where do we land on] the reporting feature?",
+            "es": "Necesitamos una decisión sobre el roadmap del Q2, ¿en qué quedamos con la función de reportes?",
+            "item": "phr-where-do-we-land-on"
+          },
+          {
+            "who": "Anjali",
+            "en": "Sales needs it. Three prospects have asked, and I'll lose them if we push back the release again.",
+            "es": "Ventas la necesita. Tres prospectos la pidieron y los perderé si volvemos a retrasar el lanzamiento."
+          },
+          {
+            "who": "Kwame",
+            "en": "[With all due respect], Anjali, three prospects aren't a roadmap. We're already stretched thin.",
+            "es": "Con el debido respeto, Anjali, tres prospectos no son un roadmap. Ya estamos al límite.",
+            "item": "phr-with-all-due-respect"
+          },
+          {
+            "who": "Kwame",
+            "en": "If we take on reporting now, something else slips, probably the security work.",
+            "es": "Si asumimos reportes ahora, otra cosa se retrasa, probablemente la seguridad."
+          },
+          {
+            "who": "Isabelle",
+            "en": "Let me [play devil's advocate]. What if we ship a stripped-down version first?",
+            "es": "Hago de abogado del diablo. ¿Y si lanzamos primero una versión reducida?",
+            "item": "idi-play-devils-advocate"
+          },
+          {
+            "who": "Kwame",
+            "en": "It could work, but a stripped-down version often becomes the final version, and we inherit more [technical debt].",
+            "es": "Podría funcionar, pero una versión reducida suele volverse la versión final y heredamos más deuda técnica.",
+            "item": "col-technical-debt"
+          },
+          {
+            "who": "Anjali",
+            "en": "[I take your point, but] I can't keep telling clients \"soon\".",
+            "es": "Entiendo tu punto, pero no puedo seguir diciéndoles a los clientes \"pronto\".",
+            "item": "phr-i-take-your-point-but"
+          },
+          {
+            "who": "Isabelle",
+            "en": "Pricing is a separate debate. [Let's park that for now].",
+            "es": "El tema de precios es otra discusión. Dejémoslo en pausa por ahora.",
+            "item": "phr-lets-park-that-for-now"
+          },
+          {
+            "who": "Kwame",
+            "en": "Realistically, we only have the [bandwidth] for one of them this quarter.",
+            "es": "Siendo realistas, solo tenemos capacidad para una de las dos este trimestre.",
+            "item": "voc-bandwidth"
+          },
+          {
+            "who": "Isabelle",
+            "en": "Then let's prioritize: security first, a lighter reporting feature second, with a firm date. Can we all be [on the same page] about that?",
+            "es": "Entonces prioricemos: seguridad primero, una función de reportes más ligera después, con una fecha firme. ¿Estamos todos de acuerdo?",
+            "item": "idi-on-the-same-page"
+          },
+          {
+            "who": "Anjali",
+            "en": "I can live with that if I can [manage expectations] with a firm date.",
+            "es": "Puedo vivir con eso si puedo manejar las expectativas con una fecha firme.",
+            "item": "col-manage-expectations"
+          },
+          {
+            "who": "Kwame",
+            "en": "Fine. I'll flag the risks in writing so nobody is surprised later.",
+            "es": "Está bien. Dejaré los riesgos por escrito para que nadie se sorprenda después."
+          },
+          {
+            "who": "Isabelle",
+            "en": "Good. Kwame owns the plan, Anjali owns client communication, and I'll [sign off] on the scope by Friday.",
+            "es": "Bien. Kwame lleva el plan, Anjali la comunicación con clientes, y yo aprobaré el alcance el viernes.",
+            "item": "col-sign-off"
+          },
+          {
+            "who": "Anjali",
+            "en": "Works for me. I'll [touch base] with the prospects tomorrow.",
+            "es": "Me funciona. Mañana me pongo en contacto con los prospectos.",
+            "item": "idi-touch-base"
+          }
+        ],
+        "items": [
+          "phr-where-do-we-land-on",
+          "phr-with-all-due-respect",
+          "idi-play-devils-advocate",
+          "col-technical-debt",
+          "phr-i-take-your-point-but",
+          "phr-lets-park-that-for-now",
+          "voc-bandwidth",
+          "idi-on-the-same-page",
+          "col-manage-expectations",
+          "col-sign-off",
+          "idi-touch-base"
+        ],
+        "questions": [
+          {
+            "q": "What decision does Isabelle need?",
+            "options": [
+              "Which office to move to",
+              "Who to promote",
+              "What to prioritize on the Q2 roadmap"
+            ],
+            "answer": 2,
+            "why_es": "Pide decidir qué hacer con el roadmap del Q2 y la función de reportes."
+          },
+          {
+            "q": "Why is Kwame wary of a stripped-down version?",
+            "options": [
+              "It could become the final version and add technical debt",
+              "It would cost too much",
+              "Clients dislike simple features"
+            ],
+            "answer": 0,
+            "why_es": "Teme que la versión reducida se quede y aumente la deuda técnica."
+          },
+          {
+            "q": "What does Anjali need to keep clients patient?",
+            "options": [
+              "A discount",
+              "A bigger team",
+              "A firm date"
+            ],
+            "answer": 2,
+            "why_es": "Dice que puede aceptar si maneja expectativas con una fecha firme."
+          },
+          {
+            "q": "Who will approve the scope?",
+            "options": [
+              "Kwame",
+              "Anjali",
+              "Isabelle"
+            ],
+            "answer": 2,
+            "why_es": "Isabelle dice 'I'll sign off on the scope by Friday'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pon un límite educado: reconoce el punto de tu compañero pero di que el equipo no tiene capacidad.",
+          "model": [
+            "I take your point, but with all due respect, we simply don't have the bandwidth to take on both this quarter."
+          ],
+          "expect": [
+            [
+              "take your point",
+              "see your point",
+              "understand",
+              "fair",
+              "with all due respect"
+            ],
+            [
+              "bandwidth",
+              "capacity",
+              "time",
+              "resources",
+              "stretched"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Haz de abogado del diablo: propón una versión reducida y pregunta por los riesgos.",
+          "model": [
+            "Let me play devil's advocate: what if we ship a stripped-down version first? What would the risks be?"
+          ],
+          "expect": [
+            [
+              "devil",
+              "what if",
+              "suppose",
+              "imagine"
+            ],
+            [
+              "risk",
+              "downside",
+              "version",
+              "stripped",
+              "simpler",
+              "smaller"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Deja un tema en pausa sin cerrarlo: di que lo retomarán y cuándo.",
+          "model": [
+            "Let's park that for now. I'll circle back with Anjali on pricing by Friday."
+          ],
+          "expect": [
+            [
+              "park",
+              "table",
+              "come back to",
+              "circle back",
+              "revisit",
+              "offline"
+            ],
+            [
+              "friday",
+              "monday",
+              "tomorrow",
+              "next",
+              "by",
+              "after",
+              "later"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres que concreten una promesa vaga.",
+          "en": "Could you be more specific about what 'soon' means in terms of dates?",
+          "es": "¿Podrías ser más específico sobre lo que significa 'pronto' en fechas?"
+        },
+        {
+          "situation_es": "Quieres comprobar que entendiste la propuesta.",
+          "en": "If I understand correctly, you're proposing that we ship a lighter version in March. Is that fair?",
+          "es": "Si entiendo bien, propones lanzar una versión más ligera en marzo. ¿Es justo decirlo así?"
+        },
+        {
+          "situation_es": "Sientes que hablan de cosas distintas.",
+          "en": "Sorry to cut in, but I think we're talking about two different things.",
+          "es": "Perdón por interrumpir, pero creo que hablamos de dos cosas distintas."
+        },
+        {
+          "situation_es": "La conexión falló un momento.",
+          "en": "You cut out for a moment there. Could you repeat the last point?",
+          "es": "Se te cortó la voz un momento. ¿Podrías repetir el último punto?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-reuniones-c",
+        "area": "reuniones",
+        "level": "C1",
+        "title": "Defending scope with the client",
+        "title_es": "Defender el alcance ante el cliente",
+        "setting_es": "Reunión interna antes de responder a un cliente importante que pidió tres funciones extra sin cambiar la fecha. Tú conoces el trabajo de cerca.",
+        "npc": "Director",
+        "turns": [
+          {
+            "npc": "Thanks for joining. I'll be blunt: the client wants three extra features in the same timeline. {name}, you're closest to the work. Is that realistic?",
+            "npc_es": "Gracias por unirse. Seré directa: el cliente quiere tres funciones extra en el mismo plazo. {name}, tú estás más cerca del trabajo. ¿Es realista?",
+            "task_es": "Responde con matiz: así como está no es realista; se puede entregar una o dos si se ajusta el calendario.",
+            "expect": [
+              [
+                "not realistic",
+                "unrealistic",
+                "not feasible",
+                "tight",
+                "stretch",
+                "don't think",
+                "wouldn't",
+                "isn't realistic"
+              ],
+              [
+                "one",
+                "two",
+                "timeline",
+                "deadline",
+                "schedule",
+                "push",
+                "extend",
+                "adjust",
+                "phase"
+              ]
+            ],
+            "model": [
+              "Honestly, I don't think that's realistic as it stands. We could deliver one of them on time, or all three if we extend the timeline.",
+              "With the current schedule it's a stretch. We can fit two features, or we adjust the deadline for the third."
+            ]
+          },
+          {
+            "npc": "I hear you, but the client is a major account. If we say no, we risk the relationship. How would you frame this to them?",
+            "npc_es": "Te escucho, pero el cliente es una cuenta importante. Si decimos que no, arriesgamos la relación. ¿Cómo se lo plantearías?",
+            "task_es": "Propón cómo comunicarlo: enfocar en lo que sí se entrega y ofrecer un plan por fases, sin un no rotundo.",
+            "expect": [
+              [
+                "phase",
+                "phased",
+                "stages",
+                "step by step",
+                "roadmap"
+              ],
+              [
+                "deliver",
+                "focus",
+                "commit",
+                "what we can",
+                "priorities",
+                "prioritize",
+                "prioritise",
+                "options"
+              ]
+            ],
+            "model": [
+              "I'd frame it around what we can commit to. We could propose a phased approach: two features now and the third in the next phase.",
+              "I wouldn't say no outright. I'd focus on what we can deliver on time and offer a phased plan with a clear date for the rest."
+            ]
+          },
+          {
+            "npc": "A phased plan might work. But someone will ask who is accountable if phase two slips. What do you say?",
+            "npc_es": "Un plan por fases podría funcionar. Pero alguien preguntará quién es responsable si la segunda fase se retrasa. ¿Qué dices?",
+            "task_es": "Responde que asumes la responsabilidad del plan, siempre que el alcance quede congelado por escrito.",
+            "expect": [
+              [
+                "accountable",
+                "responsible",
+                "responsibility",
+                "own",
+                "take ownership",
+                "i'll take",
+                "i will take"
+              ],
+              [
+                "scope",
+                "writing",
+                "written",
+                "frozen",
+                "freeze",
+                "sign"
+              ]
+            ],
+            "model": [
+              "I'm happy to take ownership of the plan, provided the scope is frozen in writing.",
+              "I'll own it, as long as we agree on the scope in writing and changes go through a formal review."
+            ]
+          },
+          {
+            "npc": "That's fair. Our engineering lead thinks the timeline ignores testing. Do you want to respond to that?",
+            "npc_es": "Es justo. Nuestro líder de ingeniería cree que el calendario ignora las pruebas. ¿Quieres responder?",
+            "task_es": "Responde con tacto: reconoce la preocupación y explica que el plan incluye una semana de pruebas; ofrece revisar los números juntos.",
+            "expect": [
+              [
+                "fair",
+                "understand",
+                "valid",
+                "good point",
+                "concern",
+                "see why"
+              ],
+              [
+                "testing",
+                "week",
+                "numbers",
+                "review",
+                "together",
+                "include"
+              ]
+            ],
+            "model": [
+              "That's a valid concern. The plan includes a week of testing, but I'm happy to go over the numbers with him.",
+              "I understand why he's worried. We did allow one week for testing; let's review the figures together."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am agree\\b",
+                "fix": "I agree",
+                "why_es": "No existe *I am agree*: se dice *I agree*."
+              }
+            ]
+          },
+          {
+            "npc": "Good. We're almost out of time. Can you summarize the decisions so we're on the same page?",
+            "npc_es": "Bien. Casi no queda tiempo. ¿Puedes resumir las decisiones para que estemos en la misma página?",
+            "task_es": "Resume tres decisiones: dos fases, alcance congelado y revisión del calendario de pruebas el jueves.",
+            "expect": [
+              [
+                "phase",
+                "phased"
+              ],
+              [
+                "scope"
+              ],
+              [
+                "thursday",
+                "testing",
+                "review"
+              ]
+            ],
+            "model": [
+              "To recap: we'll deliver in two phases, the scope is frozen in writing, and we'll review the testing schedule on Thursday.",
+              "Just to summarize: two phases, scope frozen, and a testing review on Thursday."
+            ]
+          },
+          {
+            "npc": "Excellent. I'll send the follow-up email today. Any last thoughts?",
+            "npc_es": "Excelente. Envío el correo de seguimiento hoy. ¿Algún comentario final?",
+            "task_es": "Cierra con un comentario constructivo: agradece al grupo y di que confías en que el plan es realista.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "confident",
+                "sure",
+                "realistic",
+                "workable",
+                "feasible",
+                "good plan"
+              ]
+            ],
+            "model": [
+              "Just thanks to everyone for the candid discussion. I'm confident this plan is realistic.",
+              "I appreciate everyone's input. I think it's a workable plan, and I'm sure we can deliver."
+            ]
+          }
+        ],
+        "useful": [
+          "With all due respect,…",
+          "I take your point, but…",
+          "Let me play devil's advocate",
+          "Let's park that for now",
+          "Can we get on the same page?"
+        ]
+      }
+    }
+  ],
+  "new_items": []
+}

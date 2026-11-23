@@ -1,0 +1,2449 @@
+[
+  {
+    "id": "con-gonna",
+    "type": "contraction",
+    "term": "gonna",
+    "full": "going to (+ verbo: futuro o plan)",
+    "ipa": "/ˈɡʌnə/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "voy a (+ verbo); va a pasar",
+    "def": "a spoken form of 'going to' for plans and predictions",
+    "note": "Solo para futuro con verbo: I'm gonna eat. NO con lugar: I'm going to the store (no *I'm gonna the store*). Habla, mensajes y canciones; nunca en correos formales, CV ni IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I'm [gonna] call her tonight.",
+        "es": "Voy a llamarla esta noche."
+      },
+      {
+        "en": "It's [gonna] rain all weekend.",
+        "es": "Va a llover todo el fin de semana."
+      }
+    ]
+  },
+  {
+    "id": "con-wanna",
+    "type": "contraction",
+    "term": "wanna",
+    "full": "want to / want a",
+    "ipa": "/ˈwɑnə/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "quiero (+ verbo); quieres un...",
+    "def": "a spoken form of 'want to' or 'want a'",
+    "note": "Sirve para want to / want a: Do you wanna coffee? Con he/she/it NO: she wants to (no *she wanna*). Solo habla y mensajes; en escritos formales y exámenes escribe want to.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [wanna] watch one more episode.",
+        "es": "Quiero ver un episodio más."
+      },
+      {
+        "en": "Do you [wanna] a ride home?",
+        "es": "¿Quieres que te lleve a casa?"
+      }
+    ]
+  },
+  {
+    "id": "con-gotta",
+    "type": "contraction",
+    "term": "gotta",
+    "full": "got to / have got to / got a",
+    "ipa": "/ˈɡɑɾə/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "tengo que; debo; (tienes) un...",
+    "def": "a spoken form of 'have to' or 'have got to'",
+    "note": "Obligación: I gotta go (= I have to go). 'You gotta see this' = tienes que ver esto. Suele omitirse el have: I gotta. Con he/she: he's gotta. No en correos formales, CV ni exámenes escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [gotta] go, my ride is here.",
+        "es": "Tengo que irme, ya llegó mi aventón."
+      },
+      {
+        "en": "You've [gotta] try this soup.",
+        "es": "Tienes que probar esta sopa."
+      }
+    ]
+  },
+  {
+    "id": "con-hafta",
+    "type": "contraction",
+    "term": "hafta",
+    "full": "have to",
+    "ipa": "/ˈhæftə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "tengo que; tienes que; tenemos que",
+    "def": "a spoken form of 'have to' for obligation",
+    "note": "Es have to (con I/you/we/they). Con he/she/it suena hasta (has to). Se escribe poco; en chats a veces 'hafta'. En correos, CV y exámenes escribe have to.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "We [hafta] leave before six.",
+        "es": "Tenemos que salir antes de las seis."
+      },
+      {
+        "en": "Do you [hafta] work tomorrow?",
+        "es": "¿Tienes que trabajar mañana?"
+      }
+    ]
+  },
+  {
+    "id": "con-hasta",
+    "type": "contraction",
+    "term": "hasta",
+    "full": "has to",
+    "ipa": "/ˈhæstə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "tiene que (él, ella, eso)",
+    "def": "a spoken form of 'has to' for he, she and it",
+    "note": "Ojo, trampa: no es el 'hasta' español. Es has to con he/she/it: She hasta study. Casi nunca se escribe; en textos formales usa has to. Para I/you/we/they es hafta (have to).",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "He [hasta] finish this by noon.",
+        "es": "Tiene que terminar esto antes del mediodía."
+      },
+      {
+        "en": "Everybody [hasta] start somewhere.",
+        "es": "Todos tienen que empezar de algún lado."
+      }
+    ]
+  },
+  {
+    "id": "con-oughta",
+    "type": "contraction",
+    "term": "oughta",
+    "full": "ought to",
+    "ipa": "/ˈɔɾə/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "debería; deberías",
+    "def": "a spoken form of 'ought to' for advice or a good idea",
+    "note": "Consejo, como should: You oughta see a doctor. Se oye menos que gonna; suena algo anticuado o regional. Negativo: you oughtn't (raro). Evítalo por escrito formal.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "You [oughta] call your mom today.",
+        "es": "Deberías llamar a tu mamá hoy."
+      },
+      {
+        "en": "We [oughta] get going soon.",
+        "es": "Deberíamos irnos ya."
+      }
+    ]
+  },
+  {
+    "id": "con-gimme",
+    "type": "contraction",
+    "term": "gimme",
+    "full": "give me",
+    "ipa": "/ˈɡɪmi/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "dame",
+    "def": "a spoken form of 'give me' when asking for something",
+    "note": "Imperativo informal: Gimme that. Entre amigos es normal; con desconocidos suena brusco (usa Can I have...?). Solo give me, no give him/her. Nunca en correos formales ni exámenes.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Gimme] a second, I'm almost ready.",
+        "es": "Dame un segundo, ya casi estoy lista."
+      },
+      {
+        "en": "Hey, [gimme] your phone for a sec.",
+        "es": "Oye, dame tu celular un momento."
+      }
+    ]
+  },
+  {
+    "id": "con-lemme",
+    "type": "contraction",
+    "term": "lemme",
+    "full": "let me",
+    "ipa": "/ˈlɛmi/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "déjame; permíteme",
+    "def": "a spoken form of 'let me' to offer or ask to do something",
+    "note": "Muy frecuente: Lemme see, lemme know, lemme help. Es let me, no let us (ese es let's). Habla y mensajes; en correos formales escribe let me / allow me.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Lemme] know if you need anything.",
+        "es": "Avísame si necesitas algo."
+      },
+      {
+        "en": "[Lemme] check my calendar real quick.",
+        "es": "Déjame revisar mi calendario rapidito."
+      }
+    ]
+  },
+  {
+    "id": "con-dunno",
+    "type": "contraction",
+    "term": "dunno",
+    "full": "don't know / do not know",
+    "ipa": "/dəˈnoʊ/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "no sé",
+    "def": "a spoken form of 'I don't know'",
+    "note": "Suele ser I dunno (sin I: dunno, a veces). Solo sustituye don't know; no sirve para doesn't know: he dunno es incorrecto. En un examen o correo escribe I don't know.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [dunno], maybe we should wait.",
+        "es": "No sé, tal vez deberíamos esperar."
+      },
+      {
+        "en": "Honestly? [Dunno] what to tell you.",
+        "es": "¿Sinceramente? No sé qué decirte."
+      }
+    ]
+  },
+  {
+    "id": "con-kinda",
+    "type": "contraction",
+    "term": "kinda",
+    "full": "kind of",
+    "ipa": "/ˈkaɪndə/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "algo; un poco; como que",
+    "def": "a spoken form of 'kind of' to soften an idea",
+    "note": "Suaviza adjetivos y verbos: kinda tired, I kinda like it. En 'what kind of food?' se oye what kinda, pero por escrito usa kind of. En escritos formales y exámenes evítalo.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I'm [kinda] tired after that hike.",
+        "es": "Estoy como cansada después de esa caminata."
+      },
+      {
+        "en": "It's [kinda] funny when you think about it.",
+        "es": "Es algo gracioso si lo piensas."
+      }
+    ]
+  },
+  {
+    "id": "con-sorta",
+    "type": "contraction",
+    "term": "sorta",
+    "full": "sort of",
+    "ipa": "/ˈsɔɾə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "como que; más o menos; algo",
+    "def": "a spoken form of 'sort of' to soften a statement",
+    "note": "Como kinda, suaviza: sorta weird, it's sorta like... Algo menos frecuente que kinda. Va antes de adjetivo o verbo. No en correos formales ni exámenes escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "It's [sorta] like riding a bike.",
+        "es": "Es como andar en bicicleta."
+      },
+      {
+        "en": "I [sorta] forgot to tell her.",
+        "es": "Como que se me olvidó decirle."
+      }
+    ]
+  },
+  {
+    "id": "con-lotta",
+    "type": "contraction",
+    "term": "lotta",
+    "full": "lot of",
+    "ipa": "/ˈlɑɾə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "un montón de; mucho(s)",
+    "def": "a spoken form of 'a lot of', meaning many or much",
+    "note": "Casi siempre 'a lotta': a lotta people. Se escribe poco. Solo antes de sustantivo; si no hay sustantivo, usa a lot (not *thanks a lotta*). Evítalo en textos formales.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "There's a [lotta] noise out there.",
+        "es": "Hay un montón de ruido allá afuera."
+      },
+      {
+        "en": "That took a [lotta] work.",
+        "es": "Eso costó muchísimo trabajo."
+      }
+    ]
+  },
+  {
+    "id": "con-outta",
+    "type": "contraction",
+    "term": "outta",
+    "full": "out of",
+    "ipa": "/ˈaʊɾə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "fuera de; sin (algo); de",
+    "def": "a spoken form of 'out of', for leaving or running out",
+    "note": "Dos usos: salir de (get outta here) y quedarse sin (we're outta milk). Habla y mensajes. Siempre outta + lugar o cosa; sin eso usa out. Nunca en escritos formales.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Get [outta] here, I'm not kidding!",
+        "es": "¡Sal de aquí, no es broma!"
+      },
+      {
+        "en": "We're [outta] milk again.",
+        "es": "Otra vez nos quedamos sin leche."
+      }
+    ]
+  },
+  {
+    "id": "con-coulda",
+    "type": "contraction",
+    "term": "coulda",
+    "full": "could have",
+    "ipa": "/ˈkʊdə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "pude haber; podría haber",
+    "def": "a spoken form of 'could have', for past chances",
+    "note": "Posibilidad pasada: I coulda won. Viene de could've (suena 'cudə'), NO de 'could of': ese error escrito es común, siempre es could have/could've. En habla y chats, no en exámenes.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [coulda] won if I'd tried harder.",
+        "es": "Pude haber ganado si me hubiera esforzado."
+      },
+      {
+        "en": "You [coulda] told me earlier!",
+        "es": "¡Me lo pudiste haber dicho antes!"
+      }
+    ]
+  },
+  {
+    "id": "con-woulda",
+    "type": "contraction",
+    "term": "woulda",
+    "full": "would have",
+    "ipa": "/ˈwʊdə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "habría; hubiera",
+    "def": "a spoken form of 'would have' for unreal past situations",
+    "note": "Con if: If I'd known, I woulda come. Suena igual a would've; por escrito formal siempre would have, y nunca 'would of'. Famoso en 'coulda, woulda, shoulda'. Solo habla y mensajes.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [woulda] helped if you'd asked.",
+        "es": "Te habría ayudado si me lo hubieras pedido."
+      },
+      {
+        "en": "She [woulda] loved this place.",
+        "es": "A ella le habría encantado este lugar."
+      }
+    ]
+  },
+  {
+    "id": "con-shoulda",
+    "type": "contraction",
+    "term": "shoulda",
+    "full": "should have",
+    "ipa": "/ˈʃʊdə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "debí (haber); debería haber",
+    "def": "a spoken form of 'should have', for regret or a missed chance",
+    "note": "Arrepentimiento: I shoulda called. Es should've, nunca 'should of'. Con negación se oye 'shouldn't a/shouldn't've'. Solo habla, mensajes y canciones; no en correos formales.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [shoulda] brought an umbrella.",
+        "es": "Debí traer un paraguas."
+      },
+      {
+        "en": "You [shoulda] seen his face!",
+        "es": "¡Debiste ver su cara!"
+      }
+    ]
+  },
+  {
+    "id": "con-musta",
+    "type": "contraction",
+    "term": "musta",
+    "full": "must have",
+    "ipa": "/ˈmʌstə/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "debió de haber; seguro (ya) ...",
+    "def": "a spoken form of 'must have', to guess about the past",
+    "note": "Deducción sobre el pasado: He musta left already. Menos común que coulda/shoulda. Es must've, nunca 'must of'. Habla y mensajes informales, no en escritos formales.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "She [musta] forgotten her keys.",
+        "es": "Seguro se le olvidaron las llaves."
+      },
+      {
+        "en": "It [musta] been a long night.",
+        "es": "Debió de haber sido una noche larga."
+      }
+    ]
+  },
+  {
+    "id": "con-couldnt-ve",
+    "type": "contraction",
+    "term": "couldn't've",
+    "full": "could not have",
+    "ipa": "/ˈkʊdn̩təv/",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 1,
+    "es": "no habría podido; no pude haber",
+    "def": "a very casual way to say 'could not have'",
+    "note": "Triple contracción: I couldn't've done it. Sale en habla rápida y guiones; por escrito casi nadie la pone: usa could not have / couldn't have. Hermana: wouldn't've, shouldn't've.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [couldn't've] done it without you.",
+        "es": "No habría podido hacerlo sin ti."
+      },
+      {
+        "en": "He [couldn't've] known about the surprise.",
+        "es": "No pudo haber sabido de la sorpresa."
+      }
+    ]
+  },
+  {
+    "id": "con-gotcha",
+    "type": "contraction",
+    "term": "gotcha",
+    "full": "got you / got ya (te entendí, te atrapé)",
+    "ipa": "/ˈɡɑtʃə/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "entendido; te pillé; ¡te atrapé!",
+    "def": "a spoken form of 'got you', meaning I understand or I caught you",
+    "note": "Dos usos: entendí (OK, gotcha) y ¡te atrapé! (broma). También 'I gotcha' = te cubro. No lo uses con jefes formales por correo. Se escribe 'gotcha' en chats.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Meet at six? [Gotcha], see you then.",
+        "es": "¿Nos vemos a las seis? Entendido, nos vemos."
+      },
+      {
+        "en": "[Gotcha]! You totally fell for it.",
+        "es": "¡Te cachamos! Caíste de lleno."
+      }
+    ]
+  },
+  {
+    "id": "con-betcha",
+    "type": "contraction",
+    "term": "betcha",
+    "full": "bet you / I bet you",
+    "ipa": "/ˈbɛtʃə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "te apuesto a que; seguro que",
+    "def": "a spoken form of 'bet you', used to say you are very sure",
+    "note": "'I betcha it's...' = apuesto a que. Solo con you. Tono juguetón. No es una apuesta de dinero real. Nunca en correos formales ni exámenes escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "I [betcha] he forgot again.",
+        "es": "Te apuesto a que se le olvidó otra vez."
+      },
+      {
+        "en": "[Betcha] can't do it in one try.",
+        "es": "Apuesto a que no puedes en un intento."
+      }
+    ]
+  },
+  {
+    "id": "con-whatcha",
+    "type": "contraction",
+    "term": "whatcha",
+    "full": "what are you / what do you / what have you",
+    "ipa": "/ˈwʌtʃə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¿qué estás...?; ¿qué haces?; lo que tú",
+    "def": "a spoken form of 'what are you' or 'what do you'",
+    "note": "Whatcha doing? = What are you doing? Whatcha want? = What do you want? Fuera de preguntas, 'whatcha got' = what have you got. Solo informal; no en correos ni exámenes.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "Hey, [whatcha] up to tonight?",
+        "es": "Oye, ¿qué haces esta noche?"
+      },
+      {
+        "en": "[Whatcha] gonna do about it?",
+        "es": "¿Qué vas a hacer al respecto?"
+      }
+    ]
+  },
+  {
+    "id": "con-didja",
+    "type": "contraction",
+    "term": "didja",
+    "full": "did you",
+    "ipa": "/ˈdɪdʒə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "¿(tú)...? (pregunta en pasado: ¿viste?)",
+    "def": "a spoken form of 'did you' to ask about the past",
+    "note": "Se oye en habla rápida: Didja see that? Mismo patrón con d+y: wouldja, couldja, howdja. Siempre pregunta en pasado. Escríbelo solo en chats; en formal usa did you.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Didja] eat already?",
+        "es": "¿Ya comiste?"
+      },
+      {
+        "en": "[Didja] hear what happened?",
+        "es": "¿Te enteraste de lo que pasó?"
+      }
+    ]
+  },
+  {
+    "id": "con-wouldja",
+    "type": "contraction",
+    "term": "wouldja",
+    "full": "would you",
+    "ipa": "/ˈwʊdʒə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "¿podrías...?; ¿te importaría...?",
+    "def": "a spoken form of 'would you', for polite requests",
+    "note": "Petición cortés: Wouldja mind closing it? En habla se funden d+y: wouldja/couldja. Para cortesía formal escribe would you (nunca wouldja en correos ni exámenes).",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Wouldja] mind passing the salt?",
+        "es": "¿Te importaría pasarme la sal?"
+      },
+      {
+        "en": "[Wouldja] do me a favor?",
+        "es": "¿Me haces un favor?"
+      }
+    ]
+  },
+  {
+    "id": "con-dyou",
+    "type": "contraction",
+    "term": "d'you / d'ya",
+    "full": "do you",
+    "ipa": "/dʒə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "¿(tú)...? (pregunta en presente: ¿sabes?)",
+    "def": "a very short spoken form of 'do you' in questions",
+    "note": "Aparece en preguntas rápidas: d'you know...?, d'ya like it? Equivale a do you (no did you: ese es didja). Se ve en subtítulos; en escritos formales usa do you.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[D'you] know what time it is?",
+        "es": "¿Sabes qué hora es?"
+      },
+      {
+        "en": "[D'ya] want some help?",
+        "es": "¿Quieres ayuda?"
+      }
+    ]
+  },
+  {
+    "id": "con-ya",
+    "type": "contraction",
+    "term": "ya",
+    "full": "you",
+    "ipa": "/jə/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "tú; ti; te (tú)",
+    "def": "a casual, quick way of saying 'you' (also 'your')",
+    "note": "Se oye al final: see ya, thank ya, gotcha. Solo habla y chats. No es yeah (sí) ni 'ya' del espanglish. No lo uses como sujeto en escritos formales ni exámenes.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "See [ya] tomorrow, okay?",
+        "es": "Nos vemos mañana, ¿va?"
+      },
+      {
+        "en": "Thank [ya] so much for helping.",
+        "es": "Muchísimas gracias por ayudar."
+      }
+    ]
+  },
+  {
+    "id": "con-yknow",
+    "type": "contraction",
+    "term": "y'know",
+    "full": "you know",
+    "ipa": "/jəˈnoʊ/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "¿sabes?; o sea; ya sabes",
+    "def": "a filler for 'you know', often to keep talking or check understanding",
+    "note": "Es muletilla: It was, y'know, awkward. También cierra frases: ...y'know? Frecuente en series. En entrevistas formales y escritos suena a duda; úsalo poco. Se ve en subtítulos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "It was, [y'know], kind of awkward.",
+        "es": "Fue, o sea, medio incómodo."
+      },
+      {
+        "en": "I just need some space, [y'know]?",
+        "es": "Solo necesito espacio, ¿sabes?"
+      }
+    ]
+  },
+  {
+    "id": "con-yall",
+    "type": "contraction",
+    "term": "y'all",
+    "full": "you all",
+    "ipa": "/jɔl/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "ustedes; todos ustedes",
+    "def": "a Southern U.S. way to say 'you all' (plural you)",
+    "note": "Regional (Sur de EE. UU.): y'all come back! Es plural; el singular es you. Se oye mucho en series y música country. Se escribe y'all, nunca *ya'll*. No en escritos formales.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "Are [y'all] ready to order?",
+        "es": "¿Ya están listos para ordenar?"
+      },
+      {
+        "en": "Thank you, [y'all], for coming tonight!",
+        "es": "¡Gracias por venir esta noche, a todos!"
+      }
+    ]
+  },
+  {
+    "id": "con-aint",
+    "type": "contraction",
+    "term": "ain't",
+    "full": "am not / is not / are not / has not / have not / do not",
+    "ipa": "/eɪnt/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "no soy/está/estoy/he/ha (sin forma única)",
+    "def": "a very informal 'not' form that replaces many 'be' and 'have' negatives",
+    "note": "Informal o dialectal: I ain't ready, he ain't home. Se oye en música y series. En escritos formales y exámenes: NO. Algunos lo ven 'incorrecto'; úsalo con cuidado (bromas, frases hechas).",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "I [ain't] going anywhere.",
+        "es": "No me voy a ningún lado."
+      },
+      {
+        "en": "That [ain't] what I said.",
+        "es": "Eso no fue lo que dije."
+      }
+    ]
+  },
+  {
+    "id": "con-cause",
+    "type": "contraction",
+    "term": "'cause",
+    "full": "because",
+    "ipa": "/kəz/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "porque",
+    "def": "a short, casual form of 'because' (also written cuz)",
+    "note": "Se escribe 'cause, cuz o cos en chats. No es 'causa' (cause sin apóstrofo es otra palabra: causar). Va con una oración: I left 'cause I was tired. En formal: because.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I left early [cause] I was tired.",
+        "es": "Me fui temprano porque estaba cansada."
+      },
+      {
+        "en": "Don't go, [cuz] it's about to rain.",
+        "es": "No te vayas, porque ya va a llover."
+      }
+    ]
+  },
+  {
+    "id": "con-tryna",
+    "type": "contraction",
+    "term": "tryna",
+    "full": "trying to",
+    "ipa": "/ˈtraɪnə/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "tratando de; queriendo",
+    "def": "a very casual spoken form of 'trying to'",
+    "note": "Siempre con una acción en -ing: I'm tryna sleep. Más joven e informal que wanna; viene de AAVE y redes. No en entrevistas ni escritos formales: allí trying to.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "I'm [tryna] sleep, so keep it down.",
+        "es": "Estoy tratando de dormir, así que bajen la voz."
+      },
+      {
+        "en": "Are you [tryna] start a fight?",
+        "es": "¿Estás buscando pleito?"
+      }
+    ]
+  },
+  {
+    "id": "con-finna",
+    "type": "contraction",
+    "term": "finna",
+    "full": "fixing to / about to / going to",
+    "ipa": "/ˈfɪnə/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "voy a; estoy por; ya merito",
+    "def": "a Southern/AAVE form meaning 'about to' or 'going to'",
+    "note": "Dialectal (AAVE y Sur de EE. UU.): I'm finna eat. Es de hablantes de esa comunidad; fuera de ella imitar puede sonar forzado. Aparece en música y series. Mejor entenderlo que usarlo; nunca formal.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "I'm [finna] head out, you coming?",
+        "es": "Ya me voy, ¿vienes?"
+      },
+      {
+        "en": "She's [finna] drop a new song.",
+        "es": "Va a sacar una canción nueva."
+      }
+    ]
+  },
+  {
+    "id": "con-imma",
+    "type": "contraction",
+    "term": "I'mma",
+    "full": "I'm going to / I am going to",
+    "ipa": "/ˈaɪmə/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "voy a (yo)",
+    "def": "a very casual form of 'I'm going to' (also written imma)",
+    "note": "Solo con 'I': Imma call you back (no *he imma*). Más fuerte que gonna: música, rap, redes. Escríbelo I'mma o imma. Nunca en correos formales, CV ni exámenes.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "I'm busy, so [I'mma] call you back.",
+        "es": "Estoy ocupado, así que te devuelvo la llamada."
+      },
+      {
+        "en": "[Imma] be real with you.",
+        "es": "Voy a ser sincera contigo."
+      }
+    ]
+  },
+  {
+    "id": "con-cmon",
+    "type": "contraction",
+    "term": "c'mon",
+    "full": "come on",
+    "ipa": "/kəˈmɑn/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "¡vamos!; ¡ándale!; ¡por favor!",
+    "def": "a short spoken form of 'come on' to push or encourage someone",
+    "note": "Anima, apura o reclama: C'mon, hurry up! / C'mon, you can do it. Se pronuncia 'kə-MON'. No siempre es 'ven'; es ¡vamos!. Escribe come on en lo formal.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[C'mon], we're going to be late!",
+        "es": "¡Ándale, se nos va a hacer tarde!"
+      },
+      {
+        "en": "[C'mon], just give it a try.",
+        "es": "Anímate, nomás inténtalo."
+      }
+    ]
+  },
+  {
+    "id": "con-em",
+    "type": "contraction",
+    "term": "'em",
+    "full": "them",
+    "ipa": "/əm/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "los; las; les (ellos)",
+    "def": "a short spoken form of 'them' used after verbs",
+    "note": "Va tras verbo: tell 'em, give 'em. Se pronuncia 'əm', sin th. NO es 'him' (ni 'am'). En formal usa them. En diálogos de series aparece como 'em; en chats también.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Tell [em] we'll be there at noon.",
+        "es": "Diles que estaremos ahí a mediodía."
+      },
+      {
+        "en": "I love those kids; I'd do anything for [em].",
+        "es": "Quiero a esos niños; haría lo que fuera por ellos."
+      }
+    ]
+  },
+  {
+    "id": "con-til",
+    "type": "contraction",
+    "term": "'til",
+    "full": "until",
+    "ipa": "/tɪl/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "hasta (que)",
+    "def": "a short form of 'until', for when something stops or starts",
+    "note": "Es until (till). Wait 'til Friday. Ojo: no es 'hasta' de lugar (to). Se escribe 'til o till; en formal usa until. En música y subtítulos es muy común.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Wait [til] I get back, okay?",
+        "es": "Espérate a que regrese, ¿sí?"
+      },
+      {
+        "en": "We stayed up [til] midnight.",
+        "es": "Nos desvelamos hasta la medianoche."
+      }
+    ]
+  },
+  {
+    "id": "con-innit",
+    "type": "contraction",
+    "term": "innit",
+    "full": "isn't it (tag question británico)",
+    "ipa": "/ˈɪnɪt/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "¿no?; ¿verdad? (británico)",
+    "def": "a British tag question like 'isn't it?' that people add at the end",
+    "note": "Británico y de Londres. En Norteamérica NO se usa; si lo oyes en una serie de UK, es acento. Allá se dice isn't it?, right?, no? o simplemente 'huh'. No lo copies en EE. UU./Canadá.",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "Cold today, [innit]?",
+        "es": "Hace frío hoy, ¿no?"
+      },
+      {
+        "en": "That's the best one, [innit]?",
+        "es": "Esa es la mejor, ¿verdad?"
+      }
+    ]
+  },
+  {
+    "id": "con-wassup",
+    "type": "contraction",
+    "term": "wassup",
+    "full": "what's up",
+    "ipa": "/wʌˈsʌp/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¿qué onda?; ¿qué hubo?",
+    "def": "a casual way to say 'what's up' to greet someone",
+    "note": "Saludo entre amigos: Wassup, man? Respuesta: not much / nothing. Puede ser pregunta real. No lo uses con jefes ni clientes (usa How are you?). En mensajes: wassup, whassup, sup.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "[Wassup], man? Long time no see!",
+        "es": "¿Qué onda, bro? ¡Cuánto tiempo!"
+      },
+      {
+        "en": "Hey, [wassup]? Anything new?",
+        "es": "Oye, ¿qué onda? ¿Algo nuevo?"
+      }
+    ]
+  },
+  {
+    "id": "con-howdy",
+    "type": "contraction",
+    "term": "howdy",
+    "full": "how do you do",
+    "ipa": "/ˈhaʊdi/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "¡quihubo!; ¡qué tal!",
+    "def": "a friendly greeting from the Southern and Western U.S.",
+    "note": "Saludo regional (Texas, oeste, rancho) o broma: Howdy, folks! Fuera de eso suena a vaquero; no lo uses en entrevistas. Mejor hello/hi. Se ve en series y publicidad.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "[Howdy], folks! Welcome to the ranch.",
+        "es": "¡Quihubo, amigos! Bienvenidos al rancho."
+      },
+      {
+        "en": "Well, [howdy], stranger!",
+        "es": "¡Vaya, quihubo, forastero!"
+      }
+    ]
+  },
+  {
+    "id": "con-yall-misspelled",
+    "type": "contraction",
+    "term": "ya'll",
+    "full": "(error de escritura de y'all)",
+    "ipa": "/jɔl/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "ustedes (mal escrito)",
+    "def": "a common wrong spelling of 'y'all' (you all)",
+    "note": "Se escribe y'all: el apóstrofo va después de la y (you all → y'all). 'Ya'll' es un error común; suena igual. Si ves ya'll, es el mismo y'all. No en escritos formales.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "Thanks, [y'all], for coming out tonight.",
+        "es": "Gracias a todos por venir esta noche."
+      },
+      {
+        "en": "Are [y'all] hungry?",
+        "es": "¿Tienen hambre?"
+      }
+    ]
+  },
+  {
+    "id": "con-smore",
+    "type": "contraction",
+    "term": "s'more",
+    "full": "some more / (merienda de campamento)",
+    "ipa": "/smɔr/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "un poco más; malvavisco con chocolate",
+    "def": "a spoken 'some more'; also a camp snack of marshmallow and chocolate",
+    "note": "Dos: s'more suena 'smor' (some more: want s'more?). Como sustantivo: a s'more, s'mores (merienda de fogata con galleta). Muy cultural en EE. UU./Canadá. No en escritos formales.",
+    "areas": [
+      "canada",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Want [s'more] hot chocolate?",
+        "es": "¿Quieres más chocolate caliente?"
+      },
+      {
+        "en": "Let's make [s'mores] by the fire.",
+        "es": "Hagamos s'mores en la fogata."
+      }
+    ]
+  },
+  {
+    "id": "con-lets",
+    "type": "contraction",
+    "term": "let's",
+    "full": "let us (sugerencia: hagamos)",
+    "ipa": "/lɛts/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "vamos a; hagamos",
+    "def": "a short form of 'let us' used to suggest something together",
+    "note": "Sugerencia a un grupo: Let's go. Es estándar, también en escritos. NO es let us (permiso); no digas *let's we go*. Negativa: let's not (no *don't let's*). Ok en correos casuales.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Let's] grab dinner after work.",
+        "es": "Vamos a cenar después del trabajo."
+      },
+      {
+        "en": "[Let's] not argue about it.",
+        "es": "No discutamos por eso."
+      }
+    ]
+  },
+  {
+    "id": "con-its-contraction",
+    "type": "contraction",
+    "term": "it's",
+    "full": "it is / it has",
+    "ipa": "/ɪts/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "es; está; ha (eso)",
+    "def": "a short form of 'it is' or 'it has'",
+    "note": "Trampa: it's = it is/it has; its = de él/ella/eso (sin apóstrofo). It's raining. The dog wagged its tail. Prueba: sustituye it is. En escritos formales se acepta.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[It's] a great day for a walk.",
+        "es": "Es un gran día para caminar."
+      },
+      {
+        "en": "[It's] been a long week.",
+        "es": "Ha sido una semana larga."
+      }
+    ]
+  },
+  {
+    "id": "con-its-possessive",
+    "type": "contraction",
+    "term": "its",
+    "full": "(posesivo: de él/ella/eso)",
+    "ipa": "/ɪts/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "su (de un animal o cosa)",
+    "def": "the possessive form that shows something belongs to 'it'",
+    "note": "NO lleva apóstrofo: its. Suena igual que it's (it is/has). The company lost its keys. Si puedes decir it is, escribe it's. Es el error escrito más común en inglés.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "The cat licked [its] paw.",
+        "es": "El gato se lamió la pata."
+      },
+      {
+        "en": "The city is proud of [its] history.",
+        "es": "La ciudad está orgullosa de su historia."
+      }
+    ]
+  },
+  {
+    "id": "con-youre",
+    "type": "contraction",
+    "term": "you're",
+    "full": "you are",
+    "ipa": "/jʊr/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "eres; estás; tú eres",
+    "def": "a short form of 'you are'",
+    "note": "Trampa: you're = you are; your = tu/tus. You're late (tú estás tarde); your keys (tus llaves). Se pronuncia casi como 'your' o 'yer'. Ok en escritos y mensajes formales.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[You're] going to love it here.",
+        "es": "Te va a encantar estar aquí."
+      },
+      {
+        "en": "Hey, [you're] up early today!",
+        "es": "¡Oye, qué temprano te levantaste hoy!"
+      }
+    ]
+  },
+  {
+    "id": "con-theyre",
+    "type": "contraction",
+    "term": "they're",
+    "full": "they are",
+    "ipa": "/ðɛr/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "ellos son; ellos están",
+    "def": "a short form of 'they are'",
+    "note": "Trampa de tres: they're (they are), their (de ellos), there (allí/hay). Suenan igual. They're late; their car; over there. Prueba: ¿cabe they are? Entonces they're.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I think [they're] coming at eight.",
+        "es": "Creo que vienen a las ocho."
+      },
+      {
+        "en": "[They're] so tired after the trip.",
+        "es": "Están muy cansados tras el viaje."
+      }
+    ]
+  },
+  {
+    "id": "con-theres",
+    "type": "contraction",
+    "term": "there's",
+    "full": "there is / there has",
+    "ipa": "/ðɛrz/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "hay; existe; ha...",
+    "def": "a short form of 'there is' or 'there has'",
+    "note": "Contracción normal: there's a problem. Hay un uso informal: 'There's two cars' (plural); en habla es común, pero en escritos y exámenes usa there are. Suena como theirs.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[There's] a problem with the wifi.",
+        "es": "Hay un problema con el wifi."
+      },
+      {
+        "en": "[There's] two cars outside; who's here?",
+        "es": "Hay dos carros afuera; ¿quién llegó?"
+      }
+    ]
+  },
+  {
+    "id": "con-id",
+    "type": "contraction",
+    "term": "I'd",
+    "full": "I had / I would",
+    "ipa": "/aɪd/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "yo había; yo habría/querría",
+    "def": "a short form of 'I had' or 'I would'",
+    "note": "Ambigua: I'd gone (= I had gone, pasado perfecto) o I'd go (= I would go). Pista: la forma del verbo después. I'd better = I had better; I'd rather = I would rather. En escritos formales se acepta.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[I'd] love to join you tonight.",
+        "es": "Me encantaría acompañarte esta noche."
+      },
+      {
+        "en": "[I'd] already left when she called.",
+        "es": "Ya me había ido cuando ella llamó."
+      }
+    ]
+  },
+  {
+    "id": "con-hes",
+    "type": "contraction",
+    "term": "he's",
+    "full": "he is / he has",
+    "ipa": "/hiz/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "él es; él está; él ha",
+    "def": "a short form of 'he is' or 'he has'",
+    "note": "Ambigua: he's tired (is) o he's finished (has). Pista: -ing/adjetivo = is; participio (finished, been, gone) = has. Igual con she's, it's. Ok también en textos formales.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[He's] been working here for years.",
+        "es": "Lleva años trabajando aquí."
+      },
+      {
+        "en": "[He's] waiting in the car.",
+        "es": "Está esperando en el carro."
+      }
+    ]
+  },
+  {
+    "id": "con-whos",
+    "type": "contraction",
+    "term": "who's",
+    "full": "who is / who has",
+    "ipa": "/huz/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "quién es / quién ha",
+    "def": "a short form of 'who is' or 'who has'",
+    "note": "Trampa: who's = who is/has; whose = de quién. Who's calling? (quién llama) vs Whose phone is this? (de quién es). Mismo sonido. Prueba: ¿cabe who is? Ok en escritos.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Who's] coming to the party?",
+        "es": "¿Quién va a ir a la fiesta?"
+      },
+      {
+        "en": "[Who's] been using my laptop?",
+        "es": "¿Quién ha estado usando mi laptop?"
+      }
+    ]
+  },
+  {
+    "id": "con-whose",
+    "type": "contraction",
+    "term": "whose",
+    "full": "(de quién; cuyo)",
+    "ipa": "/huz/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "de quién; cuyo",
+    "def": "a word that asks or shows who owns something",
+    "note": "NO es who's. Whose book is this? = ¿de quién es? o una persona 'whose dog...' = cuyo perro. Suena igual que who's. Prueba: si no cabe who is/has, es whose.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Whose] jacket is this?",
+        "es": "¿De quién es esta chamarra?"
+      },
+      {
+        "en": "I met a man [whose] brother is famous.",
+        "es": "Conocí a un hombre cuyo hermano es famoso."
+      }
+    ]
+  },
+  {
+    "id": "con-wont",
+    "type": "contraction",
+    "term": "won't",
+    "full": "will not",
+    "ipa": "/woʊnt/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "no (futuro); no voy a",
+    "def": "a short form of 'will not'",
+    "note": "Irregular: won't, no *willn't*. Rima con don't (woʊnt), no con want. Normal en habla y escritos; en muy formales, will not. 'Wont' sin apóstrofo es otra palabra (hábito).",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [won't] tell anyone, I promise.",
+        "es": "No le voy a decir a nadie, lo prometo."
+      },
+      {
+        "en": "The car [won't] start again.",
+        "es": "El carro no quiere arrancar otra vez."
+      }
+    ]
+  },
+  {
+    "id": "con-shant",
+    "type": "contraction",
+    "term": "shan't",
+    "full": "shall not",
+    "ipa": "/ʃænt/",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 1,
+    "es": "no (voy a); no deberé (británico)",
+    "def": "a very formal, mostly British way to say 'shall not'",
+    "note": "Británico y anticuado; en Norteamérica casi no se usa: se dice won't o I'm not going to. Si lo oyes, es de una serie británica o muy formal. No lo uses en EE. UU./Canadá.",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "We [shan't] be late, I promise.",
+        "es": "No llegaremos tarde, lo prometo."
+      },
+      {
+        "en": "I [shan't] say a word.",
+        "es": "No diré una palabra."
+      }
+    ]
+  },
+  {
+    "id": "con-mightnt",
+    "type": "contraction",
+    "term": "mightn't",
+    "full": "might not",
+    "ipa": "/ˈmaɪtn̩t/",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 1,
+    "es": "quizá no; puede que no",
+    "def": "a formal-sounding short form of 'might not'",
+    "note": "Raro y algo británico/formal; en Norteamérica se dice might not (sin contraer): He might not come. Aparece en series de época o UK. No hace falta que lo uses.",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "It [mightn't] be a good idea.",
+        "es": "Quizá no sea buena idea."
+      },
+      {
+        "en": "She [mightn't] want to see you.",
+        "es": "Puede que no quiera verte."
+      }
+    ]
+  },
+  {
+    "id": "con-dve",
+    "type": "contraction",
+    "term": "'d've",
+    "full": "would have / had have (en habla)",
+    "ipa": "/dəv/",
+    "level": "C1",
+    "topic": "informal",
+    "freq": 1,
+    "es": "habría; hubiera",
+    "def": "a spoken sound for 'would have', as in I'd've or he'd've",
+    "note": "I'd've = I would have: I'd've gone. Es contracción doble (I would + have). Casi no se escribe fuera de chats. 'Woulda' es su pariente. No la uses por escrito formal; sí reconócela.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I['d've] helped, but I wasn't there.",
+        "es": "Habría ayudado, pero no estaba ahí."
+      },
+      {
+        "en": "She['d've] said yes if you'd asked.",
+        "es": "Ella habría dicho que sí si le hubieras preguntado."
+      }
+    ]
+  },
+  {
+    "id": "con-dont",
+    "type": "contraction",
+    "term": "don't",
+    "full": "do not",
+    "ipa": "/doʊnt/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "no (yo/tú/nosotros/ellos)",
+    "def": "a short form of 'do not'",
+    "note": "Contracción estándar. Con he/she/it usa doesn't: he doesn't (no *he don't*; ese error se oye en dialectos). Se acepta en la mayor parte de los textos; en muy formales, do not.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [don't] know what to say.",
+        "es": "No sé qué decir."
+      },
+      {
+        "en": "They [don't] live here anymore.",
+        "es": "Ya no viven aquí."
+      }
+    ]
+  },
+  {
+    "id": "con-shouldve",
+    "type": "contraction",
+    "term": "should've",
+    "full": "should have",
+    "ipa": "/ˈʃʊdəv/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "debí haber; debería haber",
+    "def": "a short form of 'should have' for regret or advice about the past",
+    "note": "Escrito: should've, no 'should of' (error común porque suena igual). 'You should've called.' Ok en mensajes e informales; en formal escribe should have.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "You [should've] told me earlier.",
+        "es": "Debiste decírmelo antes."
+      },
+      {
+        "en": "I [should've] taken the earlier train.",
+        "es": "Debí tomar el tren anterior."
+      }
+    ]
+  },
+  {
+    "id": "con-wouldve",
+    "type": "contraction",
+    "term": "would've",
+    "full": "would have",
+    "ipa": "/ˈwʊdəv/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "habría; hubiera",
+    "def": "a short form of 'would have' for things that did not happen",
+    "note": "Escrito: would've, nunca 'would of'. 'If I'd known, I would've come.' Suena como woulda. Ok en la mayor parte de los textos; en formales, would have.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I [would've] come if I'd known.",
+        "es": "Habría venido si lo hubiera sabido."
+      },
+      {
+        "en": "It [would've] been fun.",
+        "es": "Habría sido divertido."
+      }
+    ]
+  },
+  {
+    "id": "con-couldve",
+    "type": "contraction",
+    "term": "could've",
+    "full": "could have",
+    "ipa": "/ˈkʊdəv/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "pude haber; podría haber",
+    "def": "a short form of 'could have' for past chances",
+    "note": "Escrito: could've, nunca 'could of'. 'We could've won.' Hermana de coulda. Se acepta en mensajes y textos informales; en formales, could have.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "We [could've] won if we'd tried.",
+        "es": "Pudimos haber ganado si lo hubiéramos intentado."
+      },
+      {
+        "en": "She [could've] called, but she didn't.",
+        "es": "Pudo haber llamado, pero no lo hizo."
+      }
+    ]
+  },
+  {
+    "id": "con-mighta",
+    "type": "contraction",
+    "term": "mighta",
+    "full": "might have",
+    "ipa": "/ˈmaɪɾə/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "tal vez (haya); pudo haber",
+    "def": "a spoken form of 'might have' for a possible past event",
+    "note": "Menos común: He mighta forgotten. Es might've. NO 'might of'. Se oye en habla casual y en subtítulos. En escritos formales usa might have.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "She [mighta] left already.",
+        "es": "Tal vez ya se fue."
+      },
+      {
+        "en": "We [mighta] taken the wrong road.",
+        "es": "Quizá tomamos el camino equivocado."
+      }
+    ]
+  },
+  {
+    "id": "con-whaddya",
+    "type": "contraction",
+    "term": "whaddya",
+    "full": "what do you",
+    "ipa": "/ˈwʌɾjə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "¿qué...tú?; ¿qué quieres?",
+    "def": "a spoken form of 'what do you' in fast questions",
+    "note": "Whaddya want? / Whaddya think? Se pronuncia 'wʌɾjə'. Variante de whatcha (what are you). Muy hablado, casi nunca escrito; en formal usa what do you.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "[Whaddya] want for dinner?",
+        "es": "¿Qué quieres de cena?"
+      },
+      {
+        "en": "[Whaddya] think about this one?",
+        "es": "¿Qué opinas de este?"
+      }
+    ]
+  },
+  {
+    "id": "con-dontcha",
+    "type": "contraction",
+    "term": "dontcha",
+    "full": "don't you",
+    "ipa": "/ˈdoʊntʃə/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "¿no (tú)...?; ¿verdad?",
+    "def": "a spoken form of 'don't you', often used as a tag question",
+    "note": "'You like it, dontcha?' = ¿verdad? / 'Dontcha know?' Es hablado, también en canciones. En formales y escritos: don't you. Se oye 'dont-sha'.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "You like her, [dontcha]?",
+        "es": "Ella te cae bien, ¿verdad?"
+      },
+      {
+        "en": "[Dontcha] think it's too late?",
+        "es": "¿No crees que es muy tarde?"
+      }
+    ]
+  },
+  {
+    "id": "con-needa",
+    "type": "contraction",
+    "term": "needa",
+    "full": "need to",
+    "ipa": "/ˈnidə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "necesito; hay que",
+    "def": "a spoken form of 'need to'",
+    "note": "I needa leave. Solo need to (con verbo). He needs to, no *he needa*. Poco escrito; si lo ves en chats es needa o nee'a. En formal usa need to.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "I [needa] finish this tonight.",
+        "es": "Necesito terminar esto esta noche."
+      },
+      {
+        "en": "We [needa] talk about this.",
+        "es": "Tenemos que hablar de esto."
+      }
+    ]
+  },
+  {
+    "id": "con-usta",
+    "type": "contraction",
+    "term": "usta",
+    "full": "used to",
+    "ipa": "/ˈjustə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "solía; antes (yo)",
+    "def": "a spoken form of 'used to' for past habits",
+    "note": "Suena 'yus-tə' (sin la d). Se escribe used to. I usta play. Cuidado: be used to + -ing = estar acostumbrado. En formal y exámenes: used to siempre.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "We [usta] go there every summer.",
+        "es": "Solíamos ir ahí cada verano."
+      },
+      {
+        "en": "I [usta] hate mornings.",
+        "es": "Antes odiaba las mañanas."
+      }
+    ]
+  },
+  {
+    "id": "con-supposta",
+    "type": "contraction",
+    "term": "supposta",
+    "full": "supposed to",
+    "ipa": "/səˈpoʊstə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 2,
+    "es": "se supone que; debería",
+    "def": "a spoken form of 'supposed to' for expectations",
+    "note": "You're supposta be here at nine. Se oye 'səˈpoʊstə'. Escribe supposed to (con d). Es el error común escrito 'suppose to'. En formal siempre supposed to.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "You're [supposta] be at work by nine.",
+        "es": "Se supone que llegues al trabajo a las nueve."
+      },
+      {
+        "en": "It's [supposta] snow tonight.",
+        "es": "Se supone que va a nevar esta noche."
+      }
+    ]
+  },
+  {
+    "id": "con-bout",
+    "type": "contraction",
+    "term": "'bout",
+    "full": "about",
+    "ipa": "/baʊt/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "sobre; acerca de",
+    "def": "a short spoken form of 'about'",
+    "note": "Tell me 'bout it, what 'bout you? Ahí 'bout = about. No cambia el significado. Se ve en letras y chats; en formales escribe about. 'Bout' (sin apóstrofo) es otra palabra: boxeo.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "Tell me [bout] your trip!",
+        "es": "¡Cuéntame de tu viaje!"
+      },
+      {
+        "en": "What [bout] you? Are you coming?",
+        "es": "¿Y tú? ¿Vienes?"
+      }
+    ]
+  },
+  {
+    "id": "con-kay",
+    "type": "contraction",
+    "term": "'kay",
+    "full": "okay",
+    "ipa": "/keɪ/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "va; vale; ok",
+    "def": "a very short, casual form of 'okay'",
+    "note": "En mensajes: k, kk, kay. Ojo: un 'k' seco puede sonar frío o molesto. En formal usa okay o sounds good. En series aparece como 'kay, 'kay then.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "[Kay], see you at seven.",
+        "es": "Va, nos vemos a las siete."
+      },
+      {
+        "en": "[Kay], I'll text you later.",
+        "es": "Va, te escribo luego."
+      }
+    ]
+  },
+  {
+    "id": "con-ing-in",
+    "type": "contraction",
+    "term": "-in'",
+    "full": "-ing (g omitida)",
+    "ipa": "/ɪn/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "gerundio (final suave)",
+    "def": "dropping the final g in -ing words, like goin' or nothin'",
+    "note": "En habla relajada: goin', doin', nothin', somethin'. No cambia el verbo; solo la pronunciación (-in). En letras y diálogos se ve con apóstrofo. En formal, -ing completo.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "What are you [doin'] tonight?",
+        "es": "¿Qué haces esta noche?"
+      },
+      {
+        "en": "Nothin' much, just [chillin'].",
+        "es": "Nada, nomás relajándome."
+      }
+    ]
+  },
+  {
+    "id": "con-maam",
+    "type": "contraction",
+    "term": "ma'am",
+    "full": "madam",
+    "ipa": "/mæm/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 3,
+    "es": "señora; señorita (cortés)",
+    "def": "a polite word for addressing a woman, short for 'madam'",
+    "note": "Respeto: Yes, ma'am. Más usado en el Sur de EE. UU. y servicios. No uses ma'am con una joven que sí quiere 'miss'. En tienda o servicio es normal. Sirve en formal.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Yes, [ma'am], right away.",
+        "es": "Sí, señora, enseguida."
+      },
+      {
+        "en": "Can I help you, [ma'am]?",
+        "es": "¿La puedo ayudar, señora?"
+      }
+    ]
+  },
+  {
+    "id": "con-oclock",
+    "type": "contraction",
+    "term": "o'clock",
+    "full": "of the clock",
+    "ipa": "/əˈklɑk/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "en punto",
+    "def": "a word placed after a number to say the exact hour",
+    "note": "Solo horas exactas: three o'clock, no *three-thirty o'clock*. Se pone tras el número. Es estándar y se acepta en escritos. No lleva a.m./p.m. al mismo tiempo (3 p.m. o three o'clock).",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "The meeting is at three [o'clock].",
+        "es": "La junta es a las tres en punto."
+      },
+      {
+        "en": "It was almost ten [o'clock] at night.",
+        "es": "Eran casi las diez de la noche."
+      }
+    ]
+  },
+  {
+    "id": "con-isnt",
+    "type": "contraction",
+    "term": "isn't / aren't",
+    "full": "is not / are not",
+    "ipa": "/ˈɪzn̩t/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "no es/está; no son/están",
+    "def": "short forms of 'is not' and 'are not'",
+    "note": "Isn't (he/she/it), aren't (you/we/they). Con I: I'm not (no *I amn't*); en pregunta sí: aren't I? Normal en habla y escritos; en muy formales, is not / are not.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "It [isn't] as hard as it looks.",
+        "es": "No es tan difícil como parece."
+      },
+      {
+        "en": "They [aren't] home right now.",
+        "es": "No están en casa ahora."
+      }
+    ]
+  },
+  {
+    "id": "con-were",
+    "type": "contraction",
+    "term": "we're",
+    "full": "we are",
+    "ipa": "/wɪr/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "somos; estamos (nosotros)",
+    "def": "a short form of 'we are'",
+    "note": "Trampa: we're (we are), were (pasado de be) y where (dónde). Suenan parecido. We're ready vs we were ready. Prueba: ¿cabe we are? Ok en todo tipo de texto.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[We're] leaving in ten minutes.",
+        "es": "Nos vamos en diez minutos."
+      },
+      {
+        "en": "[We're] so happy for you!",
+        "es": "¡Estamos muy contentos por ti!"
+      }
+    ]
+  },
+  {
+    "id": "con-ive",
+    "type": "contraction",
+    "term": "I've",
+    "full": "I have",
+    "ipa": "/aɪv/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "yo he; tengo (auxiliar)",
+    "def": "a short form of 'I have', used with past participles",
+    "note": "Auxiliar del presente perfecto: I've seen it. Para 'tengo' (posesión) también: I've got a cold. Con un sustantivo directo: I have a car (completo es más común). No *I've a car* en EE. UU.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[I've] never been to Canada.",
+        "es": "Nunca he estado en Canadá."
+      },
+      {
+        "en": "[I've] got a headache.",
+        "es": "Me duele la cabeza."
+      }
+    ]
+  },
+  {
+    "id": "con-ill",
+    "type": "contraction",
+    "term": "I'll",
+    "full": "I will / I shall",
+    "ipa": "/aɪl/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "yo (voy a); yo + futuro",
+    "def": "a short form of 'I will'",
+    "note": "Decisión o promesa del momento: I'll help you. En EE. UU. casi no se usa I shall. I'll no es 'ill' (enfermo). Ok en escritos casi formales; en formales muy estrictos, I will.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[I'll] call you when I land.",
+        "es": "Te llamo cuando aterrice."
+      },
+      {
+        "en": "[I'll] have the soup, please.",
+        "es": "Voy a querer la sopa, por favor."
+      }
+    ]
+  },
+  {
+    "id": "con-thats",
+    "type": "contraction",
+    "term": "that's",
+    "full": "that is / that has",
+    "ipa": "/ðæts/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "eso es; eso está; eso ha",
+    "def": "a short form of 'that is' or 'that has'",
+    "note": "Muy frecuente: That's right, that's great. Con -ed o participio puede ser has: that's been a while. No se confunde con 'thats' sin apóstrofo. Ok en escritos casi formales.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[That's] exactly what I meant.",
+        "es": "Eso es justo lo que quise decir."
+      },
+      {
+        "en": "[That's] been a rough week.",
+        "es": "Ha sido una semana difícil."
+      }
+    ]
+  },
+  {
+    "id": "con-whats",
+    "type": "contraction",
+    "term": "what's",
+    "full": "what is / what has / what does",
+    "ipa": "/wʌts/",
+    "level": "A1",
+    "topic": "informal",
+    "freq": 5,
+    "es": "qué es; qué ha; qué (hace)",
+    "def": "a short form of 'what is' or 'what has'",
+    "note": "What's up? = what is up. What's happened? = what has. What's he do? = what does (muy informal, solo habla). Se escribe con apóstrofo. Ok en escritos casi formales.",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[What's] your name again?",
+        "es": "¿Cómo te llamabas, otra vez?"
+      },
+      {
+        "en": "[What's] happened to the old store?",
+        "es": "¿Qué le pasó a la tienda vieja?"
+      }
+    ]
+  },
+  {
+    "id": "con-aint-got",
+    "type": "contraction",
+    "term": "ain't got",
+    "full": "don't have / haven't got (informal)",
+    "ipa": "/eɪnt ɡɑt/",
+    "level": "B2",
+    "topic": "informal",
+    "freq": 2,
+    "es": "no tengo; no hay",
+    "def": "a very informal way to say you don't have something",
+    "note": "I ain't got no money es doble negación (dialecto): NO es estándar. Si quieres sonar natural: I don't have any money. Mejor reconocerlo (canciones, series) que usarlo.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang",
+      "dialect"
+    ],
+    "ex": [
+      {
+        "en": "I [ain't got] time for this.",
+        "es": "No tengo tiempo para esto."
+      },
+      {
+        "en": "We [ain't got] nothing to lose.",
+        "es": "No tenemos nada que perder."
+      }
+    ]
+  },
+  {
+    "id": "con-gonna-have-to",
+    "type": "contraction",
+    "term": "gonna have to",
+    "full": "going to have to",
+    "ipa": "/ˈɡʌnə hæftə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "voy a tener que",
+    "def": "a spoken chain of 'gonna' and 'hafta' for future obligation",
+    "note": "Combinación frecuente: gonna have to / gonna hafta. 'I'm gonna have to leave.' Cuidado: after gonna va el verbo base. No en escritos formales ni exámenes.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "I'm [gonna have to] work late.",
+        "es": "Voy a tener que trabajar hasta tarde."
+      },
+      {
+        "en": "You're [gonna have to] decide soon.",
+        "es": "Vas a tener que decidir pronto."
+      }
+    ]
+  },
+  {
+    "id": "con-gotta-got-a",
+    "type": "contraction",
+    "term": "gotta (= got a)",
+    "full": "got a / have got a",
+    "ipa": "/ˈɡɑɾə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "tengo un/a; (tú) tienes un/a",
+    "def": "a spoken 'gotta' meaning 'have got a' (possession)",
+    "note": "Poco claro: 'I gotta car' = I've got a car. Por escrito casi nadie lo usa (se confunde con obligación). Mejor leer el contexto: gotta + verbo = tengo que; gotta + sustantivo = tengo un. No en formales.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "I [gotta] question for you.",
+        "es": "Tengo una pregunta para ti."
+      },
+      {
+        "en": "She [gotta] new phone yesterday.",
+        "es": "Se consiguió un celular nuevo ayer."
+      }
+    ]
+  }
+]

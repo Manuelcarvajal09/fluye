@@ -1,0 +1,1256 @@
+{
+  "id": "entrevistas",
+  "title_es": "Entrevistas de trabajo",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas"
+  ],
+  "season": null,
+  "objective_es": "Presentarte, contar tu experiencia con ejemplos concretos, negociar y hacer buenas preguntas en una entrevista.",
+  "tracks": [
+    {
+      "id": "entrevistas-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Presentarte en una entrevista sencilla, decir tu experiencia y tus puntos fuertes, y hablar de horarios.",
+      "items": [
+        "phr-tell-me-about-yourself",
+        "phr-i-have-years-of-experience",
+        "phr-im-good-at",
+        "col-work-part-time",
+        "phr-when-can-you-start",
+        "phr-im-a-quick-learner",
+        "phr-thank-you-for-your-time",
+        "voc-strength",
+        "col-have-experience",
+        "col-apply-for-a-job"
+      ],
+      "lesson": {
+        "id": "ls-entrevistas-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 1002,
+        "title": "A part-time job interview",
+        "title_es": "Entrevista para un trabajo de medio tiempo",
+        "intro_es": "Mei va a su primera entrevista en una librería. Dana, la gerente, le hace preguntas sencillas.",
+        "lines": [
+          {
+            "who": "Dana",
+            "en": "Hi, Mei. Thanks for coming. Please sit down.",
+            "es": "Hola, Mei. Gracias por venir. Siéntate, por favor."
+          },
+          {
+            "who": "Mei",
+            "en": "Thank you for seeing me. I'm excited about this job.",
+            "es": "Gracias por recibirme. Me emociona este trabajo."
+          },
+          {
+            "who": "Dana",
+            "en": "Great. [Tell me about yourself].",
+            "es": "Muy bien. Cuéntame sobre ti.",
+            "item": "phr-tell-me-about-yourself"
+          },
+          {
+            "who": "Mei",
+            "en": "I'm from Mexico. [I have two years of experience] in a bookstore.",
+            "es": "Soy de México. Tengo dos años de experiencia en una librería.",
+            "item": "phr-i-have-years-of-experience"
+          },
+          {
+            "who": "Dana",
+            "en": "Good. What are your strengths?",
+            "es": "Bien. ¿Cuáles son tus fortalezas?"
+          },
+          {
+            "who": "Mei",
+            "en": "[I'm good at] helping customers, and I'm very organized.",
+            "es": "Soy buena para ayudar a los clientes, y soy muy organizada.",
+            "item": "phr-im-good-at"
+          },
+          {
+            "who": "Dana",
+            "en": "Do you want full-time or part-time work?",
+            "es": "¿Quieres trabajar tiempo completo o medio tiempo?"
+          },
+          {
+            "who": "Mei",
+            "en": "I'd like to [work part-time]. I'm also studying English.",
+            "es": "Quisiera trabajar medio tiempo. También estudio inglés.",
+            "item": "col-work-part-time"
+          },
+          {
+            "who": "Dana",
+            "en": "That works for us. [When can you start]?",
+            "es": "Nos funciona. ¿Cuándo puedes empezar?",
+            "item": "phr-when-can-you-start"
+          },
+          {
+            "who": "Mei",
+            "en": "Next Monday. [I'm a quick learner], too.",
+            "es": "El próximo lunes. Además aprendo rápido.",
+            "item": "phr-im-a-quick-learner"
+          },
+          {
+            "who": "Dana",
+            "en": "Perfect. We'll call you tomorrow.",
+            "es": "Perfecto. Te llamamos mañana."
+          },
+          {
+            "who": "Mei",
+            "en": "[Thank you for your time]. Have a nice day!",
+            "es": "Gracias por su tiempo. ¡Que tenga un buen día!",
+            "item": "phr-thank-you-for-your-time"
+          }
+        ],
+        "items": [
+          "phr-tell-me-about-yourself",
+          "phr-i-have-years-of-experience",
+          "phr-im-good-at",
+          "col-work-part-time",
+          "phr-when-can-you-start",
+          "phr-im-a-quick-learner",
+          "phr-thank-you-for-your-time"
+        ],
+        "questions": [
+          {
+            "q": "Where does Mei have experience?",
+            "options": [
+              "In a bookstore",
+              "In a restaurant",
+              "In a hospital"
+            ],
+            "answer": 0,
+            "why_es": "Dice que tiene dos años de experiencia en una librería."
+          },
+          {
+            "q": "What kind of job does Mei want?",
+            "options": [
+              "Full-time",
+              "Night shifts only",
+              "Part-time"
+            ],
+            "answer": 2,
+            "why_es": "Ella dice: 'I'd like to work part-time'."
+          },
+          {
+            "q": "When can Mei start?",
+            "options": [
+              "Tomorrow",
+              "Next Monday",
+              "Next year"
+            ],
+            "answer": 1,
+            "why_es": "Mei responde: 'Next Monday'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Preséntate: di que eres de México y que tienes un año de experiencia en una tienda.",
+          "model": [
+            "I'm from Mexico. I have one year of experience in a store.",
+            "I come from Mexico, and I worked in a shop for a year."
+          ],
+          "expect": [
+            [
+              "mexico"
+            ],
+            [
+              "experience",
+              "worked",
+              "work"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di dos cosas en las que eres buena (ayudar a clientes y ser organizada).",
+          "model": [
+            "I'm good at helping customers, and I'm organized.",
+            "I'm good with customers and very organized."
+          ],
+          "expect": [
+            [
+              "good at",
+              "good with",
+              "strong"
+            ],
+            [
+              "customer",
+              "organized",
+              "organised"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que puedes empezar la próxima semana y que prefieres trabajar medio tiempo.",
+          "model": [
+            "I can start next week. I'd like to work part-time.",
+            "I can start next Monday, and I prefer part time."
+          ],
+          "expect": [
+            [
+              "start"
+            ],
+            [
+              "part-time",
+              "part time"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste una pregunta.",
+          "en": "Sorry, could you repeat the question, please?",
+          "es": "Perdón, ¿podría repetir la pregunta, por favor?"
+        },
+        {
+          "situation_es": "No conoces una palabra.",
+          "en": "Sorry, what does 'shift' mean?",
+          "es": "Perdón, ¿qué significa 'shift'?"
+        },
+        {
+          "situation_es": "Necesitas un momento para pensar.",
+          "en": "Let me think for a second.",
+          "es": "Déjeme pensar un segundo."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevistas-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "Interview at a store",
+        "title_es": "Entrevista en una tienda",
+        "setting_es": "Tienes tu primera entrevista para un trabajo de medio tiempo en una tienda de ropa. La gerente te recibe.",
+        "npc": "Store manager",
+        "turns": [
+          {
+            "npc": "Hi {name}, thanks for coming in. Please, have a seat. So, tell me about yourself.",
+            "npc_es": "Hola {name}, gracias por venir. Siéntate, por favor. Cuéntame sobre ti.",
+            "task_es": "Preséntate: di de dónde eres y que buscas un trabajo.",
+            "expect": [
+              [
+                "mexico"
+              ],
+              [
+                "job",
+                "work",
+                "looking",
+                "experience",
+                "want"
+              ]
+            ],
+            "model": [
+              "I'm from Mexico. I'm looking for a part-time job.",
+              "Hi, I come from Mexico and I want to work here."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am of mexico\\b",
+                "fix": "I'm from Mexico",
+                "why_es": "El origen se dice con *from*, no *of*."
+              }
+            ]
+          },
+          {
+            "npc": "Nice. Do you have any experience with customers?",
+            "npc_es": "Qué bien. ¿Tienes experiencia con clientes?",
+            "task_es": "Di que tienes dos años de experiencia en una cafetería.",
+            "expect": [
+              [
+                "experience",
+                "worked",
+                "work"
+              ],
+              [
+                "two",
+                "2",
+                "years",
+                "year"
+              ]
+            ],
+            "model": [
+              "Yes, I have two years of experience in a café.",
+              "Yes. I worked in a café for two years."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi have (two|2|three|one|\\d+) years? (in|at)\\b",
+                "fix": "I have two years of experience in…",
+                "why_es": "Se dice *years of experience in*, no solo *years in*."
+              }
+            ]
+          },
+          {
+            "npc": "Good. What are your strengths?",
+            "npc_es": "Bien. ¿Cuáles son tus fortalezas?",
+            "task_es": "Menciona una o dos cosas que haces bien.",
+            "expect": [
+              [
+                "good at",
+                "good with",
+                "strong",
+                "friendly",
+                "organized",
+                "organised",
+                "quick",
+                "fast"
+              ]
+            ],
+            "model": [
+              "I'm good at talking to people, and I'm very organized.",
+              "I'm friendly and I learn fast. I'm good with customers."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bgood in (talking|helping|working)\\b",
+                "fix": "good at + -ing",
+                "why_es": "Con *good* se usa *at*: good at talking."
+              }
+            ]
+          },
+          {
+            "npc": "Great. Can you work evenings and weekends?",
+            "npc_es": "Muy bien. ¿Puedes trabajar tardes y fines de semana?",
+            "task_es": "Responde que sí puedes trabajar tardes, pero no los domingos.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "sure",
+                "i can"
+              ],
+              [
+                "sunday",
+                "sundays"
+              ]
+            ],
+            "model": [
+              "Yes, I can work evenings, but I can't work on Sundays.",
+              "Sure. Evenings are fine, but not Sundays."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bin sundays\\b",
+                "fix": "on Sundays",
+                "why_es": "Con días de la semana se usa *on*."
+              }
+            ]
+          },
+          {
+            "npc": "Okay. When can you start?",
+            "npc_es": "Está bien. ¿Cuándo puedes empezar?",
+            "task_es": "Di que puedes empezar el lunes y da las gracias por su tiempo.",
+            "expect": [
+              [
+                "monday",
+                "next week",
+                "tomorrow",
+                "today",
+                "start"
+              ],
+              [
+                "thank"
+              ]
+            ],
+            "model": [
+              "I can start on Monday. Thank you for your time!",
+              "I can start next week. Thank you for seeing me."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bthank you by your time\\b",
+                "fix": "Thank you for your time",
+                "why_es": "*Gracias por* = *thank you for*."
+              }
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about yourself",
+          "I have … years of experience in…",
+          "I'm good at…",
+          "When can you start?",
+          "Thank you for your time"
+        ]
+      }
+    },
+    {
+      "id": "entrevistas-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Responder preguntas de comportamiento con situación, tarea, acción y resultado, y hacer buenas preguntas al final.",
+      "items": [
+        "col-behavioural-question",
+        "phr-tell-me-about-a-time-when",
+        "col-take-the-initiative",
+        "phr-as-a-result",
+        "col-work-under-pressure",
+        "phr-could-you-tell-me-more-about-the-team-id-be-working-with",
+        "voc-weakness",
+        "phr-let-me-give-you-a-concrete-example",
+        "phr-what-does-the-interview-process-look-like",
+        "phr-what-are-your-salary-expectations",
+        "phr-what-are-the-next-steps",
+        "voc-achievement"
+      ],
+      "lesson": {
+        "id": "ls-entrevistas-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 1003,
+        "title": "Tell me about a time when…",
+        "title_es": "Cuéntame de una vez en que…",
+        "intro_es": "Elena entrevista para un puesto de coordinadora de proyectos. Ravi le hace preguntas de comportamiento y ella responde con el método STAR.",
+        "lines": [
+          {
+            "who": "Ravi",
+            "en": "Thanks for coming in, Elena. We'll start with a [behavioural question].",
+            "es": "Gracias por venir, Elena. Empezamos con una pregunta de comportamiento.",
+            "item": "col-behavioural-question"
+          },
+          {
+            "who": "Ravi",
+            "en": "[Tell me about a time when] you had to work to a very tight deadline.",
+            "es": "Cuéntame de una vez en que tuviste una fecha límite muy ajustada.",
+            "item": "phr-tell-me-about-a-time-when"
+          },
+          {
+            "who": "Elena",
+            "en": "Sure. Last spring, our team lost a developer a week before a product launch. That was the situation.",
+            "es": "Claro. La primavera pasada, nuestro equipo perdió a un desarrollador una semana antes de un lanzamiento. Esa era la situación."
+          },
+          {
+            "who": "Elena",
+            "en": "My task was to keep the launch on schedule, so I [took the initiative] and rebuilt the plan.",
+            "es": "Mi tarea era mantener el lanzamiento a tiempo, así que tomé la iniciativa y rehice el plan.",
+            "item": "col-take-the-initiative"
+          },
+          {
+            "who": "Elena",
+            "en": "I split the work into small tasks and we had a short check-in every morning.",
+            "es": "Dividí el trabajo en tareas pequeñas y teníamos una junta breve cada mañana."
+          },
+          {
+            "who": "Elena",
+            "en": "[As a result], we launched on time, and the client renewed their contract.",
+            "es": "Como resultado, lanzamos a tiempo y el cliente renovó su contrato.",
+            "item": "phr-as-a-result"
+          },
+          {
+            "who": "Ravi",
+            "en": "Impressive. How do you usually [work under pressure]?",
+            "es": "Impresionante. ¿Cómo sueles trabajar bajo presión?",
+            "item": "col-work-under-pressure"
+          },
+          {
+            "who": "Elena",
+            "en": "I stay calm and focus on priorities. I also ask for help early when I need it.",
+            "es": "Me mantengo tranquila y me enfoco en las prioridades. También pido ayuda pronto cuando la necesito."
+          },
+          {
+            "who": "Ravi",
+            "en": "What's a weakness you're working on?",
+            "es": "¿Qué debilidad estás trabajando?"
+          },
+          {
+            "who": "Elena",
+            "en": "I sometimes say yes to too many things. Now I check my workload before I agree to a new task.",
+            "es": "A veces digo que sí a demasiadas cosas. Ahora reviso mi carga de trabajo antes de aceptar algo nuevo."
+          },
+          {
+            "who": "Ravi",
+            "en": "Good answer. Do you have any questions for us?",
+            "es": "Buena respuesta. ¿Tienes alguna pregunta para nosotros?"
+          },
+          {
+            "who": "Elena",
+            "en": "Yes. [Could you tell me more about the team I'd be working with]?",
+            "es": "Sí. ¿Podría contarme más sobre el equipo con el que trabajaría?",
+            "item": "phr-could-you-tell-me-more-about-the-team-id-be-working-with"
+          }
+        ],
+        "items": [
+          "col-behavioural-question",
+          "phr-tell-me-about-a-time-when",
+          "col-take-the-initiative",
+          "phr-as-a-result",
+          "col-work-under-pressure",
+          "phr-could-you-tell-me-more-about-the-team-id-be-working-with"
+        ],
+        "questions": [
+          {
+            "q": "What problem happened before the launch?",
+            "options": [
+              "A developer left the team",
+              "The client cancelled",
+              "The office closed"
+            ],
+            "answer": 0,
+            "why_es": "El equipo perdió a un desarrollador una semana antes del lanzamiento."
+          },
+          {
+            "q": "What did Elena do first?",
+            "options": [
+              "She asked the client for more time",
+              "She rebuilt the plan and split the work into small tasks",
+              "She worked alone all weekend"
+            ],
+            "answer": 1,
+            "why_es": "Rehízo el plan y dividió el trabajo en tareas pequeñas."
+          },
+          {
+            "q": "What was the result?",
+            "options": [
+              "The launch was late",
+              "The project was cancelled",
+              "The launch was on time and the client renewed"
+            ],
+            "answer": 2,
+            "why_es": "Lanzaron a tiempo y el cliente renovó."
+          },
+          {
+            "q": "What weakness does Elena mention?",
+            "options": [
+              "She is always late",
+              "She says yes to too many tasks",
+              "She dislikes teamwork"
+            ],
+            "answer": 1,
+            "why_es": "Dice que a veces acepta demasiadas cosas."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Empieza tu respuesta a 'Tell me about a time when you solved a hard problem': describe la situación y tu tarea.",
+          "model": [
+            "Last year, our system went down during a busy week. My task was to find the cause and restore it quickly."
+          ],
+          "expect": [
+            [
+              "last",
+              "once",
+              "when",
+              "a few",
+              "in my previous"
+            ],
+            [
+              "task",
+              "my job",
+              "i had to",
+              "i needed to",
+              "i was responsible"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Termina la historia con el resultado.",
+          "model": [
+            "As a result, we fixed the problem in two hours and no customers were affected.",
+            "The result was that we solved it in one day, and the team learned a lot."
+          ],
+          "expect": [
+            [
+              "result",
+              "so",
+              "finally",
+              "in the end"
+            ],
+            [
+              "fixed",
+              "solved",
+              "launched",
+              "saved",
+              "improved",
+              "reduced",
+              "delivered"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Menciona una debilidad con honestidad y di qué haces para mejorarla.",
+          "model": [
+            "I sometimes take on too much work. Now I check my workload before I agree to new tasks."
+          ],
+          "expect": [
+            [
+              "sometimes",
+              "tend to",
+              "used to",
+              "weakness"
+            ],
+            [
+              "now",
+              "so i",
+              "to improve",
+              "working on",
+              "i check",
+              "i make sure"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste bien la pregunta.",
+          "en": "Could you rephrase the question? I want to make sure I understand.",
+          "es": "¿Podría reformular la pregunta? Quiero asegurarme de entender."
+        },
+        {
+          "situation_es": "Necesitas tiempo para pensar tu ejemplo.",
+          "en": "That's a great question. Let me think for a moment.",
+          "es": "Es una gran pregunta. Déjeme pensar un momento."
+        },
+        {
+          "situation_es": "Quieres confirmar qué tipo de ejemplo piden.",
+          "en": "Just to check, are you asking about a specific project?",
+          "es": "Solo para confirmar, ¿se refiere a un proyecto en particular?"
+        },
+        {
+          "situation_es": "Te fuiste por las ramas.",
+          "en": "Sorry, let me go back to the main point.",
+          "es": "Perdón, regreso al punto principal."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevistas-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Coordinator interview",
+        "title_es": "Entrevista para coordinador",
+        "setting_es": "Estás en una entrevista para un puesto de coordinador de proyectos. La persona que te entrevista está revisando tu currículum.",
+        "npc": "Hiring manager",
+        "turns": [
+          {
+            "npc": "Thanks for coming in. To start, could you walk me through your background?",
+            "npc_es": "Gracias por venir. Para empezar, ¿podría contarme su trayectoria?",
+            "task_es": "Resume tu trayectoria (cinco años en logística) y por qué te interesa el puesto.",
+            "expect": [
+              [
+                "years",
+                "experience",
+                "worked",
+                "background"
+              ],
+              [
+                "interested",
+                "excited",
+                "looking",
+                "role",
+                "position",
+                "opportunity"
+              ]
+            ],
+            "model": [
+              "I have five years of experience in logistics and project coordination. I'm excited about this role because I want to work with a bigger team.",
+              "My background is in project coordination, and I worked in logistics for five years. I'm interested in this position because it's a good next step."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi have \\d+ years in\\b",
+                "fix": "years of experience in",
+                "why_es": "Se dice *years of experience in*."
+              }
+            ]
+          },
+          {
+            "npc": "Great. Tell me about a time when you had to deal with a difficult client.",
+            "npc_es": "Muy bien. Cuéntame de una vez en que tuviste que tratar con un cliente difícil.",
+            "task_es": "Cuenta brevemente que un cliente estaba molesto por un retraso y qué hiciste.",
+            "expect": [
+              [
+                "client",
+                "customer"
+              ],
+              [
+                "late",
+                "delay",
+                "delayed",
+                "angry",
+                "upset",
+                "unhappy",
+                "problem"
+              ]
+            ],
+            "model": [
+              "Last year a client was upset about a delay in their order. I called them, explained what happened, and offered a new delivery date.",
+              "Once, a customer was angry because the shipment was late, so I apologized and fixed the schedule."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi explained him\\b",
+                "fix": "I explained it to him",
+                "why_es": "*Explain* lleva *to* antes de la persona: explained it to him."
+              }
+            ]
+          },
+          {
+            "npc": "And what was the outcome?",
+            "npc_es": "¿Y cuál fue el resultado?",
+            "task_es": "Di el resultado: el cliente aceptó la nueva fecha y siguió trabajando con ustedes.",
+            "expect": [
+              [
+                "result",
+                "outcome",
+                "in the end",
+                "finally",
+                "so",
+                "as a result"
+              ],
+              [
+                "accepted",
+                "agreed",
+                "stayed",
+                "continued",
+                "happy",
+                "renewed",
+                "kept"
+              ]
+            ],
+            "model": [
+              "As a result, the client agreed to the new date and continued working with us.",
+              "In the end, they accepted the new date and stayed with us."
+            ]
+          },
+          {
+            "npc": "How do you handle pressure when several things are urgent at once?",
+            "npc_es": "¿Cómo maneja la presión cuando varias cosas son urgentes al mismo tiempo?",
+            "task_es": "Explica cómo manejas la presión: priorizas, haces una lista y pides ayuda si hace falta.",
+            "expect": [
+              [
+                "prioritize",
+                "prioritise",
+                "priorities",
+                "prioritizing",
+                "list",
+                "plan",
+                "organize",
+                "organise"
+              ],
+              [
+                "help",
+                "ask",
+                "talk",
+                "check",
+                "focus",
+                "calm"
+              ]
+            ],
+            "model": [
+              "I make a list and prioritize the most urgent tasks. If I need help, I ask early.",
+              "I stay calm and plan my day. I focus on what's urgent first and I talk to my team if I'm stuck."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bprioritice\\b",
+                "fix": "prioritize",
+                "why_es": "La palabra correcta es *prioritize*."
+              }
+            ]
+          },
+          {
+            "npc": "Good. What are your salary expectations?",
+            "npc_es": "Bien. ¿Cuáles son sus expectativas salariales?",
+            "task_es": "Di que buscas entre 50 y 55 mil al año, pero que eres flexible según los beneficios.",
+            "expect": [
+              [
+                "50",
+                "55",
+                "fifty",
+                "range",
+                "between"
+              ],
+              [
+                "flexible",
+                "depends",
+                "open",
+                "benefits",
+                "package"
+              ]
+            ],
+            "model": [
+              "I'm looking for something between fifty and fifty-five thousand, but I'm flexible depending on the benefits.",
+              "My expectation is in the range of fifty to fifty-five thousand. It depends on the full package, though."
+            ]
+          },
+          {
+            "npc": "Understood. Do you have any questions for me?",
+            "npc_es": "Entendido. ¿Tiene alguna pregunta para mí?",
+            "task_es": "Pregunta cómo es el equipo y cuáles son los siguientes pasos.",
+            "expect": [
+              [
+                "team"
+              ],
+              [
+                "next step",
+                "next steps",
+                "process",
+                "timeline",
+                "hear back"
+              ]
+            ],
+            "model": [
+              "Yes. Could you tell me more about the team? And what are the next steps in the process?",
+              "Yes, what's the team like, and when can I expect to hear back?"
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about a time when…",
+          "As a result,…",
+          "I can work under pressure",
+          "What are the next steps?",
+          "I'm looking for something in the range of…"
+        ]
+      }
+    },
+    {
+      "id": "entrevistas-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Responder con tacto a objeciones, negociar con matices (rango, paquete, flexibilidad) y cerrar con profesionalismo.",
+      "items": [
+        "voc-overqualified",
+        "phr-to-be-candid",
+        "idi-play-to-your-strengths",
+        "idi-hit-the-ground-running",
+        "idi-a-steep-learning-curve",
+        "voc-compensation",
+        "idi-ballpark-figure",
+        "phr-is-there-any-flexibility-on",
+        "col-total-compensation",
+        "col-negotiate-a-salary",
+        "idi-bring-to-the-table",
+        "col-benefits-package"
+      ],
+      "lesson": {
+        "id": "ls-entrevistas-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 1004,
+        "title": "Overqualified and negotiating",
+        "title_es": "Sobrecalificado y negociando",
+        "intro_es": "Jonas tiene una entrevista final para un puesto senior. Marguerite duda si está sobrecalificado y pronto la charla pasa a negociar.",
+        "lines": [
+          {
+            "who": "Marguerite",
+            "en": "Your résumé is strong. Frankly, I wonder whether you're [overqualified] for a role at this level.",
+            "es": "Su currículum es sólido. Francamente, me pregunto si no está sobrecalificado para un puesto de este nivel.",
+            "item": "voc-overqualified"
+          },
+          {
+            "who": "Jonas",
+            "en": "I understand the concern. [To be candid], I'm not chasing a title. I want a role where I can build things hands-on.",
+            "es": "Entiendo la preocupación. Para ser franco, no busco un título. Quiero un puesto donde pueda construir cosas con las manos en la masa.",
+            "item": "phr-to-be-candid"
+          },
+          {
+            "who": "Marguerite",
+            "en": "Fair. What part of this job [plays to your strengths]?",
+            "es": "Es justo. ¿Qué parte de este trabajo aprovecha sus fortalezas?",
+            "item": "idi-play-to-your-strengths"
+          },
+          {
+            "who": "Jonas",
+            "en": "Untangling messy projects. I tend to [hit the ground running] when things are chaotic.",
+            "es": "Desenredar proyectos caóticos. Suelo arrancar a toda velocidad cuando hay caos.",
+            "item": "idi-hit-the-ground-running"
+          },
+          {
+            "who": "Marguerite",
+            "en": "And where would you face [a steep learning curve]?",
+            "es": "¿Y dónde enfrentaría una curva de aprendizaje empinada?",
+            "item": "idi-a-steep-learning-curve"
+          },
+          {
+            "who": "Jonas",
+            "en": "Probably your industry's regulations. I haven't worked in healthcare, but I ramp up quickly.",
+            "es": "Probablemente en las regulaciones de su industria. No he trabajado en salud, pero me pongo al día rápido."
+          },
+          {
+            "who": "Marguerite",
+            "en": "Let's talk numbers. What kind of [compensation] are you expecting?",
+            "es": "Hablemos de números. ¿Qué compensación espera?",
+            "item": "voc-compensation"
+          },
+          {
+            "who": "Jonas",
+            "en": "I'd rather understand the whole picture first. Could you give me a [ballpark figure] for the base and the bonus structure?",
+            "es": "Prefiero entender primero el panorama completo. ¿Podría darme una cifra aproximada del sueldo base y de la estructura del bono?",
+            "item": "idi-ballpark-figure"
+          },
+          {
+            "who": "Marguerite",
+            "en": "Somewhere between ninety and a hundred and five thousand, plus a modest bonus.",
+            "es": "Entre noventa y ciento cinco mil, más un bono modesto."
+          },
+          {
+            "who": "Jonas",
+            "en": "Thanks for being transparent. [Is there any flexibility on] remote days? That matters to me as much as salary.",
+            "es": "Gracias por la transparencia. ¿Hay algo de flexibilidad en los días remotos? Eso me importa tanto como el sueldo.",
+            "item": "phr-is-there-any-flexibility-on"
+          },
+          {
+            "who": "Marguerite",
+            "en": "We could probably work something out on remote days. The salary band is firmer.",
+            "es": "Probablemente podamos arreglar algo con los días remotos. El rango salarial es más rígido."
+          },
+          {
+            "who": "Jonas",
+            "en": "That's helpful. If the [total compensation] reflects the scope of the role, I think we can find common ground.",
+            "es": "Eso ayuda. Si la compensación total refleja el alcance del puesto, creo que podemos llegar a un acuerdo.",
+            "item": "col-total-compensation"
+          },
+          {
+            "who": "Marguerite",
+            "en": "I'll talk to the committee and get back to you by Friday.",
+            "es": "Hablaré con el comité y le respondo el viernes."
+          },
+          {
+            "who": "Jonas",
+            "en": "Perfect. I appreciate the candour, and I'm genuinely excited about the mandate.",
+            "es": "Perfecto. Agradezco la franqueza y de verdad me entusiasma el encargo."
+          }
+        ],
+        "items": [
+          "voc-overqualified",
+          "phr-to-be-candid",
+          "idi-play-to-your-strengths",
+          "idi-hit-the-ground-running",
+          "idi-a-steep-learning-curve",
+          "voc-compensation",
+          "idi-ballpark-figure",
+          "phr-is-there-any-flexibility-on",
+          "col-total-compensation"
+        ],
+        "questions": [
+          {
+            "q": "What concern does Marguerite raise?",
+            "options": [
+              "Jonas lacks relevant experience",
+              "Jonas wants too much vacation",
+              "Jonas may be overqualified"
+            ],
+            "answer": 2,
+            "why_es": "Dice que se pregunta si está sobrecalificado."
+          },
+          {
+            "q": "Why does Jonas ask for a ballpark figure instead of naming a number?",
+            "options": [
+              "He wants to see the whole picture before committing",
+              "He forgot his expectations",
+              "He doesn't want the job"
+            ],
+            "answer": 0,
+            "why_es": "Prefiere entender primero el panorama completo."
+          },
+          {
+            "q": "What does Jonas say matters as much as salary?",
+            "options": [
+              "A company car",
+              "Flexibility on remote days",
+              "A bigger office"
+            ],
+            "answer": 1,
+            "why_es": "Dice que los días remotos le importan tanto como el sueldo."
+          },
+          {
+            "q": "What will Marguerite do next?",
+            "options": [
+              "Talk to the committee and reply by Friday",
+              "Reject him politely",
+              "Make an offer on the spot"
+            ],
+            "answer": 0,
+            "why_es": "Dice que hablará con el comité y le contestará el viernes."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Responde con tacto a la objeción de que estás sobrecalificado: reconoce la duda y di qué buscas realmente.",
+          "model": [
+            "I understand the concern, but honestly I'm looking for hands-on work, not a title. This role is exactly that."
+          ],
+          "expect": [
+            [
+              "understand",
+              "fair",
+              "see why",
+              "appreciate"
+            ],
+            [
+              "hands-on",
+              "not a title",
+              "looking for",
+              "want"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Evita dar una cifra primero: pide un rango aproximado del salario y de los beneficios.",
+          "model": [
+            "Before I name a number, could you give me a ballpark figure for the salary range and the benefits?",
+            "I'd like to understand the whole package first. Could you share a rough range for the base salary and bonus?"
+          ],
+          "expect": [
+            [
+              "ballpark",
+              "range",
+              "rough",
+              "approximate"
+            ],
+            [
+              "salary",
+              "package",
+              "compensation",
+              "bonus",
+              "benefits"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Negocia con tacto: pregunta si hay flexibilidad en días remotos y ofrece ser flexible con la fecha de inicio.",
+          "model": [
+            "Is there any flexibility on remote days? I'm happy to be flexible on the start date if that helps."
+          ],
+          "expect": [
+            [
+              "flexibility",
+              "flexible",
+              "remote",
+              "work from home"
+            ],
+            [
+              "start date",
+              "start",
+              "happy to",
+              "willing",
+              "can be"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres asegurarte de contestar la pregunta correcta.",
+          "en": "I want to make sure I'm answering the right question. Are you asking about my management experience or my technical depth?",
+          "es": "Quiero asegurarme de contestar la pregunta correcta. ¿Se refiere a mi experiencia gestionando equipos o a mi nivel técnico?"
+        },
+        {
+          "situation_es": "Necesitas ganar tiempo con elegancia.",
+          "en": "That's a fair question. Let me gather my thoughts for a second.",
+          "es": "Es una pregunta justa. Déjeme ordenar mis ideas un segundo."
+        },
+        {
+          "situation_es": "Quieres decir lo mismo con otras palabras.",
+          "en": "Let me put that another way.",
+          "es": "Lo diré de otra forma."
+        },
+        {
+          "situation_es": "Te expresaste mal y quieres corregirte.",
+          "en": "Actually, let me rephrase that. What I meant was…",
+          "es": "En realidad, déjeme reformularlo. Lo que quise decir fue…"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevistas-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Negotiating the offer",
+        "title_es": "Negociar la oferta",
+        "setting_es": "Pasaste la ronda final para un puesto senior. La directora quiere hablar de tus planes a largo plazo y de la oferta.",
+        "npc": "Director",
+        "turns": [
+          {
+            "npc": "We were impressed with you. Before we get to the offer, I'll be direct: some of the panel wondered whether you'd stay long in a role like this. How would you respond?",
+            "npc_es": "Nos impresionó. Antes de la oferta, seré directa: algunos del panel se preguntaron si se quedaría mucho tiempo en un puesto así. ¿Qué responde?",
+            "task_es": "Responde con tacto a esa duda y da razones concretas de tu compromiso a largo plazo.",
+            "expect": [
+              [
+                "understand",
+                "fair",
+                "concern",
+                "appreciate",
+                "see why"
+              ],
+              [
+                "long-term",
+                "commit",
+                "stay",
+                "growth",
+                "years",
+                "invest",
+                "build"
+              ]
+            ],
+            "model": [
+              "I understand the concern, and it's fair. I'm looking to build something long-term here, which is why this scope appeals to me.",
+              "Fair question. I'm not treating this as a stepping stone; I want to commit to a team and grow with it."
+            ]
+          },
+          {
+            "npc": "That's reassuring. Our offer is a base of ninety-five thousand with a ten percent bonus. Thoughts?",
+            "npc_es": "Eso tranquiliza. Nuestra oferta es de noventa y cinco mil de base con un diez por ciento de bono. ¿Qué opina?",
+            "task_es": "Agradece, no aceptes de inmediato: di que quieres revisar el paquete completo y que esperabas algo más alto en el sueldo base.",
+            "expect": [
+              [
+                "thank",
+                "appreciate",
+                "grateful"
+              ],
+              [
+                "package",
+                "full",
+                "total",
+                "compensation",
+                "review",
+                "time",
+                "think",
+                "consider",
+                "higher",
+                "bit more"
+              ]
+            ],
+            "model": [
+              "Thank you, I really appreciate the offer. I'm excited, but I'd like to review the full package before responding. I was expecting something a little higher on the base.",
+              "I appreciate it. Could I have a couple of days to consider the total compensation? I was hoping for a bit more on the base."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi want more money\\b",
+                "fix": "I was hoping for a higher base",
+                "why_es": "Suena demasiado directo; mejor *I was hoping for…*."
+              }
+            ]
+          },
+          {
+            "npc": "We have some room on the base, maybe up to a hundred thousand, but not much beyond that. What would make this a clear yes for you?",
+            "npc_es": "Tenemos algo de margen en la base, quizá hasta cien mil, pero no mucho más. ¿Qué haría que esto sea un sí rotundo para usted?",
+            "task_es": "Propón cien mil de base y dos días remotos por semana, y justifícalo con tu experiencia.",
+            "expect": [
+              [
+                "hundred",
+                "100",
+                "one hundred"
+              ],
+              [
+                "remote",
+                "days",
+                "experience",
+                "flexibility",
+                "flexible"
+              ]
+            ],
+            "model": [
+              "If we can land on a hundred thousand base and two remote days a week, that's a clear yes. Given my experience leading similar projects, I think that's reasonable.",
+              "A base of one hundred thousand with two remote days would make this an easy decision. My experience in this space supports that."
+            ]
+          },
+          {
+            "npc": "Two remote days is doable. The base is at the top of the band, though, so we'd have to skip the signing bonus. Does that work?",
+            "npc_es": "Dos días remotos es posible. Pero la base está en el tope del rango, así que tendríamos que omitir el bono de contratación. ¿Le funciona?",
+            "task_es": "Acepta con matices: sin bono de contratación, siempre que confirmen por escrito los días remotos y haya una revisión salarial a los seis meses.",
+            "expect": [
+              [
+                "writing",
+                "written",
+                "email",
+                "in writing"
+              ],
+              [
+                "six months",
+                "6 months",
+                "review",
+                "raise"
+              ]
+            ],
+            "model": [
+              "I can live without the signing bonus as long as the remote days are confirmed in writing, and we agree on a salary review after six months.",
+              "That works for me, provided we put the remote arrangement in writing and schedule a review at six months."
+            ]
+          },
+          {
+            "npc": "I think we can do that. I'll draft the letter today. Anything else you'd like to clarify before we wrap up?",
+            "npc_es": "Creo que podemos hacerlo. Redactaré la carta hoy. ¿Algo más que quiera aclarar antes de cerrar?",
+            "task_es": "Pregunta cuál sería la fecha de inicio y quién sería tu jefe directo.",
+            "expect": [
+              [
+                "start",
+                "start date",
+                "when"
+              ],
+              [
+                "report",
+                "manager",
+                "reporting",
+                "who",
+                "boss"
+              ]
+            ],
+            "model": [
+              "Just two things: what start date do you have in mind, and who would I report to directly?",
+              "Yes. When would you like me to start, and who will be my direct manager?"
+            ]
+          },
+          {
+            "npc": "Start date: the first of next month. You'd report to me. Welcome aboard, {name}!",
+            "npc_es": "Fecha de inicio: el primero del próximo mes. Reportaría conmigo. ¡Bienvenido a bordo, {name}!",
+            "task_es": "Cierra con agradecimiento y entusiasmo; di que esperas la carta.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "excited",
+                "looking forward",
+                "can't wait",
+                "pleased",
+                "delighted",
+                "letter",
+                "contract"
+              ]
+            ],
+            "model": [
+              "Thank you so much. I'm really excited, and I look forward to receiving the letter.",
+              "I appreciate it. I'm looking forward to getting started. I'll watch for the contract."
+            ]
+          }
+        ],
+        "useful": [
+          "I understand the concern",
+          "Is there any flexibility on…?",
+          "Could you give me a ballpark figure?",
+          "provided that… is confirmed in writing",
+          "I'm looking forward to…"
+        ]
+      }
+    }
+  ],
+  "new_items": []
+}

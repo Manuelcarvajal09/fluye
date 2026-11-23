@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-11-23T14:16:08-0600",
+  "entries_total": 13226,
+  "distinct_lemmas": 12000,
+  "by_pos": {
+    "noun": 7644,
+    "adj": 2379,
+    "verb": 2344,
+    "adv": 598,
+    "interj": 69,
+    "prep": 58,
+    "pron": 48,
+    "det": 28,
+    "conj": 23,
+    "num": 19,
+    "aux": 9,
+    "other": 7
+  },
+  "by_band": {
+    "1k": 1329,
+    "2k": 1189,
+    "3k": 1154,
+    "4k": 1122,
+    "5k": 1091,
+    "6k": 1085,
+    "7k": 1072,
+    "8k": 1059,
+    "9k": 1048,
+    "10k": 1035,
+    "10k+": 2042
+  },
+  "by_level_est": {
+    "A1": 1329,
+    "A2": 1189,
+    "B1": 2276,
+    "B2": 3248,
+    "C1": 5184
+  },
+  "status": {
+    "complete": 9878,
+    "pending": 3348
+  },
+  "pending_reasons": {
+    "es": 532,
+    "ex": 2131,
+    "es+ex": 685
+  },
+  "top_2000": {
+    "entries": 2518,
+    "complete": 2475
+  },
+  "top_5000": {
+    "entries": 5885,
+    "complete": 5521
+  },
+  "with_es": 12009,
+  "with_examples": 10410,
+  "with_2_examples": 8818,
+  "examples_total": 19228,
+  "with_ipa_us": 8154,
+  "with_ipa_ca": 2584,
+  "with_ipa_unspecified_only": 4330,
+  "with_variants": 121,
+  "senses_total": 34647,
+  "with_extra_senses": 11670,
+  "es_source": {
+    "wiktionary:other-sense+tatoeba-evidence": 1392,
+    "wiktionary:main-sense": 9646,
+    "none": 1217,
+    "wiktionary:sense-2": 500,
+    "wiktionary:other-pos+tatoeba-evidence": 79,
+    "wiktionary-es-entries+tatoeba-evidence": 193,
+    "wiktionary:sense-3": 199
+  },
+  "register": {
+    "neutral": 12937,
+    "informal": 272,
+    "formal": 17
+  }
+}

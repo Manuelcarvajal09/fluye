@@ -1,0 +1,1170 @@
+{
+  "id": "super",
+  "title_es": "Supermercado",
+  "icon": "shopping-cart",
+  "scene": null,
+  "areas": [
+    "compras",
+    "conversacion"
+  ],
+  "season": null,
+  "objective_es": "Moverte en un supermercado canadiense: encontrar productos, ofertas, mostrador de carnes frías, cajas y bolsas.",
+  "tracks": [
+    {
+      "id": "super-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 10,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Encontrar productos, preguntar por ofertas y pasar por la caja con bolsa propia y tarjeta de lealtad.",
+      "items": [
+        "phr-where-can-i-find",
+        "voc-aisle",
+        "phr-is-this-on-sale",
+        "voc-price-tag",
+        "voc-loyalty-card",
+        "phr-would-you-like-a-bag",
+        "voc-reusable-bag",
+        "phr-do-you-take-debit",
+        "voc-cashier",
+        "voc-checkout",
+        "phr-can-i-get-a-receipt-please"
+      ],
+      "lesson": {
+        "id": "ls-super-a",
+        "level": "A2",
+        "topic": "daily",
+        "order": 912,
+        "title": "Finding milk and chicken",
+        "title_es": "Buscando leche y pollo",
+        "intro_es": "Amara hace su compra semanal en un supermercado de Edmonton. Pregunta por un producto, una oferta y paga en caja.",
+        "lines": [
+          {
+            "who": "Amara",
+            "en": "Excuse me, [where can I find] the milk?",
+            "es": "Disculpe, ¿dónde puedo encontrar la leche?",
+            "item": "phr-where-can-i-find"
+          },
+          {
+            "who": "Tom",
+            "en": "The dairy section is in [aisle] five, at the back.",
+            "es": "La sección de lácteos está en el pasillo cinco, al fondo.",
+            "item": "voc-aisle"
+          },
+          {
+            "who": "Amara",
+            "en": "Thank you. And [is this on sale]? The chicken.",
+            "es": "Gracias. ¿Y esto está en oferta? El pollo.",
+            "item": "phr-is-this-on-sale"
+          },
+          {
+            "who": "Tom",
+            "en": "Yes, it's three dollars off this week. Check the [price tag].",
+            "es": "Sí, tiene tres dólares de descuento esta semana. Revisa la etiqueta de precio.",
+            "item": "voc-price-tag"
+          },
+          {
+            "who": "Amara",
+            "en": "Great, I'll take it.",
+            "es": "Perfecto, me lo llevo."
+          },
+          {
+            "who": "Lin",
+            "en": "Hi! Do you have a [loyalty card]?",
+            "es": "¡Hola! ¿Tiene tarjeta de lealtad?",
+            "item": "voc-loyalty-card"
+          },
+          {
+            "who": "Amara",
+            "en": "Yes, here it is.",
+            "es": "Sí, aquí la tiene."
+          },
+          {
+            "who": "Lin",
+            "en": "[Would you like a bag]? It's twenty-five cents.",
+            "es": "¿Quiere una bolsa? Cuesta veinticinco centavos.",
+            "item": "phr-would-you-like-a-bag"
+          },
+          {
+            "who": "Amara",
+            "en": "No, thanks. I have a [reusable bag].",
+            "es": "No, gracias. Traigo una bolsa reutilizable.",
+            "item": "voc-reusable-bag"
+          },
+          {
+            "who": "Lin",
+            "en": "Perfect. That's forty-two ninety.",
+            "es": "Perfecto. Son cuarenta y dos noventa."
+          },
+          {
+            "who": "Amara",
+            "en": "[Do you take debit]?",
+            "es": "¿Aceptan débito?",
+            "item": "phr-do-you-take-debit"
+          },
+          {
+            "who": "Lin",
+            "en": "Yes. Insert your card, please.",
+            "es": "Sí. Inserte su tarjeta, por favor."
+          },
+          {
+            "who": "Amara",
+            "en": "Thanks. Can I have the receipt?",
+            "es": "Gracias. ¿Me da el recibo?"
+          },
+          {
+            "who": "Lin",
+            "en": "Of course. Have a nice day!",
+            "es": "Claro. ¡Que tenga buen día!"
+          }
+        ],
+        "items": [
+          "phr-where-can-i-find",
+          "voc-aisle",
+          "phr-is-this-on-sale",
+          "voc-price-tag",
+          "voc-loyalty-card",
+          "phr-would-you-like-a-bag",
+          "voc-reusable-bag",
+          "phr-do-you-take-debit"
+        ],
+        "questions": [
+          {
+            "q": "Where is the dairy section?",
+            "options": [
+              "In aisle five",
+              "In aisle two",
+              "Near the entrance"
+            ],
+            "answer": 0,
+            "why_es": "Tom dice: aisle five, at the back."
+          },
+          {
+            "q": "What is on sale this week?",
+            "options": [
+              "The milk",
+              "The chicken",
+              "The bread"
+            ],
+            "answer": 1,
+            "why_es": "El pollo tiene tres dólares de descuento."
+          },
+          {
+            "q": "Why does Amara say no to a bag?",
+            "options": [
+              "It is too expensive",
+              "She has a reusable bag",
+              "She doesn't need food"
+            ],
+            "answer": 1,
+            "why_es": "Dice que tiene una bolsa reutilizable."
+          },
+          {
+            "q": "How does Amara pay?",
+            "options": [
+              "With cash",
+              "With debit",
+              "With a coupon"
+            ],
+            "answer": 1,
+            "why_es": "Pregunta: Do you take debit?"
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pregunta dónde está el pan.",
+          "model": [
+            "Excuse me, where can I find the bread?",
+            "Where is the bread, please?"
+          ],
+          "expect": [
+            [
+              "where can i find",
+              "where is",
+              "where are",
+              "where's"
+            ],
+            [
+              "bread"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta si un producto está en oferta.",
+          "model": [
+            "Is this on sale?",
+            "Is the chicken on sale this week?"
+          ],
+          "expect": [
+            [
+              "on sale",
+              "sale",
+              "discount",
+              "special"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que no necesitas bolsa porque traes la tuya.",
+          "model": [
+            "No bag, thanks. I have a reusable bag.",
+            "No, thank you. I brought my own bag."
+          ],
+          "expect": [
+            [
+              "bag"
+            ],
+            [
+              "my own",
+              "reusable",
+              "have",
+              "brought",
+              "no thanks",
+              "no thank",
+              "no"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No oíste el precio.",
+          "en": "Sorry, how much was that?",
+          "es": "Perdón, ¿cuánto fue?"
+        },
+        {
+          "situation_es": "No entendiste dónde está el pasillo.",
+          "en": "Sorry, which aisle? Could you show me?",
+          "es": "Perdón, ¿qué pasillo? ¿Me lo puede mostrar?"
+        },
+        {
+          "situation_es": "Hablan muy rápido.",
+          "en": "Could you say that again, more slowly?",
+          "es": "¿Podría repetirlo más despacio?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-super-a",
+        "area": "compras",
+        "level": "A2",
+        "title": "Grocery shopping",
+        "title_es": "Compras en el supermercado",
+        "setting_es": "Estás en un supermercado de Edmonton. Un empleado te ayuda a encontrar lo que buscas y luego pagas en caja.",
+        "npc": "Tom (employee)",
+        "turns": [
+          {
+            "npc": "Hi there! Can I help you find anything?",
+            "npc_es": "¡Hola! ¿Puedo ayudarle a encontrar algo?",
+            "task_es": "Pregunta dónde está la leche.",
+            "expect": [
+              [
+                "where",
+                "find",
+                "looking for"
+              ],
+              [
+                "milk"
+              ]
+            ],
+            "model": [
+              "Yes, where can I find the milk?",
+              "I'm looking for the milk. Where is it?"
+            ]
+          },
+          {
+            "npc": "Sure. The dairy section is in aisle five, at the back on the left.",
+            "npc_es": "Claro. La sección de lácteos está en el pasillo cinco, al fondo a la izquierda.",
+            "task_es": "Agradece y pregunta si el pollo está en oferta.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "sale",
+                "special",
+                "discount",
+                "deal",
+                "cheaper"
+              ]
+            ],
+            "model": [
+              "Thanks! Is the chicken on sale?",
+              "Thank you. Is the chicken on special?"
+            ]
+          },
+          {
+            "npc": "Yes, it's on sale this week, three dollars off.",
+            "npc_es": "Sí, está en oferta esta semana, tres dólares menos.",
+            "task_es": "Di que lo llevarás y pregunta dónde están las cajas.",
+            "expect": [
+              [
+                "take",
+                "get",
+                "buy",
+                "great",
+                "perfect",
+                "i'll",
+                "ill"
+              ],
+              [
+                "checkout",
+                "check out",
+                "cashier",
+                "pay",
+                "register",
+                "till",
+                "line"
+              ]
+            ],
+            "model": [
+              "Great, I'll take it. Where is the checkout?",
+              "Perfect, I'll get it. Where can I pay?"
+            ]
+          },
+          {
+            "npc": "Hi! Do you have a loyalty card?",
+            "npc_es": "¡Hola! ¿Tiene tarjeta de lealtad?",
+            "task_es": "Contesta y entrega la tarjeta.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "no",
+                "sure",
+                "here"
+              ]
+            ],
+            "model": [
+              "Yes, here it is.",
+              "No, I don't have one."
+            ]
+          },
+          {
+            "npc": "Would you like a bag? It's twenty-five cents.",
+            "npc_es": "¿Quiere una bolsa? Cuesta veinticinco centavos.",
+            "task_es": "Rechaza porque traes tu bolsa.",
+            "expect": [
+              [
+                "no",
+                "reusable",
+                "own bag",
+                "have a bag",
+                "my bag",
+                "brought"
+              ],
+              [
+                "bag",
+                "thanks",
+                "thank"
+              ]
+            ],
+            "model": [
+              "No, thanks. I have my own bag.",
+              "No bag, thank you. I brought a reusable one."
+            ]
+          },
+          {
+            "npc": "That's forty-two ninety. Debit or credit?",
+            "npc_es": "Son cuarenta y dos noventa. ¿Débito o crédito?",
+            "task_es": "Paga con débito y pide el recibo.",
+            "expect": [
+              [
+                "debit",
+                "credit",
+                "card",
+                "tap"
+              ],
+              [
+                "receipt"
+              ]
+            ],
+            "model": [
+              "Debit, please. Can I get a receipt?",
+              "Credit, please, and a receipt too."
+            ]
+          }
+        ],
+        "useful": [
+          "Where can I find...?",
+          "Is this on sale?",
+          "Do you take debit?",
+          "I have my own bag."
+        ]
+      }
+    },
+    {
+      "id": "super-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Pedir en el mostrador de carnes frías, entender fallas en autoservicio y reclamar un precio equivocado.",
+      "items": [
+        "col-price-per-kilo",
+        "phr-could-you-slice-it-thin",
+        "col-out-of-stock",
+        "col-best-before",
+        "voc-self-checkout",
+        "phr-unexpected-item-in-the-bagging-area",
+        "phr-it-scanned-at-the-wrong-price",
+        "voc-flyer",
+        "voc-price-check",
+        "col-collect-points",
+        "voc-checkout"
+      ],
+      "lesson": {
+        "id": "ls-super-b",
+        "level": "B1",
+        "topic": "daily",
+        "order": 913,
+        "title": "The self-checkout won't cooperate",
+        "title_es": "La caja de autoservicio no coopera",
+        "intro_es": "Dev hace compras en Calgary: pide jamón al corte, busca espinacas, se pelea con la caja de autoservicio y descubre un precio equivocado.",
+        "lines": [
+          {
+            "who": "Dev",
+            "en": "Hi! What's the [price per kilo] for the black forest ham?",
+            "es": "¡Hola! ¿Cuál es el precio por kilo del jamón selva negra?",
+            "item": "col-price-per-kilo"
+          },
+          {
+            "who": "Gus",
+            "en": "Twenty-eight ninety-nine. It's on special this week.",
+            "es": "Veintiocho noventa y nueve. Está en oferta esta semana."
+          },
+          {
+            "who": "Dev",
+            "en": "Okay. Three hundred grams, please, and [could you slice it thin]?",
+            "es": "Bien. Trescientos gramos, por favor, ¿y podría cortarlo delgado?",
+            "item": "phr-could-you-slice-it-thin"
+          },
+          {
+            "who": "Gus",
+            "en": "Sure thing. Anything else?",
+            "es": "Claro. ¿Algo más?"
+          },
+          {
+            "who": "Dev",
+            "en": "Is the spinach [out of stock]? The shelf is empty.",
+            "es": "¿Las espinacas están agotadas? El estante está vacío.",
+            "item": "col-out-of-stock"
+          },
+          {
+            "who": "Gus",
+            "en": "Yes, a delivery comes tomorrow. Check the [best before] date on whatever you buy.",
+            "es": "Sí, mañana llega una entrega. Revisa la fecha de caducidad de lo que compres.",
+            "item": "col-best-before"
+          },
+          {
+            "who": "Dev",
+            "en": "Good tip. I'll use the [self-checkout] to save time.",
+            "es": "Buen consejo. Usaré la caja de autoservicio para ahorrar tiempo.",
+            "item": "voc-self-checkout"
+          },
+          {
+            "who": "Dev",
+            "en": "Ugh. It says \"[unexpected item in the bagging area]\" and I haven't touched anything!",
+            "es": "Uf. Dice «artículo inesperado en el área de embolsado» ¡y no he tocado nada!",
+            "item": "phr-unexpected-item-in-the-bagging-area"
+          },
+          {
+            "who": "Marisol",
+            "en": "That happens a lot. Let me reset it.",
+            "es": "Pasa mucho. Déjame reiniciarla."
+          },
+          {
+            "who": "Dev",
+            "en": "Thanks. This yogurt [scanned at the wrong price]. It rang up at five forty-nine.",
+            "es": "Gracias. Este yogur se escaneó con el precio equivocado. Marcó cinco cuarenta y nueve.",
+            "item": "phr-it-scanned-at-the-wrong-price"
+          },
+          {
+            "who": "Dev",
+            "en": "The [flyer] by the entrance says three ninety-nine.",
+            "es": "El folleto de la entrada dice tres noventa y nueve.",
+            "item": "voc-flyer"
+          },
+          {
+            "who": "Marisol",
+            "en": "Let me do a [price check]. Oh, you're right. The sale price wasn't updated. I'll fix it.",
+            "es": "Déjame hacer una verificación de precio. Tiene razón. No se actualizó el precio de oferta. Lo corrijo.",
+            "item": "voc-price-check"
+          },
+          {
+            "who": "Dev",
+            "en": "Thanks. Do I [collect points] on this? I have the app.",
+            "es": "Gracias. ¿Acumulo puntos con esto? Tengo la app.",
+            "item": "col-collect-points"
+          },
+          {
+            "who": "Marisol",
+            "en": "Yes, scan your phone at the top. Points show up within a day.",
+            "es": "Sí, escanea tu teléfono arriba. Los puntos aparecen en un día."
+          },
+          {
+            "who": "Dev",
+            "en": "Perfect. Sorry for all the trouble.",
+            "es": "Perfecto. Perdón por tantas molestias."
+          },
+          {
+            "who": "Marisol",
+            "en": "No trouble at all. Have a good one!",
+            "es": "Para nada. ¡Que te vaya bien!"
+          }
+        ],
+        "items": [
+          "col-price-per-kilo",
+          "phr-could-you-slice-it-thin",
+          "col-out-of-stock",
+          "col-best-before",
+          "voc-self-checkout",
+          "phr-unexpected-item-in-the-bagging-area",
+          "phr-it-scanned-at-the-wrong-price",
+          "voc-flyer",
+          "voc-price-check",
+          "col-collect-points"
+        ],
+        "questions": [
+          {
+            "q": "What does Dev ask at the deli?",
+            "options": [
+              "The price per kilo and a thin slice",
+              "If the ham is organic",
+              "For a bag"
+            ],
+            "answer": 0,
+            "why_es": "Pregunta el precio por kilo y pide el corte delgado."
+          },
+          {
+            "q": "Why can't Dev buy spinach today?",
+            "options": [
+              "It is out of stock",
+              "It is expired",
+              "It is too expensive"
+            ],
+            "answer": 0,
+            "why_es": "Las espinacas están agotadas; llegan mañana."
+          },
+          {
+            "q": "What error does the self-checkout show?",
+            "options": [
+              "Card declined",
+              "Unexpected item in the bagging area",
+              "No paper"
+            ],
+            "answer": 1,
+            "why_es": "Muestra «unexpected item in the bagging area»."
+          },
+          {
+            "q": "What is wrong with the yogurt?",
+            "options": [
+              "It scanned at the wrong price",
+              "It is broken",
+              "It is the wrong flavour"
+            ],
+            "answer": 0,
+            "why_es": "Se escaneó en 5.49 cuando el folleto decía 3.99."
+          },
+          {
+            "q": "Where does Dev scan his phone for points?",
+            "options": [
+              "At the top of the machine",
+              "At the entrance",
+              "At the deli"
+            ],
+            "answer": 0,
+            "why_es": "Marisol le dice que escanee el teléfono arriba."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pide trescientos gramos de jamón cortado delgado.",
+          "model": [
+            "Could I get three hundred grams of ham, sliced thin, please?",
+            "Three hundred grams of turkey, and could you slice it thin?"
+          ],
+          "expect": [
+            [
+              "ham",
+              "turkey",
+              "cheese"
+            ],
+            [
+              "thin",
+              "slice",
+              "sliced"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta si un producto está agotado y cuándo llega más.",
+          "model": [
+            "Is the spinach out of stock? When will you get more?",
+            "Is this sold out? When do you get more in?"
+          ],
+          "expect": [
+            [
+              "out of stock",
+              "sold out",
+              "none",
+              "empty"
+            ],
+            [
+              "when",
+              "tomorrow",
+              "more",
+              "deliver",
+              "restock",
+              "get more"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica un problema con la caja de autoservicio.",
+          "model": [
+            "The machine says there's an unexpected item in the bagging area, but I haven't touched anything.",
+            "The self-checkout isn't working. Could you help me, please?"
+          ],
+          "expect": [
+            [
+              "machine",
+              "self-checkout",
+              "self checkout",
+              "screen",
+              "it"
+            ],
+            [
+              "unexpected",
+              "bagging",
+              "stuck",
+              "error",
+              "won't",
+              "wont",
+              "not working",
+              "isn't working",
+              "help"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Señala que un precio escaneó mal y pide revisarlo.",
+          "model": [
+            "This scanned at the wrong price. The flyer says three ninety-nine. Could you do a price check?",
+            "It rang up higher than the flyer. Could you check the price, please?"
+          ],
+          "expect": [
+            [
+              "wrong",
+              "incorrect",
+              "higher",
+              "too much",
+              "charged",
+              "rang up",
+              "scanned"
+            ],
+            [
+              "flyer",
+              "sale",
+              "price check",
+              "check",
+              "fix",
+              "correct",
+              "adjust"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No oíste bien el precio por kilo.",
+          "en": "Sorry, how much per kilo? I didn't catch that.",
+          "es": "Perdón, ¿cuánto por kilo? No lo escuché."
+        },
+        {
+          "situation_es": "Quieres que hablen más despacio.",
+          "en": "Could you slow down a bit? I want to make sure I understand.",
+          "es": "¿Podría ir más despacio? Quiero asegurarme de entender."
+        },
+        {
+          "situation_es": "Quieres confirmar el ajuste.",
+          "en": "Just to be sure, the price will be adjusted to $3.99?",
+          "es": "Solo para confirmar, ¿el precio se ajustará a $3.99?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-super-b",
+        "area": "compras",
+        "level": "B1",
+        "title": "Self-checkout trouble",
+        "title_es": "Problemas en la caja de autoservicio",
+        "setting_es": "Estás en un supermercado de Calgary. La caja de autoservicio se bloquea y una empleada, Marisol, se acerca a ayudarte.",
+        "npc": "Marisol",
+        "turns": [
+          {
+            "npc": "Hi! Having trouble with the machine?",
+            "npc_es": "¡Hola! ¿Tiene problemas con la máquina?",
+            "task_es": "Explica que dice 'unexpected item' y que no tocaste nada.",
+            "expect": [
+              [
+                "unexpected",
+                "bagging",
+                "item",
+                "stuck",
+                "error",
+                "machine",
+                "won't",
+                "wont",
+                "not working",
+                "isn't"
+              ],
+              [
+                "anything",
+                "touched",
+                "nothing",
+                "didn't",
+                "did not",
+                "haven't",
+                "have not",
+                "just"
+              ]
+            ],
+            "model": [
+              "Yes, it says unexpected item in the bagging area, but I didn't touch anything.",
+              "The machine is stuck. I haven't touched anything."
+            ]
+          },
+          {
+            "npc": "Let me reset it. There you go. Is everything scanning okay now?",
+            "npc_es": "Déjeme reiniciarla. Listo. ¿Todo escanea bien ahora?",
+            "task_es": "Di que sí, pero un producto (el yogur) se escaneó con precio equivocado.",
+            "expect": [
+              [
+                "yes",
+                "yeah",
+                "but",
+                "except",
+                "one problem",
+                "though"
+              ],
+              [
+                "yogurt",
+                "yogourt",
+                "price",
+                "wrong",
+                "scanned",
+                "rang",
+                "charged",
+                "too much"
+              ]
+            ],
+            "model": [
+              "Yes, except the yogurt. It scanned at the wrong price.",
+              "Mostly, but the yogurt rang up at the wrong price."
+            ]
+          },
+          {
+            "npc": "Hmm, what price did the flyer say?",
+            "npc_es": "Mmm, ¿qué precio decía el folleto?",
+            "task_es": "Di el precio del folleto (3.99) y dónde lo viste.",
+            "expect": [
+              [
+                "3.99",
+                "3 99",
+                "three ninety nine",
+                "three ninety-nine",
+                "three dollars"
+              ],
+              [
+                "flyer",
+                "entrance",
+                "sign",
+                "ad",
+                "advertised",
+                "weekly"
+              ]
+            ],
+            "model": [
+              "The flyer says three ninety-nine. I saw it at the entrance.",
+              "It says $3.99 in the weekly flyer."
+            ]
+          },
+          {
+            "npc": "You're right. The system wasn't updated. I'll fix it. Sorry about that. Do you have a loyalty card or the app?",
+            "npc_es": "Tiene razón. No se actualizó el sistema. Lo corrijo. Perdón. ¿Tiene tarjeta de lealtad o la app?",
+            "task_es": "Agradece, di que tienes la app y pregunta si acumulas puntos.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "app",
+                "points",
+                "card",
+                "phone",
+                "collect",
+                "earn"
+              ]
+            ],
+            "model": [
+              "Thank you. I have the app. Do I collect points on this?",
+              "Thanks! Yes, I have the app. Will I earn points?"
+            ]
+          },
+          {
+            "npc": "Yes. Scan your phone here. Would you like a bag? They're twenty-five cents.",
+            "npc_es": "Sí. Escanee su teléfono aquí. ¿Quiere una bolsa? Cuestan veinticinco centavos.",
+            "task_es": "Pide una bolsa y pregunta cuánto es el total.",
+            "expect": [
+              [
+                "bag",
+                "one",
+                "yes",
+                "please"
+              ],
+              [
+                "total",
+                "how much",
+                "cost",
+                "price",
+                "costs"
+              ]
+            ],
+            "model": [
+              "Yes, one bag, please. How much is the total?",
+              "Yes, please. What's the total?"
+            ]
+          },
+          {
+            "npc": "Your total is thirty-eight forty. Debit or credit?",
+            "npc_es": "Su total es treinta y ocho cuarenta. ¿Débito o crédito?",
+            "task_es": "Paga con tarjeta y agradece su ayuda.",
+            "expect": [
+              [
+                "debit",
+                "credit",
+                "card",
+                "tap"
+              ],
+              [
+                "thank",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "Debit, please. Thanks for your help!",
+              "I'll tap my card. Thank you so much!"
+            ]
+          }
+        ],
+        "useful": [
+          "Where can I find...?",
+          "Is this out of stock?",
+          "It scanned at the wrong price.",
+          "Could you do a price check?",
+          "Do I collect points?"
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "voc-self-checkout",
+      "type": "vocab",
+      "term": "self-checkout",
+      "ipa": "/ˌsɛlf ˈtʃɛkaʊt/",
+      "level": "A2",
+      "topic": "daily",
+      "freq": 4,
+      "es": "caja de autoservicio",
+      "def": "a machine where customers scan and pay for their own groceries",
+      "note": "Se dice *the self-checkout* o *self-serve checkout*. Suele haber un empleado cerca para ayudar.",
+      "ex": [
+        {
+          "en": "I'll use the [self-checkout] because the line is long.",
+          "es": "Voy a usar la caja de autoservicio porque la fila es larga."
+        },
+        {
+          "en": "The [self-checkout] stopped working again.",
+          "es": "La caja de autoservicio dejó de funcionar otra vez."
+        }
+      ],
+      "areas": [
+        "compras"
+      ]
+    },
+    {
+      "id": "phr-where-can-i-find",
+      "type": "phrase",
+      "term": "where can I find...?",
+      "ipa": "/wɛr kæn aɪ faɪnd/",
+      "level": "A1",
+      "topic": "daily",
+      "freq": 5,
+      "es": "¿dónde puedo encontrar...?",
+      "def": "a question to locate a product in a store",
+      "note": "Muy útil en tiendas. Más directo: *Where's the milk?* Con empleados también: *Do you know where the milk is?*",
+      "ex": [
+        {
+          "en": "Excuse me, [where can I find] the bread?",
+          "es": "Disculpe, ¿dónde puedo encontrar el pan?"
+        },
+        {
+          "en": "[Where can I find] rice and beans?",
+          "es": "¿Dónde encuentro arroz y frijoles?"
+        }
+      ],
+      "areas": [
+        "compras"
+      ]
+    },
+    {
+      "id": "voc-reusable-bag",
+      "type": "vocab",
+      "term": "reusable bag",
+      "ipa": "/riˈjuːzəbəl bæɡ/",
+      "level": "A2",
+      "topic": "daily",
+      "freq": 4,
+      "es": "bolsa reutilizable",
+      "def": "a strong bag you bring from home instead of using plastic",
+      "note": "En muchas tiendas canadienses cobran por las bolsas (5–25 centavos). Se dice *I brought my own bag*.",
+      "ex": [
+        {
+          "en": "I always bring a [reusable bag] to the store.",
+          "es": "Siempre llevo una bolsa reutilizable a la tienda."
+        },
+        {
+          "en": "Don't forget your [reusable bags]!",
+          "es": "¡No olvides tus bolsas reutilizables!"
+        }
+      ],
+      "areas": [
+        "compras"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-would-you-like-a-bag",
+      "type": "phrase",
+      "term": "would you like a bag?",
+      "ipa": "/wʊd jʊ laɪk ə bæɡ/",
+      "level": "A2",
+      "topic": "daily",
+      "freq": 4,
+      "es": "¿quiere una bolsa?",
+      "def": "a question the cashier asks at checkout",
+      "note": "A veces la bolsa tiene costo. Respuestas: *No, thanks, I have my own* / *Yes, one, please*.",
+      "ex": [
+        {
+          "en": "[Would you like a bag]? It's twenty-five cents.",
+          "es": "¿Quiere una bolsa? Cuesta veinticinco centavos."
+        },
+        {
+          "en": "The cashier asked, \"[Would you like a bag]?\"",
+          "es": "La cajera preguntó: «¿Quiere una bolsa?»"
+        }
+      ],
+      "areas": [
+        "compras"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-price-per-kilo",
+      "type": "collocation",
+      "term": "price per kilo",
+      "level": "B1",
+      "topic": "money",
+      "freq": 3,
+      "es": "precio por kilo",
+      "def": "how much a kilogram of something costs",
+      "note": "En Canadá se ven kilos y libras: *per kilo* o *per pound*. Un kilo es más o menos 2.2 libras.",
+      "ex": [
+        {
+          "en": "What's the [price per kilo] for this cheese?",
+          "es": "¿Cuál es el precio por kilo de este queso?"
+        },
+        {
+          "en": "The [price per kilo] is on the shelf label.",
+          "es": "El precio por kilo está en la etiqueta del estante."
+        }
+      ],
+      "areas": [
+        "compras"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-could-you-slice-it-thin",
+      "type": "phrase",
+      "term": "could you slice it thin?",
+      "ipa": "/kʊd jʊ slaɪs ɪt θɪn/",
+      "level": "B1",
+      "topic": "food",
+      "freq": 2,
+      "es": "¿podría cortarlo delgado?",
+      "def": "a request at the deli counter for thin slices",
+      "note": "También: *thick* (grueso), *medium*. Se pide al comprar jamón, queso o pavo al corte.",
+      "ex": [
+        {
+          "en": "[Could you slice it thin]? It's for sandwiches.",
+          "es": "¿Podría cortarlo delgado? Es para sándwiches."
+        },
+        {
+          "en": "I asked, \"[Could you slice it thin], please?\"",
+          "es": "Pregunté: «¿Podría cortarlo delgado, por favor?»"
+        }
+      ],
+      "areas": [
+        "compras"
+      ]
+    },
+    {
+      "id": "phr-unexpected-item-in-the-bagging-area",
+      "type": "phrase",
+      "term": "unexpected item in the bagging area",
+      "ipa": "/ˌʌnɪkˈspɛktɪd ˈaɪtəm ɪn ðə ˈbæɡɪŋ ˈɛriə/",
+      "level": "B1",
+      "topic": "daily",
+      "freq": 2,
+      "es": "artículo inesperado en el área de embolsado",
+      "def": "a message from self-checkout when the scale detects a weight problem",
+      "note": "Mensaje común. Normalmente se resuelve esperando o pidiendo ayuda a un empleado.",
+      "ex": [
+        {
+          "en": "The machine keeps saying, \"[unexpected item in the bagging area].\"",
+          "es": "La máquina sigue diciendo: «artículo inesperado en el área de embolsado.»"
+        },
+        {
+          "en": "I got an [unexpected item in the bagging area] error again.",
+          "es": "Me salió otra vez el error de artículo inesperado en el área de embolsado."
+        }
+      ],
+      "areas": [
+        "compras"
+      ]
+    },
+    {
+      "id": "phr-it-scanned-at-the-wrong-price",
+      "type": "phrase",
+      "term": "it scanned at the wrong price",
+      "ipa": "/ɪt skænd æt ðə rɔːŋ praɪs/",
+      "level": "B1",
+      "topic": "money",
+      "freq": 3,
+      "es": "se escaneó con el precio equivocado",
+      "def": "the register charged a different price than the one shown",
+      "note": "Para reclamar con calma: *It scanned at the wrong price. The flyer says...*. También: *rang up*.",
+      "ex": [
+        {
+          "en": "Excuse me, [it scanned at the wrong price].",
+          "es": "Disculpe, se escaneó con el precio equivocado."
+        },
+        {
+          "en": "The cashier checked, and [it scanned at the wrong price].",
+          "es": "La cajera revisó y se había escaneado con el precio equivocado."
+        }
+      ],
+      "areas": [
+        "compras"
+      ]
+    },
+    {
+      "id": "voc-flyer",
+      "type": "vocab",
+      "term": "flyer",
+      "ipa": "/ˈflaɪər/",
+      "level": "B1",
+      "topic": "daily",
+      "freq": 3,
+      "es": "folleto de ofertas",
+      "def": "a printed or digital ad with sale prices",
+      "note": "En Canadá las tiendas publican un *weekly flyer* con las ofertas de la semana.",
+      "ex": [
+        {
+          "en": "The [flyer] says chicken is on sale.",
+          "es": "El folleto dice que el pollo está en oferta."
+        },
+        {
+          "en": "I check the weekly [flyer] before I shop.",
+          "es": "Reviso el folleto semanal antes de ir de compras."
+        }
+      ],
+      "areas": [
+        "compras"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "voc-price-check",
+      "type": "vocab",
+      "term": "price check",
+      "ipa": "/ˈpraɪs tʃɛk/",
+      "level": "B1",
+      "topic": "daily",
+      "freq": 3,
+      "es": "verificación de precio",
+      "def": "when a store employee confirms the price of an item",
+      "note": "Se dice por altavoz: *Price check on aisle four.* También: *Could you do a price check?*",
+      "ex": [
+        {
+          "en": "Could you do a [price check] on this item?",
+          "es": "¿Podría verificar el precio de este artículo?"
+        },
+        {
+          "en": "The cashier called for a [price check].",
+          "es": "La cajera pidió una verificación de precio."
+        }
+      ],
+      "areas": [
+        "compras"
+      ]
+    },
+    {
+      "id": "col-collect-points",
+      "type": "collocation",
+      "term": "collect points",
+      "level": "B1",
+      "topic": "money",
+      "freq": 3,
+      "es": "acumular puntos",
+      "def": "to earn reward points when you buy things",
+      "note": "Con tarjeta o app de lealtad. Otros verbos: *earn*, *redeem* (canjear).",
+      "ex": [
+        {
+          "en": "I [collect points] every time I shop here.",
+          "es": "Acumulo puntos cada vez que compro aquí."
+        },
+        {
+          "en": "Do I [collect points] on this purchase?",
+          "es": "¿Acumulo puntos con esta compra?"
+        }
+      ],
+      "areas": [
+        "compras"
+      ]
+    }
+  ]
+}

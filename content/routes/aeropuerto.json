@@ -1,0 +1,1727 @@
+{
+  "id": "aeropuerto",
+  "title_es": "Vacaciones y aeropuerto",
+  "icon": "plane",
+  "scene": null,
+  "areas": [
+    "viajes",
+    "conversacion"
+  ],
+  "season": null,
+  "objective_es": "Moverte por el aeropuerto y el hotel: check-in, puertas, cancelaciones, equipaje extraviado y negociación.",
+  "tracks": [
+    {
+      "id": "aeropuerto-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 11,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hacer el check-in, mostrar documentos, elegir asiento y preguntar por la puerta de embarque.",
+      "items": [
+        "phr-id-like-to-check-in",
+        "voc-passport",
+        "voc-checked-baggage",
+        "voc-carry-on",
+        "phr-window-or-aisle",
+        "voc-boarding-pass",
+        "phr-which-gate-is-it",
+        "voc-security-line",
+        "phr-safe-travels",
+        "voc-gate",
+        "voc-luggage"
+      ],
+      "lesson": {
+        "id": "ls-aeropuerto-a",
+        "level": "A2",
+        "topic": "travel",
+        "order": 906,
+        "title": "Check-in at the airport",
+        "title_es": "Check-in en el aeropuerto",
+        "intro_es": "Mateo hace el check-in en el aeropuerto de Edmonton. Va a Vancouver con una maleta y una mochila.",
+        "lines": [
+          {
+            "who": "Dana",
+            "en": "Good morning! Where are you flying today?",
+            "es": "¡Buenos días! ¿A dónde viaja hoy?"
+          },
+          {
+            "who": "Mateo",
+            "en": "Hi. [I'd like to check in], please. I'm going to Vancouver.",
+            "es": "Hola. Quisiera hacer el check-in, por favor. Voy a Vancouver.",
+            "item": "phr-id-like-to-check-in"
+          },
+          {
+            "who": "Dana",
+            "en": "Sure. Can I see your [passport]?",
+            "es": "Claro. ¿Me muestra su pasaporte?",
+            "item": "voc-passport"
+          },
+          {
+            "who": "Mateo",
+            "en": "Here you go.",
+            "es": "Aquí tiene."
+          },
+          {
+            "who": "Dana",
+            "en": "Do you have any [checked baggage]?",
+            "es": "¿Tiene equipaje documentado?",
+            "item": "voc-checked-baggage"
+          },
+          {
+            "who": "Mateo",
+            "en": "Yes, one suitcase. And this small [carry-on].",
+            "es": "Sí, una maleta. Y esta pequeña de mano.",
+            "item": "voc-carry-on"
+          },
+          {
+            "who": "Dana",
+            "en": "Please put the suitcase on the scale. Twenty kilos. Perfect.",
+            "es": "Ponga la maleta en la báscula, por favor. Veinte kilos. Perfecto."
+          },
+          {
+            "who": "Dana",
+            "en": "[Window or aisle]?",
+            "es": "¿Ventana o pasillo?",
+            "item": "phr-window-or-aisle"
+          },
+          {
+            "who": "Mateo",
+            "en": "Window, please.",
+            "es": "Ventana, por favor."
+          },
+          {
+            "who": "Dana",
+            "en": "Here is your [boarding pass].",
+            "es": "Aquí está su pase de abordar.",
+            "item": "voc-boarding-pass"
+          },
+          {
+            "who": "Mateo",
+            "en": "[Which gate is it]?",
+            "es": "¿Cuál es la puerta de embarque?",
+            "item": "phr-which-gate-is-it"
+          },
+          {
+            "who": "Dana",
+            "en": "Gate 14. Boarding starts at 9:40. First, go to the [security line] over there.",
+            "es": "Puerta 14. El abordaje empieza a las 9:40. Primero vaya a la fila de seguridad de allá.",
+            "item": "voc-security-line"
+          },
+          {
+            "who": "Mateo",
+            "en": "Thank you very much!",
+            "es": "¡Muchas gracias!"
+          },
+          {
+            "who": "Dana",
+            "en": "[Safe travels]!",
+            "es": "¡Buen viaje!",
+            "item": "phr-safe-travels"
+          }
+        ],
+        "items": [
+          "phr-id-like-to-check-in",
+          "voc-passport",
+          "voc-checked-baggage",
+          "voc-carry-on",
+          "phr-window-or-aisle",
+          "voc-boarding-pass",
+          "phr-which-gate-is-it",
+          "voc-security-line",
+          "phr-safe-travels"
+        ],
+        "questions": [
+          {
+            "q": "Where is Mateo going?",
+            "options": [
+              "Calgary",
+              "Vancouver",
+              "Toronto"
+            ],
+            "answer": 1,
+            "why_es": "Dice: I'm going to Vancouver."
+          },
+          {
+            "q": "How much does the suitcase weigh?",
+            "options": [
+              "Ten kilos",
+              "Thirty kilos",
+              "Twenty kilos"
+            ],
+            "answer": 2,
+            "why_es": "Dana dice: Twenty kilos. Perfect."
+          },
+          {
+            "q": "Which seat does Mateo choose?",
+            "options": [
+              "An aisle seat",
+              "A window seat",
+              "A seat in the middle"
+            ],
+            "answer": 1,
+            "why_es": "Pide window."
+          },
+          {
+            "q": "What does Mateo have to do after check-in?",
+            "options": [
+              "Go to the security line",
+              "Wait at the counter",
+              "Go home"
+            ],
+            "answer": 0,
+            "why_es": "Dana le dice que primero vaya a la fila de seguridad."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pide hacer el check-in y di tu destino.",
+          "model": [
+            "I'd like to check in, please. I'm going to Vancouver.",
+            "Hi, I'd like to check in. I'm flying to Toronto."
+          ],
+          "expect": [
+            [
+              "check in",
+              "check-in"
+            ],
+            [
+              "going",
+              "flying",
+              "destination",
+              "to"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que tienes una maleta y una mochila de mano.",
+          "model": [
+            "I have one suitcase and one carry-on.",
+            "One bag to check and a small backpack."
+          ],
+          "expect": [
+            [
+              "suitcase",
+              "bag",
+              "luggage"
+            ],
+            [
+              "carry-on",
+              "carry on",
+              "backpack"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta cuál es la puerta de embarque.",
+          "model": [
+            "Which gate is it?",
+            "Excuse me, what gate is my flight?"
+          ],
+          "expect": [
+            [
+              "gate"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste el número de la puerta.",
+          "en": "Sorry, which gate? Could you write it down?",
+          "es": "Perdón, ¿qué puerta? ¿Puede escribirla?"
+        },
+        {
+          "situation_es": "Hablan muy rápido.",
+          "en": "Could you speak more slowly, please?",
+          "es": "¿Podría hablar más despacio, por favor?"
+        },
+        {
+          "situation_es": "Quieres confirmar la hora.",
+          "en": "Boarding is at 9:40, right?",
+          "es": "El abordaje es a las 9:40, ¿verdad?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-aeropuerto-a",
+        "area": "viajes",
+        "level": "A2",
+        "title": "Airport check-in",
+        "title_es": "Check-in en el mostrador",
+        "setting_es": "Estás en el aeropuerto de Calgary. Llegas al mostrador de la aerolínea con tu maleta.",
+        "npc": "Check-in agent",
+        "turns": [
+          {
+            "npc": "Good morning! Where are you flying today?",
+            "npc_es": "¡Buenos días! ¿A dónde viaja hoy?",
+            "task_es": "Di tu destino.",
+            "expect": [
+              [
+                "toronto",
+                "vancouver",
+                "calgary",
+                "montreal",
+                "mexico",
+                "halifax",
+                "going",
+                "flying",
+                "fly"
+              ]
+            ],
+            "model": [
+              "I'm flying to Toronto.",
+              "I'm going to Vancouver."
+            ]
+          },
+          {
+            "npc": "May I see your passport, please?",
+            "npc_es": "¿Me muestra su pasaporte, por favor?",
+            "task_es": "Entrega el pasaporte con cortesía.",
+            "expect": [
+              [
+                "here",
+                "sure",
+                "yes",
+                "of course",
+                "there"
+              ]
+            ],
+            "model": [
+              "Here you go.",
+              "Sure, here it is."
+            ]
+          },
+          {
+            "npc": "Do you have any checked baggage?",
+            "npc_es": "¿Tiene equipaje para documentar?",
+            "task_es": "Di que tienes una maleta y una de mano.",
+            "expect": [
+              [
+                "one",
+                "a",
+                "suitcase",
+                "bag",
+                "luggage"
+              ],
+              [
+                "carry-on",
+                "carry on",
+                "backpack",
+                "small"
+              ]
+            ],
+            "model": [
+              "Yes, one suitcase and one carry-on.",
+              "I have one bag to check and a small backpack."
+            ]
+          },
+          {
+            "npc": "Window or aisle?",
+            "npc_es": "¿Ventana o pasillo?",
+            "task_es": "Elige un asiento.",
+            "expect": [
+              [
+                "window",
+                "aisle"
+              ]
+            ],
+            "model": [
+              "Window, please.",
+              "An aisle seat, please."
+            ]
+          },
+          {
+            "npc": "Here is your boarding pass. Your flight leaves from gate 14, and boarding starts at 9:40.",
+            "npc_es": "Aquí está su pase de abordar. Su vuelo sale de la puerta 14 y el abordaje empieza a las 9:40.",
+            "task_es": "Repite la puerta y la hora para confirmar.",
+            "expect": [
+              [
+                "14",
+                "fourteen"
+              ],
+              [
+                "9:40",
+                "9 40",
+                "nine forty",
+                "nine-forty"
+              ]
+            ],
+            "model": [
+              "Gate 14, and boarding is at 9:40, right?",
+              "So it's gate fourteen at nine forty?"
+            ]
+          },
+          {
+            "npc": "That's right. Have a great flight!",
+            "npc_es": "Así es. ¡Que tenga un buen vuelo!",
+            "task_es": "Agradece.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "Thank you very much!",
+              "Thanks, you too!"
+            ]
+          }
+        ],
+        "useful": [
+          "I'd like to check in, please.",
+          "One suitcase and one carry-on.",
+          "Which gate is it?",
+          "Window, please."
+        ]
+      }
+    },
+    {
+      "id": "aeropuerto-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Resolver un vuelo cancelado, una maleta extraviada y el registro en un hotel con frases claras y corteses.",
+      "items": [
+        "phr-my-flight-was-cancelled",
+        "col-rebook-a-flight",
+        "voc-standby",
+        "voc-meal-voucher",
+        "col-file-a-claim",
+        "col-lost-luggage",
+        "phr-i-have-a-reservation-under",
+        "voc-key-card",
+        "phr-is-breakfast-included",
+        "voc-baggage-claim",
+        "voc-delay"
+      ],
+      "lesson": {
+        "id": "ls-aeropuerto-b",
+        "level": "B1",
+        "topic": "travel",
+        "order": 907,
+        "title": "Cancelled flight, missing suitcase",
+        "title_es": "Vuelo cancelado, maleta perdida",
+        "intro_es": "Tomás aterriza en Calgary para una conexión a Montreal, pero cancelan su vuelo y su maleta no aparece. Después llega a un hotel del aeropuerto.",
+        "lines": [
+          {
+            "who": "Tomás",
+            "en": "Excuse me. I just landed from Vancouver, and the screen says [my flight was cancelled].",
+            "es": "Disculpe. Acabo de aterrizar de Vancouver y la pantalla dice que cancelaron mi vuelo.",
+            "item": "phr-my-flight-was-cancelled"
+          },
+          {
+            "who": "Keisha",
+            "en": "I'm so sorry. A snowstorm is closing the runways. I can [rebook a flight] for you.",
+            "es": "Lo lamento mucho. Una tormenta de nieve está cerrando las pistas. Puedo reprogramarle el vuelo.",
+            "item": "col-rebook-a-flight"
+          },
+          {
+            "who": "Tomás",
+            "en": "When is the next one? I have a meeting in Montreal tomorrow at noon.",
+            "es": "¿Cuándo es el siguiente? Tengo una junta en Montreal mañana al mediodía."
+          },
+          {
+            "who": "Keisha",
+            "en": "Tomorrow at 7:15 a.m. It's nearly full, so I'd book it now. I can also put you on [standby] for tonight, but I can't promise a seat.",
+            "es": "Mañana a las 7:15. Está casi lleno, así que lo reservaría ya. También lo puedo poner en lista de espera para hoy, pero no le prometo un lugar.",
+            "item": "voc-standby"
+          },
+          {
+            "who": "Tomás",
+            "en": "Book the morning one, please. Is the hotel covered?",
+            "es": "Reserve el de la mañana, por favor. ¿El hotel está cubierto?"
+          },
+          {
+            "who": "Keisha",
+            "en": "Not for weather delays, I'm afraid. But here's a [meal voucher] and a discount code for the airport hotel.",
+            "es": "Para retrasos por clima no, me temo. Pero aquí tiene un vale de comida y un código de descuento para el hotel del aeropuerto.",
+            "item": "voc-meal-voucher"
+          },
+          {
+            "who": "Tomás",
+            "en": "That helps. One more problem: my suitcase never showed up at baggage claim.",
+            "es": "Eso ayuda. Otro problema: mi maleta nunca salió en la recolección de equipaje."
+          },
+          {
+            "who": "Keisha",
+            "en": "Let's [file a claim]. Do you have your baggage tag?",
+            "es": "Presentemos un reclamo. ¿Tiene su talón de equipaje?",
+            "item": "col-file-a-claim"
+          },
+          {
+            "who": "Tomás",
+            "en": "Yes, here. Is it officially [lost luggage]?",
+            "es": "Sí, aquí está. ¿Ya se considera equipaje extraviado?",
+            "item": "col-lost-luggage"
+          },
+          {
+            "who": "Keisha",
+            "en": "Not yet. Usually it's delayed, not lost. We'll track it and deliver it to your hotel, probably tomorrow morning.",
+            "es": "Todavía no. Normalmente está retrasado, no perdido. Lo rastrearemos y se lo llevaremos al hotel, probablemente mañana temprano."
+          },
+          {
+            "who": "Tomás",
+            "en": "Hi, [I have a reservation under] Rivera. I got a discount code from the airport desk.",
+            "es": "Hola, tengo una reservación a nombre de Rivera. Obtuve un código de descuento en el mostrador del aeropuerto.",
+            "item": "phr-i-have-a-reservation-under"
+          },
+          {
+            "who": "Dev",
+            "en": "Welcome, Mr. Rivera. You're on the fourth floor. Here's your [key card].",
+            "es": "Bienvenido, señor Rivera. Está en el cuarto piso. Aquí tiene su tarjeta de la habitación.",
+            "item": "voc-key-card"
+          },
+          {
+            "who": "Tomás",
+            "en": "[Is breakfast included]? My flight is at 7:15, so I need to leave early.",
+            "es": "¿Está incluido el desayuno? Mi vuelo es a las 7:15, así que tengo que salir temprano.",
+            "item": "phr-is-breakfast-included"
+          },
+          {
+            "who": "Dev",
+            "en": "Not with this rate, but the café opens at five-thirty.",
+            "es": "No con esta tarifa, pero la cafetería abre a las cinco y media."
+          },
+          {
+            "who": "Tomás",
+            "en": "Perfect. And if my suitcase arrives, could you hold it at the front desk?",
+            "es": "Perfecto. Y si llega mi maleta, ¿podrían guardarla en la recepción?"
+          },
+          {
+            "who": "Dev",
+            "en": "Of course. We'll call your room.",
+            "es": "Por supuesto. Le llamaremos a su habitación."
+          }
+        ],
+        "items": [
+          "phr-my-flight-was-cancelled",
+          "col-rebook-a-flight",
+          "voc-standby",
+          "voc-meal-voucher",
+          "col-file-a-claim",
+          "col-lost-luggage",
+          "phr-i-have-a-reservation-under",
+          "voc-key-card",
+          "phr-is-breakfast-included"
+        ],
+        "questions": [
+          {
+            "q": "Why was the flight cancelled?",
+            "options": [
+              "A snowstorm",
+              "A pilot was sick",
+              "The plane was broken"
+            ],
+            "answer": 0,
+            "why_es": "Keisha dice que una tormenta de nieve cierra las pistas."
+          },
+          {
+            "q": "What does the airline give Tomás?",
+            "options": [
+              "A free hotel",
+              "A meal voucher and a discount code",
+              "A new suitcase"
+            ],
+            "answer": 1,
+            "why_es": "Por clima no cubren hotel, pero dan vale y descuento."
+          },
+          {
+            "q": "What does Keisha say about the suitcase?",
+            "options": [
+              "It is usually delayed, not lost",
+              "It was thrown away",
+              "It is in Montreal"
+            ],
+            "answer": 0,
+            "why_es": "Dice que normalmente está retrasado, no perdido."
+          },
+          {
+            "q": "Why does Tomás ask about breakfast?",
+            "options": [
+              "He is very hungry",
+              "His flight is early",
+              "He doesn't like the café"
+            ],
+            "answer": 1,
+            "why_es": "Su vuelo es a las 7:15 y debe salir temprano."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica que tu vuelo fue cancelado y pregunta por la siguiente opción.",
+          "model": [
+            "My flight was cancelled. What's the next available flight to Montreal?",
+            "My flight got cancelled. Can you rebook me on the earliest flight?"
+          ],
+          "expect": [
+            [
+              "cancel",
+              "cancelled",
+              "canceled"
+            ],
+            [
+              "next",
+              "another",
+              "available",
+              "rebook",
+              "earliest"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Reporta una maleta que no apareció en la recolección.",
+          "model": [
+            "My suitcase didn't come out at baggage claim. I'd like to file a claim.",
+            "My bag never arrived. Could I report it and file a claim?"
+          ],
+          "expect": [
+            [
+              "suitcase",
+              "bag",
+              "luggage"
+            ],
+            [
+              "claim",
+              "file",
+              "report",
+              "missing",
+              "didn't",
+              "did not",
+              "never"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta si el hotel incluye desayuno y a qué hora empieza.",
+          "model": [
+            "Is breakfast included, and what time does it start?",
+            "Does the rate include breakfast? When does it open?"
+          ],
+          "expect": [
+            [
+              "breakfast"
+            ],
+            [
+              "included",
+              "include",
+              "time",
+              "open",
+              "opens",
+              "start",
+              "starts"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide que te avisen cuando llegue tu maleta.",
+          "model": [
+            "Could you call me as soon as my suitcase arrives?",
+            "Please let me know when my bag arrives."
+          ],
+          "expect": [
+            [
+              "call",
+              "text",
+              "notify",
+              "let me know",
+              "message",
+              "tell me"
+            ],
+            [
+              "suitcase",
+              "bag",
+              "luggage",
+              "arrives",
+              "arrive"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres confirmar la nueva reservación.",
+          "en": "So, to confirm, you're rebooking me for 7:15 tomorrow?",
+          "es": "Entonces, para confirmar, ¿me reprograma para mañana a las 7:15?"
+        },
+        {
+          "situation_es": "No alcanzaste a oír un dato.",
+          "en": "Sorry, I didn't catch the gate number. Could you write it down?",
+          "es": "Perdón, no escuché el número de la puerta. ¿Podría escribirlo?"
+        },
+        {
+          "situation_es": "No conoces una palabra del agente.",
+          "en": "I'm not familiar with \"standby.\" What does that mean exactly?",
+          "es": "No conozco «standby». ¿Qué significa exactamente?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-aeropuerto-b",
+        "area": "viajes",
+        "level": "B1",
+        "title": "Cancelled connection and lost bag",
+        "title_es": "Conexión cancelada y maleta extraviada",
+        "setting_es": "Aterrizaste en Calgary para conectar a Montreal. Tu vuelo fue cancelado por una tormenta y tu maleta no apareció. Te atiende Keisha en el mostrador de servicio.",
+        "npc": "Keisha",
+        "turns": [
+          {
+            "npc": "Customer service, this is Keisha. How can I help?",
+            "npc_es": "Servicio al cliente, habla Keisha. ¿En qué puedo ayudarle?",
+            "task_es": "Explica que tu vuelo fue cancelado y que debes estar en Montreal mañana al mediodía.",
+            "expect": [
+              [
+                "cancel",
+                "cancelled",
+                "canceled"
+              ],
+              [
+                "montreal",
+                "tomorrow",
+                "noon",
+                "meeting",
+                "arrive",
+                "get there"
+              ]
+            ],
+            "model": [
+              "My connecting flight to Montreal was cancelled. I need to be there by noon tomorrow.",
+              "My flight was cancelled and I have an important meeting in Montreal tomorrow."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi lost my flight\\b",
+                "fix": "I missed my flight / my flight was cancelled",
+                "why_es": "*Lose* no se usa para vuelos: perder un vuelo es *miss*, y si lo cancelan es *cancelled*."
+              }
+            ]
+          },
+          {
+            "npc": "I'm sorry about that. The earliest seat is 7:15 tomorrow. Shall I book it?",
+            "npc_es": "Lamento eso. El primer asiento es mañana a las 7:15. ¿Lo reservo?",
+            "task_es": "Acepta y pregunta si puedes ir en lista de espera esta noche.",
+            "expect": [
+              [
+                "yes",
+                "book",
+                "okay",
+                "ok",
+                "please",
+                "sure",
+                "go ahead"
+              ],
+              [
+                "standby",
+                "stand by",
+                "waitlist",
+                "wait list",
+                "tonight",
+                "earlier",
+                "this evening"
+              ]
+            ],
+            "model": [
+              "Yes, please book it. Could I also go on standby for tonight?",
+              "Okay, book it. Is there a waitlist for tonight's flight?"
+            ]
+          },
+          {
+            "npc": "I can add you, but I can't promise a seat. Anything else I can help with?",
+            "npc_es": "Puedo agregarlo, pero no le prometo un lugar. ¿Algo más en lo que pueda ayudar?",
+            "task_es": "Di que tu maleta no llegó y pide abrir un reclamo.",
+            "expect": [
+              [
+                "suitcase",
+                "bag",
+                "luggage"
+              ],
+              [
+                "claim",
+                "file",
+                "report",
+                "missing",
+                "lost",
+                "didn't",
+                "did not",
+                "never",
+                "show"
+              ]
+            ],
+            "model": [
+              "Yes, my suitcase didn't arrive. Could I file a claim?",
+              "My bag never showed up. I'd like to report it, please."
+            ]
+          },
+          {
+            "npc": "Of course. Can you describe it, and do you have your baggage tag?",
+            "npc_es": "Claro. ¿Puede describirla y tiene su talón de equipaje?",
+            "task_es": "Describe la maleta (color y tamaño) y di que tienes el talón.",
+            "expect": [
+              [
+                "black",
+                "blue",
+                "red",
+                "grey",
+                "gray",
+                "green",
+                "large",
+                "medium",
+                "small",
+                "big",
+                "hard",
+                "soft",
+                "color",
+                "colour"
+              ],
+              [
+                "tag",
+                "receipt",
+                "here",
+                "yes",
+                "have"
+              ]
+            ],
+            "model": [
+              "It's a large black suitcase. Yes, here's the tag.",
+              "A medium blue bag with a red ribbon. I have the tag right here."
+            ]
+          },
+          {
+            "npc": "Thank you. We'll deliver it to your hotel when it's found. Where are you staying tonight?",
+            "npc_es": "Gracias. Se la llevaremos al hotel cuando aparezca. ¿Dónde se hospeda esta noche?",
+            "task_es": "Di que estarás en el hotel del aeropuerto y pide que te avisen.",
+            "expect": [
+              [
+                "hotel",
+                "airport"
+              ],
+              [
+                "call",
+                "text",
+                "let me know",
+                "notify",
+                "message",
+                "tell"
+              ]
+            ],
+            "model": [
+              "I'm at the airport hotel. Please call me as soon as you find it.",
+              "I'll be at the airport hotel. Could you text me when it arrives?"
+            ]
+          },
+          {
+            "npc": "Will do. Here's a meal voucher and a hotel discount code. Sorry again.",
+            "npc_es": "Así será. Aquí tiene un vale de comida y un código de descuento. Disculpe de nuevo.",
+            "task_es": "Agradece y despídete.",
+            "expect": [
+              [
+                "thank",
+                "thanks"
+              ],
+              [
+                "help",
+                "appreciate",
+                "bye",
+                "goodbye",
+                "have a",
+                "good night",
+                "night"
+              ]
+            ],
+            "model": [
+              "Thank you for your help, Keisha. I really appreciate it.",
+              "Thanks so much. Have a good night!"
+            ]
+          }
+        ],
+        "useful": [
+          "My flight was cancelled.",
+          "Could I file a claim?",
+          "Please call me as soon as it arrives.",
+          "Is breakfast included?"
+        ]
+      }
+    },
+    {
+      "id": "aeropuerto-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 17,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Negociar con diplomacia ante una sobreventa: reconocer límites, pedir flexibilidad y cerrar un acuerdo por escrito.",
+      "items": [
+        "voc-overbooked",
+        "phr-bear-with-me",
+        "idi-out-of-your-hands",
+        "phr-id-appreciate-any-flexibility",
+        "pv-make-it-up-to",
+        "voc-compensation",
+        "col-goodwill-gesture",
+        "idi-in-the-same-boat",
+        "idi-make-the-best-of-it"
+      ],
+      "lesson": {
+        "id": "ls-aeropuerto-c",
+        "level": "C1",
+        "topic": "travel",
+        "order": 908,
+        "title": "Overbooked and under pressure",
+        "title_es": "Sobreventa y mucha presión",
+        "intro_es": "Imani tiene una conferencia a las nueve de la mañana. En la puerta de embarque le informan que el vuelo tiene sobreventa.",
+        "lines": [
+          {
+            "who": "Pierre",
+            "en": "Ms. Okafor? Thanks for coming up. I'll be upfront: the flight is [overbooked], and I need volunteers for a later departure.",
+            "es": "¿Señora Okafor? Gracias por acercarse. Seré directo: el vuelo tiene sobreventa y necesito voluntarios para una salida posterior.",
+            "item": "voc-overbooked"
+          },
+          {
+            "who": "Imani",
+            "en": "I'm giving a keynote at nine tomorrow. A later flight isn't really an option.",
+            "es": "Daré una conferencia magistral mañana a las nueve. Un vuelo posterior no es realmente una opción."
+          },
+          {
+            "who": "Pierre",
+            "en": "Understood. I'd rather not move anyone with a hard deadline. [Bear with me] while I check the system.",
+            "es": "Entendido. Preferiría no mover a nadie con una fecha límite estricta. Tenga paciencia mientras reviso el sistema.",
+            "item": "phr-bear-with-me"
+          },
+          {
+            "who": "Pierre",
+            "en": "There's a seat on the 6 a.m. through Toronto. It's not ideal, and I'm aware it's an inconvenience.",
+            "es": "Hay un asiento en el de las 6 a.m. con escala en Toronto. No es lo ideal y sé que es una molestia."
+          },
+          {
+            "who": "Imani",
+            "en": "That would leave me ninety minutes to spare, if nothing slips. And I'd be running on fumes.",
+            "es": "Eso me dejaría noventa minutos de margen, si nada se retrasa. Y estaría sin energía."
+          },
+          {
+            "who": "Imani",
+            "en": "I understand [it's out of your hands], Pierre. You didn't overbook the plane.",
+            "es": "Entiendo que no depende de usted, Pierre. Usted no vendió de más el vuelo.",
+            "item": "idi-out-of-your-hands"
+          },
+          {
+            "who": "Imani",
+            "en": "Still, [I'd appreciate any flexibility] you can offer.",
+            "es": "Aun así, agradecería cualquier flexibilidad que pueda ofrecer.",
+            "item": "phr-id-appreciate-any-flexibility"
+          },
+          {
+            "who": "Pierre",
+            "en": "Let me see. We'd like to [make it up to you]: a lounge pass and a hotel for tonight.",
+            "es": "Veamos. Queremos compensarla: un pase a la sala VIP y un hotel para esta noche.",
+            "item": "pv-make-it-up-to"
+          },
+          {
+            "who": "Imani",
+            "en": "That's a start. But a lounge pass doesn't fix a missed keynote, does it?",
+            "es": "Es un comienzo. Pero un pase VIP no arregla una conferencia perdida, ¿verdad?"
+          },
+          {
+            "who": "Pierre",
+            "en": "Fair point. I can also offer [compensation]: a travel credit toward a future flight.",
+            "es": "Buen punto. También puedo ofrecer una compensación: un crédito para un vuelo futuro.",
+            "item": "voc-compensation"
+          },
+          {
+            "who": "Imani",
+            "en": "I'd rather have a better seat on the 6 a.m., if you can swing it.",
+            "es": "Preferiría un mejor asiento en el de las 6, si es posible."
+          },
+          {
+            "who": "Pierre",
+            "en": "I can't promise that, but my supervisor can sometimes approve a [goodwill gesture].",
+            "es": "No se lo puedo prometer, pero mi supervisor a veces aprueba un gesto de buena voluntad.",
+            "item": "col-goodwill-gesture"
+          },
+          {
+            "who": "Imani",
+            "en": "I'm not looking for a fight. We're [in the same boat]: this isn't your doing.",
+            "es": "No busco pelea. Estamos en la misma situación: esto no es culpa suya.",
+            "item": "idi-in-the-same-boat"
+          },
+          {
+            "who": "Pierre",
+            "en": "You're being generous. Most people would have shouted by now.",
+            "es": "Es muy generosa. La mayoría ya estaría gritando."
+          },
+          {
+            "who": "Imani",
+            "en": "Shouting rarely helps. Let's [make the best of it]: I'll take the 6 a.m. if you upgrade me.",
+            "es": "Gritar casi nunca ayuda. Saquemos el mejor partido: tomo el de las 6 a.m. si me mejora la clase.",
+            "item": "idi-make-the-best-of-it"
+          }
+        ],
+        "items": [
+          "voc-overbooked",
+          "phr-bear-with-me",
+          "idi-out-of-your-hands",
+          "phr-id-appreciate-any-flexibility",
+          "pv-make-it-up-to",
+          "voc-compensation",
+          "col-goodwill-gesture",
+          "idi-in-the-same-boat",
+          "idi-make-the-best-of-it"
+        ],
+        "questions": [
+          {
+            "q": "Why can't Imani take a later flight?",
+            "options": [
+              "She has a keynote at nine tomorrow",
+              "She is afraid of flying",
+              "Her hotel is booked"
+            ],
+            "answer": 0,
+            "why_es": "Tiene una conferencia a las nueve de la mañana."
+          },
+          {
+            "q": "What does \"I'd appreciate any flexibility\" mean here?",
+            "options": [
+              "She wants to cancel her trip",
+              "She hopes the airline can bend its options for her",
+              "She is angry and wants a refund only"
+            ],
+            "answer": 1,
+            "why_es": "Es una petición indirecta de que la aerolínea sea flexible."
+          },
+          {
+            "q": "What does Pierre offer first?",
+            "options": [
+              "A lounge pass and a hotel",
+              "A free ticket for a year",
+              "A seat in first class"
+            ],
+            "answer": 0,
+            "why_es": "Ofrece pase a la sala VIP y hotel por esta noche."
+          },
+          {
+            "q": "What does \"we're in the same boat\" suggest?",
+            "options": [
+              "They are on a ship",
+              "Both are in a hard situation they didn't cause",
+              "They disagree"
+            ],
+            "answer": 1,
+            "why_es": "Significa que comparten un problema que no provocaron."
+          },
+          {
+            "q": "What does Imani propose at the end?",
+            "options": [
+              "She will take the 6 a.m. flight if she's upgraded",
+              "She will wait for the next day",
+              "She will leave the airport"
+            ],
+            "answer": 0,
+            "why_es": "Dice que tomará el vuelo de las 6 a.m. si le mejoran la clase."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Rechaza con firmeza y cortesía un cambio a un vuelo posterior, explicando tu plazo.",
+          "model": [
+            "I appreciate the situation, but I have a hard deadline tomorrow morning, so a later flight isn't an option.",
+            "Thanks for asking, but I have an important meeting tomorrow and can't take a later flight."
+          ],
+          "expect": [
+            [
+              "deadline",
+              "keynote",
+              "meeting",
+              "presentation",
+              "tomorrow"
+            ],
+            [
+              "later",
+              "option",
+              "can't",
+              "cannot",
+              "unable",
+              "not possible",
+              "isn't",
+              "an option"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Reconoce que no es culpa del agente y pide flexibilidad.",
+          "model": [
+            "I understand it's out of your hands, but I'd appreciate any flexibility you can offer.",
+            "I know this isn't your fault. Is there any flexibility you can offer?"
+          ],
+          "expect": [
+            [
+              "out of your hands",
+              "not your fault",
+              "understand",
+              "appreciate"
+            ],
+            [
+              "flexibility",
+              "flexible",
+              "options",
+              "anything",
+              "help",
+              "offer"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Negocia: acepta el cambio a cambio de una mejora concreta.",
+          "model": [
+            "I'd be willing to take the earlier flight if you can upgrade me.",
+            "I can take the 6 a.m. if you can offer an upgrade or a lounge pass."
+          ],
+          "expect": [
+            [
+              "willing",
+              "happy",
+              "would",
+              "can",
+              "if",
+              "i'll",
+              "ill"
+            ],
+            [
+              "upgrade",
+              "business",
+              "lounge",
+              "credit",
+              "compensation",
+              "hotel"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Cierra con diplomacia dejando el tono cordial.",
+          "model": [
+            "I appreciate your help. I know you're doing what you can.",
+            "Thank you for working on this. I understand you're trying to help."
+          ],
+          "expect": [
+            [
+              "appreciate",
+              "thank",
+              "thanks",
+              "grateful"
+            ],
+            [
+              "help",
+              "effort",
+              "doing",
+              "trying",
+              "understand",
+              "working"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres que expliquen una política con claridad.",
+          "en": "Could you walk me through what that policy means in practice?",
+          "es": "¿Podría explicarme qué significa esa política en la práctica?"
+        },
+        {
+          "situation_es": "Quieres comprobar que entendiste la oferta.",
+          "en": "Let me make sure I'm following: you're offering a credit, not a seat?",
+          "es": "Déjeme asegurarme: ¿me ofrece un crédito, no un asiento?"
+        },
+        {
+          "situation_es": "No conoces el término técnico.",
+          "en": "I'm sorry, could you rephrase that? I'm not familiar with that term.",
+          "es": "Perdón, ¿podría decirlo de otra forma? No conozco ese término."
+        },
+        {
+          "situation_es": "Quieres reformular tu petición.",
+          "en": "Let me put that another way: what I'm asking for is a firm confirmation.",
+          "es": "Lo diré de otra manera: lo que pido es una confirmación firme."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-aeropuerto-c",
+        "area": "viajes",
+        "level": "C1",
+        "title": "Negotiating at the gate",
+        "title_es": "Negociación en la puerta de embarque",
+        "setting_es": "Estás en la puerta de embarque en Calgary. El vuelo tiene sobreventa y Pierre, el agente, te pide que cambies de vuelo. Mañana tienes una junta importante en Toronto.",
+        "npc": "Pierre",
+        "turns": [
+          {
+            "npc": "{name}, thanks for coming up. I'll be upfront: the flight is overbooked and I need volunteers to take a later departure.",
+            "npc_es": "{name}, gracias por acercarse. Seré directo: el vuelo tiene sobreventa y necesito voluntarios para una salida posterior.",
+            "task_es": "Explica con cortesía que no puedes (junta importante mañana) y pregunta qué alternativas hay.",
+            "expect": [
+              [
+                "meeting",
+                "deadline",
+                "keynote",
+                "presentation",
+                "tomorrow",
+                "important",
+                "need to be"
+              ],
+              [
+                "option",
+                "options",
+                "alternative",
+                "alternatives",
+                "available",
+                "else",
+                "other"
+              ]
+            ],
+            "model": [
+              "I'd love to help, but I have an important meeting tomorrow morning. What other options are there?",
+              "I can't, I'm afraid. I need to be in Toronto tomorrow. Is there an alternative?"
+            ]
+          },
+          {
+            "npc": "I understand. The only other option is the 6 a.m. through Montreal tomorrow. It's tight, but it would get you in by nine.",
+            "npc_es": "Entiendo. La única otra opción es el de las 6 a.m. con escala en Montreal. Es justo, pero llegaría a las nueve.",
+            "task_es": "Evalúa el riesgo y pregunta qué pasa si el primer tramo se retrasa.",
+            "expect": [
+              [
+                "delay",
+                "delayed",
+                "late",
+                "miss",
+                "if",
+                "what happens",
+                "what if"
+              ],
+              [
+                "connection",
+                "montreal",
+                "first",
+                "flight",
+                "first leg",
+                "6",
+                "tight",
+                "risk"
+              ]
+            ],
+            "model": [
+              "That's tight. What happens if the first flight is delayed and I miss the connection?",
+              "What if the first leg runs late? Would you rebook me right away?"
+            ]
+          },
+          {
+            "npc": "Then we'd rebook you, but I can't guarantee a seat before noon. I realize that isn't ideal.",
+            "npc_es": "Entonces lo reprogramaríamos, pero no puedo garantizar un asiento antes del mediodía. Sé que no es lo ideal.",
+            "task_es": "Reconoce que no es culpa del agente y pide algo concreto a cambio.",
+            "expect": [
+              [
+                "understand",
+                "not your fault",
+                "out of your hands",
+                "appreciate",
+                "realize",
+                "know"
+              ],
+              [
+                "compensation",
+                "upgrade",
+                "credit",
+                "lounge",
+                "hotel",
+                "voucher",
+                "something",
+                "flexibility"
+              ]
+            ],
+            "model": [
+              "I understand it's out of your hands, but I'd appreciate some compensation or an upgrade.",
+              "I know this isn't your fault. Is there anything you can offer, like a lounge pass?"
+            ]
+          },
+          {
+            "npc": "I can offer a travel credit and a lounge pass. A goodwill gesture is up to my supervisor, though.",
+            "npc_es": "Puedo ofrecer un crédito de viaje y un pase a la sala VIP. Un gesto adicional depende de mi supervisor.",
+            "task_es": "Negocia: pide que consulte al supervisor y que te confirmen la oferta por escrito.",
+            "expect": [
+              [
+                "supervisor",
+                "manager",
+                "ask",
+                "check",
+                "escalate"
+              ],
+              [
+                "writing",
+                "written",
+                "email",
+                "confirm",
+                "confirmation",
+                "in writing",
+                "put it in"
+              ]
+            ],
+            "model": [
+              "Could you ask your supervisor? And could you confirm the offer in writing, please?",
+              "Please check with your manager, and send me the confirmation by email."
+            ]
+          },
+          {
+            "npc": "Fair enough. Bear with me. Okay, my supervisor approved an upgrade on the 6 a.m. plus the lounge pass. Do you accept?",
+            "npc_es": "Muy bien. Tenga paciencia. Listo, mi supervisor aprobó una mejora de clase en el de las 6 a.m. más el pase VIP. ¿Acepta?",
+            "task_es": "Acepta con claridad y agradece.",
+            "expect": [
+              [
+                "accept",
+                "yes",
+                "deal",
+                "sounds good",
+                "agreed",
+                "works",
+                "happy",
+                "fine"
+              ],
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ]
+            ],
+            "model": [
+              "Yes, that works for me. Thank you, I appreciate it.",
+              "Sounds good. I accept, and thanks for your help."
+            ]
+          },
+          {
+            "npc": "Wonderful. You'll get the confirmation by email in a few minutes. Sorry again for the inconvenience.",
+            "npc_es": "Excelente. Recibirá la confirmación por correo en unos minutos. Disculpe otra vez la molestia.",
+            "task_es": "Cierra con tono cordial: aprecia su ayuda y deséale buen turno.",
+            "expect": [
+              [
+                "appreciate",
+                "thank",
+                "thanks",
+                "grateful"
+              ],
+              [
+                "help",
+                "day",
+                "shift",
+                "evening",
+                "night",
+                "care"
+              ]
+            ],
+            "model": [
+              "I appreciate your help, Pierre. Have a good shift.",
+              "Thank you for your help. Take care and have a good evening."
+            ]
+          }
+        ],
+        "useful": [
+          "I know it's out of your hands, but...",
+          "I'd appreciate any flexibility.",
+          "Could you confirm that in writing?",
+          "Let's make the best of it."
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "voc-passport",
+      "type": "vocab",
+      "term": "passport",
+      "ipa": "/ˈpæspɔːrt/",
+      "level": "A1",
+      "topic": "travel",
+      "freq": 5,
+      "es": "pasaporte",
+      "def": "an official document you show when you travel to another country",
+      "note": "En vuelos nacionales en Canadá piden *photo ID* (identificación con foto); el pasaporte es para vuelos internacionales.",
+      "ex": [
+        {
+          "en": "Please show your [passport] at the counter.",
+          "es": "Muestre su pasaporte en el mostrador, por favor."
+        },
+        {
+          "en": "I left my [passport] in the taxi!",
+          "es": "¡Dejé mi pasaporte en el taxi!"
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "phr-which-gate-is-it",
+      "type": "phrase",
+      "term": "which gate is it?",
+      "ipa": "/wɪtʃ ɡeɪt ɪz ɪt/",
+      "level": "A2",
+      "topic": "travel",
+      "freq": 4,
+      "es": "¿cuál es la puerta de embarque?",
+      "def": "a question to find your departure gate",
+      "note": "También: *What gate are we at?* o *Which gate does the flight leave from?*",
+      "ex": [
+        {
+          "en": "Sorry, [which gate is it]? The screen is blank.",
+          "es": "Perdón, ¿cuál es la puerta? La pantalla está en blanco."
+        },
+        {
+          "en": "I forgot, [which gate is it]?",
+          "es": "Se me olvidó, ¿cuál es la puerta?"
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "phr-my-flight-was-cancelled",
+      "type": "phrase",
+      "term": "my flight was cancelled",
+      "ipa": "/maɪ flaɪt wʌz ˈkænsəld/",
+      "level": "B1",
+      "topic": "travel",
+      "freq": 4,
+      "es": "cancelaron mi vuelo",
+      "def": "the airline decided not to operate the flight",
+      "note": "*Cancelled* (británico/canadiense) o *canceled* (EE. UU.). Para «perdí el vuelo» se dice *I missed my flight*, no *I lost*.",
+      "ex": [
+        {
+          "en": "[My flight was cancelled] because of the snowstorm.",
+          "es": "Cancelaron mi vuelo por la tormenta de nieve."
+        },
+        {
+          "en": "Ma'am, [my flight was cancelled]. What are my options?",
+          "es": "Señorita, cancelaron mi vuelo. ¿Qué opciones tengo?"
+        }
+      ],
+      "areas": [
+        "viajes"
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-rebook-a-flight",
+      "type": "collocation",
+      "term": "rebook a flight",
+      "level": "B1",
+      "topic": "travel",
+      "freq": 3,
+      "es": "reprogramar un vuelo",
+      "def": "to change a ticket to a different flight",
+      "note": "El agente dice: *I can rebook you on the 7:15.* Es gratis si la aerolínea canceló el vuelo (normalmente).",
+      "ex": [
+        {
+          "en": "Can you [rebook a flight] for tomorrow morning?",
+          "es": "¿Puede reprogramar un vuelo para mañana temprano?"
+        },
+        {
+          "en": "They [rebooked my flight] to the evening.",
+          "es": "Me reprogramaron el vuelo para la noche."
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "voc-standby",
+      "type": "vocab",
+      "term": "standby",
+      "ipa": "/ˈstændbaɪ/",
+      "level": "B2",
+      "topic": "travel",
+      "freq": 2,
+      "es": "lista de espera (por un asiento)",
+      "def": "a waiting list for a seat that might become free",
+      "note": "*On standby* = en lista de espera. No garantiza lugar. Ojo: se escribe junto en EE. UU.",
+      "ex": [
+        {
+          "en": "I'm on [standby] for the earlier flight.",
+          "es": "Estoy en lista de espera para el vuelo más temprano."
+        },
+        {
+          "en": "The agent put us on [standby], but there were no seats.",
+          "es": "La agente nos puso en lista de espera, pero no había asientos."
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "voc-meal-voucher",
+      "type": "vocab",
+      "term": "meal voucher",
+      "ipa": "/ˈmiːl ˌvaʊtʃər/",
+      "level": "B2",
+      "topic": "travel",
+      "freq": 2,
+      "es": "vale de comida",
+      "def": "a paper or digital coupon for food, given by an airline after a delay",
+      "note": "Se entrega a veces tras una cancelación larga. Se canjea en restaurantes del aeropuerto.",
+      "ex": [
+        {
+          "en": "The airline gave us a [meal voucher] for dinner.",
+          "es": "La aerolínea nos dio un vale de comida para la cena."
+        },
+        {
+          "en": "Can I use this [meal voucher] at the café?",
+          "es": "¿Puedo usar este vale de comida en la cafetería?"
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "col-file-a-claim",
+      "type": "collocation",
+      "term": "file a claim",
+      "level": "B2",
+      "topic": "travel",
+      "freq": 3,
+      "es": "presentar un reclamo",
+      "def": "to make a formal request for help, money or a missing item",
+      "note": "Se usa con aerolíneas y seguros: *file a claim for lost luggage*. *File* aquí es presentar, no archivar.",
+      "ex": [
+        {
+          "en": "I'd like to [file a claim] for my missing bag.",
+          "es": "Quisiera presentar un reclamo por mi maleta perdida."
+        },
+        {
+          "en": "She [filed a claim] online right away.",
+          "es": "Ella presentó el reclamo en línea de inmediato."
+        }
+      ],
+      "areas": [
+        "viajes",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "col-lost-luggage",
+      "type": "collocation",
+      "term": "lost luggage",
+      "level": "B1",
+      "topic": "travel",
+      "freq": 3,
+      "es": "equipaje extraviado",
+      "def": "bags that the airline cannot find",
+      "note": "Se dice *delayed* si va a llegar tarde y *lost* si no se encuentra. Las aerolíneas dicen *baggage* o *luggage*.",
+      "ex": [
+        {
+          "en": "My [lost luggage] arrived two days later.",
+          "es": "Mi equipaje extraviado llegó dos días después."
+        },
+        {
+          "en": "Go to the desk to report [lost luggage].",
+          "es": "Ve al mostrador para reportar equipaje extraviado."
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "voc-key-card",
+      "type": "vocab",
+      "term": "key card",
+      "ipa": "/ˈkiː kɑːrd/",
+      "level": "A2",
+      "topic": "travel",
+      "freq": 3,
+      "es": "tarjeta de la habitación (llave)",
+      "def": "a plastic card used to open a hotel room door",
+      "note": "Se devuelve al salir. Si no abre: *My key card isn't working*. Es lo normal; casi nadie usa llaves metálicas.",
+      "ex": [
+        {
+          "en": "My [key card] doesn't open the door.",
+          "es": "Mi tarjeta no abre la puerta."
+        },
+        {
+          "en": "Here is your [key card] for room 412.",
+          "es": "Aquí está su tarjeta para la habitación 412."
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "phr-is-breakfast-included",
+      "type": "phrase",
+      "term": "is breakfast included?",
+      "ipa": "/ɪz ˈbrɛkfəst ɪnˈkluːdɪd/",
+      "level": "A2",
+      "topic": "travel",
+      "freq": 3,
+      "es": "¿el desayuno está incluido?",
+      "def": "a question about whether breakfast is part of the hotel price",
+      "note": "También sirve para otras cosas: *Is tax included? Is Wi-Fi included?*",
+      "ex": [
+        {
+          "en": "[Is breakfast included]? Or is it extra?",
+          "es": "¿El desayuno está incluido? ¿O es extra?"
+        },
+        {
+          "en": "I asked, \"[Is breakfast included]?\" and she said yes.",
+          "es": "Pregunté: «¿Incluye el desayuno?» y dijo que sí."
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "voc-overbooked",
+      "type": "vocab",
+      "term": "overbooked",
+      "ipa": "/ˌoʊvərˈbʊkt/",
+      "level": "B2",
+      "topic": "travel",
+      "freq": 2,
+      "es": "con sobreventa (más reservas que lugares)",
+      "def": "sold to more passengers than there are seats",
+      "note": "Se dice del vuelo, hotel o restaurante: *The flight is overbooked.* El sustantivo es *overbooking*.",
+      "ex": [
+        {
+          "en": "The flight was [overbooked], so they asked for volunteers.",
+          "es": "El vuelo tenía sobreventa, así que pidieron voluntarios."
+        },
+        {
+          "en": "Hotels are often [overbooked] during big events.",
+          "es": "Los hoteles suelen estar saturados durante eventos grandes."
+        }
+      ],
+      "areas": [
+        "viajes"
+      ]
+    },
+    {
+      "id": "idi-out-of-your-hands",
+      "type": "idiom",
+      "term": "out of your hands",
+      "ipa": "/aʊt ʌv jʊr hændz/",
+      "level": "C1",
+      "topic": "feelings",
+      "freq": 2,
+      "es": "fuera de tu control",
+      "def": "not something you can decide or change",
+      "note": "Se usa para reconocer que la otra persona no puede hacer más: *I know it's out of your hands.* Tono comprensivo.",
+      "ex": [
+        {
+          "en": "I know it's [out of your hands], but I'm worried.",
+          "es": "Sé que no depende de ti, pero estoy preocupado."
+        },
+        {
+          "en": "Once the form is submitted, it's [out of your hands].",
+          "es": "Una vez enviado el formulario, ya no depende de ti."
+        }
+      ],
+      "areas": [
+        "viajes",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "phr-id-appreciate-any-flexibility",
+      "type": "phrase",
+      "term": "I'd appreciate any flexibility",
+      "ipa": "/aɪd əˈpriːʃieɪt ˈɛni ˌflɛksəˈbɪləti/",
+      "level": "C1",
+      "topic": "work",
+      "freq": 2,
+      "es": "agradecería cualquier flexibilidad",
+      "def": "a polite way to ask someone to bend the rules a little",
+      "note": "Petición indirecta y diplomática: no exige, deja espacio. Muy útil en servicio al cliente y trabajo.",
+      "ex": [
+        {
+          "en": "[I'd appreciate any flexibility] you can offer.",
+          "es": "Agradecería cualquier flexibilidad que pueda ofrecer."
+        },
+        {
+          "en": "Given the circumstances, [I'd appreciate any flexibility] on the deadline.",
+          "es": "Dadas las circunstancias, agradecería flexibilidad con la fecha límite."
+        }
+      ],
+      "areas": [
+        "viajes",
+        "soporte"
+      ],
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "id": "col-goodwill-gesture",
+      "type": "collocation",
+      "term": "goodwill gesture",
+      "level": "C1",
+      "topic": "money",
+      "freq": 2,
+      "es": "gesto de buena voluntad (compensación)",
+      "def": "something small a company offers to make up for a problem",
+      "note": "Cuando una empresa reconoce un error y ofrece un crédito, descuento o mejora sin estar obligada.",
+      "ex": [
+        {
+          "en": "The airline offered a [goodwill gesture] of fifty dollars.",
+          "es": "La aerolínea ofreció un gesto de buena voluntad de cincuenta dólares."
+        },
+        {
+          "en": "A [goodwill gesture] can calm an unhappy customer.",
+          "es": "Un gesto de buena voluntad puede calmar a un cliente molesto."
+        }
+      ],
+      "areas": [
+        "viajes",
+        "soporte"
+      ]
+    },
+    {
+      "id": "idi-make-the-best-of-it",
+      "type": "idiom",
+      "term": "make the best of it",
+      "ipa": "/meɪk ðə bɛst ʌv ɪt/",
+      "level": "B2",
+      "topic": "feelings",
+      "freq": 3,
+      "es": "sacarle el mejor partido",
+      "def": "to try to enjoy or use a bad situation as well as you can",
+      "note": "Se dice *make the best of a bad situation*. Tono positivo y práctico.",
+      "ex": [
+        {
+          "en": "The flight is late, so let's [make the best of it].",
+          "es": "El vuelo se retrasó, así que saquémosle provecho."
+        },
+        {
+          "en": "They [made the best of it] and explored the city.",
+          "es": "Le sacaron provecho y exploraron la ciudad."
+        }
+      ],
+      "areas": [
+        "viajes",
+        "conversacion"
+      ]
+    }
+  ]
+}

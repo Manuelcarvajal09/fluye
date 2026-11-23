@@ -1,0 +1,1630 @@
+[
+ {
+  "id": "gr-present-simple",
+  "order": 1,
+  "name_en": "Present simple",
+  "title_es": "Presente simple",
+  "use_es": "Rutinas, hábitos, hechos generales y verdades científicas. Se parece a nuestro presente (trabajo, trabaja), pero en inglés la 3.ª persona (he/she/it) lleva -s/-es y las negaciones y preguntas necesitan do/does + verbo base. No se usa para lo que pasa justo ahora: para eso, presente continuo.",
+  "form": {
+   "aff": "She works at a clinic.",
+   "neg": "She doesn't work on Sundays.",
+   "q": "Does she work downtown?"
+  },
+  "signals": [
+   "every day",
+   "usually",
+   "often",
+   "always",
+   "never",
+   "on Mondays"
+  ],
+  "examples": [
+   {
+    "en": "I take the LRT to work every day.",
+    "es": "Tomo el LRT al trabajo todos los días."
+   },
+   {
+    "en": "My roommate doesn't drink coffee.",
+    "es": "Mi roomie no toma café."
+   },
+   {
+    "en": "Does the pharmacy open on Sundays?",
+    "es": "¿La farmacia abre los domingos?"
+   },
+   {
+    "en": "Water freezes at 0 degrees Celsius.",
+    "es": "El agua se congela a 0 grados Celsius."
+   }
+  ],
+  "mistakes_es": "1) Olvidar la -s: *She work here* → *She works here*. 2) Doble marca: *Does she works?* → *Does she work?* 3) Traducir 'soy trabajador' o 'estoy trabajo': *I am work here* → *I work here*. 4) *Do you can swim?* → *Can you swim?* (los modales no usan do).",
+  "practice": [
+   {
+    "q": "Water ___ at 100 degrees Celsius.",
+    "options": [
+     "boils",
+     "boil",
+     "is boiling",
+     "boiled"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "She ___ coffee. She prefers tea.",
+    "options": [
+     "don't drink",
+     "doesn't drink",
+     "doesn't drinks",
+     "isn't drink"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "___ your roommate work on weekends?",
+    "options": [
+     "Do",
+     "Is",
+     "Does",
+     "Has"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "We usually ___ dinner at six.",
+    "options": [
+     "have",
+     "has",
+     "are have"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "He ___ the bus to work every day.",
+    "options": [
+     "take",
+     "is taking",
+     "takes"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "gr-past-simple",
+  "order": 2,
+  "name_en": "Past simple",
+  "title_es": "Pasado simple",
+  "use_es": "Acciones terminadas en un momento concreto del pasado. Equivale al pretérito (trabajé) y a veces al imperfecto de hábitos (trabajaba). Regulares: -ed; irregulares: went, saw, had, bought… En negaciones y preguntas se usa did + verbo base: el verbo vuelve a su forma simple.",
+  "form": {
+   "aff": "I moved to Edmonton in 2022.",
+   "neg": "I didn't move last year.",
+   "q": "Did you move in 2022?"
+  },
+  "signals": [
+   "yesterday",
+   "last week",
+   "ago",
+   "in 2024",
+   "when I was a child"
+  ],
+  "examples": [
+   {
+    "en": "We collected samples yesterday morning.",
+    "es": "Recolectamos muestras ayer por la mañana."
+   },
+   {
+    "en": "I didn't see your message until noon.",
+    "es": "No vi tu mensaje hasta el mediodía."
+   },
+   {
+    "en": "Did you fill out the application?",
+    "es": "¿Llenaste la solicitud?"
+   },
+   {
+    "en": "She arrived in Canada three years ago.",
+    "es": "Ella llegó a Canadá hace tres años."
+   }
+  ],
+  "mistakes_es": "1) Did + pasado: *Did you went?* → *Did you go?* 2) *I didn't saw* → *I didn't see*. 3) Usar presente perfecto con tiempo terminado: *I have seen him yesterday* → *I saw him yesterday*. 4) Inventar pasados irregulares: *goed*, *buyed*.",
+  "practice": [
+   {
+    "q": "I ___ my passport last week.",
+    "options": [
+     "renew",
+     "have renewed",
+     "renewed",
+     "was renew"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "Did she ___ the report?",
+    "options": [
+     "finished",
+     "finish",
+     "finishes"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "They ___ to the lake last summer.",
+    "options": [
+     "went",
+     "go",
+     "gone",
+     "goed"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "I ___ the email, so I didn't reply.",
+    "options": [
+     "didn't saw",
+     "not saw",
+     "didn't see",
+     "haven't saw"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "When ___ you move to Edmonton?",
+    "options": [
+     "have",
+     "do",
+     "were",
+     "did"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "gr-present-continuous",
+  "order": 3,
+  "name_en": "Present continuous",
+  "title_es": "Presente continuo",
+  "use_es": "Acciones que ocurren ahora, situaciones temporales y planes ya acordados para el futuro cercano. Se forma con am/is/are + verbo -ing, como 'estoy trabajando', pero en inglés también sirve para planes ('I'm flying out on Friday'). Los verbos de estado (know, want, like, understand) normalmente no se usan en continuo.",
+  "form": {
+   "aff": "I am working from home today.",
+   "neg": "I'm not working today.",
+   "q": "Are you working today?"
+  },
+  "signals": [
+   "now",
+   "right now",
+   "at the moment",
+   "currently",
+   "this week",
+   "next Saturday"
+  ],
+  "examples": [
+   {
+    "en": "I'm waiting for the bus right now.",
+    "es": "Estoy esperando el autobús ahora mismo."
+   },
+   {
+    "en": "We're renting a small apartment this year.",
+    "es": "Este año estamos rentando un departamento pequeño."
+   },
+   {
+    "en": "It's snowing again!",
+    "es": "¡Está nevando otra vez!"
+   },
+   {
+    "en": "She's flying to Vancouver on Friday.",
+    "es": "Ella vuela a Vancouver el viernes."
+   }
+  ],
+  "mistakes_es": "1) Usar presente simple para lo que pasa ahora: *I work now* → *I'm working now*. 2) Olvidar el auxiliar: *I working* → *I'm working*. 3) Usarlo con verbos de estado: *I'm knowing* → *I know*. 4) Calcar 'estoy de acuerdo': *I'm agreeing* → *I agree*.",
+  "practice": [
+   {
+    "q": "Please be quiet. The baby ___.",
+    "options": [
+     "is sleeping",
+     "sleeps",
+     "sleep",
+     "slept"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "I ___ for a new job at the moment.",
+    "options": [
+     "look",
+     "am looking",
+     "looked",
+     "am look"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "Look! It ___ outside.",
+    "options": [
+     "snows",
+     "snowed",
+     "snowing",
+     "is snowing"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "I ___ what you mean.",
+    "options": [
+     "understand",
+     "am understanding",
+     "understanding",
+     "am understand"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "We ___ to Vancouver next Saturday. I have the tickets.",
+    "options": [
+     "flew",
+     "are flying",
+     "have flown",
+     "did fly"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "gr-present-perfect",
+  "order": 4,
+  "name_en": "Present perfect",
+  "title_es": "Presente perfecto",
+  "use_es": "Experiencias de vida, resultados con relevancia actual y acciones que empezaron en el pasado y siguen hasta hoy. En español de México solemos usar el pretérito ('ya llegó'), pero en inglés, si hay conexión con el presente, se usa have/has + participio. No se combina con un momento terminado (yesterday, in 2020): ahí va pasado simple.",
+  "form": {
+   "aff": "I have lived here since 2022.",
+   "neg": "I haven't received the package yet.",
+   "q": "Have you ever tried poutine?"
+  },
+  "signals": [
+   "already",
+   "yet",
+   "just",
+   "ever",
+   "never",
+   "since",
+   "for",
+   "so far",
+   "recently"
+  ],
+  "examples": [
+   {
+    "en": "I've worked here for two years.",
+    "es": "Llevo dos años trabajando aquí."
+   },
+   {
+    "en": "Have you ever tried poutine?",
+    "es": "¿Alguna vez has probado la poutine?"
+   },
+   {
+    "en": "She has already sent the invoice.",
+    "es": "Ella ya envió la factura."
+   },
+   {
+    "en": "We haven't found an apartment yet.",
+    "es": "Todavía no hemos encontrado departamento."
+   }
+  ],
+  "mistakes_es": "1) Con tiempo terminado: *I have seen him yesterday* → *I saw him yesterday*. 2) Con since/for usar presente: *I live here since 2020* → *I have lived here since 2020*. 3) Confundir for y since: *since two years* → *for two years*. 4) *Did you ever…* para experiencias de vida: preferir *Have you ever…*",
+  "practice": [
+   {
+    "q": "I ___ here since 2022.",
+    "options": [
+     "live",
+     "lived",
+     "have lived",
+     "am living"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "She ___ already sent the invoice.",
+    "options": [
+     "has",
+     "have",
+     "did",
+     "is"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "___ you ever tried poutine?",
+    "options": [
+     "Did",
+     "Have",
+     "Do",
+     "Are"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I haven't received the package ___.",
+    "options": [
+     "already",
+     "ago",
+     "yet",
+     "yesterday"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "He ___ to Canada in 2021.",
+    "options": [
+     "has moved",
+     "moves",
+     "is moving",
+     "moved"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "gr-future-will",
+  "order": 5,
+  "name_en": "Future simple (will)",
+  "title_es": "Futuro con will",
+  "use_es": "Predicciones basadas en opinión, decisiones espontáneas, promesas y ofrecimientos. A diferencia de 'going to' (planes ya decididos), will se usa para decidir en el momento. Después de if, when o before no se usa will: se usa el presente ('If it rains, I'll stay home').",
+  "form": {
+   "aff": "I will send the report tomorrow.",
+   "neg": "I won't be late.",
+   "q": "Will you help me?"
+  },
+  "signals": [
+   "tomorrow",
+   "next week",
+   "I think",
+   "probably",
+   "soon",
+   "maybe"
+  ],
+  "examples": [
+   {
+    "en": "I'll call you when I arrive.",
+    "es": "Te llamo cuando llegue."
+   },
+   {
+    "en": "I think it will snow tonight.",
+    "es": "Creo que va a nevar esta noche."
+   },
+   {
+    "en": "Don't worry, I'll help you with the boxes.",
+    "es": "No te preocupes, te ayudo con las cajas."
+   },
+   {
+    "en": "I won't forget your birthday.",
+    "es": "No me voy a olvidar de tu cumpleaños."
+   }
+  ],
+  "mistakes_es": "1) *I will to go* → *I will go* (will no lleva to). 2) *If it will rain* → *If it rains*. 3) *I'll going* → *I'm going / I'll go*. 4) Usar will para planes ya hechos: *I will see the dentist at 5 (tengo cita)* → *I'm seeing the dentist at 5*.",
+  "practice": [
+   {
+    "q": "The phone is ringing. I ___ it!",
+    "options": [
+     "am getting",
+     "'ll get",
+     "got",
+     "get"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I think it ___ tomorrow.",
+    "options": [
+     "snows",
+     "snowed",
+     "will snow",
+     "is snow"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "I promise I ___ late.",
+    "options": [
+     "don't be",
+     "am not",
+     "wasn't",
+     "won't be"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "Don't worry. I ___ you with the boxes.",
+    "options": [
+     "will help",
+     "help",
+     "helped",
+     "am help"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "She ___ at the meeting. She's on vacation.",
+    "options": [
+     "doesn't",
+     "isn't to",
+     "won't be",
+     "hasn't"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "gr-past-continuous",
+  "order": 6,
+  "name_en": "Past continuous",
+  "title_es": "Pasado continuo",
+  "use_es": "Una acción que estaba en progreso en un momento del pasado, o una acción larga interrumpida por otra corta. Se parece a 'estaba trabajando'. La acción larga va en pasado continuo y la que interrumpe, en pasado simple: 'I was driving when the phone rang'.",
+  "form": {
+   "aff": "I was driving when it started to snow.",
+   "neg": "We weren't sleeping at midnight.",
+   "q": "What were you doing at nine?"
+  },
+  "signals": [
+   "while",
+   "when",
+   "at that time",
+   "at 8 p.m. last night",
+   "all day"
+  ],
+  "examples": [
+   {
+    "en": "I was shovelling snow when my neighbour arrived.",
+    "es": "Estaba palando nieve cuando llegó mi vecino."
+   },
+   {
+    "en": "They weren't working at that time.",
+    "es": "No estaban trabajando en ese momento."
+   },
+   {
+    "en": "What were you doing at nine last night?",
+    "es": "¿Qué estabas haciendo anoche a las nueve?"
+   },
+   {
+    "en": "While we were waiting, it started to rain.",
+    "es": "Mientras esperábamos, empezó a llover."
+   }
+  ],
+  "mistakes_es": "1) Usar pasado simple para la acción en progreso: *I watched TV when you called* → *I was watching TV when you called*. 2) Olvidar was/were: *I driving* → *I was driving*. 3) Usarlo con verbos de estado: *I was knowing* → *I knew*. 4) Confundir while y when: *while* + acción larga, *when* + acción corta.",
+  "practice": [
+   {
+    "q": "I ___ when you called.",
+    "options": [
+     "drove",
+     "am driving",
+     "have driven",
+     "was driving"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "What ___ you doing at 9 p.m. last night?",
+    "options": [
+     "were",
+     "did",
+     "have",
+     "are"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "She ___ TV when the power went out.",
+    "options": [
+     "watches",
+     "was watching",
+     "has watched",
+     "watched"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "While we ___ the park, it started to snow.",
+    "options": [
+     "crossed",
+     "cross",
+     "are crossing",
+     "were crossing"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "At that time, they ___ in a small apartment.",
+    "options": [
+     "were living",
+     "live",
+     "have lived",
+     "are living"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "gr-present-perfect-continuous",
+  "order": 7,
+  "name_en": "Present perfect continuous",
+  "title_es": "Presente perfecto continuo",
+  "use_es": "Enfatiza cuánto tiempo lleva ocurriendo una actividad que empezó en el pasado y continúa, o que acaba de terminar y se ven los efectos. Equivale a 'llevo dos años estudiando'. Con presente perfecto simple importa el resultado o la cantidad (I've written five emails); con el continuo, la duración o el proceso (I've been writing emails all morning).",
+  "form": {
+   "aff": "I have been studying English for a year.",
+   "neg": "I haven't been sleeping well.",
+   "q": "How long have you been waiting?"
+  },
+  "signals": [
+   "for",
+   "since",
+   "lately",
+   "recently",
+   "all day",
+   "how long"
+  ],
+  "examples": [
+   {
+    "en": "I've been learning English since January.",
+    "es": "Llevo aprendiendo inglés desde enero."
+   },
+   {
+    "en": "It has been snowing all day.",
+    "es": "Ha estado nevando todo el día."
+   },
+   {
+    "en": "How long have you been working here?",
+    "es": "¿Cuánto tiempo llevas trabajando aquí?"
+   },
+   {
+    "en": "We've been looking for an apartment for a month.",
+    "es": "Llevamos un mes buscando departamento."
+   }
+  ],
+  "mistakes_es": "1) Usar presente simple con for/since: *I study since January* → *I have been studying since January*. 2) Olvidar been: *I have studying* → *I have been studying*. 3) Con cantidades o resultados, usar el simple: *I've been writing five emails* → *I've written five emails*. 4) Verbos de estado: *I've been knowing* → *I've known*.",
+  "practice": [
+   {
+    "q": "How long ___ you been waiting?",
+    "options": [
+     "did",
+     "have",
+     "are",
+     "do"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I ___ for an hour. I'm tired.",
+    "options": [
+     "run",
+     "am run",
+     "have been running",
+     "ran"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "She ___ English since January.",
+    "options": [
+     "has been studying",
+     "studies",
+     "is study",
+     "studied"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "It ___ all day. The streets are wet.",
+    "options": [
+     "rained",
+     "has been raining",
+     "is raining",
+     "rains"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I ___ five emails this morning.",
+    "options": [
+     "have been writing",
+     "am writing",
+     "have written",
+     "write"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "gr-past-perfect",
+  "order": 8,
+  "name_en": "Past perfect",
+  "title_es": "Pasado perfecto",
+  "use_es": "Algo que ya había ocurrido antes de otro momento o acción del pasado. Equivale al pluscuamperfecto español: 'cuando llegué, ya se había ido'. Se forma con had + participio y se usa para dejar claro el orden de dos hechos pasados. Suele acompañar a before, after, by the time, already.",
+  "form": {
+   "aff": "The train had left when I arrived.",
+   "neg": "I hadn't finished when she called.",
+   "q": "Had you met her before?"
+  },
+  "signals": [
+   "before",
+   "after",
+   "by the time",
+   "already",
+   "when"
+  ],
+  "examples": [
+   {
+    "en": "When we arrived, the movie had already started.",
+    "es": "Cuando llegamos, la película ya había empezado."
+   },
+   {
+    "en": "I hadn't seen snow before I moved to Canada.",
+    "es": "Nunca había visto nieve antes de mudarme a Canadá."
+   },
+   {
+    "en": "She had sent the file before I asked.",
+    "es": "Ella había enviado el archivo antes de que yo se lo pidiera."
+   },
+   {
+    "en": "Had you met her before the interview?",
+    "es": "¿Ya la habías conocido antes de la entrevista?"
+   }
+  ],
+  "mistakes_es": "1) Usar pasado simple para ambos hechos: *When I arrived, they left* (pierde el orden) → *they had left*. 2) *Had went* → *had gone* (participio, no pasado). 3) Usar have en vez de had: *I have left before you came* → *I had left…* 4) Abusar del past perfect cuando un solo hecho pasado basta.",
+  "practice": [
+   {
+    "q": "When we arrived, the movie ___.",
+    "options": [
+     "already started",
+     "has already started",
+     "was already start",
+     "had already started"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "She ___ the file before I asked her.",
+    "options": [
+     "has sent",
+     "had sent",
+     "sends",
+     "was sending"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I was tired because I ___ well the night before.",
+    "options": [
+     "didn't slept",
+     "haven't slept",
+     "hadn't slept",
+     "wasn't sleeping"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "By the time I got to the station, the train ___.",
+    "options": [
+     "has left",
+     "leaves",
+     "is leaving",
+     "had left"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "After he ___ the contract, he went home.",
+    "options": [
+     "had signed",
+     "has signed",
+     "signs",
+     "was signing"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "gr-future-continuous",
+  "order": 9,
+  "name_en": "Future continuous",
+  "title_es": "Futuro continuo",
+  "use_es": "Una acción que estará en curso en un momento concreto del futuro ('mañana a esta hora estaré volando'). También sirve para preguntas corteses sobre planes ajenos: 'Will you be using the car tonight?'. Se forma con will be + verbo -ing.",
+  "form": {
+   "aff": "I will be working at noon.",
+   "neg": "I won't be working tomorrow.",
+   "q": "Will you be using the car?"
+  },
+  "signals": [
+   "this time tomorrow",
+   "at noon",
+   "at 3 p.m. next Monday",
+   "all day"
+  ],
+  "examples": [
+   {
+    "en": "This time next week, I'll be flying to Mexico City.",
+    "es": "A esta hora la próxima semana estaré volando a la Ciudad de México."
+   },
+   {
+    "en": "Don't call at eight. I'll be having dinner with my family.",
+    "es": "No llames a las ocho. Estaré cenando con mi familia."
+   },
+   {
+    "en": "Will you be using the printer this afternoon?",
+    "es": "¿Vas a estar usando la impresora esta tarde?"
+   },
+   {
+    "en": "We'll be waiting for you at the airport.",
+    "es": "Te estaremos esperando en el aeropuerto."
+   }
+  ],
+  "mistakes_es": "1) Olvidar be: *I will working* → *I will be working*. 2) Usar will + verbo simple cuando importa que la acción esté en curso. 3) Confundir con futuro perfecto: continuo = en progreso en ese momento; perfecto = ya terminada antes. 4) *Will you using…?* → *Will you be using…?*",
+  "practice": [
+   {
+    "q": "This time next week, I ___ on a beach in Mexico.",
+    "options": [
+     "lay",
+     "have lain",
+     "will be lying",
+     "am lie"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "Don't call me at 8. I ___ dinner with my family.",
+    "options": [
+     "have had",
+     "had",
+     "am have",
+     "will be having"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "___ you be using the printer this afternoon? I need it.",
+    "options": [
+     "Will",
+     "Do",
+     "Are",
+     "Have"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "At noon tomorrow, we ___ the clients.",
+    "options": [
+     "met",
+     "will be meeting",
+     "have met",
+     "meeting"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I ___ at the airport at 6, so I can pick you up.",
+    "options": [
+     "waited",
+     "am wait",
+     "have waited",
+     "will be waiting"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "gr-future-perfect",
+  "order": 10,
+  "name_en": "Future perfect",
+  "title_es": "Futuro perfecto",
+  "use_es": "Una acción que habrá terminado antes de un momento futuro. Equivale a 'para el viernes habré terminado'. Se forma con will have + participio y casi siempre va con by + momento futuro (by Friday, by then, by next year). Si dices *until*, el sentido cambia: until marca hasta cuándo dura algo.",
+  "form": {
+   "aff": "I will have finished by Friday.",
+   "neg": "We won't have finished by then.",
+   "q": "Will you have finished by noon?"
+  },
+  "signals": [
+   "by Friday",
+   "by then",
+   "by next year",
+   "by the time"
+  ],
+  "examples": [
+   {
+    "en": "By Friday, we will have finished the research.",
+    "es": "Para el viernes habremos terminado la investigación."
+   },
+   {
+    "en": "By 2030, she'll have lived here for ten years.",
+    "es": "Para 2030, ella llevará diez años viviendo aquí."
+   },
+   {
+    "en": "We won't have completed the project by then.",
+    "es": "No habremos completado el proyecto para entonces."
+   },
+   {
+    "en": "Will you have finished before I arrive?",
+    "es": "¿Habrás terminado antes de que llegue?"
+   }
+  ],
+  "mistakes_es": "1) Olvidar have: *I will finished* → *I will have finished*. 2) Usar presente tras by the time: *By the time you will arrive* → *By the time you arrive, I will have left*. 3) Confundir by con until. 4) *Will have went* → *will have gone*.",
+  "practice": [
+   {
+    "q": "By Friday, I ___ the report.",
+    "options": [
+     "will have finished",
+     "have finished",
+     "finished",
+     "am finishing"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "By 2030, she ___ here for ten years.",
+    "options": [
+     "lives",
+     "will have lived",
+     "lived",
+     "is living"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "We ___ the project by then.",
+    "options": [
+     "don't complete",
+     "didn't completed",
+     "won't have completed",
+     "aren't completing"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "___ you have finished before I arrive?",
+    "options": [
+     "Will",
+     "Do",
+     "Have",
+     "Are"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "I will ___ already left the country by the time you read this.",
+    "options": [
+     "be",
+     "have",
+     "has"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "gr-past-perfect-continuous",
+  "order": 11,
+  "name_en": "Past perfect continuous",
+  "title_es": "Pasado perfecto continuo",
+  "use_es": "La duración de una actividad que venía ocurriendo antes de otro momento del pasado, o la causa de una situación pasada: 'Her eyes were red because she had been crying'. Se forma con had been + verbo -ing. Es como 'llevaba dos horas esperando cuando llegó el autobús'.",
+  "form": {
+   "aff": "We had been waiting for two hours.",
+   "neg": "She hadn't been sleeping well.",
+   "q": "How long had you been waiting?"
+  },
+  "signals": [
+   "for",
+   "since",
+   "before",
+   "how long",
+   "all night"
+  ],
+  "examples": [
+   {
+    "en": "We had been waiting for two hours when the bus came.",
+    "es": "Llevábamos dos horas esperando cuando llegó el autobús."
+   },
+   {
+    "en": "Her eyes were red because she had been crying.",
+    "es": "Tenía los ojos rojos porque había estado llorando."
+   },
+   {
+    "en": "He was exhausted. He had been working all night.",
+    "es": "Estaba agotado. Había estado trabajando toda la noche."
+   },
+   {
+    "en": "How long had you been studying before the exam?",
+    "es": "¿Cuánto tiempo llevabas estudiando antes del examen?"
+   }
+  ],
+  "mistakes_es": "1) Usar pasado simple: *We waited two hours when…* → *We had been waiting two hours when…* 2) Olvidar been: *had waiting* → *had been waiting*. 3) Verbos de estado: *had been knowing* → *had known*. 4) Confundir con pasado perfecto simple: el continuo enfatiza duración; el simple, resultado.",
+  "practice": [
+   {
+    "q": "We ___ for two hours when the bus finally came.",
+    "options": [
+     "have been waiting",
+     "were wait",
+     "had been waiting",
+     "waited"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "Her eyes were red because she ___.",
+    "options": [
+     "has been crying",
+     "cried",
+     "was cry",
+     "had been crying"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "He was exhausted. He ___ all night.",
+    "options": [
+     "has worked",
+     "had been working",
+     "works",
+     "was worked"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "How long ___ you been studying before the exam?",
+    "options": [
+     "have",
+     "did",
+     "had",
+     "were"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "The ground was wet. It ___.",
+    "options": [
+     "has rained",
+     "rains",
+     "was rain",
+     "had been raining"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "gr-future-perfect-continuous",
+  "order": 12,
+  "name_en": "Future perfect continuous",
+  "title_es": "Futuro perfecto continuo",
+  "use_es": "Cuánto tiempo llevará durando una actividad al llegar a una fecha futura: 'En diciembre llevaremos dos años monitoreando la población'. Se forma con will have been + verbo -ing y suele ir con for + duración y by + fecha. Es el tiempo menos frecuente; reconócelo, pero no lo uses si el presente perfecto continuo o el futuro simple bastan.",
+  "form": {
+   "aff": "By June, I will have been working here for three years.",
+   "neg": "She won't have been driving for long.",
+   "q": "How long will you have been studying?"
+  },
+  "signals": [
+   "for",
+   "by December",
+   "by then",
+   "by next year"
+  ],
+  "examples": [
+   {
+    "en": "By December, we will have been monitoring the population for two years.",
+    "es": "Para diciembre llevaremos dos años monitoreando la población."
+   },
+   {
+    "en": "By June, I'll have been working here for three years.",
+    "es": "Para junio llevaré tres años trabajando aquí."
+   },
+   {
+    "en": "In March, he will have been studying English for five years.",
+    "es": "En marzo llevará cinco años estudiando inglés."
+   },
+   {
+    "en": "How long will you have been living in Canada by then?",
+    "es": "¿Cuánto tiempo llevarás viviendo en Canadá para entonces?"
+   }
+  ],
+  "mistakes_es": "1) Olvidar be + -ing: *will have worked for years* (cambia el énfasis) o *will have been work*. 2) Usar will have been con verbos de estado: *will have been knowing* → *will have known*. 3) Mezclarlo con un futuro sin fecha. 4) Preferir el futuro perfecto simple cuando importa el resultado y no la duración.",
+  "practice": [
+   {
+    "q": "By June, I ___ at this company for three years.",
+    "options": [
+     "will have been working",
+     "will be working",
+     "have worked",
+     "worked"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "Next month, we ___ together for a decade.",
+    "options": [
+     "are living",
+     "lived",
+     "will have been living",
+     "have lived"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "By then, she ___ for six hours straight.",
+    "options": [
+     "will drive",
+     "drives",
+     "has drove",
+     "will have been driving"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "How long ___ you have been studying by December?",
+    "options": [
+     "will",
+     "do",
+     "have",
+     "are"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "In March he ___ English for five years.",
+    "options": [
+     "studies",
+     "will have been studying",
+     "will study",
+     "studied"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "gr-conditionals",
+  "order": 13,
+  "name_en": "Conditionals 0, 1, 2 and 3",
+  "title_es": "Condicionales 0, 1, 2 y 3",
+  "use_es": "Cero: hechos y reglas (if + presente, presente). Primero: posibilidad real en el futuro (if + presente, will). Segundo: situación irreal o improbable ahora (if + pasado, would). Tercero: pasado imposible de cambiar (if + had + participio, would have + participio). Ojo: en inglés nunca se usa will ni would justo después de if.",
+  "form": {
+   "aff": "If I had time, I would help you.",
+   "neg": "If it doesn't rain, we'll go hiking.",
+   "q": "What would you do if you won the lottery?"
+  },
+  "signals": [
+   "if",
+   "unless",
+   "as long as",
+   "wish",
+   "would",
+   "would have"
+  ],
+  "examples": [
+   {
+    "en": "If you heat ice, it melts.",
+    "es": "Si calientas el hielo, se derrite."
+   },
+   {
+    "en": "If it snows tomorrow, we'll stay home.",
+    "es": "Si nieva mañana, nos quedamos en casa."
+   },
+   {
+    "en": "If I had a car, I would drive to Banff.",
+    "es": "Si tuviera auto, iría manejando a Banff."
+   },
+   {
+    "en": "If she had checked the lease, she wouldn't have paid the fee.",
+    "es": "Si hubiera revisado el contrato, no habría pagado la tarifa."
+   }
+  ],
+  "mistakes_es": "1) *If it will rain* → *If it rains*. 2) *If I would have time* → *If I had time*. 3) *If I would have known* → *If I had known*. 4) Mezclar tipos sin querer: *If I have money, I would buy it*. 5) Calcar el subjuntivo español: *If I was/were*… en 2.º condicional ambos se aceptan; *if I would be* no.",
+  "practice": [
+   {
+    "q": "If you heat ice, it ___.",
+    "options": [
+     "would melt",
+     "melted",
+     "is melt",
+     "melts"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "If it ___ tomorrow, we'll stay home.",
+    "options": [
+     "rains",
+     "will rain",
+     "rained",
+     "would rain"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "If I ___ more money, I would buy a house.",
+    "options": [
+     "have",
+     "had",
+     "will have",
+     "would have"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "If she had studied, she ___ the test.",
+    "options": [
+     "would pass",
+     "will pass",
+     "would have passed",
+     "had passed"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "I ___ you if I find your keys.",
+    "options": [
+     "'ll call",
+     "called",
+     "would called",
+     "am calling"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "gr-passive-voice",
+  "order": 14,
+  "name_en": "Passive voice",
+  "title_es": "Voz pasiva",
+  "use_es": "Se usa cuando importa más la acción o el resultado que quién la hace, o cuando no se sabe o no importa el agente. Se forma con be en el tiempo adecuado + participio: 'The bridge was built in 1950.' En español preferimos la pasiva refleja ('se habla inglés') o la impersonal; en inglés se usa la pasiva con be: 'English is spoken here'.",
+  "form": {
+   "aff": "The report was finished yesterday.",
+   "neg": "The documents haven't been signed yet.",
+   "q": "When was the bridge built?"
+  },
+  "signals": [
+   "by",
+   "was/were + V3",
+   "is/are + V3",
+   "been",
+   "being"
+  ],
+  "examples": [
+   {
+    "en": "English is spoken in many countries.",
+    "es": "Se habla inglés en muchos países."
+   },
+   {
+    "en": "My car is being repaired right now.",
+    "es": "Mi auto se está reparando en este momento."
+   },
+   {
+    "en": "The package will be delivered tomorrow.",
+    "es": "El paquete será entregado mañana."
+   },
+   {
+    "en": "The documents haven't been signed yet.",
+    "es": "Los documentos todavía no han sido firmados."
+   }
+  ],
+  "mistakes_es": "1) Olvidar be: *The report finished by Ana* → *The report was finished by Ana*. 2) Usar V2 en vez de V3: *was wrote* → *was written*. 3) Calcar 'se habla': *It speaks English here* → *English is spoken here*. 4) Usar by con agentes obvios o innecesarios: *by people*.",
+  "practice": [
+   {
+    "q": "The bridge ___ in 1950.",
+    "options": [
+     "built",
+     "was built",
+     "is built",
+     "has built"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "English ___ in many countries.",
+    "options": [
+     "speaks",
+     "is speaking",
+     "is spoken",
+     "spoken"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "My car ___ right now.",
+    "options": [
+     "is repaired",
+     "repairs",
+     "has repair",
+     "is being repaired"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "The documents ___ yet.",
+    "options": [
+     "didn't signed",
+     "haven't been signed",
+     "aren't sign",
+     "weren't signing"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "The package ___ by tomorrow.",
+    "options": [
+     "delivers",
+     "will deliver",
+     "will be delivered",
+     "is delivering"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "gr-reported-speech",
+  "order": 15,
+  "name_en": "Reported speech",
+  "title_es": "Estilo indirecto",
+  "use_es": "Sirve para contar lo que alguien dijo sin repetir sus palabras. Si el verbo introductorio está en pasado (said, told, asked), los tiempos retroceden: am/is → was, will → would, have done → had done; también cambian pronombres y expresiones de tiempo (tomorrow → the next day). En preguntas indirectas se usa orden de afirmación (sin do/does/did).",
+  "form": {
+   "aff": "He said he would call me.",
+   "neg": "She told me not to touch it.",
+   "q": "She asked me if I had finished."
+  },
+  "signals": [
+   "said",
+   "told",
+   "asked",
+   "the next day",
+   "the day before",
+   "that"
+  ],
+  "examples": [
+   {
+    "en": "Tom said he was busy.",
+    "es": "Tom dijo que estaba ocupado."
+   },
+   {
+    "en": "She told me that she had finished the report.",
+    "es": "Ella me dijo que había terminado el informe."
+   },
+   {
+    "en": "He asked me where I lived.",
+    "es": "Me preguntó dónde vivía."
+   },
+   {
+    "en": "The landlord told us not to be late.",
+    "es": "El casero nos dijo que no llegáramos tarde."
+   }
+  ],
+  "mistakes_es": "1) No retroceder el tiempo: *She said she is tired* (cuando ya no aplica) → *she was tired*. 2) Conservar el orden de pregunta: *He asked where did I live* → *where I lived*. 3) *He told that…* → *He told me that…* / *He said that…* 4) *She asked me that…* → *She asked me if…*",
+  "practice": [
+   {
+    "q": "Yesterday, Tom said: \"I'm busy.\" → Tom said he ___ busy.",
+    "options": [
+     "is",
+     "will be",
+     "has been",
+     "was"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "\"Did you finish?\" → She asked me if I ___.",
+    "options": [
+     "had finished",
+     "finish",
+     "finishing",
+     "will finish"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "\"Don't touch it!\" → He told me ___ it.",
+    "options": [
+     "don't touch",
+     "to not touching",
+     "not to touch",
+     "not touch"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "\"Where do you live?\" → She asked me where ___.",
+    "options": [
+     "did I live",
+     "do I live",
+     "I do live",
+     "I lived"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "\"I'll come tomorrow.\" → He said he ___ the next day.",
+    "options": [
+     "would come",
+     "will come",
+     "comes",
+     "came"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "gr-used-to",
+  "order": 16,
+  "name_en": "Used to / be used to / get used to",
+  "title_es": "Used to / be used to / get used to",
+  "use_es": "Tres estructuras parecidas con significados distintos. *Used to* + verbo base: hábito o estado pasado que ya no existe ('antes jugaba hockey'). *Be used to* + gerundio/sustantivo: estar acostumbrado ('estoy acostumbrado al frío'). *Get used to* + gerundio/sustantivo: acostumbrarse, el proceso de adaptarse.",
+  "form": {
+   "aff": "I used to play hockey every winter.",
+   "neg": "I'm not used to driving on ice.",
+   "q": "Did you use to live in Mexico?"
+  },
+  "signals": [
+   "when I was a child",
+   "back then",
+   "still",
+   "yet",
+   "it takes time to",
+   "anymore"
+  ],
+  "examples": [
+   {
+    "en": "I used to live in Monterrey, but now I live in Edmonton.",
+    "es": "Antes vivía en Monterrey, pero ahora vivo en Edmonton."
+   },
+   {
+    "en": "I'm not used to driving on ice yet.",
+    "es": "Todavía no estoy acostumbrado a manejar sobre hielo."
+   },
+   {
+    "en": "It took me months to get used to the winters.",
+    "es": "Me tomó meses acostumbrarme a los inviernos."
+   },
+   {
+    "en": "Did you use to walk to school?",
+    "es": "¿Antes caminabas a la escuela?"
+   }
+  ],
+  "mistakes_es": "1) *I used to living there* → *I used to live there*. 2) *I'm used to live alone* → *I'm used to living alone*. 3) En negativa y pregunta: *Did you used to…?* → *Did you use to…?* 4) Confundir *used to* (hábito pasado) con *be used to* (estar acostumbrado).",
+  "practice": [
+   {
+    "q": "When I was a child, I ___ play hockey every winter.",
+    "options": [
+     "am used to",
+     "used to",
+     "use to",
+     "was used to"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I'm not ___ driving on ice yet.",
+    "options": [
+     "use to",
+     "used",
+     "using to",
+     "used to"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "Did you ___ live in Mexico?",
+    "options": [
+     "use to",
+     "used to",
+     "using to",
+     "be used to"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "It took me a while to get ___ the cold winters.",
+    "options": [
+     "use to",
+     "used to",
+     "usage to",
+     "used"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "She ___ a car, but she sold it.",
+    "options": [
+     "is used to have",
+     "used to having",
+     "used to have",
+     "uses to have"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "gr-modals-deduction",
+  "order": 17,
+  "name_en": "Modals of deduction",
+  "title_es": "Modales de deducción",
+  "use_es": "Para suponer algo según la evidencia. *Must* (casi seguro que sí): 'She must be tired'. *Can't* (casi seguro que no): 'That can't be Tom'. *Might/may/could* (posible): 'He might be at the gym'. Para el pasado se usa modal + have + participio: 'must have left', 'can't have known'. Ojo: *mustn't* no se usa para deducir, solo para prohibir.",
+  "form": {
+   "aff": "She must be tired.",
+   "neg": "That can't be Tom.",
+   "q": "Could he be at the gym?"
+  },
+  "signals": [
+   "must",
+   "can't",
+   "might",
+   "may",
+   "could",
+   "must have",
+   "can't have"
+  ],
+  "examples": [
+   {
+    "en": "She's been working all day. She must be exhausted.",
+    "es": "Ha trabajado todo el día. Debe de estar agotada."
+   },
+   {
+    "en": "That can't be Tom. He's in Calgary this week.",
+    "es": "No puede ser Tom. Esta semana está en Calgary."
+   },
+   {
+    "en": "He might be at the gym. I'm not sure.",
+    "es": "Quizá esté en el gimnasio. No estoy seguro."
+   },
+   {
+    "en": "The lights are off. They must have gone out.",
+    "es": "Las luces están apagadas. Deben de haber salido."
+   }
+  ],
+  "mistakes_es": "1) Usar *must not* para deducir: *He mustn't be home* → *He can't be home*. 2) *Must to be* → *must be*. 3) Usar deber de/deber en español sin distinguir: *deducción = must; obligación = have to*. 4) Falta de have en pasado: *must left* → *must have left*.",
+  "practice": [
+   {
+    "q": "She's been working all day. She ___ be exhausted.",
+    "options": [
+     "must",
+     "can't",
+     "should",
+     "won't"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "That ___ be Tom. He's in Calgary this week.",
+    "options": [
+     "must",
+     "can't",
+     "may",
+     "should"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "I'm not sure, but he ___ be at the gym.",
+    "options": [
+     "must",
+     "can't",
+     "might",
+     "has to"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "The lights are off. They ___ have gone out.",
+    "options": [
+     "can't",
+     "should",
+     "may not",
+     "must"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "She ___ have left already. Her coat is still here.",
+    "options": [
+     "must",
+     "can't",
+     "should",
+     "would"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "gr-gerund-infinitive",
+  "order": 18,
+  "name_en": "Gerund vs infinitive",
+  "title_es": "Gerundio vs infinitivo",
+  "use_es": "Algunos verbos exigen gerundio (-ing): enjoy, avoid, finish, keep, mind, suggest. Otros exigen infinitivo con to: want, decide, hope, plan, need, learn. Después de preposición siempre va gerundio ('interested in learning'). Algunos cambian de significado: 'stop to buy' (parar para comprar) vs 'stop buying' (dejar de comprar).",
+  "form": {
+   "aff": "I enjoy walking in the snow.",
+   "neg": "I decided not to move.",
+   "q": "Do you want to join us?"
+  },
+  "signals": [
+   "enjoy",
+   "avoid",
+   "finish",
+   "want",
+   "decide",
+   "hope",
+   "look forward to"
+  ],
+  "examples": [
+   {
+    "en": "I enjoy walking by the river.",
+    "es": "Disfruto caminar junto al río."
+   },
+   {
+    "en": "She decided to look for a new job.",
+    "es": "Decidió buscar otro trabajo."
+   },
+   {
+    "en": "You should avoid eating late at night.",
+    "es": "Deberías evitar comer tarde por la noche."
+   },
+   {
+    "en": "I stopped to buy a coffee on the way.",
+    "es": "Me detuve a comprar un café en el camino."
+   }
+  ],
+  "mistakes_es": "1) *I enjoy to walk* → *I enjoy walking*. 2) *I want go* → *I want to go*. 3) Después de preposición: *interested in to learn* → *interested in learning*. 4) *I look forward to see you* → *I look forward to seeing you* (aquí *to* es preposición).",
+  "practice": [
+   {
+    "q": "I enjoy ___ in the park.",
+    "options": [
+     "to walk",
+     "walk",
+     "walking",
+     "walked"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "She decided ___ a new job.",
+    "options": [
+     "looking for",
+     "look for",
+     "looked for",
+     "to look for"
+    ],
+    "answer": 3
+   },
+   {
+    "q": "I stopped ___ a coffee on the way. (I paused my trip to get one.)",
+    "options": [
+     "to buy",
+     "buying",
+     "buy",
+     "bought"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "You should avoid ___ late at night.",
+    "options": [
+     "to eat",
+     "eat",
+     "eating",
+     "ate"
+    ],
+    "answer": 2
+   },
+   {
+    "q": "I'm looking forward to ___ you.",
+    "options": [
+     "see",
+     "to see",
+     "saw",
+     "seeing"
+    ],
+    "answer": 3
+   }
+  ]
+ }
+]
