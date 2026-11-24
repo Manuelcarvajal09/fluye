@@ -5,7 +5,8 @@ import { maskExplicit, REGISTER_ES } from "@/lib/realtalk";
 import { ITEMS, levelIndex } from "@/lib/content";
 import { itemStatus } from "@/lib/stats";
 import { LEVELS, TYPE_LABEL, type ItemType } from "@/lib/types";
-import { TypeChip } from "@/components/ui";
+import { LibraryGrid } from "@/components/LibraryGrid";
+import { collectionsOf } from "@/lib/collections";
 import { normalize } from "@/lib/answer";
 import { AREAS } from "@/lib/areas";
 
@@ -27,7 +28,7 @@ export default async function Library({ searchParams }: PageProps<"/biblioteca">
   const tag = str("tag");
   const page = Math.max(1, Number(str("page")) || 1);
   const show = str("show");
-  const statuses = await itemStatus(profile.userId);
+  const [statuses, cols] = await Promise.all([itemStatus(profile.userId), collectionsOf(profile.userId)]);
   const explicit = settingsOf(profile).explicit === true;
   const tagOk = (i: (typeof ITEMS)[number]) => !tag || (tag === "real" ? !!i.register || (i.tags ?? []).includes("slang") : tag === "shows" ? !!i.shows?.length : (i.tags ?? []).includes(tag));
 
@@ -62,13 +63,22 @@ export default async function Library({ searchParams }: PageProps<"/biblioteca">
         </p>
       </header>
 
-      <Link href="/biblioteca/palabras" className="module flex items-center justify-between gap-3 p-4">
-        <span>
-          <span className="block font-black">Catálogo de palabras</span>
-          <span className="block text-sm text-muted">Más de 10 000 palabras ordenadas por frecuencia, con ejemplos y traducción.</span>
-        </span>
-        <span className="btn btn-ghost h-11 min-h-11">Abrir</span>
-      </Link>
+      <div className="grid gap-3 sm:grid-cols-2">
+        <Link href="/biblioteca/colecciones" className="module flex items-center justify-between gap-3 p-4">
+          <span>
+            <span className="block font-black">Mis colecciones</span>
+            <span className="block text-sm text-muted">{cols.length ? `${cols.length} ${cols.length === 1 ? "colección" : "colecciones"} · estudia solo lo que tú elijas` : "Agrupa palabras para una entrevista, una serie o un viaje."}</span>
+          </span>
+          <span className="chip bg-brand-soft text-brand-ink">Abrir</span>
+        </Link>
+        <Link href="/biblioteca/palabras" className="module flex items-center justify-between gap-3 p-4">
+          <span>
+            <span className="block font-black">Catálogo de palabras</span>
+            <span className="block text-sm text-muted">12 000 palabras por frecuencia, con ejemplos y traducción.</span>
+          </span>
+          <span className="chip bg-brand-soft text-brand-ink">Abrir</span>
+        </Link>
+      </div>
 
       <form className="card grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-7" role="search">
         {topic && <input type="hidden" name="topic" value={topic} />}
@@ -83,32 +93,21 @@ export default async function Library({ searchParams }: PageProps<"/biblioteca">
         <Select name="tag" value={tag} label="Etiqueta" options={[["real", "Inglés real (slang, groserías)"], ["shows", "Para ver series"], ["tv", "Frecuente en series"], ["ca", "Propio de Canadá"], ["informal", "Informal"], ["slang", "Slang"]]} />
         {tag === "shows" && <Select name="show" value={show} label="Serie" options={[["big-bang-theory", "The Big Bang Theory"], ["himym", "How I Met Your Mother"], ["helluva-boss", "Helluva Boss"], ["hazbin-hotel", "Hazbin Hotel"], ["suits", "Suits"], ["the-mentalist", "The Mentalist"], ["bojack-horseman", "BoJack Horseman"], ["sitcoms", "Sitcoms en general"]]} />}
         <Select name="status" value={status} label="Estado" options={Object.entries(STATUS_LABEL)} />
-        <button className="btn btn-primary sm:col-span-2 lg:col-span-4 2xl:col-span-1">Filtrar</button>
+        <button className="btn btn-primary">Filtrar</button>
       </form>
 
       <p className="text-sm font-bold text-muted">{filtered.length} resultados</p>
-      <ul className="stagger grid gap-3 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
-        {shown.map((i) => {
-          const st = statuses.get(i.id) ?? "new";
-          return (
-            <li key={i.id}>
-              <Link href={`/biblioteca/${i.id}`} className="card flex h-full flex-col gap-2 p-4 transition-transform hover:-translate-y-0.5">
-                <div className="flex items-center gap-2">
-                  <TypeChip type={i.type} />
-                  <span className="chip">{i.level}</span>
-                  {i.tvRank && <span className="chip bg-fire-soft text-fire">TV #{i.tvRank}</span>}
-                  {i.register && <span className={`chip ${i.register === "offensive" || i.register === "vulgar" ? "bg-bad-soft text-bad" : ""}`}>{REGISTER_ES[i.register]}</span>}
-                  {st !== "new" && <span className={`chip ml-auto ${st === "mastered" ? "bg-good-soft text-good" : st === "learning" ? "bg-accent-soft text-accent" : ""}`}>{STATUS_LABEL[st]}</span>}
-                </div>
-                <p className="text-xl font-black" lang="en">
-                  {maskExplicit(i.term, explicit)}
-                </p>
-                <p className="text-muted">{i.full ? <span className="font-bold text-text">= {i.full} · </span> : null}{maskExplicit(i.es, explicit)}</p>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+      <LibraryGrid
+        collections={cols.map((c) => ({ id: c.id, name: c.name, n: c.n }))}
+        items={shown.map((i) => ({
+          id: i.id,
+          term: maskExplicit(i.term, explicit),
+          es: (i.full ? `= ${i.full} · ` : "") + maskExplicit(i.es, explicit),
+          chips: [TYPE_LABEL[i.type], i.level, ...(i.tvRank ? [`TV #${i.tvRank}`] : []), ...(i.register ? [REGISTER_ES[i.register]] : [])],
+          tone: i.register === "offensive" || i.register === "vulgar" ? ("bad" as const) : undefined,
+          status: statuses.get(i.id) ?? "new",
+        }))}
+      />
       {pages > 1 && (
         <nav className="flex items-center justify-center gap-3" aria-label="Páginas">
           {page > 1 && (

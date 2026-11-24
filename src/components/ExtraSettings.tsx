@@ -95,7 +95,7 @@ export function ExtraSettings({ initial }: { initial: Init }) {
         ))}
       </section>
 
-      <button type="button" className="btn btn-primary sticky bottom-24 z-10 lg:bottom-4" onClick={save}>
+      <button type="button" className="btn btn-primary self-start" onClick={save}>
         {saved ? (
           <>
             <Check size={18} aria-hidden /> Guardado

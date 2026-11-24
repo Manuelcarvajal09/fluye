@@ -11,7 +11,7 @@ const VIEWPORTS = process.env.QUICK ? [{ name: "pc", width: 1440, height: 900 }]
   { name: "ultrawide-29", width: 2560, height: 1080 },
   { name: "ultrawide-34", width: 3440, height: 1440 },
 ];
-const PAGES = ["/hoy", "/explorar", "/rutas", "/rutas/cafe", "/perfil", "/tienda", "/admin", "/musica", "/biblioteca?tag=real", "/sesion?mision=cafe-a&min=15", "/repaso", "/biblioteca", "/biblioteca/pv-give-up", "/sonidos", "/sonidos/snd-th-voiceless", "/progreso", "/ajustes", "/sesion?min=5", "/practicar", "/practicar/test", "/practicar/roleplay/rp-new-neighbour", "/practicar/gramatica/gr-present-simple", "/practicar/corrige", "/biblioteca?tag=tv", "/biblioteca/con-wanna"];
+const PAGES = ["/hoy", "/biblioteca/colecciones", "/biblioteca/palabras", "/repaso?adelantar=1", "/explorar", "/rutas", "/rutas/cafe", "/perfil", "/tienda", "/admin", "/musica", "/biblioteca?tag=real", "/sesion?mision=cafe-a&min=15", "/repaso", "/biblioteca", "/biblioteca/pv-give-up", "/sonidos", "/sonidos/snd-th-voiceless", "/progreso", "/ajustes", "/sesion?min=5", "/practicar", "/practicar/test", "/practicar/roleplay/rp-new-neighbour", "/practicar/gramatica/gr-present-simple", "/practicar/corrige", "/biblioteca?tag=tv", "/biblioteca/con-wanna"];
 
 test.beforeAll(async () => {
   await clerkSetup();

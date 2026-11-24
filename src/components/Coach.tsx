@@ -18,7 +18,7 @@ export const useCelebrations = () => useContext(CelebrateCtx);
 /** Mascota de la persona con su aspecto elegido. */
 export function MyMascot({ mood = "happy", size = 120, className = "", animate }: { mood?: Mood; size?: number; className?: string; animate?: "bob" | "hop" | "none" }) {
   const l = useLook();
-  return <Mascot species={l.species} color={l.color} accessory={l.accessory} outfit={l.outfit} mood={mood} size={size} className={className} animate={animate} label={`${l.name}, tu mascota`} />;
+  return <Mascot species={l.species} color={l.color} accessory={l.accessory} face={l.face} neck={l.neck} outfit={l.outfit} mood={mood} size={size} className={className} animate={animate} label={`${l.name}, tu mascota`} />;
 }
 
 /** Mascota con globo de texto. */

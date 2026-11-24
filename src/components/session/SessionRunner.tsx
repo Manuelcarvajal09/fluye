@@ -1,7 +1,8 @@
 "use client";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { X, Flame, Zap, Check, Languages, Lightbulb } from "lucide-react";
+import { X, Check, Languages, Lightbulb } from "lucide-react";
+import { IcoBolt, IcoFlame, IcoHeart, IcoTarget } from "../Icons";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { GradedStep, Step, Mode } from "@/lib/types";
 import { TYPE_LABEL, plain } from "@/lib/types";
@@ -26,6 +27,9 @@ type Grade = 1 | 2 | 3 | 4;
 type Feedback = { ok: boolean; grade: Grade; correctText?: string; note?: string; close?: boolean; say?: Say; revealed?: boolean; kind?: "graded" | "self"; given?: string } | null;
 type Toast = { id: number; text: string; kind: "goal" | "mission" };
 
+const HEARTS = 5;
+/** true mientras se muestra la corrección: el personaje del enunciado baja a la barra de respuesta. */
+const Answered = createContext(false);
 const graded = (s: Step): s is GradedStep => "isNew" in s;
 const modeOf = (s: GradedStep): Mode => s.kind as Mode;
 
@@ -36,6 +40,8 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
   const [bestCombo, setBestCombo] = useState(0);
   const [wrongRow, setWrongRow] = useState(0);
   const [answered, setAnswered] = useState(0);
+  // Corazones de la sesión: bajan con cada fallo, pero nunca bloquean el estudio.
+  const [hearts, setHearts] = useState(HEARTS);
   const [milestone, setMilestone] = useState<number | null>(null);
   const [queue, setQueue] = useState<Step[]>(initial);
   const [i, setI] = useState(0);
@@ -199,6 +205,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
     setBestCombo((b) => Math.max(b, nextCombo));
     setWrongRow(nextWrong);
     setAnswered((a) => a + 1);
+    if (!ok) setHearts((h) => Math.max(0, h - 1));
     const say = ok ? correctSay(nextCombo, first, answered, extra?.close) : wrongSay(nextWrong, first, answered);
     playSfx(ok ? (nextCombo >= 5 && nextCombo % 5 === 0 ? "streak" : "ok") : "bad");
     if (ok && nextCombo >= 5 && nextCombo % 5 === 0) {
@@ -209,7 +216,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
     if (step.kind === "question") setLessonScore((s2) => ({ right: s2.right + (ok ? 1 : 0), total: s2.total + 1 }));
   };
 
-  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} />;
+  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} hearts={hearts} />;
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pt-[max(env(safe-area-inset-top),1rem)] 2xl:max-w-3xl">
@@ -220,11 +227,17 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
         <Bar value={progress} max={1} label="Progreso de la sesión" className="h-4" />
         {combo >= 3 && (
           <span key={combo} className="animate-pop flex items-center gap-1 rounded-full bg-fire-soft px-2.5 py-1 text-sm font-black text-fire" aria-label={`${combo} aciertos seguidos`}>
-            <Flame size={16} aria-hidden fill="currentColor" /> {combo}
+            <IcoFlame size={20} className="flame" /> {combo}
           </span>
         )}
-        <span key={xp} className={`flex items-center gap-1 font-black text-accent ${xp ? "bump" : ""}`} aria-label={`${xp} XP ganados`}>
-          <Zap size={20} aria-hidden fill="currentColor" /> {xp}
+        <span className="flex items-center gap-0.5 font-black text-bad" aria-label={`${hearts} de ${HEARTS} corazones`}>
+          <span key={hearts} className={hearts < HEARTS ? "heart-lost inline-flex" : "inline-flex"}>
+            <IcoHeart size={24} className={hearts === 0 ? "opacity-40 grayscale" : ""} />
+          </span>
+          {hearts}
+        </span>
+        <span key={xp} className={`flex items-center gap-0.5 font-black text-accent ${xp ? "bump" : ""}`} aria-label={`${xp} XP ganados`}>
+          <IcoBolt size={24} /> {xp}
         </span>
       </header>
 
@@ -232,7 +245,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
         <div aria-live="polite" className="banner-in pointer-events-none fixed left-1/2 top-20 z-50">
           <div className="relative flex items-center gap-2 rounded-3xl bg-fire px-5 py-3 text-xl font-black text-white shadow-card">
             <Burst kind="fire" count={14} spread={90} size={18} />
-            <Flame size={26} aria-hidden fill="currentColor" className="flame" /> ¡{milestone} seguidas!
+            <IcoFlame size={30} className="flame" /> ¡{milestone} seguidas!
           </div>
         </div>
       )}
@@ -257,12 +270,9 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
             transition={{ duration: 0.22, ease: "easeOut" }}
             className="flex flex-1 flex-col"
           >
-            <StepView
-              step={step}
-              feedback={feedback}
-              onAnswer={handleAnswer}
-              onNext={next}
-            />
+            <Answered.Provider value={!!feedback}>
+              <StepView step={step} feedback={feedback} onAnswer={handleAnswer} onNext={next} />
+            </Answered.Provider>
           </motion.div>
         </AnimatePresence>
       </main>
@@ -360,11 +370,17 @@ function StepView({ step, feedback, onAnswer, onNext }: { step: Step; feedback: 
 }
 
 function StepTitle({ children, isNew }: { children: React.ReactNode; isNew?: boolean }) {
+  const answered = useContext(Answered);
   return (
-    <h1 className="mb-5 flex items-center gap-2 text-xl font-black text-muted">
-      {isNew && <span className="chip bg-accent-soft text-accent">NUEVO</span>}
-      {children}
-    </h1>
+    <div className="mb-5 flex items-end gap-1">
+      <span className={`speaker ${answered ? "is-away" : ""}`} aria-hidden>
+        <MyMascot size={68} mood={isNew ? "wow" : "happy"} animate="bob" />
+      </span>
+      <h1 className="speech flex min-w-0 flex-wrap items-center gap-2 text-lg font-black">
+        {isNew && <span className="chip bg-accent-soft text-accent">NUEVO</span>}
+        {children}
+      </h1>
+    </div>
   );
 }
 
@@ -599,7 +615,7 @@ function FeedbackBar({ fb, gradable, onContinue }: { fb: NonNullable<Feedback>; 
   );
 }
 
-function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta }: { xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
+function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta, hearts }: { hearts: number; xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
   const topErr = (Object.entries(errs) as [ErrorCategory, number][]).sort((a, b) => b[1] - a[1])[0];
   const celebrate = useCelebrations();
   const look = useLook();
@@ -616,9 +632,10 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
     return () => clearInterval(id);
   }, [xp, leveled]);
   const cards = [
-    { label: "XP", value: `+${shown}`, cls: "text-accent", icon: <Zap size={22} fill="currentColor" aria-hidden /> },
-    { label: "Precisión", value: `${Math.round(acc * 100)}%`, cls: "text-good", icon: <Check size={22} aria-hidden strokeWidth={3} /> },
-    { label: "Racha", value: `${streak}`, cls: "text-fire", icon: <Flame size={22} fill="currentColor" aria-hidden className="flame" /> },
+    { label: "XP", value: `+${shown}`, cls: "text-accent", icon: <IcoBolt size={30} /> },
+    { label: "Precisión", value: `${Math.round(acc * 100)}%`, cls: "text-good", icon: <IcoTarget size={30} /> },
+    { label: "Racha", value: `${streak}`, cls: "text-fire", icon: <IcoFlame size={30} className="flame" /> },
+    { label: hearts === HEARTS ? "¡Sin fallos!" : "Corazones", value: `${hearts}/${HEARTS}`, cls: "text-bad", icon: <IcoHeart size={30} /> },
   ];
   return (
     <main className="mx-auto flex min-h-dvh max-w-xl flex-col items-center justify-center gap-5 px-4 py-10 text-center">
@@ -648,7 +665,7 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
         {bestCombo >= 3 ? `Tu mejor racha de aciertos: ${bestCombo}. ` : ""}
         Tus repasos ya quedaron programados.
       </p>
-      <div className="stagger grid w-full grid-cols-3 gap-3">
+      <div className="stagger grid w-full grid-cols-2 gap-3 sm:grid-cols-4">
         {cards.map((c) => (
           <div key={c.label} className="card flex flex-col items-center gap-1 p-4">
             <span className={c.cls}>{c.icon}</span>

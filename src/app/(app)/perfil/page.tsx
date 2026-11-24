@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Settings, ShoppingBag, ShieldCheck, ChevronRight, Download, Snowflake } from "lucide-react";
+import { Settings, ShoppingBag, ShieldCheck, ChevronRight, Download } from "lucide-react";
+import { IcoIce } from "@/components/Icons";
 import { UserButton } from "@clerk/nextjs";
 import { requireProfile } from "@/lib/user";
 import { isOwner } from "@/lib/access";
@@ -49,7 +50,7 @@ export default async function ProfilePage() {
                 <Gem size={16} /> {profile.gems}
               </p>
               <p className="flex items-center gap-1 text-[11px] text-muted">
-                <Snowflake size={12} aria-hidden /> {profile.freezes}/2 protectores
+                <IcoIce size={16} /> {profile.freezes}/2 protectores
               </p>
             </div>
           </div>

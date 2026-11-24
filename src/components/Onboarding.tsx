@@ -114,7 +114,7 @@ export function Onboarding({ name: initialName, level: initialLevel, areas: init
             <h1 className="text-3xl font-black">Elige a tu compañero</h1>
             <p className="text-muted">Te acompañará en cada sesión. Después podrás cambiar su nombre, color y accesorios.</p>
           </div>
-          <div className="grid grid-cols-3 gap-2 sm:grid-cols-5">
+          <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
             {SPECIES.map((sp) => (
               <button key={sp.id} type="button" aria-pressed={species === sp.id} onClick={() => setSpecies(sp.id)} className={`flex flex-col items-center gap-1 rounded-2xl border-2 p-2 ${species === sp.id ? "border-accent bg-accent-soft" : "border-line bg-surface"}`}>
                 <Mascot species={sp.id} color={sp.color} accessory="toque" mood={species === sp.id ? "cheer" : "happy"} size={76} animate={species === sp.id ? "bob" : "none"} decorative />

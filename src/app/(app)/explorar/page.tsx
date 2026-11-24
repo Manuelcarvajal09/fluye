@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { eq } from "drizzle-orm";
-import { Search, Layers, MessagesSquare, PenLine, BookMarked, AudioLines, Music2, Flame as Spicy, Tv, BookOpenText, ChevronRight } from "lucide-react";
+import { Search, ChevronRight } from "lucide-react";
+import { IcoBook, IcoCards, IcoChat, IcoMap, IcoMic, IcoMusic, IcoPencil, IcoPepper, IcoPuzzle, IcoStar, IcoTv } from "@/components/Icons";
 import { db, schema } from "@/db";
 import { requireProfile } from "@/lib/user";
 import { ITEMS, ROUTES, MUSIC, ROLEPLAYS, SOUNDS, getScene } from "@/lib/content";
@@ -32,9 +33,28 @@ export default async function Explore() {
         </form>
       </header>
 
+      <nav aria-label="Accesos directos" className="-mt-3 flex max-w-full flex-wrap gap-2">
+        <Link href="/repaso" className="chip-btn">
+          <IcoCards size={20} /> Repaso {due > 0 && <span className="count">{due > 99 ? "99+" : due}</span>}
+        </Link>
+        <Link href="/biblioteca" className="chip-btn">
+          <IcoBook size={20} /> Biblioteca
+        </Link>
+        <Link href="/biblioteca/colecciones" className="chip-btn">
+          <IcoStar size={20} /> Mis colecciones
+        </Link>
+        <Link href="/practicar" className="chip-btn">
+          <IcoChat size={20} /> Conversaciones
+        </Link>
+        <Link href="/sonidos" className="chip-btn">
+          <IcoMic size={20} /> Pronunciación
+        </Link>
+      </nav>
+
       <section aria-labelledby="misiones">
         <div className="mb-3 flex items-end justify-between">
-          <h2 id="misiones" className="font-display text-2xl font-extrabold">
+          <h2 id="misiones" className="flex items-center gap-2 font-display text-2xl font-extrabold">
+            <IcoMap size={28} />
             Misiones por tema
           </h2>
           <Link href="/rutas" className="text-sm font-extrabold text-brand-ink">
@@ -42,32 +62,42 @@ export default async function Explore() {
           </Link>
         </div>
         {routes.length ? (
-          <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
-            {routes.slice(0, 8).map((r) => {
+          <ul className="grid gap-3 md:grid-cols-2 2xl:grid-cols-3">
+            {routes.map((r, idx) => {
               const t = trackFor(r, profile.level);
               const sc = getScene(r.scene);
               const finished = r.tracks.filter((x) => doneIds.has(x.lesson.id)).length;
+              const featured = idx === 0;
               return (
-                <li key={r.id}>
-                  <Link href={`/rutas/${r.id}`} className="module flex h-full flex-col overflow-hidden">
-                    {sc ? (
-                      // eslint-disable-next-line @next/next/no-img-element -- SVG local
-                      <img src={sc.file} alt="" width={400} height={240} loading="lazy" className="aspect-[5/3] w-full bg-surface-2 object-cover" />
-                    ) : (
-                      <span className="grid aspect-[5/3] place-items-center bg-brand-soft text-brand-ink">
-                        <RouteIcon name={r.icon} size={44} />
+                <li key={r.id} className={`min-w-0 ${featured ? "md:col-span-2 2xl:col-span-3" : ""}`}>
+                  <Link href={`/rutas/${r.id}`} className={`module flex h-full min-w-0 items-stretch gap-3 overflow-hidden p-3 ${featured ? "sm:gap-5 sm:p-4" : ""}`}>
+                    <span className={`relative shrink-0 overflow-hidden rounded-[var(--r-md)] bg-brand-soft ${featured ? "w-28 sm:w-56" : "w-24"}`}>
+                      {sc ? (
+                        // eslint-disable-next-line @next/next/no-img-element -- ilustración local
+                        <img src={sc.file} alt="" width={400} height={240} loading={featured ? "eager" : "lazy"} className="h-full w-full object-cover" />
+                      ) : (
+                        <span className="grid h-full min-h-20 place-items-center text-brand-ink">
+                          <RouteIcon name={r.icon} size={32} />
+                        </span>
+                      )}
+                    </span>
+                    <span className="flex min-w-0 flex-1 flex-col gap-1 py-0.5">
+                      {featured && <span className="text-xs font-black text-accent">Sugerida para ti</span>}
+                      <span className={`flex items-center gap-2 font-black ${featured ? "font-display text-xl sm:text-2xl" : ""}`}>
+                        <RouteIcon name={r.icon} size={16} className="shrink-0 text-brand-ink" /> <span className="truncate">{r.title_es}</span>
                       </span>
-                    )}
-                    <span className="flex flex-1 flex-col gap-1 p-4">
-                      <span className="flex items-center gap-2 font-black">
-                        <RouteIcon name={r.icon} size={17} className="text-brand-ink" /> {r.title_es}
-                      </span>
-                      <span className="text-sm text-muted">{t.objective_es}</span>
-                      <span className="mt-auto pt-2 text-xs font-bold text-muted">
-                        {t.minutes} min · {r.tracks.map((x) => x.band).join(" / ")}
-                        {finished ? ` · ${finished}/${r.tracks.length} hechas` : ""}
+                      <span className={`text-sm text-muted ${featured ? "line-clamp-3" : "line-clamp-2"}`}>{t.objective_es}</span>
+                      <span className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 pt-1 text-xs font-bold text-muted">
+                        <span>{t.minutes} min</span>
+                        <span>{t.band}</span>
+                        <span className="flex items-center gap-1" aria-label={`${finished} de ${r.tracks.length} misiones hechas`}>
+                          {r.tracks.map((x) => (
+                            <span key={x.id} className={`h-1.5 w-5 rounded-full ${doneIds.has(x.lesson.id) ? "bg-good" : "bg-line"}`} />
+                          ))}
+                        </span>
                       </span>
                     </span>
+                    <ChevronRight size={18} className="shrink-0 self-center text-muted" aria-hidden />
                   </Link>
                 </li>
               );
@@ -83,15 +113,15 @@ export default async function Explore() {
           Práctica libre
         </h2>
         <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
-          <Tile href="/repaso" icon={<Layers size={22} />} title="Repaso de tarjetas" text={due ? `${due} pendientes ahora` : "Al día"} />
-          <Tile href="/practicar" icon={<MessagesSquare size={22} />} title="Conversaciones" text={`${ROLEPLAYS.length} situaciones guiadas`} />
-          <Tile href="/sonidos" icon={<AudioLines size={22} />} title="Pronunciación" text={`${SOUNDS.length} sonidos, pares mínimos y ritmo`} />
-          <Tile href="/practicar/corrige" icon={<PenLine size={22} />} title="Corrige la frase" text="Errores típicos de hispanohablantes" />
-          <Tile href="/practicar/gramatica" icon={<BookMarked size={22} />} title="Gramática" text="Tiempos y estructuras en contexto" />
-          <Tile href="/musica" icon={<Music2 size={22} />} title="Música y rap" text={`${MUSIC.length} ejercicios de reducciones, juegos de palabras y doble sentido`} />
-          <Tile href="/biblioteca?tag=real" icon={<Spicy size={22} />} title="Inglés real" text={`${real} expresiones de slang, groserías y sarcasmo`} />
-          <Tile href="/biblioteca?tag=shows" icon={<Tv size={22} />} title="Para tus series" text={`${shows} expresiones para ver series en inglés`} />
-          <Tile href="/biblioteca" icon={<BookOpenText size={22} />} title="Biblioteca" text={`${ITEMS.length.toLocaleString("es-MX")} expresiones y el catálogo de palabras`} />
+          <Tile href="/repaso" icon={<IcoCards size={34} />} title="Repaso de tarjetas" text={due ? `${due} pendientes ahora` : "Al día"} />
+          <Tile href="/practicar" icon={<IcoChat size={34} />} title="Conversaciones" text={`${ROLEPLAYS.length} situaciones guiadas`} />
+          <Tile href="/sonidos" icon={<IcoMic size={34} />} title="Pronunciación" text={`${SOUNDS.length} sonidos, pares mínimos y ritmo`} />
+          <Tile href="/practicar/corrige" icon={<IcoPencil size={34} />} title="Corrige la frase" text="Errores típicos de hispanohablantes" />
+          <Tile href="/practicar/gramatica" icon={<IcoPuzzle size={34} />} title="Gramática" text="Tiempos y estructuras en contexto" />
+          <Tile href="/musica" icon={<IcoMusic size={34} />} title="Música y rap" text={`${MUSIC.length} ejercicios de reducciones, juegos de palabras y doble sentido`} />
+          <Tile href="/biblioteca?tag=real" icon={<IcoPepper size={34} />} title="Inglés real" text={`${real} expresiones de slang, groserías y sarcasmo`} />
+          <Tile href="/biblioteca?tag=shows" icon={<IcoTv size={34} />} title="Para tus series" text={`${shows} expresiones para ver series en inglés`} />
+          <Tile href="/biblioteca" icon={<IcoBook size={34} />} title="Biblioteca" text={`${ITEMS.length.toLocaleString("es-MX")} expresiones y el catálogo de palabras`} />
         </ul>
       </section>
     </div>
@@ -101,8 +131,8 @@ export default async function Explore() {
 function Tile({ href, icon, title, text }: { href: string; icon: React.ReactNode; title: string; text: string }) {
   return (
     <li>
-      <Link href={href} className="module flex h-full items-center gap-4 p-4">
-        <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-brand-soft text-brand-ink" aria-hidden>
+      <Link href={href} className="module tile-ico-wrap flex h-full items-center gap-4 p-4">
+        <span className="tile-ico grid h-13 w-13 shrink-0 place-items-center rounded-2xl bg-surface-2" aria-hidden>
           {icon}
         </span>
         <span className="min-w-0 flex-1">

@@ -22,6 +22,13 @@
       "when": 1795464378765,
       "tag": "0002_escucha",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795478579277,
+      "tag": "0003_colecciones",
+      "breakpoints": true
     }
   ]
 }

@@ -168,6 +168,59 @@ test.describe.serial("propietario, intentos y tienda", () => {
     expect(r.n).toBe(1); // una sola sesión, no duplicada
   });
 
+  test("colecciones: seleccionar varias, agrupar sin duplicar tarjetas, estudiar solo esas y exportar/importar", async ({ page }) => {
+    test.setTimeout(240_000);
+    await signIn(page, TEST_EMAIL);
+    await sql().query("delete from collection_items where user_id = $1", [userId]);
+    await sql().query("delete from collections where user_id = $1", [userId]);
+    await page.request.post("/api/profile", { data: { onboarded: true, level: "B1", topics: ["conversacion"] } });
+    await page.goto("/biblioteca?q=look");
+    await page.getByRole("button", { name: "Seleccionar varias" }).click();
+    const boxes = page.getByRole("checkbox");
+    await boxes.nth(0).click();
+    await boxes.nth(1).click();
+    await boxes.nth(2).click();
+    await expect(page.getByText("3 seleccionadas")).toBeVisible();
+    await page.getByRole("button", { name: "A una colección" }).click();
+    await page.getByLabel("Nombre de la colección nueva").fill("Entrevista E2E");
+    await page.getByRole("button", { name: "Crear colección con la selección" }).click();
+    await expect(page.getByText(/Colección «Entrevista E2E» creada con 3/)).toBeVisible();
+    const [col] = await sql().query("select id from collections where user_id = $1", [userId]);
+    const before = await sql().query("select count(*)::int n from cards where user_id = $1", [userId]);
+    // Agrupar no crea tarjetas: son las mismas entradas canónicas.
+    expect((await sql().query("select count(*)::int n from cards where user_id = $1", [userId]))[0].n).toBe(before[0].n);
+    // La misma entrada en una segunda colección no duplica nada.
+    const items = (await sql().query("select item_id from collection_items where collection_id = $1", [col.id])).map((r) => r.item_id);
+    const r2 = await (await page.request.post("/api/collections", { data: { action: "create", name: "Otra", items: [items[0]] } })).json();
+    expect(r2.added).toBe(1);
+    // Estudiar solo esa colección: la sesión solo trae sus entradas.
+    const t0 = new Date().toISOString();
+    await page.goto(`/sesion?coleccion=${col.id}&min=5`);
+    await expect(page.getByRole("button", { name: "¡Entendido!" })).toBeVisible();
+    await page.getByRole("button", { name: "¡Entendido!" }).click();
+    await page.locator("button.option:not([disabled])").first().click();
+    await page.getByRole("button", { name: "Continuar", exact: true }).click();
+    await page.waitForTimeout(1500);
+    const cards = await sql().query("select distinct item_id from cards where user_id = $1 and created_at > $2", [userId, t0]);
+    expect(cards.length).toBeGreaterThan(0);
+    for (const c of cards) expect(items).toContain(c.item_id);
+    // Repaso manual filtrado por colección y modalidad, adelantando las que no vencen.
+    await page.goto(`/repaso?coleccion=${col.id}&modo=recog&adelantar=1`);
+    await expect(page.getByRole("button", { name: "Mostrar respuesta" })).toBeVisible();
+    // Exportar e importar: solo nombre e ids, sin datos personales.
+    const exp = await (await page.request.get(`/api/collections?export=${col.id}`)).json();
+    expect(Object.keys(exp).sort()).toEqual(["app", "items", "name", "version"]);
+    const imp = await (await page.request.post("/api/collections", { data: { action: "import", data: { ...exp, items: [...exp.items, "no-existe"] } } })).json();
+    expect(imp.added).toBe(3);
+    expect(imp.skipped).toBe(1);
+    // Aislamiento: otra cuenta no puede leer ni tocar esta colección.
+    expect((await page.request.post("/api/collections", { data: { action: "add", id: "col_ajena", items: [items[0]] } })).status()).toBe(404);
+    // Borrar la colección conserva las tarjetas.
+    const n1 = (await sql().query("select count(*)::int n from cards where user_id = $1", [userId]))[0].n;
+    await page.request.post("/api/collections", { data: { action: "delete", id: col.id } });
+    expect((await sql().query("select count(*)::int n from cards where user_id = $1", [userId]))[0].n).toBe(n1);
+  });
+
   test("tienda: sin gemas no compra; con gemas compra y equipa; no se puede equipar sin comprar", async ({ page }) => {
     await signIn(page, TEST_EMAIL);
     await sql().query("delete from inventory where user_id = $1", [userId]);

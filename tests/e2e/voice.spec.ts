@@ -50,10 +50,14 @@ test.describe("voz, dictado y personalización", () => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await signIn(page);
     await page.goto("/ajustes");
-    await page.getByRole("button", { name: /^Zorro/ }).click();
+    await page.getByRole("radio", { name: /^Zorro/ }).click();
     await page.getByLabel("Nombre de tu compañero").fill("Chispa");
     await page.getByRole("radio", { name: /Océano/ }).click();
+    // Accesorios combinables: uno de cabeza y uno de cara a la vez.
+    await page.getByRole("tab", { name: "Cabeza" }).click();
     await page.getByRole("radio", { name: "Audífonos" }).click();
+    await page.getByRole("tab", { name: "Cara" }).click();
+    await page.getByRole("radio", { name: "Lentes" }).click();
     await expect(page.locator("html")).toHaveAttribute("data-accent", "oceano");
     await page.getByRole("button", { name: "Guardar cambios" }).click();
     await expect(page.getByRole("button", { name: /Guardado/ })).toBeVisible();

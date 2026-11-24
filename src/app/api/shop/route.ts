@@ -8,7 +8,7 @@ import { db, schema } from "@/db";
 /** Compra o equipa cosméticos. Todo validado en el servidor (precio, saldo, propiedad). */
 const Body = z.discriminatedUnion("action", [
   z.object({ action: z.literal("buy"), itemId: z.string().max(40) }),
-  z.object({ action: z.literal("equip"), look: z.object({ accessory: z.string().max(20).optional(), outfit: z.string().max(20).optional(), color: z.string().max(9).optional() }) }),
+  z.object({ action: z.literal("equip"), look: z.object({ accessory: z.string().max(20).optional(), face: z.string().max(20).optional(), neck: z.string().max(20).optional(), outfit: z.string().max(20).optional(), color: z.string().max(9).optional() }) }),
 ]);
 
 export async function POST(req: Request) {

@@ -1,12 +1,18 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Check, Snowflake } from "lucide-react";
+import { Check } from "lucide-react";
+import { IcoIce } from "./Icons";
 import { Mascot } from "./Mascot";
 import { Gem } from "./Nav";
 import { Burst } from "./Burst";
 import { playSfx } from "@/lib/audio/sfx";
-import { ACCESSORIES, OUTFITS, FUR_COLORS, type Accessory, type Look, type Outfit, type ShopItem } from "@/lib/look";
+import { ACCESSORIES, OUTFITS, FUR_COLORS, slotOf, type Accessory, type Look, type Outfit, type ShopItem } from "@/lib/look";
+
+/** Cada accesorio va a su zona (cabeza, cara o cuello), así se combinan en vez de reemplazarse. */
+const KEY = { head: "accessory", face: "face", neck: "neck" } as const;
+const accPatch = (value: string): Partial<Look> => ({ [KEY[slotOf(value)]]: value as Accessory });
+const accOn = (look: Look, value: string) => look[KEY[slotOf(value)]] === value;
 
 type Tab = "accessory" | "outfit" | "color" | "freeze";
 const TABS: { id: Tab; label: string }[] = [
@@ -52,7 +58,7 @@ export function Shop({ catalog, owned: initialOwned, gems: initialGems, freezes:
   }
 
   async function equip(it: { kind: string; value: string }) {
-    const patch = it.kind === "accessory" ? { accessory: it.value as Accessory } : it.kind === "outfit" ? { outfit: it.value as Outfit } : { color: it.value };
+    const patch = it.kind === "accessory" ? accPatch(it.value) : it.kind === "outfit" ? { outfit: it.value as Outfit } : { color: it.value };
     const j = await call({ action: "equip", look: patch });
     if (!j.ok || !j.look) return setMsg({ text: j.error ?? "No se pudo equipar.", ok: false });
     setLook(j.look);
@@ -62,15 +68,15 @@ export function Shop({ catalog, owned: initialOwned, gems: initialGems, freezes:
 
   const free = tab === "accessory" ? ACCESSORIES.filter((a) => a.price === 0).map((a) => ({ kind: "accessory", value: a.id as string, label: a.label })) : tab === "outfit" ? OUTFITS.filter((o) => o.price === 0).map((o) => ({ kind: "outfit", value: o.id as string, label: o.label })) : tab === "color" ? FUR_COLORS.slice(0, 6).map((c) => ({ kind: "color", value: c as string, label: "Color básico" })) : [];
   const items = catalog.filter((c) => c.kind === tab);
-  const isOn = (kind: string, value: string) => (kind === "accessory" ? look.accessory === value : kind === "outfit" ? look.outfit === value : kind === "color" ? look.color.toLowerCase() === value.toLowerCase() : false);
-  const tryOn = (kind: string, value: string) => setTrying(kind === "accessory" ? { accessory: value as Accessory } : kind === "outfit" ? { outfit: value as Outfit } : kind === "color" ? { color: value } : {});
+  const isOn = (kind: string, value: string) => (kind === "accessory" ? accOn(look, value) : kind === "outfit" ? look.outfit === value : kind === "color" ? look.color.toLowerCase() === value.toLowerCase() : false);
+  const tryOn = (kind: string, value: string) => setTrying(kind === "accessory" ? accPatch(value) : kind === "outfit" ? { outfit: value as Outfit } : kind === "color" ? { color: value } : {});
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,22rem)_1fr]">
       <section className="hero-card flex flex-col items-center gap-3 p-6 lg:sticky lg:top-8 lg:self-start">
         <div className="relative">
           {party > 0 && <Burst key={party} kind="stars" count={16} spread={110} size={18} />}
-          <Mascot species={preview.species} color={preview.color} accessory={preview.accessory} outfit={preview.outfit} mood={party ? "cheer" : "happy"} size={190} label={`${preview.name} con el aspecto que estás probando`} />
+          <Mascot species={preview.species} color={preview.color} accessory={preview.accessory} face={preview.face} neck={preview.neck} outfit={preview.outfit} mood={party ? "cheer" : "happy"} size={190} label={`${preview.name} con el aspecto que estás probando`} />
         </div>
         <p className="font-display text-2xl font-extrabold">{preview.name}</p>
         <p className="flex items-center gap-2 rounded-full bg-surface/80 px-4 py-2 text-lg font-black text-accent" aria-live="polite">
@@ -97,7 +103,7 @@ export function Shop({ catalog, owned: initialOwned, gems: initialGems, freezes:
         {tab === "freeze" ? (
           <div className="module flex flex-col gap-3 p-5">
             <p className="flex items-center gap-2 text-lg font-black">
-              <Snowflake size={22} className="text-[#0b6bb5]" aria-hidden /> Protector de racha
+              <IcoIce size={28} /> Protector de racha
             </p>
             <p className="text-muted">Si un día no llegas a tu meta, un protector cubre ese día y tu racha sigue. El día se marca como «protegido», no como estudiado. Puedes tener 2.</p>
             <p className="font-bold">Tienes {freezes}/2</p>
@@ -153,12 +159,12 @@ export function Shop({ catalog, owned: initialOwned, gems: initialGems, freezes:
 }
 
 function Card({ label, on, color, onTry, children, look, kind, value }: { label: string; on: boolean; color?: string; onTry: () => void; children: React.ReactNode; look: Look; kind: string; value: string }) {
-  const p = { ...look, ...(kind === "accessory" ? { accessory: value as Accessory } : kind === "outfit" ? { outfit: value as Outfit } : { color: value }) };
+  const p = { ...look, ...(kind === "accessory" ? accPatch(value) : kind === "outfit" ? { outfit: value as Outfit } : { color: value }) };
   return (
     <li className={`module flex flex-col gap-2 p-3 ${on ? "ring-2 ring-brand" : ""}`}>
       <button type="button" onClick={onTry} onMouseEnter={onTry} onFocus={onTry} className="flex flex-col items-center gap-2 rounded-[var(--r-md)] p-2 text-center hover:bg-surface-2">
         <span className="relative grid place-items-center">
-          <Mascot species={p.species} color={p.color} accessory={p.accessory} outfit={p.outfit} size={76} animate="none" decorative />
+          <Mascot species={p.species} color={p.color} accessory={p.accessory} face={p.face} neck={p.neck} outfit={p.outfit} size={76} animate="none" decorative />
           {color && <span className="absolute -right-1 bottom-0 h-5 w-5 rounded-full border-2 border-surface" style={{ background: color }} aria-hidden />}
         </span>
         <span className="text-sm font-black">{label}</span>

@@ -97,3 +97,19 @@ describe("tienda", () => {
     expect(ownsLook(lookOf({ accessory: "toque" }), new Set())).toBe(true);
   });
 });
+
+describe("mascotas", () => {
+  it("una especie retirada (castor) pasa al zorro y conserva nombre y accesorios", () => {
+    const l = lookOf({ species: "castor" as never, name: "Timber", color: "#a8693b", accessory: "toque", face: "glasses" });
+    expect(l.species).toBe("zorro");
+    expect(l.name).toBe("Timber");
+    expect(l.color).toBe("#f0832f");
+    expect(l.accessory).toBe("toque");
+    expect(l.face).toBe("glasses");
+  });
+  it("un aspecto antiguo con un solo accesorio se migra a su zona", () => {
+    expect(lookOf({ accessory: "scarf" }).neck).toBe("scarf");
+    expect(lookOf({ accessory: "scarf" }).accessory).toBe("none");
+    expect(lookOf({ accessory: "glasses" }).face).toBe("glasses");
+  });
+});

@@ -36,6 +36,8 @@ const Body = z.object({
           name: z.string().trim().max(16).optional(),
           color: z.string().regex(/^#[0-9a-fA-F]{6}$/).optional(),
           accessory: z.enum(ACCESSORY_IDS as [string, ...string[]]).optional(),
+          face: z.enum(ACCESSORY_IDS as [string, ...string[]]).optional(),
+          neck: z.enum(ACCESSORY_IDS as [string, ...string[]]).optional(),
           outfit: z.enum(OUTFIT_IDS as [string, ...string[]]).optional(),
         })
         .optional(),

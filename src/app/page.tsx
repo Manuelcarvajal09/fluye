@@ -41,9 +41,9 @@ export default async function Landing() {
         </div>
         <div className="hero-card relative grid place-items-center p-8">
           <div className="flex items-end justify-center gap-1">
-            <Mascot species="zorro" color="#e8782f" accessory="glasses" mood="happy" size={120} decorative />
-            <Mascot species="castor" color="#a8693b" accessory="toque" mood="cheer" size={168} decorative />
-            <Mascot species="panda" color="#2f2a33" accessory="headphones" mood="happy" size={120} decorative />
+            <Mascot species="zorro" color="#f0832f" face="glasses" mood="happy" size={120} decorative />
+            <Mascot species="gato" color="#9aa5c9" accessory="toque" mood="cheer" size={168} decorative />
+            <Mascot species="perro" color="#dba05f" accessory="headphones" mood="happy" size={120} decorative />
           </div>
           <p className="mt-4 rounded-full bg-surface/85 px-4 py-2 font-black">«Can I get a large latte, please?» ☕</p>
         </div>

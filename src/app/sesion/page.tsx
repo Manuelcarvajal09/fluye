@@ -5,6 +5,7 @@ import { goalXp, localDay, visibleStreak } from "@/lib/game";
 import { lastDays } from "@/lib/stats";
 import { lookOf } from "@/lib/look";
 import { getTrack } from "@/lib/content";
+import { collectionOf } from "@/lib/collections";
 import { SessionRunner } from "@/components/session/SessionRunner";
 import { ProfileProviders } from "@/components/ProfileProviders";
 import { MyMascot } from "@/components/Coach";
@@ -17,7 +18,8 @@ export default async function SessionPage({ searchParams }: PageProps<"/sesion">
   const min = [5, 10, 15, 20].includes(Number(sp.min)) ? Number(sp.min) : profile.goalMinutes;
   const trackId = typeof sp.mision === "string" && getTrack(sp.mision) ? sp.mision : undefined;
   const resume = sp.reanudar === "1";
-  const [{ steps, lessonId, kind, away }, [today]] = await Promise.all([buildSession(profile, min, { trackId }), lastDays(profile, 1)]);
+  const col = typeof sp.coleccion === "string" ? await collectionOf(profile.userId, sp.coleccion) : null;
+  const [{ steps, lessonId, kind, away }, [today]] = await Promise.all([buildSession(profile, min, { trackId, only: col?.items }), lastDays(profile, 1)]);
   const look = lookOf(settingsOf(profile).look);
   const t = trackId ? getTrack(trackId) : undefined;
 
@@ -28,7 +30,7 @@ export default async function SessionPage({ searchParams }: PageProps<"/sesion">
           <MyMascot mood="cheer" size={150} />
           <h1 className="text-3xl font-black">Todo al día</h1>
           <p className="text-muted">
-            {look.name} dice: no hay repasos pendientes y ya llegaste a tu límite de expresiones nuevas por hoy. Elige una misión temática o practica pronunciación y conversaciones.
+            {col ? `${look.name} dice: en «${col.name}» no hay nada pendiente ahora. Puedes practicarla de todos modos en modo tarjetas.` : `${look.name} dice: no hay repasos pendientes y ya llegaste a tu límite de expresiones nuevas por hoy. Elige una misión temática o practica pronunciación y conversaciones.`}
           </p>
           <div className="flex gap-3">
             <Link href="/explorar" className="btn btn-primary">
@@ -62,7 +64,7 @@ export default async function SessionPage({ searchParams }: PageProps<"/sesion">
           minutes: min,
           trackId,
           roleplayId: t?.track.roleplay.id,
-          title: t ? `${t.route.title_es} · ${t.track.band}` : kind === "return" ? "Sesión de regreso" : undefined,
+          title: col ? `Colección · ${col.name}` : t ? `${t.route.title_es} · ${t.track.band}` : kind === "return" ? "Sesión de regreso" : undefined,
           reason: kind === "return" ? `Llevas ${away} días sin estudiar: hoy repasamos más y metemos poco nuevo.` : t?.track.objective_es,
         }}
       />

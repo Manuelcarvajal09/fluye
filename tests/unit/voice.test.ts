@@ -54,7 +54,7 @@ describe("logros y aspecto", () => {
     const l = lookOf({ species: "zorro", color: "no-es-color", name: "  ", accent: "inexistente" as never });
     expect(l.species).toBe("zorro");
     expect(l.name).toBe("Rufo");
-    expect(l.color).toBe("#e8782f");
+    expect(l.color).toBe("#f0832f");
     expect(l.accent).toBe("esmeralda");
   });
 });

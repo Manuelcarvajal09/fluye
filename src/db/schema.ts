@@ -217,3 +217,32 @@ export const listenEvents = pgTable(
   },
   (t) => [index("listen_user_time_idx").on(t.userId, t.createdAt)],
 );
+
+/**
+ * Colecciones personales: agrupaciones de entradas canónicas (ítems curados o del catálogo).
+ * No copian tarjetas: una entrada puede estar en varias colecciones y su progreso FSRS es uno solo.
+ */
+export const collections = pgTable(
+  "collections",
+  {
+    id: text("id").primaryKey(),
+    userId: text("user_id").notNull(),
+    name: text("name").notNull(),
+    color: text("color").notNull().default("esmeralda"),
+    note: text("note").notNull().default(""),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index("collections_user_idx").on(t.userId, t.updatedAt)],
+);
+
+export const collectionItems = pgTable(
+  "collection_items",
+  {
+    collectionId: text("collection_id").notNull(),
+    userId: text("user_id").notNull(),
+    itemId: text("item_id").notNull(),
+    addedAt: timestamp("added_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.collectionId, t.itemId] }), index("collection_items_user_idx").on(t.userId, t.itemId)],
+);

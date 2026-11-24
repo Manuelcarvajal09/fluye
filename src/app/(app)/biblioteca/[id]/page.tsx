@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { and, eq } from "drizzle-orm";
+import { and, eq, inArray } from "drizzle-orm";
 import { ArrowLeft, Lightbulb } from "lucide-react";
 import { db, schema } from "@/db";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { getCatalogEntry, getItem, ITEMS, scenesForItem } from "@/lib/content";
 import { goalOf, INTENSITY_ES, maskExplicit, REGISTER_ES } from "@/lib/realtalk";
 import { ItemGoal } from "@/components/ItemGoal";
+import { AddToCollection } from "@/components/CollectionTools";
+import { collectionsOf } from "@/lib/collections";
 import { fmtInterval, MASTERY_DAYS } from "@/lib/srs";
 import { plain } from "@/lib/types";
 import { AREA_LABEL } from "@/lib/areas";
@@ -33,6 +35,8 @@ export default async function ItemPage({ params }: PageProps<"/biblioteca/[id]">
   const ex = st.explicit === true;
   const m = (t: string) => maskExplicit(t, ex);
   const scenes = scenesForItem(it.id);
+  const cols = await collectionsOf(profile.userId);
+  const mine = cols.length ? (await db().select({ c: schema.collectionItems.collectionId }).from(schema.collectionItems).where(and(eq(schema.collectionItems.itemId, it.id), inArray(schema.collectionItems.collectionId, cols.map((c) => c.id))))).map((r) => r.c) : [];
   const SHOW: Record<string, string> = { "big-bang-theory": "The Big Bang Theory", himym: "How I Met Your Mother", "helluva-boss": "Helluva Boss", "hazbin-hotel": "Hazbin Hotel", suits: "Suits", "the-mentalist": "The Mentalist", "bojack-horseman": "BoJack Horseman", sitcoms: "Sitcoms" };
   // Componente de servidor: se renderiza por petición, la hora actual es intencional.
   // eslint-disable-next-line react-hooks/purity
@@ -132,6 +136,7 @@ export default async function ItemPage({ params }: PageProps<"/biblioteca/[id]">
           </p>
         )}
         {(!cat || cat.status === "complete") && <ItemGoal itemId={it.id} goal={goalOf(it, st.goals?.[it.id])} known={(st.known ?? []).includes(it.id)} suggestUnderstand={it.register === "offensive" || it.goal === "understand"} />}
+        {(!cat || cat.status === "complete") && <AddToCollection itemId={it.id} collections={cols.map((c) => ({ id: c.id, name: c.name }))} mine={mine} />}
         {(!cat || cat.status === "complete") && <LearnButton itemId={it.id} learning={cards.length > 0} suspended={suspended} />}
       </article>
 

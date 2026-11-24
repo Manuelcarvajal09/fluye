@@ -7,9 +7,9 @@ import { availableHdVoices, englishVoices, onVoicesReady, setTtsPrefs, speak, un
 import { HD_VOICES } from "@/lib/audio/voices";
 import { setSfxEnabled, playSfx } from "@/lib/audio/sfx";
 import { applyTheme } from "./Prefs";
-import { Mascot, type Mood } from "./Mascot";
+import { MascotStudio } from "./MascotStudio";
 import { AREAS, GROUP_LABEL, type AreaGroup } from "@/lib/areas";
-import { ACCENTS, ACCESSORIES, FUR_COLORS, SPECIES, type Accessory, type AccentId, type Look, type Species } from "@/lib/look";
+import { ACCENTS, SPECIES, type AccentId, type Look, type Species } from "@/lib/look";
 
 type Initial = {
   name: string;
@@ -30,15 +30,12 @@ type Initial = {
   look: Look;
 };
 
-const MOODS: Mood[] = ["happy", "cheer", "think", "wow", "oops", "sleep"];
-const MOOD_ES: Record<Mood, string> = { happy: "Feliz", cheer: "Celebra", think: "Piensa", wow: "Sorpresa", oops: "Ánimo", sleep: "Duerme" };
 
 export function SettingsForm({ initial }: { initial: Initial }) {
   const router = useRouter();
   const [v, setV] = useState({ theme: "system", rate: 1, accent: "en-US", retention: 0.9, reminder: "20:00", autoplay: true, sfx: true, engine: "hd", hdVoice: "af_heart", voice: "", ...initial } as Required<Initial>);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [coverage, setCoverage] = useState<Record<string, number> | null>(null);
-  const [mood, setMood] = useState<Mood>("happy");
   const [saved, setSaved] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const file = useRef<HTMLInputElement>(null);
@@ -117,51 +114,7 @@ export function SettingsForm({ initial }: { initial: Initial }) {
   return (
     <div className="flex flex-col gap-5">
       <Card title="Tu compañero">
-        <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-start">
-          <div className="flex flex-col items-center gap-2">
-            <div className="grid place-items-center rounded-3xl bg-brand-soft p-3">
-              <Mascot species={v.look.species} color={v.look.color} accessory={v.look.accessory} outfit={v.look.outfit} mood={mood} size={170} />
-            </div>
-            <div className="flex flex-wrap justify-center gap-1" role="group" aria-label="Cómo se ve tu compañero">
-              {MOODS.map((m) => (
-                <button key={m} type="button" aria-pressed={mood === m} onClick={() => setMood(m)} className={`rounded-full px-2.5 py-1 text-xs font-extrabold ${mood === m ? "bg-accent text-white" : "bg-surface-2 text-muted"}`}>
-                  {MOOD_ES[m]}
-                </button>
-              ))}
-            </div>
-          </div>
-          <div className="flex w-full flex-1 flex-col gap-4">
-            <Field label="Nombre">
-              <input aria-label="Nombre de tu compañero" className="input" value={v.look.name} maxLength={16} onChange={(e) => setLook({ name: e.target.value })} />
-            </Field>
-            <Field label="Especie">
-              <div className="grid grid-cols-3 gap-2 sm:grid-cols-5">
-                {SPECIES.map((s) => (
-                  <button key={s.id} type="button" title={s.blurb} aria-pressed={v.look.species === s.id} onClick={() => pickSpecies(s.id)} className={`flex flex-col items-center gap-1 rounded-2xl border-2 px-1 py-2 text-center transition-colors ${v.look.species === s.id ? "border-accent bg-accent-soft" : "border-line bg-surface hover:border-accent/40"}`}>
-                    <Mascot species={s.id} color={v.look.species === s.id ? v.look.color : s.color} accessory="none" mood={v.look.species === s.id ? "cheer" : "happy"} size={60} animate="none" decorative />
-                    <span className="block text-sm font-black">{s.label}</span>
-                  </button>
-                ))}
-              </div>
-            </Field>
-            <Field label="Color">
-              <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Color del pelaje">
-                {FUR_COLORS.map((c) => (
-                  <button key={c} type="button" role="radio" aria-checked={v.look.color.toLowerCase() === c} aria-label={`Color ${c}`} onClick={() => setLook({ color: c })} className={`h-9 w-9 rounded-full border-4 ${v.look.color.toLowerCase() === c ? "border-accent" : "border-surface"} shadow-card`} style={{ background: c }} />
-                ))}
-              </div>
-            </Field>
-            <Field label="Accesorio">
-              <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Accesorio">
-                {ACCESSORIES.filter((a) => a.price === 0 || a.id === v.look.accessory).map((a) => (
-                  <button key={a.id} type="button" role="radio" aria-checked={v.look.accessory === a.id} onClick={() => setLook({ accessory: a.id as Accessory })} className={`btn h-10 min-h-10 px-3 text-sm ${v.look.accessory === a.id ? "btn-accent" : "btn-ghost"}`}>
-                    {a.label}
-                  </button>
-                ))}
-              </div>
-            </Field>
-          </div>
-        </div>
+        <MascotStudio look={v.look} setLook={setLook} onSpecies={pickSpecies} />
       </Card>
 
       <Card title="Colores de la app">
@@ -327,7 +280,8 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         </Field>
       </Card>
 
-      <button type="button" className="btn btn-primary sticky bottom-24 z-10 lg:bottom-4" onClick={save}>
+      <div className="save-bar">
+        <button type="button" className="btn btn-primary w-full sm:w-auto sm:min-w-64" onClick={save}>
         {saved ? (
           <>
             <Check size={20} aria-hidden /> Guardado
@@ -335,7 +289,8 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         ) : (
           "Guardar cambios"
         )}
-      </button>
+        </button>
+      </div>
 
       <Card title="Tus datos">
         <div className="flex flex-wrap gap-2">

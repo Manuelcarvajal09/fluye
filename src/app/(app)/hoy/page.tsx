@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { and, eq, gte } from "drizzle-orm";
-import { Flame, Clock, Layers, Sparkles, Check, Snowflake, Trophy, Target, ClipboardCheck, ChevronRight } from "lucide-react";
+import { Sparkles, Check, ChevronRight } from "lucide-react";
+import { IcoBook, IcoCards, IcoChart, IcoClock, IcoFlame, IcoIce, IcoStar, IcoTarget, IcoTrophy } from "@/components/Icons";
 import { db, schema } from "@/db";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { dueCount, lastDays, forecast, achievementTotals, itemStatus } from "@/lib/stats";
 import { goalXp, levelFromXp, localDay, missionsFor, visibleStreak, addDays } from "@/lib/game";
 import { greetingSay } from "@/lib/motivation";
 import { HeroCoach } from "@/components/HeroCoach";
-import { getScene, ROUTES } from "@/lib/content";
+import { CATALOG, getScene, ROUTES } from "@/lib/content";
+import { collectionsOf } from "@/lib/collections";
 import { Bar, Ring } from "@/components/ui";
 import { Gem } from "@/components/Nav";
 import { StartButton } from "@/components/StartButton";
@@ -27,7 +29,7 @@ export default async function Today() {
   const s = settingsOf(profile);
   const mods = { week: true, load: true, goal: true, achievement: true, theme: true, challenges: true, ...s.hoy };
   const today = localDay(profile.tz);
-  const [due, week, load, done, totals, status, weekly, frozenRows] = await Promise.all([
+  const [due, week, load, done, totals, status, weekly, frozenRows, cols] = await Promise.all([
     dueCount(profile.userId),
     lastDays(profile, 7),
     forecast(profile, 7),
@@ -39,7 +41,13 @@ export default async function Today() {
       .select({ day: schema.dailyStats.day })
       .from(schema.dailyStats)
       .where(and(eq(schema.dailyStats.userId, profile.userId), eq(schema.dailyStats.frozen, 1), gte(schema.dailyStats.day, addDays(today, -6)))),
+    collectionsOf(profile.userId),
   ]);
+  // Palabra sugerida: la más frecuente del catálogo que aún no estudias ni declaraste conocer.
+  const knownSet = new Set(s.known ?? []);
+  // A partir de tu nivel: a alguien B1 no se le sugiere "the".
+  const lv = ["A1", "A2", "B1", "B2", "C1"];
+  const word = CATALOG.find((c) => c.status === "complete" && !c.dupOf && lv.indexOf(c.level) >= lv.indexOf(profile.level) && c.pos !== "det" && c.pos !== "pron" && !status.has(c.id) && !knownSet.has(c.id) && (s.explicit === true || !c.register));
   const frozen = new Set(frozenRows.map((r) => r.day));
   const todayRow = week[week.length - 1];
   const goal = goalXp(profile.goalMinutes);
@@ -70,20 +78,12 @@ export default async function Today() {
           <p className="font-bold text-muted">{hello}</p>
           <h1 className="font-display text-4xl font-extrabold leading-none sm:text-5xl">{first ?? "Hola"}</h1>
         </div>
-        <div className="flex items-center gap-2">
-          <Link href="/progreso" className="flex h-11 items-center gap-1.5 rounded-full bg-fire-soft px-4 font-black text-fire" aria-label={`${streak} ${streak === 1 ? "día" : "días"} de racha`}>
-            <Flame size={20} fill="currentColor" aria-hidden className={streak > 0 ? "flame" : ""} /> {streak}
-          </Link>
-          <Link href="/tienda" className="flex h-11 items-center gap-1.5 rounded-full bg-accent-soft px-4 font-black text-accent" aria-label={`${profile.gems} gemas. Abrir tienda`}>
-            <Gem size={18} /> {profile.gems}
-          </Link>
-        </div>
       </header>
 
       <div className="grid gap-6 lg:grid-cols-12 lg:gap-8">
         {/* Protagonista: la misión de hoy */}
         <section aria-labelledby="mision" className="hero-card p-5 sm:p-7 lg:col-span-8 3xl:col-span-9">
-          <div className="grid items-center gap-5 md:grid-cols-[1fr_auto]">
+          <div className="grid items-start gap-5 md:grid-cols-[minmax(0,1fr)_auto]">
             <div className="flex min-w-0 flex-col gap-4">
               <HeroCoach say={say} seed={seed} compact />
               <div>
@@ -91,14 +91,14 @@ export default async function Today() {
                   {rec ? <RouteIcon name={rec.route.icon} size={17} /> : <Sparkles size={17} aria-hidden />}
                   {rec ? `${rec.route.title_es} · ${rec.track.band}` : due > 0 ? "Repaso y expresiones nuevas" : "Tu sesión"}
                 </p>
-                <h2 id="mision" className={`mt-1 max-w-[30ch] font-display font-extrabold leading-[1.1] ${(rec?.track.objective_es.length ?? 0) > 70 ? "text-2xl sm:text-[1.9rem]" : "text-[1.9rem] sm:text-4xl"}`}>
+                <h2 id="mision" className={`mt-1 max-w-[34ch] font-display font-extrabold leading-[1.1] ${(rec?.track.objective_es.length ?? 0) > 70 ? "text-2xl sm:text-[1.9rem]" : "text-[1.9rem] sm:text-4xl"}`}>
                   {rec ? rec.track.objective_es : "Repasa lo que toca y aprende algo nuevo"}
                 </h2>
                 {rec && <p className="mt-2 max-w-prose text-muted">{rec.reason}</p>}
               </div>
               <ul className="flex flex-wrap gap-2 text-sm font-bold">
                 <li className="flex items-center gap-1.5 rounded-full bg-surface/80 px-3 py-1.5">
-                  <Clock size={15} aria-hidden /> {minutes} min
+                  <IcoClock size={18} /> {minutes} min
                 </li>
                 {rec?.track.skills.map((k) => (
                   <li key={k} className="rounded-full bg-surface/80 px-3 py-1.5">
@@ -107,11 +107,19 @@ export default async function Today() {
                 ))}
                 {due > 0 && (
                   <li className="flex items-center gap-1.5 rounded-full bg-surface/80 px-3 py-1.5">
-                    <Layers size={15} aria-hidden /> {due} {due === 1 ? "repaso" : "repasos"}
+                    <IcoCards size={18} /> {due} {due === 1 ? "repaso" : "repasos"}
                   </li>
                 )}
               </ul>
               <StartButton href={rec ? `/sesion?mision=${rec.track.id}&min=${minutes}` : `/sesion?min=${profile.goalMinutes}`} />
+              <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Elegir cuánto tiempo">
+                <span className="text-sm font-bold text-muted">¿Otro tiempo?</span>
+                {[5, 10, 15, 20].map((m) => (
+                  <Link key={m} href={rec ? `/sesion?mision=${rec.track.id}&min=${m}` : `/sesion?min=${m}`} className={`chip-btn ${m === minutes ? "is-on" : ""}`}>
+                    {m} min
+                  </Link>
+                ))}
+              </div>
               <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm font-extrabold">
                 {due > 0 && (
                   <Link href="/repaso" className="text-brand-ink underline-offset-4 hover:underline">
@@ -128,7 +136,7 @@ export default async function Today() {
             </div>
             {scene && (
               // eslint-disable-next-line @next/next/no-img-element -- SVG local pequeño, sin optimización necesaria
-              <img src={scene.file} alt={scene.alt_es} width={400} height={240} loading="eager" className="hidden w-[min(22rem,32vw)] rounded-[var(--r-lg)] md:block" />
+              <img src={scene.file} alt={scene.alt_es} width={400} height={240} loading="eager" className="hidden w-[min(17rem,22vw)] rounded-[var(--r-lg)] md:block 2xl:w-80" />
             )}
           </div>
         </section>
@@ -147,7 +155,7 @@ export default async function Today() {
               <p className="text-sm text-muted">{todayRow.xp >= goal ? "Tu racha de hoy está a salvo." : todayRow.xp === 0 ? `${profile.goalMinutes} minutos bastan.` : `Te faltan ${goal - todayRow.xp} XP.`}</p>
               {profile.freezes > 0 && (
                 <p className="mt-1 flex items-center gap-1 text-xs font-bold text-muted">
-                  <Snowflake size={13} aria-hidden /> {profile.freezes} {profile.freezes === 1 ? "protector" : "protectores"} de racha
+                  <IcoIce size={16} /> {profile.freezes} {profile.freezes === 1 ? "protector" : "protectores"} de racha
                 </p>
               )}
             </div>
@@ -155,7 +163,7 @@ export default async function Today() {
           {mods.challenges && (
             <section className="module p-5">
               <h2 className="mb-3 flex items-center gap-2 font-black">
-                <Target size={18} className="text-accent" aria-hidden /> Retos de hoy
+                <IcoTarget size={24} /> Retos de hoy
               </h2>
               <ul className="flex flex-col gap-3">
                 {missions.map((m) => {
@@ -163,7 +171,7 @@ export default async function Today() {
                   const ok = todayRow.missions.includes(m.id) || v >= m.target;
                   return (
                     <li key={m.id} className="flex items-center gap-3">
-                      <span className={`grid h-8 w-8 shrink-0 place-items-center rounded-xl ${ok ? "bump bg-good text-white" : "bg-surface-2 text-muted"}`}>{ok ? <Check size={18} strokeWidth={3} aria-hidden /> : <Sparkles size={16} aria-hidden />}</span>
+                      <span className={`grid h-8 w-8 shrink-0 place-items-center rounded-xl ${ok ? "bump bg-good text-white" : "bg-surface-2 text-muted"}`}>{ok ? <Check size={18} strokeWidth={3} aria-hidden /> : <IcoStar size={18} />}</span>
                       <div className="min-w-0 flex-1">
                         <p className="text-sm font-extrabold">{m.label}</p>
                         <Bar value={v} max={m.target} color={ok ? "var(--good)" : "var(--accent)"} className="mt-1 h-1.5" label={m.label} />
@@ -183,7 +191,7 @@ export default async function Today() {
       {!s.placement && (
         <Link href="/practicar/test" className="module flex items-center gap-4 p-4">
           <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-accent-soft text-accent">
-            <ClipboardCheck size={22} aria-hidden />
+            <IcoTarget size={28} />
           </span>
           <span className="min-w-0 flex-1">
             <span className="block font-black">Mide tu nivel cuando quieras</span>
@@ -196,7 +204,9 @@ export default async function Today() {
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
         {mods.week && (
           <section className="module p-5">
-            <h2 className="mb-4 font-black">Esta semana</h2>
+            <h2 className="mb-4 flex items-center gap-2 font-black">
+              <IcoFlame size={22} /> Esta semana
+            </h2>
             <ol className="flex justify-between">
               {week.map((d) => {
                 const ok = d.xp >= goal;
@@ -204,8 +214,8 @@ export default async function Today() {
                 const wd = new Date(d.day + "T12:00:00Z").getUTCDay();
                 return (
                   <li key={d.day} className="flex flex-col items-center gap-1">
-                    <span className={`grid h-9 w-9 place-items-center rounded-full text-sm font-black ${ok ? "bg-fire text-white" : fz ? "bg-[#dcecfa] text-[#0b6bb5]" : d.xp > 0 ? "bg-fire-soft text-fire" : "bg-surface-2 text-muted"} ${d.day === today ? "ring-2 ring-fire ring-offset-2 ring-offset-surface" : ""}`}>
-                      {ok ? <Flame size={16} fill="currentColor" aria-hidden /> : fz ? <Snowflake size={15} aria-hidden /> : DAYS[wd]}
+                    <span className={`grid h-9 w-9 place-items-center rounded-full text-sm font-black ${ok ? "bg-fire-soft text-fire" : fz ? "bg-[#dcecfa] text-[#0b6bb5]" : d.xp > 0 ? "bg-fire-soft text-fire" : "bg-surface-2 text-muted"} ${d.day === today ? "ring-2 ring-fire ring-offset-2 ring-offset-surface" : ""}`}>
+                      {ok ? <IcoFlame size={22} /> : fz ? <IcoIce size={20} /> : DAYS[wd]}
                     </span>
                     <span className="sr-only">
                       {d.day}: {fz ? "protegido con protector de racha (no estudiado)" : `${d.xp} XP`}
@@ -220,7 +230,9 @@ export default async function Today() {
 
         {mods.load && (
           <Link href="/repaso" className="module p-5">
-            <h2 className="mb-3 font-black">Próximos repasos</h2>
+            <h2 className="mb-3 flex items-center gap-2 font-black">
+              <IcoCards size={22} /> Próximos repasos
+            </h2>
             {load.some((d) => d.n > 0) ? (
               <div className="flex h-20 items-end gap-2" role="img" aria-label={`Repasos por día: ${load.map((d) => d.n).join(", ")}`}>
                 {load.map((d, i) => {
@@ -242,7 +254,9 @@ export default async function Today() {
 
         {mods.challenges && (
           <section className="module p-5">
-            <h2 className="mb-3 font-black">Retos de la semana</h2>
+            <h2 className="mb-3 flex items-center gap-2 font-black">
+              <IcoTrophy size={22} /> Retos de la semana
+            </h2>
             <ul className="flex flex-col gap-3">
               {weekly.map((w) => (
                 <li key={w.id}>
@@ -259,7 +273,9 @@ export default async function Today() {
 
         {mods.goal && (
           <section className="module p-5">
-            <h2 className="mb-1 font-black">Tu objetivo</h2>
+            <h2 className="mb-1 flex items-center gap-2 font-black">
+              <IcoChart size={22} /> Tu objetivo
+            </h2>
             <p className="text-sm text-muted">{profile.goalMinutes} min al día · {profile.dailyNew} expresiones nuevas como máximo.</p>
             <p className="mt-3 text-sm font-bold">
               {learned} en estudio · {mastered} consolidadas
@@ -270,10 +286,45 @@ export default async function Today() {
           </section>
         )}
 
+        <section className="module p-5">
+          <div className="mb-3 flex items-baseline justify-between">
+            <h2 className="flex items-center gap-2 font-black">
+              <IcoBook size={22} /> Mis colecciones
+            </h2>
+            <Link href="/biblioteca/colecciones" className="text-sm font-extrabold text-brand-ink">
+              {cols.length ? "Ver todas" : "Crear"}
+            </Link>
+          </div>
+          {cols.length ? (
+            <ul className="flex flex-col gap-2">
+              {cols.slice(0, 3).map((c) => (
+                <li key={c.id}>
+                  <Link href={`/sesion?coleccion=${c.id}`} className="flex items-center justify-between gap-3 rounded-[var(--r-md)] bg-surface-2 px-3 py-2.5 font-bold">
+                    <span className="truncate">{c.name}</span>
+                    <span className="shrink-0 text-sm text-muted">{c.due ? `${c.due} listos` : `${c.n} entradas`}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-sm text-muted">Guarda palabras de una canción, una serie o una entrevista y estudia solo esas.</p>
+          )}
+        </section>
+
+        {word && (
+          <Link href={`/biblioteca/${word.id}`} className="module flex flex-col gap-1 p-5">
+            <span className="text-xs font-bold text-muted">Palabra frecuente de tu nivel que aún no estudias</span>
+            <span className="font-display text-2xl font-extrabold" lang="en">
+              {word.term}
+            </span>
+            <span className="text-sm text-muted">{word.es}</span>
+          </Link>
+        )}
+
         {mods.achievement && nextAch && (
           <Link href="/progreso#logros" className="module flex items-center gap-4 p-5">
             <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-fire-soft text-fire">
-              <Trophy size={22} aria-hidden />
+              <IcoTrophy size={30} />
             </span>
             <span className="min-w-0 flex-1">
               <span className="block text-xs font-bold text-muted">Próximo logro</span>

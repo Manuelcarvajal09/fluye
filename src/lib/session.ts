@@ -58,11 +58,13 @@ export type SessionKind = "daily" | "mission" | "return";
 /** Días sin estudiar a partir de los cuales la sesión se vuelve "de regreso": más repaso, menos nuevo. */
 export const RETURN_AFTER_DAYS = 4;
 
-export async function buildSession(profile: Profile, minutes: number, opts: { trackId?: string } = {}, now = new Date()) {
+export async function buildSession(profile: Profile, minutes: number, opts: { trackId?: string; only?: string[] } = {}, now = new Date()) {
   const d = db();
   const budget = Math.max(12, Math.round(minutes * 4));
   const userLevel = levelIndex(profile.level);
   const mission = opts.trackId ? getTrack(opts.trackId) : undefined;
+  // Estudiar una colección: solo sus entradas (repasos vencidos + las que aún no activas), con el mismo motor FSRS.
+  const only = opts.only ? new Set(opts.only) : null;
   const st = settingsOf(profile);
   const understandOnly = (it: Item) => goalOf(it as ItemFull, st.goals?.[it.id]) === "understand";
 
@@ -92,7 +94,7 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     if (dueSteps.length >= Math.round(budget * (kind === "mission" ? 0.4 : kind === "return" ? 0.85 : 0.75))) break;
     const item = getItem(c.itemId);
     // Una sola modalidad por expresión y sesión: así reconocerla no "regala" la respuesta al producirla o escucharla.
-    if (!item || seenModes.has(c.itemId)) continue;
+    if (!item || seenModes.has(c.itemId) || (only && !only.has(c.itemId))) continue;
     seenModes.add(c.itemId);
     dueSteps.push(stepFor(item, c.mode as Mode, false, c.state));
   }
@@ -126,6 +128,21 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true));
     for (const task of track.production.slice(0, minutes >= 15 ? 3 : 2)) steps.push({ kind: "task", task });
     return { steps, lessonId, newCount: fresh.length, dueCount: due.length, kind, away: Math.floor(away) };
+  }
+
+  if (only) {
+    const cap = Math.max(3, Math.min(Math.floor((budget - dueSteps.length) / 3), 10));
+    for (const id of only) {
+      const it = getItem(id);
+      if (it && !knownIds.has(id) && fresh.length < cap) fresh.push(it);
+    }
+    for (const it of fresh) {
+      steps.push({ kind: "intro", item: it });
+      steps.push(stepFor(it, "recog", true));
+    }
+    steps.push(...shuffle(dueSteps));
+    for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true));
+    return { steps, lessonId, newCount: fresh.length, dueCount: dueSteps.length, kind: "daily" as SessionKind, away: Math.floor(away) };
   }
 
   const lesson = kind === "return" ? undefined : LESSONS.find((l) => !doneIds.has(l.id) && levelIndex(l.level) <= userLevel + 1);
