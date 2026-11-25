@@ -2,7 +2,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { X, Check, Languages, Lightbulb } from "lucide-react";
-import { IcoBoost, IcoBolt, IcoCoin, IcoFlame, IcoHeart, IcoShield, IcoTarget } from "../Icons";
+import { IcoBoost, IcoBolt, IcoFlame, IcoHeart, IcoShield, IcoTarget } from "../Icons";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { GradedStep, Step, Mode } from "@/lib/types";
 import { TYPE_LABEL, plain } from "@/lib/types";
@@ -55,7 +55,6 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
   const [hearts, setHearts] = useState(lives);
   const [shieldOn, setShieldOn] = useState(shield > 0);
   const [lifeNote, setLifeNote] = useState<LifeNote | null>(null);
-  const [coins, setCoins] = useState(0);
   const [lost, setLost] = useState(0);
   const [boosted] = useState(() => !!boostUntil && Date.parse(boostUntil) > Date.now());
   const note = useCallback((kind: LifeNote["kind"], text: string) => {
@@ -187,7 +186,6 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
           for (const m of r.missions ?? []) toast(`Misión completada: ${m} (+20 XP)`, "mission");
           if (r.gained) setXp((x) => x + r.gained);
           if (r.gems) setGems((g) => g + r.gems);
-          if (r.coins) setCoins((c) => c + r.coins);
           // El servidor manda: corrige la predicción local de vidas y protección.
           if (r.life) {
             setHearts(r.life.lives);
@@ -253,7 +251,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
     if (step.kind === "question") setLessonScore((s2) => ({ right: s2.right + (ok ? 1 : 0), total: s2.total + 1 }));
   };
 
-  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} hearts={hearts} lost={lost} coins={coins} />;
+  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} hearts={hearts} lost={lost} />;
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pt-[max(env(safe-area-inset-top),1rem)] 2xl:max-w-3xl">
@@ -690,7 +688,7 @@ function FeedbackBar({ fb, gradable, onContinue }: { fb: NonNullable<Feedback>; 
   );
 }
 
-function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta, hearts, lost, coins }: { hearts: number; lost: number; coins: number; xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
+function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta, hearts, lost }: { hearts: number; lost: number; xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
   const topErr = (Object.entries(errs) as [ErrorCategory, number][]).sort((a, b) => b[1] - a[1])[0];
   const celebrate = useCelebrations();
   const look = useLook();
@@ -761,12 +759,6 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
         </p>
         <Bar value={after.into} max={after.span} color="var(--accent)" label="Progreso de nivel" />
       </div>
-      {coins > 0 && (
-        <p className="animate-pop relative flex items-center gap-2 rounded-full bg-[var(--gold-soft)] px-4 py-2 font-black text-[#8a5a00]">
-          <Burst kind="stars" count={10} spread={70} size={14} />
-          <IcoCoin size={20} /> +{coins} monedas por estudiar
-        </p>
-      )}
       {hearts === 0 && (
         <p className="rounded-2xl bg-bad-soft px-4 py-3 text-sm font-bold text-bad">
           Te quedaste sin vidas, pero tu progreso cuenta igual. Recupéralas repasando (cada 8 aciertos en Repaso devuelven 1) y mañana recibes una extra.{" "}

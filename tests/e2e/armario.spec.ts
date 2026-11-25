@@ -23,7 +23,7 @@ const api = async (page: Page, url: string, data: unknown) => {
   const r = await page.request.post(url, { data });
   return { status: r.status(), ...(await r.json().catch(() => ({}))) } as Record<string, any>; // eslint-disable-line @typescript-eslint/no-explicit-any
 };
-const profile = async (id: string) => (await sql().query("select coins, gems, lives, shield, boosts, settings from profiles where user_id = $1", [id]))[0] as { coins: number; gems: number; lives: number; shield: number; boosts: number; settings: { look?: { sets?: Record<string, string[]> } } };
+const profile = async (id: string) => (await sql().query("select gems, lives, shield, boosts, settings from profiles where user_id = $1", [id]))[0] as { gems: number; lives: number; shield: number; boosts: number; settings: { look?: { sets?: Record<string, string[]> } } };
 const key = () => crypto.randomUUID();
 
 test.describe.configure({ mode: "serial" });
@@ -42,7 +42,7 @@ test.beforeAll(async () => {
   }
   await q.query("insert into profiles (user_id, name, onboarded_at) values ($1, 'Amiga', now()) on conflict (user_id) do nothing", [B]);
   await q.query("insert into profiles (user_id, name, onboarded_at) values ($1, 'Prueba', now()) on conflict (user_id) do update set onboarded_at = coalesce(profiles.onboarded_at, now())", [A]);
-  await q.query("update profiles set coins = 2000, gems = 60, lives = 5, shield = 0, boosts = 2, lives_day = null, friend_code = null, settings = settings - 'look' where user_id = any($1)", [[A, B]]);
+  await q.query("update profiles set gems = 2000, lives = 5, shield = 0, boosts = 2, lives_day = null, friend_code = null, settings = settings - 'look' where user_id = any($1)", [[A, B]]);
 });
 
 test("armario: probar, comprar, guardar un conjunto por mascota y validar en el servidor", async ({ browser }) => {
@@ -60,10 +60,10 @@ test("armario: probar, comprar, guardar un conjunto por mascota y validar en el 
   await page.screenshot({ path: `${SHOTS}/pc_armario-probando.png` });
   // Comprar la gorra y guardar gorra + lentes.
   await page.getByRole("button", { name: "Quitar Corona", exact: true }).click();
-  const before = (await profile(A)).coins;
-  await page.getByRole("button", { name: "Comprar Gorra violeta por 35 monedas" }).click();
+  const before = (await profile(A)).gems;
+  await page.getByRole("button", { name: "Comprar Gorra violeta por 35 gemas" }).click();
   await expect(page.getByText("¡Gorra violeta es tuya!")).toBeVisible();
-  expect((await profile(A)).coins).toBe(before - 35);
+  expect((await profile(A)).gems).toBe(before - 35);
   await page.getByRole("button", { name: "Cara", exact: true }).click();
   await page.getByRole("button", { name: "Probar Lentes redondos" }).click();
   await page.getByRole("button", { name: "Guardar conjunto" }).click();
@@ -75,10 +75,10 @@ test("armario: probar, comprar, guardar un conjunto por mascota y validar en el 
   expect((await api(page, "/api/shop", { action: "equip", species: "zorro", wear: ["crown"] })).status).toBe(403);
   expect((await api(page, "/api/shop", { action: "equip", species: "ajolote", wear: [] })).status).toBe(403);
   const k = key();
-  const c0 = (await profile(A)).coins;
+  const c0 = (await profile(A)).gems;
   expect((await api(page, "/api/shop", { action: "buy", kind: "piece", id: "bowtie", key: k })).ok).toBe(true);
   await api(page, "/api/shop", { action: "buy", kind: "piece", id: "bowtie", key: k });
-  expect((await profile(A)).coins).toBe(c0 - 65);
+  expect((await profile(A)).gems).toBe(c0 - 65);
   // Las piezas de logro no se compran.
   expect((await api(page, "/api/shop", { action: "buy", kind: "piece", id: "racha-360", key: key() })).ok).toBe(false);
   // Otra mascota conserva su propio conjunto.
@@ -92,11 +92,11 @@ test("armario: probar, comprar, guardar un conjunto por mascota y validar en el 
   await page.context().close();
 });
 
-test("cofres: cobran una vez, salen vacíos y repetidos, y la cuenta de monedas cuadra", async ({ browser }) => {
+test("cofres: cobran una vez, salen vacíos y repetidos, y la cuenta de gemas cuadra", async ({ browser }) => {
   test.setTimeout(300_000);
   const page = await login(browser, TEST_EMAIL);
-  await sql().query("update profiles set coins = 3000 where user_id = $1", [A]);
-  const start = (await profile(A)).coins;
+  await sql().query("update profiles set gems = 3000 where user_id = $1", [A]);
+  const start = (await profile(A)).gems;
   const seen = { empty: 0, new: 0, dup: 0 };
   let refunds = 0;
   for (let n = 0; n < 45; n++) {
@@ -109,18 +109,18 @@ test("cofres: cobran una vez, salen vacíos y repetidos, y la cuenta de monedas 
   }
   expect(seen.empty).toBeGreaterThan(0);
   expect(seen.dup).toBeGreaterThan(0);
-  expect((await profile(A)).coins).toBe(start - 45 * 20 + refunds);
+  expect((await profile(A)).gems).toBe(start - 45 * 20 + refunds);
   // Repetir la misma clave no vuelve a cobrar.
   const k = key();
-  const c0 = (await profile(A)).coins;
+  const c0 = (await profile(A)).gems;
   await api(page, "/api/shop", { action: "chest", chest: "aurora", key: k });
   const again = await api(page, "/api/shop", { action: "chest", chest: "aurora", key: k });
   expect(again.ok).toBe(false);
-  const after = (await profile(A)).coins;
+  const after = (await profile(A)).gems;
   expect(c0 - after).toBeLessThanOrEqual(34);
   // Interfaz: un cofre real y el modo de prueba con vacío, repetido y legendario.
   await page.goto("/tienda?tab=cofres");
-  await page.getByRole("button", { name: /Abrir Cofre brote por 28 monedas/ }).click();
+  await page.getByRole("button", { name: /Abrir Cofre brote por 28 gemas/ }).click();
   await expect(page.getByRole("button", { name: "Seguir" })).toBeEnabled({ timeout: 8000 });
   await page.screenshot({ path: `${SHOTS}/pc_cofre-real.png` });
   await page.getByRole("button", { name: "Seguir" }).click();

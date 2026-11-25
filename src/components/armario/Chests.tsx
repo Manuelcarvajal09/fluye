@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import { Mascot } from "../Mascot";
 import { Burst } from "../Burst";
-import { IcoCoin } from "../Icons";
+import { IcoGem } from "../Icons";
 import { opKey } from "../wallet";
 import { centerOf, post } from "./api";
 import { playSfx } from "@/lib/audio/sfx";
@@ -19,7 +19,7 @@ const CHEST_COLORS = [
 export const TIER_COLOR = ["#7c9a8e", "#3f9be8", "#9b6cf0", "#f5b31b"] as const;
 
 /** Cofres: probabilidades visibles antes de comprar, regla de repetidos explicada y modo de prueba sin cobro. */
-export function Chests({ look, coins, onGot }: { look: Look; coins: number; onGot: (inventoryKey: string) => void }) {
+export function Chests({ look, gems, onGot }: { look: Look; gems: number; onGot: (inventoryKey: string) => void }) {
   const [scene, setScene] = useState<{ chest: number; result: Outcome; test: boolean } | null>(null);
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
@@ -75,9 +75,9 @@ export function Chests({ look, coins, onGot }: { look: Look; coins: number; onGo
                 ))}
               </tbody>
             </table>
-            <p className="text-xs text-muted">Repetido: te devolvemos {dupRefund(c)} monedas.</p>
-            <button type="button" className="btn btn-accent w-full" disabled={busy || coins < c.price} onClick={(e) => open(i, e.currentTarget)} aria-label={`Abrir ${c.name} por ${c.price} monedas`}>
-              Abrir por <IcoCoin size={18} /> {c.price}
+            <p className="text-xs text-muted">Repetido: te devolvemos {dupRefund(c)} gemas.</p>
+            <button type="button" className="btn btn-accent w-full" disabled={busy || gems < c.price} onClick={(e) => open(i, e.currentTarget)} aria-label={`Abrir ${c.name} por ${c.price} gemas`}>
+              Abrir por <IcoGem size={18} /> {c.price}
             </button>
           </li>
         ))}
@@ -175,7 +175,7 @@ export function ChestScene({ look, chest, result, test, onClose }: { look: Look;
     result.outcome === "empty"
       ? "No pasa nada: el siguiente puede traer algo especial."
       : result.outcome === "dup"
-        ? `Ya tenías ${result.name}. Conservas una copia y recuperas ${result.refund} monedas.`
+        ? `Ya tenías ${result.name}. Conservas una copia y recuperas ${result.refund} gemas.`
         : `${result.name} ${result.type === "pet" ? "se une a tu equipo" : "ya está en tu armario"}.`;
   const itemSrc = result.type === "pet" ? `/mascots/${result.id}-happy.webp` : `/armario/items/${result.id}.webp`;
 
@@ -209,7 +209,7 @@ export function ChestScene({ look, chest, result, test, onClose }: { look: Look;
               <p className="max-w-sm font-bold text-muted">{text}</p>
               {result.outcome === "dup" && (
                 <p className="flex items-center gap-1 font-black text-good">
-                  +{result.refund} <IcoCoin size={18} />
+                  +{result.refund} <IcoGem size={18} />
                 </p>
               )}
             </div>

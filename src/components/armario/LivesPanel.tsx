@@ -1,13 +1,13 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { IcoBoost, IcoCards, IcoCoin, IcoGem, IcoGift, IcoHeart, IcoIce, IcoShield } from "../Icons";
+import { IcoBoost, IcoCards, IcoGem, IcoGift, IcoHeart, IcoIce, IcoShield } from "../Icons";
 import { opKey, type Wallet } from "../wallet";
 import { centerOf, post } from "./api";
 import { BOOST, LIVES } from "@/lib/wardrobe";
 import { playSfx } from "@/lib/audio/sfx";
 
-/** Vidas, protección (gemas), potenciadores (monedas) y protector de racha. Explica cómo se gana y se gasta cada cosa. */
+/** Vidas, protección (gemas), potenciadores y protector de racha. Explica cómo se gana y se gasta cada cosa. */
 export function LivesPanel({ wallet: w, freezes: initialFreezes, practice }: { wallet: Wallet; freezes: number; practice: { today: number; earned: number } }) {
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<{ text: string; ok: boolean } | null>(null);
@@ -88,8 +88,8 @@ export function LivesPanel({ wallet: w, freezes: initialFreezes, practice }: { w
           {boostLeft > 0 && <span className="ml-2 rounded-full bg-good-soft px-2 py-0.5 text-good">Activo · {boostLeft} min</span>}
         </p>
         <div className="flex flex-wrap gap-2">
-          <button type="button" className="btn btn-accent" disabled={busy || w.coins < BOOST.price} onClick={(e) => act({ action: "boost-buy" }, "Potenciador guardado.", `Compraste: ${BOOST.label}`, e.currentTarget)}>
-            Comprar por <IcoCoin size={18} /> {BOOST.price}
+          <button type="button" className="btn btn-accent" disabled={busy || w.gems < BOOST.price} onClick={(e) => act({ action: "boost-buy" }, "Potenciador guardado.", `Compraste: ${BOOST.label}`, e.currentTarget)}>
+            Comprar por <IcoGem size={18} /> {BOOST.price}
           </button>
           <button type="button" className="btn btn-ghost boost-btn" disabled={busy || w.boosts < 1} onClick={(e) => act({ action: "boost-use" }, `¡Doble XP durante ${BOOST.minutes} minutos!`, `Activaste: ${BOOST.label}`, e.currentTarget)}>
             Activar uno

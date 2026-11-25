@@ -5,7 +5,7 @@ import type { Profile } from "./user";
 import { goalXp, localDay, missionsFor, nextStreak, XP, type DayCounters } from "./game";
 import { applyFreezes, awardGems } from "./rewards";
 import { GEMS } from "./challenges";
-import { boostActive, settleAwards, studyCoins } from "./economy";
+import { boostActive, settleAwards, studyGems } from "./economy";
 
 export type Delta = Partial<DayCounters> & { seconds?: number };
 
@@ -75,9 +75,9 @@ export async function recordProgress(original: Profile, input: Delta) {
   if (reachedNow && (await awardGems(profile.userId, `goal:${today}`, GEMS.dailyGoal, "Meta diaria"))) gems += GEMS.dailyGoal;
   for (const m of newly) if (await awardGems(profile.userId, `mission:${today}:${m.id}`, GEMS.dailyMission, `Reto diario: ${m.label}`)) gems += GEMS.dailyMission;
 
-  const coins = await studyCoins(profile.userId, today, gained, reachedNow);
+  gems += await studyGems(profile.userId, today, gained);
   const awards = reachedNow || (await isFirstReview(profile.userId)) ? await settleAwards({ ...profile, streak }) : [];
-  return { gems, coins, boosted, awards, gained, dayXp, goal: goalXp(profile.goalMinutes), goalReached: reachedNow, streak, missions: newly.map((m) => m.label) };
+  return { gems, boosted, awards, gained, dayXp, goal: goalXp(profile.goalMinutes), goalReached: reachedNow, streak, missions: newly.map((m) => m.label) };
 }
 
 /** ¿Es su primer repaso? (barato: no cuenta toda la tabla). */

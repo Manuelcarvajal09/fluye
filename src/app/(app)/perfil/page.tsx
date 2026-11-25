@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { asc, eq } from "drizzle-orm";
 import { Settings, ShieldCheck, ChevronRight, Download, Shirt, Users } from "lucide-react";
-import { IcoCoin, IcoGem, IcoHeart, IcoIce } from "@/components/Icons";
+import { IcoGem, IcoHeart, IcoIce } from "@/components/Icons";
 import { UserButton } from "@clerk/nextjs";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { isOwner } from "@/lib/access";
@@ -72,9 +72,6 @@ export default async function ProfilePage() {
               <p className="mt-1 text-[11px] text-muted">No es tu nivel de inglés.</p>
             </div>
             <div className="flex flex-col gap-1 rounded-[var(--r-md)] bg-surface/80 p-3 text-sm font-black">
-              <span className="flex items-center gap-1.5">
-                <IcoCoin size={18} /> {profile.coins} monedas
-              </span>
               <span className="flex items-center gap-1.5">
                 <IcoGem size={18} /> {profile.gems} gemas
               </span>

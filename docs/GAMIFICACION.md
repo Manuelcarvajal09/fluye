@@ -10,7 +10,7 @@ Principios: premiar el **recuerdo real**, la **variedad** y la **constancia**; n
 
 ## Gemas (cosméticas)
 
-Solo por eventos, **nunca por respuesta suelta** (no se pueden «granjear» repitiendo ejercicios):
+Por eventos (tabla) y por XP de estudio (que ya premia el recuerdo y no se puede «granjear» repitiendo: los reintentos no suman):
 
 | Evento | Gemas | Clave idempotente |
 |---|---|---|
@@ -39,9 +39,9 @@ Desactivados por defecto. Solo entre miembros que lo activen. Se comparte única
 
 Código: `src/lib/wardrobe.ts` (catálogo, composición, cofres), `src/lib/economy.ts` (saldos), `src/lib/social.ts` (amistades y regalos). Cada movimiento queda en `wallet_events` con una clave única: repetir una petición no cobra ni paga dos veces.
 
-- **Monedas** compran prendas, accesorios, mascotas, cofres y potenciadores. Se ganan estudiando: 1 por cada 4 XP (un movimiento agrupado por día, `study:<día>`) y 10 al cumplir la meta (`goal-coins:<día>`). Saldo inicial: 120.
-- **Gemas** siguen saliendo de metas y retos (tabla de arriba) y se usan para la **protección de vida** (5 gemas) y el protector de racha (50).
-- **Rarezas y precios directos**: Normal 35 · Raro 65 · Épico 105 · Legendario 160 monedas. Mascotas nuevas: +25 (conejo 60, nutria y ciervo 90, panda rojo 130, ajolote 185). Las 7 mascotas originales son gratis.
+- **Una sola moneda: las gemas** (desde 3.2; el saldo de monedas de cada cuenta pasó íntegro a gemas). Compran prendas, accesorios, mascotas, cofres, potenciadores, la protección de vida (5) y el protector de racha (50).
+- Se ganan con la tabla de arriba (meta, retos, misiones) y además estudiando: 1 por cada 4 XP (un movimiento agrupado por día, `study-gems:<día>`). Saldo inicial de cuentas nuevas: 120.
+- **Rarezas y precios directos**: Normal 35 · Raro 65 · Épico 105 · Legendario 160 gemas. Mascotas nuevas: +25 (conejo 60, nutria y ciervo 90, panda rojo 130, ajolote 185). Las 7 mascotas originales son gratis.
 - **Inicio**: todas las cuentas tienen la flor y los lentes redondos. Las cuentas que ya existían conservan además el gorro, los audífonos y la bufanda (antes gratuitos) y todo lo comprado con gemas.
 - **Logros** (solo se ganan, una vez cada uno): rachas de 5, 10, 30, 60, 120 y 360 días (mejor racha de meta cumplida), primer repaso y primera amistad.
 - **Conjuntos**: una pieza por zona (cuerpo, cuello, pecho, cara, cabeza, cabello) y un conjunto guardado por mascota. Todo se puede probar antes de tenerlo; solo se guarda lo que es tuyo (validado en el servidor).
@@ -71,7 +71,7 @@ Código: `src/lib/wardrobe.ts` (catálogo, composición, cofres), `src/lib/econo
 - Clasificación semanal por XP de estudio desde el lunes.
 - Regalos: **carta** (gratis, hasta 280 caracteres), **gemas** (1–20, se descuentan al enviar) y **potenciador** (uno de los tuyos). Hasta 5 regalos al día.
 - Se cobra al enviar (clave `gift:<id>` y `client_key` única por envío) y se entrega al abrir (`opened_at` condicional + `gift-in:<id>`): repetir el envío o abrir otra vez no duplica nada. Un agradecimiento por regalo; el remitente lo ve en «Enviados».
-- **Potenciador**: doble XP durante 15 minutos (40 monedas). No cambia FSRS ni los repasos.
+- **Potenciador**: doble XP durante 15 minutos (40 gemas). No cambia FSRS ni los repasos.
 
 ## Controles
 

@@ -15,12 +15,12 @@ export const profiles = pgTable("profiles", {
   lastGoalDay: date("last_goal_day"),
   settings: jsonb("settings").$type<Record<string, unknown>>().notNull().default({}),
   onboardedAt: timestamp("onboarded_at", { withTimezone: true }),
-  /** Moneda cosmética (nunca afecta FSRS ni bloquea aprendizaje). */
-  gems: integer("gems").notNull().default(0),
+  /** Gemas: la única moneda de la app (cosmética; nunca afecta FSRS ni bloquea el aprendizaje). Saldo inicial 120. */
+  gems: integer("gems").notNull().default(120),
   /** Protectores de racha disponibles (máx. 2). */
   freezes: smallint("freezes").notNull().default(0),
-  /** Monedas del armario (prendas, accesorios, mascotas, cofres y potenciadores). Saldo inicial 120. */
-  coins: integer("coins").notNull().default(120),
+  /** Retirada en 3.2: su saldo pasó a gemas. Se conserva la columna solo por compatibilidad de datos. */
+  coins: integer("coins").notNull().default(0),
   /** Vidas: se pierden con errores en lecciones (nunca bloquean el estudio) y se recuperan practicando. */
   lives: smallint("lives").notNull().default(5),
   /** Último día local en que se entregó la vida extra diaria. */
@@ -35,13 +35,13 @@ export const profiles = pgTable("profiles", {
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
-/** Movimientos de monedas, gemas, vidas y potenciadores con clave idempotente: cada premio o cargo ocurre una sola vez. */
+/** Movimientos de gemas, vidas y potenciadores con clave idempotente: cada premio o cargo ocurre una sola vez. */
 export const walletEvents = pgTable(
   "wallet_events",
   {
     userId: text("user_id").notNull(),
     key: text("key").notNull(),
-    currency: text("currency").notNull(), // coins | gems | lives | shield | boosts
+    currency: text("currency").notNull(), // gems | lives | shield | boosts (coins: histórico)
     amount: integer("amount").notNull(),
     reason: text("reason").notNull(),
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),

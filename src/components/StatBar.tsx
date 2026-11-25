@@ -1,20 +1,19 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { IcoBolt, IcoCoin, IcoFlame, IcoFlameOff, IcoGem, IcoHeart, IcoShield } from "./Icons";
+import { IcoFlame, IcoFlameOff, IcoGem, IcoHeart, IcoShield } from "./Icons";
 import { Logo } from "./Nav";
-import { ThemeToggle } from "./ThemeToggle";
 import { onWalletChange, seedWallet, setWallet, useWallet, type Change, type Wallet } from "./wallet";
 
-type Field = "streak" | "coins" | "gems" | "lives";
-const ICON: Record<Field, (p: { size?: number; className?: string }) => React.ReactNode> = { streak: IcoFlame, coins: IcoCoin, gems: IcoGem, lives: IcoHeart };
-const NAME: Record<Field, [string, string]> = { streak: ["día de racha", "días de racha"], coins: ["moneda", "monedas"], gems: ["gema", "gemas"], lives: ["vida", "vidas"] };
+type Field = "streak" | "gems" | "lives";
+const ICON: Record<Field, (p: { size?: number; className?: string }) => React.ReactNode> = { streak: IcoFlame, gems: IcoGem, lives: IcoHeart };
+const NAME: Record<Field, [string, string]> = { streak: ["día de racha", "días de racha"], gems: ["gema", "gemas"], lives: ["vida", "vidas"] };
 
 /**
- * Cabecera: marca (en móvil), racha, monedas, gemas, vidas y XP, y cambio de tema.
+ * Cabecera: isotipo a la izquierda (en móvil) y, pegados a la derecha, racha, gemas y vidas. El tema se cambia en Ajustes.
  * Cada cambio de saldo anima su contador, muestra cuánto cambió y por qué, y las piezas ganadas vuelan hacia él.
  */
-export function StatBar({ wallet: initial, xp }: { wallet: Wallet; xp: number }) {
+export function StatBar({ wallet: initial }: { wallet: Wallet }) {
   seedWallet(initial);
   const w = useWallet(initial);
   const sig = JSON.stringify(initial);
@@ -61,13 +60,12 @@ export function StatBar({ wallet: initial, xp }: { wallet: Wallet; xp: number })
   };
   return (
     <div className="statbar">
-      <Link href="/hoy" className="mr-auto flex items-center gap-2 font-display text-xl font-black lg:hidden" aria-label="Fluye, ir a Hoy">
-        <Logo size={30} /> <span className="max-[419px]:hidden">Fluye</span>
+      <Link href="/hoy" className="mr-auto flex items-center lg:hidden" aria-label="Fluye, ir a Hoy">
+        <Logo size={34} />
       </Link>
       <div className="flex items-center gap-0.5" role="group" aria-label="Tus contadores">
         {stat("streak", "/progreso", `${w.streak} ${w.streak === 1 ? "día" : "días"} de racha. Ver calendario`, w.streak, "stat-fire")}
-        {stat("coins", "/tienda", `${w.coins} monedas. Abrir el armario`, w.coins, "stat-coin")}
-        {stat("gems", "/tienda?tab=vidas", `${w.gems} gemas. Usar gemas`, w.gems, "stat-gem")}
+        {stat("gems", "/tienda", `${w.gems} gemas. Abrir el armario`, w.gems, "stat-gem")}
         {stat(
           "lives",
           "/tienda?tab=vidas",
@@ -80,11 +78,7 @@ export function StatBar({ wallet: initial, xp }: { wallet: Wallet; xp: number })
             </span>
           ) : null,
         )}
-        <Link href="/progreso#rango" className="stat stat-xp max-sm:hidden" aria-label={`${xp} XP en total. Ver rango`}>
-          <IcoBolt size={22} /> {xp.toLocaleString("es-MX")}
-        </Link>
       </div>
-      <ThemeToggle />
       <p className="sr-only" aria-live="polite">
         {said}
       </p>
@@ -96,7 +90,7 @@ export function StatBar({ wallet: initial, xp }: { wallet: Wallet; xp: number })
 function fly(f: Field, from: { x: number; y: number }, to: HTMLElement | null | undefined, n: number) {
   if (!to || matchMedia("(prefers-reduced-motion: reduce)").matches || document.documentElement.dataset.motion === "reduced") return;
   const r = to.getBoundingClientRect();
-  const color = f === "coins" ? "#ffc53d" : f === "gems" ? "#7c6cf0" : f === "lives" ? "#ff5a79" : "#ff8a3d";
+  const color = f === "gems" ? "#7c6cf0" : f === "lives" ? "#ff5a79" : "#ff8a3d";
   for (let i = 0; i < n; i++) {
     const el = document.createElement("span");
     el.className = "fly-token";

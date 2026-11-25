@@ -14,7 +14,7 @@
   --brand-soft: #dcf7ec;
   --accent: #5847d4;
   --accent-soft: #eee7ff;
-  --fire: #b45309;
+  --fire: #a1470a;
   --fire-soft: #ffe8d7;
   --bad: #bc304b;
   --bad-soft: #ffe2e9;
@@ -56,17 +56,17 @@
 
 /* Paletas de acento (verificadas con scripts/palette-check.mjs: contraste WCAG AA). El atributo data-accent va en <html>. */
 [data-accent="esmeralda"] { --brand: #087a56; --brand-ink: #065a40; --brand-soft: #dcf7ec; --accent: #5847d4; --accent-soft: color-mix(in oklab, #5847d4 14%, white); }
-[data-theme="dark"][data-accent="esmeralda"] { --brand: #22d3a0; --brand-ink: #5eead0; --brand-soft: #0f2e26; --accent: #9b8cff; --accent-soft: color-mix(in oklab, #9b8cff 22%, #192337); }
+[data-theme="dark"][data-accent="esmeralda"] { --brand: #22d3a0; --brand-ink: #5eead0; --brand-soft: #0f2e26; --accent: #a89bff; --accent-soft: color-mix(in oklab, #9b8cff 14%, #192337); }
 [data-accent="oceano"] { --brand: #0b6bb5; --brand-ink: #084e84; --brand-soft: #dcecfa; --accent: #6d3fd0; --accent-soft: color-mix(in oklab, #6d3fd0 14%, white); }
-[data-theme="dark"][data-accent="oceano"] { --brand: #4aa8f0; --brand-ink: #8cc9f7; --brand-soft: #0f2a40; --accent: #b39dff; --accent-soft: color-mix(in oklab, #b39dff 22%, #192337); }
+[data-theme="dark"][data-accent="oceano"] { --brand: #4aa8f0; --brand-ink: #8cc9f7; --brand-soft: #0f2a40; --accent: #b39dff; --accent-soft: color-mix(in oklab, #b39dff 14%, #192337); }
 [data-accent="uva"] { --brand: #6a3cc7; --brand-ink: #4a2899; --brand-soft: #ece4fb; --accent: #0b7a8a; --accent-soft: color-mix(in oklab, #0b7a8a 14%, white); }
-[data-theme="dark"][data-accent="uva"] { --brand: #a98bff; --brand-ink: #cbb8ff; --brand-soft: #2a1f4a; --accent: #4dd0e1; --accent-soft: color-mix(in oklab, #4dd0e1 22%, #192337); }
+[data-theme="dark"][data-accent="uva"] { --brand: #a98bff; --brand-ink: #cbb8ff; --brand-soft: #2a1f4a; --accent: #4dd0e1; --accent-soft: color-mix(in oklab, #4dd0e1 14%, #192337); }
 [data-accent="mandarina"] { --brand: #b8460a; --brand-ink: #8a3304; --brand-soft: #fde9d9; --accent: #2f5fd0; --accent-soft: color-mix(in oklab, #2f5fd0 14%, white); }
-[data-theme="dark"][data-accent="mandarina"] { --brand: #ffa04d; --brand-ink: #ffc08a; --brand-soft: #3a2410; --accent: #8fb0ff; --accent-soft: color-mix(in oklab, #8fb0ff 22%, #192337); }
+[data-theme="dark"][data-accent="mandarina"] { --brand: #ffa04d; --brand-ink: #ffc08a; --brand-soft: #3a2410; --accent: #8fb0ff; --accent-soft: color-mix(in oklab, #8fb0ff 14%, #192337); }
 [data-accent="fresa"] { --brand: #c0285c; --brand-ink: #8f1d44; --brand-soft: #fde4ec; --accent: #5847d4; --accent-soft: color-mix(in oklab, #5847d4 14%, white); }
-[data-theme="dark"][data-accent="fresa"] { --brand: #ff7fa5; --brand-ink: #ffadc6; --brand-soft: #3d1624; --accent: #9b8cff; --accent-soft: color-mix(in oklab, #9b8cff 22%, #192337); }
+[data-theme="dark"][data-accent="fresa"] { --brand: #ff7fa5; --brand-ink: #ffadc6; --brand-soft: #3d1624; --accent: #a89bff; --accent-soft: color-mix(in oklab, #9b8cff 14%, #192337); }
 [data-accent="grafito"] { --brand: #3f4a5a; --brand-ink: #2a3340; --brand-soft: #e6e9ee; --accent: #087a56; --accent-soft: color-mix(in oklab, #087a56 14%, white); }
-[data-theme="dark"][data-accent="grafito"] { --brand: #aab4c3; --brand-ink: #cdd5e0; --brand-soft: #232a35; --accent: #22d3a0; --accent-soft: color-mix(in oklab, #22d3a0 22%, #192337); }
+[data-theme="dark"][data-accent="grafito"] { --brand: #aab4c3; --brand-ink: #cdd5e0; --brand-soft: #232a35; --accent: #22d3a0; --accent-soft: color-mix(in oklab, #22d3a0 14%, #192337); }
 
 
 @theme inline {
@@ -619,8 +619,6 @@ details.expand[open] > summary .chev { transform: rotate(180deg); }
 :root[data-motion="reduced"] [class*="mascot-mood-"], :root[data-motion="reduced"] .mascot-bob, :root[data-motion="reduced"] .mascot-hop { animation: none !important; }
 
 /* ---------- Saldo: monedas, gemas, vidas y racha con animación de cambio ---------- */
-.stat-coin { color: #a86a00; }
-[data-theme="dark"] .stat-coin { color: #ffc53d; }
 .stat-heart { color: var(--bad); }
 @media (max-width: 420px) { .stat { padding: 0 0.42rem; gap: 0.2rem; font-size: 0.9rem; } }
 .stat-up { display: inline-flex; animation: stat-up 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); }

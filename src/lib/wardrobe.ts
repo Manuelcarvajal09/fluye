@@ -5,7 +5,7 @@ import data from "./armario-data.json";
 
 export const TIERS = ["Normal", "Raro", "Épico", "Legendario"] as const;
 export type Tier = 0 | 1 | 2 | 3;
-/** Precio directo en monedas por rareza. Las mascotas cuestan 25 más. */
+/** Precio directo en gemas por rareza. Las mascotas cuestan 25 más. */
 export const PRICE = [35, 65, 105, 160] as const;
 
 export const PETS = [
@@ -39,7 +39,7 @@ export const SLOTS: Slot[] = ["body", "neck", "chest", "face", "head", "hair"];
 export const SLOT_LABEL: Record<Slot, string> = { body: "Cuerpo", neck: "Cuello", chest: "Pecho", face: "Cara", head: "Cabeza", hair: "Cabello" };
 const KIND_SLOT: Record<string, Slot> = { coat: "body", scarf: "neck", bowtie: "neck", badge: "chest", glasses: "face", hat: "head", crown: "head", wizard: "head", arch: "head", flower: "hair" };
 
-/** Cómo se consigue: tienda (monedas o cofre), logro (solo ganándolo) o inicial (todas las cuentas). */
+/** Cómo se consigue: tienda (gemas o cofre), logro (solo ganándolo) o inicial (todas las cuentas). */
 export type Source = "shop" | "award" | "starter";
 
 const BASE: Record<string, [string, string, Tier, Source?]> = {

@@ -56,7 +56,7 @@ export function FlashReview({ cards }: { cards: Flash[] }) {
         .then((r) => (r.ok ? r.json() : null))
         .then((j) => {
           if (!j) return;
-          addWallet({ coins: j.coins ?? 0, gems: j.gems ?? 0 }, { reason: "Monedas por repasar" });
+          addWallet({ gems: j.gems ?? 0 }, { reason: "Gemas por repasar" });
           if (j.life?.change === "gained") setWallet({ lives: j.life.lives }, { reason: "Recuperaste una vida practicando" });
         })
         .catch(() => {});

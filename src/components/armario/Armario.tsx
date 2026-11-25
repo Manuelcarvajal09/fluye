@@ -1,10 +1,10 @@
 "use client";
 import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Check, Lock, RotateCcw, Save, Sparkles, X } from "lucide-react";
+import { Check, Lock, RotateCcw, Save, X } from "lucide-react";
 import { Mascot } from "../Mascot";
 import { Burst } from "../Burst";
-import { IcoChest, IcoCoin, IcoHeart, IcoShop, IcoStar } from "../Icons";
+import { IcoChest, IcoGem, IcoHeart, IcoShop, IcoStar } from "../Icons";
 import { opKey, useWallet, type Wallet } from "../wallet";
 import { post } from "./api";
 import { Chests } from "./Chests";
@@ -20,7 +20,7 @@ type Progress = { streak: number; review: number; friend: number };
 
 export const TIER_CLS = ["tier-0", "tier-1", "tier-2", "tier-3"] as const;
 
-/** Armario y tienda: probar cualquier pieza, comprar con monedas, guardar un conjunto por mascota, cofres y vidas. */
+/** Armario y tienda: probar cualquier pieza, comprar con gemas, guardar un conjunto por mascota, cofres y vidas. */
 export function Armario(props: { tab: Tab; owned: string[]; look: Look; wallet: Omit<Wallet, "streak">; freezes: number; newAwards: string[]; progress: Progress; practice: { today: number; earned: number }; moves: Move[] }) {
   const router = useRouter();
   const [tab, setTab] = useState<Tab>(props.tab);
@@ -41,7 +41,7 @@ export function Armario(props: { tab: Tab; owned: string[]; look: Look; wallet: 
           <h1 className="font-display text-4xl font-extrabold">Armario</h1>
         </div>
         <p className="flex items-center gap-2 rounded-full bg-surface px-4 py-2 font-black shadow-card">
-          <IcoCoin size={22} /> {w.coins} monedas
+          <IcoGem size={22} /> {w.gems} gemas
         </p>
       </header>
       {props.newAwards.length > 0 && (
@@ -56,9 +56,9 @@ export function Armario(props: { tab: Tab; owned: string[]; look: Look; wallet: 
           </button>
         ))}
       </div>
-      {tab === "armario" && <Wardrobe look={look} setLook={setLook} owned={owned} addOwned={addOwned} coins={w.coins} progress={props.progress} />}
-      {tab === "mascotas" && <Pets look={look} setLook={setLook} owned={owned} addOwned={addOwned} coins={w.coins} />}
-      {tab === "cofres" && <Chests look={look} coins={w.coins} onGot={(k) => (addOwned(k), router.refresh())} />}
+      {tab === "armario" && <Wardrobe look={look} setLook={setLook} owned={owned} addOwned={addOwned} gems={w.gems} progress={props.progress} />}
+      {tab === "mascotas" && <Pets look={look} setLook={setLook} owned={owned} addOwned={addOwned} gems={w.gems} />}
+      {tab === "cofres" && <Chests look={look} gems={w.gems} onGot={(k) => (addOwned(k), router.refresh())} />}
       {tab === "vidas" && <LivesPanel wallet={w} freezes={props.freezes} practice={props.practice} />}
       {tab === "movimientos" && <Moves moves={props.moves} />}
     </div>
@@ -76,7 +76,7 @@ function awardProgress(id: string, p: Progress) {
   return { v: Math.min(v, a.n), n: a.n };
 }
 
-function Wardrobe({ look, setLook, owned, addOwned, coins, progress }: { look: Look; setLook: (l: Look) => void; owned: Set<string>; addOwned: (k: string) => void; coins: number; progress: Progress }) {
+function Wardrobe({ look, setLook, owned, addOwned, gems, progress }: { look: Look; setLook: (l: Look) => void; owned: Set<string>; addOwned: (k: string) => void; gems: number; progress: Progress }) {
   const router = useRouter();
   const saved = look.sets[look.species] ?? [];
   const [trial, setTrial] = useState<string[]>(saved);
@@ -209,8 +209,8 @@ function Wardrobe({ look, setLook, owned, addOwned, coins, progress }: { look: L
                     </p>
                   </div>
                 ) : (
-                  <button type="button" className="btn btn-accent h-10 min-h-10 w-full text-sm" disabled={busy || coins < p.price} onClick={(e) => buy(p, e.currentTarget)} aria-label={`Comprar ${p.name} por ${p.price} monedas`}>
-                    <IcoCoin size={17} /> {p.price}
+                  <button type="button" className="btn btn-accent h-10 min-h-10 w-full text-sm" disabled={busy || gems < p.price} onClick={(e) => buy(p, e.currentTarget)} aria-label={`Comprar ${p.name} por ${p.price} gemas`}>
+                    <IcoGem size={17} /> {p.price}
                   </button>
                 )}
               </li>
@@ -225,7 +225,7 @@ function Wardrobe({ look, setLook, owned, addOwned, coins, progress }: { look: L
   );
 }
 
-function Pets({ look, setLook, owned, addOwned, coins }: { look: Look; setLook: (l: Look) => void; owned: Set<string>; addOwned: (k: string) => void; coins: number }) {
+function Pets({ look, setLook, owned, addOwned, gems }: { look: Look; setLook: (l: Look) => void; owned: Set<string>; addOwned: (k: string) => void; gems: number }) {
   const router = useRouter();
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<{ text: string; ok: boolean } | null>(null);
@@ -281,22 +281,22 @@ function Pets({ look, setLook, owned, addOwned, coins }: { look: Look; setLook: 
                   Elegir
                 </button>
               ) : (
-                <button type="button" className="btn btn-accent h-10 min-h-10 w-full text-sm" disabled={busy || coins < petPrice(p.id)} onClick={() => buy(p.id)} aria-label={`Adoptar ${p.label} por ${petPrice(p.id)} monedas`}>
-                  <IcoCoin size={17} /> {petPrice(p.id)}
+                <button type="button" className="btn btn-accent h-10 min-h-10 w-full text-sm" disabled={busy || gems < petPrice(p.id)} onClick={() => buy(p.id)} aria-label={`Adoptar ${p.label} por ${petPrice(p.id)} gemas`}>
+                  <IcoGem size={17} /> {petPrice(p.id)}
                 </button>
               )}
             </li>
           );
         })}
       </ul>
-      <p className="text-xs text-muted">Las siete primeras son gratis. Las nuevas se adoptan con monedas o pueden salir en un cofre. Cambiar de mascota no borra el conjunto de ninguna.</p>
+      <p className="text-xs text-muted">Las siete primeras son gratis. Las nuevas se adoptan con gemas o pueden salir en un cofre. Cambiar de mascota no borra el conjunto de ninguna.</p>
     </section>
   );
 }
 
 function Moves({ moves }: { moves: Move[] }) {
-  const ico = (c: string) => (c === "coins" ? <IcoCoin size={22} /> : c === "lives" || c === "shield" ? <IcoHeart size={22} /> : c === "gems" ? <Sparkles size={20} className="text-accent" /> : <IcoShop size={22} />);
-  const unit: Record<string, string> = { coins: "monedas", gems: "gemas", lives: "vidas", shield: "protección", boosts: "potenciadores" };
+  const ico = (c: string) => (c === "gems" || c === "coins" ? <IcoGem size={22} /> : c === "lives" || c === "shield" ? <IcoHeart size={22} /> : <IcoShop size={22} />);
+  const unit: Record<string, string> = { gems: "gemas", coins: "monedas (antes)", lives: "vidas", shield: "protección", boosts: "potenciadores" };
   if (!moves.length) return <p className="module p-5 text-muted">Aún no hay movimientos.</p>;
   return (
     <ul className="module flex flex-col divide-y divide-line">

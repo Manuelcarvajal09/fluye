@@ -13,11 +13,11 @@ import { AWARDS, BOOST, CHESTS, LIVES, chestPool, dupRefund, ownsPet, ownsPiece,
  */
 const P = schema.profiles;
 const W = schema.walletEvents;
-type Currency = "coins" | "gems" | "lives" | "shield" | "boosts";
-const COL = { coins: P.coins, gems: P.gems, lives: P.lives, shield: P.shield, boosts: P.boosts } as const;
+type Currency = "gems" | "lives" | "shield" | "boosts";
+const COL = { gems: P.gems, lives: P.lives, shield: P.shield, boosts: P.boosts } as const;
 
-export type Wallet = { coins: number; gems: number; lives: number; shield: number; boosts: number; boostUntil: string | null };
-export const walletOf = (p: Profile): Wallet => ({ coins: p.coins, gems: p.gems, lives: p.lives, shield: p.shield, boosts: p.boosts, boostUntil: p.boostUntil && p.boostUntil > new Date() ? p.boostUntil.toISOString() : null });
+export type Wallet = { gems: number; lives: number; shield: number; boosts: number; boostUntil: string | null };
+export const walletOf = (p: Profile): Wallet => ({ gems: p.gems, lives: p.lives, shield: p.shield, boosts: p.boosts, boostUntil: p.boostUntil && p.boostUntil > new Date() ? p.boostUntil.toISOString() : null });
 
 async function reload(userId: string) {
   const [p] = await db().select().from(P).where(eq(P.userId, userId));
@@ -61,7 +61,7 @@ const grant = async (userId: string, itemId: string) =>
 type Fail = { ok: false; error: string };
 export type BuyResult = { ok: true; wallet: Wallet; spent: number } | Fail;
 
-/** Compra directa de una pieza o mascota con monedas. */
+/** Compra directa de una pieza o mascota con gemas (la única moneda de la app). */
 export async function buyItem(profile: Profile, kind: "piece" | "pet", id: string, clientKey: string): Promise<BuyResult> {
   const owned = await ownedSet(profile.userId);
   let price = 0;
@@ -82,9 +82,9 @@ export async function buyItem(profile: Profile, kind: "piece" | "pet", id: strin
     label = p.label;
     inv = petKey(id);
   }
-  const r = await charge(profile.userId, `buy:${clientKey}`, "coins", price, `Compra: ${label}`);
-  if (r === "short") return { ok: false, error: `Te faltan ${price - profile.coins} monedas.` };
-  if (r === "ok" && !(await grant(profile.userId, inv))) await credit(profile.userId, `refund:${clientKey}`, "coins", price, `Devolución: ${label} ya era tuyo`);
+  const r = await charge(profile.userId, `buy:${clientKey}`, "gems", price, `Compra: ${label}`);
+  if (r === "short") return { ok: false, error: `Te faltan ${price - profile.gems} gemas.` };
+  if (r === "ok" && !(await grant(profile.userId, inv))) await credit(profile.userId, `refund:${clientKey}`, "gems", price, `Devolución: ${label} ya era tuyo`);
   return { ok: true, wallet: walletOf(await reload(profile.userId)), spent: r === "ok" ? price : 0 };
 }
 
@@ -105,8 +105,8 @@ export async function openChest(profile: Profile, chestId: string, clientKey: st
   const chest = CHESTS.find((c) => c.id === chestId);
   if (!chest) return { ok: false, error: "No existe ese cofre." };
   const key = `chest:${clientKey}`;
-  const r = await charge(profile.userId, key, "coins", chest.price, `${chest.name}`);
-  if (r === "short") return { ok: false, error: `Te faltan ${chest.price - profile.coins} monedas.` };
+  const r = await charge(profile.userId, key, "gems", chest.price, `${chest.name}`);
+  if (r === "short") return { ok: false, error: `Te faltan ${chest.price - profile.gems} gemas.` };
   if (r === "dup") return { ok: false, error: "Ese cofre ya se abrió." };
   const { tier } = rollChest(chest.odds);
   const wallet = async () => walletOf(await reload(profile.userId));
@@ -121,7 +121,7 @@ export async function openChest(profile: Profile, chestId: string, clientKey: st
   const before = await ownedSet(profile.userId);
   const had = pick.type === "pet" ? ownsPet(pick.id, before) : ownsPiece(pick.id, before);
   const dup = had || !(await grant(profile.userId, pick.type === "pet" ? petKey(pick.id) : pieceKey(pick.id)));
-  const refund = dup ? await credit(profile.userId, `${key}:dup`, "coins", dupRefund(chest), `Repetido en ${chest.name}: ${name}`) : 0;
+  const refund = dup ? await credit(profile.userId, `${key}:dup`, "gems", dupRefund(chest), `Repetido en ${chest.name}: ${name}`) : 0;
   await recordChest(profile.userId, key, dup ? "dup" : "new", tier, pick.id);
   return { ok: true, outcome: dup ? "dup" : "new", tier, type: pick.type, id: pick.id, name, refund, spent: chest.price, wallet: await wallet() };
 }
@@ -142,8 +142,8 @@ export async function activateShield(profile: Profile, clientKey: string) {
 }
 
 export async function buyBoost(profile: Profile, clientKey: string) {
-  const r = await charge(profile.userId, `boost:${clientKey}`, "coins", BOOST.price, `Potenciador: ${BOOST.label}`);
-  if (r === "short") return { ok: false as const, error: `Te faltan ${BOOST.price - profile.coins} monedas.` };
+  const r = await charge(profile.userId, `boost:${clientKey}`, "gems", BOOST.price, `Potenciador: ${BOOST.label}`);
+  if (r === "short") return { ok: false as const, error: `Te faltan ${BOOST.price - profile.gems} gemas.` };
   if (r === "ok") await db().update(P).set({ boosts: sql`${P.boosts} + 1` }).where(eq(P.userId, profile.userId));
   return { ok: true as const, wallet: walletOf(await reload(profile.userId)) };
 }
@@ -208,19 +208,17 @@ export async function practiceCorrect(profile: Profile): Promise<LifeChange | nu
   return { lives: Math.min(cur.lives + 1, LIVES.max), shield: profile.shield, change: "gained", reason: "¡Recuperaste una vida practicando!" };
 }
 
-/** Monedas por estudiar: 1 por cada 4 XP (agrupadas en un movimiento por día) y 10 al cumplir la meta. */
-export async function studyCoins(userId: string, day: string, xp: number, goalReached: boolean) {
-  const coins = Math.round(xp / 4);
+/** Gemas por estudiar: 1 por cada 4 XP, agrupadas en un movimiento por día (la meta y los retos dan sus propias gemas). */
+export async function studyGems(userId: string, day: string, xp: number) {
+  const gems = Math.round(xp / 4);
+  if (gems <= 0) return 0;
   const d = db();
-  if (coins > 0) {
-    await d
-      .insert(W)
-      .values({ userId, key: `study:${day}`, currency: "coins", amount: coins, reason: "Monedas por estudiar" })
-      .onConflictDoUpdate({ target: [W.userId, W.key], set: { amount: sql`${W.amount} + ${coins}` } });
-    await d.update(P).set({ coins: sql`${P.coins} + ${coins}` }).where(eq(P.userId, userId));
-  }
-  const bonus = goalReached ? await credit(userId, `goal-coins:${day}`, "coins", 10, "Meta diaria cumplida") : 0;
-  return coins + bonus;
+  await d
+    .insert(W)
+    .values({ userId, key: `study-gems:${day}`, currency: "gems", amount: gems, reason: "Gemas por estudiar" })
+    .onConflictDoUpdate({ target: [W.userId, W.key], set: { amount: sql`${W.amount} + ${gems}` } });
+  await d.update(P).set({ gems: sql`${P.gems} + ${gems}` }).where(eq(P.userId, userId));
+  return gems;
 }
 
 /** Doble XP si hay un potenciador activo. */

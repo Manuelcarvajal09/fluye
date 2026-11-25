@@ -36,6 +36,13 @@
       "when": 1795562462876,
       "tag": "0004_armario",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1795568513019,
+      "tag": "0005_solo_gemas",
+      "breakpoints": true
     }
   ]
 }

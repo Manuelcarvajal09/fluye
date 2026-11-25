@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Play } from "lucide-react";
 import { MyMascot, useLook } from "./Coach";
-import { IcoBook, IcoCards, IcoChart, IcoCoin, IcoCompass, IcoGem, IcoHome, IcoMic, IcoPeople, IcoShop } from "./Icons";
+import { IcoBook, IcoCards, IcoChart, IcoCompass, IcoGem, IcoHome, IcoMic, IcoPeople, IcoShop } from "./Icons";
 
 type Ico = ComponentType<{ size?: number; className?: string }>;
 type Section = { href: string; label: string; icon: Ico; match: string[] };
@@ -27,7 +27,7 @@ const TABS: Section[] = [
   { href: "/amigos", label: "Amigos", icon: IcoPeople, match: ["/amigos"] },
 ];
 
-export function Nav({ due, coins }: { due: number; coins: number }) {
+export function Nav({ due, gems }: { due: number; gems: number }) {
   const path = usePathname();
   const look = useLook();
   const active = (m: string[]) => m.some((h) => path === h || path.startsWith(h + "/"));
@@ -56,7 +56,7 @@ export function Nav({ due, coins }: { due: number; coins: number }) {
           <span className="min-w-0 leading-tight">
             <span className="block truncate font-black">{look.name}</span>
             <span className="mt-0.5 flex items-center gap-1 text-sm font-bold text-muted">
-              <IcoCoin size={16} /> {coins} monedas
+              <IcoGem size={16} /> {gems} gemas
             </span>
           </span>
         </Link>
