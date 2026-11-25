@@ -10,6 +10,7 @@ import { speak, autoplayEnabled } from "@/lib/audio/tts";
 import { AudioButton, Bar, Highlight, TypeChip } from "./ui";
 import { SpeakPanel } from "./SpeakPanel";
 import { Burst } from "./Burst";
+import { addWallet, setWallet } from "./wallet";
 import { playSfx } from "@/lib/audio/sfx";
 
 export type Flash = { item: Item; mode: Mode; ex: Example; intervals: [string, string, string, string] };
@@ -49,8 +50,16 @@ export function FlashReview({ cards }: { cards: Flash[] }) {
         method: "POST",
         headers: { "content-type": "application/json" },
         // Repaso de tarjetas: la persona se autoevalúa tras ver la respuesta (Again = olvidé, Hard = recordé con dificultad).
-        body: JSON.stringify({ itemId: c.item.id, mode: c.mode, grade: g, correct: g > 1, isNew: false, ms: Date.now() - t0.current, attemptId: newAttemptId(), firstTry: true, kind: "self" }),
-      });
+        // ctx "practice": los aciertos de repaso devuelven vidas (una por cada 8, hasta 3 al día).
+        body: JSON.stringify({ itemId: c.item.id, mode: c.mode, grade: g, correct: g > 1, isNew: false, ms: Date.now() - t0.current, attemptId: newAttemptId(), firstTry: true, kind: "self", ctx: "practice" }),
+      })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((j) => {
+          if (!j) return;
+          addWallet({ coins: j.coins ?? 0, gems: j.gems ?? 0 }, { reason: "Monedas por repasar" });
+          if (j.life?.change === "gained") setWallet({ lives: j.life.lives }, { reason: "Recuperaste una vida practicando" });
+        })
+        .catch(() => {});
       setDone((n) => n + 1);
       if (g >= 3) {
         setCheer((x) => x + 1);

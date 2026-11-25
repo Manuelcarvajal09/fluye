@@ -352,3 +352,50 @@ export const IcoFlow = (p: P) => (
     <path d="M5 8h6M5 23h6M21 22h6" stroke="#fff" strokeOpacity=".85" strokeWidth="2" strokeLinecap="round" />
   </Svg>
 );
+/** Monedas */
+export const IcoCoin = (p: P) => (
+  <Svg {...p}>
+    <circle cx="16" cy="17" r="12" fill="#d48a12" />
+    <circle cx="16" cy="15.500" r="12" fill="#ffc53d" />
+    <circle cx="16" cy="15.500" r="8.500" fill="#f5a623" />
+    <path d="M16 9.500l1.800 3.700 4 .6-2.900 2.800.7 4-3.600-1.900-3.600 1.900.7-4-2.900-2.800 4-.6z" fill="#ffe28a" />
+    <ellipse cx="10.500" cy="9.500" rx="2.600" ry="1.500" fill="#fff" opacity=".6" transform="rotate(-35 10.500 9.500)" />
+  </Svg>
+);
+/** Protección de vida */
+export const IcoShield = (p: P) => (
+  <Svg {...p}>
+    <path d="M16 3l11 4v8c0 7-5 12-11 14C10 27 5 22 5 15V7z" fill="#4aa8ff" />
+    <path d="M16 3l11 4v8c0 7-5 12-11 14z" fill="#2f86e0" />
+    <path d="M16 21c-4-2.700-5.500-5.200-4-7 1-1.200 3-1 4 .7 1-1.700 3-1.900 4-.7 1.500 1.800 0 4.300-4 7z" fill="#ff5a79" />
+    <ellipse cx="10" cy="9" rx="2.500" ry="1.400" fill="#fff" opacity=".55" transform="rotate(-30 10 9)" />
+  </Svg>
+);
+/** Cofre */
+export const IcoChest = (p: P) => (
+  <Svg {...p}>
+    <rect x="4" y="14" width="24" height="13" rx="3" fill="#a8693d" />
+    <path d="M4 15c0-6 2-9 6-9h12c4 0 6 3 6 9z" fill="#d9925a" />
+    <path d="M9 7v19M23 7v19" stroke="#ffd36b" strokeWidth="2.400" />
+    <rect x="13" y="13" width="6" height="6" rx="2" fill="#ffd36b" />
+    <circle cx="16" cy="16" r="1" fill="#8a5428" />
+  </Svg>
+);
+/** Sobre / buzón */
+export const IcoMail = (p: P) => (
+  <Svg {...p}>
+    <rect x="3" y="8" width="26" height="18" rx="3" fill="#ffd9a8" />
+    <path d="M3 10l13 9 13-9" fill="none" stroke="#e9a35f" strokeWidth="2.200" strokeLinejoin="round" />
+    <circle cx="16" cy="18" r="3.200" fill="#ff5a79" />
+    <path d="M16 19.600c-1.400-.9-1.900-1.800-1.300-2.400.4-.4 1-.3 1.300.2.300-.5.900-.6 1.300-.2.600.6.1 1.500-1.300 2.400z" fill="#fff" />
+  </Svg>
+);
+/** Potenciador (doble XP) */
+export const IcoBoost = (p: P) => (
+  <Svg {...p}>
+    <path d="M16 3c5 3 8 8 8 13l-3 6H11l-3-6c0-5 3-10 8-13z" fill="#ff7a59" />
+    <circle cx="16" cy="13" r="3.200" fill="#bde7ff" />
+    <path d="M11 22l-4 5 6-2zM21 22l4 5-6-2z" fill="#f5a623" />
+    <path d="M13 24h6l-3 6z" fill="#ffc53d" />
+  </Svg>
+);

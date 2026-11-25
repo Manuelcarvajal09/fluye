@@ -6,6 +6,7 @@ import { recordProgress } from "@/lib/progress";
 import { attemptXp, ERROR_CATEGORIES, finalGrade } from "@/lib/grading";
 import { db, schema } from "@/db";
 import { goalOf } from "@/lib/realtalk";
+import { loseLife, practiceCorrect, type LifeChange } from "@/lib/economy";
 
 const Body = z.object({
   itemId: z.string().max(100),
@@ -19,6 +20,8 @@ const Body = z.object({
   hints: z.number().int().min(0).max(10).optional(),
   revealed: z.boolean().optional(),
   kind: z.enum(["graded", "self"]).optional(),
+  /** lesson: un error resta vida (o consume la protección). practice: los aciertos devuelven vidas. */
+  ctx: z.enum(["lesson", "practice"]).optional(),
   errors: z
     .array(z.object({ category: z.enum(ERROR_CATEGORIES), expected: z.string().max(200).optional(), given: z.string().max(200).optional() }))
     .max(5)
@@ -59,5 +62,9 @@ export async function POST(req: Request) {
     speaking: b.mode === "speak" ? 1 : 0,
     seconds: Math.round(Math.min(b.ms ?? 0, 90_000) / 1000),
   });
-  return Response.json({ ...res, grade, ...progress });
+  // Vidas: nunca bloquean; solo informan. Las autoevaluaciones no restan.
+  let life: LifeChange | null = null;
+  if (b.ctx === "lesson" && !b.correct && b.kind !== "self") life = await loseLife(profile.userId, b.attemptId ?? `${b.itemId}:${now.getTime()}`);
+  else if (b.ctx === "practice" && recalled) life = await practiceCorrect(profile);
+  return Response.json({ ...res, grade, ...progress, life });
 }

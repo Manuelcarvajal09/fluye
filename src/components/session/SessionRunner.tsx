@@ -2,7 +2,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { X, Check, Languages, Lightbulb } from "lucide-react";
-import { IcoBolt, IcoFlame, IcoHeart, IcoTarget } from "../Icons";
+import { IcoBoost, IcoBolt, IcoCoin, IcoFlame, IcoHeart, IcoShield, IcoTarget } from "../Icons";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { GradedStep, Step, Mode } from "@/lib/types";
 import { TYPE_LABEL, plain } from "@/lib/types";
@@ -28,20 +28,41 @@ type Feedback = { ok: boolean; grade: Grade; correctText?: string; note?: string
 type Toast = { id: number; text: string; kind: "goal" | "mission" };
 
 const HEARTS = 5;
+type LifeNote = { id: number; kind: "lost" | "shielded" | "out" | "gained"; text: string };
 /** true mientras se muestra la corrección: el personaje del enunciado baja a la barra de respuesta. */
-const Answered = createContext(false);
+const StepCtx = createContext<{ fb: Feedback; pos: number; total: number; combo: number }>({ fb: null, pos: 1, total: 1, combo: 0 });
+/** Qué dice el compañero al plantear cada tipo de ejercicio (una frase corta y accionable). */
+const HINT: Record<string, string> = {
+  "¿Qué significa?": "Elige el significado que mejor encaja.",
+  Comprensión: "Piensa en lo que acabas de escuchar.",
+  "Escucha: ¿qué expresión dice?": "Escucha con calma; puedes repetir el audio.",
+  "Completa la frase": "Elige la expresión más natural.",
+  "Escríbelo en inglés": "Escríbelo como lo dirías tú. Yo reviso.",
+  "Dilo en voz alta": "Dilo en voz alta, a tu ritmo.",
+  "Expresión nueva": "¡Una nueva! Escúchala y mira los ejemplos.",
+};
 const graded = (s: Step): s is GradedStep => "isNew" in s;
 const modeOf = (s: GradedStep): Mode => s.kind as Mode;
 
-export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, dayXp: initialDayXp, totalXp, name, meta, resume = false }: { initial: Step[]; lessonId?: string; streak: number; goal: number; dayXp: number; totalXp: number; name: string; meta: SessionMeta; resume?: boolean }) {
+export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, dayXp: initialDayXp, totalXp, name, meta, resume = false, lives = HEARTS, shield = 0, boostUntil = null }: { initial: Step[]; lessonId?: string; streak: number; goal: number; dayXp: number; totalXp: number; name: string; meta: SessionMeta; resume?: boolean; lives?: number; shield?: number; boostUntil?: string | null }) {
   const reduce = useReducedMotion();
   const first = name.split(" ")[0] || undefined;
   const [combo, setCombo] = useState(0);
   const [bestCombo, setBestCombo] = useState(0);
   const [wrongRow, setWrongRow] = useState(0);
   const [answered, setAnswered] = useState(0);
-  // Corazones de la sesión: bajan con cada fallo, pero nunca bloquean el estudio.
-  const [hearts, setHearts] = useState(HEARTS);
+  // Vidas de la cuenta: bajan con cada fallo (o se consume la protección), pero nunca bloquean el estudio.
+  const [hearts, setHearts] = useState(lives);
+  const [shieldOn, setShieldOn] = useState(shield > 0);
+  const [lifeNote, setLifeNote] = useState<LifeNote | null>(null);
+  const [coins, setCoins] = useState(0);
+  const [lost, setLost] = useState(0);
+  const [boosted] = useState(() => !!boostUntil && Date.parse(boostUntil) > Date.now());
+  const note = useCallback((kind: LifeNote["kind"], text: string) => {
+    const id = Math.random();
+    setLifeNote({ id, kind, text });
+    setTimeout(() => setLifeNote((n) => (n?.id === id ? null : n)), 3200);
+  }, []);
   const [milestone, setMilestone] = useState<number | null>(null);
   const [queue, setQueue] = useState<Step[]>(initial);
   const [i, setI] = useState(0);
@@ -150,7 +171,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
       if (!ok && fb?.kind !== "self") category = s.kind === "listen" ? "comprehension" : s.kind === "prod" && fb?.given ? classifyError(fb.correctText ?? "", fb.given) : "vocab";
       if (category) setErrs((e) => ({ ...e, [category!]: (e[category!] ?? 0) + 1 }));
       const errors = category ? [{ category, expected: fb?.correctText?.slice(0, 200), given: fb?.given?.slice(0, 200) }] : undefined;
-      const body = JSON.stringify({ itemId: s.item.id, mode: modeOf(s), grade, correct: ok, isNew, ms, attemptId, firstTry: true, revealed: !!fb?.revealed, kind: fb?.kind ?? "graded", errors });
+      const body = JSON.stringify({ itemId: s.item.id, mode: modeOf(s), grade, correct: ok, isNew, ms, attemptId, firstTry: true, revealed: !!fb?.revealed, kind: fb?.kind ?? "graded", errors, ctx: "lesson" });
       const send = () => fetch("/api/review", { method: "POST", headers: { "content-type": "application/json" }, body });
       // Reintenta una vez con el MISMO attemptId: el servidor no duplica si el primero sí llegó.
       const p = send()
@@ -166,6 +187,12 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
           for (const m of r.missions ?? []) toast(`Misión completada: ${m} (+20 XP)`, "mission");
           if (r.gained) setXp((x) => x + r.gained);
           if (r.gems) setGems((g) => g + r.gems);
+          if (r.coins) setCoins((c) => c + r.coins);
+          // El servidor manda: corrige la predicción local de vidas y protección.
+          if (r.life) {
+            setHearts(r.life.lives);
+            setShieldOn(r.life.shield > 0);
+          }
         })
         .catch(() => {});
       pending.current.push(p);
@@ -205,7 +232,17 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
     setBestCombo((b) => Math.max(b, nextCombo));
     setWrongRow(nextWrong);
     setAnswered((a) => a + 1);
-    if (!ok) setHearts((h) => Math.max(0, h - 1));
+    // Predicción inmediata de la vida (el servidor la confirma al guardar). Las autoevaluaciones no restan.
+    if (!ok && graded(step) && extra?.kind !== "self") {
+      if (shieldOn) {
+        setShieldOn(false);
+        note("shielded", "Tu protección se consumió: conservas la vida.");
+      } else if (hearts > 0) {
+        setHearts(hearts - 1);
+        setLost((n) => n + 1);
+        note(hearts - 1 === 0 ? "out" : "lost", hearts - 1 === 0 ? "Te quedaste sin vidas. Puedes seguir: recupéralas repasando." : "−1 vida");
+      }
+    }
     const say = ok ? correctSay(nextCombo, first, answered, extra?.close) : wrongSay(nextWrong, first, answered);
     playSfx(ok ? (nextCombo >= 5 && nextCombo % 5 === 0 ? "streak" : "ok") : "bad");
     if (ok && nextCombo >= 5 && nextCombo % 5 === 0) {
@@ -216,31 +253,49 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
     if (step.kind === "question") setLessonScore((s2) => ({ right: s2.right + (ok ? 1 : 0), total: s2.total + 1 }));
   };
 
-  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} hearts={hearts} />;
+  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} hearts={hearts} lost={lost} coins={coins} />;
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pt-[max(env(safe-area-inset-top),1rem)] 2xl:max-w-3xl">
       <header className="flex items-center gap-3 py-2">
-        <Link href="/hoy" aria-label="Salir de la sesión" className="grid h-10 w-10 place-items-center rounded-xl text-muted hover:bg-surface-2">
-          <X size={26} aria-hidden />
+        <Link href="/hoy" aria-label="Salir de la sesión" className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-surface-2 text-text hover:bg-line">
+          <X size={22} strokeWidth={2.6} aria-hidden />
         </Link>
-        <Bar value={progress} max={1} label="Progreso de la sesión" className="h-4" />
+        <Bar value={progress} max={1} label="Progreso de la sesión" className="h-3" />
         {combo >= 3 && (
           <span key={combo} className="animate-pop flex items-center gap-1 rounded-full bg-fire-soft px-2.5 py-1 text-sm font-black text-fire" aria-label={`${combo} aciertos seguidos`}>
             <IcoFlame size={20} className="flame" /> {combo}
           </span>
         )}
-        <span className="flex items-center gap-0.5 font-black text-bad" aria-label={`${hearts} de ${HEARTS} corazones`}>
-          <span key={hearts} className={hearts < HEARTS ? "heart-lost inline-flex" : "inline-flex"}>
+        <span className="relative flex items-center gap-0.5 font-black text-bad" aria-label={`${hearts} vidas${shieldOn ? ", con protección" : ""}`}>
+          <span key={`${hearts}-${lifeNote?.id ?? 0}`} className={lifeNote?.kind === "shielded" ? "stat-shield inline-flex" : lifeNote ? "heart-lost inline-flex" : "inline-flex"}>
             <IcoHeart size={24} className={hearts === 0 ? "opacity-40 grayscale" : ""} />
           </span>
           {hearts}
+          {shieldOn && (
+            <span className="absolute -right-2 -top-2" aria-hidden>
+              <IcoShield size={15} />
+            </span>
+          )}
         </span>
-        <span key={xp} className={`flex items-center gap-0.5 font-black text-accent ${xp ? "bump" : ""}`} aria-label={`${xp} XP ganados`}>
+        {boosted && (
+          <span className="boost-on flex items-center rounded-full bg-fire-soft px-1.5 py-0.5" title="Doble XP activo" aria-label="Doble XP activo">
+            <IcoBoost size={20} />
+          </span>
+        )}
+        <span key={xp} className={`flex items-center gap-0.5 font-black text-gold ${xp ? "bump" : ""}`} aria-label={`${xp} XP ganados`}>
           <IcoBolt size={24} /> {xp}
         </span>
       </header>
 
+      {lifeNote && (
+        <div aria-live="polite" className="pointer-events-none fixed inset-x-0 top-16 z-50 flex justify-center px-4">
+          <span key={lifeNote.id} className={`life-toast shadow-card ${lifeNote.kind === "shielded" ? "bg-[var(--sky-soft)] text-text" : lifeNote.kind === "gained" ? "bg-good-soft text-good" : "bg-bad-soft text-bad"}`}>
+            {lifeNote.kind === "shielded" ? <IcoShield size={20} /> : <IcoHeart size={20} />}
+            {lifeNote.text}
+          </span>
+        </div>
+      )}
       {milestone && (
         <div aria-live="polite" className="banner-in pointer-events-none fixed left-1/2 top-20 z-50">
           <div className="relative flex items-center gap-2 rounded-3xl bg-fire px-5 py-3 text-xl font-black text-white shadow-card">
@@ -270,9 +325,9 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
             transition={{ duration: 0.22, ease: "easeOut" }}
             className="flex flex-1 flex-col"
           >
-            <Answered.Provider value={!!feedback}>
+            <StepCtx.Provider value={{ fb: feedback, pos: Math.min(i + 1, queue.length), total: queue.length, combo }}>
               <StepView step={step} feedback={feedback} onAnswer={handleAnswer} onNext={next} />
-            </Answered.Provider>
+            </StepCtx.Provider>
           </motion.div>
         </AnimatePresence>
       </main>
@@ -370,16 +425,36 @@ function StepView({ step, feedback, onAnswer, onNext }: { step: Step; feedback: 
 }
 
 function StepTitle({ children, isNew }: { children: React.ReactNode; isNew?: boolean }) {
-  const answered = useContext(Answered);
+  const { fb, pos, total, combo } = useContext(StepCtx);
+  const look = useLook();
+  const hint = typeof children === "string" ? HINT[children] : undefined;
+  const mood = fb ? (fb.say?.mood ?? (fb.ok ? "cheer" : "oops")) : isNew ? "wow" : "happy";
+  const line = fb ? (fb.say?.text ?? (fb.ok ? "¡Bien!" : "Casi. Mira la respuesta correcta.")) : hint;
   return (
-    <div className="mb-5 flex items-end gap-1">
-      <span className={`speaker ${answered ? "is-away" : ""}`} aria-hidden>
-        <MyMascot size={68} mood={isNew ? "wow" : "happy"} animate="bob" />
-      </span>
-      <h1 className="speech flex min-w-0 flex-wrap items-center gap-2 text-lg font-black">
+    <div className="mb-4">
+      <p className="mb-1 flex items-center gap-2 text-sm font-semibold text-muted">
+        Paso {pos} de {total}
         {isNew && <span className="chip bg-accent-soft text-accent">NUEVO</span>}
-        {children}
-      </h1>
+      </p>
+      <h1 className="text-[1.6rem] font-black leading-tight sm:text-3xl">{children}</h1>
+      {line && (
+        <div className="mt-3 flex items-center gap-1">
+          <span key={fb ? "r" : "q"} className={`speaker relative ${fb?.ok ? "mascot-hop" : ""}`}>
+            {/* Celebración proporcional: más estrellas y más lejos cuanto más larga la racha de aciertos. */}
+            {fb?.ok && <Burst kind={combo >= 5 ? "mix" : "stars"} count={8 + Math.min(combo, 10) * 2} spread={50 + Math.min(combo, 10) * 6} size={12 + Math.min(combo, 6)} />}
+            {fb?.ok && combo >= 3 && (
+              <span className="xp-pop" aria-hidden>
+                ×{combo}
+              </span>
+            )}
+            <MyMascot size={84} mood={mood} animate={fb ? "none" : "bob"} />
+          </span>
+          <p key={line} className={`speech min-w-0 text-[0.95rem] font-bold leading-snug ${fb ? (fb.ok ? "is-good" : "is-bad") : ""}`} {...(fb ? { role: "status" } : {})}>
+            <span className="sr-only">{look.name} dice: </span>
+            {line}
+          </p>
+        </div>
+      )}
     </div>
   );
 }
@@ -405,14 +480,15 @@ function Choice({ title, prompt, options, answer, locked, onPick, isNew }: { tit
   return (
     <section className="flex flex-1 flex-col">
       <StepTitle isNew={isNew}>{title}</StepTitle>
-      <div className="mb-6">{prompt}</div>
+      <div className="question-card mb-4">{prompt}</div>
       <div className="mt-auto grid gap-3 pb-2 sm:mt-0">
         {options.map((o, n) => {
           const state = picked === null ? undefined : n === answer ? "right" : n === picked ? "wrong" : undefined;
           return (
             <button key={n} type="button" className={`option flex items-center gap-3 ${state === "wrong" ? "animate-shake" : ""}`} data-state={state} onClick={() => pick(n)} disabled={locked && picked === null}>
-              <span className="hidden h-7 w-7 shrink-0 place-items-center rounded-lg border-2 border-line text-sm text-muted sm:grid">{n + 1}</span>
-              <span>{o}</span>
+              <span className="option-n" aria-hidden>{n + 1}</span>
+              <span className="min-w-0 flex-1">{o}</span>
+              {state === "right" && <Check size={20} strokeWidth={3} aria-hidden className="shrink-0 text-good" />}
             </button>
           );
         })}
@@ -577,24 +653,23 @@ function FeedbackBar({ fb, gradable, onContinue }: { fb: NonNullable<Feedback>; 
     return () => window.removeEventListener("keydown", h);
   }, [fb.grade, onContinue]);
   return (
-    <div role="status" className={`pb-safe sticky bottom-0 -mx-4 mt-auto px-4 pt-3 animate-pop ${fb.ok ? "bg-good-soft" : "bg-bad-soft"}`}>
-      <div className="mx-auto max-w-2xl">
-        <div className="flex items-center gap-3">
-          <span className="relative shrink-0">
-            {fb.ok && <Burst kind={fb.say?.mood === "cheer" ? "mix" : "stars"} count={fb.say?.mood === "cheer" ? 14 : 9} spread={58} size={14} />}
-            <MyMascot mood={fb.say?.mood ?? (fb.ok ? "happy" : "oops")} size={72} animate={fb.ok ? "hop" : "none"} />
+    <div role="status" className="feedback-dock pb-safe">
+      <div className="mx-auto max-w-2xl 2xl:max-w-3xl">
+        <div className={`feedback-panel ${fb.ok ? "is-good" : "is-bad"}`}>
+          <span className="feedback-ico" aria-hidden>
+            {fb.ok ? <Check size={22} strokeWidth={3.2} /> : <X size={22} strokeWidth={3.2} />}
           </span>
-          <div className="relative min-w-0">
-            {fb.ok && <FloatUp className="text-lg text-accent">+10 XP</FloatUp>}
-            <p className={`flex items-center gap-2 text-xl font-black ${fb.ok ? "text-good" : "text-bad"}`}>
-              {fb.ok ? <Check size={24} aria-hidden strokeWidth={3} className="shrink-0" /> : <X size={24} aria-hidden strokeWidth={3} className="shrink-0" />}
-              {fb.say?.text ?? (fb.ok ? "¡Bien!" : "Respuesta correcta:")}
-            </p>
-            {!fb.ok && <p className="text-sm font-bold">Respuesta correcta:</p>}
+          <div className="relative min-w-0 flex-1">
+            {fb.ok && <FloatUp className="text-lg text-gold">+10 XP</FloatUp>}
+            <p className={`text-lg font-black leading-tight ${fb.ok ? "text-good" : "text-bad"}`}>{fb.ok ? (fb.close ? "¡Casi perfecto!" : "¡Correcto!") : "Respuesta correcta:"}</p>
+            {fb.correctText && (!fb.ok || fb.close) && (
+              <p className="mt-0.5 font-extrabold" lang="en">
+                {fb.correctText}
+              </p>
+            )}
+            {fb.note && <p className="mt-1 text-sm leading-relaxed text-muted">{fb.note}</p>}
           </div>
         </div>
-        {fb.correctText && (!fb.ok || fb.close) && <p className="mt-1 text-lg font-bold">{fb.correctText}</p>}
-        {fb.note && <p className="mt-1 text-sm">{fb.note}</p>}
         <div className="mt-3 flex gap-2 pb-2">
           {gradable && fb.ok && (
             <>
@@ -615,7 +690,7 @@ function FeedbackBar({ fb, gradable, onContinue }: { fb: NonNullable<Feedback>; 
   );
 }
 
-function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta, hearts }: { hearts: number; xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
+function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta, hearts, lost, coins }: { hearts: number; lost: number; coins: number; xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
   const topErr = (Object.entries(errs) as [ErrorCategory, number][]).sort((a, b) => b[1] - a[1])[0];
   const celebrate = useCelebrations();
   const look = useLook();
@@ -635,7 +710,7 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
     { label: "XP", value: `+${shown}`, cls: "text-accent", icon: <IcoBolt size={30} /> },
     { label: "Precisión", value: `${Math.round(acc * 100)}%`, cls: "text-good", icon: <IcoTarget size={30} /> },
     { label: "Racha", value: `${streak}`, cls: "text-fire", icon: <IcoFlame size={30} className="flame" /> },
-    { label: hearts === HEARTS ? "¡Sin fallos!" : "Corazones", value: `${hearts}/${HEARTS}`, cls: "text-bad", icon: <IcoHeart size={30} /> },
+    { label: lost === 0 ? "¡Sin perder vidas!" : `Vidas (−${lost})`, value: `${hearts}`, cls: "text-bad", icon: <IcoHeart size={30} /> },
   ];
   return (
     <main className="mx-auto flex min-h-dvh max-w-xl flex-col items-center justify-center gap-5 px-4 py-10 text-center">
@@ -686,6 +761,20 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
         </p>
         <Bar value={after.into} max={after.span} color="var(--accent)" label="Progreso de nivel" />
       </div>
+      {coins > 0 && (
+        <p className="animate-pop relative flex items-center gap-2 rounded-full bg-[var(--gold-soft)] px-4 py-2 font-black text-[#8a5a00]">
+          <Burst kind="stars" count={10} spread={70} size={14} />
+          <IcoCoin size={20} /> +{coins} monedas por estudiar
+        </p>
+      )}
+      {hearts === 0 && (
+        <p className="rounded-2xl bg-bad-soft px-4 py-3 text-sm font-bold text-bad">
+          Te quedaste sin vidas, pero tu progreso cuenta igual. Recupéralas repasando (cada 8 aciertos en Repaso devuelven 1) y mañana recibes una extra.{" "}
+          <Link href="/repaso" className="underline">
+            Ir a Repaso
+          </Link>
+        </p>
+      )}
       {gems > 0 && (
         <p className="animate-pop flex items-center gap-2 rounded-full bg-accent-soft px-4 py-2 font-black text-accent">
           <Gem size={18} /> +{gems} gemas

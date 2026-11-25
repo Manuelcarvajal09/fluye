@@ -46,24 +46,19 @@ test.describe("voz, dictado y personalización", () => {
     await expect.poll(async () => (await box.inputValue()).toLowerCase(), { timeout: 360_000, intervals: [2000] }).toContain("forward");
   });
 
-  test("personalizar mascota y color: se guarda y se pinta desde el servidor", async ({ page }) => {
+  test("personalizar mascota, nombre y color: se guarda y se pinta desde el servidor", async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await signIn(page);
     await page.goto("/ajustes");
     await page.getByRole("radio", { name: /^Zorro/ }).click();
     await page.getByLabel("Nombre de tu compañero").fill("Chispa");
     await page.getByRole("radio", { name: /Océano/ }).click();
-    // Accesorios combinables: uno de cabeza y uno de cara a la vez.
-    await page.getByRole("tab", { name: "Cabeza" }).click();
-    await page.getByRole("radio", { name: "Audífonos" }).click();
-    await page.getByRole("tab", { name: "Cara" }).click();
-    await page.getByRole("radio", { name: "Lentes" }).click();
     await expect(page.locator("html")).toHaveAttribute("data-accent", "oceano");
     await page.getByRole("button", { name: "Guardar cambios" }).click();
     await expect(page.getByRole("button", { name: /Guardado/ })).toBeVisible();
     await page.goto("/hoy");
     await expect(page.locator("html")).toHaveAttribute("data-accent", "oceano");
     await expect(page.getByRole("link", { name: /Chispa, tu compañero/ })).toBeVisible();
-    await expect(page.getByRole("button", { name: /Tocar a Chispa/ })).toBeVisible();
+    await expect(page.getByRole("button", { name: /Chispa, tu compañero. Tócalo/ })).toBeVisible();
   });
 });

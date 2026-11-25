@@ -3,8 +3,9 @@ import { eq } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { apiProfile, settingsOf } from "@/lib/user";
 import { AREA_IDS } from "@/lib/areas";
-import { ACCENT_IDS, ACCESSORY_IDS, OUTFIT_IDS, SPECIES_IDS, lookOf, ownsLook } from "@/lib/look";
-import { ownedItems } from "@/lib/rewards";
+import { ACCENT_IDS, SPECIES_IDS, lookOf } from "@/lib/look";
+import { missingFor } from "@/lib/wardrobe";
+import { ownedSet } from "@/lib/economy";
 
 const MD = z.string().regex(/^d{2}-d{2}$/);
 const SEASON = z.enum(["navidad", "invierno", "primavera", "verano", "otono", "neutral"]);
@@ -34,11 +35,7 @@ const Body = z.object({
           accent: z.enum(ACCENT_IDS as [string, ...string[]]).optional(),
           species: z.enum(SPECIES_IDS as [string, ...string[]]).optional(),
           name: z.string().trim().max(16).optional(),
-          color: z.string().regex(/^#[0-9a-fA-F]{6}$/).optional(),
-          accessory: z.enum(ACCESSORY_IDS as [string, ...string[]]).optional(),
-          face: z.enum(ACCESSORY_IDS as [string, ...string[]]).optional(),
-          neck: z.enum(ACCESSORY_IDS as [string, ...string[]]).optional(),
-          outfit: z.enum(OUTFIT_IDS as [string, ...string[]]).optional(),
+          sets: z.partialRecord(z.enum(SPECIES_IDS as [string, ...string[]]), z.array(z.string().max(40)).max(8)).optional(),
         })
         .optional(),
       season: z
@@ -55,6 +52,7 @@ const Body = z.object({
         })
         .optional(),
       celebrations: z.boolean().optional(),
+      motion: z.enum(["auto", "reduced"]).optional(),
       social: z.boolean().optional(),
       explicit: z.boolean().optional(),
       hoy: z.record(z.enum(["week", "load", "goal", "achievement", "theme", "challenges"]), z.boolean()).optional(),
@@ -79,7 +77,9 @@ export async function POST(req: Request) {
   // Lo cosmético de tienda solo se puede equipar si se compró (validado aquí, no en el cliente).
   if (settings?.look) {
     const next = lookOf({ ...settingsOf(profile).look, ...settings.look } as never);
-    if (!ownsLook(next, await ownedItems(profile.userId))) return Response.json({ error: "Aún no tienes ese objeto." }, { status: 403 });
+    const missing = missingFor(next, await ownedSet(profile.userId));
+    if (missing) return Response.json({ error: `Aún no tienes: ${missing}.` }, { status: 403 });
+    settings.look = next as never;
   }
   const prev = settingsOf(profile);
   const patch = {
@@ -90,7 +90,7 @@ export async function POST(req: Request) {
             settings: {
               ...prev,
               ...settings,
-              look: { ...prev.look, ...settings.look },
+              look: settings.look ? settings.look : prev.look,
               season: { ...prev.season, ...settings.season },
               hoy: { ...prev.hoy, ...settings.hoy },
               goals: { ...prev.goals, ...settings.goals },

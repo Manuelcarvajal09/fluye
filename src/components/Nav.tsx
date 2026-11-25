@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Play } from "lucide-react";
 import { MyMascot, useLook } from "./Coach";
-import { IcoBook, IcoCards, IcoChart, IcoCompass, IcoGem, IcoHome, IcoMic, IcoShop } from "./Icons";
+import { IcoBook, IcoCards, IcoChart, IcoCoin, IcoCompass, IcoGem, IcoHome, IcoMic, IcoPeople, IcoShop } from "./Icons";
 
 type Ico = ComponentType<{ size?: number; className?: string }>;
 type Section = { href: string; label: string; icon: Ico; match: string[] };
@@ -17,16 +17,17 @@ const SIDE: Section[] = [
   { href: "/biblioteca", label: "Biblioteca", icon: IcoBook, match: ["/biblioteca"] },
   { href: "/sonidos", label: "Pronunciación", icon: IcoMic, match: ["/sonidos", "/ritmo"] },
   { href: "/progreso", label: "Progreso", icon: IcoChart, match: ["/progreso"] },
-  { href: "/tienda", label: "Tienda", icon: IcoShop, match: ["/tienda"] },
+  { href: "/amigos", label: "Amigos", icon: IcoPeople, match: ["/amigos"] },
+  { href: "/tienda", label: "Armario", icon: IcoShop, match: ["/tienda"] },
 ];
-/** Móvil: cuatro destinos + Estudiar al centro. Lo demás vive dentro de Explorar y Perfil. */
+/** Móvil: cuatro destinos + Estudiar al centro. Progreso, Armario y Ajustes viven en Perfil (y en los contadores de arriba). */
 const TABS: Section[] = [
   { href: "/hoy", label: "Hoy", icon: IcoHome, match: ["/hoy"] },
   { href: "/explorar", label: "Explorar", icon: IcoCompass, match: ["/explorar", "/rutas", "/biblioteca", "/practicar", "/sonidos", "/ritmo", "/repaso", "/musica"] },
-  { href: "/progreso", label: "Progreso", icon: IcoChart, match: ["/progreso"] },
+  { href: "/amigos", label: "Amigos", icon: IcoPeople, match: ["/amigos"] },
 ];
 
-export function Nav({ due, gems }: { due: number; gems: number }) {
+export function Nav({ due, coins }: { due: number; coins: number }) {
   const path = usePathname();
   const look = useLook();
   const active = (m: string[]) => m.some((h) => path === h || path.startsWith(h + "/"));
@@ -55,7 +56,7 @@ export function Nav({ due, gems }: { due: number; gems: number }) {
           <span className="min-w-0 leading-tight">
             <span className="block truncate font-black">{look.name}</span>
             <span className="mt-0.5 flex items-center gap-1 text-sm font-bold text-muted">
-              <IcoGem size={16} /> {gems} gemas
+              <IcoCoin size={16} /> {coins} monedas
             </span>
           </span>
         </Link>
@@ -77,7 +78,7 @@ export function Nav({ due, gems }: { due: number; gems: number }) {
           </li>
           <Tab s={TABS[2]} on={active(TABS[2].match)} />
           <li>
-            <Link href="/perfil" aria-current={active(["/perfil", "/ajustes", "/tienda", "/admin"]) ? "page" : undefined}>
+            <Link href="/perfil" aria-current={active(["/perfil", "/ajustes", "/tienda", "/admin", "/progreso"]) ? "page" : undefined}>
               <span className="ico">
                 <MyMascot size={30} animate="none" mood="happy" />
               </span>

@@ -96,7 +96,7 @@ export default async function ItemPage({ params }: PageProps<"/biblioteca/[id]">
         {scenes.map((sc) => (
           <figure key={sc.id} className="overflow-hidden rounded-[var(--r-md)] border border-line">
             {/* eslint-disable-next-line @next/next/no-img-element -- SVG local */}
-            <img src={sc.file} alt={sc.alt_es} width={400} height={240} loading="lazy" className="w-full" />
+            <img src={sc.file} alt={sc.alt_es} width={400} height={250} loading="lazy" className="w-full" />
             <figcaption className="p-3 text-sm">
               <b lang="en">{sc.caption_en}</b> <span className="text-muted">— {sc.sense_es ?? sc.caption_es}</span>
               <details className="expand mt-1">

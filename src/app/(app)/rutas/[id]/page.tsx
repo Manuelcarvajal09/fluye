@@ -39,7 +39,7 @@ export default async function RoutePage({ params }: PageProps<"/rutas/[id]">) {
         </div>
         {scene && (
           // eslint-disable-next-line @next/next/no-img-element -- SVG local
-          <img src={scene.file} alt={scene.alt_es} width={400} height={240} className="w-full max-w-sm rounded-[var(--r-lg)]" />
+          <img src={scene.file} alt={scene.alt_es} width={400} height={250} className="w-full max-w-sm rounded-[var(--r-lg)]" />
         )}
       </header>
 

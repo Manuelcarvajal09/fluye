@@ -3,7 +3,8 @@ import { attemptXp, classifyError, finalGrade } from "@/lib/grading";
 import { inRange, seasonFor } from "@/lib/seasons";
 import { rankOf, weekStart, weeklyChallenges } from "@/lib/challenges";
 import { goalOf, maskExplicit } from "@/lib/realtalk";
-import { lookOf, ownsLook } from "@/lib/look";
+import { lookOf, wearOf } from "@/lib/look";
+import { CHESTS, PETS, PIECES, PRICE, STARTERS, chestPool, combine, dressLayers, dupRefund, missingFor, ownsPiece, poseLayers, sanitizeWear } from "@/lib/wardrobe";
 
 describe("calificación de intentos", () => {
   it("ver la solución es olvido y casi no da XP", () => {
@@ -89,27 +90,59 @@ describe("inglés real", () => {
   });
 });
 
-describe("tienda", () => {
-  it("lo de tienda solo se puede usar si se compró", () => {
-    const crown = lookOf({ accessory: "crown" });
-    expect(ownsLook(crown, new Set())).toBe(false);
-    expect(ownsLook(crown, new Set(["acc-crown"]))).toBe(true);
-    expect(ownsLook(lookOf({ accessory: "toque" }), new Set())).toBe(true);
+describe("armario", () => {
+  it("catálogo: 71 piezas, 12 mascotas, cuatro rarezas y precios por rareza", () => {
+    expect(PIECES).toHaveLength(71);
+    expect(PETS).toHaveLength(12);
+    for (const p of PIECES) if (p.source === "shop") expect(p.price).toBe(PRICE[p.tier]);
+    expect(new Set(PIECES.map((p) => p.tier))).toEqual(new Set([0, 1, 2, 3]));
+    expect(STARTERS.sort()).toEqual(["flower", "glasses"]);
+  });
+  it("lo de tienda solo se puede usar si es tuyo (con id nuevo o anterior); flor y lentes vienen de inicio", () => {
+    const crown = lookOf({ sets: { zorro: ["crown"] } });
+    expect(missingFor(crown, new Set())).toBe("Corona");
+    expect(missingFor(crown, new Set(["acc-crown"]))).toBeNull();
+    expect(missingFor(crown, new Set(["pz-crown"]))).toBeNull();
+    expect(ownsPiece("glasses", new Set())).toBe(true);
+    expect(missingFor(lookOf({ species: "ajolote" }), new Set())).toBe("Ajolote");
+    expect(missingFor(lookOf({ species: "ajolote" }), new Set(["pet-ajolote"]))).toBeNull();
+  });
+  it("una pieza por zona: combinar reemplaza la de la misma zona", () => {
+    expect(combine(["toque", "glasses"], "crown")).toEqual(["glasses", "crown"]);
+    expect(combine(["toque"], "flower")).toEqual(["toque", "flower"]);
+    expect(sanitizeWear(["toque", "cap", "nada", 3])).toEqual(["cap"]);
+  });
+  it("conjunto completo: lentes debajo del sombrero y capas dentro del lienzo", () => {
+    const l = dressLayers("zorro", ["cap", "sweater", "glasses", "primer-repaso"]);
+    const src = l.map((x) => x.src);
+    expect(src[0]).toContain("lower-sweater");
+    expect(src.indexOf("/armario/layers/glasses.webp")).toBeLessThan(src.indexOf("/armario/pets/zorro/front-cap.webp"));
+    for (const x of l) expect(x.w).toBeGreaterThan(0);
+    expect(dressLayers("zorro", [])).toEqual([expect.objectContaining({ src: "/armario/pets/zorro/base.webp" })]);
+    expect(poseLayers("gato", ["sweater", "cap"]).map((x) => x.src)).toEqual(["/armario/layers/cap.webp"]);
+  });
+  it("cofres: cuestan menos que comprar, repetidos devuelven la mitad y cada rareza tiene premios", () => {
+    for (const c of CHESTS) {
+      expect(c.odds.reduce((a, b) => a + b, 0)).toBe(100);
+      expect(c.price).toBeLessThan(PRICE[0]);
+      expect(dupRefund(c)).toBeLessThan(c.price);
+    }
+    for (const t of [0, 1, 2, 3] as const) expect(chestPool(t).length).toBeGreaterThan(0);
+    expect(chestPool(3).some((p) => p.type === "pet")).toBe(true);
   });
 });
 
 describe("mascotas", () => {
-  it("una especie retirada (castor) pasa al zorro y conserva nombre y accesorios", () => {
-    const l = lookOf({ species: "castor" as never, name: "Timber", color: "#a8693b", accessory: "toque", face: "glasses" });
-    expect(l.species).toBe("zorro");
+  it("un aspecto antiguo (accesorios por zona y atuendo) pasa a ser el conjunto de su mascota", () => {
+    const l = lookOf({ species: "castor", name: "Timber", accessory: "toque", face: "glasses", outfit: "hoodie" } as never);
+    expect(l.species).toBe("castor");
     expect(l.name).toBe("Timber");
-    expect(l.color).toBe("#f0832f");
-    expect(l.accessory).toBe("toque");
-    expect(l.face).toBe("glasses");
+    expect(wearOf(l).sort()).toEqual(["glasses", "hoodie", "toque"]);
+    expect(wearOf(lookOf({ accessory: "none" } as never))).toEqual([]);
   });
-  it("un aspecto antiguo con un solo accesorio se migra a su zona", () => {
-    expect(lookOf({ accessory: "scarf" }).neck).toBe("scarf");
-    expect(lookOf({ accessory: "scarf" }).accessory).toBe("none");
-    expect(lookOf({ accessory: "glasses" }).face).toBe("glasses");
+  it("cada mascota guarda su conjunto", () => {
+    const l = lookOf({ species: "gato", sets: { zorro: ["cap"], gato: ["crown"] } });
+    expect(wearOf(l)).toEqual(["crown"]);
+    expect(wearOf({ ...l, species: "zorro" })).toEqual(["cap"]);
   });
 });

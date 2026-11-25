@@ -3,7 +3,6 @@ import { and, eq, gte, lte, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import type { Profile } from "./user";
 import { addDays, dayDiff, goalXp, localDay } from "./game";
-import { shopCatalog } from "./look";
 import { GEMS, weeklyChallenges, weekKey, weekStart } from "./challenges";
 
 /**
@@ -23,25 +22,16 @@ export async function ownedItems(userId: string) {
   return new Set(rows.map((r) => r.id));
 }
 
-/** Compra: descuenta solo si alcanza (condición en el UPDATE) y registra el objeto; si ya lo tenía, devuelve las gemas. */
-export async function buy(profile: Profile, itemId: string): Promise<{ ok: true; gems: number } | { ok: false; error: string }> {
-  const item = shopCatalog().find((i) => i.id === itemId);
-  if (!item) return { ok: false, error: "No existe ese objeto." };
-  const d = db();
-  if (item.kind === "freeze" && profile.freezes >= 2) return { ok: false, error: "Ya tienes 2 protectores (el máximo)." };
-  const [paid] = await d
+/** Protector de racha (con gemas, máx. 2). Descuenta solo si alcanza (condición en el UPDATE). */
+export const FREEZE_PRICE = 50;
+export async function buyFreeze(profile: Profile): Promise<{ ok: true; gems: number } | { ok: false; error: string }> {
+  if (profile.freezes >= 2) return { ok: false, error: "Ya tienes 2 protectores (el máximo)." };
+  const [paid] = await db()
     .update(schema.profiles)
-    .set({ gems: sql`${schema.profiles.gems} - ${item.price}`, ...(item.kind === "freeze" ? { freezes: sql`least(${schema.profiles.freezes} + 1, 2)` } : {}) })
-    .where(and(eq(schema.profiles.userId, profile.userId), gte(schema.profiles.gems, item.price), ...(item.kind === "freeze" ? [lte(schema.profiles.freezes, 1)] : [])))
+    .set({ gems: sql`${schema.profiles.gems} - ${FREEZE_PRICE}`, freezes: sql`least(${schema.profiles.freezes} + 1, 2)` })
+    .where(and(eq(schema.profiles.userId, profile.userId), gte(schema.profiles.gems, FREEZE_PRICE), lte(schema.profiles.freezes, 1)))
     .returning({ gems: schema.profiles.gems });
   if (!paid) return { ok: false, error: "Te faltan gemas." };
-  if (item.kind !== "freeze") {
-    const ins = await d.insert(schema.inventory).values({ userId: profile.userId, itemId }).onConflictDoNothing().returning({ id: schema.inventory.itemId });
-    if (!ins.length) {
-      await d.update(schema.profiles).set({ gems: sql`${schema.profiles.gems} + ${item.price}` }).where(eq(schema.profiles.userId, profile.userId));
-      return { ok: false, error: "Ya lo tenías." };
-    }
-  }
   return { ok: true, gems: paid.gems };
 }
 

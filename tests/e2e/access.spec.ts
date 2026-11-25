@@ -221,22 +221,22 @@ test.describe.serial("propietario, intentos y tienda", () => {
     expect((await sql().query("select count(*)::int n from cards where user_id = $1", [userId]))[0].n).toBe(n1);
   });
 
-  test("tienda: sin gemas no compra; con gemas compra y equipa; no se puede equipar sin comprar", async ({ page }) => {
+  test("tienda: sin monedas no compra; con monedas compra y equipa; no se puede equipar sin comprar", async ({ page }) => {
     await signIn(page, TEST_EMAIL);
     await sql().query("delete from inventory where user_id = $1", [userId]);
-    await sql().query("update profiles set gems = 10 where user_id = $1", [userId]);
-    expect((await page.request.post("/api/shop", { data: { action: "buy", itemId: "acc-crown" } })).status()).toBe(409);
-    expect((await page.request.post("/api/profile", { data: { settings: { look: { accessory: "crown" } } } })).status()).toBe(403);
-    await sql().query("update profiles set gems = 200 where user_id = $1", [userId]);
-    const r = await (await page.request.post("/api/shop", { data: { action: "buy", itemId: "acc-crown" } })).json();
+    await sql().query("update profiles set coins = 10 where user_id = $1", [userId]);
+    expect((await page.request.post("/api/shop", { data: { action: "buy", kind: "piece", id: "crown", key: "e2e-crown-1" } })).status()).toBe(409);
+    expect((await page.request.post("/api/profile", { data: { settings: { look: { sets: { zorro: ["crown"] } } } } })).status()).toBe(403);
+    await sql().query("update profiles set coins = 200 where user_id = $1", [userId]);
+    const r = await (await page.request.post("/api/shop", { data: { action: "buy", kind: "piece", id: "crown", key: "e2e-crown-2" } })).json();
     expect(r.ok).toBe(true);
-    expect(r.gems).toBe(50);
-    expect((await page.request.post("/api/shop", { data: { action: "equip", look: { accessory: "crown" } } })).ok()).toBe(true);
-    // Comprar dos veces lo mismo no cobra doble.
-    await page.request.post("/api/shop", { data: { action: "buy", itemId: "acc-crown" } });
-    const [p] = await sql().query("select gems from profiles where user_id = $1", [userId]);
-    expect(p.gems).toBe(50);
+    expect(r.wallet.coins).toBe(40);
+    expect((await page.request.post("/api/shop", { data: { action: "equip", species: "zorro", wear: ["crown"] } })).ok()).toBe(true);
+    // Repetir la misma compra no cobra doble.
+    await page.request.post("/api/shop", { data: { action: "buy", kind: "piece", id: "crown", key: "e2e-crown-2" } });
+    const [p] = await sql().query("select coins from profiles where user_id = $1", [userId]);
+    expect(p.coins).toBe(40);
     await page.goto("/tienda");
-    await expect(page.getByRole("heading", { name: "Tienda" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Armario" })).toBeVisible();
   });
 });

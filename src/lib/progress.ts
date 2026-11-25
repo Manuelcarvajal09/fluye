@@ -5,6 +5,7 @@ import type { Profile } from "./user";
 import { goalXp, localDay, missionsFor, nextStreak, XP, type DayCounters } from "./game";
 import { applyFreezes, awardGems } from "./rewards";
 import { GEMS } from "./challenges";
+import { boostActive, settleAwards, studyCoins } from "./economy";
 
 export type Delta = Partial<DayCounters> & { seconds?: number };
 
@@ -12,8 +13,11 @@ export type Delta = Partial<DayCounters> & { seconds?: number };
  * Suma contadores del día, otorga bonos de misión, actualiza XP total y racha.
  * Todo con upserts idempotentes por (persona, día): no hace falta transacción.
  */
-export async function recordProgress(original: Profile, delta: Delta) {
+export async function recordProgress(original: Profile, input: Delta) {
   const profile = await applyFreezes(original);
+  // Potenciador activo: doble XP (no cambia FSRS ni los contadores de repaso).
+  const boosted = boostActive(profile) && (input.xp ?? 0) > 0;
+  const delta = boosted ? { ...input, xp: (input.xp ?? 0) * 2 } : input;
   const today = localDay(profile.tz);
   const d = db();
   const [row] = await d
@@ -71,5 +75,13 @@ export async function recordProgress(original: Profile, delta: Delta) {
   if (reachedNow && (await awardGems(profile.userId, `goal:${today}`, GEMS.dailyGoal, "Meta diaria"))) gems += GEMS.dailyGoal;
   for (const m of newly) if (await awardGems(profile.userId, `mission:${today}:${m.id}`, GEMS.dailyMission, `Reto diario: ${m.label}`)) gems += GEMS.dailyMission;
 
-  return { gems, gained, dayXp, goal: goalXp(profile.goalMinutes), goalReached: reachedNow, streak, missions: newly.map((m) => m.label) };
+  const coins = await studyCoins(profile.userId, today, gained, reachedNow);
+  const awards = reachedNow || (await isFirstReview(profile.userId)) ? await settleAwards({ ...profile, streak }) : [];
+  return { gems, coins, boosted, awards, gained, dayXp, goal: goalXp(profile.goalMinutes), goalReached: reachedNow, streak, missions: newly.map((m) => m.label) };
+}
+
+/** ¿Es su primer repaso? (barato: no cuenta toda la tabla). */
+async function isFirstReview(userId: string) {
+  const second = await db().select({ one: sql<number>`1` }).from(schema.reviewLogs).where(eq(schema.reviewLogs.userId, userId)).limit(1).offset(1);
+  return second.length === 0;
 }

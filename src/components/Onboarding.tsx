@@ -6,7 +6,7 @@ import { AREAS, GROUP_LABEL, type AreaGroup } from "@/lib/areas";
 import type { Level } from "@/lib/types";
 import { Bar } from "./ui";
 import { Mascot } from "./Mascot";
-import { SPECIES, type Look, type Species } from "@/lib/look";
+import { FREE_SPECIES as SPECIES, type Look, type Species } from "@/lib/look";
 import { Logo } from "./Nav";
 
 const SELF: { level: Level; title: string; text: string }[] = [
@@ -33,7 +33,7 @@ export function Onboarding({ name: initialName, level: initialLevel, areas: init
     await fetch("/api/profile", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ name, level, goalMinutes: minutes, dailyNew: minutes >= 15 ? 12 : minutes >= 10 ? 8 : 5, topics: areas, settings: { look: { species, color: SPECIES.find((x) => x.id === species)!.color, name: SPECIES.find((x) => x.id === species)!.defaultName } }, tz: Intl.DateTimeFormat().resolvedOptions().timeZone, onboarded: true }),
+      body: JSON.stringify({ name, level, goalMinutes: minutes, dailyNew: minutes >= 15 ? 12 : minutes >= 10 ? 8 : 5, topics: areas, settings: { look: { species, name: SPECIES.find((x) => x.id === species)!.defaultName } }, tz: Intl.DateTimeFormat().resolvedOptions().timeZone, onboarded: true }),
     });
     router.push(then);
   }
@@ -112,12 +112,12 @@ export function Onboarding({ name: initialName, level: initialLevel, areas: init
         <section className="flex flex-1 flex-col gap-5">
           <div>
             <h1 className="text-3xl font-black">Elige a tu compañero</h1>
-            <p className="text-muted">Te acompañará en cada sesión. Después podrás cambiar su nombre, color y accesorios.</p>
+            <p className="text-muted">Te acompañará en cada sesión. Después podrás cambiar su nombre y vestirlo en el Armario.</p>
           </div>
           <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
             {SPECIES.map((sp) => (
               <button key={sp.id} type="button" aria-pressed={species === sp.id} onClick={() => setSpecies(sp.id)} className={`flex flex-col items-center gap-1 rounded-2xl border-2 p-2 ${species === sp.id ? "border-accent bg-accent-soft" : "border-line bg-surface"}`}>
-                <Mascot species={sp.id} color={sp.color} accessory="toque" mood={species === sp.id ? "cheer" : "happy"} size={76} animate={species === sp.id ? "bob" : "none"} decorative />
+                <Mascot species={sp.id} wear={species === sp.id ? [] : ["flower"]} mood={species === sp.id ? "cheer" : "happy"} size={76} animate={species === sp.id ? "bob" : "none"} decorative />
                 <span className="text-sm font-black">{sp.label}</span>
               </button>
             ))}

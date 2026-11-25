@@ -25,7 +25,9 @@ export const sql = () => neon(process.env.DATABASE_URL!);
 /** Borra solo los datos del usuario de prueba. */
 export async function resetTestData(userId: string) {
   const q = sql();
-  for (const t of ["cards", "review_logs", "daily_stats", "lesson_progress", "sound_progress", "error_events", "active_time", "study_sessions", "gem_ledger", "inventory", "listen_events", "collection_items", "collections", "profiles"]) await q.query(`delete from ${t} where user_id = $1`, [userId]);
+  for (const t of ["cards", "review_logs", "daily_stats", "lesson_progress", "sound_progress", "error_events", "active_time", "study_sessions", "gem_ledger", "inventory", "listen_events", "collection_items", "collections", "wallet_events", "profiles"]) await q.query(`delete from ${t} where user_id = $1`, [userId]);
+  await q.query("delete from friendships where user_a = $1 or user_b = $1", [userId]);
+  await q.query("delete from gifts where from_user = $1 or to_user = $1", [userId]);
 }
 
 /** Desbloquea un usuario de prueba en Clerk (por si una prueba anterior lo dejó bloqueado). */

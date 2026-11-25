@@ -51,10 +51,9 @@ describe("logros y aspecto", () => {
     expect(unlockedCount({ ...zero, reviews: 120, bestStreak: 7, placement: 1 })).toBe(ACHIEVEMENTS.filter((a) => ["first", "reviews100", "streak3", "streak7", "placement"].includes(a.id)).length);
   });
   it("normaliza el aspecto y descarta valores inválidos", () => {
-    const l = lookOf({ species: "zorro", color: "no-es-color", name: "  ", accent: "inexistente" as never });
+    const l = lookOf({ species: "zorro", name: "  ", accent: "inexistente" as never });
     expect(l.species).toBe("zorro");
     expect(l.name).toBe("Rufo");
-    expect(l.color).toBe("#f0832f");
     expect(l.accent).toBe("esmeralda");
   });
 });

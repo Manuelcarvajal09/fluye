@@ -2,7 +2,7 @@
 import { createContext, useContext, type ReactNode } from "react";
 import { Mascot, type Mood } from "./Mascot";
 import type { Look } from "@/lib/look";
-import { DEFAULT_LOOK } from "@/lib/look";
+import { DEFAULT_LOOK, wearOf } from "@/lib/look";
 
 const LookCtx = createContext<Look>(DEFAULT_LOOK);
 const CelebrateCtx = createContext(true);
@@ -18,7 +18,7 @@ export const useCelebrations = () => useContext(CelebrateCtx);
 /** Mascota de la persona con su aspecto elegido. */
 export function MyMascot({ mood = "happy", size = 120, className = "", animate }: { mood?: Mood; size?: number; className?: string; animate?: "bob" | "hop" | "none" }) {
   const l = useLook();
-  return <Mascot species={l.species} color={l.color} accessory={l.accessory} face={l.face} neck={l.neck} outfit={l.outfit} mood={mood} size={size} className={className} animate={animate} label={`${l.name}, tu mascota`} />;
+  return <Mascot species={l.species} wear={wearOf(l)} mood={mood} size={size} className={className} animate={animate} label={`${l.name}, tu mascota`} />;
 }
 
 /** Mascota con globo de texto. */

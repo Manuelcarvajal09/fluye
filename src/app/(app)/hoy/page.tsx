@@ -1,16 +1,16 @@
 import Link from "next/link";
 import { and, eq, gte } from "drizzle-orm";
 import { Sparkles, Check, ChevronRight } from "lucide-react";
-import { IcoBook, IcoCards, IcoChart, IcoClock, IcoFlame, IcoIce, IcoStar, IcoTarget, IcoTrophy } from "@/components/Icons";
+import { IcoBook, IcoCards, IcoChart, IcoClock, IcoFlame, IcoIce, IcoTarget, IcoTrophy } from "@/components/Icons";
 import { db, schema } from "@/db";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { dueCount, lastDays, forecast, achievementTotals, itemStatus } from "@/lib/stats";
 import { goalXp, levelFromXp, localDay, missionsFor, visibleStreak, addDays } from "@/lib/game";
 import { greetingSay } from "@/lib/motivation";
-import { HeroCoach } from "@/components/HeroCoach";
+import { CoachTip, HeroCoach } from "@/components/HeroCoach";
 import { CATALOG, getScene, ROUTES } from "@/lib/content";
 import { collectionsOf } from "@/lib/collections";
-import { Bar, Ring } from "@/components/ui";
+import { Bar } from "@/components/ui";
 import { Gem } from "@/components/Nav";
 import { StartButton } from "@/components/StartButton";
 import { recommendMission, trackFor } from "@/lib/recommend";
@@ -71,49 +71,72 @@ export default async function Today() {
   const hasWeek = week.some((d) => d.reviews > 0);
   const minutes = rec ? Math.max(profile.goalMinutes, rec.track.minutes) : profile.goalMinutes;
 
+  const left = Math.max(0, goal - todayRow.xp);
+  const goalDone = todayRow.xp >= goal;
+
   return (
-    <div className="flex flex-col gap-6 lg:gap-8">
-      <header className="flex flex-wrap items-center justify-between gap-3">
-        <div>
-          <p className="font-bold text-muted">{hello}</p>
-          <h1 className="font-display text-4xl font-extrabold leading-none sm:text-5xl">{first ?? "Hola"}</h1>
-        </div>
+    <div className="flex flex-col gap-5 lg:gap-6">
+      <header>
+        <h1 className="text-[1.9rem] font-black leading-tight lg:text-4xl">{first ? `¡Hola, ${first}!` : `¡${hello}!`}</h1>
+        <p className="mt-1 text-muted">{rec ? "Tu misión de hoy te espera." : "Elige cómo quieres estudiar hoy."}</p>
       </header>
 
-      <div className="grid gap-6 lg:grid-cols-12 lg:gap-8">
-        {/* Protagonista: la misión de hoy */}
-        <section aria-labelledby="mision" className="hero-card p-5 sm:p-7 lg:col-span-8 3xl:col-span-9">
-          <div className="grid items-start gap-5 md:grid-cols-[minmax(0,1fr)_auto]">
-            <div className="flex min-w-0 flex-col gap-4">
-              <HeroCoach say={say} seed={seed} compact />
-              <div>
-                <p className="flex items-center gap-2 text-sm font-black text-brand-ink">
-                  {rec ? <RouteIcon name={rec.route.icon} size={17} /> : <Sparkles size={17} aria-hidden />}
-                  {rec ? `${rec.route.title_es} · ${rec.track.band}` : due > 0 ? "Repaso y expresiones nuevas" : "Tu sesión"}
+      <div className="grid gap-5 lg:grid-cols-12 lg:gap-6">
+        <div className="flex min-w-0 flex-col gap-5 lg:col-span-8 3xl:col-span-9">
+          {/* Meta del día + compañero */}
+          <section aria-labelledby="meta" className="goal-card">
+            <div className="min-w-0 flex-1">
+              <p id="meta" className="eyebrow text-brand-ink">Tu meta de hoy</p>
+              <p className="mt-1 text-2xl font-black leading-tight sm:text-[1.7rem]">
+                {Math.min(todayRow.xp, goal)} de {goal} XP
+              </p>
+              <Bar value={todayRow.xp} max={goal} color="var(--brand)" className="mt-3 h-2.5 max-w-md" label="Meta diaria" />
+              <p className="mt-3 text-sm font-semibold text-brand-ink">{goalDone ? "¡Meta cumplida! Tu racha de hoy está a salvo." : todayRow.xp === 0 ? `${profile.goalMinutes} minutos bastan para cumplirla.` : `¡Solo faltan ${left} XP!`}</p>
+              {profile.freezes > 0 && (
+                <p className="mt-1 flex items-center gap-1 text-xs font-bold text-muted">
+                  <IcoIce size={16} /> {profile.freezes} {profile.freezes === 1 ? "protector" : "protectores"} de racha
                 </p>
-                <h2 id="mision" className={`mt-1 max-w-[34ch] font-display font-extrabold leading-[1.1] ${(rec?.track.objective_es.length ?? 0) > 70 ? "text-2xl sm:text-[1.9rem]" : "text-[1.9rem] sm:text-4xl"}`}>
-                  {rec ? rec.track.objective_es : "Repasa lo que toca y aprende algo nuevo"}
+              )}
+            </div>
+            <HeroCoach say={say} />
+          </section>
+
+          {/* Protagonista: la misión de hoy */}
+          <section aria-labelledby="mision" className="mission-card">
+            {scene && (
+              <div className="mission-art" style={{ background: "linear-gradient(140deg, var(--hero-from), var(--hero-to))" }}>
+                {/* eslint-disable-next-line @next/next/no-img-element -- SVG local pequeño, sin optimización necesaria */}
+                <img src={scene.file} alt={scene.alt_es} width={400} height={250} loading="eager" />
+                <span className="chip absolute left-4 top-4 bg-surface text-accent shadow-card">Misión recomendada</span>
+              </div>
+            )}
+            <div className="flex min-w-0 flex-col gap-4 p-5 sm:p-6">
+              <div>
+                <p className="eyebrow flex items-center gap-2 text-brand-ink">
+                  {rec ? <RouteIcon name={rec.route.icon} size={15} /> : <Sparkles size={16} aria-hidden />}
+                  {rec ? "Inglés para la vida real" : due > 0 ? "Repaso y expresiones nuevas" : "Tu sesión"}
+                </p>
+                <h2 id="mision" className="mt-1 text-[1.6rem] font-black leading-tight sm:text-3xl">
+                  {rec ? rec.route.title_es : "Repasa lo que toca y aprende algo nuevo"}
                 </h2>
-                {rec && <p className="mt-2 max-w-prose text-muted">{rec.reason}</p>}
+                {rec && <p className="mt-2 max-w-prose text-muted">{rec.track.objective_es}</p>}
+                {rec && <p className="mt-1 max-w-prose text-sm text-muted">{rec.reason}</p>}
               </div>
               <ul className="flex flex-wrap gap-2 text-sm font-bold">
-                <li className="flex items-center gap-1.5 rounded-full bg-surface/80 px-3 py-1.5">
+                <li className="flex items-center gap-1.5 rounded-full bg-brand-soft px-3 py-1.5 text-brand-ink">
                   <IcoClock size={18} /> {minutes} min
                 </li>
-                {rec?.track.skills.map((k) => (
-                  <li key={k} className="rounded-full bg-surface/80 px-3 py-1.5">
-                    {SKILL[k] ?? k}
-                  </li>
-                ))}
+                {rec && <li className="rounded-full bg-surface-2 px-3 py-1.5">{rec.track.band}</li>}
+                {rec && rec.track.skills.length > 0 && <li className="rounded-full bg-accent-soft px-3 py-1.5 text-accent">{rec.track.skills.map((k) => SKILL[k] ?? k).join(" + ")}</li>}
                 {due > 0 && (
-                  <li className="flex items-center gap-1.5 rounded-full bg-surface/80 px-3 py-1.5">
+                  <li className="flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5">
                     <IcoCards size={18} /> {due} {due === 1 ? "repaso" : "repasos"}
                   </li>
                 )}
               </ul>
               <StartButton href={rec ? `/sesion?mision=${rec.track.id}&min=${minutes}` : `/sesion?min=${profile.goalMinutes}`} />
               <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Elegir cuánto tiempo">
-                <span className="text-sm font-bold text-muted">¿Otro tiempo?</span>
+                <span className="mr-auto text-sm font-bold text-muted">Tiempo disponible</span>
                 {[5, 10, 15, 20].map((m) => (
                   <Link key={m} href={rec ? `/sesion?mision=${rec.track.id}&min=${m}` : `/sesion?min=${m}`} className={`chip-btn ${m === minutes ? "is-on" : ""}`}>
                     {m} min
@@ -121,11 +144,6 @@ export default async function Today() {
                 ))}
               </div>
               <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm font-extrabold">
-                {due > 0 && (
-                  <Link href="/repaso" className="text-brand-ink underline-offset-4 hover:underline">
-                    Solo repasar ({due})
-                  </Link>
-                )}
                 <Link href={`/sesion?min=${profile.goalMinutes}`} className="text-brand-ink underline-offset-4 hover:underline">
                   Sesión libre de {profile.goalMinutes} min
                 </Link>
@@ -134,56 +152,101 @@ export default async function Today() {
                 </Link>
               </div>
             </div>
-            {scene && (
-              // eslint-disable-next-line @next/next/no-img-element -- SVG local pequeño, sin optimización necesaria
-              <img src={scene.file} alt={scene.alt_es} width={400} height={240} loading="eager" className="hidden w-[min(17rem,22vw)] rounded-[var(--r-lg)] md:block 2xl:w-80" />
-            )}
-          </div>
-        </section>
-
-        {/* Progreso del día */}
-        <aside className="flex flex-col gap-4 lg:col-span-4 3xl:col-span-3">
-          <section className="module flex items-center gap-4 p-5">
-            <Ring value={todayRow.xp} max={goal} size={104} stroke={12} color="var(--fire)">
-              <div>
-                <p className="text-xl font-black">{todayRow.xp}</p>
-                <p className="text-[11px] font-bold text-muted">de {goal} XP</p>
-              </div>
-            </Ring>
-            <div>
-              <h2 className="font-black">{todayRow.xp >= goal ? "Meta cumplida" : "Meta de hoy"}</h2>
-              <p className="text-sm text-muted">{todayRow.xp >= goal ? "Tu racha de hoy está a salvo." : todayRow.xp === 0 ? `${profile.goalMinutes} minutos bastan.` : `Te faltan ${goal - todayRow.xp} XP.`}</p>
-              {profile.freezes > 0 && (
-                <p className="mt-1 flex items-center gap-1 text-xs font-bold text-muted">
-                  <IcoIce size={16} /> {profile.freezes} {profile.freezes === 1 ? "protector" : "protectores"} de racha
-                </p>
-              )}
-            </div>
           </section>
+
+          {/* Accesos: repasos y colecciones */}
+          <div className="grid grid-cols-2 gap-4">
+            <Link href="/repaso" className="module tile-ico-wrap flex flex-col gap-1 p-5">
+              <span className="tile-ico w-fit">
+                <IcoCards size={34} />
+              </span>
+              <span className="mt-1 text-3xl font-black leading-none">{due}</span>
+              <span className="font-black leading-tight">{due === 1 ? "Repaso pendiente" : "Repasos pendientes"}</span>
+              <span className="text-sm text-muted">{due > 0 ? "Recupera lo que aprendiste" : "Estás al día"}</span>
+            </Link>
+            <Link href="/biblioteca/colecciones" className="module tile-ico-wrap flex flex-col gap-1 p-5">
+              <span className="tile-ico w-fit">
+                <IcoBook size={34} />
+              </span>
+              <span className="mt-1 text-3xl font-black leading-none">{cols.length}</span>
+              <span className="font-black leading-tight">Mis colecciones</span>
+              <span className="text-sm text-muted">Elige qué quieres estudiar</span>
+            </Link>
+          </div>
+        </div>
+
+        {/* Columna lateral: semana, retos, consejo y logro */}
+        <aside className="flex min-w-0 flex-col gap-5 lg:col-span-4 3xl:col-span-3">
+          {mods.week && (
+            <section className="module p-5">
+              <div className="mb-4 flex items-center justify-between gap-2">
+                <h2 className="text-xl font-black">Tu semana</h2>
+                <Link href="/progreso" className="flex items-center gap-1 rounded-full bg-fire-soft px-3 py-1 text-sm font-black text-fire">
+                  <IcoFlame size={18} /> {streak} {streak === 1 ? "día" : "días"}
+                </Link>
+              </div>
+              <ol className="flex justify-between">
+                {week.map((d) => {
+                  const ok = d.xp >= goal;
+                  const fz = frozen.has(d.day);
+                  const wd = new Date(d.day + "T12:00:00Z").getUTCDay();
+                  const isToday = d.day === today;
+                  return (
+                    <li key={d.day} className="flex flex-col items-center gap-1.5">
+                      <span className={`text-[11px] font-bold ${isToday ? "text-text" : "text-muted"}`} aria-hidden>
+                        {DAYS[wd]}
+                      </span>
+                      <span className={`day-dot ${ok ? "is-done" : fz ? "is-frozen" : d.xp > 0 ? "is-part" : ""} ${isToday ? "is-today" : ""}`}>
+                        {ok ? <Check size={18} strokeWidth={3.5} aria-hidden /> : fz ? <IcoIce size={18} /> : d.xp > 0 ? "•" : "–"}
+                      </span>
+                      <span className="sr-only">
+                        {d.day}: {fz ? "protegido con protector de racha (no estudiado)" : `${d.xp} XP`}
+                      </span>
+                    </li>
+                  );
+                })}
+              </ol>
+              <p className="mt-4 text-sm text-muted">{hasWeek ? `La constancia vale más que la perfección. Mejor racha: ${profile.bestStreak} ${profile.bestStreak === 1 ? "día" : "días"}.` : "Aún no hay actividad esta semana: tu primera sesión la estrena."}</p>
+            </section>
+          )}
           {mods.challenges && (
             <section className="module p-5">
-              <h2 className="mb-3 flex items-center gap-2 font-black">
-                <IcoTarget size={24} /> Retos de hoy
+              <h2 className="mb-3 flex items-center justify-between gap-2 text-xl font-black">
+                Retos de hoy <IcoTrophy size={26} />
               </h2>
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-3.5">
                 {missions.map((m) => {
                   const v = m.value(todayRow);
                   const ok = todayRow.missions.includes(m.id) || v >= m.target;
                   return (
-                    <li key={m.id} className="flex items-center gap-3">
-                      <span className={`grid h-8 w-8 shrink-0 place-items-center rounded-xl ${ok ? "bump bg-good text-white" : "bg-surface-2 text-muted"}`}>{ok ? <Check size={18} strokeWidth={3} aria-hidden /> : <IcoStar size={18} />}</span>
-                      <div className="min-w-0 flex-1">
-                        <p className="text-sm font-extrabold">{m.label}</p>
-                        <Bar value={v} max={m.target} color={ok ? "var(--good)" : "var(--accent)"} className="mt-1 h-1.5" label={m.label} />
-                      </div>
+                    <li key={m.id}>
+                      <p className="flex items-center justify-between gap-2 text-sm font-extrabold">
+                        <span>{m.label}</span>
+                        <span className={ok ? "text-good" : "text-muted"}>{ok ? <Check size={18} strokeWidth={3} aria-label="cumplido" /> : `${Math.min(v, m.target)}/${m.target}`}</span>
+                      </p>
+                      <Bar value={v} max={m.target} color={ok ? "var(--good)" : "var(--brand)"} className="mt-1.5 h-1.5" label={m.label} />
                     </li>
                   );
                 })}
               </ul>
-              <p className="mt-3 flex items-center gap-1 text-xs font-bold text-muted">
-                <Gem size={13} /> +5 por reto · +10 por la meta
+              <p className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1.5 text-xs font-black text-accent">
+                <Gem size={16} /> +5 gemas por reto · +10 por la meta
               </p>
             </section>
+          )}
+          <CoachTip seed={seed} say={say} />
+          {mods.achievement && nextAch && (
+            <Link href="/progreso#logros" className="module block p-5">
+              <span className="mb-2 flex items-center justify-between gap-2 text-xl font-black">
+                Próximo logro <IcoTrophy size={26} />
+              </span>
+              <span className="block font-black">{nextAch.title}</span>
+              <span className="block text-sm text-muted">{nextAch.desc}</span>
+              <Bar value={nextAch.value(achStats)} max={nextAch.goal} color="var(--brand)" className="mt-3 h-2" label={nextAch.desc} />
+              <span className="mt-2 block text-xs font-bold text-muted">
+                {Math.min(nextAch.value(achStats), nextAch.goal)} de {nextAch.goal}
+              </span>
+            </Link>
           )}
         </aside>
       </div>
@@ -202,32 +265,6 @@ export default async function Today() {
       )}
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
-        {mods.week && (
-          <section className="module p-5">
-            <h2 className="mb-4 flex items-center gap-2 font-black">
-              <IcoFlame size={22} /> Esta semana
-            </h2>
-            <ol className="flex justify-between">
-              {week.map((d) => {
-                const ok = d.xp >= goal;
-                const fz = frozen.has(d.day);
-                const wd = new Date(d.day + "T12:00:00Z").getUTCDay();
-                return (
-                  <li key={d.day} className="flex flex-col items-center gap-1">
-                    <span className={`grid h-9 w-9 place-items-center rounded-full text-sm font-black ${ok ? "bg-fire-soft text-fire" : fz ? "bg-[#dcecfa] text-[#0b6bb5]" : d.xp > 0 ? "bg-fire-soft text-fire" : "bg-surface-2 text-muted"} ${d.day === today ? "ring-2 ring-fire ring-offset-2 ring-offset-surface" : ""}`}>
-                      {ok ? <IcoFlame size={22} /> : fz ? <IcoIce size={20} /> : DAYS[wd]}
-                    </span>
-                    <span className="sr-only">
-                      {d.day}: {fz ? "protegido con protector de racha (no estudiado)" : `${d.xp} XP`}
-                    </span>
-                  </li>
-                );
-              })}
-            </ol>
-            <p className="mt-4 text-sm text-muted">{hasWeek ? `Mejor racha: ${profile.bestStreak} ${profile.bestStreak === 1 ? "día" : "días"}.` : "Aún no hay actividad esta semana: tu primera sesión la estrena."}</p>
-          </section>
-        )}
-
         {mods.load && (
           <Link href="/repaso" className="module p-5">
             <h2 className="mb-3 flex items-center gap-2 font-black">
@@ -321,21 +358,6 @@ export default async function Today() {
           </Link>
         )}
 
-        {mods.achievement && nextAch && (
-          <Link href="/progreso#logros" className="module flex items-center gap-4 p-5">
-            <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-fire-soft text-fire">
-              <IcoTrophy size={30} />
-            </span>
-            <span className="min-w-0 flex-1">
-              <span className="block text-xs font-bold text-muted">Próximo logro</span>
-              <span className="block font-black">{nextAch.title}</span>
-              <Bar value={nextAch.value(achStats)} max={nextAch.goal} color="var(--fire)" className="mt-1.5 h-1.5" label={nextAch.desc} />
-              <span className="mt-1 block text-xs text-muted">
-                {nextAch.desc} · {Math.min(nextAch.value(achStats), nextAch.goal)}/{nextAch.goal}
-              </span>
-            </span>
-          </Link>
-        )}
 
         {mods.theme && themed && (
           <Link href={`/rutas/${themed.id}`} className="module flex items-center gap-4 p-5">

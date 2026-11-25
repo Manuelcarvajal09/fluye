@@ -75,6 +75,8 @@ export type Settings = {
   season?: SeasonPrefs;
   /** Celebraciones y confeti al acertar/terminar (se pueden apagar). */
   celebrations?: boolean;
+  /** Movimiento reducido dentro de la app (además de la preferencia del sistema). */
+  motion?: "auto" | "reduced";
   /** Retos privados con amistades (desactivado por defecto; nada es público). */
   social?: boolean;
   /** Lenguaje explícito: muestra groserías completas (sin asteriscos). */

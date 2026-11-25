@@ -19,8 +19,68 @@ export const profiles = pgTable("profiles", {
   gems: integer("gems").notNull().default(0),
   /** Protectores de racha disponibles (máx. 2). */
   freezes: smallint("freezes").notNull().default(0),
+  /** Monedas del armario (prendas, accesorios, mascotas, cofres y potenciadores). Saldo inicial 120. */
+  coins: integer("coins").notNull().default(120),
+  /** Vidas: se pierden con errores en lecciones (nunca bloquean el estudio) y se recuperan practicando. */
+  lives: smallint("lives").notNull().default(5),
+  /** Último día local en que se entregó la vida extra diaria. */
+  livesDay: date("lives_day"),
+  /** Protección activada con gemas: el próximo error no quita vida. */
+  shield: smallint("shield").notNull().default(0),
+  /** Potenciadores de doble XP guardados y hasta cuándo dura el activo. */
+  boosts: smallint("boosts").notNull().default(0),
+  boostUntil: timestamp("boost_until", { withTimezone: true }),
+  /** Código para que otra persona te agregue (no expone correo ni id). */
+  friendCode: text("friend_code").unique(),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
+
+/** Movimientos de monedas, gemas, vidas y potenciadores con clave idempotente: cada premio o cargo ocurre una sola vez. */
+export const walletEvents = pgTable(
+  "wallet_events",
+  {
+    userId: text("user_id").notNull(),
+    key: text("key").notNull(),
+    currency: text("currency").notNull(), // coins | gems | lives | shield | boosts
+    amount: integer("amount").notNull(),
+    reason: text("reason").notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.key] }), index("wallet_user_time_idx").on(t.userId, t.createdAt)],
+);
+
+/** Amistades: un par por fila con user_a < user_b. Pendiente hasta que la otra persona acepta. */
+export const friendships = pgTable(
+  "friendships",
+  {
+    userA: text("user_a").notNull(),
+    userB: text("user_b").notNull(),
+    status: text("status").notNull().default("pending"), // pending | accepted
+    requestedBy: text("requested_by").notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+    acceptedAt: timestamp("accepted_at", { withTimezone: true }),
+  },
+  (t) => [primaryKey({ columns: [t.userA, t.userB] }), index("friendships_b_idx").on(t.userB)],
+);
+
+/** Regalos entre amistades. `client_key` evita duplicar un envío repetido; `opened_at` hace que se cobre una sola vez. */
+export const gifts = pgTable(
+  "gifts",
+  {
+    id: text("id").primaryKey(),
+    fromUser: text("from_user").notNull(),
+    toUser: text("to_user").notNull(),
+    kind: text("kind").notNull(), // letter | gems | boost
+    amount: integer("amount").notNull().default(0),
+    message: text("message").notNull().default(""),
+    clientKey: text("client_key").notNull(),
+    sentAt: timestamp("sent_at", { withTimezone: true }).notNull().defaultNow(),
+    openedAt: timestamp("opened_at", { withTimezone: true }),
+    thanks: text("thanks"),
+    thankedAt: timestamp("thanked_at", { withTimezone: true }),
+  },
+  (t) => [uniqueIndex("gifts_client_idx").on(t.fromUser, t.clientKey), index("gifts_to_idx").on(t.toUser, t.sentAt), index("gifts_from_idx").on(t.fromUser, t.sentAt)],
+);
 
 /**
  * Una tarjeta FSRS por (persona, ítem, modalidad).

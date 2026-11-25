@@ -74,7 +74,7 @@ export default async function Explore() {
                     <span className={`relative shrink-0 overflow-hidden rounded-[var(--r-md)] bg-brand-soft ${featured ? "w-28 sm:w-56" : "w-24"}`}>
                       {sc ? (
                         // eslint-disable-next-line @next/next/no-img-element -- ilustración local
-                        <img src={sc.file} alt="" width={400} height={240} loading={featured ? "eager" : "lazy"} className="h-full w-full object-cover" />
+                        <img src={sc.file} alt="" width={400} height={250} loading={featured ? "eager" : "lazy"} className="h-full w-full object-cover" />
                       ) : (
                         <span className="grid h-full min-h-20 place-items-center text-brand-ink">
                           <RouteIcon name={r.icon} size={32} />

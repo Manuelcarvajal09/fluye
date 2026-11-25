@@ -4,12 +4,22 @@ import { setTtsPrefs, unlockAudio } from "@/lib/audio/tts";
 import { setSfxEnabled } from "@/lib/audio/sfx";
 
 /** Aplica las preferencias guardadas (tema y voz) y sincroniza la zona horaria. */
-export function Prefs({ theme, voice, rate, accent, autoplay, tz, engine, hdVoice, sfx, colorAccent }: { theme?: string; voice?: string; rate?: number; accent?: "en-US" | "en-CA"; autoplay?: boolean; tz: string; engine?: "hd" | "device"; hdVoice?: string; sfx?: boolean; colorAccent?: string }) {
+export function Prefs({ theme, voice, rate, accent, autoplay, tz, engine, hdVoice, sfx, colorAccent, motion }: { motion?: "auto" | "reduced"; theme?: string; voice?: string; rate?: number; accent?: "en-US" | "en-CA"; autoplay?: boolean; tz: string; engine?: "hd" | "device"; hdVoice?: string; sfx?: boolean; colorAccent?: string }) {
   useEffect(() => {
     setTtsPrefs({ voice, rate, accent, autoplay, engine, hdVoice });
   }, [voice, rate, accent, autoplay, engine, hdVoice]);
 
   useEffect(() => setSfxEnabled(sfx !== false), [sfx]);
+
+  // Movimiento reducido elegido en la app (además del ajuste del sistema): se guarda también en el navegador para aplicarlo antes de pintar.
+  useEffect(() => {
+    if (!motion) return;
+    if (motion === "reduced") document.documentElement.dataset.motion = "reduced";
+    else delete document.documentElement.dataset.motion;
+    try {
+      localStorage.setItem("motion", motion);
+    } catch {}
+  }, [motion]);
 
   // El primer toque desbloquea el audio (iPhone/iPad no permiten reproducir sin un gesto).
   useEffect(() => {

@@ -57,6 +57,9 @@ export default async function SessionPage({ searchParams }: PageProps<"/sesion">
         dayXp={today.xp}
         totalXp={profile.xp}
         name={profile.name}
+        lives={profile.lives}
+        shield={profile.shield}
+        boostUntil={profile.boostUntil && profile.boostUntil > new Date() ? profile.boostUntil.toISOString() : null}
         resume={resume}
         meta={{
           id,

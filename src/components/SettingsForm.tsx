@@ -28,6 +28,7 @@ type Initial = {
   engine?: "hd" | "device";
   hdVoice?: string;
   look: Look;
+  ownedPets: string[];
 };
 
 
@@ -51,8 +52,8 @@ export function SettingsForm({ initial }: { initial: Initial }) {
 
   function pickSpecies(id: Species) {
     const next = SPECIES.find((x) => x.id === id)!;
-    // Si el nombre y el color eran los de la especie anterior, se actualizan a los de la nueva.
-    setLook({ species: id, name: v.look.name === sp.defaultName ? next.defaultName : v.look.name, color: v.look.color === sp.color ? next.color : v.look.color });
+    // Si el nombre era el de la especie anterior, pasa al de la nueva.
+    setLook({ species: id, name: v.look.name === sp.defaultName ? next.defaultName : v.look.name });
   }
   const pickAccent = (id: AccentId) => setLook({ accent: id });
   // Vista previa inmediata del color elegido (aún sin guardar).
@@ -114,7 +115,7 @@ export function SettingsForm({ initial }: { initial: Initial }) {
   return (
     <div className="flex flex-col gap-5">
       <Card title="Tu compañero">
-        <MascotStudio look={v.look} setLook={setLook} onSpecies={pickSpecies} />
+        <MascotStudio look={v.look} setLook={setLook} onSpecies={pickSpecies} ownedPets={v.ownedPets} />
       </Card>
 
       <Card title="Colores de la app">
