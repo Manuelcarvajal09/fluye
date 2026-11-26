@@ -155,7 +155,7 @@ export async function speak(text: string, opts: SpeakOpts = {}): Promise<void> {
   if (prefs.engine !== "device") {
     const voice = resolveVoice({ main: mainVoice(), speaker: opts.speaker, partner: opts.partner, gender: opts.gender });
     const b = await clipBlob(voice, text);
-    if (typeof window !== "undefined") window.dispatchEvent(new CustomEvent("fluye:voice", { detail: { fallback: !b } }));
+    if (typeof window !== "undefined") window.dispatchEvent(new CustomEvent("fluye:voice", { detail: { fallback: !b, voice, text } }));
     if (b) return playBlob(b, Math.max(0.5, Math.min(1.5, rate)));
   }
   return speakDevice(text, rate);

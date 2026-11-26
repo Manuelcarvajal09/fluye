@@ -97,6 +97,14 @@ export function collect(only = voices.voices.map((v) => v.id)) {
       for (const e of it.ex) add(v, e.en, "item");
     }
   }
+  // P3: catálogo de palabras (se activa desde Hoy y Biblioteca → Palabras y entra a las sesiones). Solo lo estudiable, por frecuencia.
+  const catalog = gen("catalog.json").filter((c) => c.status === "complete" && !c.dupOf).sort((a, b) => a.rank - b.rank);
+  for (const v of mains) {
+    for (const c of catalog) {
+      add(v, c.term, "catalog");
+      for (const e of c.ex) add(v, e.en, "catalog");
+    }
+  }
   return out;
 }
 

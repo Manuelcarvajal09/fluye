@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "voices": [
     {
       "id": "af_heart",
@@ -13,10 +13,18 @@
     }
   ],
   "total": {
-    "required": 15791,
-    "ok": 15791
+    "required": 40912,
+    "ok": 40912
   },
   "groups": [
+    {
+      "voice": "af_heart",
+      "group": "catalog",
+      "required": 25121,
+      "ok": 25121,
+      "missing": 0,
+      "invalid": 0
+    },
     {
       "voice": "af_heart",
       "group": "errors",
