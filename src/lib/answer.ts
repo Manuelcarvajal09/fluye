@@ -62,3 +62,53 @@ export function wordMatch(target: string, heard: string) {
   const ratio = t.length ? marks.filter((m) => m.ok).length / t.length : 0;
   return { marks, ratio };
 }
+
+export type WordOp = { op: "ok" | "missing" | "extra" | "sub" | "near"; want?: string; got?: string };
+
+/**
+ * Alineación palabra por palabra (distancia de edición sobre palabras, con contracciones expandidas).
+ * "near" = la palabra se parece mucho (error de una letra); "sub" = otra palabra; "missing"/"extra" = omitida/añadida.
+ */
+export function alignWords(target: string, heard: string): WordOp[] {
+  const t = words(target);
+  const h = words(heard);
+  const same = (a: string, b: string) => a === b;
+  const near = (a: string, b: string) => a.length > 3 && levenshtein(a, b) <= 1;
+  const n = t.length, m = h.length;
+  const D: number[][] = Array.from({ length: n + 1 }, (_, i) => Array.from({ length: m + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)));
+  for (let i = 1; i <= n; i++)
+    for (let j = 1; j <= m; j++) {
+      const c = same(t[i - 1], h[j - 1]) ? 0 : near(t[i - 1], h[j - 1]) ? 0.4 : 1;
+      D[i][j] = Math.min(D[i - 1][j] + 1, D[i][j - 1] + 1, D[i - 1][j - 1] + c);
+    }
+  const ops: WordOp[] = [];
+  let i = n, j = m;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0) {
+      const c = same(t[i - 1], h[j - 1]) ? 0 : near(t[i - 1], h[j - 1]) ? 0.4 : 1;
+      if (Math.abs(D[i][j] - (D[i - 1][j - 1] + c)) < 1e-9) {
+        ops.push({ op: c === 0 ? "ok" : c < 1 ? "near" : "sub", want: t[i - 1], got: h[j - 1] });
+        i--, j--;
+        continue;
+      }
+    }
+    if (i > 0 && Math.abs(D[i][j] - (D[i - 1][j] + 1)) < 1e-9) {
+      ops.push({ op: "missing", want: t[i - 1] });
+      i--;
+    } else {
+      ops.push({ op: "extra", got: h[j - 1] });
+      j--;
+    }
+  }
+  return ops.reverse();
+}
+
+/** Calificación de una frase completa escrita (dictado, banco de palabras): exacta, casi (≤ 1 error leve por cada 6 palabras) o incorrecta. */
+export function gradeSentence(input: string, target: string): { result: "exact" | "close" | "wrong"; ops: WordOp[] } {
+  const ops = alignWords(target, input);
+  const hard = ops.filter((o) => o.op === "missing" || o.op === "extra" || o.op === "sub").length;
+  const soft = ops.filter((o) => o.op === "near").length;
+  const n = Math.max(1, words(target).length);
+  const result = hard === 0 && soft === 0 ? "exact" : hard === 0 && soft <= Math.max(1, Math.floor(n / 6)) ? "close" : hard === 1 && n >= 8 && soft === 0 ? "close" : "wrong";
+  return { result, ops };
+}

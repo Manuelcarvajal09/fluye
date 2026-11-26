@@ -15,7 +15,7 @@ import { ITEMS } from "@/lib/content";
 import { LanguageBar, MotionToggle, StudyStats } from "@/components/ProfileStats";
 
 export const metadata = { title: "Perfil" };
-const LEVELS = ["A1", "A2", "B1", "B2", "C1"];
+const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
 export default async function ProfilePage() {
   const profile = await requireProfile();

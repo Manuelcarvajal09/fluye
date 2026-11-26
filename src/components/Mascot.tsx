@@ -1,8 +1,24 @@
-import { dressLayers, petOf, poseLayers, type Mood } from "@/lib/wardrobe";
+import { dressLayers, petOf, poseCovers, poseLayers, type Layer, type Mood } from "@/lib/wardrobe";
+import type { CSSProperties } from "react";
+
+/**
+ * Estilo de una capa. Si tiene máscara (p. ej. el sombrero sobre los lentes), se recorta la parte tapada:
+ * máscara = (todo) XOR (silueta del sombrero), con medidas en px del lienzo real.
+ */
+function layerStyle(l: Layer, canvas: number, z?: number): CSSProperties {
+  const s: CSSProperties = { left: `${l.x}%`, top: `${l.y}%`, width: `${l.w}%`, height: `${l.h}%`, zIndex: z };
+  if (!l.mask) return s;
+  const px = (p: number) => (p / 100) * canvas;
+  const img = `linear-gradient(#000 0 0), url(${l.mask.src})`;
+  const size = `100% 100%, ${px(l.mask.w)}px ${px(l.mask.h)}px`;
+  const pos = `0 0, ${px(l.mask.x - l.x)}px ${px(l.mask.y - l.y)}px`;
+  return { ...s, maskImage: img, WebkitMaskImage: img, maskSize: size, WebkitMaskSize: size, maskPosition: pos, WebkitMaskPosition: pos, maskRepeat: "no-repeat", WebkitMaskRepeat: "no-repeat", maskComposite: "exclude", WebkitMaskComposite: "xor" };
+}
 
 export type { Mood };
 
 /** Recorte de cabeza (en % del lienzo) para avatares pequeños, donde el cuerpo entero no se leería. */
+/** Cuerpo entero: se deja un margen arriba para sombreros y orejas altas (todas las poses usan el mismo encuadre). */
 const HEAD = { y: 38, d: 53 };
 
 /**
@@ -36,15 +52,19 @@ export function Mascot({
   const pet = petOf(species) ?? petOf("zorro")!;
   const head = (crop ?? (size <= 60 ? "head" : "full")) === "head";
   // Feliz: conjunto completo por capas. Otras poses: la ilustración del estado con sus piezas de cabeza y cara.
-  const dressed = wear.length > 0 && mood === "happy";
-  const layers = dressed ? dressLayers(pet.id, wear) : [];
+  // Con capas de esa pose (o en la feliz), el conjunto completo; si aún no existen, la pose con sus piezas de cabeza y cara.
+  const dressed = wear.length > 0 && poseCovers(pet.id, mood, wear);
+  const layers = dressed ? dressLayers(pet.id, wear, mood) : [];
   const extras = !dressed && wear.length ? poseLayers(pet.id, wear) : [];
   const k = head ? 100 / HEAD.d : 1;
-  const frame = head ? { width: `${k * 100}%`, height: `${k * 100}%`, left: `${-(pet.x - HEAD.d / 2) * k}%`, top: `${-(HEAD.y - HEAD.d / 2) * k}%` } : { width: "100%", height: "100%", left: 0, top: 0 };
+  const frame = head ? { width: `${k * 100}%`, height: `${k * 100}%`, left: `${-(pet.x - HEAD.d / 2) * k}%`, top: `${-(HEAD.y - HEAD.d / 2) * k}%` } : { width: "88%", height: "88%", left: "6%", top: "12%" };
+  // Lado del lienzo en px (para las máscaras): el marco ocupa el 88 % en cuerpo entero o se amplía en el recorte de cabeza.
+  const canvas = size * (head ? k : 0.88);
   const move = animate === "bob" ? "mascot-bob" : animate === "hop" ? "mascot-hop" : "";
   return (
     <span
       {...(decorative ? { "aria-hidden": true } : { role: "img", "aria-label": label ?? `Mascota ${pet.label}` })}
+      data-pet={pet.id}
       className={`mascot relative inline-block shrink-0 ${head ? "overflow-hidden rounded-[28%]" : ""} ${move} ${className}`}
       style={{ width: size, height: size }}
     >
@@ -52,7 +72,7 @@ export function Mascot({
         {layers.length ? (
           layers.map((l, i) => (
             // eslint-disable-next-line @next/next/no-img-element -- capas locales ya optimizadas (WebP)
-            <img key={l.src} src={l.src} alt="" draggable={false} className="absolute max-w-none select-none" style={{ left: `${l.x}%`, top: `${l.y}%`, width: `${l.w}%`, height: `${l.h}%`, zIndex: i }} />
+            <img key={l.src} src={l.src} alt="" draggable={false} className="absolute max-w-none select-none" style={layerStyle(l, canvas, i)} />
           ))
         ) : (
           // eslint-disable-next-line @next/next/no-img-element -- ilustración local ya optimizada (WebP 512)
@@ -60,7 +80,7 @@ export function Mascot({
         )}
         {extras.map((l) => (
           // eslint-disable-next-line @next/next/no-img-element -- capa local
-          <img key={l.src} src={l.src} alt="" draggable={false} className="absolute max-w-none select-none" style={{ left: `${l.x}%`, top: `${l.y}%`, width: `${l.w}%`, height: `${l.h}%` }} />
+          <img key={l.src} src={l.src} alt="" draggable={false} className="absolute max-w-none select-none" style={layerStyle(l, canvas)} />
         ))}
       </span>
       {fx && !head && size >= 72 && <MoodFx mood={mood} />}

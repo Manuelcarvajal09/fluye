@@ -176,3 +176,21 @@ describe("test de nivel", () => {
     expect(r.bySection.vocab).toEqual({ right: 0, total: 1 });
   });
 });
+
+import { alignWords, gradeSentence } from "@/lib/answer";
+describe("alineación de palabras", () => {
+  it("detecta sustitución, omisión y palabra añadida", () => {
+    const ops = alignWords("I couldn't figure out what happened", "I couldn't find out what happened");
+    expect(ops.filter((o) => o.op === "sub")).toEqual([{ op: "sub", want: "figure", got: "find" }]);
+    expect(alignWords("she gave up sugar", "she gave sugar").some((o) => o.op === "missing" && o.want === "up")).toBe(true);
+    expect(alignWords("she gave up", "she just gave up").some((o) => o.op === "extra" && o.got === "just")).toBe(true);
+  });
+  it("las contracciones equivalen a la forma completa", () => {
+    expect(gradeSentence("I do not know", "I don't know").result).toBe("exact");
+    expect(gradeSentence("I'm gonna leave", "I am going to leave").result).toBe("exact");
+  });
+  it("un error de una letra cuenta como casi; otra palabra no", () => {
+    expect(gradeSentence("she gave up sugr last year", "she gave up sugar last year").result).toBe("close");
+    expect(gradeSentence("she gave in", "she gave up").result).toBe("wrong");
+  });
+});

@@ -1,6 +1,6 @@
 import { clerk, setupClerkTestingToken } from "@clerk/testing/playwright";
 import { expect, test, type Page } from "@playwright/test";
-import { ensureTestUser, GUEST_EMAIL, resetTestData, sql, TEST_EMAIL, unban } from "./helpers";
+import { ensureTestUser, GUEST_EMAIL, resetTestData, sql, TEST_EMAIL, unban, solveNewFormats } from "./helpers";
 
 async function signIn(page: Page, email: string) {
   await setupClerkTestingToken({ page });
@@ -130,6 +130,7 @@ test.describe.serial("propietario, intentos y tienda", () => {
         await cont.click({ timeout: 2000 }).catch(() => {});
         continue;
       }
+      if (await solveNewFormats(page)) continue;
       if (await page.locator("#typed").isVisible()) {
         await page.getByRole("button", { name: "No me acuerdo" }).click({ timeout: 2000 }).catch(() => {});
         continue;
@@ -159,8 +160,17 @@ test.describe.serial("propietario, intentos y tienda", () => {
     await signIn(page, TEST_EMAIL);
     await sql().query("delete from study_sessions where user_id = $1", [userId]);
     await page.goto("/sesion?min=5");
-    await expect(page.getByRole("button", { name: "Continuar", exact: true }).first()).toBeVisible();
-    await page.getByRole("button", { name: "Continuar", exact: true }).first().click();
+    // Avanza un paso, sea del tipo que sea (historia, opciones, fichas, dictado…).
+    await expect(page.getByText(/Paso 1 de|Escucha · /).first()).toBeVisible();
+    for (let n = 0; n < 6; n++) {
+      const cont = page.getByRole("button", { name: /^(Continuar|¡Entendido!)$/ }).first();
+      if (await cont.isVisible()) { await cont.click({ timeout: 2000 }).catch(() => {}); break; }
+      if (await solveNewFormats(page)) continue;
+      if (await page.locator("#typed").isVisible()) { await page.getByRole("button", { name: "No me acuerdo" }).click({ timeout: 2000 }).catch(() => {}); continue; }
+      const opt = page.locator("button.option:not([disabled])").first();
+      if (await opt.isVisible()) { await opt.click({ timeout: 2000 }).catch(() => {}); continue; }
+      await page.waitForTimeout(300);
+    }
     await page.waitForTimeout(800);
     await page.goto("/hoy"); // al salir se envía el progreso (pagehide / desmontaje)
     await expect.poll(async () => (await sql().query("select max(done)::int d from study_sessions where user_id = $1", [userId]))[0].d, { timeout: 15_000 }).toBeGreaterThan(0);

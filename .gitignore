@@ -71,3 +71,4 @@ next-env.d.ts
 
 # plantilla pública de variables (sin secretos)
 !.env.example
+/docs/qa/hojas/

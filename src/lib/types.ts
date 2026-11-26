@@ -1,8 +1,8 @@
 // Tipos compartidos entre servidor y cliente (sin datos).
 
 export type ItemType = "phrasal" | "collocation" | "idiom" | "vocab" | "phrase" | "contraction";
-export type Level = "A1" | "A2" | "B1" | "B2" | "C1";
-export const LEVELS: Level[] = ["A1", "A2", "B1", "B2", "C1"];
+export type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+export const LEVELS: Level[] = ["A1", "A2", "B1", "B2", "C1", "C2"];
 export type Mode = "recog" | "prod" | "listen" | "speak";
 export const MODES: Mode[] = ["recog", "prod", "listen", "speak"];
 
@@ -164,14 +164,40 @@ export type Step =
   | { kind: "story"; lesson: Lesson }
   | { kind: "question"; lessonId: string; q: Lesson["questions"][number] }
   | { kind: "intro"; item: Item }
-  | { kind: "recog"; item: Item; options: string[]; answer: number; isNew: boolean }
-  | { kind: "prod"; item: Item; ex: Example; options: string[] | null; answer: string; isNew: boolean }
-  | { kind: "listen"; item: Item; ex: Example; options: string[]; answer: number; isNew: boolean }
+  | { kind: "recog"; item: Item; options: string[]; answer: number; isNew: boolean; alts?: Alt[] }
+  /** format: choice (opciones) | typed (escribir la expresión) | build (construir la frase con fichas). */
+  | { kind: "prod"; item: Item; ex: Example; options: string[] | null; answer: string; isNew: boolean; format?: "choice" | "typed" | "build"; tiles?: string[]; alts?: Alt[] }
+  /** format: choice (¿qué expresión dice?) | dictation (escribir la frase completa que se oye). */
+  | { kind: "listen"; item: Item; ex: Example; options: string[]; answer: number; isNew: boolean; format?: "choice" | "dictation"; alts?: Alt[] }
+  /** Práctica de emparejar (no toca FSRS): expresiones con su significado. */
+  | { kind: "match"; pairs: { id: string; en: string; es: string }[]; title: string }
   | { kind: "speak"; item: Item; ex: Example; isNew: boolean }
   | { kind: "repair"; phrases: RepairPhrase[] }
   | { kind: "task"; task: ProductionTask };
 
 export type GradedStep = Extract<Step, { item: Item; isNew: boolean }>;
+
+/** Qué es cada opción incorrecta (para explicar «¿por qué?» con datos reales del contenido). */
+export type Alt = { term: string; es: string };
+
+/** Microescena original de «Inglés de series». */
+export interface SeriesScene {
+  id: string;
+  level: Level;
+  genre: string;
+  title: string;
+  title_es: string;
+  setting_es: string;
+  features: string[];
+  lines: { who: string; g: "f" | "m"; en: string; es: string }[];
+  context: { q_es: string; options: string[]; answer: number; why_es: string };
+  expressions: { text: string; es: string }[];
+  decoys: string[];
+  gap: { line: number; answer: string; options: string[] };
+  intent: { q_es: string; options: string[]; answer: number; why_es: string };
+  shadow: number;
+  reply: { prompt_es: string; model: string[] };
+}
 
 /** Texto del ejemplo sin corchetes. */
 export const plain = (s: string) => s.replace(/[\[\]]/g, "");
@@ -227,6 +253,16 @@ export interface MusicExercise {
   transfer?: { prompt_es: string; model: string[] };
   confidence?: "low";
   explicit?: boolean;
+  /** Fluye 1.0: traducción natural completa, literal opcional, desglose, sonido, intención, registro, uso y ejemplos. */
+  es?: string;
+  literal_es?: string;
+  breakdown?: { text: string; es: string }[];
+  linking_es?: string;
+  intent_es?: string;
+  register?: string;
+  usage_es?: string;
+  examples?: { en: string; es: string }[];
+  genre?: string;
 }
 
 /** Campos extra de "inglés real" (slang, groserías, series). */

@@ -5,7 +5,7 @@ import { X, Check, Languages, Lightbulb } from "lucide-react";
 import { IcoBoost, IcoBolt, IcoFlame, IcoHeart, IcoShield, IcoTarget } from "../Icons";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { GradedStep, Step, Mode } from "@/lib/types";
-import { TYPE_LABEL, plain } from "@/lib/types";
+import { TYPE_LABEL, bracketed, plain } from "@/lib/types";
 import { checkTyped } from "@/lib/answer";
 import { speak, stopSpeaking } from "@/lib/audio/tts";
 import { AudioButton, Bar, Highlight, TypeChip } from "../ui";
@@ -21,10 +21,19 @@ import { Gem } from "../Nav";
 import { useCelebrations } from "../Coach";
 import { RepairStep, TaskStep } from "./MissionSteps";
 import { ListenStory } from "./ListenStory";
+import { Dictation, MatchPairs, WhyPanel, WordBank, WordDiff, type SentenceResult, type Why } from "./Exercises";
+import type { WordOp } from "@/lib/answer";
+import type { Alt, Item } from "@/lib/types";
 import { readSavedSession, SAVE_KEY, type Saved, type SessionMeta } from "@/lib/sessionSave";
 
 type Grade = 1 | 2 | 3 | 4;
-type Feedback = { ok: boolean; grade: Grade; correctText?: string; note?: string; close?: boolean; say?: Say; revealed?: boolean; kind?: "graded" | "self"; given?: string } | null;
+type Feedback = { ok: boolean; grade: Grade; correctText?: string; note?: string; close?: boolean; say?: Say; revealed?: boolean; kind?: "graded" | "self"; given?: string; why?: Why; ops?: WordOp[] } | null;
+
+/** Explicación de «¿por qué?» con los datos del propio ítem (y de la opción elegida, si fue otra). */
+function whyFor(item: Item, ex?: { en: string; es: string }, picked?: Alt): Why {
+  const x = item as Item & { errors_es?: string; confuse?: string[] };
+  return { term: item.term, meaning: item.es, def: item.def, note: item.note, errors: x.errors_es, confuse: x.confuse, picked, ex: ex ? { en: plain(ex.en), es: ex.es } : undefined };
+}
 type Toast = { id: number; text: string; kind: "goal" | "mission" };
 
 const HEARTS = 5;
@@ -198,16 +207,27 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
       // Lo fallado vuelve al final de la sesión (una vez), como en Anki "Again".
       if (grade === 1 && !requeued.current.has(key)) {
         requeued.current.add(key);
+        failed.current.set(s.item.id, s.item);
         setQueue((q) => [...q, { ...s, isNew: false }]);
       }
     },
     [toast],
   );
 
+  // Errores de la sesión: al final, una práctica breve de emparejar con ellos (no toca FSRS).
+  const failed = useRef(new Map<string, Item>());
+  const practiceAdded = useRef(false);
   const next = useCallback(() => {
     setFeedback(null);
-    setI((n) => n + 1);
-  }, []);
+    setI((n) => {
+      if (n + 1 >= queue.length && !practiceAdded.current && failed.current.size >= 3) {
+        practiceAdded.current = true;
+        const pairs = [...failed.current.values()].slice(0, 6).map((it) => ({ id: it.id, en: it.term, es: it.es }));
+        setQueue((q) => [...q, { kind: "match", pairs, title: "Repasa tus errores de hoy" }]);
+      }
+      return n + 1;
+    });
+  }, [queue.length]);
 
   /** Al terminar la sesión, guarda la lección (una sola vez). */
   useEffect(() => {
@@ -387,10 +407,36 @@ function StepView({ step, feedback, onAnswer, onNext }: { step: Step; feedback: 
           options={step.options}
           answer={step.answer}
           locked={!!feedback}
-          onPick={(ok) => onAnswer(ok, ok ? 3 : 1, { correctText: step.options[step.answer], note: step.item.note })}
+          onPick={(ok, n) => onAnswer(ok, ok ? 3 : 1, { correctText: step.options[step.answer], why: whyFor(step.item, step.item.ex[0], step.alts?.[n]) })}
         />
       );
+    case "match":
+      return (
+        <section className="flex flex-1 flex-col">
+          <StepTitle>{step.title}</StepTitle>
+          <p className="mb-4 text-sm text-muted">Práctica: une cada expresión con su significado. No cambia tu calendario de repasos.</p>
+          <MatchPairs pairs={step.pairs} onDone={() => (playSfx("level"), onNext())} />
+        </section>
+      );
     case "listen":
+      if (step.format === "dictation")
+        return (
+          <section className="flex flex-1 flex-col">
+            <StepTitle isNew={step.isNew}>Escucha y escribe</StepTitle>
+            {feedback && (
+              <p className="mb-2 text-center text-lg">
+                <Highlight text={step.ex.en} />
+                <span className="mt-1 block text-base text-muted">{step.ex.es}</span>
+              </p>
+            )}
+            <Dictation
+              sentence={plain(step.ex.en)}
+              locked={!!feedback}
+              onGiveUp={() => onAnswer(false, 1, { correctText: plain(step.ex.en), revealed: true, why: whyFor(step.item, step.ex) })}
+              onDone={(r: SentenceResult) => onAnswer(r.ok, r.grade, { correctText: plain(step.ex.en), close: r.close, given: r.given, ops: r.ops, why: whyFor(step.item, step.ex) })}
+            />
+          </section>
+        );
       return (
         <Choice
           title="Escucha: ¿qué expresión dice?"
@@ -412,7 +458,7 @@ function StepView({ step, feedback, onAnswer, onNext }: { step: Step; feedback: 
           options={step.options}
           answer={step.answer}
           locked={!!feedback}
-          onPick={(ok) => onAnswer(ok, ok ? 3 : 1, { correctText: step.options[step.answer] })}
+          onPick={(ok, n) => onAnswer(ok, ok ? 3 : 1, { correctText: step.options[step.answer], why: whyFor(step.item, step.ex, step.alts?.[n]) })}
         />
       );
     case "prod":
@@ -457,13 +503,13 @@ function StepTitle({ children, isNew }: { children: React.ReactNode; isNew?: boo
   );
 }
 
-function Choice({ title, prompt, options, answer, locked, onPick, isNew }: { title: string; prompt: React.ReactNode; options: string[]; answer: number; locked: boolean; onPick: (ok: boolean) => void; isNew?: boolean }) {
+function Choice({ title, prompt, options, answer, locked, onPick, isNew }: { title: string; prompt: React.ReactNode; options: string[]; answer: number; locked: boolean; onPick: (ok: boolean, picked: number) => void; isNew?: boolean }) {
   const [picked, setPicked] = useState<number | null>(null);
   const pick = useCallback(
     (n: number) => {
       if (locked || picked !== null) return;
       setPicked(n);
-      onPick(n === answer);
+      onPick(n === answer, n);
     },
     [locked, picked, onPick, answer],
   );
@@ -557,6 +603,27 @@ function Produce({ step, feedback, onAnswer }: { step: Extract<Step, { kind: "pr
       </p>
     </div>
   );
+  if (step.format === "build" && step.tiles)
+    return (
+      <section className="flex flex-1 flex-col">
+        <StepTitle isNew={step.isNew}>Construye la frase en inglés</StepTitle>
+        <div className="question-card mb-4">
+          <p className="text-lg font-bold">{step.ex.es}</p>
+          <p className="mt-1 text-sm text-muted">
+            Usa <b lang="en">{step.item.term}</b> ({step.item.es}). Sobran dos palabras.
+          </p>
+        </div>
+        <WordBank
+          tiles={step.tiles}
+          target={plain(step.ex.en)}
+          locked={!!feedback}
+          onDone={(r: SentenceResult) => {
+            onAnswer(r.ok, r.grade, { correctText: plain(step.ex.en), close: r.close, given: r.given, ops: r.ops, why: whyFor(step.item, step.ex) });
+            void speak(plain(step.ex.en));
+          }}
+        />
+      </section>
+    );
   if (step.options)
     return (
       <Choice
@@ -566,8 +633,8 @@ function Produce({ step, feedback, onAnswer }: { step: Extract<Step, { kind: "pr
         options={step.options}
         answer={step.options.indexOf(step.answer)}
         locked={!!feedback}
-        onPick={(ok) => {
-          onAnswer(ok, ok ? 3 : 1, { correctText: step.answer });
+        onPick={(ok, n) => {
+          onAnswer(ok, ok ? 3 : 1, { correctText: step.answer, why: whyFor(step.item, step.ex, step.alts?.[n]) });
           void speak(plain(step.ex.en));
         }}
       />
@@ -582,7 +649,7 @@ function Produce({ step, feedback, onAnswer }: { step: Extract<Step, { kind: "pr
           e.preventDefault();
           if (feedback) return;
           const r = checkTyped(value, step.answer);
-          onAnswer(r !== "wrong", r === "exact" ? 3 : r === "close" ? 2 : 1, { correctText: step.answer, close: r === "close", given: value });
+          onAnswer(r !== "wrong", r === "exact" ? 3 : r === "close" ? 2 : 1, { correctText: step.answer, close: r === "close", given: value, why: whyFor(step.item, step.ex) });
           void speak(plain(step.ex.en));
         }}
       >
@@ -605,7 +672,7 @@ function Produce({ step, feedback, onAnswer }: { step: Extract<Step, { kind: "pr
         />
         {!feedback && (
           <div className="grid grid-cols-2 gap-3">
-            <button type="button" className="btn btn-ghost" onClick={() => onAnswer(false, 1, { correctText: step.answer, revealed: true })}>
+            <button type="button" className="btn btn-ghost" onClick={() => onAnswer(false, 1, { correctText: step.answer, revealed: true, why: whyFor(step.item, step.ex) })}>
               No me acuerdo
             </button>
             <button type="submit" className="btn btn-primary" disabled={!value.trim()}>
@@ -632,7 +699,7 @@ function Speak({ step, feedback, onAnswer, onSkip }: { step: Extract<Step, { kin
         <Highlight text={step.ex.en} />
       </p>
       <p className="mb-5 text-muted">{step.ex.es}</p>
-      {!feedback && <SpeakPanel target={step.ex.en} onResult={result} />}
+      {!feedback && <SpeakPanel target={step.ex.en} onResult={result} requireTerm={bracketed(step.ex.en)} />}
       {!feedback && (
         <button type="button" className="mt-auto pt-6 text-center font-bold text-muted underline sm:mt-6" onClick={onSkip}>
           Ahora no puedo hablar
@@ -665,7 +732,9 @@ function FeedbackBar({ fb, gradable, onContinue }: { fb: NonNullable<Feedback>; 
                 {fb.correctText}
               </p>
             )}
+            {fb.ops && (!fb.ok || fb.close) && <WordDiff ops={fb.ops} />}
             {fb.note && <p className="mt-1 text-sm leading-relaxed text-muted">{fb.note}</p>}
+            {fb.why && <WhyPanel why={fb.why} />}
           </div>
         </div>
         <div className="mt-3 flex gap-2 pb-2">

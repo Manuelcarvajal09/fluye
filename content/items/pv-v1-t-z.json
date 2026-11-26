@@ -1,0 +1,3649 @@
+[
+  {
+    "id": "pv-tire-out",
+    "type": "phrasal",
+    "term": "tire out",
+    "sense": "make someone very tired",
+    "ipa": "/taɪɚ ˈaʊt/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "cansar; dejar rendido",
+    "def": "to make a person or an animal feel very tired",
+    "note": "Separable: tire the kids out. Muy común en pasiva: I'm tired out = estoy rendido.",
+    "forms": "tire out · tired out · tiring out",
+    "syn": [
+      "wear out",
+      "exhaust"
+    ],
+    "confuse": [
+      "wear out (también 'desgastar' objetos)"
+    ],
+    "errors_es": "Decir 'I tired' en vez de 'I got tired' o 'I'm tired out'. 'Tire' no es 'cansarse' por sí solo en el habla normal.",
+    "ex": [
+      {
+        "en": "That hike totally [tired me out].",
+        "es": "Esa caminata me dejó rendido."
+      },
+      {
+        "en": "Take the dog to the park to [tire him out].",
+        "es": "Lleva al perro al parque para que se canse."
+      },
+      {
+        "en": "Babysitting three kids all day really [tires you out].",
+        "es": "Cuidar a tres niños todo el día te deja muerto."
+      }
+    ]
+  },
+  {
+    "id": "pv-type-in",
+    "type": "phrasal",
+    "term": "type in",
+    "sense": "enter text or numbers using a keyboard or screen",
+    "ipa": "/taɪp ˈɪn/",
+    "level": "B1",
+    "topic": "tech",
+    "areas": [
+      "software",
+      "soporte"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "escribir; teclear (en un campo o pantalla)",
+    "def": "to put words or numbers into a computer or phone using the keys",
+    "note": "Separable: type it in. Típico con contraseñas y códigos: type in your password. En formularios también se dice 'enter'.",
+    "syn": [
+      "enter",
+      "key in"
+    ],
+    "confuse": [
+      "type up (pasar en limpio un documento)"
+    ],
+    "errors_es": "Decir 'write the password' cuando es en teclado; lo natural es 'type in the password'. No confundir con 'type up'.",
+    "ex": [
+      {
+        "en": "[Type in] your email and hit enter.",
+        "es": "Escribe tu correo y dale enter."
+      },
+      {
+        "en": "I [typed in] the wrong code three times and got locked out.",
+        "es": "Puse mal el código tres veces y me bloquearon."
+      },
+      {
+        "en": "Just [type it in] the search bar.",
+        "es": "Nomás escríbelo en la barra de búsqueda."
+      }
+    ]
+  },
+  {
+    "id": "pv-wash-off",
+    "type": "phrasal",
+    "term": "wash off",
+    "sense": "remove dirt or paint with water, or come off when washed",
+    "ipa": "/wɑʃ ˈɔf/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "conversacion",
+      "salud"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "quitar(se) con agua; salirse al lavar",
+    "def": "to remove dirt, paint, or a cream with water, or to come away when washed",
+    "note": "Separable: wash it off. Intransitivo: Don't worry, the marker washes off.",
+    "confuse": [
+      "wash up (lavarse manos y cara)",
+      "wash out (cancelarse por la lluvia)"
+    ],
+    "errors_es": "Decir 'remove it with water' o 'clean it with water' cuando lo natural y corto es 'wash it off'.",
+    "ex": [
+      {
+        "en": "[Wash off] the sunscreen before you go to bed.",
+        "es": "Quítate el bloqueador antes de dormirte."
+      },
+      {
+        "en": "Relax, that paint [washes off] with soap.",
+        "es": "Tranquilo, esa pintura se quita con jabón."
+      },
+      {
+        "en": "There was mud everywhere, so I [washed it off] outside.",
+        "es": "Había lodo por todos lados, así que lo lavé afuera."
+      }
+    ]
+  },
+  {
+    "id": "pv-wipe-off",
+    "type": "phrasal",
+    "term": "wipe off",
+    "sense": "remove something from a surface by rubbing it",
+    "ipa": "/waɪp ˈɔf/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "limpiar; quitar (pasando un trapo o la mano)",
+    "def": "to remove something from a surface by rubbing it with a cloth or your hand",
+    "note": "Separable: wipe it off. Frase de regaño muy común: Wipe that smile off your face = quítate esa sonrisita.",
+    "confuse": [
+      "wipe down (limpiar toda una superficie)",
+      "wipe out (acabar con algo)"
+    ],
+    "errors_es": "Decir 'clean the crumbs of the table'; lo natural es 'wipe the crumbs off the table'.",
+    "ex": [
+      {
+        "en": "Can you [wipe off] the whiteboard before class?",
+        "es": "¿Puedes borrar el pizarrón antes de la clase?"
+      },
+      {
+        "en": "You've got ketchup on your chin, [wipe it off].",
+        "es": "Tienes cátsup en la barbilla, límpiatela."
+      },
+      {
+        "en": "She [wiped off] her makeup and went straight to bed.",
+        "es": "Se desmaquilló y se fue directo a la cama."
+      }
+    ]
+  },
+  {
+    "id": "pv-wait-up-2",
+    "type": "phrasal",
+    "term": "wait up",
+    "sense": "ask someone ahead of you to stop or slow down so you can catch up",
+    "ipa": "/weɪt ˈʌp/",
+    "level": "B1",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "¡espérame!; para tantito (para que te alcance)",
+    "def": "to stop or slow down so that someone behind you can reach you",
+    "note": "Casi siempre en imperativo: Hey, wait up! Con persona: wait up for me. Ojo: el otro wait up es esperar despierto a alguien.",
+    "syn": [
+      "hold up",
+      "hang on"
+    ],
+    "confuse": [
+      "wait up (esperar despierto a alguien)"
+    ],
+    "errors_es": "Decir 'Wait me!'. Se dice 'Wait for me!' o, si te estás quedando atrás, 'Wait up!'.",
+    "ex": [
+      {
+        "en": "Hey, [wait up]! I can't walk that fast.",
+        "es": "¡Oye, espérame! No puedo caminar tan rápido."
+      },
+      {
+        "en": "[Wait up], guys, I forgot my wallet.",
+        "es": "Espérenme, chicos, se me olvidó la cartera."
+      },
+      {
+        "en": "She yelled at us to [wait up] at the corner.",
+        "es": "Nos gritó que la esperáramos en la esquina."
+      }
+    ]
+  },
+  {
+    "id": "pv-yell-out",
+    "type": "phrasal",
+    "term": "yell out",
+    "sense": "suddenly shout something so others can hear",
+    "ipa": "/jɛl ˈaʊt/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "gritar (algo en voz alta, de repente)",
+    "def": "to suddenly shout words, a name, or an answer so others can hear",
+    "note": "Suele llevar lo que se grita: yell out an answer, yell out a name. 'Yell at someone' = gritarle a alguien con enojo.",
+    "syn": [
+      "shout out",
+      "call out"
+    ],
+    "confuse": [
+      "yell at (regañar gritando)",
+      "scream (gritar de miedo o dolor)"
+    ],
+    "errors_es": "Usar 'scream' para todo: 'scream' es de miedo o dolor; 'yell out' es gritar algo para que lo oigan.",
+    "ex": [
+      {
+        "en": "Somebody in the back [yelled out] the answer.",
+        "es": "Alguien de atrás gritó la respuesta."
+      },
+      {
+        "en": "Don't just [yell out], raise your hand.",
+        "es": "No grites nomás, levanta la mano."
+      },
+      {
+        "en": "If you need help, [yell out] and I'll come running.",
+        "es": "Si necesitas ayuda, grita y vengo corriendo."
+      }
+    ]
+  },
+  {
+    "id": "pv-turn-away-2",
+    "type": "phrasal",
+    "term": "turn away",
+    "sense": "move your face or body so you are not looking at something",
+    "ipa": "/tɝn əˈweɪ/",
+    "level": "B1",
+    "topic": "feelings",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "voltearse hacia otro lado; apartar la mirada",
+    "def": "to move your face or body so you are no longer looking at something or someone",
+    "note": "Con 'from': she turned away from the window. Distinto de turn someone away (no dejar entrar).",
+    "syn": [
+      "look away"
+    ],
+    "confuse": [
+      "turn away (no dejar entrar a alguien)",
+      "turn around (darse la vuelta completa)"
+    ],
+    "errors_es": "Decir 'turn the face' calcando 'voltear la cara'; lo natural es 'turn away' o 'look away'.",
+    "ex": [
+      {
+        "en": "I had to [turn away] during the surgery scene.",
+        "es": "Tuve que voltearme en la escena de la cirugía."
+      },
+      {
+        "en": "She [turned away] so he wouldn't see her cry.",
+        "es": "Se volteó para que él no la viera llorar."
+      },
+      {
+        "en": "He [turns away] every time I try to make eye contact.",
+        "es": "Se voltea cada vez que intento mirarlo a los ojos."
+      }
+    ]
+  },
+  {
+    "id": "pv-thaw-out",
+    "type": "phrasal",
+    "term": "thaw out",
+    "sense": "become soft or warm again after being frozen or very cold",
+    "ipa": "/θɔ ˈaʊt/",
+    "level": "B1",
+    "topic": "canada",
+    "areas": [
+      "canada",
+      "conversacion"
+    ],
+    "tags": [
+      "ca"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "descongelar(se); entrar en calor",
+    "def": "to become soft or warm again after being frozen or very cold",
+    "note": "Con comida: thaw out the chicken. Con personas tras el frío: come in and thaw out. Muy usado en inviernos de Canadá. Separable: thaw it out.",
+    "syn": [
+      "defrost",
+      "warm up"
+    ],
+    "confuse": [
+      "warm up (calentar; recalentar)"
+    ],
+    "errors_es": "Decir 'unfreeze the meat'; lo natural es 'thaw (out)' o 'defrost'.",
+    "ex": [
+      {
+        "en": "Take the ground beef out so it can [thaw out] by dinner.",
+        "es": "Saca la carne molida para que se descongele para la cena."
+      },
+      {
+        "en": "Come inside and [thaw out], it's minus thirty out there.",
+        "es": "Pásate a calentarte, afuera hace treinta bajo cero."
+      },
+      {
+        "en": "It took me an hour to [thaw out] after shoveling the driveway.",
+        "es": "Me tardé una hora en entrar en calor después de palear la entrada."
+      }
+    ]
+  },
+  {
+    "id": "pv-wash-down",
+    "type": "phrasal",
+    "term": "wash down",
+    "sense": "drink something to help swallow food or medicine",
+    "ipa": "/wɑʃ ˈdaʊn/",
+    "level": "B1",
+    "topic": "food",
+    "areas": [
+      "restaurantes",
+      "salud"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "pasarse (comida o una pastilla) con una bebida",
+    "def": "to drink something to help you swallow food or medicine",
+    "note": "Con 'with': wash it down with water. Separable: wash the pills down. Otro uso: wash down the deck (lavar con manguera).",
+    "confuse": [
+      "wolf down (comer muy rápido)"
+    ],
+    "errors_es": "Decir 'pass the pill with water' calcando 'pasarse'; se dice 'wash it down with water'.",
+    "ex": [
+      {
+        "en": "He [washed down] the burger with a giant soda.",
+        "es": "Se bajó la hamburguesa con un refresco gigante."
+      },
+      {
+        "en": "Take the pill and [wash it down] with some water.",
+        "es": "Tómate la pastilla y pásatela con agua."
+      },
+      {
+        "en": "I need something to [wash down] this dry cake.",
+        "es": "Necesito algo para pasarme este pastel tan seco."
+      }
+    ]
+  },
+  {
+    "id": "pv-try-back",
+    "type": "phrasal",
+    "term": "try back",
+    "sense": "call or come again later after an unsuccessful attempt",
+    "ipa": "/traɪ ˈbæk/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "soporte"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "volver a llamar o intentarlo más tarde",
+    "def": "to phone, visit, or try a website again later because the first time did not work",
+    "note": "Muy común en buzones y atención a clientes: Please try back later. 'Try me back' = vuelve a llamarme.",
+    "confuse": [
+      "call back (devolver una llamada)"
+    ],
+    "errors_es": "Decir 'call again more late'; lo natural es 'try back later' o 'call back later'.",
+    "ex": [
+      {
+        "en": "The office is closed, please [try back] after nine.",
+        "es": "La oficina está cerrada, vuelva a llamar después de las nueve."
+      },
+      {
+        "en": "She didn't pick up, so I'll [try back] in an hour.",
+        "es": "No contestó, así que le vuelvo a marcar en una hora."
+      },
+      {
+        "en": "The site is down right now, [try back] tomorrow.",
+        "es": "La página no funciona ahorita, inténtalo mañana."
+      }
+    ]
+  },
+  {
+    "id": "pv-walk-off",
+    "type": "phrasal",
+    "term": "walk off",
+    "sense": "walk around to make pain, a big meal, or anger go away",
+    "ipa": "/wɔk ˈɔf/",
+    "level": "B1",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "caminar para que se pase (un dolor, la comida, el coraje)",
+    "def": "to walk around so that pain, a heavy meal, or anger goes away",
+    "note": "Casi siempre con 'it': walk it off. Típico en deportes: Shake it off, walk it off. Otro uso: walk off = irse de golpe (walk off the stage).",
+    "forms": "walk it off · walked it off · walking it off",
+    "confuse": [
+      "walk off with (llevarse; robar)",
+      "walk out (salirse en protesta)"
+    ],
+    "errors_es": "Decir 'walk so the pain passes'; en inglés el dolor es el objeto: walk it off.",
+    "ex": [
+      {
+        "en": "You just twisted your ankle a little, [walk it off].",
+        "es": "Nomás te torciste tantito el tobillo, camina y se te pasa."
+      },
+      {
+        "en": "We ate way too much, let's [walk it off] around the block.",
+        "es": "Comimos de más, vamos a dar una vuelta a la cuadra para bajarlo."
+      },
+      {
+        "en": "He was so mad he went outside to [walk it off].",
+        "es": "Estaba tan enojado que salió a caminar para calmarse."
+      }
+    ]
+  },
+  {
+    "id": "pv-tuck-in",
+    "type": "phrasal",
+    "term": "tuck in",
+    "sense": "make a child comfortable in bed by covering them with blankets",
+    "ipa": "/tʌk ˈɪn/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "arropar (a alguien en la cama)",
+    "def": "to make a child comfortable in bed by pulling the blankets around them",
+    "note": "Separable: tuck the kids in. Otro uso: tuck in your shirt = fajarse la camisa. 'Tuck in!' (¡a comer!) es más británico.",
+    "confuse": [
+      "tuck away (guardar; esconder)"
+    ],
+    "errors_es": "Decir 'cover the kids' para la rutina de dormir; lo natural es 'tuck the kids in'.",
+    "ex": [
+      {
+        "en": "Dad always [tucked us in] and read us a story.",
+        "es": "Mi papá siempre nos arropaba y nos leía un cuento."
+      },
+      {
+        "en": "Can you [tuck in] the twins while I clean up?",
+        "es": "¿Puedes arropar a los gemelos mientras recojo?"
+      },
+      {
+        "en": "Go brush your teeth, I'll come [tuck you in].",
+        "es": "Ve a lavarte los dientes, ahorita voy a arroparte."
+      }
+    ]
+  },
+  {
+    "id": "pv-touch-down",
+    "type": "phrasal",
+    "term": "touch down",
+    "sense": "land at the end of a flight",
+    "ipa": "/tʌtʃ ˈdaʊn/",
+    "level": "B1",
+    "topic": "travel",
+    "areas": [
+      "viajes",
+      "transporte"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "aterrizar; tocar tierra",
+    "def": "to land on the ground at the end of a flight",
+    "note": "Lo usan pilotos y viajeros al avisar: We just touched down in Toronto. En fútbol americano, touchdown es sustantivo (anotación).",
+    "syn": [
+      "land"
+    ],
+    "confuse": [
+      "take off (despegar)"
+    ],
+    "errors_es": "Decir 'we arrived to the ground'. Para avisar que llegaste: 'just landed' o 'just touched down'.",
+    "ex": [
+      {
+        "en": "We [touched down] in Vancouver right on time.",
+        "es": "Aterrizamos en Vancouver justo a tiempo."
+      },
+      {
+        "en": "Text me as soon as you [touch down].",
+        "es": "Mándame mensaje en cuanto aterrices."
+      },
+      {
+        "en": "The plane is scheduled to [touch down] at 6:40.",
+        "es": "El avión tiene programado aterrizar a las 6:40."
+      }
+    ]
+  },
+  {
+    "id": "pv-talk-up",
+    "type": "phrasal",
+    "term": "talk up",
+    "sense": "describe something very positively to make others interested",
+    "ipa": "/tɔk ˈʌp/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "entrevistas"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "hablar maravillas de; promocionar",
+    "def": "to describe something in a very positive way so other people get interested",
+    "note": "Separable: talk it up. A veces implica exagerar: He really talked up the job, but it's boring.",
+    "syn": [
+      "hype up",
+      "promote"
+    ],
+    "confuse": [
+      "talk down (calmar a alguien en crisis)"
+    ],
+    "errors_es": "Decir 'talk good of'; lo natural es 'talk up' o 'speak highly of'.",
+    "ex": [
+      {
+        "en": "My sister [talked up] this restaurant for weeks.",
+        "es": "Mi hermana me habló maravillas de este restaurante durante semanas."
+      },
+      {
+        "en": "You need to [talk up] your experience in the interview.",
+        "es": "Tienes que venderte más con tu experiencia en la entrevista."
+      },
+      {
+        "en": "They [talked it up] so much that I was kind of disappointed.",
+        "es": "Lo pintaron tan bien que me decepcionó un poco."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-aback",
+    "type": "phrasal",
+    "term": "take aback",
+    "sense": "surprise or shock someone so they don't know how to react",
+    "ipa": "/teɪk əˈbæk/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "dejar desconcertado; tomar por sorpresa",
+    "def": "to surprise or shock someone so much that they don't know what to say or do",
+    "note": "Casi siempre en pasiva: I was taken aback by his reaction. En activa va separado: his answer took me aback.",
+    "forms": "be taken aback · was taken aback · taken aback by",
+    "syn": [
+      "stun",
+      "catch off guard"
+    ],
+    "errors_es": "Decir 'I was taken back' (eso es 'me transportó al pasado'). La forma correcta es 'taken aback'.",
+    "ex": [
+      {
+        "en": "I was a little [taken aback] by how rude he was.",
+        "es": "Me sacó un poco de onda lo grosero que fue."
+      },
+      {
+        "en": "She seemed [taken aback] when I said no.",
+        "es": "Se le vio desconcertada cuando le dije que no."
+      },
+      {
+        "en": "His honest answer really [took me aback].",
+        "es": "Su respuesta tan honesta me dejó helado."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-back-3",
+    "type": "phrasal",
+    "term": "take back",
+    "sense": "make someone remember a time in the past",
+    "ipa": "/teɪk ˈbæk/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "transportar al pasado; traer recuerdos",
+    "def": "to make someone remember a time or place from the past",
+    "note": "Muy común: This song takes me back. Con 'to': takes me back to high school. Siempre separado con pronombre.",
+    "syn": [
+      "bring back"
+    ],
+    "confuse": [
+      "take back (retractarse)",
+      "take back (devolver a la tienda)"
+    ],
+    "errors_es": "Decir 'This song remembers me'. 'Remember' no funciona así: This song reminds me of… / takes me back.",
+    "ex": [
+      {
+        "en": "Wow, this song really [takes me back].",
+        "es": "Uf, esta canción me trae muchos recuerdos."
+      },
+      {
+        "en": "Visiting my old school [took me back] twenty years.",
+        "es": "Visitar mi vieja escuela me regresó veinte años."
+      },
+      {
+        "en": "That smell always [takes her back] to her grandma's kitchen.",
+        "es": "Ese olor siempre la transporta a la cocina de su abuela."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-in-4",
+    "type": "phrasal",
+    "term": "take in",
+    "sense": "make a piece of clothing narrower so it fits better",
+    "ipa": "/teɪk ˈɪn/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "compras"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "meterle (a una prenda) para ajustarla",
+    "def": "to make a piece of clothing narrower or smaller so it fits your body better",
+    "note": "Lo contrario es let out (sacarle). Separable: take it in at the waist.",
+    "confuse": [
+      "let out (agrandar una prenda)",
+      "take up (subir el dobladillo)"
+    ],
+    "errors_es": "Decir 'make it more small' en la costura; lo natural es 'take it in'.",
+    "ex": [
+      {
+        "en": "These pants are huge, I need to [take them in].",
+        "es": "Estos pantalones me quedan enormes, tengo que meterles."
+      },
+      {
+        "en": "The tailor [took in] the waist of my dress.",
+        "es": "El sastre le metió a la cintura de mi vestido."
+      },
+      {
+        "en": "Can you [take in] this jacket a little at the sides?",
+        "es": "¿Le puede meter un poco a los lados a este saco?"
+      }
+    ]
+  },
+  {
+    "id": "pv-take-up-with",
+    "type": "phrasal",
+    "term": "take up with",
+    "sense": "raise a complaint or issue with the person responsible",
+    "ipa": "/teɪk ˈʌp wɪð/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "soporte",
+      "reuniones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "plantearle (una queja o asunto) a; reclamarle a",
+    "def": "to raise a problem or complaint with the person who has the power to deal with it",
+    "note": "Casi siempre 'take it up with': If you don't like it, take it up with HR. Suena a 'no es mi problema, ve con quien corresponde'.",
+    "confuse": [
+      "take up on (aceptarle una oferta a alguien)"
+    ],
+    "errors_es": "Decir 'complain it with the manager'. Se dice 'take it up with the manager' o 'complain to the manager'.",
+    "ex": [
+      {
+        "en": "I don't make the rules, [take it up with] my manager.",
+        "es": "Yo no pongo las reglas, ve y díselo a mi gerente."
+      },
+      {
+        "en": "She [took it up with] the landlord, but nothing changed.",
+        "es": "Se lo reclamó al casero, pero nada cambió."
+      },
+      {
+        "en": "If the schedule is a problem, [take it up with] HR.",
+        "es": "Si el horario es un problema, plantéalo con Recursos Humanos."
+      }
+    ]
+  },
+  {
+    "id": "pv-throw-away-2",
+    "type": "phrasal",
+    "term": "throw away",
+    "sense": "waste a chance, talent, or good situation",
+    "ipa": "/θroʊ əˈweɪ/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "desperdiciar; echar a perder (una oportunidad, una relación)",
+    "def": "to waste a chance, a talent, or a good situation through your own bad choices",
+    "note": "Muy dramático en series: You're throwing your life away! Separable: throw it all away.",
+    "syn": [
+      "waste",
+      "blow"
+    ],
+    "confuse": [
+      "throw away (tirar a la basura)"
+    ],
+    "errors_es": "Decir 'lose the opportunity' cuando quieres culpar a la persona; 'throw away' deja claro que fue culpa suya.",
+    "ex": [
+      {
+        "en": "Don't [throw away] your scholarship over one bad semester.",
+        "es": "No eches a perder tu beca por un mal semestre."
+      },
+      {
+        "en": "We had something real, and you [threw it all away].",
+        "es": "Teníamos algo de verdad y lo tiraste todo a la basura."
+      },
+      {
+        "en": "He's [throwing away] a great career for nothing.",
+        "es": "Está desperdiciando una carrera increíble por nada."
+      }
+    ]
+  },
+  {
+    "id": "pv-throw-out-2",
+    "type": "phrasal",
+    "term": "throw out",
+    "sense": "force someone to leave a place, group, or home",
+    "ipa": "/θroʊ ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "correr; echar (a alguien de un lugar)",
+    "def": "to force someone to leave a place, a group, or a home",
+    "note": "Separable: they threw him out. Con casa: My parents threw me out. Muy parecido a kick out.",
+    "syn": [
+      "kick out"
+    ],
+    "confuse": [
+      "throw out (tirar a la basura)",
+      "walk out (salirse uno mismo)"
+    ],
+    "errors_es": "Decir 'they took him out of the bar' (eso es solo sacarlo). Para echar a alguien: threw him out / kicked him out.",
+    "ex": [
+      {
+        "en": "The bouncer [threw him out] for starting a fight.",
+        "es": "El cadenero lo echó por empezar una pelea."
+      },
+      {
+        "en": "If you lie to me again, I'm [throwing you out].",
+        "es": "Si me vuelves a mentir, te corro de la casa."
+      },
+      {
+        "en": "We got [thrown out] of the theater for talking.",
+        "es": "Nos sacaron del cine por estar platicando."
+      }
+    ]
+  },
+  {
+    "id": "pv-throw-yourself-into",
+    "type": "phrasal",
+    "term": "throw yourself into",
+    "sense": "start doing something with a lot of energy and commitment",
+    "ipa": "/θroʊ jɚˈsɛlf ˈɪntu/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "entregarse de lleno a; volcarse en",
+    "def": "to start doing an activity with a lot of energy, time, and commitment",
+    "note": "Cambia el reflexivo: threw himself into, throw myself into. Muy común tras una ruptura o pérdida: She threw herself into work.",
+    "forms": "throw myself/yourself/herself into · threw … into",
+    "errors_es": "Olvidar el reflexivo: 'He threw into his work'. Siempre: threw himself into.",
+    "ex": [
+      {
+        "en": "After the breakup, she [threw herself into] her training.",
+        "es": "Después de la ruptura, se volcó en sus entrenamientos."
+      },
+      {
+        "en": "I [threw myself into] the new project from day one.",
+        "es": "Me entregué de lleno al proyecto nuevo desde el primer día."
+      },
+      {
+        "en": "He [throws himself into] everything he does.",
+        "es": "Se entrega por completo a todo lo que hace."
+      }
+    ]
+  },
+  {
+    "id": "pv-toss-around",
+    "type": "phrasal",
+    "term": "toss around",
+    "sense": "discuss ideas informally before deciding anything",
+    "ipa": "/tɔs əˈraʊnd/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "barajar; platicar (ideas sin decidir nada)",
+    "def": "to discuss ideas or possibilities in a relaxed way before making a decision",
+    "note": "Muy común: toss around some ideas / names. Separable: we tossed it around. También se dice kick around.",
+    "syn": [
+      "kick around",
+      "bounce around"
+    ],
+    "confuse": [
+      "throw around (usar palabras a la ligera)"
+    ],
+    "errors_es": "Decir 'shuffle ideas' calcando 'barajar'; lo natural es 'toss around ideas'.",
+    "ex": [
+      {
+        "en": "We [tossed around] a few names for the baby.",
+        "es": "Barajamos varios nombres para el bebé."
+      },
+      {
+        "en": "Let's [toss around] some ideas before the meeting.",
+        "es": "Vamos a platicar unas ideas antes de la junta."
+      },
+      {
+        "en": "They've been [tossing around] the idea of moving to Calgary.",
+        "es": "Han estado pensando en la idea de mudarse a Calgary."
+      }
+    ]
+  },
+  {
+    "id": "pv-tense-up",
+    "type": "phrasal",
+    "term": "tense up",
+    "sense": "become physically or mentally stiff and nervous",
+    "ipa": "/tɛns ˈʌp/",
+    "level": "B2",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "tensarse; ponerse tenso",
+    "def": "to become stiff in your body or nervous in your mind",
+    "note": "Lo más común es intransitivo: Don't tense up. Con partes del cuerpo: I tense up my shoulders when I'm stressed.",
+    "syn": [
+      "stiffen"
+    ],
+    "confuse": [
+      "loosen up (relajarse)"
+    ],
+    "errors_es": "Decir 'I put myself tense'; se dice 'I tense up' o 'I get tense'.",
+    "ex": [
+      {
+        "en": "Every time the dentist comes in, I [tense up].",
+        "es": "Cada vez que entra el dentista, me pongo tenso."
+      },
+      {
+        "en": "Relax your jaw, you're [tensing up] again.",
+        "es": "Relaja la mandíbula, ya te estás tensando otra vez."
+      },
+      {
+        "en": "He [tensed up] when she mentioned his ex.",
+        "es": "Se puso tenso cuando ella mencionó a su ex."
+      }
+    ]
+  },
+  {
+    "id": "pv-tighten-up",
+    "type": "phrasal",
+    "term": "tighten up",
+    "sense": "make rules, security, or work stricter or more exact",
+    "ipa": "/taɪtən ˈʌp/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "software"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "endurecer; pulir (reglas, controles, un texto)",
+    "def": "to make rules or security stricter, or to make work more exact and efficient",
+    "note": "Con reglas: tighten up security. Con textos o código: tighten up the intro. Separable: tighten it up.",
+    "syn": [
+      "tighten",
+      "crack down on"
+    ],
+    "confuse": [
+      "loosen up (relajar)"
+    ],
+    "errors_es": "Decir 'harden the rules'; lo natural es 'tighten up the rules'.",
+    "ex": [
+      {
+        "en": "The school [tightened up] its phone policy this year.",
+        "es": "La escuela endureció su regla de celulares este año."
+      },
+      {
+        "en": "Your essay is good, just [tighten up] the ending.",
+        "es": "Tu ensayo está bien, nomás pule el final."
+      },
+      {
+        "en": "After the break-in, they [tightened up] security.",
+        "es": "Después del robo, reforzaron la seguridad."
+      }
+    ]
+  },
+  {
+    "id": "pv-tower-over",
+    "type": "phrasal",
+    "term": "tower over",
+    "sense": "be much taller than someone or something nearby",
+    "ipa": "/taʊɚ ˈoʊvɚ/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ser mucho más alto que; sobresalir por encima de",
+    "def": "to be much taller than the people or things around you",
+    "note": "Inseparable: he towers over me. Figurado: she towers over the other candidates (los supera por mucho).",
+    "syn": [
+      "loom over"
+    ],
+    "errors_es": "Decir 'he is much more tall than me'; además de 'much taller', 'tower over' lo dice de forma más visual.",
+    "ex": [
+      {
+        "en": "My little brother [towers over] me now.",
+        "es": "Mi hermanito ya me saca como una cabeza."
+      },
+      {
+        "en": "The new building [towers over] the whole neighborhood.",
+        "es": "El edificio nuevo sobresale por encima de toda la colonia."
+      },
+      {
+        "en": "At six foot five, he [towered over] the other kids.",
+        "es": "Con su metro noventa y seis, les sacaba mucho a los otros niños."
+      }
+    ]
+  },
+  {
+    "id": "pv-tune-up",
+    "type": "phrasal",
+    "term": "tune up",
+    "sense": "adjust an engine, bike, or instrument so it works or sounds its best",
+    "ipa": "/tun ˈʌp/",
+    "level": "B2",
+    "topic": "travel",
+    "areas": [
+      "transporte"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "afinar (motor, bici, instrumento); darle servicio",
+    "def": "to adjust an engine or a musical instrument so it works or sounds as well as possible",
+    "note": "Sustantivo: tune-up (servicio del carro). Separable: tune it up. Intransitivo para músicos: the band was tuning up.",
+    "forms": "tune up · tuned up · tuning up · tune-up (sustantivo)",
+    "errors_es": "Decir 'give maintenance to the car'; en EE. UU. y Canadá se dice 'get a tune-up' o 'tune up the car'.",
+    "ex": [
+      {
+        "en": "I need to [tune up] my bike before summer.",
+        "es": "Tengo que darle servicio a mi bici antes del verano."
+      },
+      {
+        "en": "The mechanic [tuned up] the engine and it runs great.",
+        "es": "El mecánico afinó el motor y ya jala bien."
+      },
+      {
+        "en": "The band was [tuning up] when we walked in.",
+        "es": "La banda estaba afinando cuando entramos."
+      }
+    ]
+  },
+  {
+    "id": "pv-turn-in-3",
+    "type": "phrasal",
+    "term": "turn in",
+    "sense": "report someone to the police or take them to the police",
+    "ipa": "/tɝn ˈɪn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "entregar a la policía; denunciar",
+    "def": "to tell the police where someone is or take them to the police",
+    "note": "Reflexivo: turn yourself in = entregarse. Separable: she turned him in. Muy de series policiacas.",
+    "syn": [
+      "report",
+      "rat out"
+    ],
+    "confuse": [
+      "turn in (entregar tarea / irse a dormir)",
+      "tell on (acusar, tono infantil)"
+    ],
+    "errors_es": "Decir 'deliver him to the police' calcando 'entregar'. Lo natural: turn him in / turn yourself in.",
+    "ex": [
+      {
+        "en": "His own brother [turned him in] for the reward.",
+        "es": "Su propio hermano lo entregó por la recompensa."
+      },
+      {
+        "en": "The suspect [turned himself in] this morning.",
+        "es": "El sospechoso se entregó esta mañana."
+      },
+      {
+        "en": "If you know who did it, you have to [turn them in].",
+        "es": "Si sabes quién fue, tienes que denunciarlo."
+      }
+    ]
+  },
+  {
+    "id": "pv-turn-out-2",
+    "type": "phrasal",
+    "term": "turn out",
+    "sense": "come to an event, often in large numbers",
+    "ipa": "/tɝn ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "noticias",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "asistir; presentarse (a un evento, en buen número)",
+    "def": "to come to an event, often in large numbers",
+    "note": "Con cantidad: Thousands turned out for the parade. Sustantivo: turnout = asistencia o participación (voter turnout).",
+    "confuse": [
+      "turn out (resultar)",
+      "turn up (llegar; aparecer)"
+    ],
+    "errors_es": "Creer que 'turnout' significa 'resultado'; significa cuánta gente fue o participó.",
+    "ex": [
+      {
+        "en": "Over five hundred people [turned out] for the vigil.",
+        "es": "Más de quinientas personas fueron a la vigilia."
+      },
+      {
+        "en": "Not many fans [turned out] because of the snowstorm.",
+        "es": "No fueron muchos aficionados por la tormenta de nieve."
+      },
+      {
+        "en": "The whole town [turns out] for the Canada Day fireworks.",
+        "es": "Todo el pueblo sale a ver los fuegos artificiales del Día de Canadá."
+      }
+    ]
+  },
+  {
+    "id": "pv-turn-over-2",
+    "type": "phrasal",
+    "term": "turn over",
+    "sense": "give something or someone to a person in authority",
+    "ipa": "/tɝn ˈoʊvɚ/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "entregar; ceder (a la autoridad o a otra persona)",
+    "def": "to give something or someone to a person or group in authority",
+    "note": "Con 'to': turn the evidence over to the police. Separable: turn it over. También ceder un negocio: turn the business over to your kids.",
+    "syn": [
+      "hand over"
+    ],
+    "confuse": [
+      "turn over (voltear)",
+      "turn in (denunciar a alguien)"
+    ],
+    "errors_es": "Decir 'give back the evidence' cuando se entrega a una autoridad; lo natural es 'turn over' o 'hand over'.",
+    "ex": [
+      {
+        "en": "They [turned over] the security footage to the detectives.",
+        "es": "Les entregaron el video de seguridad a los detectives."
+      },
+      {
+        "en": "You'll have to [turn it over] to your lawyer.",
+        "es": "Vas a tener que entregárselo a tu abogado."
+      },
+      {
+        "en": "He [turned over] the family business to his daughter.",
+        "es": "Le cedió el negocio familiar a su hija."
+      }
+    ]
+  },
+  {
+    "id": "pv-vote-out",
+    "type": "phrasal",
+    "term": "vote out",
+    "sense": "remove someone from a position or group by voting",
+    "ipa": "/voʊt ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "sacar por votación; eliminar (votando)",
+    "def": "to remove someone from a job, a position, or a group by voting",
+    "note": "Típico de reality shows: She got voted out. Separable: vote him out. Lo contrario: vote in.",
+    "errors_es": "Decir 'they eliminated him with votes'; se dice 'they voted him out' o 'he got voted out'.",
+    "ex": [
+      {
+        "en": "She was the first one [voted out] of the house.",
+        "es": "Fue la primera que sacaron de la casa por votación."
+      },
+      {
+        "en": "The members [voted him out] as club president.",
+        "es": "Los socios lo sacaron de la presidencia del club."
+      },
+      {
+        "en": "If the board doesn't like the results, they'll [vote her out].",
+        "es": "Si a la junta no le gustan los resultados, la van a sacar."
+      }
+    ]
+  },
+  {
+    "id": "pv-wait-on-2",
+    "type": "phrasal",
+    "term": "wait on",
+    "sense": "wait for something or someone before you can continue",
+    "ipa": "/weɪt ˈɑn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "conversacion"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "estar esperando (algo o a alguien para poder seguir)",
+    "def": "to wait for something or someone before you can continue with your plans",
+    "note": "Muy común en EE. UU. y Canadá: We're waiting on the results. Más informal que 'wait for'.",
+    "syn": [
+      "wait for"
+    ],
+    "confuse": [
+      "wait on (atender mesas o clientes)"
+    ],
+    "errors_es": "Creer que 'wait on' solo significa 'atender'; en el habla de EE. UU. es muy normal para 'estar esperando algo'.",
+    "ex": [
+      {
+        "en": "We're still [waiting on] the test results.",
+        "es": "Seguimos esperando los resultados de los análisis."
+      },
+      {
+        "en": "I can't start until my boss replies, I'm [waiting on] him.",
+        "es": "No puedo empezar hasta que mi jefe conteste, lo estoy esperando."
+      },
+      {
+        "en": "Don't [wait on] me, go ahead and eat.",
+        "es": "No me esperen, empiecen a comer."
+      }
+    ]
+  },
+  {
+    "id": "pv-walk-all-over",
+    "type": "phrasal",
+    "term": "walk all over",
+    "sense": "treat someone badly and without respect because they let you",
+    "ipa": "/wɔk ˈɔl ˈoʊvɚ/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pisotear; mangonear (a alguien que se deja)",
+    "def": "to treat someone badly and without respect, usually because they allow it",
+    "note": "Inseparable: she walks all over him. Frase típica: Don't let them walk all over you. En deportes: ganar muy fácil.",
+    "syn": [
+      "push around"
+    ],
+    "errors_es": "Decir 'step on me' para lo emocional; lo natural es 'walk all over me'.",
+    "ex": [
+      {
+        "en": "You can't keep letting your boss [walk all over] you.",
+        "es": "No puedes seguir dejando que tu jefe te pisotee."
+      },
+      {
+        "en": "His kids totally [walk all over] him.",
+        "es": "Sus hijos lo traen de su puerquito."
+      },
+      {
+        "en": "She [walked all over] me for years, and I just took it.",
+        "es": "Me mangoneó durante años y yo nomás me aguanté."
+      }
+    ]
+  },
+  {
+    "id": "pv-want-out",
+    "type": "phrasal",
+    "term": "want out",
+    "sense": "wish to leave a relationship, deal, or situation",
+    "ipa": "/wɑnt ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "querer salirse (de un trato, relación o plan)",
+    "def": "to wish to leave a relationship, a deal, or a situation",
+    "note": "Muy de series: I want out. Con 'of': He wants out of the deal. Así, sin 'to get', es correcto.",
+    "confuse": [
+      "want in (querer participar)",
+      "go out (salir a pasear)"
+    ],
+    "errors_es": "Decir 'I want to go out' para salirse de un trato: eso es salir a pasear. Se dice 'I want out'.",
+    "ex": [
+      {
+        "en": "This marriage isn't working, I [want out].",
+        "es": "Este matrimonio no funciona, ya me quiero salir."
+      },
+      {
+        "en": "Halfway through the deal, he suddenly [wanted out].",
+        "es": "A medio trato, de repente se quiso echar para atrás."
+      },
+      {
+        "en": "If you [want out], now's the time to say it.",
+        "es": "Si te quieres salir, ahorita es el momento de decirlo."
+      }
+    ]
+  },
+  {
+    "id": "pv-want-in",
+    "type": "phrasal",
+    "term": "want in",
+    "sense": "want to join a plan, deal, or group activity",
+    "ipa": "/wɑnt ˈɪn/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "querer entrarle; querer participar",
+    "def": "to want to join a plan, a deal, or an activity with a group",
+    "note": "Con 'on': I want in on the bet. Respuesta típica a un plan: Count me in / I want in.",
+    "syn": [
+      "count me in"
+    ],
+    "confuse": [
+      "want out (querer salirse)"
+    ],
+    "errors_es": "Decir 'I want to enter' (eso es entrar a un lugar). Para sumarte a un plan: I want in.",
+    "ex": [
+      {
+        "en": "You're starting a band? I [want in].",
+        "es": "¿Van a armar una banda? Yo le entro."
+      },
+      {
+        "en": "Half the office [wanted in] on the lottery pool.",
+        "es": "Medio equipo quería entrarle a la vaquita de la lotería."
+      },
+      {
+        "en": "If you guys are ordering pizza, I [want in].",
+        "es": "Si van a pedir pizza, cuenten conmigo."
+      }
+    ]
+  },
+  {
+    "id": "pv-wave-down",
+    "type": "phrasal",
+    "term": "wave down",
+    "sense": "signal a vehicle or person to stop by waving your arm",
+    "ipa": "/weɪv ˈdaʊn/",
+    "level": "B2",
+    "topic": "travel",
+    "areas": [
+      "transporte",
+      "emergencias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "hacerle señas (a un vehículo o persona) para que se pare",
+    "def": "to move your arm to signal a car, taxi, or person to stop",
+    "note": "Separable: wave a taxi down. Sinónimo muy común: flag down.",
+    "syn": [
+      "flag down"
+    ],
+    "errors_es": "Decir 'make signs to the car'; se dice 'wave down a car' o 'flag down a cab'.",
+    "ex": [
+      {
+        "en": "We [waved down] a truck after the car broke down.",
+        "es": "Le hicimos señas a una camioneta cuando se descompuso el carro."
+      },
+      {
+        "en": "I tried to [wave down] a cab, but they were all full.",
+        "es": "Traté de parar un taxi, pero todos iban llenos."
+      },
+      {
+        "en": "A police officer [waved him down] and asked for his license.",
+        "es": "Un policía le hizo la parada y le pidió la licencia."
+      }
+    ]
+  },
+  {
+    "id": "pv-win-back",
+    "type": "phrasal",
+    "term": "win back",
+    "sense": "get back someone or something you lost, like trust or a partner",
+    "ipa": "/wɪn ˈbæk/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "recuperar; reconquistar (a alguien o algo perdido)",
+    "def": "to get back something or someone you lost, such as trust, a partner, or customers",
+    "note": "Separable: win her back. Muy común: win back trust, win back customers.",
+    "syn": [
+      "get back",
+      "regain"
+    ],
+    "confuse": [
+      "win over (convencer a quien dudaba)"
+    ],
+    "errors_es": "Decir 'reconquer her'; lo natural es 'win her back'.",
+    "ex": [
+      {
+        "en": "He's doing everything he can to [win her back].",
+        "es": "Está haciendo todo lo posible por reconquistarla."
+      },
+      {
+        "en": "The company needs to [win back] its customers' trust.",
+        "es": "La empresa necesita recuperar la confianza de sus clientes."
+      },
+      {
+        "en": "It took months to [win back] my parents' respect.",
+        "es": "Me tomó meses recuperar el respeto de mis papás."
+      }
+    ]
+  },
+  {
+    "id": "pv-wipe-out-2",
+    "type": "phrasal",
+    "term": "wipe out",
+    "sense": "fall hard while skiing, skating, surfing, or riding a bike",
+    "ipa": "/waɪp ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "caerse feo; darse un buen trancazo",
+    "def": "to fall hard, especially while skiing, skating, surfing, or riding a bike",
+    "note": "Informal. Sustantivo: a total wipeout. Otro uso: I'm wiped out = estoy molido de cansancio.",
+    "syn": [
+      "fall",
+      "crash"
+    ],
+    "confuse": [
+      "wipe out (acabar con algo; arrasar)"
+    ],
+    "errors_es": "Decir 'I fell myself'; 'fall' no es reflexivo. Informal y muy natural: I wiped out.",
+    "ex": [
+      {
+        "en": "I [wiped out] on the ice in front of everyone.",
+        "es": "Me di un trancazo en el hielo enfrente de todos."
+      },
+      {
+        "en": "He hit a rock and [wiped out] on his bike.",
+        "es": "Le pegó a una piedra y se cayó feo de la bici."
+      },
+      {
+        "en": "Careful on that hill, I [wipe out] there every winter.",
+        "es": "Cuidado en esa bajada, ahí me caigo cada invierno."
+      }
+    ]
+  },
+  {
+    "id": "pv-write-up-2",
+    "type": "phrasal",
+    "term": "write up",
+    "sense": "make an official report about someone's bad behavior at work or school",
+    "ipa": "/raɪt ˈʌp/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "levantarle un reporte o acta (disciplinaria) a",
+    "def": "to make an official written report about someone's bad behavior at work or school",
+    "note": "Muy de EE. UU.: I got written up for being late. Sustantivo: a write-up. Separable: write him up.",
+    "confuse": [
+      "write up (redactar un informe)"
+    ],
+    "errors_es": "Decir 'they made me a report'; lo natural es 'I got written up'.",
+    "ex": [
+      {
+        "en": "I got [written up] for being late three times.",
+        "es": "Me levantaron un reporte por llegar tarde tres veces."
+      },
+      {
+        "en": "If you skip another shift, I'll have to [write you up].",
+        "es": "Si faltas a otro turno, te voy a tener que levantar un acta."
+      },
+      {
+        "en": "The manager [wrote him up] for yelling at a customer.",
+        "es": "El gerente le levantó un reporte por gritarle a un cliente."
+      }
+    ]
+  },
+  {
+    "id": "pv-work-in",
+    "type": "phrasal",
+    "term": "work in",
+    "sense": "find time for someone or something in a busy schedule",
+    "ipa": "/wɝk ˈɪn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "salud"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "hacerle un espacio a; meter (en la agenda)",
+    "def": "to find time for someone or something in a busy schedule",
+    "note": "Muy común en consultorios y salones: Can you work me in today? Separable: work it in. También 'fit in' o 'squeeze in'.",
+    "syn": [
+      "fit in",
+      "squeeze in"
+    ],
+    "errors_es": "Decir 'Can you put me in the schedule?' se entiende, pero lo natural es 'Can you work me in?'.",
+    "ex": [
+      {
+        "en": "The dentist can [work you in] at four.",
+        "es": "El dentista te puede hacer un espacio a las cuatro."
+      },
+      {
+        "en": "I'll try to [work in] a quick workout before dinner.",
+        "es": "Voy a tratar de meter un entrenamiento rápido antes de cenar."
+      },
+      {
+        "en": "We're fully booked, but I'll see if I can [work you in].",
+        "es": "Estamos llenos, pero voy a ver si le hago un espacio."
+      }
+    ]
+  },
+  {
+    "id": "pv-wimp-out",
+    "type": "phrasal",
+    "term": "wimp out",
+    "sense": "decide not to do something because you are scared",
+    "ipa": "/wɪmp ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "rajarse; acobardarse (y no hacerlo)",
+    "def": "to decide not to do something at the last moment because you are afraid",
+    "note": "Informal y algo burlón. Con 'of': he wimped out of the bungee jump. Muy parecido a chicken out.",
+    "syn": [
+      "chicken out",
+      "back out"
+    ],
+    "errors_es": "Usarlo en contextos formales: suena a burla entre amigos. En el trabajo mejor 'back out'.",
+    "ex": [
+      {
+        "en": "He said he'd jump in the lake, but he [wimped out].",
+        "es": "Dijo que se iba a aventar al lago, pero se rajó."
+      },
+      {
+        "en": "Don't [wimp out] on me now, we already bought the tickets.",
+        "es": "No me salgas con que te rajas, ya compramos los boletos."
+      },
+      {
+        "en": "I almost [wimped out] of the job interview.",
+        "es": "Casi me acobardo y no voy a la entrevista."
+      }
+    ]
+  },
+  {
+    "id": "pv-venture-out",
+    "type": "phrasal",
+    "term": "venture out",
+    "sense": "go outside or away from a safe place despite bad weather or risk",
+    "ipa": "/vɛntʃɚ ˈaʊt/",
+    "level": "B2",
+    "topic": "travel",
+    "areas": [
+      "canada",
+      "viajes"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "animarse a salir (con mal clima o algo de riesgo)",
+    "def": "to go outside or away from a safe place even though it may be unpleasant or risky",
+    "note": "Muy común con mal clima: We finally ventured out after the blizzard. Con 'into': venture out into the city.",
+    "errors_es": "Decir 'we dared to go out' es correcto pero suena raro; 'venture out' es lo natural.",
+    "ex": [
+      {
+        "en": "We didn't [venture out] until the storm passed.",
+        "es": "No nos animamos a salir hasta que pasó la tormenta."
+      },
+      {
+        "en": "Only a few people [ventured out] in the minus forty weather.",
+        "es": "Solo unos cuantos se animaron a salir con cuarenta bajo cero."
+      },
+      {
+        "en": "My first week in Toronto, I barely [ventured out] of the hotel.",
+        "es": "Mi primera semana en Toronto casi ni salí del hotel."
+      }
+    ]
+  },
+  {
+    "id": "pv-tick-by",
+    "type": "phrasal",
+    "term": "tick by",
+    "sense": "pass, used about time when you are waiting",
+    "ipa": "/tɪk ˈbaɪ/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "pasar (el tiempo, lento o sin parar)",
+    "def": "to pass, said of minutes or hours, especially when you are waiting or under pressure",
+    "note": "Sujeto: the minutes, the hours, the seconds. También 'tick away'. Da sensación de espera o de cuenta regresiva.",
+    "syn": [
+      "go by",
+      "pass"
+    ],
+    "confuse": [
+      "tick off (enojar; palomear)"
+    ],
+    "errors_es": "Decir 'the time passes ticking'; lo natural es 'the minutes ticked by'.",
+    "ex": [
+      {
+        "en": "The minutes [ticked by] and still no call from the hospital.",
+        "es": "Pasaban los minutos y el hospital no llamaba."
+      },
+      {
+        "en": "As the hours [tick by], the team gets more nervous.",
+        "es": "Conforme pasan las horas, el equipo se pone más nervioso."
+      },
+      {
+        "en": "I sat there watching the seconds [tick by].",
+        "es": "Me quedé ahí sentado viendo pasar los segundos."
+      }
+    ]
+  },
+  {
+    "id": "pv-trip-up",
+    "type": "phrasal",
+    "term": "trip up",
+    "sense": "make someone make a mistake, often with a tricky question",
+    "ipa": "/trɪp ˈʌp/",
+    "level": "B2",
+    "topic": "study",
+    "areas": [
+      "entrevistas",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "hacer equivocarse; confundir (con trampas)",
+    "def": "to make someone make a mistake, often by asking a tricky question",
+    "note": "Separable: trip him up. Muy de juicios e interrogatorios: The lawyer tried to trip her up. Intransitivo: equivocarse.",
+    "confuse": [
+      "trip over (tropezarse con algo)"
+    ],
+    "errors_es": "Decir 'make him fall in a mistake' calcando 'hacerlo caer'; lo natural es 'trip him up'.",
+    "ex": [
+      {
+        "en": "The detective kept asking questions to [trip him up].",
+        "es": "El detective seguía preguntando para hacerlo caer en contradicciones."
+      },
+      {
+        "en": "Phrasal verbs always [trip me up] in English.",
+        "es": "Los phrasal verbs siempre me hacen equivocarme en inglés."
+      },
+      {
+        "en": "Don't let that last question [trip you up].",
+        "es": "Que no te confunda esa última pregunta."
+      }
+    ]
+  },
+  {
+    "id": "pv-tie-down",
+    "type": "phrasal",
+    "term": "tie down",
+    "sense": "limit someone's freedom with responsibilities or a relationship",
+    "ipa": "/taɪ ˈdaʊn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "amarrar (a un compromiso); quitar libertad",
+    "def": "to limit someone's freedom with responsibilities, a job, or a relationship",
+    "note": "Muy común en pasiva: I don't want to be tied down. Literal: amarrar algo para que no se mueva.",
+    "syn": [
+      "hold back"
+    ],
+    "confuse": [
+      "tie up (tener ocupado)"
+    ],
+    "errors_es": "Decir 'I don't want to be tied' sin 'down'; para el compromiso es 'tied down'.",
+    "ex": [
+      {
+        "en": "He's not ready to be [tied down] with kids yet.",
+        "es": "Todavía no está listo para amarrarse con hijos."
+      },
+      {
+        "en": "I love my job, but it really [ties me down].",
+        "es": "Me encanta mi trabajo, pero me quita mucha libertad."
+      },
+      {
+        "en": "She didn't want a mortgage to [tie her down].",
+        "es": "No quería una hipoteca que la amarrara."
+      }
+    ]
+  },
+  {
+    "id": "pv-talk-over-2",
+    "type": "phrasal",
+    "term": "talk over",
+    "sense": "speak loudly while someone else is talking, not letting them be heard",
+    "ipa": "/tɔk ˈoʊvɚ/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "reuniones",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "hablar encima de; no dejar hablar (a alguien)",
+    "def": "to keep speaking while another person is trying to speak, so they cannot be heard",
+    "note": "Inseparable con persona: Stop talking over me! El otro talk over (platicar algo a fondo) lleva un tema como objeto.",
+    "confuse": [
+      "talk over (platicar a fondo)",
+      "interrupt (cortar a alguien una vez)"
+    ],
+    "errors_es": "Decir 'talk on top of me' calcando 'hablar encima'; se dice 'talk over me'.",
+    "ex": [
+      {
+        "en": "Can you please stop [talking over] me?",
+        "es": "¿Podrías dejar de hablarme encima, por favor?"
+      },
+      {
+        "en": "In every meeting he [talks over] the new hires.",
+        "es": "En cada junta no deja hablar a los nuevos."
+      },
+      {
+        "en": "They were [talking over] each other the whole dinner.",
+        "es": "Se estuvieron arrebatando la palabra toda la cena."
+      }
+    ]
+  },
+  {
+    "id": "pv-work-up-2",
+    "type": "phrasal",
+    "term": "work up",
+    "sense": "make yourself or someone upset, angry, or very excited",
+    "ipa": "/wɝk ˈʌp/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "alterarse; ponerse muy nervioso o enojado (get worked up)",
+    "def": "to make yourself or another person upset, angry, or too excited",
+    "note": "Casi siempre 'get worked up (about/over)': Don't get worked up over nothing. Reflexivo: work yourself up.",
+    "forms": "get worked up · work yourself up · worked up (adjetivo)",
+    "confuse": [
+      "work up (juntar valor o apetito)"
+    ],
+    "errors_es": "Decir 'don't get worked' sin 'up', o 'don't put yourself nervous'. Lo natural: don't get worked up.",
+    "ex": [
+      {
+        "en": "Don't get [worked up] over one stupid comment.",
+        "es": "No te alteres por un comentario tonto."
+      },
+      {
+        "en": "She [worked herself up] before the exam and couldn't sleep.",
+        "es": "Se puso de nervios antes del examen y no pudo dormir."
+      },
+      {
+        "en": "He gets so [worked up] when his team loses.",
+        "es": "Se pone como loco cuando pierde su equipo."
+      }
+    ]
+  },
+  {
+    "id": "pv-tough-out",
+    "type": "phrasal",
+    "term": "tough out",
+    "sense": "keep going through a hard situation without giving up",
+    "ipa": "/tʌf ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "aguantar; aguantarse (hasta el final)",
+    "def": "to continue through a hard or unpleasant situation without giving up",
+    "note": "Casi siempre 'tough it out'. Informal; muy común en deportes y trabajos pesados.",
+    "forms": "tough it out · toughed it out · toughing it out",
+    "syn": [
+      "stick it out",
+      "hang in there"
+    ],
+    "confuse": [
+      "wait out (esperar a que pase)"
+    ],
+    "errors_es": "Decir 'resist it' calcando 'resistir'; lo natural es 'tough it out'.",
+    "ex": [
+      {
+        "en": "The job is awful, but I'll [tough it out] till summer.",
+        "es": "El trabajo está horrible, pero me voy a aguantar hasta el verano."
+      },
+      {
+        "en": "She had the flu but [toughed it out] and played the game.",
+        "es": "Tenía gripa, pero se aguantó y jugó el partido."
+      },
+      {
+        "en": "Can you [tough it out] for one more week?",
+        "es": "¿Puedes aguantar una semana más?"
+      }
+    ]
+  },
+  {
+    "id": "pv-whip-out",
+    "type": "phrasal",
+    "term": "whip out",
+    "sense": "take something out quickly and suddenly",
+    "ipa": "/wɪp ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "sacar de repente (el celular, la cartera)",
+    "def": "to take something out of a pocket or bag quickly and suddenly",
+    "note": "Separable: whip it out. Típico: whip out your phone, whip out a credit card.",
+    "errors_es": "Usar siempre 'take out': está bien, pero 'whip out' añade rapidez y sorpresa.",
+    "ex": [
+      {
+        "en": "He [whipped out] his phone to show us the video.",
+        "es": "Sacó el celular de volada para enseñarnos el video."
+      },
+      {
+        "en": "Before I could pay, she [whipped out] her card.",
+        "es": "Antes de que yo pagara, ella ya había sacado su tarjeta."
+      },
+      {
+        "en": "Every time we eat out, my uncle [whips out] his camera.",
+        "es": "Cada vez que salimos a comer, mi tío saca su cámara."
+      }
+    ]
+  },
+  {
+    "id": "pv-wash-out",
+    "type": "phrasal",
+    "term": "wash out",
+    "sense": "be cancelled or ruined because of heavy rain",
+    "ipa": "/wɑʃ ˈaʊt/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "noticias",
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "suspenderse o arruinarse por la lluvia",
+    "def": "to cause an event to be cancelled or ruined because of heavy rain",
+    "note": "Casi siempre en pasiva: The game was washed out. Sustantivo: a washout = un fracaso total.",
+    "forms": "get/be washed out · washout (sustantivo)",
+    "errors_es": "Decir 'cancelled for the rain' (for → because of). Lo natural: the game got washed out.",
+    "ex": [
+      {
+        "en": "Our camping trip got [washed out] by the storm.",
+        "es": "La tormenta nos arruinó el campamento."
+      },
+      {
+        "en": "Half the baseball games this month were [washed out].",
+        "es": "Se suspendieron por lluvia la mitad de los juegos de béisbol del mes."
+      },
+      {
+        "en": "The parade was completely [washed out].",
+        "es": "El desfile se canceló por completo por la lluvia."
+      }
+    ]
+  },
+  {
+    "id": "pv-talk-down",
+    "type": "phrasal",
+    "term": "talk down",
+    "sense": "calmly persuade someone to stop doing something dangerous or panicking",
+    "ipa": "/tɔk ˈdaʊn/",
+    "level": "C1",
+    "topic": "health",
+    "areas": [
+      "emergencias",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "calmar (a alguien en crisis); disuadir con palabras",
+    "def": "to calmly persuade someone to stop doing something dangerous, or to calm them down in a panic",
+    "note": "Separable: talk him down. Muy de series policiacas y médicas: talk someone down from a ledge. Ojo: talk down to = hablar con superioridad.",
+    "confuse": [
+      "talk down to (menospreciar)",
+      "talk out of (disuadir en general)"
+    ],
+    "errors_es": "Confundirlo con 'talk down to' (menospreciar). Talk someone down es calmarlo en una crisis.",
+    "ex": [
+      {
+        "en": "The officer spent an hour [talking him down] from the bridge.",
+        "es": "El policía pasó una hora convenciéndolo de bajarse del puente."
+      },
+      {
+        "en": "She was panicking, but her sister [talked her down].",
+        "es": "Estaba en pánico, pero su hermana logró calmarla."
+      },
+      {
+        "en": "I need you to [talk me down], I'm about to quit.",
+        "es": "Necesito que me calmes, estoy a punto de renunciar."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-apart-2",
+    "type": "phrasal",
+    "term": "take apart",
+    "sense": "criticize something very harshly or beat someone easily",
+    "ipa": "/teɪk əˈpɑrt/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "hacer pedazos (con críticas o en una competencia)",
+    "def": "to criticize an idea or argument very harshly, or to beat an opponent easily",
+    "note": "Separable: they took him apart. Con argumentos: The lawyer took his story apart. Con equipos: We got taken apart.",
+    "confuse": [
+      "take apart (desarmar)",
+      "tear apart (destrozar emocionalmente)"
+    ],
+    "errors_es": "Entenderlo solo como 'desarmar'. Con ideas, coartadas o equipos rivales es 'destrozar'.",
+    "ex": [
+      {
+        "en": "The prosecutor [took apart] his alibi piece by piece.",
+        "es": "La fiscal le desbarató la coartada pieza por pieza."
+      },
+      {
+        "en": "The critics [took apart] her first movie.",
+        "es": "Los críticos hicieron pedazos su primera película."
+      },
+      {
+        "en": "We got [taken apart] in the final, six to nothing.",
+        "es": "Nos dieron una paliza en la final, seis a cero."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-down-3",
+    "type": "phrasal",
+    "term": "take down",
+    "sense": "defeat, arrest, or bring down a dangerous person or group",
+    "ipa": "/teɪk ˈdaʊn/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "derribar; acabar con (un criminal o una organización)",
+    "def": "to defeat, arrest, or physically stop a dangerous person or group",
+    "note": "Muy de películas de acción y policiacas: We're going to take him down. Separable: take them down.",
+    "confuse": [
+      "take down (quitar algo colgado)",
+      "take out (eliminar)"
+    ],
+    "errors_es": "Entenderlo solo como 'bajar algo'. En series policiacas es vencer o detener a alguien.",
+    "ex": [
+      {
+        "en": "It took the police years to [take down] the gang.",
+        "es": "A la policía le tomó años desmantelar a la banda."
+      },
+      {
+        "en": "Together, we can [take him down].",
+        "es": "Juntos podemos acabar con él."
+      },
+      {
+        "en": "Security [took him down] before he reached the stage.",
+        "es": "Seguridad lo tiró al piso antes de que llegara al escenario."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-in-3",
+    "type": "phrasal",
+    "term": "take in",
+    "sense": "deceive someone into believing something false",
+    "ipa": "/teɪk ˈɪn/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "engañar; embaucar (be taken in)",
+    "def": "to make someone believe something that is not true",
+    "note": "Muy común en pasiva: I was completely taken in by his story. Separable: he took us all in.",
+    "syn": [
+      "fool",
+      "con"
+    ],
+    "confuse": [
+      "take in (asimilar información)",
+      "take in (dar techo)"
+    ],
+    "errors_es": "Entender 'I was taken in' como 'me recibieron'. En este contexto significa 'me engañaron'.",
+    "ex": [
+      {
+        "en": "Don't be [taken in] by those fake reviews.",
+        "es": "No te dejes engañar por esas reseñas falsas."
+      },
+      {
+        "en": "His charm [took everyone in], even my mom.",
+        "es": "Su encanto engañó a todos, hasta a mi mamá."
+      },
+      {
+        "en": "I can't believe I was [taken in] by such an obvious scam.",
+        "es": "No puedo creer que caí en un fraude tan obvio."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-out-4",
+    "type": "phrasal",
+    "term": "take out",
+    "sense": "kill, destroy, or disable a person or target",
+    "ipa": "/teɪk ˈaʊt/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "eliminar; liquidar (un objetivo); tumbar",
+    "def": "to kill, destroy, or stop a person or a target from working",
+    "note": "Típico de películas de acción y videojuegos: take out the guards. También con desastres: the storm took out the power.",
+    "confuse": [
+      "take out (sacar; invitar a salir)"
+    ],
+    "errors_es": "Entenderlo como 'sacar' en una escena de acción. Ahí significa eliminar o destruir.",
+    "ex": [
+      {
+        "en": "The sniper [took out] two guards from the roof.",
+        "es": "El francotirador eliminó a dos guardias desde la azotea."
+      },
+      {
+        "en": "The storm [took out] power lines across the city.",
+        "es": "La tormenta tumbó cables de luz en toda la ciudad."
+      },
+      {
+        "en": "We have to [take out] the cameras before we go in.",
+        "es": "Hay que inutilizar las cámaras antes de entrar."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-it-out-of",
+    "type": "phrasal",
+    "term": "take it out of",
+    "sense": "make someone very tired, physically or emotionally",
+    "ipa": "/teɪk ɪt ˈaʊt əv/",
+    "level": "C1",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "dejar agotado; quitarle toda la energía a",
+    "def": "to make someone feel very tired in body or mind",
+    "note": "Siempre con 'it': That trip really took it out of me. No confundir con take it out on (desquitarse).",
+    "syn": [
+      "wear out"
+    ],
+    "confuse": [
+      "take out on (desquitarse con alguien)"
+    ],
+    "errors_es": "Cambiar 'of' por 'on': 'took it out on me' significa que se desquitaron contigo, no que te cansó.",
+    "ex": [
+      {
+        "en": "The night shift really [takes it out of] you.",
+        "es": "El turno de noche te deja molido."
+      },
+      {
+        "en": "That move [took it out of] us, we slept for twelve hours.",
+        "es": "La mudanza nos dejó agotados, dormimos doce horas."
+      },
+      {
+        "en": "Chasing a toddler all day [takes it out of] me.",
+        "es": "Correr detrás de un niño chiquito todo el día me deja sin pila."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-to-2",
+    "type": "phrasal",
+    "term": "take to",
+    "sense": "begin doing something as a regular habit",
+    "ipa": "/teɪk ˈtu/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "empezar a (hacer algo de costumbre); darle por",
+    "def": "to begin doing something as a habit, often without a clear reason",
+    "note": "Seguido de -ing: He took to drinking coffee at night. Expresiones: take to the streets (salir a protestar), take to social media.",
+    "confuse": [
+      "take to (agarrarle gusto a algo o alguien)",
+      "take up (empezar un hobby)"
+    ],
+    "errors_es": "Poner infinitivo: 'took to walk'. Aquí 'to' es preposición: took to walking.",
+    "ex": [
+      {
+        "en": "After retiring, he [took to] walking five miles a day.",
+        "es": "Al jubilarse, le dio por caminar ocho kilómetros diarios."
+      },
+      {
+        "en": "She's [taken to] sleeping on the couch lately.",
+        "es": "Últimamente le ha dado por dormirse en el sillón."
+      },
+      {
+        "en": "Fans [took to] social media to complain about the ending.",
+        "es": "Los fans se volcaron a las redes para quejarse del final."
+      }
+    ]
+  },
+  {
+    "id": "pv-take-on-4",
+    "type": "phrasal",
+    "term": "take on",
+    "sense": "begin to have a particular quality, appearance, or meaning",
+    "ipa": "/teɪk ˈɑn/",
+    "level": "C1",
+    "topic": "study",
+    "areas": [
+      "analisis",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "adquirir; tomar (un aspecto, significado o tono)",
+    "def": "to begin to have a particular quality, appearance, or meaning",
+    "note": "Con: a new meaning, a different tone, a life of its own. Más frecuente por escrito y en noticias.",
+    "confuse": [
+      "take on (asumir; contratar; enfrentar)"
+    ],
+    "errors_es": "Traducirlo como 'asumir' en todos los casos. Con significados o tonos es 'adquirir'.",
+    "ex": [
+      {
+        "en": "After the accident, the song [took on] a whole new meaning.",
+        "es": "Después del accidente, la canción adquirió otro significado."
+      },
+      {
+        "en": "Her voice [took on] a nervous tone.",
+        "es": "Su voz se volvió nerviosa."
+      },
+      {
+        "en": "The project has [taken on] a life of its own.",
+        "es": "El proyecto ya cobró vida propia."
+      }
+    ]
+  },
+  {
+    "id": "pv-tear-into",
+    "type": "phrasal",
+    "term": "tear into",
+    "sense": "criticize someone very angrily",
+    "ipa": "/tɛr ˈɪntu/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "arremeter contra; ponerle una regañiza a",
+    "def": "to criticize someone or something very angrily",
+    "note": "Inseparable: she tore into him. 'Tear' aquí suena /tɛr/ (como 'air'), no como 'lágrima'. También comer con ganas: tore into the pizza.",
+    "syn": [
+      "lay into",
+      "rip into"
+    ],
+    "confuse": [
+      "tear up (romper; lagrimear)",
+      "tell off (regañar, más suave)"
+    ],
+    "errors_es": "Pronunciar 'tear' como /tɪr/ (lágrima). Aquí es /tɛr/.",
+    "ex": [
+      {
+        "en": "The coach [tore into] the team at halftime.",
+        "es": "El entrenador le puso una regañiza al equipo en el medio tiempo."
+      },
+      {
+        "en": "She [tore into] me for forgetting her birthday.",
+        "es": "Me puso como camote por olvidar su cumpleaños."
+      },
+      {
+        "en": "Critics [tore into] the show's final season.",
+        "es": "La crítica destrozó la última temporada de la serie."
+      }
+    ]
+  },
+  {
+    "id": "pv-tear-away",
+    "type": "phrasal",
+    "term": "tear away",
+    "sense": "make yourself or someone stop doing something enjoyable and leave",
+    "ipa": "/tɛr əˈweɪ/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "despegarse de; apartar (de algo que encanta)",
+    "def": "to make yourself or another person stop doing something enjoyable and leave it",
+    "note": "Casi siempre reflexivo y con 'from': I couldn't tear myself away from the game. 'Tear' suena /tɛr/.",
+    "forms": "tear myself away · tore herself away · torn away",
+    "errors_es": "Decir 'I couldn't separate from the TV'; lo natural es 'I couldn't tear myself away from the TV'.",
+    "ex": [
+      {
+        "en": "I couldn't [tear myself away] from that show last night.",
+        "es": "Anoche no me pude despegar de esa serie."
+      },
+      {
+        "en": "Try to [tear him away] from his video games for dinner.",
+        "es": "A ver si lo despegas de sus videojuegos para que venga a cenar."
+      },
+      {
+        "en": "She finally [tore herself away] from the party at two.",
+        "es": "Por fin se despegó de la fiesta a las dos."
+      }
+    ]
+  },
+  {
+    "id": "pv-walk-into",
+    "type": "phrasal",
+    "term": "walk into",
+    "sense": "get into a trap or bad situation without realizing it",
+    "ipa": "/wɔk ˈɪntu/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "caer redondito en (una trampa); meterse solito en",
+    "def": "to get into a trap, a joke, or a bad situation without realizing it",
+    "note": "Típico: walk into a trap; You walked into that one (te la pusiste fácil para la burla). También walk into a job = conseguirlo sin esfuerzo.",
+    "errors_es": "Entenderlo solo como 'entrar caminando'. Con trap, ambush o 'that one' es caer en algo sin darte cuenta.",
+    "ex": [
+      {
+        "en": "They [walked into] a trap set by the police.",
+        "es": "Cayeron en una trampa que les puso la policía."
+      },
+      {
+        "en": "Ha, you totally [walked into] that one.",
+        "es": "Ja, te la pusiste de pechito."
+      },
+      {
+        "en": "I [walked into] the middle of a huge fight between my parents.",
+        "es": "Llegué justo en medio de un pleitazo de mis papás."
+      }
+    ]
+  },
+  {
+    "id": "pv-throw-out-3",
+    "type": "phrasal",
+    "term": "throw out",
+    "sense": "officially reject a case, evidence, or proposal",
+    "ipa": "/θroʊ ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "desestimar; rechazar (un caso, una prueba, una propuesta)",
+    "def": "to officially reject a legal case, a piece of evidence, or a proposal",
+    "note": "Muy de juicios: The judge threw out the case. Separable: threw it out. En juntas, informal: they threw out my idea.",
+    "syn": [
+      "dismiss",
+      "reject"
+    ],
+    "confuse": [
+      "throw out (tirar a la basura; correr a alguien)"
+    ],
+    "errors_es": "Traducirlo como 'tirar' en un juicio; ahí es 'desestimar' o 'no admitir'.",
+    "ex": [
+      {
+        "en": "The judge [threw out] the case for lack of evidence.",
+        "es": "La jueza desestimó el caso por falta de pruebas."
+      },
+      {
+        "en": "Anything from that search will be [thrown out] in court.",
+        "es": "Todo lo de ese cateo no lo van a admitir en el juicio."
+      },
+      {
+        "en": "My boss [threw out] my proposal without even reading it.",
+        "es": "Mi jefe rechazó mi propuesta sin siquiera leerla."
+      }
+    ]
+  },
+  {
+    "id": "pv-throw-around",
+    "type": "phrasal",
+    "term": "throw around",
+    "sense": "use words or accusations casually without thinking about their meaning",
+    "ipa": "/θroʊ əˈraʊnd/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "reuniones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "usar a la ligera (palabras, términos, acusaciones)",
+    "def": "to use words, labels, or accusations casually, without thinking about what they really mean",
+    "note": "Separable: don't throw that word around. Otras: throw money around (gastar a lo loco), throw your weight around (mandonear).",
+    "confuse": [
+      "toss around (barajar ideas)"
+    ],
+    "errors_es": "Decir 'use the word lightly' está bien, pero 'throw around' es lo natural en conversación.",
+    "ex": [
+      {
+        "en": "People [throw around] the word 'genius' way too easily.",
+        "es": "La gente usa la palabra 'genio' muy a la ligera."
+      },
+      {
+        "en": "Don't [throw around] accusations you can't prove.",
+        "es": "No andes lanzando acusaciones que no puedes probar."
+      },
+      {
+        "en": "He likes to [throw around] big technical terms in meetings.",
+        "es": "Le gusta soltar términos técnicos rimbombantes en las juntas."
+      }
+    ]
+  },
+  {
+    "id": "pv-tie-in-with",
+    "type": "phrasal",
+    "term": "tie in with",
+    "sense": "be connected with or match another fact or idea",
+    "ipa": "/taɪ ˈɪn wɪð/",
+    "level": "C1",
+    "topic": "study",
+    "areas": [
+      "analisis",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "cuadrar con; estar relacionado con",
+    "def": "to be connected with another fact or idea, or to match it",
+    "note": "También sin 'with': How does this tie in? Sustantivo: tie-in (producto relacionado). Muy usado al analizar pruebas o datos.",
+    "syn": [
+      "fit with",
+      "match"
+    ],
+    "errors_es": "Decir 'tie with' sin 'in'; 'tie with' es empatar. Para relacionar ideas: tie in with.",
+    "ex": [
+      {
+        "en": "How does this [tie in with] what she told the police?",
+        "es": "¿Cómo cuadra esto con lo que ella le dijo a la policía?"
+      },
+      {
+        "en": "His story doesn't [tie in with] the timeline.",
+        "es": "Su versión no cuadra con la cronología."
+      },
+      {
+        "en": "The campaign should [tie in with] the holiday season.",
+        "es": "La campaña debería ir de la mano con la temporada navideña."
+      }
+    ]
+  },
+  {
+    "id": "pv-trail-off",
+    "type": "phrasal",
+    "term": "trail off",
+    "sense": "become quieter and then stop, especially when speaking",
+    "ipa": "/treɪl ˈɔf/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "irse apagando (la voz); quedarse a media frase",
+    "def": "to slowly become quieter and then stop, especially when speaking",
+    "note": "Muy común en guiones y novelas: Her voice trailed off. También 'trail away'.",
+    "errors_es": "Decir 'her voice turned off'. Para una voz que se va apagando: her voice trailed off.",
+    "ex": [
+      {
+        "en": "\"I just thought maybe…\" he said, and [trailed off].",
+        "es": "\"Nomás pensé que tal vez…\", dijo, y se quedó callado."
+      },
+      {
+        "en": "Her voice [trailed off] when she saw the ring.",
+        "es": "Se le fue apagando la voz cuando vio el anillo."
+      },
+      {
+        "en": "The applause [trailed off] and the room went quiet.",
+        "es": "Los aplausos se fueron apagando y la sala quedó en silencio."
+      }
+    ]
+  },
+  {
+    "id": "pv-tack-on",
+    "type": "phrasal",
+    "term": "tack on",
+    "sense": "add something extra at the end, often a fee",
+    "ipa": "/tæk ˈɑn/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "compras",
+      "bancos"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "agregar (algo extra, como un cargo)",
+    "def": "to add something extra at the end, often a fee or something that was not planned",
+    "note": "Separable: they tacked on a fee. Muy común con cuentas y cargos: tack on a service charge.",
+    "syn": [
+      "add on"
+    ],
+    "errors_es": "Decir 'they put a fee extra'; lo natural es 'they tacked on a fee'.",
+    "ex": [
+      {
+        "en": "The hotel [tacked on] a twenty-dollar resort fee.",
+        "es": "El hotel nos cobró aparte un cargo de veinte dólares."
+      },
+      {
+        "en": "They [tacked on] an extra week to the project.",
+        "es": "Le agregaron una semana más al proyecto."
+      },
+      {
+        "en": "Can we [tack on] one more stop before we go home?",
+        "es": "¿Podemos hacer una parada más antes de irnos a casa?"
+      }
+    ]
+  },
+  {
+    "id": "pv-taper-off",
+    "type": "phrasal",
+    "term": "taper off",
+    "sense": "gradually become less, or reduce a dose slowly",
+    "ipa": "/teɪpɚ ˈɔf/",
+    "level": "C1",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "ir disminuyendo poco a poco",
+    "def": "to slowly become smaller or less, or to slowly reduce the amount of a medicine",
+    "note": "Con medicamentos: taper off the pills (bajarle poco a poco a la dosis). En noticias: sales tapered off.",
+    "syn": [
+      "tail off",
+      "wind down"
+    ],
+    "errors_es": "Decir 'decrease little by little' palabra por palabra; 'taper off' lo dice en una sola idea.",
+    "ex": [
+      {
+        "en": "The rain should [taper off] by the afternoon.",
+        "es": "La lluvia debería ir bajando para la tarde."
+      },
+      {
+        "en": "Your doctor will help you [taper off] the medication.",
+        "es": "Tu médico te va a ayudar a bajarle poco a poco al medicamento."
+      },
+      {
+        "en": "Sales [tapered off] after the holidays.",
+        "es": "Las ventas fueron bajando después de las fiestas."
+      }
+    ]
+  },
+  {
+    "id": "pv-thin-out",
+    "type": "phrasal",
+    "term": "thin out",
+    "sense": "become fewer or less crowded",
+    "ipa": "/θɪn ˈaʊt/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "transporte"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "dispersarse; ir quedando menos (gente, tráfico)",
+    "def": "to become fewer in number or less crowded",
+    "note": "Con tráfico y multitudes: traffic thinned out after nine. Transitivo en jardinería: thin out the plants (entresacar).",
+    "errors_es": "Decir 'the people went less'; lo natural es 'the crowd thinned out'.",
+    "ex": [
+      {
+        "en": "The crowd [thinned out] after the fireworks.",
+        "es": "La gente se fue dispersando después de los fuegos artificiales."
+      },
+      {
+        "en": "Traffic usually [thins out] after seven.",
+        "es": "El tráfico casi siempre baja después de las siete."
+      },
+      {
+        "en": "Let's wait until the line [thins out] a bit.",
+        "es": "Esperemos a que la fila se haga más corta."
+      }
+    ]
+  },
+  {
+    "id": "pv-tap-out",
+    "type": "phrasal",
+    "term": "tap out",
+    "sense": "give up because you are too tired or cannot continue",
+    "ipa": "/tæp ˈaʊt/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "slang"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "rendirse; ya no poder más (tirar la toalla)",
+    "def": "to give up because you are too tired or cannot keep going",
+    "note": "Viene de las luchas (dar golpecitos para rendirse). 'I'm tapped out' también significa 'estoy sin un peso'.",
+    "syn": [
+      "give up",
+      "throw in the towel"
+    ],
+    "errors_es": "Usarlo en contextos formales; es slang. En el trabajo mejor 'I need to stop' o 'I'm done for today'.",
+    "ex": [
+      {
+        "en": "After the third round, I had to [tap out].",
+        "es": "Después del tercer round tuve que rendirme."
+      },
+      {
+        "en": "We hiked for six hours before Mike [tapped out].",
+        "es": "Caminamos seis horas antes de que Mike tirara la toalla."
+      },
+      {
+        "en": "I'm not [tapping out] until this report is done.",
+        "es": "No me rindo hasta terminar este reporte."
+      }
+    ]
+  },
+  {
+    "id": "pv-urge-on",
+    "type": "phrasal",
+    "term": "urge on",
+    "sense": "encourage someone to keep going or try harder",
+    "ipa": "/ɝdʒ ˈɑn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "animar; echarle porras (para que siga)",
+    "def": "to encourage someone to continue or to try harder",
+    "note": "Separable: the crowd urged him on. Parecido a cheer on; también puede ser empujar a algo malo (egg on).",
+    "syn": [
+      "cheer on",
+      "egg on"
+    ],
+    "errors_es": "Decir 'urge him to continue' es correcto pero largo; 'urge him on' es lo natural con multitudes.",
+    "ex": [
+      {
+        "en": "The crowd [urged him on] for the last mile.",
+        "es": "El público le echó porras en el último kilómetro."
+      },
+      {
+        "en": "Her friends [urged her on] to sing another song.",
+        "es": "Sus amigos la animaron a cantar otra canción."
+      },
+      {
+        "en": "Fans were on their feet, [urging them on].",
+        "es": "Los aficionados estaban de pie, apoyándolos."
+      }
+    ]
+  },
+  {
+    "id": "pv-veer-off",
+    "type": "phrasal",
+    "term": "veer off",
+    "sense": "suddenly change direction and leave a road, path, or topic",
+    "ipa": "/vɪr ˈɔf/",
+    "level": "C1",
+    "topic": "travel",
+    "areas": [
+      "transporte",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "desviarse; salirse (del camino o del tema)",
+    "def": "to suddenly change direction and leave a road, a path, or the main topic",
+    "note": "Con carro: veer off the road. Figurado: veer off topic. Muy común en noticias de tránsito.",
+    "syn": [
+      "swerve"
+    ],
+    "errors_es": "Decir 'the car went out of the road'; lo natural es 'the car veered off the road'.",
+    "ex": [
+      {
+        "en": "The truck [veered off] the highway and hit a tree.",
+        "es": "El tráiler se salió de la carretera y chocó contra un árbol."
+      },
+      {
+        "en": "Sorry, I [veered off] topic there.",
+        "es": "Perdón, me desvié del tema."
+      },
+      {
+        "en": "The conversation kept [veering off] into gossip.",
+        "es": "La plática se desviaba al chisme todo el tiempo."
+      }
+    ]
+  },
+  {
+    "id": "pv-wake-up-to",
+    "type": "phrasal",
+    "term": "wake up to",
+    "sense": "finally realize or understand a situation or problem",
+    "ipa": "/weɪk ˈʌp tu/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "noticias",
+      "relaciones"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "darse cuenta de; abrir los ojos ante",
+    "def": "to finally realize or understand a situation or a problem",
+    "note": "Inseparable: wake up to the fact that… Ojo: literal 'wake up to the sound of rain' = despertar con el sonido.",
+    "confuse": [
+      "wake up (despertar)",
+      "wise up (espabilarse)"
+    ],
+    "errors_es": "Decir 'realize of'. Se dice 'realize that…' o 'wake up to the fact that…'.",
+    "ex": [
+      {
+        "en": "Companies are finally [waking up to] the problem.",
+        "es": "Las empresas por fin están abriendo los ojos ante el problema."
+      },
+      {
+        "en": "She [woke up to] the fact that he was never going to change.",
+        "es": "Por fin entendió que él nunca iba a cambiar."
+      },
+      {
+        "en": "It's time you [woke up to] what's going on here.",
+        "es": "Ya es hora de que te des cuenta de lo que está pasando aquí."
+      }
+    ]
+  },
+  {
+    "id": "pv-walk-back",
+    "type": "phrasal",
+    "term": "walk back",
+    "sense": "change or partly take back something you said publicly",
+    "ipa": "/wɔk ˈbæk/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "reuniones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "retractarse de; matizar (una declaración)",
+    "def": "to change or partly withdraw something you said in public",
+    "note": "Muy de noticias de EE. UU.: walk back a statement/comment. Separable: walk it back. Suele ser más suave que take back.",
+    "confuse": [
+      "take back (retractarse por completo)"
+    ],
+    "errors_es": "Entenderlo como 'regresar caminando'. Con statement, comment o promise es retractarse o matizar.",
+    "ex": [
+      {
+        "en": "The coach [walked back] his comments the next day.",
+        "es": "El entrenador matizó sus comentarios al día siguiente."
+      },
+      {
+        "en": "You can't just [walk it back] now, everyone heard you.",
+        "es": "Ya no puedes echarte para atrás, todos te oyeron."
+      },
+      {
+        "en": "The company quickly [walked back] the new policy.",
+        "es": "La empresa dio marcha atrás rápido con la nueva política."
+      }
+    ]
+  },
+  {
+    "id": "pv-walk-away-with",
+    "type": "phrasal",
+    "term": "walk away with",
+    "sense": "win a prize easily or leave with something valuable",
+    "ipa": "/wɔk əˈweɪ wɪð/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "noticias",
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "llevarse (un premio, fácilmente); salir con",
+    "def": "to win a prize easily or to leave a situation with something valuable",
+    "note": "Inseparable. Común en premios y concursos: walked away with three awards. No implica robo (eso es walk off with).",
+    "confuse": [
+      "walk off with (robarse algo)",
+      "walk away (alejarse)"
+    ],
+    "errors_es": "Confundirlo con 'walk off with', que es llevarse algo que no es tuyo.",
+    "ex": [
+      {
+        "en": "She [walked away with] first prize.",
+        "es": "Se llevó el primer lugar."
+      },
+      {
+        "en": "The film [walked away with] four awards.",
+        "es": "La película arrasó con cuatro premios."
+      },
+      {
+        "en": "He [walked away with] a nice settlement after the lawsuit.",
+        "es": "Salió de la demanda con una buena indemnización."
+      }
+    ]
+  },
+  {
+    "id": "pv-walk-off-with",
+    "type": "phrasal",
+    "term": "walk off with",
+    "sense": "take something that isn't yours, sometimes by mistake",
+    "ipa": "/wɔk ˈɔf wɪð/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "llevarse; robarse (algo, a veces sin querer)",
+    "def": "to take something that belongs to someone else, sometimes by mistake",
+    "note": "Inseparable. Puede ser robo o descuido: Someone walked off with my umbrella.",
+    "syn": [
+      "make off with"
+    ],
+    "confuse": [
+      "walk away with (ganar un premio)"
+    ],
+    "errors_es": "Decir 'someone robbed my umbrella' ('rob' es a personas o lugares). Lo natural: someone walked off with my umbrella.",
+    "ex": [
+      {
+        "en": "Someone [walked off with] my phone charger.",
+        "es": "Alguien se llevó mi cargador."
+      },
+      {
+        "en": "Sorry, I accidentally [walked off with] your pen.",
+        "es": "Perdón, sin querer me llevé tu pluma."
+      },
+      {
+        "en": "Thieves [walked off with] thousands of dollars in jewelry.",
+        "es": "Los ladrones se llevaron miles de dólares en joyas."
+      }
+    ]
+  },
+  {
+    "id": "pv-waltz-in",
+    "type": "phrasal",
+    "term": "waltz in",
+    "sense": "enter casually or confidently, not caring that others may be upset",
+    "ipa": "/wɔlts ˈɪn/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "entrar como si nada; llegar muy campante",
+    "def": "to enter a place casually or too confidently, without caring that others may be annoyed",
+    "note": "Tono de reproche: You can't just waltz in here! También 'waltz into' + lugar.",
+    "errors_es": "Entenderlo como 'entrar bailando'. Es entrar con descaro o como si nada.",
+    "ex": [
+      {
+        "en": "He [waltzed in] an hour late holding a coffee.",
+        "es": "Llegó una hora tarde muy campante con su café."
+      },
+      {
+        "en": "You can't just [waltz in] here and start giving orders.",
+        "es": "No puedes llegar como si nada a dar órdenes."
+      },
+      {
+        "en": "She [waltzes in] every Monday like nothing happened.",
+        "es": "Cada lunes entra como si no hubiera pasado nada."
+      }
+    ]
+  },
+  {
+    "id": "pv-wade-through",
+    "type": "phrasal",
+    "term": "wade through",
+    "sense": "spend a long time dealing with a lot of boring or difficult material",
+    "ipa": "/weɪd ˈθru/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "datos",
+      "analisis"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "chutarse; leerse a duras penas (mucho material)",
+    "def": "to spend a long time reading or dealing with a lot of boring or difficult material",
+    "note": "Inseparable. Con: emails, paperwork, data, contracts. Literal: avanzar con dificultad por agua o lodo.",
+    "errors_es": "Decir 'read all the emails with difficulty'; 'wade through' ya trae la idea de lo pesado.",
+    "ex": [
+      {
+        "en": "I spent all morning [wading through] emails.",
+        "es": "Me pasé toda la mañana chutándome correos."
+      },
+      {
+        "en": "The lawyers had to [wade through] thousands of documents.",
+        "es": "Los abogados tuvieron que revisar miles de documentos."
+      },
+      {
+        "en": "You'll have to [wade through] a lot of data to find the answer.",
+        "es": "Vas a tener que revisar un montón de datos para encontrar la respuesta."
+      }
+    ]
+  },
+  {
+    "id": "pv-wade-into",
+    "type": "phrasal",
+    "term": "wade into",
+    "sense": "get involved in an argument or difficult situation, often forcefully",
+    "ipa": "/weɪd ˈɪntu/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "noticias",
+      "relaciones"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "meterse (de lleno) en (una discusión o polémica)",
+    "def": "to get involved in an argument or a difficult situation, often with force",
+    "note": "Inseparable. Típico: wade into a debate/controversy/fight. Suele implicar que no hacía falta meterse.",
+    "confuse": [
+      "wade through (revisar mucho material)"
+    ],
+    "errors_es": "Decir 'get into the discussion' está bien, pero 'wade into' sugiere meterse con decisión, a veces sin necesidad.",
+    "ex": [
+      {
+        "en": "He [waded into] the argument without knowing the facts.",
+        "es": "Se metió en la discusión sin saber lo que pasaba."
+      },
+      {
+        "en": "I'm not [wading into] that family drama.",
+        "es": "Yo no me meto en ese drama familiar."
+      },
+      {
+        "en": "Few teachers want to [wade into] that debate.",
+        "es": "Pocos maestros quieren meterse en ese debate."
+      }
+    ]
+  },
+  {
+    "id": "pv-weasel-out-of",
+    "type": "phrasal",
+    "term": "weasel out of",
+    "sense": "avoid a duty or promise using tricks or excuses",
+    "ipa": "/wizəl ˈaʊt əv/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "zafarse de; escabullirse de (con mañas)",
+    "def": "to avoid doing something you promised or should do by using tricks or excuses",
+    "note": "Informal y negativo. Seguido de sustantivo o -ing: weasel out of paying.",
+    "syn": [
+      "get out of",
+      "wriggle out of"
+    ],
+    "confuse": [
+      "back out (echarse para atrás)"
+    ],
+    "errors_es": "Poner infinitivo: 'weasel out of to pay'. Después de 'of' va -ing: weasel out of paying.",
+    "ex": [
+      {
+        "en": "He always [weasels out of] doing the dishes.",
+        "es": "Siempre se zafa de lavar los trastes."
+      },
+      {
+        "en": "Don't try to [weasel out of] our deal.",
+        "es": "No te quieras escabullir de nuestro trato."
+      },
+      {
+        "en": "She [weaseled out of] the meeting with a fake headache.",
+        "es": "Se zafó de la junta con un dolor de cabeza inventado."
+      }
+    ]
+  },
+  {
+    "id": "pv-wind-down-2",
+    "type": "phrasal",
+    "term": "wind down",
+    "sense": "gradually reduce an activity or business until it stops",
+    "ipa": "/waɪnd ˈdaʊn/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "ir cerrando; reducir poco a poco (un negocio, una actividad)",
+    "def": "to gradually reduce an activity or a business until it stops completely",
+    "note": "Pronunciación: wind /waɪnd/ (como 'kind'). Separable: wind it down. El otro wind down es relajarse al final del día.",
+    "confuse": [
+      "wind down (relajarse)",
+      "wrap up (terminar)"
+    ],
+    "errors_es": "Pronunciar 'wind' como el viento (/wɪnd/). En este verbo es /waɪnd/.",
+    "ex": [
+      {
+        "en": "The company is [winding down] its Canadian operations.",
+        "es": "La empresa está cerrando poco a poco sus operaciones en Canadá."
+      },
+      {
+        "en": "The party started [winding down] around one.",
+        "es": "La fiesta empezó a apagarse como a la una."
+      },
+      {
+        "en": "We'll [wind down] the old app by March.",
+        "es": "Vamos a ir dando de baja la app vieja para marzo."
+      }
+    ]
+  },
+  {
+    "id": "pv-wise-up",
+    "type": "phrasal",
+    "term": "wise up",
+    "sense": "finally understand the truth and stop being naive",
+    "ipa": "/waɪz ˈʌp/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "espabilarse; abrir los ojos (y dejar de ser ingenuo)",
+    "def": "to finally understand the truth about a situation and stop being naive",
+    "note": "Informal. Con 'to': wise up to his lies. Imperativo de regaño: Wise up!",
+    "syn": [
+      "wake up to"
+    ],
+    "errors_es": "Confundirlo con 'get wise' (ponerse listo/insolente). 'Wise up' es dejar de ser ingenuo.",
+    "ex": [
+      {
+        "en": "You need to [wise up], he's using you.",
+        "es": "Tienes que abrir los ojos, te está usando."
+      },
+      {
+        "en": "Customers eventually [wised up] to the scam.",
+        "es": "Con el tiempo los clientes se dieron cuenta del fraude."
+      },
+      {
+        "en": "I [wised up] after the second time he lied.",
+        "es": "Me espabilé después de la segunda vez que me mintió."
+      }
+    ]
+  },
+  {
+    "id": "pv-zonk-out",
+    "type": "phrasal",
+    "term": "zonk out",
+    "sense": "fall asleep very quickly because you are exhausted",
+    "ipa": "/zɑŋk ˈaʊt/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "slang"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "quedarse frito; caer rendido (dormido)",
+    "def": "to fall asleep very quickly because you are extremely tired",
+    "note": "Muy informal. 'Zonked' = agotadísimo. Parecido a crash o conk out.",
+    "syn": [
+      "crash",
+      "conk out",
+      "pass out"
+    ],
+    "errors_es": "Usarlo en contextos formales. Para algo neutro: I fell asleep right away.",
+    "ex": [
+      {
+        "en": "I [zonked out] on the couch at eight.",
+        "es": "Me quedé frito en el sillón a las ocho."
+      },
+      {
+        "en": "The baby [zonked out] as soon as the car started.",
+        "es": "El bebé cayó rendido en cuanto arrancó el carro."
+      },
+      {
+        "en": "After the flight, we both [zonked out] for twelve hours.",
+        "es": "Después del vuelo, los dos dormimos doce horas de corrido."
+      }
+    ]
+  },
+  {
+    "id": "pv-thrash-out",
+    "type": "phrasal",
+    "term": "thrash out",
+    "sense": "discuss a problem in detail until you reach an agreement",
+    "ipa": "/θræʃ ˈaʊt/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "proyectos"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "discutir a fondo hasta llegar a un acuerdo",
+    "def": "to discuss a problem in detail, often with strong arguments, until you agree",
+    "note": "Separable: thrash it out. En EE. UU. es más común 'hash out', con el mismo sentido.",
+    "syn": [
+      "hash out",
+      "work out"
+    ],
+    "errors_es": "Decir 'discuss until agree' sin el 'we'; lo natural es 'we thrashed it out' o 'we hashed it out'.",
+    "ex": [
+      {
+        "en": "We stayed late to [thrash out] the details of the contract.",
+        "es": "Nos quedamos tarde para amarrar los detalles del contrato."
+      },
+      {
+        "en": "Let's get in a room and [thrash it out].",
+        "es": "Metámonos a una sala y lo discutimos hasta resolverlo."
+      },
+      {
+        "en": "The two sides [thrashed out] a deal overnight.",
+        "es": "Las dos partes sacaron un acuerdo de madrugada."
+      }
+    ]
+  },
+  {
+    "id": "pv-tamp-down",
+    "type": "phrasal",
+    "term": "tamp down",
+    "sense": "reduce or control rumors, expectations, or strong feelings",
+    "ipa": "/tæmp ˈdaʊn/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "noticias"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "formal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "frenar; apaciguar (rumores, expectativas, temores)",
+    "def": "to reduce or control something such as rumors, expectations, or anger",
+    "note": "Muy periodístico: tamp down speculation/expectations. Literal: apisonar (tierra, café en la cafetera).",
+    "syn": [
+      "dampen",
+      "play down"
+    ],
+    "errors_es": "Confundirlo con 'tone down' (suavizar el tono de algo propio). 'Tamp down' es frenar algo que crece.",
+    "ex": [
+      {
+        "en": "The team tried to [tamp down] rumors about the trade.",
+        "es": "El equipo trató de frenar los rumores del traspaso."
+      },
+      {
+        "en": "She's trying to [tamp down] expectations before the launch.",
+        "es": "Está intentando bajar las expectativas antes del lanzamiento."
+      },
+      {
+        "en": "Officials moved quickly to [tamp down] fears of a shortage.",
+        "es": "Las autoridades actuaron rápido para calmar el temor a la escasez."
+      }
+    ]
+  },
+  {
+    "id": "pv-tease-out",
+    "type": "phrasal",
+    "term": "tease out",
+    "sense": "get information or meaning from something slowly and carefully",
+    "ipa": "/tiz ˈaʊt/",
+    "level": "C2",
+    "topic": "study",
+    "areas": [
+      "analisis",
+      "ciencia"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "sacar con paciencia; desentrañar (información, un significado)",
+    "def": "to get information or meaning out of something slowly and carefully",
+    "note": "Separable: tease it out. Muy usado en investigación y terapia: tease out the differences, tease out the cause.",
+    "errors_es": "Entenderlo como 'burlarse' (tease). Con 'out' es extraer algo con cuidado.",
+    "ex": [
+      {
+        "en": "The therapist slowly [teased out] what was really bothering him.",
+        "es": "La terapeuta fue sacando poco a poco lo que de verdad le molestaba."
+      },
+      {
+        "en": "It took weeks to [tease out] the cause of the bug.",
+        "es": "Nos tomó semanas desentrañar la causa del bug."
+      },
+      {
+        "en": "Researchers tried to [tease out] the effect of sleep on memory.",
+        "es": "Los investigadores intentaron aislar el efecto del sueño en la memoria."
+      }
+    ]
+  },
+  {
+    "id": "pv-trot-out",
+    "type": "phrasal",
+    "term": "trot out",
+    "sense": "repeat the same old excuse or argument people have heard many times",
+    "ipa": "/trɑt ˈaʊt/",
+    "level": "C2",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "noticias"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "salir con (la misma excusa o historia de siempre)",
+    "def": "to repeat the same excuse, story, or argument that people have already heard many times",
+    "note": "Tono crítico o burlón. Separable: he trotted it out again.",
+    "errors_es": "Decir 'he came out with the same excuse' se entiende, pero 'trot out' añade el fastidio de lo repetido.",
+    "ex": [
+      {
+        "en": "He [trotted out] the same excuse he used last year.",
+        "es": "Salió con la misma excusa del año pasado."
+      },
+      {
+        "en": "Every Thanksgiving, my uncle [trots out] the same stories.",
+        "es": "Cada Día de Acción de Gracias mi tío saca las mismas historias."
+      },
+      {
+        "en": "Don't [trot out] that old line about being busy.",
+        "es": "No me salgas con el cuento de siempre de que estás ocupado."
+      }
+    ]
+  },
+  {
+    "id": "pv-usher-in",
+    "type": "phrasal",
+    "term": "usher in",
+    "sense": "be the start of a new period or cause something new to begin",
+    "ipa": "/ʌʃɚ ˈɪn/",
+    "level": "C2",
+    "topic": "study",
+    "areas": [
+      "noticias",
+      "analisis"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "formal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "marcar el inicio de; dar paso a (una nueva etapa)",
+    "def": "to be the beginning of a new period, or to cause something new to start",
+    "note": "Formal y periodístico: usher in a new era. Literal: hacer pasar a alguien (como un acomodador).",
+    "syn": [
+      "bring in",
+      "herald"
+    ],
+    "errors_es": "Decir 'started a new era' está bien, pero en textos formales 'usher in a new era' es la colocación típica.",
+    "ex": [
+      {
+        "en": "The smartphone [ushered in] a new era of communication.",
+        "es": "El smartphone dio paso a una nueva era de la comunicación."
+      },
+      {
+        "en": "The new coach [ushered in] a very different style.",
+        "es": "El nuevo entrenador trajo un estilo muy distinto."
+      },
+      {
+        "en": "They threw a huge party to [usher in] the new year.",
+        "es": "Hicieron una fiesta enorme para recibir el año nuevo."
+      }
+    ]
+  },
+  {
+    "id": "pv-while-away",
+    "type": "phrasal",
+    "term": "while away",
+    "sense": "spend time in a relaxed way when you have nothing to do",
+    "ipa": "/waɪl əˈweɪ/",
+    "level": "C2",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "viajes"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "pasar (el rato) tranquilamente; matar el tiempo",
+    "def": "to spend time in a slow, relaxed way, especially when you have nothing to do",
+    "note": "Objeto de tiempo: while away the hours/afternoon. Suena algo literario; en conversación es más común 'kill time'.",
+    "syn": [
+      "kill time",
+      "pass the time"
+    ],
+    "errors_es": "Escribirlo 'wile away' es una variante aceptada, pero no confundir con 'while' de 'mientras'.",
+    "ex": [
+      {
+        "en": "We [whiled away] the afternoon on the dock.",
+        "es": "Nos pasamos la tarde tranquilos en el muelle."
+      },
+      {
+        "en": "He [whiles away] the hours doing crossword puzzles.",
+        "es": "Se le van las horas haciendo crucigramas."
+      },
+      {
+        "en": "There's not much to do but [while away] the time until the flight.",
+        "es": "No queda más que matar el tiempo hasta el vuelo."
+      }
+    ]
+  },
+  {
+    "id": "pv-trickle-down",
+    "type": "phrasal",
+    "term": "trickle down",
+    "sense": "slowly spread from the top of a group or system to those below",
+    "ipa": "/trɪkəl ˈdaʊn/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "analisis"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "llegar poco a poco (a los de abajo); filtrarse",
+    "def": "to slowly spread from the top of an organization or system to the people below",
+    "note": "Muy usado en economía y empresas: benefits trickle down to employees. Literal: escurrir gota a gota.",
+    "errors_es": "Decir 'drop down' o 'leak down'. Para algo que llega despacio a los de abajo: trickle down.",
+    "ex": [
+      {
+        "en": "Decisions take weeks to [trickle down] to the staff.",
+        "es": "Las decisiones tardan semanas en llegarle al personal."
+      },
+      {
+        "en": "The savings will eventually [trickle down] to customers.",
+        "es": "Con el tiempo, el ahorro les va a llegar a los clientes."
+      },
+      {
+        "en": "Fashion trends [trickle down] from the runway to the mall.",
+        "es": "Las tendencias bajan poco a poco de la pasarela a la plaza comercial."
+      }
+    ]
+  },
+  {
+    "id": "pv-worm-your-way-into",
+    "type": "phrasal",
+    "term": "worm your way into",
+    "sense": "slowly and cleverly gain someone's trust or a place, often dishonestly",
+    "ipa": "/wɝm jɚ ˈweɪ ˈɪntu/",
+    "level": "C2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ganarse con mañas (la confianza, el cariño o un lugar)",
+    "def": "to slowly and cleverly win someone's trust or a place in a group, often in a dishonest way",
+    "note": "Cambia el posesivo: wormed his way into. Tono negativo, pero en broma también: the puppy wormed his way into our hearts.",
+    "forms": "worm my/your/his/her way into · wormed … way into",
+    "errors_es": "Olvidar el posesivo: 'he wormed into her family'. Lo natural: he wormed his way into her family.",
+    "ex": [
+      {
+        "en": "He [wormed his way into] her family's business.",
+        "es": "Se metió con mañas en el negocio de la familia de ella."
+      },
+      {
+        "en": "That puppy totally [wormed his way into] my heart.",
+        "es": "Ese cachorro se ganó mi corazón sin que me diera cuenta."
+      },
+      {
+        "en": "She [wormed her way into] the boss's inner circle.",
+        "es": "Se coló con mañas al círculo cercano del jefe."
+      }
+    ]
+  },
+  {
+    "id": "pv-touch-off",
+    "type": "phrasal",
+    "term": "touch off",
+    "sense": "cause a sudden angry or violent reaction",
+    "ipa": "/tʌtʃ ˈɔf/",
+    "level": "C2",
+    "topic": "social",
+    "areas": [
+      "noticias"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "desatar; provocar (una reacción, un pleito, un incendio)",
+    "def": "to cause a sudden reaction, such as anger, a fight, or a fire",
+    "note": "Periodístico: touch off a fight / protests / a debate. Muy parecido a spark o set off.",
+    "syn": [
+      "set off",
+      "spark",
+      "trigger"
+    ],
+    "confuse": [
+      "touch on (mencionar de pasada)"
+    ],
+    "errors_es": "Confundirlo con 'touch on' (mencionar). 'Touch off' es provocar algo de golpe.",
+    "ex": [
+      {
+        "en": "One rude comment [touched off] a huge argument.",
+        "es": "Un comentario grosero desató un pleitazo."
+      },
+      {
+        "en": "The decision [touched off] protests across the country.",
+        "es": "La decisión desató protestas en todo el país."
+      },
+      {
+        "en": "A dropped cigarette [touched off] the fire.",
+        "es": "Una colilla tirada provocó el incendio."
+      }
+    ]
+  }
+]

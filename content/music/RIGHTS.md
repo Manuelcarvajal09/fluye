@@ -1,4 +1,4 @@
-# Música y rap: derechos y alcance
+# Música: derechos y alcance
 
 - **Todas las líneas de `exercises.json` son texto original** escrito para Fluye como material de ejercicio. No son letras de canciones, ni siquiera fragmentos, y no se parafrasean obras existentes.
 - **No hay audio comercial** ni grabaciones de terceros en el repositorio ni en la app.

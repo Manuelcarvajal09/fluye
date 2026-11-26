@@ -2,9 +2,12 @@
 import { useMemo, useState } from "react";
 import { ChevronDown, Info, Music2, Plus, Trash2 } from "lucide-react";
 import type { MusicExercise } from "@/lib/types";
+import { WordBank } from "./session/Exercises";
+import { SpeakPanel } from "./SpeakPanel";
 import { AudioButton } from "./ui";
 
 const STYLE: Record<MusicExercise["style"], string> = { "rap-battle": "Batalla de rap", "flirty-pop": "Pop coqueto", "pop-funk": "Pop / funk" };
+const GENRE: Record<string, string> = { pop: "Pop", "r&b": "R&B", rap: "Rap", indie: "Indie", electronic: "Electrónica", funk: "Funk", country: "Country", rock: "Rock", "latin-pop": "Pop latino" };
 const SKILL: Record<string, string> = { reductions: "Reducciones", linking: "Enlace de palabras", metaphor: "Metáforas", pun: "Juegos de palabras", sarcasm: "Sarcasmo", punchline: "Remates", delivery: "Cantado vs. hablado" };
 type Fragment = { id: string; text: string; note: string };
 
@@ -17,7 +20,7 @@ export function MusicPractice({ exercises, hiddenExplicit, initialFragments }: {
   const [frags, setFrags] = useState(initialFragments);
   const [text, setText] = useState("");
   const [note, setNote] = useState("");
-  const list = useMemo(() => exercises.filter((e) => style === "all" || e.style === style), [exercises, style]);
+  const list = useMemo(() => exercises.filter((e) => style === "all" || (e.genre ?? e.style) === style), [exercises, style]);
 
   async function saveFrags(next: Fragment[]) {
     setFrags(next);
@@ -28,12 +31,12 @@ export function MusicPractice({ exercises, hiddenExplicit, initialFragments }: {
     <div className="flex flex-col gap-6">
       <header>
         <h1 className="flex items-center gap-3 font-display text-4xl font-extrabold">
-          <Music2 size={34} className="text-accent" aria-hidden /> Música y rap
+          <Music2 size={34} className="text-accent" aria-hidden /> Música
         </h1>
         <p className="mt-1 max-w-prose text-muted">Reducciones como gonna o lemme, frases que se enlazan rápido, metáforas, juegos de palabras y sarcasmo. Todas las líneas son originales para practicar; no son letras de ningún artista.</p>
       </header>
-      <div className="seg self-start overflow-x-auto" role="tablist" aria-label="Estilo">
-        {[["all", "Todo"], ...Object.entries(STYLE)].map(([id, label]) => (
+      <div className="seg self-start overflow-x-auto" role="tablist" aria-label="Género">
+        {[["all", "Todos los géneros"], ...Object.entries(GENRE).filter(([g]) => exercises.some((e) => e.genre === g))].map(([id, label]) => (
           <button key={id} type="button" role="tab" aria-selected={style === id} onClick={() => setStyle(id)}>
             {label}
           </button>
@@ -48,12 +51,17 @@ export function MusicPractice({ exercises, hiddenExplicit, initialFragments }: {
         {list.map((e) => (
           <li key={e.id} className="module flex flex-col gap-3 p-5">
             <p className="flex flex-wrap gap-2 text-xs font-bold">
-              <span className="chip bg-accent-soft text-accent">{STYLE[e.style]}</span>
+              <span className="chip bg-accent-soft text-accent">{GENRE[e.genre ?? ""] ?? STYLE[e.style]}</span>
               <span className="chip">{SKILL[e.skill] ?? e.skill}</span>
               {e.confidence === "low" && <span className="chip bg-fire-soft text-fire">Sentido incierto</span>}
             </p>
             <h2 className="font-black">{e.title_es}</h2>
-            <blockquote className="rounded-[var(--r-md)] border-l-4 border-accent bg-surface-2 p-3 text-lg font-extrabold italic">{e.line}</blockquote>
+            <blockquote className="rounded-[var(--r-md)] border-l-4 border-accent bg-surface-2 p-3">
+              <span lang="en" className="block text-lg font-extrabold italic">
+                {e.line}
+              </span>
+              {e.es && <span className="mt-1 block text-sm font-bold text-muted">{e.es}</span>}
+            </blockquote>
             <div className="flex flex-wrap items-center gap-2 text-sm font-bold">
               <AudioButton text={e.line} size="sm" label="Escuchar la línea" /> La línea
               <AudioButton text={e.spoken} size="sm" slow label="Escuchar hablado y lento" /> Hablado, lento
@@ -71,7 +79,47 @@ export function MusicPractice({ exercises, hiddenExplicit, initialFragments }: {
                     <b>Reducciones:</b> {e.reductions.map((r) => `${r.sung} = ${r.full}`).join(" · ")}
                   </p>
                 )}
+                {e.literal_es && (
+                  <p>
+                    <b>Literal:</b> {e.literal_es}
+                  </p>
+                )}
+                {!!e.breakdown?.length && (
+                  <ul className="flex flex-col gap-1">
+                    {e.breakdown.map((b) => (
+                      <li key={b.text}>
+                        <b lang="en">{b.text}</b>: {b.es}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {e.linking_es && (
+                  <p>
+                    <b>Cómo suena:</b> {e.linking_es}
+                  </p>
+                )}
                 <p>{e.explain_es}</p>
+                {e.intent_es && (
+                  <p>
+                    <b>Intención:</b> {e.intent_es}
+                  </p>
+                )}
+                {e.usage_es && (
+                  <p>
+                    <b>En la vida diaria{e.register ? ` (${e.register})` : ""}:</b> {e.usage_es}
+                  </p>
+                )}
+                {e.examples?.map((x) => (
+                  <p key={x.en} className="flex items-start gap-2">
+                    <AudioButton text={x.en} size="sm" />
+                    <span>
+                      <span lang="en" className="font-bold">
+                        {x.en}
+                      </span>
+                      <span className="block text-muted">{x.es}</span>
+                    </span>
+                  </p>
+                ))}
                 {e.artistic_es && <p className="text-muted">Recurso artístico (no es un error): {e.artistic_es}</p>}
                 {e.transfer && (
                   <div className="rounded-[var(--r-sm)] bg-surface p-2">
@@ -85,6 +133,7 @@ export function MusicPractice({ exercises, hiddenExplicit, initialFragments }: {
                 )}
               </div>
             </details>
+            <MusicDrill line={e.spoken} />
           </li>
         ))}
       </ul>
@@ -131,6 +180,32 @@ export function MusicPractice({ exercises, hiddenExplicit, initialFragments }: {
           ))}
         </ul>
       </section>
+    </div>
+  );
+}
+
+/** Práctica de una línea: ordenarla con fichas (usa la versión hablada) o decirla en voz alta. */
+function MusicDrill({ line }: { line: string }) {
+  const [mode, setMode] = useState<null | "order" | "say">(null);
+  const [res, setRes] = useState<boolean | null>(null);
+  const [tiles] = useState(() => line.replace(/[.!?,]/g, "").split(/\s+/).sort(() => Math.random() - 0.5));
+  return (
+    <div className="flex flex-col gap-2">
+      <div className="flex flex-wrap gap-2">
+        <button type="button" className="chip-btn" aria-pressed={mode === "order"} onClick={() => (setMode(mode === "order" ? null : "order"), setRes(null))}>
+          Ordenar la frase
+        </button>
+        <button type="button" className="chip-btn" aria-pressed={mode === "say"} onClick={() => setMode(mode === "say" ? null : "say")}>
+          Decirla en voz alta
+        </button>
+      </div>
+      {mode === "order" && (
+        <>
+          <WordBank tiles={tiles} target={line} locked={res !== null} onDone={(r) => setRes(r.ok)} />
+          {res !== null && <p className={`text-sm font-black ${res ? "text-good" : "text-bad"}`}>{res ? "¡Bien ordenada!" : `Era: ${line}`}</p>}
+        </>
+      )}
+      {mode === "say" && <SpeakPanel target={line} onResult={() => setMode(null)} compact />}
     </div>
   );
 }

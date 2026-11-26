@@ -56,6 +56,8 @@ mkdirSync(out, { recursive: true });
 const write = (name, data) => writeFileSync(join(out, name), JSON.stringify(data));
 
 write("items.json", items);
+// Términos de 2–3 palabras → significado (para explicar confusiones en la retroalimentación oral; se carga bajo demanda).
+write("terms-es.json", Object.fromEntries(items.filter((i) => /^[a-z]+( [a-z]+){1,2}$/.test(i.term)).map((i) => [i.term, i.es.split(";")[0].trim()])));
 write("lessons.json", readDir(c("lessons")).sort((a, b) => a.order - b.order));
 write("sounds.json", json(c("sounds", "sounds.json")).sort((a, b) => a.order - b.order));
 write("prosody.json", json(c("sounds", "prosody.json")).sort((a, b) => a.order - b.order));
@@ -68,6 +70,9 @@ const sceneIds = new Set(scenes.map((s) => s.id));
 write("routes.json", readDir(c("routes")).map((r) => ({ ...r, scene: r.scene && sceneIds.has(r.scene) ? r.scene : sceneIds.has("scene-" + r.id) ? "scene-" + r.id : null })).sort((a, b) => a.id.localeCompare(b.id)));
 write("scenes.json", scenes);
 write("music.json", json(c("music", "exercises.json")));
+// Inglés de series: microescenas originales, de B1 a C2.
+const LV = ["A1", "A2", "B1", "B2", "C1", "C2"];
+write("series.json", (existsSync(c("series")) ? readDir(c("series")) : []).sort((a, b) => LV.indexOf(a.level) - LV.indexOf(b.level) || a.id.localeCompare(b.id)));
 write("tenses.json", json(c("grammar", "tenses.json")).sort((a, b) => a.order - b.order));
 
 const missingTv = tvList.filter((id) => !items.some((i) => i.id === id));

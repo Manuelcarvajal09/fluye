@@ -5,6 +5,9 @@ import { tipSay } from "@/lib/motivation";
 import { MyMascot, useLook } from "./Coach";
 import { Burst } from "./Burst";
 import { IcoStar } from "./Icons";
+import Link from "next/link";
+
+type Tip = { text: string; href?: string; cta?: string };
 
 /** Compañero de la tarjeta de meta: saluda según el contexto y, al tocarlo, salta y celebra. */
 export function HeroCoach({ say }: { say: Say; seed?: number }) {
@@ -21,10 +24,11 @@ export function HeroCoach({ say }: { say: Say; seed?: number }) {
 }
 
 /** Consejo del compañero: empieza con el saludo del día y da otro consejo al pedirlo. */
-export function CoachTip({ seed, say }: { seed: number; say?: Say }) {
+export function CoachTip({ seed, say, tips = [] }: { seed: number; say?: Say; tips?: Tip[] }) {
   const look = useLook();
   const [n, setN] = useState(0);
-  const shown = n === 0 && say ? say : tipSay(seed + n);
+  // Primero los consejos calculados con tus datos; después, el saludo y consejos generales.
+  const shown: Tip = n < tips.length ? tips[n] : n === tips.length && say ? say : tipSay(seed + n);
   return (
     <section className="tip-card" aria-live="polite">
       <span className="mt-0.5 shrink-0">
@@ -35,6 +39,11 @@ export function CoachTip({ seed, say }: { seed: number; say?: Say }) {
         <p key={n} className="fade-up mt-1 text-sm leading-relaxed">
           {shown.text}
         </p>
+        {shown.href && (
+          <Link href={shown.href} className="mt-2 inline-block text-sm font-black text-brand-ink underline underline-offset-4">
+            {shown.cta ?? "Ir"}
+          </Link>
+        )}
         <button type="button" onClick={() => setN((x) => x + 1)} className="mt-2 text-sm font-extrabold text-accent underline-offset-4 hover:underline">
           Otro consejo
         </button>

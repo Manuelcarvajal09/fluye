@@ -7,7 +7,7 @@ import { clipKey } from "./key";
 import { DEFAULT_HD, resolveVoice } from "./voices";
 
 export type TtsPrefs = { engine?: "hd" | "device"; hdVoice?: string; voice?: string; rate?: number; accent?: "en-US" | "en-CA"; autoplay?: boolean };
-export type SpeakOpts = { rate?: number; speaker?: string; partner?: boolean };
+export type SpeakOpts = { rate?: number; speaker?: string; partner?: boolean; gender?: "f" | "m" };
 
 let prefs: TtsPrefs = {};
 export const setTtsPrefs = (p: TtsPrefs) => {
@@ -79,7 +79,7 @@ async function clipBlob(voice: string, text: string): Promise<Blob | null> {
 /** Descarga por adelantado los clips que se van a necesitar. */
 export function prefetchClips(texts: string[], opts: SpeakOpts = {}) {
   if (prefs.engine === "device") return;
-  const voice = resolveVoice({ main: mainVoice(), speaker: opts.speaker, partner: opts.partner });
+  const voice = resolveVoice({ main: mainVoice(), speaker: opts.speaker, partner: opts.partner, gender: opts.gender });
   for (const t of texts.slice(0, 12)) void clipBlob(voice, t);
 }
 
@@ -153,7 +153,7 @@ export async function speak(text: string, opts: SpeakOpts = {}): Promise<void> {
   stopCurrent();
   const rate = (prefs.rate ?? 1) * (opts.rate ?? 1);
   if (prefs.engine !== "device") {
-    const voice = resolveVoice({ main: mainVoice(), speaker: opts.speaker, partner: opts.partner });
+    const voice = resolveVoice({ main: mainVoice(), speaker: opts.speaker, partner: opts.partner, gender: opts.gender });
     const b = await clipBlob(voice, text);
     if (typeof window !== "undefined") window.dispatchEvent(new CustomEvent("fluye:voice", { detail: { fallback: !b } }));
     if (b) return playBlob(b, Math.max(0.5, Math.min(1.5, rate)));
@@ -163,7 +163,7 @@ export async function speak(text: string, opts: SpeakOpts = {}): Promise<void> {
 
 let seqToken = 0;
 /** Reproduce varias líneas una tras otra con una pausa entre cada una (para distinguir a quien habla). */
-export async function speakSequence(lines: { text: string; speaker?: string; partner?: boolean; rate?: number }[], opts: { gap?: number; onLine?: (i: number | null) => void } = {}) {
+export async function speakSequence(lines: { text: string; speaker?: string; partner?: boolean; gender?: "f" | "m"; rate?: number }[], opts: { gap?: number; onLine?: (i: number | null) => void } = {}) {
   const token = ++seqToken;
   for (let i = 0; i < lines.length; i++) {
     if (token !== seqToken) return;

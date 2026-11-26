@@ -1,0 +1,3561 @@
+[
+  {
+    "id": "pv-read-out",
+    "type": "phrasal",
+    "term": "read out",
+    "sense": "read something aloud so others can hear",
+    "ipa": "/ˈrid ˈaʊt/",
+    "level": "B1",
+    "topic": "study",
+    "areas": [
+      "reuniones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "leer en voz alta (para otros)",
+    "def": "to say written words aloud so that other people can hear them",
+    "note": "Separable: read it out. En plática se dice mucho 'read it out loud'; 'read out' suena a anunciar en público (nombres, resultados, un veredicto).",
+    "syn": [
+      "read aloud"
+    ],
+    "confuse": [
+      "read through (leer completo)"
+    ],
+    "errors_es": "Decir 'read in loud voice'. Confundirlo con 'read through' (leer completo para ti).",
+    "ex": [
+      {
+        "en": "The teacher [read out] the names of the winners.",
+        "es": "La maestra leyó en voz alta los nombres de los ganadores."
+      },
+      {
+        "en": "Can you [read it out] for the people in the back?",
+        "es": "¿Lo puedes leer en voz alta para los de atrás?"
+      },
+      {
+        "en": "She was [reading out] the verdict when he started crying.",
+        "es": "Ella estaba leyendo el veredicto cuando él se soltó a llorar."
+      }
+    ]
+  },
+  {
+    "id": "pv-rest-up",
+    "type": "phrasal",
+    "term": "rest up",
+    "sense": "rest a lot to recover or get ready for something",
+    "ipa": "/ˈrɛst ˈʌp/",
+    "level": "B1",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "descansar bien (para reponerse o prepararse)",
+    "def": "to rest a lot so you get better or have energy for something later",
+    "note": "Muy de EE. UU. y Canadá, sobre todo en imperativo: Rest up! = descansa y recupérate. También 'rest up for' algo.",
+    "errors_es": "Usarlo para un descanso de un minuto: implica descansar bastante. Decir 'rest yourself up'.",
+    "ex": [
+      {
+        "en": "Go home and [rest up], you look exhausted.",
+        "es": "Vete a tu casa a descansar, te ves agotado."
+      },
+      {
+        "en": "We're [resting up] before the big road trip.",
+        "es": "Estamos descansando bien antes del viajesote en carretera."
+      },
+      {
+        "en": "The doctor told him to [rest up] for a week.",
+        "es": "El doctor le dijo que descansara una semana."
+      }
+    ]
+  },
+  {
+    "id": "pv-rush-off",
+    "type": "phrasal",
+    "term": "rush off",
+    "sense": "leave somewhere in a hurry",
+    "ipa": "/ˈrʌʃ ˈɔf/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "irse corriendo; salir con prisa",
+    "def": "to leave a place very quickly, usually because you are busy",
+    "note": "Muy común como disculpa al despedirse: Sorry to rush off. Con destino: rush off to work.",
+    "confuse": [
+      "rush into (precipitarse a)"
+    ],
+    "errors_es": "Decir 'I go rushing' para despedirse. Confundirlo con 'rush into' (precipitarse a una decisión).",
+    "ex": [
+      {
+        "en": "Sorry to [rush off], I've got a meeting at three.",
+        "es": "Perdón por irme corriendo, tengo junta a las tres."
+      },
+      {
+        "en": "She [rushed off] before I could thank her.",
+        "es": "Se fue con prisa antes de que pudiera darle las gracias."
+      },
+      {
+        "en": "Don't [rush off], stay for dessert!",
+        "es": "No te vayas tan rápido, ¡quédate al postre!"
+      }
+    ]
+  },
+  {
+    "id": "pv-run-around",
+    "type": "phrasal",
+    "term": "run around",
+    "sense": "be very busy going from place to place doing tasks",
+    "ipa": "/ˈrʌn əˈraʊnd/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "andar de un lado a otro; andar a las carreras",
+    "def": "to be very busy going to many places to do many small jobs",
+    "note": "'Run around with' = juntarse con cierta gente. 'Give someone the runaround' = traer a alguien a vueltas sin darle respuesta.",
+    "forms": "run around · ran around · running around · runaround (sustantivo: give someone the runaround)",
+    "errors_es": "Traducirlo solo como 'correr alrededor' y perder el sentido de andar ocupadísimo con pendientes.",
+    "ex": [
+      {
+        "en": "I've been [running around] all day doing errands.",
+        "es": "Llevo todo el día de un lado a otro haciendo pendientes."
+      },
+      {
+        "en": "Stop [running around] and sit down for a minute.",
+        "es": "Deja de andar a las carreras y siéntate un minuto."
+      },
+      {
+        "en": "She [runs around] after three kids every morning.",
+        "es": "Ella anda a las carreras con tres niños cada mañana."
+      }
+    ]
+  },
+  {
+    "id": "pv-refer-to",
+    "type": "phrasal",
+    "term": "refer to",
+    "sense": "mention or talk about someone or something",
+    "ipa": "/rɪˈfɝ tu/",
+    "level": "B1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "noticias"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "referirse a; mencionar",
+    "def": "to mention or speak about someone or something",
+    "note": "Inseparable: refer to it. Otro uso: consultar (refer to the manual). Pasado con doble r: referred.",
+    "errors_es": "Decir 'refer about' o 'refer of'. Escribir 'refered' con una sola r.",
+    "ex": [
+      {
+        "en": "Who were you [referring to] in that email?",
+        "es": "¿A quién te referías en ese correo?"
+      },
+      {
+        "en": "He never [refers to] his ex by name.",
+        "es": "Nunca menciona a su ex por su nombre."
+      },
+      {
+        "en": "I'm [referring to] the budget, not the schedule.",
+        "es": "Me refiero al presupuesto, no al calendario."
+      }
+    ]
+  },
+  {
+    "id": "pv-result-in",
+    "type": "phrasal",
+    "term": "result in",
+    "sense": "cause a particular effect or situation",
+    "ipa": "/rɪˈzʌlt ɪn/",
+    "level": "B1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "analisis"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "provocar; tener como resultado",
+    "def": "to cause a particular situation or effect to happen",
+    "note": "Ojo con la dirección: result in = la causa lleva al efecto; result from = el efecto viene de la causa. Inseparable.",
+    "syn": [
+      "lead to",
+      "cause"
+    ],
+    "confuse": [
+      "result from (ser consecuencia de)"
+    ],
+    "errors_es": "Decir 'result on' o 'result into'. Invertir causa y efecto al confundirlo con 'result from'.",
+    "ex": [
+      {
+        "en": "The crash [resulted in] two-hour delays on the highway.",
+        "es": "El choque provocó retrasos de dos horas en la autopista."
+      },
+      {
+        "en": "Skipping tests could [result in] a lot of bugs.",
+        "es": "Saltarse las pruebas podría provocar un montón de errores."
+      },
+      {
+        "en": "One angry post [resulted in] him losing his job.",
+        "es": "Una publicación enojada terminó con él perdiendo su trabajo."
+      }
+    ]
+  },
+  {
+    "id": "pv-roll-over",
+    "type": "phrasal",
+    "term": "roll over",
+    "sense": "turn your body to lie on the other side",
+    "ipa": "/ˈroʊl ˈoʊvɚ/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "darse la vuelta; voltearse (acostado)",
+    "def": "to turn your body so you are lying on your other side, back or front",
+    "note": "También es la orden a un perro: Roll over! = ¡Rueda! 'Roll over' sin pelear es otro sentido (roll over, 2).",
+    "confuse": [
+      "run over (atropellar)"
+    ],
+    "errors_es": "Decir 'turn me around' en la cama. Confundirlo con 'run over' (atropellar).",
+    "ex": [
+      {
+        "en": "He [rolled over] and went back to sleep.",
+        "es": "Se dio la vuelta y se volvió a dormir."
+      },
+      {
+        "en": "Can you [roll over]? You're snoring again.",
+        "es": "¿Te volteas? Estás roncando otra vez."
+      },
+      {
+        "en": "The baby just learned to [roll over]!",
+        "es": "¡El bebé acaba de aprender a darse la vuelta!"
+      }
+    ]
+  },
+  {
+    "id": "pv-roll-in",
+    "type": "phrasal",
+    "term": "roll in",
+    "sense": "arrive casually, often late",
+    "ipa": "/ˈroʊl ˈɪn/",
+    "level": "B1",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "llegar (tarde y como si nada)",
+    "def": "to arrive somewhere in a relaxed way, often late and not worried about it",
+    "note": "Informal. Da idea de llegar sin prisa: He rolled in at noon. Con dinero o quejas es otro sentido (roll in, 2).",
+    "errors_es": "Pensar que significa 'entrar rodando'. Usarlo en un contexto formal.",
+    "ex": [
+      {
+        "en": "He [rolled in] at eleven like nothing happened.",
+        "es": "Llegó a las once como si nada."
+      },
+      {
+        "en": "What time did you [roll in] last night?",
+        "es": "¿A qué hora llegaste anoche?"
+      },
+      {
+        "en": "The guests started [rolling in] around eight.",
+        "es": "Los invitados empezaron a llegar como a las ocho."
+      }
+    ]
+  },
+  {
+    "id": "pv-run-down",
+    "type": "phrasal",
+    "term": "run down",
+    "sense": "lose power (a battery), or make it lose power",
+    "ipa": "/ˈrʌn ˈdaʊn/",
+    "level": "B1",
+    "topic": "tech",
+    "areas": [
+      "conversacion",
+      "soporte"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "descargarse; agotar (la pila, la batería)",
+    "def": "to lose power, or to make a battery lose its power",
+    "note": "Separable: That app runs the battery down. El adjetivo run-down = agotado o deteriorado: I feel run-down.",
+    "confuse": [
+      "run out (acabarse)",
+      "run over (atropellar)"
+    ],
+    "errors_es": "Decir 'the battery finished'. Confundirlo con 'run out' (acabarse algo en general).",
+    "ex": [
+      {
+        "en": "Turn off the GPS or it'll [run down] your battery.",
+        "es": "Apaga el GPS o te va a descargar la batería."
+      },
+      {
+        "en": "My phone [ran down] in the middle of the call.",
+        "es": "Se me descargó el celular a media llamada."
+      },
+      {
+        "en": "Leaving the lights on [ran the battery down].",
+        "es": "Dejar las luces prendidas descargó la batería."
+      }
+    ]
+  },
+  {
+    "id": "pv-stay-on",
+    "type": "phrasal",
+    "term": "stay on",
+    "sense": "continue in a job or place longer than planned",
+    "ipa": "/ˈsteɪ ˈɑn/",
+    "level": "B1",
+    "topic": "work",
+    "areas": [
+      "entrevistas",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "quedarse (más tiempo en un trabajo o lugar)",
+    "def": "to continue in a job, school or place after others leave or longer than planned",
+    "note": "Stay on as = seguir en el puesto de. Stay on the line = no colgar el teléfono.",
+    "confuse": [
+      "stay in (quedarse en casa)"
+    ],
+    "errors_es": "Decir 'keep staying'. Confundirlo con 'stay in' (quedarse en casa sin salir).",
+    "ex": [
+      {
+        "en": "She agreed to [stay on] until they hire someone.",
+        "es": "Aceptó quedarse hasta que contraten a alguien."
+      },
+      {
+        "en": "He [stayed on] as coach for two more seasons.",
+        "es": "Siguió como entrenador dos temporadas más."
+      },
+      {
+        "en": "Please [stay on] the line, an agent will help you.",
+        "es": "Por favor no cuelgue, un agente le atenderá."
+      }
+    ]
+  },
+  {
+    "id": "pv-stop-over",
+    "type": "phrasal",
+    "term": "stop over",
+    "sense": "stay somewhere briefly during a long trip",
+    "ipa": "/ˈstɑp ˈoʊvɚ/",
+    "level": "B1",
+    "topic": "travel",
+    "areas": [
+      "viajes",
+      "transporte"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "hacer escala; quedarse de paso",
+    "def": "to stay in a place for a short time, often one night, during a long trip",
+    "note": "Stopover suele implicar quedarse horas o una noche; para escalas cortas en aeropuerto en EE. UU. se dice más 'layover'.",
+    "forms": "stop over · stopped over · stopping over · stopover (sustantivo: escala)",
+    "confuse": [
+      "stop by (pasar un rato)",
+      "layover (escala corta)"
+    ],
+    "errors_es": "Escribir 'stopover' junto como verbo (es el sustantivo). Confundirlo con 'stop by' (pasar un rato a un lugar).",
+    "ex": [
+      {
+        "en": "We're [stopping over] in Vancouver on the way to Tokyo.",
+        "es": "Vamos a hacer escala en Vancouver camino a Tokio."
+      },
+      {
+        "en": "They [stopped over] in Chicago for one night.",
+        "es": "Se quedaron de paso una noche en Chicago."
+      },
+      {
+        "en": "If we [stop over] in Denver, we can see the city.",
+        "es": "Si hacemos escala en Denver, podemos conocer la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "pv-snuggle-up",
+    "type": "phrasal",
+    "term": "snuggle up",
+    "sense": "get into a warm, comfortable position close to someone",
+    "ipa": "/ˈsnʌɡəl ˈʌp/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "acurrucarse",
+    "def": "to lie or sit very close to someone or under a blanket to feel warm and comfortable",
+    "note": "'Snuggle up to/with' alguien o algo. Muy de invierno en Canadá: snuggle up with a blanket and hot chocolate.",
+    "syn": [
+      "cuddle"
+    ],
+    "errors_es": "Pensar que solo se usa con la pareja (también con niños, mascotas, cobijas). Decir 'snuggle me' como 'acurrúcame'.",
+    "ex": [
+      {
+        "en": "Let's [snuggle up] on the couch and watch a movie.",
+        "es": "Vamos a acurrucarnos en el sillón a ver una película."
+      },
+      {
+        "en": "The kids [snuggled up] under a huge blanket.",
+        "es": "Los niños se acurrucaron bajo una cobija enorme."
+      },
+      {
+        "en": "The cat [snuggled up] next to me all night.",
+        "es": "El gato se acurrucó junto a mí toda la noche."
+      }
+    ]
+  },
+  {
+    "id": "pv-slip-into",
+    "type": "phrasal",
+    "term": "slip into",
+    "sense": "put on clothes quickly and easily",
+    "ipa": "/ˈslɪp ˈɪntu/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ponerse (ropa) rápido",
+    "def": "to put on a piece of clothing quickly and easily",
+    "note": "Contrario: slip out of = quitarse. 'Let me slip into something more comfortable' es frase muy de series.",
+    "errors_es": "Decir 'put into a dress'. Confundirlo con 'slip in' (colarse o entrar sin que lo noten).",
+    "ex": [
+      {
+        "en": "Let me [slip into] something more comfortable.",
+        "es": "Déjame ponerme algo más cómodo."
+      },
+      {
+        "en": "She [slipped into] her jeans and ran out.",
+        "es": "Se puso los jeans rápido y salió corriendo."
+      },
+      {
+        "en": "He [slipped into] his work boots by the door.",
+        "es": "Se puso las botas de trabajo junto a la puerta."
+      }
+    ]
+  },
+  {
+    "id": "pv-quit-on",
+    "type": "phrasal",
+    "term": "quit on",
+    "sense": "stop supporting someone who depends on you; stop working (a machine)",
+    "ipa": "/ˈkwɪt ˈɑn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "abandonar; dejar tirado (a quien cuenta contigo)",
+    "def": "to stop helping or supporting someone who needs you, or to stop working suddenly",
+    "note": "Muy de series médicas y deportivas: Don't you quit on me! Con máquinas: My car quit on me = se me murió el carro.",
+    "confuse": [
+      "run out on (abandonar yéndose)",
+      "give up on (perder la fe en)"
+    ],
+    "errors_es": "Decir 'quit me' sin 'on'. Confundirlo con 'run out on' (irse y abandonar a alguien) o 'give up on' (perder la fe en).",
+    "ex": [
+      {
+        "en": "Come on, stay with me, don't [quit on] me now!",
+        "es": "¡Vamos, aguanta, no me abandones ahora!"
+      },
+      {
+        "en": "My laptop [quit on] me right before the deadline.",
+        "es": "Se me murió la laptop justo antes de la entrega."
+      },
+      {
+        "en": "You can't just [quit on] the team mid-season.",
+        "es": "No puedes dejar tirado al equipo a media temporada."
+      }
+    ]
+  },
+  {
+    "id": "pv-rake-in",
+    "type": "phrasal",
+    "term": "rake in",
+    "sense": "earn a lot of money, often easily",
+    "ipa": "/ˈreɪk ˈɪn/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "noticias",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "ganar un dineral; embolsarse",
+    "def": "to earn a large amount of money, often without much effort",
+    "note": "Separable con pronombre: they're raking it in. Informal y muy frecuente en noticias de negocios y espectáculos.",
+    "syn": [
+      "make a killing"
+    ],
+    "errors_es": "Traducirlo como 'rastrillar'. Usarlo para cantidades pequeñas.",
+    "ex": [
+      {
+        "en": "That food truck is [raking in] cash every weekend.",
+        "es": "Ese food truck está ganando un dineral cada fin de semana."
+      },
+      {
+        "en": "The movie [raked in] millions on opening night.",
+        "es": "La película se embolsó millones la noche del estreno."
+      },
+      {
+        "en": "Since the app went viral, they're [raking it in].",
+        "es": "Desde que la app se hizo viral, están ganando un dineral."
+      }
+    ]
+  },
+  {
+    "id": "pv-ride-on",
+    "type": "phrasal",
+    "term": "ride on",
+    "sense": "depend on something; be at stake",
+    "ipa": "/ˈraɪd ˈɑn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "depender de (algo importante); estar en juego",
+    "def": "to depend on something, so that a lot will be lost if it fails",
+    "note": "Casi siempre: a lot / everything is riding on this. Transmite presión: lo que está en juego.",
+    "errors_es": "Traducirlo literal como 'montar sobre'. Decir solo 'depends on' cuando quieres transmitir lo que está en juego.",
+    "ex": [
+      {
+        "en": "Everything is [riding on] this presentation, no pressure.",
+        "es": "Todo depende de esta presentación, sin presión."
+      },
+      {
+        "en": "My whole career is [riding on] this case.",
+        "es": "Toda mi carrera está en juego con este caso."
+      },
+      {
+        "en": "Don't mess this up, a lot is [riding on] it.",
+        "es": "No la riegues, hay mucho en juego."
+      }
+    ]
+  },
+  {
+    "id": "pv-roll-in-2",
+    "type": "phrasal",
+    "term": "roll in",
+    "sense": "arrive in large amounts (money, orders, complaints)",
+    "ipa": "/ˈroʊl ˈɪn/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "noticias",
+      "soporte"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "llover; llegar a montones (dinero, pedidos, quejas)",
+    "def": "to arrive in large numbers or amounts, little by little",
+    "note": "Normal con progresivo: The money is rolling in. Distinto de 'roll in' = llegar tarde y como si nada.",
+    "syn": [
+      "pour in",
+      "flood in"
+    ],
+    "errors_es": "Pensar que solo se usa con personas. Decir 'arrive rolling'.",
+    "ex": [
+      {
+        "en": "After the ad aired, orders started [rolling in].",
+        "es": "Después de que salió el anuncio, empezaron a llover pedidos."
+      },
+      {
+        "en": "Complaints [rolled in] all morning after the outage.",
+        "es": "Llegaron quejas toda la mañana después de la caída del servicio."
+      },
+      {
+        "en": "Once the business took off, the money [rolled in].",
+        "es": "Cuando despegó el negocio, el dinero llegó a montones."
+      }
+    ]
+  },
+  {
+    "id": "pv-round-up-2",
+    "type": "phrasal",
+    "term": "round up",
+    "sense": "gather people or animals together; arrest a group",
+    "ipa": "/ˈraʊnd ˈʌp/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "reunir; juntar (gente, animales); detener a varios",
+    "def": "to bring people or animals together in one place, or to arrest a group of people",
+    "note": "Separable: round them up. Sustantivo: roundup = resumen de noticias. Distinto de redondear una cifra (round up).",
+    "forms": "round up · rounded up · roundup (sustantivo: resumen; redada)",
+    "errors_es": "Usarlo solo con números. Escribir 'round-up' con guion cuando es verbo.",
+    "ex": [
+      {
+        "en": "Can you [round up] the kids? Dinner's ready.",
+        "es": "¿Puedes juntar a los niños? Ya está la cena."
+      },
+      {
+        "en": "Police [rounded up] a dozen suspects overnight.",
+        "es": "La policía detuvo a una docena de sospechosos durante la noche."
+      },
+      {
+        "en": "Let me [round everyone up] for the group photo.",
+        "es": "Déjame reunir a todos para la foto grupal."
+      }
+    ]
+  },
+  {
+    "id": "pv-run-off-with",
+    "type": "phrasal",
+    "term": "run off with",
+    "sense": "leave secretly with a lover, or leave with something stolen",
+    "ipa": "/ˈrʌn ˈɔf wɪθ/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "fugarse con; largarse con (alguien o algo robado)",
+    "def": "to leave suddenly and secretly with a lover, or to steal something and leave",
+    "note": "Pura telenovela: She ran off with her trainer. También con dinero: He ran off with the money.",
+    "confuse": [
+      "run off (irse corriendo)"
+    ],
+    "errors_es": "Confundirlo con 'run off' solo (irse corriendo). Decir 'escape with' para parejas.",
+    "ex": [
+      {
+        "en": "His wife [ran off with] the neighbor.",
+        "es": "Su esposa se fugó con el vecino."
+      },
+      {
+        "en": "The treasurer [ran off with] all the club's money.",
+        "es": "El tesorero se largó con todo el dinero del club."
+      },
+      {
+        "en": "Someone [ran off with] my umbrella again.",
+        "es": "Alguien se volvió a llevar mi paraguas."
+      }
+    ]
+  },
+  {
+    "id": "pv-reason-with",
+    "type": "phrasal",
+    "term": "reason with",
+    "sense": "try to persuade someone with calm, logical arguments",
+    "ipa": "/ˈrizən wɪθ/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "hacer entrar en razón a; razonar con",
+    "def": "to try to persuade someone by explaining things calmly and logically",
+    "note": "Muy común en negativo: There's no reasoning with him = no hay manera de hacerlo entrar en razón.",
+    "confuse": [
+      "argue with (discutir con)"
+    ],
+    "errors_es": "Decir 'make him reason'. Confundirlo con 'argue with' (discutir).",
+    "ex": [
+      {
+        "en": "I tried to [reason with] her, but she wouldn't listen.",
+        "es": "Traté de hacerla entrar en razón, pero no quiso escuchar."
+      },
+      {
+        "en": "You can't [reason with] a toddler at bedtime.",
+        "es": "No puedes razonar con un niño chiquito a la hora de dormir."
+      },
+      {
+        "en": "Let me [reason with] him before you call the cops.",
+        "es": "Déjame hablar con él antes de que llames a la policía."
+      }
+    ]
+  },
+  {
+    "id": "pv-revolve-around",
+    "type": "phrasal",
+    "term": "revolve around",
+    "sense": "have someone or something as the main focus",
+    "ipa": "/rɪˈvɑlv əˈraʊnd/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "girar en torno a; centrarse en",
+    "def": "to have one person or thing as the main subject, interest or focus",
+    "note": "Frase típica de reproche: The world doesn't revolve around you. Inseparable.",
+    "syn": [
+      "center on"
+    ],
+    "errors_es": "Decir 'revolve about'. Pensar que solo tiene sentido físico (planetas).",
+    "ex": [
+      {
+        "en": "Not everything [revolves around] you, you know.",
+        "es": "No todo gira en torno a ti, ¿sabes?"
+      },
+      {
+        "en": "Her whole life [revolves around] her kids.",
+        "es": "Toda su vida gira en torno a sus hijos."
+      },
+      {
+        "en": "The show [revolves around] a family of con artists.",
+        "es": "La serie se centra en una familia de estafadores."
+      }
+    ]
+  },
+  {
+    "id": "pv-ring-in",
+    "type": "phrasal",
+    "term": "ring in",
+    "sense": "celebrate the start of something, especially a new year",
+    "ipa": "/ˈrɪŋ ˈɪn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "canada"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "recibir (el Año Nuevo); celebrar la llegada de",
+    "def": "to celebrate the beginning of something, especially a new year",
+    "note": "Casi siempre con the New Year. En EE. UU. y Canadá también se 'ring in' un cumpleaños importante o una temporada.",
+    "errors_es": "Traducirlo como 'tocar el timbre'. Decir 'receive the new year'.",
+    "ex": [
+      {
+        "en": "Where are you [ringing in] the New Year?",
+        "es": "¿Dónde vas a recibir el Año Nuevo?"
+      },
+      {
+        "en": "We [rang in] the new year on a frozen lake.",
+        "es": "Recibimos el año nuevo en un lago congelado."
+      },
+      {
+        "en": "They [rang in] her fiftieth with a surprise party.",
+        "es": "Celebraron sus cincuenta con una fiesta sorpresa."
+      }
+    ]
+  },
+  {
+    "id": "pv-roll-with",
+    "type": "phrasal",
+    "term": "roll with",
+    "sense": "accept and adapt to something unexpected",
+    "ipa": "/ˈroʊl wɪθ/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "informal"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "adaptarse; dejarse llevar (con lo que venga)",
+    "def": "to accept a situation, especially a surprise, and deal with it calmly",
+    "note": "Frases fijas: roll with it, roll with the punches. En slang, 'I roll with them' = me junto con ellos.",
+    "syn": [
+      "go with the flow"
+    ],
+    "errors_es": "Traducirlo literal como 'rodar con'. Usarlo en un contexto formal.",
+    "ex": [
+      {
+        "en": "Plans changed, so we just [rolled with] it.",
+        "es": "Cambiaron los planes, así que nos adaptamos."
+      },
+      {
+        "en": "You have to [roll with] the punches in this job.",
+        "es": "En este trabajo tienes que aguantar lo que venga."
+      },
+      {
+        "en": "Weird idea, but okay, I'll [roll with] it.",
+        "es": "Idea rara, pero va, me dejo llevar."
+      }
+    ]
+  },
+  {
+    "id": "pv-sail-through",
+    "type": "phrasal",
+    "term": "sail through",
+    "sense": "succeed easily at something, especially a test",
+    "ipa": "/ˈseɪl ˈθru/",
+    "level": "B2",
+    "topic": "study",
+    "areas": [
+      "entrevistas",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pasar sin problemas; aprobar con facilidad",
+    "def": "to succeed very easily, especially in an exam, test or interview",
+    "note": "Con exámenes, entrevistas, incluso cirugías: She sailed through the surgery. Inseparable.",
+    "syn": [
+      "breeze through"
+    ],
+    "errors_es": "Traducirlo literal como 'navegar a través'. Decir 'pass easy' en vez de 'pass easily'.",
+    "ex": [
+      {
+        "en": "She [sailed through] her citizenship test.",
+        "es": "Pasó su examen de ciudadanía sin ningún problema."
+      },
+      {
+        "en": "He [sailed through] the interview and got the job.",
+        "es": "Pasó la entrevista sin problemas y le dieron el trabajo."
+      },
+      {
+        "en": "Relax, you'll [sail through] your driving test.",
+        "es": "Tranquilo, vas a pasar tu examen de manejo fácil."
+      }
+    ]
+  },
+  {
+    "id": "pv-see-about",
+    "type": "phrasal",
+    "term": "see about",
+    "sense": "deal with or arrange something; (we'll see about that) doubt or challenge it",
+    "ipa": "/ˈsi əˈbaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "encargarse de; ver lo de; (eso ya lo veremos)",
+    "def": "to deal with or arrange something; in 'we'll see about that', to say you will try to stop it",
+    "note": "'We'll see about that!' = ¡Eso ya lo veremos! (desafío). Neutral: I'll see about getting tickets = veré lo de los boletos.",
+    "errors_es": "Traducirlo literal como 'ver acerca de'. No captar el tono de amenaza en 'we'll see about that'.",
+    "ex": [
+      {
+        "en": "You think you're getting the house? We'll [see about] that.",
+        "es": "¿Crees que te vas a quedar con la casa? Eso ya lo veremos."
+      },
+      {
+        "en": "I'll [see about] getting us a table.",
+        "es": "Voy a ver lo de conseguirnos una mesa."
+      },
+      {
+        "en": "She went to [see about] the leak upstairs.",
+        "es": "Fue a ver lo de la gotera de arriba."
+      }
+    ]
+  },
+  {
+    "id": "pv-see-out",
+    "type": "phrasal",
+    "term": "see out",
+    "sense": "walk a visitor to the door when they leave",
+    "ipa": "/ˈsi ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "acompañar a la salida",
+    "def": "to walk with a visitor to the door or exit when they are leaving",
+    "note": "Clásico de series: I'll see myself out = ya me voy solo (a veces con sarcasmo tras un mal chiste o una escena incómoda).",
+    "confuse": [
+      "see off (despedir en el aeropuerto o la estación)"
+    ],
+    "errors_es": "Decir 'I'll go out myself'. Confundirlo con 'see off' (despedir a alguien que se va de viaje).",
+    "ex": [
+      {
+        "en": "Thanks for coming, my assistant will [see you out].",
+        "es": "Gracias por venir, mi asistente lo acompaña a la salida."
+      },
+      {
+        "en": "Okay, bad joke. I'll [see myself out].",
+        "es": "Bueno, mal chiste. Ya me voy solito."
+      },
+      {
+        "en": "Let me [see you out], the gate sticks.",
+        "es": "Déjame acompañarte a la salida, el portón se atora."
+      }
+    ]
+  },
+  {
+    "id": "pv-sell-on",
+    "type": "phrasal",
+    "term": "sell on",
+    "sense": "convince someone that an idea or plan is good",
+    "ipa": "/ˈsɛl ˈɑn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "crm"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "convencer de (una idea); venderle la idea a",
+    "def": "to persuade someone that an idea, plan or product is good",
+    "note": "Patrón: sell someone on something. La pasiva es muy común: I'm not sold on it = no me convence.",
+    "confuse": [
+      "sell off (liquidar)"
+    ],
+    "errors_es": "Decir 'sell me the idea of' cuando lo natural es 'sell me on'. Confundirlo con 'sell off' (liquidar).",
+    "ex": [
+      {
+        "en": "It took a while, but I [sold her on] the road trip.",
+        "es": "Me tomó tiempo, pero la convencí del viaje en carretera."
+      },
+      {
+        "en": "I'm still not [sold on] this new logo.",
+        "es": "Todavía no me convence este logo nuevo."
+      },
+      {
+        "en": "You'll have to [sell the team on] working weekends.",
+        "es": "Vas a tener que convencer al equipo de trabajar los fines."
+      }
+    ]
+  },
+  {
+    "id": "pv-shoot-up",
+    "type": "phrasal",
+    "term": "shoot up",
+    "sense": "increase or grow very quickly",
+    "ipa": "/ˈʃut ˈʌp/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "noticias",
+      "datos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "dispararse; subir de golpe; pegar el estirón",
+    "def": "to rise or grow very quickly, like prices, numbers or a child's height",
+    "note": "Con precios, cifras, fiebre: Prices shot up. Con niños: He shot up over the summer. En slang también = inyectarse drogas.",
+    "syn": [
+      "skyrocket",
+      "soar"
+    ],
+    "confuse": [
+      "shut up (callarse)"
+    ],
+    "errors_es": "Confundirlo con 'shut up' (callarse) por la pronunciación. Usar 'grow up' para un estirón.",
+    "ex": [
+      {
+        "en": "Rent has [shot up] in Toronto since last year.",
+        "es": "La renta se ha disparado en Toronto desde el año pasado."
+      },
+      {
+        "en": "His fever [shot up] overnight.",
+        "es": "La fiebre le subió de golpe en la noche."
+      },
+      {
+        "en": "Wow, your son has really [shot up] this summer!",
+        "es": "¡Uy, tu hijo pegó el estirón este verano!"
+      }
+    ]
+  },
+  {
+    "id": "pv-shout-out",
+    "type": "phrasal",
+    "term": "shout out",
+    "sense": "publicly thank, greet or mention someone",
+    "ipa": "/ˈʃaʊt ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "informal"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "mandar saludos a; reconocer públicamente",
+    "def": "to publicly thank, praise or say hello to someone, for example in a speech or video",
+    "note": "El sustantivo es aún más común: give a shout-out to. Literal: gritar algo de repente (shout out the answer).",
+    "forms": "shout out · shouted out · shout-out (sustantivo: give a shout-out to)",
+    "errors_es": "Escribir 'shoutout' junto como verbo. Pensar que siempre implica gritar.",
+    "ex": [
+      {
+        "en": "I want to [shout out] everyone who helped today.",
+        "es": "Quiero agradecer a todos los que ayudaron hoy."
+      },
+      {
+        "en": "She [shouted out] her whole team in the speech.",
+        "es": "Le mandó reconocimiento a todo su equipo en el discurso."
+      },
+      {
+        "en": "The host [shouted me out] on the podcast!",
+        "es": "¡El conductor me mandó saludos en el pódcast!"
+      }
+    ]
+  },
+  {
+    "id": "pv-simmer-down",
+    "type": "phrasal",
+    "term": "simmer down",
+    "sense": "become calm after being angry or excited",
+    "ipa": "/ˈsɪmɚ ˈdaʊn/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "calmarse; bajarle (al enojo)",
+    "def": "to become calm again after being angry, excited or noisy",
+    "note": "Suena a regaño: Simmer down! Se usa con niños o amigos alterados; con un jefe puede sonar condescendiente.",
+    "syn": [
+      "calm down",
+      "cool off"
+    ],
+    "errors_es": "Traducirlo literal como 'hervir a fuego lento'. Decírselo a alguien con autoridad sobre ti.",
+    "ex": [
+      {
+        "en": "Okay, everybody [simmer down], it's just a game.",
+        "es": "A ver, todos bájenle, es solo un juego."
+      },
+      {
+        "en": "He [simmered down] once he got some food.",
+        "es": "Se calmó en cuanto comió algo."
+      },
+      {
+        "en": "Give her ten minutes to [simmer down].",
+        "es": "Dale diez minutos para que se le baje el coraje."
+      }
+    ]
+  },
+  {
+    "id": "pv-size-up",
+    "type": "phrasal",
+    "term": "size up",
+    "sense": "look at someone or a situation carefully to judge it",
+    "ipa": "/ˈsaɪz ˈʌp/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "entrevistas",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "medir; evaluar (a alguien o una situación)",
+    "def": "to look at someone or a situation carefully to form an opinion about them",
+    "note": "Separable: She sized him up. Típico al conocer a un rival, en entrevistas o en una primera cita.",
+    "confuse": [
+      "scale up (hacer crecer)"
+    ],
+    "errors_es": "Pensar que significa 'agrandar'. Confundirlo con 'scale up' (hacer crecer un negocio).",
+    "ex": [
+      {
+        "en": "I could tell she was [sizing me up] from across the room.",
+        "es": "Se notaba que me estaba midiendo desde el otro lado del cuarto."
+      },
+      {
+        "en": "The detective [sized up] the room in seconds.",
+        "es": "El detective evaluó el cuarto en segundos."
+      },
+      {
+        "en": "Take a minute to [size up] the situation first.",
+        "es": "Tómate un minuto para evaluar la situación primero."
+      }
+    ]
+  },
+  {
+    "id": "pv-sleep-around",
+    "type": "phrasal",
+    "term": "sleep around",
+    "sense": "have casual sex with many different people",
+    "ipa": "/ˈslip əˈraʊnd/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "acostarse con muchas personas",
+    "def": "to have sex with many different people without a serious relationship",
+    "note": "Informal y a menudo con juicio negativo. No confundir con 'sleep over' (quedarse a dormir en casa de alguien).",
+    "confuse": [
+      "sleep over (quedarse a dormir)"
+    ],
+    "errors_es": "Confundirlo con 'sleep over'. Traducirlo como 'dormir por ahí'.",
+    "ex": [
+      {
+        "en": "He swears he never [slept around] in college.",
+        "es": "Jura que nunca anduvo con muchas en la universidad."
+      },
+      {
+        "en": "People said she was [sleeping around], but it wasn't true.",
+        "es": "Decían que se acostaba con muchos, pero no era cierto."
+      },
+      {
+        "en": "I'm not judging, but he [sleeps around] a lot.",
+        "es": "No lo juzgo, pero se acuesta con muchas."
+      }
+    ]
+  },
+  {
+    "id": "pv-sleep-off",
+    "type": "phrasal",
+    "term": "sleep off",
+    "sense": "recover from something (hangover, tiredness) by sleeping",
+    "ipa": "/ˈslip ˈɔf/",
+    "level": "B2",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "quitarse durmiendo (la cruda, el cansancio)",
+    "def": "to get better from something like drinking too much or jet lag by sleeping",
+    "note": "Casi siempre: sleep it off. Con hangover, jet lag, a headache.",
+    "confuse": [
+      "sleep in (dormir hasta tarde)"
+    ],
+    "errors_es": "Decir 'sleep the hangover'. Confundirlo con 'sleep in' (dormir hasta tarde).",
+    "ex": [
+      {
+        "en": "He's upstairs [sleeping it off] after last night.",
+        "es": "Está arriba durmiendo la cruda de anoche."
+      },
+      {
+        "en": "Go home and [sleep it off], seriously.",
+        "es": "Vete a tu casa a dormir para que se te baje, en serio."
+      },
+      {
+        "en": "I [slept off] my jet lag in one day.",
+        "es": "Me quité el jet lag durmiendo en un día."
+      }
+    ]
+  },
+  {
+    "id": "pv-slip-away",
+    "type": "phrasal",
+    "term": "slip away",
+    "sense": "leave quietly without being noticed",
+    "ipa": "/ˈslɪp əˈweɪ/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "escabullirse; irse sin que nadie lo note",
+    "def": "to leave a place quietly so that nobody notices",
+    "note": "También = escaparse (una oportunidad) o, en series médicas, morir en paz: She slipped away last night.",
+    "confuse": [
+      "slip out (escapársele algo)"
+    ],
+    "errors_es": "Confundirlo con 'slip out' (escapársele algo dicho). Usar 'escape' para irse de una fiesta.",
+    "ex": [
+      {
+        "en": "We [slipped away] before the speeches started.",
+        "es": "Nos escabullimos antes de que empezaran los discursos."
+      },
+      {
+        "en": "Don't let this chance [slip away].",
+        "es": "No dejes que se te escape esta oportunidad."
+      },
+      {
+        "en": "She [slipped away] from the party without saying goodbye.",
+        "es": "Se escabulló de la fiesta sin despedirse."
+      }
+    ]
+  },
+  {
+    "id": "pv-snap-up",
+    "type": "phrasal",
+    "term": "snap up",
+    "sense": "buy or take something quickly because it's cheap or wanted",
+    "ipa": "/ˈsnæp ˈʌp/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "compras",
+      "entrevistas"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "comprar rápido; ganarle a otros (una oferta, a un candidato)",
+    "def": "to buy or get something quickly because it is cheap or many people want it",
+    "note": "Separable: snap it up. Con talento: Another firm snapped her up = otra empresa se la llevó.",
+    "confuse": [
+      "snap at (contestar feo)"
+    ],
+    "errors_es": "Pensar que significa 'romper'. Confundirlo con 'snap at' (contestar feo).",
+    "ex": [
+      {
+        "en": "The cheap flights got [snapped up] in an hour.",
+        "es": "Los vuelos baratos se agotaron en una hora."
+      },
+      {
+        "en": "If you see that jacket on sale, [snap it up].",
+        "es": "Si ves esa chamarra en oferta, cómprala ya."
+      },
+      {
+        "en": "A startup [snapped her up] right after graduation.",
+        "es": "Una startup se la llevó justo al graduarse."
+      }
+    ]
+  },
+  {
+    "id": "pv-sneak-around",
+    "type": "phrasal",
+    "term": "sneak around",
+    "sense": "do things secretly, especially hide a relationship",
+    "ipa": "/ˈsnik əˈraʊnd/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "andar a escondidas; hacer cosas a espaldas de alguien",
+    "def": "to do things secretly so others don't find out, often a relationship",
+    "note": "Típico de infidelidades: Are you sneaking around behind my back? Con lugar: sneaking around my office = husmeando.",
+    "confuse": [
+      "sneak in / sneak out (entrar o salir a escondidas)"
+    ],
+    "errors_es": "Confundirlo con 'sneak in/out' (entrar o salir a escondidas una vez).",
+    "ex": [
+      {
+        "en": "I'm tired of [sneaking around], let's just tell them.",
+        "es": "Ya me cansé de andar a escondidas, mejor digámosles."
+      },
+      {
+        "en": "Have you been [sneaking around] behind my back?",
+        "es": "¿Has andado haciendo cosas a mis espaldas?"
+      },
+      {
+        "en": "Why are you [sneaking around] my office?",
+        "es": "¿Por qué andas husmeando en mi oficina?"
+      }
+    ]
+  },
+  {
+    "id": "pv-speak-for",
+    "type": "phrasal",
+    "term": "speak for",
+    "sense": "express the opinion of another person or group",
+    "ipa": "/ˈspik fɔr/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "hablar por; representar la opinión de",
+    "def": "to say what another person or a group thinks or wants",
+    "note": "Respuesta sarcástica clásica: Speak for yourself! = ¡Eso lo dirás tú! También: It speaks for itself = habla por sí solo.",
+    "confuse": [
+      "speak to (abordar un tema)"
+    ],
+    "errors_es": "Decir 'talk for yourself'. Confundirlo con 'speak to' (abordar un tema).",
+    "ex": [
+      {
+        "en": "'We're all bored.' '[Speak for] yourself, I'm having fun.'",
+        "es": "'Todos estamos aburridos.' 'Eso lo dirás tú, yo me la estoy pasando bien.'"
+      },
+      {
+        "en": "I can't [speak for] the whole team.",
+        "es": "No puedo hablar por todo el equipo."
+      },
+      {
+        "en": "Don't [speak for] me, I can answer myself.",
+        "es": "No hables por mí, puedo contestar yo solo."
+      }
+    ]
+  },
+  {
+    "id": "pv-spring-for",
+    "type": "phrasal",
+    "term": "spring for",
+    "sense": "pay for something, often as a treat for others",
+    "ipa": "/ˈsprɪŋ fɔr/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "restaurantes",
+      "compras"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "invitar; disparar; pagar (algo, a menudo más caro)",
+    "def": "to pay for something, often for other people or for the more expensive option",
+    "note": "Muy de EE. UU.: I'll spring for pizza. También: spring for the upgrade = pagar la versión cara. Pasado: sprang o sprung.",
+    "syn": [
+      "treat",
+      "pay for"
+    ],
+    "confuse": [
+      "splurge on (darse un lujo)"
+    ],
+    "errors_es": "Pensar que tiene que ver con la primavera. Confundirlo con 'splurge on' (darte un lujo para ti).",
+    "ex": [
+      {
+        "en": "Dad [sprang for] dinner, so we ordered dessert too.",
+        "es": "Mi papá disparó la cena, así que también pedimos postre."
+      },
+      {
+        "en": "Should we [spring for] the hotel with the pool?",
+        "es": "¿Pagamos de más por el hotel con alberca?"
+      },
+      {
+        "en": "I'll [spring for] the pizza if you pick the movie.",
+        "es": "Yo invito la pizza si tú escoges la película."
+      }
+    ]
+  },
+  {
+    "id": "pv-stack-up",
+    "type": "phrasal",
+    "term": "stack up",
+    "sense": "compare with others; make sense (a story)",
+    "ipa": "/ˈstæk ˈʌp/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "analisis",
+      "compras"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "compararse; estar a la altura; cuadrar (una historia)",
+    "def": "to compare with someone or something else, or to seem true and logical",
+    "note": "Patrón: How does it stack up against...? En policiacas: His story doesn't stack up = su versión no cuadra.",
+    "syn": [
+      "compare"
+    ],
+    "errors_es": "Decir 'compare up'. Pensar que solo significa 'apilar'.",
+    "ex": [
+      {
+        "en": "How does the new phone [stack up] against the old one?",
+        "es": "¿Qué tal se compara el celular nuevo con el viejo?"
+      },
+      {
+        "en": "His story doesn't [stack up], something's off.",
+        "es": "Su versión no cuadra, algo anda mal."
+      },
+      {
+        "en": "Let's see how we [stack up] against the competition.",
+        "es": "A ver qué tal estamos frente a la competencia."
+      }
+    ]
+  },
+  {
+    "id": "pv-steer-clear-of",
+    "type": "phrasal",
+    "term": "steer clear of",
+    "sense": "avoid someone or something that may cause problems",
+    "ipa": "/ˈstɪr ˈklɪr əv/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "evitar; mantenerse alejado de",
+    "def": "to avoid someone or something because it may cause trouble",
+    "note": "Muy usado en consejos: Steer clear of that guy. Más expresivo que 'avoid'; parecido a 'stay away from'.",
+    "syn": [
+      "avoid",
+      "stay away from"
+    ],
+    "errors_es": "Decir 'steer away of'. Olvidar el 'of' antes del objeto.",
+    "ex": [
+      {
+        "en": "[Steer clear of] the fish tacos at that place.",
+        "es": "Evita los tacos de pescado de ese lugar."
+      },
+      {
+        "en": "I'd [steer clear of] him until he calms down.",
+        "es": "Yo no me le acercaría hasta que se calme."
+      },
+      {
+        "en": "She's been [steering clear of] social media lately.",
+        "es": "Últimamente se ha mantenido alejada de las redes sociales."
+      }
+    ]
+  },
+  {
+    "id": "pv-step-up-2",
+    "type": "phrasal",
+    "term": "step up",
+    "sense": "increase the amount, speed or intensity of something",
+    "ipa": "/ˈstɛp ˈʌp/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "intensificar; aumentar (esfuerzos, vigilancia)",
+    "def": "to increase the amount, speed or strength of an activity",
+    "note": "Separable: step it up = échale más ganas. En noticias: police stepped up patrols. Distinto de step up (dar el paso, asumir).",
+    "syn": [
+      "ramp up",
+      "increase"
+    ],
+    "errors_es": "Confundirlo con 'set up'. Decir 'step on' (pisar) por error.",
+    "ex": [
+      {
+        "en": "Police [stepped up] patrols after the break-ins.",
+        "es": "La policía intensificó los patrullajes después de los robos."
+      },
+      {
+        "en": "We need to [step up] our game this quarter.",
+        "es": "Tenemos que subir de nivel este trimestre."
+      },
+      {
+        "en": "Come on, guys, [step it up]!",
+        "es": "¡Órale, muchachos, échenle más ganas!"
+      }
+    ]
+  },
+  {
+    "id": "pv-stir-up",
+    "type": "phrasal",
+    "term": "stir up",
+    "sense": "cause trouble or strong feelings, often on purpose",
+    "ipa": "/ˈstɝ ˈʌp/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "provocar; alborotar; armar (pleito, drama)",
+    "def": "to cause problems, arguments or strong emotions, often deliberately",
+    "note": "Colocaciones: stir up trouble, stir up drama, stir up memories. Separable: stir things up.",
+    "confuse": [
+      "shake up (reorganizar)"
+    ],
+    "errors_es": "Usarlo solo con cucharas. Confundirlo con 'shake up' (reorganizar a fondo).",
+    "ex": [
+      {
+        "en": "She loves to [stir up] drama in the group chat.",
+        "es": "Le encanta armar drama en el chat del grupo."
+      },
+      {
+        "en": "Seeing him again [stirred up] a lot of memories.",
+        "es": "Volver a verlo me removió muchos recuerdos."
+      },
+      {
+        "en": "Don't come in here [stirring things up].",
+        "es": "No vengas aquí a alborotar las cosas."
+      }
+    ]
+  },
+  {
+    "id": "pv-strike-out",
+    "type": "phrasal",
+    "term": "strike out",
+    "sense": "fail, especially when trying to attract someone",
+    "ipa": "/ˈstraɪk ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "informal"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "fracasar; quedarse sin nada (sobre todo al ligar)",
+    "def": "to fail at something, especially at getting someone romantically interested",
+    "note": "Viene del béisbol (tres strikes). 'Strike out on your own' = independizarse, es otro sentido.",
+    "errors_es": "Traducirlo literal como 'golpear afuera'. No reconocer el origen beisbolero.",
+    "ex": [
+      {
+        "en": "He tried three pickup lines and [struck out] every time.",
+        "es": "Probó tres frases para ligar y lo batearon todas las veces."
+      },
+      {
+        "en": "I totally [struck out] on finding a cheap apartment.",
+        "es": "Fracasé por completo buscando un depa barato."
+      },
+      {
+        "en": "Don't worry if you [strike out], just try again.",
+        "es": "No te preocupes si no se te hace, vuelve a intentar."
+      }
+    ]
+  },
+  {
+    "id": "pv-strike-up",
+    "type": "phrasal",
+    "term": "strike up",
+    "sense": "start a conversation or relationship with someone",
+    "ipa": "/ˈstraɪk ˈʌp/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "viajes"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "entablar; iniciar (una plática, una amistad)",
+    "def": "to begin a conversation, friendship or relationship with someone",
+    "note": "Colocaciones fijas: strike up a conversation, a friendship. También: the band struck up = la banda empezó a tocar.",
+    "confuse": [
+      "strike out (fracasar)"
+    ],
+    "errors_es": "Decir 'start up a conversation' (se entiende, pero es menos natural). Confundirlo con 'strike out'.",
+    "ex": [
+      {
+        "en": "We [struck up] a conversation on the train.",
+        "es": "Nos pusimos a platicar en el tren."
+      },
+      {
+        "en": "They [struck up] a friendship at summer camp.",
+        "es": "Se hicieron amigos en el campamento de verano."
+      },
+      {
+        "en": "It's easy to [strike up] a chat in a small town.",
+        "es": "En un pueblo chico es fácil sacarle plática a alguien."
+      }
+    ]
+  },
+  {
+    "id": "pv-string-along",
+    "type": "phrasal",
+    "term": "string along",
+    "sense": "make someone believe you have serious intentions when you don't",
+    "ipa": "/ˈstrɪŋ əˈlɔŋ/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "dar falsas esperanzas; tener a alguien ilusionado",
+    "def": "to make someone believe you will do something or love them when you don't plan to",
+    "note": "Separable: string someone along. Muy de dramas románticos, pero también con trabajos o pagos prometidos.",
+    "syn": [
+      "lead on"
+    ],
+    "errors_es": "Traducirlo como 'ensartar'. Pensar que tiene un sentido positivo.",
+    "ex": [
+      {
+        "en": "He's been [stringing her along] for two years.",
+        "es": "La ha tenido ilusionada dos años sin nada serio."
+      },
+      {
+        "en": "Be honest with him, don't [string him along].",
+        "es": "Sé honesta con él, no le des falsas esperanzas."
+      },
+      {
+        "en": "The company [strung us along] with promises of a raise.",
+        "es": "La empresa nos traía con promesas de aumento."
+      }
+    ]
+  },
+  {
+    "id": "pv-switch-up",
+    "type": "phrasal",
+    "term": "switch up",
+    "sense": "change something to make it different; (slang) change attitude",
+    "ipa": "/ˈswɪtʃ ˈʌp/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "informal",
+      "slang"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "both",
+    "sep": true,
+    "es": "cambiar; variarle (rutina, estilo); cambiar de actitud",
+    "def": "to change something, like a routine or style, to make it different",
+    "note": "Informal y actual: switch it up. En slang, 'he switched up on me' = cambió de actitud conmigo (para mal).",
+    "errors_es": "Confundirlo con 'switch off' (apagar). Usarlo en textos formales.",
+    "ex": [
+      {
+        "en": "I'm [switching up] my workout this month.",
+        "es": "Este mes le voy a cambiar a mi rutina de ejercicio."
+      },
+      {
+        "en": "Let's [switch it up] and eat somewhere new.",
+        "es": "Cambiémosle y vamos a comer a otro lado."
+      },
+      {
+        "en": "He totally [switched up] on me after he got famous.",
+        "es": "Cambió por completo conmigo cuando se hizo famoso."
+      }
+    ]
+  },
+  {
+    "id": "pv-shut-down-3",
+    "type": "phrasal",
+    "term": "shut down",
+    "sense": "reject or silence someone firmly and quickly",
+    "ipa": "/ˈʃʌt ˈdaʊn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "callar; rechazar en seco (a alguien o una idea)",
+    "def": "to firmly stop someone from talking or to reject them or their idea",
+    "note": "Muy usado en series y redes: She shut him down = lo bateó / le cerró la boca. Separable: shut him down.",
+    "errors_es": "Pensar que solo se usa con máquinas o negocios.",
+    "ex": [
+      {
+        "en": "He asked her out and she [shut him down] instantly.",
+        "es": "La invitó a salir y lo bateó al instante."
+      },
+      {
+        "en": "The boss [shut down] every idea I had.",
+        "es": "El jefe me tumbó todas las ideas."
+      },
+      {
+        "en": "She [shut the reporter down] with one sentence.",
+        "es": "Le cerró la boca al reportero con una frase."
+      }
+    ]
+  },
+  {
+    "id": "pv-sell-short",
+    "type": "phrasal",
+    "term": "sell short",
+    "sense": "underestimate someone's (or your own) abilities",
+    "ipa": "/ˈsɛl ˈʃɔrt/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "entrevistas",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "subestimar; menospreciar (tus capacidades)",
+    "def": "to think or show that someone, often yourself, is less good than they really are",
+    "note": "Casi siempre: Don't sell yourself short. En finanzas, 'sell short' = vender en corto (otro sentido).",
+    "syn": [
+      "underestimate"
+    ],
+    "errors_es": "Traducirlo literal como 'vender corto'. Decir 'sell yourself low'.",
+    "ex": [
+      {
+        "en": "Don't [sell yourself short], you nailed that interview.",
+        "es": "No te menosprecies, esa entrevista te salió perfecta."
+      },
+      {
+        "en": "I think we [sold the project short] in the pitch.",
+        "es": "Creo que no le hicimos justicia al proyecto en la presentación."
+      },
+      {
+        "en": "She always [sells herself short] at work.",
+        "es": "Siempre se subestima en el trabajo."
+      }
+    ]
+  },
+  {
+    "id": "pv-sign-on",
+    "type": "phrasal",
+    "term": "sign on",
+    "sense": "agree to join a project, job or team",
+    "ipa": "/ˈsaɪn ˈɑn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "entrevistas"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "sumarse; firmar para (un proyecto, un trabajo)",
+    "def": "to agree to work on a project or join a team or company",
+    "note": "Sign on as / for / to: She signed on as director. Distinto de sign in (iniciar sesión) y sign up (inscribirse).",
+    "confuse": [
+      "sign in (iniciar sesión)",
+      "sign up (inscribirse)"
+    ],
+    "errors_es": "Confundirlo con 'sign in' o 'sign up'.",
+    "ex": [
+      {
+        "en": "Two big actors [signed on] for the sequel.",
+        "es": "Dos actorazos firmaron para la secuela."
+      },
+      {
+        "en": "He [signed on] as head coach last spring.",
+        "es": "Firmó como entrenador en jefe la primavera pasada."
+      },
+      {
+        "en": "I'm not [signing on] to anything without seeing the budget.",
+        "es": "No me sumo a nada sin ver el presupuesto."
+      }
+    ]
+  },
+  {
+    "id": "pv-rattle-off",
+    "type": "phrasal",
+    "term": "rattle off",
+    "sense": "say a list of things quickly from memory",
+    "ipa": "/ˈrætəl ˈɔf/",
+    "level": "C1",
+    "topic": "study",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "recitar de corrido; soltar de memoria",
+    "def": "to say a list of things quickly and easily, without needing to think",
+    "note": "Separable: rattle them off. Con listas, cifras, nombres, especialidades del día.",
+    "syn": [
+      "reel off"
+    ],
+    "errors_es": "Traducirlo como 'sonajear'. Usarlo para un discurso lento y pensado.",
+    "ex": [
+      {
+        "en": "She [rattled off] ten reasons why I was wrong.",
+        "es": "Me soltó de corrido diez razones por las que estaba mal."
+      },
+      {
+        "en": "He can [rattle off] every player's stats.",
+        "es": "Puede recitar de memoria las estadísticas de cada jugador."
+      },
+      {
+        "en": "The waiter [rattled off] the specials way too fast.",
+        "es": "El mesero recitó los especiales demasiado rápido."
+      }
+    ]
+  },
+  {
+    "id": "pv-reel-in",
+    "type": "phrasal",
+    "term": "reel in",
+    "sense": "attract or persuade someone to get involved",
+    "ipa": "/ˈril ˈɪn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "crm"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "enganchar; atraer (a alguien, a un cliente)",
+    "def": "to attract someone and get them interested or involved, often with a trick",
+    "note": "Viene de la pesca (enrollar el carrete). Separable: reel him in. En ventas: reel in new clients.",
+    "confuse": [
+      "rein in (controlar, frenar)"
+    ],
+    "errors_es": "Quedarse solo con el sentido de pesca. Confundirlo con 'rein in' (controlar), que suena casi igual.",
+    "ex": [
+      {
+        "en": "The free trial is just to [reel you in].",
+        "es": "La prueba gratis es solo para engancharte."
+      },
+      {
+        "en": "He [reeled her in] with all that charm.",
+        "es": "La enganchó con todo ese encanto."
+      },
+      {
+        "en": "We [reeled in] three new clients this month.",
+        "es": "Atrajimos a tres clientes nuevos este mes."
+      }
+    ]
+  },
+  {
+    "id": "pv-rein-in",
+    "type": "phrasal",
+    "term": "rein in",
+    "sense": "control someone or something more strictly",
+    "ipa": "/ˈreɪn ˈɪn/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "bancos",
+      "noticias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "frenar; controlar (gastos, a alguien)",
+    "def": "to control someone or something more strictly, like spending or behavior",
+    "note": "Viene de las riendas (reins). Muy usado con spending, costs o una persona descontrolada.",
+    "syn": [
+      "curb",
+      "cut back on"
+    ],
+    "confuse": [
+      "reel in (enganchar)"
+    ],
+    "errors_es": "Escribir 'reign in' (error común incluso entre nativos). Confundirlo con 'reel in' (enganchar).",
+    "ex": [
+      {
+        "en": "We really need to [rein in] spending this month.",
+        "es": "De verdad tenemos que frenar los gastos este mes."
+      },
+      {
+        "en": "Someone has to [rein him in] before he gets fired.",
+        "es": "Alguien tiene que controlarlo antes de que lo corran."
+      },
+      {
+        "en": "The new manager [reined in] overtime costs.",
+        "es": "El nuevo gerente controló los costos de horas extra."
+      }
+    ]
+  },
+  {
+    "id": "pv-rifle-through",
+    "type": "phrasal",
+    "term": "rifle through",
+    "sense": "search quickly through things, often someone else's",
+    "ipa": "/ˈraɪfəl ˈθru/",
+    "level": "C1",
+    "topic": "home",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "esculcar; hurgar (en cosas ajenas)",
+    "def": "to search quickly through something, often someone else's things without permission",
+    "note": "Implica prisa o falta de permiso: rifle through my drawers. Distinto de 'sort through' (revisar ordenando).",
+    "confuse": [
+      "sort through (revisar ordenando)",
+      "flip through (hojear)"
+    ],
+    "errors_es": "Pensar que tiene que ver con un rifle. Confundirlo con 'flip through' (hojear).",
+    "ex": [
+      {
+        "en": "Were you [rifling through] my bag?",
+        "es": "¿Estabas esculcando mi bolsa?"
+      },
+      {
+        "en": "The burglar [rifled through] every drawer.",
+        "es": "El ladrón hurgó en todos los cajones."
+      },
+      {
+        "en": "She [rifled through] the files looking for the contract.",
+        "es": "Revolvió los archivos buscando el contrato."
+      }
+    ]
+  },
+  {
+    "id": "pv-ride-out",
+    "type": "phrasal",
+    "term": "ride out",
+    "sense": "survive a difficult period until it ends",
+    "ipa": "/ˈraɪd ˈaʊt/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "noticias",
+      "emergencias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "aguantar; capear (una crisis, una tormenta)",
+    "def": "to get through a difficult or dangerous time until it is over",
+    "note": "Con storm, crisis, recession. Separable: ride it out = aguantar hasta que pase.",
+    "syn": [
+      "weather"
+    ],
+    "errors_es": "Traducirlo como 'salir cabalgando'. Usarlo con algo que no es temporal.",
+    "ex": [
+      {
+        "en": "We decided to [ride out] the storm at home.",
+        "es": "Decidimos aguantar la tormenta en casa."
+      },
+      {
+        "en": "Just [ride it out], the market always recovers.",
+        "es": "Tú aguanta, el mercado siempre se recupera."
+      },
+      {
+        "en": "The company barely [rode out] the recession.",
+        "es": "La empresa apenas sobrevivió a la recesión."
+      }
+    ]
+  },
+  {
+    "id": "pv-rip-into",
+    "type": "phrasal",
+    "term": "rip into",
+    "sense": "criticize someone very angrily",
+    "ipa": "/ˈrɪp ˈɪntu/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "series",
+      "reuniones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ponerle una regañada a; despedazar (con críticas)",
+    "def": "to criticize someone or something very angrily and harshly",
+    "note": "Informal: The coach ripped into them at halftime. Parecido a 'lay into' y 'tear into'.",
+    "syn": [
+      "tear into",
+      "lay into"
+    ],
+    "errors_es": "Traducirlo literal como 'rasgar adentro'. Usarlo para una crítica suave.",
+    "ex": [
+      {
+        "en": "The coach [ripped into] us at halftime.",
+        "es": "El entrenador nos puso una regañada en el medio tiempo."
+      },
+      {
+        "en": "Critics [ripped into] the finale.",
+        "es": "La crítica despedazó el último capítulo."
+      },
+      {
+        "en": "She [ripped into] him for being late again.",
+        "es": "Le puso una arrastrada por llegar tarde otra vez."
+      }
+    ]
+  },
+  {
+    "id": "pv-rise-above",
+    "type": "phrasal",
+    "term": "rise above",
+    "sense": "not let insults or problems affect you or your behavior",
+    "ipa": "/ˈraɪz əˈbʌv/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "no rebajarse; superar (algo negativo)",
+    "def": "to not let something bad, like insults or a hard situation, affect you",
+    "note": "Consejo típico: Just rise above it. Implica madurez frente a provocaciones o un pasado difícil.",
+    "errors_es": "Quedarse solo con el sentido físico. Decir 'go above it'.",
+    "ex": [
+      {
+        "en": "Ignore the comments and [rise above] it.",
+        "es": "Ignora los comentarios y no te rebajes."
+      },
+      {
+        "en": "She [rose above] the gossip and kept working.",
+        "es": "No se dejó afectar por los chismes y siguió trabajando."
+      },
+      {
+        "en": "He [rose above] a rough childhood to become a doctor.",
+        "es": "Superó una infancia dura y llegó a ser médico."
+      }
+    ]
+  },
+  {
+    "id": "pv-roll-over-2",
+    "type": "phrasal",
+    "term": "roll over",
+    "sense": "give in without a fight",
+    "ipa": "/ˈroʊl ˈoʊvɚ/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "rendirse sin pelear; agachar la cabeza",
+    "def": "to accept what someone wants without trying to fight or resist",
+    "note": "Imagen del perro que se tira panza arriba. Común en negativo: We're not going to roll over.",
+    "syn": [
+      "cave",
+      "give in"
+    ],
+    "errors_es": "Confundirlo con darse la vuelta en la cama (roll over). Traducirlo como 'rodar'.",
+    "ex": [
+      {
+        "en": "We're not just going to [roll over] for them.",
+        "es": "No nos vamos a rendir así nada más ante ellos."
+      },
+      {
+        "en": "The union refused to [roll over] on wages.",
+        "es": "El sindicato se negó a ceder en los salarios."
+      },
+      {
+        "en": "He [rolled over] the second his boss pushed back.",
+        "es": "Agachó la cabeza en cuanto su jefe le reclamó."
+      }
+    ]
+  },
+  {
+    "id": "pv-rough-up",
+    "type": "phrasal",
+    "term": "rough up",
+    "sense": "hurt someone by hitting or pushing them, usually to scare them",
+    "ipa": "/ˈrʌf ˈʌp/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "darle una golpiza a; maltratar",
+    "def": "to hurt someone by hitting or pushing them, usually to frighten them",
+    "note": "Muy de series policiacas: They roughed him up a little. Separable.",
+    "confuse": [
+      "rough it (vivir sin comodidades)"
+    ],
+    "errors_es": "Confundirlo con 'rough it' (vivir sin comodidades). Pensar que es 'hacer áspero'.",
+    "ex": [
+      {
+        "en": "Some guys [roughed him up] outside the bar.",
+        "es": "Unos tipos le pusieron una golpiza afuera del bar."
+      },
+      {
+        "en": "The officers were accused of [roughing up] a suspect.",
+        "es": "Acusaron a los oficiales de maltratar a un sospechoso."
+      },
+      {
+        "en": "They [roughed him up] just to send a message.",
+        "es": "Lo golpearon solo para mandar un mensaje."
+      }
+    ]
+  },
+  {
+    "id": "pv-run-down-2",
+    "type": "phrasal",
+    "term": "run down",
+    "sense": "criticize someone in an unkind way",
+    "ipa": "/ˈrʌn ˈdaʊn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "hablar mal de; menospreciar",
+    "def": "to say unkind things about someone, often in a way that is unfair",
+    "note": "Separable: She's always running him down. Otro uso: run down a list = repasarla rápido.",
+    "syn": [
+      "put down",
+      "badmouth"
+    ],
+    "errors_es": "Confundirlo con 'run over' (atropellar) o con la batería que se descarga (run down).",
+    "ex": [
+      {
+        "en": "Stop [running yourself down], you did great.",
+        "es": "Deja de menospreciarte, lo hiciste muy bien."
+      },
+      {
+        "en": "He's always [running down] his coworkers.",
+        "es": "Siempre está hablando mal de sus compañeros."
+      },
+      {
+        "en": "She [ran down] my cooking in front of everyone.",
+        "es": "Criticó mi comida enfrente de todos."
+      }
+    ]
+  },
+  {
+    "id": "pv-reckon-with",
+    "type": "phrasal",
+    "term": "reckon with",
+    "sense": "have to deal with something difficult; take someone seriously",
+    "ipa": "/ˈrɛkən wɪθ/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "tener que enfrentar; tomar en serio",
+    "def": "to deal with a difficult person or situation, or to consider them seriously",
+    "note": "Frase fija: a force to be reckoned with = alguien a quien hay que tomar en serio. También: reckon with the past.",
+    "errors_es": "Confundirlo con 'reckon' solo (creer, opinar). Omitir 'with'.",
+    "ex": [
+      {
+        "en": "She's a force to be [reckoned with] in court.",
+        "es": "En la corte es alguien a quien hay que tomar muy en serio."
+      },
+      {
+        "en": "Sooner or later, you'll have to [reckon with] your past.",
+        "es": "Tarde o temprano vas a tener que enfrentar tu pasado."
+      },
+      {
+        "en": "They didn't [reckon with] the snowstorm.",
+        "es": "No contaban con la tormenta de nieve."
+      }
+    ]
+  },
+  {
+    "id": "pv-root-out",
+    "type": "phrasal",
+    "term": "root out",
+    "sense": "find and get rid of something or someone bad",
+    "ipa": "/ˈrut ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "software"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "erradicar; sacar de raíz",
+    "def": "to find and completely remove something or someone bad or harmful",
+    "note": "Con corruption, a bug, a mole (topo, espía infiltrado). En General American 'root' también se oye /rʊt/.",
+    "confuse": [
+      "root for (echar porras)"
+    ],
+    "errors_es": "Confundirlo con 'root for' (echar porras).",
+    "ex": [
+      {
+        "en": "The new chief promised to [root out] corruption.",
+        "es": "El nuevo jefe prometió erradicar la corrupción."
+      },
+      {
+        "en": "We need to [root out] the cause of this bug.",
+        "es": "Tenemos que encontrar y eliminar la causa de este error."
+      },
+      {
+        "en": "They're trying to [root out] the mole in the agency.",
+        "es": "Están tratando de sacar al topo de la agencia."
+      }
+    ]
+  },
+  {
+    "id": "pv-rally-around",
+    "type": "phrasal",
+    "term": "rally around",
+    "sense": "come together to support someone in a hard time",
+    "ipa": "/ˈræli əˈraʊnd/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "unirse para apoyar a",
+    "def": "to come together as a group to help or support someone in a difficult time",
+    "note": "Muy de noticias locales: the town rallied around the family. Variante: rally behind (apoyar a un líder o una causa).",
+    "errors_es": "Pensar que significa 'manifestarse'. Decir 'rally to support' de forma redundante.",
+    "ex": [
+      {
+        "en": "The whole town [rallied around] the family after the fire.",
+        "es": "Todo el pueblo se unió para apoyar a la familia después del incendio."
+      },
+      {
+        "en": "Her friends [rallied around] her during chemo.",
+        "es": "Sus amigas se juntaron para apoyarla durante la quimio."
+      },
+      {
+        "en": "Let's [rally around] Jake, he's having a rough week.",
+        "es": "Hay que apoyar a Jake, trae una semana pesada."
+      }
+    ]
+  },
+  {
+    "id": "pv-rule-against",
+    "type": "phrasal",
+    "term": "rule against",
+    "sense": "make an official decision, especially in court, against someone",
+    "ipa": "/ˈrul əˈɡɛnst/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "formal"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "formal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "fallar en contra de",
+    "def": "to make an official decision, especially in a court, that goes against someone",
+    "note": "Lenguaje judicial. Contrario: rule in favor of. Muy de series de abogados.",
+    "errors_es": "Decir 'judge against' o 'rule contra'.",
+    "ex": [
+      {
+        "en": "The judge [ruled against] the landlord.",
+        "es": "El juez falló en contra del casero."
+      },
+      {
+        "en": "If they [rule against] us, we'll appeal.",
+        "es": "Si fallan en contra nuestra, vamos a apelar."
+      },
+      {
+        "en": "The court [ruled against] the city's new parking rules.",
+        "es": "El tribunal falló en contra del nuevo reglamento de estacionamiento."
+      }
+    ]
+  },
+  {
+    "id": "pv-screen-out",
+    "type": "phrasal",
+    "term": "screen out",
+    "sense": "remove unsuitable people or things after checking them",
+    "ipa": "/ˈskrin ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "entrevistas",
+      "datos"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "filtrar; descartar (candidatos, llamadas, datos)",
+    "def": "to check people or things and remove those that are not suitable",
+    "note": "Muy de reclutamiento: the system screens out resumes. También de luz: sunscreen screens out UV rays.",
+    "syn": [
+      "filter out",
+      "weed out"
+    ],
+    "errors_es": "Confundirlo con 'screen' solo (proyectar, revisar). Decir 'filter up'.",
+    "ex": [
+      {
+        "en": "The software [screens out] resumes without keywords.",
+        "es": "El software descarta los currículums sin palabras clave."
+      },
+      {
+        "en": "HR [screened out] half the applicants.",
+        "es": "Recursos Humanos filtró a la mitad de los candidatos."
+      },
+      {
+        "en": "This sunscreen [screens out] most UV rays.",
+        "es": "Este bloqueador filtra casi todos los rayos UV."
+      }
+    ]
+  },
+  {
+    "id": "pv-seal-off",
+    "type": "phrasal",
+    "term": "seal off",
+    "sense": "close an area completely so nobody can enter or leave",
+    "ipa": "/ˈsil ˈɔf/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "noticias",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "acordonar; cerrar (una zona)",
+    "def": "to close an area completely so that people cannot go in or out",
+    "note": "Muy de noticias y policiacas: Police sealed off the block.",
+    "syn": [
+      "cordon off"
+    ],
+    "errors_es": "Traducirlo solo como 'sellar'. Confundirlo con 'seal up' (cerrar bien un objeto o hueco).",
+    "ex": [
+      {
+        "en": "Police [sealed off] the street after the shooting.",
+        "es": "La policía acordonó la calle después del tiroteo."
+      },
+      {
+        "en": "They [sealed off] the lab after the leak.",
+        "es": "Cerraron el laboratorio después de la fuga."
+      },
+      {
+        "en": "The whole floor was [sealed off] for hours.",
+        "es": "Todo el piso estuvo acordonado por horas."
+      }
+    ]
+  },
+  {
+    "id": "pv-shack-up",
+    "type": "phrasal",
+    "term": "shack up",
+    "sense": "start living with a romantic partner without being married",
+    "ipa": "/ˈʃæk ˈʌp/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "irse a vivir juntos (sin casarse); juntarse",
+    "def": "to start living with a romantic partner, usually without being married",
+    "note": "Informal y algo burlón: They shacked up after two months. Con persona: shack up with someone.",
+    "syn": [
+      "move in together"
+    ],
+    "errors_es": "Pensar que solo significa vivir en una choza. Usarlo en contexto formal.",
+    "ex": [
+      {
+        "en": "They [shacked up] after dating for three weeks.",
+        "es": "Se juntaron después de tres semanas de andar."
+      },
+      {
+        "en": "My brother's [shacking up] with his girlfriend downtown.",
+        "es": "Mi hermano se va a vivir con su novia en el centro."
+      },
+      {
+        "en": "So are you two officially [shacking up] now?",
+        "es": "¿Entonces ya viven juntos oficialmente?"
+      }
+    ]
+  },
+  {
+    "id": "pv-shake-down",
+    "type": "phrasal",
+    "term": "shake down",
+    "sense": "get money from someone by threatening them",
+    "ipa": "/ˈʃeɪk ˈdaʊn/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "extorsionar; sacarle dinero a (con amenazas)",
+    "def": "to get money from someone by using threats",
+    "note": "Muy de series de policías y mafia. Otro uso: shake down a cell = esculcar a fondo una celda.",
+    "forms": "shake down · shook down · shaken down · shakedown (sustantivo: extorsión)",
+    "errors_es": "Confundirlo con 'shake off' (quitarse de encima).",
+    "ex": [
+      {
+        "en": "Those guys [shake down] every shop on the block.",
+        "es": "Esos tipos extorsionan a todas las tiendas de la cuadra."
+      },
+      {
+        "en": "He tried to [shake me down] for five hundred bucks.",
+        "es": "Me quiso sacar quinientos dólares con amenazas."
+      },
+      {
+        "en": "Is this a business deal or are you [shaking me down]?",
+        "es": "¿Esto es un negocio o me estás extorsionando?"
+      }
+    ]
+  },
+  {
+    "id": "pv-shore-up",
+    "type": "phrasal",
+    "term": "shore up",
+    "sense": "make something weak stronger or more stable",
+    "ipa": "/ˈʃɔr ˈʌp/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "proyectos"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "apuntalar; reforzar",
+    "def": "to make something that is weak or failing stronger or more stable",
+    "note": "Con support, finances, defenses, confidence. Literal: apuntalar una pared o un dique.",
+    "syn": [
+      "bolster",
+      "strengthen"
+    ],
+    "errors_es": "Confundirlo con 'show up' por el sonido.",
+    "ex": [
+      {
+        "en": "The bank needs cash to [shore up] its finances.",
+        "es": "El banco necesita efectivo para apuntalar sus finanzas."
+      },
+      {
+        "en": "They [shored up] the walls before the flood.",
+        "es": "Reforzaron los muros antes de la inundación."
+      },
+      {
+        "en": "She's trying to [shore up] support before the vote.",
+        "es": "Está tratando de amarrar apoyos antes de la votación."
+      }
+    ]
+  },
+  {
+    "id": "pv-sound-out",
+    "type": "phrasal",
+    "term": "sound out",
+    "sense": "talk to someone carefully to find out their opinion",
+    "ipa": "/ˈsaʊnd ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "crm"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "tantear; sondear (la opinión de alguien)",
+    "def": "to talk to someone in a careful way to discover what they think",
+    "note": "Separable: sound him out. En la escuela, 'sound out a word' = leerla sílaba por sílaba (otro sentido).",
+    "errors_es": "Traducirlo como 'sonar afuera'. Confundirlo con 'sound off' (quejarse en voz alta).",
+    "ex": [
+      {
+        "en": "Can you [sound out] the boss about Friday?",
+        "es": "¿Puedes tantear al jefe sobre lo del viernes?"
+      },
+      {
+        "en": "I [sounded her out] before proposing the idea.",
+        "es": "La tanteé antes de proponer la idea."
+      },
+      {
+        "en": "Let's [sound out] a few customers first.",
+        "es": "Primero sondeemos a unos cuantos clientes."
+      }
+    ]
+  },
+  {
+    "id": "pv-speak-to",
+    "type": "phrasal",
+    "term": "speak to",
+    "sense": "address or comment on a particular point or topic",
+    "ipa": "/ˈspik tu/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "entrevistas"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "abordar; hablar sobre (un punto concreto)",
+    "def": "to talk about or answer a particular point, question or issue",
+    "note": "Muy de juntas en EE. UU.: Can you speak to the timeline? También: That really speaks to me = eso me llega.",
+    "confuse": [
+      "speak for (hablar en nombre de)"
+    ],
+    "errors_es": "Pensar que solo significa 'hablarle a alguien'. Confundirlo con 'speak for' (hablar en nombre de).",
+    "ex": [
+      {
+        "en": "Can you [speak to] the delays on this project?",
+        "es": "¿Nos puedes explicar los retrasos de este proyecto?"
+      },
+      {
+        "en": "I can't [speak to] that, it's not my team.",
+        "es": "De eso no puedo opinar, no es mi equipo."
+      },
+      {
+        "en": "That song really [speaks to] me.",
+        "es": "Esa canción de verdad me llega."
+      }
+    ]
+  },
+  {
+    "id": "pv-spin-off",
+    "type": "phrasal",
+    "term": "spin off",
+    "sense": "create a new show, product or company from an existing one",
+    "ipa": "/ˈspɪn ˈɔf/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "series",
+      "proyectos"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "crear (una serie, una empresa) a partir de otra",
+    "def": "to create a new show, product or company out of one that already exists",
+    "note": "El sustantivo es clásico de TV: a spin-off. En negocios: spin off a division = escindir una división.",
+    "forms": "spin off · spun off · spinning off · spin-off (sustantivo: serie derivada)",
+    "errors_es": "Decir 'spin out' para series. Olvidar que el pasado es 'spun'.",
+    "ex": [
+      {
+        "en": "They [spun off] the funniest character into her own show.",
+        "es": "Le dieron su propia serie al personaje más chistoso."
+      },
+      {
+        "en": "The company [spun off] its gaming division.",
+        "es": "La empresa separó su división de videojuegos."
+      },
+      {
+        "en": "Fans want them to [spin off] the detective.",
+        "es": "Los fans quieren una serie aparte del detective."
+      }
+    ]
+  },
+  {
+    "id": "pv-stamp-out",
+    "type": "phrasal",
+    "term": "stamp out",
+    "sense": "completely stop something bad, like crime or abuse",
+    "ipa": "/ˈstæmp ˈaʊt/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "erradicar; acabar con",
+    "def": "to completely stop something bad, like a crime or a disease",
+    "note": "Con bullying, fraud, racism. Literal: apagar algo pisándolo (stamp out a fire).",
+    "syn": [
+      "eradicate",
+      "wipe out"
+    ],
+    "errors_es": "Pensar que significa 'estampar'. Confundirlo con 'stamp' solo (sellar).",
+    "ex": [
+      {
+        "en": "The school is trying to [stamp out] bullying.",
+        "es": "La escuela está tratando de acabar con el bullying."
+      },
+      {
+        "en": "He [stamped out] the campfire before we left.",
+        "es": "Apagó la fogata pisándola antes de irnos."
+      },
+      {
+        "en": "New rules aim to [stamp out] online fraud.",
+        "es": "Las nuevas reglas buscan erradicar el fraude en línea."
+      }
+    ]
+  },
+  {
+    "id": "pv-stand-down",
+    "type": "phrasal",
+    "term": "stand down",
+    "sense": "stop an action or withdraw, often after an order",
+    "ipa": "/ˈstænd ˈdaʊn/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "retirarse; abortar (una acción); bajar la guardia",
+    "def": "to stop an action or leave a position, often because you are ordered to",
+    "note": "Orden típica en series policiacas o militares: Stand down! = ¡Retírense! / ¡Alto, no actúen!",
+    "confuse": [
+      "step down (renunciar)",
+      "stand by (estar en espera)"
+    ],
+    "errors_es": "Confundirlo con 'step down' (renunciar a un cargo) o 'stand by' (estar en espera).",
+    "ex": [
+      {
+        "en": "[Stand down], officer, we've got it from here.",
+        "es": "Retírese, oficial, nosotros nos encargamos."
+      },
+      {
+        "en": "The team was told to [stand down] after the threat passed.",
+        "es": "Le dijeron al equipo que se retirara cuando pasó la amenaza."
+      },
+      {
+        "en": "He refused to [stand down] and kept pushing.",
+        "es": "Se negó a echarse para atrás y siguió presionando."
+      }
+    ]
+  },
+  {
+    "id": "pv-show-up-3",
+    "type": "phrasal",
+    "term": "show up",
+    "sense": "embarrass someone by doing better than them",
+    "ipa": "/ˈʃoʊ ˈʌp/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "dejar en ridículo; opacar (haciéndolo mejor)",
+    "def": "to make someone look bad or embarrassed by doing better than them",
+    "note": "Separable y siempre con objeto: Don't show me up in front of my boss. Distinto de show up = llegar.",
+    "syn": [
+      "upstage",
+      "outshine"
+    ],
+    "errors_es": "Confundirlo con 'show up' (llegar, presentarse). Decir 'show me down'.",
+    "ex": [
+      {
+        "en": "My little sister [showed me up] at the talent show.",
+        "es": "Mi hermanita me opacó en el concurso de talentos."
+      },
+      {
+        "en": "Don't [show me up] in front of my boss.",
+        "es": "No me dejes en ridículo enfrente de mi jefe."
+      },
+      {
+        "en": "He hates being [shown up] by the new guy.",
+        "es": "Odia que el nuevo lo deje en ridículo."
+      }
+    ]
+  },
+  {
+    "id": "pv-sit-on",
+    "type": "phrasal",
+    "term": "sit on",
+    "sense": "delay acting on something or keep information secret",
+    "ipa": "/ˈsɪt ˈɑn/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "series",
+      "proyectos"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "no mover; guardarse (información, una solicitud)",
+    "def": "to delay dealing with something, or to keep information secret",
+    "note": "Típico: They sat on the report for months. Inseparable.",
+    "errors_es": "Traducirlo literal como 'sentarse sobre' y no captar el sentido de retrasar u ocultar.",
+    "ex": [
+      {
+        "en": "HR has been [sitting on] my request for weeks.",
+        "es": "Recursos Humanos lleva semanas sin mover mi solicitud."
+      },
+      {
+        "en": "How long were you [sitting on] this secret?",
+        "es": "¿Cuánto tiempo te guardaste este secreto?"
+      },
+      {
+        "en": "The paper [sat on] the story until after the trial.",
+        "es": "El periódico se guardó la nota hasta después del juicio."
+      }
+    ]
+  },
+  {
+    "id": "pv-swoop-in",
+    "type": "phrasal",
+    "term": "swoop in",
+    "sense": "arrive suddenly to take something or to help",
+    "ipa": "/ˈswup ˈɪn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "llegar de golpe (a rescatar o a llevárselo)",
+    "def": "to arrive suddenly and quickly to take something or to help someone",
+    "note": "Como un ave de presa: Another buyer swooped in. También: swoop in and save the day.",
+    "errors_es": "Confundirlo con 'sweep' (barrer).",
+    "ex": [
+      {
+        "en": "Another buyer [swooped in] and grabbed the house.",
+        "es": "Llegó otro comprador de golpe y se quedó con la casa."
+      },
+      {
+        "en": "You can't just [swoop in] and take all the credit.",
+        "es": "No puedes llegar de la nada y llevarte todo el crédito."
+      },
+      {
+        "en": "Police [swooped in] at dawn.",
+        "es": "La policía cayó de sorpresa al amanecer."
+      }
+    ]
+  },
+  {
+    "id": "pv-stake-out",
+    "type": "phrasal",
+    "term": "stake out",
+    "sense": "watch a place secretly for a long time to catch someone",
+    "ipa": "/ˈsteɪk ˈaʊt/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "vigilar (a escondidas); montar guardia",
+    "def": "to watch a place secretly and for a long time, usually to catch someone",
+    "note": "Clásico de policiacas: a stakeout con café en el carro. También 'stake out a position' = fijar una postura.",
+    "forms": "stake out · staked out · staking out · stakeout (sustantivo: vigilancia)",
+    "errors_es": "Escribir 'steak out'. Confundirlo con 'stick out' (sobresalir).",
+    "ex": [
+      {
+        "en": "Detectives [staked out] the warehouse for three nights.",
+        "es": "Los detectives vigilaron la bodega tres noches."
+      },
+      {
+        "en": "We'll [stake out] his apartment tonight.",
+        "es": "Esta noche vamos a vigilar su departamento."
+      },
+      {
+        "en": "Fans [staked out] the hotel to see the band.",
+        "es": "Los fans hicieron guardia afuera del hotel para ver a la banda."
+      }
+    ]
+  },
+  {
+    "id": "pv-swear-off",
+    "type": "phrasal",
+    "term": "swear off",
+    "sense": "promise yourself to stop doing or using something",
+    "ipa": "/ˈswɛr ˈɔf/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "salud",
+      "relaciones"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "jurar dejar; renunciar a",
+    "def": "to promise yourself that you will stop doing or using something",
+    "note": "Típico tras una mala experiencia: I've sworn off dating. Pasado: swore off; participio: sworn off.",
+    "confuse": [
+      "swear by (confiar ciegamente en)"
+    ],
+    "errors_es": "Confundirlo con 'swear by' (confiar ciegamente en algo), que es casi lo contrario.",
+    "ex": [
+      {
+        "en": "After that breakup, I [swore off] dating apps.",
+        "es": "Después de esa ruptura, juré no volver a usar apps de citas."
+      },
+      {
+        "en": "He's [sworn off] fast food for good.",
+        "es": "Juró dejar la comida rápida para siempre."
+      },
+      {
+        "en": "I [swore off] tequila after my birthday.",
+        "es": "Le dije adiós al tequila después de mi cumpleaños."
+      }
+    ]
+  },
+  {
+    "id": "pv-scrape-together",
+    "type": "phrasal",
+    "term": "scrape together",
+    "sense": "collect enough money or people with great difficulty",
+    "ipa": "/ˈskreɪp təˈɡɛðɚ/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "vivienda",
+      "bancos"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "juntar a duras penas (dinero, gente)",
+    "def": "to collect enough money or people with a lot of difficulty",
+    "note": "Muy común con dinero: scrape together rent. Variante: scrape up.",
+    "confuse": [
+      "scrape by (irla pasando)"
+    ],
+    "errors_es": "Confundirlo con 'scrape by' (irla pasando). Usarlo para algo fácil de conseguir.",
+    "ex": [
+      {
+        "en": "We barely [scraped together] enough for rent.",
+        "es": "Apenas juntamos para la renta."
+      },
+      {
+        "en": "She [scraped together] a team in two days.",
+        "es": "Juntó un equipo a duras penas en dos días."
+      },
+      {
+        "en": "He's trying to [scrape together] money for a car.",
+        "es": "Está tratando de juntar como pueda para un carro."
+      }
+    ]
+  },
+  {
+    "id": "pv-sniff-out",
+    "type": "phrasal",
+    "term": "sniff out",
+    "sense": "discover something hidden by searching or by instinct",
+    "ipa": "/ˈsnɪf ˈaʊt/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "olfatear; descubrir (algo oculto)",
+    "def": "to discover something hidden by searching carefully or by instinct",
+    "note": "Literal con perros (sniff out drugs) y figurado: She can sniff out a lie.",
+    "errors_es": "Traducirlo solo como 'olfatear' sin el sentido de detectar o descubrir.",
+    "ex": [
+      {
+        "en": "Mom can [sniff out] a lie in two seconds.",
+        "es": "Mi mamá detecta una mentira en dos segundos."
+      },
+      {
+        "en": "The dogs [sniffed out] the drugs in the trunk.",
+        "es": "Los perros olfatearon la droga en la cajuela."
+      },
+      {
+        "en": "Good reporters [sniff out] stories nobody else sees.",
+        "es": "Los buenos reporteros descubren historias que nadie más ve."
+      }
+    ]
+  },
+  {
+    "id": "pv-set-about",
+    "type": "phrasal",
+    "term": "set about",
+    "sense": "start doing something, especially a task that takes effort",
+    "ipa": "/ˈsɛt əˈbaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "proyectos"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ponerse a; empezar a (una tarea)",
+    "def": "to start doing something, especially a job that needs effort",
+    "note": "Va seguido de -ing o sustantivo: set about fixing it. Suena más a narración que a plática casual.",
+    "errors_es": "Usar infinitivo: 'set about to fix' es raro; lo natural es 'set about fixing'.",
+    "ex": [
+      {
+        "en": "She [set about] cleaning up the mess right away.",
+        "es": "Se puso a limpiar el desastre de inmediato."
+      },
+      {
+        "en": "How do we even [set about] finding a new place?",
+        "es": "¿Por dónde empezamos a buscar un lugar nuevo?"
+      },
+      {
+        "en": "He [set about] rebuilding his life after prison.",
+        "es": "Se puso a reconstruir su vida después de la cárcel."
+      }
+    ]
+  },
+  {
+    "id": "pv-rub-out",
+    "type": "phrasal",
+    "term": "rub out",
+    "sense": "kill someone (old-fashioned gangster slang)",
+    "ipa": "/ˈrʌb ˈaʊt/",
+    "level": "C2",
+    "topic": "informal",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "liquidar; quitar de en medio (jerga de mafia)",
+    "def": "to murder someone, in old-fashioned criminal slang",
+    "note": "Suena a películas de gánsteres. El sentido 'borrar con goma' es más británico; en EE. UU. se dice erase.",
+    "errors_es": "Usarlo para 'borrar' en EE. UU. (allá se dice erase). Usarlo en serio fuera de bromas o ficción.",
+    "ex": [
+      {
+        "en": "The boss wanted him [rubbed out] by Friday.",
+        "es": "El jefe lo quería liquidado para el viernes."
+      },
+      {
+        "en": "They [rubbed out] anyone who talked to the cops.",
+        "es": "Quitaban de en medio a cualquiera que hablara con la policía."
+      },
+      {
+        "en": "In the movie, the mob tries to [rub out] the witness.",
+        "es": "En la película, la mafia intenta liquidar al testigo."
+      }
+    ]
+  },
+  {
+    "id": "pv-siphon-off",
+    "type": "phrasal",
+    "term": "siphon off",
+    "sense": "take money secretly and dishonestly over time",
+    "ipa": "/ˈsaɪfən ˈɔf/",
+    "level": "C2",
+    "topic": "money",
+    "areas": [
+      "noticias",
+      "bancos"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "desviar (fondos) a escondidas",
+    "def": "to secretly and dishonestly take money from somewhere, usually little by little",
+    "note": "Muy de noticias de fraude y series judiciales. Literal: sacar líquido con una manguera.",
+    "syn": [
+      "embezzle"
+    ],
+    "errors_es": "Escribir 'syphon' (variante rara). Decir 'steal' cuando el matiz es desviar poco a poco.",
+    "ex": [
+      {
+        "en": "The manager [siphoned off] thousands from the account.",
+        "es": "El gerente desvió miles de la cuenta."
+      },
+      {
+        "en": "He'd been [siphoning off] funds for years.",
+        "es": "Llevaba años desviando fondos."
+      },
+      {
+        "en": "They [siphoned off] donations meant for the shelter.",
+        "es": "Desviaron donativos que eran para el albergue."
+      }
+    ]
+  },
+  {
+    "id": "pv-stave-off",
+    "type": "phrasal",
+    "term": "stave off",
+    "sense": "keep something bad from happening, at least for a while",
+    "ipa": "/ˈsteɪv ˈɔf/",
+    "level": "C2",
+    "topic": "health",
+    "areas": [
+      "noticias",
+      "salud"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "evitar; mantener a raya (por un tiempo)",
+    "def": "to stop something bad from happening or reaching you, at least for some time",
+    "note": "Con hunger, boredom, bankruptcy, a cold. Muy de noticias. Implica retrasar una amenaza, no eliminarla.",
+    "syn": [
+      "ward off",
+      "fend off"
+    ],
+    "errors_es": "Usarlo como 'evitar' en general; aquí hay una amenaza que se retrasa.",
+    "ex": [
+      {
+        "en": "I ate a granola bar to [stave off] hunger.",
+        "es": "Me comí una barrita para aguantar el hambre."
+      },
+      {
+        "en": "The loan [staved off] bankruptcy for a year.",
+        "es": "El préstamo evitó la quiebra durante un año."
+      },
+      {
+        "en": "Coffee is the only thing [staving off] sleep right now.",
+        "es": "El café es lo único que me mantiene despierto ahorita."
+      }
+    ]
+  },
+  {
+    "id": "pv-square-away",
+    "type": "phrasal",
+    "term": "square away",
+    "sense": "finish organizing or dealing with something",
+    "ipa": "/ˈskwɛr əˈweɪ/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "reuniones"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "dejar listo; arreglar (pendientes)",
+    "def": "to finish arranging or dealing with something so it is ready",
+    "note": "Muy de EE. UU., de origen militar: Are you all squared away? = ¿Ya quedó todo listo?",
+    "syn": [
+      "sort out",
+      "take care of"
+    ],
+    "errors_es": "Desconocerlo y traducirlo como 'cuadrar lejos'. Confundirlo con 'square off' (encararse).",
+    "ex": [
+      {
+        "en": "Let's get the paperwork [squared away] today.",
+        "es": "Dejemos listo el papeleo hoy."
+      },
+      {
+        "en": "Are you all [squared away] for the trip?",
+        "es": "¿Ya tienes todo listo para el viaje?"
+      },
+      {
+        "en": "I'll [square away] the invoices before lunch.",
+        "es": "Dejo arregladas las facturas antes de comer."
+      }
+    ]
+  },
+  {
+    "id": "pv-sweat-out",
+    "type": "phrasal",
+    "term": "sweat out",
+    "sense": "wait anxiously for a result or endure something unpleasant",
+    "ipa": "/ˈswɛt ˈaʊt/",
+    "level": "C2",
+    "topic": "feelings",
+    "areas": [
+      "conversacion",
+      "salud"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "esperar con angustia; aguantar sufriendo",
+    "def": "to wait nervously for a result, or to bear something unpleasant until it ends",
+    "note": "Casi siempre: sweat it out. También = sudar una fiebre o un resfriado para curarse.",
+    "errors_es": "Pensarlo solo como sudar en el gym.",
+    "ex": [
+      {
+        "en": "We [sweated it out] waiting for the test results.",
+        "es": "Nos la pasamos con el alma en un hilo esperando los resultados."
+      },
+      {
+        "en": "He had to [sweat out] two days before they called.",
+        "es": "Tuvo que aguantar dos días de angustia antes de que le llamaran."
+      },
+      {
+        "en": "Just [sweat it out], they'll decide by Friday.",
+        "es": "Aguanta tantito, deciden para el viernes."
+      }
+    ]
+  },
+  {
+    "id": "pv-send-up",
+    "type": "phrasal",
+    "term": "send up",
+    "sense": "make fun of something by imitating it in a funny way",
+    "ipa": "/ˈsɛnd ˈʌp/",
+    "level": "C2",
+    "topic": "social",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "parodiar; burlarse de (imitando)",
+    "def": "to make fun of someone or something by copying them in a funny way",
+    "note": "Común en crítica de TV: a send-up of reality shows. Slang viejo de EE. UU.: send up = mandar a prisión.",
+    "forms": "send up · sent up · sending up · send-up (sustantivo: parodia)",
+    "syn": [
+      "parody",
+      "spoof"
+    ],
+    "errors_es": "Traducirlo como 'mandar arriba'. Confundirlo con 'set up' (tender una trampa).",
+    "ex": [
+      {
+        "en": "The sketch [sends up] those cooking competition shows.",
+        "es": "El sketch parodia esos concursos de cocina."
+      },
+      {
+        "en": "The movie [sends up] office life perfectly.",
+        "es": "La película parodia perfecto la vida de oficina."
+      },
+      {
+        "en": "They love [sending up] their own fans.",
+        "es": "Les encanta burlarse de sus propios fans imitándolos."
+      }
+    ]
+  },
+  {
+    "id": "pv-sew-up",
+    "type": "phrasal",
+    "term": "sew up",
+    "sense": "make sure of winning or completing something",
+    "ipa": "/ˈsoʊ ˈʌp/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "crm"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "amarrar; cerrar (un trato, una victoria)",
+    "def": "to make certain that you will win or complete something",
+    "note": "Común en pasiva: have it sewn up = tenerlo amarrado. Ojo: sew se pronuncia como 'so'.",
+    "syn": [
+      "clinch",
+      "lock up"
+    ],
+    "errors_es": "Pronunciarlo como 'sue'. Quedarse solo con el sentido de coser.",
+    "ex": [
+      {
+        "en": "We've got the deal [sewn up], just need signatures.",
+        "es": "Ya tenemos el trato amarrado, solo faltan firmas."
+      },
+      {
+        "en": "They [sewed up] the title with two games left.",
+        "es": "Amarraron el título con dos partidos de sobra."
+      },
+      {
+        "en": "Do you think she's [sewn up] the promotion?",
+        "es": "¿Crees que ya tiene amarrado el ascenso?"
+      }
+    ]
+  },
+  {
+    "id": "pv-seize-on",
+    "type": "phrasal",
+    "term": "seize on",
+    "sense": "quickly use an idea, mistake or chance to your advantage",
+    "ipa": "/ˈsiz ˈɑn/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "aprovechar; agarrarse de (un error, una idea)",
+    "def": "to quickly use an idea, a mistake or a chance for your own benefit",
+    "note": "Variante más formal: seize upon. Muy de noticias, juicios y debates: Critics seized on the mistake.",
+    "forms": "seize on · seize upon (más formal) · seized on",
+    "syn": [
+      "jump on",
+      "pounce on"
+    ],
+    "errors_es": "Confundirlo con 'seize up' (trabarse una máquina o un músculo).",
+    "ex": [
+      {
+        "en": "His rivals [seized on] the mistake immediately.",
+        "es": "Sus rivales se agarraron del error de inmediato."
+      },
+      {
+        "en": "The lawyer [seized on] one tiny inconsistency.",
+        "es": "El abogado se aferró a una pequeña contradicción."
+      },
+      {
+        "en": "She [seized on] the idea and ran with it.",
+        "es": "Agarró la idea al vuelo y la sacó adelante."
+      }
+    ]
+  },
+  {
+    "id": "pv-shake-out",
+    "type": "phrasal",
+    "term": "shake out",
+    "sense": "develop or end in a certain way",
+    "ipa": "/ˈʃeɪk ˈaʊt/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "proyectos"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "resultar; acabar (cómo quedan las cosas)",
+    "def": "to develop or end in a particular way, often after some uncertainty",
+    "note": "Muy de juntas en EE. UU.: Let's see how it shakes out. Literal: sacudir (shake out a rug).",
+    "confuse": [
+      "shake up (reorganizar)"
+    ],
+    "errors_es": "Quedarse con el sentido literal. Confundirlo con 'shake up' (reorganizar a fondo).",
+    "ex": [
+      {
+        "en": "Let's wait and see how things [shake out].",
+        "es": "Esperemos a ver cómo quedan las cosas."
+      },
+      {
+        "en": "Nobody knows how the merger will [shake out].",
+        "es": "Nadie sabe cómo va a acabar la fusión."
+      },
+      {
+        "en": "It all [shook out] better than we expected.",
+        "es": "Todo salió mejor de lo que esperábamos."
+      }
+    ]
+  }
+]

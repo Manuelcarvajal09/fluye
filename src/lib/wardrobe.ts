@@ -2,6 +2,8 @@
 // Las capas y sus cajas vienen de la entrega de arte (scripts/armario/export.mjs → armario-data.json).
 // Este módulo no toca la base de datos: lo usan cliente y servidor.
 import data from "./armario-data.json";
+// Capas por pose (celebra, piensa…), con el mismo formato que la pose feliz. Se llena con scripts/armario/import-poses.mjs.
+import posesData from "./armario-poses.json";
 
 export const TIERS = ["Normal", "Raro", "Épico", "Legendario"] as const;
 export type Tier = 0 | 1 | 2 | 3;
@@ -113,7 +115,7 @@ export const sanitizeWear = (wear: unknown): string[] => (Array.isArray(wear) ? 
 
 type Box = [number, number, number, number];
 type PetData = { whole: string[]; lower: Record<string, Box>; top: Record<string, Box>; fabric: Record<string, Box>; front: Record<string, Box>; ink: Record<string, Box>; badges: Record<string, [number, number, number]> };
-const D = data as unknown as { feet: Record<string, Record<string, number>>; groups: { body: string[]; neck: string[]; head: string[] }; pets: Record<string, PetData>; boxes: Record<string, Record<string, Box>> };
+const D = data as unknown as { feet: Record<string, Record<string, number>>; groups: { body: string[]; neck: string[]; head: string[] }; pets: Record<string, PetData>; boxes: Record<string, Record<string, Box>>; fit?: Record<string, { s: number; dx: number; dy: number }>; pieceFit?: Record<string, Record<string, number>> };
 
 /**
  * Para las demás poses (celebra, piensa…) solo se ponen las piezas de cabeza, cara y cabello, con la caja medida
@@ -122,28 +124,65 @@ const D = data as unknown as { feet: Record<string, Record<string, number>>; gro
 export function poseLayers(pet: string, wear: string[]): Layer[] {
   const boxes = D.boxes[pet];
   if (!boxes) return [];
+  const head = wear.find((k) => pieceOf(k)?.slot === "head");
+  const hat = head ? hatLayer(pet, head) : undefined;
   return [...wear]
     .filter((k) => ["face", "head", "hair"].includes(pieceOf(k)?.slot ?? "") && boxes[k])
     .sort((a, b) => SLOTS.indexOf(pieceOf(a)!.slot) - SLOTS.indexOf(pieceOf(b)!.slot))
     .map((k) => {
       const [x, y, w, h] = boxes[k];
-      return { src: `/armario/layers/${k}.webp`, x: x / 10.24, y: y / 10.24, w: w / 10.24, h: h / 10.24 };
+      const s = pieceOf(k)!.slot;
+      return { src: `/armario/layers/${k}.webp`, x: x / 10.24, y: y / 10.24, w: w / 10.24, h: h / 10.24, ...(hat && (s === "face" || s === "hair") ? { mask: hat } : {}) };
     });
 }
 
-export type Layer = { src: string; x: number; y: number; w: number; h: number };
+/** Capa: imagen y caja en % del lienzo. `mask` = silueta que la tapa (p. ej. el ala del sombrero sobre los lentes). */
+export type Layer = { src: string; x: number; y: number; w: number; h: number; mask?: Omit<Layer, "mask"> };
+
+/** El sombrero solo (sin mascota), en su caja medida para la especie: sirve de pieza suelta y de máscara de oclusión. */
+function hatLayer(pet: string, head: string): Omit<Layer, "mask"> | undefined {
+  const b = D.boxes[pet]?.[head];
+  return b ? { src: `/armario/layers/${head}.webp`, x: b[0] / 10.24, y: b[1] / 10.24, w: b[2] / 10.24, h: b[3] / 10.24 } : undefined;
+}
+
+/**
+ * Imágenes de cabeza con defectos de arte (docs/qa/mascotas-defectos.csv): en vez de la mascota repintada con el gorro,
+ * se dibuja la base (o la ropa) y el gorro como pieza suelta. Se quitan de aquí cuando llegue el arte corregido.
+ */
+const LOOSE_HEAD: Record<string, string[] | "all"> = {}; // vacío: la entrega de Codex (nov. 2026) corrigió la nutria y los audífonos
+const looseHead = (pet: string, head?: string) => !!head && (LOOSE_HEAD[pet] === "all" || (LOOSE_HEAD[pet] as string[] | undefined)?.includes(head));
 
 /** Capas (en % del lienzo cuadrado) para dibujar la mascota feliz con su conjunto. */
-export function dressLayers(pet: string, wear: string[]): Layer[] {
-  const m = D.pets[pet];
+type PoseData = PetData & { feet: Record<string, number>; fit: { s: number; dx: number; dy: number }; pieceFit?: Record<string, number> };
+const POSES = posesData as unknown as Record<string, Partial<Record<string, PoseData>>>;
+
+/** ¿Hay capas dibujadas para esta pose que cubran todas las piezas de cuerpo y cuello del conjunto? */
+export function poseCovers(pet: string, mood: string, wear: string[]) {
+  if (mood === "happy") return true;
+  const p = POSES[pet]?.[mood];
+  if (!p) return false;
+  return wear.every((k) => {
+    const s = pieceOf(k)?.slot;
+    return s === "body" || s === "neck" || s === "head" ? p.whole.includes(k) : s === "chest" || s === "face" || s === "hair" ? !!p.ink[k] : true;
+  });
+}
+
+/** Capas (en % del lienzo cuadrado) para dibujar la mascota con su conjunto en la pose pedida (feliz si no hay otra). */
+export function dressLayers(pet: string, wear: string[], mood = "happy"): Layer[] {
+  const pose = mood !== "happy" ? POSES[pet]?.[mood] : undefined;
+  const m = pose ?? D.pets[pet];
   if (!m) return [];
   const g = D.groups;
   const sel = [...wear].sort((a, b) => SLOTS.indexOf(pieceOf(a)?.slot ?? "body") - SLOTS.indexOf(pieceOf(b)?.slot ?? "body"));
   const body = sel.find((k) => g.body.includes(k));
   const neck = sel.find((k) => g.neck.includes(k));
-  const head = sel.find((k) => g.head.includes(k));
-  const low = body ?? neck;
-  const dir = `/armario/pets/${pet}`;
+  const headPiece = sel.find((k) => g.head.includes(k));
+  const loose = !pose && looseHead(pet, headPiece);
+  const head = loose ? undefined : headPiece;
+  // La blusa marinera trae su propio pañuelo: con otra pieza de cuello se usa la variante sin pañuelo (si existe).
+  const low0 = body ?? neck;
+  const low = low0 === "marinera" && neck && m.whole.includes("marinera-sin-panuelo") ? "marinera-sin-panuelo" : low0;
+  const dir = pose ? `/armario/poses/${pet}/${mood}` : `/armario/pets/${pet}`;
   const full: Box = [0, 0, 1024, 1024];
   const raw: [string, Box][] = [];
   if (head && low) raw.push([`${dir}/lower-${low}.webp`, m.lower[low]], [`${dir}/top-${head}.webp`, m.top[head]]);
@@ -153,20 +192,38 @@ export function dressLayers(pet: string, wear: string[]): Layer[] {
   }
   if (body && neck && m.fabric[neck]) raw.push([`${dir}/fabric-${neck}.webp`, m.fabric[neck]]);
   const small = sel.filter((k) => m.ink[k]);
+  // Pines: un mismo punto del pecho para todos (el de racha-5). Si hay pieza de cuello, se corren a un lado para no taparla.
+  const anchor = m.ink["racha-5"];
   for (const k of small) {
     let b = m.ink[k];
-    const pin = pieceOf(k)?.kind === "badge" ? m.badges[`${body}:${neck ?? ""}`] : undefined;
-    if (pin) {
-      const [x, y, max] = pin;
-      const s = Math.min(1, max / Math.max(b[2], b[3]));
-      b = [Math.round(x - (b[2] * s) / 2), Math.round(y - (b[3] * s) / 2), Math.round(b[2] * s), Math.round(b[3] * s)];
+    if (pieceOf(k)?.kind === "badge" && anchor) {
+      const cx = anchor[0] + anchor[2] / 2 - (neck ? anchor[2] * 1.15 : 0);
+      const cy = anchor[1] + anchor[3] / 2 + (neck ? anchor[3] * 0.2 : 0);
+      b = [Math.round(cx - b[2] / 2), Math.round(cy - b[3] / 2), b[2], b[3]];
     }
     raw.push([`/armario/layers/${k}.webp`, b]);
   }
   if (head && small.some((k) => pieceOf(k)?.kind === "glasses") && m.front[head]) raw.push([`${dir}/front-${head}.webp`, m.front[head]]);
   const scale = 880 / 1024;
-  const base = D.feet[pet]?.[low ?? head ?? "base"] ?? 964;
-  return raw.filter(([, b]) => !!b).map(([src, [x, y, w, h]]) => ({ src, x: (72 + x * scale) / 10.24, y: (964 + (y - base) * scale) / 10.24, w: (w * scale) / 10.24, h: (h * scale) / 10.24 }));
+  const base = (pose?.feet ?? D.feet[pet])?.[low ?? head ?? "base"] ?? 964;
+  // Calibración (scripts/armario/calibrar.mjs): la composición del probador queda más pequeña que las ilustraciones
+  // de las poses; se reescala para que la mascota vestida mida y se apoye igual que en cualquier otro estado.
+  const f = pose?.fit ?? D.fit?.[pet] ?? { s: 1, dx: 0, dy: 0 };
+  // Las imágenes con ropa de cuerpo o cuello vienen dibujadas ~10–20 % más grandes (scripts/armario/calibrar-piezas.mjs):
+  // se reducen alrededor de los pies para que la mascota no cambie de tamaño al vestirse.
+  const r = (low ? (pose ? pose.pieceFit?.[low] : D.pieceFit?.[pet]?.[low]) : undefined) ?? 1;
+  const at = (x: number, y: number) => [512 + (72 + x * scale - 512) * r, 964 - (964 - (964 + (y - base) * scale)) * r];
+  const hat = headPiece ? hatLayer(pet, headPiece) : undefined;
+  const out: Layer[] = raw
+    .filter(([, b]) => !!b)
+    .map(([src, [x, y, w, h]]) => {
+      const [X, Y] = at(x, y);
+      const kind = src.startsWith("/armario/layers/") ? pieceOf(src.slice(16, -5))?.slot : undefined;
+      // Lentes y adornos de cabello quedan bajo el ala del sombrero (máscara con la silueta del sombrero).
+      return { src, x: (X * f.s + f.dx) / 10.24, y: (Y * f.s + f.dy) / 10.24, w: (w * scale * r * f.s) / 10.24, h: (h * scale * r * f.s) / 10.24, ...(hat && !pose && (kind === "face" || kind === "hair") ? { mask: hat } : {}) };
+    });
+  if (loose && hat) out.push(hat);
+  return out;
 }
 
 // ---------- Cofres ----------

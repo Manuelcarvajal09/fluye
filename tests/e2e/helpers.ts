@@ -32,3 +32,41 @@ export async function resetTestData(userId: string) {
 
 /** Desbloquea un usuario de prueba en Clerk (por si una prueba anterior lo dejó bloqueado). */
 export const unban = (userId: string) => api(`/users/${userId}/unban`, { method: "POST" });
+
+/**
+ * Resuelve los formatos de ejercicio de Fluye 1.0 si están en pantalla (banco de palabras, dictado, emparejar).
+ * Devuelve el formato resuelto o null. Responde mal a propósito en fichas y dictado: solo se prueba que el flujo avanza.
+ */
+export async function solveNewFormats(page: import("@playwright/test").Page): Promise<string | null> {
+  const bank = page.getByRole("group", { name: "Palabras disponibles" });
+  if (await bank.isVisible().catch(() => false)) {
+    await bank.getByRole("button").first().click({ timeout: 2000 }).catch(() => {});
+    await page.getByRole("button", { name: "Comprobar" }).click({ timeout: 2000 }).catch(() => {});
+    return "build";
+  }
+  const dict = page.locator("#dictation");
+  if (await dict.isVisible().catch(() => false)) {
+    await page.getByRole("button", { name: "No la entendí" }).click({ timeout: 2000 }).catch(() => {});
+    return "dictation";
+  }
+  const left = page.getByRole("group", { name: "Expresiones" });
+  if (await left.isVisible().catch(() => false)) {
+    const rights = page.getByRole("group", { name: "Significados" }).getByRole("button");
+    for (let i = 0; i < 8; i++) {
+      const l = left.getByRole("button", { disabled: false }).first();
+      if (!(await l.isVisible().catch(() => false))) break;
+      await l.click({ timeout: 2000 }).catch(() => {});
+      const n = await rights.count();
+      for (let k = 0; k < n; k++) {
+        const r = rights.nth(k);
+        if (await r.isDisabled({ timeout: 500 }).catch(() => true)) continue;
+        await r.click({ timeout: 800 }).catch(() => {});
+        await page.waitForTimeout(120);
+        if (await l.isDisabled({ timeout: 500 }).catch(() => true)) break;
+        if (!(await l.getAttribute("aria-pressed", { timeout: 500 }).catch(() => null))?.includes("true")) await l.click({ timeout: 1000 }).catch(() => {});
+      }
+    }
+    return "match";
+  }
+  return null;
+}

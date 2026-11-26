@@ -74,14 +74,20 @@ export function collect(only = voices.voices.map((v) => v.id)) {
       for (const p of t.production) for (const x of p.model) for (const v of mains) add(v, x, "route-model");
     }
   }
+  // Inglés de series: cada personaje con la voz de su género (escenas completas, para escucharlas sin subtítulos).
+  for (const s of gen("series.json")) {
+    for (const ln of s.lines) add(byGender(ln.g), ln.en, "series");
+    for (const m of s.reply.model) for (const v of mains) add(v, m, "series-model");
+  }
   for (const e of gen("music.json")) for (const v of mains) {
     add(v, e.line, "music");
     add(v, e.spoken, "music");
     for (const x of e.transfer?.model ?? []) add(v, x, "music");
+    for (const x of e.examples ?? []) add(v, x.en, "music");
   }
 
   // P2: vocabulario. Primero lo más frecuente en series y los niveles bajos; término + ejemplos contiguos.
-  const lv = ["A1", "A2", "B1", "B2", "C1"];
+  const lv = ["A1", "A2", "B1", "B2", "C1", "C2"];
   const items = [...gen("items.json")].sort(
     (a, b) => (a.tvRank ?? 9999) - (b.tvRank ?? 9999) || lv.indexOf(a.level) - lv.indexOf(b.level) || b.freq - a.freq || a.id.localeCompare(b.id),
   );

@@ -19,7 +19,7 @@ export default async function SessionPage({ searchParams }: PageProps<"/sesion">
   const trackId = typeof sp.mision === "string" && getTrack(sp.mision) ? sp.mision : undefined;
   const resume = sp.reanudar === "1";
   const col = typeof sp.coleccion === "string" ? await collectionOf(profile.userId, sp.coleccion) : null;
-  const [{ steps, lessonId, kind, away }, [today]] = await Promise.all([buildSession(profile, min, { trackId, only: col?.items }), lastDays(profile, 1)]);
+  const [{ steps, lessonId, kind, away }, [today]] = await Promise.all([buildSession(profile, min, { trackId, only: col?.items, qaFormat: process.env.FLUYE_QA === "1" && sp.formato === "build" ? "build" : undefined }), lastDays(profile, 1)]);
   const look = lookOf(settingsOf(profile).look);
   const t = trackId ? getTrack(trackId) : undefined;
 

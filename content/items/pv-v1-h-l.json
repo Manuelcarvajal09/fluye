@@ -1,0 +1,3557 @@
+[
+  {
+    "id": "pv-hang-up-on",
+    "type": "phrasal",
+    "term": "hang up on",
+    "sense": "end a phone call abruptly while the other person is still talking",
+    "ipa": "/hæŋ ˈʌp ɑn/",
+    "level": "B1",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "colgarle a alguien",
+    "def": "to suddenly end a phone call with someone, often because you are angry",
+    "note": "Inseparable: hang up on me (no 'hang me up on'). 'Hang up' a secas es colgar sin más; con 'on' implica enojo o grosería.",
+    "forms": "hang up on · hung up on · hanging up on",
+    "confuse": [
+      "hang up (colgar normalmente)",
+      "hang on (esperar)"
+    ],
+    "errors_es": "Decir 'she hung me' o 'she closed me the phone'. En inglés se cuelga 'on' la persona: she hung up on me.",
+    "ex": [
+      {
+        "en": "Did you just [hang up on] me?",
+        "es": "¿Me acabas de colgar?"
+      },
+      {
+        "en": "She got mad and [hung up on] her boss.",
+        "es": "Se enojó y le colgó a su jefe."
+      },
+      {
+        "en": "Don't [hang up on] me, we need to talk.",
+        "es": "No me cuelgues, tenemos que hablar."
+      }
+    ]
+  },
+  {
+    "id": "pv-help-yourself-to",
+    "type": "phrasal",
+    "term": "help yourself to",
+    "sense": "take food or something freely, without waiting to be served",
+    "ipa": "/hɛlp jɚˈsɛlf tu/",
+    "level": "B1",
+    "topic": "food",
+    "areas": [
+      "restaurantes",
+      "conversacion"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "servirse; agarrar con confianza",
+    "def": "to take as much as you want of something that is offered, without waiting for someone to give it to you",
+    "note": "El reflexivo cambia: help yourself, help yourselves, he helped himself. Sin objeto: 'Help yourself!' = ¡Sírvete! Irónico si alguien tomó algo sin permiso.",
+    "forms": "help yourself to · helped himself to · helping yourselves to",
+    "errors_es": "Decir 'serve yourself' (suena raro en una casa) u olvidar el reflexivo: 'help to the cake'.",
+    "ex": [
+      {
+        "en": "There's pizza in the kitchen, [help yourself to] a slice.",
+        "es": "Hay pizza en la cocina, sírvete una rebanada."
+      },
+      {
+        "en": "He [helped himself to] my fries without asking.",
+        "es": "Agarró mis papas sin preguntar."
+      },
+      {
+        "en": "Please [help yourselves to] drinks while we wait.",
+        "es": "Sírvanse algo de tomar mientras esperamos."
+      }
+    ]
+  },
+  {
+    "id": "pv-invite-over",
+    "type": "phrasal",
+    "term": "invite over",
+    "sense": "invite someone to come to your home",
+    "ipa": "/ɪnˈvaɪt ˈoʊvɚ/",
+    "level": "B1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "invitar a la casa",
+    "def": "to ask someone to come to your house for a visit or a meal",
+    "note": "Separable y casi siempre separado: invite them over. 'Have someone over' significa lo mismo.",
+    "syn": [
+      "have over"
+    ],
+    "confuse": [
+      "invite out (invitar a salir)"
+    ],
+    "errors_es": "Decir siempre 'invite them to my house': es correcto pero largo. Con 'invite them over' no hace falta 'to my house'.",
+    "ex": [
+      {
+        "en": "Let's [invite the neighbors over] for dinner Saturday.",
+        "es": "Invitemos a los vecinos a cenar el sábado."
+      },
+      {
+        "en": "She [invited me over] to watch the game.",
+        "es": "Me invitó a su casa a ver el partido."
+      },
+      {
+        "en": "We never [invite anyone over] because the place is a mess.",
+        "es": "Nunca invitamos a nadie porque la casa es un desastre."
+      }
+    ]
+  },
+  {
+    "id": "pv-invite-out",
+    "type": "phrasal",
+    "term": "invite out",
+    "sense": "invite someone to go out somewhere with you, as friends or on a date",
+    "ipa": "/ɪnˈvaɪt ˈaʊt/",
+    "level": "B1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "invitar a salir",
+    "def": "to ask someone to go with you to a restaurant, a movie, or another place",
+    "note": "Separable: invite her out. Cercano a 'ask out', que siempre es cita romántica; 'invite out' puede ser solo amistoso.",
+    "syn": [
+      "ask out"
+    ],
+    "confuse": [
+      "invite over (a tu casa)",
+      "ask out (pedir una cita)"
+    ],
+    "errors_es": "Decir 'invite her to go out' es válido pero más largo. No confundir con 'invite over' (a tu casa).",
+    "ex": [
+      {
+        "en": "My coworkers [invited me out] for drinks after work.",
+        "es": "Mis compañeros me invitaron a tomar algo después del trabajo."
+      },
+      {
+        "en": "He finally [invited her out] to dinner.",
+        "es": "Por fin la invitó a cenar."
+      },
+      {
+        "en": "Thanks for [inviting us out] tonight, it was fun.",
+        "es": "Gracias por invitarnos a salir hoy, estuvo padre."
+      }
+    ]
+  },
+  {
+    "id": "pv-hop-off",
+    "type": "phrasal",
+    "term": "hop off",
+    "sense": "get off a bus, bike or train quickly, or leave an online call",
+    "ipa": "/hɑp ˈɔf/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "transporte",
+      "reuniones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "both",
+    "sep": false,
+    "es": "bajarse (rápido); salirse de una llamada",
+    "def": "to get off a bus, bike, or train quickly, or to leave a video call",
+    "note": "Informal. Contrario de 'hop on'. En trabajo remoto: I have to hop off = me tengo que salir de la llamada.",
+    "confuse": [
+      "hop on (subirse)",
+      "hop in (súbete al carro)"
+    ],
+    "errors_es": "Usarlo con un carro: para salir del carro se dice 'get out'. 'Hop off' es para bus, tren, bici o llamadas.",
+    "ex": [
+      {
+        "en": "I'll [hop off] at the next stop.",
+        "es": "Me bajo en la siguiente parada."
+      },
+      {
+        "en": "Sorry, I have to [hop off] this call early.",
+        "es": "Perdón, me tengo que salir antes de la llamada."
+      },
+      {
+        "en": "She [hopped off] her bike and ran inside.",
+        "es": "Se bajó de la bici y entró corriendo."
+      }
+    ]
+  },
+  {
+    "id": "pv-kneel-down",
+    "type": "phrasal",
+    "term": "kneel down",
+    "sense": "go down so that you rest on one or both knees",
+    "ipa": "/nil ˈdaʊn/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "arrodillarse; hincarse",
+    "def": "to move your body down so that you rest on your knees",
+    "note": "La k no se pronuncia: /nil/. Pasado: knelt o kneeled (en EE. UU. se oyen ambos). Típico en propuestas de matrimonio.",
+    "forms": "kneel down · knelt/kneeled down · kneeling down",
+    "errors_es": "Pronunciar la k. Decir 'put myself on my knees' en lugar de 'kneel down'.",
+    "ex": [
+      {
+        "en": "He [knelt down] and pulled out a ring.",
+        "es": "Se hincó y sacó un anillo."
+      },
+      {
+        "en": "I [kneeled down] to tie my son's shoe.",
+        "es": "Me hinqué para amarrarle el zapato a mi hijo."
+      },
+      {
+        "en": "Please [kneel down] so the people behind can see.",
+        "es": "Por favor hínquense para que vean los de atrás."
+      }
+    ]
+  },
+  {
+    "id": "pv-hang-out-2",
+    "type": "phrasal",
+    "term": "hang out",
+    "sense": "hang wet clothes outside so they can dry",
+    "ipa": "/hæŋ ˈaʊt/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "vivienda"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "tender (la ropa)",
+    "def": "to put wet clothes on a line outside so the sun and air can dry them",
+    "note": "Separable: hang the laundry out / hang it out. Distinto de 'pasar el rato'. En EE. UU. y Canadá casi todos usan secadora, así que es menos común.",
+    "confuse": [
+      "hang out (pasar el rato)",
+      "hang up (colgar en un gancho)"
+    ],
+    "errors_es": "Decir 'extend the clothes' (calco de 'tender'). Se dice hang the laundry out.",
+    "ex": [
+      {
+        "en": "Can you [hang the laundry out] before you leave?",
+        "es": "¿Puedes tender la ropa antes de irte?"
+      },
+      {
+        "en": "My grandma still [hangs her sheets out] every Monday.",
+        "es": "Mi abuela todavía tiende sus sábanas cada lunes."
+      },
+      {
+        "en": "I [hung the towels out] this morning.",
+        "es": "Tendí las toallas en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "pv-let-out-2",
+    "type": "phrasal",
+    "term": "let out",
+    "sense": "(school, a class or an event) end, so people can leave",
+    "ipa": "/lɛt ˈaʊt/",
+    "level": "B1",
+    "topic": "study",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "salir (de clases); terminar (la escuela, la función)",
+    "def": "to finish, so that the people inside are free to leave",
+    "note": "Muy de EE. UU.: School lets out at three = Salen de la escuela a las tres. El sujeto es la escuela o el evento, no la persona.",
+    "confuse": [
+      "let out (dejar salir; soltar)",
+      "get out (salir)"
+    ],
+    "errors_es": "Decir 'the kids let out at three': el sujeto es la escuela, la clase o la película.",
+    "ex": [
+      {
+        "en": "School [lets out] at 3:15 on Fridays.",
+        "es": "Los viernes salen de la escuela a las 3:15."
+      },
+      {
+        "en": "The movie [let out] around midnight.",
+        "es": "La película terminó como a medianoche."
+      },
+      {
+        "en": "Traffic is awful when the stadium [lets out].",
+        "es": "El tráfico es horrible cuando sale la gente del estadio."
+      }
+    ]
+  },
+  {
+    "id": "pv-look-up-3",
+    "type": "phrasal",
+    "term": "look up",
+    "sense": "visit or contact someone you know when you are in their area",
+    "ipa": "/lʊk ˈʌp/",
+    "level": "B1",
+    "topic": "social",
+    "areas": [
+      "viajes",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "buscar (a alguien) para verlo; visitar",
+    "def": "to visit or call someone you have not seen for a while when you are in the same city",
+    "note": "Separable y casi siempre separado: look me up. Típico al despedirse: If you're ever in Toronto, look me up.",
+    "confuse": [
+      "look up (buscar un dato)",
+      "look up to (admirar)"
+    ],
+    "errors_es": "Pensar que significa 'mirar hacia arriba' o 'buscar en internet'. Con una persona como objeto es buscarla para verla.",
+    "ex": [
+      {
+        "en": "If you're ever in Vancouver, [look me up].",
+        "es": "Si alguna vez andas por Vancouver, búscame."
+      },
+      {
+        "en": "I [looked up an old friend] when I was in Denver.",
+        "es": "Busqué a un viejo amigo cuando estuve en Denver."
+      },
+      {
+        "en": "You should [look her up] while you're in town.",
+        "es": "Deberías buscarla mientras estés en la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "pv-heal-up",
+    "type": "phrasal",
+    "term": "heal up",
+    "sense": "(a wound or injury) get completely better",
+    "ipa": "/hil ˈʌp/",
+    "level": "B1",
+    "topic": "health",
+    "areas": [
+      "salud"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "sanar; cicatrizar (por completo)",
+    "def": "to become healthy again after a cut, burn, or injury",
+    "note": "'Up' refuerza que sana del todo. Más coloquial que 'heal' a secas. Se usa con heridas y lesiones, no con enfermedades como la gripa.",
+    "confuse": [
+      "heal (sanar, más general)",
+      "get over (reponerse de una enfermedad)"
+    ],
+    "errors_es": "Decir 'my cold healed up': para gripa o resfriado se dice 'get over'. 'Heal up' es para heridas y lesiones.",
+    "ex": [
+      {
+        "en": "The cut on my hand finally [healed up].",
+        "es": "Por fin me cicatrizó la cortada de la mano."
+      },
+      {
+        "en": "Your knee needs time to [heal up] before you run.",
+        "es": "Tu rodilla necesita tiempo para sanar antes de que corras."
+      },
+      {
+        "en": "It's [healing up] nicely, just keep it clean.",
+        "es": "Está sanando bien, nomás mantenla limpia."
+      }
+    ]
+  },
+  {
+    "id": "pv-lie-back",
+    "type": "phrasal",
+    "term": "lie back",
+    "sense": "move from sitting to a lying or reclining position, usually to relax",
+    "ipa": "/laɪ ˈbæk/",
+    "level": "B1",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "recostarse; echarse para atrás",
+    "def": "to move your body from sitting to lying, usually to rest or relax",
+    "note": "Típico con el médico o el dentista: Just lie back and relax. Pasado irregular: lay back (no 'lied').",
+    "forms": "lie back · lay back · lain back · lying back",
+    "confuse": [
+      "lie down (acostarse)",
+      "lean back (inclinarse para atrás)"
+    ],
+    "errors_es": "Usar 'lied back' (lied = mintió). El pasado es 'lay back'. Confundir lie (recostarse) con lay (poner algo).",
+    "ex": [
+      {
+        "en": "[Lie back] and try to relax, this won't hurt.",
+        "es": "Recuéstese y trate de relajarse, esto no le va a doler."
+      },
+      {
+        "en": "She [lay back] on the couch and closed her eyes.",
+        "es": "Se recostó en el sillón y cerró los ojos."
+      },
+      {
+        "en": "Just [lie back] and enjoy the view.",
+        "es": "Nomás échate para atrás y disfruta la vista."
+      }
+    ]
+  },
+  {
+    "id": "pv-head-into",
+    "type": "phrasal",
+    "term": "head into",
+    "sense": "go into a place, or move into a new period of time",
+    "ipa": "/hɛd ˈɪntu/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "noticias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "entrar a; ir hacia (un lugar o una etapa)",
+    "def": "to go inside a place, or to move toward a new period like a season or a weekend",
+    "note": "Muy usado en noticias y en el trabajo: heading into the weekend, heading into the holidays. Con lugares: I'm heading into the office.",
+    "confuse": [
+      "head for (dirigirse a)",
+      "head out (irse)"
+    ],
+    "errors_es": "Decir 'entering the weekend' (calco). Lo natural es 'heading into the weekend'.",
+    "ex": [
+      {
+        "en": "I'm [heading into] the office early tomorrow.",
+        "es": "Mañana me voy temprano a la oficina."
+      },
+      {
+        "en": "We're [heading into] a busy season at work.",
+        "es": "Estamos entrando a una temporada pesada en el trabajo."
+      },
+      {
+        "en": "Storms are expected as we [head into] the weekend.",
+        "es": "Se esperan tormentas ya para el fin de semana."
+      }
+    ]
+  },
+  {
+    "id": "pv-look-in-on",
+    "type": "phrasal",
+    "term": "look in on",
+    "sense": "visit someone briefly to check that they are all right",
+    "ipa": "/lʊk ˈɪn ɑn/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "salud",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pasar a ver (cómo está alguien)",
+    "def": "to make a short visit to see if someone is OK, especially someone sick, old, or alone",
+    "note": "Inseparable: look in on her. Muy cercano a 'check on'. Típico con niños dormidos, enfermos o personas mayores.",
+    "syn": [
+      "check on"
+    ],
+    "confuse": [
+      "look into (investigar)",
+      "look after (cuidar)"
+    ],
+    "errors_es": "Decir 'look her in on'. También confundirlo con 'look into' (investigar).",
+    "ex": [
+      {
+        "en": "Can you [look in on] my mom while I'm away?",
+        "es": "¿Puedes pasar a ver a mi mamá mientras no estoy?"
+      },
+      {
+        "en": "The nurse [looked in on] him every hour.",
+        "es": "La enfermera pasaba a verlo cada hora."
+      },
+      {
+        "en": "I'll [look in on] the kids before bed.",
+        "es": "Voy a ver cómo están los niños antes de dormir."
+      }
+    ]
+  },
+  {
+    "id": "pv-hack-into",
+    "type": "phrasal",
+    "term": "hack into",
+    "sense": "get into a computer system or account without permission",
+    "ipa": "/hæk ˈɪntu/",
+    "level": "B2",
+    "topic": "tech",
+    "areas": [
+      "software",
+      "noticias",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "hackear; meterse sin permiso a (un sistema, una cuenta)",
+    "def": "to secretly get into someone else's computer, phone, or online account",
+    "note": "Inseparable: hack into the server. Muy de series policiacas y de ciencia ficción. 'Get hacked' = que te hackeen.",
+    "forms": "hack into · hacked into · hacking into · get hacked",
+    "confuse": [
+      "break into (meterse a un lugar a robar)"
+    ],
+    "errors_es": "Decir 'hack in the account'. Se dice 'hack into' o 'hack' a secas, nunca con 'in'.",
+    "ex": [
+      {
+        "en": "Someone [hacked into] my email last night.",
+        "es": "Alguien se metió a mi correo anoche."
+      },
+      {
+        "en": "Can you [hack into] their security cameras?",
+        "es": "¿Puedes meterte a sus cámaras de seguridad?"
+      },
+      {
+        "en": "The kid [hacked into] the school's grading system.",
+        "es": "El chavo hackeó el sistema de calificaciones de la escuela."
+      }
+    ]
+  },
+  {
+    "id": "pv-hide-out",
+    "type": "phrasal",
+    "term": "hide out",
+    "sense": "stay in a secret place so you cannot be found",
+    "ipa": "/haɪd ˈaʊt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "esconderse; refugiarse (un tiempo)",
+    "def": "to stay somewhere secret for a while so that people, often the police, cannot find you",
+    "note": "Sustantivo: hideout (escondite). Policiaco, pero también en broma: I'm hiding out in my room until the party ends.",
+    "forms": "hide out · hid out · hiding out · hideout (sustantivo)",
+    "confuse": [
+      "hole up (encerrarse, similar)",
+      "lie low (mantener perfil bajo)"
+    ],
+    "errors_es": "Usarlo con objeto: 'hide out the money' es incorrecto; para esconder algo se dice 'hide the money'.",
+    "ex": [
+      {
+        "en": "The suspect was [hiding out] at his cousin's place.",
+        "es": "El sospechoso estaba escondido en casa de su primo."
+      },
+      {
+        "en": "I'm [hiding out] in the kitchen until my in-laws leave.",
+        "es": "Me estoy escondiendo en la cocina hasta que se vayan mis suegros."
+      },
+      {
+        "en": "They [hid out] in the mountains for weeks.",
+        "es": "Se escondieron en las montañas durante semanas."
+      }
+    ]
+  },
+  {
+    "id": "pv-hunt-down",
+    "type": "phrasal",
+    "term": "hunt down",
+    "sense": "search hard for someone or something until you find them",
+    "ipa": "/hʌnt ˈdaʊn/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "dar con; localizar (tras mucho buscar)",
+    "def": "to search for someone or something for a long time until you finally find them",
+    "note": "Separable: hunt him down. En thrillers suena amenazante; en lo cotidiano no: I hunted down a copy of the book.",
+    "syn": [
+      "track down"
+    ],
+    "confuse": [
+      "track down (casi igual, más neutro)"
+    ],
+    "errors_es": "Traducirlo como 'cazar abajo'. Con cosas no suena violento: hunt down a charger = conseguir un cargador.",
+    "ex": [
+      {
+        "en": "We will [hunt them down], wherever they go.",
+        "es": "Los vamos a encontrar, vayan a donde vayan."
+      },
+      {
+        "en": "I finally [hunted down] the receipt you needed.",
+        "es": "Por fin encontré el recibo que necesitabas."
+      },
+      {
+        "en": "She [hunted him down] through his old coworkers.",
+        "es": "Dio con él a través de sus antiguos compañeros."
+      }
+    ]
+  },
+  {
+    "id": "pv-horse-around",
+    "type": "phrasal",
+    "term": "horse around",
+    "sense": "play in a rough, noisy, silly way",
+    "ipa": "/hɔrs əˈraʊnd/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "echar relajo; jugar brusco",
+    "def": "to play in a noisy, silly, physical way, often where you might break something or get hurt",
+    "note": "Típico de papás y maestros: Stop horsing around! Parecido a 'mess around', pero más físico.",
+    "syn": [
+      "mess around",
+      "goof around"
+    ],
+    "confuse": [
+      "fool around (también puede ser fajar)"
+    ],
+    "errors_es": "Traducirlo con caballos. Usar 'fool around' sin saber que puede tener sentido sexual; 'horse around' es inocente.",
+    "ex": [
+      {
+        "en": "Stop [horsing around] near the pool!",
+        "es": "¡Dejen de echar relajo cerca de la alberca!"
+      },
+      {
+        "en": "The boys were [horsing around] and broke a lamp.",
+        "es": "Los niños andaban jugando brusco y rompieron una lámpara."
+      },
+      {
+        "en": "We [horsed around] in the backyard all afternoon.",
+        "es": "Estuvimos de relajo en el patio toda la tarde."
+      }
+    ]
+  },
+  {
+    "id": "pv-hose-down",
+    "type": "phrasal",
+    "term": "hose down",
+    "sense": "wash or soak something with water from a hose",
+    "ipa": "/hoʊz ˈdaʊn/",
+    "level": "B2",
+    "topic": "home",
+    "areas": [
+      "vivienda"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "lavar con manguera; mojar con manguera",
+    "def": "to clean or wet something by spraying it with water from a long rubber tube",
+    "note": "Separable: hose it down. Con patios, carros, perros… y en broma con personas.",
+    "errors_es": "Decir siempre 'wash with the hose': es correcto, pero 'hose down' es lo natural. 'Hose' se pronuncia /hoʊz/, con z.",
+    "ex": [
+      {
+        "en": "Can you [hose down] the driveway?",
+        "es": "¿Puedes lavar la entrada con la manguera?"
+      },
+      {
+        "en": "We [hosed the dog down] after the hike.",
+        "es": "Bañamos al perro con la manguera después de la caminata."
+      },
+      {
+        "en": "They're [hosing down] the patio for the party.",
+        "es": "Están lavando el patio con la manguera para la fiesta."
+      }
+    ]
+  },
+  {
+    "id": "pv-hold-down-2",
+    "type": "phrasal",
+    "term": "hold down",
+    "sense": "use force to keep someone or something from moving",
+    "ipa": "/hoʊld ˈdaʊn/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "emergencias",
+      "series",
+      "soporte"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "sujetar; inmovilizar; dejar presionado",
+    "def": "to use force to stop a person or thing from moving or getting up",
+    "note": "Separable: hold him down. Distinto de 'hold down a job' (conservar un empleo). Con teclas: hold down the button = dejarlo presionado.",
+    "confuse": [
+      "hold down (un empleo)",
+      "hold back (contener)"
+    ],
+    "errors_es": "Decir 'press him down' o 'hold him under'. Lo natural es hold him down.",
+    "ex": [
+      {
+        "en": "It took three officers to [hold him down].",
+        "es": "Hicieron falta tres policías para inmovilizarlo."
+      },
+      {
+        "en": "[Hold down] the power button for ten seconds.",
+        "es": "Deja presionado el botón de encendido diez segundos."
+      },
+      {
+        "en": "I [held the tarp down] so it wouldn't blow away.",
+        "es": "Sujeté la lona para que no se la llevara el viento."
+      }
+    ]
+  },
+  {
+    "id": "pv-have-against",
+    "type": "phrasal",
+    "term": "have against",
+    "sense": "have a reason to dislike or distrust someone or something",
+    "ipa": "/hæv əˈɡɛnst/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "tener (algo) en contra de",
+    "def": "to have a reason for not liking or not trusting someone or something",
+    "note": "Casi siempre en pregunta o negación con 'anything/something/nothing' en medio: What do you have against him? I have nothing against cats.",
+    "confuse": [
+      "hold against (guardar rencor por algo concreto)"
+    ],
+    "errors_es": "Decir 'what do you have with him?'. La preposición es 'against' y something/nothing va en medio.",
+    "ex": [
+      {
+        "en": "What do you [have against] my boyfriend?",
+        "es": "¿Qué tienes en contra de mi novio?"
+      },
+      {
+        "en": "I [have nothing against] remote work.",
+        "es": "No tengo nada en contra del trabajo remoto."
+      },
+      {
+        "en": "She seems to [have something against] me.",
+        "es": "Parece que trae algo contra mí."
+      }
+    ]
+  },
+  {
+    "id": "pv-hit-up-2",
+    "type": "phrasal",
+    "term": "hit up",
+    "sense": "ask someone directly for money or a favor",
+    "ipa": "/hɪt ˈʌp/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "slang"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "pedirle (dinero o un favor) a alguien",
+    "def": "to ask a person to give you money or help, often in a direct way",
+    "note": "Con 'for': hit him up for a loan. Objeto en medio. Muy informal, de EE. UU.",
+    "confuse": [
+      "hit up (escribirle o buscar a alguien)",
+      "hit on (coquetear)"
+    ],
+    "errors_es": "Confundirlo con 'hit on' (coquetear). Olvidar 'for' antes de lo que se pide.",
+    "ex": [
+      {
+        "en": "He [hit me up] for twenty bucks again.",
+        "es": "Otra vez me pidió veinte dólares."
+      },
+      {
+        "en": "Maybe we can [hit your uncle up] for a ride.",
+        "es": "A lo mejor le podemos pedir un aventón a tu tío."
+      },
+      {
+        "en": "Every year they [hit us up] for donations.",
+        "es": "Cada año nos piden donativos."
+      }
+    ]
+  },
+  {
+    "id": "pv-keep-down-2",
+    "type": "phrasal",
+    "term": "keep down",
+    "sense": "manage to eat or drink something without vomiting",
+    "ipa": "/kip ˈdaʊn/",
+    "level": "B2",
+    "topic": "health",
+    "areas": [
+      "salud"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "retener (comida); no vomitar",
+    "def": "to be able to eat or drink something without throwing it up",
+    "note": "Casi siempre en negativo: I can't keep anything down. Separable: keep it down (que también puede ser '¡bájale!' al ruido).",
+    "confuse": [
+      "keep down (bajar el ruido)",
+      "throw up (vomitar)"
+    ],
+    "errors_es": "Decir 'I can't retain food': suena a informe médico. Lo natural es 'I can't keep anything down'.",
+    "ex": [
+      {
+        "en": "She has the flu and can't [keep anything down].",
+        "es": "Tiene gripa y no retiene nada."
+      },
+      {
+        "en": "Try some crackers and see if you can [keep them down].",
+        "es": "Prueba unas galletas saladas a ver si no las vomitas."
+      },
+      {
+        "en": "He finally [kept some soup down] this morning.",
+        "es": "Por fin retuvo un poco de sopa en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "pv-key-in",
+    "type": "phrasal",
+    "term": "key in",
+    "sense": "type information into a computer or machine",
+    "ipa": "/ki ˈɪn/",
+    "level": "B2",
+    "topic": "tech",
+    "areas": [
+      "datos",
+      "soporte"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "teclear; capturar (datos)",
+    "def": "to type numbers or words into a computer, phone, or machine",
+    "note": "Separable: key in your PIN / key it in. Algo más formal que 'type in' o 'enter'.",
+    "syn": [
+      "type in",
+      "enter"
+    ],
+    "errors_es": "Decir 'key on' o 'key up'. La partícula es 'in'.",
+    "ex": [
+      {
+        "en": "Please [key in] your PIN and press enter.",
+        "es": "Por favor teclee su NIP y presione enter."
+      },
+      {
+        "en": "I [keyed the numbers in] twice to be sure.",
+        "es": "Capturé los números dos veces para estar seguro."
+      },
+      {
+        "en": "She spent the afternoon [keying in] orders.",
+        "es": "Se pasó la tarde capturando pedidos."
+      }
+    ]
+  },
+  {
+    "id": "pv-kick-in-2",
+    "type": "phrasal",
+    "term": "kick in",
+    "sense": "contribute money as your share of a cost or gift",
+    "ipa": "/kɪk ˈɪn/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "conversacion",
+      "compras"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "both",
+    "sep": true,
+    "es": "cooperar; poner (dinero)",
+    "def": "to give some money as your part of a shared cost or a group gift",
+    "note": "Muy de EE. UU. y Canadá. Con cantidad: Everyone kicked in twenty bucks. Similar a 'chip in'.",
+    "syn": [
+      "chip in",
+      "pitch in"
+    ],
+    "confuse": [
+      "kick in (hacer efecto)"
+    ],
+    "errors_es": "Usar 'cooperate' (calco de 'cooperar'): en inglés 'cooperate' no significa poner dinero.",
+    "ex": [
+      {
+        "en": "Everyone [kicked in] ten bucks for her gift.",
+        "es": "Todos cooperamos con diez dólares para su regalo."
+      },
+      {
+        "en": "Can you [kick in] for the pizza?",
+        "es": "¿Le entras con lo de la pizza?"
+      },
+      {
+        "en": "My parents [kicked in] some money for the trip.",
+        "es": "Mis papás pusieron algo de dinero para el viaje."
+      }
+    ]
+  },
+  {
+    "id": "pv-kick-in-3",
+    "type": "phrasal",
+    "term": "kick in",
+    "sense": "break a door or window open by kicking it",
+    "ipa": "/kɪk ˈɪn/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "tumbar a patadas (una puerta)",
+    "def": "to break something, usually a door, by kicking it very hard",
+    "note": "Separable: kick the door in / kick it in. Escena clásica de policías. 'Kick down' es casi igual.",
+    "syn": [
+      "kick down",
+      "break down"
+    ],
+    "confuse": [
+      "kick in (hacer efecto)",
+      "kick in (cooperar dinero)"
+    ],
+    "errors_es": "Decir solo 'kick the door' (patearla sin romperla). 'In' indica que la abren a la fuerza.",
+    "ex": [
+      {
+        "en": "The cops [kicked the door in] at dawn.",
+        "es": "Los policías tumbaron la puerta a patadas al amanecer."
+      },
+      {
+        "en": "Open up or we'll [kick it in]!",
+        "es": "¡Abran o la tumbamos!"
+      },
+      {
+        "en": "Someone [kicked in] our back door while we were away.",
+        "es": "Alguien tumbó la puerta de atrás mientras no estábamos."
+      }
+    ]
+  },
+  {
+    "id": "pv-knock-off-3",
+    "type": "phrasal",
+    "term": "knock off",
+    "sense": "stop working for the day",
+    "ipa": "/nɑk ˈɔf/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "salir de trabajar; terminar la jornada",
+    "def": "to stop work at the end of the day, or earlier than usual",
+    "note": "Informal: Let's knock off early. Con hora: I knock off at five. No confundir con 'knock it off' (¡ya párale!).",
+    "confuse": [
+      "knock it off (ya párale)",
+      "knock off (rebajar)"
+    ],
+    "errors_es": "Usarlo para salir de cualquier lugar: solo se dice del trabajo o de una actividad.",
+    "ex": [
+      {
+        "en": "Let's [knock off] early and grab a beer.",
+        "es": "Salgamos temprano y vamos por una cerveza."
+      },
+      {
+        "en": "What time do you [knock off] on Fridays?",
+        "es": "¿A qué hora sales los viernes?"
+      },
+      {
+        "en": "The crew [knocked off] at four because of the rain.",
+        "es": "La cuadrilla terminó a las cuatro por la lluvia."
+      }
+    ]
+  },
+  {
+    "id": "pv-keep-to-oneself",
+    "type": "phrasal",
+    "term": "keep to oneself",
+    "sense": "be private and quiet, and not spend much time with other people",
+    "ipa": "/kip tu wʌnˈsɛlf/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "ser reservado; no meterse con nadie",
+    "def": "to stay quiet and private and not talk to or spend time with others much",
+    "note": "El reflexivo cambia: He keeps to himself. Típico en noticias: 'He was quiet, kept to himself.' Con objeto, 'keep it to yourself' = no lo cuentes.",
+    "forms": "keep to myself/yourself/himself · kept to herself",
+    "confuse": [
+      "keep to (apegarse a un plan)",
+      "keep (something) to yourself (no contarlo)"
+    ],
+    "errors_es": "Olvidar el reflexivo ('he keeps to'). Decir siempre 'he is very reserved': correcto, pero más formal.",
+    "ex": [
+      {
+        "en": "Our new neighbor mostly [keeps to himself].",
+        "es": "El vecino nuevo casi no se mete con nadie."
+      },
+      {
+        "en": "At work I [keep to myself] and do my job.",
+        "es": "En el trabajo soy reservado y hago lo mío."
+      },
+      {
+        "en": "She's nice, she just [keeps to herself] a lot.",
+        "es": "Es buena onda, nomás es muy reservada."
+      }
+    ]
+  },
+  {
+    "id": "pv-jazz-up",
+    "type": "phrasal",
+    "term": "jazz up",
+    "sense": "make something more interesting, attractive or fun",
+    "ipa": "/dʒæz ˈʌp/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "darle vida; arreglar (para que se vea mejor)",
+    "def": "to add something to make a thing more exciting, colorful, or fun",
+    "note": "Separable: jazz it up. Con ropa, comida, presentaciones o cuartos. Parecido a 'spice up'.",
+    "syn": [
+      "spice up",
+      "liven up"
+    ],
+    "errors_es": "Pensar que tiene que ver con música. Significa mejorar el aspecto o el sabor de algo.",
+    "ex": [
+      {
+        "en": "Add some lime to [jazz up] the rice.",
+        "es": "Échale limón para darle sabor al arroz."
+      },
+      {
+        "en": "We need to [jazz this presentation up] a bit.",
+        "es": "Hay que darle un poco de vida a esta presentación."
+      },
+      {
+        "en": "She [jazzed up] the old dress with a belt.",
+        "es": "Le dio otro aire al vestido viejo con un cinturón."
+      }
+    ]
+  },
+  {
+    "id": "pv-jump-ahead",
+    "type": "phrasal",
+    "term": "jump ahead",
+    "sense": "skip forward to a later part of a story, video or process",
+    "ipa": "/dʒʌmp əˈhɛd/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "adelantarse; saltar (a una parte posterior)",
+    "def": "to go directly to a later part of a story, video, meeting, or process",
+    "note": "Con 'to': let's jump ahead to the results. También al hablar: Don't jump ahead, let me finish.",
+    "confuse": [
+      "get ahead (progresar)",
+      "go ahead (adelante; hazlo)"
+    ],
+    "errors_es": "Decir 'advance to' en lugar de 'jump ahead to'. 'Advance' suena formal y técnico.",
+    "ex": [
+      {
+        "en": "Let's [jump ahead] to the last slide.",
+        "es": "Saltemos a la última diapositiva."
+      },
+      {
+        "en": "Don't [jump ahead], I'm getting to that part.",
+        "es": "No te adelantes, ahorita llego a esa parte."
+      },
+      {
+        "en": "The show [jumps ahead] ten years in season two.",
+        "es": "La serie da un salto de diez años en la segunda temporada."
+      }
+    ]
+  },
+  {
+    "id": "pv-join-up",
+    "type": "phrasal",
+    "term": "join up",
+    "sense": "enlist in the army, navy or another military force",
+    "ipa": "/dʒɔɪn ˈʌp/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "enlistarse (en el ejército)",
+    "def": "to become a member of the army, navy, or another military group",
+    "note": "Sin objeto: He joined up at eighteen. Con objeto se usa 'join': join the army. 'Enlist' es más formal.",
+    "syn": [
+      "enlist",
+      "sign up"
+    ],
+    "errors_es": "Decir 'he enlisted himself' (calco del reflexivo). Lo natural: he joined up / he enlisted.",
+    "ex": [
+      {
+        "en": "He [joined up] right after high school.",
+        "es": "Se enlistó saliendo de la prepa."
+      },
+      {
+        "en": "Both my grandfathers [joined up] during the war.",
+        "es": "Mis dos abuelos se enlistaron durante la guerra."
+      },
+      {
+        "en": "Why did you [join up] in the first place?",
+        "es": "¿Y para empezar, por qué te enlistaste?"
+      }
+    ]
+  },
+  {
+    "id": "pv-ice-over",
+    "type": "phrasal",
+    "term": "ice over",
+    "sense": "become covered with a layer of ice",
+    "ipa": "/aɪs ˈoʊvɚ/",
+    "level": "B2",
+    "topic": "canada",
+    "areas": [
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "ca"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "congelarse; cubrirse de hielo",
+    "def": "to become covered with a layer of frozen water",
+    "note": "Típico del invierno en Canadá y el norte de EE. UU.: The lake iced over. 'Ice up' se usa más con parabrisas, alas de avión o cerraduras.",
+    "forms": "ice over · iced over · icing over",
+    "syn": [
+      "freeze over"
+    ],
+    "confuse": [
+      "ice up (parabrisas, cerraduras)"
+    ],
+    "errors_es": "Decir 'the lake froze itself'. Lo natural: the lake froze over / iced over.",
+    "ex": [
+      {
+        "en": "The roads [iced over] overnight, so drive carefully.",
+        "es": "Las calles se congelaron en la noche, así que maneja con cuidado."
+      },
+      {
+        "en": "The pond usually [ices over] by December.",
+        "es": "El estanque normalmente se congela para diciembre."
+      },
+      {
+        "en": "My windshield had [iced over] by the time I left.",
+        "es": "Cuando salí, el parabrisas ya estaba cubierto de hielo."
+      }
+    ]
+  },
+  {
+    "id": "pv-lag-behind",
+    "type": "phrasal",
+    "term": "lag behind",
+    "sense": "move or develop more slowly than others",
+    "ipa": "/læɡ bɪˈhaɪnd/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "noticias",
+      "datos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": false,
+    "es": "quedarse atrás; ir rezagado",
+    "def": "to move or develop more slowly than other people or things",
+    "note": "Con objeto: lag behind the competition. En datos y noticias: wages lag behind inflation.",
+    "syn": [
+      "fall behind"
+    ],
+    "confuse": [
+      "fall behind (atrasarse con pagos o tareas)",
+      "stay behind (quedarse en un lugar)"
+    ],
+    "errors_es": "Decir 'stay behind', que es quedarse en un lugar cuando los demás se van, no ir más lento.",
+    "ex": [
+      {
+        "en": "Our sales are [lagging behind] last year's.",
+        "es": "Las ventas van por debajo de las del año pasado."
+      },
+      {
+        "en": "Wages have [lagged behind] rent for years.",
+        "es": "Los sueldos llevan años rezagados frente a las rentas."
+      },
+      {
+        "en": "Stop [lagging behind], we'll miss the train!",
+        "es": "¡No te quedes atrás, vamos a perder el tren!"
+      }
+    ]
+  },
+  {
+    "id": "pv-laze-around",
+    "type": "phrasal",
+    "term": "laze around",
+    "sense": "relax and spend time doing almost nothing",
+    "ipa": "/leɪz əˈraʊnd/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "flojear; holgazanear",
+    "def": "to relax and spend time doing very little",
+    "note": "Puede ser positivo o crítico según el tono: We just lazed around all weekend. Parecido a 'lounge around'.",
+    "syn": [
+      "lounge around",
+      "lie around"
+    ],
+    "errors_es": "Decir 'be lazy all day' para un día de descanso; 'laze around' suena más natural y menos duro.",
+    "ex": [
+      {
+        "en": "We [lazed around] the house all Sunday.",
+        "es": "Nos la pasamos flojeando en la casa todo el domingo."
+      },
+      {
+        "en": "I just want to [laze around] on the beach.",
+        "es": "Solo quiero flojear en la playa."
+      },
+      {
+        "en": "He spent the summer [lazing around] instead of working.",
+        "es": "Se pasó el verano holgazaneando en vez de trabajar."
+      }
+    ]
+  },
+  {
+    "id": "pv-lay-over",
+    "type": "phrasal",
+    "term": "lay over",
+    "sense": "stop somewhere for a while during a long trip, usually between flights",
+    "ipa": "/leɪ ˈoʊvɚ/",
+    "level": "B2",
+    "topic": "travel",
+    "areas": [
+      "viajes",
+      "transporte"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "hacer escala",
+    "def": "to stop for some time in a place during a long trip before continuing",
+    "note": "El sustantivo 'layover' (escala) es mucho más común: a three-hour layover in Dallas. Como verbo: We laid over in Calgary.",
+    "forms": "lay over · laid over · layover (sustantivo)",
+    "syn": [
+      "stop over"
+    ],
+    "errors_es": "Decir 'make a scale' (calco de 'hacer escala'). Se dice 'have a layover' o 'lay over'.",
+    "ex": [
+      {
+        "en": "We [laid over] in Chicago for six hours.",
+        "es": "Hicimos escala de seis horas en Chicago."
+      },
+      {
+        "en": "Do we [lay over] anywhere on the way to Toronto?",
+        "es": "¿Hacemos escala en algún lado rumbo a Toronto?"
+      },
+      {
+        "en": "We're [laying over] in Denver tonight.",
+        "es": "Hoy en la noche hacemos escala en Denver."
+      }
+    ]
+  },
+  {
+    "id": "pv-leak-out",
+    "type": "phrasal",
+    "term": "leak out",
+    "sense": "(secret information) become known to the public",
+    "ipa": "/lik ˈaʊt/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "filtrarse; salir a la luz",
+    "def": "to become known by people even though it was supposed to stay secret",
+    "note": "El sujeto es la noticia o el secreto. Para quien filtra: someone leaked the news. Sustantivo: a leak (una filtración).",
+    "confuse": [
+      "leak (gotear; filtrar algo)",
+      "come out (salir a la luz)"
+    ],
+    "errors_es": "Decir 'the news filtered': 'filter' no se usa así. Lo natural: the news leaked out.",
+    "ex": [
+      {
+        "en": "The news [leaked out] before the official announcement.",
+        "es": "La noticia se filtró antes del anuncio oficial."
+      },
+      {
+        "en": "If this [leaks out], we're done.",
+        "es": "Si esto se filtra, estamos acabados."
+      },
+      {
+        "en": "Details of the deal are starting to [leak out].",
+        "es": "Ya empiezan a filtrarse detalles del acuerdo."
+      }
+    ]
+  },
+  {
+    "id": "pv-lean-in",
+    "type": "phrasal",
+    "term": "lean in",
+    "sense": "fully commit to a situation or task and put real effort into it",
+    "ipa": "/lin ˈɪn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "entrarle de lleno; involucrarse a fondo",
+    "def": "to fully accept a situation or task and give it real energy instead of resisting",
+    "note": "Muy de oficina en EE. UU.: lean in, lean into the change. Literal: inclinarse hacia adelante (para oír mejor o dar un beso).",
+    "forms": "lean in · lean into (something)",
+    "confuse": [
+      "lean on (apoyarse en)",
+      "lean toward (inclinarse por)"
+    ],
+    "errors_es": "Traducirlo solo como 'inclinarse'. En el trabajo significa comprometerse de lleno.",
+    "ex": [
+      {
+        "en": "If we're doing this, let's [lean in] all the way.",
+        "es": "Si lo vamos a hacer, entrémosle de lleno."
+      },
+      {
+        "en": "Instead of fighting the new system, just [lean into] it.",
+        "es": "En vez de pelear con el sistema nuevo, aviéntate de lleno."
+      },
+      {
+        "en": "The whole team really [leaned in] during the launch.",
+        "es": "Todo el equipo de verdad se la rifó en el lanzamiento."
+      }
+    ]
+  },
+  {
+    "id": "pv-liven-up",
+    "type": "phrasal",
+    "term": "liven up",
+    "sense": "become, or make something, more lively and fun",
+    "ipa": "/ˈlaɪvən ˈʌp/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "animar(se); alegrar",
+    "def": "to become more exciting, or to make a place or an event more fun",
+    "note": "Separable: liven things up / liven it up. 'Things' es el objeto más común. Sin objeto: The party livened up after ten.",
+    "syn": [
+      "jazz up",
+      "spice up"
+    ],
+    "confuse": [
+      "live up to (estar a la altura)"
+    ],
+    "errors_es": "Decir 'animate the party' (calco). 'Animate' se usa para dibujos animados.",
+    "ex": [
+      {
+        "en": "Some music might [liven things up].",
+        "es": "Un poco de música podría animar el ambiente."
+      },
+      {
+        "en": "The party [livened up] after midnight.",
+        "es": "La fiesta se animó después de medianoche."
+      },
+      {
+        "en": "Bright pillows [livened up] the living room.",
+        "es": "Unos cojines de colores alegraron la sala."
+      }
+    ]
+  },
+  {
+    "id": "pv-live-it-up",
+    "type": "phrasal",
+    "term": "live it up",
+    "sense": "enjoy yourself a lot, often by spending money",
+    "ipa": "/lɪv ɪt ˈʌp/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "viajes",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "darse la gran vida; disfrutar en grande",
+    "def": "to have a lot of fun and enjoy yourself, often by spending a lot of money",
+    "note": "Fija con 'it'. Típico con vacaciones o con alguien a quien le va muy bien: Look at you, living it up in Cancún!",
+    "syn": [
+      "splurge"
+    ],
+    "confuse": [
+      "live up to (estar a la altura)"
+    ],
+    "errors_es": "Omitir 'it': 'live up' solo no tiene este sentido.",
+    "ex": [
+      {
+        "en": "They're [living it up] in Vegas this weekend.",
+        "es": "Se están dando la gran vida en Las Vegas este fin."
+      },
+      {
+        "en": "You only turn thirty once, so [live it up]!",
+        "es": "Solo cumples treinta una vez, ¡así que disfrútalo en grande!"
+      },
+      {
+        "en": "He [lived it up] after selling his company.",
+        "es": "Se dio la gran vida después de vender su empresa."
+      }
+    ]
+  },
+  {
+    "id": "pv-loosen-up",
+    "type": "phrasal",
+    "term": "loosen up",
+    "sense": "become, or help someone become, more relaxed and less formal",
+    "ipa": "/ˈlusən ˈʌp/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "both",
+    "sep": true,
+    "es": "relajarse; soltarse",
+    "def": "to become calmer and less nervous or serious, or to help someone feel that way",
+    "note": "También físico: loosen up your shoulders (aflojar, calentar). Parecido a 'lighten up', pero 'lighten up' suele sonar a reproche.",
+    "syn": [
+      "relax",
+      "chill out"
+    ],
+    "confuse": [
+      "lighten up (no tomárselo tan en serio)",
+      "let loose (desatarse)"
+    ],
+    "errors_es": "Pronunciar 'loosen' con /z/: es /ˈlusən/. Confundir 'loose' (flojo) con 'lose' (perder).",
+    "ex": [
+      {
+        "en": "He [loosened up] after a couple of drinks.",
+        "es": "Se soltó después de un par de tragos."
+      },
+      {
+        "en": "[Loosen up] your arms before you swim.",
+        "es": "Afloja los brazos antes de nadar."
+      },
+      {
+        "en": "A good joke helps [loosen the room up].",
+        "es": "Un buen chiste ayuda a relajar al público."
+      }
+    ]
+  },
+  {
+    "id": "pv-lock-up-2",
+    "type": "phrasal",
+    "term": "lock up",
+    "sense": "put someone in prison or in a place they cannot leave",
+    "ipa": "/lɑk ˈʌp/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "encerrar; meter a la cárcel",
+    "def": "to put a person in prison, or an animal or person in a room they cannot leave",
+    "note": "Separable: lock him up. 'Lockup' (sustantivo) = celda o separos. Distinto de 'lock up' = cerrar con llave al irse.",
+    "forms": "lock up · locked up · lockup (sustantivo)",
+    "syn": [
+      "put away",
+      "jail"
+    ],
+    "confuse": [
+      "lock up (cerrar con llave)",
+      "lock out (dejar afuera)"
+    ],
+    "errors_es": "Decir 'close him in jail' (calco de 'encerrar').",
+    "ex": [
+      {
+        "en": "They should [lock him up] and throw away the key.",
+        "es": "Deberían encerrarlo y tirar la llave."
+      },
+      {
+        "en": "She was [locked up] for three years.",
+        "es": "Estuvo tres años en la cárcel."
+      },
+      {
+        "en": "We had to [lock the dog up] during the party.",
+        "es": "Tuvimos que encerrar al perro durante la fiesta."
+      }
+    ]
+  },
+  {
+    "id": "pv-huddle-together",
+    "type": "phrasal",
+    "term": "huddle together",
+    "sense": "stay very close together in a group, for warmth or comfort",
+    "ipa": "/ˈhʌdəl təˈɡɛðɚ/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "canada",
+      "emergencias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "acurrucarse juntos; apiñarse",
+    "def": "to move close together in a small group, often because of cold or fear",
+    "note": "También 'huddle up' (en deportes: juntarse en círculo para planear la jugada). Con frío: We huddled together under a blanket.",
+    "forms": "huddle together · huddled together · huddle up",
+    "errors_es": "Decir 'we got very close together' siempre: 'huddle' ya implica juntarse apretados.",
+    "ex": [
+      {
+        "en": "We [huddled together] at the bus stop to stay warm.",
+        "es": "Nos apiñamos en la parada para no tener frío."
+      },
+      {
+        "en": "The kids [huddled together] during the storm.",
+        "es": "Los niños se acurrucaron juntos durante la tormenta."
+      },
+      {
+        "en": "The players [huddled together] before the last play.",
+        "es": "Los jugadores se juntaron en círculo antes de la última jugada."
+      }
+    ]
+  },
+  {
+    "id": "pv-lift-off",
+    "type": "phrasal",
+    "term": "lift off",
+    "sense": "(a rocket or helicopter) leave the ground and rise into the air",
+    "ipa": "/lɪft ˈɔf/",
+    "level": "B2",
+    "topic": "travel",
+    "areas": [
+      "ciencia",
+      "noticias",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "despegar (cohete, helicóptero)",
+    "def": "to leave the ground and rise straight into the air, especially a rocket",
+    "note": "Sobre todo cohetes y helicópteros; para aviones es más común 'take off'. Sustantivo: liftoff (despegue).",
+    "forms": "lift off · lifted off · liftoff (sustantivo)",
+    "syn": [
+      "take off",
+      "launch"
+    ],
+    "errors_es": "Usarlo con aviones comerciales: ahí se dice 'take off'.",
+    "ex": [
+      {
+        "en": "The rocket [lifted off] at exactly 6:02 a.m.",
+        "es": "El cohete despegó a las 6:02 en punto."
+      },
+      {
+        "en": "We have ten seconds until we [lift off].",
+        "es": "Faltan diez segundos para despegar."
+      },
+      {
+        "en": "The helicopter [lifted off] from the hospital roof.",
+        "es": "El helicóptero despegó de la azotea del hospital."
+      }
+    ]
+  },
+  {
+    "id": "pv-link-up",
+    "type": "phrasal",
+    "term": "link up",
+    "sense": "meet up with someone, or connect two systems or devices",
+    "ipa": "/lɪŋk ˈʌp/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "software"
+    ],
+    "tags": [
+      "slang"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "both",
+    "sep": true,
+    "es": "juntarse (con alguien); conectar(se)",
+    "def": "to meet a friend, or to join two systems or devices so they work together",
+    "note": "Con 'with': link up with them later. Entre jóvenes de EE. UU. y Canadá: Let's link up = Hay que vernos.",
+    "syn": [
+      "meet up"
+    ],
+    "confuse": [
+      "hook up (también 'ligar')"
+    ],
+    "errors_es": "Usar 'hook up' para quedar con amigos: puede sonar a encuentro sexual. 'Link up' es seguro.",
+    "ex": [
+      {
+        "en": "Let's [link up] this weekend, it's been forever.",
+        "es": "Hay que vernos este fin, ya tiene mucho."
+      },
+      {
+        "en": "We'll [link up with] the others at the bar.",
+        "es": "Nos juntamos con los demás en el bar."
+      },
+      {
+        "en": "The app [links up] with your calendar.",
+        "es": "La app se conecta con tu calendario."
+      }
+    ]
+  },
+  {
+    "id": "pv-light-up-2",
+    "type": "phrasal",
+    "term": "light up",
+    "sense": "light a cigarette or cigar and start smoking",
+    "ipa": "/laɪt ˈʌp/",
+    "level": "B2",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "prender (un cigarro); ponerse a fumar",
+    "def": "to start smoking by setting fire to a cigarette, cigar, or pipe",
+    "note": "Sin objeto es lo más común: He lit up right outside the door. Pasado: lit (también lighted).",
+    "forms": "light up · lit up · lighting up",
+    "confuse": [
+      "light up (iluminarse; se le iluminó la cara)"
+    ],
+    "errors_es": "Decir 'turn on a cigarette' (calco de 'prender'). Se dice 'light' o 'light up'.",
+    "ex": [
+      {
+        "en": "You can't [light up] in here, sir.",
+        "es": "Aquí no puede fumar, señor."
+      },
+      {
+        "en": "He [lit up] a cigar to celebrate.",
+        "es": "Prendió un puro para celebrar."
+      },
+      {
+        "en": "She stepped outside to [light up].",
+        "es": "Salió a prender un cigarro."
+      }
+    ]
+  },
+  {
+    "id": "pv-invest-in",
+    "type": "phrasal",
+    "term": "invest in",
+    "sense": "buy something useful that costs money but will last",
+    "ipa": "/ɪnˈvɛst ɪn/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "compras"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "invertir en (comprarse algo que vale la pena)",
+    "def": "to buy something that costs a lot but will be useful for a long time",
+    "note": "Uso coloquial, a veces en broma: You should invest in an alarm clock. No es inversión financiera, sino una compra que vale la pena.",
+    "confuse": [
+      "invest (invertir dinero en acciones)"
+    ],
+    "errors_es": "Pensar que solo se usa con dinero o acciones. En la vida diaria es comprarse algo práctico.",
+    "ex": [
+      {
+        "en": "You really need to [invest in] a good winter coat.",
+        "es": "Necesitas comprarte un buen abrigo de invierno."
+      },
+      {
+        "en": "We finally [invested in] a decent mattress.",
+        "es": "Por fin nos compramos un colchón decente."
+      },
+      {
+        "en": "Maybe [invest in] a calendar so you stop forgetting.",
+        "es": "A lo mejor cómprate un calendario para que ya no se te olvide."
+      }
+    ]
+  },
+  {
+    "id": "pv-lie-around-2",
+    "type": "phrasal",
+    "term": "lie around",
+    "sense": "(objects) be left somewhere in a messy or careless way",
+    "ipa": "/laɪ əˈraʊnd/",
+    "level": "B2",
+    "topic": "home",
+    "areas": [
+      "vivienda"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "estar tirado (por ahí); andar rodando",
+    "def": "to be left somewhere carelessly instead of being put away",
+    "note": "Muy común: Don't leave your stuff lying around. También 'have something lying around' = tener algo por ahí.",
+    "confuse": [
+      "lie around (persona echada sin hacer nada)"
+    ],
+    "errors_es": "Decir 'thrown around' (calco de 'tirado'): suena a que alguien lo aventó.",
+    "ex": [
+      {
+        "en": "Don't leave your shoes [lying around].",
+        "es": "No dejes tus zapatos tirados por ahí."
+      },
+      {
+        "en": "Do you have a phone charger [lying around]?",
+        "es": "¿Tienes por ahí un cargador de celular?"
+      },
+      {
+        "en": "His clothes were [lying around] the whole room.",
+        "es": "Su ropa estaba tirada por todo el cuarto."
+      }
+    ]
+  },
+  {
+    "id": "pv-hold-off-2",
+    "type": "phrasal",
+    "term": "hold off",
+    "sense": "(rain or bad weather) not start, at least for a while",
+    "ipa": "/hoʊld ˈɔf/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "aguantarse (la lluvia); no caer todavía",
+    "def": "if rain or a storm does this, it does not start, at least for some time",
+    "note": "Sujeto: rain, storm, snow. Típico: I hope the rain holds off until after the wedding.",
+    "confuse": [
+      "hold off (esperarse; aplazar)",
+      "hold out (resistir)"
+    ],
+    "errors_es": "Decir 'the rain waited'. Lo natural: the rain held off.",
+    "ex": [
+      {
+        "en": "I hope the rain [holds off] for the game.",
+        "es": "Ojalá no llueva durante el partido."
+      },
+      {
+        "en": "The snow [held off] until we got home.",
+        "es": "La nevada se aguantó hasta que llegamos a casa."
+      },
+      {
+        "en": "If the storm [holds off], we'll grill outside.",
+        "es": "Si no cae la tormenta, asamos afuera."
+      }
+    ]
+  },
+  {
+    "id": "pv-hammer-out",
+    "type": "phrasal",
+    "term": "hammer out",
+    "sense": "reach an agreement after long and difficult discussion",
+    "ipa": "/ˈhæmɚ ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "noticias",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "negociar a fondo; sacar (un acuerdo)",
+    "def": "to agree on a deal or plan after a lot of difficult discussion",
+    "note": "Objetos típicos: a deal, an agreement, the details. Separable: hammer it out. Más de noticias que 'hash out'.",
+    "syn": [
+      "work out",
+      "negotiate"
+    ],
+    "confuse": [
+      "hash out (discutir a fondo, más coloquial)",
+      "iron out (pulir detalles)"
+    ],
+    "errors_es": "Traducirlo como 'martillar'. Implica negociación larga, no golpes.",
+    "ex": [
+      {
+        "en": "Both sides [hammered out] a deal late last night.",
+        "es": "Ambas partes sacaron un acuerdo anoche."
+      },
+      {
+        "en": "We still need to [hammer out] the details.",
+        "es": "Todavía hay que definir los detalles."
+      },
+      {
+        "en": "Let's lock ourselves in a room and [hammer this out].",
+        "es": "Encerrémonos en una sala y resolvamos esto de una vez."
+      }
+    ]
+  },
+  {
+    "id": "pv-hash-out",
+    "type": "phrasal",
+    "term": "hash out",
+    "sense": "discuss a problem or plan in detail until it is settled",
+    "ipa": "/hæʃ ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "discutir a fondo; aclarar (un tema)",
+    "def": "to talk about a problem or plan in detail until everyone agrees",
+    "note": "Muy de EE. UU. Más coloquial que 'hammer out'; sirve en pareja o en el trabajo: We need to hash this out.",
+    "syn": [
+      "talk through",
+      "work out"
+    ],
+    "confuse": [
+      "hammer out (negociar un acuerdo)",
+      "have it out (pelearse para aclarar)"
+    ],
+    "errors_es": "Confundirlo con 'hash' de comida o el símbolo #. Es dialogar hasta resolver.",
+    "ex": [
+      {
+        "en": "Can we [hash this out] before the meeting?",
+        "es": "¿Podemos aclarar esto antes de la junta?"
+      },
+      {
+        "en": "They spent hours [hashing out] the budget.",
+        "es": "Se pasaron horas discutiendo el presupuesto."
+      },
+      {
+        "en": "You two need to sit down and [hash it out].",
+        "es": "Ustedes dos tienen que sentarse y aclararlo."
+      }
+    ]
+  },
+  {
+    "id": "pv-harp-on",
+    "type": "phrasal",
+    "term": "harp on",
+    "sense": "keep talking about the same thing in an annoying way",
+    "ipa": "/hɑrp ˈɑn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "both",
+    "sep": false,
+    "es": "dar lata con; machacar (un tema)",
+    "def": "to keep talking about the same subject again and again so that people get annoyed",
+    "note": "Con 'about' o directo: Stop harping on about it / Don't harp on my grades. Siempre es crítica.",
+    "syn": [
+      "go on about",
+      "nag"
+    ],
+    "confuse": [
+      "carry on (seguir; hacer escándalo)"
+    ],
+    "errors_es": "Pensar en el arpa. Usarlo en sentido positivo: siempre es queja.",
+    "ex": [
+      {
+        "en": "Stop [harping on] about the money, I'll pay you back.",
+        "es": "Ya deja de dar lata con el dinero, te lo voy a pagar."
+      },
+      {
+        "en": "My dad keeps [harping on] my grades.",
+        "es": "Mi papá no deja de machacar con mis calificaciones."
+      },
+      {
+        "en": "I don't want to [harp on] it, but you promised.",
+        "es": "No quiero insistir, pero lo prometiste."
+      }
+    ]
+  },
+  {
+    "id": "pv-ham-up",
+    "type": "phrasal",
+    "term": "ham up",
+    "sense": "act in an exaggerated way on purpose, usually to be funny",
+    "ipa": "/hæm ˈʌp/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "sobreactuar; exagerar (para dar risa)",
+    "def": "to act in a very exaggerated way on purpose, often to make people laugh",
+    "note": "Casi siempre 'ham it up'. 'A ham' es alguien a quien le encanta la cámara y exagera.",
+    "forms": "ham it up · hammed it up · hamming it up · a ham (sustantivo)",
+    "syn": [
+      "overact"
+    ],
+    "errors_es": "Pensar en jamón. Decir siempre 'overact': es correcto, pero 'ham it up' es más natural y cariñoso.",
+    "ex": [
+      {
+        "en": "He loves to [ham it up] for the camera.",
+        "es": "Le encanta hacerse el payaso frente a la cámara."
+      },
+      {
+        "en": "The actors [hammed it up] in the last scene.",
+        "es": "Los actores exageraron a propósito en la última escena."
+      },
+      {
+        "en": "Stop [hamming it up], it's a serious photo.",
+        "es": "Ya deja de payasear, es una foto seria."
+      }
+    ]
+  },
+  {
+    "id": "pv-hang-over",
+    "type": "phrasal",
+    "term": "hang over",
+    "sense": "(a worry or threat) stay present and make someone anxious",
+    "ipa": "/hæŋ ˈoʊvɚ/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "noticias",
+      "salud"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pesar sobre; cernirse sobre",
+    "def": "if a problem or threat does this, it worries someone for a long time",
+    "note": "Se dice de problemas: The lawsuit is hanging over the company. No confundir con 'hangover' (cruda), que es sustantivo.",
+    "confuse": [
+      "hangover (cruda, sustantivo)"
+    ],
+    "errors_es": "Confundirlo con 'hangover'. Traducirlo literal como 'colgar sobre'.",
+    "ex": [
+      {
+        "en": "That exam has been [hanging over] me all week.",
+        "es": "Ese examen me ha estado pesando toda la semana."
+      },
+      {
+        "en": "The threat of layoffs is [hanging over] the whole office.",
+        "es": "La amenaza de despidos pesa sobre toda la oficina."
+      },
+      {
+        "en": "I don't want this debt [hanging over] us anymore.",
+        "es": "Ya no quiero que esta deuda nos pese."
+      }
+    ]
+  },
+  {
+    "id": "pv-have-it-out-with",
+    "type": "phrasal",
+    "term": "have it out with",
+    "sense": "argue openly with someone in order to settle a conflict",
+    "ipa": "/hæv ɪt ˈaʊt wɪθ/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "encararse con; decírselo de frente a",
+    "def": "to talk angrily and openly with someone about a problem so that it is finally settled",
+    "note": "Fija con 'it'. Sin persona: They finally had it out. Implica pelea abierta, a diferencia de 'hash out'.",
+    "confuse": [
+      "hash out (discutir con calma)"
+    ],
+    "errors_es": "Decir 'I had it with him' (eso es 'ya me hartó'). Se necesita 'out': I had it out with him.",
+    "ex": [
+      {
+        "en": "I finally [had it out with] my roommate.",
+        "es": "Por fin me encaré con mi compañero de cuarto."
+      },
+      {
+        "en": "If he does it again, I'll [have it out with] him.",
+        "es": "Si lo vuelve a hacer, se lo voy a decir de frente."
+      },
+      {
+        "en": "They [had it out] in the parking lot.",
+        "es": "Se dijeron todo en el estacionamiento."
+      }
+    ]
+  },
+  {
+    "id": "pv-hear-of-2",
+    "type": "phrasal",
+    "term": "hear of",
+    "sense": "refuse to allow something (used in the negative: won't hear of it)",
+    "ipa": "/ˈhɪr ʌv/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "no querer ni oír hablar de; no permitirlo",
+    "def": "to refuse to let something happen; used with 'won't' or 'wouldn't'",
+    "note": "Casi siempre negativo: She wouldn't hear of it. Típico cuando alguien insiste en pagar, ayudar o irse.",
+    "confuse": [
+      "hear of (haber oído hablar de)"
+    ],
+    "errors_es": "Entenderlo como 'no había oído de eso'. 'I won't hear of it' es una negativa firme y amable.",
+    "ex": [
+      {
+        "en": "I offered to pay, but she wouldn't [hear of] it.",
+        "es": "Le ofrecí pagar, pero no quiso ni oír hablar del tema."
+      },
+      {
+        "en": "Stay in a hotel? My mom won't [hear of] it.",
+        "es": "¿Quedarte en un hotel? Mi mamá no lo va a permitir."
+      },
+      {
+        "en": "He wanted to quit, but his coach wouldn't [hear of] it.",
+        "es": "Quería dejarlo, pero su entrenador no lo permitió."
+      }
+    ]
+  },
+  {
+    "id": "pv-hinge-on",
+    "type": "phrasal",
+    "term": "hinge on",
+    "sense": "depend completely on one fact, decision or event",
+    "ipa": "/hɪndʒ ɑn/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "analisis",
+      "noticias",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "depender de; girar en torno a",
+    "def": "to depend completely on one fact, decision, or event",
+    "note": "Más formal que 'depend on'. Frecuente en noticias y juicios: The case hinges on one witness. También 'hinge upon'.",
+    "syn": [
+      "depend on",
+      "rest on"
+    ],
+    "errors_es": "Decir 'hinge of' o 'hinge in'. La preposición es 'on'.",
+    "ex": [
+      {
+        "en": "The whole case [hinges on] her testimony.",
+        "es": "Todo el caso depende de su testimonio."
+      },
+      {
+        "en": "Our plan [hinges on] getting that loan.",
+        "es": "Nuestro plan depende de que nos den ese préstamo."
+      },
+      {
+        "en": "Everything [hinged on] one phone call.",
+        "es": "Todo dependía de una llamada."
+      }
+    ]
+  },
+  {
+    "id": "pv-hit-home",
+    "type": "phrasal",
+    "term": "hit home",
+    "sense": "(a fact or feeling) become fully clear and felt emotionally",
+    "ipa": "/hɪt ˈhoʊm/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "caer el veinte; calar hondo",
+    "def": "when a fact suddenly becomes clear and you feel its full meaning or effect",
+    "note": "Sujeto: la realidad, unas palabras, una película. 'It really hit home' = me llegó. 'Hit close to home' = me tocó de cerca.",
+    "confuse": [
+      "hit close to home (tocar de cerca)",
+      "drive home (dejar bien claro)"
+    ],
+    "errors_es": "Pensar que es 'llegar a casa'. Es comprender o sentir algo a fondo.",
+    "ex": [
+      {
+        "en": "It didn't [hit home] until I saw the empty room.",
+        "es": "No me cayó el veinte hasta que vi el cuarto vacío."
+      },
+      {
+        "en": "His words really [hit home] for me.",
+        "es": "Sus palabras me llegaron hondo."
+      },
+      {
+        "en": "The reality of the move is starting to [hit home].",
+        "es": "Ya me empieza a caer el veinte de la mudanza."
+      }
+    ]
+  },
+  {
+    "id": "pv-hit-out-at",
+    "type": "phrasal",
+    "term": "hit out at",
+    "sense": "criticize someone strongly, often in public",
+    "ipa": "/hɪt ˈaʊt æt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "arremeter contra; criticar duramente",
+    "def": "to criticize a person or group in a strong, angry way, often in public",
+    "note": "Muy de titulares: The coach hit out at the referees. En conversación se usa más 'slam' o 'go after'.",
+    "syn": [
+      "lash out at",
+      "slam"
+    ],
+    "confuse": [
+      "hit back (contraatacar)",
+      "lash out (estallar)"
+    ],
+    "errors_es": "Decir 'hit against'. La forma es 'hit out at'.",
+    "ex": [
+      {
+        "en": "The mayor [hit out at] critics of the new park plan.",
+        "es": "El alcalde arremetió contra quienes critican el plan del nuevo parque."
+      },
+      {
+        "en": "She [hit out at] the tabloids in her speech.",
+        "es": "Criticó duramente a la prensa amarillista en su discurso."
+      },
+      {
+        "en": "Fans are [hitting out at] the team online.",
+        "es": "Los aficionados están arremetiendo contra el equipo en redes."
+      }
+    ]
+  },
+  {
+    "id": "pv-hold-out-for",
+    "type": "phrasal",
+    "term": "hold out for",
+    "sense": "refuse to accept less and keep waiting for something better",
+    "ipa": "/hoʊld ˈaʊt fɔr/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "entrevistas",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "aguantar hasta conseguir; no conformarse con menos",
+    "def": "to refuse to accept less and keep waiting until you get what you want",
+    "note": "Objetos típicos: a better offer, more money, the right person. Distinto de 'hold out' a secas (resistir).",
+    "confuse": [
+      "hold out (resistir; durar)",
+      "hold off (aplazar)"
+    ],
+    "errors_es": "Omitir 'for' y decir 'hold out a better offer'.",
+    "ex": [
+      {
+        "en": "I'm [holding out for] a better offer.",
+        "es": "Voy a aguantar hasta que me ofrezcan algo mejor."
+      },
+      {
+        "en": "She's [holding out for] someone who really gets her.",
+        "es": "Está esperando a alguien que de verdad la entienda."
+      },
+      {
+        "en": "The union [held out for] higher wages.",
+        "es": "El sindicato no cedió hasta conseguir mejores sueldos."
+      }
+    ]
+  },
+  {
+    "id": "pv-hold-out-on",
+    "type": "phrasal",
+    "term": "hold out on",
+    "sense": "keep information or something secret from someone",
+    "ipa": "/hoʊld ˈaʊt ɑn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ocultarle algo a; no soltar prenda",
+    "def": "to keep something secret from a person who expects you to share it",
+    "note": "Tono de reclamo: You've been holding out on me! A veces en broma, cuando alguien escondía un talento o una noticia.",
+    "confuse": [
+      "hold out (resistir)",
+      "hold out for (aguantar por algo mejor)"
+    ],
+    "errors_es": "Decir 'you hid me something' (calco). Lo natural: You're holding out on me.",
+    "ex": [
+      {
+        "en": "You have a girlfriend? You've been [holding out on] me!",
+        "es": "¿Tienes novia? ¡Me lo tenías escondido!"
+      },
+      {
+        "en": "Don't [hold out on] me, what did he say?",
+        "es": "No me escondas nada, ¿qué te dijo?"
+      },
+      {
+        "en": "I think the witness is [holding out on] us.",
+        "es": "Creo que el testigo nos está ocultando algo."
+      }
+    ]
+  },
+  {
+    "id": "pv-hunker-down",
+    "type": "phrasal",
+    "term": "hunker down",
+    "sense": "stay in one place for a long time, to shelter or to focus",
+    "ipa": "/ˈhʌŋkɚ ˈdaʊn/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "noticias",
+      "emergencias",
+      "canada"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "resguardarse; atrincherarse; encerrarse a trabajar",
+    "def": "to stay in one place for a long time, to stay safe or to concentrate on work",
+    "note": "En noticias de tormentas: residents hunkered down. En el trabajo: hunker down and finish the report.",
+    "syn": [
+      "dig in",
+      "buckle down"
+    ],
+    "confuse": [
+      "knuckle down (ponerse a trabajar duro)"
+    ],
+    "errors_es": "Traducirlo solo como 'agacharse'; casi siempre implica quedarse resguardado o concentrado.",
+    "ex": [
+      {
+        "en": "Residents [hunkered down] as the blizzard hit.",
+        "es": "Los vecinos se resguardaron mientras pegaba la ventisca."
+      },
+      {
+        "en": "I need to [hunker down] and finish this report.",
+        "es": "Me tengo que encerrar a terminar este reporte."
+      },
+      {
+        "en": "We [hunkered down] at home all weekend.",
+        "es": "Nos atrincheramos en casa todo el fin."
+      }
+    ]
+  },
+  {
+    "id": "pv-hush-up",
+    "type": "phrasal",
+    "term": "hush up",
+    "sense": "keep something bad secret to avoid a scandal",
+    "ipa": "/hʌʃ ˈʌp/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "tapar; echarle tierra a (un escándalo)",
+    "def": "to stop people from finding out about something bad or embarrassing",
+    "note": "Separable: hush it up. Casi siempre algo turbio o vergonzoso. Como orden, 'Hush up!' = ¡cállate! (más suave que 'shut up').",
+    "syn": [
+      "cover up"
+    ],
+    "confuse": [
+      "cover up (encubrir, más común)",
+      "shut up (callar, grosero)"
+    ],
+    "errors_es": "Pensar que solo es 'callar'. Con escándalos significa encubrir.",
+    "ex": [
+      {
+        "en": "The company tried to [hush up] the accident.",
+        "es": "La empresa intentó tapar el accidente."
+      },
+      {
+        "en": "Somebody paid a lot to [hush it up].",
+        "es": "Alguien pagó mucho para echarle tierra."
+      },
+      {
+        "en": "The whole thing was [hushed up] for years.",
+        "es": "Todo eso se mantuvo en secreto durante años."
+      }
+    ]
+  },
+  {
+    "id": "pv-hand-down-2",
+    "type": "phrasal",
+    "term": "hand down",
+    "sense": "(a judge or court) officially announce a decision or sentence",
+    "ipa": "/hænd ˈdaʊn/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "formal"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "formal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "dictar (una sentencia, un fallo)",
+    "def": "when a judge or court officially gives a decision or a punishment",
+    "note": "Lenguaje judicial y de noticias: The judge handed down a ten-year sentence. Con objetos largos casi nunca se separa.",
+    "confuse": [
+      "hand down (heredar)",
+      "hand over (entregar)"
+    ],
+    "errors_es": "Decir 'dictate a sentence' (calco). En inglés jurídico es 'hand down' o 'issue'.",
+    "ex": [
+      {
+        "en": "The judge [handed down] a five-year sentence.",
+        "es": "El juez dictó una sentencia de cinco años."
+      },
+      {
+        "en": "The court will [hand down] its ruling on Friday.",
+        "es": "El tribunal dará a conocer su fallo el viernes."
+      },
+      {
+        "en": "The decision [handed down] today surprised everyone.",
+        "es": "La decisión dictada hoy sorprendió a todos."
+      }
+    ]
+  },
+  {
+    "id": "pv-hole-up",
+    "type": "phrasal",
+    "term": "hole up",
+    "sense": "stay hidden or shut away inside a place",
+    "ipa": "/hoʊl ˈʌp/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "encerrarse; esconderse (en un lugar)",
+    "def": "to stay inside a place for a long time, to hide or to avoid other people",
+    "note": "Con 'in' y a menudo en pasiva: holed up in a motel / in his room. Muy de series policiacas, también en broma.",
+    "forms": "hole up · holed up · be holed up (in)",
+    "confuse": [
+      "hide out (esconderse, similar)",
+      "hold up (retrasar; asaltar)"
+    ],
+    "errors_es": "Confundirlo con 'hold up'. Se escribe hole (agujero) y suena /hoʊl/.",
+    "ex": [
+      {
+        "en": "The suspect is [holed up] in a motel off the highway.",
+        "es": "El sospechoso está encerrado en un motel junto a la carretera."
+      },
+      {
+        "en": "He's been [holed up] in his room playing games.",
+        "es": "Lleva días encerrado en su cuarto jugando."
+      },
+      {
+        "en": "We [holed up] in a cabin until the storm passed.",
+        "es": "Nos refugiamos en una cabaña hasta que pasó la tormenta."
+      }
+    ]
+  },
+  {
+    "id": "pv-jerk-around",
+    "type": "phrasal",
+    "term": "jerk around",
+    "sense": "treat someone unfairly by wasting their time or misleading them",
+    "ipa": "/dʒɝk əˈraʊnd/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "soporte",
+      "series"
+    ],
+    "tags": [
+      "slang",
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "traer a las vueltas; tomar el pelo",
+    "def": "to treat someone badly by lying to them, changing plans, or wasting their time",
+    "note": "Separable, objeto en medio: Stop jerking me around. Muy de EE. UU.; suena a enojo.",
+    "syn": [
+      "string along"
+    ],
+    "confuse": [
+      "lead on (dar falsas esperanzas)"
+    ],
+    "errors_es": "Conocer 'jerk' solo como insulto. Como verbo con 'around' es traer a alguien a las vueltas.",
+    "ex": [
+      {
+        "en": "Stop [jerking me around] and give me a straight answer.",
+        "es": "Ya no me traigas a las vueltas y dame una respuesta clara."
+      },
+      {
+        "en": "The landlord has been [jerking us around] for months.",
+        "es": "El casero nos trae a las vueltas desde hace meses."
+      },
+      {
+        "en": "I feel like they're [jerking me around] about the job.",
+        "es": "Siento que me están tomando el pelo con lo del trabajo."
+      }
+    ]
+  },
+  {
+    "id": "pv-jump-on-2",
+    "type": "phrasal",
+    "term": "jump on",
+    "sense": "criticize someone quickly or angrily, often for a small mistake",
+    "ipa": "/dʒʌmp ˈɑn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "reuniones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "echársele encima a; regañar",
+    "def": "to criticize someone quickly and angrily, often for a small mistake",
+    "note": "Inseparable: Don't jump on me. 'Jump down someone's throat' es igual pero más fuerte.",
+    "syn": [
+      "snap at",
+      "lay into"
+    ],
+    "confuse": [
+      "jump on (conectarse rápido a una llamada)",
+      "jump at (aceptar sin pensar)"
+    ],
+    "errors_es": "Traducirlo como 'saltar sobre'. En una discusión es regañar o criticar.",
+    "ex": [
+      {
+        "en": "Don't [jump on] me, I just got here!",
+        "es": "¡No te me eches encima, acabo de llegar!"
+      },
+      {
+        "en": "The boss [jumped on] him for one typo.",
+        "es": "El jefe lo regañó por un solo error de dedo."
+      },
+      {
+        "en": "Everyone [jumped on] her comment online.",
+        "es": "Todos se le fueron encima por su comentario en redes."
+      }
+    ]
+  },
+  {
+    "id": "pv-keep-back",
+    "type": "phrasal",
+    "term": "keep back",
+    "sense": "not tell or give all of something; withhold",
+    "ipa": "/kip ˈbæk/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "ocultar; guardarse (información)",
+    "def": "to not tell someone everything you know, or to not give them all of something",
+    "note": "Con 'from': keep something back from someone. Sin objeto, 'Keep back!' = ¡aléjate!",
+    "confuse": [
+      "hold back (contener)",
+      "keep from (evitar)"
+    ],
+    "errors_es": "Usarlo como 'conservar' a secas. Implica ocultar o retener algo a propósito.",
+    "ex": [
+      {
+        "en": "I think she's [keeping something back] from us.",
+        "es": "Creo que nos está ocultando algo."
+      },
+      {
+        "en": "He [kept back] the worst part of the story.",
+        "es": "Se guardó la peor parte de la historia."
+      },
+      {
+        "en": "Don't [keep anything back], we need the whole truth.",
+        "es": "No te guardes nada, necesitamos toda la verdad."
+      }
+    ]
+  },
+  {
+    "id": "pv-kick-up",
+    "type": "phrasal",
+    "term": "kick up",
+    "sense": "cause trouble by complaining loudly (kick up a fuss)",
+    "ipa": "/kɪk ˈʌp/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "compras"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "armar (un escándalo, un lío)",
+    "def": "to complain loudly or make trouble about something",
+    "note": "Colocaciones: kick up a fuss, kick up a stink. Literal: kick up dust (levantar polvo).",
+    "syn": [
+      "make a fuss",
+      "raise a stink"
+    ],
+    "errors_es": "Decir 'make a scandal' (calco de 'hacer un escándalo').",
+    "ex": [
+      {
+        "en": "He [kicked up a fuss] about the cold soup.",
+        "es": "Armó un escándalo porque la sopa estaba fría."
+      },
+      {
+        "en": "Customers [kicked up] a stink about the new fees.",
+        "es": "Los clientes armaron un lío por las comisiones nuevas."
+      },
+      {
+        "en": "If they cancel the class, parents will [kick up] a fuss.",
+        "es": "Si cancelan la clase, los papás van a armar un escándalo."
+      }
+    ]
+  },
+  {
+    "id": "pv-kiss-up-to",
+    "type": "phrasal",
+    "term": "kiss up to",
+    "sense": "flatter someone with power to gain an advantage",
+    "ipa": "/kɪs ˈʌp tu/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "hacerle la barba a; lambisconear",
+    "def": "to be extra nice to someone with power, like a boss, to get something from them",
+    "note": "Muy de EE. UU. Sustantivo: a kiss-up (barbero). 'Suck up to' es igual y un poco más vulgar.",
+    "forms": "kiss up to · kissed up to · a kiss-up (sustantivo)",
+    "syn": [
+      "suck up to",
+      "butter up"
+    ],
+    "errors_es": "Traducirlo literal con besos. Olvidar 'to' antes de la persona.",
+    "ex": [
+      {
+        "en": "He's always [kissing up to] the manager.",
+        "es": "Siempre le está haciendo la barba al gerente."
+      },
+      {
+        "en": "Stop [kissing up to] the teacher.",
+        "es": "Ya deja de lambisconearle a la maestra."
+      },
+      {
+        "en": "I won't [kiss up to] anyone to get promoted.",
+        "es": "No le voy a hacer la barba a nadie para que me asciendan."
+      }
+    ]
+  },
+  {
+    "id": "pv-knock-back",
+    "type": "phrasal",
+    "term": "knock back",
+    "sense": "drink something quickly, especially alcohol",
+    "ipa": "/nɑk ˈbæk/",
+    "level": "C1",
+    "topic": "food",
+    "areas": [
+      "restaurantes",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "echarse (un trago) de golpe; empinarse",
+    "def": "to drink something very quickly, especially an alcoholic drink",
+    "note": "Separable: knock it back. 'Knock a few back' = echarse unos tragos. En Canadá y Reino Unido también es 'rechazar' (knock back an offer).",
+    "syn": [
+      "down",
+      "chug"
+    ],
+    "errors_es": "Decir 'drink it in one blow' (calco de 'de golpe'). Lo natural: knock it back.",
+    "ex": [
+      {
+        "en": "He [knocked back] his whiskey and left.",
+        "es": "Se echó el whisky de un trago y se fue."
+      },
+      {
+        "en": "We [knocked a few back] after the game.",
+        "es": "Nos echamos unos tragos después del partido."
+      },
+      {
+        "en": "Don't [knock it back] so fast, it's strong.",
+        "es": "No te lo tomes tan rápido, está fuerte."
+      }
+    ]
+  },
+  {
+    "id": "pv-home-in-on",
+    "type": "phrasal",
+    "term": "home in on",
+    "sense": "focus all your attention on one specific thing",
+    "ipa": "/hoʊm ˈɪn ɑn/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "analisis",
+      "proyectos",
+      "ciencia"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "centrarse en; ir directo a",
+    "def": "to direct all your attention, or move directly, toward one specific thing",
+    "note": "Origen: misiles que buscan su objetivo. Muchos nativos dicen 'hone in on'; en textos cuidados se prefiere 'home in on'.",
+    "syn": [
+      "focus on",
+      "zero in on"
+    ],
+    "confuse": [
+      "hone (afilar; perfeccionar)"
+    ],
+    "errors_es": "Pensar que tiene que ver con 'casa'. Significa enfocarse o acercarse con precisión.",
+    "ex": [
+      {
+        "en": "Let's [home in on] the biggest problem first.",
+        "es": "Centrémonos primero en el problema más grande."
+      },
+      {
+        "en": "The detectives [homed in on] one suspect.",
+        "es": "Los detectives se enfocaron en un solo sospechoso."
+      },
+      {
+        "en": "The study [homes in on] sleep and memory.",
+        "es": "El estudio se centra en el sueño y la memoria."
+      }
+    ]
+  },
+  {
+    "id": "pv-knuckle-down",
+    "type": "phrasal",
+    "term": "knuckle down",
+    "sense": "start working or studying seriously and hard",
+    "ipa": "/ˈnʌkəl ˈdaʊn/",
+    "level": "C1",
+    "topic": "study",
+    "areas": [
+      "proyectos"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "ponerse a trabajar en serio; aplicarse",
+    "def": "to start working or studying very hard, especially after not trying enough",
+    "note": "Con 'to': knuckle down to work. 'Buckle down' es casi igual y más común en EE. UU.",
+    "syn": [
+      "buckle down"
+    ],
+    "confuse": [
+      "knuckle under (doblegarse)"
+    ],
+    "errors_es": "Confundirlo con 'knuckle under' (someterse).",
+    "ex": [
+      {
+        "en": "Finals are next week, so it's time to [knuckle down].",
+        "es": "Los finales son la otra semana, así que hay que ponerse en serio."
+      },
+      {
+        "en": "He [knuckled down] and finished his degree.",
+        "es": "Se aplicó y terminó la carrera."
+      },
+      {
+        "en": "If we [knuckle down] now, we'll be done by Friday.",
+        "es": "Si le echamos ganas ya, terminamos para el viernes."
+      }
+    ]
+  },
+  {
+    "id": "pv-lay-into",
+    "type": "phrasal",
+    "term": "lay into",
+    "sense": "attack someone angrily with words, or physically",
+    "ipa": "/leɪ ˈɪntu/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ponerle una regañiza a; irse contra",
+    "def": "to criticize someone very angrily, or to attack them physically",
+    "note": "Inseparable: She laid into him. Más fuerte que 'jump on'.",
+    "syn": [
+      "tear into",
+      "go off on"
+    ],
+    "confuse": [
+      "lash out (estallar)",
+      "lay off (dejar en paz; despedir)"
+    ],
+    "errors_es": "Usar 'layed' en pasado: es 'laid'. Confundirlo con 'lay off'.",
+    "ex": [
+      {
+        "en": "My mom really [laid into] me for coming home late.",
+        "es": "Mi mamá me puso una regañada por llegar tarde."
+      },
+      {
+        "en": "The coach [laid into] the team at halftime.",
+        "es": "El entrenador se fue contra el equipo en el medio tiempo."
+      },
+      {
+        "en": "Critics are [laying into] the new movie.",
+        "es": "Los críticos están destrozando la película nueva."
+      }
+    ]
+  },
+  {
+    "id": "pv-lay-up",
+    "type": "phrasal",
+    "term": "lay up",
+    "sense": "(illness or injury) keep someone in bed; usually passive: be laid up",
+    "ipa": "/leɪ ˈʌp/",
+    "level": "C1",
+    "topic": "health",
+    "areas": [
+      "salud"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "estar en cama; estar fuera de combate",
+    "def": "to be in bed or unable to work because you are sick or hurt",
+    "note": "Casi siempre en pasiva: be laid up with the flu / with a bad back. En basquetbol, 'layup' es una bandeja.",
+    "forms": "be laid up (with) · layup (basquetbol)",
+    "errors_es": "Usarlo en activa: lo natural es 'I was laid up for a week'.",
+    "ex": [
+      {
+        "en": "I was [laid up] with the flu all week.",
+        "es": "Estuve en cama toda la semana con gripa."
+      },
+      {
+        "en": "He's [laid up] after knee surgery.",
+        "es": "Está fuera de combate tras la operación de rodilla."
+      },
+      {
+        "en": "Being [laid up] for a month drove her crazy.",
+        "es": "Estar un mes en cama la volvió loca."
+      }
+    ]
+  },
+  {
+    "id": "pv-lean-on-2",
+    "type": "phrasal",
+    "term": "lean on",
+    "sense": "pressure or threaten someone to make them do something",
+    "ipa": "/lin ˈɑn/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "presionar; apretar (a alguien)",
+    "def": "to try to make someone do what you want by using pressure or threats",
+    "note": "Policiaco o de negocios: The cops leaned on him until he talked. Contrasta con 'lean on' = apoyarse en alguien.",
+    "syn": [
+      "pressure"
+    ],
+    "confuse": [
+      "lean on (apoyarse en)"
+    ],
+    "errors_es": "Interpretarlo siempre como apoyo emocional. Según el contexto, puede ser presión.",
+    "ex": [
+      {
+        "en": "The detectives [leaned on] him until he confessed.",
+        "es": "Los detectives lo presionaron hasta que confesó."
+      },
+      {
+        "en": "My boss is [leaning on] me to finish early.",
+        "es": "Mi jefe me está presionando para terminar antes."
+      },
+      {
+        "en": "Somebody [leaned on] the witness to change her story.",
+        "es": "Alguien presionó a la testigo para que cambiara su versión."
+      }
+    ]
+  },
+  {
+    "id": "pv-level-with",
+    "type": "phrasal",
+    "term": "level with",
+    "sense": "be completely honest with someone",
+    "ipa": "/ˈlɛvəl wɪθ/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ser franco con; hablarle claro a",
+    "def": "to tell someone the truth about something, even if it is hard to hear",
+    "note": "Muy de diálogo en series: I'm going to level with you = te voy a ser sincero.",
+    "syn": [
+      "be straight with",
+      "come clean"
+    ],
+    "errors_es": "Traducirlo como 'nivelar'. Con persona significa sinceridad.",
+    "ex": [
+      {
+        "en": "Look, I'll [level with] you, the job is hard.",
+        "es": "Mira, te voy a ser franco: el trabajo es pesado."
+      },
+      {
+        "en": "You need to [level with] me right now.",
+        "es": "Tienes que decirme la verdad ahorita."
+      },
+      {
+        "en": "He finally [leveled with] his parents about school.",
+        "es": "Por fin les habló claro a sus papás sobre la escuela."
+      }
+    ]
+  },
+  {
+    "id": "pv-live-down",
+    "type": "phrasal",
+    "term": "live down",
+    "sense": "make people forget something embarrassing you did",
+    "ipa": "/lɪv ˈdaʊn/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "hacer olvidar; quitarse de encima (una vergüenza)",
+    "def": "to make people stop remembering or joking about something embarrassing you did",
+    "note": "Casi siempre negativo con 'it/this': You'll never live this down. Típico entre amigos que se burlan.",
+    "confuse": [
+      "live up to (estar a la altura)"
+    ],
+    "errors_es": "Confundirlo con 'live up to'. 'Live down' es sobre una vergüenza.",
+    "ex": [
+      {
+        "en": "You'll never [live this down], dude.",
+        "es": "Nunca te vamos a dejar olvidar esto, güey."
+      },
+      {
+        "en": "I fell on stage and never [lived it down].",
+        "es": "Me caí en el escenario y nunca me lo dejaron olvidar."
+      },
+      {
+        "en": "He's still trying to [live down] that karaoke night.",
+        "es": "Todavía está tratando de que olviden aquella noche de karaoke."
+      }
+    ]
+  },
+  {
+    "id": "pv-look-on",
+    "type": "phrasal",
+    "term": "look on",
+    "sense": "watch something happen without taking part or helping",
+    "ipa": "/lʊk ˈɑn/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "mirar sin intervenir; ser espectador",
+    "def": "to watch something happen without helping or getting involved",
+    "note": "Típico de noticias: as shocked fans looked on. Sustantivo: onlooker (curioso, espectador).",
+    "forms": "look on · looked on · onlooker (sustantivo)",
+    "syn": [
+      "watch",
+      "stand by"
+    ],
+    "confuse": [
+      "look on as (considerar como)"
+    ],
+    "errors_es": "Ponerle objeto directo ('look on the fight'): se dice 'look on' a secas o 'watch the fight'.",
+    "ex": [
+      {
+        "en": "Her parents [looked on] proudly as she graduated.",
+        "es": "Sus papás la miraban orgullosos mientras se graduaba."
+      },
+      {
+        "en": "Dozens of people [looked on] but nobody helped.",
+        "es": "Decenas de personas miraban, pero nadie ayudó."
+      },
+      {
+        "en": "I just [looked on] while they argued.",
+        "es": "Yo nomás me quedé mirando mientras discutían."
+      }
+    ]
+  },
+  {
+    "id": "pv-hold-forth",
+    "type": "phrasal",
+    "term": "hold forth",
+    "sense": "talk for a long time about a subject, often boringly",
+    "ipa": "/hoʊld ˈfɔrθ/",
+    "level": "C2",
+    "topic": "social",
+    "areas": [
+      "conversacion",
+      "reuniones"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "perorar; echar rollo",
+    "def": "to talk for a long time about a subject, often in a way that bores other people",
+    "note": "Con 'on' o 'about': He held forth on movies all night. Suena algo literario o irónico.",
+    "syn": [
+      "go on about",
+      "lecture"
+    ],
+    "errors_es": "Decir 'hold forward'. La partícula es 'forth' (/fɔrθ/), con th.",
+    "ex": [
+      {
+        "en": "Uncle Ray [held forth] on cars all through dinner.",
+        "es": "El tío Ray se la pasó echando rollo de carros toda la cena."
+      },
+      {
+        "en": "She loves to [hold forth] about wine.",
+        "es": "Le encanta perorar sobre vinos."
+      },
+      {
+        "en": "He was [holding forth] when the boss walked in.",
+        "es": "Estaba echando su discurso cuando entró el jefe."
+      }
+    ]
+  },
+  {
+    "id": "pv-hem-in",
+    "type": "phrasal",
+    "term": "hem in",
+    "sense": "surround someone so they cannot move, or limit their choices",
+    "ipa": "/hɛm ˈɪn/",
+    "level": "C2",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "vivienda"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "acorralar; tener cercado; limitar",
+    "def": "to surround someone so they cannot move freely, or to limit what they can do",
+    "note": "Muchas veces en pasiva y figurado: I feel hemmed in by all these rules. Separable: hem them in.",
+    "syn": [
+      "box in",
+      "fence in"
+    ],
+    "errors_es": "Confundirlo con 'hem' (dobladillo) sin partícula. Con 'in' es encerrar o limitar.",
+    "ex": [
+      {
+        "en": "I feel [hemmed in] living in this tiny town.",
+        "es": "Me siento acorralado viviendo en este pueblito."
+      },
+      {
+        "en": "Tall buildings [hem in] the little park.",
+        "es": "Edificios altos tienen cercado el parquecito."
+      },
+      {
+        "en": "Don't let other people's opinions [hem you in].",
+        "es": "No dejes que las opiniones de otros te limiten."
+      }
+    ]
+  },
+  {
+    "id": "pv-haul-off",
+    "type": "phrasal",
+    "term": "haul off",
+    "sense": "suddenly swing your arm to hit someone (haul off and hit)",
+    "ipa": "/hɔl ˈɔf/",
+    "level": "C2",
+    "topic": "informal",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "soltar (un golpe) de repente; ir y (pegarle)",
+    "def": "to suddenly pull back your arm and hit someone; used before 'and' plus another verb",
+    "note": "Coloquial del sur y el medio oeste de EE. UU.: He hauled off and punched him. Con objeto, 'haul someone off' = llevárselo a la fuerza.",
+    "confuse": [
+      "haul off (llevarse a alguien a la fuerza)",
+      "lash out (arremeter)"
+    ],
+    "errors_es": "Usarlo sin el verbo que sigue: casi siempre es 'haul off and + verbo'.",
+    "ex": [
+      {
+        "en": "She [hauled off] and slapped him.",
+        "es": "Le soltó una cachetada de repente."
+      },
+      {
+        "en": "He just [hauled off] and hit the guy.",
+        "es": "Nomás fue y le pegó al tipo."
+      },
+      {
+        "en": "I almost [hauled off] and kicked the vending machine.",
+        "es": "Casi le suelto una patada a la máquina expendedora."
+      }
+    ]
+  },
+  {
+    "id": "pv-jockey-for",
+    "type": "phrasal",
+    "term": "jockey for",
+    "sense": "compete hard, often unfairly, for a position or advantage",
+    "ipa": "/ˈdʒɑki fɔr/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "noticias",
+      "reuniones"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pelearse por; disputarse (un lugar)",
+    "def": "to try hard, often unfairly, to get a better position or advantage than others",
+    "note": "Casi siempre 'jockey for position'. Frecuente en noticias de negocios y deportes.",
+    "syn": [
+      "compete for",
+      "vie for"
+    ],
+    "errors_es": "Pensar que solo tiene que ver con caballos. Usarlo sin 'for'.",
+    "ex": [
+      {
+        "en": "Everyone is [jockeying for] position before the promotion.",
+        "es": "Todos se pelean por quedar bien antes del ascenso."
+      },
+      {
+        "en": "Several companies are [jockeying for] the contract.",
+        "es": "Varias empresas se disputan el contrato."
+      },
+      {
+        "en": "Photographers [jockeyed for] the best spot.",
+        "es": "Los fotógrafos se peleaban por el mejor lugar."
+      }
+    ]
+  },
+  {
+    "id": "pv-knuckle-under",
+    "type": "phrasal",
+    "term": "knuckle under",
+    "sense": "unwillingly accept someone's authority or pressure",
+    "ipa": "/ˈnʌkəl ˈʌndɚ/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "relaciones",
+      "noticias"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "doblegarse; agachar la cabeza",
+    "def": "to finally do what someone with power wants, even though you do not want to",
+    "note": "Con 'to': knuckle under to pressure. Lo contrario de 'stand up to'.",
+    "syn": [
+      "give in",
+      "cave"
+    ],
+    "confuse": [
+      "knuckle down (aplicarse)"
+    ],
+    "errors_es": "Confundirlo con 'knuckle down'. 'Under' = someterse.",
+    "ex": [
+      {
+        "en": "She refused to [knuckle under] to their threats.",
+        "es": "Se negó a doblegarse ante sus amenazas."
+      },
+      {
+        "en": "Eventually the owners [knuckled under].",
+        "es": "Al final los dueños cedieron."
+      },
+      {
+        "en": "I'm not going to [knuckle under] just because he yells.",
+        "es": "No voy a agachar la cabeza nada más porque grita."
+      }
+    ]
+  },
+  {
+    "id": "pv-let-in-for",
+    "type": "phrasal",
+    "term": "let in for",
+    "sense": "get yourself involved in something hard without realizing it",
+    "ipa": "/lɛt ˈɪn fɔr/",
+    "level": "C2",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "proyectos"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "meterse en (un lío) sin saberlo",
+    "def": "to cause yourself to be involved in something difficult or unpleasant, often without knowing it",
+    "note": "Casi siempre reflexivo y en pregunta: Do you know what you're letting yourself in for?",
+    "confuse": [
+      "let in on (contar un secreto)",
+      "let in (dejar entrar)"
+    ],
+    "errors_es": "Confundirlo con 'let in on'. El reflexivo va en medio: let yourself in for.",
+    "ex": [
+      {
+        "en": "Do you know what you're [letting yourself in for]?",
+        "es": "¿Sabes en lo que te estás metiendo?"
+      },
+      {
+        "en": "I had no idea what I'd [let myself in for].",
+        "es": "No tenía idea del lío en el que me había metido."
+      },
+      {
+        "en": "Three kids? You've [let yourself in for] a lot.",
+        "es": "¿Tres hijos? Te metiste en una buena."
+      }
+    ]
+  },
+  {
+    "id": "pv-lay-out-2",
+    "type": "phrasal",
+    "term": "lay out",
+    "sense": "spend a large amount of money on something",
+    "ipa": "/leɪ ˈaʊt/",
+    "level": "C2",
+    "topic": "money",
+    "areas": [
+      "compras",
+      "vivienda"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "desembolsar; soltar (una lana)",
+    "def": "to spend a lot of money on something",
+    "note": "Parecido a 'shell out'. Con cantidad: laid out $2,000. Sustantivo relacionado: outlay (desembolso, formal).",
+    "syn": [
+      "shell out",
+      "fork out"
+    ],
+    "confuse": [
+      "lay out (exponer; plantear)",
+      "lay off (despedir)"
+    ],
+    "errors_es": "Usar 'layed out'. El pasado es 'laid out'.",
+    "ex": [
+      {
+        "en": "We [laid out] two grand for the new roof.",
+        "es": "Soltamos dos mil dólares por el techo nuevo."
+      },
+      {
+        "en": "I'm not [laying out] that much for a phone.",
+        "es": "No voy a desembolsar tanto por un teléfono."
+      },
+      {
+        "en": "They [laid out] a fortune on the wedding.",
+        "es": "Se gastaron una fortuna en la boda."
+      }
+    ]
+  },
+  {
+    "id": "pv-hang-together",
+    "type": "phrasal",
+    "term": "hang together",
+    "sense": "(a story, argument or plan) be consistent and make sense",
+    "ipa": "/hæŋ təˈɡɛðɚ/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "analisis",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "tener coherencia; cuadrar",
+    "def": "if a story or a set of ideas does this, all its parts fit and make sense",
+    "note": "Casi siempre negativo: His story doesn't hang together. También 'mantenerse unidos': We have to hang together.",
+    "syn": [
+      "add up",
+      "hold together"
+    ],
+    "confuse": [
+      "add up (cuadrar, más común)",
+      "hang out (pasar el rato)"
+    ],
+    "errors_es": "Traducirlo literal como 'colgar juntos'. Con historias o argumentos es 'cuadrar'.",
+    "ex": [
+      {
+        "en": "Her alibi just doesn't [hang together].",
+        "es": "Su coartada de plano no cuadra."
+      },
+      {
+        "en": "The plot [hangs together] better in season two.",
+        "es": "La trama tiene más coherencia en la segunda temporada."
+      },
+      {
+        "en": "The essay is good, but it doesn't quite [hang together].",
+        "es": "El ensayo es bueno, pero no acaba de tener coherencia."
+      }
+    ]
+  }
+]

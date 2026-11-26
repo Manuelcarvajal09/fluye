@@ -11,7 +11,7 @@ const lessonsDir = join(root, "content", "lessons");
 
 const TYPES = { phrasal: "pv-", collocation: "col-", idiom: "idi-", vocab: "voc-", phrase: "phr-", contraction: "con-" };
 const AREAS = ["conversacion","relaciones","restaurantes","compras","salud","noticias","vivienda","bancos","transporte","viajes","emergencias","canada","series","entrevistas","reuniones","analisis","automatizacion","software","devops","crm","datos","soporte","proyectos","ciencia","biologia"];
-const LEVELS = ["A1", "A2", "B1", "B2", "C1"];
+const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 const TOPICS = ["daily", "work", "tech", "travel", "canada", "interview", "social", "informal", "money", "health", "feelings", "study", "home", "food"];
 
 const errors = [];
@@ -52,7 +52,20 @@ function checkItem(file, it) {
   if (it.ipa !== undefined && !/^\/.+\/$/.test(it.ipa)) err(file, id, "ipa debe ir entre barras /.../");
   if (it.sep !== undefined && typeof it.sep !== "boolean") err(file, id, "sep debe ser booleano");
   if (it.syn !== undefined && (!Array.isArray(it.syn) || it.syn.some((s) => !str(s, 60)))) err(file, id, "syn debe ser array de textos");
-  if (!Array.isArray(it.ex) || it.ex.length < 2 || it.ex.length > 3) return err(file, id, "ex debe tener 2 o 3 ejemplos");
+  // Ficha ampliada (Fluye 1.0): sentido explícito, registro, transitividad, confusiones, errores típicos y 3–5 ejemplos.
+  const rich = it.sense !== undefined;
+  if (rich) {
+    if (!str(it.sense, 90)) err(file, id, "sense vacío o > 90 caracteres");
+    if (!["formal", "neutral", "informal", "vulgar"].includes(it.register)) err(file, id, `register inválido: ${it.register}`);
+    if (!["transitive", "intransitive", "both"].includes(it.trans)) err(file, id, `trans inválido: ${it.trans}`);
+    if (it.trans !== "intransitive" && it.type === "phrasal" && typeof it.sep !== "boolean") err(file, id, "transitivo: sep obligatorio");
+    if (it.confuse !== undefined && (!Array.isArray(it.confuse) || it.confuse.some((x) => !str(x, 120)))) err(file, id, "confuse debe ser array de textos");
+    if (!str(it.errors_es, 240)) err(file, id, "errors_es obligatorio (<= 240)");
+    if (it.forms !== undefined && !str(it.forms, 160)) err(file, id, "forms demasiado largo");
+    if (!str(it.freq_src, 120)) err(file, id, "freq_src obligatorio: fuente o «estimación»");
+  }
+  const [minEx, maxEx] = rich ? [3, 5] : [2, 3];
+  if (!Array.isArray(it.ex) || it.ex.length < minEx || it.ex.length > maxEx) return err(file, id, `ex debe tener ${minEx}–${maxEx} ejemplos`);
   for (const e of it.ex) {
     if (!str(e?.en, 160) || !str(e?.es, 180)) { err(file, id, "ejemplo sin en/es o demasiado largo"); continue; }
     if (brackets(e.en) !== 1 || /[\[\]]/.test(e.en.replace(/\[[^\[\]]+\]/, ""))) err(file, id, `el ejemplo necesita exactamente un [par de corchetes]: ${e.en}`);
@@ -156,7 +169,32 @@ if (only.length === 0) {
     if (!/^gr-[a-z0-9-]+$/.test(g?.id ?? "") || !str(g.name_en, 60) || !str(g.title_es, 80) || !str(g.use_es, 600) || !g.form || !Array.isArray(g.examples) || !Array.isArray(g.practice)) err("tenses.json", g?.id, "lección mal formada");
     for (const p of g.practice ?? []) if (!Array.isArray(p.options) || p.options.length < 3 || !Number.isInteger(p.answer) || p.answer >= p.options.length) err("tenses.json", g.id, "práctica mal formada");
   }
-  console.log(`${rp} roleplays, ${errorsBank.length} errores, ${test.length} preguntas de test, ${tenses.length} lecciones de gramática`);
+  // Inglés de series: microescenas originales.
+  const GENRES = ["sitcom", "drama", "policial", "medica", "oficina", "romance", "scifi", "thriller", "amigos", "noticias", "juzgado"];
+  const lower = (s) => s.toLowerCase().replace(/[’']/g, "'");
+  let nSeries = 0;
+  for (const file of listJson(join(root, "content", "series"))) {
+    for (const s of readArr(file)) {
+      nSeries++;
+      uniq("series", s?.id);
+      const bad = (m) => err(file, s?.id, m);
+      if (!/^ser-(b1|b2|c1|c2)-[a-z0-9-]+$/.test(s?.id ?? "")) bad("id inválido (ser-<nivel>-<slug>)");
+      if (!["B1", "B2", "C1", "C2"].includes(s.level) || !GENRES.includes(s.genre)) bad("level o genre inválido");
+      if (!str(s.title, 80) || !str(s.title_es, 80) || !str(s.setting_es, 200)) bad("títulos o setting_es");
+      if (!Array.isArray(s.lines) || s.lines.length < 6 || s.lines.length > 10) { bad("lines: 6–10"); continue; }
+      for (const l of s.lines) if (!str(l.who, 30) || !["f", "m"].includes(l.g) || !str(l.en, 220) || !str(l.es, 260)) bad("línea mal formada");
+      const all = lower(s.lines.map((l) => l.en).join(" "));
+      for (const q of [s.context, s.intent]) if (!q || !str(q.q_es, 200) || !Array.isArray(q.options) || q.options.length !== 3 || !Number.isInteger(q.answer) || q.answer > 2 || !str(q.why_es, 600)) bad("pregunta de contexto/intención mal formada");
+      if (!Array.isArray(s.expressions) || s.expressions.length < 2) bad("expressions: 2–4");
+      for (const e of s.expressions ?? []) if (!str(e.text, 60) || !str(e.es, 90)) bad("expresión mal formada");
+      for (const d of s.decoys ?? []) if (all.includes(lower(d))) bad(`el señuelo «${d}» sí aparece en la escena`);
+      const g = s.gap;
+      if (!g || !s.lines[g.line] || !lower(s.lines[g.line].en).includes(lower(g.answer ?? "")) || !g.options?.includes(g.answer)) bad("gap: la respuesta debe aparecer en esa línea y estar entre las opciones");
+      if (!s.lines[s.shadow]) bad("shadow fuera de rango");
+      if (!s.reply || !str(s.reply.prompt_es, 200) || !Array.isArray(s.reply.model) || !s.reply.model.length) bad("reply mal formado");
+    }
+  }
+  console.log(`${rp} roleplays, ${errorsBank.length} errores, ${test.length} preguntas de test, ${tenses.length} lecciones de gramática, ${nSeries} escenas de series`);
 }
 
 for (const w of warns.slice(0, 40)) console.log("aviso  ", w);

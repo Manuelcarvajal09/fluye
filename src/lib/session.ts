@@ -5,7 +5,7 @@ import { ITEMS, LESSONS, getItem, getTrack, levelIndex } from "./content";
 import { localDay } from "./game";
 import { settingsOf, type Profile } from "./user";
 import { goalOf } from "./realtalk";
-import { bracketed, type Item, type ItemFull, type Mode, type Step } from "./types";
+import { bracketed, plain, type Alt, type Item, type ItemFull, type Mode, type Step } from "./types";
 
 const shuffle = <T,>(a: T[]) => {
   const b = [...a];
@@ -36,29 +36,70 @@ function choice<T>(correct: T, wrong: T[]) {
   return { options, answer: options.indexOf(correct) };
 }
 
-export function stepFor(item: Item, mode: Mode, isNew: boolean, state = 0): Step {
+/** Opciones mezcladas con la información de cada una (para explicar por qué una incorrecta no encaja). */
+function withAlts(item: Item, ds: Item[], pick: (i: Item) => string) {
+  const all = [item, ...ds];
+  const options = shuffle(all.map(pick));
+  const alts: Alt[] = options.map((o) => {
+    const it = all.find((x) => pick(x) === o)!;
+    return { term: it.term, es: it.es };
+  });
+  return { options, answer: options.indexOf(pick(item)), alts };
+}
+
+const tokens = (s: string) => plain(s).replace(/[.!?,;:"]+/g, "").split(/\s+/).filter(Boolean);
+
+/** Fichas para construir la frase: sus palabras mezcladas + 2 palabras de distracción que no estén en ella. */
+function tilesFor(item: Item, ex: Item["ex"][number]) {
+  const t = tokens(ex.en);
+  const lower = new Set(t.map((w) => w.toLowerCase()));
+  const extra = shuffle(distractors(item, 4).flatMap((d) => tokens(d.ex[0].en)).filter((w) => !lower.has(w.toLowerCase()) && w.length > 2)).slice(0, 2);
+  return shuffle([...t, ...extra]);
+}
+
+/**
+ * Paso para (ítem, modalidad). El formato varía según la memoria (state FSRS) y el nivel (lv = índice CEFR):
+ * mientras se aprende hay más apoyo (opciones, fichas); en repaso y en niveles altos, más producción libre.
+ * La modalidad acreditada no cambia: el formato solo cambia cómo se pide la misma habilidad.
+ */
+export function stepFor(item: Item, mode: Mode, isNew: boolean, state = 0, lv = 2, rnd: () => number = Math.random): Step {
   if (mode === "recog") {
-    const { options, answer } = choice(item.es, distractors(item).map((d) => d.es));
-    return { kind: "recog", item, options, answer, isNew };
+    const { options, answer, alts } = withAlts(item, distractors(item), (i) => i.es);
+    return { kind: "recog", item, options, answer, isNew, alts };
   }
   if (mode === "listen") {
-    const { options, answer } = choice(item.term, distractors(item).map((d) => d.term));
-    return { kind: "listen", item, ex: pickEx(item), options, answer, isNew };
+    const ex = pickEx(item);
+    const n = tokens(ex.en).length;
+    if (state === 2 && n >= 4 && n <= 14 && rnd() < (lv >= 3 ? 0.6 : 0.45)) return { kind: "listen", item, ex, options: [], answer: -1, isNew, format: "dictation" };
+    const { options, answer, alts } = withAlts(item, distractors(item), (i) => i.term);
+    return { kind: "listen", item, ex, options, answer, isNew, format: "choice", alts };
   }
   if (mode === "speak") return { kind: "speak", item, ex: pickEx(item), isNew };
   const ex = pickEx(item);
   const answer = bracketed(ex.en);
-  // Producción: con opciones mientras se aprende; escrita cuando ya está en repaso.
-  const typed = state === 2;
-  const options = typed ? null : shuffle([answer, ...distractors(item).map((d) => bracketed(d.ex[0].en))]);
-  return { kind: "prod", item, ex, options, answer, isNew };
+  const n = tokens(ex.en).length;
+  const canBuild = n >= 4 && n <= 12;
+  const r = rnd();
+  // Aprendiendo: opciones (A1–A2) u opciones/fichas (B1+). En repaso: escribir o construir; en C1+ casi siempre escribir.
+  const format: "choice" | "typed" | "build" =
+    state === 2 ? (canBuild && r < (lv >= 4 ? 0.25 : 0.5) ? "build" : "typed") : lv >= 2 && canBuild && r < 0.5 ? "build" : "choice";
+  if (format === "choice") {
+    const ds = distractors(item);
+    const options = shuffle([answer, ...ds.map((d) => bracketed(d.ex[0].en))]);
+    const alts: Alt[] = options.map((o) => (o === answer ? { term: item.term, es: item.es } : (() => { const d = ds.find((x) => bracketed(x.ex[0].en) === o)!; return { term: d.term, es: d.es }; })()));
+    return { kind: "prod", item, ex, options, answer, isNew, format, alts };
+  }
+  if (format === "build") return { kind: "prod", item, ex, options: null, answer, isNew, format, tiles: tilesFor(item, ex) };
+  return { kind: "prod", item, ex, options: null, answer, isNew, format: "typed" };
 }
 
 export type SessionKind = "daily" | "mission" | "return";
 /** Días sin estudiar a partir de los cuales la sesión se vuelve "de regreso": más repaso, menos nuevo. */
 export const RETURN_AFTER_DAYS = 4;
 
-export async function buildSession(profile: Profile, minutes: number, opts: { trackId?: string; only?: string[] } = {}, now = new Date()) {
+export async function buildSession(profile: Profile, minutes: number, opts: { trackId?: string; only?: string[]; qaFormat?: "build" } = {}, now = new Date()) {
+  // Solo pruebas (FLUYE_QA=1): fuerza el banco de palabras para poder probarlo de punta a punta.
+  const qaRnd = opts.qaFormat === "build" ? () => 0 : undefined;
   const d = db();
   const budget = Math.max(12, Math.round(minutes * 4));
   const userLevel = levelIndex(profile.level);
@@ -96,7 +137,7 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     // Una sola modalidad por expresión y sesión: así reconocerla no "regala" la respuesta al producirla o escucharla.
     if (!item || seenModes.has(c.itemId) || (only && !only.has(c.itemId))) continue;
     seenModes.add(c.itemId);
-    dueSteps.push(stepFor(item, c.mode as Mode, false, c.state));
+    dueSteps.push(stepFor(item, c.mode as Mode, false, c.state, userLevel, qaRnd));
   }
 
   // Cuántas nuevas: lo que quede del límite diario, sin pasarse del tiempo de la sesión.
@@ -121,11 +162,11 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     }
     for (const it of fresh) {
       steps.push({ kind: "intro", item: it });
-      steps.push(stepFor(it, "recog", true));
+      steps.push(stepFor(it, "recog", true, 0, userLevel, qaRnd));
     }
     steps.push(...shuffle(dueSteps));
     if (track.repair.length) steps.push({ kind: "repair", phrases: track.repair });
-    for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true));
+    for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true, 0, userLevel, qaRnd));
     for (const task of track.production.slice(0, minutes >= 15 ? 3 : 2)) steps.push({ kind: "task", task });
     return { steps, lessonId, newCount: fresh.length, dueCount: due.length, kind, away: Math.floor(away) };
   }
@@ -138,14 +179,14 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     }
     for (const it of fresh) {
       steps.push({ kind: "intro", item: it });
-      steps.push(stepFor(it, "recog", true));
+      steps.push(stepFor(it, "recog", true, 0, userLevel, qaRnd));
     }
     steps.push(...shuffle(dueSteps));
-    for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true));
+    for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true, 0, userLevel, qaRnd));
     return { steps, lessonId, newCount: fresh.length, dueCount: dueSteps.length, kind: "daily" as SessionKind, away: Math.floor(away) };
   }
 
-  const lesson = kind === "return" ? undefined : LESSONS.find((l) => !doneIds.has(l.id) && levelIndex(l.level) <= userLevel + 1);
+  const lesson = kind === "return" || opts.qaFormat ? undefined : LESSONS.find((l) => !doneIds.has(l.id) && levelIndex(l.level) <= userLevel + 1);
   if (lesson && (newCount > 0 || dueSteps.length < 6)) {
     lessonId = lesson.id;
     steps.push({ kind: "story", lesson });
@@ -167,8 +208,18 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     };
     // Groserías e insultos solo entran solos si activaste «lenguaje explícito»; nunca se imponen.
     const declared = new Set(st.known ?? []);
-    const pool = ITEMS.filter((i) => !knownIds.has(i.id) && !declared.has(i.id) && !fresh.includes(i) && levelIndex(i.level) <= userLevel && (st.explicit === true || (!i.explicit && i.register !== "vulgar" && i.register !== "offensive"))).sort(
-      (a, b) => score(b) - score(a) || levelIndex(a.level) - levelIndex(b.level) || a.id.localeCompare(b.id),
+    // Nivel: A1–A2 avanzan paso a paso; desde B1 se estudia de un nivel abajo a uno arriba y lo elemental solo entra
+    // si tiene valor idiomático (modismo, contracción, slang o muy frecuente en series). Así un B2 no repasa saludos de A1.
+    const lo = userLevel >= 2 ? userLevel - 1 : 0;
+    const hi = userLevel >= 2 ? userLevel + 1 : userLevel;
+    const idiomatic = (i: Item) => i.type === "idiom" || i.type === "contraction" || !!i.tags?.some((t) => t === "tv" || t === "slang");
+    const inLevel = (i: Item) => {
+      const l = levelIndex(i.level);
+      return l <= hi && (l >= lo || idiomatic(i));
+    };
+    const near = (i: Item) => Math.abs(levelIndex(i.level) - userLevel) + (levelIndex(i.level) > userLevel ? 0.5 : 0);
+    const pool = ITEMS.filter((i) => !knownIds.has(i.id) && !declared.has(i.id) && !fresh.includes(i) && inLevel(i) && (st.explicit === true || (!i.explicit && i.register !== "vulgar" && i.register !== "offensive"))).sort(
+      (a, b) => near(a) - near(b) || score(b) - score(a) || a.id.localeCompare(b.id),
     );
     // Mezcla tipos para que una sesión no sea solo phrasal verbs.
     const seenTypes = new Map<string, number>();
@@ -183,10 +234,10 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
 
   for (const it of fresh) {
     steps.push({ kind: "intro", item: it });
-    steps.push(stepFor(it, "recog", true));
+    steps.push(stepFor(it, "recog", true, 0, userLevel, qaRnd));
   }
   steps.push(...shuffle(dueSteps));
-  for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true));
+  for (const it of shuffle(fresh)) if (!understandOnly(it)) steps.push(stepFor(it, "prod", true, 0, userLevel, qaRnd));
 
   return { steps, lessonId, newCount: fresh.length, dueCount: due.length, kind, away: Math.floor(away) };
 }

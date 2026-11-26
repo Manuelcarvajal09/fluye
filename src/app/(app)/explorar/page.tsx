@@ -4,7 +4,7 @@ import { Search, ChevronRight } from "lucide-react";
 import { IcoBook, IcoCards, IcoChat, IcoMap, IcoMic, IcoMusic, IcoPencil, IcoPepper, IcoPuzzle, IcoStar, IcoTv } from "@/components/Icons";
 import { db, schema } from "@/db";
 import { requireProfile } from "@/lib/user";
-import { ITEMS, ROUTES, MUSIC, ROLEPLAYS, SOUNDS, getScene } from "@/lib/content";
+import { ITEMS, ROUTES, MUSIC, ROLEPLAYS, SOUNDS, SERIES, getScene } from "@/lib/content";
 import { dueCount } from "@/lib/stats";
 import { trackFor } from "@/lib/recommend";
 import { RouteIcon } from "@/components/RouteIcon";
@@ -118,7 +118,8 @@ export default async function Explore() {
           <Tile href="/sonidos" icon={<IcoMic size={34} />} title="Pronunciación" text={`${SOUNDS.length} sonidos, pares mínimos y ritmo`} />
           <Tile href="/practicar/corrige" icon={<IcoPencil size={34} />} title="Corrige la frase" text="Errores típicos de hispanohablantes" />
           <Tile href="/practicar/gramatica" icon={<IcoPuzzle size={34} />} title="Gramática" text="Tiempos y estructuras en contexto" />
-          <Tile href="/musica" icon={<IcoMusic size={34} />} title="Música y rap" text={`${MUSIC.length} ejercicios de reducciones, juegos de palabras y doble sentido`} />
+          <Tile href="/series" icon={<IcoTv size={34} />} title="Inglés de series" text={`${SERIES.length} escenas originales para entender sin subtítulos (B1–C2)`} />
+          <Tile href="/musica" icon={<IcoMusic size={34} />} title="Música" text={`${MUSIC.length} ejercicios de reducciones, juegos de palabras y doble sentido`} />
           <Tile href="/biblioteca?tag=real" icon={<IcoPepper size={34} />} title="Inglés real" text={`${real} expresiones de slang, groserías y sarcasmo`} />
           <Tile href="/biblioteca?tag=shows" icon={<IcoTv size={34} />} title="Para tus series" text={`${shows} expresiones para ver series en inglés`} />
           <Tile href="/biblioteca" icon={<IcoBook size={34} />} title="Biblioteca" text={`${ITEMS.length.toLocaleString("es-MX")} expresiones y el catálogo de palabras`} />

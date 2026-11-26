@@ -2,7 +2,7 @@ import { requireProfile, settingsOf } from "@/lib/user";
 import { MUSIC } from "@/lib/content";
 import { MusicPractice } from "@/components/MusicPractice";
 
-export const metadata = { title: "Música y rap" };
+export const metadata = { title: "Música" };
 
 export default async function MusicPage() {
   const profile = await requireProfile();

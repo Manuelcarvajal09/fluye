@@ -19,12 +19,13 @@ export default defineConfig({
     { name: "setup", testMatch: /global\.setup\.ts/ },
     {
       name: "flujo",
-      testMatch: /(flow|voice|access)\.spec\.ts/,
+      testMatch: /(flow|voice|access|v1)\.spec\.ts/,
       dependencies: ["setup"],
       // Micrófono falso que "habla" un audio de prueba, para probar el dictado de verdad.
       use: { ...devices["Desktop Chrome"], launchOptions: { args: ["--use-fake-ui-for-media-stream", "--use-fake-device-for-media-stream", "--use-file-for-fake-audio-capture=tests/fixtures/speech.wav"] } },
     },
     { name: "armario", testMatch: /armario\.spec\.ts/, dependencies: ["setup"], use: { ...devices["Desktop Chrome"] } },
+    { name: "qa-mascotas", testMatch: /qa-mascotas\.spec\.ts/, use: { ...devices["Desktop Chrome"] } },
     { name: "pantallas", testMatch: /screens\.spec\.ts/, dependencies: ["flujo"], use: { ...devices["Desktop Chrome"] } },
   ],
   webServer: process.env.E2E_BASE_URL

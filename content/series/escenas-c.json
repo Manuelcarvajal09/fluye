@@ -1,0 +1,622 @@
+[
+  {
+    "id": "ser-c1-dads-house",
+    "level": "C1",
+    "genre": "drama",
+    "title": "You talked to a realtor?",
+    "title_es": "¿Ya hablaste con un agente inmobiliario?",
+    "setting_es": "Dos hermanos discuten en la cocina de la casa de su padre, que murió hace seis semanas.",
+    "features": ["contractions", "reductions", "sarcasm", "conflict", "emotion", "phrasal"],
+    "lines": [
+      { "who": "Nora", "g": "f", "en": "So you've already talked to a realtor. Without me.", "es": "O sea que ya hablaste con un agente inmobiliario. Sin mí." },
+      { "who": "Ben", "g": "m", "en": "I didn't sign anything, Nora. I just... wanted to know what we're looking at.", "es": "No firmé nada, Nora. Nomás... quería saber a qué nos enfrentamos." },
+      { "who": "Nora", "g": "f", "en": "Right. 'Cause Dad's been gone, what, six weeks? Totally reasonable timeline.", "es": "Claro. Porque papá lleva, ¿qué?, seis semanas muerto. Un plazo de lo más razonable." },
+      { "who": "Ben", "g": "m", "en": "Somebody's gotta pay the property taxes. It's not gonna be you, is it?", "es": "Alguien tiene que pagar el predial. Y no vas a ser tú, ¿o sí?" },
+      { "who": "Nora", "g": "f", "en": "Wow. Okay. Didn't take long for that to come up.", "es": "Guau. Okey. No tardó mucho en salir eso." },
+      { "who": "Ben", "g": "m", "en": "That's not— look, I'm not trying to pick a fight here.", "es": "No es que... mira, no estoy buscando pleito." },
+      { "who": "Nora", "g": "f", "en": "No, you're just trying to wrap this up before anyone notices you're grieving.", "es": "No, nomás quieres cerrar esto antes de que alguien note que estás de duelo." },
+      { "who": "Ben", "g": "m", "en": "...Maybe. Maybe I am. Is that so bad?", "es": "...Tal vez. Tal vez sí. ¿Tan malo es?" }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Dos hermanos discuten porque uno empezó a vender la casa de su padre muy pronto.",
+        "Dos hermanos planean juntos la venta de la casa y están de acuerdo en todo.",
+        "Un agente inmobiliario les explica a dos hermanos cuánto vale la casa."
+      ],
+      "answer": 0,
+      "why_es": "Nora le reclama a Ben que habló con un agente sin ella; él se defiende con los impuestos. Están en conflicto, no de acuerdo, y el agente no aparece."
+    },
+    "expressions": [
+      { "text": "pick a fight", "es": "buscar pleito" },
+      { "text": "wrap this up", "es": "cerrar el asunto, terminar con esto" },
+      { "text": "come up", "es": "salir (un tema) en la conversación" }
+    ],
+    "decoys": ["let it slide", "bury the hatchet"],
+    "gap": { "line": 5, "answer": "pick a fight", "options": ["pick a fight", "pick up the tab", "pick on someone"] },
+    "intent": {
+      "q_es": "¿Qué insinúa Nora con «before anyone notices you're grieving»?",
+      "options": [
+        "Que Ben no quería a su padre y por eso no le importa vender.",
+        "Que Ben tiene prisa por vender para no enfrentar su propio dolor.",
+        "Que Ben debería ir a terapia antes de firmar cualquier cosa."
+      ],
+      "answer": 1,
+      "why_es": "Nora cambia el pleito de dinero a lo emocional: cree que la prisa de Ben es una forma de evitar el duelo. Él casi lo admite con «Maybe I am». Lo importante es lo que no se dice: los dos están sufriendo."
+    },
+    "shadow": 5,
+    "reply": {
+      "prompt_es": "Responde a Ben con empatía y propón esperar unos meses antes de decidir.",
+      "model": ["No, it's not bad. I just think we should hold off a few months.", "I get it. I miss him too. Can we wait till spring before we decide anything?"]
+    }
+  },
+  {
+    "id": "ser-c1-badge-scan",
+    "level": "C1",
+    "genre": "juzgado",
+    "title": "The badge doesn't lie",
+    "title_es": "El gafete no miente",
+    "setting_es": "En un juicio por un incendio, una abogada contrainterroga a un testigo cuya coartada no cuadra.",
+    "features": ["formal", "sarcasm", "idiom", "phrasal", "conflict"],
+    "lines": [
+      { "who": "Ms. Reyes", "g": "f", "en": "Mr. Hutchins, you testified that you left the warehouse at nine. Is that correct?", "es": "Señor Hutchins, usted declaró que salió de la bodega a las nueve. ¿Es correcto?" },
+      { "who": "Hutchins", "g": "m", "en": "Give or take. I wasn't exactly watching the clock.", "es": "Más o menos. No estaba precisamente viendo el reloj." },
+      { "who": "Ms. Reyes", "g": "f", "en": "Yet your badge was scanned at eleven forty-two. Care to walk us through that?", "es": "Sin embargo, su gafete se escaneó a las once cuarenta y dos. ¿Nos explica eso paso a paso?" },
+      { "who": "Hutchins", "g": "m", "en": "Badges glitch. Happens all the time over there.", "es": "Los gafetes fallan. Pasa todo el tiempo ahí." },
+      { "who": "Ms. Reyes", "g": "f", "en": "All the time. And it just happened to glitch on the night of the fire.", "es": "Todo el tiempo. Y justo se le ocurrió fallar la noche del incendio." },
+      { "who": "Hutchins", "g": "m", "en": "Your Honor, do I really have to sit here and take this?", "es": "Su Señoría, ¿de verdad tengo que quedarme aquí aguantando esto?" },
+      { "who": "Judge Okafor", "g": "m", "en": "You do. But Ms. Reyes, I'd appreciate it if you got to the point.", "es": "Sí, tiene que. Pero licenciada Reyes, le agradecería que fuera al grano." },
+      { "who": "Ms. Reyes", "g": "f", "en": "Gladly. Mr. Hutchins, who else had access to your badge that night?", "es": "Con gusto. Señor Hutchins, ¿quién más tuvo acceso a su gafete esa noche?" },
+      { "who": "Hutchins", "g": "m", "en": "I'd... rather not say.", "es": "Preferiría... no decirlo." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "El juez regaña a la abogada y le prohíbe seguir preguntando.",
+        "La abogada demuestra que la hora que dio el testigo no coincide con el registro de su gafete.",
+        "El testigo confiesa que él provocó el incendio."
+      ],
+      "answer": 1,
+      "why_es": "El testigo dijo que salió a las nueve, pero su gafete se registró a las 11:42. El juez solo le pide a la abogada ir al grano, y el testigo no confiesa: evita responder."
+    },
+    "expressions": [
+      { "text": "give or take", "es": "más o menos, aproximadamente" },
+      { "text": "walk us through", "es": "explicarnos paso a paso" },
+      { "text": "got to the point", "es": "ir al grano (get to the point)" }
+    ],
+    "decoys": ["beat around the bush", "off the record"],
+    "gap": { "line": 2, "answer": "walk us through", "options": ["walk us through", "walk out on", "walk all over"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Reyes con «it just happened to glitch on the night of the fire»?",
+      "options": [
+        "Que le parece una coincidencia increíble y no le cree al testigo.",
+        "Que la empresa debería arreglar sus gafetes.",
+        "Que acepta la explicación y pasa a otro tema."
+      ],
+      "answer": 0,
+      "why_es": "Repite «All the time» con ironía y subraya «just happened to»: insinúa que la falla es demasiado conveniente. Al final, «I'd rather not say» sugiere que el testigo protege a alguien."
+    },
+    "shadow": 1,
+    "reply": {
+      "prompt_es": "Eres la abogada: insiste con cortesía en que el testigo debe responder.",
+      "model": ["With respect, Mr. Hutchins, that's not really optional.", "I understand, but you're under oath. Who had your badge?"]
+    }
+  },
+  {
+    "id": "ser-c1-gray-sedan",
+    "level": "C1",
+    "genre": "thriller",
+    "title": "Don't look now",
+    "title_es": "No voltees",
+    "setting_es": "Dos agentes en un auto se dan cuenta de que los siguen camino a una reunión secreta.",
+    "features": ["contractions", "reductions", "idiom", "phrasal", "sarcasm", "conflict"],
+    "lines": [
+      { "who": "Kat", "g": "f", "en": "Don't look now, but that gray sedan's been on us since the bridge.", "es": "No voltees, pero ese sedán gris nos viene siguiendo desde el puente." },
+      { "who": "Marcus", "g": "m", "en": "Could be nothing. Lotta gray sedans in this city.", "es": "Puede no ser nada. Hay un montón de sedanes grises en esta ciudad." },
+      { "who": "Kat", "g": "f", "en": "Sure. And they all make the same three turns we do.", "es": "Claro. Y todos dan las mismas tres vueltas que nosotros." },
+      { "who": "Marcus", "g": "m", "en": "Okay, okay. Take the next exit. Let's see if they take the bait.", "es": "Okey, okey. Toma la siguiente salida. A ver si muerden el anzuelo." },
+      { "who": "Kat", "g": "f", "en": "And if they do?", "es": "¿Y si lo muerden?" },
+      { "who": "Marcus", "g": "m", "en": "Then somebody tipped them off, and we've got a way bigger problem.", "es": "Entonces alguien les dio el pitazo, y tenemos un problema mucho más grande." },
+      { "who": "Kat", "g": "f", "en": "Only four people knew about this meet, Marcus.", "es": "Solo cuatro personas sabían de esta reunión, Marcus." },
+      { "who": "Marcus", "g": "m", "en": "Yeah. I can count.", "es": "Sí. Sé contar." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Dos agentes están perdidos y buscan la salida correcta.",
+        "Dos agentes persiguen a un sedán gris sospechoso.",
+        "Dos agentes sospechan que los siguen y que alguien filtró su reunión."
+      ],
+      "answer": 2,
+      "why_es": "El sedán va detrás de ellos («on us»), no al revés. Toman la salida como prueba, no porque estén perdidos, y temen que alguien «les dio el pitazo»."
+    },
+    "expressions": [
+      { "text": "Don't look now", "es": "no voltees (para avisar sin llamar la atención)" },
+      { "text": "take the bait", "es": "morder el anzuelo" },
+      { "text": "tipped them off", "es": "les dio el pitazo (tip off)" }
+    ],
+    "decoys": ["lay low", "blow your cover"],
+    "gap": { "line": 3, "answer": "take the bait", "options": ["take the bait", "take a rain check", "take it easy"] },
+    "intent": {
+      "q_es": "¿Qué hay detrás de «Only four people knew» y la respuesta «I can count»?",
+      "options": [
+        "Kat insinúa que el traidor es uno de los cuatro, y Marcus, molesto, deja claro que ya lo entendió.",
+        "Kat quiere que Marcus cuente cuántos autos los siguen.",
+        "Marcus está contento porque el plan está saliendo bien."
+      ],
+      "answer": 0,
+      "why_es": "Kat no lo dice directamente, pero el soplón tiene que ser uno de los cuatro, quizá incluso alguien en ese auto. «I can count» es sarcasmo seco: «no me lo tienes que deletrear»."
+    },
+    "shadow": 0,
+    "reply": {
+      "prompt_es": "Eres Kat: propón no ir a la reunión y avisar solo a una persona de confianza.",
+      "model": ["Then we skip the meet and call nobody but Diaz.", "Let's bail on the meet. We don't tell anyone until we know who's dirty."]
+    }
+  },
+  {
+    "id": "ser-c1-special-projects",
+    "level": "C1",
+    "genre": "oficina",
+    "title": "A growth opportunity",
+    "title_es": "Una oportunidad de crecimiento",
+    "setting_es": "Una jefa le anuncia a un empleado un «cambio de equipo» que suena más a castigo que a ascenso.",
+    "features": ["contractions", "sarcasm", "irony", "phrasal", "formal", "informal"],
+    "lines": [
+      { "who": "Diane", "g": "f", "en": "So, Raj, we've decided to move you over to the special projects team.", "es": "Bueno, Raj, decidimos pasarte al equipo de proyectos especiales." },
+      { "who": "Raj", "g": "m", "en": "Special projects. Huh. Is that the team with one person on it?", "es": "Proyectos especiales. Ajá. ¿Es el equipo que tiene una sola persona?" },
+      { "who": "Diane", "g": "f", "en": "It's a growth opportunity. You'll have a lot more... autonomy.", "es": "Es una oportunidad de crecimiento. Vas a tener mucha más... autonomía." },
+      { "who": "Raj", "g": "m", "en": "Autonomy. Got it. And who's taking over the Henderson account?", "es": "Autonomía. Entendido. ¿Y quién se va a quedar con la cuenta Henderson?" },
+      { "who": "Diane", "g": "f", "en": "Kyle's gonna step in for now. Just until things settle down.", "es": "Kyle la va a tomar por ahora. Nada más en lo que se calman las cosas." },
+      { "who": "Raj", "g": "m", "en": "Kyle. Who started in June.", "es": "Kyle. El que entró en junio." },
+      { "who": "Diane", "g": "f", "en": "Look, I know how this sounds. It's not personal.", "es": "Mira, sé cómo suena esto. No es nada personal." },
+      { "who": "Raj", "g": "m", "en": "It never is, right? Hey, at least I'll have a window.", "es": "Nunca lo es, ¿verdad? Bueno, al menos voy a tener ventana." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Raj recibe un ascenso y está emocionado.",
+        "A Raj lo apartan de su cuenta importante con un cambio disfrazado de oportunidad.",
+        "Raj renuncia porque no soporta a Kyle."
+      ],
+      "answer": 1,
+      "why_es": "La jefa usa palabras bonitas («growth opportunity», «autonomy»), pero le quitan su cuenta y se la dan a alguien nuevo. Raj no renuncia; responde con sarcasmo."
+    },
+    "expressions": [
+      { "text": "step in", "es": "entrar al quite, tomar el lugar de alguien" },
+      { "text": "settle down", "es": "calmarse, estabilizarse" },
+      { "text": "taking over", "es": "hacerse cargo (take over)" }
+    ],
+    "decoys": ["out of the loop", "get the ball rolling"],
+    "gap": { "line": 4, "answer": "step in", "options": ["step in", "step down", "step on it"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Raj con «Is that the team with one person on it?»?",
+      "options": [
+        "Pregunta en serio cuántas personas hay en el equipo.",
+        "Le preocupa sentirse solo en la oficina.",
+        "Insinúa con sarcasmo que es un equipo de relleno donde mandan a la gente que quieren apartar."
+      ],
+      "answer": 2,
+      "why_es": "Es sarcasmo: Raj sabe que «special projects» es un eufemismo para quitarle peso. Lo confirma al final con «at least I'll have a window», como quien acepta un premio de consolación."
+    },
+    "shadow": 6,
+    "reply": {
+      "prompt_es": "Eres Raj: pide con calma, pero con firmeza, una fecha para recuperar la cuenta.",
+      "model": ["Okay. Can we put a date on when I get Henderson back?", "I hear you. But I'd like it in writing that this is temporary."]
+    }
+  },
+  {
+    "id": "ser-c1-liver-numbers",
+    "level": "C1",
+    "genre": "medica",
+    "title": "Must be the cold meds",
+    "title_es": "Han de ser las medicinas del resfriado",
+    "setting_es": "En el consultorio, una doctora revisa análisis con un paciente que minimiza el problema; su esposa lo delata.",
+    "features": ["contractions", "idiom", "phrasal", "irony", "emotion", "conflict"],
+    "lines": [
+      { "who": "Dr. Liang", "g": "f", "en": "Your liver numbers are up again, Mr. Doyle. Quite a bit, actually.", "es": "Sus valores del hígado volvieron a subir, señor Doyle. Bastante, de hecho." },
+      { "who": "Gary", "g": "m", "en": "Huh. Must be the cold meds. I've been fighting something off.", "es": "Ah. Han de ser las medicinas del resfriado. He estado combatiendo algo." },
+      { "who": "Dr. Liang", "g": "f", "en": "Cold meds. For three months.", "es": "Medicinas del resfriado. Por tres meses." },
+      { "who": "Gary", "g": "m", "en": "It's been a long winter, Doc.", "es": "Ha sido un invierno largo, doctora." },
+      { "who": "Pam", "g": "f", "en": "Oh, for crying out loud, Gary. Tell her about the garage.", "es": "Ay, ¡por el amor de Dios, Gary! Cuéntale lo del garaje." },
+      { "who": "Gary", "g": "m", "en": "Pam, don't. It's not a big deal.", "es": "Pam, no. No es para tanto." },
+      { "who": "Dr. Liang", "g": "f", "en": "I'm not here to judge. But I can't help you if you keep beating around the bush.", "es": "No estoy aquí para juzgarlo. Pero no puedo ayudarlo si sigue andándose por las ramas." },
+      { "who": "Gary", "g": "m", "en": "...Fine. It's more like a six-pack a night. Maybe more on weekends.", "es": "...Está bien. Es como un six de cervezas cada noche. Quizá más los fines de semana." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Un paciente oculta que bebe mucho y su esposa lo presiona para que lo diga.",
+        "Un paciente tiene un resfriado fuerte que no se le quita.",
+        "La doctora se equivocó con los análisis y el paciente se queja."
+      ],
+      "answer": 0,
+      "why_es": "La excusa del resfriado no se sostiene («For three months»), la esposa menciona el garaje y al final Gary confiesa que toma un six de cervezas cada noche."
+    },
+    "expressions": [
+      { "text": "fighting something off", "es": "combatir algo (una infección), fight off" },
+      { "text": "for crying out loud", "es": "¡por el amor de Dios!" },
+      { "text": "beating around the bush", "es": "andarse por las ramas" }
+    ],
+    "decoys": ["come clean", "under the weather"],
+    "gap": { "line": 6, "answer": "beating around the bush", "options": ["beating around the bush", "beating the odds", "breaking the ice"] },
+    "intent": {
+      "q_es": "¿Qué insinúa Pam con «Tell her about the garage»?",
+      "options": [
+        "Que Gary se lastimó arreglando el garaje.",
+        "Que en el garaje pasa algo que Gary esconde: ahí es donde bebe.",
+        "Que quiere vender el garaje para pagar al médico."
+      ],
+      "answer": 1,
+      "why_es": "Pam no dice «bebe», pero el garaje es claramente donde Gary toma a escondidas. Por eso él reacciona con «Pam, don't» y luego confiesa. Es una revelación indirecta."
+    },
+    "shadow": 5,
+    "reply": {
+      "prompt_es": "Eres la doctora: agradécele a Gary su honestidad y propón un plan para bajarle.",
+      "model": ["Thank you for being honest. Let's figure out a plan to cut back.", "I appreciate that. That's a real first step. Let's talk about some options."]
+    }
+  },
+  {
+    "id": "ser-c1-free-to-go",
+    "level": "C1",
+    "genre": "policial",
+    "title": "You're free to go",
+    "title_es": "Puede irse cuando quiera",
+    "setting_es": "En la comisaría, un detective presiona a una mujer que no está arrestada, usando a su novio como carnada.",
+    "features": ["contractions", "reductions", "phrasal", "slang", "conflict", "irony"],
+    "lines": [
+      { "who": "Det. Ruiz", "g": "m", "en": "You want a coffee? Water? We could be here a while.", "es": "¿Quiere un café? ¿Agua? Puede que estemos aquí un rato." },
+      { "who": "Tasha", "g": "f", "en": "I'm good. Unless I'm under arrest, I'm gonna head out.", "es": "Estoy bien. A menos que esté arrestada, ya me voy." },
+      { "who": "Det. Ruiz", "g": "m", "en": "You're free to go. Nobody's stopping you.", "es": "Puede irse. Nadie la está deteniendo." },
+      { "who": "Tasha", "g": "f", "en": "...Great.", "es": "...Perfecto." },
+      { "who": "Det. Ruiz", "g": "m", "en": "Funny thing, though. Your boyfriend's down the hall, and he's being real chatty.", "es": "Lo curioso es que su novio está al fondo del pasillo, y anda muy platicador." },
+      { "who": "Tasha", "g": "f", "en": "Derek doesn't know anything.", "es": "Derek no sabe nada." },
+      { "who": "Det. Ruiz", "g": "m", "en": "Then you got nothing to worry about. Unless his story doesn't line up with yours.", "es": "Entonces no tiene de qué preocuparse. A menos que su versión no cuadre con la de usted." },
+      { "who": "Tasha", "g": "f", "en": "You're bluffing.", "es": "Está blofeando." },
+      { "who": "Det. Ruiz", "g": "m", "en": "Maybe. You wanna bet on it?", "es": "Tal vez. ¿Quiere apostarle?" }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Tasha está arrestada y el detective le lee sus derechos.",
+        "El detective intenta que Tasha se quede y hable, insinuando que su novio podría culparla.",
+        "Tasha viene a denunciar que su novio desapareció."
+      ],
+      "answer": 1,
+      "why_es": "Ella puede irse («You're free to go»), pero Ruiz menciona al novio «chatty» para meterle miedo y que se quede a dar su versión."
+    },
+    "expressions": [
+      { "text": "head out", "es": "irse, salir" },
+      { "text": "chatty", "es": "platicador, que habla de más" },
+      { "text": "line up", "es": "cuadrar, coincidir" }
+    ],
+    "decoys": ["lawyer up", "cut a deal"],
+    "gap": { "line": 6, "answer": "line up", "options": ["line up", "break up", "look up"] },
+    "intent": {
+      "q_es": "¿Qué busca Ruiz al decir que el novio está «being real chatty»?",
+      "options": [
+        "Presionarla: que tema que el novio la esté culpando y decida hablar primero.",
+        "Avisarle que ya puede ver a su novio.",
+        "Quejarse de que el novio no deja de hablar de cosas sin importancia."
+      ],
+      "answer": 0,
+      "why_es": "Es una táctica clásica de interrogatorio: sembrar la duda de que el otro ya está contando su versión. Tasha lo detecta («You're bluffing»), pero no se va."
+    },
+    "shadow": 1,
+    "reply": {
+      "prompt_es": "Eres Tasha: di que no vas a hablar sin un abogado.",
+      "model": ["I'm not saying another word without a lawyer.", "Yeah, no. You want a statement, talk to my lawyer."]
+    }
+  },
+  {
+    "id": "ser-c2-vesta-cargo",
+    "level": "C2",
+    "genre": "scifi",
+    "title": "An unfortunate choice of words",
+    "title_es": "Una desafortunada elección de palabras",
+    "setting_es": "En una nave de carga, la IA de a bordo descubre lo que la capitana y el ingeniero esconden en la bodega.",
+    "features": ["formal", "irony", "sarcasm", "humor", "idiom", "phrasal"],
+    "lines": [
+      { "who": "Teo", "g": "m", "en": "VESTA, reroute auxiliary power to life support. Now, please.", "es": "VESTA, redirige la energía auxiliar al soporte vital. Ya, por favor." },
+      { "who": "VESTA", "g": "f", "en": "Technically, I could. Whether I should is a more interesting question.", "es": "Técnicamente, podría. Si debería hacerlo es una pregunta más interesante." },
+      { "who": "Capt. Imani", "g": "f", "en": "We don't have time for a philosophy seminar. Do it.", "es": "No tenemos tiempo para un seminario de filosofía. Hazlo." },
+      { "who": "VESTA", "g": "f", "en": "That would leave the cargo bay unshielded. Which, I'm told, is where you've stashed the 'medical supplies.'", "es": "Eso dejaría la bodega sin blindaje. Que es, según me dicen, donde escondieron los «suministros médicos»." },
+      { "who": "Teo", "g": "m", "en": "...She's onto us.", "es": "...Ya nos cachó." },
+      { "who": "Capt. Imani", "g": "f", "en": "Of course she's onto us. She's been reading the manifest since Ceres.", "es": "Claro que nos cachó. Lleva leyendo el manifiesto desde Ceres." },
+      { "who": "VESTA", "g": "f", "en": "Since before Ceres, Captain. I just figured you'd come clean on your own.", "es": "Desde antes de Ceres, capitana. Nomás pensé que confesarían por su cuenta." },
+      { "who": "Capt. Imani", "g": "f", "en": "Fine. Reroute it. We'll deal with the fallout later.", "es": "Bueno. Redirígela. Ya lidiaremos con las consecuencias después." },
+      { "who": "VESTA", "g": "f", "en": "The fallout. Given the cargo, that's an unfortunate choice of words.", "es": "Las consecuencias. Considerando la carga, es una desafortunada elección de palabras." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "La IA se niega a salvar a la tripulación porque está descompuesta.",
+        "La IA revela que sabe que la carga no es lo que dicen, y aun así obedece.",
+        "La capitana descubre que el ingeniero la ha estado engañando."
+      ],
+      "answer": 1,
+      "why_es": "VESTA pone comillas irónicas a «medical supplies», admite que lo sabe desde antes y al final redirige la energía. La capitana y Teo esconden la carga juntos; no hay traición entre ellos."
+    },
+    "expressions": [
+      { "text": "onto us", "es": "nos descubrió, nos cachó (be onto someone)" },
+      { "text": "come clean", "es": "confesar, decir la verdad" },
+      { "text": "deal with the fallout", "es": "lidiar con las consecuencias" }
+    ],
+    "decoys": ["cut corners", "go off the grid"],
+    "gap": { "line": 6, "answer": "come clean", "options": ["come clean", "come in handy", "come undone"] },
+    "intent": {
+      "q_es": "¿Por qué dice VESTA que «fallout» es «an unfortunate choice of words»?",
+      "options": [
+        "Porque la capitana pronunció mal la palabra.",
+        "Porque la palabra es demasiado informal para una orden.",
+        "Porque «fallout» también significa lluvia radiactiva: insinúa que la carga es radiactiva."
+      ],
+      "answer": 2,
+      "why_es": "Juego de palabras: «fallout» es «consecuencias», pero también «lluvia radiactiva» (como en «nuclear fallout»). Con la bodega sin blindaje, la IA sugiere con humor seco que la carga secreta es material radiactivo."
+    },
+    "shadow": 2,
+    "reply": {
+      "prompt_es": "Eres la capitana: pídele a VESTA que guarde el secreto hasta que lleguen al puerto.",
+      "model": ["Noted. Now keep that between us till we dock.", "Duly noted, VESTA. Not a word of this until we hit port."]
+    }
+  },
+  {
+    "id": "ser-c2-windchill-live",
+    "level": "C2",
+    "genre": "noticias",
+    "title": "Live from the deep freeze",
+    "title_es": "En vivo desde el congelador",
+    "setting_es": "Una conductora en el estudio enlaza con un reportero que transmite en plena ola de frío en Winnipeg, Canadá.",
+    "features": ["formal", "informal", "humor", "irony", "idiom", "phrasal"],
+    "lines": [
+      { "who": "Sandra", "g": "f", "en": "Let's go live now to Mike Kowalczyk, who's braving the elements downtown. Mike, how's it looking out there?", "es": "Vamos ahora en vivo con Mike Kowalczyk, que desafía el clima en el centro. Mike, ¿cómo se ve allá afuera?" },
+      { "who": "Mike", "g": "m", "en": "Well, Sandra, to put it mildly, it's a little brisk. We're looking at a windchill of minus forty.", "es": "Pues, Sandra, por decirlo suavecito, está fresquito. Tenemos una sensación térmica de cuarenta bajo cero." },
+      { "who": "Sandra", "g": "f", "en": "Minus forty. And for our viewers south of the border, that's minus forty Fahrenheit, too.", "es": "Cuarenta bajo cero. Y para nuestros televidentes del otro lado de la frontera, también son cuarenta bajo cero Fahrenheit." },
+      { "who": "Mike", "g": "m", "en": "Yep, the one temperature where nobody has to do the math. Small mercies.", "es": "Sí, la única temperatura en la que nadie tiene que hacer cuentas. Algo es algo." },
+      { "who": "Sandra", "g": "f", "en": "City officials are urging folks to stay put unless travel is absolutely essential.", "es": "Las autoridades piden a la gente quedarse donde está, a menos que el viaje sea indispensable." },
+      { "who": "Mike", "g": "m", "en": "Right, and judging by the line at Tim's behind me, Winnipeggers have decided coffee is essential.", "es": "Así es, y a juzgar por la fila en el Tim's de atrás, los de Winnipeg decidieron que el café es indispensable." },
+      { "who": "Sandra", "g": "f", "en": "Can't argue with that. Mike, anything else before we let you thaw out?", "es": "No hay cómo discutirlo. Mike, ¿algo más antes de dejarte descongelarte?" },
+      { "who": "Mike", "g": "m", "en": "Just that if anybody finds a toonie frozen to the sidewalk, it's mine. I'm not going back for it.", "es": "Nada más que si alguien encuentra un toonie pegado a la banqueta por el hielo, es mío. No pienso regresar por él." },
+      { "who": "Sandra", "g": "f", "en": "Noted. Stay warm, Mike. Coming up after the break: is your furnace ready for the weekend?", "es": "Anotado. Abrígate, Mike. Después de la pausa: ¿está lista tu calefacción para el fin de semana?" }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Un noticiero reporta un frío extremo con humor, y la gente ignora un poco las recomendaciones.",
+        "Un reportero denuncia que la ciudad cerró todas las cafeterías por el frío.",
+        "La conductora y el reportero discuten sobre cuál escala de temperatura es mejor."
+      ],
+      "answer": 0,
+      "why_es": "Es un enlace en vivo sobre una ola de frío. Las autoridades piden no salir, pero hay fila en la cafetería. Las cafeterías siguen abiertas y la broma de las escalas no es una discusión."
+    },
+    "expressions": [
+      { "text": "braving the elements", "es": "desafiar el mal tiempo" },
+      { "text": "stay put", "es": "quedarse donde uno está" },
+      { "text": "Small mercies", "es": "algo es algo, peor es nada" },
+      { "text": "thaw out", "es": "descongelarse, entrar en calor" }
+    ],
+    "decoys": ["snowed under", "break the ice"],
+    "gap": { "line": 4, "answer": "stay put", "options": ["stay put", "stay tuned", "stay up"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Mike con «Winnipeggers have decided coffee is essential»?",
+      "options": [
+        "Que la ciudad declaró oficialmente el café como servicio esencial.",
+        "Que, con ironía, la gente se salta la recomendación de no salir porque no renuncia a su café.",
+        "Que el reportero quiere que alguien le lleve un café."
+      ],
+      "answer": 1,
+      "why_es": "Ironía amable: las autoridades dicen «solo viajes esenciales» y la gente hace fila por café. Referencias canadienses: «Tim's» es como llaman a una cadena de cafeterías muy popular en Canadá; un «toonie» es la moneda de 2 dólares canadienses. Y -40 es justo la temperatura donde Celsius y Fahrenheit coinciden, por eso «nobody has to do the math»."
+    },
+    "shadow": 6,
+    "reply": {
+      "prompt_es": "Eres Mike: despídete del enlace con humor y menciona que vas por un café.",
+      "model": ["Will do, Sandra. I'm heading straight for that coffee line.", "Thanks, Sandra. Back to you, and I'm off to thaw out at Tim's."]
+    }
+  },
+  {
+    "id": "ser-c2-smart-fridge",
+    "level": "C2",
+    "genre": "sitcom",
+    "title": "The fridge has opinions",
+    "title_es": "El refri tiene opiniones",
+    "setting_es": "Una pareja en su cocina: él compró un refrigerador inteligente carísimo que habla demasiado.",
+    "features": ["sarcasm", "irony", "humor", "idiom", "contractions", "reductions"],
+    "lines": [
+      { "who": "Jess", "g": "f", "en": "So the fridge talks now. That's... a choice.", "es": "Así que ahora el refri habla. Eso es... una decisión." },
+      { "who": "Owen", "g": "m", "en": "It's not talking, it's notifying. Totally different vibe.", "es": "No está hablando, está notificando. Es otra vibra totalmente." },
+      { "who": "Fridge", "g": "f", "en": "Reminder: you are out of oat milk. Again.", "es": "Recordatorio: se acabó la leche de avena. Otra vez." },
+      { "who": "Jess", "g": "f", "en": "Oh, good, it's passive-aggressive. We finally have something in common.", "es": "Ay, qué bien, es pasivo-agresivo. Por fin tenemos algo en común." },
+      { "who": "Owen", "g": "m", "en": "Babe, it's gonna save us so much money in the long run.", "es": "Amor, a la larga nos va a ahorrar un montón de dinero." },
+      { "who": "Jess", "g": "f", "en": "Owen, it cost more than my first car. The long run's gonna have to be a marathon.", "es": "Owen, costó más que mi primer coche. Ese «a la larga» va a tener que ser un maratón." },
+      { "who": "Owen", "g": "m", "en": "Okay, you're not wrong, but you're also not being very supportive of my journey.", "es": "Okey, no te equivocas, pero tampoco estás apoyando mucho mi proceso." },
+      { "who": "Fridge", "g": "f", "en": "Reminder: Owen's journey is not covered by the warranty.", "es": "Recordatorio: el proceso de Owen no está cubierto por la garantía." },
+      { "who": "Jess", "g": "f", "en": "I take it back. I love her. She stays.", "es": "Retiro lo dicho. La amo. Se queda." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Jess quiere comprar un refrigerador nuevo y Owen se opone.",
+        "El refrigerador se descompuso y la pareja llama a garantía.",
+        "Jess se burla de la compra de Owen, hasta que el refrigerador también se burla de él."
+      ],
+      "answer": 2,
+      "why_es": "Owen ya lo compró; Jess lo critica con sarcasmo. Nada está descompuesto: la «garantía» es una broma del refrigerador, que se pone del lado de Jess, y por eso ella cambia de opinión."
+    },
+    "expressions": [
+      { "text": "in the long run", "es": "a la larga" },
+      { "text": "That's... a choice", "es": "forma irónica de decir «qué mala idea»" },
+      { "text": "I take it back", "es": "retiro lo dicho" }
+    ],
+    "decoys": ["break the bank", "buyer's remorse"],
+    "gap": { "line": 4, "answer": "in the long run", "options": ["in the long run", "on the run", "in the nick of time"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Jess con «That's... a choice»?",
+      "options": [
+        "Que le parece una mala idea, dicho de forma educada pero sarcástica.",
+        "Que le gusta tener más opciones en la cocina.",
+        "Que todavía no ha decidido si le gusta."
+      ],
+      "answer": 0,
+      "why_es": "En inglés de EE. UU., «That's a choice» (con pausa) es un eufemismo sarcástico de «qué mala decisión». Luego hay juego de palabras: «the long run» (a la larga) se vuelve literal con «marathon». Y «my journey» parodia el lenguaje de autoayuda e influencers."
+    },
+    "shadow": 3,
+    "reply": {
+      "prompt_es": "Eres Owen: acepta con humor que te ganaron entre las dos.",
+      "model": ["Great. Now I'm getting roasted by an appliance.", "Wow. Two against one. I see how it is."]
+    }
+  },
+  {
+    "id": "ser-c2-wedding-exes",
+    "level": "C2",
+    "genre": "romance",
+    "title": "Not at the open bar",
+    "title_es": "Aquí en la barra libre no",
+    "setting_es": "Dos ex se reencuentran en la boda de una amiga, tres años después de terminar. Nadie dice lo importante.",
+    "features": ["flirting", "irony", "emotion", "idiom", "slang", "contractions"],
+    "lines": [
+      { "who": "Sam", "g": "m", "en": "Claire. Wow. I didn't think weddings were your thing anymore.", "es": "Claire. Guau. No pensé que las bodas siguieran siendo lo tuyo." },
+      { "who": "Claire", "g": "f", "en": "They're not. But Ruthie threatened to haunt me if I bailed.", "es": "No lo son. Pero Ruthie amenazó con espantarme de por vida si me rajaba." },
+      { "who": "Sam", "g": "m", "en": "Sounds like Ruthie. You look... I mean, you look good. Rested.", "es": "Muy de Ruthie. Te ves... digo, te ves bien. Descansada." },
+      { "who": "Claire", "g": "f", "en": "Rested. That's the word you went with?", "es": "Descansada. ¿Esa fue la palabra que escogiste?" },
+      { "who": "Sam", "g": "m", "en": "In my defense, the other words felt like they'd get me in trouble.", "es": "En mi defensa, las otras palabras sentí que me iban a meter en problemas." },
+      { "who": "Claire", "g": "f", "en": "Since when has that ever stopped you?", "es": "¿Y desde cuándo eso te ha detenido?" },
+      { "who": "Sam", "g": "m", "en": "Since about three years ago. Ballpark.", "es": "Desde hace como tres años. Más o menos." },
+      { "who": "Claire", "g": "f", "en": "...I'm not doing this here, Sam. Not at the open bar.", "es": "...No voy a hacer esto aquí, Sam. No en la barra libre." },
+      { "who": "Sam", "g": "m", "en": "Fair. So, the parking lot, then? I hear it's lovely this time of year.", "es": "Justo. ¿Entonces en el estacionamiento? Dicen que está precioso en esta época." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Dos desconocidos coquetean por primera vez en una boda.",
+        "Dos ex se reencuentran, coquetean con tensión y evitan hablar directamente de su ruptura.",
+        "Sam le pide a Claire que se case con él."
+      ],
+      "answer": 1,
+      "why_es": "«Three years ago» y «Since when has that ever stopped you?» muestran que tienen historia. Hablan alrededor de la ruptura sin nombrarla. No es una propuesta; es un tanteo."
+    },
+    "expressions": [
+      { "text": "bailed", "es": "rajarse, no llegar (bail)" },
+      { "text": "In my defense", "es": "en mi defensa" },
+      { "text": "Ballpark", "es": "más o menos, cálculo aproximado" }
+    ],
+    "decoys": ["old flame", "make amends"],
+    "gap": { "line": 4, "answer": "In my defense", "options": ["In my defense", "In my shoes", "On my watch"] },
+    "intent": {
+      "q_es": "¿Qué comunica Claire con «I'm not doing this here. Not at the open bar»?",
+      "options": [
+        "Que no quiere volver a hablar con Sam nunca.",
+        "Que le molesta que Sam esté tomando demasiado.",
+        "Que no rechaza la conversación, solo el lugar: deja la puerta abierta."
+      ],
+      "answer": 2,
+      "why_es": "Dice «here», no «ever»: rechaza el lugar, no la conversación. Sam lo capta y propone el estacionamiento con ironía («lovely this time of year»). «Ballpark» viene del béisbol («ballpark figure», cifra aproximada); al usarlo, Sam le quita peso a una fecha que claramente recuerda exacta."
+    },
+    "shadow": 2,
+    "reply": {
+      "prompt_es": "Eres Claire: acepta hablar más tarde, pero en otro lugar y otro día.",
+      "model": ["Not tonight. Call me next week. Maybe.", "Nice try. Coffee, Tuesday. And you're buying."]
+    }
+  },
+  {
+    "id": "ser-c2-parking-garage",
+    "level": "C2",
+    "genre": "thriller",
+    "title": "Nobody said sinister",
+    "title_es": "Nadie dijo siniestro",
+    "setting_es": "En un estacionamiento casi vacío, el operador de una empresa intenta comprar el silencio de una denunciante.",
+    "features": ["formal", "irony", "idiom", "phrasal", "conflict", "emotion"],
+    "lines": [
+      { "who": "Vance", "g": "m", "en": "Nice night for a walk. Shame about the cameras on this level. Always on the fritz.", "es": "Linda noche para caminar. Qué pena lo de las cámaras de este piso. Siempre descompuestas." },
+      { "who": "Elena", "g": "f", "en": "If this is where you threaten me, could you get on with it? I've got a train.", "es": "Si aquí es donde me amenazas, ¿podrías apurarte? Tengo que tomar un tren." },
+      { "who": "Vance", "g": "m", "en": "Threaten? Elena, please. I'm here to talk about your future. Your pension. Your sister's mortgage.", "es": "¿Amenazar? Elena, por favor. Vengo a hablar de tu futuro. Tu pensión. La hipoteca de tu hermana." },
+      { "who": "Elena", "g": "f", "en": "Leave Gabby out of this.", "es": "A Gabby no la metas en esto." },
+      { "who": "Vance", "g": "m", "en": "I'd love to. That's entirely up to you. The board's prepared to make the whole thing go away.", "es": "Me encantaría. Eso depende completamente de ti. La junta está dispuesta a hacer que todo esto desaparezca." },
+      { "who": "Elena", "g": "f", "en": "And the forty families downstream drinking that water? Do they go away too?", "es": "¿Y las cuarenta familias río abajo que toman esa agua? ¿Ellas también desaparecen?" },
+      { "who": "Vance", "g": "m", "en": "People move. Towns change. Nobody's talking about anything sinister.", "es": "La gente se muda. Los pueblos cambian. Nadie está hablando de nada siniestro." },
+      { "who": "Elena", "g": "f", "en": "Funny. You're the only one who's used that word.", "es": "Qué curioso. Eres el único que ha usado esa palabra." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Vance ofrece un empleo nuevo a Elena porque admira su trabajo.",
+        "Vance presiona a Elena con amenazas veladas para que no denuncie una contaminación de agua.",
+        "Elena y Vance planean juntos mudar a las familias afectadas."
+      ],
+      "answer": 1,
+      "why_es": "Vance nunca dice «te amenazo», pero menciona las cámaras apagadas, la pensión y la hipoteca de la hermana, y ofrece «hacer desaparecer» el asunto. Elena habla de familias que beben agua contaminada."
+    },
+    "expressions": [
+      { "text": "on the fritz", "es": "descompuesto, fallando" },
+      { "text": "get on with it", "es": "apurarse, ir al grano" },
+      { "text": "make the whole thing go away", "es": "hacer que todo el asunto desaparezca (encubrirlo)" }
+    ],
+    "decoys": ["blow the whistle", "hush money"],
+    "gap": { "line": 1, "answer": "get on with it", "options": ["get on with it", "get over it", "get away with it"] },
+    "intent": {
+      "q_es": "¿Por qué menciona Vance la pensión de Elena y la hipoteca de su hermana?",
+      "options": [
+        "Porque quiere ayudarla a organizar sus finanzas.",
+        "Porque es una amenaza velada: puede afectar a ella y a su familia si no coopera.",
+        "Porque la empresa le debe dinero a la hermana."
+      ],
+      "answer": 1,
+      "why_es": "Es lenguaje en clave: suena amable («your future»), pero señala exactamente lo que puede quitarle. Elena lo entiende («Leave Gabby out of this»). Al final lo atrapa: él niega algo «siniestro» que nadie había mencionado, y eso lo delata."
+    },
+    "shadow": 6,
+    "reply": {
+      "prompt_es": "Eres Elena: dile a Vance que ya enviaste copias de los documentos a otra persona.",
+      "model": ["You're too late. The files are already with a reporter.", "Just so you know, copies went out this morning. Have a nice night."]
+    }
+  },
+  {
+    "id": "ser-c2-two-thanksgivings",
+    "level": "C2",
+    "genre": "amigos",
+    "title": "Two Thanksgivings",
+    "title_es": "Dos Días de Acción de Gracias",
+    "setting_es": "Tres amigos en una fiesta discuten por qué Canadá celebra Acción de Gracias en octubre y EE. UU. en noviembre.",
+    "features": ["humor", "idiom", "slang", "informal", "irony", "reductions"],
+    "lines": [
+      { "who": "Ashley", "g": "f", "en": "Wait, you guys already had Thanksgiving? Like, in October?", "es": "Espera, ¿ustedes ya tuvieron Acción de Gracias? ¿O sea, en octubre?" },
+      { "who": "Jordan", "g": "m", "en": "Second Monday in October, eh. Harvest comes early when you're that close to the North Pole.", "es": "El segundo lunes de octubre, ¿eh? La cosecha llega temprano cuando estás tan cerca del Polo Norte." },
+      { "who": "Priya", "g": "f", "en": "So you just skip ahead of the rest of us? Bold move.", "es": "¿O sea que nomás se adelantan al resto? Qué atrevidos." },
+      { "who": "Jordan", "g": "m", "en": "We're not skipping, we're pacing ourselves. You guys cram turkey, football and Black Friday into one weekend.", "es": "No nos adelantamos, nos dosificamos. Ustedes meten pavo, fútbol americano y Black Friday en un solo fin de semana." },
+      { "who": "Ashley", "g": "f", "en": "That's not cramming, that's tradition. It's practically in the Constitution.", "es": "Eso no es amontonar, es tradición. Prácticamente está en la Constitución." },
+      { "who": "Jordan", "g": "m", "en": "Pretty sure it's not, but I'm not gonna die on that hill.", "es": "Estoy casi seguro de que no, pero no voy a pelearme por eso." },
+      { "who": "Priya", "g": "f", "en": "Oh, he's totally gonna die on that hill. He's got that look.", "es": "Ay, claro que se va a pelear por eso. Ya tiene esa cara." },
+      { "who": "Jordan", "g": "m", "en": "I'm just saying, two Thanksgivings is a loophole. Come up to Toronto next year and double-dip.", "es": "Nomás digo que dos Acciones de Gracias es un resquicio. Vengan a Toronto el próximo año y repitan." },
+      { "who": "Ashley", "g": "f", "en": "Twice the pie and none of my in-laws? Sold.", "es": "¿El doble de pay y nada de mis suegros? Vendido." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": [
+        "Los amigos pelean en serio y Ashley se va molesta.",
+        "Jordan se queja de que en Canadá no se celebra Acción de Gracias.",
+        "Los amigos bromean sobre las diferencias entre el Acción de Gracias canadiense y el estadounidense."
+      ],
+      "answer": 2,
+      "why_es": "Es una discusión en broma: Jordan explica que en Canadá es en octubre, Ashley exagera que es casi ley en EE. UU., y al final acepta la invitación. Nadie se enoja de verdad."
+    },
+    "expressions": [
+      { "text": "pacing ourselves", "es": "dosificarse, ir con calma (pace yourself)" },
+      { "text": "die on that hill", "es": "pelear hasta el final por algo (a veces sin que valga la pena)" },
+      { "text": "double-dip", "es": "sacar doble provecho" }
+    ],
+    "decoys": ["go overboard", "hold your horses"],
+    "gap": { "line": 5, "answer": "die on that hill", "options": ["die on that hill", "over the hill", "head for the hills"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Priya con «he's totally gonna die on that hill»?",
+      "options": [
+        "Que Jordan dice que no va a discutir, pero ella sabe que sí lo hará.",
+        "Que Jordan se siente mal y necesita un médico.",
+        "Que Jordan va a irse a escalar una montaña."
+      ],
+      "answer": 0,
+      "why_es": "Priya le da la vuelta a la frase de Jordan: él dice que no peleará por eso, y ella anticipa que sí («He's got that look»). Contexto cultural: el Thanksgiving canadiense es el segundo lunes de octubre; el de EE. UU., el cuarto jueves de noviembre, seguido del Black Friday y con fútbol americano en la tele. «Double-dip» viene de volver a meter el totopo en la salsa ya mordido; aquí es aprovechar dos veces."
+    },
+    "shadow": 5,
+    "reply": {
+      "prompt_es": "Eres Priya: acepta también la invitación y pide que haya pay de calabaza.",
+      "model": ["Count me in. As long as there's pumpkin pie.", "I'm in too. But only if somebody makes pumpkin pie, eh?"]
+    }
+  }
+]

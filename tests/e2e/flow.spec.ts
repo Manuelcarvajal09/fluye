@@ -1,6 +1,6 @@
 import { clerk, setupClerkTestingToken } from "@clerk/testing/playwright";
 import { expect, test, type Page } from "@playwright/test";
-import { ensureTestUser, resetTestData, sql, TEST_EMAIL } from "./helpers";
+import { ensureTestUser, resetTestData, sql, TEST_EMAIL, solveNewFormats } from "./helpers";
 
 async function signIn(page: Page) {
   await setupClerkTestingToken({ page });
@@ -23,6 +23,11 @@ async function playSession(page: Page) {
     if (await ok.isVisible()) {
       seen.add("intro");
       await ok.click({ timeout: 2000 }).catch(() => {});
+      continue;
+    }
+    const fmt = await solveNewFormats(page);
+    if (fmt) {
+      seen.add(fmt);
       continue;
     }
     const typed = page.locator("#typed");

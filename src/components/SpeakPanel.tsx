@@ -6,6 +6,7 @@ import { preloadStt, resampleTo16k, subscribeStt, transcribe, type SttStatus } f
 import { pitchContour, endingTrend, type PitchPoint } from "@/lib/audio/pitch";
 import { wordMatch } from "@/lib/answer";
 import { AudioButton } from "./ui";
+import { SpeechFeedback } from "./SpeechFeedback";
 
 export type SpeakResult = { ratio: number | null; self: 1 | 2 | 3 | null };
 
@@ -15,8 +16,11 @@ export type SpeakResult = { ratio: number | null; self: 1 | 2 | 3 | null };
  * y ves qué palabras entendió, 4) comparas oyendo ambas voces, 5) te autoevalúas.
  * Whisper mide si se te entiende, NO la calidad fonética: tiende a "corregir" pronunciaciones dudosas.
  */
-export function SpeakPanel({ target, onResult, showPitch = false, compact = false }: { target: string; onResult: (r: SpeakResult) => void; showPitch?: boolean; compact?: boolean }) {
-  const plainTarget = target.replace(/[\[\]]/g, "");
+export function SpeakPanel({ target, onResult, showPitch = false, compact = false, requireTerm }: { target: string; onResult: (r: SpeakResult) => void; showPitch?: boolean; compact?: boolean; requireTerm?: string }) {
+  const fullTarget = target.replace(/[\[\]]/g, "");
+  // Practicar solo el fragmento difícil y luego volver a la frase completa.
+  const [part, setPart] = useState<string | null>(null);
+  const plainTarget = part ?? fullTarget;
   const [heard, setHeard] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [failed, setFailed] = useState(false);
@@ -45,13 +49,28 @@ export function SpeakPanel({ target, onResult, showPitch = false, compact = fals
   }, []);
 
   const match = useMemo(() => (heard !== null ? wordMatch(plainTarget, heard) : null), [heard, plainTarget]);
-  const contour = useMemo<PitchPoint[] | null>(() => (rec.buffer && showPitch ? pitchContour(rec.buffer.getChannelData(0), rec.buffer.sampleRate) : null), [rec.buffer, showPitch]);
+  const contour = useMemo<PitchPoint[] | null>(() => (rec.buffer ? pitchContour(rec.buffer.getChannelData(0), rec.buffer.sampleRate) : null), [rec.buffer]);
+  const practicePart = (p: string | null) => {
+    run.current++;
+    setBusy(false);
+    setHeard(null);
+    rec.reset();
+    setPart(p);
+  };
 
   if (rec.state === "unsupported") return <p className="rounded-2xl bg-surface-2 p-4 text-sm text-muted">Este navegador no permite grabar audio. Repite en voz alta y continúa.</p>;
   if (rec.state === "denied") return <p className="rounded-2xl bg-bad-soft p-4 text-sm">No hay permiso para el micrófono. Actívalo en los ajustes del navegador para esta página.</p>;
 
   return (
     <div className={`flex flex-col ${compact ? "gap-3" : "gap-4"}`}>
+      {part && (
+        <p className="flex flex-wrap items-center gap-2 rounded-xl bg-accent-soft px-3 py-2 text-sm font-bold" role="status">
+          Practicando solo: <span lang="en">«{part}»</span>
+          <button type="button" className="chip-btn" onClick={() => practicePart(null)}>
+            Volver a la frase completa
+          </button>
+        </p>
+      )}
       <div className="flex flex-wrap items-center gap-3">
         <AudioButton text={plainTarget} label="Escuchar la referencia" />
         <AudioButton text={plainTarget} slow />
@@ -89,33 +108,24 @@ export function SpeakPanel({ target, onResult, showPitch = false, compact = fals
               <RotateCcw size={16} aria-hidden /> Borrar
             </button>
           </div>
-          {contour && <PitchChart points={contour} />}
+          {contour && showPitch && <PitchChart points={contour} />}
           {busy && (
             <p className="flex items-center gap-2 text-sm font-bold" role="status">
               <Loader2 size={16} className="animate-spin" aria-hidden /> Analizando tu voz…
             </p>
           )}
           {failed && <p className="text-sm text-muted">No pude analizar el audio esta vez. Compara oyendo ambas voces y autoevalúate.</p>}
-          {match && (
+          {heard !== null && (
             <div>
-              <p className="mb-1 text-xs font-bold text-muted">Esto entendió el reconocedor (orientativo; no afecta tu progreso)</p>
-              <p className="flex flex-wrap gap-1 text-lg font-bold">
-                {match.marks.map((m, i) => (
-                  <span key={i} className={m.ok ? "text-good" : "text-bad underline decoration-wavy"}>
-                    {m.word}
-                  </span>
-                ))}
-              </p>
-              <p className="mt-1 text-xs text-muted">
-                {Math.round(match.ratio * 100)} % de palabras reconocidas. Mide si se te entiende, no tu acento.
-              </p>
+              <SpeechFeedback target={plainTarget} heard={heard} buffer={rec.buffer} trend={contour ? endingTrend(contour) : null} onPracticePart={practicePart} requireTerm={part ? undefined : requireTerm} />
+              {heard.trim() === "" && <p className="mt-1 text-sm text-muted">No se reconoció voz: puede ser ruido, volumen bajo o el micrófono. No cuenta como error; intenta de nuevo.</p>}
               <label className="mt-2 flex flex-col gap-1 text-xs font-bold text-muted">
                 ¿Se equivocó? Corrige lo que dijiste:
                 <input value={heard ?? ""} onChange={(e) => setHeard(e.target.value)} className="h-10 rounded-[var(--r-sm)] border border-line bg-surface px-3 text-sm font-bold text-text" />
               </label>
             </div>
           )}
-          <div>
+          {!part && <div>
             <p className="mb-2 text-sm font-bold">¿Cómo te sonó comparado con la referencia?</p>
             <div className="grid grid-cols-3 gap-2">
               {([
@@ -128,7 +138,7 @@ export function SpeakPanel({ target, onResult, showPitch = false, compact = fals
                 </button>
               ))}
             </div>
-          </div>
+          </div>}
         </div>
       )}
       {!compact && (

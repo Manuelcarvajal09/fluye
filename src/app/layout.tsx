@@ -8,6 +8,7 @@ import "./globals.css";
 import "./armario.css";
 import "./amigos.css";
 import "./botones.css";
+import "./ejercicios.css";
 
 // Títulos en Nunito (800–900) y cuerpo en Plus Jakarta Sans; next/font las sirve desde el propio dominio.
 const display = Nunito({ variable: "--font-display", subsets: ["latin"], display: "swap", weight: ["700", "800", "900"] });

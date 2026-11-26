@@ -1,0 +1,533 @@
+[
+  {
+    "id": "ser-b1-lost-remote",
+    "level": "B1",
+    "genre": "sitcom",
+    "title": "Where's the remote?",
+    "title_es": "¿Dónde está el control?",
+    "setting_es": "Dos hermanos buscan el control de la tele en la sala cinco minutos antes de que empiece el partido.",
+    "features": ["contractions", "humor", "informal"],
+    "lines": [
+      { "who": "Nina", "g": "f", "en": "Okay, who took the remote? The game starts in five minutes.", "es": "A ver, ¿quién agarró el control? El partido empieza en cinco minutos." },
+      { "who": "Sam", "g": "m", "en": "Don't look at me. I've been in the kitchen this whole time.", "es": "A mí no me veas. He estado en la cocina todo este rato." },
+      { "who": "Nina", "g": "f", "en": "Uh-huh. Eating my leftovers, I bet.", "es": "Ajá. Comiéndote mis sobras, seguro." },
+      { "who": "Sam", "g": "m", "en": "Okay, that's... not the point. Did you check under the couch?", "es": "Ok, eso... no es lo importante. ¿Ya buscaste debajo del sillón?" },
+      { "who": "Nina", "g": "f", "en": "Yeah, I found three socks and a really old cookie. No remote.", "es": "Sí, encontré tres calcetines y una galleta viejísima. Nada de control." },
+      { "who": "Sam", "g": "m", "en": "Gross. Hey, wait, what's that in your back pocket?", "es": "Qué asco. Oye, espera, ¿qué es eso en tu bolsa de atrás?" },
+      { "who": "Nina", "g": "f", "en": "...Oh. Huh. Would you look at that.", "es": "...Ah. Mira nada más." },
+      { "who": "Sam", "g": "m", "en": "Unbelievable. You owe me an apology. And a cookie.", "es": "Increíble. Me debes una disculpa. Y una galleta." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Nina busca el control de la tele y al final lo tenía ella.", "Sam escondió el control para molestar a Nina.", "Los dos limpian la sala antes de una visita."],
+      "answer": 0,
+      "why_es": "Nina culpa a Sam, pero el control estaba en su propia bolsa trasera del pantalón."
+    },
+    "expressions": [
+      { "text": "Don't look at me", "es": "a mí no me veas / yo no fui" },
+      { "text": "not the point", "es": "no es lo importante" },
+      { "text": "Would you look at that", "es": "mira nada más" },
+      { "text": "I bet", "es": "seguro / apuesto a que sí" }
+    ],
+    "decoys": ["look forward to", "point out"],
+    "gap": { "line": 1, "answer": "this whole time", "options": ["this whole time", "this hole time", "the whole thing"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Nina con «Would you look at that»?",
+      "options": ["Está enojada con Sam por esconder el control.", "Se da cuenta, algo apenada, de que ella tenía el control.", "Quiere que Sam vea el partido con ella."],
+      "answer": 1,
+      "why_es": "Es una frase de sorpresa fingida: Nina descubre el control en su bolsa e intenta quitarle importancia a su error."
+    },
+    "shadow": 1,
+    "reply": {
+      "prompt_es": "Responde a Sam disculpándote con humor.",
+      "model": ["Okay, okay, my bad. I'll buy you a cookie.", "Sorry! I totally forgot I put it there."]
+    }
+  },
+  {
+    "id": "ser-b1-pizza-night",
+    "level": "B1",
+    "genre": "amigos",
+    "title": "Pineapple or not?",
+    "title_es": "¿Con piña o sin piña?",
+    "setting_es": "Tres amigos piden pizza para una noche de películas y no se ponen de acuerdo con los ingredientes.",
+    "features": ["contractions", "humor", "informal", "slang"],
+    "lines": [
+      { "who": "Jess", "g": "f", "en": "Okay, I'm ordering. What do you guys want?", "es": "Ok, voy a pedir. ¿Qué quieren?" },
+      { "who": "Omar", "g": "m", "en": "Pepperoni. Extra cheese. That's it, that's the list.", "es": "Pepperoni. Extra queso. Eso es todo, esa es la lista." },
+      { "who": "Kyle", "g": "m", "en": "Can we get one with pineapple? Just one?", "es": "¿Podemos pedir una con piña? ¿Solo una?" },
+      { "who": "Omar", "g": "m", "en": "Dude, no. Pineapple on pizza is a crime.", "es": "No, güey. La piña en la pizza es un crimen." },
+      { "who": "Kyle", "g": "m", "en": "It's sweet and salty. You just don't get it.", "es": "Es dulce y salada. Tú nomás no lo entiendes." },
+      { "who": "Jess", "g": "f", "en": "Okay, how about half and half? Everybody wins.", "es": "Ok, ¿qué tal mitad y mitad? Todos ganan." },
+      { "who": "Omar", "g": "m", "en": "Fine. But the pineapple stays on his side. Like, far away.", "es": "Va. Pero la piña se queda de su lado. Tipo, bien lejos." },
+      { "who": "Kyle", "g": "m", "en": "Deal. And you're paying, right, Omar?", "es": "Trato hecho. Y tú pagas, ¿verdad, Omar?" },
+      { "who": "Omar", "g": "m", "en": "Wait, what? Since when?", "es": "Espera, ¿qué? ¿Desde cuándo?" }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Unos amigos discuten qué pizza pedir y llegan a un acuerdo.", "Unos amigos cocinan una pizza en casa.", "Unos amigos se quejan de una pizza que llegó fría."],
+      "answer": 0,
+      "why_es": "Jess va a pedir, Omar y Kyle discuten por la piña y Jess propone mitad y mitad."
+    },
+    "expressions": [
+      { "text": "half and half", "es": "mitad y mitad" },
+      { "text": "don't get it", "es": "no lo entiendes" },
+      { "text": "Deal", "es": "trato hecho" },
+      { "text": "Since when?", "es": "¿desde cuándo?" }
+    ],
+    "decoys": ["split the bill", "grab a bite"],
+    "gap": { "line": 5, "answer": "half and half", "options": ["half and half", "have a half", "half an hour"] },
+    "intent": {
+      "q_es": "¿Qué intención tiene Kyle al decir «you're paying, right, Omar?»?",
+      "options": ["Le agradece a Omar por invitar la cena.", "Quiere molestar a Omar y hacer que pague, aunque nadie lo había decidido.", "Pregunta cuánto cuesta la pizza."],
+      "answer": 1,
+      "why_es": "La reacción de Omar («Since when?») muestra que nadie había acordado eso: Kyle se lo cobra en broma por criticar la piña."
+    },
+    "shadow": 4,
+    "reply": {
+      "prompt_es": "Responde a Kyle diciendo que hoy cada quien paga lo suyo.",
+      "model": ["Nice try. Everybody pays for their own.", "No way, man. We're splitting it."]
+    }
+  },
+  {
+    "id": "ser-b1-printer-jam",
+    "level": "B1",
+    "genre": "oficina",
+    "title": "The printer hates me",
+    "title_es": "La impresora me odia",
+    "setting_es": "En su primer día, un practicante le pide ayuda a una compañera con la impresora de la oficina.",
+    "features": ["contractions", "reductions", "humor", "informal"],
+    "lines": [
+      { "who": "Ben", "g": "m", "en": "Hi, um, sorry to bother you. I think I broke the printer.", "es": "Hola, eh, perdón por molestarte. Creo que descompuse la impresora." },
+      { "who": "Carla", "g": "f", "en": "You're the new intern, right? Don't worry, it's always broken.", "es": "Eres el nuevo practicante, ¿no? No te preocupes, siempre está descompuesta." },
+      { "who": "Ben", "g": "m", "en": "It keeps saying 'paper jam,' but there's no paper in there.", "es": "Sigue diciendo 'papel atascado', pero no hay papel adentro." },
+      { "who": "Carla", "g": "f", "en": "Yeah, it does that. You gotta open this side and kick it. Gently.", "es": "Sí, hace eso. Tienes que abrir este lado y darle una patada. Suavecito." },
+      { "who": "Ben", "g": "m", "en": "Kick it? Is that, like, the official way?", "es": "¿Patearla? ¿Esa es, tipo, la forma oficial?" },
+      { "who": "Carla", "g": "f", "en": "It's the only way that works. See? It's printing.", "es": "Es la única forma que funciona. ¿Ves? Ya está imprimiendo." },
+      { "who": "Ben", "g": "m", "en": "Wow. Thanks. You saved my life.", "es": "Guau. Gracias. Me salvaste la vida." },
+      { "who": "Carla", "g": "f", "en": "Welcome to the team. You'll get used to it.", "es": "Bienvenido al equipo. Te vas a acostumbrar." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Un practicante nuevo pide ayuda con la impresora y una compañera le enseña un truco.", "Una jefa regaña a un empleado por romper la impresora.", "Dos compañeros compran una impresora nueva."],
+      "answer": 0,
+      "why_es": "Ben es nuevo, cree que rompió la impresora y Carla la arregla con una patadita."
+    },
+    "expressions": [
+      { "text": "sorry to bother you", "es": "perdón por molestarte" },
+      { "text": "gotta", "es": "tener que (got to)" },
+      { "text": "get used to", "es": "acostumbrarse a" },
+      { "text": "saved my life", "es": "me salvaste la vida" }
+    ],
+    "decoys": ["run out of", "back up"],
+    "gap": { "line": 7, "answer": "get used to", "options": ["get used to", "get you to", "used to get"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Carla con «it's always broken»?",
+      "options": ["Que Ben no tiene la culpa: la impresora siempre falla.", "Que Ben tiene que pagar la reparación.", "Que la impresora es nueva y aún no funciona."],
+      "answer": 0,
+      "why_es": "Carla tranquiliza a Ben: el problema es de la impresora, no de él."
+    },
+    "shadow": 3,
+    "reply": {
+      "prompt_es": "Responde a Carla agradeciéndole y ofreciéndole un café.",
+      "model": ["Thanks a lot. Can I buy you a coffee?", "You're a lifesaver. Coffee's on me."]
+    }
+  },
+  {
+    "id": "ser-b1-coffee-name",
+    "level": "B1",
+    "genre": "romance",
+    "title": "Wrong name, right guy",
+    "title_es": "Nombre equivocado, chico correcto",
+    "setting_es": "En una cafetería de Toronto, un barista escribe mal el nombre de una clienta y terminan coqueteando.",
+    "features": ["flirting", "humor", "contractions", "reductions"],
+    "lines": [
+      { "who": "Theo", "g": "m", "en": "Large latte for... Megan?", "es": "Latte grande para... ¿Megan?" },
+      { "who": "Maggie", "g": "f", "en": "Close. It's Maggie. But I'll take it.", "es": "Casi. Es Maggie. Pero ahí se va." },
+      { "who": "Theo", "g": "m", "en": "Oh no, I'm so sorry. It's super loud in here today.", "es": "Ay no, perdón. Hoy hay muchísimo ruido aquí." },
+      { "who": "Maggie", "g": "f", "en": "Don't worry about it. Last week I was 'Muggy.'", "es": "No te preocupes. La semana pasada fui 'Muggy'." },
+      { "who": "Theo", "g": "m", "en": "Muggy? Wow. Okay, I promise I'll remember it next time.", "es": "¿Muggy? Guau. Ok, te prometo que la próxima vez me acuerdo." },
+      { "who": "Maggie", "g": "f", "en": "Next time, huh? You're pretty sure I'm coming back.", "es": "La próxima vez, ¿eh? Estás muy seguro de que voy a volver." },
+      { "who": "Theo", "g": "m", "en": "Well, we do have the best coffee in town, eh?", "es": "Bueno, sí tenemos el mejor café de la ciudad, ¿no?" },
+      { "who": "Maggie", "g": "f", "en": "The coffee's okay. The service is kinda cute, though.", "es": "El café está bien. El que atiende sí está medio lindo." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Una clienta se queja porque su café está frío.", "Un barista se equivoca con el nombre de una clienta y terminan coqueteando.", "Dos amigos de la infancia se reencuentran en una cafetería."],
+      "answer": 1,
+      "why_es": "Theo dice mal el nombre de Maggie, se disculpa, y la plática se vuelve un coqueteo ligero."
+    },
+    "expressions": [
+      { "text": "I'll take it", "es": "ahí se va / lo acepto" },
+      { "text": "Don't worry about it", "es": "no te preocupes" },
+      { "text": "kinda cute", "es": "medio lindo" }
+    ],
+    "decoys": ["ask someone out", "make a move"],
+    "gap": { "line": 5, "answer": "coming back", "options": ["coming back", "come in back", "calling back"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Maggie con «The service is kinda cute»?",
+      "options": ["Que el café es barato.", "Que la cafetería está bien decorada.", "Que Theo le parece atractivo."],
+      "answer": 2,
+      "why_es": "«The service» se refiere a quien la atiende, o sea Theo: es un coqueteo indirecto. El «eh?» de Theo es una muletilla típica de Canadá, como «¿no?»."
+    },
+    "shadow": 5,
+    "reply": {
+      "prompt_es": "Responde a Maggie coqueteando: dile que el próximo café va por tu cuenta.",
+      "model": ["Next one's on me, Maggie. See? I remembered.", "Come back tomorrow and the coffee's on the house."]
+    }
+  },
+  {
+    "id": "ser-b1-twisted-ankle",
+    "level": "B1",
+    "genre": "medica",
+    "title": "Just a little sprain?",
+    "title_es": "¿Solo una torcedura?",
+    "setting_es": "En urgencias, una enfermera atiende a un chico que se lastimó el tobillo jugando hockey.",
+    "features": ["contractions", "reductions", "idiom", "emotion"],
+    "lines": [
+      { "who": "Kim", "g": "f", "en": "Hi there, I'm Kim. So, what happened to your ankle?", "es": "Hola, soy Kim. A ver, ¿qué le pasó a tu tobillo?" },
+      { "who": "Jake", "g": "m", "en": "I was playing hockey and I kinda... fell on it. Badly.", "es": "Estaba jugando hockey y medio... me caí encima. Feo." },
+      { "who": "Kim", "g": "f", "en": "Okay. On a scale of one to ten, how bad is the pain?", "es": "Ok. Del uno al diez, ¿qué tan fuerte es el dolor?" },
+      { "who": "Jake", "g": "m", "en": "Like, a seven? Eight when I try to walk.", "es": "¿Como un siete? Ocho cuando intento caminar." },
+      { "who": "Kim", "g": "f", "en": "It's pretty swollen. We're gonna take an X-ray just to be safe.", "es": "Está bastante hinchado. Vamos a sacar una radiografía por si acaso." },
+      { "who": "Jake", "g": "m", "en": "Is it broken? I've got a big game on Saturday.", "es": "¿Está roto? Tengo un partido importante el sábado." },
+      { "who": "Kim", "g": "f", "en": "Let's not get ahead of ourselves. First the X-ray, then we'll talk.", "es": "No nos adelantemos. Primero la radiografía y luego hablamos." },
+      { "who": "Jake", "g": "m", "en": "Okay. But if it's broken, don't tell my coach.", "es": "Ok. Pero si está roto, no le digas a mi entrenador." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Un chico le pide a una enfermera un justificante para faltar al partido.", "Una enfermera atiende a un chico que se lastimó el tobillo y le van a sacar una radiografía.", "Un entrenador lleva a su jugador al hospital."],
+      "answer": 1,
+      "why_es": "Jake se cayó jugando hockey; Kim revisa el dolor y pide una radiografía."
+    },
+    "expressions": [
+      { "text": "just to be safe", "es": "por si acaso" },
+      { "text": "get ahead of ourselves", "es": "adelantarnos (a los hechos)" },
+      { "text": "on a scale of one to ten", "es": "del uno al diez" },
+      { "text": "gonna", "es": "ir a (going to)" }
+    ],
+    "decoys": ["take it easy", "feel under the weather"],
+    "gap": { "line": 4, "answer": "just to be safe", "options": ["just to be safe", "just for safety", "just to stay safe"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Kim con «Let's not get ahead of ourselves»?",
+      "options": ["Que primero hay que esperar el resultado antes de preocuparse.", "Que Jake no podrá volver a jugar nunca.", "Que tienen que caminar más rápido a rayos X."],
+      "answer": 0,
+      "why_es": "Kim calma a Jake: todavía no saben si está roto, así que no tiene sentido preocuparse por el partido."
+    },
+    "shadow": 2,
+    "reply": {
+      "prompt_es": "Responde a Kim diciendo que el dolor ya está como en seis y pregunta cuánto tardará la radiografía.",
+      "model": ["It's like a six now. How long's the X-ray gonna take?", "Maybe a six. How long do I have to wait?"]
+    }
+  },
+  {
+    "id": "ser-b1-stolen-bike",
+    "level": "B1",
+    "genre": "policial",
+    "title": "My bike's gone",
+    "title_es": "Se robaron mi bici",
+    "setting_es": "En una estación de policía de Vancouver, una chica denuncia el robo de su bicicleta.",
+    "features": ["contractions", "slang", "formal", "humor"],
+    "lines": [
+      { "who": "Officer Reyes", "g": "m", "en": "Good morning. How can I help you?", "es": "Buenos días. ¿En qué le puedo ayudar?" },
+      { "who": "Leah", "g": "f", "en": "Hi. Someone stole my bike last night. Right outside my building.", "es": "Hola. Alguien se robó mi bici anoche. Justo afuera de mi edificio." },
+      { "who": "Officer Reyes", "g": "m", "en": "Sorry to hear that. Was it locked up?", "es": "Lamento oír eso. ¿Tenía candado?" },
+      { "who": "Leah", "g": "f", "en": "Yeah! They cut right through the lock. I paid, like, two hundred bucks for that thing.", "es": "¡Sí! Cortaron el candado. Pagué como doscientos dólares por esa cosa." },
+      { "who": "Officer Reyes", "g": "m", "en": "Can you describe it? Color, size, anything that stands out?", "es": "¿Me la puede describir? Color, tamaño, ¿algo que llame la atención?" },
+      { "who": "Leah", "g": "f", "en": "It's red, with a basket. And a sticker that says 'Honk if you love Canada.'", "es": "Es roja, con canasta. Y una calcomanía que dice 'Toca el claxon si amas Canadá'." },
+      { "who": "Officer Reyes", "g": "m", "en": "Okay, that helps. Honestly, we don't always get bikes back, but we'll try.", "es": "Ok, eso ayuda. La verdad, no siempre recuperamos las bicis, pero lo vamos a intentar." },
+      { "who": "Leah", "g": "f", "en": "Thanks. I'm gonna miss that basket so much.", "es": "Gracias. Voy a extrañar muchísimo esa canasta." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Un policía le pone una multa a una ciclista.", "Una chica vende su bicicleta usada.", "Una chica denuncia en la policía que le robaron la bici."],
+      "answer": 2,
+      "why_es": "Leah cuenta que le cortaron el candado y el policía le pide una descripción de la bici."
+    },
+    "expressions": [
+      { "text": "locked up", "es": "con candado / asegurada" },
+      { "text": "stands out", "es": "llama la atención / destaca" },
+      { "text": "bucks", "es": "dólares (informal)" }
+    ],
+    "decoys": ["break into", "turn in"],
+    "gap": { "line": 4, "answer": "stands out", "options": ["stands out", "stands up", "stays out"] },
+    "intent": {
+      "q_es": "¿Qué da a entender el policía con «we don't always get bikes back»?",
+      "options": ["Que la bici ya apareció.", "Que es difícil recuperarla, aunque lo van a intentar.", "Que Leah tiene que comprar otra hoy mismo."],
+      "answer": 1,
+      "why_es": "Es una forma amable y honesta de bajar las expectativas: probablemente no la encuentren."
+    },
+    "shadow": 1,
+    "reply": {
+      "prompt_es": "Responde al policía dándole tu número para que te llame si la encuentran.",
+      "model": ["Here's my number. Please call me if you find it.", "Can you give me a call if it turns up?"]
+    }
+  },
+  {
+    "id": "ser-b2-thermostat-war",
+    "level": "B2",
+    "genre": "sitcom",
+    "title": "Hands off the thermostat",
+    "title_es": "No toques el termostato",
+    "setting_es": "Dos roommates pelean por la temperatura del departamento en pleno invierno.",
+    "features": ["phrasal", "sarcasm", "idiom", "conflict", "humor"],
+    "lines": [
+      { "who": "Priya", "g": "f", "en": "Did you turn the heat down again? It's like a freezer in here.", "es": "¿Otra vez le bajaste a la calefacción? Esto parece congelador." },
+      { "who": "Marcus", "g": "m", "en": "I set it to sixty-eight. That's, like, a normal human temperature.", "es": "La puse en sesenta y ocho. Es, tipo, una temperatura humana normal." },
+      { "who": "Priya", "g": "f", "en": "For a polar bear, maybe. I can literally see my breath, Marcus.", "es": "Para un oso polar, tal vez. Literalmente veo mi aliento, Marcus." },
+      { "who": "Marcus", "g": "m", "en": "Okay, you're being dramatic. Just put on a sweater.", "es": "Ok, estás exagerando. Nomás ponte un suéter." },
+      { "who": "Priya", "g": "f", "en": "I'm wearing two sweaters. And your hoodie. Which, by the way, I'm keeping.", "es": "Traigo dos suéteres. Y tu sudadera. Que, por cierto, me voy a quedar." },
+      { "who": "Marcus", "g": "m", "en": "Wait, that's where my hoodie went? I've been looking all over for that!", "es": "Espera, ¿ahí fue a parar mi sudadera? ¡La he buscado por todos lados!" },
+      { "who": "Priya", "g": "f", "en": "Finders keepers. Now, are we gonna meet halfway or what?", "es": "Lo que se encuentra es de quien lo encuentra. Ahora, ¿vamos a ceder los dos o qué?" },
+      { "who": "Marcus", "g": "m", "en": "Fine. Seventy. But I'm not paying the heating bill on my own.", "es": "Va. Setenta. Pero no voy a pagar yo solo la cuenta de la calefacción." },
+      { "who": "Priya", "g": "f", "en": "Deal. Pleasure doing business with you.", "es": "Trato. Un placer hacer negocios contigo." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Dos roommates planean un viaje a un lugar frío.", "Dos roommates negocian la temperatura del departamento y llegan a un acuerdo.", "Un roommate acusa al otro de robarle dinero."],
+      "answer": 1,
+      "why_es": "Priya tiene frío, Marcus bajó la calefacción, y terminan acordando 70 grados y pagar la cuenta entre los dos."
+    },
+    "expressions": [
+      { "text": "put on", "es": "ponerse (ropa)" },
+      { "text": "meet halfway", "es": "ceder los dos / llegar a un punto medio" },
+      { "text": "Finders keepers", "es": "lo que se encuentra es de quien lo encuentra" },
+      { "text": "looking all over", "es": "buscar por todos lados" }
+    ],
+    "decoys": ["warm up", "chill out"],
+    "gap": { "line": 6, "answer": "meet halfway", "options": ["meet halfway", "meet half a way", "meet hallway"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Priya con «For a polar bear, maybe»?",
+      "options": ["Que le gustan mucho los osos polares.", "Con sarcasmo: 68 grados le parece demasiado frío.", "Que Marcus debería ir al zoológico."],
+      "answer": 1,
+      "why_es": "Priya exagera para burlarse: esa temperatura solo sería normal para un oso polar. En EE. UU. se usan grados Fahrenheit: 68 °F son unos 20 °C."
+    },
+    "shadow": 3,
+    "reply": {
+      "prompt_es": "Responde a Priya: aceptas los 70 grados, pero quieres que te devuelva tu sudadera.",
+      "model": ["Fine, seventy. But I want my hoodie back.", "Seventy works. Now hand over the hoodie."]
+    }
+  },
+  {
+    "id": "ser-b2-road-trip",
+    "level": "B2",
+    "genre": "amigos",
+    "title": "Are we lost?",
+    "title_es": "¿Estamos perdidos?",
+    "setting_es": "Tres amigos en un viaje por carretera descubren que su amigo tomó un 'atajo' equivocado.",
+    "features": ["phrasal", "sarcasm", "humor", "contractions", "informal"],
+    "lines": [
+      { "who": "Dani", "g": "f", "en": "Uh, guys? That sign said Buffalo. Weren't we heading to Toronto?", "es": "Eh, ¿chicos? Ese letrero decía Buffalo. ¿No íbamos a Toronto?" },
+      { "who": "Chris", "g": "m", "en": "Relax, I know a shortcut. Trust me.", "es": "Tranquila, me sé un atajo. Confía en mí." },
+      { "who": "Tasha", "g": "f", "en": "Last time you said 'trust me,' we ended up at a cow farm.", "es": "La última vez que dijiste 'confía en mí', terminamos en una granja de vacas." },
+      { "who": "Chris", "g": "m", "en": "And it was a great farm! Very... educational.", "es": "¡Y era una granja buenísima! Muy... educativa." },
+      { "who": "Dani", "g": "f", "en": "Chris, we're running low on gas and my phone's about to die.", "es": "Chris, ya casi no tenemos gasolina y mi teléfono está a punto de morirse." },
+      { "who": "Chris", "g": "m", "en": "Okay, okay. Maybe we should pull over and figure this out.", "es": "Ok, ok. A lo mejor deberíamos orillarnos y ver qué hacemos." },
+      { "who": "Tasha", "g": "f", "en": "Wow. Did Chris just admit he was wrong? Somebody write this down.", "es": "Guau. ¿Chris acaba de admitir que se equivocó? Que alguien lo anote." },
+      { "who": "Chris", "g": "m", "en": "I didn't say I was wrong. I said we should pull over.", "es": "No dije que me equivoqué. Dije que deberíamos orillarnos." },
+      { "who": "Dani", "g": "f", "en": "Same thing, buddy. Same thing.", "es": "Es lo mismo, amigo. Es lo mismo." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Los amigos discuten por la música en el coche.", "Chris quiere vender su coche.", "Unos amigos se pierden en carretera porque Chris tomó un 'atajo'."],
+      "answer": 2,
+      "why_es": "Iban a Toronto, pero el letrero dice Buffalo: el atajo de Chris los desvió y además se están quedando sin gasolina."
+    },
+    "expressions": [
+      { "text": "ended up", "es": "terminar (en algún lugar)" },
+      { "text": "running low on", "es": "quedarse con poco de algo" },
+      { "text": "about to", "es": "a punto de" },
+      { "text": "pull over", "es": "orillarse / estacionarse a un lado" }
+    ],
+    "decoys": ["run out of", "get lost"],
+    "gap": { "line": 4, "answer": "running low on", "options": ["running low on", "running long on", "running late on"] },
+    "intent": {
+      "q_es": "¿Qué tono usa Tasha al decir «Somebody write this down»?",
+      "options": ["Sarcasmo: se burla porque Chris casi nunca admite que se equivoca.", "Quiere que alguien apunte la dirección correcta.", "Está preocupada de verdad por la gasolina."],
+      "answer": 0,
+      "why_es": "Pedir que «lo anoten» insinúa que es un momento histórico: Chris nunca reconoce sus errores."
+    },
+    "shadow": 1,
+    "reply": {
+      "prompt_es": "Responde a Chris proponiendo parar en la próxima gasolinera para cargar gasolina y pedir indicaciones.",
+      "model": ["Let's just stop at the next gas station and ask for directions.", "Next gas station, we fill up and ask someone. No more shortcuts."]
+    }
+  },
+  {
+    "id": "ser-b2-deadline-moved",
+    "level": "B2",
+    "genre": "oficina",
+    "title": "Slight change of plans",
+    "title_es": "Un pequeño cambio de planes",
+    "setting_es": "La jefa avisa a dos empleados que la presentación para el cliente se adelanta una semana.",
+    "features": ["phrasal", "irony", "idiom", "contractions", "reductions"],
+    "lines": [
+      { "who": "Diane", "g": "f", "en": "Hey, you two got a sec? So, slight change of plans.", "es": "Oigan, ¿tienen un segundo? Hay un pequeño cambio de planes." },
+      { "who": "Raj", "g": "m", "en": "Uh-oh. 'Slight' usually means 'huge.'", "es": "Uy, no. 'Pequeño' casi siempre significa 'enorme'." },
+      { "who": "Diane", "g": "f", "en": "The client wants the presentation this Friday instead of next Friday.", "es": "El cliente quiere la presentación este viernes en lugar del próximo." },
+      { "who": "Ellie", "g": "f", "en": "This Friday? As in, three days from now? We haven't even finished the slides.", "es": "¿Este viernes? ¿O sea, en tres días? Ni siquiera hemos terminado las diapositivas." },
+      { "who": "Diane", "g": "f", "en": "I know, I know. I pushed back, but they wouldn't budge.", "es": "Ya sé, ya sé. Me opuse, pero no cedieron ni un poco." },
+      { "who": "Raj", "g": "m", "en": "Okay. So we're basically gonna be living here till Friday.", "es": "Ok. O sea que básicamente vamos a vivir aquí hasta el viernes." },
+      { "who": "Ellie", "g": "f", "en": "Can we at least cut a few sections? Like, the boring ones?", "es": "¿Por lo menos podemos quitar algunas secciones? Tipo, ¿las aburridas?" },
+      { "who": "Diane", "g": "f", "en": "Cut whatever you need. Just make sure the numbers add up. And Raj? I'm ordering pizza.", "es": "Quiten lo que necesiten. Nada más asegúrense de que los números cuadren. ¿Y Raj? Voy a pedir pizza." },
+      { "who": "Raj", "g": "m", "en": "See, this is why you're my favorite boss.", "es": "¿Ves? Por esto eres mi jefa favorita." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["La jefa felicita al equipo por terminar antes de tiempo.", "La jefa anuncia que la presentación se adelantó y el equipo tendrá que apurarse.", "El cliente canceló el proyecto."],
+      "answer": 1,
+      "why_es": "El cliente movió la presentación a este viernes; Diane intentó evitarlo, pero el equipo tendrá que trabajar de más."
+    },
+    "expressions": [
+      { "text": "got a sec", "es": "¿tienes un segundo?" },
+      { "text": "pushed back", "es": "oponerse / resistirse" },
+      { "text": "wouldn't budge", "es": "no ceder ni un poco" },
+      { "text": "add up", "es": "cuadrar / tener sentido" }
+    ],
+    "decoys": ["put off", "catch up on"],
+    "gap": { "line": 4, "answer": "pushed back", "options": ["pushed back", "put back", "pushed that"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Raj con «'Slight' usually means 'huge'»?",
+      "options": ["Que está contento por el cambio.", "Que no entiende la palabra 'slight'.", "Que sospecha, con ironía, que el cambio será un problema grande."],
+      "answer": 2,
+      "why_es": "Raj sabe por experiencia que cuando un jefe dice «pequeño cambio», casi siempre es algo grande."
+    },
+    "shadow": 2,
+    "reply": {
+      "prompt_es": "Responde a Diane diciendo que pueden lograrlo, pero que necesitan ayuda con las cifras.",
+      "model": ["We can pull it off, but we'll need help with the numbers.", "Okay, we're on it. Can someone help us with the numbers, though?"]
+    }
+  },
+  {
+    "id": "ser-b2-ex-at-wedding",
+    "level": "B2",
+    "genre": "romance",
+    "title": "Of all the weddings",
+    "title_es": "De todas las bodas",
+    "setting_es": "En una boda, una mujer se encuentra a su ex junto a la mesa de postres.",
+    "features": ["emotion", "flirting", "idiom", "phrasal", "contractions"],
+    "lines": [
+      { "who": "Owen", "g": "m", "en": "Claire? Wow. I didn't know you'd be here.", "es": "¿Claire? Guau. No sabía que ibas a estar aquí." },
+      { "who": "Claire", "g": "f", "en": "Owen. Hi. Yeah, the bride's my cousin. Small world, huh?", "es": "Owen. Hola. Sí, la novia es mi prima. El mundo es un pañuelo, ¿eh?" },
+      { "who": "Owen", "g": "m", "en": "Tiny. So... how've you been? You look great, by the way.", "es": "Diminuto. Y... ¿cómo has estado? Te ves muy bien, por cierto." },
+      { "who": "Claire", "g": "f", "en": "Thanks. I'm good. Really good, actually. I finally moved to Montreal.", "es": "Gracias. Estoy bien. Muy bien, de hecho. Por fin me mudé a Montreal." },
+      { "who": "Owen", "g": "m", "en": "You always said you would. I guess I was the one holding you back, huh?", "es": "Siempre dijiste que lo harías. Supongo que yo era el que te detenía, ¿no?" },
+      { "who": "Claire", "g": "f", "en": "Let's not go there. Not next to the cake.", "es": "No vayamos por ahí. No junto al pastel." },
+      { "who": "Owen", "g": "m", "en": "Fair enough. Wanna dance? For old times' sake?", "es": "Tienes razón. ¿Quieres bailar? ¿Por los viejos tiempos?" },
+      { "who": "Claire", "g": "f", "en": "One dance. And you're not allowed to step on my feet this time.", "es": "Un baile. Y esta vez tienes prohibido pisarme." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Dos ex se reencuentran en una boda y deciden bailar.", "Una pareja de novios discute antes de la boda.", "Una mujer conoce a alguien nuevo en una fiesta."],
+      "answer": 0,
+      "why_es": "Owen y Claire fueron pareja; se encuentran por casualidad, hay tensión, pero acaban bailando."
+    },
+    "expressions": [
+      { "text": "Small world", "es": "el mundo es un pañuelo" },
+      { "text": "holding you back", "es": "detenerte / limitarte" },
+      { "text": "Let's not go there", "es": "no vayamos por ahí / mejor no hablemos de eso" },
+      { "text": "For old times' sake", "es": "por los viejos tiempos" }
+    ],
+    "decoys": ["get back together", "break up with"],
+    "gap": { "line": 4, "answer": "holding you back", "options": ["holding you back", "holding your back", "calling you back"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Claire con «Let's not go there»?",
+      "options": ["Que no quiere ir a la pista de baile.", "Que no quiere hablar del pasado ni de por qué terminaron.", "Que prefiere irse de la boda."],
+      "answer": 1,
+      "why_es": "Owen saca un tema delicado (su relación) y Claire lo corta con amabilidad: no es el lugar ni el momento."
+    },
+    "shadow": 5,
+    "reply": {
+      "prompt_es": "Responde a Owen aceptando el baile con humor.",
+      "model": ["Okay, one dance. But watch your feet.", "Sure, for old times' sake. Just don't step on me."]
+    }
+  },
+  {
+    "id": "ser-b2-night-shift",
+    "level": "B2",
+    "genre": "medica",
+    "title": "Long night",
+    "title_es": "Noche larga",
+    "setting_es": "Dos residentes en turno nocturno atienden a un paciente que empeora mientras esperan a la doctora a cargo.",
+    "features": ["phrasal", "slang", "contractions", "reductions", "emotion"],
+    "lines": [
+      { "who": "Ana", "g": "f", "en": "How's the guy in room four holding up?", "es": "¿Cómo va el señor del cuarto cuatro?" },
+      { "who": "Luke", "g": "m", "en": "Not great. His blood pressure keeps dropping, and he's kinda out of it.", "es": "No muy bien. La presión le sigue bajando y está medio ido." },
+      { "who": "Ana", "g": "f", "en": "Did you page Dr. Ross?", "es": "¿Ya llamaste a la doctora Ross?" },
+      { "who": "Luke", "g": "m", "en": "Twice. She said she's on her way, but that was twenty minutes ago.", "es": "Dos veces. Dijo que venía en camino, pero eso fue hace veinte minutos." },
+      { "who": "Ana", "g": "f", "en": "Okay, we can't just sit around. Let's start fluids and get labs going.", "es": "Ok, no podemos quedarnos sin hacer nada. Empecemos con suero y mandemos los laboratorios." },
+      { "who": "Luke", "g": "m", "en": "On it. Man, I haven't slept in, like, thirty hours.", "es": "Voy. Uf, no he dormido en como treinta horas." },
+      { "who": "Ana", "g": "f", "en": "Welcome to residency. Sleep is for people with normal jobs.", "es": "Bienvenido a la residencia. Dormir es para la gente con trabajos normales." },
+      { "who": "Dr. Ross", "g": "f", "en": "Sorry, I got held up in the ER. Talk to me. What've we got?", "es": "Perdón, me entretuvieron en urgencias. Díganme. ¿Qué tenemos?" }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["Dos médicos planean sus vacaciones.", "Un paciente se queja de la comida del hospital.", "Dos residentes atienden a un paciente que empeora mientras esperan a la doctora a cargo."],
+      "answer": 2,
+      "why_es": "Al paciente le baja la presión, la doctora Ross tarda, y Ana decide empezar el tratamiento sin esperar."
+    },
+    "expressions": [
+      { "text": "holding up", "es": "aguantar / cómo va (alguien)" },
+      { "text": "out of it", "es": "ido / desorientado" },
+      { "text": "sit around", "es": "quedarse sin hacer nada" },
+      { "text": "held up", "es": "retrasado / entretenido" }
+    ],
+    "decoys": ["pass out", "come around"],
+    "gap": { "line": 7, "answer": "held up", "options": ["held up", "hold up", "help up"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Ana con «Sleep is for people with normal jobs»?",
+      "options": ["Que Luke debería renunciar.", "Con humor negro: en la residencia casi no se duerme y hay que aguantar.", "Que ella se va a dormir ahora."],
+      "answer": 1,
+      "why_es": "Ana bromea sobre lo duro que es ser residente; no le está diciendo que renuncie, solo que es parte del trabajo."
+    },
+    "shadow": 4,
+    "reply": {
+      "prompt_es": "Responde a la doctora Ross: la presión del paciente sigue bajando y ya empezaron con suero.",
+      "model": ["His blood pressure keeps dropping, so we started fluids.", "BP's still going down. We've got fluids running and labs are on the way."]
+    }
+  },
+  {
+    "id": "ser-b2-alibi",
+    "level": "B2",
+    "genre": "policial",
+    "title": "Where were you on Tuesday?",
+    "title_es": "¿Dónde estuvo el martes?",
+    "setting_es": "Dos detectives interrogan a un hombre sobre dónde estuvo la noche de un robo.",
+    "features": ["phrasal", "sarcasm", "conflict", "contractions", "reductions"],
+    "lines": [
+      { "who": "Det. Morales", "g": "f", "en": "So, Mr. Hale, walk us through Tuesday night.", "es": "Bueno, señor Hale, cuéntenos paso a paso el martes en la noche." },
+      { "who": "Hale", "g": "m", "en": "I already told the other guy. I was home all night watching TV.", "es": "Ya se lo dije al otro tipo. Estuve en mi casa toda la noche viendo la tele." },
+      { "who": "Det. Burke", "g": "m", "en": "Alone?", "es": "¿Solo?" },
+      { "who": "Hale", "g": "m", "en": "Yeah, alone. Is that a crime now?", "es": "Sí, solo. ¿Ahora eso es delito?" },
+      { "who": "Det. Morales", "g": "f", "en": "No. But your neighbor says your car was gone till two a.m.", "es": "No. Pero su vecina dice que su coche no estuvo hasta las dos de la mañana." },
+      { "who": "Hale", "g": "m", "en": "My neighbor's a nosy old lady. She makes stuff up all the time.", "es": "Mi vecina es una señora metiche. Se inventa cosas todo el tiempo." },
+      { "who": "Det. Burke", "g": "m", "en": "Funny. The gas station camera seems to agree with her.", "es": "Qué curioso. La cámara de la gasolinera parece estar de acuerdo con ella." },
+      { "who": "Hale", "g": "m", "en": "Okay, look... I wanna talk to a lawyer.", "es": "Ok, miren... quiero hablar con un abogado." },
+      { "who": "Det. Morales", "g": "f", "en": "That's your right. But it's not looking good for you, pal.", "es": "Es su derecho. Pero las cosas no pintan bien para usted, amigo." }
+    ],
+    "context": {
+      "q_es": "¿Qué está pasando?",
+      "options": ["La policía interroga a un hombre cuya coartada no coincide con las pruebas.", "Un hombre denuncia que su vecina le robó el coche.", "Dos detectives buscan a un testigo perdido."],
+      "answer": 0,
+      "why_es": "Hale dice que estuvo en casa, pero la vecina y una cámara indican que salió en su coche."
+    },
+    "expressions": [
+      { "text": "walk us through", "es": "explicarnos paso a paso" },
+      { "text": "nosy", "es": "metiche / chismoso" },
+      { "text": "makes stuff up", "es": "inventa cosas" },
+      { "text": "not looking good", "es": "no pinta bien" }
+    ],
+    "decoys": ["turn yourself in", "get away with"],
+    "gap": { "line": 0, "answer": "walk us through", "options": ["walk us through", "walk us true", "work us through"] },
+    "intent": {
+      "q_es": "¿Qué quiere decir Burke con «Funny. The gas station camera seems to agree with her»?",
+      "options": ["Que la cámara de la gasolinera no funciona.", "Que la vecina le cae bien y le da risa.", "Con ironía: hay una prueba que confirma que Hale mintió."],
+      "answer": 2,
+      "why_es": "«Funny» aquí no significa 'gracioso': es irónico. Burke le revela que una cámara también vio su coche fuera, así que la vecina no inventó nada."
+    },
+    "shadow": 5,
+    "reply": {
+      "prompt_es": "Responde como Hale, insistiendo con calma en que estuviste en casa.",
+      "model": ["I'm telling you, I was home the whole night.", "Look, I never left my place. I don't know what that camera saw."]
+    }
+  }
+]

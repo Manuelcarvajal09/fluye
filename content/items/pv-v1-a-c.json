@@ -1,0 +1,3439 @@
+[
+  {
+    "id": "pv-add-on",
+    "type": "phrasal",
+    "term": "add on",
+    "sense": "include something extra, often for an additional cost",
+    "ipa": "/æd ˈɑn/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "compras",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "agregar; sumar (algo extra)",
+    "def": "to include something extra with what you already have, often paying more",
+    "note": "Separable: add it on. Muy común en compras y servicios: Can I add on a drink? El sustantivo add-on = complemento o extra.",
+    "forms": "add on · added on · adding on · add-on (sustantivo: un extra)",
+    "syn": [
+      "add",
+      "include"
+    ],
+    "confuse": [
+      "add up (cuadrar)",
+      "add up to (sumar en total)"
+    ],
+    "errors_es": "Decir 'add more extra' (redundante). Olvidar que también es sustantivo: an add-on.",
+    "ex": [
+      {
+        "en": "Can I [add on] a side of fries for two dollars?",
+        "es": "¿Le puedo agregar unas papas por dos dólares?"
+      },
+      {
+        "en": "They [added on] a second floor to the house last year.",
+        "es": "Le construyeron un segundo piso a la casa el año pasado."
+      },
+      {
+        "en": "If you [add on] insurance, the rental costs more.",
+        "es": "Si le agregas el seguro, la renta sale más cara."
+      }
+    ]
+  },
+  {
+    "id": "pv-bring-together",
+    "type": "phrasal",
+    "term": "bring together",
+    "sense": "unite people or make them closer as a group",
+    "ipa": "/brɪŋ təˈɡɛðɚ/",
+    "level": "B1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "unir; reunir",
+    "def": "to make people meet, join, or feel closer to each other",
+    "note": "Separable: bring them together. Frecuente al hablar de familias, equipos o comunidades que se unen por algo.",
+    "syn": [
+      "unite",
+      "gather"
+    ],
+    "confuse": [
+      "get together (juntarse; intransitivo)"
+    ],
+    "errors_es": "Decir 'the tragedy joined the family': suena raro. Lo natural es 'brought the family together'.",
+    "ex": [
+      {
+        "en": "The wedding finally [brought together] both sides of the family.",
+        "es": "La boda por fin unió a las dos familias."
+      },
+      {
+        "en": "Nothing [brings us together] like a good barbecue.",
+        "es": "Nada nos une como una buena carne asada."
+      },
+      {
+        "en": "Her job is to [bring together] teams from three offices.",
+        "es": "Su trabajo es reunir a equipos de tres oficinas."
+      }
+    ]
+  },
+  {
+    "id": "pv-burn-down",
+    "type": "phrasal",
+    "term": "burn down",
+    "sense": "be completely destroyed by fire (a building)",
+    "ipa": "/bɝn ˈdaʊn/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "emergencias",
+      "noticias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "incendiarse por completo; quemar (un edificio)",
+    "def": "to be totally destroyed by fire, or to destroy a building with fire",
+    "note": "Para edificios, no para comida: the toast burned (no 'burned down'). Separable: they burned it down.",
+    "forms": "burn down · burned/burnt down · burning down",
+    "confuse": [
+      "burn up (arder en fiebre)",
+      "burn out (agotarse)"
+    ],
+    "errors_es": "Usarlo con cosas pequeñas ('my pizza burned down'). Decir 'burned completely' sin 'down' al hablar de una casa.",
+    "ex": [
+      {
+        "en": "The old barn [burned down] during the storm.",
+        "es": "El granero viejo se quemó por completo durante la tormenta."
+      },
+      {
+        "en": "Someone tried to [burn down] the restaurant for the insurance.",
+        "es": "Alguien intentó quemar el restaurante para cobrar el seguro."
+      },
+      {
+        "en": "Our neighbor's garage [burned down] last winter.",
+        "es": "La cochera del vecino se quemó completita el invierno pasado."
+      }
+    ]
+  },
+  {
+    "id": "pv-box-up",
+    "type": "phrasal",
+    "term": "box up",
+    "sense": "put things into boxes to store or move them",
+    "ipa": "/bɑks ˈʌp/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "vivienda",
+      "restaurantes"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "empacar en cajas; poner para llevar (comida)",
+    "def": "to put things into boxes so they can be stored, moved, or taken away",
+    "note": "Separable: box it up. En restaurantes de EE. UU. y Canadá: Can you box this up? = ¿Me lo pone para llevar?",
+    "syn": [
+      "pack up"
+    ],
+    "confuse": [
+      "pack up (empacar en general)"
+    ],
+    "errors_es": "Pedir las sobras con 'Can you put it to carry?'. Lo natural: Can you box this up? o Can I get a box?",
+    "ex": [
+      {
+        "en": "We spent all weekend [boxing up] the kitchen before the move.",
+        "es": "Nos pasamos el fin de semana empacando la cocina antes de la mudanza."
+      },
+      {
+        "en": "Could you [box up] the rest of my pasta, please?",
+        "es": "¿Me pone el resto de la pasta para llevar, por favor?"
+      },
+      {
+        "en": "I already [boxed up] all my winter clothes.",
+        "es": "Ya guardé en cajas toda mi ropa de invierno."
+      }
+    ]
+  },
+  {
+    "id": "pv-breathe-in",
+    "type": "phrasal",
+    "term": "breathe in",
+    "sense": "take air into your lungs",
+    "ipa": "/brið ˈɪn/",
+    "level": "B1",
+    "topic": "health",
+    "areas": [
+      "salud"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": true,
+    "es": "inhalar; respirar hondo",
+    "def": "to take air or another gas into your body through your nose or mouth",
+    "note": "Contrario: breathe out (exhalar). Muy usado por médicos e instructores: breathe in... and out. Transitivo: breathe in the smoke.",
+    "forms": "breathe in · breathed in · breathing in · breathe out (exhalar)",
+    "syn": [
+      "inhale"
+    ],
+    "confuse": [
+      "breath (sustantivo) vs. breathe (verbo)"
+    ],
+    "errors_es": "Escribir 'breath in' (sustantivo) en vez de 'breathe in'. Pronunciar breathe como breath: breathe lleva /ð/ y vocal larga.",
+    "ex": [
+      {
+        "en": "Okay, [breathe in] slowly and hold it for three seconds.",
+        "es": "Bien, inhala despacio y aguanta tres segundos."
+      },
+      {
+        "en": "Try not to [breathe in] the fumes while you paint.",
+        "es": "Procura no respirar los vapores mientras pintas."
+      },
+      {
+        "en": "She [breathed in] the cold mountain air and smiled.",
+        "es": "Respiró el aire frío de la montaña y sonrió."
+      }
+    ]
+  },
+  {
+    "id": "pv-care-for",
+    "type": "phrasal",
+    "term": "care for",
+    "sense": "look after someone who is sick, very young or old",
+    "ipa": "/ˈkɛr fɔr/",
+    "level": "B1",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "cuidar (a alguien enfermo, mayor o pequeño)",
+    "def": "to look after a person or animal that needs help",
+    "note": "Inseparable: care for her. En negativo y algo formal también es 'no gustar': I don't care for spicy food.",
+    "syn": [
+      "take care of",
+      "look after"
+    ],
+    "confuse": [
+      "care about (importarle)"
+    ],
+    "errors_es": "Confundirlo con care about: I care about you = me importas; I care for my mom = cuido a mi mamá.",
+    "ex": [
+      {
+        "en": "She quit her job to [care for] her father after his stroke.",
+        "es": "Dejó su trabajo para cuidar a su papá después de la embolia."
+      },
+      {
+        "en": "Nurses who [care for] newborns work long night shifts.",
+        "es": "Las enfermeras que cuidan a recién nacidos hacen turnos nocturnos largos."
+      },
+      {
+        "en": "Who's going to [care for] the dog while we're away?",
+        "es": "¿Quién va a cuidar al perro mientras no estamos?"
+      }
+    ]
+  },
+  {
+    "id": "pv-chop-up",
+    "type": "phrasal",
+    "term": "chop up",
+    "sense": "cut food or something into small pieces",
+    "ipa": "/tʃɑp ˈʌp/",
+    "level": "B1",
+    "topic": "food",
+    "areas": [
+      "restaurantes",
+      "vivienda"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "picar; cortar en trocitos",
+    "def": "to cut something, usually food, into small pieces with a knife",
+    "note": "Separable: chop it up. Con verduras: chop up the onions. Para picar muy fino: dice o mince.",
+    "syn": [
+      "dice",
+      "cut up"
+    ],
+    "confuse": [
+      "chop down (talar)"
+    ],
+    "errors_es": "Decir 'pick the onion' por parecido con 'picar': pick no tiene ese sentido.",
+    "ex": [
+      {
+        "en": "Can you [chop up] the onions while I start the sauce?",
+        "es": "¿Puedes picar la cebolla mientras empiezo la salsa?"
+      },
+      {
+        "en": "I [chopped up] some leftover chicken for the salad.",
+        "es": "Piqué un poco de pollo que sobró para la ensalada."
+      },
+      {
+        "en": "He was [chopping up] peppers when the phone rang.",
+        "es": "Estaba picando chiles cuando sonó el teléfono."
+      }
+    ]
+  },
+  {
+    "id": "pv-clock-in",
+    "type": "phrasal",
+    "term": "clock in",
+    "sense": "record the time you start work",
+    "ipa": "/klɑk ˈɪn/",
+    "level": "B1",
+    "topic": "work",
+    "areas": [
+      "conversacion",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "checar entrada (en el trabajo)",
+    "def": "to record the time you arrive at work, often with a machine or an app",
+    "note": "Contrario: clock out (checar salida). En EE. UU. también punch in / punch out.",
+    "forms": "clock in · clocked in · clocking in · clock out (checar salida)",
+    "syn": [
+      "punch in",
+      "sign in"
+    ],
+    "errors_es": "Decir 'check in' para el trabajo: check in es en hotel o aeropuerto.",
+    "ex": [
+      {
+        "en": "I [clocked in] five minutes late and my manager noticed.",
+        "es": "Checué cinco minutos tarde y mi gerente se dio cuenta."
+      },
+      {
+        "en": "Don't forget to [clock in] before you start your shift.",
+        "es": "No olvides checar entrada antes de empezar tu turno."
+      },
+      {
+        "en": "She has to [clock in] at six every morning.",
+        "es": "Tiene que checar a las seis todas las mañanas."
+      }
+    ]
+  },
+  {
+    "id": "pv-come-along-2",
+    "type": "phrasal",
+    "term": "come along",
+    "sense": "make progress; develop",
+    "ipa": "/kʌm əˈlɔŋ/",
+    "level": "B1",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "conversacion"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "ir avanzando; ir progresando",
+    "def": "to make progress or develop in a certain way",
+    "note": "Casi siempre en pregunta: How's the project coming along? Respuesta típica: It's coming along = ahí va.",
+    "syn": [
+      "progress",
+      "go"
+    ],
+    "confuse": [
+      "come along (acompañar, sentido 1)"
+    ],
+    "errors_es": "Decir 'how is it going on?'. Lo natural: How's it coming along?",
+    "ex": [
+      {
+        "en": "How is your thesis [coming along] these days?",
+        "es": "¿Cómo va tu tesis estos días?"
+      },
+      {
+        "en": "The new kitchen is [coming along] nicely.",
+        "es": "La cocina nueva va quedando muy bien."
+      },
+      {
+        "en": "My Spanish was [coming along] until I stopped practicing.",
+        "es": "Mi español iba avanzando hasta que dejé de practicar."
+      }
+    ]
+  },
+  {
+    "id": "pv-count-down",
+    "type": "phrasal",
+    "term": "count down",
+    "sense": "count backwards to an event; wait eagerly for a date",
+    "ipa": "/kaʊnt ˈdaʊn/",
+    "level": "B1",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": false,
+    "es": "hacer la cuenta regresiva; contar los días",
+    "def": "to count backwards to zero, or to wait excitedly for a date to arrive",
+    "note": "Con 'the days': I'm counting down the days to vacation. Sustantivo: countdown (cuenta regresiva), junto.",
+    "forms": "count down · counted down · counting down · countdown (sustantivo)",
+    "errors_es": "Decir 'count the days back'. Escribir el sustantivo separado: es countdown.",
+    "ex": [
+      {
+        "en": "Everyone [counted down] from ten at midnight.",
+        "es": "Todos hicieron la cuenta regresiva desde diez a la medianoche."
+      },
+      {
+        "en": "I'm [counting down] the days until summer break.",
+        "es": "Estoy contando los días para las vacaciones de verano."
+      },
+      {
+        "en": "The kids have been [counting down] to Christmas since November.",
+        "es": "Los niños llevan contando los días para Navidad desde noviembre."
+      }
+    ]
+  },
+  {
+    "id": "pv-crash-into",
+    "type": "phrasal",
+    "term": "crash into",
+    "sense": "hit something violently while moving",
+    "ipa": "/kræʃ ˈɪntu/",
+    "level": "B1",
+    "topic": "travel",
+    "areas": [
+      "transporte",
+      "emergencias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "chocar contra; estrellarse con",
+    "def": "to hit something hard while moving, usually in a vehicle",
+    "note": "Inseparable: crashed into a tree. Para personas, sin violencia, se usa bump into.",
+    "syn": [
+      "hit",
+      "run into"
+    ],
+    "confuse": [
+      "bump into (toparse con alguien)",
+      "crash at (quedarse a dormir)"
+    ],
+    "errors_es": "Decir 'crash with a tree'. En inglés se choca 'into' algo, no 'with'.",
+    "ex": [
+      {
+        "en": "A truck [crashed into] the side of the bridge.",
+        "es": "Un camión se estrelló contra un costado del puente."
+      },
+      {
+        "en": "He was texting and [crashed into] a parked car.",
+        "es": "Iba mandando mensajes y chocó contra un carro estacionado."
+      },
+      {
+        "en": "Slow down or you'll [crash into] the mailbox!",
+        "es": "¡Bájale o te vas a estrellar con el buzón!"
+      }
+    ]
+  },
+  {
+    "id": "pv-cut-down",
+    "type": "phrasal",
+    "term": "cut down",
+    "sense": "make a tree fall by cutting it",
+    "ipa": "/kʌt ˈdaʊn/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "vivienda",
+      "ciencia"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "talar; tumbar (un árbol)",
+    "def": "to make a tree fall by cutting through its trunk",
+    "note": "Separable: cut it down. No confundir con cut down on (reducir lo que consumes). También chop down.",
+    "syn": [
+      "chop down",
+      "fell"
+    ],
+    "confuse": [
+      "cut down on (reducir)"
+    ],
+    "errors_es": "Decir solo 'cut the tree' cuando se tala completo: 'down' indica que cae.",
+    "ex": [
+      {
+        "en": "They [cut down] the old oak in front of the school.",
+        "es": "Talaron el roble viejo frente a la escuela."
+      },
+      {
+        "en": "We had to [cut down] two trees after the ice storm.",
+        "es": "Tuvimos que tumbar dos árboles después de la tormenta de hielo."
+      },
+      {
+        "en": "Why are they [cutting down] the whole forest?",
+        "es": "¿Por qué están talando todo el bosque?"
+      }
+    ]
+  },
+  {
+    "id": "pv-clean-out",
+    "type": "phrasal",
+    "term": "clean out",
+    "sense": "empty and clean a space thoroughly",
+    "ipa": "/klin ˈaʊt/",
+    "level": "B1",
+    "topic": "home",
+    "areas": [
+      "vivienda"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "limpiar a fondo; sacar todo (de un clóset, cajón)",
+    "def": "to clean a space completely, often removing the things you don't need",
+    "note": "Separable: clean it out. Informal: The trip cleaned me out = el viaje me dejó sin un peso.",
+    "confuse": [
+      "clean up (recoger el tiradero)",
+      "clear out (vaciar; largarse)"
+    ],
+    "errors_es": "Usar 'clean up' para vaciar un clóset: clean up es ordenar; clean out es sacar todo y limpiar.",
+    "ex": [
+      {
+        "en": "This weekend I'm finally [cleaning out] the garage.",
+        "es": "Este fin por fin voy a limpiar a fondo la cochera."
+      },
+      {
+        "en": "She [cleaned out] her desk on her last day.",
+        "es": "Vació su escritorio en su último día."
+      },
+      {
+        "en": "We need to [clean out] the fridge, something smells.",
+        "es": "Hay que limpiar el refri a fondo, algo huele mal."
+      }
+    ]
+  },
+  {
+    "id": "pv-abide-by",
+    "type": "phrasal",
+    "term": "abide by",
+    "sense": "accept and follow a rule, law or decision",
+    "ipa": "/əˈbaɪd baɪ/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "noticias"
+    ],
+    "tags": [
+      "formal"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "formal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "acatar; cumplir con (reglas, decisión)",
+    "def": "to accept and obey a rule, law, agreement or decision",
+    "note": "Inseparable y formal: abide by the rules. Frecuente en contratos, deportes y juicios: abide by the ruling.",
+    "syn": [
+      "follow",
+      "comply with",
+      "obey"
+    ],
+    "confuse": [
+      "stick to (apegarse; más informal)"
+    ],
+    "errors_es": "Decir 'abide the rules' sin 'by'. Usarlo en plática muy casual, donde suena acartonado.",
+    "ex": [
+      {
+        "en": "Everyone who works here has to [abide by] the dress code.",
+        "es": "Todos los que trabajan aquí tienen que cumplir con el código de vestimenta."
+      },
+      {
+        "en": "Both sides agreed to [abide by] the judge's decision.",
+        "es": "Las dos partes aceptaron acatar la decisión del juez."
+      },
+      {
+        "en": "If you don't [abide by] the rules, you're out.",
+        "es": "Si no cumples las reglas, estás fuera."
+      }
+    ]
+  },
+  {
+    "id": "pv-add-up-to",
+    "type": "phrasal",
+    "term": "add up to",
+    "sense": "make a particular total; result in",
+    "ipa": "/æd ˈʌp tu/",
+    "level": "B2",
+    "topic": "money",
+    "areas": [
+      "bancos",
+      "compras"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "sumar en total; dar como resultado",
+    "def": "to make a certain total when combined, or to have a certain result",
+    "note": "Inseparable. Distinto de add up (cuadrar). Figurado: It doesn't add up to much = no es gran cosa.",
+    "confuse": [
+      "add up (cuadrar; acumularse)"
+    ],
+    "errors_es": "Decir 'sum up to': sum up significa resumir.",
+    "ex": [
+      {
+        "en": "Those little coffee runs [add up to] a lot each month.",
+        "es": "Esos cafecitos suman un montón cada mes."
+      },
+      {
+        "en": "His injuries [added up to] three months off work.",
+        "es": "Sus lesiones se tradujeron en tres meses de incapacidad."
+      },
+      {
+        "en": "All the evidence [adds up to] one thing: he lied.",
+        "es": "Todas las pruebas apuntan a una cosa: mintió."
+      }
+    ]
+  },
+  {
+    "id": "pv-agree-with",
+    "type": "phrasal",
+    "term": "agree with",
+    "sense": "(food, climate) suit your body; usually negative",
+    "ipa": "/əˈɡri wɪð/",
+    "level": "B2",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "restaurantes"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "caerle bien (comida, clima)",
+    "def": "if food or weather suits you, it doesn't make you feel sick",
+    "note": "Casi siempre en negativo: Spicy food doesn't agree with me = la comida picante me cae mal. Distinto de 'estar de acuerdo con'.",
+    "confuse": [
+      "agree with (estar de acuerdo con)"
+    ],
+    "errors_es": "Calcar 'me cayó mal' como 'it fell me bad'. Lo natural: it didn't agree with me.",
+    "ex": [
+      {
+        "en": "Something I ate last night didn't [agree with] me.",
+        "es": "Algo que comí anoche me cayó mal."
+      },
+      {
+        "en": "Dairy has never [agreed with] my stomach.",
+        "es": "Los lácteos nunca me han caído bien al estómago."
+      },
+      {
+        "en": "The humidity down south doesn't [agree with] her at all.",
+        "es": "La humedad del sur no le sienta nada bien."
+      }
+    ]
+  },
+  {
+    "id": "pv-beat-oneself-up",
+    "type": "phrasal",
+    "term": "beat oneself up",
+    "sense": "blame or criticize yourself too much",
+    "ipa": "/bit wʌnˈsɛlf ˈʌp/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "culparse; martirizarse",
+    "def": "to criticize yourself too much for a mistake or for something you didn't do",
+    "note": "Siempre con reflexivo: Don't beat yourself up about it = no te tortures por eso. Va con about u over.",
+    "forms": "beat yourself up · beat herself up · beating myself up",
+    "confuse": [
+      "beat up (darle una paliza a alguien)"
+    ],
+    "errors_es": "Traducirlo literal como 'golpearse'. Olvidar el reflexivo: 'don't beat up' no tiene este sentido.",
+    "ex": [
+      {
+        "en": "Hey, don't [beat yourself up] over one bad interview.",
+        "es": "Oye, no te tortures por una mala entrevista."
+      },
+      {
+        "en": "She's still [beating herself up] about the accident.",
+        "es": "Todavía se sigue culpando por el accidente."
+      },
+      {
+        "en": "I [beat myself up] for weeks after I missed that call.",
+        "es": "Me estuve martirizando semanas por no contestar esa llamada."
+      }
+    ]
+  },
+  {
+    "id": "pv-blend-in",
+    "type": "phrasal",
+    "term": "blend in",
+    "sense": "look or act like your surroundings so you go unnoticed",
+    "ipa": "/blɛnd ˈɪn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "viajes",
+      "series"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "pasar desapercibido; mimetizarse",
+    "def": "to look or behave like the people or things around you so you don't attract attention",
+    "note": "Con with: blend in with the locals. Contrario: stand out (destacar).",
+    "syn": [
+      "fit in"
+    ],
+    "confuse": [
+      "fit in (encajar socialmente, sentirse aceptado)"
+    ],
+    "errors_es": "Calcar 'pass unnoticed' en plática: existe, pero blend in es lo natural.",
+    "ex": [
+      {
+        "en": "Wear something casual so we [blend in] with the crowd.",
+        "es": "Ponte algo casual para pasar desapercibidos entre la gente."
+      },
+      {
+        "en": "The undercover cop [blended in] perfectly at the party.",
+        "es": "El policía encubierto pasó totalmente desapercibido en la fiesta."
+      },
+      {
+        "en": "His gray car [blends in] with every other car on the street.",
+        "es": "Su carro gris se pierde entre todos los demás de la calle."
+      }
+    ]
+  },
+  {
+    "id": "pv-block-out",
+    "type": "phrasal",
+    "term": "block out",
+    "sense": "stop light, noise or a memory from reaching you",
+    "ipa": "/blɑk ˈaʊt/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "salud",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "bloquear; no dejar entrar (ruido, luz, recuerdos)",
+    "def": "to stop light or sound from getting in, or to stop yourself from thinking about something",
+    "note": "Separable: block it out. Con recuerdos: I've blocked out most of that year. En agenda: block out time = apartar tiempo.",
+    "errors_es": "Decir solo 'I blocked that' para un recuerdo: suena incompleto. Lo natural: I blocked it out.",
+    "ex": [
+      {
+        "en": "These curtains [block out] almost all the light.",
+        "es": "Estas cortinas tapan casi toda la luz."
+      },
+      {
+        "en": "I put on headphones to [block out] the noise.",
+        "es": "Me puse audífonos para no oír el ruido."
+      },
+      {
+        "en": "She's [blocked out] most of what happened that night.",
+        "es": "Ha bloqueado casi todo lo que pasó esa noche."
+      }
+    ]
+  },
+  {
+    "id": "pv-bounce-off",
+    "type": "phrasal",
+    "term": "bounce off",
+    "sense": "tell someone an idea to hear their opinion",
+    "ipa": "/baʊns ˈɔf/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "proyectos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "comentarle (una idea) a alguien para ver qué opina",
+    "def": "to tell someone an idea or plan to find out what they think of it",
+    "note": "Estructura: bounce something off someone. Can I bounce something off you? = ¿Te comento algo a ver qué opinas?",
+    "syn": [
+      "run by",
+      "run past"
+    ],
+    "errors_es": "Decir 'bounce you an idea'. El orden es idea + off + persona.",
+    "ex": [
+      {
+        "en": "Got a minute? I want to [bounce something off] you.",
+        "es": "¿Tienes un minuto? Quiero comentarte algo a ver qué opinas."
+      },
+      {
+        "en": "She [bounced it off] her manager before the meeting.",
+        "es": "Se lo comentó a su gerente antes de la junta."
+      },
+      {
+        "en": "Let me [bounce this off] the team and get back to you.",
+        "es": "Déjame comentarlo con el equipo y te digo."
+      }
+    ]
+  },
+  {
+    "id": "pv-brace-for",
+    "type": "phrasal",
+    "term": "brace for",
+    "sense": "prepare yourself for something bad",
+    "ipa": "/ˈbreɪs fɔr/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "noticias",
+      "emergencias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "prepararse para (algo malo)",
+    "def": "to get ready for something unpleasant or difficult that is about to happen",
+    "note": "Muy de noticias: Residents are bracing for the storm. Reflexivo: brace yourself for bad news. Fórmula: brace for impact.",
+    "confuse": [
+      "prepare for (neutral, sin idea de golpe)"
+    ],
+    "errors_es": "Usar siempre 'prepare for': es correcto, pero brace for indica que viene algo duro.",
+    "ex": [
+      {
+        "en": "Coastal towns are [bracing for] the hurricane tonight.",
+        "es": "Los pueblos de la costa se preparan para el huracán esta noche."
+      },
+      {
+        "en": "We [braced for] the worst when the doctor came in.",
+        "es": "Nos preparamos para lo peor cuando entró el doctor."
+      },
+      {
+        "en": "Fans are [bracing for] another losing season.",
+        "es": "Los aficionados ya se preparan para otra temporada perdedora."
+      }
+    ]
+  },
+  {
+    "id": "pv-break-off",
+    "type": "phrasal",
+    "term": "break off",
+    "sense": "suddenly end an engagement, relationship or talks",
+    "ipa": "/breɪk ˈɔf/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "noticias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "romper (compromiso); cortar (negociaciones, relación)",
+    "def": "to suddenly end a relationship, engagement or discussion",
+    "note": "Separable: break it off. Típico: break off the engagement. She broke it off with him = ella cortó con él.",
+    "confuse": [
+      "break up (terminar; intransitivo)"
+    ],
+    "errors_es": "Decir 'break the engagement' sin off: suena incompleto.",
+    "ex": [
+      {
+        "en": "She [broke off] the engagement two weeks before the wedding.",
+        "es": "Rompió el compromiso dos semanas antes de la boda."
+      },
+      {
+        "en": "The two companies [broke off] talks last night.",
+        "es": "Las dos empresas cortaron las negociaciones anoche."
+      },
+      {
+        "en": "He finally [broke it off] with her over text.",
+        "es": "Por fin cortó con ella por mensaje."
+      }
+    ]
+  },
+  {
+    "id": "pv-breeze-through",
+    "type": "phrasal",
+    "term": "breeze through",
+    "sense": "do or pass something very easily",
+    "ipa": "/briz ˈθru/",
+    "level": "B2",
+    "topic": "study",
+    "areas": [
+      "entrevistas",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pasar sobrado; hacer sin esfuerzo",
+    "def": "to do or pass something easily, without much effort",
+    "note": "Inseparable: breeze through the exam. También con trámites: we breezed through customs.",
+    "syn": [
+      "sail through"
+    ],
+    "errors_es": "Usarlo para 'pasar de panzazo': breeze through es pasar sobrado, no apenas.",
+    "ex": [
+      {
+        "en": "She [breezed through] the interview and got the job.",
+        "es": "Pasó la entrevista sin despeinarse y le dieron el trabajo."
+      },
+      {
+        "en": "I thought I'd [breeze through] the test, but it was brutal.",
+        "es": "Pensé que el examen iba a estar fácil, pero estuvo brutal."
+      },
+      {
+        "en": "We [breezed through] security in ten minutes.",
+        "es": "Pasamos seguridad en diez minutos sin problema."
+      }
+    ]
+  },
+  {
+    "id": "pv-bring-out",
+    "type": "phrasal",
+    "term": "bring out",
+    "sense": "make a quality, feeling or color show more",
+    "ipa": "/brɪŋ ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "sacar (lo mejor o lo peor de alguien); resaltar",
+    "def": "to make a quality, feeling or color easier to see or notice",
+    "note": "Clásico: You bring out the best in me = sacas lo mejor de mí. Separable: brings it out. Otro sentido: lanzar un producto.",
+    "errors_es": "Decir 'take out the best of me'. Lo natural: bring out the best in me (con in).",
+    "ex": [
+      {
+        "en": "You really [bring out] the best in people.",
+        "es": "De verdad sacas lo mejor de la gente."
+      },
+      {
+        "en": "Long road trips [bring out] the worst in my dad.",
+        "es": "Los viajes largos en carro sacan lo peor de mi papá."
+      },
+      {
+        "en": "That blue shirt [brings out] your eyes.",
+        "es": "Esa camisa azul te resalta los ojos."
+      }
+    ]
+  },
+  {
+    "id": "pv-brush-off",
+    "type": "phrasal",
+    "term": "brush off",
+    "sense": "dismiss someone or something rudely or without attention",
+    "ipa": "/brʌʃ ˈɔf/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "ignorar; no pelar; despreciar",
+    "def": "to refuse to listen to someone or to treat what they say as unimportant",
+    "note": "Separable: brush him off. Sobre todo con personas que te buscan o te piden algo. Sustantivo: get the brush-off = que no te pelen.",
+    "forms": "brush off · brushed off · brushing off · brush-off (sustantivo)",
+    "syn": [
+      "dismiss",
+      "ignore",
+      "shrug off"
+    ],
+    "confuse": [
+      "brush up on (repasar)",
+      "shrug off (restar importancia a un problema)"
+    ],
+    "errors_es": "Decir 'brush someone' sin 'off'. Traducirlo como 'cepillar'.",
+    "ex": [
+      {
+        "en": "I tried to apologize, but she [brushed me off].",
+        "es": "Traté de disculparme, pero ni me peló."
+      },
+      {
+        "en": "Don't [brush off] that chest pain, go get it checked.",
+        "es": "No ignores ese dolor de pecho, ve a que te revisen."
+      },
+      {
+        "en": "He asked her out, but she [brushed him off].",
+        "es": "La invitó a salir, pero ella lo despreció."
+      }
+    ]
+  },
+  {
+    "id": "pv-bulk-up",
+    "type": "phrasal",
+    "term": "bulk up",
+    "sense": "gain muscle and weight",
+    "ipa": "/bʌlk ˈʌp/",
+    "level": "B2",
+    "topic": "health",
+    "areas": [
+      "salud"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "both",
+    "sep": true,
+    "es": "ganar masa muscular; ponerse mamado",
+    "def": "to gain weight and muscle, usually by training and eating more",
+    "note": "Intransitivo con personas: he bulked up. Transitivo con cosas: bulk up a report = engordar un informe.",
+    "errors_es": "Decir 'get fat' cuando hablas de músculo: bulk up implica ganar músculo.",
+    "ex": [
+      {
+        "en": "He [bulked up] a lot for his role in the movie.",
+        "es": "Se puso muy mamado para su papel en la película."
+      },
+      {
+        "en": "I'm trying to [bulk up] before hockey season.",
+        "es": "Estoy tratando de ganar masa antes de la temporada de hockey."
+      },
+      {
+        "en": "She's been [bulking up] at the gym since January.",
+        "es": "Lleva desde enero ganando músculo en el gym."
+      }
+    ]
+  },
+  {
+    "id": "pv-bump-up",
+    "type": "phrasal",
+    "term": "bump up",
+    "sense": "raise an amount or move something to a higher level",
+    "ipa": "/bʌmp ˈʌp/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "compras"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "subir; aumentar (precio, sueldo, prioridad)",
+    "def": "to increase an amount, or to move someone or something to a higher level",
+    "note": "Separable: bump it up. Muy de oficina: bump up the budget. Con juntas: bump up the meeting = adelantarla.",
+    "syn": [
+      "raise",
+      "increase"
+    ],
+    "errors_es": "Decir 'upgrade the salary'. Lo natural en plática: they bumped up my salary.",
+    "ex": [
+      {
+        "en": "They [bumped up] my salary after the review.",
+        "es": "Me subieron el sueldo después de la evaluación."
+      },
+      {
+        "en": "The airline [bumped me up] to first class!",
+        "es": "¡La aerolínea me subió a primera clase!"
+      },
+      {
+        "en": "Can we [bump up] the priority on this bug?",
+        "es": "¿Le podemos subir la prioridad a este bug?"
+      }
+    ]
+  },
+  {
+    "id": "pv-burst-into",
+    "type": "phrasal",
+    "term": "burst into",
+    "sense": "suddenly start crying, laughing or burning",
+    "ipa": "/bɝst ˈɪntu/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "soltarse a (llorar, reír); estallar en (llanto, llamas)",
+    "def": "to suddenly start crying, laughing, singing or burning",
+    "note": "Fórmulas: burst into tears, burst into laughter, burst into flames. También 'entrar de golpe': burst into the room.",
+    "confuse": [
+      "burst out laughing (mismo sentido, con -ing)"
+    ],
+    "errors_es": "Decir 'burst in tears' sin 'into'. Calcar 'explotar en llanto' como 'explode in tears'.",
+    "ex": [
+      {
+        "en": "She opened the letter and [burst into] tears.",
+        "es": "Abrió la carta y se soltó a llorar."
+      },
+      {
+        "en": "The whole class [burst into] laughter.",
+        "es": "Todo el salón se soltó a carcajadas."
+      },
+      {
+        "en": "The car hit the wall and [burst into] flames.",
+        "es": "El carro chocó contra la pared y se envolvió en llamas."
+      }
+    ]
+  },
+  {
+    "id": "pv-ask-for-it",
+    "type": "phrasal",
+    "term": "ask for it",
+    "sense": "deserve something bad because of your own behavior",
+    "ipa": "/ˈæsk fɔr ɪt/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "buscársela; tenérselo bien merecido",
+    "def": "to behave in a way that makes something bad likely to happen to you",
+    "note": "Fórmula fija, casi siempre en pasado o progresivo: You asked for it! / He was asking for it. No se cambia 'it'.",
+    "confuse": [
+      "ask for (pedir)"
+    ],
+    "errors_es": "Traducirlo como 'pedirlo' literalmente. Cambiar 'it' por otra palabra.",
+    "ex": [
+      {
+        "en": "Sorry, but you totally [asked for it].",
+        "es": "Perdón, pero tú solito te la buscaste."
+      },
+      {
+        "en": "He was [asking for it] when he insulted the bouncer.",
+        "es": "Se la estaba buscando cuando insultó al cadenero."
+      },
+      {
+        "en": "If you keep teasing the dog, you're [asking for it].",
+        "es": "Si sigues molestando al perro, te la estás buscando."
+      }
+    ]
+  },
+  {
+    "id": "pv-bail-out-2",
+    "type": "phrasal",
+    "term": "bail out",
+    "sense": "pay money so someone can leave jail before trial",
+    "ipa": "/beɪl ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "pagar la fianza de (alguien)",
+    "def": "to pay money to a court so a person can leave jail until their trial",
+    "note": "Separable: bail him out. Muy de series policiacas. Sustantivo: bail (fianza); post bail = pagar la fianza.",
+    "confuse": [
+      "bail out (rescatar de un apuro)",
+      "bail on (dejar plantado)"
+    ],
+    "errors_es": "Calcar 'pagar la fianza' como 'pay the bond'. En EE. UU. se dice post bail o bail someone out.",
+    "ex": [
+      {
+        "en": "I need you to come [bail me out], I'm at the station.",
+        "es": "Necesito que vengas a pagar mi fianza, estoy en la delegación."
+      },
+      {
+        "en": "His mom [bailed him out] the next morning.",
+        "es": "Su mamá le pagó la fianza a la mañana siguiente."
+      },
+      {
+        "en": "Nobody was willing to [bail out] the suspect.",
+        "es": "Nadie quiso pagar la fianza del sospechoso."
+      }
+    ]
+  },
+  {
+    "id": "pv-break-in-2",
+    "type": "phrasal",
+    "term": "break in",
+    "sense": "use something new until it becomes comfortable",
+    "ipa": "/breɪk ˈɪn/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "compras"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "domar; ablandar (zapatos o algo nuevo)",
+    "def": "to wear or use something new for a while until it feels comfortable or works well",
+    "note": "Separable: break them in. Con zapatos, botas, guantes de béisbol o un carro nuevo.",
+    "confuse": [
+      "break in (meterse a robar)"
+    ],
+    "errors_es": "Decir 'soften my shoes'. Lo natural: break in my new shoes.",
+    "ex": [
+      {
+        "en": "I need to [break in] these boots before the hike.",
+        "es": "Tengo que domar estas botas antes de la caminata."
+      },
+      {
+        "en": "My new shoes hurt; I haven't [broken them in] yet.",
+        "es": "Me lastiman los zapatos nuevos; todavía no los ablando."
+      },
+      {
+        "en": "It took a month to [break in] this baseball glove.",
+        "es": "Me tardé un mes en domar este guante de béisbol."
+      }
+    ]
+  },
+  {
+    "id": "pv-break-out-of",
+    "type": "phrasal",
+    "term": "break out of",
+    "sense": "escape from a prison or a limiting situation",
+    "ipa": "/breɪk ˈaʊt əv/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "escaparse de (la cárcel); salir de (una rutina)",
+    "def": "to escape from a prison, or from a situation that limits you",
+    "note": "Inseparable. Literal: break out of prison. Figurado: break out of your comfort zone = salir de tu zona de confort.",
+    "confuse": [
+      "break out (estallar)",
+      "break into (meterse a)"
+    ],
+    "errors_es": "Decir 'escape of the jail'. Con break out se necesita 'of'.",
+    "ex": [
+      {
+        "en": "Two inmates [broke out of] the prison last night.",
+        "es": "Dos reos se fugaron de la cárcel anoche."
+      },
+      {
+        "en": "You need to [break out of] your comfort zone.",
+        "es": "Tienes que salirte de tu zona de confort."
+      },
+      {
+        "en": "He's trying to [break out of] the same old routine.",
+        "es": "Está tratando de salir de la misma rutina de siempre."
+      }
+    ]
+  },
+  {
+    "id": "pv-break-up-3",
+    "type": "phrasal",
+    "term": "break up",
+    "sense": "stop a fight or a gathering by separating people",
+    "ipa": "/breɪk ˈʌp/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "separar (una pelea); disolver (una fiesta, una multitud)",
+    "def": "to stop a fight, party or crowd by making the people separate",
+    "note": "Separable: Break it up! = ¡Ya sepárense! La policía break up a party.",
+    "confuse": [
+      "break up (terminar una relación)"
+    ],
+    "errors_es": "Decir 'separate the fight': se separa a la gente, pero a la pelea se le dice break up.",
+    "ex": [
+      {
+        "en": "Two teachers ran over to [break up] the fight.",
+        "es": "Dos maestros corrieron a separar la pelea."
+      },
+      {
+        "en": "Police [broke up] the party around two a.m.",
+        "es": "La policía disolvió la fiesta como a las dos de la mañana."
+      },
+      {
+        "en": "Okay, guys, [break it up]! That's enough.",
+        "es": "¡Ya, muchachos, sepárense! Ya estuvo."
+      }
+    ]
+  },
+  {
+    "id": "pv-call-in-2",
+    "type": "phrasal",
+    "term": "call in",
+    "sense": "ask experts, police or extra help to come",
+    "ipa": "/kɔl ˈɪn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "emergencias",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "llamar (a expertos, refuerzos, la policía)",
+    "def": "to ask a specialist, the police or extra people to come and deal with a situation",
+    "note": "Separable: call them in. Típico en series: call in the FBI, call in backup. Distinto de call in sick.",
+    "confuse": [
+      "call in (reportarse al trabajo)"
+    ],
+    "errors_es": "Decir 'call to the police' (con to). Lo natural: call the police o call in the police.",
+    "ex": [
+      {
+        "en": "The hospital [called in] extra nurses for the weekend.",
+        "es": "El hospital mandó llamar enfermeras extra para el fin de semana."
+      },
+      {
+        "en": "If this gets worse, we'll have to [call in] the FBI.",
+        "es": "Si esto empeora, vamos a tener que llamar al FBI."
+      },
+      {
+        "en": "They [called in] a plumber to fix the leak.",
+        "es": "Llamaron a un plomero para arreglar la fuga."
+      }
+    ]
+  },
+  {
+    "id": "pv-bring-in-2",
+    "type": "phrasal",
+    "term": "bring in",
+    "sense": "take someone to a police station for questioning",
+    "ipa": "/brɪŋ ˈɪn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "emergencias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "llevar a la comisaría; detener (para interrogar)",
+    "def": "to take someone to a police station to question or arrest them",
+    "note": "Separable: bring him in. Muy de series: Bring him in for questioning.",
+    "confuse": [
+      "bring in (generar ingresos)"
+    ],
+    "errors_es": "Decir 'take him to the police'. En series se oye bring him in.",
+    "ex": [
+      {
+        "en": "Detective, [bring him in] for questioning.",
+        "es": "Detective, tráigalo para interrogarlo."
+      },
+      {
+        "en": "Police [brought in] two suspects after the robbery.",
+        "es": "La policía detuvo a dos sospechosos después del robo."
+      },
+      {
+        "en": "If she doesn't talk, we'll [bring her in].",
+        "es": "Si no habla, nos la llevamos a la delegación."
+      }
+    ]
+  },
+  {
+    "id": "pv-be-in-for",
+    "type": "phrasal",
+    "term": "be in for",
+    "sense": "be about to experience something, often bad or surprising",
+    "ipa": "/bi ˈɪn fɔr/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 4,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "esperarle a uno (algo); lo que te espera",
+    "def": "to be going to experience something soon, usually something unpleasant or surprising",
+    "note": "Fórmulas: You're in for a treat (te va a encantar). We're in for a long night. Se conjuga be: I'm/you're/we're in for.",
+    "errors_es": "Calcar 'te espera una sorpresa' como 'waits you a surprise'. Lo natural: you're in for a surprise.",
+    "ex": [
+      {
+        "en": "If you've never tried poutine, [you're in for] a treat.",
+        "es": "Si nunca has probado la poutine, te va a encantar."
+      },
+      {
+        "en": "[We're in for] a long night, so make some coffee.",
+        "es": "Nos espera una noche larga, así que haz café."
+      },
+      {
+        "en": "He has no idea what [he's in for] tomorrow.",
+        "es": "No tiene ni idea de lo que le espera mañana."
+      }
+    ]
+  },
+  {
+    "id": "pv-be-behind",
+    "type": "phrasal",
+    "term": "be behind",
+    "sense": "be the person or cause responsible for something",
+    "ipa": "/bi bɪˈhaɪnd/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "estar detrás de; ser el responsable de",
+    "def": "to be the person or reason that caused something, often secretly",
+    "note": "Muy de series policiacas: Who's behind this? Otro sentido: be behind on something = ir atrasado.",
+    "confuse": [
+      "fall behind (atrasarse)"
+    ],
+    "errors_es": "Calcar 'quién está detrás' como 'who is back of this'.",
+    "ex": [
+      {
+        "en": "We think his brother [is behind] the threats.",
+        "es": "Creemos que su hermano está detrás de las amenazas."
+      },
+      {
+        "en": "Who [was behind] the attack on the server?",
+        "es": "¿Quién estuvo detrás del ataque al servidor?"
+      },
+      {
+        "en": "Police believe a local gang [is behind] the robberies.",
+        "es": "La policía cree que una banda local está detrás de los robos."
+      }
+    ]
+  },
+  {
+    "id": "pv-call-on",
+    "type": "phrasal",
+    "term": "call on",
+    "sense": "ask a particular person in a group to speak or answer",
+    "ipa": "/kɔl ˈɑn/",
+    "level": "B2",
+    "topic": "study",
+    "areas": [
+      "reuniones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "darle la palabra a; pedirle que participe",
+    "def": "to ask a certain person in a class or meeting to speak or answer",
+    "note": "Inseparable: the teacher called on me. Formal: call on someone to do something = pedirle públicamente que lo haga.",
+    "errors_es": "Decir 'the teacher called me': eso es que te llamó por teléfono o dijo tu nombre.",
+    "ex": [
+      {
+        "en": "I hate it when the professor [calls on] me without warning.",
+        "es": "Odio que el profe me pregunte sin avisar."
+      },
+      {
+        "en": "She [called on] the new guy to share his thoughts.",
+        "es": "Le dio la palabra al nuevo para que dijera qué opinaba."
+      },
+      {
+        "en": "Raise your hand if you want me to [call on] you.",
+        "es": "Levanta la mano si quieres que te dé la palabra."
+      }
+    ]
+  },
+  {
+    "id": "pv-cave-in",
+    "type": "phrasal",
+    "term": "cave in",
+    "sense": "finally agree after being pressured",
+    "ipa": "/keɪv ˈɪn/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "reuniones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "ceder; doblarse (ante la presión)",
+    "def": "to finally agree to something after being pushed, even though you didn't want to",
+    "note": "Con to: cave in to their demands. También solo 'cave': I caved and bought it. Literal: un techo que se derrumba.",
+    "syn": [
+      "give in"
+    ],
+    "confuse": [
+      "give in (ceder; rendirse)"
+    ],
+    "errors_es": "Calcar 'caer' como 'fall in'. Lo natural: I caved (in).",
+    "ex": [
+      {
+        "en": "The kids begged for a puppy, and I finally [caved in].",
+        "es": "Los niños rogaron por un perrito y al final cedí."
+      },
+      {
+        "en": "The company [caved in] to the workers' demands.",
+        "es": "La empresa cedió ante las exigencias de los trabajadores."
+      },
+      {
+        "en": "Don't [cave in] just because he's yelling.",
+        "es": "No te dobles nada más porque está gritando."
+      }
+    ]
+  },
+  {
+    "id": "pv-chime-in",
+    "type": "phrasal",
+    "term": "chime in",
+    "sense": "add your comment to a conversation",
+    "ipa": "/tʃaɪm ˈɪn/",
+    "level": "B2",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "opinar; intervenir; meter su cuchara",
+    "def": "to add a comment to a conversation that other people are having",
+    "note": "Con with: chime in with an idea. En juntas: Feel free to chime in = siéntete libre de opinar. Más amable que butt in.",
+    "syn": [
+      "jump in"
+    ],
+    "confuse": [
+      "butt in (meterse sin que te inviten)"
+    ],
+    "errors_es": "Decir 'enter in the conversation'. Lo natural: chime in o jump in.",
+    "ex": [
+      {
+        "en": "Feel free to [chime in] if I miss anything.",
+        "es": "Siéntanse libres de opinar si se me pasa algo."
+      },
+      {
+        "en": "Everyone [chimed in] with a different restaurant idea.",
+        "es": "Todos metieron su cuchara con un restaurante distinto."
+      },
+      {
+        "en": "My aunt always [chimes in] when nobody asked her.",
+        "es": "Mi tía siempre opina cuando nadie le preguntó."
+      }
+    ]
+  },
+  {
+    "id": "pv-come-apart",
+    "type": "phrasal",
+    "term": "come apart",
+    "sense": "break into pieces; fail completely",
+    "ipa": "/kʌm əˈpɑrt/",
+    "level": "B2",
+    "topic": "daily",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "desarmarse; deshacerse; venirse abajo",
+    "def": "to separate into pieces, or to fail completely",
+    "note": "Literal: the sandwich came apart. Figurado: the plan/deal came apart. Casi sinónimo de fall apart.",
+    "syn": [
+      "fall apart"
+    ],
+    "errors_es": "Calcar 'se desarmó' como 'it disarmed'.",
+    "ex": [
+      {
+        "en": "The cheap chair [came apart] the first time I sat on it.",
+        "es": "La silla barata se desarmó la primera vez que me senté."
+      },
+      {
+        "en": "Their whole plan [came apart] in one afternoon.",
+        "es": "Todo su plan se vino abajo en una tarde."
+      },
+      {
+        "en": "Careful, the old book is [coming apart] at the spine.",
+        "es": "Cuidado, el libro viejo se está deshaciendo del lomo."
+      }
+    ]
+  },
+  {
+    "id": "pv-come-forward",
+    "type": "phrasal",
+    "term": "come forward",
+    "sense": "offer information to the police or the public",
+    "ipa": "/kʌm ˈfɔrwɚd/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "noticias",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "presentarse (a declarar); dar la cara",
+    "def": "to offer to tell the police or the public something you know",
+    "note": "De noticias y series: Police are asking witnesses to come forward. Con with: come forward with information.",
+    "errors_es": "Calcar 'presentarse' como 'present yourself'. Para testigos se dice come forward.",
+    "ex": [
+      {
+        "en": "A second witness [came forward] this morning.",
+        "es": "Un segundo testigo se presentó esta mañana."
+      },
+      {
+        "en": "Police are urging anyone with information to [come forward].",
+        "es": "La policía pide a quien tenga información que se presente."
+      },
+      {
+        "en": "Several women have [come forward] with similar stories.",
+        "es": "Varias mujeres han dado la cara con historias parecidas."
+      }
+    ]
+  },
+  {
+    "id": "pv-come-out-3",
+    "type": "phrasal",
+    "term": "come out",
+    "sense": "tell people you are gay, lesbian, bisexual or trans",
+    "ipa": "/kʌm ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "salir del clóset",
+    "def": "to tell people for the first time that you are gay, lesbian, bisexual or transgender",
+    "note": "Con to y as: He came out to his parents. She came out as bi. Forma completa: come out of the closet.",
+    "confuse": [
+      "come out (estrenarse)",
+      "come out (saberse)"
+    ],
+    "errors_es": "Calcar 'salir' como 'go out of the closet'. Es come out.",
+    "ex": [
+      {
+        "en": "He [came out] to his parents when he was seventeen.",
+        "es": "Salió del clóset con sus papás a los diecisiete."
+      },
+      {
+        "en": "It took her years to [come out] at work.",
+        "es": "Le tomó años salir del clóset en el trabajo."
+      },
+      {
+        "en": "My cousin [came out] as trans last summer.",
+        "es": "Mi prima salió del clóset como trans el verano pasado."
+      }
+    ]
+  },
+  {
+    "id": "pv-count-out",
+    "type": "phrasal",
+    "term": "count out",
+    "sense": "not include someone in a plan; consider someone unable",
+    "ipa": "/kaʊnt ˈaʊt/",
+    "level": "B2",
+    "topic": "social",
+    "areas": [
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "no contar con (alguien); descartar",
+    "def": "to not include someone in a plan, or to think someone has no chance",
+    "note": "Fórmula: Count me out! = ¡Conmigo no cuenten! Contrario: count me in. Don't count him out = no lo descartes.",
+    "confuse": [
+      "count in (contar con alguien)"
+    ],
+    "errors_es": "Calcar 'no cuentes conmigo' como 'don't count with me'.",
+    "ex": [
+      {
+        "en": "A hike at 5 a.m.? [Count me out].",
+        "es": "¿Caminata a las 5 de la mañana? Conmigo no cuenten."
+      },
+      {
+        "en": "Don't [count her out] yet, she's a fighter.",
+        "es": "No la descartes todavía, es luchona."
+      },
+      {
+        "en": "After the injury, everyone [counted out] the team.",
+        "es": "Después de la lesión, todos descartaron al equipo."
+      }
+    ]
+  },
+  {
+    "id": "pv-crank-up",
+    "type": "phrasal",
+    "term": "crank up",
+    "sense": "increase volume, heat or intensity a lot",
+    "ipa": "/kræŋk ˈʌp/",
+    "level": "B2",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "vivienda"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "subirle mucho (al volumen, a la calefacción)",
+    "def": "to increase the volume, temperature or level of something by a lot",
+    "note": "Separable: crank it up! Más fuerte que turn up. Muy común con música, calefacción y presión en el trabajo.",
+    "syn": [
+      "turn up"
+    ],
+    "confuse": [
+      "turn up (subir; aparecer)"
+    ],
+    "errors_es": "Decir 'raise the music'. Lo natural: crank up / turn up the music.",
+    "ex": [
+      {
+        "en": "This is my song, [crank it up]!",
+        "es": "¡Es mi canción, súbele a todo!"
+      },
+      {
+        "en": "It's freezing, can you [crank up] the heat?",
+        "es": "Hace un frío horrible, ¿le subes a la calefacción?"
+      },
+      {
+        "en": "They [cranked up] the pressure on the sales team.",
+        "es": "Le subieron un buen la presión al equipo de ventas."
+      }
+    ]
+  },
+  {
+    "id": "pv-clean-up-after",
+    "type": "phrasal",
+    "term": "clean up after",
+    "sense": "clean the mess another person or an animal makes",
+    "ipa": "/klin ˈʌp ˌæftɚ/",
+    "level": "B2",
+    "topic": "home",
+    "areas": [
+      "vivienda",
+      "relaciones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "recoger lo que otro tira; limpiar el tiradero de alguien",
+    "def": "to clean the mess that another person or an animal has made",
+    "note": "Inseparable. Queja típica: I'm tired of cleaning up after you. Con mascotas: clean up after your dog.",
+    "confuse": [
+      "clean up (recoger)"
+    ],
+    "errors_es": "Calcar 'limpiar detrás de ti' como 'clean behind you'.",
+    "ex": [
+      {
+        "en": "I'm sick of [cleaning up after] you every single night.",
+        "es": "Ya me cansé de recoger tu tiradero todas las noches."
+      },
+      {
+        "en": "Please [clean up after] your dog in the park.",
+        "es": "Por favor recoge lo que haga tu perro en el parque."
+      },
+      {
+        "en": "Who's going to [clean up after] the party?",
+        "es": "¿Quién va a limpiar después de la fiesta?"
+      }
+    ]
+  },
+  {
+    "id": "pv-cuddle-up",
+    "type": "phrasal",
+    "term": "cuddle up",
+    "sense": "sit or lie very close to someone for warmth or affection",
+    "ipa": "/ˌkʌdəl ˈʌp/",
+    "level": "B2",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "vivienda"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "acurrucarse; apapacharse",
+    "def": "to sit or lie very close to someone, holding them, to feel warm or loved",
+    "note": "Con to o with: cuddle up with someone. Típico: cuddle up on the couch with a movie.",
+    "syn": [
+      "snuggle up",
+      "curl up"
+    ],
+    "errors_es": "Decir 'make cuddles'. Lo natural: cuddle up o simplemente cuddle.",
+    "ex": [
+      {
+        "en": "Let's [cuddle up] on the couch and watch a movie.",
+        "es": "Vamos a acurrucarnos en el sillón a ver una película."
+      },
+      {
+        "en": "The puppies [cuddled up] next to their mom.",
+        "es": "Los cachorros se acurrucaron junto a su mamá."
+      },
+      {
+        "en": "It was so cold we [cuddled up] under three blankets.",
+        "es": "Hacía tanto frío que nos acurrucamos bajo tres cobijas."
+      }
+    ]
+  },
+  {
+    "id": "pv-amount-to",
+    "type": "phrasal",
+    "term": "amount to",
+    "sense": "become successful or important (often negative)",
+    "ipa": "/əˈmaʊnt tu/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "llegar a ser algo (en la vida)",
+    "def": "to become important or successful; often said negatively about a person",
+    "note": "Típico en dramas familiares: You'll never amount to anything. Otro sentido: equivaler a (That amounts to theft).",
+    "errors_es": "Decir 'you'll never arrive to anything'. Olvidar 'to'.",
+    "ex": [
+      {
+        "en": "My dad said I'd never [amount to] anything.",
+        "es": "Mi papá decía que yo nunca iba a ser nadie."
+      },
+      {
+        "en": "She proved wrong everyone who said she wouldn't [amount to] much.",
+        "es": "Les cerró la boca a todos los que decían que no iba a llegar a nada."
+      },
+      {
+        "en": "Without discipline, all that talent won't [amount to] anything.",
+        "es": "Sin disciplina, todo ese talento no va a servir de nada."
+      }
+    ]
+  },
+  {
+    "id": "pv-answer-for",
+    "type": "phrasal",
+    "term": "answer for",
+    "sense": "be blamed or punished for something bad you did",
+    "ipa": "/ˈænsɚ fɔr/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "responder por; pagar por (algo malo)",
+    "def": "to be blamed or punished for something bad you did",
+    "note": "Muy de dramas y thrillers: You'll answer for this! También: have a lot to answer for = tener mucha culpa.",
+    "errors_es": "Decir 'you'll pay this' sin 'for'. Con answer, el 'for' es obligatorio.",
+    "ex": [
+      {
+        "en": "Someday he'll [answer for] what he did to this family.",
+        "es": "Algún día va a pagar por lo que le hizo a esta familia."
+      },
+      {
+        "en": "The company must [answer for] the safety failures.",
+        "es": "La empresa tiene que responder por las fallas de seguridad."
+      },
+      {
+        "en": "You'll [answer for] this, I promise you.",
+        "es": "Me la vas a pagar, te lo prometo."
+      }
+    ]
+  },
+  {
+    "id": "pv-answer-to",
+    "type": "phrasal",
+    "term": "answer to",
+    "sense": "have to explain your actions to someone above you",
+    "ipa": "/ˈænsɚ tu/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "proyectos"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "rendirle cuentas a; depender de (un jefe)",
+    "def": "to have to explain your actions to a person who has authority over you",
+    "note": "Clásico en series: I don't answer to you! = ¡Tú no me mandas! También: answer to a name = responder a un nombre.",
+    "syn": [
+      "report to"
+    ],
+    "errors_es": "Calcar 'rendir cuentas' como 'give accounts to'.",
+    "ex": [
+      {
+        "en": "I don't [answer to] you, I answer to the board.",
+        "es": "Yo no te rindo cuentas a ti, se las rindo al consejo."
+      },
+      {
+        "en": "Every manager here [answers to] the regional director.",
+        "es": "Todos los gerentes aquí le reportan al director regional."
+      },
+      {
+        "en": "Who does she actually [answer to]?",
+        "es": "¿A quién le rinde cuentas ella en realidad?"
+      }
+    ]
+  },
+  {
+    "id": "pv-angle-for",
+    "type": "phrasal",
+    "term": "angle for",
+    "sense": "try to get something without asking directly",
+    "ipa": "/ˈæŋɡəl fɔr/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "relaciones"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "andar buscando (algo) con indirectas; tirarle a",
+    "def": "to try to get something by hinting instead of asking for it directly",
+    "note": "Inseparable, casi siempre en progresivo: He's angling for a promotion. Are you angling for an invite?",
+    "syn": [
+      "fish for"
+    ],
+    "errors_es": "Relacionarlo con 'ángulo'. Usarlo cuando la petición es directa: angle for implica indirectas.",
+    "ex": [
+      {
+        "en": "He's been [angling for] a promotion since March.",
+        "es": "Lleva desde marzo tirándole a un ascenso."
+      },
+      {
+        "en": "Are you [angling for] an invitation to the cabin?",
+        "es": "¿Andas buscando que te invite a la cabaña?"
+      },
+      {
+        "en": "She kept [angling for] compliments all night.",
+        "es": "Se la pasó toda la noche pescando cumplidos."
+      }
+    ]
+  },
+  {
+    "id": "pv-come-into",
+    "type": "phrasal",
+    "term": "come into",
+    "sense": "inherit or suddenly receive money or property",
+    "ipa": "/kʌm ˈɪntu/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "bancos",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "heredar; recibir (dinero de golpe)",
+    "def": "to receive money or property, usually after someone dies",
+    "note": "Casi siempre con money o fortune: She came into some money. Otro uso: come into play = entrar en juego.",
+    "syn": [
+      "inherit"
+    ],
+    "errors_es": "Calcar 'entrarle dinero' como 'money entered him'. Lo natural: he came into some money.",
+    "ex": [
+      {
+        "en": "He [came into] a lot of money when his aunt died.",
+        "es": "Heredó mucho dinero cuando murió su tía."
+      },
+      {
+        "en": "Did you [come into] some cash? Nice truck!",
+        "es": "¿Te cayó una lana? ¡Qué buena camioneta!"
+      },
+      {
+        "en": "She [came into] a small fortune at twenty-one.",
+        "es": "Recibió una pequeña fortuna a los veintiún años."
+      }
+    ]
+  },
+  {
+    "id": "pv-blank-on",
+    "type": "phrasal",
+    "term": "blank on",
+    "sense": "suddenly be unable to remember something",
+    "ipa": "/ˈblæŋk ɑn/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "entrevistas"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "quedarse en blanco con; no acordarse de",
+    "def": "to suddenly forget something you know, like a name or an answer",
+    "note": "EE. UU., informal: I totally blanked on her name. Sin objeto: I blanked = me quedé en blanco.",
+    "syn": [
+      "draw a blank on"
+    ],
+    "errors_es": "Calcar 'me quedé en blanco' como 'I stayed in white'.",
+    "ex": [
+      {
+        "en": "I totally [blanked on] her name at the party.",
+        "es": "Se me fue por completo su nombre en la fiesta."
+      },
+      {
+        "en": "He [blanked on] the last question of the exam.",
+        "es": "Se quedó en blanco con la última pregunta del examen."
+      },
+      {
+        "en": "Sorry, I'm [blanking on] the address. Can you text it?",
+        "es": "Perdón, no me acuerdo de la dirección. ¿Me la mandas?"
+      }
+    ]
+  },
+  {
+    "id": "pv-boil-over",
+    "type": "phrasal",
+    "term": "boil over",
+    "sense": "(anger, tension) become impossible to control",
+    "ipa": "/bɔɪl ˈoʊvɚ/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "noticias",
+      "relaciones"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "desbordarse; estallar (la tensión, el enojo)",
+    "def": "when strong feelings or a tense situation get out of control",
+    "note": "Literal: la leche se derrama al hervir. Figurado: tensions boiled over = las tensiones estallaron. Frecuente en noticias.",
+    "confuse": [
+      "blow up (explotar de coraje; una persona)"
+    ],
+    "errors_es": "Usar 'overflow' para emociones: con tensión o enojo lo natural es boil over.",
+    "ex": [
+      {
+        "en": "Tensions [boiled over] at the town hall meeting.",
+        "es": "Las tensiones estallaron en la reunión vecinal."
+      },
+      {
+        "en": "Years of resentment finally [boiled over] at Thanksgiving dinner.",
+        "es": "Años de resentimiento por fin estallaron en la cena de Acción de Gracias."
+      },
+      {
+        "en": "Their argument [boiled over] into a shouting match.",
+        "es": "Su discusión se desbordó en una gritería."
+      }
+    ]
+  },
+  {
+    "id": "pv-bow-out",
+    "type": "phrasal",
+    "term": "bow out",
+    "sense": "withdraw from an activity, often gracefully",
+    "ipa": "/baʊ ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "noticias"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "retirarse; hacerse a un lado (con elegancia)",
+    "def": "to stop taking part in something, often politely or with dignity",
+    "note": "Con of: bow out of the competition. 'bow' aquí rima con 'now' (/baʊ/), no con 'go'.",
+    "syn": [
+      "withdraw",
+      "step down"
+    ],
+    "confuse": [
+      "back out (rajarse; suena peor)"
+    ],
+    "errors_es": "Pronunciar bow como /boʊ/ (moño). Aquí es /baʊ/, como en reverencia.",
+    "ex": [
+      {
+        "en": "I'm going to [bow out] of tonight's game, I'm exhausted.",
+        "es": "Hoy no voy a jugar, estoy muerto."
+      },
+      {
+        "en": "She [bowed out] of the competition after the semifinal.",
+        "es": "Se retiró de la competencia después de la semifinal."
+      },
+      {
+        "en": "After thirty years, he [bowed out] gracefully.",
+        "es": "Después de treinta años, se retiró con elegancia."
+      }
+    ]
+  },
+  {
+    "id": "pv-buckle-down",
+    "type": "phrasal",
+    "term": "buckle down",
+    "sense": "start working or studying seriously",
+    "ipa": "/ˌbʌkəl ˈdaʊn/",
+    "level": "C1",
+    "topic": "study",
+    "areas": [
+      "proyectos",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "ponerse las pilas; ponerse serio (a trabajar o estudiar)",
+    "def": "to start working or studying hard and seriously",
+    "note": "Muy de EE. UU.: Time to buckle down. No confundir con buckle up (abrocharse el cinturón).",
+    "syn": [
+      "knuckle down",
+      "get down to business"
+    ],
+    "confuse": [
+      "buckle up (abrocharse)"
+    ],
+    "errors_es": "Confundirlo con buckle up. Calcar 'ponerse las pilas' como 'put the batteries'.",
+    "ex": [
+      {
+        "en": "Finals are next week, so I really need to [buckle down].",
+        "es": "Los finales son la otra semana, así que tengo que ponerme las pilas."
+      },
+      {
+        "en": "Once he [buckled down], his grades went way up.",
+        "es": "En cuanto se puso serio, sus calificaciones subieron un montón."
+      },
+      {
+        "en": "We have to [buckle down] if we want to launch by June.",
+        "es": "Hay que ponerse las pilas si queremos lanzar en junio."
+      }
+    ]
+  },
+  {
+    "id": "pv-butter-up",
+    "type": "phrasal",
+    "term": "butter up",
+    "sense": "flatter someone before asking them for something",
+    "ipa": "/ˌbʌtɚ ˈʌp/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "reuniones"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "echarle flores (para pedir algo); apapachar por interés",
+    "def": "to say nice things to someone so that they will do something for you",
+    "note": "Separable: butter him up. Típico: Are you buttering me up? = ¿Por qué tanta flor? ¿Qué quieres? Menos despectivo que suck up to.",
+    "syn": [
+      "sweet-talk",
+      "suck up to"
+    ],
+    "confuse": [
+      "suck up to (lambisconear; más despectivo)"
+    ],
+    "errors_es": "Traducirlo como 'ponerle mantequilla'. Calcar 'hacer la barba' como 'make the beard'.",
+    "ex": [
+      {
+        "en": "Why are you [buttering me up]? What do you want?",
+        "es": "¿Por qué tanta flor? ¿Qué quieres?"
+      },
+      {
+        "en": "He brought donuts to [butter up] the boss.",
+        "es": "Trajo donas para ablandar al jefe."
+      },
+      {
+        "en": "She spent all dinner [buttering up] her future in-laws.",
+        "es": "Se pasó toda la cena echándoles flores a sus futuros suegros."
+      }
+    ]
+  },
+  {
+    "id": "pv-buy-off",
+    "type": "phrasal",
+    "term": "buy off",
+    "sense": "pay someone so they stay quiet or don't cause trouble",
+    "ipa": "/baɪ ˈɔf/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "sobornar; comprar (a alguien)",
+    "def": "to pay someone so they don't cause trouble or don't tell the truth",
+    "note": "Separable: buy him off. Muy de series policiacas y judiciales: The witness was bought off.",
+    "syn": [
+      "bribe",
+      "pay off"
+    ],
+    "confuse": [
+      "buy out (comprarle su parte a alguien)"
+    ],
+    "errors_es": "Decir 'buy him' sin off: suena a comprar a una persona literalmente.",
+    "ex": [
+      {
+        "en": "They tried to [buy off] the only witness.",
+        "es": "Intentaron sobornar al único testigo."
+      },
+      {
+        "en": "You can't [buy me off] with a fancy dinner.",
+        "es": "No me vas a comprar con una cena elegante."
+      },
+      {
+        "en": "The inspector had been [bought off] years ago.",
+        "es": "Al inspector lo habían comprado desde hacía años."
+      }
+    ]
+  },
+  {
+    "id": "pv-burn-up",
+    "type": "phrasal",
+    "term": "burn up",
+    "sense": "have a very high fever",
+    "ipa": "/bɝn ˈʌp/",
+    "level": "C1",
+    "topic": "health",
+    "areas": [
+      "salud",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "arder en fiebre; tener muchísima fiebre",
+    "def": "to have a very high body temperature because you are sick",
+    "note": "Casi siempre en progresivo: You're burning up! = ¡Estás ardiendo en fiebre! Otro sentido: quemarse por completo.",
+    "confuse": [
+      "burn down (incendiarse un edificio)"
+    ],
+    "errors_es": "Decir 'you're burning down' o 'you have much fever'.",
+    "ex": [
+      {
+        "en": "Feel his forehead, he's [burning up]!",
+        "es": "Tócale la frente, ¡está ardiendo en fiebre!"
+      },
+      {
+        "en": "I was [burning up] all night, so I called in sick.",
+        "es": "Estuve ardiendo en fiebre toda la noche, así que avisé que no iba."
+      },
+      {
+        "en": "Honey, I think the baby is [burning up].",
+        "es": "Amor, creo que el bebé tiene muchísima fiebre."
+      }
+    ]
+  },
+  {
+    "id": "pv-butt-out",
+    "type": "phrasal",
+    "term": "butt out",
+    "sense": "stop interfering in something that isn't your business",
+    "ipa": "/bʌt ˈaʊt/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "no meterse; ¡no te metas!",
+    "def": "to stop getting involved in something that is not your business",
+    "note": "Bastante brusco, casi siempre imperativo: Butt out! Contrario de butt in (meterse).",
+    "syn": [
+      "stay out of it",
+      "mind your own business"
+    ],
+    "confuse": [
+      "butt in (meterse)"
+    ],
+    "errors_es": "Usarlo con desconocidos o en el trabajo: suena grosero. Calcar 'no te metas' como 'don't put yourself'.",
+    "ex": [
+      {
+        "en": "This is between me and him, so [butt out].",
+        "es": "Esto es entre él y yo, así que no te metas."
+      },
+      {
+        "en": "I told my sister to [butt out] of my love life.",
+        "es": "Le dije a mi hermana que no se metiera en mi vida amorosa."
+      },
+      {
+        "en": "Could you please [butt out] for once?",
+        "es": "¿Podrías no meterte por una vez?"
+      }
+    ]
+  },
+  {
+    "id": "pv-cash-in-on",
+    "type": "phrasal",
+    "term": "cash in on",
+    "sense": "make money or get an advantage from a situation",
+    "ipa": "/kæʃ ˈɪn ɑn/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "noticias",
+      "compras"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "sacar provecho de; hacer negocio con",
+    "def": "to make money or get an advantage from a situation, often unfairly",
+    "note": "Inseparable. Con modas, tragedias o fama: cash in on the trend. Matiz algo negativo.",
+    "syn": [
+      "capitalize on",
+      "profit from"
+    ],
+    "errors_es": "Usar siempre 'take advantage of': con dinero y modas lo natural es cash in on.",
+    "ex": [
+      {
+        "en": "Stores are [cashing in on] the snowstorm panic.",
+        "es": "Las tiendas están haciendo negocio con el pánico por la nevada."
+      },
+      {
+        "en": "He [cashed in on] his fame with a cooking show.",
+        "es": "Sacó provecho de su fama con un programa de cocina."
+      },
+      {
+        "en": "Everyone's trying to [cash in on] the trend.",
+        "es": "Todo mundo quiere sacarle jugo a la moda."
+      }
+    ]
+  },
+  {
+    "id": "pv-chalk-up-to",
+    "type": "phrasal",
+    "term": "chalk up to",
+    "sense": "say that something was caused by a particular thing",
+    "ipa": "/tʃɔk ˈʌp tu/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "conversacion",
+      "analisis"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "atribuir a; achacarle a",
+    "def": "to decide that something happened because of a particular reason",
+    "note": "Estructura: chalk it up to + causa. Fórmula: chalk it up to experience = tomarlo como aprendizaje.",
+    "syn": [
+      "put down to",
+      "attribute to"
+    ],
+    "errors_es": "Olvidar el objeto: no 'chalk up to bad luck' sino 'chalk it up to bad luck'.",
+    "ex": [
+      {
+        "en": "Let's just [chalk it up to] experience and move on.",
+        "es": "Tomémoslo como aprendizaje y sigamos adelante."
+      },
+      {
+        "en": "I [chalked it up to] nerves, but he was actually sick.",
+        "es": "Pensé que eran nervios, pero en realidad estaba enfermo."
+      },
+      {
+        "en": "She [chalks everything up to] bad luck.",
+        "es": "Todo se lo achaca a la mala suerte."
+      }
+    ]
+  },
+  {
+    "id": "pv-chew-out",
+    "type": "phrasal",
+    "term": "chew out",
+    "sense": "scold someone angrily",
+    "ipa": "/tʃu ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "regañar feo; ponerle una regañiza",
+    "def": "to speak angrily to someone because they did something wrong",
+    "note": "EE. UU., informal. Separable: chewed me out. Pasiva: get chewed out = llevarse una regañada.",
+    "syn": [
+      "tell off",
+      "scold"
+    ],
+    "confuse": [
+      "tell off (regañar; más neutral)"
+    ],
+    "errors_es": "Traducirlo como 'masticar'. Decir 'he regañed me' (spanglish).",
+    "ex": [
+      {
+        "en": "My boss [chewed me out] for missing the deadline.",
+        "es": "Mi jefe me puso una regañiza por no cumplir el plazo."
+      },
+      {
+        "en": "Coach [chewed out] the whole team at halftime.",
+        "es": "El entrenador regañó feo a todo el equipo en el medio tiempo."
+      },
+      {
+        "en": "I got [chewed out] for parking in his spot.",
+        "es": "Me regañaron por estacionarme en su lugar."
+      }
+    ]
+  },
+  {
+    "id": "pv-choke-up",
+    "type": "phrasal",
+    "term": "choke up",
+    "sense": "be unable to speak because of strong emotion",
+    "ipa": "/tʃoʊk ˈʌp/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "intransitive",
+    "es": "hacérsele un nudo en la garganta; quebrársele la voz",
+    "def": "to be unable to speak clearly because you feel very emotional",
+    "note": "Muy común en bodas, funerales y discursos: He got all choked up. También como adjetivo: choked up.",
+    "errors_es": "Decir solo 'I choked': choke a secas es ahogarse o fallar bajo presión.",
+    "ex": [
+      {
+        "en": "Dad [choked up] during his wedding speech.",
+        "es": "A mi papá se le quebró la voz en su discurso de la boda."
+      },
+      {
+        "en": "I always [choke up] at the end of that movie.",
+        "es": "Siempre se me hace un nudo en la garganta al final de esa película."
+      },
+      {
+        "en": "She started [choking up] when she talked about her mom.",
+        "es": "Se le empezó a quebrar la voz cuando habló de su mamá."
+      }
+    ]
+  },
+  {
+    "id": "pv-clam-up",
+    "type": "phrasal",
+    "term": "clam up",
+    "sense": "suddenly refuse to talk",
+    "ipa": "/klæm ˈʌp/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "relaciones"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "cerrarse; quedarse callado (de repente)",
+    "def": "to suddenly stop talking, usually because you are nervous or hiding something",
+    "note": "En series: As soon as we mentioned the money, he clammed up. En pareja: She clams up when I ask.",
+    "syn": [
+      "go quiet",
+      "shut down"
+    ],
+    "errors_es": "Calcar 'se cerró' como 'he closed himself'.",
+    "ex": [
+      {
+        "en": "He [clammed up] the minute we mentioned the money.",
+        "es": "Se cerró en cuanto mencionamos el dinero."
+      },
+      {
+        "en": "Whenever I ask about her past, she [clams up].",
+        "es": "Cada vez que le pregunto por su pasado, se queda callada."
+      },
+      {
+        "en": "Don't [clam up] on me now, tell me what happened.",
+        "es": "No te me cierres ahora, dime qué pasó."
+      }
+    ]
+  },
+  {
+    "id": "pv-crack-down-on",
+    "type": "phrasal",
+    "term": "crack down on",
+    "sense": "start dealing much more strictly with a problem",
+    "ipa": "/kræk ˈdaʊn ɑn/",
+    "level": "C1",
+    "topic": "daily",
+    "areas": [
+      "noticias"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "tomar medidas duras contra; ponerse estricto con",
+    "def": "to start dealing with a problem or illegal activity in a much stricter way",
+    "note": "Inseparable. Muy de noticias: Police are cracking down on speeding. Sustantivo: a crackdown (operativo; mano dura).",
+    "forms": "crack down on · cracked down on · cracking down on · crackdown (sustantivo)",
+    "syn": [
+      "clamp down on"
+    ],
+    "errors_es": "Omitir 'on' cuando hay objeto: crack down on something.",
+    "ex": [
+      {
+        "en": "The city is [cracking down on] illegal parking downtown.",
+        "es": "La ciudad se está poniendo estricta con el estacionamiento ilegal en el centro."
+      },
+      {
+        "en": "My parents [cracked down on] my screen time.",
+        "es": "Mis papás se pusieron duros con mi tiempo de pantalla."
+      },
+      {
+        "en": "The school [cracked down on] vaping after the incident.",
+        "es": "La escuela tomó medidas duras contra el vapeo después del incidente."
+      }
+    ]
+  },
+  {
+    "id": "pv-close-in-on",
+    "type": "phrasal",
+    "term": "close in on",
+    "sense": "move nearer to someone, often to catch them",
+    "ipa": "/kloʊz ˈɪn ɑn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "noticias"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "cercar; irse acercando a (para atrapar)",
+    "def": "to move closer to someone or something, especially to catch or attack them",
+    "note": "Inseparable. Thriller clásico: The police are closing in on him. Figurado: closing in on a deal. close = /kloʊz/ con z.",
+    "errors_es": "Pronunciar close con /s/ (el adjetivo 'cerca'). Aquí es verbo: /kloʊz/.",
+    "ex": [
+      {
+        "en": "The police are [closing in on] the suspect.",
+        "es": "La policía está cercando al sospechoso."
+      },
+      {
+        "en": "We're [closing in on] a deal with the new client.",
+        "es": "Ya casi cerramos un trato con el cliente nuevo."
+      },
+      {
+        "en": "As the storm [closed in on] the coast, people fled.",
+        "es": "Mientras la tormenta se acercaba a la costa, la gente huyó."
+      }
+    ]
+  },
+  {
+    "id": "pv-come-down-on",
+    "type": "phrasal",
+    "term": "come down on",
+    "sense": "criticize or punish someone severely",
+    "ipa": "/kʌm ˈdaʊn ɑn/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "reuniones"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "caerle encima a; ser muy duro con",
+    "def": "to criticize or punish someone severely",
+    "note": "Inseparable. Muy común con hard: come down hard on someone.",
+    "syn": [
+      "crack down on (con problemas, no personas)"
+    ],
+    "errors_es": "Calcar 'caerle encima' como 'fall on him'.",
+    "ex": [
+      {
+        "en": "Don't [come down on] him so hard, he's just a kid.",
+        "es": "No seas tan duro con él, es solo un niño."
+      },
+      {
+        "en": "The manager [came down on] us for the mistake.",
+        "es": "El gerente se nos fue encima por el error."
+      },
+      {
+        "en": "Her parents really [came down on] her after the party.",
+        "es": "Sus papás se le fueron encima después de la fiesta."
+      }
+    ]
+  },
+  {
+    "id": "pv-coop-up",
+    "type": "phrasal",
+    "term": "coop up",
+    "sense": "keep a person or animal in a small space for too long",
+    "ipa": "/kup ˈʌp/",
+    "level": "C1",
+    "topic": "home",
+    "areas": [
+      "vivienda",
+      "salud"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "tener encerrado; estar encerrado (sin salir)",
+    "def": "to keep a person or animal inside a small space for a long time",
+    "note": "Casi siempre en pasiva: I've been cooped up all day = llevo todo el día encerrado. Muy común en invierno.",
+    "errors_es": "Calcar 'estar encerrado' como 'I've been closed all day'. Lo natural: cooped up (inside).",
+    "ex": [
+      {
+        "en": "I've been [cooped up] in this apartment all week.",
+        "es": "Llevo toda la semana encerrado en este departamento."
+      },
+      {
+        "en": "The kids get cranky when they're [cooped up] inside.",
+        "es": "Los niños se ponen de malas cuando están encerrados."
+      },
+      {
+        "en": "Don't keep the dog [cooped up] in the crate all day.",
+        "es": "No tengas al perro encerrado en la jaula todo el día."
+      }
+    ]
+  },
+  {
+    "id": "pv-cop-out",
+    "type": "phrasal",
+    "term": "cop out",
+    "sense": "avoid doing something with a weak excuse",
+    "ipa": "/kɑp ˈaʊt/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "conversacion"
+    ],
+    "tags": [
+      "informal"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "zafarse con una excusa; salirse por la tangente",
+    "def": "to avoid doing something you should do, usually by giving a weak excuse",
+    "note": "Sustantivo muy frecuente: That's a cop-out! = ¡Eso es pura excusa! Con of: cop out of a promise.",
+    "forms": "cop out · copped out · copping out · cop-out (sustantivo)",
+    "confuse": [
+      "cop to (admitir)"
+    ],
+    "errors_es": "Relacionarlo con cop (policía): no tiene nada que ver.",
+    "ex": [
+      {
+        "en": "Saying you're too busy is just a way to [cop out].",
+        "es": "Decir que estás muy ocupado es nomás una forma de zafarte."
+      },
+      {
+        "en": "He [copped out] of the speech at the last minute.",
+        "es": "Se zafó del discurso a última hora."
+      },
+      {
+        "en": "Don't [cop out] now, you promised.",
+        "es": "No te salgas por la tangente ahora, lo prometiste."
+      }
+    ]
+  },
+  {
+    "id": "pv-cough-up",
+    "type": "phrasal",
+    "term": "cough up",
+    "sense": "give money or information unwillingly",
+    "ipa": "/kɔf ˈʌp/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "compras",
+      "bancos"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "soltar (dinero) a regañadientes; aflojar la lana",
+    "def": "to give money or information when you don't want to",
+    "note": "Separable: cough it up. Muy común: I had to cough up $500 for repairs. Literal: toser y sacar algo.",
+    "syn": [
+      "shell out",
+      "fork over"
+    ],
+    "confuse": [
+      "pay up (pagar lo que debes)"
+    ],
+    "errors_es": "Usarlo como pago neutral: cough up implica que te dolió pagar.",
+    "ex": [
+      {
+        "en": "I had to [cough up] four hundred bucks for new tires.",
+        "es": "Tuve que soltar cuatrocientos dólares por llantas nuevas."
+      },
+      {
+        "en": "Come on, [cough it up], you owe me twenty.",
+        "es": "Ándale, afloja, me debes veinte."
+      },
+      {
+        "en": "The insurance company finally [coughed up] the money.",
+        "es": "La aseguradora por fin soltó el dinero."
+      }
+    ]
+  },
+  {
+    "id": "pv-belt-out",
+    "type": "phrasal",
+    "term": "belt out",
+    "sense": "sing a song very loudly and with energy",
+    "ipa": "/bɛlt ˈaʊt/",
+    "level": "C1",
+    "topic": "informal",
+    "areas": [
+      "conversacion",
+      "series"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "cantar a todo pulmón",
+    "def": "to sing a song very loudly and with a lot of energy",
+    "note": "Separable: belt it out. Típico en karaoke y en el carro.",
+    "errors_es": "Calcar 'a todo pulmón' como 'at all lung'. Usar 'sing strong'.",
+    "ex": [
+      {
+        "en": "She [belted out] the anthem before the game.",
+        "es": "Cantó el himno a todo pulmón antes del partido."
+      },
+      {
+        "en": "We were [belting out] old songs the whole road trip.",
+        "es": "Fuimos cantando canciones viejas a todo pulmón todo el viaje."
+      },
+      {
+        "en": "Grab the mic and [belt it out]!",
+        "es": "¡Agarra el micro y échatela con todo!"
+      }
+    ]
+  },
+  {
+    "id": "pv-cut-off-3",
+    "type": "phrasal",
+    "term": "cut off",
+    "sense": "stop giving someone money, contact or alcohol",
+    "ipa": "/kʌt ˈɔf/",
+    "level": "C1",
+    "topic": "money",
+    "areas": [
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "cortarle (el dinero o el trato a alguien); desheredar",
+    "def": "to stop giving money to someone, or to stop having contact with them",
+    "note": "Separable: cut her off. Dramas familiares: Dad threatened to cut me off. En bares: cut someone off = ya no servirle.",
+    "confuse": [
+      "cut off (cortar un servicio)",
+      "cut off (interrumpir)"
+    ],
+    "errors_es": "Usar 'disinherit' en plática casual: existe, pero cut off es lo natural en EE. UU.",
+    "ex": [
+      {
+        "en": "If you marry him, I'll [cut you off].",
+        "es": "Si te casas con él, te corto el dinero."
+      },
+      {
+        "en": "She [cut off] her toxic friends after college.",
+        "es": "Cortó a sus amigos tóxicos después de la universidad."
+      },
+      {
+        "en": "The bartender [cut him off] after the fifth beer.",
+        "es": "El bartender ya no le sirvió después de la quinta cerveza."
+      }
+    ]
+  },
+  {
+    "id": "pv-be-cut-out-for",
+    "type": "phrasal",
+    "term": "be cut out for",
+    "sense": "have the right qualities for a job or activity",
+    "ipa": "/bi ˌkʌt ˈaʊt fɔr/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "entrevistas",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "estar hecho para; servir para",
+    "def": "to have the right personality or skills for a job or activity",
+    "note": "Casi siempre negativo o en pregunta: I'm not cut out for this. Se conjuga be: I'm/he's (not) cut out for.",
+    "errors_es": "Decir 'I'm not made for this': se entiende, pero lo natural es I'm not cut out for this.",
+    "ex": [
+      {
+        "en": "Honestly, I'm not [cut out for] the night shift.",
+        "es": "La verdad, no estoy hecho para el turno de noche."
+      },
+      {
+        "en": "Do you think she's [cut out for] management?",
+        "es": "¿Crees que sirve para ser gerente?"
+      },
+      {
+        "en": "He realized he wasn't [cut out for] city life.",
+        "es": "Se dio cuenta de que no estaba hecho para la vida en la ciudad."
+      }
+    ]
+  },
+  {
+    "id": "pv-catch-up-with",
+    "type": "phrasal",
+    "term": "catch up with",
+    "sense": "(past actions, stress) finally have bad effects on someone",
+    "ipa": "/kætʃ ˈʌp wɪð/",
+    "level": "C1",
+    "topic": "feelings",
+    "areas": [
+      "series",
+      "salud"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pasarle factura a; alcanzar (las consecuencias)",
+    "def": "when the bad results of past actions or habits finally affect someone",
+    "note": "Sujetos típicos: lies, the past, stress, lack of sleep. His lies caught up with him. También es alcanzar a alguien físicamente.",
+    "confuse": [
+      "catch up (ponerse al día; alcanzar)"
+    ],
+    "errors_es": "Calcar 'pasar factura' como 'pass the bill'.",
+    "ex": [
+      {
+        "en": "All those lies finally [caught up with] him.",
+        "es": "Todas esas mentiras por fin le pasaron factura."
+      },
+      {
+        "en": "The late nights are starting to [catch up with] me.",
+        "es": "Las desveladas ya me están pasando factura."
+      },
+      {
+        "en": "Your past always [catches up with] you eventually.",
+        "es": "Tu pasado siempre te alcanza tarde o temprano."
+      }
+    ]
+  },
+  {
+    "id": "pv-check-out-3",
+    "type": "phrasal",
+    "term": "check out",
+    "sense": "stop caring or paying attention; disengage mentally",
+    "ipa": "/tʃɛk ˈaʊt/",
+    "level": "C1",
+    "topic": "work",
+    "areas": [
+      "reuniones",
+      "conversacion"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "intransitive",
+    "es": "desconectarse; dejar de echarle ganas",
+    "def": "to stop paying attention or caring, especially at work, school or in a relationship",
+    "note": "Muy común en EE. UU.: He checked out months ago = hace meses que ya no le importa. Mentally checked out. Más duradero que zone out.",
+    "confuse": [
+      "check out (echarle un ojo)",
+      "check out (dejar el hotel)",
+      "zone out (distraerse un momento)"
+    ],
+    "errors_es": "Confundirlo con dejar el hotel; el contexto (trabajo, escuela, pareja) indica que es desconectarse.",
+    "ex": [
+      {
+        "en": "He [checked out] the day they announced the layoffs.",
+        "es": "Se desconectó el día que anunciaron los despidos."
+      },
+      {
+        "en": "By Friday afternoon, everyone has mentally [checked out].",
+        "es": "Para el viernes en la tarde, todos ya están en otro lado."
+      },
+      {
+        "en": "She [checked out] of the marriage long before the divorce.",
+        "es": "Dejó de echarle ganas al matrimonio mucho antes del divorcio."
+      }
+    ]
+  },
+  {
+    "id": "pv-be-onto",
+    "type": "phrasal",
+    "term": "be onto",
+    "sense": "know about someone's secret plan; have found something important",
+    "ipa": "/bi ˈɑntu/",
+    "level": "C1",
+    "topic": "social",
+    "areas": [
+      "series",
+      "ciencia"
+    ],
+    "tags": [
+      "tv"
+    ],
+    "freq": 3,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "estar sobre la pista de; haber descubierto a (alguien)",
+    "def": "to know about someone's secret plans, or to have found something useful",
+    "note": "Fórmulas: They're onto us! = ¡Ya nos cacharon! You're onto something = vas por buen camino. 'onto' va junto.",
+    "errors_es": "Escribir 'on to' separado en este sentido. Decir 'they discovered us', que suena menos natural.",
+    "ex": [
+      {
+        "en": "Run! [They're onto] us!",
+        "es": "¡Corre! ¡Ya nos cacharon!"
+      },
+      {
+        "en": "I think [you're onto] something big here.",
+        "es": "Creo que vas por muy buen camino."
+      },
+      {
+        "en": "The detective [was onto] him from the start.",
+        "es": "El detective le seguía la pista desde el principio."
+      }
+    ]
+  },
+  {
+    "id": "pv-bear-down-on",
+    "type": "phrasal",
+    "term": "bear down on",
+    "sense": "move quickly toward someone or something threateningly",
+    "ipa": "/bɛr ˈdaʊn ɑn/",
+    "level": "C2",
+    "topic": "daily",
+    "areas": [
+      "noticias",
+      "emergencias"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "venirse encima; avanzar amenazante hacia",
+    "def": "to move quickly toward someone or something in a threatening way",
+    "note": "Literario y de noticias: A hurricane is bearing down on the coast. Inseparable, casi siempre en progresivo.",
+    "errors_es": "Confundir bear (aguantar; ir) con bear (oso). Usarlo para algo que se acerca despacio.",
+    "ex": [
+      {
+        "en": "A huge storm is [bearing down on] the coast.",
+        "es": "Una tormenta enorme se le viene encima a la costa."
+      },
+      {
+        "en": "The truck was [bearing down on] us at full speed.",
+        "es": "El camión se nos venía encima a toda velocidad."
+      },
+      {
+        "en": "I saw the angry crowd [bearing down on] the stage.",
+        "es": "Vi a la multitud furiosa avanzando hacia el escenario."
+      }
+    ]
+  },
+  {
+    "id": "pv-bone-up-on",
+    "type": "phrasal",
+    "term": "bone up on",
+    "sense": "study a subject quickly and intensively",
+    "ipa": "/boʊn ˈʌp ɑn/",
+    "level": "C2",
+    "topic": "study",
+    "areas": [
+      "entrevistas"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "estudiar a fondo; darse una empapada de",
+    "def": "to study a subject quickly and hard, usually before a test or interview",
+    "note": "EE. UU., informal. Parecido a brush up on, pero bone up on sugiere estudio intenso de último momento.",
+    "confuse": [
+      "brush up on (repasar algo que ya sabías)"
+    ],
+    "errors_es": "Relacionarlo con 'hueso'. Usarlo para un repaso ligero: eso es brush up on.",
+    "ex": [
+      {
+        "en": "I spent the weekend [boning up on] tax law.",
+        "es": "Me pasé el fin de semana empapándome de derecho fiscal."
+      },
+      {
+        "en": "You'd better [bone up on] their history before the interview.",
+        "es": "Más te vale estudiarte su historia antes de la entrevista."
+      },
+      {
+        "en": "She [boned up on] French before moving to Montreal.",
+        "es": "Se puso a estudiar francés a fondo antes de mudarse a Montreal."
+      }
+    ]
+  },
+  {
+    "id": "pv-bump-off",
+    "type": "phrasal",
+    "term": "bump off",
+    "sense": "kill someone (crime-story slang)",
+    "ipa": "/bʌmp ˈɔf/",
+    "level": "C2",
+    "topic": "informal",
+    "areas": [
+      "series"
+    ],
+    "tags": [
+      "tv",
+      "slang"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": true,
+    "es": "matar; quitar de en medio; echarse a alguien",
+    "def": "to murder someone; informal, used in crime stories or as a joke",
+    "note": "Slang de películas de mafia y comedias: bump him off. Separable. Suena anticuado o en broma.",
+    "syn": [
+      "knock off",
+      "take out"
+    ],
+    "confuse": [
+      "bump into (toparse con)"
+    ],
+    "errors_es": "Confundirlo con bump into. Usarlo en serio fuera de bromas o ficción.",
+    "ex": [
+      {
+        "en": "In the movie, the butler [bumps off] the rich uncle.",
+        "es": "En la película, el mayordomo se echa al tío rico."
+      },
+      {
+        "en": "If I tell you, I'll have to [bump you off]. Kidding!",
+        "es": "Si te digo, te tendría que quitar de en medio. ¡Es broma!"
+      },
+      {
+        "en": "The mob [bumped him off] before he could testify.",
+        "es": "La mafia se lo echó antes de que pudiera declarar."
+      }
+    ]
+  },
+  {
+    "id": "pv-bite-back",
+    "type": "phrasal",
+    "term": "bite back",
+    "sense": "stop yourself from saying something or showing a feeling",
+    "ipa": "/baɪt ˈbæk/",
+    "level": "C2",
+    "topic": "feelings",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": true,
+    "es": "morderse la lengua; tragarse (un comentario, las lágrimas)",
+    "def": "to stop yourself from saying something or from showing a feeling",
+    "note": "Con comentarios o emociones: bite back a reply, bite back tears. Algo literario. Sin objeto también es contraatacar.",
+    "syn": [
+      "hold back",
+      "bite your tongue"
+    ],
+    "errors_es": "Olvidar el objeto: lo que te tragas va después (bite back a laugh).",
+    "ex": [
+      {
+        "en": "I [bit back] a sarcastic reply and just smiled.",
+        "es": "Me tragué una respuesta sarcástica y nomás sonreí."
+      },
+      {
+        "en": "She [bit back] tears as she read the letter.",
+        "es": "Se aguantó las lágrimas mientras leía la carta."
+      },
+      {
+        "en": "He had to [bite back] a laugh during the toast.",
+        "es": "Tuvo que aguantarse la risa durante el brindis."
+      }
+    ]
+  },
+  {
+    "id": "pv-cop-to",
+    "type": "phrasal",
+    "term": "cop to",
+    "sense": "admit to something wrong or embarrassing (US slang)",
+    "ipa": "/ˈkɑp tu/",
+    "level": "C2",
+    "topic": "informal",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "slang",
+      "tv"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "informal",
+    "trans": "transitive",
+    "sep": false,
+    "es": "admitir; reconocer (algo malo o vergonzoso)",
+    "def": "to admit that you did something wrong or embarrassing",
+    "note": "EE. UU., informal. Inseparable: cop to it. Frecuente en series: He won't cop to anything.",
+    "syn": [
+      "own up to",
+      "admit"
+    ],
+    "confuse": [
+      "cop out (zafarse)"
+    ],
+    "errors_es": "Confundirlo con cop out. Usarlo en registro formal.",
+    "ex": [
+      {
+        "en": "He'll never [cop to] eating the last slice.",
+        "es": "Nunca va a admitir que se comió la última rebanada."
+      },
+      {
+        "en": "Okay, I'll [cop to] being a little jealous.",
+        "es": "Está bien, reconozco que estoy un poquito celoso."
+      },
+      {
+        "en": "The suspect finally [copped to] the break-in.",
+        "es": "El sospechoso por fin admitió el allanamiento."
+      }
+    ]
+  },
+  {
+    "id": "pv-cry-out-for",
+    "type": "phrasal",
+    "term": "cry out for",
+    "sense": "need something very much, obviously",
+    "ipa": "/kraɪ ˈaʊt fɔr/",
+    "level": "C2",
+    "topic": "daily",
+    "areas": [
+      "analisis",
+      "vivienda"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "pedir a gritos; necesitar urgentemente",
+    "def": "to need something very much, so that it is obvious to everyone",
+    "note": "El sujeto suele ser una cosa: This kitchen is crying out for a paint job. Casi siempre en progresivo.",
+    "errors_es": "Usarlo solo con personas: lo más natural es con lugares, cosas o situaciones.",
+    "ex": [
+      {
+        "en": "This room is [crying out for] a fresh coat of paint.",
+        "es": "Este cuarto pide a gritos una mano de pintura."
+      },
+      {
+        "en": "The team is [crying out for] a real leader.",
+        "es": "El equipo necesita urgentemente un líder de verdad."
+      },
+      {
+        "en": "Honestly, that soup is [crying out for] some salt.",
+        "es": "La verdad, esa sopa pide sal a gritos."
+      }
+    ]
+  },
+  {
+    "id": "pv-chip-away-at",
+    "type": "phrasal",
+    "term": "chip away at",
+    "sense": "gradually make something smaller or weaker",
+    "ipa": "/tʃɪp əˈweɪ æt/",
+    "level": "C2",
+    "topic": "work",
+    "areas": [
+      "proyectos",
+      "analisis"
+    ],
+    "freq": 2,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "transitive",
+    "sep": false,
+    "es": "ir desgastando; ir reduciendo poco a poco",
+    "def": "to slowly make something smaller or weaker, a little at a time",
+    "note": "Positivo con deudas o pendientes (chip away at the debt) o negativo con la confianza (chip away at her confidence).",
+    "errors_es": "Decir siempre 'reduce little by little': chip away at transmite esfuerzo constante.",
+    "ex": [
+      {
+        "en": "We've been [chipping away at] our student loans for years.",
+        "es": "Llevamos años abonándole poco a poco a los préstamos estudiantiles."
+      },
+      {
+        "en": "Every comment [chipped away at] her confidence.",
+        "es": "Cada comentario le fue minando la confianza."
+      },
+      {
+        "en": "Just [chip away at] the backlog a little each day.",
+        "es": "Ve sacando los pendientes un poco cada día."
+      }
+    ]
+  },
+  {
+    "id": "pv-beg-off",
+    "type": "phrasal",
+    "term": "beg off",
+    "sense": "politely say you cannot do or attend something",
+    "ipa": "/bɛɡ ˈɔf/",
+    "level": "C2",
+    "topic": "social",
+    "areas": [
+      "relaciones",
+      "conversacion"
+    ],
+    "freq": 1,
+    "freq_src": "estimación (sin corpus verificado)",
+    "register": "neutral",
+    "trans": "both",
+    "sep": false,
+    "es": "excusarse; disculparse de no ir",
+    "def": "to say politely that you cannot do or attend something, often with an excuse",
+    "note": "Algo formal o literario: She begged off, saying she was tired. A menudo con saying o citing.",
+    "syn": [
+      "bow out",
+      "excuse yourself"
+    ],
+    "errors_es": "Traducirlo como 'rogar': beg off es excusarse, no suplicar.",
+    "ex": [
+      {
+        "en": "I [begged off] dinner, saying I had a headache.",
+        "es": "Me excusé de la cena diciendo que me dolía la cabeza."
+      },
+      {
+        "en": "He usually [begs off] when the office plans drinks.",
+        "es": "Siempre se excusa cuando la oficina organiza salir a tomar."
+      },
+      {
+        "en": "She tried to [beg off], but her friends wouldn't let her.",
+        "es": "Intentó excusarse, pero sus amigas no la dejaron."
+      }
+    ]
+  }
+]

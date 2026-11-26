@@ -16,7 +16,42 @@
       "prompt_es": "Usa «gonna» para decir con humor lo que vas a hacer en una competencia amistosa (videojuego, partido de cartas).",
       "model": ["I'm gonna beat you at this game, then I'ma buy you a coffee.", "You're gonna lose, and I'ma smile the whole time."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Te voy a bajar los humos y luego te voy a mandar a casa en una caja.",
+    "literal_es": "Voy a bajarte una muesca, luego voy a llevarte a casa en una caja.",
+    "breakdown": [
+      {
+        "text": "take you down a notch",
+        "es": "bajarte los humos, quitarte lo arrogante"
+      },
+      {
+        "text": "Gonna",
+        "es": "voy a (forma reducida de «going to»)"
+      },
+      {
+        "text": "I'ma",
+        "es": "voy a (contracción muy informal de «I'm going to»)"
+      },
+      {
+        "text": "take you home in a box",
+        "es": "acabar contigo por completo (exageración de batalla)"
+      }
+    ],
+    "linking_es": "gonna = going to; I'ma = I'm going to («áima»). «take you» suena «teikiu»; «down a notch» se une: «dáuna-nach».",
+    "intent_es": "Amenaza exagerada y teatral típica de una batalla: primero humillar al rival y luego «enterrarlo» verbalmente. La caja es metáfora de dejarlo derrotado; no es una amenaza real.",
+    "register": "informal",
+    "usage_es": "«Take someone down a notch» sirve en bromas o para hablar de alguien creído. Evita «in a box» fuera del juego: suena violento. Neutral: «He needs to be a little more humble».",
+    "examples": [
+      {
+        "en": "Losing that match took him down a notch; he's way nicer now.",
+        "es": "Perder ese partido le bajó los humos; ahora es mucho más amable."
+      },
+      {
+        "en": "She was bragging all week, so someone had to take her down a notch.",
+        "es": "Estuvo presumiendo toda la semana, así que alguien tenía que bajarle los humos."
+      }
+    ],
+    "genre": "rap"
   },
   {
     "id": "mus-rap-pick-it-up",
@@ -35,7 +70,38 @@
       "prompt_es": "Reta a alguien a demostrar lo que dice usando «back it up».",
       "model": ["You said you can cook, so back it up with a real dinner.", "If you're so fast, back it up on the track."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Súbele, échale un ojo, y ahora demuéstralo con pruebas.",
+    "literal_es": "Levántalo, revísalo, ahora respáldalo con prueba.",
+    "breakdown": [
+      {
+        "text": "Pick it up",
+        "es": "súbele (al ritmo, al volumen o a la intensidad)"
+      },
+      {
+        "text": "check it out",
+        "es": "mira esto, échale un ojo"
+      },
+      {
+        "text": "back it up with proof",
+        "es": "respaldar lo que dices con pruebas"
+      }
+    ],
+    "linking_es": "Consonante + vocal se pegan: «pick it up» = «pi-ki-dap», «check it out» = «che-ki-dáut», «back it up» = «ba-ki-dap». La t entre vocales suena casi como d suave.",
+    "intent_es": "Reto directo: invita al rival a subir el nivel y luego le exige demostrar lo que presume. Pasa de animar a desafiar en una sola línea.",
+    "register": "informal",
+    "usage_es": "«Check it out» y «back it up» son normales en cualquier charla. «Back it up with proof» sirve en debates o en el trabajo. Más formal: «Can you support that with evidence?».",
+    "examples": [
+      {
+        "en": "You say you're the best cook here? Back it up with proof: make dinner tonight.",
+        "es": "¿Dices que eres quien mejor cocina aquí? Demuéstralo: haz la cena hoy."
+      },
+      {
+        "en": "Check it out, I finally fixed the sink.",
+        "es": "Mira, por fin arreglé el fregadero."
+      }
+    ],
+    "genre": "electronic"
   },
   {
     "id": "mus-rap-leaky-faucet",
@@ -54,7 +120,42 @@
       "prompt_es": "Compara dos cosas con una metáfora de agua: tu estilo de trabajar frente al de un compañero.",
       "model": ["My plan is a river; yours is a puddle.", "Your email is a drizzle, my report is a flood."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Tu estilo es una llave que gotea: gota, gota, nada nuevo; el mío es un río que crece y va directo por ti.",
+    "literal_es": "Tu flujo es un grifo con fugas, gotea, gotea, nada nuevo; el mío es un río subiendo, y viene detrás de ti.",
+    "breakdown": [
+      {
+        "text": "flow",
+        "es": "estilo y ritmo al rapear"
+      },
+      {
+        "text": "a leaky faucet",
+        "es": "una llave que gotea: algo monótono y molesto"
+      },
+      {
+        "text": "nothing new",
+        "es": "nada nuevo, lo mismo de siempre"
+      },
+      {
+        "text": "it's coming after you",
+        "es": "va por ti, te persigue"
+      }
+    ],
+    "linking_es": "flow's = flow is; mine's = mine is. «leaky faucet» suena «líki-fósit»; «coming after you» = «cámin-áfter-iu», la g de -ing casi desaparece.",
+    "intent_es": "Contraste de metáforas de agua: el rival es un goteo pequeño y repetitivo; yo soy una crecida imparable. El «drip, drip» imita el sonido para burlarse de lo monótono.",
+    "register": "informal",
+    "usage_es": "«Nothing new» y «coming after you» se usan a diario. Lo de «leaky faucet» es comparación creativa; úsala solo en broma. Neutral: «Your ideas feel repetitive».",
+    "examples": [
+      {
+        "en": "Same excuse as last week? That's nothing new.",
+        "es": "¿La misma excusa que la semana pasada? Eso no es nada nuevo."
+      },
+      {
+        "en": "Run! The dog is coming after you!",
+        "es": "¡Corre! ¡El perro va detrás de ti!"
+      }
+    ],
+    "genre": "rap"
   },
   {
     "id": "mus-rap-bars-behind-bars",
@@ -73,7 +174,42 @@
       "model": ["Your jokes need a new set; they keep falling flat like a stage.", "Your code has bugs; maybe your garden needs an exterminator."]
     },
     "confidence": "low",
-    "explicit": false
+    "explicit": false,
+    "es": "Tus versos están tras las rejas, porque son culpables de ser aburridos.",
+    "literal_es": "Tus barras están detrás de barras, porque son culpables de ser sosas.",
+    "breakdown": [
+      {
+        "text": "Your bars",
+        "es": "tus versos o líneas de rap (jerga)"
+      },
+      {
+        "text": "behind bars",
+        "es": "tras las rejas, en la cárcel"
+      },
+      {
+        "text": "guilty of",
+        "es": "culpable de"
+      },
+      {
+        "text": "dull",
+        "es": "aburrido, sin chispa"
+      }
+    ],
+    "linking_es": "'cause = because («cós»). «bars are» se une: «bár-zar»; «guilty of being» = «gílti-ov-bíin», la f de «of» suena como v.",
+    "intent_es": "Doble sentido de «bars»: versos de rap y barrotes de cárcel. La burla «condena» las rimas del rival por el delito de ser aburridas.",
+    "register": "informal",
+    "usage_es": "«Behind bars» y «guilty of» son comunes y neutrales. «Bars» como versos es jerga de rap; fuera de ese mundo puede no entenderse. Neutral para «dull»: «boring».",
+    "examples": [
+      {
+        "en": "The guy who stole the car is finally behind bars.",
+        "es": "El tipo que robó el coche por fin está tras las rejas."
+      },
+      {
+        "en": "I'm guilty of eating the last cookie, sorry.",
+        "es": "Soy culpable de comerme la última galleta, perdón."
+      }
+    ],
+    "genre": "rap"
   },
   {
     "id": "mus-rap-cat-song",
@@ -88,7 +224,37 @@
       "prompt_es": "Responde con sarcasmo suave a un amigo que presume algo mínimo.",
       "model": ["Wow, you remembered to wash a mug. Hero of the century.", "Oh, a new phone case? You're changing the world."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Ah, guau, un rap sobre tu gato. De verdad eres la voz de una generación.",
+    "breakdown": [
+      {
+        "text": "Oh, wow",
+        "es": "ah, guau (dicho con tono plano, sarcástico)"
+      },
+      {
+        "text": "Truly",
+        "es": "de verdad, realmente"
+      },
+      {
+        "text": "the voice of a generation",
+        "es": "la voz de una generación: elogio enorme usado como burla"
+      }
+    ],
+    "linking_es": "«rap about» se une: «ra-pabáut»; «voice of a» = «vóis-ov-a», casi «vóisava». «generation» con acento en «ra»: «llenerréishon».",
+    "intent_es": "Sarcasmo por contraste: un tema mínimo (tu gato) recibe un elogio gigantesco. El tono plano del «Oh, wow» avisa que en realidad es una crítica.",
+    "register": "informal",
+    "usage_es": "El sarcasmo con «Oh, wow» y «truly» funciona entre amigos, pero puede herir en el trabajo o con desconocidos. Si es un elogio real, dilo con tono cálido: «That's really impressive».",
+    "examples": [
+      {
+        "en": "Oh, wow, you made toast. Truly the chef of the year.",
+        "es": "Ah, guau, hiciste pan tostado. De verdad, chef del año."
+      },
+      {
+        "en": "She was truly the voice of a generation in the nineties.",
+        "es": "En los noventa ella fue realmente la voz de una generación."
+      }
+    ],
+    "genre": "indie"
   },
   {
     "id": "mus-rap-hold-up",
@@ -107,7 +273,41 @@
       "prompt_es": "Pregunta con incredulidad si alguien ya terminó, sin usar el auxiliar.",
       "model": ["That's it? You're finished already?", "You're telling me that's the plan?"]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Espera. Aguanta. Déjame respirar. ¿Ya terminaste? ¿Eso fue todo? Casi me duermo. Despiértame cuando digas algo que pegue.",
+    "breakdown": [
+      {
+        "text": "Hold up",
+        "es": "espera, para un momento"
+      },
+      {
+        "text": "That was it?",
+        "es": "¿eso fue todo?"
+      },
+      {
+        "text": "I almost fell asleep",
+        "es": "casi me quedo dormido"
+      },
+      {
+        "text": "Wake me when you hit",
+        "es": "despiértame cuando por fin pegues algo bueno"
+      }
+    ],
+    "linking_es": "«Hold up» = «hól-dap»; «Let me» = «lémi»; «That was it» = «dá-wa-zit»; «fell asleep» = «fé-lasliip»; «Wake me» = «wéikmi».",
+    "intent_es": "Aburrimiento fingido como insulto: con pausas e incredulidad, deja ver que el ataque del rival fue tan débil que casi lo duerme. «Hit» juega con pegar un golpe o una rima buena.",
+    "register": "informal",
+    "usage_es": "«Hold up» y «That was it?» son muy comunes entre amigos. «That was it?» puede sonar decepcionado o grosero según el tono. Neutral: «Wait a second» o «Is that all?».",
+    "examples": [
+      {
+        "en": "Hold up, you're leaving already? We just got here.",
+        "es": "Espera, ¿ya te vas? Acabamos de llegar."
+      },
+      {
+        "en": "The movie ended so suddenly. That was it?",
+        "es": "La película terminó de golpe. ¿Eso fue todo?"
+      }
+    ],
+    "genre": "rap"
   },
   {
     "id": "mus-rap-empty-room",
@@ -126,7 +326,42 @@
       "prompt_es": "Presume con humor algo que sí se va a recordar.",
       "model": ["My cooking is the encore; yours is the warm-up.", "You're the trailer; I'm the movie."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Tú eres el telonero ante un salón vacío; yo soy el bis que siguen pidiendo a gritos en junio.",
+    "literal_es": "Tú eres el acto de apertura para un cuarto vacío; yo soy el encore por el que están coreando en junio.",
+    "breakdown": [
+      {
+        "text": "the opening act",
+        "es": "el telonero, quien toca antes del artista principal"
+      },
+      {
+        "text": "an empty room",
+        "es": "un salón vacío, sin público"
+      },
+      {
+        "text": "the encore",
+        "es": "el bis, la canción extra que pide el público"
+      },
+      {
+        "text": "chanting for",
+        "es": "corear pidiendo algo"
+      }
+    ],
+    "linking_es": "You're = you are («iur»); I'm = I am. «opening act» = «óupnin-ákt»; «an empty» = «a-némpti»; «chanting for» = «chánin-for», la t casi no se oye.",
+    "intent_es": "Jerarquía de concierto: el rival abre para nadie; yo soy lo que el público exige al final. «In June» sugiere que, meses después, todavía me recuerdan.",
+    "register": "neutral",
+    "usage_es": "«Opening act» se usa en conciertos y también para algo que viene antes de lo principal. Sirve en charla normal. Cuidado: decirle a alguien que es «the opening act» puede sonar a menosprecio.",
+    "examples": [
+      {
+        "en": "The opening act was so good I forgot who we came to see.",
+        "es": "El telonero estuvo tan bueno que olvidé a quién veníamos a ver."
+      },
+      {
+        "en": "The crowd kept chanting for one more song.",
+        "es": "El público seguía coreando para pedir otra canción."
+      }
+    ],
+    "genre": "rock"
   },
   {
     "id": "mus-rap-storm-candle",
@@ -145,7 +380,38 @@
       "prompt_es": "Describe a tu equipo o a ti con una metáfora de clima.",
       "model": ["Our team is a storm; yours is a light drizzle.", "I'm a heat wave, and you're a cold breeze."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Eres una vela en el huracán del talento; yo soy la tormenta, así que no te hagas el valiente.",
+    "literal_es": "Eres una vela en el huracán de talento; yo soy la tormenta, así que no actúes tan galante.",
+    "breakdown": [
+      {
+        "text": "a candle in the hurricane",
+        "es": "una vela en un huracán: algo frágil a punto de apagarse"
+      },
+      {
+        "text": "I'm the storm",
+        "es": "yo soy la tormenta, la fuerza que te supera"
+      },
+      {
+        "text": "don't act so gallant",
+        "es": "no te hagas el valiente o el caballeroso (irónico)"
+      }
+    ],
+    "linking_es": "You're = you are; I'm = I am. «candle in the» = «kéndl-in-de»; «don't act» = «dóun-tákt», la t de «don't» se pega a «act».",
+    "intent_es": "Metáfora de fuerza desigual: el rival es una llamita frágil y yo, la tormenta que la apaga. «Gallant» es irónico: su valentía parece ridícula ante la diferencia.",
+    "register": "informal",
+    "usage_es": "«Don't act so...» es común para reclamar una actitud («don't act so surprised»). «Gallant» es literario y raro en charla. Neutral: «Don't act so tough».",
+    "examples": [
+      {
+        "en": "Don't act so surprised; I told you about the party last week.",
+        "es": "No te hagas el sorprendido; te conté de la fiesta la semana pasada."
+      },
+      {
+        "en": "Don't act so tough, I saw you scream at the spider.",
+        "es": "No te hagas el rudo, te vi gritarle a la araña."
+      }
+    ],
+    "genre": "rock"
   },
   {
     "id": "mus-rap-aint-nobody",
@@ -165,7 +431,38 @@
       "prompt_es": "Haz un chiste con doble negación a un amigo que presume.",
       "model": ["Ain't no way you're winning this one.", "Ain't nobody impressed by that, man."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Nadie viene por tu corona, porque no hay ninguna corona que quitarte.",
+    "literal_es": "No es nadie viniendo por tu corona, porque no hay ninguna corona que tomar.",
+    "breakdown": [
+      {
+        "text": "Ain't nobody",
+        "es": "nadie (doble negación coloquial)"
+      },
+      {
+        "text": "comin' for your crown",
+        "es": "viniendo a quitarte el título o el primer lugar"
+      },
+      {
+        "text": "there ain't no crown to take",
+        "es": "no hay ninguna corona que quitar: nunca fuiste el mejor"
+      }
+    ],
+    "linking_es": "ain't = isn't/there isn't; comin' = coming; 'cause = because. «Ain't nobody» = «éin-nóubari»; «crown to take» = «kráun-tu-téik».",
+    "intent_es": "Burla lógica: el rival cree que lo quieren destronar, pero el remate revela que nunca tuvo título. La corona es metáfora del primer lugar.",
+    "register": "informal",
+    "usage_es": "«Ain't» y la doble negación son muy coloquiales; no los uses en exámenes ni correos formales. «Coming for your crown» es común en deportes y bromas. Neutral: «Nobody is trying to beat you».",
+    "examples": [
+      {
+        "en": "The new kid is good at chess; he's coming for your crown.",
+        "es": "El niño nuevo es bueno en ajedrez; viene por tu título."
+      },
+      {
+        "en": "Ain't nobody got time for that meeting.",
+        "es": "Nadie tiene tiempo para esa junta."
+      }
+    ],
+    "genre": "rap"
   },
   {
     "id": "mus-rap-turn-it-off",
@@ -184,7 +481,41 @@
       "prompt_es": "Dile a un amigo ruidoso que se calme con dos de esos phrasal verbs.",
       "model": ["Cut it out, I'm trying to focus.", "Shut it down, man, it's past midnight."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Apágalo, ya bájale, siéntate, ciérralo.",
+    "breakdown": [
+      {
+        "text": "Turn it off",
+        "es": "apágalo"
+      },
+      {
+        "text": "cut it out",
+        "es": "ya basta, deja de hacer eso"
+      },
+      {
+        "text": "take a seat",
+        "es": "siéntate (también: cállate y deja hablar a otros)"
+      },
+      {
+        "text": "shut it down",
+        "es": "ciérralo, detenlo por completo"
+      }
+    ],
+    "linking_es": "«Turn it off» = «tér-ni-dóf»; «cut it out» = «ká-ri-ráut» (t suave como r); «take a seat» = «téi-ka-síit»; «shut it down» = «shá-rit-dáun».",
+    "intent_es": "Cuatro órdenes seguidas para callar y frenar al rival. La acumulación rápida suena a «ya, se acabó tu turno». «Take a seat» es burla: siéntate porque perdiste.",
+    "register": "informal",
+    "usage_es": "«Turn it off» y «take a seat» son normales. «Cut it out» es firme pero aceptable con amigos o niños. «Shut it down» puede sonar brusco; en el trabajo usa «Let's stop here».",
+    "examples": [
+      {
+        "en": "Cut it out, you two! Stop fighting over the remote.",
+        "es": "¡Ya basta, ustedes dos! Dejen de pelear por el control."
+      },
+      {
+        "en": "Please take a seat; the doctor will see you soon.",
+        "es": "Por favor tome asiento; el doctor lo atenderá pronto."
+      }
+    ],
+    "genre": "electronic"
   },
   {
     "id": "mus-rap-cake-flake",
@@ -204,7 +535,42 @@
       "prompt_es": "Presume con una comparación de comida y rima con la palabra «rise».",
       "model": ["I rise to the challenge; you just crumble under a deadline.", "I'm the bread, you're the crust, and I always rise."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Yo soy lo mejor de lo mejor, tú eres las migajas del pastel, porque yo estoy a la altura y tú nomás te desmoronas.",
+    "literal_es": "Yo soy la crema de la cosecha, tú eres las migas del pastel, porque yo subo a la ocasión y tú solo te descascaras.",
+    "breakdown": [
+      {
+        "text": "the cream of the crop",
+        "es": "lo mejor de lo mejor"
+      },
+      {
+        "text": "the crumbs of the cake",
+        "es": "las migajas: lo que sobra, lo menos valioso"
+      },
+      {
+        "text": "rise to the occasion",
+        "es": "estar a la altura de la situación"
+      },
+      {
+        "text": "flake",
+        "es": "fallar, quedar mal, dejar plantado (también: desmoronarse)"
+      }
+    ],
+    "linking_es": "I'm = I am; you're = you are; 'cause = because. «cream of the crop» = «kríi-mov-de-kráp»; «rise to the» = «ráiz-tu-de»; «just flake» = «jas-fléik».",
+    "intent_es": "Juego de repostería: «cream», «crumbs», «rise» (como masa que esponja) y «flake» (como hojaldre que se deshace). Yo crezco ante el reto; tú te desmoronas y fallas.",
+    "register": "informal",
+    "usage_es": "«Cream of the crop» y «rise to the occasion» funcionan en cualquier contexto, incluso en el trabajo. «Flake» (fallar o cancelar) es informal; neutral: «He cancelled at the last minute».",
+    "examples": [
+      {
+        "en": "Don't invite Mike; he always flakes at the last minute.",
+        "es": "No invites a Mike; siempre cancela a última hora."
+      },
+      {
+        "en": "The new team really rose to the occasion during the launch.",
+        "es": "El equipo nuevo de verdad estuvo a la altura durante el lanzamiento."
+      }
+    ],
+    "genre": "pop"
   },
   {
     "id": "mus-rap-self-made",
@@ -221,7 +587,41 @@
       "prompt_es": "Corrige con ironía a alguien que presume ser independiente.",
       "model": ["Sure, you're independent. Your parents just pay for everything.", "Of course, you built it yourself, with a lot of help."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Claro, eres alguien que se hizo solo. ¿Hecho por quién? Por la tarjeta de crédito de tu mamá.",
+    "breakdown": [
+      {
+        "text": "Sure",
+        "es": "sí, claro (sarcástico)"
+      },
+      {
+        "text": "self-made",
+        "es": "que triunfó por su cuenta, sin ayuda"
+      },
+      {
+        "text": "Made by whom?",
+        "es": "¿hecho por quién? (pregunta retórica)"
+      },
+      {
+        "text": "Your mom's credit card",
+        "es": "la tarjeta de crédito de tu mamá: el verdadero origen de su éxito"
+      }
+    ],
+    "linking_es": "you're = you are. «self-made» = «sélf-méid» con acento en ambas; «Made by whom» = «méid-bai-júm»; «mom's credit card» = «máms-krédi-kárd», la t casi muda.",
+    "intent_es": "Ironía: el «Sure» suena a acuerdo pero anuncia lo contrario. La pregunta retórica prepara el remate: su supuesto éxito propio se lo pagó su mamá.",
+    "register": "informal",
+    "usage_es": "«Self-made» es neutral y se usa en noticias y negocios. El «Sure» sarcástico funciona entre amigos, pero suena despectivo en una discusión real. Neutral: «I think he had a lot of help».",
+    "examples": [
+      {
+        "en": "She's a self-made businesswoman; she started with one food truck.",
+        "es": "Es una empresaria que se hizo sola; empezó con un food truck."
+      },
+      {
+        "en": "Sure, you cleaned your room. Then why is there pizza under the bed?",
+        "es": "Claro, limpiaste tu cuarto. ¿Entonces por qué hay pizza debajo de la cama?"
+      }
+    ],
+    "genre": "rap"
   },
   {
     "id": "mus-rap-in-the-pocket",
@@ -236,7 +636,42 @@
       "prompt_es": "Contrasta tu forma de hacer algo con la de otra persona usando «one of us... and one...».",
       "model": ["One of us is cooking, and one is burning the toast.", "One of us finishes on time, and one is still making excuses."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Yo rapeo al ritmo; tú rapeas fuera del ritmo. Uno de los dos está bailando, y el otro se tropieza con sus propios pies.",
+    "literal_es": "Yo rapeo sobre el beat; tú rapeas al lado del beat. Uno de nosotros está bailando, y uno está tropezando sobre sus pies.",
+    "breakdown": [
+      {
+        "text": "on the beat",
+        "es": "a tiempo, al ritmo exacto"
+      },
+      {
+        "text": "beside the beat",
+        "es": "fuera de ritmo, desfasado"
+      },
+      {
+        "text": "tripping over his feet",
+        "es": "tropezándose con sus propios pies: torpe"
+      },
+      {
+        "text": "One of us",
+        "es": "uno de nosotros (indirecto: claramente tú)"
+      }
+    ],
+    "linking_es": "«rap on the» = «rá-pon-de»; «One of us» = «wá-no-vas»; «tripping over his» = «trípin-óuver-iz», la h de «his» desaparece.",
+    "intent_es": "Burla visual sobre el ritmo: quien va a tiempo parece bailar; quien no, parece tropezar. «One of us» señala al rival sin nombrarlo.",
+    "register": "informal",
+    "usage_es": "«On the beat» es neutral en música y baile. «Tripping over my own feet» se usa para hablar de torpeza propia. Decirlo de alguien más puede sonar burlón.",
+    "examples": [
+      {
+        "en": "I was so nervous on stage I kept tripping over my own feet.",
+        "es": "Estaba tan nervioso en el escenario que me tropezaba con mis propios pies."
+      },
+      {
+        "en": "Clap on the beat, not after it.",
+        "es": "Aplaude al ritmo, no después."
+      }
+    ],
+    "genre": "funk"
   },
   {
     "id": "mus-rap-history-footnote",
@@ -253,7 +688,37 @@
       "prompt_es": "Responde con ironía a alguien que dice que va a ser famoso.",
       "model": ["You'll be famous, sure, in your own group chat.", "Oh, you'll make history, as a footnote."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Dijiste que pasarías a la historia. Claro, en la sección de «también estuvieron presentes».",
+    "breakdown": [
+      {
+        "text": "go down in history",
+        "es": "pasar a la historia"
+      },
+      {
+        "text": "Sure",
+        "es": "sí, claro (sarcástico)"
+      },
+      {
+        "text": "the section called 'also present'",
+        "es": "la lista de quienes solo estaban ahí: ser irrelevante"
+      }
+    ],
+    "linking_es": "you'd = you would («iud»). «said you'd» = «séd-iud», casi «séyud»; «go down in» = «góu-dáu-nin»; «section called» = «sékshon-kóld».",
+    "intent_es": "Le da la razón al rival para hundirlo: sí pasará a la historia, pero como nota al pie, en la lista de gente sin importancia. «Sure» marca el sarcasmo.",
+    "register": "informal",
+    "usage_es": "«Go down in history» es neutral y se usa en noticias y conversaciones. El remate sarcástico es para bromas entre amigos. Evítalo en discusiones serias.",
+    "examples": [
+      {
+        "en": "This game will go down in history as the best comeback ever.",
+        "es": "Este partido pasará a la historia como la mejor remontada de todos los tiempos."
+      },
+      {
+        "en": "That storm went down in history as the worst in fifty years.",
+        "es": "Esa tormenta pasó a la historia como la peor en cincuenta años."
+      }
+    ],
+    "genre": "rock"
   },
   {
     "id": "mus-flirt-busy-name",
@@ -271,7 +736,38 @@
       "prompt_es": "Responde con picardía a alguien que te dejó esperando.",
       "model": ["You forgot to text me? That's adorable. So is my new phone number.", "Oh, you're running late? That's cute. I'm already ordering dessert."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Ah, ¿estás ocupado? Qué tierno. Igual de tierno que mi plan de olvidar tu nombre.",
+    "literal_es": "Oh, ¿estás ocupado? Eso es lindo. También lo es mi plan de olvidar tu nombre.",
+    "breakdown": [
+      {
+        "text": "That's cute",
+        "es": "qué tierno (aquí condescendiente)"
+      },
+      {
+        "text": "So is",
+        "es": "también lo es, igual de"
+      },
+      {
+        "text": "my plan to forget your name",
+        "es": "mi plan de olvidar tu nombre: ya no me importas"
+      }
+    ],
+    "linking_es": "you're = you are; that's = that is. «That's cute» = «dáts-kiút»; «So is my» = «sóu-iz-mai»; «forget your» = «forgé-chur», la t + y suena «ch».",
+    "intent_es": "Coqueteo con sarcasmo: finge ternura por la excusa del otro y luego remata con que ya lo va a olvidar. Es una forma juguetona de decir «si no tienes tiempo, yo tampoco».",
+    "register": "informal",
+    "usage_es": "«That's cute» sincero es elogio; sarcástico es condescendiente, así que cuida el tono. «So is...» para comparar es normal. Evita este sarcasmo con jefes o desconocidos.",
+    "examples": [
+      {
+        "en": "You think you can beat me at pool? That's cute.",
+        "es": "¿Crees que me puedes ganar al billar? Qué tierno."
+      },
+      {
+        "en": "My sister is tired, and so is my brother.",
+        "es": "Mi hermana está cansada, y mi hermano también."
+      }
+    ],
+    "genre": "pop"
   },
   {
     "id": "mus-flirt-fluent-maybe",
@@ -290,7 +786,34 @@
       "prompt_es": "Usa la estructura «fluent in X» para describir un hábito de alguien.",
       "model": ["He's fluent in excuses and terrible at showing up.", "You're fluent in sarcasm, aren't you?"]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "¿Dices que hablas «tal vez» con fluidez? Entonces yo te voy a hablar en «adiós».",
+    "literal_es": "¿Dices que eres fluido en quizás? Entonces hablaré en adiós.",
+    "breakdown": [
+      {
+        "text": "fluent in maybe",
+        "es": "experto en responder «tal vez»: nunca decide"
+      },
+      {
+        "text": "I'll speak in goodbye",
+        "es": "te responderé con un adiós"
+      }
+    ],
+    "linking_es": "you're = you are; I'll = I will («ail»). «Say you're» = «séi-iur»; «fluent in» = «flúen-tin»; «speak in» = «spíi-kin».",
+    "intent_es": "Trata la indecisión como si fuera un idioma: si él solo habla «maybe», ella le contesta en el idioma del «goodbye». Es un ultimátum envuelto en juego de palabras.",
+    "register": "informal",
+    "usage_es": "«Fluent in» es normal para idiomas y se usa en broma para hábitos («fluent in sarcasm»). La frase completa es para coqueteo o broma. Directo: «I need a clear answer».",
+    "examples": [
+      {
+        "en": "My dad is fluent in bad jokes.",
+        "es": "Mi papá es experto en chistes malos."
+      },
+      {
+        "en": "She's fluent in Spanish and French.",
+        "es": "Ella habla español y francés con fluidez."
+      }
+    ],
+    "genre": "indie"
   },
   {
     "id": "mus-flirt-wanna-know",
@@ -311,7 +834,41 @@
       "prompt_es": "Haz una pregunta y respóndela tú misma con ironía, como en una charla de amigos.",
       "model": ["Wanna know what I think? I think you should text first.", "Wanna hear my plan? There's no plan, and you're not in it."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "¿Quieres saber qué quiero hacer? Nada, porque tú no estás invitado, cariño.",
+    "breakdown": [
+      {
+        "text": "Wanna know",
+        "es": "¿quieres saber? (forma reducida de «Do you want to know»)"
+      },
+      {
+        "text": "Nothin'",
+        "es": "nada"
+      },
+      {
+        "text": "you ain't invited",
+        "es": "no estás invitado"
+      },
+      {
+        "text": "boo",
+        "es": "cariño, amor (aquí con burla)"
+      }
+    ],
+    "linking_es": "wanna = want to; nothin' = nothing; 'cause = because; ain't = aren't. «what I wanna do» = «wá-rai-wána-du»; «ain't invited» = «éin-tinváirid».",
+    "intent_es": "Pregunta trampa: suena a coqueteo, pero el remate es un rechazo. «Boo» es cariñoso, y aquí lo dice con burla para que el «no» duela con estilo.",
+    "register": "informal",
+    "usage_es": "«Wanna know...?» es muy común al hablar, no al escribir formal. «Boo» solo con pareja o amistades de confianza. «You ain't invited» suena grosero; neutral: «It's not your thing».",
+    "examples": [
+      {
+        "en": "Wanna know a secret? I already finished the project.",
+        "es": "¿Quieres saber un secreto? Ya terminé el proyecto."
+      },
+      {
+        "en": "Hey boo, are we still on for dinner?",
+        "es": "Oye, amor, ¿sigue en pie lo de la cena?"
+      }
+    ],
+    "genre": "r&b"
   },
   {
     "id": "mus-flirt-song-on-repeat",
@@ -329,7 +886,37 @@
       "prompt_es": "Describe a alguien que no dejas de pensar con una metáfora musical.",
       "model": ["He's a chorus stuck in my head.", "She's a melody I can't forget."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Eres una canción en repetición que ya me cansé de tararear.",
+    "breakdown": [
+      {
+        "text": "a song on repeat",
+        "es": "una canción puesta en repetición: algo que no sale de tu cabeza"
+      },
+      {
+        "text": "I'm tired of",
+        "es": "estoy cansado/a de, ya me harté de"
+      },
+      {
+        "text": "humming",
+        "es": "tararear"
+      }
+    ],
+    "linking_es": "You're = you are; I'm = I am. «song on repeat» = «sóng-on-ripíit»; «tired of» = «táier-dov»; «humming» = «jámin», sin la g final.",
+    "intent_es": "Mezcla fastidio y atracción: esa persona sigue en su mente como una canción pegajosa, aunque ya la canse. Es una forma de decir «no te puedo sacar de la cabeza y eso me enoja».",
+    "register": "neutral",
+    "usage_es": "«I'm tired of...» sirve en cualquier situación. «On repeat» es común para canciones y para algo que se repite («my kid's questions are on repeat»). Ninguna parte es ofensiva.",
+    "examples": [
+      {
+        "en": "I've had this new album on repeat all week.",
+        "es": "He tenido este álbum nuevo en repetición toda la semana."
+      },
+      {
+        "en": "I'm tired of eating pizza every Friday.",
+        "es": "Estoy harto de comer pizza cada viernes."
+      }
+    ],
+    "genre": "pop"
   },
   {
     "id": "mus-flirt-call-me-back",
@@ -346,7 +933,37 @@
       "prompt_es": "Pon una condición con una pausa dramática antes de ella.",
       "model": ["Text me tonight... if you're serious.", "Don't promise... unless you'll show up."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "No me vuelvas a llamar... a menos que lo digas en serio.",
+    "breakdown": [
+      {
+        "text": "Don't call me back",
+        "es": "no me devuelvas la llamada, no me vuelvas a llamar"
+      },
+      {
+        "text": "unless",
+        "es": "a menos que"
+      },
+      {
+        "text": "you mean it",
+        "es": "lo digas en serio, de verdad lo sientas"
+      }
+    ],
+    "linking_es": "don't = do not. «Don't call me back» = «dóun-kól-mi-bák», la t de «don't» casi se pierde; «mean it» = «míi-nit».",
+    "intent_es": "La pausa cambia el sentido: primero parece rechazo y luego se vuelve una condición. Dicho suave es coqueteo («regresa, pero en serio»); dicho seco es ultimátum.",
+    "register": "neutral",
+    "usage_es": "«Call me back» y «I mean it» son de uso diario. La frase completa sirve en relaciones o discusiones personales. En el trabajo: «Please call me back when you have an answer».",
+    "examples": [
+      {
+        "en": "I'm busy right now; can I call you back in ten minutes?",
+        "es": "Ahorita estoy ocupado; ¿te puedo devolver la llamada en diez minutos?"
+      },
+      {
+        "en": "Thank you, I really mean it.",
+        "es": "Gracias, lo digo en serio."
+      }
+    ],
+    "genre": "r&b"
   },
   {
     "id": "mus-flirt-receipts",
@@ -364,7 +981,38 @@
       "prompt_es": "Defiéndete con humor diciendo que tienes pruebas.",
       "model": ["I'm not exaggerating. I have screenshots.", "You forgot again? Honey, I have the messages."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Diría que eres tú, no yo. Pero, cariño, tengo pruebas.",
+    "literal_es": "Diría que eres tú, no yo. Pero cariño, tengo recibos.",
+    "breakdown": [
+      {
+        "text": "it's you, not me",
+        "es": "la culpa es tuya, no mía (inversión de la excusa clásica)"
+      },
+      {
+        "text": "honey",
+        "es": "cariño (aquí con un toque de superioridad)"
+      },
+      {
+        "text": "I have receipts",
+        "es": "tengo pruebas (capturas, mensajes) de lo que hiciste"
+      }
+    ],
+    "linking_es": "I'd = I would («aid»); it's = it is. «I'd say it's» = «aid-séi-its»; «not me» = «ná-mi», la t casi no suena; «receipts» = «risíits», la p es muda.",
+    "intent_es": "Invierte la excusa «it's not you, it's me» para culpar abiertamente al otro. «Receipts» es jerga de redes: tengo capturas y pruebas, así que no puedes negarlo.",
+    "register": "informal",
+    "usage_es": "«I have receipts» es jerga actual de internet; úsala entre amistades. «Honey» a desconocidos puede sonar condescendiente. Neutral: «I have proof» o «I can show you the messages».",
+    "examples": [
+      {
+        "en": "You said you'd pay me back. Don't deny it; I have receipts.",
+        "es": "Dijiste que me pagarías. No lo niegues; tengo pruebas."
+      },
+      {
+        "en": "She claimed she never said that, but I had the receipts.",
+        "es": "Ella dijo que nunca dijo eso, pero yo tenía las pruebas."
+      }
+    ],
+    "genre": "pop"
   },
   {
     "id": "mus-flirt-kinda",
@@ -383,7 +1031,37 @@
       "prompt_es": "Describe una relación o un trabajo con tres «kinda».",
       "model": ["I'm kinda tired, kinda excited, kinda lost.", "It's kinda cute, kinda annoying, kinda perfect."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Como que me gusta, como que ya me harté, como que se me acaba el tiempo.",
+    "breakdown": [
+      {
+        "text": "kind of into it",
+        "es": "como que me gusta, me late un poco"
+      },
+      {
+        "text": "kinda over it",
+        "es": "como que ya me cansé, ya me harté"
+      },
+      {
+        "text": "out of time",
+        "es": "sin tiempo, se me acabó el tiempo"
+      }
+    ],
+    "linking_es": "kinda = kind of («káinda»). I'm = I am. «into it» = «íntu-it»; «over it» = «óuve-rit»; «out of time» = «áu-rov-táim», t suave como r.",
+    "intent_es": "Indecisión emocional: le gusta, le cansa y siente prisa al mismo tiempo. La repetición de «kinda» suaviza cada emoción y muestra que no se compromete con ninguna.",
+    "register": "informal",
+    "usage_es": "«Kinda» y «I'm over it» son muy comunes al hablar con amigos; en un correo formal escribe «kind of» o «somewhat». «I'm out of time» sirve en cualquier contexto.",
+    "examples": [
+      {
+        "en": "I was mad about it yesterday, but I'm over it now.",
+        "es": "Ayer estaba enojado por eso, pero ya lo superé."
+      },
+      {
+        "en": "I'm kinda into cooking lately.",
+        "es": "Últimamente como que me está gustando cocinar."
+      }
+    ],
+    "genre": "indie"
   },
   {
     "id": "mus-flirt-flowers",
@@ -398,7 +1076,38 @@
       "prompt_es": "Agradece algo con un remate sarcástico.",
       "model": ["Thanks for the apology. It arrived just as late as you did.", "Thanks for the call. My patience hung up an hour ago."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Gracias por las flores. Se marchitaron igual que tus excusas.",
+    "literal_es": "Gracias por las flores. Murieron justo como tus excusas.",
+    "breakdown": [
+      {
+        "text": "Thanks for the flowers",
+        "es": "gracias por las flores (cortesía antes del golpe)"
+      },
+      {
+        "text": "They died",
+        "es": "se murieron, se marchitaron"
+      },
+      {
+        "text": "just like your excuses",
+        "es": "igual que tus excusas: ya no sirven"
+      }
+    ],
+    "linking_es": "«Thanks for the» = «zénks-for-de»; «just like» = «jás-láik», la t de «just» desaparece; «your excuses» = «iór-ekskiúsiz».",
+    "intent_es": "Pasa de la cortesía al reproche: las flores eran un intento de disculpa, pero tanto las flores como sus excusas ya «murieron». Mensaje: ya no te creo.",
+    "register": "neutral",
+    "usage_es": "«Thanks for...» y «just like...» son normales en cualquier contexto. La frase completa es un reproche pasivo-agresivo; úsala solo en broma o con mucha confianza.",
+    "examples": [
+      {
+        "en": "My plants died just like last year's, I forgot to water them.",
+        "es": "Mis plantas se murieron igual que las del año pasado; olvidé regarlas."
+      },
+      {
+        "en": "Thanks for the ride, see you tomorrow!",
+        "es": "Gracias por el aventón, ¡nos vemos mañana!"
+      }
+    ],
+    "genre": "country"
   },
   {
     "id": "mus-flirt-different-team",
@@ -415,7 +1124,34 @@
       "prompt_es": "Responde a un halago desproporcionado jugando con un doble sentido.",
       "model": ["You say I'm out of your league? I don't even play in your sport.", "Out of my league? I own the stadium."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Él dijo que yo era demasiado para él. Yo le dije: estoy en el equipo rival.",
+    "literal_es": "Él dijo que estoy fuera de su liga. Yo dije: estoy en el equipo de su rival.",
+    "breakdown": [
+      {
+        "text": "out of his league",
+        "es": "demasiado buena para él, inalcanzable"
+      },
+      {
+        "text": "I'm on his rival's team",
+        "es": "juego en el equipo contrario: no estoy disponible para él"
+      }
+    ],
+    "linking_es": "I'm = I am. «out of his» = «áu-ro-viz», la h se pierde; «league» = «líig»; «rival's team» = «ráivls-tíim».",
+    "intent_es": "Doble sentido deportivo: «league» es nivel y también torneo. Ella toma la frase literal y responde que está en otro equipo; o sea, ni compite por él ni le interesa.",
+    "register": "informal",
+    "usage_es": "«Out of my league» es muy común para hablar de alguien que te gusta y parece inalcanzable, o de algo muy caro. Es informal pero no ofensivo. Neutral: «too good for me».",
+    "examples": [
+      {
+        "en": "That restaurant is way out of my league; let's get tacos.",
+        "es": "Ese restaurante está muy fuera de mi presupuesto; mejor vamos por tacos."
+      },
+      {
+        "en": "I think she's out of my league, but I'll ask her out anyway.",
+        "es": "Creo que ella es demasiado para mí, pero igual la voy a invitar a salir."
+      }
+    ],
+    "genre": "pop"
   },
   {
     "id": "mus-flirt-trouble",
@@ -435,7 +1171,42 @@
       "prompt_es": "Dile a un amigo con humor que algo parece una mala idea y que te encanta.",
       "model": ["That looks like a bad idea, and I'm tryna do it.", "Gotta say, that plan sounds dangerous. I'm in."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Tengo que decirlo, te ves como un problema, y yo ando con ganas de meterme en uno.",
+    "literal_es": "Tengo que decir, te estás viendo como problemas, y estoy tratando de meterme en algunos.",
+    "breakdown": [
+      {
+        "text": "Gotta say",
+        "es": "tengo que decirlo (de «I've got to say»)"
+      },
+      {
+        "text": "you're lookin' like trouble",
+        "es": "te ves como un problema: tentador y peligroso"
+      },
+      {
+        "text": "tryna",
+        "es": "tratando de, con ganas de (de «trying to»)"
+      },
+      {
+        "text": "get in some",
+        "es": "meterme en algunos (problemas)"
+      }
+    ],
+    "linking_es": "gotta = got to; lookin' = looking; tryna = trying to («tráina»); I'm = I am. «Gotta say» = «gára-séi»; «get in some» = «gé-rin-sam».",
+    "intent_es": "Coqueteo juguetón: «trouble» se usa como halago (atractivo y riesgoso). El remate dice que justamente quiere meterse en ese «problema».",
+    "register": "informal",
+    "usage_es": "«Gotta say» y «tryna» son de habla muy relajada; evítalos al escribir formal. «You look like trouble» es coqueteo o broma; no lo uses con colegas. Neutral: «I have to say...».",
+    "examples": [
+      {
+        "en": "Gotta say, this coffee is amazing.",
+        "es": "Tengo que decirlo, este café está buenísimo."
+      },
+      {
+        "en": "I'm tryna save money this month, so no eating out.",
+        "es": "Estoy tratando de ahorrar este mes, así que nada de comer fuera."
+      }
+    ],
+    "genre": "latin-pop"
   },
   {
     "id": "mus-flirt-umbrella",
@@ -450,7 +1221,38 @@
       "prompt_es": "Describe una promesa vacía con un objeto cotidiano.",
       "model": ["His promises were a paper bridge: pretty, but no weight.", "That apology was an empty cup."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Tu amor era un paraguas de diez dólares bajo la lluvia: se veía bien, pero no aguantó nada.",
+    "literal_es": "Tu amor era un paraguas de diez dólares en la lluvia: se veía bien, no sostuvo nada.",
+    "breakdown": [
+      {
+        "text": "a ten-dollar umbrella",
+        "es": "un paraguas barato, de mala calidad"
+      },
+      {
+        "text": "looked good",
+        "es": "se veía bien, aparentaba"
+      },
+      {
+        "text": "held nothing",
+        "es": "no aguantó nada, no sirvió cuando hacía falta"
+      }
+    ],
+    "linking_es": "«ten-dollar» = «tén-dálar»; «umbrella in the rain» = «ambré-lain-de-réin»; «looked good» = «lúk-gud», la -ed casi no se oye; «held nothing» = «jél-názin».",
+    "intent_es": "Metáfora de promesa vacía: el amor parecía bonito, pero cuando llegaron los problemas (la lluvia) no protegió nada. Es decepción expresada con una imagen cotidiana.",
+    "register": "neutral",
+    "usage_es": "«Looked good on paper» es una expresión cercana muy común para planes que fallan. La comparación del paraguas es creativa y no ofensiva. Directo: «It didn't hold up».",
+    "examples": [
+      {
+        "en": "The plan looked good, but it didn't hold up in real life.",
+        "es": "El plan se veía bien, pero no funcionó en la vida real."
+      },
+      {
+        "en": "I bought a ten-dollar umbrella and it broke the same day.",
+        "es": "Compré un paraguas de diez dólares y se rompió el mismo día."
+      }
+    ],
+    "genre": "country"
   },
   {
     "id": "mus-flirt-say-it-slow",
@@ -469,7 +1271,37 @@
       "prompt_es": "Pide algo con un patrón de tres órdenes cortas.",
       "model": ["Call me soon. Call me honest. Call me yours.", "Stay a while. Stay close. Stay quiet."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Dilo despacio. Dilo bonito. Dilo como si lo fueras a sentir de verdad.",
+    "breakdown": [
+      {
+        "text": "Say it slow",
+        "es": "dilo despacio"
+      },
+      {
+        "text": "Say it sweet",
+        "es": "dilo con dulzura, bonito"
+      },
+      {
+        "text": "like you'll mean it",
+        "es": "como si lo fueras a decir en serio"
+      }
+    ],
+    "linking_es": "you'll = you will («iul»). «Say it» = «séi-it», casi «séyit»; «mean it» = «míi-nit»; «like you'll» = «láik-iul».",
+    "intent_es": "Petición íntima en crescendo: tres órdenes cortas que piden ternura y sinceridad. Lo que importa no es solo qué se dice, sino que se diga con intención.",
+    "register": "informal",
+    "usage_es": "«Say it slow» o «say it slowly» sirve para pedir que repitan algo. «Mean it» es de uso diario. En contexto formal: «Could you say that more slowly, please?».",
+    "examples": [
+      {
+        "en": "Can you say it slow? I didn't catch the address.",
+        "es": "¿Lo puedes decir despacio? No entendí la dirección."
+      },
+      {
+        "en": "Don't just apologize; say it like you mean it.",
+        "es": "No solo te disculpes; dilo como si lo sintieras."
+      }
+    ],
+    "genre": "r&b"
   },
   {
     "id": "mus-flirt-let-him-go",
@@ -484,7 +1316,37 @@
       "prompt_es": "Usa «let» tres veces con humor para contar un cambio de decisión.",
       "model": ["I let it slide. Then I let it show. Then I let it slide again.", "I let her win. Then I let her know. Then I won anyway."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Lo dejé ir. Luego le dije lo que pensaba. Luego lo volví a dejar ir.",
+    "breakdown": [
+      {
+        "text": "I let him go",
+        "es": "lo dejé ir, terminé con él"
+      },
+      {
+        "text": "I let him know",
+        "es": "le avisé, le dije claramente"
+      },
+      {
+        "text": "again",
+        "es": "otra vez"
+      }
+    ],
+    "linking_es": "«let him» = «lé-rim», la h desaparece y la t suena como r suave; «let him know» = «lé-rim-nóu»; «go again» = «góu-agén».",
+    "intent_es": "Historia de ruptura en tres pasos con humor: lo deja, le dice sus razones y lo vuelve a dejar. La repetición muestra una relación que va y viene.",
+    "register": "neutral",
+    "usage_es": "«Let me know» y «let someone go» son muy comunes. Ojo: en el trabajo «let him go» también significa despedir a alguien. «Let him know» sirve en cualquier contexto.",
+    "examples": [
+      {
+        "en": "Let me know when you get home, okay?",
+        "es": "Avísame cuando llegues a casa, ¿sí?"
+      },
+      {
+        "en": "The company had to let him go after the budget cuts.",
+        "es": "La empresa tuvo que despedirlo después de los recortes."
+      }
+    ],
+    "genre": "pop"
   },
   {
     "id": "mus-funk-night-young",
@@ -503,7 +1365,38 @@
       "prompt_es": "Invita a alguien a salir con la idea de «la noche es joven».",
       "model": ["Come out with us, the night is young.", "Let's go somewhere new. I'm gonna show you my favorite spot."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Déjame llevarte a donde la noche apenas empieza; te voy a enseñar cómo se hace.",
+    "literal_es": "Déjame llevarte a donde la noche es joven; voy a mostrarte cómo se hace.",
+    "breakdown": [
+      {
+        "text": "the night is young",
+        "es": "la noche apenas empieza, queda mucho tiempo"
+      },
+      {
+        "text": "Let me take you",
+        "es": "déjame llevarte"
+      },
+      {
+        "text": "show you how it's done",
+        "es": "enseñarte cómo se hace (con orgullo)"
+      }
+    ],
+    "linking_es": "gonna = going to; it's = it is. «Let me» = «lémi»; «take you» = «téikiu»; «how it's done» = «jáu-its-dán».",
+    "intent_es": "Invitación segura y fiestera: promete una noche larga y presume que sabe divertirse mejor que nadie.",
+    "register": "informal",
+    "usage_es": "«The night is young» es común para convencer de seguir la fiesta. «Let me show you how it's done» puede sonar presumido; en broma está bien. Neutral: «Let me show you how».",
+    "examples": [
+      {
+        "en": "It's only ten o'clock; the night is young!",
+        "es": "Apenas son las diez; ¡la noche es joven!"
+      },
+      {
+        "en": "Give me the pan; I'll show you how it's done.",
+        "es": "Dame la sartén; te enseño cómo se hace."
+      }
+    ],
+    "genre": "funk"
   },
   {
     "id": "mus-funk-hold-on",
@@ -522,7 +1415,38 @@
       "prompt_es": "Propón quedarse toda la noche en una reunión o evento.",
       "model": ["Let's stay out until sunrise.", "Hold on to your seat, we're just getting started."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Agárrate de mí esta noche; nos quedaremos afuera hasta que amanezca.",
+    "literal_es": "Sostente de mí esta noche; nos quedaremos fuera hasta la luz.",
+    "breakdown": [
+      {
+        "text": "Hold on to me",
+        "es": "agárrate de mí, no me sueltes"
+      },
+      {
+        "text": "stay out",
+        "es": "quedarse fuera de casa, seguir de fiesta"
+      },
+      {
+        "text": "until the light",
+        "es": "hasta que salga el sol"
+      }
+    ],
+    "linking_es": "we'll = we will («uil»). «Hold on to» = «hól-don-tu»; «stay out» = «stéi-áut»; «until the» = «antíl-de».",
+    "intent_es": "Promesa romántica de noche larga: pide cercanía física y emocional («no me sueltes») y propone no separarse hasta el amanecer.",
+    "register": "neutral",
+    "usage_es": "«Hold on to» (agarrar fuerte, también conservar) y «stay out late» son de uso diario. Ambas sirven con familia y amigos. Ej.: «Don't stay out too late».",
+    "examples": [
+      {
+        "en": "Hold on to the railing; the stairs are slippery.",
+        "es": "Agárrate del barandal; las escaleras están resbalosas."
+      },
+      {
+        "en": "My mom doesn't let me stay out past midnight.",
+        "es": "Mi mamá no me deja quedarme fuera después de medianoche."
+      }
+    ],
+    "genre": "electronic"
   },
   {
     "id": "mus-funk-groove",
@@ -540,7 +1464,38 @@
       "prompt_es": "Describe algo que te encanta con una metáfora de música.",
       "model": ["This city is a rhythm I can't unlearn.", "Her laugh is a melody in my head."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Tu amor es un ritmo que no puedo desaprender, un compás que me devuelve el pulso.",
+    "literal_es": "Tu amor es un groove que no puedo desaprender, un beat que hace que mi pulso regrese.",
+    "breakdown": [
+      {
+        "text": "a groove",
+        "es": "un ritmo contagioso que te hace moverte"
+      },
+      {
+        "text": "I can't unlearn",
+        "es": "que no puedo olvidar aunque quiera"
+      },
+      {
+        "text": "makes my pulse return",
+        "es": "hace que me vuelva el pulso: me revive"
+      }
+    ],
+    "linking_es": "love's = love is. «groove I» = «grúv-ai»; «can't unlearn» = «kén-tanlérn», la t se pega a la vocal; «makes my» = «méiks-mai».",
+    "intent_es": "El amor como música: algo tan aprendido en el cuerpo que no se borra, y que además le devuelve la vida. «Unlearn» subraya que ni queriendo podría olvidarlo.",
+    "register": "neutral",
+    "usage_es": "«Get into the groove» (agarrar el ritmo) es común en el trabajo y el deporte. «Unlearn» se usa para malos hábitos. Ambas son neutrales.",
+    "examples": [
+      {
+        "en": "It took me a week, but I'm finally getting into the groove at my new job.",
+        "es": "Me tomó una semana, pero por fin le estoy agarrando el ritmo a mi nuevo trabajo."
+      },
+      {
+        "en": "I had to unlearn some bad habits from my old coach.",
+        "es": "Tuve que desaprender algunos malos hábitos de mi antiguo entrenador."
+      }
+    ],
+    "genre": "funk"
   },
   {
     "id": "mus-funk-fall-wagon",
@@ -557,7 +1512,38 @@
       "prompt_es": "Habla de una tentación personal con «fall for» y «fall off the wagon».",
       "model": ["I fell for the new cafe, and now I've fallen off my diet.", "I'm falling for this song and off my sleep schedule."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Me estoy enamorando de ti, o tal vez estoy recayendo y perdiendo el poco sentido común que tengo.",
+    "literal_es": "Estoy cayendo por ti, o tal vez cayéndome del carro de mi propio buen juicio.",
+    "breakdown": [
+      {
+        "text": "I'm falling for you",
+        "es": "me estoy enamorando de ti"
+      },
+      {
+        "text": "falling off the wagon",
+        "es": "recaer en un mal hábito (originalmente, volver a beber)"
+      },
+      {
+        "text": "my own good sense",
+        "es": "mi propio sentido común, mi buen juicio"
+      }
+    ],
+    "linking_es": "I'm = I am. «falling for» = «fólin-for», sin g; «falling off the» = «fóli-nóf-de»; «good sense» = «gúd-séns».",
+    "intent_es": "Autocrítica con humor: junta enamorarse con recaer en un vicio. Sugiere que esa persona no le conviene y lo sabe, pero cae de todos modos.",
+    "register": "informal",
+    "usage_es": "«Fall for someone» es normal en cualquier contexto. «Fall off the wagon» es coloquial; con temas de adicción úsalo con tacto. Neutral para dietas o hábitos: «I went back to my old habits».",
+    "examples": [
+      {
+        "en": "I quit sugar for a month, then fell off the wagon at my cousin's birthday.",
+        "es": "Dejé el azúcar un mes y luego recaí en el cumpleaños de mi prima."
+      },
+      {
+        "en": "I think I'm falling for my best friend.",
+        "es": "Creo que me estoy enamorando de mi mejor amigo."
+      }
+    ],
+    "genre": "country"
   },
   {
     "id": "mus-funk-stay-falsetto",
@@ -575,7 +1561,33 @@
       "prompt_es": "Haz una petición sentimental con dos «tell me».",
       "model": ["Tell me it's okay. Tell me you'll call.", "Tell me you're coming. Tell me you'll be there."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Oh, oh, dime que te vas a quedar... dime que no te vas a ir.",
+    "breakdown": [
+      {
+        "text": "tell me you're staying",
+        "es": "dime que te quedas"
+      },
+      {
+        "text": "you won't go",
+        "es": "no te vas a ir"
+      }
+    ],
+    "linking_es": "you're = you are; won't = will not («wóunt»). «tell me» = «télmi»; «you won't go» = «iu-wóun-góu», la t casi desaparece antes de la g.",
+    "intent_es": "Súplica emocional: la voz aguda y los «oh, oh» alargados expresan miedo a que la otra persona se vaya. La repetición de «tell me» marca urgencia.",
+    "register": "neutral",
+    "usage_es": "«Tell me you...» se usa en conversación para pedir confirmación o esperanza («tell me you brought snacks»). Es neutral y funciona con amigos y familia.",
+    "examples": [
+      {
+        "en": "Tell me you remembered to bring the tickets.",
+        "es": "Dime que te acordaste de traer los boletos."
+      },
+      {
+        "en": "Promise you won't go without saying goodbye.",
+        "es": "Prométeme que no te irás sin despedirte."
+      }
+    ],
+    "genre": "r&b"
   },
   {
     "id": "mus-funk-same-disaster",
@@ -594,7 +1606,37 @@
       "prompt_es": "Felicita con sarcasmo a alguien por mantener un mal hábito.",
       "model": ["Congrats, you're late again. Very consistent.", "Well done, you forgot again. Right on schedule."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Dijiste que nunca ibas a cambiar. Pues felicidades: sigues siendo exactamente el mismo desastre.",
+    "breakdown": [
+      {
+        "text": "you'd never change",
+        "es": "nunca cambiarías"
+      },
+      {
+        "text": "Well, congrats",
+        "es": "pues felicidades (sarcástico)"
+      },
+      {
+        "text": "exactly the same disaster",
+        "es": "exactamente el mismo desastre de siempre"
+      }
+    ],
+    "linking_es": "you'd = you would; you're = you are; congrats = congratulations («kongráts»). «said you'd» = «séd-iud»; «exactly the» = «igsákli-de», la t se pierde.",
+    "intent_es": "Sarcasmo de felicitación: celebra que el otro cumplió su promesa de no cambiar, cuando eso era justamente lo malo. Es un reproche disfrazado de aplauso.",
+    "register": "informal",
+    "usage_es": "«Congrats» sincero es normal entre amigos y en mensajes. El «Well, congrats» sarcástico puede herir; evítalo en el trabajo. Formal: «Congratulations».",
+    "examples": [
+      {
+        "en": "Congrats on the new job! You totally deserve it.",
+        "es": "¡Felicidades por el nuevo trabajo! Te lo mereces totalmente."
+      },
+      {
+        "en": "You broke the printer again? Well, congrats.",
+        "es": "¿Otra vez descompusiste la impresora? Pues felicidades."
+      }
+    ],
+    "genre": "indie"
   },
   {
     "id": "mus-funk-break-goodbye",
@@ -612,7 +1654,42 @@
       "prompt_es": "Termina una frase seria con un remate cómico y cotidiano.",
       "model": ["We agreed to disagree, and then I ate your fries.", "We're done talking, and also, it's lunchtime."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Yo le dije una pausa; tú le dijiste adiós. Los dos tenemos razón, y tengo hambre.",
+    "literal_es": "Yo lo llamé un descanso; tú lo llamaste adiós. Ambos tenemos razón, y tengo hambre.",
+    "breakdown": [
+      {
+        "text": "I called it a break",
+        "es": "yo lo vi como una pausa temporal"
+      },
+      {
+        "text": "you called it goodbye",
+        "es": "tú lo viste como un adiós definitivo"
+      },
+      {
+        "text": "We're both right",
+        "es": "los dos tenemos razón"
+      },
+      {
+        "text": "and I'm hungry",
+        "es": "y tengo hambre: cambio cómico de tema"
+      }
+    ],
+    "linking_es": "We're = we are; I'm = I am. «called it a» = «kól-di-ra»; «both right» = «bóuz-ráit»; «and I'm» = «en-áim», la d casi muda.",
+    "intent_es": "Dos versiones de la misma ruptura y un remate absurdo: después de un tema serio, de pronto habla de hambre. El giro rompe la tensión y muestra cansancio de discutir.",
+    "register": "informal",
+    "usage_es": "«Call it a...» sirve para nombrar algo («let's call it a day» = terminemos por hoy). «We're both right» es útil para cerrar discusiones. Todo es apto para la vida diaria.",
+    "examples": [
+      {
+        "en": "It's late; let's call it a day and finish tomorrow.",
+        "es": "Ya es tarde; dejémoslo por hoy y terminamos mañana."
+      },
+      {
+        "en": "You want pizza, I want tacos. We're both right: let's get both.",
+        "es": "Tú quieres pizza, yo quiero tacos. Los dos tenemos razón: pidamos ambos."
+      }
+    ],
+    "genre": "indie"
   },
   {
     "id": "mus-funk-aint-no-use",
@@ -634,7 +1711,37 @@
       "prompt_es": "Confiesa algo sin dramatismo a un amigo, omitiendo «have» como en la canción.",
       "model": ["I been wanting to tell you, I really like the idea.", "Ain't no point in hiding it, I loved the show."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "No tiene caso mentir, me la pasé pensando en ti toda la noche.",
+    "breakdown": [
+      {
+        "text": "Ain't no use in lyin'",
+        "es": "no tiene caso mentir"
+      },
+      {
+        "text": "I been thinkin' 'bout you",
+        "es": "he estado pensando en ti (de «I've been thinking about you»)"
+      },
+      {
+        "text": "all night",
+        "es": "toda la noche"
+      }
+    ],
+    "linking_es": "ain't = there's; lyin' = lying; I been = I've been; thinkin' = thinking; 'bout = about. «use in» = «iús-in»; «all night» = «ól-náit».",
+    "intent_es": "Confesión romántica: deja de fingir y admite que esa persona no se le fue de la cabeza en toda la noche. Suena honesto y vulnerable.",
+    "register": "informal",
+    "usage_es": "«There's no use in...» o «It's no use...» es normal; «Ain't no use» y «I been» son muy coloquiales y no van en textos formales. Neutral: «I've been thinking about you».",
+    "examples": [
+      {
+        "en": "There's no use crying over it; let's fix it.",
+        "es": "No tiene caso llorar por eso; vamos a arreglarlo."
+      },
+      {
+        "en": "I've been thinking about your offer all week.",
+        "es": "He estado pensando en tu oferta toda la semana."
+      }
+    ],
+    "genre": "r&b"
   },
   {
     "id": "mus-funk-take-it-slow",
@@ -653,7 +1760,42 @@
       "prompt_es": "Da dos consejos opuestos con «make it...».",
       "model": ["Make it simple, make it count.", "Make it quick, make it right."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Tómalo con calma, haz que dure, da el primer paso, hazlo rápido.",
+    "literal_es": "Tómalo lento, haz que dure, haz un movimiento, hazlo rápido.",
+    "breakdown": [
+      {
+        "text": "Take it slow",
+        "es": "tómalo con calma, sin prisa"
+      },
+      {
+        "text": "make it last",
+        "es": "haz que dure"
+      },
+      {
+        "text": "make a move",
+        "es": "dar el primer paso (normalmente romántico)"
+      },
+      {
+        "text": "make it fast",
+        "es": "hazlo rápido"
+      }
+    ],
+    "linking_es": "«Take it» = «téi-kit»; «make it» = «méi-kit»; «make a move» = «méi-ka-múuv»; «make it fast» = «méi-kit-fást».",
+    "intent_es": "Juego de contrarios con tensión romántica: primero pide calma y que el momento dure, luego que alguien se atreva a dar el paso y rápido. Refleja deseo e impaciencia.",
+    "register": "informal",
+    "usage_es": "«Take it slow» sirve en relaciones, recuperación o aprendizaje. «Make a move» es dar el primer paso (romance o negocios). Neutral para trabajo: «Let's take our time».",
+    "examples": [
+      {
+        "en": "You just started running, so take it slow this week.",
+        "es": "Apenas empezaste a correr, así que tómalo con calma esta semana."
+      },
+      {
+        "en": "If you like her, you should make a move before the party ends.",
+        "es": "Si te gusta, deberías dar el primer paso antes de que termine la fiesta."
+      }
+    ],
+    "genre": "latin-pop"
   },
   {
     "id": "mus-funk-midnight-honey",
@@ -670,7 +1812,34 @@
       "prompt_es": "Describe un momento con un sabor, como «tastes like...».",
       "model": ["This morning tastes like fresh coffee and rain.", "Summer tastes like lemonade and sunscreen."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "La medianoche sabe a miel cuando me cantas al oído.",
+    "literal_es": "La medianoche sabe como miel cuando estás cantando en mi oreja.",
+    "breakdown": [
+      {
+        "text": "tastes like honey",
+        "es": "sabe a miel: es dulce y placentero"
+      },
+      {
+        "text": "singing in my ear",
+        "es": "cantando al oído, muy cerca"
+      }
+    ],
+    "linking_es": "you're = you are. «tastes like» = «téis-láik», la t final casi no suena; «singing in my ear» = «síngin-in-mai-íer»; «in my» se une: «inmai».",
+    "intent_es": "Sinestesia romántica: mezcla gusto, tiempo y oído. La voz de la otra persona vuelve dulce la noche; es una forma poética de decir que su cercanía lo hace sentir muy bien.",
+    "register": "neutral",
+    "usage_es": "«Tastes like...» es básico para comida («tastes like chicken»). «In my ear» sirve para alguien que te habla cerca o insiste. La frase completa es poética; en charla diaria suena cursi.",
+    "examples": [
+      {
+        "en": "This tea tastes like honey and lemon.",
+        "es": "Este té sabe a miel y limón."
+      },
+      {
+        "en": "My brother kept talking in my ear during the whole movie.",
+        "es": "Mi hermano estuvo hablándome al oído toda la película."
+      }
+    ],
+    "genre": "r&b"
   },
   {
     "id": "mus-funk-one-man-band",
@@ -688,7 +1857,42 @@
       "prompt_es": "Pide apoyo a un amigo con un doble sentido sobre tu trabajo.",
       "model": ["I'm a one-man team. Want to be my sidekick?", "I run the whole shop alone. Will you be my backup?"]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Soy un hombre orquesta sin orquesta. ¿Puedes ser mi respaldo, amor?",
+    "literal_es": "Soy una banda de un solo hombre sin banda. ¿Puedes ser mi acompañamiento, amor?",
+    "breakdown": [
+      {
+        "text": "a one-man band",
+        "es": "un hombre orquesta: alguien que hace todo solo"
+      },
+      {
+        "text": "with no band",
+        "es": "sin banda (contradicción cómica)"
+      },
+      {
+        "text": "my backup",
+        "es": "mi acompañamiento musical y también mi apoyo"
+      },
+      {
+        "text": "love",
+        "es": "amor, cariño (apelativo)"
+      }
+    ],
+    "linking_es": "I'm = I am. «I'm a» = «ái-ma»; «one-man band» = «wán-mán-bénd»; «Can you be» = «kén-iu-bi», casi «kéniubi»; «my backup» = «mai-bákap».",
+    "intent_es": "Doble sentido musical y romántico: admite que hace todo solo y está cansado, y pide a la otra persona que sea su apoyo. «Backup» es coro y también respaldo emocional.",
+    "register": "informal",
+    "usage_es": "«One-man band» se usa en el trabajo para quien hace todo sin equipo. «Backup» (apoyo, refuerzo) es muy común. «Love» como apelativo es cariñoso; no lo uses con desconocidos.",
+    "examples": [
+      {
+        "en": "At my small company, I'm a one-man band: sales, design, and support.",
+        "es": "En mi pequeña empresa soy un hombre orquesta: ventas, diseño y soporte."
+      },
+      {
+        "en": "If my boss asks, will you be my backup?",
+        "es": "Si mi jefe pregunta, ¿me apoyas?"
+      }
+    ],
+    "genre": "funk"
   },
   {
     "id": "mus-funk-dont-stop",
@@ -705,7 +1909,37 @@
       "prompt_es": "Anima a alguien (o a ti) con una orden dividida en palabras sueltas.",
       "model": ["Keep. Going. Now.", "You. Got. This."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "No. Pares. Ahora. No. Pares. Ahora.",
+    "breakdown": [
+      {
+        "text": "Don't",
+        "es": "no (orden negativa)"
+      },
+      {
+        "text": "Stop",
+        "es": "pares, te detengas"
+      },
+      {
+        "text": "Now",
+        "es": "ahora"
+      }
+    ],
+    "linking_es": "don't = do not. Aquí NO se enlaza: cada palabra va aislada (staccato). «Don't» = «dóunt» con t marcada; en habla normal sería «dóun-stáp-náu», todo pegado.",
+    "intent_es": "Energía pura: separar las palabras convierte una orden simple en golpes de tambor. Puede leerse como «no te detengas ahora» o, con otra pausa, como «no; detente ya».",
+    "register": "neutral",
+    "usage_es": "«Don't stop now» se usa para animar a alguien que va bien (en ejercicio, estudio o trabajo). Es neutral. Ojo con las pausas: cambian el sentido.",
+    "examples": [
+      {
+        "en": "You're almost at the finish line, don't stop now!",
+        "es": "¡Ya casi llegas a la meta, no te detengas ahora!"
+      },
+      {
+        "en": "Your grades are going up; don't stop now.",
+        "es": "Tus calificaciones están subiendo; no aflojes ahora."
+      }
+    ],
+    "genre": "electronic"
   },
   {
     "id": "mus-funk-janitor",
@@ -722,7 +1956,38 @@
       "prompt_es": "Toma una frase motivacional conocida y dale un giro gracioso.",
       "model": ["I followed my dreams, and they live in the next town.", "I gave it everything, and everything wasn't much."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "Bailamos como si nadie nos estuviera viendo, y el conserje de verdad no nos estaba viendo.",
+    "literal_es": "Bailamos como si nadie estuviera mirando, y el conserje realmente no estaba.",
+    "breakdown": [
+      {
+        "text": "danced like no one was watching",
+        "es": "bailar sin pena, como si nadie viera (frase motivacional)"
+      },
+      {
+        "text": "the janitor",
+        "es": "el conserje, el de intendencia"
+      },
+      {
+        "text": "really wasn't",
+        "es": "de verdad no lo estaba (haciendo)"
+      }
+    ],
+    "linking_es": "wasn't = was not. «like no one» = «láik-nóu-wan»; «was watching» = «wəz-wáchin»; «really wasn't» = «ríli-wázn», la t final casi muda.",
+    "intent_es": "Giro humorístico sobre una frase hecha: toma literal el «como si nadie mirara» y revela que de verdad nadie miraba, ni siquiera el conserje. Humor de lugar vacío.",
+    "register": "informal",
+    "usage_es": "«Dance like no one is watching» es una frase motivacional conocida; se usa en tarjetas, redes y conversaciones para animar a soltarse. «Really wasn't» para enfatizar es normal.",
+    "examples": [
+      {
+        "en": "At my sister's wedding, I danced like no one was watching.",
+        "es": "En la boda de mi hermana bailé como si nadie me estuviera viendo."
+      },
+      {
+        "en": "He said he wasn't tired, but he really was.",
+        "es": "Dijo que no estaba cansado, pero de verdad lo estaba."
+      }
+    ],
+    "genre": "pop"
   },
   {
     "id": "mus-funk-he-dont-call",
@@ -740,6 +2005,41 @@
       "prompt_es": "Quéjate con ironía de alguien que solo aparece cuando le conviene.",
       "model": ["He doesn't text, he doesn't plan, but he shows up for free pizza.", "She never calls, but she always finds the party."]
     },
-    "explicit": false
+    "explicit": false,
+    "es": "No llama, no escribe, pero eso sí, sabe muy bien cómo aparecerse a medianoche.",
+    "literal_es": "Él no llama, él no escribe, pero él seguro sabe cómo aparecer a medianoche.",
+    "breakdown": [
+      {
+        "text": "He don't call",
+        "es": "no llama (coloquial por «he doesn't call»)"
+      },
+      {
+        "text": "he don't write",
+        "es": "no escribe, no manda mensajes"
+      },
+      {
+        "text": "he sure knows how to",
+        "es": "eso sí sabe muy bien cómo (irónico)"
+      },
+      {
+        "text": "show up at midnight",
+        "es": "aparecerse a medianoche, solo cuando le conviene"
+      }
+    ],
+    "linking_es": "don't = doesn't (forma coloquial). «He don't» = «ji-dóun»; «sure knows» = «shur-nóuz»; «show up at» = «shóu-a-pat».",
+    "intent_es": "Queja con ironía: él desaparece todo el día y solo se presenta tarde en la noche cuando le conviene. Sugiere que solo busca algo casual, sin compromiso.",
+    "register": "informal",
+    "usage_es": "«Show up» (llegar, aparecer) es de uso diario. «He don't» es coloquial y no va en exámenes; correcto: «He doesn't call». «He sure knows how to» funciona para quejas con humor.",
+    "examples": [
+      {
+        "en": "He never helps cook, but he sure knows how to show up for dinner.",
+        "es": "Nunca ayuda a cocinar, pero eso sí, sabe aparecerse para la cena."
+      },
+      {
+        "en": "Only five people showed up to the meeting.",
+        "es": "Solo llegaron cinco personas a la junta."
+      }
+    ],
+    "genre": "country"
   }
 ]

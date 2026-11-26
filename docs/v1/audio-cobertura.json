@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-25",
+  "voices": [
+    {
+      "id": "af_heart",
+      "scope": "full",
+      "desc": "Mujer · EE. UU. · cálida y muy clara"
+    },
+    {
+      "id": "am_adam",
+      "scope": "dialogue",
+      "desc": "Hombre · EE. UU. · grave y pausado"
+    }
+  ],
+  "total": {
+    "required": 15791,
+    "ok": 15791
+  },
+  "groups": [
+    {
+      "voice": "af_heart",
+      "group": "errors",
+      "required": 192,
+      "ok": 192,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "grammar",
+      "required": 72,
+      "ok": 72,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "item",
+      "required": 11812,
+      "ok": 11812,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "lesson",
+      "required": 152,
+      "ok": 152,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "music",
+      "required": 239,
+      "ok": 239,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "placement",
+      "required": 28,
+      "ok": 28,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "prosody",
+      "required": 133,
+      "ok": 133,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "roleplay-model",
+      "required": 338,
+      "ok": 338,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "roleplay-useful",
+      "required": 144,
+      "ok": 144,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "route",
+      "required": 261,
+      "ok": 261,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "route-model",
+      "required": 620,
+      "ok": 620,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "route-repair",
+      "required": 118,
+      "ok": 118,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "sample",
+      "required": 1,
+      "ok": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "series",
+      "required": 105,
+      "ok": 105,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "series-model",
+      "required": 48,
+      "ok": 48,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "af_heart",
+      "group": "sound",
+      "required": 605,
+      "ok": 605,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "am_adam",
+      "group": "lesson",
+      "required": 200,
+      "ok": 200,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "am_adam",
+      "group": "placement",
+      "required": 21,
+      "ok": 21,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "am_adam",
+      "group": "roleplay",
+      "required": 169,
+      "ok": 169,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "am_adam",
+      "group": "route",
+      "required": 231,
+      "ok": 231,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "am_adam",
+      "group": "route-roleplay",
+      "required": 203,
+      "ok": 203,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "am_adam",
+      "group": "sample",
+      "required": 1,
+      "ok": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    {
+      "voice": "am_adam",
+      "group": "series",
+      "required": 98,
+      "ok": 98,
+      "missing": 0,
+      "invalid": 0
+    }
+  ],
+  "problems": []
+}

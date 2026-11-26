@@ -1,0 +1,26 @@
+/* ---------- Ejercicios 1.0: banco de palabras, dictado, diferencias, «¿por qué?» y emparejar ---------- */
+.wb-line { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; min-height: 4.2rem; padding: 0.6rem 0.2rem; border-bottom: 2px solid var(--line); }
+.wb-tile { display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 0.85rem; border-radius: 0.85rem; border: 1.5px solid var(--line); background: var(--surface); font-family: var(--font-display), var(--font-sans); font-weight: 800; font-size: 1.05rem; box-shadow: 0 1px 2px rgb(25 35 55 / 0.06), 0 6px 12px -10px rgb(25 35 55 / 0.4); transition: transform 0.16s var(--ease-out), opacity 0.16s, background-color 0.16s; touch-action: manipulation; }
+.wb-tile:hover:not(:disabled) { transform: translateY(-1px); }
+.wb-tile:active:not(:disabled) { transform: scale(0.94); }
+.wb-tile:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.wb-tile.is-used { opacity: 0.25; box-shadow: none; }
+.wb-tile.is-placed { animation: tile-in 0.22s var(--ease-out); background: color-mix(in oklab, var(--accent) 8%, var(--surface)); }
+@keyframes tile-in { from { transform: translateY(0.5rem) scale(0.9); opacity: 0; } }
+
+.diff-miss { border-radius: 0.3rem; padding: 0 0.2rem; background: var(--bad-soft); color: var(--bad); font-weight: 900; text-decoration: underline wavy; }
+.diff-extra { border-radius: 0.3rem; padding: 0 0.2rem; color: var(--muted); text-decoration: line-through; }
+.diff-sub { border-radius: 0.3rem; padding: 0 0.2rem; background: var(--bad-soft); color: var(--bad); font-weight: 900; }
+.diff-near { border-radius: 0.3rem; padding: 0 0.2rem; background: var(--gold-soft); font-weight: 900; }
+
+.why-panel { display: flex; flex-direction: column; gap: 0.55rem; margin-top: 0.5rem; padding: 0.85rem 1rem; border-radius: 1rem; background: var(--surface); border: 1px solid var(--line); font-size: 0.92rem; line-height: 1.45; max-height: 40vh; overflow: auto; }
+
+.match-tile { min-height: 3.1rem; padding: 0.5rem 0.75rem; border-radius: 0.95rem; border: 1.5px solid var(--line); background: var(--surface); font-weight: 800; text-align: center; transition: transform 0.16s var(--ease-out), background-color 0.2s, border-color 0.2s, opacity 0.3s; touch-action: manipulation; }
+.match-tile:active:not(:disabled) { transform: scale(0.96); }
+.match-tile.is-sel { border-color: var(--accent); background: var(--accent-soft); }
+.match-tile.is-done { border-color: var(--good); background: var(--good-soft); color: var(--good); opacity: 0.6; animation: match-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); }
+@keyframes match-pop { 50% { transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) { .wb-tile, .match-tile { animation: none !important; transition: none; } }
+:root[data-motion="reduced"] :is(.wb-tile, .match-tile) { animation: none !important; transition: none; }
+.spot-chip.is-good { background: var(--good-soft); color: var(--good); }
+.spot-chip.is-bad { background: var(--bad-soft); color: var(--bad); text-decoration: line-through; }

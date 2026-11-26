@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { and, eq, gte } from "drizzle-orm";
 import { Sparkles, Check, ChevronRight } from "lucide-react";
-import { IcoBook, IcoCards, IcoChart, IcoClock, IcoFlame, IcoIce, IcoTarget, IcoTrophy } from "@/components/Icons";
+import { IcoBook, IcoCards, IcoChart, IcoClock, IcoFlame, IcoIce, IcoTarget, IcoTrophy, IcoTv } from "@/components/Icons";
 import { db, schema } from "@/db";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { dueCount, lastDays, forecast, achievementTotals, itemStatus } from "@/lib/stats";
 import { goalXp, levelFromXp, localDay, missionsFor, visibleStreak, addDays } from "@/lib/game";
 import { greetingSay } from "@/lib/motivation";
 import { CoachTip, HeroCoach } from "@/components/HeroCoach";
-import { CATALOG, getScene, ROUTES } from "@/lib/content";
+import { CATALOG, getScene, ROUTES, SERIES, levelIndex } from "@/lib/content";
 import { collectionsOf } from "@/lib/collections";
 import { Bar } from "@/components/ui";
 import { Gem } from "@/components/Nav";
@@ -17,6 +17,7 @@ import { recommendMission, trackFor } from "@/lib/recommend";
 import { seasonFor, seasonLabel, seasonRoute } from "@/lib/seasons";
 import { settleWeekly } from "@/lib/rewards";
 import { ACHIEVEMENTS } from "@/lib/achievements";
+import { tutorTips } from "@/lib/tutor";
 import { RouteIcon } from "@/components/RouteIcon";
 
 export const metadata = { title: "Hoy" };
@@ -26,6 +27,7 @@ const SKILL: Record<string, string> = { listen: "Escuchar", read: "Leer", speak:
 
 export default async function Today() {
   const profile = await requireProfile();
+  const tips = (await tutorTips(profile).catch(() => [])).map(({ text, href, cta }) => ({ text, href, cta }));
   const s = settingsOf(profile);
   const mods = { week: true, load: true, goal: true, achievement: true, theme: true, challenges: true, ...s.hoy };
   const today = localDay(profile.tz);
@@ -46,7 +48,7 @@ export default async function Today() {
   // Palabra sugerida: la más frecuente del catálogo que aún no estudias ni declaraste conocer.
   const knownSet = new Set(s.known ?? []);
   // A partir de tu nivel: a alguien B1 no se le sugiere "the".
-  const lv = ["A1", "A2", "B1", "B2", "C1"];
+  const lv = ["A1", "A2", "B1", "B2", "C1", "C2"];
   const word = CATALOG.find((c) => c.status === "complete" && !c.dupOf && lv.indexOf(c.level) >= lv.indexOf(profile.level) && c.pos !== "det" && c.pos !== "pron" && !status.has(c.id) && !knownSet.has(c.id) && (s.explicit === true || !c.register));
   const frozen = new Set(frozenRows.map((r) => r.day));
   const todayRow = week[week.length - 1];
@@ -83,8 +85,8 @@ export default async function Today() {
 
       <div className="grid gap-5 lg:grid-cols-12 lg:gap-6">
         <div className="flex min-w-0 flex-col gap-5 lg:col-span-8 3xl:col-span-9">
-          {/* Meta del día + compañero */}
-          <section aria-labelledby="meta" className="goal-card">
+          {/* Meta del día + compañero (en móvil va después de la misión: lo primero es saber qué estudiar) */}
+          <section aria-labelledby="meta" className="goal-card max-lg:order-2">
             <div className="min-w-0 flex-1">
               <p id="meta" className="eyebrow text-brand-ink">Tu meta de hoy</p>
               <p className="mt-1 text-2xl font-black leading-tight sm:text-[1.7rem]">
@@ -102,7 +104,7 @@ export default async function Today() {
           </section>
 
           {/* Protagonista: la misión de hoy */}
-          <section aria-labelledby="mision" className="mission-card">
+          <section aria-labelledby="mision" className="mission-card max-lg:order-1">
             {scene && (
               <div className="mission-art" style={{ background: "linear-gradient(140deg, var(--hero-from), var(--hero-to))" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element -- SVG local pequeño, sin optimización necesaria */}
@@ -154,9 +156,27 @@ export default async function Today() {
             </div>
           </section>
 
-          {/* Accesos: repasos y colecciones */}
-          <div className="grid grid-cols-2 gap-4">
-            <Link href="/repaso" className="module tile-ico-wrap flex flex-col gap-1 p-5">
+          {/* Accesos rápidos, ordenados con tus datos: muchos repasos pendientes van primero. */}
+          <div className="grid grid-cols-2 gap-4 max-lg:order-3 sm:grid-cols-4">
+            <Link href="/sesion?min=5" className={`module tile-ico-wrap flex flex-col gap-1 p-5 ${due >= 15 ? "order-2" : "order-1"}`}>
+              <span className="tile-ico w-fit">
+                <IcoClock size={34} />
+              </span>
+              <span className="mt-1 text-3xl font-black leading-none">5</span>
+              <span className="font-black leading-tight">Práctica rápida</span>
+              <span className="text-sm text-muted">Minutos para no perder el ritmo</span>
+            </Link>
+            {levelIndex(profile.level) >= 2 && (
+              <Link href="/series" className="module tile-ico-wrap order-3 flex flex-col gap-1 p-5">
+                <span className="tile-ico w-fit">
+                  <IcoTv size={34} />
+                </span>
+                <span className="mt-1 text-3xl font-black leading-none">{SERIES.filter((x) => x.level === profile.level || (profile.level === "C1" && x.level === "C2")).length}</span>
+                <span className="font-black leading-tight">Inglés de series</span>
+                <span className="text-sm text-muted">Escenas sin subtítulos para tu nivel</span>
+              </Link>
+            )}
+            <Link href="/repaso" className={`module tile-ico-wrap flex flex-col gap-1 p-5 ${due >= 15 ? "order-1" : "order-2"}`}>
               <span className="tile-ico w-fit">
                 <IcoCards size={34} />
               </span>
@@ -164,7 +184,7 @@ export default async function Today() {
               <span className="font-black leading-tight">{due === 1 ? "Repaso pendiente" : "Repasos pendientes"}</span>
               <span className="text-sm text-muted">{due > 0 ? "Recupera lo que aprendiste" : "Estás al día"}</span>
             </Link>
-            <Link href="/biblioteca/colecciones" className="module tile-ico-wrap flex flex-col gap-1 p-5">
+            <Link href="/biblioteca/colecciones" className="module tile-ico-wrap order-4 flex flex-col gap-1 p-5">
               <span className="tile-ico w-fit">
                 <IcoBook size={34} />
               </span>
@@ -234,7 +254,7 @@ export default async function Today() {
               </p>
             </section>
           )}
-          <CoachTip seed={seed} say={say} />
+          <CoachTip seed={seed} say={say} tips={tips} />
           {mods.achievement && nextAch && (
             <Link href="/progreso#logros" className="module block p-5">
               <span className="mb-2 flex items-center justify-between gap-2 text-xl font-black">
