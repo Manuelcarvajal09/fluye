@@ -1302,5 +1302,293 @@
   ],
   "answer": 0,
   "why_es": "*Gotta* = *got to* = *have to*."
+ },
+ {
+  "id": "pt-g-029",
+  "section": "grammar",
+  "level": "A2",
+  "prompt": "How ___ eggs do we need for the pancakes?",
+  "options": [
+   "much",
+   "many",
+   "any",
+   "a lot"
+  ],
+  "answer": 1,
+  "why_es": "*Eggs* es contable en plural → *how many*. *How much* va con incontables (*how much milk*)."
+ },
+ {
+  "id": "pt-g-030",
+  "section": "grammar",
+  "level": "A2",
+  "prompt": "What time ___ the store close yesterday?",
+  "options": [
+   "does",
+   "was",
+   "did",
+   "do"
+  ],
+  "answer": 2,
+  "why_es": "Pregunta en pasado simple (*yesterday*): *did* + verbo base."
+ },
+ {
+  "id": "pt-v-025",
+  "section": "vocab",
+  "level": "A2",
+  "prompt": "The elevator is broken, so we have to take the ___.",
+  "options": [
+   "stairs",
+   "ladder",
+   "ceiling",
+   "roof"
+  ],
+  "answer": 0,
+  "why_es": "*Stairs* = las escaleras de un edificio. *Ladder* es la escalera portátil (de mano)."
+ },
+ {
+  "id": "pt-v-026",
+  "section": "vocab",
+  "level": "A2",
+  "prompt": "Can I ___ your pen for a minute? I'll give it right back.",
+  "options": [
+   "lend",
+   "rent",
+   "owe",
+   "borrow"
+  ],
+  "answer": 3,
+  "why_es": "*Borrow* = pedir prestado (yo recibo). *Lend* = prestar (yo doy): *Can you lend me your pen?*"
+ },
+ {
+  "id": "pt-l-022",
+  "section": "listening",
+  "level": "A2",
+  "group": "l8",
+  "audio": "Hi Carlos, it's Jenny. I'm calling about Saturday. The movie starts at seven thirty, not at seven, so let's meet in front of the theatre at seven fifteen. I already bought the tickets online, so you don't need to bring money for that. But can you bring my blue jacket? I left it at your place last week. Thanks! See you on Saturday.",
+  "prompt": "What does Jenny ask Carlos to bring?",
+  "options": [
+   "Money for the tickets",
+   "The movie tickets",
+   "Her jacket",
+   "His blue jacket"
+  ],
+  "answer": 2,
+  "why_es": "*Can you bring my blue jacket? I left it at your place.* Los boletos ya están comprados."
+ },
+ {
+  "id": "pt-g-031",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "When I was a kid, I ___ play hockey every winter, but I don't anymore.",
+  "options": [
+   "used to",
+   "use to",
+   "was used to",
+   "am used to"
+  ],
+  "answer": 0,
+  "why_es": "Hábito pasado que ya no existe: *used to* + verbo base. *Be used to* + -ing significa «estar acostumbrado a»."
+ },
+ {
+  "id": "pt-g-032",
+  "section": "grammar",
+  "level": "B1",
+  "prompt": "We'll miss the ferry ___ we leave right now.",
+  "options": [
+   "if",
+   "until",
+   "when",
+   "unless"
+  ],
+  "answer": 3,
+  "why_es": "*Unless* = «a menos que» (*if we don't leave*). Con *if* la frase diría lo contrario."
+ },
+ {
+  "id": "pt-v-027",
+  "section": "vocab",
+  "level": "B1",
+  "prompt": "I'm really looking ___ to the long weekend. We're going camping.",
+  "options": [
+   "after",
+   "up",
+   "forward",
+   "out"
+  ],
+  "answer": 2,
+  "why_es": "*Look forward to* = esperar algo con ganas. *Look after* = cuidar; *look up* = buscar (un dato)."
+ },
+ {
+  "id": "pt-v-028",
+  "section": "vocab",
+  "level": "B1",
+  "prompt": "About two hundred people ___ the conference in Winnipeg last year.",
+  "options": [
+   "assisted",
+   "attended",
+   "went",
+   "participated"
+  ],
+  "answer": 1,
+  "why_es": "*Attend* = asistir a. *Assist* es un falso amigo: significa «ayudar». *Went* y *participated* necesitan preposición (*to* / *in*)."
+ },
+ {
+  "id": "pt-l-023",
+  "section": "listening",
+  "level": "B1",
+  "group": "l9",
+  "audio": "Attention passengers on the five forty train to Kingston. Because of a signal problem, this train will now leave from platform six instead of platform two, and departure is delayed by about twenty minutes. Passengers with connections in Kingston should speak to a staff member at the information desk before boarding. The café car will not be open on this trip, so you may want to buy food in the station. We apologize for the inconvenience.",
+  "prompt": "What should passengers who have a connection in Kingston do?",
+  "options": [
+   "Wait on platform two",
+   "Talk to an employee at the information desk before getting on",
+   "Buy a new ticket in the station",
+   "Ask for help in the café car"
+  ],
+  "answer": 1,
+  "why_es": "*Should speak to a staff member at the information desk before boarding* (*boarding* = subir al tren)."
+ },
+ {
+  "id": "pt-g-033",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "I wish I ___ that condo when prices were lower. Now I can't afford it.",
+  "options": [
+   "bought",
+   "would buy",
+   "have bought",
+   "had bought"
+  ],
+  "answer": 3,
+  "why_es": "Arrepentimiento sobre el pasado: *wish* + pasado perfecto (*had bought*)."
+ },
+ {
+  "id": "pt-g-034",
+  "section": "grammar",
+  "level": "B2",
+  "prompt": "By the end of next year, she ___ at the hospital for a decade.",
+  "options": [
+   "will have worked",
+   "will work",
+   "is working",
+   "has worked"
+  ],
+  "answer": 0,
+  "why_es": "Acción que estará cumplida en un punto del futuro (*by the end of next year*) → futuro perfecto."
+ },
+ {
+  "id": "pt-v-029",
+  "section": "vocab",
+  "level": "B2",
+  "prompt": "Rents in the city have risen ___ over the past five years, by almost forty percent.",
+  "options": [
+   "hardly",
+   "slightly",
+   "sharply",
+   "barely"
+  ],
+  "answer": 2,
+  "why_es": "*Rise sharply* = subir de forma brusca. *Hardly* no es «duramente»: significa «casi no»."
+ },
+ {
+  "id": "pt-v-030",
+  "section": "vocab",
+  "level": "B2",
+  "prompt": "Hiring ten more people isn't ___ right now; we simply don't have the budget.",
+  "options": [
+   "available",
+   "feasible",
+   "capable",
+   "eligible"
+  ],
+  "answer": 1,
+  "why_es": "*Feasible* = viable, que se puede llevar a cabo."
+ },
+ {
+  "id": "pt-l-024",
+  "section": "listening",
+  "level": "B2",
+  "group": "l10",
+  "audio": "Hi Priya, it's Tom from the hiring team. Thanks for coming in on Tuesday. Everyone was impressed with your portfolio, and honestly, you were our strongest candidate. Unfortunately, the budget for that position has been frozen until the new year, so we can't make an offer right now. That said, we'd hate to lose you. There's a three-month contract opening in the same department, starting next month, and it could well turn into something permanent. If that's of interest, call me back by Friday and I'll set things up.",
+  "prompt": "What is the main purpose of Tom's message?",
+  "options": [
+   "To propose a temporary role because the original position is on hold",
+   "To offer Priya the permanent position she interviewed for",
+   "To tell Priya that a stronger candidate was chosen",
+   "To ask Priya to send her portfolio again by Friday"
+  ],
+  "answer": 0,
+  "why_es": "El puesto quedó congelado (*frozen until the new year*), y Tom propone un contrato de tres meses (*a three-month contract*)."
+ },
+ {
+  "id": "pt-g-035",
+  "section": "grammar",
+  "level": "C1",
+  "prompt": "If she had accepted the transfer to Halifax back then, she ___ there now.",
+  "options": [
+   "would have lived",
+   "will be living",
+   "had been living",
+   "would be living"
+  ],
+  "answer": 3,
+  "why_es": "Condicional mixto: condición en el pasado (*had accepted*) con resultado en el presente (*would be living … now*)."
+ },
+ {
+  "id": "pt-g-036",
+  "section": "grammar",
+  "level": "C1",
+  "prompt": "___ you require any further information, please do not hesitate to contact us.",
+  "options": [
+   "Would",
+   "Had",
+   "Should",
+   "Were"
+  ],
+  "answer": 2,
+  "why_es": "Inversión formal del primer condicional: *Should you require* = *If you require*. *Had* pediría participio y *Were*, *to* + verbo."
+ },
+ {
+  "id": "pt-v-031",
+  "section": "vocab",
+  "level": "C1",
+  "prompt": "The report ___ light on why so many newcomers leave the province within two years.",
+  "options": [
+   "sheds",
+   "puts",
+   "gives",
+   "turns"
+  ],
+  "answer": 0,
+  "why_es": "Colocación: *shed light on* = aclarar, arrojar luz sobre."
+ },
+ {
+  "id": "pt-v-032",
+  "section": "vocab",
+  "level": "C1",
+  "prompt": "To meet the target, the plant will have to ___ up production considerably over the summer.",
+  "options": [
+   "raise",
+   "ramp",
+   "lift",
+   "climb"
+  ],
+  "answer": 1,
+  "why_es": "*Ramp up production* = aumentar la producción de forma rápida y sostenida; es la colocación habitual en el registro profesional."
+ },
+ {
+  "id": "pt-l-025",
+  "section": "listening",
+  "level": "C1",
+  "group": "l11",
+  "audio": "A: So, what did you think of Derek's proposal?\nB: Well, it's certainly ambitious. And the slides were beautifully designed.\nA: That's not exactly a ringing endorsement.\nB: Look, I'm not saying it can't work. I'd just like to see where the numbers come from before we commit the whole team to it.\nA: Fair enough. Should I tell him it's a no?\nB: I wouldn't go that far. Ask him to walk us through the assumptions on Thursday. If they hold up, I'm in.",
+  "prompt": "What is B's opinion of the proposal?",
+  "options": [
+   "She fully supports it because it is ambitious.",
+   "She has already decided to turn it down.",
+   "She doubts the figures behind it but hasn't ruled it out.",
+   "She thinks the slides need to be redesigned."
+  ],
+  "answer": 2,
+  "why_es": "Elogia solo lo superficial y quiere ver *where the numbers come from*; pero *I wouldn't go that far* y *If they hold up, I'm in* indican que no lo descarta."
  }
 ]

@@ -295,3 +295,16 @@ export async function recentMoves(userId: string, limit = 20) {
   ]);
   return [...wallet, ...ledger].sort((a, b) => +b.at - +a.at).slice(0, limit);
 }
+
+/**
+ * Bono del día: 15 min de doble XP al empezar la primera sesión del día. Una vez por día (clave idempotente) y solo si
+ * no hay otro potenciador activo. Devuelve hasta cuándo dura, o null si ya se había dado hoy.
+ */
+export async function grantDailyBoost(userId: string, day: string): Promise<Date | null> {
+  const d = db();
+  const ins = await d.insert(W).values({ userId, key: `daily-boost:${day}`, currency: "boosts", amount: 0, reason: "Bono del día: doble XP 15 min" }).onConflictDoNothing().returning({ key: W.key });
+  if (!ins.length) return null;
+  const until = new Date(Date.now() + BOOST.minutes * 60_000);
+  await d.update(P).set({ boostUntil: until }).where(eq(P.userId, userId));
+  return until;
+}

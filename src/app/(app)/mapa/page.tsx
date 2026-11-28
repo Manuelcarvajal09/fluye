@@ -37,13 +37,13 @@ type Row = { key: string; x: number; here: boolean; done: boolean; h: number; ex
 
 /** Curva continua que une los centros de las paradas: verde y sólida en lo recorrido, de puntos en lo pendiente. */
 function SectionPath({ rows }: { rows: Row[] }) {
+  const pts: { x: number; y: number; done: boolean }[] = [];
   let y = 0;
-  const pts = rows.map((r) => {
+  for (const r of rows) {
     const size = r.here ? NODE_HERE : NODE;
-    const p = { x: r.x + size / 2, y: y + r.extra + ROW / 2, done: r.done };
+    pts.push({ x: r.x + size / 2, y: y + r.extra + ROW / 2, done: r.done });
     y += r.h;
-    return p;
-  });
+  }
   const W = Math.max(...pts.map((p) => p.x)) + 3;
   const seg = (i: number) => {
     const a = pts[i];

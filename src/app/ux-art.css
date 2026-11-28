@@ -216,40 +216,53 @@ a:has([data-pending="true"]) .ico, a:has([data-pending="true"]) > svg { animatio
 .profile-stat-val { font-family: var(--font-display), var(--font-sans); font-size: 1.05rem; font-weight: 900; line-height: 1.15; }
 .profile-stat-lbl { font-size: 0.75rem; font-weight: 700; color: var(--muted); line-height: 1.3; }
 
-/* ---------- Menú: la sección activa «se alza» ---------- */
-/* Móvil: barra con esquinas superiores redondeadas; sobre la sección activa, el fondo de la barra crece en una joroba
-   suave y el icono sube y crece un poco. Solo transform/opacity en la animación. */
-.tabbar { border-radius: 1.4rem 1.4rem 0 0; border-inline: 1px solid var(--line); box-shadow: 0 -6px 18px -12px rgb(20 30 50 / 0.18); }
-.tabbar li { position: relative; }
-.tabbar a { position: relative; z-index: 1; }
-.tabbar a::before {
-  content: ""; position: absolute; z-index: -1; left: 50%; top: -0.95rem; width: 4.4rem; height: 2.4rem;
-  border-radius: 999px 999px 0 0; background: var(--surface); border: 1px solid var(--line); border-bottom: 0;
-  transform: translateX(-50%) translateY(0.6rem) scaleX(0.7); opacity: 0;
-  transition: transform 220ms var(--ease-out), opacity 160ms ease;
-}
-/* Tapa la línea superior de la barra bajo la joroba para que se vea como una sola pieza. */
-.tabbar a::after { content: ""; position: absolute; z-index: -1; left: 50%; top: -0.38rem; width: 4.2rem; height: 0.8rem; transform: translateX(-50%); background: var(--surface); opacity: 0; transition: opacity 160ms ease; }
-.tabbar a[aria-current="page"]::before { transform: translateX(-50%) translateY(0) scaleX(1); opacity: 1; }
-.tabbar a[aria-current="page"]::after { opacity: 1; }
-.tabbar a .ico { transition: transform 220ms var(--ease-out), background-color var(--dur-2) var(--ease-out); }
-.tabbar a[aria-current="page"] .ico { transform: translateY(-0.55rem) scale(1.14); }
-.tabbar a[aria-current="page"] { font-weight: 900; }
-.tabbar .study::before, .tabbar .study::after { display: none; }
+/* ---------- Menú: la sección activa se levanta como una ficha ---------- */
+/* Móvil: barra flotante redondeada. La sección activa es una ficha con el mismo borde y labio que los botones,
+   que sube unos píxeles sobre la barra; el icono crece un poco. Sin jorobas ni arcos. */
+.tabbar { inset-inline: 0.5rem; bottom: max(env(safe-area-inset-bottom), 0.5rem); padding: 0.4rem 0.35rem; border-radius: 1.5rem; border: 1px solid var(--line); background: var(--surface); backdrop-filter: none; box-shadow: 0 10px 28px -14px rgb(20 30 50 / 0.35), 0 2px 0 var(--line); }
+.tabbar a { position: relative; gap: 0.15rem; padding: 0.3rem 0 0.25rem; border-radius: 1.1rem; border: 2px solid transparent; transition: transform 240ms var(--ease-out), background-color 200ms ease, border-color 200ms ease, box-shadow 200ms ease, color 200ms ease; }
+.tabbar a[aria-current="page"] { color: var(--brand-ink); font-weight: 900; background: var(--brand-soft); border-color: color-mix(in oklab, var(--brand) 32%, var(--surface)); box-shadow: 0 3px 0 color-mix(in oklab, var(--brand) 32%, var(--line)); transform: translateY(-7px); }
+.tabbar a[aria-current="page"] .ico { background: transparent; }
+.tabbar .ico { transition: transform 260ms var(--ease-out); }
+.tabbar a[aria-current="page"] .ico { transform: scale(1.16); }
+.tabbar a[aria-current="page"] .ico svg, .tabbar a[aria-current="page"] .ico > * { animation: tab-in 420ms cubic-bezier(.34, 1.56, .64, 1); }
+.tabbar a:active { transform: scale(0.95); }
+.tabbar a[aria-current="page"]:active { transform: translateY(-5px) scale(0.97); }
+@keyframes tab-in { 0% { transform: translateY(4px) scale(0.86); } 100% { transform: none; } }
+
+/* La entrada del icono activo cambia con la temática puesta. */
+:root:is([data-theme-pack="navidad"], [data-theme-pack="reyes"]) :is(.tabbar a, .nav-link)[aria-current="page"] svg { animation: tab-swing 900ms ease-out; transform-origin: 50% 0; }
+:root:is([data-theme-pack="halloween"], [data-theme-pack="dia-de-muertos"]) :is(.tabbar a, .nav-link)[aria-current="page"] svg { animation: tab-flicker 700ms ease-out; }
+:root[data-theme-pack="san-valentin"] :is(.tabbar a, .nav-link)[aria-current="page"] svg { animation: tab-beat 800ms ease-out; }
+:root:is([data-theme-pack="otono"], [data-theme-pack="primavera"], [data-theme-pack="bosque"]) :is(.tabbar a, .nav-link)[aria-current="page"] svg { animation: tab-sway 900ms ease-out; transform-origin: 50% 100%; }
+:root:is([data-theme-pack="invierno"], [data-theme-pack="aurora"], [data-theme-pack="noche-estrellada"]) :is(.tabbar a, .nav-link)[aria-current="page"] svg { animation: tab-float 900ms ease-out; }
+:root:is([data-theme-pack="chill"], [data-theme-pack="coffee-time"]) :is(.tabbar a, .nav-link)[aria-current="page"] svg { animation: tab-rise 800ms ease-out; }
+:root:is([data-theme-pack="neon"], [data-theme-pack="verano"], [data-theme-pack="mexico"]) :is(.tabbar a, .nav-link)[aria-current="page"] svg { animation: tab-pop 520ms cubic-bezier(.34, 1.56, .64, 1); }
+:root[data-theme-pack="neon"] .tabbar a[aria-current="page"] { box-shadow: 0 3px 0 color-mix(in oklab, var(--brand) 32%, var(--line)), 0 0 16px -2px color-mix(in oklab, var(--brand) 55%, transparent); }
+@keyframes tab-swing { 0% { transform: rotate(-16deg); } 30% { transform: rotate(11deg); } 55% { transform: rotate(-6deg); } 80% { transform: rotate(3deg); } 100% { transform: none; } }
+@keyframes tab-flicker { 0% { opacity: 0.25; transform: scale(0.9); } 20% { opacity: 1; } 35% { opacity: 0.5; } 55% { opacity: 1; transform: scale(1.06); } 70% { opacity: 0.75; } 100% { opacity: 1; transform: none; } }
+@keyframes tab-beat { 0% { transform: scale(0.9); } 25% { transform: scale(1.18); } 45% { transform: scale(0.98); } 65% { transform: scale(1.1); } 100% { transform: none; } }
+@keyframes tab-sway { 0% { transform: rotate(-12deg) translateY(3px); } 40% { transform: rotate(8deg); } 70% { transform: rotate(-4deg); } 100% { transform: none; } }
+@keyframes tab-float { 0% { transform: translateY(6px); opacity: 0.4; } 60% { transform: translateY(-3px); opacity: 1; } 100% { transform: none; } }
+@keyframes tab-rise { 0% { transform: translateY(7px) scale(0.94); opacity: 0.3; } 100% { transform: none; opacity: 1; } }
+@keyframes tab-pop { 0% { transform: scale(0.6) rotate(-10deg); } 100% { transform: none; } }
 
 /* Escritorio: la sección activa sale del menú como una pestaña que se funde con el fondo de la página. */
 .nav-link { position: relative; transition: background-color var(--dur-2) var(--ease-out), color var(--dur-2) var(--ease-out), transform 200ms var(--ease-out); }
 .nav-link[aria-current="page"] { background: var(--bg); color: var(--brand-ink); margin-right: calc(-1rem - 1px); padding-right: calc(0.85rem + 1rem + 1px); border-radius: var(--r-md) 0 0 var(--r-md); box-shadow: inset 4px 0 0 var(--brand); }
-/* Esquinas cóncavas arriba y abajo para que la pestaña «salga» del menú sin cortes. */
 .nav-link[aria-current="page"]::before, .nav-link[aria-current="page"]::after { content: ""; position: absolute; right: 0; width: 1rem; height: 1rem; pointer-events: none; }
 .nav-link[aria-current="page"]::before { top: -1rem; background: radial-gradient(circle at 0 0, transparent 1rem, var(--bg) calc(1rem + 0.5px)); }
 .nav-link[aria-current="page"]::after { bottom: -1rem; background: radial-gradient(circle at 0 100%, transparent 1rem, var(--bg) calc(1rem + 0.5px)); }
 .nav-link[aria-current="page"] svg { transform: scale(1.18); }
-@media (prefers-reduced-motion: reduce) { .tabbar a::before, .tabbar a .ico, .nav-link { transition: none; } }
-.tabbar { background: var(--surface); backdrop-filter: none; }
-/* Icono activo: círculo centrado en la joroba (no la píldora ancha). */
-.tabbar a[aria-current="page"] .ico { width: 2.75rem; height: 2.75rem; border-radius: 999px; transform: translateY(-0.7rem) scale(1.08); }
-/* El círculo es más alto que la píldora: se compensa abajo para que la etiqueta quede alineada con las demás. */
-.tabbar a[aria-current="page"] .ico { margin-top: -0.95rem; }
-/* La joroba envuelve el círculo del icono activo con un margen parejo. */
-.tabbar a::before { top: -1.6rem; width: 4.9rem; height: 3rem; }
+@media (prefers-reduced-motion: reduce) { .tabbar a, .tabbar .ico, .nav-link { transition: none; } :is(.tabbar a, .nav-link)[aria-current="page"] :is(svg, .ico > *) { animation: none !important; } }
+:root[data-motion="reduced"] :is(.tabbar a, .nav-link)[aria-current="page"] :is(svg, .ico > *) { animation: none !important; }
+
+/* Avisos: campana en la cabecera con contador, y hoja con la lista. */
+.notice-dot { position: absolute; top: 0; right: 0; min-width: 1.05rem; height: 1.05rem; padding: 0 0.25rem; border-radius: 999px; background: var(--bad); color: #fff; font-size: 0.65rem; font-weight: 900; line-height: 1.05rem; text-align: center; box-shadow: 0 0 0 2px var(--bg); }
+.notice-ring { animation: notice-ring 1.2s ease-in-out 2; transform-origin: 50% 10%; }
+@keyframes notice-ring { 0%, 100% { transform: rotate(0); } 20% { transform: rotate(-14deg); } 40% { transform: rotate(11deg); } 60% { transform: rotate(-6deg); } 80% { transform: rotate(3deg); } }
+@media (min-width: 640px) { .notice-sheet { inset: 4.5rem 1.5rem auto auto; margin: 0; width: 24rem; } }
+@media (prefers-reduced-motion: reduce) { .notice-ring { animation: none; } }
+
+/* Recorrido de bienvenida. */
+.tour-card { display: flex; width: min(28rem, 100%); max-height: 92dvh; overflow: auto; flex-direction: column; gap: 1.1rem; padding: 1.4rem; border-radius: 1.8rem; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-lg); }

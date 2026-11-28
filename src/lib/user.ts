@@ -83,6 +83,8 @@ export type Settings = {
   themePack?: string | null;
   background?: string | null;
   welcomeGift?: SignupGift;
+  /** Ya vio (o saltó) el recorrido de bienvenida. */
+  tour?: boolean;
   theme?: "system" | "light" | "dark";
   voice?: string;
   rate?: number;
@@ -122,7 +124,9 @@ export type PlacementResult = {
   score: number;
   total: number;
   bySection: Record<string, { right: number; total: number }>;
-  byLevel: Record<string, { right: number; total: number }>;
+  byLevel: Record<string, { right: number; total: number; skipped?: number }>;
+  /** Si quedaste cerca del nivel siguiente (entre dos niveles). */
+  near?: string | null;
 };
 
 export const settingsOf = (p: Profile) => (p.settings ?? {}) as Settings;

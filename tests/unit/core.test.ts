@@ -136,7 +136,7 @@ describe("diagnóstico", () => {
 });
 
 import { evaluateTurn, evaluateFix, contains } from "@/lib/evaluate";
-import { estimateFromTally, grade } from "@/lib/placement";
+import { corrected, estimate, estimateFromTally, grade } from "@/lib/placement";
 
 describe("evaluación de roleplays", () => {
   const turn = {
@@ -173,7 +173,17 @@ describe("test de nivel", () => {
     ];
     const r = grade(qs, { a: 0, b: null });
     expect(r.score).toBe(1);
-    expect(r.bySection.vocab).toEqual({ right: 0, total: 1 });
+    expect(r.bySection.vocab).toEqual({ right: 0, total: 1, skipped: 1 });
+  });
+  it("descuenta el azar: adivinar no sube de nivel, «No lo sé» no resta y avisa si quedas entre dos niveles", () => {
+    // 3 de 8 al azar en B2 (37 %) no alcanza; con 5 de 8 sí.
+    const base = { A1: { right: 8, total: 8 }, A2: { right: 8, total: 8 }, B1: { right: 7, total: 8 } };
+    expect(estimate({ ...base, B2: { right: 3, total: 8 } }).level).toBe("B1");
+    expect(estimate({ ...base, B2: { right: 6, total: 8 } }).level).toBe("B2");
+    // 4 aciertos y 4 «No lo sé» puntúan mejor que 4 aciertos y 4 fallos.
+    expect(corrected({ right: 4, total: 8, skipped: 4 })!).toBeGreaterThan(corrected({ right: 4, total: 8 })!);
+    expect(estimate({ ...base, B2: { right: 5, total: 8, skipped: 3 } }).level).toBe("B2");
+    expect(estimate({ ...base, B2: { right: 4, total: 8, skipped: 3 } })).toEqual({ level: "B1", near: "B2" });
   });
 });
 

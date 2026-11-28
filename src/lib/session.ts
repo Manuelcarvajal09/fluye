@@ -103,7 +103,9 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
   // Solo pruebas (FLUYE_QA=1): fuerza el banco de palabras para poder probarlo de punta a punta.
   const qaRnd = opts.qaFormat === "build" ? () => 0 : undefined;
   const d = db();
-  const budget = Math.max(12, Math.round(minutes * 4));
+  // Pasos por sesión: ~25 s por paso contando leer, escuchar y la corrección. Antes eran 4 por minuto y las sesiones
+  // duraban casi el doble de lo prometido (20 min = 80 pasos). Ahora: 5 min ≈ 12, 10 ≈ 24, 15 ≈ 36, 20 ≈ 48.
+  const budget = Math.max(10, Math.round(minutes * 2.4));
   const userLevel = levelIndex(profile.level);
   const mission = opts.trackId && !opts.noNew ? getTrack(opts.trackId) : undefined;
   // Estudiar una colección: solo sus entradas (repasos vencidos + las que aún no activas), con el mismo motor FSRS.
@@ -191,7 +193,8 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
   // Lección del día dentro de tu franja: desde B1 no se proponen lecciones A1/A2 (lo básico se da por sabido).
   // Desde el mapa («Tu viaje») se puede pedir una lección concreta de cualquier nivel, aunque ya esté hecha (para repasarla).
   const chosen = opts.lessonId && !opts.noNew ? LESSONS.find((l) => l.id === opts.lessonId) : undefined;
-  const lesson = chosen ?? (kind === "return" || opts.qaFormat || opts.noNew ? undefined : LESSONS.find((l) => !doneIds.has(l.id) && levelIndex(l.level) >= lessonMin(userLevel) && levelIndex(l.level) <= userLevel + 1));
+  // En la práctica rápida (5 min) no entra la lección del día: sería media sesión solo de lectura.
+  const lesson = chosen ?? (kind === "return" || opts.qaFormat || opts.noNew || minutes <= 5 ? undefined : LESSONS.find((l) => !doneIds.has(l.id) && levelIndex(l.level) >= lessonMin(userLevel) && levelIndex(l.level) <= userLevel + 1));
   if (lesson && (chosen || newCount > 0 || dueSteps.length < 6)) {
     lessonId = lesson.id;
     steps.push({ kind: "story", lesson });

@@ -48,10 +48,11 @@ const Body = z.object({
           decor: z.boolean().optional(),
           content: z.boolean().optional(),
           ranges: z.record(SEASON, z.object({ start: MD, end: MD })).optional(),
-          simDate: z.union([z.string().regex(/^d{4}-d{2}-d{2}$/), z.literal("")]).optional(),
+          simDate: z.union([z.string().regex(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/), z.literal("")]).optional(),
         })
         .optional(),
       celebrations: z.boolean().optional(),
+      tour: z.boolean().optional(),
       motion: z.enum(["auto", "reduced"]).optional(),
       social: z.boolean().optional(),
       explicit: z.boolean().optional(),

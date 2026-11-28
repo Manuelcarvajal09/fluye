@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireProfile } from "@/lib/user";
 import { isOwner } from "@/lib/access";
@@ -22,6 +23,13 @@ export default async function AdminPage() {
           Fluye es solo con invitación. Cada invitación va a un correo, caduca en 7 días y sirve una sola vez. Desactivar a alguien conserva su historial y cierra sus sesiones; revocar anula una invitación pendiente. Aquí no se ven respuestas, grabaciones ni progreso de nadie.
         </p>
       </header>
+      <Link href="/admin/datos" className="module flex items-center justify-between gap-3 p-4">
+        <span>
+          <b className="block">Datos de uso</b>
+          <span className="block text-sm text-muted">Errores más comunes, sesiones que se abandonan, expresiones que más cuestan y actividad por miembro.</span>
+        </span>
+        <span className="chip bg-brand-soft text-brand-ink">Abrir</span>
+      </Link>
       <AdminPanel />
       <StorageCard usage={await storageUsage()} />
     </div>

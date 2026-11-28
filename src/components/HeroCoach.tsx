@@ -39,14 +39,17 @@ export function CoachTip({ seed, say, tips = [] }: { seed: number; say?: Say; ti
         <p key={n} className="fade-up mt-1 text-sm leading-relaxed">
           {shown.text}
         </p>
-        {shown.href && (
-          <Link href={shown.href} className="mt-2 inline-block text-sm font-black text-brand-ink underline underline-offset-4">
-            {shown.cta ?? "Ir"}
-          </Link>
-        )}
-        <button type="button" onClick={() => setN((x) => x + 1)} className="mt-2 text-sm font-extrabold text-accent underline-offset-4 hover:underline">
-          Otro consejo
-        </button>
+        {/* Acciones separadas y con aire: antes «Empezar» y «Otro consejo» quedaban pegados. */}
+        <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2">
+          {shown.href && (
+            <Link href={shown.href} className="text-sm font-black text-brand-ink underline underline-offset-4">
+              {shown.cta ?? "Ir"}
+            </Link>
+          )}
+          <button type="button" onClick={() => setN((x) => x + 1)} className="text-sm font-extrabold text-accent underline-offset-4 hover:underline">
+            Otro consejo
+          </button>
+        </div>
       </div>
     </section>
   );

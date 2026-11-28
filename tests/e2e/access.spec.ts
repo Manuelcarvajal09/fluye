@@ -163,6 +163,7 @@ test.describe.serial("propietario, intentos y tienda", () => {
   test("una sesión a medias guarda su progreso al salir", async ({ page }) => {
     await signIn(page, TEST_EMAIL);
     await sql().query("delete from study_sessions where user_id = $1", [userId]);
+    await sql().query("update profiles set lives = 5 where user_id = $1", [userId]); // las vidas ya se gastan también para el propietario
     await page.goto("/sesion?min=5");
     // Avanza un paso, sea del tipo que sea (historia, opciones, fichas, dictado…).
     await expect(page.getByText(/Paso 1 de|Escucha · /).first()).toBeVisible();

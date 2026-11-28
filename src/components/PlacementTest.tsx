@@ -82,7 +82,7 @@ export function PlacementTest({ questions, previous, currentLevel }: { questions
       <div className="mx-auto flex max-w-2xl flex-col gap-5">
         <h1 className="text-3xl font-black">Test de nivel completo</h1>
         <p className="text-lg text-muted">
-          {questions.length} preguntas en 4 partes, unos 30 minutos. Mide de A1 a C1 con gramática, vocabulario, lectura y comprensión auditiva. Tu nivel actual es <b>{currentLevel}</b>
+          {questions.length} preguntas en 4 partes, unos 35 minutos. Mide de A1 a C1 con gramática, vocabulario, lectura y comprensión auditiva. Tu nivel actual es <b>{currentLevel}</b>
           {previous ? ` (último test: ${previous.level}, ${Math.round((previous.score / previous.total) * 100)}% el ${new Date(previous.date).toLocaleDateString("es-MX")})` : ""}.
         </p>
         <ul className="grid gap-3 sm:grid-cols-2">
@@ -176,7 +176,7 @@ export function PlacementTest({ questions, previous, currentLevel }: { questions
       </div>
       <div className="flex flex-wrap gap-2">
         <button type="button" className="btn btn-ghost" onClick={() => pick(null)}>
-          No lo sé
+          No lo sé (no resta)
         </button>
         {i > 0 && (
           <button type="button" className="btn btn-ghost" onClick={() => setI(i - 1)}>
@@ -200,9 +200,15 @@ function ResultView({ result, questions }: { result: Result; questions: PublicQ[
       <div className="card flex flex-col items-center gap-2 p-6 text-center">
         <p className="font-bold text-muted">Tu nivel estimado</p>
         <p className="animate-pop text-7xl font-black text-brand">{result.level}</p>
+        {result.near && (
+          <p className="chip bg-accent-soft text-accent">
+            Cerca de {result.near}: estás entre {result.level} y {result.near}
+          </p>
+        )}
         <p className="text-muted">
           {result.score} de {result.total} correctas. Ya ajusté tus sesiones a este nivel.
         </p>
+        <p className="max-w-md text-xs text-muted">El resultado descuenta los aciertos por azar: por eso «No lo sé» no te baja y adivinar sí puede bajarte.</p>
       </div>
       <div className="grid gap-4 md:grid-cols-2">
         <section className="card p-5">

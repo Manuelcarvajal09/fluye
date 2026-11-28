@@ -13,7 +13,7 @@ const NAME: Record<Field, [string, string]> = { streak: ["día de racha", "días
  * Cabecera: isotipo a la izquierda (en móvil) y, pegados a la derecha, racha, gemas y vidas. El tema se cambia en Ajustes.
  * Cada cambio de saldo anima su contador, muestra cuánto cambió y por qué, y las piezas ganadas vuelan hacia él.
  */
-export function StatBar({ wallet: initial, unlimited = false }: { wallet: Wallet; unlimited?: boolean }) {
+export function StatBar({ wallet: initial, unlimited = false, children }: { wallet: Wallet; unlimited?: boolean; children?: React.ReactNode }) {
   seedWallet(initial);
   const w = useWallet(initial);
   const sig = JSON.stringify(initial);
@@ -78,6 +78,7 @@ export function StatBar({ wallet: initial, unlimited = false }: { wallet: Wallet
             </span>
           ) : null,
         )}
+        {children}
       </div>
       <p className="sr-only" aria-live="polite">
         {said}

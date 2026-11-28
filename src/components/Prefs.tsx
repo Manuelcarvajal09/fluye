@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { setTtsPrefs, unlockAudio } from "@/lib/audio/tts";
-import { setSfxEnabled } from "@/lib/audio/sfx";
+import { installTapSound, setSfxEnabled } from "@/lib/audio/sfx";
 
 /** Aplica las preferencias guardadas (tema y voz) y sincroniza la zona horaria. */
 export function Prefs({ theme, voice, rate, accent, autoplay, tz, engine, hdVoice, sfx, colorAccent, motion, themePack }: { themePack?: string | null; motion?: "auto" | "reduced"; theme?: string; voice?: string; rate?: number; accent?: "en-US" | "en-CA"; autoplay?: boolean; tz: string; engine?: "hd" | "device"; hdVoice?: string; sfx?: boolean; colorAccent?: string }) {
@@ -10,6 +10,8 @@ export function Prefs({ theme, voice, rate, accent, autoplay, tz, engine, hdVoic
   }, [voice, rate, accent, autoplay, engine, hdVoice]);
 
   useEffect(() => setSfxEnabled(sfx !== false), [sfx]);
+  // Un «tic» muy suave al pulsar cualquier control (respeta el interruptor de efectos de sonido).
+  useEffect(() => installTapSound(), []);
 
   // Movimiento reducido elegido en la app (además del ajuste del sistema): se guarda también en el navegador para aplicarlo antes de pintar.
   useEffect(() => {

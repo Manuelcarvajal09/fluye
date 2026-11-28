@@ -2,7 +2,7 @@
 import { addDays } from "./game";
 
 /** Gemas por evento. Nunca por respuesta suelta: así no se puede "granjear" repitiendo ejercicios triviales. */
-export const GEMS = { dailyGoal: 10, dailyMission: 5, weekly: 25, achievement: 15, route: 10 } as const;
+export const GEMS = { dailyGoal: 8, dailyMission: 4, weekly: 20, achievement: 12, route: 10 } as const;
 
 /** Lunes de la semana (ISO) de un día YYYY-MM-DD. */
 export function weekStart(day: string) {

@@ -31,7 +31,9 @@ export function AppStyle({ accent: initialAccent, mode: initialMode, season }: {
 
   async function pickAccent(id: AccentId) {
     setAccent(id);
-    document.documentElement.dataset.accent = id;
+    const root = document.documentElement;
+    root.setAttribute("data-accent", id);
+    // eslint-disable-next-line react-hooks/immutability -- escribir una cookie es un efecto del clic, no del render
     document.cookie = `fluye-accent=${id}; path=/; max-age=31536000; samesite=lax`;
     setStatus((await saveSettings({ look: { accent: id } })) ? "saved" : "error");
     router.refresh();

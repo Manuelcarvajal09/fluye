@@ -19,6 +19,8 @@ import { StartButton } from "@/components/StartButton";
 import { recommendMission, trackFor } from "@/lib/recommend";
 import { seasonFor, seasonLabel, seasonRoute } from "@/lib/seasons";
 import { settleAchievements, settleWeekly } from "@/lib/rewards";
+import { GEMS } from "@/lib/challenges";
+import { Tour } from "@/components/Tour";
 import { ACHIEVEMENTS } from "@/lib/achievements";
 import { tutorTips } from "@/lib/tutor";
 import { RouteIcon } from "@/components/RouteIcon";
@@ -34,8 +36,10 @@ export const metadata = { title: "Hoy" };
 const DAYS = ["D", "L", "M", "M", "J", "V", "S"];
 const SKILL: Record<string, string> = { listen: "Escuchar", read: "Leer", speak: "Hablar", write: "Escribir" };
 
-export default async function Today() {
+export default async function Today({ searchParams }: PageProps<"/hoy">) {
   const profile = await requireProfile();
+  const sp = await searchParams;
+  const wantTour = sp.tour === "1";
   const s = settingsOf(profile);
   const mods = { week: true, load: true, goal: true, achievement: true, theme: true, challenges: true, ...s.hoy };
   const today = localDay(profile.tz);
@@ -73,6 +77,8 @@ export default async function Today() {
 
   return (
     <div className="flex flex-col gap-5 lg:gap-6">
+      {/* Recorrido de bienvenida: llega aquí desde las preguntas iniciales o desde el Perfil (?tour=1). */}
+      {wantTour && <Tour auto minutes={[5, 10, 15, 20].includes(Number(sp.min)) ? Number(sp.min) : 5} />}
       <header className="relative">
         <ThemeCorner />
         <h1 className="text-[1.9rem] font-black leading-tight lg:text-4xl">{first ? `¡Hola, ${first}!` : `¡${hello}!`}</h1>
@@ -360,7 +366,7 @@ async function HoyAside({ extra, profile, mods, week, goal, today, streak, seed,
                 ))}
               </ul>
               <p className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1.5 text-xs font-black text-accent">
-                <Gem size={16} /> +5 gemas por reto · +10 por la meta
+                <Gem size={16} /> +{GEMS.dailyMission} gemas por reto · +{GEMS.dailyGoal} por la meta · +{GEMS.weekly} por reto semanal
               </p>
             </section>
           )}
@@ -426,7 +432,7 @@ async function HoyMore({ extra, profile, mods, cols, themed, season }: { extra: 
           </span>
           <span className="min-w-0 flex-1">
             <span className="block font-black">Mide tu nivel cuando quieras</span>
-            <span className="block text-sm text-muted">Test opcional de ≈30 min. Hoy partes de {profile.level} (lo elegiste tú).</span>
+            <span className="block text-sm text-muted">Test opcional de ≈35 min. Hoy partes de {profile.level} (lo elegiste tú).</span>
           </span>
           <ChevronRight size={20} className="text-muted" aria-hidden />
         </Link>

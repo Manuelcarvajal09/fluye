@@ -6,7 +6,7 @@ export type ThemePreview = { bg: string; surface: string; text: string; muted: s
 export type Theme = { id: string; name: string; desc: string; rarity: number; swatch: string[]; preview?: { l: ThemePreview; d: ThemePreview } };
 export const THEMES = data as Theme[];
 export const THEME_IDS = THEMES.map((t) => t.id);
-export const THEME_PRICE = 400;
+export const THEME_PRICE = 900;
 export const themeKey = (id: string) => `theme-${id}`;
 export const themeOf = (id: string) => THEMES.find((t) => t.id === id);
 

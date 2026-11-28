@@ -17,7 +17,7 @@ export async function POST(req: Request) {
   const answered = PLACEMENT.filter((q) => q.id in parsed.data.answers);
   if (answered.length < Math.min(20, PLACEMENT.length)) return Response.json({ error: "Responde al menos 20 preguntas" }, { status: 400 });
   const r = grade(answered, parsed.data.answers);
-  const placement = { date: new Date().toISOString(), level: r.level, score: r.score, total: r.total, bySection: r.bySection, byLevel: r.byLevel };
+  const placement = { date: new Date().toISOString(), level: r.level, near: r.near, score: r.score, total: r.total, bySection: r.bySection, byLevel: r.byLevel };
   await db()
     .update(schema.profiles)
     .set({ settings: { ...settingsOf(profile), placement }, ...(parsed.data.apply ? { level: r.level } : {}) })

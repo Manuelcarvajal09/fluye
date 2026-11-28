@@ -27,7 +27,7 @@ export default async function Practice() {
 
       <div className="stagger grid gap-4 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-5">
         <Tile href="/practicar/entrevistas" icon={<Briefcase size={24} aria-hidden />} title="Entrevistas de trabajo" text={`${interviewRoutes} puestos (soporte TI, implementación, desarrollo, marketing, clientes, laboratorio, inventarios) en 3 dificultades`} highlight />
-        <Tile href="/practicar/test" icon={<ClipboardCheck size={24} aria-hidden />} title="Test de nivel completo" text={placement ? `Último: ${placement.level} (${Math.round((placement.score / placement.total) * 100)}%). Repítelo cuando quieras.` : `${PLACEMENT.length} preguntas · ≈30 min · A1–C1`} highlight={!placement} />
+        <Tile href="/practicar/test" icon={<ClipboardCheck size={24} aria-hidden />} title="Test de nivel completo" text={placement ? `Último: ${placement.level} (${Math.round((placement.score / placement.total) * 100)}%). Repítelo cuando quieras.` : `${PLACEMENT.length} preguntas · ≈35 min · A1–C1`} highlight={!placement} />
         <Tile href="/practicar/corrige" icon={<PenLine size={24} aria-hidden />} title="Corrige la frase" text={`${ERRORS.length} errores típicos de hispanohablantes`} />
         <Tile href="/practicar/gramatica" icon={<BookMarked size={24} aria-hidden />} title="Gramática" text={`${TENSES.length} unidades: tiempos, estructuras, escritura y conversación`} />
         <Tile href="/practicar/ielts" icon={<GraduationCap size={24} aria-hidden />} title="Guía del IELTS" text="Cómo es el examen, cómo se califica y qué practicar para cada parte" />

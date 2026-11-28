@@ -104,6 +104,7 @@ export default async function ProfilePage() {
         <Row href="/amigos" icon={<Users size={22} />} title="Amigos" text="Clasificación semanal, regalos y buzón." />
         <Row href="/progreso" icon={<ChevronRight size={22} />} title="Progreso detallado" text="Retención, errores frecuentes, pronunciación y carga de repasos." />
         <Row href="/ajustes" icon={<Settings size={22} />} title="Ajustes" text="Meta diaria, nivel, voz, sonidos, recordatorio y privacidad." />
+        <Row href="/hoy?tour=1" icon={<ChevronRight size={22} />} title="Ver el recorrido de bienvenida" text="Cómo funciona Fluye en cinco tarjetas." />
         <Row href="/api/data" icon={<Download size={22} />} title="Exportar mis datos" text="Descarga un respaldo completo (JSON) de tu progreso." download />
         {owner && <Row href="/admin" icon={<ShieldCheck size={22} />} title="Administrar acceso" text="Invitaciones y miembros (solo propietario)." />}
       </ul>

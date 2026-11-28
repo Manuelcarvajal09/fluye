@@ -68,7 +68,7 @@ export function Onboarding({ name: initialName, level: initialLevel, areas: init
                 </button>
               ))}
             </div>
-            <p className="mt-2 text-sm text-muted">Es un punto de partida. Después puedes hacer el test completo (≈30 min) para medirlo bien.</p>
+            <p className="mt-2 text-sm text-muted">Es un punto de partida. Después puedes hacer el test completo (≈35 min) para medirlo bien.</p>
           </div>
           <button type="button" className="btn btn-primary mt-auto" onClick={() => setStep(1)}>
             Continuar
@@ -132,11 +132,11 @@ export function Onboarding({ name: initialName, level: initialLevel, areas: init
           </div>
           <p className="text-muted">Con 20 minutos: 5 de repaso, 10 de contenido nuevo y 5 de práctica oral.</p>
           <div className="mt-auto flex flex-col gap-3">
-            <button type="button" disabled={busy} className="btn btn-primary" onClick={() => save(`/sesion?min=${minutes}`)}>
-              Empezar mi primera sesión
+            <button type="button" disabled={busy} className="btn btn-primary" onClick={() => save(`/hoy?tour=1&min=${minutes}`)}>
+              Listo, enséñame la app
             </button>
             <button type="button" disabled={busy} className="btn btn-ghost" onClick={() => save("/practicar/test")}>
-              <ClipboardCheck size={18} aria-hidden /> Prefiero hacer primero el test completo (≈30 min)
+              <ClipboardCheck size={18} aria-hidden /> Prefiero hacer primero el test completo (≈35 min)
             </button>
           </div>
         </section>

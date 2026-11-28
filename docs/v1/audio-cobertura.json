@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "voices": [
     {
       "id": "af_heart",
@@ -13,8 +13,8 @@
     }
   ],
   "total": {
-    "required": 43675,
-    "ok": 43675
+    "required": 43684,
+    "ok": 43684
   },
   "groups": [
     {
@@ -68,8 +68,8 @@
     {
       "voice": "af_heart",
       "group": "placement",
-      "required": 28,
-      "ok": 28,
+      "required": 34,
+      "ok": 34,
       "missing": 0,
       "invalid": 0
     },
@@ -164,8 +164,8 @@
     {
       "voice": "am_adam",
       "group": "placement",
-      "required": 21,
-      "ok": 21,
+      "required": 24,
+      "ok": 24,
       "missing": 0,
       "invalid": 0
     },

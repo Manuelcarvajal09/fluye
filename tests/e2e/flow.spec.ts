@@ -73,6 +73,10 @@ test("registro → bienvenida → lección → progreso guardado → repasos al 
   await page.getByRole("button", { name: "Biología y trabajo de campo" }).click();
   await page.getByRole("button", { name: "Continuar" }).click();
   await page.getByRole("button", { name: "10 min" }).click();
+  await page.getByRole("button", { name: "Listo, enséñame la app" }).click();
+  // Recorrido de bienvenida: cinco tarjetas y de ahí a la primera sesión.
+  await expect(page.getByRole("dialog")).toBeVisible();
+  for (let n = 0; n < 4; n++) await page.getByRole("button", { name: "Siguiente" }).click();
   await page.getByRole("button", { name: "Empezar mi primera sesión" }).click();
 
   // Sesión: historia + preguntas + nuevas + producción
@@ -114,6 +118,7 @@ test("registro → bienvenida → lección → progreso guardado → repasos al 
   expect(after[0].n).toBe(before[0].n + 1);
 
   // Segunda sesión: ya incluye repasos programados
+  await q.query("update profiles set lives = 5 where user_id = $1", [userId]); // las vidas ya se gastan también para el propietario
   await page.goto("/sesion?min=5");
   await playSession(page);
 

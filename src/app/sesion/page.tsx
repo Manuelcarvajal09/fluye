@@ -10,7 +10,8 @@ import { SessionRunner } from "@/components/session/SessionRunner";
 import { ProfileProviders } from "@/components/ProfileProviders";
 import { MyMascot } from "@/components/Coach";
 import { perksOf } from "@/lib/perks";
-import { LIVES } from "@/lib/wardrobe";
+import { grantDailyBoost } from "@/lib/economy";
+import { BOOST, LIVES } from "@/lib/wardrobe";
 
 export const metadata = { title: "Sesión" };
 
@@ -27,6 +28,13 @@ export default async function SessionPage({ searchParams }: PageProps<"/sesion">
   const noLives = profile.lives <= 0 && !perks.unlimitedLives;
   if (noLives && sp.repaso !== "1" && !resume) return <NoLives profile={profile} min={min} />;
   const [{ steps, lessonId, kind, away }, [today]] = await Promise.all([buildSession(profile, min, { trackId, lessonId: lessonPick, only: col?.items, noNew: noLives, qaFormat: process.env.FLUYE_QA === "1" && sp.formato === "build" ? "build" : undefined }), lastDays(profile, 1)]);
+  // Bono del día: quien empieza su primera sesión del día recibe 15 minutos de doble XP (incentivo por jugar; no se acumula).
+  const boosted = !!profile.boostUntil && profile.boostUntil > new Date();
+  let dailyBonus = false;
+  if (!resume && !noLives && steps.length > 0 && today.reviews === 0 && !boosted) {
+    profile.boostUntil = await grantDailyBoost(profile.userId, localDay(profile.tz));
+    dailyBonus = !!profile.boostUntil;
+  }
   const look = lookOf(settingsOf(profile).look);
   const t = trackId ? getTrack(trackId) : undefined;
 
@@ -77,7 +85,7 @@ export default async function SessionPage({ searchParams }: PageProps<"/sesion">
           trackId,
           roleplayId: t?.track.roleplay.id,
           title: col ? `Colección · ${col.name}` : t ? `${t.route.title_es} · ${t.track.band}` : kind === "return" ? "Sesión de regreso" : undefined,
-          reason: kind === "return" ? `Llevas ${away} días sin estudiar: hoy repasamos más y metemos poco nuevo.` : t?.track.objective_es,
+          reason: kind === "return" ? `Llevas ${away} días sin estudiar: hoy repasamos más y metemos poco nuevo.` : dailyBonus && !t ? `Bono del día: doble XP durante ${BOOST.minutes} minutos por empezar tu primera sesión de hoy.` : t?.track.objective_es,
         }}
       />
     </ProfileProviders>

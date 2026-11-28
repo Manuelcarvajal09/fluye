@@ -54,3 +54,23 @@
 
 /* Panda en modo oscuro: contorno claro sutil para que la silueta se lea completa. */
 [data-theme="dark"] .mascot[data-pet="panda"] > span { filter: drop-shadow(0 0 1px rgb(255 255 255 / 0.55)) drop-shadow(0 6px 8px rgb(0 0 0 / 0.3)); }
+
+/* Cofres (v2): la luz crece por la rendija antes de abrirse y sale en columna al abrir; más intensa cuanto mayor la rareza. */
+.chest-leak { animation: glow-pulse 0.5s ease-in-out infinite alternate; transform-origin: 60px 50px; }
+.chest-charging { filter: drop-shadow(0 0 10px color-mix(in srgb, var(--glow) 60%, transparent)); }
+.chest-shake-0 { animation-duration: 0.2s; }
+.chest-shake-1 { animation-duration: 0.15s; }
+.chest-beam { position: absolute; left: 50%; bottom: 42%; width: 7.5rem; height: 13rem; transform: translateX(-50%); transform-origin: 50% 100%; background: linear-gradient(to top, color-mix(in srgb, var(--glow) 75%, #fff) 0%, color-mix(in srgb, var(--glow) 35%, transparent) 45%, transparent 100%); clip-path: polygon(30% 100%, 70% 100%, 100% 0, 0 0); filter: blur(6px); opacity: 0; animation: beam-up 1.1s ease-out forwards; pointer-events: none; }
+.chest-beam-0 { height: 8rem; width: 5.5rem; }
+.chest-beam-1 { height: 10rem; width: 6.5rem; }
+.chest-beam-3 { height: 16rem; width: 9rem; animation-duration: 1.6s; }
+@keyframes beam-up { 0% { opacity: 0; transform: translateX(-50%) scaleY(0.2); } 35% { opacity: 0.95; transform: translateX(-50%) scaleY(1); } 100% { opacity: 0.45; transform: translateX(-50%) scaleY(1); } }
+.chest-rays-0 { width: 12rem; height: 12rem; opacity: 0.6; }
+.chest-rays-1 { width: 15rem; height: 15rem; }
+.chest-rays-3 { width: 22rem; height: 22rem; animation-duration: 4s; }
+.chest-prize-2 { animation-duration: 0.85s; }
+.chest-prize-3 { animation-duration: 1.05s; width: 6.5rem; height: 6.5rem; filter: drop-shadow(0 0 14px color-mix(in srgb, var(--glow) 70%, transparent)) drop-shadow(0 6px 10px rgb(0 0 0 / 0.2)); }
+.chest-stage.is-legend { animation: stage-flash 1.1s ease-out; }
+@keyframes stage-flash { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--glow) 0%, transparent); } 40% { box-shadow: 0 0 60px 6px color-mix(in srgb, var(--glow) 55%, transparent); } 100% { box-shadow: 0 0 0 0 transparent; } }
+@media (prefers-reduced-motion: reduce) { .chest-beam, .chest-leak, .chest-stage.is-legend { animation: none !important; } .chest-beam { opacity: 0.4; } }
+:root[data-motion="reduced"] :is(.chest-beam, .chest-leak, .chest-stage.is-legend) { animation: none !important; }

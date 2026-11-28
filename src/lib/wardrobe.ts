@@ -7,9 +7,10 @@ import posesData from "./armario-poses.json";
 
 export const TIERS = ["Normal", "Raro", "Épico", "Legendario"] as const;
 export type Tier = 0 | 1 | 2 | 3;
-/** Precio directo en gemas por rareza. Las mascotas cuestan 40 más. (Fase 3: subidos para equilibrar la economía.) */
-export const PRICE = [60, 110, 180, 280] as const;
-export const PET_EXTRA = 40;
+/** Precio directo en gemas por rareza. Subidos dos veces en la Fase 3 para que nada sea regalado. */
+export const PRICE = [90, 170, 300, 480] as const;
+/** Las mascotas tienen su propia escala: una legendaria es una recompensa de más de un mes de constancia. */
+export const PET_PRICE = [320, 600, 1100, 1900] as const;
 
 const ALL_PETS = [
   { id: "zorro", label: "Zorro", defaultName: "Rufo", tier: 0, free: true, x: 47.5 },
@@ -43,7 +44,7 @@ export const PET_IDS = PETS.map((p) => p.id) as PetId[];
 export const petOf = (id: string) => PETS.find((p) => p.id === id);
 export const petPrice = (id: string) => {
   const p = petOf(id);
-  return p && !p.free ? PRICE[p.tier] + PET_EXTRA : 0;
+  return p && !p.free ? PET_PRICE[p.tier] : 0;
 };
 
 export const MOODS = ["happy", "cheer", "think", "oops", "wow", "sleep", "encourage", "proud"] as const;
@@ -272,9 +273,9 @@ export function dressLayers(pet: string, wear: string[], mood = "happy"): Layer[
 
 /** Probabilidades en %: [vacío, Normal, Raro, Épico, Legendario]. */
 export const CHESTS = [
-  { id: "semilla", name: "Cofre semilla", price: 34, odds: [20, 51, 21, 7, 1] },
-  { id: "brote", name: "Cofre brote", price: 48, odds: [12, 35, 32, 17, 4] },
-  { id: "aurora", name: "Cofre aurora", price: 58, odds: [6, 22, 32, 28, 12] },
+  { id: "semilla", name: "Cofre semilla", price: 70, odds: [20, 51, 21, 7, 1] },
+  { id: "brote", name: "Cofre brote", price: 110, odds: [12, 35, 32, 17, 4] },
+  { id: "aurora", name: "Cofre aurora", price: 170, odds: [6, 22, 32, 28, 12] },
 ] as const;
 export type ChestId = (typeof CHESTS)[number]["id"];
 /** Regla de repetidos: se queda una sola copia y se devuelve la mitad del precio del cofre. */
@@ -287,10 +288,10 @@ export const chestPool = (tier: Tier) => [
 
 // ---------- Vidas, protección y potenciadores ----------
 
-export const LIVES = { start: 5, max: 5, bonusCap: 7, shieldGems: 5, practiceGoal: 8, practicePerDay: 3 } as const;
-export const BOOST = { minutes: 15, price: 60, label: "Doble XP (15 min)" } as const;
+export const LIVES = { start: 5, max: 5, bonusCap: 7, shieldGems: 15, practiceGoal: 8, practicePerDay: 3 } as const;
+export const BOOST = { minutes: 15, price: 90, label: "Doble XP (15 min)" } as const;
 /** Protector de racha: se compra con gemas; cubre un día sin meta. */
-export const FREEZE = { price: 80, max: 3 } as const;
+export const FREEZE = { price: 120, max: 3 } as const;
 export const GIFT = { perDay: 5, maxGems: 20 } as const;
 
 /** ¿Puede usar este aspecto? La mascota debe ser suya y cada pieza de cada conjunto también. Devuelve lo que falta. */

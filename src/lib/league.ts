@@ -1,5 +1,5 @@
 import "server-only";
-import { and, desc, eq, gte, inArray, lte, sql } from "drizzle-orm";
+import { and, desc, eq, gte, inArray, isNull, lte, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import type { Profile } from "./user";
 import { settingsOf } from "./user";
@@ -24,6 +24,16 @@ async function weekXp(userIds: string[], week: string) {
  * Cierra una semana ya terminada para todas las cuentas (idempotente: solo quien inserta la fila de league_weeks la cierra).
  * Congela el XP, decide quién sube o baja en cada nivel y paga las gemas de ascenso.
  */
+/** Si otra petición está cerrando la semana ahora mismo, espera a que termine para no dar de alta con el nivel viejo. */
+async function settled(week: string) {
+  const d = db();
+  for (let n = 0; n < 20; n++) {
+    const [open] = await d.select({ one: sql<number>`1` }).from(L).where(and(eq(L.week, week), isNull(L.result))).limit(1);
+    if (!open) return;
+    await new Promise((r) => setTimeout(r, 150));
+  }
+}
+
 async function closeWeek(week: string) {
   const d = db();
   const claimed = await d.insert(schema.leagueWeeks).values({ week }).onConflictDoNothing().returning({ week: schema.leagueWeeks.week });
@@ -60,6 +70,7 @@ export async function ensureLeague(profile: Profile) {
   }
   const [mine] = await d.select().from(L).where(and(eq(L.userId, profile.userId), eq(L.week, week)));
   if (mine) return mine;
+  await settled(prev);
   const [last] = await d.select().from(L).where(eq(L.userId, profile.userId)).orderBy(desc(L.week)).limit(1);
   let tier = 0;
   if (last) {

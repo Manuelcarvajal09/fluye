@@ -48,16 +48,26 @@ test("sin vidas (miembro): no hay lecciones nuevas, el repaso sigue; con el perm
   }
 });
 
-test("propietario: vidas ilimitadas siempre (∞) aunque tenga 0", async ({ page }) => {
+test("propietario: sin vidas se bloquea como cualquiera; con el permiso activado ve ∞", async ({ page }) => {
   test.setTimeout(120_000);
-  await sql().query("update profiles set lives = 0 where user_id = $1", [userId]);
-  await setupClerkTestingToken({ page });
-  await page.goto("/");
-  await clerk.signIn({ page, emailAddress: TEST_EMAIL });
-  await page.goto("/hoy");
-  await expect(page.getByRole("link", { name: "Vidas ilimitadas" })).toBeVisible();
-  await page.goto("/sesion?min=5");
-  await expect(page.getByRole("heading", { name: "Te quedaste sin vidas" })).toHaveCount(0);
+  const q = sql();
+  await q.query("delete from member_perks where user_id = $1", [userId]);
+  await q.query("update profiles set lives = 0 where user_id = $1", [userId]);
+  try {
+    await setupClerkTestingToken({ page });
+    await page.goto("/");
+    await clerk.signIn({ page, emailAddress: TEST_EMAIL });
+    await page.goto("/sesion?min=5");
+    await expect(page.getByRole("heading", { name: "Te quedaste sin vidas" })).toBeVisible();
+    await q.query("insert into member_perks (user_id, unlimited_lives) values ($1, true)", [userId]);
+    await page.goto("/hoy");
+    await expect(page.getByRole("link", { name: "Vidas ilimitadas" }).filter({ visible: true }).first()).toBeVisible();
+    await page.goto("/sesion?min=5");
+    await expect(page.getByRole("heading", { name: "Te quedaste sin vidas" })).toHaveCount(0);
+  } finally {
+    await q.query("delete from member_perks where user_id = $1", [userId]);
+    await q.query("update profiles set lives = 5 where user_id = $1", [userId]);
+  }
 });
 
 test("liga: alta semanal, cierre de la semana pasada con ascenso y premio una sola vez", async ({ page }) => {

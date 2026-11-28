@@ -2,7 +2,7 @@ import { clerk, clerkSetup, setupClerkTestingToken } from "@clerk/testing/playwr
 import { expect, test, type Browser, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { ensureTestUser, sql, TEST_EMAIL } from "./helpers";
-import { CHESTS, PRICE, dupRefund } from "../../src/lib/wardrobe";
+import { CHESTS, LIVES, PRICE, dupRefund } from "../../src/lib/wardrobe";
 
 // Precios del código (no escritos a mano): así la prueba sigue valiendo cuando se reequilibra la economía.
 const CHEST = Object.fromEntries(CHESTS.map((c) => [c.id, c])) as Record<string, (typeof CHESTS)[number]>;
@@ -99,8 +99,11 @@ test("armario: probar, comprar, guardar un conjunto por mascota y validar en el 
 test("cofres: cobran una vez, salen vacíos y repetidos, y la cuenta de gemas cuadra", async ({ browser }) => {
   test.setTimeout(300_000);
   const page = await login(browser, TEST_EMAIL);
-  await sql().query("update profiles set gems = 3000 where user_id = $1", [A]);
+  await sql().query("update profiles set gems = 6000 where user_id = $1", [A]);
   const start = (await profile(A)).gems;
+  // Los logros que se cumplen al abrir cofres (piezas nuevas) pagan gemas por su cuenta: se descuentan del cuadre.
+  const ledger = async () => Number((await sql().query("select coalesce(sum(amount), 0)::int as n from gem_ledger where user_id = $1", [A]))[0].n);
+  const ledger0 = await ledger();
   const seen = { empty: 0, new: 0, dup: 0 };
   let refunds = 0;
   for (let n = 0; n < 45; n++) {
@@ -113,7 +116,7 @@ test("cofres: cobran una vez, salen vacíos y repetidos, y la cuenta de gemas cu
   }
   expect(seen.empty).toBeGreaterThan(0);
   expect(seen.dup).toBeGreaterThan(0);
-  expect((await profile(A)).gems).toBe(start - 45 * CHEST.semilla.price + refunds);
+  expect((await profile(A)).gems).toBe(start - 45 * CHEST.semilla.price + refunds + ((await ledger()) - ledger0));
   // Repetir la misma clave no vuelve a cobrar.
   const k = key();
   const c0 = (await profile(A)).gems;
@@ -230,7 +233,7 @@ test("vidas: protección con gemas, pérdida de vidas y recuperación practicand
   const k = key();
   expect((await api(page, "/api/shop", { action: "shield", key: k })).ok).toBe(true);
   await api(page, "/api/shop", { action: "shield", key: k });
-  expect((await profile(A)).gems).toBe(15);
+  expect((await profile(A)).gems).toBe(20 - LIVES.shieldGems);
   const wrong = (n: number) => api(page, "/api/review", { itemId: ITEM, mode: "recog", grade: 1, correct: false, isNew: n === 0, attemptId: `e2e-life-${Date.now()}-${n}`, ctx: "lesson" });
   expect((await wrong(0)).life.change).toBe("shielded");
   expect((await wrong(1)).life.change).toBe("lost");

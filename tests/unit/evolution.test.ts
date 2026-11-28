@@ -122,9 +122,10 @@ describe("armario", () => {
     expect(poseLayers("gato", ["sweater", "cap"]).map((x) => x.src)).toEqual(["/armario/layers/cap.webp"]);
   });
   it("cofres: cuestan menos que comprar, repetidos devuelven la mitad y cada rareza tiene premios", () => {
+    // Cada cofre cuesta menos que comprar directamente una pieza de su rango (semilla < normal, brote < rara, aurora < épica).
+    CHESTS.forEach((c, i) => expect(c.price).toBeLessThan(PRICE[i]));
     for (const c of CHESTS) {
       expect(c.odds.reduce((a, b) => a + b, 0)).toBe(100);
-      expect(c.price).toBeLessThan(PRICE[0]);
       expect(dupRefund(c)).toBeLessThan(c.price);
     }
     for (const t of [0, 1, 2, 3] as const) expect(chestPool(t).length).toBeGreaterThan(0);
