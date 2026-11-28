@@ -1,0 +1,255 @@
+/* Arte de UX (Codex, fase 4): montaje en línea y animaciones por capas (data-part). */
+.ux-art { display: block; }
+.ux-art svg { display: block; width: 100%; height: 100%; }
+.ux-dark { display: none; }
+[data-theme="dark"] .ux-dark { display: block; }
+[data-theme="dark"] .ux-light { display: none; }
+
+/* Cabeceras de sección */
+.section-header { position: relative; overflow: hidden; border-radius: var(--r-xl); aspect-ratio: 780 / 360; }
+@media (min-width: 40rem) { .section-header { aspect-ratio: 4 / 1; } }
+.section-header-art { position: absolute; inset: 0; }
+.section-header-title { position: absolute; left: 4%; top: 50%; transform: translateY(-50%); max-width: 24%; margin: 0; font-family: var(--font-display), var(--font-sans); font-weight: 900; font-size: clamp(1.6rem, 3.2vw, 2.6rem); line-height: 1.05; color: var(--text); text-wrap: balance; }
+
+/* Animaciones suaves en bucle. Solo transform y opacity. */
+@keyframes ux-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes ux-sway { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+@keyframes ux-drift { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(14px); } }
+@keyframes ux-rise { 0% { transform: translateY(4px); opacity: 0; } 40% { opacity: 1; } 100% { transform: translateY(-10px); opacity: 0; } }
+@keyframes ux-pulse { 0%, 100% { opacity: 0.45; transform: scale(0.96); } 50% { opacity: 1; transform: scale(1.04); } }
+@keyframes ux-twinkle { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.35; transform: scale(0.8); } }
+@keyframes ux-fall { 0% { transform: translate(0, -6px) rotate(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translate(-8px, 16px) rotate(40deg); opacity: 0; } }
+@keyframes ux-spin { to { transform: rotate(360deg); } }
+@keyframes ux-in-up { from { transform: translateY(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes ux-in-pop { from { transform: scale(0.6); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes ux-drop { from { transform: translateY(-60px) rotate(-20deg); opacity: 0; } to { transform: none; opacity: 1; } }
+
+.ux-anim [data-part="vapor"] { animation: ux-rise 2.8s ease-in-out infinite; }
+.ux-anim [data-part="lazo"], .ux-anim [data-part="bandera"], .ux-anim [data-part="planta"] { animation: ux-sway 3.2s ease-in-out infinite; }
+.ux-anim [data-part="lupa"] { animation: ux-drift 3.6s ease-in-out infinite; }
+.ux-anim [data-part="tarjeta-1"], .ux-anim [data-part="globo"], .ux-anim [data-part="tarjetas"], .ux-anim [data-part="libro-cae"] { animation: ux-bob 2.6s ease-in-out infinite; }
+.ux-anim [data-part="tarjeta-2"] { animation: ux-bob 2.6s ease-in-out 0.4s infinite; }
+.ux-anim [data-part="hoja"] { animation: ux-fall 3.4s ease-in infinite; }
+.ux-anim [data-part="enchufe"] { animation: ux-sway 2.4s ease-in-out infinite; }
+.ux-anim [data-part="chispa"], .ux-anim [data-part="luces"], .ux-anim [data-part="luz"] { animation: ux-twinkle 1.8s ease-in-out infinite; }
+.ux-anim [data-part="nubes"] { animation: ux-drift 9s ease-in-out infinite; }
+.ux-anim [data-part^="banderin"] { animation: ux-sway 2.8s ease-in-out infinite; }
+.ux-anim [data-part="banderin-2"] { animation-delay: 0.5s; }
+.ux-anim [data-part="banderin-3"] { animation-delay: 1s; }
+.ux-anim [data-part="ondas"] { animation: ux-pulse 1.6s ease-in-out infinite; }
+.ux-anim [data-part="notas"] { animation: ux-bob 2.2s ease-in-out infinite; }
+
+/* Celebración: entrada por tiempos (storyboard P4) y bucle de rayos y estrellas. */
+.ux-celebra [data-part="tarima"] { animation: ux-in-up 300ms var(--ease-out, ease-out) both; }
+.ux-celebra [data-part="rayos"] { animation: ux-in-pop 500ms 400ms var(--ease-out, ease-out) both, ux-spin 24s linear 900ms infinite; }
+.ux-celebra [data-part^="serpentina"] { animation: ux-drop 800ms 600ms var(--ease-out, ease-out) both; }
+.ux-celebra [data-part^="estrella"] { animation: ux-drop 800ms 600ms var(--ease-out, ease-out) both, ux-twinkle 1.6s ease-in-out 1.4s infinite; }
+.ux-celebra [data-part="estrella-2"] { animation-delay: 700ms, 1.7s; }
+.ux-celebra [data-part="estrella-3"] { animation-delay: 800ms, 2s; }
+.ux-celebra-pet { animation: ux-in-pop 400ms 200ms var(--ease-out, ease-out) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ux-anim [data-part], .ux-celebra [data-part], .ux-celebra-pet { animation: none !important; }
+}
+
+/* Pantalla de apertura (isotipo animado). */
+.splash { position: fixed; inset: 0; z-index: 60; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.9rem; background: var(--bg); }
+.splash-base { transform-box: fill-box; transform-origin: center; animation: splash-pop 420ms var(--ease-spring, cubic-bezier(.34,1.56,.64,1)) both; }
+.splash-wave { stroke-dasharray: 1; stroke-dashoffset: 1; animation: splash-draw 520ms var(--ease-out, ease-out) forwards, splash-flow 1.6s ease-in-out 900ms infinite; }
+.splash-wave-1 { animation-delay: 180ms, 900ms; }
+.splash-wave-2 { animation-delay: 320ms, 1100ms; }
+.splash-name { font-family: var(--font-display), var(--font-sans); font-weight: 900; font-size: 1.6rem; letter-spacing: -0.015em; color: var(--text); animation: splash-fade 400ms 500ms ease-out both; }
+.splash-hint { font-weight: 700; font-size: 0.9rem; color: var(--muted); animation: splash-fade 400ms 1.4s ease-out both; }
+@keyframes splash-pop { from { transform: scale(0.8); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes splash-draw { to { stroke-dashoffset: 0; } }
+@keyframes splash-flow { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(2px); } }
+@keyframes splash-fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .splash-base, .splash-wave, .splash-name, .splash-hint { animation: none; stroke-dashoffset: 0; opacity: 1; } }
+:root[data-motion="reduced"] :is(.splash-base, .splash-wave, .splash-name, .splash-hint) { animation: none; stroke-dashoffset: 0; opacity: 1; }
+:root[data-motion="reduced"] .ux-anim [data-part], :root[data-motion="reduced"] .ux-celebra [data-part], :root[data-motion="reduced"] .ux-celebra-pet { animation: none !important; }
+
+/* Navegación: el enlace pulsado reacciona al instante mientras llega la sección. */
+.nav-pending { display: none; }
+[data-pending="true"].nav-pending { display: block; position: absolute; inset: auto 22% 2px; height: 3px; border-radius: 99px; background: var(--brand); transform-origin: left; animation: nav-load 900ms ease-in-out infinite; }
+a:has(> [data-pending="true"]), a:has([data-pending="true"]) { position: relative; }
+a:has([data-pending="true"]) .ico, a:has([data-pending="true"]) > svg { animation: nav-press 600ms ease-in-out infinite alternate; }
+@keyframes nav-load { 0% { transform: scaleX(0.15); opacity: 0.6; } 50% { transform: scaleX(1); opacity: 1; } 100% { transform: scaleX(0.15) translateX(400%); opacity: 0.6; } }
+@keyframes nav-press { to { transform: scale(0.9); } }
+@media (prefers-reduced-motion: reduce) { [data-pending="true"].nav-pending, a:has([data-pending="true"]) .ico, a:has([data-pending="true"]) > svg { animation: none; } }
+
+/* Elementos de las temáticas legendarias (src/components/theme/ThemeDecor.tsx). Decorativos y sin eventos de puntero. */
+.theme-particles { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; color: color-mix(in oklab, var(--brand) 35%, #cfe0f0); }
+[data-theme="dark"] .theme-particles { color: #ffffff; }
+.theme-particle { position: absolute; display: block; opacity: 0.55; will-change: transform; }
+[data-theme="dark"] .theme-particle { opacity: 0.45; }
+.theme-fall .theme-particle { top: -40px; animation: theme-fall linear infinite; }
+.theme-rise .theme-particle { bottom: -40px; animation: theme-rise linear infinite; }
+.theme-twinkle .theme-particle { animation: theme-twinkle ease-in-out infinite; }
+.theme-drift .theme-particle { animation: theme-drift ease-in-out infinite; }
+@keyframes theme-fall { 0% { transform: translate(0, 0) rotate(0); } 50% { transform: translate(24px, 55vh) rotate(160deg); } 100% { transform: translate(-12px, 112vh) rotate(320deg); } }
+@keyframes theme-rise { 0% { transform: translate(0, 0) scale(0.9); opacity: 0; } 15% { opacity: 0.5; } 100% { transform: translate(18px, -112vh) scale(1.1); opacity: 0; } }
+@keyframes theme-twinkle { 0%, 100% { transform: scale(0.6); opacity: 0.15; } 50% { transform: scale(1); opacity: 0.7; } }
+@keyframes theme-drift { 0%, 100% { transform: translate(0, 0) rotate(-6deg); } 50% { transform: translate(30px, -18px) rotate(6deg); } }
+
+.theme-garland { position: relative; z-index: 15; height: 58px; margin: -6px -4px 4px; pointer-events: none; color: color-mix(in oklab, var(--text) 35%, transparent); }
+.theme-garland-cord { position: absolute; inset: 0 0 auto; width: 100%; height: 18px; }
+.theme-garland-row { position: absolute; inset: 0; display: flex; justify-content: space-around; align-items: flex-start; padding-top: 6px; }
+.theme-swing { display: inline-flex; flex-direction: column; align-items: center; transform-origin: 50% 0; animation: theme-swing 3.2s ease-in-out infinite; }
+.theme-light { animation: theme-glow 1.6s ease-in-out infinite; }
+.theme-papel .theme-garland-row { justify-content: space-between; }
+@keyframes theme-swing { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+@keyframes theme-glow { 0%, 100% { opacity: 0.55; filter: none; } 50% { opacity: 1; filter: drop-shadow(0 0 4px currentColor); } }
+
+.theme-corner { position: absolute; top: 0.25rem; right: 0.25rem; z-index: 5; display: flex; align-items: flex-end; gap: 2px; pointer-events: none; }
+.theme-bob { display: inline-block; animation: ux-bob 3s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) { .theme-particle, .theme-swing, .theme-light, .theme-bob { animation: none !important; } .theme-fall .theme-particle, .theme-rise .theme-particle { display: none; } }
+:root[data-motion="reduced"] :is(.theme-particle, .theme-swing, .theme-light, .theme-bob) { animation: none !important; }
+:root[data-motion="reduced"] :is(.theme-fall, .theme-rise) .theme-particle { display: none; }
+
+/* «Tu viaje» (mapa por islas). Mismo lenguaje que el resto de la app: rellenos planos, borde de 2 px y labio inferior
+   de 3–4 px como los botones y las opciones (sin degradados ni brillos). Camino curvo continuo en SVG. */
+.map-path { position: relative; }
+.map-svg { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.map-track { fill: none; stroke: var(--line); stroke-width: 0.5; stroke-linecap: round; }
+.map-dots { fill: none; stroke: color-mix(in oklab, var(--muted) 50%, transparent); stroke-width: 0.24; stroke-linecap: round; stroke-dasharray: 0.01 0.55; }
+.map-trail { fill: none; stroke: var(--good); stroke-width: 0.5; stroke-linecap: round; }
+.map-trail-shine { display: none; }
+.map-row { position: relative; }
+
+/* Pendiente: como un botón fantasma con un toque del color de su tipo. */
+.map-node {
+  --k: var(--brand);
+  --n: 3.75rem;
+  position: relative; display: grid; place-items: center; width: var(--n); height: var(--n); flex-shrink: 0; border-radius: 999px;
+  color: var(--k);
+  background: color-mix(in oklab, var(--k) 9%, var(--surface));
+  border: 2px solid color-mix(in oklab, var(--k) 30%, var(--line));
+  box-shadow: 0 3px 0 color-mix(in oklab, var(--k) 30%, var(--line));
+  transition: transform var(--dur-1) var(--ease-out), box-shadow var(--dur-1) var(--ease-out);
+}
+.map-node.k-lesson { --k: var(--brand); }
+/* En claro, tonos vivos (los tokens de texto --fire/--gold son oscuros para contraste de letra); en oscuro, los de la paleta. */
+.map-node.k-mission { --k: #ec7414; }
+.map-node.k-interview { --k: #6a55e8; }
+.map-node.k-roleplay { --k: #1d8fe1; }
+.map-node.k-reading { --k: #e09a00; }
+.map-node.map-review { --k: #1d8fe1; }
+[data-theme="dark"] .map-node.k-mission { --k: var(--fire); }
+[data-theme="dark"] .map-node.k-interview { --k: var(--accent); }
+[data-theme="dark"] .map-node:is(.k-roleplay, .map-review) { --k: var(--sky); }
+[data-theme="dark"] .map-node.k-reading { --k: var(--gold); }
+@media (hover: hover) and (pointer: fine) { .group:hover .map-node { transform: translateY(-2px); } }
+.group:active .map-node { transform: translateY(2px); box-shadow: 0 1px 0 color-mix(in oklab, var(--k) 30%, var(--line)); }
+
+/* Hecha y «sigue aquí»: relleno sólido del tipo y labio más oscuro, igual que .btn-primary. */
+.map-node:is(.is-done, .is-here) { color: #fff; background: var(--k); border-color: var(--k); box-shadow: 0 4px 0 color-mix(in oklab, var(--k) 62%, black); }
+[data-theme="dark"] .map-node:is(.is-done, .is-here) { color: #0d1017; }
+.map-done { position: absolute; right: -4px; bottom: -2px; display: grid; place-items: center; width: 1.4rem; height: 1.4rem; border-radius: 999px; background: var(--good); color: #fff; border: 2px solid var(--surface); }
+[data-theme="dark"] .map-done { color: #0d1017; }
+
+/* Sigue aquí: algo más grande, con un anillo suave del color del tipo y un globito sencillo encima. */
+.map-node.is-here { --n: 4.25rem; box-shadow: 0 4px 0 color-mix(in oklab, var(--k) 62%, black), 0 0 0 6px color-mix(in oklab, var(--k) 16%, transparent); animation: map-breathe 2.8s ease-in-out infinite; }
+.map-bubble { position: absolute; left: 50%; bottom: calc(100% + 0.65rem); transform: translateX(-50%); white-space: nowrap; border-radius: 0.6rem; background: var(--surface); color: var(--text); border: 2px solid var(--line); padding: 0.15rem 0.55rem; font-size: 0.74rem; font-weight: 800; box-shadow: 0 3px 0 var(--line); }
+.map-bubble::after { content: ""; position: absolute; left: 50%; top: 100%; width: 0.55rem; height: 0.55rem; background: var(--surface); border-right: 2px solid var(--line); border-bottom: 2px solid var(--line); transform: translate(-50%, -50%) rotate(45deg); }
+
+/* Cofre: dorado suave; cuando se puede abrir, borde dorado y el mismo anillo. */
+.map-node.map-chest { --k: var(--gold); background: var(--gold-soft); border-color: color-mix(in oklab, var(--gold) 40%, var(--line)); }
+.map-node.map-chest.is-ready { border-color: var(--gold); box-shadow: 0 3px 0 color-mix(in oklab, var(--gold) 55%, var(--line)), 0 0 0 6px color-mix(in oklab, var(--gold) 16%, transparent); animation: map-breathe 2.8s ease-in-out infinite; }
+.map-node.map-chest.is-done { opacity: 0.75; background: var(--gold-soft); border-color: color-mix(in oklab, var(--gold) 40%, var(--line)); box-shadow: 0 3px 0 color-mix(in oklab, var(--gold) 30%, var(--line)); }
+
+.map-section-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.25rem; }
+.map-ring-mini { --p: 0; width: 2.5rem; height: 2.5rem; flex-shrink: 0; border-radius: 999px; background: conic-gradient(var(--good) calc(var(--p) * 1%), var(--line) 0); display: grid; place-items: center; }
+.map-ring-mini > span { width: 1.95rem; height: 1.95rem; border-radius: 999px; background: var(--surface); display: grid; place-items: center; font-size: 0.68rem; font-weight: 900; color: var(--muted); }
+
+.map-trophy { display: flex; align-items: center; gap: 1rem; border-radius: var(--r-lg); border: 2px dashed var(--line); padding: 1rem; }
+.map-trophy-cup { display: grid; place-items: center; width: 4rem; height: 4rem; flex-shrink: 0; border-radius: 999px; background: var(--surface); color: var(--muted); border: 2px solid var(--line); box-shadow: 0 3px 0 var(--line); }
+.map-trophy.is-ready { border-style: solid; border-color: var(--gold); background: var(--gold-soft); }
+.map-trophy.is-ready .map-trophy-cup, .map-trophy.is-done .map-trophy-cup { background: var(--gold); color: #fff; border-color: var(--gold); box-shadow: 0 4px 0 color-mix(in oklab, var(--gold) 60%, black); }
+.map-island > summary::-webkit-details-marker { display: none; }
+.map-island > summary .map-chev { transition: transform var(--dur-2) var(--ease-out); }
+.map-island[open] > summary .map-chev { transform: rotate(180deg); }
+
+/* Respiración suave del anillo (sin parpadeos ni escalas grandes). */
+@keyframes map-breathe { 0%, 100% { outline: 0 solid transparent; } 50% { outline: 4px solid color-mix(in oklab, var(--k) 12%, transparent); outline-offset: 6px; } }
+@media (prefers-reduced-motion: reduce) { .map-node { animation: none !important; transition: none; } }
+:root[data-motion="reduced"] .map-node { animation: none !important; }
+
+/* Hoja de filtros (popover nativo): abajo en móvil, centrada en pantallas grandes. */
+.filter-sheet { position: fixed; inset: auto 0 0 0; margin: 0; width: 100%; max-height: 85dvh; overflow: auto; display: none; flex-direction: column; gap: 1rem; border: 0; border-radius: var(--r-xl) var(--r-xl) 0 0; background: var(--surface); color: var(--text); padding: 1.25rem 1rem calc(1.25rem + env(safe-area-inset-bottom)); box-shadow: var(--shadow-lg); }
+.filter-sheet:popover-open { display: flex; animation: sheet-up 0.28s var(--ease-out); }
+.filter-sheet::backdrop { background: rgb(0 0 0 / 0.4); }
+@media (min-width: 640px) { .filter-sheet { inset: 0; margin: auto; width: min(36rem, calc(100% - 2rem)); height: fit-content; border-radius: var(--r-xl); } }
+@keyframes sheet-up { from { transform: translateY(24px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .filter-sheet:popover-open { animation: none; } }
+
+/* Tu estilo: muestras de color con relieve suave. */
+.style-swatch { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; padding: 0.65rem 0.4rem; border-radius: var(--r-md); border: 2px solid var(--line); background: var(--surface); transition: transform 160ms var(--ease-out), border-color 160ms var(--ease-out); }
+.style-swatch:active { transform: scale(0.97); }
+.style-swatch.is-on { border-color: var(--accent); background: var(--accent-soft); }
+.style-dot { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 999px; color: #fff; box-shadow: inset 0 -3px 0 rgb(0 0 0 / 0.18), 0 2px 6px rgb(0 0 0 / 0.12); }
+
+/* Vista previa de temáticas: dos mini pantallas (claro y oscuro). */
+.theme-mini { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.theme-mini-screen { display: flex; flex-direction: column; gap: 0.35rem; padding: 0.35rem; border-radius: 0.85rem; border: 1.5px solid; aspect-ratio: 4 / 3.2; overflow: hidden; }
+.theme-mini-hero { position: relative; display: flex; flex-direction: column; justify-content: center; gap: 0.25rem; padding: 0.4rem 0.45rem; border-radius: 0.55rem; flex: 1; }
+.theme-mini-motifs { position: absolute; right: 0.25rem; bottom: 0.1rem; display: flex; align-items: flex-end; gap: 0.1rem; }
+.theme-mini-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 0.4rem 0.45rem; border-radius: 0.55rem; border: 1px solid; }
+.theme-mini-line { display: block; height: 0.3rem; border-radius: 999px; }
+.theme-mini-pill { display: flex; align-items: center; width: 45%; height: 0.55rem; padding: 0 0.15rem; border-radius: 999px; }
+.theme-mini-pill > span { width: 0.35rem; height: 0.35rem; border-radius: 999px; }
+.theme-mini-btn { display: block; height: 0.7rem; border-radius: 0.35rem; box-shadow: inset 0 -2px 0 rgb(0 0 0 / 0.18); }
+
+/* Explorar: filas de acceso dentro de cada grupo. */
+.explore-row { display: flex; align-items: center; gap: 0.75rem; min-height: 2.9rem; padding: 0.35rem 0.5rem; margin: 0 -0.5rem; border-radius: var(--r-md); transition: background-color 150ms ease; }
+@media (hover: hover) and (pointer: fine) { .explore-row:hover { background: var(--surface-2); } }
+.explore-row:active { background: var(--surface-2); }
+.count-badge { min-width: 1.5rem; padding: 0 0.4rem; border-radius: 999px; background: var(--fire); color: #fff; font-size: 0.75rem; font-weight: 900; line-height: 1.5rem; text-align: center; }
+[data-theme="dark"] .count-badge { color: #101722; }
+.nav-group { margin: 0.9rem 0 0.2rem 0.75rem; font-size: 0.7rem; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.nav-group:first-child { margin-top: 0; }
+
+/* Perfil: tres datos iguales (liga, nivel, monedero). */
+.profile-stat { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; padding: 0.75rem 0.4rem; border-radius: var(--r-md); background: color-mix(in oklab, var(--surface) 85%, transparent); border: 1px solid var(--line); text-align: center; transition: transform var(--dur-1) var(--ease-out); }
+.profile-stat:active { transform: scale(0.97); }
+.profile-stat-ico { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 0.9rem; }
+.profile-stat-val { font-family: var(--font-display), var(--font-sans); font-size: 1.05rem; font-weight: 900; line-height: 1.15; }
+.profile-stat-lbl { font-size: 0.75rem; font-weight: 700; color: var(--muted); line-height: 1.3; }
+
+/* ---------- Menú: la sección activa «se alza» ---------- */
+/* Móvil: barra con esquinas superiores redondeadas; sobre la sección activa, el fondo de la barra crece en una joroba
+   suave y el icono sube y crece un poco. Solo transform/opacity en la animación. */
+.tabbar { border-radius: 1.4rem 1.4rem 0 0; border-inline: 1px solid var(--line); box-shadow: 0 -6px 18px -12px rgb(20 30 50 / 0.18); }
+.tabbar li { position: relative; }
+.tabbar a { position: relative; z-index: 1; }
+.tabbar a::before {
+  content: ""; position: absolute; z-index: -1; left: 50%; top: -0.95rem; width: 4.4rem; height: 2.4rem;
+  border-radius: 999px 999px 0 0; background: var(--surface); border: 1px solid var(--line); border-bottom: 0;
+  transform: translateX(-50%) translateY(0.6rem) scaleX(0.7); opacity: 0;
+  transition: transform 220ms var(--ease-out), opacity 160ms ease;
+}
+/* Tapa la línea superior de la barra bajo la joroba para que se vea como una sola pieza. */
+.tabbar a::after { content: ""; position: absolute; z-index: -1; left: 50%; top: -0.38rem; width: 4.2rem; height: 0.8rem; transform: translateX(-50%); background: var(--surface); opacity: 0; transition: opacity 160ms ease; }
+.tabbar a[aria-current="page"]::before { transform: translateX(-50%) translateY(0) scaleX(1); opacity: 1; }
+.tabbar a[aria-current="page"]::after { opacity: 1; }
+.tabbar a .ico { transition: transform 220ms var(--ease-out), background-color var(--dur-2) var(--ease-out); }
+.tabbar a[aria-current="page"] .ico { transform: translateY(-0.55rem) scale(1.14); }
+.tabbar a[aria-current="page"] { font-weight: 900; }
+.tabbar .study::before, .tabbar .study::after { display: none; }
+
+/* Escritorio: la sección activa sale del menú como una pestaña que se funde con el fondo de la página. */
+.nav-link { position: relative; transition: background-color var(--dur-2) var(--ease-out), color var(--dur-2) var(--ease-out), transform 200ms var(--ease-out); }
+.nav-link[aria-current="page"] { background: var(--bg); color: var(--brand-ink); margin-right: calc(-1rem - 1px); padding-right: calc(0.85rem + 1rem + 1px); border-radius: var(--r-md) 0 0 var(--r-md); box-shadow: inset 4px 0 0 var(--brand); }
+/* Esquinas cóncavas arriba y abajo para que la pestaña «salga» del menú sin cortes. */
+.nav-link[aria-current="page"]::before, .nav-link[aria-current="page"]::after { content: ""; position: absolute; right: 0; width: 1rem; height: 1rem; pointer-events: none; }
+.nav-link[aria-current="page"]::before { top: -1rem; background: radial-gradient(circle at 0 0, transparent 1rem, var(--bg) calc(1rem + 0.5px)); }
+.nav-link[aria-current="page"]::after { bottom: -1rem; background: radial-gradient(circle at 0 100%, transparent 1rem, var(--bg) calc(1rem + 0.5px)); }
+.nav-link[aria-current="page"] svg { transform: scale(1.18); }
+@media (prefers-reduced-motion: reduce) { .tabbar a::before, .tabbar a .ico, .nav-link { transition: none; } }
+.tabbar { background: var(--surface); backdrop-filter: none; }
+/* Icono activo: círculo centrado en la joroba (no la píldora ancha). */
+.tabbar a[aria-current="page"] .ico { width: 2.75rem; height: 2.75rem; border-radius: 999px; transform: translateY(-0.7rem) scale(1.08); }
+/* El círculo es más alto que la píldora: se compensa abajo para que la etiqueta quede alineada con las demás. */
+.tabbar a[aria-current="page"] .ico { margin-top: -0.95rem; }
+/* La joroba envuelve el círculo del icono activo con un margen parejo. */
+.tabbar a::before { top: -1.6rem; width: 4.9rem; height: 3rem; }

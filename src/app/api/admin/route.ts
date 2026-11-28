@@ -25,6 +25,7 @@ function appUrl(req: Request) {
 export async function GET() {
   if (!(await owner())) return Response.json({ error: "no encontrado" }, { status: 404 });
   const rows = await db().select().from(schema.members).orderBy(desc(schema.members.invitedAt));
+  const perks = new Map((await db().select().from(schema.memberPerks)).map((p) => [p.userId, p]));
   // Vencimiento perezoso: una invitación sin aceptar pasada su fecha se marca como expirada.
   const now = Date.now();
   for (const r of rows) {
@@ -34,13 +35,19 @@ export async function GET() {
     }
   }
   return Response.json({
-    members: rows.map((r) => ({ email: r.email, status: r.status, role: r.role, sends: r.sends, invitedAt: r.invitedAt, expiresAt: r.expiresAt, activatedAt: r.activatedAt, disabledAt: r.disabledAt, lastSentAt: r.lastSentAt, linked: !!r.userId })),
+    members: rows.map((r) => {
+      const p = r.userId ? perks.get(r.userId) : undefined;
+      // Los permisos se muestran sin exponer el id de la cuenta. Los propietarios los tienen todos.
+      const owner = !!r.userId && isOwner(r.userId);
+      return { email: r.email, status: r.status, role: r.role, sends: r.sends, invitedAt: r.invitedAt, expiresAt: r.expiresAt, activatedAt: r.activatedAt, disabledAt: r.disabledAt, lastSentAt: r.lastSentAt, linked: !!r.userId, owner, perks: { unlimitedLives: owner || !!p?.unlimitedLives, allThemes: owner || !!p?.allThemes } };
+    }),
   });
 }
 
 const Body = z.discriminatedUnion("action", [
   z.object({ action: z.literal("invite"), email: z.email().max(200) }),
   z.object({ action: z.enum(["resend", "revoke", "disable", "enable"]), email: z.email().max(200) }),
+  z.object({ action: z.literal("perks"), email: z.email().max(200), unlimitedLives: z.boolean(), allThemes: z.boolean() }),
 ]);
 
 export async function POST(req: Request) {
@@ -92,6 +99,15 @@ export async function POST(req: Request) {
       // Conserva todo su historial. El bloqueo de Clerk cierra sus sesiones abiertas.
       await d.update(schema.members).set({ status: "disabled", disabledAt: new Date() }).where(eq(schema.members.email, email));
       await clerk.users.banUser(m.userId).catch(() => {});
+      return Response.json({ ok: true });
+    }
+    case "perks": {
+      if (!m || !m.userId) return Response.json({ error: "La cuenta aún no ha entrado a la app." }, { status: 409 });
+      const { unlimitedLives, allThemes } = parsed.data;
+      await d
+        .insert(schema.memberPerks)
+        .values({ userId: m.userId, unlimitedLives, allThemes, grantedBy: me, updatedAt: new Date() })
+        .onConflictDoUpdate({ target: schema.memberPerks.userId, set: { unlimitedLives, allThemes, grantedBy: me, updatedAt: new Date() } });
       return Response.json({ ok: true });
     }
     case "enable": {

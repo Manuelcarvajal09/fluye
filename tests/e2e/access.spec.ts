@@ -1,6 +1,10 @@
 import { clerk, setupClerkTestingToken } from "@clerk/testing/playwright";
 import { expect, test, type Page } from "@playwright/test";
 import { ensureTestUser, GUEST_EMAIL, resetTestData, sql, TEST_EMAIL, unban, solveNewFormats } from "./helpers";
+import { pieceOf } from "../../src/lib/wardrobe";
+
+// Precio real de la corona (cambia al reequilibrar la economía): la prueba deja 40 gemas de sobra.
+const CROWN = pieceOf("crown")!.price;
 
 async function signIn(page: Page, email: string) {
   await setupClerkTestingToken({ page });
@@ -237,7 +241,7 @@ test.describe.serial("propietario, intentos y tienda", () => {
     await sql().query("update profiles set gems = 10 where user_id = $1", [userId]);
     expect((await page.request.post("/api/shop", { data: { action: "buy", kind: "piece", id: "crown", key: "e2e-crown-1" } })).status()).toBe(409);
     expect((await page.request.post("/api/profile", { data: { settings: { look: { sets: { zorro: ["crown"] } } } } })).status()).toBe(403);
-    await sql().query("update profiles set gems = 200 where user_id = $1", [userId]);
+    await sql().query("update profiles set gems = $2 where user_id = $1", [userId, CROWN + 40]);
     const r = await (await page.request.post("/api/shop", { data: { action: "buy", kind: "piece", id: "crown", key: "e2e-crown-2" } })).json();
     expect(r.ok).toBe(true);
     expect(r.wallet.gems).toBe(40);

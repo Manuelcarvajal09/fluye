@@ -2,14 +2,13 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { SignOutButton } from "@clerk/nextjs";
-import { Download, Upload, CalendarPlus, Check, Volume2 } from "lucide-react";
+import { Download, Upload, CalendarPlus, Check, Volume2, ChevronDown } from "lucide-react";
+import { useSettingsTab, type SettingsTab } from "./SettingsTabs";
 import { availableHdVoices, englishVoices, onVoicesReady, setTtsPrefs, speak, unlockAudio } from "@/lib/audio/tts";
 import { HD_VOICES } from "@/lib/audio/voices";
 import { setSfxEnabled, playSfx } from "@/lib/audio/sfx";
-import { applyTheme } from "./Prefs";
-import { MascotStudio } from "./MascotStudio";
 import { AREAS, GROUP_LABEL, type AreaGroup } from "@/lib/areas";
-import { ACCENTS, SPECIES, type AccentId, type Look, type Species } from "@/lib/look";
+import type { Look } from "@/lib/look";
 
 type Initial = {
   name: string;
@@ -29,6 +28,8 @@ type Initial = {
   hdVoice?: string;
   look: Look;
   ownedPets: string[];
+  themeName?: string | null;
+  backgroundName?: string | null;
 };
 
 
@@ -37,9 +38,13 @@ export function SettingsForm({ initial }: { initial: Initial }) {
   const [v, setV] = useState({ theme: "system", rate: 1, accent: "en-US", retention: 0.9, reminder: "20:00", autoplay: true, sfx: true, engine: "hd", hdVoice: "af_heart", voice: "", ...initial } as Required<Initial>);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [coverage, setCoverage] = useState<Record<string, number> | null>(null);
-  const [saved, setSaved] = useState(false);
+  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle");
+  const firstRun = useRef(true);
+  const [failed, setFailed] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const file = useRef<HTMLInputElement>(null);
+  const tab = useSettingsTab();
+  const [areasOpen, setAreasOpen] = useState(false);
 
   useEffect(() => onVoicesReady(() => setVoices(englishVoices())), []);
   useEffect(() => {
@@ -47,22 +52,10 @@ export function SettingsForm({ initial }: { initial: Initial }) {
   }, []);
 
   const set = <K extends keyof Initial>(k: K, val: Initial[K]) => setV((s) => ({ ...s, [k]: val }));
-  const setLook = (p: Partial<Look>) => setV((s) => ({ ...s, look: { ...s.look, ...p } }));
-  const sp = SPECIES.find((x) => x.id === v.look.species)!;
-
-  function pickSpecies(id: Species) {
-    const next = SPECIES.find((x) => x.id === id)!;
-    // Si el nombre era el de la especie anterior, pasa al de la nueva.
-    setLook({ species: id, name: v.look.name === sp.defaultName ? next.defaultName : v.look.name });
-  }
-  const pickAccent = (id: AccentId) => setLook({ accent: id });
-  // Vista previa inmediata del color elegido (aún sin guardar).
-  useEffect(() => {
-    document.documentElement.dataset.accent = v.look.accent;
-  }, [v.look.accent]);
 
   async function save() {
-    await fetch("/api/profile", {
+    setStatus("saving");
+    const r = await fetch("/api/profile", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
@@ -72,7 +65,6 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         dailyNew: v.dailyNew,
         topics: v.topics,
         settings: {
-          theme: v.theme,
           voice: v.voice || undefined,
           rate: v.rate,
           accent: v.accent,
@@ -82,21 +74,30 @@ export function SettingsForm({ initial }: { initial: Initial }) {
           sfx: v.sfx,
           engine: v.engine,
           hdVoice: v.hdVoice,
-          look: v.look,
         },
       }),
     });
-    try {
-      localStorage.setItem("theme", v.theme);
-    } catch {}
-    document.cookie = `fluye-accent=${v.look.accent}; path=/; max-age=31536000; samesite=lax`;
-    applyTheme(v.theme);
+    if (!r.ok) {
+      setFailed(true);
+      setStatus("idle");
+      return;
+    }
+    setFailed(false);
     setTtsPrefs({ voice: v.voice || undefined, rate: v.rate, accent: v.accent, autoplay: v.autoplay, engine: v.engine, hdVoice: v.hdVoice });
     setSfxEnabled(v.sfx);
-    setSaved(true);
-    setTimeout(() => setSaved(false), 2000);
+    setStatus("saved");
     router.refresh();
   }
+  // Guardado automático: cada cambio se guarda 700 ms después (sin botón que se pueda olvidar).
+  useEffect(() => {
+    if (firstRun.current) {
+      firstRun.current = false;
+      return;
+    }
+    const t = setTimeout(() => void save(), 700);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [v.name, v.level, v.goalMinutes, v.dailyNew, v.topics, v.voice, v.rate, v.accent, v.retention, v.reminder, v.autoplay, v.sfx, v.engine, v.hdVoice]);
 
   async function importFile(f: File) {
     setMsg("Importando…");
@@ -114,34 +115,7 @@ export function SettingsForm({ initial }: { initial: Initial }) {
 
   return (
     <div className="flex flex-col gap-5">
-      <Card title="Tu compañero">
-        <MascotStudio look={v.look} setLook={setLook} onSpecies={pickSpecies} ownedPets={v.ownedPets} />
-      </Card>
-
-      <Card title="Colores de la app">
-        <Field label="Color principal">
-          <div className="flex flex-wrap gap-3" role="radiogroup" aria-label="Color principal">
-            {ACCENTS.map((a) => (
-              <button key={a.id} type="button" role="radio" aria-checked={v.look.accent === a.id} onClick={() => pickAccent(a.id)} className={`flex items-center gap-2 rounded-2xl border-2 px-3 py-2 font-extrabold ${v.look.accent === a.id ? "border-accent bg-accent-soft" : "border-line bg-surface"}`}>
-                <span className="h-6 w-6 rounded-full" style={{ background: a.swatch }} aria-hidden />
-                {a.label}
-              </button>
-            ))}
-          </div>
-        </Field>
-        <Field label="Tema">
-          <Seg
-            value={v.theme}
-            options={[["system", "Sistema"], ["light", "Claro"], ["dark", "Oscuro"]]}
-            onChange={(x) => {
-              set("theme", x as Initial["theme"]);
-              applyTheme(x);
-            }}
-          />
-        </Field>
-      </Card>
-
-      <Card title="Tú">
+      <Card tab="estudio" title="Tú">
         <Field label="Tu nombre">
           <input aria-label="Nombre" className="input" value={v.name} maxLength={40} onChange={(e) => set("name", e.target.value)} />
         </Field>
@@ -156,9 +130,21 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         </Field>
       </Card>
 
-      <Card title="Tus áreas de interés">
+      <Card tab="estudio" title="Tus áreas de interés">
         <p className="-mt-2 text-sm text-muted">Las sesiones priorizan expresiones nuevas de estas áreas.</p>
-        {(Object.keys(GROUP_LABEL) as AreaGroup[]).map((g) => (
+        <div className="flex flex-wrap items-center gap-2">
+          {v.topics.length === 0 && <span className="text-sm text-muted">Ninguna elegida.</span>}
+          {!areasOpen &&
+            AREAS.filter((a) => v.topics.includes(a.id)).map((a) => (
+              <span key={a.id} className="chip text-xs">
+                {a.label}
+              </span>
+            ))}
+          <button type="button" className="btn btn-ghost h-10 min-h-10 px-3 text-sm" aria-expanded={areasOpen} onClick={() => setAreasOpen((o) => !o)}>
+            {areasOpen ? "Listo" : `${v.topics.length} elegidas · Editar`} <ChevronDown size={16} aria-hidden className={areasOpen ? "rotate-180" : ""} />
+          </button>
+        </div>
+        {areasOpen && (Object.keys(GROUP_LABEL) as AreaGroup[]).map((g) => (
           <div key={g}>
             <p className="mb-2 text-xs font-black uppercase tracking-wide text-muted">{GROUP_LABEL[g]}</p>
             <div className="flex flex-wrap gap-2">
@@ -175,7 +161,7 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         ))}
       </Card>
 
-      <Card title="Voz y sonidos">
+      <Card tab="voz" title="Voz y sonidos">
         <Field label="Motor de voz">
           <Seg
             value={v.engine}
@@ -262,14 +248,14 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         </label>
       </Card>
 
-      <Card title="Repetición espaciada (FSRS)">
+      <Card tab="estudio" title="Repetición espaciada (FSRS)">
         <Field label={`Retención objetivo: ${Math.round(v.retention * 100)}%`}>
           <input aria-label="Retención objetivo" type="range" min={0.8} max={0.97} step={0.01} value={v.retention} onChange={(e) => set("retention", Number(e.target.value))} className="w-full accent-[var(--brand)]" />
           <p className="mt-1 text-xs text-muted">Más alto = recuerdas más pero repasas más seguido. 90% es el equilibrio recomendado.</p>
         </Field>
       </Card>
 
-      <Card title="Recordatorio">
+      <Card tab="estudio" title="Recordatorio">
         <Field label="Hora del recordatorio diario">
           <div className="flex flex-wrap gap-2">
             <input aria-label="Hora del recordatorio" type="time" className="input max-w-40" value={v.reminder} onChange={(e) => set("reminder", e.target.value)} />
@@ -281,19 +267,24 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         </Field>
       </Card>
 
-      <div className="save-bar">
-        <button type="button" className="btn btn-primary w-full sm:w-auto sm:min-w-64" onClick={save}>
-        {saved ? (
+      <p role="status" aria-live="polite" hidden={tab === "datos"} className={`flex items-center gap-2 text-sm font-bold ${failed ? "text-bad" : "text-muted"}`}>
+        {status === "saving" && "Guardando…"}
+        {status === "saved" && (
           <>
-            <Check size={20} aria-hidden /> Guardado
+            <Check size={16} aria-hidden /> Cambios guardados
           </>
-        ) : (
-          "Guardar cambios"
         )}
-        </button>
-      </div>
+        {failed && (
+          <>
+            No se pudo guardar. Revisa tu conexión.
+            <button type="button" className="btn btn-ghost h-9 min-h-9 px-3 text-sm" onClick={() => void save()}>
+              Reintentar
+            </button>
+          </>
+        )}
+      </p>
 
-      <Card title="Tus datos">
+      <Card tab="datos" title="Tus datos">
         <div className="flex flex-wrap gap-2">
           <a href="/api/data" className="btn btn-ghost">
             <Download size={18} aria-hidden /> Exportar todo (JSON)
@@ -311,20 +302,23 @@ export function SettingsForm({ initial }: { initial: Initial }) {
         <p className="text-xs text-muted">La importación fusiona: por cada tarjeta se queda la versión repasada más recientemente. Las grabaciones de voz nunca se guardan en el servidor.</p>
       </Card>
 
-      <SignOutButton redirectUrl="/">
-        <button type="button" className="btn btn-ghost">
-          Cerrar sesión
-        </button>
-      </SignOutButton>
+      <div hidden={tab !== "datos"}>
+        <SignOutButton redirectUrl="/">
+          <button type="button" className="btn btn-ghost">
+            Cerrar sesión
+          </button>
+        </SignOutButton>
+      </div>
 
       <style>{`.input{height:3rem;width:100%;border-radius:.9rem;border:2px solid var(--line);background:var(--surface);padding:0 .9rem;font-weight:700;outline:none}.input:focus{border-color:var(--accent)}`}</style>
     </div>
   );
 }
 
-function Card({ title, children }: { title: string; children: React.ReactNode }) {
+function Card({ title, tab, children }: { title: string; tab: SettingsTab; children: React.ReactNode }) {
+  const current = useSettingsTab();
   return (
-    <section className="card flex flex-col gap-4 p-5">
+    <section className="card flex flex-col gap-4 p-5" hidden={current !== tab}>
       <h2 className="text-lg font-black">{title}</h2>
       {children}
     </section>

@@ -20,7 +20,10 @@ export async function POST(req: Request) {
   if (batch.success) {
     const have = new Set((await db().selectDistinct({ id: schema.cards.itemId }).from(schema.cards).where(eq(schema.cards.userId, profile.userId))).map((r) => r.id));
     const known = new Set(settingsOf(profile).known ?? []);
-    const next = CATALOG.filter((c) => c.status === "complete" && !c.dupOf && !have.has(c.id) && !known.has(c.id) && (!batch.data.band || c.band === batch.data.band))
+    // Mismo criterio que la palabra sugerida de Hoy: desde tu nivel hacia arriba, sin determinantes ni pronombres, y con el registro que elegiste.
+    const lv = ["A1", "A2", "B1", "B2", "C1", "C2"];
+    const explicit = settingsOf(profile).explicit === true;
+    const next = CATALOG.filter((c) => c.status === "complete" && !c.dupOf && !have.has(c.id) && !known.has(c.id) && (!batch.data.band || c.band === batch.data.band) && lv.indexOf(c.level) >= lv.indexOf(profile.level) && c.pos !== "det" && c.pos !== "pron" && (explicit || !c.register))
       .sort((a, b) => a.rank - b.rank)
       .slice(0, batch.data.count);
     let added = 0;

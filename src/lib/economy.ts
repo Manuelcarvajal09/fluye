@@ -1,5 +1,8 @@
 import "server-only";
 import { and, desc, eq, gt, gte, sql } from "drizzle-orm";
+import { studyGemsFor } from "./economy-rules";
+import { perksOf } from "./perks";
+import { THEME_PRICE, bgKey, bgOf, bgPrice, ownsBackground, themeKey, themeOf } from "./themes";
 import { db, schema } from "@/db";
 import type { Profile } from "./user";
 import { localDay } from "./game";
@@ -62,7 +65,7 @@ type Fail = { ok: false; error: string };
 export type BuyResult = { ok: true; wallet: Wallet; spent: number } | Fail;
 
 /** Compra directa de una pieza o mascota con gemas (la única moneda de la app). */
-export async function buyItem(profile: Profile, kind: "piece" | "pet", id: string, clientKey: string): Promise<BuyResult> {
+export async function buyItem(profile: Profile, kind: "piece" | "pet" | "theme" | "bg", id: string, clientKey: string): Promise<BuyResult> {
   const owned = await ownedSet(profile.userId);
   let price = 0;
   let label = "";
@@ -74,6 +77,20 @@ export async function buyItem(profile: Profile, kind: "piece" | "pet", id: strin
     price = p.price;
     label = p.name;
     inv = pieceKey(id);
+  } else if (kind === "theme") {
+    const t = themeOf(id);
+    if (!t) return { ok: false, error: "No existe esa temática." };
+    if (owned.has(themeKey(id)) || (await perksOf(profile.userId)).allThemes) return { ok: false, error: "Ya la tienes." };
+    price = THEME_PRICE;
+    label = `Temática ${t.name}`;
+    inv = themeKey(id);
+  } else if (kind === "bg") {
+    const b = bgOf(id);
+    if (!b) return { ok: false, error: "No existe ese fondo." };
+    if (ownsBackground(b.id, owned)) return { ok: false, error: "Ya lo tienes." };
+    price = bgPrice(id);
+    label = `Fondo ${b.name}`;
+    inv = bgKey(b.id);
   } else {
     const p = petOf(id);
     if (!p || p.free) return { ok: false, error: "Esa mascota no se compra." };
@@ -101,18 +118,24 @@ export function rollChest(odds: readonly number[], rnd: () => number = Math.rand
   return { tier: null };
 }
 
-export async function openChest(profile: Profile, chestId: string, clientKey: string): Promise<ChestResult> {
+/**
+ * Abre un cofre. Con `gift` (p. ej. el cofre de una sección del mapa) no se cobra y la clave es fija: solo se abre una vez.
+ */
+export async function openChest(profile: Profile, chestId: string, clientKey: string, gift?: { key: string; reason: string }): Promise<ChestResult> {
   const chest = CHESTS.find((c) => c.id === chestId);
   if (!chest) return { ok: false, error: "No existe ese cofre." };
-  const key = `chest:${clientKey}`;
-  const r = await charge(profile.userId, key, "gems", chest.price, `${chest.name}`);
+  const key = gift ? gift.key : `chest:${clientKey}`;
+  const price = gift ? 0 : chest.price;
+  const r = await charge(profile.userId, key, "gems", price, gift ? gift.reason : `${chest.name}`);
   if (r === "short") return { ok: false, error: `Te faltan ${chest.price - profile.gems} gemas.` };
   if (r === "dup") return { ok: false, error: "Ese cofre ya se abrió." };
-  const { tier } = rollChest(chest.odds);
+  // Un cofre de regalo nunca sale vacío: como mínimo, una pieza común.
+  const rolled = rollChest(chest.odds).tier;
+  const tier = gift && rolled === null ? (0 as Tier) : rolled;
   const wallet = async () => walletOf(await reload(profile.userId));
   if (tier === null) {
     await recordChest(profile.userId, key, "empty", null, "");
-    return { ok: true, outcome: "empty", tier: null, refund: 0, spent: chest.price, wallet: await wallet() };
+    return { ok: true, outcome: "empty", tier: null, refund: 0, spent: price, wallet: await wallet() };
   }
   const pool = chestPool(tier);
   const pick = pool[Math.floor(Math.random() * pool.length)];
@@ -123,7 +146,7 @@ export async function openChest(profile: Profile, chestId: string, clientKey: st
   const dup = had || !(await grant(profile.userId, pick.type === "pet" ? petKey(pick.id) : pieceKey(pick.id)));
   const refund = dup ? await credit(profile.userId, `${key}:dup`, "gems", dupRefund(chest), `Repetido en ${chest.name}: ${name}`) : 0;
   await recordChest(profile.userId, key, dup ? "dup" : "new", tier, pick.id);
-  return { ok: true, outcome: dup ? "dup" : "new", tier, type: pick.type, id: pick.id, name, refund, spent: chest.price, wallet: await wallet() };
+  return { ok: true, outcome: dup ? "dup" : "new", tier, type: pick.type, id: pick.id, name, refund, spent: price, wallet: await wallet() };
 }
 async function recordChest(userId: string, key: string, outcome: string, tier: Tier | null, id: string) {
   await db()
@@ -179,6 +202,10 @@ export type LifeChange = { lives: number; shield: number; change: "lost" | "shie
 /** Error en una lección: consume la protección si hay, si no resta una vida (nunca baja de 0 ni bloquea). */
 export async function loseLife(userId: string, attemptKey: string): Promise<LifeChange> {
   const d = db();
+  if ((await perksOf(userId)).unlimitedLives) {
+    const cur = await reload(userId);
+    return { lives: cur.lives, shield: cur.shield, change: "none" };
+  }
   const used = await d.update(P).set({ shield: 0 }).where(and(eq(P.userId, userId), gt(P.shield, 0))).returning({ lives: P.lives });
   if (used.length) {
     await d.insert(W).values({ userId, key: `shield-use:${attemptKey}`, currency: "shield", amount: -1, reason: "La protección evitó perder una vida" }).onConflictDoNothing();
@@ -208,17 +235,26 @@ export async function practiceCorrect(profile: Profile): Promise<LifeChange | nu
   return { lives: Math.min(cur.lives + 1, LIVES.max), shield: profile.shield, change: "gained", reason: "¡Recuperaste una vida practicando!" };
 }
 
-/** Gemas por estudiar: 1 por cada 4 XP, agrupadas en un movimiento por día (la meta y los retos dan sus propias gemas). */
-export async function studyGems(userId: string, day: string, xp: number) {
-  const gems = Math.round(xp / 4);
-  if (gems <= 0) return 0;
+/**
+ * Gemas por estudiar, sobre el XP TOTAL del día (studyGemsFor: 1 por cada 12 XP, tope diario). Un solo movimiento por día:
+ * se sube hasta el objetivo y se acredita solo la diferencia. Nunca resta (si ya se pagó más con la regla anterior, se queda).
+ */
+export async function studyGems(userId: string, day: string, dayXp: number) {
+  const target = studyGemsFor(dayXp);
+  if (target <= 0) return 0;
+  const key = `study-gems:${day}`;
   const d = db();
-  await d
-    .insert(W)
-    .values({ userId, key: `study-gems:${day}`, currency: "gems", amount: gems, reason: "Gemas por estudiar" })
-    .onConflictDoUpdate({ target: [W.userId, W.key], set: { amount: sql`${W.amount} + ${gems}` } });
-  await d.update(P).set({ gems: sql`${P.gems} + ${gems}` }).where(eq(P.userId, userId));
-  return gems;
+  const [cur] = await d.select({ amount: W.amount }).from(W).where(and(eq(W.userId, userId), eq(W.key, key)));
+  const before = cur?.amount ?? 0;
+  if (target <= before) return 0;
+  // Sube solo si sigue por debajo (condición en el UPDATE): dos respuestas a la vez no pagan dos veces la misma diferencia.
+  const [up] = cur
+    ? await d.update(W).set({ amount: target }).where(and(eq(W.userId, userId), eq(W.key, key), eq(W.amount, before))).returning({ amount: W.amount })
+    : await d.insert(W).values({ userId, key, currency: "gems", amount: target, reason: "Gemas por estudiar" }).onConflictDoNothing().returning({ amount: W.amount });
+  if (!up) return 0;
+  const delta = target - before;
+  await d.update(P).set({ gems: sql`${P.gems} + ${delta}` }).where(eq(P.userId, userId));
+  return delta;
 }
 
 /** Doble XP si hay un potenciador activo. */
@@ -240,12 +276,22 @@ export async function settleAwards(profile: Profile): Promise<string[]> {
   return ins.map((r) => r.id.slice(3));
 }
 
-/** Últimos movimientos para mostrar el motivo de cada cambio de saldo. */
+/** Últimos movimientos: monedero (compras, vidas, regalos, estudio) y premios del libro de gemas (meta, retos, logros, ligas). */
 export async function recentMoves(userId: string, limit = 20) {
-  return db()
-    .select({ key: W.key, currency: W.currency, amount: W.amount, reason: W.reason, at: W.createdAt })
-    .from(W)
-    .where(and(eq(W.userId, userId), sql`${W.currency} <> 'practice'`))
-    .orderBy(desc(W.createdAt))
-    .limit(limit);
+  const G = schema.gemLedger;
+  const [wallet, ledger] = await Promise.all([
+    db()
+      .select({ key: W.key, currency: W.currency, amount: W.amount, reason: W.reason, at: W.createdAt })
+      .from(W)
+      .where(and(eq(W.userId, userId), sql`${W.currency} <> 'practice'`))
+      .orderBy(desc(W.createdAt))
+      .limit(limit),
+    db()
+      .select({ key: G.key, currency: sql<string>`'gems'`, amount: G.amount, reason: G.reason, at: G.createdAt })
+      .from(G)
+      .where(eq(G.userId, userId))
+      .orderBy(desc(G.createdAt))
+      .limit(limit),
+  ]);
+  return [...wallet, ...ledger].sort((a, b) => +b.at - +a.at).slice(0, limit);
 }

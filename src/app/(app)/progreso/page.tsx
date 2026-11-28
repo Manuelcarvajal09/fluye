@@ -11,6 +11,7 @@ import { AREA_LABEL } from "@/lib/areas";
 import { ERROR_LABEL, type ErrorCategory } from "@/lib/grading";
 import { activeTimeStats, areaProgress, consistency, errorStats, friendChallenge, observedRetention, oralStats, PERIODS, periodStart, sessionStats, SMALL_SAMPLE, vocabStates, type Period } from "@/lib/insights";
 import { Bar } from "@/components/ui";
+import { SectionHeader } from "@/components/ux/SectionHeader";
 
 export const metadata = { title: "Progreso" };
 
@@ -72,7 +73,7 @@ export default async function Progress({ searchParams }: PageProps<"/progreso">)
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col gap-4">
-        <h1 className="font-display text-4xl font-extrabold">Progreso</h1>
+        <SectionHeader art="progreso" title="Progreso" />
         <nav aria-label="Periodo" className="seg self-start">
           {PERIODS.map((x) => (
             <Link key={x.id} href={`/progreso?p=${x.id}`} aria-current={p === x.id ? "page" : undefined} className="grid place-items-center">
@@ -154,7 +155,7 @@ export default async function Progress({ searchParams }: PageProps<"/progreso">)
                   ).map(([key, label]) => (
                     <li key={key} className="rounded-[var(--r-sm)] bg-surface-2 p-2">
                       <p className="text-xl font-black">{v[key]}</p>
-                      <p className="text-[11px] font-bold leading-tight text-muted">{label}</p>
+                      <p className="text-xs font-bold leading-tight text-muted">{label}</p>
                     </li>
                   ))}
                 </ul>

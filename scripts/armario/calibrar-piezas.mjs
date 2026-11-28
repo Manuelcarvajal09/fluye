@@ -47,10 +47,12 @@ for (const pet of Object.keys(D.pets)) {
       const y0 = tb + (fb - tb) * 0.5;
       let best = [0, 1];
       for (let s = 0.8; s <= 1.2; s += 0.005) { const v = iou(base, fb, m, fp, s, y0); if (v > best[0]) best = [v, s]; }
-      r = best[1];
+      // best[1] es la escala que aplicada a la pieza la hace coincidir con la base (ya es la corrección): r = 1 / best[1].
+      r = 1 / best[1];
     } else r = (fp - top(m)) / (fb - tb);
     // r = cuánto más grande está dibujada la pieza; se corrige con 1/r. Ignora diferencias menores al 1 %.
-    const fix = Math.abs(r - 1) < 0.01 ? 1 : +(1 / r).toFixed(4);
+    // En cabeza la medida por coincidencia es ruidosa (±5 %): solo se corrigen diferencias claras (≥ 8 %, p. ej. audífonos redibujados).
+    const fix = Math.abs(r - 1) < (D.groups.head.includes(k) ? 0.08 : 0.01) ? 1 : +(1 / r).toFixed(4);
     if (fix !== 1) out[k] = fix;
   }
   console.log(pet, Object.entries(out).map(([k, v]) => `${k}:${v}`).join(" "));

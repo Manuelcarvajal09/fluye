@@ -3,7 +3,7 @@ import { ArrowLeft, Layers, Play } from "lucide-react";
 import { requireProfile } from "@/lib/user";
 import { collectionsOf } from "@/lib/collections";
 import { NewCollection } from "@/components/CollectionTools";
-import { MyMascot } from "@/components/Coach";
+import { EmptyArt } from "@/components/ux/EmptyArt";
 
 export const metadata = { title: "Mis colecciones" };
 
@@ -43,7 +43,7 @@ export default async function Collections() {
         </ul>
       ) : (
         <div className="empty-state">
-          <MyMascot mood="think" size={110} />
+          <EmptyArt kind="vacio-colecciones" mood="think" />
           <h2 className="font-display text-2xl font-extrabold">Aún no tienes colecciones</h2>
           <p className="max-w-sm text-muted">Crea una arriba, o entra a la biblioteca, toca «Seleccionar varias» y agrúpalas.</p>
           <Link href="/biblioteca" className="btn btn-primary">

@@ -9,6 +9,17 @@ const Svg = ({ size = 28, className = "", children }: P & { children: ReactNode 
   </svg>
 );
 
+/** Diario */
+export const IcoJournal = (p: P) => (
+  <Svg {...p}>
+    <rect x="6" y="3" width="20" height="26" rx="3" fill="#f2a65a" />
+    <rect x="6" y="3" width="5" height="26" rx="2" fill="#d9822b" />
+    <rect x="14" y="9" width="9" height="2.5" rx="1.2" fill="#fff6e8" />
+    <rect x="14" y="14" width="7" height="2.5" rx="1.2" fill="#fff6e8" />
+    <path d="M22 19l4-4 2 2-4 4-2.6.6z" fill="#5847d4" />
+  </Svg>
+);
+
 /** Racha */
 export const IcoFlame = (p: P) => (
   <Svg {...p}>

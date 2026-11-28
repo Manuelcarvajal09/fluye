@@ -43,6 +43,20 @@
       "when": 1795568513019,
       "tag": "0005_solo_gemas",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1795738949706,
+      "tag": "0006_ligas_y_permisos",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1795742605832,
+      "tag": "0007_diario_lecturas_noticias",
+      "breakpoints": true
     }
   ]
 }

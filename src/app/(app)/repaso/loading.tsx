@@ -1,6 +1,11 @@
-import { MascotLoader } from "@/components/Loader";
+import { Skel, SkelChips, SkelHeader } from "@/components/Loader";
 
-/** Espera al cambiar de sección: la mascota salta mientras llega la página. */
 export default function Loading() {
-  return <MascotLoader />;
+  return (
+    <Skel>
+      <SkelHeader banner />
+      <SkelChips n={4} />
+      <div className="skel h-80 w-full max-w-2xl" aria-hidden />
+    </Skel>
+  );
 }

@@ -5,7 +5,7 @@ import { seasonLabel, seasonRoute, type SeasonId } from "./seasons";
 import type { Band, Level, Route, RouteTrack } from "./types";
 
 export function bandFor(level: Level | string): Band {
-  return level === "A1" || level === "A2" ? "A1-A2" : level === "C1" ? "C1" : "B1-B2";
+  return level === "A1" || level === "A2" ? "A1-A2" : level === "C1" || level === "C2" ? "C1" : "B1-B2";
 }
 
 /** Pista adecuada de una ruta para el nivel (C1 cae a B1–B2 si la ruta no tiene C1). */

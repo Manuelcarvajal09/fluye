@@ -1,0 +1,96 @@
+{
+  "id": "lectura-invierno-salud-mental",
+  "level": "C1",
+  "title": "Winter Light and Mental Health",
+  "title_es": "La luz del invierno y la salud mental",
+  "topic": "vida",
+  "minutes": 7,
+  "intro_es": "Los inviernos largos y oscuros afectan el ánimo de mucha gente; saberlo a tiempo te ayuda a cuidarte.",
+  "paragraphs": [
+    "People who move to Edmonton from Mexico usually prepare for the cold. They buy a proper parka, learn to layer and get used to plugging in the car. What catches many of them off guard is not the temperature but the darkness. In the depths of December, the sun rises well after the morning commute has begun and sets in the middle of the afternoon. For someone raised in a country where daylight barely changes through the year, that shift can take a surprising toll.",
+    "It is common to feel more sluggish in winter: to sleep longer, crave carbohydrates and find it harder to concentrate. For most people these changes are mild and pass with the season. For some, however, they deepen into seasonal affective disorder, a form of depression that follows a seasonal pattern. Symptoms can include persistent low mood, loss of interest in things you normally enjoy, withdrawal from friends and a sense of hopelessness. If these feelings last for weeks and interfere with work or relationships, they deserve professional attention, not just a stiff upper lip.",
+    "Newcomers can be particularly vulnerable. The first winter often coincides with other stressors: an unfamiliar job, financial pressure, separation from family and the constant mental effort of functioning in a second language. Loneliness compounds everything. When it is minus twenty-five outside, the spontaneous social life many Mexicans are used to, dropping by a friend's house or chatting in the street, simply does not happen.",
+    "The good news is that there are practical, well-established strategies. Getting outside during daylight hours, even for a short walk at lunchtime, helps regulate your body clock. Some people use a light therapy lamp in the morning, though it is wise to check with a doctor first, particularly if you have eye conditions or take certain medications. Regular exercise, consistent sleep and meals with real nutritional value all make a difference. Many doctors also discuss vitamin D with their patients, since sunlight is scarce in northern winters.",
+    "Equally important is staying connected. Edmontonians have developed a whole culture around embracing winter rather than hiding from it: outdoor festivals, skating trails, cross-country skiing in the river valley and community leagues that organize activities for every age. Signing up for something with a fixed schedule creates structure and makes it harder to isolate yourself.",
+    "Finally, know where to turn. Talking to a family doctor is a good first step, and many employers offer an employee assistance program with free, confidential counselling. Alberta also has a health advice line staffed by nurses, and crisis lines are available at any hour. Asking for help is not a sign of weakness; in Canada, it is increasingly seen as a sensible part of taking care of yourself. Winter is long, but it is not forever, and spring in the prairies arrives with a brightness that feels well earned."
+  ],
+  "glossary": [
+    { "term": "catches many of them off guard", "es": "los toma por sorpresa", "def": "surprises people because they were not prepared" },
+    { "term": "take a surprising toll", "es": "pasar una factura sorprendente", "def": "to cause unexpected damage or harm over time" },
+    { "term": "sluggish", "es": "aletargado, lento", "def": "moving or reacting more slowly than usual; lacking energy" },
+    { "term": "crave", "es": "antojarse, desear intensamente", "def": "to want something very strongly" },
+    { "term": "seasonal affective disorder", "es": "trastorno afectivo estacional", "def": "a type of depression linked to a particular season, usually winter", "note": "Se abrevia SAD, que además significa «triste»." },
+    { "term": "withdrawal", "es": "aislamiento, retraimiento", "def": "pulling away from other people and social activities" },
+    { "term": "stiff upper lip", "es": "aguantarse sin quejarse", "def": "hiding your emotions and enduring difficulties without complaining" },
+    { "term": "stressors", "es": "factores de estrés", "def": "things or situations that cause stress" },
+    { "term": "compounds", "es": "agrava, empeora", "def": "makes a problem worse by adding to it" },
+    { "term": "body clock", "es": "reloj biológico", "def": "the natural system that controls when you feel awake or sleepy" },
+    { "term": "scarce", "es": "escaso", "def": "available only in small amounts" },
+    { "term": "embracing", "es": "aceptar con gusto", "def": "accepting something willingly and with enthusiasm" },
+    { "term": "employee assistance program", "es": "programa de apoyo al empleado", "def": "a workplace benefit offering free, private counselling and support" },
+    { "term": "well earned", "es": "bien merecido", "def": "deserved because of effort or difficulty" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Winter darkness can seriously affect mood, especially for newcomers, but practical strategies and support are available.",
+      "Edmonton's winters are too dark for people from Mexico to live there.",
+      "Everyone who feels tired in winter has a mental illness."
+    ],
+    "answer": 0,
+    "why_es": "El texto describe cómo la falta de luz afecta el ánimo y ofrece estrategias y recursos para cuidarse."
+  },
+  "questions": [
+    {
+      "q": "According to the author, what surprises many newcomers most about winter in Edmonton?",
+      "options": [
+        "The price of winter clothing",
+        "The long hours of darkness",
+        "The amount of snow on the roads"
+      ],
+      "answer": 1,
+      "why_es": "La gente se prepara para el frío, pero lo que no espera es la oscuridad."
+    },
+    {
+      "q": "When does the author say symptoms deserve professional attention?",
+      "options": [
+        "Whenever you sleep more than usual",
+        "Only if you have never lived in a cold country",
+        "When they last for weeks and interfere with work or relationships"
+      ],
+      "answer": 2,
+      "why_es": "Si los síntomas duran semanas y afectan el trabajo o las relaciones, hay que buscar ayuda profesional."
+    },
+    {
+      "q": "Why can newcomers be particularly vulnerable?",
+      "options": [
+        "Because their first winter often comes with other stressors and loneliness",
+        "Because they are not allowed to see a doctor",
+        "Because they usually live far from the river valley"
+      ],
+      "answer": 0,
+      "why_es": "El primer invierno coincide con un trabajo nuevo, presión económica, distancia de la familia y soledad."
+    },
+    {
+      "q": "What does the author advise before using a light therapy lamp?",
+      "options": [
+        "Using it only at night",
+        "Checking with a doctor first",
+        "Buying the most expensive model"
+      ],
+      "answer": 1,
+      "why_es": "Conviene consultar a un médico, sobre todo si tienes problemas de la vista o tomas ciertos medicamentos."
+    },
+    {
+      "q": "How does the author describe asking for help?",
+      "options": [
+        "As a sign of weakness",
+        "As something only for emergencies",
+        "As a sensible part of taking care of yourself"
+      ],
+      "answer": 2,
+      "why_es": "En Canadá se ve cada vez más como parte normal del autocuidado."
+    }
+  ],
+  "club": false
+}

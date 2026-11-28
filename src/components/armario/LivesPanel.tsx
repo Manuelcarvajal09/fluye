@@ -4,7 +4,7 @@ import Link from "next/link";
 import { IcoBoost, IcoCards, IcoGem, IcoGift, IcoHeart, IcoIce, IcoShield } from "../Icons";
 import { opKey, type Wallet } from "../wallet";
 import { centerOf, post } from "./api";
-import { BOOST, LIVES } from "@/lib/wardrobe";
+import { BOOST, FREEZE, LIVES } from "@/lib/wardrobe";
 import { playSfx } from "@/lib/audio/sfx";
 
 /** Vidas, protección (gemas), potenciadores y protector de racha. Explica cómo se gana y se gasta cada cosa. */
@@ -101,17 +101,17 @@ export function LivesPanel({ wallet: w, freezes: initialFreezes, practice }: { w
         <h2 className="flex items-center gap-2 text-xl font-black">
           <IcoIce size={28} /> Protector de racha
         </h2>
-        <p className="text-sm text-muted">Si un día no llegas a tu meta, un protector cubre ese día y tu racha sigue. El día se marca como «protegido». Puedes tener 2.</p>
-        <p className="font-bold">Tienes {freezes}/2</p>
+        <p className="text-sm text-muted">Si un día no llegas a tu meta, un protector cubre ese día y tu racha sigue. El día se marca como «protegido». Puedes tener {FREEZE.max}.</p>
+        <p className="font-bold">Tienes {freezes}/{FREEZE.max}</p>
         <button
           type="button"
           className="btn btn-accent self-start"
-          disabled={busy || freezes >= 2 || w.gems < 50}
+          disabled={busy || freezes >= FREEZE.max || w.gems < FREEZE.price}
           onClick={async (e) => {
-            if (await act({ action: "freeze" }, "Protector de racha guardado.", "Compraste un protector de racha", e.currentTarget)) setFreezes((f) => Math.min(2, f + 1));
+            if (await act({ action: "freeze" }, "Protector de racha guardado.", "Compraste un protector de racha", e.currentTarget)) setFreezes((f) => Math.min(FREEZE.max, f + 1));
           }}
         >
-          Comprar por <IcoGem size={18} /> 50
+          Comprar por <IcoGem size={18} /> {FREEZE.price}
         </button>
       </article>
     </section>

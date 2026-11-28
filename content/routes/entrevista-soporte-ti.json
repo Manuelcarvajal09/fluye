@@ -1,0 +1,1467 @@
+{
+  "id": "entrevista-soporte-ti",
+  "title_es": "Entrevista: soporte de TI",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas",
+    "canada",
+    "soporte"
+  ],
+  "season": null,
+  "objective_es": "Prepararte para entrevistas de soporte técnico y operaciones de TI en Edmonton: tickets, diagnóstico, SLA, escalamientos, capacitación de usuarios y negociación de la oferta.",
+  "tracks": [
+    {
+      "id": "entrevista-soporte-ti-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Pasar una primera llamada para un puesto de soporte técnico: presentarte, decir qué problemas resolvías, tu situación para trabajar y cuándo puedes empezar.",
+      "items": [
+        "phr-tell-me-about-yourself",
+        "voc-ticket",
+        "col-restart-your-computer",
+        "col-reset-your-password",
+        "phr-im-eligible-to-work-in-canada",
+        "phr-im-available-to-start",
+        "phr-do-you-have-any-questions-for-me",
+        "phr-thank-you-for-your-time"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-soporte-ti-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 970,
+        "title": "A phone screen for a help desk job",
+        "title_es": "Llamada de preselección para mesa de ayuda",
+        "intro_es": "Priya, del equipo de contratación, llama a Diego para una primera entrevista corta. El puesto es de soporte técnico en Edmonton.",
+        "lines": [
+          {
+            "who": "Priya",
+            "en": "Hi, is this Diego? This is Priya from the hiring team. Is now a good time?",
+            "es": "Hola, ¿hablo con Diego? Soy Priya, del equipo de contratación. ¿Es buen momento?"
+          },
+          {
+            "who": "Diego",
+            "en": "Yes, it's a good time. Thank you for calling.",
+            "es": "Sí, es buen momento. Gracias por llamar."
+          },
+          {
+            "who": "Priya",
+            "en": "Great. First, [tell me about yourself].",
+            "es": "Muy bien. Primero, cuéntame sobre ti.",
+            "item": "phr-tell-me-about-yourself"
+          },
+          {
+            "who": "Diego",
+            "en": "I'm from Guadalajara. I worked at a help desk for three years. I answered about forty [tickets] a day.",
+            "es": "Soy de Guadalajara. Trabajé tres años en una mesa de ayuda. Respondía unos cuarenta tickets al día.",
+            "item": "voc-ticket"
+          },
+          {
+            "who": "Priya",
+            "en": "What kind of problems did you fix?",
+            "es": "¿Qué tipo de problemas resolvías?"
+          },
+          {
+            "who": "Diego",
+            "en": "Simple problems. Many times I said, 'Please [restart your computer].'",
+            "es": "Problemas sencillos. Muchas veces decía: «Por favor, reinicie su computadora».",
+            "item": "col-restart-your-computer"
+          },
+          {
+            "who": "Priya",
+            "en": "And when someone can't log in?",
+            "es": "¿Y cuando alguien no puede entrar?"
+          },
+          {
+            "who": "Diego",
+            "en": "I say, 'No problem, let's [reset your password] together.'",
+            "es": "Digo: «No hay problema, vamos a restablecer su contraseña juntos».",
+            "item": "col-reset-your-password"
+          },
+          {
+            "who": "Priya",
+            "en": "Good. Are you legally able to work in Canada?",
+            "es": "Bien. ¿Tienes autorización legal para trabajar en Canadá?"
+          },
+          {
+            "who": "Diego",
+            "en": "Yes, [I'm eligible to work in Canada].",
+            "es": "Sí, tengo autorización para trabajar en Canadá.",
+            "item": "phr-im-eligible-to-work-in-canada"
+          },
+          {
+            "who": "Priya",
+            "en": "And when could you start?",
+            "es": "¿Y cuándo podrías empezar?"
+          },
+          {
+            "who": "Diego",
+            "en": "[I'm available to start] in two weeks.",
+            "es": "Puedo empezar en dos semanas.",
+            "item": "phr-im-available-to-start"
+          },
+          {
+            "who": "Priya",
+            "en": "Perfect. [Do you have any questions for me]?",
+            "es": "Perfecto. ¿Tienes alguna pregunta para mí?",
+            "item": "phr-do-you-have-any-questions-for-me"
+          },
+          {
+            "who": "Diego",
+            "en": "Yes. What hours does the team work?",
+            "es": "Sí. ¿Qué horario tiene el equipo?"
+          },
+          {
+            "who": "Priya",
+            "en": "Monday to Friday, eight to four. We'll email you next week.",
+            "es": "De lunes a viernes, de ocho a cuatro. Te escribimos la próxima semana."
+          },
+          {
+            "who": "Diego",
+            "en": "Great. [Thank you for your time].",
+            "es": "Muy bien. Gracias por su tiempo.",
+            "item": "phr-thank-you-for-your-time"
+          }
+        ],
+        "items": [
+          "phr-tell-me-about-yourself",
+          "voc-ticket",
+          "col-restart-your-computer",
+          "col-reset-your-password",
+          "phr-im-eligible-to-work-in-canada",
+          "phr-im-available-to-start",
+          "phr-do-you-have-any-questions-for-me",
+          "phr-thank-you-for-your-time"
+        ],
+        "questions": [
+          {
+            "q": "How many tickets did Diego answer a day?",
+            "options": [
+              "About fourteen",
+              "About forty",
+              "About four hundred"
+            ],
+            "answer": 1,
+            "why_es": "Diego dice: 'I answered about forty tickets a day'."
+          },
+          {
+            "q": "What does Diego say about working in Canada?",
+            "options": [
+              "He needs a work permit",
+              "He doesn't know yet",
+              "He is eligible to work"
+            ],
+            "answer": 2,
+            "why_es": "Responde: 'I'm eligible to work in Canada'."
+          },
+          {
+            "q": "When can Diego start?",
+            "options": [
+              "In two weeks",
+              "Tomorrow",
+              "In two months"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'I'm available to start in two weeks'."
+          },
+          {
+            "q": "What are the team's hours?",
+            "options": [
+              "Weekends only",
+              "Monday to Friday, eight to four",
+              "Nights"
+            ],
+            "answer": 1,
+            "why_es": "Priya explica: 'Monday to Friday, eight to four'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di que trabajaste dos años en soporte técnico y que respondías tickets.",
+          "model": [
+            "I worked at a help desk for two years. I answered tickets every day.",
+            "I have two years of experience in IT support, answering tickets."
+          ],
+          "expect": [
+            [
+              "two",
+              "2"
+            ],
+            [
+              "ticket",
+              "tickets"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que tienes autorización para trabajar en Canadá y que puedes empezar en dos semanas.",
+          "model": [
+            "I'm eligible to work in Canada, and I'm available to start in two weeks.",
+            "I'm eligible to work in Canada. I can start in two weeks."
+          ],
+          "expect": [
+            [
+              "eligible",
+              "allowed",
+              "permit"
+            ],
+            [
+              "start"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Al final, pregunta cuál es el horario del equipo.",
+          "model": [
+            "What hours does the team work?",
+            "What is the team's schedule?"
+          ],
+          "expect": [
+            [
+              "hours",
+              "schedule",
+              "shift"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No escuchas bien la llamada.",
+          "en": "Sorry, the line isn't very clear. Could you repeat that?",
+          "es": "Perdón, no se escucha bien. ¿Podría repetirlo?"
+        },
+        {
+          "situation_es": "No conoces una expresión.",
+          "en": "Sorry, what does 'locked out' mean?",
+          "es": "Perdón, ¿qué significa 'locked out'?"
+        },
+        {
+          "situation_es": "Quieres confirmar el siguiente paso.",
+          "en": "Just to confirm, you'll email me next week?",
+          "es": "Solo para confirmar: ¿me escribe la próxima semana?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-soporte-ti-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "Phone screen: IT help desk",
+        "title_es": "Llamada de preselección: mesa de ayuda",
+        "setting_es": "Una reclutadora te llama para una primera entrevista corta. El puesto es de soporte técnico en una empresa de Edmonton.",
+        "npc": "Recruiter",
+        "turns": [
+          {
+            "npc": "Hi {name}, this is Rhonda from the hiring team. Thanks for applying. Can you tell me about yourself?",
+            "npc_es": "Hola {name}, soy Rhonda, del equipo de contratación. Gracias por postularte. ¿Me cuentas sobre ti?",
+            "task_es": "Preséntate: di de dónde eres y tu experiencia en soporte.",
+            "expect": [
+              [
+                "mexico",
+                "from"
+              ],
+              [
+                "support",
+                "help desk",
+                "tickets",
+                "experience",
+                "computers"
+              ]
+            ],
+            "model": [
+              "I'm from Mexico. I have three years of experience in IT support.",
+              "Hi! I'm from Monterrey, Mexico, and I worked at a help desk for two years."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi have (\\d+|one|two|three|four|five) years (in|at)\\b",
+                "fix": "I have three years of experience in…",
+                "why_es": "Se dice *years of experience in*, no solo *years in*."
+              }
+            ]
+          },
+          {
+            "npc": "What kind of problems do users usually call about?",
+            "npc_es": "¿Por qué tipo de problemas suelen llamar los usuarios?",
+            "task_es": "Di dos problemas comunes: contraseñas y computadoras lentas.",
+            "expect": [
+              [
+                "password",
+                "passwords",
+                "log in",
+                "login",
+                "locked"
+              ],
+              [
+                "slow",
+                "printer",
+                "restart",
+                "computer",
+                "wifi",
+                "internet"
+              ]
+            ],
+            "model": [
+              "They forget their password, or their computer is slow.",
+              "Usually password problems and slow computers."
+            ]
+          },
+          {
+            "npc": "Okay. What do you do first when a computer is slow?",
+            "npc_es": "Está bien. ¿Qué haces primero cuando una computadora está lenta?",
+            "task_es": "Explica el primer paso: pedir que reinicien la computadora.",
+            "expect": [
+              [
+                "restart",
+                "reboot",
+                "turn it off",
+                "turn off"
+              ]
+            ],
+            "model": [
+              "First, I ask the user to restart the computer.",
+              "I tell them, 'Please restart your computer,' and then I check the ticket."
+            ],
+            "tips": [
+              {
+                "wrong": "\\breset the computer\\b",
+                "fix": "restart the computer",
+                "why_es": "*Restart* = reiniciar. *Reset* suele ser restablecer (una contraseña o la configuración)."
+              }
+            ]
+          },
+          {
+            "npc": "Are you legally able to work in Canada?",
+            "npc_es": "¿Tienes autorización legal para trabajar en Canadá?",
+            "task_es": "Responde con honestidad según tu caso: tienes autorización o vas a necesitar un permiso.",
+            "expect": [
+              [
+                "eligible",
+                "permit",
+                "allowed",
+                "authorized",
+                "authorised"
+              ]
+            ],
+            "model": [
+              "Yes, I'm eligible to work in Canada.",
+              "I have an open work permit, so yes, I'm allowed to work here."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bpermission of work\\b",
+                "fix": "work permit / I'm eligible to work",
+                "why_es": "*Permission of work* no se usa; di *work permit*."
+              }
+            ]
+          },
+          {
+            "npc": "Great. When can you start?",
+            "npc_es": "Muy bien. ¿Cuándo puedes empezar?",
+            "task_es": "Di que puedes empezar en dos semanas.",
+            "expect": [
+              [
+                "start",
+                "available"
+              ],
+              [
+                "two weeks",
+                "2 weeks",
+                "two week"
+              ]
+            ],
+            "model": [
+              "I'm available to start in two weeks.",
+              "I can start in two weeks, after I tell my current boss."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bsince two weeks\\b",
+                "fix": "in two weeks",
+                "why_es": "Para el futuro se usa *in*: in two weeks = dentro de dos semanas."
+              }
+            ]
+          },
+          {
+            "npc": "Perfect. Do you have any questions for me?",
+            "npc_es": "Perfecto. ¿Tienes alguna pregunta para mí?",
+            "task_es": "Pregunta por el horario o la capacitación, y da las gracias.",
+            "expect": [
+              [
+                "hours",
+                "schedule",
+                "shift",
+                "training",
+                "team"
+              ],
+              [
+                "thank",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "Yes, what are the hours? Thank you for your time.",
+              "What does the training look like? Thanks for calling."
+            ]
+          }
+        ],
+        "useful": [
+          "I'm eligible to work in Canada.",
+          "I'm available to start…",
+          "Please restart your computer.",
+          "Could you repeat that, please?",
+          "Thank you for your time."
+        ]
+      }
+    },
+    {
+      "id": "entrevista-soporte-ti-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Responder preguntas de comportamiento con el método STAR (situación, tarea, acción, resultado) sobre incidentes, escalamientos y capacitación de usuarios.",
+      "items": [
+        "phr-tell-me-about-a-time-when",
+        "voc-sla",
+        "col-check-the-logs",
+        "col-escalate-a-ticket",
+        "voc-workaround",
+        "phr-as-a-result",
+        "voc-troubleshooting",
+        "col-train-users",
+        "col-salary-range",
+        "col-ticketing-system"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-soporte-ti-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 971,
+        "title": "A behavioural interview for a service desk",
+        "title_es": "Entrevista por competencias para mesa de servicio",
+        "intro_es": "Valeria tiene una entrevista en persona con Kwame, gerente de TI, y Nadia, líder de la mesa de servicio. Usa el método STAR para contar un incidente real.",
+        "lines": [
+          {
+            "who": "Kwame",
+            "en": "Thanks for coming in, Valeria. This is Nadia; she leads our service desk.",
+            "es": "Gracias por venir, Valeria. Ella es Nadia; dirige nuestra mesa de servicio."
+          },
+          {
+            "who": "Nadia",
+            "en": "Hi. We'll ask some behavioural questions. [Tell me about a time when] you handled an urgent issue.",
+            "es": "Hola. Te haremos preguntas de comportamiento. Cuéntame de una vez en que resolviste un problema urgente.",
+            "item": "phr-tell-me-about-a-time-when"
+          },
+          {
+            "who": "Valeria",
+            "en": "Sure. At my last job, the whole sales team couldn't log in on a Monday morning.",
+            "es": "Claro. En mi trabajo anterior, todo el equipo de ventas no podía iniciar sesión un lunes en la mañana."
+          },
+          {
+            "who": "Valeria",
+            "en": "My task was to get them working again within our four-hour [SLA].",
+            "es": "Mi tarea era que volvieran a trabajar dentro de nuestro SLA de cuatro horas.",
+            "item": "voc-sla"
+          },
+          {
+            "who": "Valeria",
+            "en": "First, I [checked the logs] and saw that a security certificate had expired.",
+            "es": "Primero revisé los registros y vi que un certificado de seguridad había vencido.",
+            "item": "col-check-the-logs"
+          },
+          {
+            "who": "Valeria",
+            "en": "I didn't have access to fix it, so I [escalated the ticket] to the network team with clear notes.",
+            "es": "No tenía acceso para arreglarlo, así que escalé el ticket al equipo de redes con notas claras.",
+            "item": "col-escalate-a-ticket"
+          },
+          {
+            "who": "Valeria",
+            "en": "In the meantime, I sent users a [workaround]: a backup login page.",
+            "es": "Mientras tanto, les mandé a los usuarios una solución temporal: una página de acceso alternativa.",
+            "item": "voc-workaround"
+          },
+          {
+            "who": "Nadia",
+            "en": "And what was the result?",
+            "es": "¿Y cuál fue el resultado?"
+          },
+          {
+            "who": "Valeria",
+            "en": "Everyone was back online in two hours. [As a result], we added certificates to our monthly checklist.",
+            "es": "Todos volvieron a conectarse en dos horas. Como resultado, agregamos los certificados a nuestra lista mensual.",
+            "item": "phr-as-a-result"
+          },
+          {
+            "who": "Kwame",
+            "en": "Nice. How do you approach [troubleshooting] when the problem isn't clear?",
+            "es": "Bien. ¿Cómo abordas la resolución de problemas cuando no está claro qué pasa?",
+            "item": "voc-troubleshooting"
+          },
+          {
+            "who": "Valeria",
+            "en": "I ask for the exact steps, try to reproduce it, and change one thing at a time.",
+            "es": "Pido los pasos exactos, intento reproducirlo y cambio una sola cosa a la vez."
+          },
+          {
+            "who": "Nadia",
+            "en": "Have you ever had to [train users]?",
+            "es": "¿Alguna vez has tenido que capacitar a usuarios?",
+            "item": "col-train-users"
+          },
+          {
+            "who": "Valeria",
+            "en": "Yes. I ran short sessions on our new phone system, and we got fewer calls afterwards.",
+            "es": "Sí. Di sesiones cortas sobre el nuevo sistema telefónico y después recibimos menos llamadas."
+          },
+          {
+            "who": "Kwame",
+            "en": "Last question from us. What [salary range] are you looking for?",
+            "es": "Última pregunta de nuestra parte. ¿Qué rango salarial buscas?",
+            "item": "col-salary-range"
+          },
+          {
+            "who": "Valeria",
+            "en": "Based on my research for Edmonton, between fifty-two and fifty-eight thousand, depending on benefits.",
+            "es": "Según lo que investigué para Edmonton, entre 52 y 58 mil, dependiendo de las prestaciones."
+          },
+          {
+            "who": "Kwame",
+            "en": "That's within our range. We'll follow up by Friday.",
+            "es": "Está dentro de nuestro rango. Te contactamos a más tardar el viernes."
+          }
+        ],
+        "items": [
+          "phr-tell-me-about-a-time-when",
+          "voc-sla",
+          "col-check-the-logs",
+          "col-escalate-a-ticket",
+          "voc-workaround",
+          "phr-as-a-result",
+          "voc-troubleshooting",
+          "col-train-users",
+          "col-salary-range"
+        ],
+        "questions": [
+          {
+            "q": "What caused the login problem?",
+            "options": [
+              "A forgotten password",
+              "An expired certificate",
+              "A broken laptop"
+            ],
+            "answer": 1,
+            "why_es": "Valeria vio que 'a security certificate had expired'."
+          },
+          {
+            "q": "What did Valeria do when she couldn't fix it herself?",
+            "options": [
+              "She escalated the ticket",
+              "She closed the ticket",
+              "She waited until Tuesday"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'I escalated the ticket to the network team'."
+          },
+          {
+            "q": "What changed after the incident?",
+            "options": [
+              "The team hired more people",
+              "The SLA became longer",
+              "Certificates were added to a checklist"
+            ],
+            "answer": 2,
+            "why_es": "Como resultado, 'we added certificates to our monthly checklist'."
+          },
+          {
+            "q": "How did Valeria answer the salary question?",
+            "options": [
+              "With a researched range",
+              "With one exact number",
+              "She refused to answer"
+            ],
+            "answer": 0,
+            "why_es": "Da un rango basado en su investigación: 'Based on my research…'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "STAR – Situación: el equipo de ventas no podía iniciar sesión un lunes en la mañana.",
+          "model": [
+            "The sales team couldn't log in on a Monday morning.",
+            "One Monday, the whole sales team was unable to log in."
+          ],
+          "expect": [
+            [
+              "sales"
+            ],
+            [
+              "log in",
+              "login",
+              "sign in",
+              "access"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "STAR – Acción: escalaste el ticket al equipo de redes y diste una solución temporal.",
+          "model": [
+            "I escalated the ticket to the network team and gave users a workaround.",
+            "I sent the ticket to the network team, and in the meantime I shared a workaround."
+          ],
+          "expect": [
+            [
+              "escalated",
+              "escalate",
+              "sent"
+            ],
+            [
+              "workaround",
+              "temporary",
+              "in the meantime"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Responde la pregunta de salario con un rango investigado.",
+          "model": [
+            "Based on my research, I'm looking for something between 52 and 58 thousand.",
+            "I'm looking for a range of fifty-two to fifty-eight thousand, depending on benefits."
+          ],
+          "expect": [
+            [
+              "research",
+              "range",
+              "between"
+            ],
+            [
+              "thousand",
+              "000",
+              "k"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres confirmar qué tipo de ejemplo piden.",
+          "en": "Just to make sure I understand, you'd like an example with a difficult user?",
+          "es": "Para asegurarme de que entiendo: ¿quiere un ejemplo con un usuario difícil?"
+        },
+        {
+          "situation_es": "Necesitas un momento para elegir un ejemplo.",
+          "en": "That's a good question. Let me think of the best example.",
+          "es": "Buena pregunta. Déjeme pensar en el mejor ejemplo."
+        },
+        {
+          "situation_es": "Te equivocaste en un dato.",
+          "en": "Sorry, let me correct that: it was two hours, not four.",
+          "es": "Perdón, corrijo: fueron dos horas, no cuatro."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-soporte-ti-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Behavioural interview: IT support",
+        "title_es": "Entrevista por competencias: soporte de TI",
+        "setting_es": "Entrevista en persona para analista de soporte técnico. La gerente de la mesa de servicio usa preguntas de comportamiento; responde con el método STAR.",
+        "npc": "Service desk manager",
+        "turns": [
+          {
+            "npc": "Thanks for joining us, {name}. Let's start with a behavioural question. Tell me about a time when you dealt with a frustrated user.",
+            "npc_es": "Gracias por venir, {name}. Empecemos con una pregunta de comportamiento. Cuéntame de una vez en que atendiste a un usuario frustrado.",
+            "task_es": "Situación y tarea: una usuaria molesta porque su laptop falló antes de una presentación.",
+            "expect": [
+              [
+                "user",
+                "client",
+                "customer",
+                "manager"
+              ],
+              [
+                "laptop",
+                "computer",
+                "presentation"
+              ]
+            ],
+            "model": [
+              "A manager was upset because her laptop stopped working an hour before a presentation.",
+              "Once, a user called me angry because his computer crashed before an important presentation."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bmolest",
+                "fix": "upset / frustrated / annoyed",
+                "why_es": "Falso amigo: *molest* significa abusar de alguien. *Molesto* es *upset* o *annoyed*."
+              }
+            ]
+          },
+          {
+            "npc": "What did you do?",
+            "npc_es": "¿Qué hiciste?",
+            "task_es": "Acción: te mantuviste en calma, escuchaste y diste una solución temporal.",
+            "expect": [
+              [
+                "calm",
+                "listened",
+                "listen",
+                "stayed"
+              ],
+              [
+                "workaround",
+                "spare",
+                "temporary",
+                "another laptop",
+                "backup"
+              ]
+            ],
+            "model": [
+              "I stayed calm, listened, and gave her a spare laptop as a workaround.",
+              "First I listened. Then I set up a backup laptop so she could present, and I kept troubleshooting hers."
+            ]
+          },
+          {
+            "npc": "And the result?",
+            "npc_es": "¿Y el resultado?",
+            "task_es": "Resultado: algo concreto que pasó al final.",
+            "expect": [
+              [
+                "result",
+                "in the end",
+                "so",
+                "finally"
+              ],
+              [
+                "presentation",
+                "on time",
+                "fixed",
+                "resolved",
+                "solved"
+              ]
+            ],
+            "model": [
+              "As a result, she gave her presentation on time, and I fixed her laptop that afternoon.",
+              "In the end, the presentation started on time and the ticket was resolved the same day."
+            ]
+          },
+          {
+            "npc": "How do you decide when to escalate a ticket?",
+            "npc_es": "¿Cómo decides cuándo escalar un ticket?",
+            "task_es": "Explica cuándo escalas: si no tienes acceso o si el SLA está en riesgo.",
+            "expect": [
+              [
+                "escalate",
+                "escalated",
+                "escalating"
+              ],
+              [
+                "sla",
+                "access",
+                "permission",
+                "permissions",
+                "another team",
+                "time"
+              ]
+            ],
+            "model": [
+              "I escalate when I don't have the access to fix it, or when we're close to the SLA.",
+              "If another team owns the system or the SLA is at risk, I escalate it with clear notes."
+            ]
+          },
+          {
+            "npc": "We cover some evenings. Are you comfortable working the occasional evening shift?",
+            "npc_es": "Cubrimos algunas tardes. ¿Te acomoda trabajar un turno de tarde de vez en cuando?",
+            "task_es": "Di que sí puedes, si te avisan con tiempo.",
+            "expect": [
+              [
+                "yes",
+                "sure",
+                "comfortable",
+                "fine",
+                "happy"
+              ],
+              [
+                "evening",
+                "evenings",
+                "shift",
+                "shifts",
+                "notice",
+                "advance"
+              ]
+            ],
+            "model": [
+              "Yes, I'm comfortable with some evening shifts if I know in advance.",
+              "Sure, evenings are fine with a bit of notice."
+            ]
+          },
+          {
+            "npc": "Great. What questions do you have for us?",
+            "npc_es": "Muy bien. ¿Qué preguntas tienes para nosotros?",
+            "task_es": "Haz una pregunta sobre la capacitación o cómo miden el éxito del puesto.",
+            "expect": [
+              [
+                "training",
+                "onboarding",
+                "measure",
+                "metrics",
+                "success",
+                "team",
+                "tickets"
+              ]
+            ],
+            "model": [
+              "How do you measure success for this role in the first three months?",
+              "What does the onboarding look like for new support analysts?"
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about a time when…",
+          "As a result,…",
+          "I escalated the ticket to…",
+          "In the meantime, I offered a workaround.",
+          "Based on my research,…"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-soporte-ti-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Defender tu manejo de un incidente grave, responder a objeciones sobre tus métricas y negociar salario, guardias y fecha de inicio con tacto.",
+      "items": [
+        "voc-outage",
+        "col-take-ownership",
+        "voc-escalation",
+        "col-root-cause",
+        "voc-post-mortem",
+        "col-first-call-resolution",
+        "col-work-permit",
+        "phr-id-appreciate-any-flexibility",
+        "col-two-weeks-notice",
+        "voc-counteroffer"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-soporte-ti-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 972,
+        "title": "Final round: application support analyst",
+        "title_es": "Ronda final: analista de soporte de aplicaciones",
+        "intro_es": "Mateo llega a la última entrevista con Okoye, directora de operaciones de TI, y Greg, de recursos humanos. Le piden detalles técnicos, lo presionan con una objeción y negocian la oferta.",
+        "lines": [
+          {
+            "who": "Okoye",
+            "en": "Mateo, your résumé mentions a major [outage]. Walk us through it, and don't spare the details.",
+            "es": "Mateo, tu currículum menciona una caída grave del servicio. Explícanosla, sin ahorrarte detalles.",
+            "item": "voc-outage"
+          },
+          {
+            "who": "Mateo",
+            "en": "Sure. Our billing application went down at month-end, so roughly two hundred staff were stuck.",
+            "es": "Claro. Nuestra aplicación de facturación se cayó a fin de mes, y unas doscientas personas se quedaron sin poder trabajar."
+          },
+          {
+            "who": "Mateo",
+            "en": "I [took ownership] of the incident call, even though I was the most junior person on call.",
+            "es": "Asumí la responsabilidad de la llamada del incidente, aunque era la persona con menos antigüedad de guardia.",
+            "item": "col-take-ownership"
+          },
+          {
+            "who": "Greg",
+            "en": "Bold move. How did you keep it from turning into chaos?",
+            "es": "Qué audaz. ¿Cómo evitaste que se volviera un caos?"
+          },
+          {
+            "who": "Mateo",
+            "en": "I set fifteen-minute updates and a clear [escalation] path: database team first, then the vendor.",
+            "es": "Fijé actualizaciones cada quince minutos y una ruta de escalamiento clara: primero el equipo de bases de datos, luego el proveedor.",
+            "item": "voc-escalation"
+          },
+          {
+            "who": "Mateo",
+            "en": "The [root cause] turned out to be a scheduled job that locked a key table.",
+            "es": "La causa raíz resultó ser una tarea programada que bloqueaba una tabla clave.",
+            "item": "col-root-cause"
+          },
+          {
+            "who": "Okoye",
+            "en": "And afterwards?",
+            "es": "¿Y después?"
+          },
+          {
+            "who": "Mateo",
+            "en": "I wrote a blameless [post-mortem], and we moved that job outside business hours.",
+            "es": "Escribí un análisis posterior sin culpables, y movimos esa tarea fuera del horario laboral.",
+            "item": "voc-post-mortem"
+          },
+          {
+            "who": "Greg",
+            "en": "Here's some pushback: your [first-call resolution] rate was below the team average. Why shouldn't that worry us?",
+            "es": "Te pongo una objeción: tu tasa de resolución en el primer contacto estaba por debajo del promedio. ¿Por qué no debería preocuparnos?",
+            "item": "col-first-call-resolution"
+          },
+          {
+            "who": "Mateo",
+            "en": "Fair point. I took the complex application tickets, so I traded speed for fewer reopened cases.",
+            "es": "Es válido. Yo tomaba los tickets complejos de aplicaciones, así que sacrifiqué rapidez a cambio de menos casos reabiertos."
+          },
+          {
+            "who": "Okoye",
+            "en": "Let's talk logistics. What's your status for working in Canada?",
+            "es": "Hablemos de logística. ¿Cuál es tu situación para trabajar en Canadá?"
+          },
+          {
+            "who": "Mateo",
+            "en": "I hold an open [work permit], and I'm happy to share the details with HR.",
+            "es": "Tengo un permiso de trabajo abierto y con gusto le comparto los detalles a recursos humanos.",
+            "item": "col-work-permit"
+          },
+          {
+            "who": "Greg",
+            "en": "Our offer would sit around sixty-eight thousand. Thoughts?",
+            "es": "Nuestra oferta rondaría los 68 mil. ¿Qué opinas?"
+          },
+          {
+            "who": "Mateo",
+            "en": "I appreciate that. Given the on-call duties, I was hoping for the low seventies, so [I'd appreciate any flexibility].",
+            "es": "Lo agradezco. Por las guardias, esperaba algo arriba de 70 mil, así que agradecería cualquier flexibilidad.",
+            "item": "phr-id-appreciate-any-flexibility"
+          },
+          {
+            "who": "Okoye",
+            "en": "Understood. If we can't move on base, would extra vacation help?",
+            "es": "Entendido. Si no podemos mover el salario base, ¿te ayudarían más días de vacaciones?"
+          },
+          {
+            "who": "Mateo",
+            "en": "It might. Also, I'd need to give [two weeks' notice], so mid-March is a realistic start date.",
+            "es": "Podría ser. Además, tendría que avisar con dos semanas, así que mediados de marzo es una fecha realista para empezar.",
+            "item": "col-two-weeks-notice"
+          }
+        ],
+        "items": [
+          "voc-outage",
+          "col-take-ownership",
+          "voc-escalation",
+          "col-root-cause",
+          "voc-post-mortem",
+          "col-first-call-resolution",
+          "col-work-permit",
+          "phr-id-appreciate-any-flexibility",
+          "col-two-weeks-notice"
+        ],
+        "questions": [
+          {
+            "q": "What caused the outage?",
+            "options": [
+              "A vendor update",
+              "A scheduled job that locked a table",
+              "A power failure"
+            ],
+            "answer": 1,
+            "why_es": "Mateo dice que la causa raíz fue 'a scheduled job that locked a key table'."
+          },
+          {
+            "q": "How does Mateo respond to the criticism about his resolution rate?",
+            "options": [
+              "He blames his manager",
+              "He denies the numbers",
+              "He explains a trade-off he made"
+            ],
+            "answer": 2,
+            "why_es": "Explica que tomaba tickets complejos: 'I traded speed for fewer reopened cases'."
+          },
+          {
+            "q": "What does Okoye offer if the base salary can't change?",
+            "options": [
+              "Extra vacation",
+              "A company car",
+              "Remote work only"
+            ],
+            "answer": 0,
+            "why_es": "Pregunta: 'would extra vacation help?'."
+          },
+          {
+            "q": "Why can't Mateo start immediately?",
+            "options": [
+              "He's waiting for a permit",
+              "He must give notice at his current job",
+              "He's travelling"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'I'd need to give two weeks' notice'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Responde a la objeción: tu tasa de resolución era baja porque tomabas los tickets más complejos.",
+          "model": [
+            "That's a fair point. I took the most complex tickets, so my numbers were lower but fewer cases were reopened.",
+            "Fair question. I handled the complex escalations, which lowered my resolution rate but reduced reopened tickets."
+          ],
+          "expect": [
+            [
+              "fair",
+              "understand",
+              "good point"
+            ],
+            [
+              "complex",
+              "complicated",
+              "difficult"
+            ],
+            [
+              "reopened",
+              "reopen",
+              "lower",
+              "trade"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Contraoferta con cortesía: agradece, menciona las guardias y pide flexibilidad.",
+          "model": [
+            "I appreciate the offer. Given the on-call work, I was hoping for the low seventies. Is there any flexibility?",
+            "Thank you, I'm excited about the role. Based on my research, I was aiming for 72,000, so I'd appreciate any flexibility."
+          ],
+          "expect": [
+            [
+              "appreciate",
+              "thank"
+            ],
+            [
+              "flexibility",
+              "flexible",
+              "room"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica tu situación para trabajar sin dar detalles legales: tienes permiso de trabajo abierto y puedes compartir los documentos con RR. HH.",
+          "model": [
+            "I hold an open work permit, and I'm happy to share the documents with HR.",
+            "I have an open work permit; HR can review the details whenever they need."
+          ],
+          "expect": [
+            [
+              "work permit",
+              "eligible",
+              "authorized"
+            ],
+            [
+              "hr",
+              "human resources",
+              "share",
+              "review"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te interrumpen con una objeción fuerte.",
+          "en": "That's a fair challenge. Let me add some context.",
+          "es": "Es un cuestionamiento válido. Permítame dar algo de contexto."
+        },
+        {
+          "situation_es": "Todavía no quieres dar una cifra.",
+          "en": "I'd like to understand the full package before I name a number.",
+          "es": "Me gustaría entender el paquete completo antes de dar una cifra."
+        },
+        {
+          "situation_es": "La pregunta tiene dos partes.",
+          "en": "There are two parts to that, so let me take them one at a time.",
+          "es": "Eso tiene dos partes, así que déjeme responderlas una por una."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-soporte-ti-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Final round: application support",
+        "title_es": "Ronda final: soporte de aplicaciones",
+        "setting_es": "Última entrevista para analista de soporte de aplicaciones en Edmonton. La directora de operaciones de TI te pide detalles técnicos, te presiona y luego hablan de la oferta.",
+        "npc": "Director of IT Operations",
+        "turns": [
+          {
+            "npc": "Thanks, {name}. Let's go deep. Describe the most serious incident you've owned, start to finish.",
+            "npc_es": "Gracias, {name}. Vamos a fondo. Describe el incidente más grave del que te hayas hecho cargo, de principio a fin.",
+            "task_es": "Resume el incidente: qué falló, a quién afectó y cuál fue tu papel.",
+            "expect": [
+              [
+                "outage",
+                "down",
+                "incident",
+                "crashed",
+                "failed"
+              ],
+              [
+                "users",
+                "people",
+                "customers",
+                "staff"
+              ]
+            ],
+            "model": [
+              "Our billing app went down at month-end and about two hundred users couldn't work. I led the incident call.",
+              "I owned an outage where the main application crashed and roughly 200 staff were blocked."
+            ]
+          },
+          {
+            "npc": "How did you find the root cause under that kind of pressure?",
+            "npc_es": "¿Cómo encontraste la causa raíz con esa presión?",
+            "task_es": "Explica tu método: registros, cambios recientes, una hipótesis a la vez.",
+            "expect": [
+              [
+                "logs",
+                "log",
+                "recent changes",
+                "monitoring",
+                "database"
+              ],
+              [
+                "root cause",
+                "cause",
+                "hypothesis",
+                "one at a time"
+              ]
+            ],
+            "model": [
+              "I checked the logs and recent changes, and tested one hypothesis at a time until we found the root cause.",
+              "We compared the monitoring data with the database logs, which pointed us to the cause: a locked table."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bthe root cause was because\\b",
+                "fix": "The root cause was… / It happened because…",
+                "why_es": "*The cause was because* es redundante; usa una de las dos estructuras."
+              }
+            ]
+          },
+          {
+            "npc": "To be blunt, your first-call resolution numbers were weak. Convince me that's not a red flag.",
+            "npc_es": "Siendo directa: tus cifras de resolución en el primer contacto eran bajas. Convénceme de que no es una señal de alerta.",
+            "task_es": "Responde a la objeción sin ponerte a la defensiva, con un trade-off claro.",
+            "expect": [
+              [
+                "fair",
+                "understand",
+                "point",
+                "valid"
+              ],
+              [
+                "complex",
+                "difficult",
+                "escalations",
+                "reopened",
+                "quality"
+              ]
+            ],
+            "model": [
+              "That's a fair point. I took the most complex tickets, so I traded speed for fewer reopened cases.",
+              "I understand the concern. My queue was mostly escalations, and my reopened rate was the lowest on the team."
+            ]
+          },
+          {
+            "npc": "How would you train end users so the same tickets stop coming back?",
+            "npc_es": "¿Cómo capacitarías a los usuarios para que dejen de llegar los mismos tickets?",
+            "task_es": "Propón algo concreto: guías cortas, sesiones o artículos de base de conocimiento.",
+            "expect": [
+              [
+                "guide",
+                "guides",
+                "session",
+                "sessions",
+                "knowledge base",
+                "article",
+                "articles",
+                "video",
+                "videos",
+                "training"
+              ]
+            ],
+            "model": [
+              "I'd write short how-to guides for the top five issues and run quick training sessions.",
+              "I'd build knowledge base articles for repeat issues and record short videos for new users."
+            ]
+          },
+          {
+            "npc": "Let's be practical. What's your status for working in Canada, and when could you start?",
+            "npc_es": "Seamos prácticos. ¿Cuál es tu situación para trabajar en Canadá y cuándo podrías empezar?",
+            "task_es": "Di tu situación con cuidado (sin asesoría legal) y que necesitas avisar con dos semanas.",
+            "expect": [
+              [
+                "permit",
+                "eligible",
+                "authorized",
+                "authorised",
+                "citizen",
+                "resident"
+              ],
+              [
+                "notice",
+                "two weeks",
+                "2 weeks"
+              ]
+            ],
+            "model": [
+              "I'm eligible to work in Canada, and I'd need to give two weeks' notice.",
+              "I hold an open work permit and can share it with HR. I'd start after two weeks' notice."
+            ]
+          },
+          {
+            "npc": "Our budget for this role tops out at seventy. Where does that leave us?",
+            "npc_es": "Nuestro presupuesto para este puesto llega como máximo a 70 mil. ¿En qué quedamos?",
+            "task_es": "Negocia: agradece, menciona las guardias y pide flexibilidad o prestaciones.",
+            "expect": [
+              [
+                "appreciate",
+                "thank",
+                "understand"
+              ],
+              [
+                "flexibility",
+                "flexible",
+                "vacation",
+                "benefits",
+                "bonus",
+                "allowance"
+              ]
+            ],
+            "model": [
+              "I appreciate that. Given the on-call duties, would there be flexibility on vacation or an on-call allowance?",
+              "I understand the budget. Could we look at extra vacation or an on-call bonus to close the gap?"
+            ]
+          },
+          {
+            "npc": "Fair enough. We'll take that back to HR. Anything else before we wrap up?",
+            "npc_es": "Me parece justo. Lo llevamos a recursos humanos. ¿Algo más antes de terminar?",
+            "task_es": "Cierra con una pregunta inteligente y di que enviarás un correo de seguimiento.",
+            "expect": [
+              [
+                "what",
+                "how",
+                "question"
+              ],
+              [
+                "follow up",
+                "follow-up",
+                "email",
+                "thank"
+              ]
+            ],
+            "model": [
+              "Just one question: what would success look like in the first ninety days? I'll send a quick follow-up email today.",
+              "How does the team handle on-call rotations? Thanks again, I'll follow up by email."
+            ]
+          }
+        ],
+        "useful": [
+          "That's a fair point, and here's the context.",
+          "The root cause turned out to be…",
+          "I took ownership of…",
+          "I'd appreciate any flexibility on…",
+          "I'd need to give two weeks' notice."
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "phr-do-you-have-any-questions-for-me",
+      "type": "phrase",
+      "term": "do you have any questions for me?",
+      "level": "A2",
+      "topic": "interview",
+      "freq": 5,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "¿tienes alguna pregunta para mí?",
+      "def": "what an interviewer asks near the end so the candidate can ask about the job",
+      "note": "Nunca contestes solo *No*. Ten lista una o dos preguntas sobre el equipo, el horario o la capacitación.",
+      "ex": [
+        {
+          "en": "Before we finish, [do you have any questions for me]?",
+          "es": "Antes de terminar, ¿tienes alguna pregunta para mí?"
+        },
+        {
+          "en": "So, [do you have any questions for me] about the role?",
+          "es": "Bueno, ¿tienes alguna pregunta para mí sobre el puesto?"
+        }
+      ]
+    },
+    {
+      "id": "voc-sla",
+      "type": "vocab",
+      "term": "SLA",
+      "ipa": "/ˌɛs ɛl ˈeɪ/",
+      "level": "B2",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "soporte",
+        "proyectos"
+      ],
+      "es": "acuerdo de nivel de servicio (tiempo de atención comprometido)",
+      "def": "service level agreement: the promised time and quality for a service",
+      "note": "Se pronuncia letra por letra: S-L-A. *We met our SLA* = cumplimos el tiempo acordado.",
+      "ex": [
+        {
+          "en": "High-priority tickets have a four-hour [SLA].",
+          "es": "Los tickets de alta prioridad tienen un SLA de cuatro horas."
+        },
+        {
+          "en": "We didn't miss a single [SLA] last quarter.",
+          "es": "No incumplimos ni un SLA el trimestre pasado."
+        }
+      ]
+    },
+    {
+      "id": "col-train-users",
+      "type": "collocation",
+      "term": "train users",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "soporte"
+      ],
+      "es": "capacitar a los usuarios",
+      "def": "to teach people how to use a system or a tool",
+      "ex": [
+        {
+          "en": "I [trained users] on the new phone system.",
+          "es": "Capacité a los usuarios en el nuevo sistema telefónico."
+        },
+        {
+          "en": "Part of the job is to [train users] in small groups.",
+          "es": "Parte del trabajo es capacitar a los usuarios en grupos pequeños."
+        }
+      ]
+    },
+    {
+      "id": "col-salary-range",
+      "type": "collocation",
+      "term": "salary range",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "rango salarial",
+      "def": "the lowest and highest pay a company plans to offer for a job",
+      "note": "Mejor dar un rango investigado que una cifra exacta: *Based on my research, I'm looking at…*.",
+      "ex": [
+        {
+          "en": "What's the [salary range] for this position?",
+          "es": "¿Cuál es el rango salarial de este puesto?"
+        },
+        {
+          "en": "My research showed a [salary range] of fifty-five to sixty thousand.",
+          "es": "Según lo que investigué, el rango salarial es de 55 a 60 mil."
+        }
+      ]
+    },
+    {
+      "id": "col-ticketing-system",
+      "type": "collocation",
+      "term": "ticketing system",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "soporte",
+        "software"
+      ],
+      "es": "sistema de tickets",
+      "def": "software a team uses to record, assign and track help requests",
+      "ex": [
+        {
+          "en": "Every request goes into the [ticketing system] first.",
+          "es": "Toda solicitud entra primero al sistema de tickets."
+        },
+        {
+          "en": "I've worked with two different [ticketing systems].",
+          "es": "He trabajado con dos sistemas de tickets distintos."
+        }
+      ]
+    },
+    {
+      "id": "col-first-call-resolution",
+      "type": "collocation",
+      "term": "first-call resolution",
+      "level": "C1",
+      "topic": "tech",
+      "freq": 2,
+      "areas": [
+        "soporte"
+      ],
+      "es": "resolución en el primer contacto",
+      "def": "solving a user's problem during the first call, without a follow-up",
+      "note": "Métrica típica de mesas de ayuda; a veces se abrevia FCR.",
+      "ex": [
+        {
+          "en": "Our [first-call resolution] rate went up after the new guides.",
+          "es": "Nuestra tasa de resolución en el primer contacto subió con las nuevas guías."
+        },
+        {
+          "en": "Complex tickets lower your [first-call resolution] numbers.",
+          "es": "Los tickets complejos bajan tus cifras de resolución en el primer contacto."
+        }
+      ]
+    },
+    {
+      "id": "col-work-permit",
+      "type": "collocation",
+      "term": "work permit",
+      "level": "A2",
+      "topic": "canada",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "permiso de trabajo",
+      "def": "an official document that lets a person from another country work",
+      "note": "Di solo lo que aplica a tu caso: *I have an open work permit* o *I'll need a work permit*. No inventes detalles legales.",
+      "ex": [
+        {
+          "en": "My [work permit] is valid for two more years.",
+          "es": "Mi permiso de trabajo es válido dos años más."
+        },
+        {
+          "en": "I'll need a [work permit] before I can accept an offer.",
+          "es": "Voy a necesitar un permiso de trabajo antes de aceptar una oferta."
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import { CATALOG } from "@/lib/content";
 import { normalize } from "@/lib/answer";
 import { maskExplicit } from "@/lib/realtalk";
 import { CatalogBatch } from "@/components/CatalogBatch";
+import { EmptyArt } from "@/components/ux/EmptyArt";
 
 export const metadata = { title: "Catálogo de palabras" };
 const PER = 60;
@@ -71,6 +72,16 @@ export default async function Words({ searchParams }: PageProps<"/biblioteca/pal
       </form>
 
       <p className="text-sm font-bold text-muted">{list.length.toLocaleString("es-MX")} resultados</p>
+      {list.length === 0 && (
+        <div className="empty-state">
+          <EmptyArt kind="vacio-busqueda" mood="think" />
+          <h2 className="font-display text-2xl font-extrabold">No encontramos esa palabra</h2>
+          <p className="max-w-sm text-muted">Revisa cómo se escribe o busca su traducción en español.</p>
+          <Link href="/biblioteca/palabras" className="btn btn-ghost">
+            Quitar filtros
+          </Link>
+        </div>
+      )}
       <ul className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
         {shown.map((c) => {
           const stt = state(c.id, c.dupOf);

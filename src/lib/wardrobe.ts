@@ -7,10 +7,11 @@ import posesData from "./armario-poses.json";
 
 export const TIERS = ["Normal", "Raro", "Épico", "Legendario"] as const;
 export type Tier = 0 | 1 | 2 | 3;
-/** Precio directo en gemas por rareza. Las mascotas cuestan 25 más. */
-export const PRICE = [35, 65, 105, 160] as const;
+/** Precio directo en gemas por rareza. Las mascotas cuestan 40 más. (Fase 3: subidos para equilibrar la economía.) */
+export const PRICE = [60, 110, 180, 280] as const;
+export const PET_EXTRA = 40;
 
-export const PETS = [
+const ALL_PETS = [
   { id: "zorro", label: "Zorro", defaultName: "Rufo", tier: 0, free: true, x: 47.5 },
   { id: "gato", label: "Gato", defaultName: "Misu", tier: 0, free: true, x: 47.7 },
   { id: "perro", label: "Perro", defaultName: "Toby", tier: 0, free: true, x: 50 },
@@ -23,13 +24,26 @@ export const PETS = [
   { id: "ciervo", label: "Ciervo", defaultName: "Brío", tier: 1, free: false, x: 49 },
   { id: "panda-rojo", label: "Panda rojo", defaultName: "Kumo", tier: 2, free: false, x: 50.8 },
   { id: "ajolote", label: "Ajolote", defaultName: "Axo", tier: 3, free: false, x: 48.6 },
+  // Fase 3 (arte de Codex): cuatro especies nuevas.
+  { id: "tlacuache", label: "Tlacuache", defaultName: "Tlaco", tier: 1, free: false, x: 55.5 },
+  { id: "mapache", label: "Mapache", defaultName: "Bandi", tier: 2, free: false, x: 53.2 },
+  { id: "dragon", label: "Dragón", defaultName: "Jade", tier: 3, free: false, x: 56.1 },
+  { id: "unicornio", label: "Unicornio", defaultName: "Luna", tier: 3, free: false, x: 52.8 },
 ] as const satisfies readonly { id: string; label: string; defaultName: string; tier: Tier; free: boolean; x: number }[];
+/**
+ * Arte en regeneración (docs/ux/CODEX-FASE3-REGENERACION.md): las prendas venían pegadas sobre la mascota.
+ * Mientras llega el arte nuevo, las cuatro especies de la Fase 3 y la colección navideña nueva no se muestran,
+ * no se venden y no salen en cofres ni regalos. Pon `true` cuando se integre la entrega corregida.
+ */
+export const FASE3_ART_READY = false;
+const PENDING_PETS = new Set(["tlacuache", "mapache", "dragon", "unicornio"]);
+export const PETS = ALL_PETS.filter((p) => FASE3_ART_READY || !PENDING_PETS.has(p.id));
 export type PetId = (typeof PETS)[number]["id"];
 export const PET_IDS = PETS.map((p) => p.id) as PetId[];
 export const petOf = (id: string) => PETS.find((p) => p.id === id);
 export const petPrice = (id: string) => {
   const p = petOf(id);
-  return p && !p.free ? PRICE[p.tier] + 25 : 0;
+  return p && !p.free ? PRICE[p.tier] + PET_EXTRA : 0;
 };
 
 export const MOODS = ["happy", "cheer", "think", "oops", "wow", "sleep", "encourage", "proud"] as const;
@@ -62,6 +76,10 @@ const BASE: Record<string, [string, string, Tier, Source?]> = {
   suit: ["Traje con corbata", "coat", 2],
 };
 const CLOTHES = ["chaleco", "poncho", "marinera", "delantal", "capa", "chaqueta", "vestido", "manto"];
+/** Colección navideña (Fase 3): rareza de cada pieza. Nombre y tipo vienen del arte (armario-data.json). */
+const XMAS: Record<string, Tier> = { "gorro-reno": 1, "bufanda-luces": 1, "pijama-navidad": 2, "lentes-estrella": 0, "mono-regalo": 0, "pin-baston": 0, "pin-galleta": 1, "diadema-copos": 2 };
+/** Piezas con el arte en revisión (se ven mal sobre las mascotas): no se venden ni salen en cofres hasta que llegue el arte corregido. */
+const ART_PENDING = new Set(FASE3_ART_READY ? [] : ["pijama-navidad", "bufanda-luces", "gorro-reno", "lentes-estrella", "mono-regalo", "pin-baston", "pin-galleta", "diadema-copos"]);
 
 /** Logros que regalan una pieza (se entregan una sola vez). */
 export const AWARDS = [
@@ -87,6 +105,7 @@ export const PIECES: Piece[] = (() => {
   CLOTHES.forEach((id, i) => add(id, names[id].name, names[id].kind, Math.floor(i / 2) as Tier));
   // Colección del jardín: en cada grupo de 8, dos piezas por rareza.
   for (const [id, v] of Object.entries(names)) if (id.startsWith("jardin-")) add(id, v.name, v.kind, Math.floor(((Number(id.slice(-1)) - 1) % 8) / 2) as Tier);
+  for (const [id, tier] of Object.entries(XMAS)) if (names[id] && !ART_PENDING.has(id)) add(id, names[id].name, names[id].kind, tier);
   for (const a of AWARDS) add(a.id, names[a.id].name, "badge", a.tier, "award", a.how);
   return out;
 })();
@@ -94,6 +113,8 @@ export const pieceOf = (id: string) => PIECES.find((p) => p.id === id);
 export const STARTERS = PIECES.filter((p) => p.source === "starter").map((p) => p.id);
 
 /** Inventario: la pieza X se guarda como "pz-X" y la mascota Y como "pet-Y". Los id anteriores ("acc-X", "out-X") siguen valiendo. */
+/** Piezas navideñas (se amplía cuando llegan las nuevas de Codex). */
+export const CHRISTMAS = ["santa", "sweater", ...Object.keys(XMAS).filter((id) => !ART_PENDING.has(id))] as readonly string[];
 export const pieceKey = (id: string) => `pz-${id}`;
 export const petKey = (id: string) => `pet-${id}`;
 export function ownsPiece(id: string, owned: Set<string>) {
@@ -114,7 +135,7 @@ export const sanitizeWear = (wear: unknown): string[] => (Array.isArray(wear) ? 
 // ---------- Composición por capas (port del probador de la entrega) ----------
 
 type Box = [number, number, number, number];
-type PetData = { whole: string[]; lower: Record<string, Box>; top: Record<string, Box>; fabric: Record<string, Box>; front: Record<string, Box>; ink: Record<string, Box>; badges: Record<string, [number, number, number]> };
+type PetData = { whole: string[]; lower: Record<string, Box>; top: Record<string, Box>; fabric: Record<string, Box>; front: Record<string, Box>; ink: Record<string, Box>; badges: Record<string, [number, number, number]>; inkWithHat?: Record<string, Record<string, Box>> };
 const D = data as unknown as { feet: Record<string, Record<string, number>>; groups: { body: string[]; neck: string[]; head: string[] }; pets: Record<string, PetData>; boxes: Record<string, Record<string, Box>>; fit?: Record<string, { s: number; dx: number; dy: number }>; pieceFit?: Record<string, Record<string, number>> };
 
 /**
@@ -194,9 +215,21 @@ export function dressLayers(pet: string, wear: string[], mood = "happy"): Layer[
   const small = sel.filter((k) => m.ink[k]);
   // Pines: un mismo punto del pecho para todos (el de racha-5). Si hay pieza de cuello, se corren a un lado para no taparla.
   const anchor = m.ink["racha-5"];
+  // Pines sobre la pijama navideña: el arte trae su punto en la tela visible (con o sin bufanda).
+  const pinSpot = body ? m.badges?.[`${body}:${neck ?? ""}`] ?? m.badges?.[`${body}:`] : undefined;
+  const fitted = new Set<string>();
   for (const k of small) {
     let b = m.ink[k];
-    if (pieceOf(k)?.kind === "badge" && anchor) {
+    // Adorno de cabello con sombrero: caja medida por el arte para ese sombrero (no se corta con la máscara).
+    const withHat = head ? m.inkWithHat?.[head]?.[k] : undefined;
+    if (withHat) {
+      b = withHat;
+      fitted.add(`/armario/layers/${k}.webp`);
+    } else if (pieceOf(k)?.kind === "badge" && pinSpot) {
+      const [cx, cy, size] = pinSpot;
+      const sc = Math.min(1, size / Math.max(b[2], b[3]));
+      b = [Math.round(cx - (b[2] * sc) / 2), Math.round(cy - (b[3] * sc) / 2), Math.round(b[2] * sc), Math.round(b[3] * sc)];
+    } else if (pieceOf(k)?.kind === "badge" && anchor) {
       const cx = anchor[0] + anchor[2] / 2 - (neck ? anchor[2] * 1.15 : 0);
       const cy = anchor[1] + anchor[3] / 2 + (neck ? anchor[3] * 0.2 : 0);
       b = [Math.round(cx - b[2] / 2), Math.round(cy - b[3] / 2), b[2], b[3]];
@@ -211,16 +244,25 @@ export function dressLayers(pet: string, wear: string[], mood = "happy"): Layer[
   const f = pose?.fit ?? D.fit?.[pet] ?? { s: 1, dx: 0, dy: 0 };
   // Las imágenes con ropa de cuerpo o cuello vienen dibujadas ~10–20 % más grandes (scripts/armario/calibrar-piezas.mjs):
   // se reducen alrededor de los pies para que la mascota no cambie de tamaño al vestirse.
-  const r = (low ? (pose ? pose.pieceFit?.[low] : D.pieceFit?.[pet]?.[low]) : undefined) ?? 1;
-  const at = (x: number, y: number) => [512 + (72 + x * scale - 512) * r, 964 - (964 - (964 + (y - base) * scale)) * r];
+  // Sin ropa de cuerpo ni cuello, la imagen dibujada es la del gorro (whole-<gorro>): se usa su propia escala.
+  const fitKey = low ?? head;
+  const r = (fitKey ? (pose ? pose.pieceFit?.[fitKey] : D.pieceFit?.[pet]?.[fitKey]) : undefined) ?? 1;
+  const at = (x: number, y: number, rr = r, bb = base) => [512 + (72 + x * scale - 512) * rr, 964 - (964 - (964 + (y - bb) * scale)) * rr];
+  // Con solo un gorro redibujado a otra escala, las piezas sueltas (lentes, pines, adornos) se miden sobre la base: van con sus pies y sin esa escala.
+  const baseFeet = (pose?.feet ?? D.feet[pet])?.base ?? 964;
+  const looseInk = !low && !!head && r !== 1; // solo cuando el gorro trae su propia escala (imagen redibujada a otro tamaño)
   const hat = headPiece ? hatLayer(pet, headPiece) : undefined;
   const out: Layer[] = raw
     .filter(([, b]) => !!b)
     .map(([src, [x, y, w, h]]) => {
-      const [X, Y] = at(x, y);
+      const ink = looseInk && src.startsWith("/armario/layers/") && !fitted.has(src);
+      const rr = ink ? 1 : r;
+      const [X, Y] = ink ? at(x, y, 1, baseFeet) : at(x, y);
       const kind = src.startsWith("/armario/layers/") ? pieceOf(src.slice(16, -5))?.slot : undefined;
       // Lentes y adornos de cabello quedan bajo el ala del sombrero (máscara con la silueta del sombrero).
-      return { src, x: (X * f.s + f.dx) / 10.24, y: (Y * f.s + f.dy) / 10.24, w: (w * scale * r * f.s) / 10.24, h: (h * scale * r * f.s) / 10.24, ...(hat && !pose && (kind === "face" || kind === "hair") ? { mask: hat } : {}) };
+      // Si hay capa front- del sombrero, ella ya tapa lo justo (el ala): los lentes no llevan máscara (la caja genérica cortaba el lente).
+      const masked = hat && !pose && !fitted.has(src) && (kind === "hair" || (kind === "face" && !(headPiece && m.front[headPiece])));
+      return { src, x: (X * f.s + f.dx) / 10.24, y: (Y * f.s + f.dy) / 10.24, w: (w * scale * rr * f.s) / 10.24, h: (h * scale * rr * f.s) / 10.24, ...(masked ? { mask: hat } : {}) };
     });
   if (loose && hat) out.push(hat);
   return out;
@@ -230,9 +272,9 @@ export function dressLayers(pet: string, wear: string[], mood = "happy"): Layer[
 
 /** Probabilidades en %: [vacío, Normal, Raro, Épico, Legendario]. */
 export const CHESTS = [
-  { id: "semilla", name: "Cofre semilla", price: 20, odds: [20, 51, 21, 7, 1] },
-  { id: "brote", name: "Cofre brote", price: 28, odds: [12, 35, 32, 17, 4] },
-  { id: "aurora", name: "Cofre aurora", price: 34, odds: [6, 22, 32, 28, 12] },
+  { id: "semilla", name: "Cofre semilla", price: 34, odds: [20, 51, 21, 7, 1] },
+  { id: "brote", name: "Cofre brote", price: 48, odds: [12, 35, 32, 17, 4] },
+  { id: "aurora", name: "Cofre aurora", price: 58, odds: [6, 22, 32, 28, 12] },
 ] as const;
 export type ChestId = (typeof CHESTS)[number]["id"];
 /** Regla de repetidos: se queda una sola copia y se devuelve la mitad del precio del cofre. */
@@ -246,7 +288,9 @@ export const chestPool = (tier: Tier) => [
 // ---------- Vidas, protección y potenciadores ----------
 
 export const LIVES = { start: 5, max: 5, bonusCap: 7, shieldGems: 5, practiceGoal: 8, practicePerDay: 3 } as const;
-export const BOOST = { minutes: 15, price: 40, label: "Doble XP (15 min)" } as const;
+export const BOOST = { minutes: 15, price: 60, label: "Doble XP (15 min)" } as const;
+/** Protector de racha: se compra con gemas; cubre un día sin meta. */
+export const FREEZE = { price: 80, max: 3 } as const;
 export const GIFT = { perDay: 5, maxGems: 20 } as const;
 
 /** ¿Puede usar este aspecto? La mascota debe ser suya y cada pieza de cada conjunto también. Devuelve lo que falta. */

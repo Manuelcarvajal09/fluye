@@ -9,5 +9,5 @@ export default async function MusicPage() {
   const s = settingsOf(profile);
   const explicit = s.explicit === true;
   const list = MUSIC.filter((m) => explicit || !m.explicit);
-  return <MusicPractice exercises={list} hiddenExplicit={MUSIC.length - list.length} initialFragments={s.fragments ?? []} />;
+  return <MusicPractice exercises={list} hiddenExplicit={MUSIC.length - list.length} initialFragments={s.fragments ?? []} initialDone={s.musicDone ?? []} />;
 }

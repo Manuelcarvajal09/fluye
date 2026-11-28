@@ -1,0 +1,1653 @@
+{
+  "id": "entrevista-marketing",
+  "title_es": "Entrevista: marketing",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas",
+    "canada",
+    "crm"
+  ],
+  "season": null,
+  "objective_es": "Prepararte para entrevistas de coordinación de marketing y onboarding de clientes: campañas, calendario de contenidos, KPIs, CRM, resultados, sueldo y disponibilidad.",
+  "tracks": [
+    {
+      "id": "entrevista-marketing-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Presentarte para un puesto de asistente de marketing: tu experiencia en redes y campañas, por qué Edmonton, autorización de trabajo y cuándo puedes empezar.",
+      "items": [
+        "phr-tell-me-about-yourself",
+        "voc-social-media",
+        "voc-campaign",
+        "phr-what-brings-you-to-edmonton",
+        "phr-im-eligible-to-work-in-canada",
+        "phr-im-available-to-start",
+        "phr-do-you-have-any-questions-for-us",
+        "phr-thank-you-for-your-time",
+        "col-have-experience",
+        "voc-strength"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-marketing-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 982,
+        "title": "Marketing assistant interview",
+        "title_es": "Entrevista para asistente de marketing",
+        "intro_es": "Camila tiene una entrevista para asistente de marketing en una tienda de bicicletas de Edmonton. Rhonda, la gerente, le hace preguntas sencillas.",
+        "lines": [
+          {
+            "who": "Rhonda",
+            "en": "Hi, Camila. Thanks for coming in today.",
+            "es": "Hola, Camila. Gracias por venir hoy."
+          },
+          {
+            "who": "Camila",
+            "en": "Thank you for having me. Nice to meet you.",
+            "es": "Gracias por recibirme. Mucho gusto."
+          },
+          {
+            "who": "Rhonda",
+            "en": "Let's start. [Tell me about yourself].",
+            "es": "Empecemos. Cuéntame sobre ti.",
+            "item": "phr-tell-me-about-yourself"
+          },
+          {
+            "who": "Camila",
+            "en": "I'm from Guadalajara. I worked in marketing for a small hotel for two years.",
+            "es": "Soy de Guadalajara. Trabajé dos años en marketing para un hotel pequeño."
+          },
+          {
+            "who": "Camila",
+            "en": "I posted on [social media] every day and wrote short emails.",
+            "es": "Publicaba en redes sociales todos los días y escribía correos cortos.",
+            "item": "voc-social-media"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Great. Did you plan any [campaigns]?",
+            "es": "Muy bien. ¿Planeaste alguna campaña?",
+            "item": "voc-campaign"
+          },
+          {
+            "who": "Camila",
+            "en": "Yes. I helped with a summer campaign, and we got more bookings.",
+            "es": "Sí. Ayudé con una campaña de verano y tuvimos más reservaciones."
+          },
+          {
+            "who": "Rhonda",
+            "en": "Nice. And [what brings you to Edmonton]?",
+            "es": "Qué bien. ¿Y qué te trae a Edmonton?",
+            "item": "phr-what-brings-you-to-edmonton"
+          },
+          {
+            "who": "Camila",
+            "en": "My husband works here, and I like the city. People are friendly.",
+            "es": "Mi esposo trabaja aquí y me gusta la ciudad. La gente es amable."
+          },
+          {
+            "who": "Rhonda",
+            "en": "Are you able to work in Canada?",
+            "es": "¿Puedes trabajar en Canadá?"
+          },
+          {
+            "who": "Camila",
+            "en": "Yes, [I'm eligible to work in Canada].",
+            "es": "Sí, tengo autorización para trabajar en Canadá.",
+            "item": "phr-im-eligible-to-work-in-canada"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Good. When can you start?",
+            "es": "Bien. ¿Cuándo puedes empezar?"
+          },
+          {
+            "who": "Camila",
+            "en": "[I'm available to start] on Monday, March 3.",
+            "es": "Puedo empezar el lunes 3 de marzo.",
+            "item": "phr-im-available-to-start"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Perfect. [Do you have any questions for us]?",
+            "es": "Perfecto. ¿Tienes alguna pregunta para nosotros?",
+            "item": "phr-do-you-have-any-questions-for-us"
+          },
+          {
+            "who": "Camila",
+            "en": "Yes. What does a normal day look like here? And [thank you for your time].",
+            "es": "Sí. ¿Cómo es un día normal aquí? Y gracias por su tiempo.",
+            "item": "phr-thank-you-for-your-time"
+          }
+        ],
+        "items": [
+          "phr-tell-me-about-yourself",
+          "voc-social-media",
+          "voc-campaign",
+          "phr-what-brings-you-to-edmonton",
+          "phr-im-eligible-to-work-in-canada",
+          "phr-im-available-to-start",
+          "phr-do-you-have-any-questions-for-us",
+          "phr-thank-you-for-your-time"
+        ],
+        "questions": [
+          {
+            "q": "Where did Camila work before?",
+            "options": [
+              "At a school",
+              "At a small hotel",
+              "At a bank"
+            ],
+            "answer": 1,
+            "why_es": "Dice que trabajó dos años en marketing para un hotel pequeño."
+          },
+          {
+            "q": "Why is Camila in Edmonton?",
+            "options": [
+              "Her husband works there",
+              "She is a student",
+              "She is on vacation"
+            ],
+            "answer": 0,
+            "why_es": "Responde: 'My husband works here'."
+          },
+          {
+            "q": "When can she start?",
+            "options": [
+              "Tomorrow",
+              "Next year",
+              "On Monday, March 3"
+            ],
+            "answer": 2,
+            "why_es": "Dice: 'I'm available to start on Monday, March 3'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di que publicabas en redes sociales todos los días en tu trabajo anterior.",
+          "model": [
+            "I posted on social media every day at my last job.",
+            "At my old job, I posted on social media daily."
+          ],
+          "expect": [
+            [
+              "social media"
+            ],
+            [
+              "every day",
+              "daily",
+              "each day"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica por qué estás en Edmonton: tu familia vive aquí y te gusta la ciudad.",
+          "model": [
+            "My family lives here, and I really like the city.",
+            "My sister is here, and I love Edmonton."
+          ],
+          "expect": [
+            [
+              "family",
+              "husband",
+              "wife",
+              "partner",
+              "sister",
+              "brother"
+            ],
+            [
+              "like",
+              "love",
+              "enjoy"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que puedes empezar el próximo lunes.",
+          "model": [
+            "I'm available to start next Monday.",
+            "I can start next Monday."
+          ],
+          "expect": [
+            [
+              "start",
+              "begin"
+            ],
+            [
+              "monday"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste la pregunta.",
+          "en": "Sorry, could you say that again, please?",
+          "es": "Perdón, ¿lo puede repetir, por favor?"
+        },
+        {
+          "situation_es": "No conoces una palabra (por ejemplo, KPI).",
+          "en": "Sorry, what does KPI mean?",
+          "es": "Perdón, ¿qué significa KPI?"
+        },
+        {
+          "situation_es": "Necesitas un momento para pensar.",
+          "en": "That's a good question. Let me think for a second.",
+          "es": "Buena pregunta. Déjeme pensar un segundo."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-marketing-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "Marketing assistant interview",
+        "title_es": "Entrevista para asistente de marketing",
+        "setting_es": "Tienes una entrevista para asistente de marketing en una tienda de bicicletas de Edmonton. Te recibe la gerente de contratación.",
+        "npc": "Hiring manager",
+        "turns": [
+          {
+            "npc": "Hi {name}, welcome! Please tell me a little about yourself.",
+            "npc_es": "¡Hola {name}, bienvenido/a! Cuéntame un poco sobre ti.",
+            "task_es": "Preséntate: di de dónde eres y que trabajaste en marketing.",
+            "expect": [
+              [
+                "mexico",
+                "from"
+              ],
+              [
+                "marketing"
+              ]
+            ],
+            "model": [
+              "I'm from Mexico, and I worked in marketing for two years.",
+              "Hi! I'm from Monterrey, Mexico. I have experience in marketing."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi am of mexico\\b",
+                "fix": "I'm from Mexico",
+                "why_es": "El origen se dice con *from*, no *of*."
+              }
+            ]
+          },
+          {
+            "npc": "What did you do in your last job?",
+            "npc_es": "¿Qué hacías en tu último trabajo?",
+            "task_es": "Di que manejabas redes sociales y ayudabas con campañas.",
+            "expect": [
+              [
+                "social media"
+              ],
+              [
+                "campaign",
+                "campaigns"
+              ]
+            ],
+            "model": [
+              "I managed social media and helped with campaigns.",
+              "I posted on social media and worked on two campaigns."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bsocial medias\\b",
+                "fix": "social media",
+                "why_es": "*Social media* no lleva -s: es incontable."
+              }
+            ]
+          },
+          {
+            "npc": "Why did you choose Edmonton?",
+            "npc_es": "¿Por qué elegiste Edmonton?",
+            "task_es": "Di que tu familia vive aquí y que te gusta la ciudad.",
+            "expect": [
+              [
+                "family",
+                "sister",
+                "brother",
+                "husband",
+                "wife",
+                "partner",
+                "cousin"
+              ],
+              [
+                "like",
+                "love",
+                "enjoy",
+                "great",
+                "nice"
+              ]
+            ],
+            "model": [
+              "My sister lives here, and I really like the city.",
+              "My family is here, and I love Edmonton."
+            ]
+          },
+          {
+            "npc": "Are you legally able to work in Canada?",
+            "npc_es": "¿Tienes autorización legal para trabajar en Canadá?",
+            "task_es": "Responde que sí tienes autorización para trabajar en Canadá.",
+            "expect": [
+              [
+                "yes",
+                "yeah"
+              ],
+              [
+                "eligible",
+                "permit",
+                "authorized",
+                "can work",
+                "allowed"
+              ]
+            ],
+            "model": [
+              "Yes, I'm eligible to work in Canada.",
+              "Yes, I have a work permit."
+            ]
+          },
+          {
+            "npc": "Great. When can you start?",
+            "npc_es": "Muy bien. ¿Cuándo puedes empezar?",
+            "task_es": "Di que puedes empezar en dos semanas.",
+            "expect": [
+              [
+                "start",
+                "begin",
+                "available"
+              ],
+              [
+                "two weeks",
+                "2 weeks"
+              ]
+            ],
+            "model": [
+              "I'm available to start in two weeks.",
+              "I can start in two weeks."
+            ]
+          },
+          {
+            "npc": "Perfect. Do you have any questions for us?",
+            "npc_es": "Perfecto. ¿Tienes alguna pregunta para nosotros?",
+            "task_es": "Pregunta cómo es un día normal y da las gracias.",
+            "expect": [
+              [
+                "typical day",
+                "normal day",
+                "day look like",
+                "usual day"
+              ],
+              [
+                "thank",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "Yes. What does a typical day look like? Thank you for your time.",
+              "What is a normal day like here? Thanks so much."
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about yourself.",
+          "I managed social media.",
+          "I'm eligible to work in Canada.",
+          "I'm available to start…",
+          "Do you have any questions for us?"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-marketing-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Responder preguntas de comportamiento con el método STAR (situación, tarea, acción, resultado) sobre campañas, KPIs, onboarding de clientes y disponibilidad.",
+      "items": [
+        "phr-tell-me-about-a-time-when",
+        "col-engagement-rate",
+        "col-brand-awareness",
+        "col-content-calendar",
+        "voc-kpi",
+        "phr-as-a-result",
+        "voc-dashboard",
+        "col-onboard-a-client",
+        "voc-detail-oriented",
+        "col-two-weeks-notice",
+        "col-provide-references",
+        "col-meet-a-deadline"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-marketing-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 983,
+        "title": "A STAR answer about a campaign",
+        "title_es": "Una respuesta STAR sobre una campaña",
+        "intro_es": "Mateo tiene una entrevista por video para coordinador de marketing y onboarding de clientes en una agencia de Edmonton. Gwen le pide ejemplos concretos.",
+        "lines": [
+          {
+            "who": "Gwen",
+            "en": "Thanks for joining, Mateo. This role is Marketing and Client Onboarding Coordinator.",
+            "es": "Gracias por conectarte, Mateo. El puesto es coordinador de marketing y onboarding de clientes."
+          },
+          {
+            "who": "Mateo",
+            "en": "Thanks, Gwen. I've read the posting, and it's a great fit for my background.",
+            "es": "Gracias, Gwen. Leí la vacante y encaja muy bien con mi perfil."
+          },
+          {
+            "who": "Gwen",
+            "en": "[Tell me about a time when] a campaign wasn't working.",
+            "es": "Cuéntame de una vez en que una campaña no estaba funcionando.",
+            "item": "phr-tell-me-about-a-time-when"
+          },
+          {
+            "who": "Mateo",
+            "en": "Sure. At my last job, our spring campaign had a low [engagement rate].",
+            "es": "Claro. En mi último trabajo, nuestra campaña de primavera tenía una tasa de interacción baja.",
+            "item": "col-engagement-rate"
+          },
+          {
+            "who": "Mateo",
+            "en": "My task was to fix it in three weeks and build [brand awareness] before summer.",
+            "es": "Mi tarea era arreglarla en tres semanas y crear reconocimiento de marca antes del verano.",
+            "item": "col-brand-awareness"
+          },
+          {
+            "who": "Mateo",
+            "en": "So I rebuilt our [content calendar] and moved posts to the evenings.",
+            "es": "Así que rehice nuestro calendario de contenidos y pasé las publicaciones a la noche.",
+            "item": "col-content-calendar"
+          },
+          {
+            "who": "Mateo",
+            "en": "I also tracked two [KPIs] every week: clicks and saves.",
+            "es": "También medía dos KPIs cada semana: clics y guardados.",
+            "item": "voc-kpi"
+          },
+          {
+            "who": "Mateo",
+            "en": "[As a result], engagement went up by forty percent.",
+            "es": "Como resultado, la interacción subió un cuarenta por ciento.",
+            "item": "phr-as-a-result"
+          },
+          {
+            "who": "Gwen",
+            "en": "Impressive. How did you share those results?",
+            "es": "Impresionante. ¿Cómo compartiste esos resultados?"
+          },
+          {
+            "who": "Mateo",
+            "en": "I built a simple [dashboard] and presented it to the owner every Friday.",
+            "es": "Armé un dashboard sencillo y se lo presentaba al dueño cada viernes.",
+            "item": "voc-dashboard"
+          },
+          {
+            "who": "Gwen",
+            "en": "You'd also help us [onboard a client] or two every week, from kickoff to first report.",
+            "es": "También nos ayudarías a incorporar a uno o dos clientes cada semana, desde el arranque hasta el primer reporte.",
+            "item": "col-onboard-a-client"
+          },
+          {
+            "who": "Mateo",
+            "en": "That works for me. I'm very [detail-oriented], so I used a CRM checklist for every new account.",
+            "es": "Me parece bien. Soy muy detallista, así que usaba una lista de verificación en el CRM para cada cuenta nueva.",
+            "item": "voc-detail-oriented"
+          },
+          {
+            "who": "Gwen",
+            "en": "Good to hear. If we made an offer, when could you start?",
+            "es": "Qué bueno. Si te hiciéramos una oferta, ¿cuándo podrías empezar?"
+          },
+          {
+            "who": "Mateo",
+            "en": "I'd need to give [two weeks' notice], so mid-May works.",
+            "es": "Tendría que dar aviso con dos semanas, así que a mediados de mayo.",
+            "item": "col-two-weeks-notice"
+          },
+          {
+            "who": "Mateo",
+            "en": "And I'm happy to [provide references] from my last two managers.",
+            "es": "Y con gusto doy referencias de mis dos últimos jefes.",
+            "item": "col-provide-references"
+          },
+          {
+            "who": "Gwen",
+            "en": "Great. We'll be in touch by Thursday.",
+            "es": "Perfecto. Te contactamos a más tardar el jueves."
+          }
+        ],
+        "items": [
+          "phr-tell-me-about-a-time-when",
+          "col-engagement-rate",
+          "col-brand-awareness",
+          "col-content-calendar",
+          "voc-kpi",
+          "phr-as-a-result",
+          "voc-dashboard",
+          "col-onboard-a-client",
+          "voc-detail-oriented",
+          "col-two-weeks-notice",
+          "col-provide-references"
+        ],
+        "questions": [
+          {
+            "q": "What was the problem with the spring campaign?",
+            "options": [
+              "It cost too much",
+              "It had low engagement",
+              "It started late"
+            ],
+            "answer": 1,
+            "why_es": "Mateo dice que tenía 'a low engagement rate'."
+          },
+          {
+            "q": "What did Mateo change in the content calendar?",
+            "options": [
+              "He moved posts to the evenings",
+              "He deleted old posts",
+              "He hired a designer"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'moved posts to the evenings'."
+          },
+          {
+            "q": "How did he share the results?",
+            "options": [
+              "By phone",
+              "In a long email",
+              "With a dashboard every Friday"
+            ],
+            "answer": 2,
+            "why_es": "Armó un dashboard y lo presentaba cada viernes."
+          },
+          {
+            "q": "Why can't Mateo start immediately?",
+            "options": [
+              "He is on vacation",
+              "He needs to give two weeks' notice",
+              "He is moving to another city"
+            ],
+            "answer": 1,
+            "why_es": "Tiene que dar 'two weeks' notice' a su empleo actual."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Cierra una respuesta STAR con el resultado: como resultado, la interacción subió un 30 %.",
+          "model": [
+            "As a result, engagement went up by thirty percent.",
+            "As a result, our engagement rate increased by 30 percent."
+          ],
+          "expect": [
+            [
+              "as a result",
+              "because of this",
+              "so"
+            ],
+            [
+              "engagement"
+            ],
+            [
+              "thirty",
+              "30"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica que revisabas dos KPIs cada semana en un dashboard.",
+          "model": [
+            "I tracked two KPIs every week on a dashboard.",
+            "Every week I checked two KPIs in a simple dashboard."
+          ],
+          "expect": [
+            [
+              "kpi",
+              "kpis",
+              "metrics"
+            ],
+            [
+              "week",
+              "weekly"
+            ],
+            [
+              "dashboard",
+              "report"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que tendrías que dar aviso de dos semanas en tu empleo actual.",
+          "model": [
+            "I'd need to give two weeks' notice to my current employer.",
+            "I have to give my current job two weeks' notice."
+          ],
+          "expect": [
+            [
+              "notice"
+            ],
+            [
+              "two",
+              "2"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "La pregunta es muy amplia y quieres enfocarla.",
+          "en": "Just to make sure I understand, would you like an example from my last job?",
+          "es": "Para asegurarme de entender, ¿quiere un ejemplo de mi último trabajo?"
+        },
+        {
+          "situation_es": "No sabes a qué herramienta se refieren.",
+          "en": "Sorry, which platform do you mean by 'the CRM'?",
+          "es": "Perdón, ¿a qué plataforma se refiere con 'el CRM'?"
+        },
+        {
+          "situation_es": "Te equivocaste en una cifra.",
+          "en": "Sorry, let me correct that: it was forty percent, not fourteen.",
+          "es": "Perdón, corrijo: fue cuarenta por ciento, no catorce."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-marketing-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Behavioural interview: marketing coordinator",
+        "title_es": "Entrevista de comportamiento: coordinador de marketing",
+        "setting_es": "Entrevista por video para coordinador/a de marketing y onboarding de clientes en una agencia pequeña de Edmonton. Responde con ejemplos STAR.",
+        "npc": "Marketing manager",
+        "turns": [
+          {
+            "npc": "Thanks for joining. Walk me through your background in a minute or so.",
+            "npc_es": "Gracias por conectarte. Resúmeme tu trayectoria en un minuto más o menos.",
+            "task_es": "Resume tu experiencia: cuántos años en marketing y qué manejabas (campañas, redes, CRM).",
+            "expect": [
+              [
+                "years",
+                "year"
+              ],
+              [
+                "campaign",
+                "campaigns",
+                "social media",
+                "crm",
+                "content"
+              ]
+            ],
+            "model": [
+              "I have three years of experience in marketing. I ran campaigns and managed our CRM.",
+              "I've worked in marketing for four years, mostly on social media and email campaigns."
+            ]
+          },
+          {
+            "npc": "Tell me about a time when a campaign underperformed. What was the situation?",
+            "npc_es": "Cuéntame de una vez en que una campaña rindió menos de lo esperado. ¿Cuál era la situación?",
+            "task_es": "Describe la situación y tu tarea: una campaña con poca interacción que tenías que mejorar en un mes.",
+            "expect": [
+              [
+                "engagement",
+                "clicks",
+                "results",
+                "performance",
+                "low"
+              ],
+              [
+                "month",
+                "weeks",
+                "task",
+                "goal",
+                "had to"
+              ]
+            ],
+            "model": [
+              "Last year, a holiday campaign had very low engagement, and my task was to improve it in a month.",
+              "Our spring campaign got low clicks, and I had to turn it around in four weeks."
+            ]
+          },
+          {
+            "npc": "What did you actually do?",
+            "npc_es": "¿Qué hiciste concretamente?",
+            "task_es": "Explica tus acciones: cambiaste el calendario de contenidos e hiciste una prueba A/B.",
+            "expect": [
+              [
+                "calendar",
+                "schedule"
+              ],
+              [
+                "test",
+                "tested",
+                "a/b"
+              ]
+            ],
+            "model": [
+              "I changed the content calendar and ran an A/B test on the subject lines.",
+              "I moved our posting schedule and tested two versions of the ad."
+            ]
+          },
+          {
+            "npc": "And the result?",
+            "npc_es": "¿Y el resultado?",
+            "task_es": "Da el resultado con un número y lo que aprendiste.",
+            "expect": [
+              [
+                "percent",
+                "double",
+                "doubled",
+                "increase",
+                "went up",
+                "rose"
+              ],
+              [
+                "learned",
+                "lesson",
+                "now i",
+                "since then"
+              ]
+            ],
+            "model": [
+              "As a result, clicks went up by 25 percent, and I learned to test early.",
+              "Engagement doubled in three weeks. Since then, I always test before launch."
+            ]
+          },
+          {
+            "npc": "How would you handle a new client who's unhappy in their first week of onboarding?",
+            "npc_es": "¿Cómo manejarías a un cliente nuevo que está inconforme en su primera semana de onboarding?",
+            "task_es": "Di que primero escucharías, entenderías sus metas y acordarías un plan con fechas.",
+            "expect": [
+              [
+                "listen",
+                "call",
+                "meet",
+                "understand"
+              ],
+              [
+                "goals",
+                "plan",
+                "expectations",
+                "timeline",
+                "next steps"
+              ]
+            ],
+            "model": [
+              "First I'd listen and understand their goals, then agree on a clear plan with dates.",
+              "I'd call them, listen, and set clear expectations with a timeline."
+            ]
+          },
+          {
+            "npc": "Last question: what are your salary expectations, and when could you start?",
+            "npc_es": "Última pregunta: ¿cuáles son tus pretensiones salariales y cuándo podrías empezar?",
+            "task_es": "Da un rango (55 a 60 mil) y di que necesitas dar dos semanas de aviso.",
+            "expect": [
+              [
+                "55",
+                "60",
+                "fifty-five",
+                "sixty",
+                "range"
+              ],
+              [
+                "notice",
+                "two weeks",
+                "2 weeks"
+              ]
+            ],
+            "model": [
+              "I'm looking for something in the range of 55 to 60 thousand, and I'd need to give two weeks' notice.",
+              "Somewhere between 55 and 60 thousand. I can start after two weeks' notice."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi want to win\\b",
+                "fix": "I'm looking for something in the range of…",
+                "why_es": "*Win* es ganar un juego o premio; para sueldo usa *make*, *earn* o *I'm looking for…*."
+              }
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about a time when…",
+          "As a result, …",
+          "content calendar",
+          "engagement rate",
+          "I'd need to give two weeks' notice."
+        ]
+      }
+    },
+    {
+      "id": "entrevista-marketing-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Sostener un panel exigente: responder objeciones con datos, hablar de atribución y retención, gestionar expectativas de clientes y negociar sueldo con tacto.",
+      "items": [
+        "col-transferable-skills",
+        "col-run-an-a-b-test",
+        "col-move-the-needle",
+        "voc-churn",
+        "voc-attribution",
+        "col-manage-expectations",
+        "idi-bring-to-the-table",
+        "phr-to-be-candid",
+        "phr-is-there-any-flexibility-on",
+        "phr-im-looking-for-something-in-the-range-of",
+        "col-total-compensation"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-marketing-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 984,
+        "title": "Pushback from the panel",
+        "title_es": "Objeciones del panel",
+        "intro_es": "Valeria llega a la ronda final para Marketing & Client Onboarding Lead. Delphine y Kwame cuestionan sus resultados y luego hablan de dinero.",
+        "lines": [
+          {
+            "who": "Delphine",
+            "en": "Valeria, your portfolio is strong. Let me push on a few things, if that's okay.",
+            "es": "Valeria, tu portafolio es sólido. Déjame cuestionar algunas cosas, si te parece."
+          },
+          {
+            "who": "Valeria",
+            "en": "Please do. I'd rather you ask now than wonder later.",
+            "es": "Adelante. Prefiero que pregunten ahora y no que se queden con la duda."
+          },
+          {
+            "who": "Delphine",
+            "en": "Your experience is mostly in Mexico. Some of the panel worry it won't translate to this market.",
+            "es": "Tu experiencia es sobre todo en México. A algunos del panel les preocupa que no aplique a este mercado."
+          },
+          {
+            "who": "Valeria",
+            "en": "Fair point. But the fundamentals are [transferable skills]: research, testing, reporting.",
+            "es": "Es justo. Pero lo esencial son habilidades transferibles: investigar, probar, reportar.",
+            "item": "col-transferable-skills"
+          },
+          {
+            "who": "Valeria",
+            "en": "For instance, I'd [run an A/B test] before assuming anything about Edmonton audiences.",
+            "es": "Por ejemplo, haría una prueba A/B antes de suponer nada sobre el público de Edmonton.",
+            "item": "col-run-an-a-b-test"
+          },
+          {
+            "who": "Kwame",
+            "en": "Let's talk numbers. Which metric actually [moved the needle] in your last role?",
+            "es": "Hablemos de números. ¿Qué métrica realmente marcó la diferencia en tu último puesto?",
+            "item": "col-move-the-needle"
+          },
+          {
+            "who": "Valeria",
+            "en": "Honestly, it was [churn]. Keeping onboarded clients mattered more than new leads.",
+            "es": "Sinceramente, la tasa de cancelación. Retener a los clientes incorporados importaba más que los leads nuevos.",
+            "item": "voc-churn"
+          },
+          {
+            "who": "Kwame",
+            "en": "And how did you prove marketing caused that, not just good timing?",
+            "es": "¿Y cómo demostraste que fue por el marketing y no solo por buena suerte en el momento?"
+          },
+          {
+            "who": "Valeria",
+            "en": "[Attribution] was messy, so I compared cohorts before and after we changed onboarding.",
+            "es": "La atribución era complicada, así que comparé cohortes antes y después de cambiar el onboarding.",
+            "item": "voc-attribution"
+          },
+          {
+            "who": "Delphine",
+            "en": "You also pushed back on a client deadline once. Isn't that risky?",
+            "es": "Una vez también te opusiste a una fecha límite de un cliente. ¿No es arriesgado?"
+          },
+          {
+            "who": "Valeria",
+            "en": "It is, but I'd rather [manage expectations] early than miss a launch quietly.",
+            "es": "Lo es, pero prefiero gestionar expectativas desde temprano que fallar un lanzamiento en silencio.",
+            "item": "col-manage-expectations"
+          },
+          {
+            "who": "Delphine",
+            "en": "Fine. What would you [bring to the table] that other candidates wouldn't?",
+            "es": "De acuerdo. ¿Qué aportarías que otros candidatos no?",
+            "item": "idi-bring-to-the-table"
+          },
+          {
+            "who": "Valeria",
+            "en": "Bilingual onboarding, for one. Several of your newer clients serve Spanish-speaking customers.",
+            "es": "Onboarding bilingüe, para empezar. Varios de sus clientes nuevos atienden a clientes hispanohablantes."
+          },
+          {
+            "who": "Kwame",
+            "en": "Our range for this role tops out at sixty-two thousand. Where are you?",
+            "es": "Nuestro rango para este puesto llega hasta sesenta y dos mil. ¿Tú dónde estás?"
+          },
+          {
+            "who": "Valeria",
+            "en": "[To be candid], I was expecting a bit more, given the client-facing scope.",
+            "es": "Para ser franca, esperaba un poco más, considerando el trato directo con clientes.",
+            "item": "phr-to-be-candid"
+          },
+          {
+            "who": "Valeria",
+            "en": "[Is there any flexibility on] the base if I take on the Spanish-language accounts?",
+            "es": "¿Hay algo de flexibilidad en el sueldo base si me encargo de las cuentas en español?",
+            "item": "phr-is-there-any-flexibility-on"
+          }
+        ],
+        "items": [
+          "col-transferable-skills",
+          "col-run-an-a-b-test",
+          "col-move-the-needle",
+          "voc-churn",
+          "voc-attribution",
+          "col-manage-expectations",
+          "idi-bring-to-the-table",
+          "phr-to-be-candid",
+          "phr-is-there-any-flexibility-on"
+        ],
+        "questions": [
+          {
+            "q": "What concern does the panel raise first?",
+            "options": [
+              "Her experience may not translate to this market",
+              "She asks for too much money",
+              "She has no portfolio"
+            ],
+            "answer": 0,
+            "why_es": "Delphine dice que su experiencia podría no aplicar a este mercado."
+          },
+          {
+            "q": "Which metric does Valeria say mattered most?",
+            "options": [
+              "New leads",
+              "Churn",
+              "Website visits"
+            ],
+            "answer": 1,
+            "why_es": "Responde: 'Honestly, it was churn'."
+          },
+          {
+            "q": "How did she deal with messy attribution?",
+            "options": [
+              "She ignored it",
+              "She hired an agency",
+              "She compared cohorts before and after a change"
+            ],
+            "answer": 2,
+            "why_es": "Comparó cohortes antes y después de cambiar el onboarding."
+          },
+          {
+            "q": "What does Valeria want to negotiate?",
+            "options": [
+              "Vacation days",
+              "The base salary",
+              "Her job title"
+            ],
+            "answer": 1,
+            "why_es": "Pregunta si hay flexibilidad 'on the base'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Responde a la objeción «tu experiencia es de otro mercado»: reconoce la duda y nombra habilidades transferibles.",
+          "model": [
+            "That's a fair concern, but research, testing and reporting are transferable skills in any market."
+          ],
+          "expect": [
+            [
+              "fair",
+              "understand",
+              "valid",
+              "see why"
+            ],
+            [
+              "transferable",
+              "same fundamentals",
+              "apply",
+              "any market"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Negocia con tacto: di que esperabas un poco más y pregunta si hay flexibilidad en el sueldo base.",
+          "model": [
+            "To be candid, I was expecting a bit more. Is there any flexibility on the base?"
+          ],
+          "expect": [
+            [
+              "expecting",
+              "hoping",
+              "expected"
+            ],
+            [
+              "flexibility",
+              "flexible",
+              "room"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Da tu rango salarial (65 a 70 mil) y menciona la compensación total.",
+          "model": [
+            "I'm looking for something in the range of 65 to 70 thousand, depending on the total compensation."
+          ],
+          "expect": [
+            [
+              "range",
+              "between"
+            ],
+            [
+              "65",
+              "70",
+              "sixty-five",
+              "seventy"
+            ],
+            [
+              "compensation",
+              "package",
+              "benefits"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "La pregunta tiene dos partes y quieres ordenar tu respuesta.",
+          "en": "That's a two-part question, so let me take the metric first and then attribution.",
+          "es": "Es una pregunta de dos partes; déjeme responder primero la métrica y luego la atribución."
+        },
+        {
+          "situation_es": "Te interrumpieron y quieres terminar tu idea.",
+          "en": "If I could just finish that thought, it ties into your question.",
+          "es": "Si me permite terminar la idea, se relaciona con su pregunta."
+        },
+        {
+          "situation_es": "No sabes si la cifra es base o total.",
+          "en": "Just to clarify, do you mean annual base or total compensation?",
+          "es": "Para aclarar, ¿se refiere al sueldo base anual o a la compensación total?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-marketing-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Panel interview with pushback",
+        "title_es": "Panel con objeciones",
+        "setting_es": "Ronda final para Marketing & Client Onboarding Lead. El panel pone a prueba tus resultados, te lanza objeciones y luego habla de sueldo y disponibilidad.",
+        "npc": "Panel lead",
+        "turns": [
+          {
+            "npc": "Your results look good on paper. How do we know they weren't just a strong market?",
+            "npc_es": "Tus resultados se ven bien en papel. ¿Cómo sabemos que no fue solo un buen mercado?",
+            "task_es": "Responde a la objeción: reconoce el punto y explica cómo aislaste el efecto (grupo de control, prueba A/B o cohortes).",
+            "expect": [
+              [
+                "fair",
+                "good point",
+                "valid",
+                "understand"
+              ],
+              [
+                "control",
+                "a/b",
+                "test",
+                "cohort",
+                "cohorts",
+                "compared"
+              ]
+            ],
+            "model": [
+              "That's a fair point. We ran an A/B test with a control group, so we could isolate the effect.",
+              "Good point. I compared cohorts before and after the change to separate it from the market."
+            ]
+          },
+          {
+            "npc": "Say a new client wants results in two weeks. That's unrealistic. What do you tell them?",
+            "npc_es": "Supón que un cliente nuevo quiere resultados en dos semanas. No es realista. ¿Qué le dices?",
+            "task_es": "Gestiona expectativas: ofrece un logro rápido ahora y un plan realista con métricas.",
+            "expect": [
+              [
+                "quick win",
+                "first",
+                "early",
+                "in the meantime"
+              ],
+              [
+                "realistic",
+                "plan",
+                "timeline",
+                "expectations",
+                "kpi",
+                "kpis",
+                "metrics"
+              ]
+            ],
+            "model": [
+              "I'd offer a quick win in the first two weeks and agree on a realistic plan with clear KPIs.",
+              "Early on, I'd manage expectations: one quick win now, and a timeline with metrics for the next quarter."
+            ]
+          },
+          {
+            "npc": "Follow-up: what if they still say no and threaten to leave?",
+            "npc_es": "Pregunta de seguimiento: ¿y si aun así dicen que no y amenazan con irse?",
+            "task_es": "Di que buscarías la preocupación de fondo y escalarías con datos, sin prometer lo imposible.",
+            "expect": [
+              [
+                "listen",
+                "understand",
+                "underlying",
+                "root",
+                "why"
+              ],
+              [
+                "data",
+                "numbers",
+                "escalate",
+                "manager",
+                "options"
+              ]
+            ],
+            "model": [
+              "I'd listen for the underlying concern and come back with data and two realistic options.",
+              "I'd try to understand why, then escalate to my manager with the numbers instead of overpromising."
+            ]
+          },
+          {
+            "npc": "Honestly, you might be overqualified for this. Why this role?",
+            "npc_es": "Sinceramente, podrías estar sobrecalificado/a para esto. ¿Por qué este puesto?",
+            "task_es": "Responde con tacto: no ves el puesto como trampolín y di qué aportas.",
+            "expect": [
+              [
+                "understand",
+                "fair",
+                "see why",
+                "appreciate"
+              ],
+              [
+                "bring",
+                "long-term",
+                "stay",
+                "build",
+                "grow",
+                "commit"
+              ]
+            ],
+            "model": [
+              "I see why you'd ask. I want to build something long-term, and I'd bring bilingual onboarding to the team.",
+              "I appreciate the honesty. This isn't a stepping stone for me; I want to grow with the team."
+            ]
+          },
+          {
+            "npc": "Our range tops out at sixty-two thousand. Where do you land?",
+            "npc_es": "Nuestro rango llega hasta sesenta y dos mil. ¿Tú dónde te ubicas?",
+            "task_es": "Agradece, da tu rango (65 a 70 mil) y pregunta por flexibilidad o por la compensación total.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "65",
+                "70",
+                "sixty-five",
+                "seventy",
+                "range"
+              ],
+              [
+                "flexibility",
+                "flexible",
+                "total",
+                "package",
+                "benefits"
+              ]
+            ],
+            "model": [
+              "Thanks for being upfront. I'm looking for something in the range of 65 to 70. Is there any flexibility on the base?",
+              "I appreciate that. I was hoping for 65 to 70 thousand, but I'm open to looking at the total package."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi want more money\\b",
+                "fix": "I was hoping for a higher base",
+                "why_es": "Suena demasiado directo; mejor *I was hoping for…* o *Is there any flexibility…?*."
+              }
+            ]
+          },
+          {
+            "npc": "And availability? We'd love someone by the first of the month.",
+            "npc_es": "¿Y tu disponibilidad? Nos encantaría tener a alguien para el primero del mes.",
+            "task_es": "Di que debes dar dos semanas de aviso, propón una fecha y ofrece referencias.",
+            "expect": [
+              [
+                "notice",
+                "two weeks",
+                "2 weeks"
+              ],
+              [
+                "reference",
+                "references"
+              ]
+            ],
+            "model": [
+              "I'd need to give two weeks' notice, so the 15th is realistic. I can send references today.",
+              "After two weeks' notice I could start on the 15th, and I'm happy to provide references."
+            ]
+          }
+        ],
+        "useful": [
+          "That's a fair point.",
+          "I'd rather manage expectations early.",
+          "To be candid, …",
+          "Is there any flexibility on the base?",
+          "I'm looking for something in the range of…"
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "voc-social-media",
+      "type": "vocab",
+      "term": "social media",
+      "ipa": "/ˌsoʊʃəl ˈmiːdiə/",
+      "level": "A2",
+      "topic": "work",
+      "freq": 5,
+      "areas": [
+        "crm",
+        "conversacion"
+      ],
+      "es": "redes sociales",
+      "def": "websites and apps where people share posts, photos and videos",
+      "note": "Va en singular y sin artículo: 'I manage social media', no 'the social medias'.",
+      "ex": [
+        {
+          "en": "I post on [social media] three times a week.",
+          "es": "Publico en redes sociales tres veces por semana."
+        },
+        {
+          "en": "She managed [social media] for a small bakery.",
+          "es": "Ella manejaba las redes sociales de una panadería pequeña."
+        }
+      ]
+    },
+    {
+      "id": "voc-campaign",
+      "type": "vocab",
+      "term": "campaign",
+      "ipa": "/kæmˈpeɪn/",
+      "level": "A2",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "crm",
+        "entrevistas"
+      ],
+      "es": "campaña (de marketing o publicidad)",
+      "def": "a planned set of ads, posts or emails to reach a goal",
+      "note": "Se pronuncia 'kam-PEIN' (la g no suena). Colocaciones: run a campaign, launch a campaign.",
+      "ex": [
+        {
+          "en": "We launched a holiday [campaign] in November.",
+          "es": "Lanzamos una campaña navideña en noviembre."
+        },
+        {
+          "en": "The email [campaign] brought in forty new clients.",
+          "es": "La campaña de correo trajo cuarenta clientes nuevos."
+        }
+      ]
+    },
+    {
+      "id": "phr-what-brings-you-to-edmonton",
+      "type": "phrase",
+      "term": "what brings you to Edmonton?",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "¿qué te trae a Edmonton?",
+      "def": "a friendly question about why someone came to live or work in a city",
+      "note": "En entrevistas responde breve y en positivo (trabajo, familia, la ciudad). No tienes que contar toda tu historia migratoria.",
+      "ex": [
+        {
+          "en": "So, [what brings you to Edmonton]?",
+          "es": "Entonces, ¿qué te trae a Edmonton?"
+        },
+        {
+          "en": "[What brings you to Edmonton], if you don't mind me asking?",
+          "es": "¿Qué te trae a Edmonton, si se puede saber?"
+        }
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-im-eligible-to-work-in-canada",
+      "type": "phrase",
+      "term": "I'm eligible to work in Canada",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "tengo autorización para trabajar en Canadá",
+      "def": "a clear way to say you are legally allowed to work in the country",
+      "note": "Di solo lo que aplica a tu caso y con precisión (p. ej. 'with an open work permit'). Es lenguaje para comunicarte, no asesoría migratoria.",
+      "ex": [
+        {
+          "en": "Yes, [I'm eligible to work in Canada] full-time.",
+          "es": "Sí, tengo autorización para trabajar en Canadá tiempo completo."
+        },
+        {
+          "en": "[I'm eligible to work in Canada], and I can share the details.",
+          "es": "Tengo autorización para trabajar en Canadá y puedo dar los detalles."
+        }
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-im-available-to-start",
+      "type": "phrase",
+      "term": "I'm available to start…",
+      "level": "A2",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "puedo empezar…; estoy disponible para empezar…",
+      "def": "a way to say the date when you can begin a new job",
+      "note": "Da una fecha concreta: 'I'm available to start on May 5' o 'two weeks after an offer'.",
+      "ex": [
+        {
+          "en": "[I'm available to start] next Monday.",
+          "es": "Puedo empezar el próximo lunes."
+        },
+        {
+          "en": "[I'm available to start] two weeks after an offer.",
+          "es": "Puedo empezar dos semanas después de una oferta."
+        }
+      ]
+    },
+    {
+      "id": "phr-do-you-have-any-questions-for-us",
+      "type": "phrase",
+      "term": "do you have any questions for us?",
+      "level": "A2",
+      "topic": "interview",
+      "freq": 5,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "¿tienes alguna pregunta para nosotros?",
+      "def": "a question interviewers ask near the end of an interview",
+      "note": "Casi siempre llega al final. Ten dos preguntas listas; responder solo 'No' deja mala impresión.",
+      "ex": [
+        {
+          "en": "Before we finish, [do you have any questions for us]?",
+          "es": "Antes de terminar, ¿tienes alguna pregunta para nosotros?"
+        },
+        {
+          "en": "She smiled and asked, '[Do you have any questions for us]?'",
+          "es": "Sonrió y preguntó: '¿Tienes alguna pregunta para nosotros?'"
+        }
+      ]
+    },
+    {
+      "id": "col-engagement-rate",
+      "type": "collocation",
+      "term": "engagement rate",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "crm"
+      ],
+      "es": "tasa de interacción",
+      "def": "the share of people who like, comment, share or click on content",
+      "note": "Se da en porcentaje: 'Our engagement rate went from 2% to 3.5%'.",
+      "ex": [
+        {
+          "en": "Our [engagement rate] doubled after we changed the posting times.",
+          "es": "Nuestra tasa de interacción se duplicó al cambiar los horarios de publicación."
+        },
+        {
+          "en": "A low [engagement rate] means people scroll past your posts.",
+          "es": "Una tasa de interacción baja significa que la gente pasa de largo tus publicaciones."
+        }
+      ]
+    },
+    {
+      "id": "col-brand-awareness",
+      "type": "collocation",
+      "term": "brand awareness",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "crm"
+      ],
+      "es": "reconocimiento de marca",
+      "def": "how much people know about a company or product",
+      "note": "Objetivo típico de campañas de redes: 'build brand awareness'.",
+      "ex": [
+        {
+          "en": "The goal was to build [brand awareness] before summer.",
+          "es": "El objetivo era crear reconocimiento de marca antes del verano."
+        },
+        {
+          "en": "Local events helped our [brand awareness] a lot.",
+          "es": "Los eventos locales ayudaron mucho a nuestro reconocimiento de marca."
+        }
+      ]
+    },
+    {
+      "id": "col-content-calendar",
+      "type": "collocation",
+      "term": "content calendar",
+      "level": "B1",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "crm"
+      ],
+      "es": "calendario de contenidos",
+      "def": "a plan that shows what you will post or publish and when",
+      "note": "Herramienta básica de un coordinador de marketing: 'I built a content calendar for the quarter'.",
+      "ex": [
+        {
+          "en": "I rebuilt our [content calendar] for the spring.",
+          "es": "Rehice nuestro calendario de contenidos para la primavera."
+        },
+        {
+          "en": "Every post is on the [content calendar] two weeks ahead.",
+          "es": "Cada publicación está en el calendario de contenidos con dos semanas de anticipación."
+        }
+      ]
+    },
+    {
+      "id": "voc-kpi",
+      "type": "vocab",
+      "term": "KPI",
+      "ipa": "/ˌkeɪ piː ˈaɪ/",
+      "level": "B2",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "crm",
+        "proyectos"
+      ],
+      "es": "indicador clave de desempeño (KPI)",
+      "def": "a number a team uses to check if it is reaching a goal",
+      "note": "Se dice letra por letra: 'kei-pi-ai'. Plural: KPIs. En entrevistas, nombra el KPI y la cifra.",
+      "ex": [
+        {
+          "en": "Our main [KPI] was the number of booked demos.",
+          "es": "Nuestro KPI principal era el número de demos agendadas."
+        },
+        {
+          "en": "Which [KPI] would you watch first?",
+          "es": "¿Qué KPI revisarías primero?"
+        }
+      ]
+    },
+    {
+      "id": "col-onboard-a-client",
+      "type": "collocation",
+      "term": "onboard a client",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "crm",
+        "soporte"
+      ],
+      "es": "incorporar a un cliente nuevo",
+      "def": "to help a new customer set up and start using a service",
+      "note": "El sustantivo es 'onboarding': 'client onboarding'. También 'onboard a new hire' (empleado nuevo).",
+      "ex": [
+        {
+          "en": "It usually takes a week to [onboard a client].",
+          "es": "Normalmente toma una semana incorporar a un cliente."
+        },
+        {
+          "en": "Last month I [onboarded a client] with twelve locations.",
+          "es": "El mes pasado incorporé a un cliente con doce sucursales."
+        }
+      ]
+    },
+    {
+      "id": "voc-detail-oriented",
+      "type": "vocab",
+      "term": "detail-oriented",
+      "ipa": "/ˈdiːteɪl ˌɔːriɛntɪd/",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "detallista; cuidadoso con los detalles",
+      "def": "careful to notice small things and avoid mistakes",
+      "note": "Muy común en ofertas de trabajo. Mejor que 'perfectionist', que puede sonar a defecto.",
+      "ex": [
+        {
+          "en": "The job needs someone very [detail-oriented].",
+          "es": "El puesto necesita a alguien muy detallista."
+        },
+        {
+          "en": "I'm [detail-oriented], so I always double-check my reports.",
+          "es": "Soy detallista, así que siempre reviso dos veces mis reportes."
+        }
+      ]
+    },
+    {
+      "id": "col-two-weeks-notice",
+      "type": "collocation",
+      "term": "two weeks' notice",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "aviso de dos semanas (al renunciar)",
+      "def": "the usual time you tell your boss before you leave a job",
+      "note": "Lo habitual en Canadá al dejar un empleo: 'I'd need to give two weeks' notice'. Por eso muchas personas no pueden empezar de inmediato.",
+      "ex": [
+        {
+          "en": "I'd need to give [two weeks' notice] first.",
+          "es": "Primero tendría que dar aviso con dos semanas."
+        },
+        {
+          "en": "He gave [two weeks' notice] and left on good terms.",
+          "es": "Avisó con dos semanas y se fue en buenos términos."
+        }
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-run-an-a-b-test",
+      "type": "collocation",
+      "term": "run an A/B test",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "crm",
+        "datos"
+      ],
+      "es": "hacer una prueba A/B",
+      "def": "to compare two versions of something to see which works better",
+      "note": "Se lee 'ei-bi test'. Ejemplo: probar dos asuntos de correo con la mitad de la lista cada uno.",
+      "ex": [
+        {
+          "en": "We should [run an A/B test] on the subject line.",
+          "es": "Deberíamos hacer una prueba A/B con el asunto."
+        },
+        {
+          "en": "I [ran an A/B test] and version B won by twenty percent.",
+          "es": "Hice una prueba A/B y la versión B ganó por veinte por ciento."
+        }
+      ]
+    },
+    {
+      "id": "phr-im-looking-for-something-in-the-range-of",
+      "type": "phrase",
+      "term": "I'm looking for something in the range of…",
+      "level": "B2",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "busco algo en el rango de…",
+      "def": "a polite way to give the salary you hope to earn",
+      "note": "En Canadá se habla de sueldo anual: 'in the range of 55 to 60 thousand'. Investiga el mercado antes y da un rango, no una sola cifra.",
+      "ex": [
+        {
+          "en": "[I'm looking for something in the range of] 55 to 60 thousand.",
+          "es": "Busco algo en el rango de 55 a 60 mil."
+        },
+        {
+          "en": "Honestly, [I'm looking for something in the range of] 70K.",
+          "es": "Sinceramente, busco algo alrededor de 70 mil."
+        }
+      ]
+    }
+  ]
+}

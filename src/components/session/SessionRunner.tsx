@@ -12,6 +12,9 @@ import { AudioButton, Bar, Highlight, TypeChip } from "../ui";
 import { MyMascot, useLook } from "../Coach";
 import { Confetti } from "../Confetti";
 import { Burst, FloatUp } from "../Burst";
+import { Celebration } from "../ux/Celebration";
+import { quoteOfDay } from "@/lib/quotes";
+import { wearOf } from "@/lib/look";
 import { playSfx } from "@/lib/audio/sfx";
 import { correctSay, doneSay, wrongSay, type Say } from "@/lib/motivation";
 import { levelFromXp, levelTitle } from "@/lib/game";
@@ -21,7 +24,7 @@ import { Gem } from "../Nav";
 import { useCelebrations } from "../Coach";
 import { RepairStep, TaskStep } from "./MissionSteps";
 import { ListenStory } from "./ListenStory";
-import { Dictation, MatchPairs, WhyPanel, WordBank, WordDiff, type SentenceResult, type Why } from "./Exercises";
+import { Dictation, MatchPairs, OpsHint, WhyPanel, WordBank, WordDiff, type SentenceResult, type Why } from "./Exercises";
 import type { WordOp } from "@/lib/answer";
 import type { Alt, Item } from "@/lib/types";
 import { readSavedSession, SAVE_KEY, type Saved, type SessionMeta } from "@/lib/sessionSave";
@@ -39,7 +42,7 @@ type Toast = { id: number; text: string; kind: "goal" | "mission" };
 const HEARTS = 5;
 type LifeNote = { id: number; kind: "lost" | "shielded" | "out" | "gained"; text: string };
 /** true mientras se muestra la corrección: el personaje del enunciado baja a la barra de respuesta. */
-const StepCtx = createContext<{ fb: Feedback; pos: number; total: number; combo: number }>({ fb: null, pos: 1, total: 1, combo: 0 });
+const StepCtx = createContext<{ fb: Feedback; pos: number; total: number; combo: number; again?: number }>({ fb: null, pos: 1, total: 1, combo: 0 });
 /** Qué dice el compañero al plantear cada tipo de ejercicio (una frase corta y accionable). */
 const HINT: Record<string, string> = {
   "¿Qué significa?": "Elige el significado que mejor encaja.",
@@ -53,7 +56,7 @@ const HINT: Record<string, string> = {
 const graded = (s: Step): s is GradedStep => "isNew" in s;
 const modeOf = (s: GradedStep): Mode => s.kind as Mode;
 
-export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, dayXp: initialDayXp, totalXp, name, meta, resume = false, lives = HEARTS, shield = 0, boostUntil = null }: { initial: Step[]; lessonId?: string; streak: number; goal: number; dayXp: number; totalXp: number; name: string; meta: SessionMeta; resume?: boolean; lives?: number; shield?: number; boostUntil?: string | null }) {
+export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, dayXp: initialDayXp, totalXp, name, meta, resume = false, lives = HEARTS, shield = 0, boostUntil = null, unlimited = false, practice = false }: { initial: Step[]; lessonId?: string; streak: number; goal: number; dayXp: number; totalXp: number; name: string; meta: SessionMeta; resume?: boolean; lives?: number; shield?: number; boostUntil?: string | null; unlimited?: boolean; practice?: boolean }) {
   const reduce = useReducedMotion();
   const first = name.split(" ")[0] || undefined;
   const [combo, setCombo] = useState(0);
@@ -75,6 +78,19 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
   const [queue, setQueue] = useState<Step[]>(initial);
   const [i, setI] = useState(0);
   const [feedback, setFeedback] = useState<Feedback>(null);
+  // Al corregir, la barra de abajo no debe tapar la opción elegida ni la correcta: se suben por encima de ella.
+  useEffect(() => {
+    if (!feedback) return;
+    const id = requestAnimationFrame(() => {
+      const dock = document.querySelector<HTMLElement>(".feedback-dock");
+      const opts = [...document.querySelectorAll<HTMLElement>(".option[data-state='right'], .option[data-state='wrong']")];
+      if (!dock || !opts.length) return;
+      const bottom = Math.max(...opts.map((o) => o.getBoundingClientRect().bottom));
+      const over = bottom - dock.getBoundingClientRect().top + 12;
+      if (over > 0) window.scrollBy({ top: over, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    });
+    return () => cancelAnimationFrame(id);
+  }, [feedback]);
   const [xp, setXp] = useState(0);
   const [dayXp, setDayXp] = useState(initialDayXp);
   const [streak, setStreak] = useState(initialStreak);
@@ -84,6 +100,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
   const [gems, setGems] = useState(0);
   const [lessonScore, setLessonScore] = useState({ right: 0, total: 0 });
   const requeued = useRef(new Set<string>());
+  const [again, setAgain] = useState(0);
   const submitted = useRef(new Set<string>());
   const started = useRef(0);
   const pending = useRef<Promise<unknown>[]>([]);
@@ -179,7 +196,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
       if (!ok && fb?.kind !== "self") category = s.kind === "listen" ? "comprehension" : s.kind === "prod" && fb?.given ? classifyError(fb.correctText ?? "", fb.given) : "vocab";
       if (category) setErrs((e) => ({ ...e, [category!]: (e[category!] ?? 0) + 1 }));
       const errors = category ? [{ category, expected: fb?.correctText?.slice(0, 200), given: fb?.given?.slice(0, 200) }] : undefined;
-      const body = JSON.stringify({ itemId: s.item.id, mode: modeOf(s), grade, correct: ok, isNew, ms, attemptId, firstTry: true, revealed: !!fb?.revealed, kind: fb?.kind ?? "graded", errors, ctx: "lesson" });
+      const body = JSON.stringify({ itemId: s.item.id, mode: modeOf(s), grade, correct: ok, isNew, ms, attemptId, firstTry: true, revealed: !!fb?.revealed, kind: fb?.kind ?? "graded", errors, ctx: practice ? "practice" : "lesson" });
       const send = () => fetch("/api/review", { method: "POST", headers: { "content-type": "application/json" }, body });
       // Reintenta una vez con el MISMO attemptId: el servidor no duplica si el primero sí llegó.
       const p = send()
@@ -207,6 +224,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
       // Lo fallado vuelve al final de la sesión (una vez), como en Anki "Again".
       if (grade === 1 && !requeued.current.has(key)) {
         requeued.current.add(key);
+        setAgain((n) => n + 1);
         failed.current.set(s.item.id, s.item);
         setQueue((q) => [...q, { ...s, isNew: false }]);
       }
@@ -255,7 +273,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
       if (shieldOn) {
         setShieldOn(false);
         note("shielded", "Tu protección se consumió: conservas la vida.");
-      } else if (hearts > 0) {
+      } else if (!unlimited && !practice && hearts > 0) {
         setHearts(hearts - 1);
         setLost((n) => n + 1);
         note(hearts - 1 === 0 ? "out" : "lost", hearts - 1 === 0 ? "Te quedaste sin vidas. Puedes seguir: recupéralas repasando." : "−1 vida");
@@ -271,7 +289,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
     if (step.kind === "question") setLessonScore((s2) => ({ right: s2.right + (ok ? 1 : 0), total: s2.total + 1 }));
   };
 
-  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} hearts={hearts} lost={lost} />;
+  if (done) return <Finish xp={xp} stats={stats} streak={streak} dayXp={dayXp} goal={goal} totalXp={totalXp} name={first} bestCombo={bestCombo} errs={errs} gems={gems} meta={shownMeta} hearts={hearts} lost={lost} unlimited={unlimited} />;
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pt-[max(env(safe-area-inset-top),1rem)] 2xl:max-w-3xl">
@@ -285,11 +303,11 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
             <IcoFlame size={20} className="flame" /> {combo}
           </span>
         )}
-        <span className="relative flex items-center gap-0.5 font-black text-bad" aria-label={`${hearts} vidas${shieldOn ? ", con protección" : ""}`}>
+        <span className="relative flex items-center gap-0.5 font-black text-bad" aria-label={unlimited ? "Vidas ilimitadas" : `${hearts} vidas${shieldOn ? ", con protección" : ""}`}>
           <span key={`${hearts}-${lifeNote?.id ?? 0}`} className={lifeNote?.kind === "shielded" ? "stat-shield inline-flex" : lifeNote ? "heart-lost inline-flex" : "inline-flex"}>
             <IcoHeart size={24} className={hearts === 0 ? "opacity-40 grayscale" : ""} />
           </span>
-          {hearts}
+          {unlimited ? "∞" : hearts}
           {shieldOn && (
             <span className="absolute -right-2 -top-2" aria-hidden>
               <IcoShield size={15} />
@@ -343,7 +361,7 @@ export function SessionRunner({ initial, lessonId, streak: initialStreak, goal, 
             transition={{ duration: 0.22, ease: "easeOut" }}
             className="flex flex-1 flex-col"
           >
-            <StepCtx.Provider value={{ fb: feedback, pos: Math.min(i + 1, queue.length), total: queue.length, combo }}>
+            <StepCtx.Provider value={{ fb: feedback, pos: Math.min(i + 1, queue.length), total: queue.length, combo, again }}>
               <StepView step={step} feedback={feedback} onAnswer={handleAnswer} onNext={next} />
             </StepCtx.Provider>
           </motion.div>
@@ -469,7 +487,7 @@ function StepView({ step, feedback, onAnswer, onNext }: { step: Step; feedback: 
 }
 
 function StepTitle({ children, isNew }: { children: React.ReactNode; isNew?: boolean }) {
-  const { fb, pos, total, combo } = useContext(StepCtx);
+  const { fb, pos, total, combo, again = 0 } = useContext(StepCtx);
   const look = useLook();
   const hint = typeof children === "string" ? HINT[children] : undefined;
   const mood = fb ? (fb.say?.mood ?? (fb.ok ? "cheer" : "oops")) : isNew ? "wow" : "happy";
@@ -478,6 +496,7 @@ function StepTitle({ children, isNew }: { children: React.ReactNode; isNew?: boo
     <div className="mb-4">
       <p className="mb-1 flex items-center gap-2 text-sm font-semibold text-muted">
         Paso {pos} de {total}
+        {again > 0 && <span className="text-xs font-bold">(+{again} para repasar lo que fallaste)</span>}
         {isNew && <span className="chip bg-accent-soft text-accent">NUEVO</span>}
       </p>
       <h1 className="text-[1.6rem] font-black leading-tight sm:text-3xl">{children}</h1>
@@ -733,8 +752,9 @@ function FeedbackBar({ fb, gradable, onContinue }: { fb: NonNullable<Feedback>; 
               </p>
             )}
             {fb.ops && (!fb.ok || fb.close) && <WordDiff ops={fb.ops} />}
+            {fb.ops && !fb.ok && <OpsHint ops={fb.ops} />}
             {fb.note && <p className="mt-1 text-sm leading-relaxed text-muted">{fb.note}</p>}
-            {fb.why && <WhyPanel why={fb.why} />}
+            {fb.why && <WhyPanel why={fb.why} defaultOpen={!fb.ok} />}
           </div>
         </div>
         <div className="mt-3 flex gap-2 pb-2">
@@ -757,7 +777,7 @@ function FeedbackBar({ fb, gradable, onContinue }: { fb: NonNullable<Feedback>; 
   );
 }
 
-function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta, hearts, lost }: { hearts: number; lost: number; xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
+function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs, gems, meta, hearts, lost, unlimited = false }: { unlimited?: boolean; hearts: number; lost: number; xp: number; stats: { right: number; total: number; learned: number }; streak: number; dayXp: number; goal: number; totalXp: number; name?: string; bestCombo: number; errs: Partial<Record<ErrorCategory, number>>; gems: number; meta: SessionMeta }) {
   const topErr = (Object.entries(errs) as [ErrorCategory, number][]).sort((a, b) => b[1] - a[1])[0];
   const celebrate = useCelebrations();
   const look = useLook();
@@ -766,6 +786,8 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
   const after = levelFromXp(totalXp + xp);
   const leveled = after.level > before.level;
   const say = useMemo(() => doneSay(acc, name, stats.total + xp), [acc, name, stats.total, xp]);
+  // Frase motivacional del día (la misma que en Hoy y en el diario).
+  const quote = useMemo(() => quoteOfDay(new Date().toISOString().slice(0, 10)), []);
   const [shown, setShown] = useState(0);
   useEffect(() => {
     playSfx(leveled ? "level" : "done");
@@ -777,25 +799,26 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
     { label: "XP", value: `+${shown}`, cls: "text-accent", icon: <IcoBolt size={30} /> },
     { label: "Precisión", value: `${Math.round(acc * 100)}%`, cls: "text-good", icon: <IcoTarget size={30} /> },
     { label: "Racha", value: `${streak}`, cls: "text-fire", icon: <IcoFlame size={30} className="flame" /> },
-    { label: lost === 0 ? "¡Sin perder vidas!" : `Vidas (−${lost})`, value: `${hearts}`, cls: "text-bad", icon: <IcoHeart size={30} /> },
+    { label: unlimited ? "Vidas ilimitadas" : lost === 0 ? "¡Sin perder vidas!" : `Vidas (−${lost})`, value: unlimited ? "∞" : `${hearts}`, cls: "text-bad", icon: <IcoHeart size={30} /> },
   ];
   return (
     <main className="mx-auto flex min-h-dvh max-w-xl flex-col items-center justify-center gap-5 px-4 py-10 text-center">
       {celebrate && <Confetti count={leveled ? 110 : 70} />}
       <div className="relative grid place-items-center">
-        <svg aria-hidden viewBox="0 0 200 200" className="rays absolute h-64 w-64 opacity-60 motion-reduce:hidden">
-          {Array.from({ length: 12 }, (_, k) => (
-            <path key={k} d="M100 100 L92 0 L108 0 Z" transform={`rotate(${k * 30} 100 100)`} style={{ fill: k % 2 ? "var(--brand-soft)" : "var(--accent-soft)" }} />
-          ))}
-        </svg>
+        <Celebration species={look.species} wear={wearOf(look)} />
         <Burst kind="mix" count={18} spread={120} size={18} />
-        <MyMascot mood="cheer" size={170} animate="hop" className="relative" />
       </div>
       <h1 className="text-4xl font-black">¡Sesión terminada!</h1>
       <p className="rounded-2xl border-2 border-line bg-surface px-4 py-3 text-lg font-extrabold shadow-card">
         <span className="sr-only">{look.name} dice: </span>
         {say.text}
       </p>
+      <figure className="max-w-sm text-center">
+        <blockquote lang="en" className="font-display font-extrabold">
+          “{quote.en}”
+        </blockquote>
+        <figcaption className="text-sm text-muted">{quote.es}</figcaption>
+      </figure>
       {leveled && (
         <p className="animate-pop relative rounded-2xl bg-accent px-5 py-3 text-lg font-black text-white shadow-card">
           <Burst kind="stars" count={16} spread={110} size={18} />
@@ -828,7 +851,7 @@ function Finish({ xp, stats, streak, dayXp, goal, totalXp, name, bestCombo, errs
         </p>
         <Bar value={after.into} max={after.span} color="var(--accent)" label="Progreso de nivel" />
       </div>
-      {hearts === 0 && (
+      {!unlimited && hearts === 0 && (
         <p className="rounded-2xl bg-bad-soft px-4 py-3 text-sm font-bold text-bad">
           Te quedaste sin vidas, pero tu progreso cuenta igual. Recupéralas repasando (cada 8 aciertos en Repaso devuelven 1) y mañana recibes una extra.{" "}
           <Link href="/repaso" className="underline">

@@ -1,9 +1,10 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Check } from "lucide-react";
 import type { SeasonId, SeasonPrefs } from "@/lib/seasons";
 import { SEASONS } from "@/lib/seasons";
+import { useSettingsTab } from "./SettingsTabs";
 
 type Hoy = Partial<Record<"week" | "load" | "goal" | "achievement" | "theme" | "challenges", boolean>>;
 type Init = { season?: SeasonPrefs; celebrations?: boolean; social?: boolean; explicit?: boolean; hoy?: Hoy; currentSeason: SeasonId };
@@ -11,29 +12,47 @@ type Init = { season?: SeasonPrefs; celebrations?: boolean; social?: boolean; ex
 const HOY_LABEL: Record<keyof Hoy & string, string> = { challenges: "Retos diarios y semanales", week: "Esta semana", load: "Próximos repasos", goal: "Tu objetivo", achievement: "Próximo logro", theme: "Recomendación temática" };
 
 /** Temporadas, experiencia (celebraciones, lenguaje explícito, social) y módulos de Hoy. */
-export function ExtraSettings({ initial }: { initial: Init }) {
+/** `only="season"`: solo las temporadas (se muestran en el Armario → Estilo). Sin `only`: experiencia y módulos de Hoy (Ajustes). */
+export function ExtraSettings({ initial, only }: { initial: Init; only?: "season" }) {
   const router = useRouter();
   const [season, setSeason] = useState<SeasonPrefs>({ mode: "auto", region: "CA", holidays: false, palette: true, decor: true, content: true, ...initial.season });
   const [celebrations, setCelebrations] = useState(initial.celebrations !== false);
   const [social, setSocial] = useState(initial.social === true);
   const [explicit, setExplicit] = useState(initial.explicit === true);
   const [hoy, setHoy] = useState<Hoy>({ week: true, load: true, goal: true, achievement: true, theme: true, challenges: true, ...initial.hoy });
-  const [saved, setSaved] = useState(false);
+  const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const ss = (p: Partial<SeasonPrefs>) => setSeason((s) => ({ ...s, ...p }));
+  const firstRun = useRef(true);
+  const tab = useSettingsTab();
 
-  async function save() {
-    await fetch("/api/profile", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ settings: { season: { ...season, simDate: season.simDate ?? "" }, celebrations, social, explicit, hoy } }) });
-    setSaved(true);
-    setTimeout(() => setSaved(false), 2000);
-    router.refresh();
+  // Guardado automático: cada cambio se guarda 600 ms después, sin botón que pueda olvidarse.
+  async function persist() {
+    setStatus("saving");
+    try {
+      const r = await fetch("/api/profile", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ settings: only === "season" ? { season: { ...season, simDate: season.simDate ?? "" } } : { season: { ...season, simDate: season.simDate ?? "" }, celebrations, social, explicit, hoy } }) });
+      if (!r.ok) throw new Error(String(r.status));
+      setStatus("saved");
+      router.refresh();
+    } catch {
+      setStatus("error");
+    }
   }
+  useEffect(() => {
+    if (firstRun.current) {
+      firstRun.current = false;
+      return;
+    }
+    const t = setTimeout(() => void persist(), 600);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [season, celebrations, social, explicit, hoy]);
 
   return (
-    <div className="flex flex-col gap-5">
-      <section className="module flex flex-col gap-4 p-5">
+    <div className="flex flex-col gap-5" hidden={!only && tab !== "experiencia"}>
+      <section className="module flex flex-col gap-4 p-5" hidden={only !== "season"}>
         <h2 className="text-xl font-black">Temporadas</h2>
         <p className="text-sm text-muted">Cambian el color de la tarjeta principal, una pequeña decoración y la misión sugerida. Nunca cambian tu progreso. Ahora: {SEASONS.find((s) => s.id === initial.currentSeason)?.label}.</p>
-        <div className="seg self-start" role="radiogroup" aria-label="Modo de temporadas">
+        <div className="seg grid grid-cols-3 sm:inline-flex sm:self-start" role="radiogroup" aria-label="Modo de temporadas">
           {(
             [
               ["auto", "Automático"],
@@ -41,7 +60,7 @@ export function ExtraSettings({ initial }: { initial: Init }) {
               ["off", "Sin temporadas"],
             ] as const
           ).map(([id, label]) => (
-            <button key={id} type="button" role="radio" aria-checked={season.mode === id} onClick={() => ss({ mode: id })}>
+            <button key={id} type="button" role="radio" aria-checked={season.mode === id} onClick={() => ss({ mode: id })} className="!px-2">
               {label}
             </button>
           ))}
@@ -81,29 +100,36 @@ export function ExtraSettings({ initial }: { initial: Init }) {
         </label>
       </section>
 
-      <section className="module flex flex-col gap-4 p-5">
+      <section className="module flex flex-col gap-4 p-5" hidden={!!only || tab !== "experiencia"}>
         <h2 className="text-xl font-black">Experiencia</h2>
         <Toggle on={celebrations} set={setCelebrations} label="Celebraciones" hint="Confeti y animaciones al terminar una sesión." />
         <Toggle on={explicit} set={setExplicit} label="Lenguaje explícito" hint="Muestra groserías e insultos completos, sin asteriscos, en la biblioteca, el inglés real y la música. Las expresiones ofensivas siguen marcadas como «para entenderla»." />
         <Toggle on={social} set={setSocial} label="Retos privados con amistades" hint="Solo con miembros que también lo activen. Se comparte únicamente tu nombre y cuántos días cumpliste tu propia meta; nunca respuestas ni grabaciones." />
       </section>
 
-      <section className="module flex flex-col gap-3 p-5">
+      <section className="module flex flex-col gap-3 p-5" hidden={!!only || tab !== "experiencia"}>
         <h2 className="text-xl font-black">Módulos de Hoy</h2>
         {(Object.keys(HOY_LABEL) as (keyof Hoy)[]).map((k) => (
           <Toggle key={k} on={hoy[k] !== false} set={(v) => setHoy((h) => ({ ...h, [k]: v }))} label={HOY_LABEL[k]} />
         ))}
       </section>
 
-      <button type="button" className="btn btn-primary self-start" onClick={save}>
-        {saved ? (
+      <p role="status" aria-live="polite" className={`flex items-center gap-2 text-sm font-bold ${status === "error" ? "text-bad" : "text-muted"}`}>
+        {status === "saving" && "Guardando…"}
+        {status === "saved" && (
           <>
-            <Check size={18} aria-hidden /> Guardado
+            <Check size={16} aria-hidden /> Guardado
           </>
-        ) : (
-          "Guardar estas preferencias"
         )}
-      </button>
+        {status === "error" && (
+          <>
+            No se pudo guardar. Revisa tu conexión.
+            <button type="button" className="btn btn-ghost h-9 px-3 text-sm" onClick={() => void persist()}>
+              Reintentar
+            </button>
+          </>
+        )}
+      </p>
     </div>
   );
 }

@@ -1,0 +1,85 @@
+{
+  "id": "lectura-comida-canada",
+  "level": "A2",
+  "title": "Food, Potlucks and Tips",
+  "title_es": "Comida, potlucks y propinas",
+  "topic": "cultura",
+  "minutes": 4,
+  "intro_es": "Comer es la forma más sabrosa de entender Canadá: costumbres, platillos y cuánto dejar de propina.",
+  "paragraphs": [
+    "Food is a great way to learn about a new country. Canada is very multicultural, so in Edmonton you can find food from almost everywhere: Vietnamese soup, Indian curry, Lebanese shawarma and, yes, Mexican tacos too. Edmonton also has a big Ukrainian community, so many families love perogies, small dumplings filled with potato and cheese.",
+    "Some Canadian classics are worth trying. Poutine is french fries with cheese curds and hot gravy. Butter tarts are small, sweet pastries. In Alberta, people are proud of their beef, and in summer many families have barbecues in the backyard. Breakfast is often quick: coffee, toast, cereal or eggs. Lunch is usually light, and dinner is the main meal, often between five and seven o'clock.",
+    "Soon you may get an invitation to a potluck. At a potluck, every guest brings one dish to share. It is a common way to eat together at work, at church or with neighbours. Bring something easy to serve, like a salad, a dessert or rice. It is a good idea to tell people what is in your dish, because some guests have allergies or don't eat meat.",
+    "At restaurants with table service, people expect a tip. Most people leave about 15 to 20 percent of the bill before tax. When the server brings the payment machine, you can choose the percentage on the screen. At a counter, a tip is optional. Also remember that the prices on the menu usually do not include tax.",
+    "Don't be shy about sharing your own food culture. Bring tamales to the next potluck, and you will probably make new friends!"
+  ],
+  "glossary": [
+    { "term": "dumplings", "es": "empanadillas, bolitas de masa rellenas", "def": "small pieces of dough, often with a filling, cooked in water or fried" },
+    { "term": "cheese curds", "es": "trocitos de queso fresco", "def": "small pieces of fresh cheese that squeak when you eat them" },
+    { "term": "gravy", "es": "salsa de jugo de carne", "def": "a hot brown sauce made from the juice of cooked meat" },
+    { "term": "pastries", "es": "pastelitos, panecillos dulces", "def": "small baked foods made with flour, butter and often sugar" },
+    { "term": "backyard", "es": "patio trasero", "def": "the area of land behind a house" },
+    { "term": "potluck", "es": "comida donde cada quien lleva un platillo", "def": "a meal where every guest brings food to share", "note": "Muy común en oficinas, escuelas e iglesias." },
+    { "term": "dish", "es": "platillo", "def": "food prepared in a particular way; also a plate" },
+    { "term": "allergies", "es": "alergias", "def": "medical problems when your body reacts badly to a food or substance" },
+    { "term": "table service", "es": "servicio a la mesa", "def": "when a server takes your order and brings food to your table" },
+    { "term": "tip", "es": "propina", "def": "extra money you give to a server for good service" },
+    { "term": "bill", "es": "cuenta", "def": "the paper or screen that shows how much you must pay", "note": "En un restaurante pides: Could we have the bill, please?" },
+    { "term": "server", "es": "mesero, mesera", "def": "a person who brings food and drinks in a restaurant" },
+    { "term": "counter", "es": "mostrador", "def": "a long table in a shop or café where you order and pay" },
+    { "term": "optional", "es": "opcional", "def": "not necessary; you can choose to do it or not" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Canadians do not like to try food from other countries.",
+      "Restaurants in Canada are more expensive than in Mexico.",
+      "Food in Canada is diverse, and knowing customs like potlucks and tipping helps you fit in."
+    ],
+    "answer": 2,
+    "why_es": "El texto presenta la variedad de comida en Edmonton y explica costumbres útiles: potlucks y propinas."
+  },
+  "questions": [
+    {
+      "q": "What do you do at a potluck?",
+      "options": [
+        "Pay for everyone's dinner",
+        "Bring one dish to share",
+        "Cook for the host in their kitchen"
+      ],
+      "answer": 1,
+      "why_es": "En un potluck cada invitado lleva un platillo para compartir con todos."
+    },
+    {
+      "q": "How much do people usually tip at a restaurant with table service?",
+      "options": [
+        "About 15 to 20 percent of the bill",
+        "About 5 percent of the bill",
+        "Nothing, because the tip is included"
+      ],
+      "answer": 0,
+      "why_es": "Lo habitual es dejar entre 15 y 20 por ciento de la cuenta antes de impuestos."
+    },
+    {
+      "q": "Why should you tell people what is in your dish?",
+      "options": [
+        "Because it is the law",
+        "Because some guests have allergies or don't eat meat",
+        "Because the host needs the recipe"
+      ],
+      "answer": 1,
+      "why_es": "Algunos invitados tienen alergias o no comen carne, así que es útil saber los ingredientes."
+    },
+    {
+      "q": "What are perogies?",
+      "options": [
+        "Small sweet pastries with butter",
+        "French fries with gravy",
+        "Small dumplings with potato and cheese"
+      ],
+      "answer": 2,
+      "why_es": "Los perogies son bolitas de masa rellenas de papa y queso, muy populares por la comunidad ucraniana."
+    }
+  ],
+  "club": true
+}

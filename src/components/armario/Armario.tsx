@@ -4,24 +4,28 @@ import { useRouter } from "next/navigation";
 import { Check, Lock, RotateCcw, Save, X } from "lucide-react";
 import { Mascot } from "../Mascot";
 import { Burst } from "../Burst";
-import { IcoChest, IcoGem, IcoHeart, IcoShop, IcoStar } from "../Icons";
+import { IcoChest, IcoGem, IcoHeart, IcoIce, IcoShop, IcoStar } from "../Icons";
 import { opKey, useWallet, type Wallet } from "../wallet";
 import { post } from "./api";
 import { Chests } from "./Chests";
+import { Appearance } from "./Appearance";
+import { AppStyle, CompanionName } from "./AppStyle";
+import type { SeasonId, SeasonPrefs } from "@/lib/seasons";
+import { bgImage } from "@/lib/themes";
 import { LivesPanel } from "./LivesPanel";
 import { playSfx } from "@/lib/audio/sfx";
-import { AWARDS, PETS, PIECES, SLOT_LABEL, SLOTS, TIERS, combine, ownsPet, ownsPiece, petPrice, type Piece, type Slot } from "@/lib/wardrobe";
+import { AWARDS, FREEZE, PETS, PIECES, SLOT_LABEL, SLOTS, TIERS, combine, ownsPet, ownsPiece, petPrice, type Piece, type Slot } from "@/lib/wardrobe";
 import type { Look } from "@/lib/look";
 
-type Tab = "armario" | "mascotas" | "cofres" | "vidas" | "movimientos";
-const TAB_LABEL: Record<Tab, string> = { armario: "Armario", mascotas: "Mascotas", cofres: "Cofres", vidas: "Vidas y extras", movimientos: "Movimientos" };
+type Tab = "armario" | "mascotas" | "temas" | "cofres" | "vidas" | "movimientos";
+const TAB_LABEL: Record<Tab, string> = { armario: "Armario", mascotas: "Mascotas", temas: "Estilo", cofres: "Cofres", vidas: "Vidas y extras", movimientos: "Movimientos" };
 type Move = { key: string; currency: string; amount: number; reason: string; at: string };
 type Progress = { streak: number; review: number; friend: number };
 
 export const TIER_CLS = ["tier-0", "tier-1", "tier-2", "tier-3"] as const;
 
 /** Armario y tienda: probar cualquier pieza, comprar con gemas, guardar un conjunto por mascota, cofres y vidas. */
-export function Armario(props: { tab: Tab; owned: string[]; look: Look; wallet: Omit<Wallet, "streak">; freezes: number; newAwards: string[]; progress: Progress; practice: { today: number; earned: number }; moves: Move[] }) {
+export function Armario(props: { tab: Tab; owned: string[]; look: Look; wallet: Omit<Wallet, "streak">; freezes: number; newAwards: string[]; progress: Progress; practice: { today: number; earned: number }; moves: Move[]; appearance: { allThemes: boolean; themePack: string | null; background: string | null }; style: { mode: "system" | "light" | "dark"; season?: SeasonPrefs; currentSeason: SeasonId } }) {
   const router = useRouter();
   const [tab, setTab] = useState<Tab>(props.tab);
   const [owned, setOwned] = useState(() => new Set(props.owned));
@@ -56,8 +60,31 @@ export function Armario(props: { tab: Tab; owned: string[]; look: Look; wallet: 
           </button>
         ))}
       </div>
-      {tab === "armario" && <Wardrobe look={look} setLook={setLook} owned={owned} addOwned={addOwned} gems={w.gems} progress={props.progress} />}
-      {tab === "mascotas" && <Pets look={look} setLook={setLook} owned={owned} addOwned={addOwned} gems={w.gems} />}
+      {tab === "armario" && (
+        <button type="button" onClick={() => go("vidas")} className="module flex items-center gap-3 p-3 text-left">
+          <IcoIce size={30} />
+          <span className="min-w-0 flex-1">
+            <b className="block">Protector de racha</b>
+            <span className="text-sm text-muted">Cubre un día sin meta para que no pierdas tu racha. Puedes tener {FREEZE.max}.</span>
+          </span>
+          <span className="flex shrink-0 items-center gap-1 font-black">
+            <IcoGem size={18} /> {FREEZE.price}
+          </span>
+        </button>
+      )}
+      {tab === "armario" && <Wardrobe look={look} setLook={setLook} owned={owned} addOwned={addOwned} gems={w.gems} progress={props.progress} background={props.appearance.background} />}
+      {tab === "temas" && (
+        <div className="flex flex-col gap-8">
+          <AppStyle accent={look.accent} mode={props.style.mode} season={{ prefs: props.style.season, current: props.style.currentSeason }} />
+          <Appearance owned={owned} addOwned={addOwned} gems={w.gems} {...props.appearance} />
+        </div>
+      )}
+      {tab === "mascotas" && (
+        <div className="flex flex-col gap-4">
+          <CompanionName initial={look.name} />
+          <Pets look={look} setLook={setLook} owned={owned} addOwned={addOwned} gems={w.gems} />
+        </div>
+      )}
       {tab === "cofres" && <Chests look={look} gems={w.gems} onGot={(k) => (addOwned(k), router.refresh())} />}
       {tab === "vidas" && <LivesPanel wallet={w} freezes={props.freezes} practice={props.practice} />}
       {tab === "movimientos" && <Moves moves={props.moves} />}
@@ -76,7 +103,7 @@ function awardProgress(id: string, p: Progress) {
   return { v: Math.min(v, a.n), n: a.n };
 }
 
-function Wardrobe({ look, setLook, owned, addOwned, gems, progress }: { look: Look; setLook: (l: Look) => void; owned: Set<string>; addOwned: (k: string) => void; gems: number; progress: Progress }) {
+function Wardrobe({ look, setLook, owned, addOwned, gems, progress, background }: { look: Look; setLook: (l: Look) => void; owned: Set<string>; addOwned: (k: string) => void; gems: number; progress: Progress; background: string | null }) {
   const router = useRouter();
   const saved = look.sets[look.species] ?? [];
   const [trial, setTrial] = useState<string[]>(saved);
@@ -124,7 +151,7 @@ function Wardrobe({ look, setLook, owned, addOwned, gems, progress }: { look: Lo
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,21rem)_1fr]">
       <section className="hero-card flex flex-col items-center gap-3 p-5 lg:sticky lg:top-6 lg:self-start">
-        <div ref={stage} className="relative">
+        <div ref={stage} className={`relative ${background ? "overflow-hidden rounded-[var(--r-lg)] bg-cover bg-center px-6 pt-4" : ""}`} style={background ? { backgroundImage: `url(${bgImage(background, "square")})` } : undefined}>
           {party > 0 && <Burst key={party} kind="stars" count={18} spread={120} size={18} />}
           <span key={`e${party}`} className={party ? "equip-pop inline-block" : "inline-block"}>
             <Mascot species={look.species} wear={trial} mood={mood} size={190} label={`${look.name} con el conjunto que estás probando`} />
@@ -191,7 +218,7 @@ function Wardrobe({ look, setLook, owned, addOwned, gems, progress }: { look: Lo
                   )}
                 </button>
                 <p className="line-clamp-2 min-h-[2.5rem] text-center text-sm font-black leading-tight">{p.name}</p>
-                <div className="flex items-center justify-center gap-1.5 text-[11px] font-bold text-muted">
+                <div className="flex items-center justify-center gap-1.5 text-xs font-bold text-muted">
                   <TierChip tier={p.tier} /> {SLOT_LABEL[p.slot]}
                 </div>
                 {have ? (
@@ -200,11 +227,11 @@ function Wardrobe({ look, setLook, owned, addOwned, gems, progress }: { look: Lo
                   </p>
                 ) : p.source === "award" && ap ? (
                   <div className="flex flex-col gap-1 text-center">
-                    <p className="text-[11px] font-bold leading-tight text-muted">{p.how}</p>
+                    <p className="text-xs font-bold leading-tight text-muted">{p.how}</p>
                     <div className="h-2 overflow-hidden rounded-full bg-surface-2" role="progressbar" aria-valuemin={0} aria-valuemax={ap.n} aria-valuenow={ap.v} aria-label={`Avance: ${ap.v} de ${ap.n}`}>
                       <div className="bar-fill h-full rounded-full bg-[var(--gold)]" style={{ width: `${(ap.v / ap.n) * 100}%` }} />
                     </div>
-                    <p className="text-[11px] font-black">
+                    <p className="text-xs font-black">
                       {ap.v}/{ap.n}
                     </p>
                   </div>

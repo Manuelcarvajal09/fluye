@@ -27,7 +27,7 @@ test.describe("voz, dictado y personalización", () => {
 
   test("las voces HD salen de los paquetes pre-generados (petición Range) y se reproducen", async ({ page }) => {
     await signIn(page);
-    await page.goto("/ajustes");
+    await page.goto("/ajustes?tab=voz");
     const bin = page.waitForResponse((r) => /\/audio\/af_heart-.*\.bin/.test(r.url()));
     await page.getByRole("button", { name: "Probar la voz Heart" }).click();
     const res = await bin;
@@ -49,13 +49,15 @@ test.describe("voz, dictado y personalización", () => {
   test("personalizar mascota, nombre y color: se guarda y se pinta desde el servidor", async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await signIn(page);
-    await page.goto("/ajustes");
-    await page.getByRole("radio", { name: /^Zorro/ }).click();
-    await page.getByLabel("Nombre de tu compañero").fill("Chispa");
-    await page.getByRole("radio", { name: /Océano/ }).click();
+    // Todo lo de aspecto vive en el Armario: nombre en Mascotas, color en Estilo (se guarda solo).
+    await page.goto("/tienda?tab=mascotas");
+    // Next 16 conserva ocultas las pantallas visitadas: se usa solo el campo visible.
+    await page.locator("input[aria-label='Nombre de tu compañero']:visible").fill("Chispa");
+    await expect(page.getByText("Guardado", { exact: true })).toBeVisible();
+    await page.goto("/tienda?tab=temas");
+    await page.locator("[role=radio]:visible", { hasText: "Océano" }).click();
     await expect(page.locator("html")).toHaveAttribute("data-accent", "oceano");
-    await page.getByRole("button", { name: "Guardar cambios" }).click();
-    await expect(page.getByRole("button", { name: /Guardado/ })).toBeVisible();
+    await expect(page.getByText("Guardado.", { exact: true })).toBeVisible();
     await page.goto("/hoy");
     await expect(page.locator("html")).toHaveAttribute("data-accent", "oceano");
     await expect(page.getByRole("link", { name: /Chispa, tu compañero/ })).toBeVisible();

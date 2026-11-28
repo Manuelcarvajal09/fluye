@@ -1,0 +1,6667 @@
+[
+  {
+    "id": "phr-its-my-turn-to-do-the-dishes",
+    "type": "phrase",
+    "term": "it's my turn to do the dishes",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "me toca lavar los trastes",
+    "def": "said when you are the person who has to wash the dishes now",
+    "note": "«It's my turn to…» sirve para cualquier tarea: it's my turn to cook.",
+    "areas": [
+      "hogar",
+      "vivienda",
+      "relaciones"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Ugh, [it's my turn to do the dishes] again.",
+        "es": "Uf, otra vez me toca lavar los trastes."
+      },
+      {
+        "en": "You cooked, so [it's my turn to do the dishes].",
+        "es": "Tú cocinaste, así que me toca lavar los trastes."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-on-dish-duty-tonight",
+    "type": "phrase",
+    "term": "I'm on dish duty tonight",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "hoy me tocan los trastes",
+    "def": "a casual way to say you are the one washing dishes tonight",
+    "note": "«On … duty» = estar a cargo de algo por turno; suena relajado y natural. Versión A2 más sencilla: «it's my turn to do the dishes».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "pareja",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Relax, [I'm on dish duty tonight].",
+        "es": "Tranquila, hoy me tocan los trastes."
+      },
+      {
+        "en": "You cooked, so [I'm on dish duty tonight].",
+        "es": "Tú cocinaste, así que hoy me tocan los trastes."
+      }
+    ]
+  },
+  {
+    "id": "col-clean-the-litter-box",
+    "type": "collocation",
+    "term": "clean the litter box",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "limpiar el arenero",
+    "def": "to remove the dirty sand from a cat's toilet box",
+    "note": "En EE. UU. y Canadá se dice litter box; «arenero» no es sandbox (eso es el de los niños).",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Can you [clean the litter box] today?",
+        "es": "¿Puedes limpiar el arenero hoy?"
+      },
+      {
+        "en": "I [cleaned the litter box] this morning.",
+        "es": "Limpié el arenero en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "col-scoop-the-litter-box",
+    "type": "collocation",
+    "term": "scoop the litter box",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "sacar las bolitas del arenero",
+    "def": "to remove the dirty clumps from a cat's litter with a small shovel",
+    "note": "Scoop = sacar con pala o cuchara; es lo que se hace a diario con el arenero. Versión A2 más sencilla: «clean the litter box».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Whose turn is it to [scoop the litter box]?",
+        "es": "¿A quién le toca sacar las bolitas del arenero?"
+      },
+      {
+        "en": "I already [scooped the litter box], so you're off the hook.",
+        "es": "Ya limpié el arenero, así que te salvaste."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-litter-box-needs-scooping",
+    "type": "phrase",
+    "term": "the litter box needs scooping",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "ya hay que limpiar el arenero",
+    "def": "said when the cat toilet is dirty and someone should clean it",
+    "note": "Estructura útil: needs + -ing = hace falta: the floor needs sweeping. Versión A2 más sencilla: «the litter box is full».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Heads up, [the litter box needs scooping].",
+        "es": "Aviso: ya hay que limpiar el arenero."
+      },
+      {
+        "en": "You can smell it. [The litter box needs scooping].",
+        "es": "Se huele. Ya hay que limpiar el arenero."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-litter-box-is-full",
+    "type": "phrase",
+    "term": "the litter box is full",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "el arenero está lleno",
+    "def": "said when the cat toilet has a lot of waste in it",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "[The litter box is full], can you clean it?",
+        "es": "El arenero está lleno, ¿lo puedes limpiar?"
+      },
+      {
+        "en": "The cat is upset because [the litter box is full].",
+        "es": "El gato está molesto porque el arenero está lleno."
+      }
+    ]
+  },
+  {
+    "id": "pv-scoop-out",
+    "type": "phrasal",
+    "term": "scoop out",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "ipa": "/ˌskup ˈaʊt/",
+    "sep": true,
+    "es": "sacar con pala o cuchara",
+    "def": "to remove something from a container using a small shovel or spoon",
+    "note": "Separable: scoop it out. Sirve para el arenero, helado o semillas de calabaza.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Just [scoop out] the clumps and add fresh litter.",
+        "es": "Nada más saca las bolitas y pon arena nueva."
+      },
+      {
+        "en": "She [scooped out] the seeds before cooking.",
+        "es": "Sacó las semillas antes de cocinar."
+      }
+    ]
+  },
+  {
+    "id": "col-take-out-the-trash",
+    "type": "collocation",
+    "term": "take out the trash",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "sacar la basura",
+    "def": "to carry the garbage outside to the bin",
+    "note": "En Canadá se oye más garbage que trash: take out the garbage.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [take out the trash] before bed?",
+        "es": "¿Puedes sacar la basura antes de dormir?"
+      },
+      {
+        "en": "I [took out the trash] this morning.",
+        "es": "Saqué la basura en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "phr-tomorrow-is-garbage-day",
+    "type": "phrase",
+    "term": "tomorrow is garbage day",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "mañana pasa el camión de la basura",
+    "def": "said when the truck comes to collect garbage the next day",
+    "note": "En Canadá la basura se recoge cierto día; hay que sacar el bote la noche anterior. Versión A2 más sencilla: «take out the trash».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Don't forget, [tomorrow is garbage day].",
+        "es": "No se te olvide, mañana pasa la basura."
+      },
+      {
+        "en": "[Tomorrow is garbage day], so the bins go out tonight.",
+        "es": "Mañana pasa la basura, así que los botes salen hoy en la noche."
+      }
+    ]
+  },
+  {
+    "id": "col-take-out-the-recycling",
+    "type": "collocation",
+    "term": "take out the recycling",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "sacar el reciclaje",
+    "def": "to carry bottles, cans and paper outside for collection",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'll [take out the recycling] after dinner.",
+        "es": "Saco el reciclaje después de cenar."
+      },
+      {
+        "en": "Did you [take out the recycling] last week?",
+        "es": "¿Sacaste el reciclaje la semana pasada?"
+      }
+    ]
+  },
+  {
+    "id": "phr-does-this-go-in-recycling",
+    "type": "phrase",
+    "term": "does this go in recycling?",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "¿esto va en el reciclaje?",
+    "def": "a question to check if something can be recycled",
+    "note": "En Canadá las reglas de reciclaje cambian por ciudad; esta pregunta es muy común en casa. Versión A2 más sencilla: «take out the recycling».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Wait, [does this go in recycling]? It's greasy.",
+        "es": "Espera, ¿esto va en el reciclaje? Tiene grasa."
+      },
+      {
+        "en": "[Does this go in recycling] or in the garbage?",
+        "es": "¿Esto va en el reciclaje o en la basura?"
+      }
+    ]
+  },
+  {
+    "id": "col-fold-the-laundry",
+    "type": "collocation",
+    "term": "fold the laundry",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "doblar la ropa",
+    "def": "to fold clean clothes after washing and drying them",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Let's [fold the laundry] while we watch TV.",
+        "es": "Doblemos la ropa mientras vemos la tele."
+      },
+      {
+        "en": "I [folded the laundry] but I didn't put it away.",
+        "es": "Doblé la ropa pero no la guardé."
+      }
+    ]
+  },
+  {
+    "id": "pv-fold-up",
+    "type": "phrasal",
+    "term": "fold up",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "ipa": "/ˌfoʊld ˈʌp/",
+    "sep": true,
+    "es": "doblar (ropa, cobijas)",
+    "def": "to make clothes or a blanket smaller by bending them neatly",
+    "note": "Separable: fold it up. Fold the laundry (A2) es la frase más básica.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [fold up] the towels?",
+        "es": "¿Puedes doblar las toallas?"
+      },
+      {
+        "en": "He [folded up] the blanket and put it on the couch.",
+        "es": "Dobló la cobija y la dejó en el sillón."
+      }
+    ]
+  },
+  {
+    "id": "col-do-a-load-of-laundry",
+    "type": "collocation",
+    "term": "do a load of laundry",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "lavar una carga de ropa",
+    "def": "to wash one machine full of clothes",
+    "note": "Load = una tanda de ropa en la lavadora.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I need to [do a load of laundry] tonight.",
+        "es": "Tengo que lavar una carga de ropa hoy en la noche."
+      },
+      {
+        "en": "We [did a load of laundry] before the trip.",
+        "es": "Lavamos una carga de ropa antes del viaje."
+      }
+    ]
+  },
+  {
+    "id": "col-throw-in-a-load",
+    "type": "collocation",
+    "term": "throw in a load",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "meter una carga a la lavadora",
+    "def": "to quickly start washing some clothes in the machine",
+    "note": "Throw in suena casual y rápido. Versión A2 más sencilla: «do a load of laundry».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I'll [throw in a load] before work.",
+        "es": "Meto una carga a la lavadora antes del trabajo."
+      },
+      {
+        "en": "Can you [throw in a load] of towels?",
+        "es": "¿Puedes meter una carga de toallas?"
+      }
+    ]
+  },
+  {
+    "id": "phr-theres-a-load-in-the-dryer",
+    "type": "phrase",
+    "term": "there's a load in the dryer",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "hay ropa en la secadora",
+    "def": "said to tell someone that dry clothes are waiting in the machine",
+    "note": "En Canadá casi todos usan secadora; tender afuera es raro en invierno. Versión A2 más sencilla: «the clothes are dry».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[There's a load in the dryer], can you fold it?",
+        "es": "Hay ropa en la secadora, ¿la puedes doblar?"
+      },
+      {
+        "en": "Don't start the washer, [there's a load in the dryer].",
+        "es": "No prendas la lavadora, hay ropa en la secadora."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-clothes-are-dry",
+    "type": "phrase",
+    "term": "the clothes are dry",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "la ropa ya está seca",
+    "def": "said when washed clothes are ready to fold",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[The clothes are dry], let's fold them.",
+        "es": "La ropa ya está seca, vamos a doblarla."
+      },
+      {
+        "en": "Are [the clothes dry] yet?",
+        "es": "¿Ya está seca la ropa?"
+      }
+    ]
+  },
+  {
+    "id": "col-vacuum-the-living-room",
+    "type": "collocation",
+    "term": "vacuum the living room",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "aspirar la sala",
+    "def": "to clean the living room floor with a vacuum cleaner",
+    "note": "Vacuum es verbo y sustantivo: the vacuum = la aspiradora.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'll [vacuum the living room] on Saturday.",
+        "es": "Aspiro la sala el sábado."
+      },
+      {
+        "en": "Did you [vacuum the living room]? It looks great.",
+        "es": "¿Aspiraste la sala? Se ve muy bien."
+      }
+    ]
+  },
+  {
+    "id": "pv-vacuum-up",
+    "type": "phrasal",
+    "term": "vacuum up",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "ipa": "/ˌvækjum ˈʌp/",
+    "sep": true,
+    "es": "aspirar (algo del piso)",
+    "def": "to remove something from the floor with a vacuum cleaner",
+    "note": "Separable: vacuum it up. Vacuum the living room (A2) habla del lugar, no de la cosa.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [vacuum up] the cat litter by the box?",
+        "es": "¿Puedes aspirar la arena junto al arenero?"
+      },
+      {
+        "en": "I [vacuumed up] all the crumbs.",
+        "es": "Aspiré todas las migajas."
+      }
+    ]
+  },
+  {
+    "id": "col-clean-the-bathroom",
+    "type": "collocation",
+    "term": "clean the bathroom",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "limpiar el baño",
+    "def": "to wash the toilet, sink and shower",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "It's your turn to [clean the bathroom].",
+        "es": "Te toca limpiar el baño."
+      },
+      {
+        "en": "I [cleaned the bathroom] yesterday.",
+        "es": "Ayer limpié el baño."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-bathroom-could-use-a-good-scrub",
+    "type": "phrase",
+    "term": "the bathroom could use a good scrub",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "al baño le hace falta una buena tallada",
+    "def": "a soft way to say the bathroom is dirty and needs cleaning",
+    "note": "«Could use» = le vendría bien; es más suave que decir «is dirty». Versión A2 más sencilla: «clean the bathroom».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Honestly, [the bathroom could use a good scrub].",
+        "es": "La verdad, al baño le hace falta una buena tallada."
+      },
+      {
+        "en": "[The bathroom could use a good scrub] before your mom visits.",
+        "es": "Al baño le hace falta una buena tallada antes de que venga tu mamá."
+      }
+    ]
+  },
+  {
+    "id": "col-empty-the-dishwasher",
+    "type": "collocation",
+    "term": "empty the dishwasher",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "sacar los trastes del lavavajillas",
+    "def": "to take the clean dishes out of the machine",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [empty the dishwasher], please?",
+        "es": "¿Puedes sacar los trastes del lavavajillas, por favor?"
+      },
+      {
+        "en": "I [emptied the dishwasher] this morning.",
+        "es": "Saqué los trastes del lavavajillas en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "col-unload-the-dishwasher",
+    "type": "collocation",
+    "term": "unload the dishwasher",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "vaciar el lavavajillas",
+    "def": "to take clean dishes out of the dishwasher and put them away",
+    "note": "Lo contrario: load the dishwasher (meter los trastes sucios). Versión A2 más sencilla: «empty the dishwasher».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'll cook if you [unload the dishwasher].",
+        "es": "Yo cocino si tú vacías el lavavajillas."
+      },
+      {
+        "en": "Nobody [unloaded the dishwasher], so there are no clean cups.",
+        "es": "Nadie vació el lavavajillas, así que no hay tazas limpias."
+      }
+    ]
+  },
+  {
+    "id": "col-load-the-dishwasher",
+    "type": "collocation",
+    "term": "load the dishwasher",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "meter los trastes al lavavajillas",
+    "def": "to put dirty dishes into the dishwasher",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Please [load the dishwasher] after lunch.",
+        "es": "Por favor mete los trastes al lavavajillas después de comer."
+      },
+      {
+        "en": "He [loaded the dishwasher] the wrong way again.",
+        "es": "Otra vez acomodó mal los trastes en el lavavajillas."
+      }
+    ]
+  },
+  {
+    "id": "col-wipe-the-counter",
+    "type": "collocation",
+    "term": "wipe the counter",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "limpiar la barra de la cocina",
+    "def": "to clean the kitchen surface with a cloth",
+    "note": "Counter = la barra o encimera de la cocina.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [wipe the counter]? It's sticky.",
+        "es": "¿Puedes limpiar la barra? Está pegajosa."
+      },
+      {
+        "en": "I [wiped the counter] after cooking.",
+        "es": "Limpié la barra después de cocinar."
+      }
+    ]
+  },
+  {
+    "id": "pv-wipe-up",
+    "type": "phrasal",
+    "term": "wipe up",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "ipa": "/ˌwaɪp ˈʌp/",
+    "sep": true,
+    "es": "limpiar (algo derramado)",
+    "def": "to clean a liquid you spilled with a cloth or paper towel",
+    "note": "Separable: wipe it up. Wipe the counter (A2) es limpiar la superficie en general.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I spilled juice, let me [wipe up] the mess.",
+        "es": "Tiré jugo, déjame limpiar el tiradero."
+      },
+      {
+        "en": "She [wiped up] the milk before the cat got to it.",
+        "es": "Limpió la leche antes de que llegara el gato."
+      }
+    ]
+  },
+  {
+    "id": "col-sweep-the-floor",
+    "type": "collocation",
+    "term": "sweep the floor",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "barrer el piso",
+    "def": "to clean the floor with a broom",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'll [sweep the floor] after dinner.",
+        "es": "Barro el piso después de cenar."
+      },
+      {
+        "en": "Did you [sweep the floor] in the kitchen?",
+        "es": "¿Barriste el piso de la cocina?"
+      }
+    ]
+  },
+  {
+    "id": "pv-sweep-up",
+    "type": "phrasal",
+    "term": "sweep up",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "ipa": "/ˌswip ˈʌp/",
+    "sep": true,
+    "es": "barrer y juntar (algo)",
+    "def": "to collect dirt or broken pieces from the floor with a broom",
+    "note": "Separable: sweep it up. Muy común con vidrios rotos. Versión A2 más sencilla: «sweep the floor».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Don't move, I'll [sweep up] the broken glass.",
+        "es": "No te muevas, voy a barrer el vidrio roto."
+      },
+      {
+        "en": "We [swept up] the cat litter in the hallway.",
+        "es": "Barrimos la arena del gato en el pasillo."
+      }
+    ]
+  },
+  {
+    "id": "col-mop-the-floor",
+    "type": "collocation",
+    "term": "mop the floor",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "trapear el piso",
+    "def": "to wash the floor with a wet mop",
+    "note": "Mop = trapeador; en México «trapear».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Wait, I just [mopped the floor]!",
+        "es": "¡Espera, acabo de trapear!"
+      },
+      {
+        "en": "Let's [mop the floor] when the snow stops.",
+        "es": "Vamos a trapear cuando deje de nevar."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-house-is-a-mess",
+    "type": "phrase",
+    "term": "the house is a mess",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "la casa está hecha un desastre",
+    "def": "said when the house is dirty and not organized",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Sorry, [the house is a mess] right now.",
+        "es": "Perdón, la casa está hecha un desastre."
+      },
+      {
+        "en": "[The house is a mess] after the party.",
+        "es": "La casa está hecha un desastre después de la fiesta."
+      }
+    ]
+  },
+  {
+    "id": "phr-this-place-is-a-disaster",
+    "type": "phrase",
+    "term": "this place is a disaster",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "esto es un desastre",
+    "def": "an informal and exaggerated way to say a room is very messy",
+    "note": "Exageración típica entre pareja o amigos, con humor. Versión A2 más sencilla: «the house is a mess».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Wow, [this place is a disaster]. What happened?",
+        "es": "Guau, esto es un desastre. ¿Qué pasó?"
+      },
+      {
+        "en": "We need to clean, [this place is a disaster].",
+        "es": "Hay que limpiar, esto es un desastre."
+      }
+    ]
+  },
+  {
+    "id": "phr-can-you-help-me-clean",
+    "type": "phrase",
+    "term": "can you help me clean?",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "¿me ayudas a limpiar?",
+    "def": "a simple question to ask someone to clean with you",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[Can you help me clean]? My parents are coming.",
+        "es": "¿Me ayudas a limpiar? Vienen mis papás."
+      },
+      {
+        "en": "Babe, [can you help me clean] the kitchen?",
+        "es": "Amor, ¿me ayudas a limpiar la cocina?"
+      }
+    ]
+  },
+  {
+    "id": "phr-can-you-give-me-a-hand-with-the-kitchen",
+    "type": "phrase",
+    "term": "can you give me a hand with the kitchen?",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "¿me echas la mano con la cocina?",
+    "def": "a friendly way to ask for help cleaning the kitchen",
+    "note": "Give me a hand = échame la mano; muy natural y amable. Versión A2 más sencilla: «can you help me clean?».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[Can you give me a hand with the kitchen]? It's a lot.",
+        "es": "¿Me echas la mano con la cocina? Es mucho."
+      },
+      {
+        "en": "Before the show, [can you give me a hand with the kitchen]?",
+        "es": "Antes de la serie, ¿me echas la mano con la cocina?"
+      }
+    ]
+  },
+  {
+    "id": "col-split-the-chores",
+    "type": "collocation",
+    "term": "split the chores",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "repartir los quehaceres",
+    "def": "to divide the house jobs between people",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Let's [split the chores] this week.",
+        "es": "Repartamos los quehaceres esta semana."
+      },
+      {
+        "en": "We [split the chores] fifty-fifty.",
+        "es": "Nos repartimos los quehaceres mitad y mitad."
+      }
+    ]
+  },
+  {
+    "id": "phr-you-cook-ill-clean",
+    "type": "phrase",
+    "term": "you cook, I'll clean",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "tú cocinas y yo limpio",
+    "def": "a common deal between two people who share a home",
+    "note": "Trato clásico en pareja; también al revés: I'll cook, you clean. Versión A2 más sencilla: «split the chores».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Deal: [you cook, I'll clean].",
+        "es": "Trato: tú cocinas y yo limpio."
+      },
+      {
+        "en": "Same as always? [You cook, I'll clean].",
+        "es": "¿Como siempre? Tú cocinas y yo limpio."
+      }
+    ]
+  },
+  {
+    "id": "col-change-the-sheets",
+    "type": "collocation",
+    "term": "change the sheets",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "cambiar las sábanas",
+    "def": "to put clean sheets on the bed",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'm going to [change the sheets] today.",
+        "es": "Hoy voy a cambiar las sábanas."
+      },
+      {
+        "en": "We [changed the sheets] on Sunday.",
+        "es": "Cambiamos las sábanas el domingo."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-sheets-are-due-for-a-wash",
+    "type": "phrase",
+    "term": "the sheets are due for a wash",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "ya toca lavar las sábanas",
+    "def": "said when the bed sheets have been used for a while and need washing",
+    "note": "«Due for» = ya le toca: the car is due for an oil change. Versión A2 más sencilla: «change the sheets».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I think [the sheets are due for a wash].",
+        "es": "Creo que ya toca lavar las sábanas."
+      },
+      {
+        "en": "[The sheets are due for a wash], the cat sleeps on them.",
+        "es": "Ya toca lavar las sábanas, el gato duerme en ellas."
+      }
+    ]
+  },
+  {
+    "id": "col-water-the-plants",
+    "type": "collocation",
+    "term": "water the plants",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "regar las plantas",
+    "def": "to give water to the plants",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [water the plants] while I'm away?",
+        "es": "¿Puedes regar las plantas mientras no estoy?"
+      },
+      {
+        "en": "I forgot to [water the plants] again.",
+        "es": "Otra vez se me olvidó regar las plantas."
+      }
+    ]
+  },
+  {
+    "id": "phr-ill-get-to-it-after-dinner",
+    "type": "phrase",
+    "term": "I'll get to it after dinner",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "lo hago después de cenar",
+    "def": "a promise to do a task later, after eating",
+    "note": "«Get to it» = ponerse a hacerlo. Ojo: a veces suena a excusa. Versión A2 más sencilla: «I'll do it later».",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "The dishes? [I'll get to it after dinner].",
+        "es": "¿Los trastes? Los lavo después de cenar."
+      },
+      {
+        "en": "Don't worry about the laundry, [I'll get to it after dinner].",
+        "es": "No te preocupes por la ropa, me encargo después de cenar."
+      }
+    ]
+  },
+  {
+    "id": "phr-ill-do-it-later",
+    "type": "phrase",
+    "term": "I'll do it later",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "lo hago al rato",
+    "def": "said when you plan to do a task, but not now",
+    "note": "En México «al rato»; en inglés later o in a bit.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[I'll do it later], I'm tired.",
+        "es": "Lo hago al rato, estoy cansado."
+      },
+      {
+        "en": "You always say [I'll do it later]!",
+        "es": "¡Siempre dices que lo haces al rato!"
+      }
+    ]
+  },
+  {
+    "id": "phr-where-does-this-go",
+    "type": "phrase",
+    "term": "where does this go?",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "¿dónde va esto?",
+    "def": "a question to ask where to put something",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[Where does this go]? In the cupboard?",
+        "es": "¿Dónde va esto? ¿En la alacena?"
+      },
+      {
+        "en": "I'm putting the groceries away. [Where does this go]?",
+        "es": "Estoy guardando el súper. ¿Dónde va esto?"
+      }
+    ]
+  },
+  {
+    "id": "pv-empty-out",
+    "type": "phrasal",
+    "term": "empty out",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "ipa": "/ˌɛmpti ˈaʊt/",
+    "sep": true,
+    "es": "vaciar por completo",
+    "def": "to take everything out of a container, drawer or room",
+    "note": "Separable: empty it out.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Let's [empty out] the fridge before the move.",
+        "es": "Vaciemos el refri antes de la mudanza."
+      },
+      {
+        "en": "I [emptied out] the junk drawer and found the keys.",
+        "es": "Vacié el cajón de los tiliches y encontré las llaves."
+      }
+    ]
+  },
+  {
+    "id": "pv-rinse-out",
+    "type": "phrasal",
+    "term": "rinse out",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "ipa": "/ˌrɪns ˈaʊt/",
+    "sep": true,
+    "es": "enjuagar (por dentro)",
+    "def": "to wash the inside of a cup, bottle or container with water",
+    "note": "Separable: rinse it out. Muy útil antes de reciclar.",
+    "areas": [
+      "hogar",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[Rinse out] the jars before you recycle them.",
+        "es": "Enjuaga los frascos antes de reciclarlos."
+      },
+      {
+        "en": "I [rinsed out] my mug and left it on the rack.",
+        "es": "Enjuagué mi taza y la dejé en el escurridor."
+      }
+    ]
+  },
+  {
+    "id": "col-feed-the-cats",
+    "type": "collocation",
+    "term": "feed the cats",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "darles de comer a los gatos",
+    "def": "to give food to the cats",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Can you [feed the cats] before you leave?",
+        "es": "¿Les das de comer a los gatos antes de irte?"
+      },
+      {
+        "en": "I already [fed the cats], don't believe them.",
+        "es": "Ya les di de comer a los gatos, no les creas."
+      }
+    ]
+  },
+  {
+    "id": "phr-did-you-feed-the-cats",
+    "type": "phrase",
+    "term": "did you feed the cats?",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "¿les diste de comer a los gatos?",
+    "def": "a question to check if the cats already ate",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "[Did you feed the cats]? They're crying.",
+        "es": "¿Les diste de comer a los gatos? Están maullando."
+      },
+      {
+        "en": "Hey, [did you feed the cats] this morning?",
+        "es": "Oye, ¿les diste de comer a los gatos en la mañana?"
+      }
+    ]
+  },
+  {
+    "id": "phr-have-the-cats-been-fed",
+    "type": "phrase",
+    "term": "have the cats been fed?",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "¿ya comieron los gatos?",
+    "def": "a question to check if someone has already given the cats food",
+    "note": "Voz pasiva natural en casa; no importa quién les dio. Versión A2 más sencilla: «did you feed the cats?».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "[Have the cats been fed]? They're acting like they're starving.",
+        "es": "¿Ya comieron los gatos? Se portan como si se murieran de hambre."
+      },
+      {
+        "en": "Before we leave, [have the cats been fed]?",
+        "es": "Antes de irnos, ¿ya comieron los gatos?"
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cats-are-hungry",
+    "type": "phrase",
+    "term": "the cats are hungry",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "los gatos tienen hambre",
+    "def": "said when the cats want food",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "[The cats are hungry], it's six o'clock.",
+        "es": "Los gatos tienen hambre, ya son las seis."
+      },
+      {
+        "en": "I think [the cats are hungry] again.",
+        "es": "Creo que los gatos ya tienen hambre otra vez."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cats-are-begging-for-food-again",
+    "type": "phrase",
+    "term": "the cats are begging for food again",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "los gatos ya están pidiendo comida otra vez",
+    "def": "said when the cats keep asking for food, often too early",
+    "note": "Beg = rogar; con mascotas es pedir comida con insistencia. Versión A2 más sencilla: «the cats are hungry».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Don't look at them. [The cats are begging for food again].",
+        "es": "No los veas. Los gatos están pidiendo comida otra vez."
+      },
+      {
+        "en": "It's 5 a.m. and [the cats are begging for food again].",
+        "es": "Son las 5 de la mañana y los gatos ya están pidiendo comida."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-threw-up",
+    "type": "phrase",
+    "term": "the cat threw up",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "el gato vomitó",
+    "def": "said when the cat has vomited",
+    "note": "Throw up = vomitar; vomit suena más médico.",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Careful, [the cat threw up] in the hallway.",
+        "es": "Cuidado, el gato vomitó en el pasillo."
+      },
+      {
+        "en": "[The cat threw up] on the rug again.",
+        "es": "El gato volvió a vomitar en el tapete."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-coughed-up-a-hairball",
+    "type": "phrase",
+    "term": "the cat coughed up a hairball",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "el gato vomitó una bola de pelo",
+    "def": "said when the cat brought up a ball of fur",
+    "note": "Hairball = bola de pelo; cough up = expulsar tosiendo. Versión A2 más sencilla: «the cat threw up».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Don't step there, [the cat coughed up a hairball].",
+        "es": "No pises ahí, el gato vomitó una bola de pelo."
+      },
+      {
+        "en": "At 3 a.m. [the cat coughed up a hairball] on my side.",
+        "es": "A las 3 de la mañana el gato vomitó una bola de pelo en mi lado."
+      }
+    ]
+  },
+  {
+    "id": "col-make-a-vet-appointment",
+    "type": "collocation",
+    "term": "make a vet appointment",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "sacar cita con el veterinario",
+    "def": "to book a time for your pet to see an animal doctor",
+    "note": "Vet = veterinario; en Canadá se dice así casi siempre.",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "I need to [make a vet appointment] for Luna.",
+        "es": "Tengo que sacar cita con el veterinario para Luna."
+      },
+      {
+        "en": "Did you [make a vet appointment] yet?",
+        "es": "¿Ya sacaste cita con el veterinario?"
+      }
+    ]
+  },
+  {
+    "id": "phr-shes-due-for-her-shots",
+    "type": "phrase",
+    "term": "she's due for her shots",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "ya le tocan sus vacunas",
+    "def": "said when it is time for a pet to get vaccines",
+    "note": "Shots = vacunas o inyecciones (coloquial). Versión A2 más sencilla: «make a vet appointment».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Let's call the vet, [she's due for her shots].",
+        "es": "Hay que llamar al veterinario, ya le tocan sus vacunas."
+      },
+      {
+        "en": "I think [she's due for her shots] this month.",
+        "es": "Creo que este mes ya le tocan sus vacunas."
+      }
+    ]
+  },
+  {
+    "id": "col-take-the-cat-to-the-vet",
+    "type": "collocation",
+    "term": "take the cat to the vet",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "llevar al gato al veterinario",
+    "def": "to bring your cat to the animal doctor",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "We have to [take the cat to the vet] on Monday.",
+        "es": "El lunes tenemos que llevar al gato al veterinario."
+      },
+      {
+        "en": "I [took the cat to the vet] and she's fine.",
+        "es": "Llevé a la gata al veterinario y está bien."
+      }
+    ]
+  },
+  {
+    "id": "phr-how-much-was-the-vet-bill",
+    "type": "phrase",
+    "term": "how much was the vet bill?",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "¿cuánto salió lo del veterinario?",
+    "def": "a question about the total cost of the visit to the animal doctor",
+    "note": "Bill = cuenta o factura; en Canadá el veterinario puede salir caro. Versión A2 más sencilla: «take the cat to the vet».",
+    "areas": [
+      "hogar",
+      "conversacion",
+      "bancos"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Be honest, [how much was the vet bill]?",
+        "es": "Sé honesto, ¿cuánto salió lo del veterinario?"
+      },
+      {
+        "en": "[How much was the vet bill]? I'll pay half.",
+        "es": "¿Cuánto salió lo del veterinario? Yo pago la mitad."
+      }
+    ]
+  },
+  {
+    "id": "col-fill-the-water-bowl",
+    "type": "collocation",
+    "term": "fill the water bowl",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "llenar el plato del agua",
+    "def": "to put water in the pet's bowl",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Can you [fill the water bowl]? It's empty.",
+        "es": "¿Puedes llenar el plato del agua? Está vacío."
+      },
+      {
+        "en": "I [filled the water bowl] this morning.",
+        "es": "Llené el plato del agua en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "col-top-up-the-water-bowl",
+    "type": "collocation",
+    "term": "top up the water bowl",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "rellenar el plato del agua",
+    "def": "to add more water to a pet's bowl that is not empty",
+    "note": "Top up = rellenar lo que falta (también saldo del celular). Versión A2 más sencilla: «fill the water bowl».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Could you [top up the water bowl] on your way?",
+        "es": "¿Rellenas el plato del agua de pasada?"
+      },
+      {
+        "en": "I [topped up the water bowl] before work.",
+        "es": "Rellené el plato del agua antes del trabajo."
+      }
+    ]
+  },
+  {
+    "id": "phr-we-need-cat-food",
+    "type": "phrase",
+    "term": "we need cat food",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "necesitamos comida para gato",
+    "def": "said when there is no more food for the cat",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "[We need cat food], let's go to the store.",
+        "es": "Necesitamos comida para gato, vamos a la tienda."
+      },
+      {
+        "en": "Write it down: [we need cat food].",
+        "es": "Apúntalo: necesitamos comida para gato."
+      }
+    ]
+  },
+  {
+    "id": "phr-were-almost-out-of-cat-litter",
+    "type": "phrase",
+    "term": "we're almost out of cat litter",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "ya casi no hay arena para el gato",
+    "def": "said when there is very little sand left for the cat's box",
+    "note": "Almost out of = casi sin; out of = sin nada. Versión A2 más sencilla: «we need cat food».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Add it to the list, [we're almost out of cat litter].",
+        "es": "Apúntalo, ya casi no hay arena para el gato."
+      },
+      {
+        "en": "[We're almost out of cat litter], can you grab some?",
+        "es": "Ya casi no hay arena para el gato, ¿puedes comprar?"
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-is-sick",
+    "type": "phrase",
+    "term": "the cat is sick",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "el gato está enfermo",
+    "def": "said when the cat is not healthy",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "I think [the cat is sick], she isn't eating.",
+        "es": "Creo que la gata está enferma, no come."
+      },
+      {
+        "en": "[The cat is sick], so I'm staying home.",
+        "es": "El gato está enfermo, así que me quedo en casa."
+      }
+    ]
+  },
+  {
+    "id": "phr-shes-not-acting-like-herself",
+    "type": "phrase",
+    "term": "she's not acting like herself",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "no se está portando como siempre",
+    "def": "said when a person or pet behaves differently than usual",
+    "note": "Útil con personas y mascotas: he's not himself today. Versión A2 más sencilla: «the cat is sick».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Watch Luna. [She's not acting like herself].",
+        "es": "Fíjate en Luna. No se está portando como siempre."
+      },
+      {
+        "en": "[She's not acting like herself], maybe we should call the vet.",
+        "es": "No se porta como siempre, tal vez deberíamos llamar al veterinario."
+      }
+    ]
+  },
+  {
+    "id": "col-brush-the-cat",
+    "type": "collocation",
+    "term": "brush the cat",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "cepillar al gato",
+    "def": "to clean the cat's fur with a brush",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Can you [brush the cat]? There's hair everywhere.",
+        "es": "¿Puedes cepillar al gato? Hay pelos por todos lados."
+      },
+      {
+        "en": "I [brushed the cat] and she loved it.",
+        "es": "Cepillé a la gata y le encantó."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-is-shedding-like-crazy",
+    "type": "phrase",
+    "term": "the cat is shedding like crazy",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "el gato está tirando muchísimo pelo",
+    "def": "said when a cat is losing a lot of fur",
+    "note": "Shed = mudar o tirar pelo. «Like crazy» = muchísimo (informal). Versión A2 más sencilla: «brush the cat».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "It's spring and [the cat is shedding like crazy].",
+        "es": "Ya es primavera y el gato está tirando muchísimo pelo."
+      },
+      {
+        "en": "My black pants... [the cat is shedding like crazy].",
+        "es": "Mis pantalones negros... el gato está tirando pelo como loco."
+      }
+    ]
+  },
+  {
+    "id": "phr-dont-let-the-cat-out",
+    "type": "phrase",
+    "term": "don't let the cat out",
+    "level": "A2",
+    "topic": "home",
+    "freq": 5,
+    "es": "no dejes salir al gato",
+    "def": "a warning to keep the door closed so the cat stays inside",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Close the door, [don't let the cat out]!",
+        "es": "¡Cierra la puerta, no dejes salir al gato!"
+      },
+      {
+        "en": "When the driver comes, [don't let the cat out].",
+        "es": "Cuando venga el repartidor, no dejes salir al gato."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-got-out",
+    "type": "phrase",
+    "term": "the cat got out",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "se salió el gato",
+    "def": "said when the cat escaped from the house",
+    "note": "Got out = se escapó o salió; muy común. Versión A2 más sencilla: «don't let the cat out».",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Oh no, [the cat got out]! Grab a jacket.",
+        "es": "¡No, se salió el gato! Agarra una chamarra."
+      },
+      {
+        "en": "[The cat got out] last night but came back.",
+        "es": "Anoche se salió el gato, pero regresó."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-stole-my-spot",
+    "type": "phrase",
+    "term": "the cat stole my spot",
+    "level": "B1",
+    "topic": "home",
+    "freq": 4,
+    "es": "el gato me ganó el lugar",
+    "def": "a funny way to say the cat took your place on the couch or bed",
+    "note": "Spot = lugar; humor de casa muy común.",
+    "areas": [
+      "hogar",
+      "conversacion"
+    ],
+    "tags": [
+      "mascotas",
+      "pareja",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I got up for one second and [the cat stole my spot].",
+        "es": "Me paré un segundo y el gato me ganó el lugar."
+      },
+      {
+        "en": "Again? [The cat stole my spot] on the couch.",
+        "es": "¿Otra vez? El gato me ganó el lugar en el sillón."
+      }
+    ]
+  },
+  {
+    "id": "phr-we-need-to-go-grocery-shopping",
+    "type": "phrase",
+    "term": "we need to go grocery shopping",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "tenemos que ir al súper",
+    "def": "said when the house needs food and you must go to the store",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "The fridge is empty. [We need to go grocery shopping].",
+        "es": "El refri está vacío. Tenemos que ir al súper."
+      },
+      {
+        "en": "[We need to go grocery shopping] this weekend.",
+        "es": "Este fin tenemos que ir al súper."
+      }
+    ]
+  },
+  {
+    "id": "phr-we-need-to-do-a-grocery-run",
+    "type": "phrase",
+    "term": "we need to do a grocery run",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "hay que darse una vuelta al súper",
+    "def": "a casual way to say someone should go buy food soon",
+    "note": "Grocery run = una ida rápida al súper; suena muy natural. Versión A2 más sencilla: «we need to go grocery shopping».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "We're out of everything. [We need to do a grocery run].",
+        "es": "No hay de nada. Hay que darse una vuelta al súper."
+      },
+      {
+        "en": "After work, [we need to do a grocery run].",
+        "es": "Después del trabajo hay que ir al súper."
+      }
+    ]
+  },
+  {
+    "id": "col-make-a-shopping-list",
+    "type": "collocation",
+    "term": "make a shopping list",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "hacer la lista del súper",
+    "def": "to write the things you need to buy",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Let's [make a shopping list] first.",
+        "es": "Primero hagamos la lista del súper."
+      },
+      {
+        "en": "I [made a shopping list] on my phone.",
+        "es": "Hice la lista del súper en mi celular."
+      }
+    ]
+  },
+  {
+    "id": "phr-add-it-to-the-list",
+    "type": "phrase",
+    "term": "add it to the list",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "apúntalo en la lista",
+    "def": "said when you want someone to write something on the shopping list",
+    "note": "Respuesta típica cuando alguien dice que algo se acabó. Versión A2 más sencilla: «make a shopping list».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "No more coffee? [Add it to the list].",
+        "es": "¿Ya no hay café? Apúntalo en la lista."
+      },
+      {
+        "en": "I'll [add it to the list] so we don't forget.",
+        "es": "Lo apunto en la lista para que no se nos olvide."
+      }
+    ]
+  },
+  {
+    "id": "phr-were-out-of-milk",
+    "type": "phrase",
+    "term": "we're out of milk",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "ya no hay leche",
+    "def": "said when there is no more milk at home",
+    "note": "Out of = se acabó; sirve con todo: we're out of eggs.",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[We're out of milk], can you buy some?",
+        "es": "Ya no hay leche, ¿puedes comprar?"
+      },
+      {
+        "en": "Sorry, no coffee with milk, [we're out of milk].",
+        "es": "Perdón, no hay café con leche, ya no hay leche."
+      }
+    ]
+  },
+  {
+    "id": "phr-were-running-low-on-eggs",
+    "type": "phrase",
+    "term": "we're running low on eggs",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "ya casi no hay huevos",
+    "def": "said when there are only a few eggs left",
+    "note": "Running low on = se está acabando; avisa antes de que se acabe. Versión A2 más sencilla: «we're out of milk».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[We're running low on eggs], grab a dozen.",
+        "es": "Ya casi no hay huevos, compra una docena."
+      },
+      {
+        "en": "Heads up, [we're running low on eggs] and bread.",
+        "es": "Aviso: ya casi no hay huevos ni pan."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-line-is-very-long",
+    "type": "phrase",
+    "term": "the line is very long",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "la fila está larguísima",
+    "def": "said when many people are waiting to pay",
+    "note": "En Canadá se dice line (también lineup); queue es más británico.",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "[The line is very long], let's come back later.",
+        "es": "La fila está larguísima, regresemos al rato."
+      },
+      {
+        "en": "On Saturday [the line is very long].",
+        "es": "Los sábados la fila está larguísima."
+      }
+    ]
+  },
+  {
+    "id": "phr-this-line-isnt-moving",
+    "type": "phrase",
+    "term": "this line isn't moving",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "esta fila no avanza",
+    "def": "a complaint when you wait in line and nothing happens",
+    "note": "En Canadá también: the lineup isn't moving. Versión A2 más sencilla: «the line is very long».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Ugh, [this line isn't moving]. Let's try self-checkout.",
+        "es": "Uf, esta fila no avanza. Vamos a la caja de autocobro."
+      },
+      {
+        "en": "Ten minutes and [this line isn't moving].",
+        "es": "Diez minutos y esta fila no avanza."
+      }
+    ]
+  },
+  {
+    "id": "phr-do-we-need-anything-from-the-store",
+    "type": "phrase",
+    "term": "do we need anything from the store?",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "¿necesitamos algo de la tienda?",
+    "def": "a question to check what to buy before going out",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'm leaving. [Do we need anything from the store]?",
+        "es": "Ya me voy. ¿Necesitamos algo de la tienda?"
+      },
+      {
+        "en": "[Do we need anything from the store] for dinner?",
+        "es": "¿Necesitamos algo de la tienda para la cena?"
+      }
+    ]
+  },
+  {
+    "id": "phr-need-anything-while-im-out",
+    "type": "phrase",
+    "term": "need anything while I'm out?",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "¿se te ofrece algo ahora que salgo?",
+    "def": "a short, friendly offer to buy something for someone",
+    "note": "Se omite «Do you» en el habla rápida. Versión A2 más sencilla: «do we need anything from the store?».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I'm going to the pharmacy. [Need anything while I'm out]?",
+        "es": "Voy a la farmacia. ¿Se te ofrece algo ahora que salgo?"
+      },
+      {
+        "en": "Hey, [need anything while I'm out]? Coffee?",
+        "es": "Oye, ¿quieres algo ahora que salgo? ¿Un café?"
+      }
+    ]
+  },
+  {
+    "id": "col-bring-the-reusable-bags",
+    "type": "collocation",
+    "term": "bring the reusable bags",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "llevar las bolsas reutilizables",
+    "def": "to take your own bags to the store",
+    "note": "En Canadá muchas tiendas cobran las bolsas.",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Don't forget to [bring the reusable bags].",
+        "es": "No se te olvide llevar las bolsas reutilizables."
+      },
+      {
+        "en": "I [brought the reusable bags] this time.",
+        "es": "Esta vez sí llevé las bolsas reutilizables."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-forgot-the-bags-again",
+    "type": "phrase",
+    "term": "I forgot the bags again",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "otra vez se me olvidaron las bolsas",
+    "def": "said when you arrive at the store without your own bags",
+    "note": "Again al final da tono de queja con humor. Versión A2 más sencilla: «bring the reusable bags».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Oh no, [I forgot the bags again].",
+        "es": "No, otra vez se me olvidaron las bolsas."
+      },
+      {
+        "en": "[I forgot the bags again], so I bought two more.",
+        "es": "Otra vez olvidé las bolsas, así que compré dos más."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-on-sale-this-week",
+    "type": "phrase",
+    "term": "it's on sale this week",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "está en oferta esta semana",
+    "def": "said when a product costs less this week",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Buy the chicken, [it's on sale this week].",
+        "es": "Compra el pollo, está en oferta esta semana."
+      },
+      {
+        "en": "The coffee is cheap because [it's on sale this week].",
+        "es": "El café está barato porque está en oferta esta semana."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-buy-one-get-one-free",
+    "type": "phrase",
+    "term": "it's buy one, get one free",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "está al dos por uno",
+    "def": "said when you get a second item free if you buy one",
+    "note": "En carteles aparece como BOGO. Versión A2 más sencilla: «it's on sale this week».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Grab two, [it's buy one, get one free].",
+        "es": "Agarra dos, está al dos por uno."
+      },
+      {
+        "en": "The pasta [is buy one, get one free] today.",
+        "es": "Hoy la pasta está al dos por uno."
+      }
+    ]
+  },
+  {
+    "id": "phr-ill-put-the-groceries-away",
+    "type": "phrase",
+    "term": "I'll put the groceries away",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "yo guardo el súper",
+    "def": "a promise to put the food in the fridge and cupboards",
+    "note": "En México «el súper» puede ser la compra; en inglés groceries.",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "You park the car, [I'll put the groceries away].",
+        "es": "Tú estaciona el carro, yo guardo el súper."
+      },
+      {
+        "en": "Sit down, [I'll put the groceries away].",
+        "es": "Siéntate, yo guardo el súper."
+      }
+    ]
+  },
+  {
+    "id": "phr-help-me-carry-the-groceries-in",
+    "type": "phrase",
+    "term": "help me carry the groceries in",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "ayúdame a meter el súper",
+    "def": "a request to help bring the shopping bags from the car into the house",
+    "note": "Carry in = meter cargando; en invierno es urgente. Versión A2 más sencilla: «I'll put the groceries away».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[Help me carry the groceries in], it's freezing.",
+        "es": "Ayúdame a meter el súper, hace un frío horrible."
+      },
+      {
+        "en": "Can you [help me carry the groceries in]?",
+        "es": "¿Me ayudas a meter el súper?"
+      }
+    ]
+  },
+  {
+    "id": "phr-theres-no-food-in-the-house",
+    "type": "phrase",
+    "term": "there's no food in the house",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "no hay comida en la casa",
+    "def": "said when the kitchen has nothing to eat",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[There's no food in the house], let's go shopping.",
+        "es": "No hay comida en la casa, vamos al súper."
+      },
+      {
+        "en": "Why is it that [there's no food in the house]?",
+        "es": "¿Por qué no hay comida en la casa?"
+      }
+    ]
+  },
+  {
+    "id": "phr-theres-nothing-to-eat-in-this-house",
+    "type": "phrase",
+    "term": "there's nothing to eat in this house",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "en esta casa no hay nada que comer",
+    "def": "a classic complaint, often said while looking in a full fridge",
+    "note": "Queja exagerada típica; muchas veces el refri sí está lleno. Versión A2 más sencilla: «there's no food in the house».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "The fridge is full but [there's nothing to eat in this house].",
+        "es": "El refri está lleno pero en esta casa no hay nada que comer."
+      },
+      {
+        "en": "Every night: [there's nothing to eat in this house].",
+        "es": "Cada noche: en esta casa no hay nada que comer."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-milk-is-bad",
+    "type": "phrase",
+    "term": "the milk is bad",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "la leche está mala",
+    "def": "said when the milk is old and you cannot drink it",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Don't drink it, [the milk is bad].",
+        "es": "No te la tomes, la leche está mala."
+      },
+      {
+        "en": "I think [the milk is bad]. Smell it.",
+        "es": "Creo que la leche está mala. Huélela."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-milk-went-bad",
+    "type": "phrase",
+    "term": "the milk went bad",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "la leche se echó a perder",
+    "def": "said when the milk spoiled and smells sour",
+    "note": "Go bad = echarse a perder. También: the milk is off. Versión A2 más sencilla: «the milk is bad».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Ugh, [the milk went bad] already.",
+        "es": "Uf, la leche ya se echó a perder."
+      },
+      {
+        "en": "[The milk went bad] because we left it out.",
+        "es": "La leche se echó a perder porque la dejamos afuera."
+      }
+    ]
+  },
+  {
+    "id": "phr-food-is-so-expensive",
+    "type": "phrase",
+    "term": "food is so expensive",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "la comida está carísima",
+    "def": "said when you think grocery prices are very high",
+    "areas": [
+      "hogar",
+      "compras",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Wow, [food is so expensive] here.",
+        "es": "Guau, aquí la comida está carísima."
+      },
+      {
+        "en": "[Food is so expensive], let's cook more at home.",
+        "es": "La comida está carísima, cocinemos más en casa."
+      }
+    ]
+  },
+  {
+    "id": "phr-groceries-are-getting-so-expensive",
+    "type": "phrase",
+    "term": "groceries are getting so expensive",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "el súper está cada vez más caro",
+    "def": "said when the price of food keeps going up",
+    "note": "Getting + adjetivo = cada vez más: it's getting cold. Versión A2 más sencilla: «food is so expensive».",
+    "areas": [
+      "hogar",
+      "compras",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Is it me, or [are groceries getting so expensive]?",
+        "es": "¿Soy yo o el súper está cada vez más caro?"
+      },
+      {
+        "en": "[Groceries are getting so expensive] this year.",
+        "es": "Este año el súper está cada vez más caro."
+      }
+    ]
+  },
+  {
+    "id": "col-buy-in-bulk",
+    "type": "collocation",
+    "term": "buy in bulk",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "comprar al mayoreo",
+    "def": "to buy a large amount of something because it is cheaper",
+    "note": "En Canadá hay tiendas grandes donde se compra así. Versión A2 más sencilla: «it's on sale this week».",
+    "areas": [
+      "hogar",
+      "compras"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "We should [buy in bulk] to save money.",
+        "es": "Deberíamos comprar al mayoreo para ahorrar."
+      },
+      {
+        "en": "Cat litter is cheaper if you [buy in bulk].",
+        "es": "La arena sale más barata si la compras al mayoreo."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-order-food-tonight",
+    "type": "phrase",
+    "term": "let's order food tonight",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "pidamos comida hoy",
+    "def": "a suggestion to get food delivered instead of cooking",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "I'm tired. [Let's order food tonight].",
+        "es": "Estoy cansada. Pidamos comida hoy."
+      },
+      {
+        "en": "[Let's order food tonight] and watch a movie.",
+        "es": "Pidamos comida hoy y veamos una película."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-just-order-in",
+    "type": "phrase",
+    "term": "let's just order in",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "mejor pidamos algo",
+    "def": "a relaxed way to say you don't want to cook and prefer delivery",
+    "note": "Order in = pedir a domicilio. «Just» = mejor, sin complicarnos. Versión A2 más sencilla: «let's order food tonight».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Forget cooking, [let's just order in].",
+        "es": "Olvídate de cocinar, mejor pidamos algo."
+      },
+      {
+        "en": "It's minus thirty. [Let's just order in].",
+        "es": "Estamos a menos treinta. Mejor pidamos algo."
+      }
+    ]
+  },
+  {
+    "id": "col-order-on-the-app",
+    "type": "collocation",
+    "term": "order on the app",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "pedir por la app",
+    "def": "to buy food or things using an application on your phone",
+    "note": "Usa «the delivery app» sin mencionar marcas.",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Let's [order on the app], it's faster.",
+        "es": "Pidamos por la app, es más rápido."
+      },
+      {
+        "en": "I [ordered on the app] twenty minutes ago.",
+        "es": "Pedí por la app hace veinte minutos."
+      }
+    ]
+  },
+  {
+    "id": "phr-they-have-a-wings-deal",
+    "type": "phrase",
+    "term": "they have a wings deal",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "tienen promoción de alitas",
+    "def": "said when a restaurant sells chicken wings at a special price",
+    "note": "Deal = promoción u oferta; wings = alitas.",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Look, [they have a wings deal] on Tuesdays.",
+        "es": "Mira, los martes tienen promoción de alitas."
+      },
+      {
+        "en": "Let's order there, [they have a wings deal].",
+        "es": "Pidamos ahí, tienen promoción de alitas."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-wings-deal-is-a-steal",
+    "type": "phrase",
+    "term": "the wings deal is a steal",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "la promo de alitas está regalada",
+    "def": "said when the special price for wings is very good",
+    "note": "Steal = ganga (informal): it's a steal = está regalado. Versión A2 más sencilla: «they have a wings deal».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Twenty wings for ten bucks? [The wings deal is a steal].",
+        "es": "¿Veinte alitas por diez dólares? La promo está regalada."
+      },
+      {
+        "en": "Order it now, [the wings deal is a steal].",
+        "es": "Pídelo ya, la promo de alitas está regalada."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-food-is-late",
+    "type": "phrase",
+    "term": "the food is late",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "la comida viene tarde",
+    "def": "said when your delivery has not arrived on time",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[The food is late], I'm so hungry.",
+        "es": "La comida viene tarde, tengo mucha hambre."
+      },
+      {
+        "en": "Check the app, [the food is late].",
+        "es": "Revisa la app, la comida viene tarde."
+      }
+    ]
+  },
+  {
+    "id": "phr-our-order-is-running-late",
+    "type": "phrase",
+    "term": "our order is running late",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "nuestro pedido viene retrasado",
+    "def": "said when the delivery will arrive later than planned",
+    "note": "Running late = ir retrasado; sirve para personas y pedidos. Versión A2 más sencilla: «the food is late».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "The app says [our order is running late].",
+        "es": "La app dice que nuestro pedido viene retrasado."
+      },
+      {
+        "en": "[Our order is running late] because of the snow.",
+        "es": "Nuestro pedido viene retrasado por la nieve."
+      }
+    ]
+  },
+  {
+    "id": "phr-please-leave-it-at-the-door",
+    "type": "phrase",
+    "term": "please leave it at the door",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "por favor déjelo en la puerta",
+    "def": "a request for the delivery person to put the order outside",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "I wrote in the app: [please leave it at the door].",
+        "es": "Puse en la app: por favor déjelo en la puerta."
+      },
+      {
+        "en": "[Please leave it at the door], thank you!",
+        "es": "Por favor déjelo en la puerta, ¡gracias!"
+      }
+    ]
+  },
+  {
+    "id": "col-add-delivery-instructions",
+    "type": "collocation",
+    "term": "add delivery instructions",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "poner instrucciones de entrega",
+    "def": "to write a note in the app telling the driver where to go",
+    "note": "En la app aparece como «delivery instructions» o «notes for driver». Versión A2 más sencilla: «please leave it at the door».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[Add delivery instructions]: side door, don't ring.",
+        "es": "Pon instrucciones de entrega: puerta lateral, no toques."
+      },
+      {
+        "en": "I [added delivery instructions] so he finds the basement.",
+        "es": "Puse instrucciones para que encuentre el sótano."
+      }
+    ]
+  },
+  {
+    "id": "col-tip-the-driver",
+    "type": "collocation",
+    "term": "tip the driver",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "darle propina al repartidor",
+    "def": "to give extra money to the person who brings your order",
+    "areas": [
+      "hogar",
+      "restaurantes",
+      "bancos"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Don't forget to [tip the driver].",
+        "es": "No se te olvide darle propina al repartidor."
+      },
+      {
+        "en": "We [tipped the driver] five dollars.",
+        "es": "Le dimos cinco dólares de propina al repartidor."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-already-tipped-in-the-app",
+    "type": "phrase",
+    "term": "I already tipped in the app",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "ya le di propina en la app",
+    "def": "said when you paid the tip online, so no cash is needed",
+    "note": "Tip es verbo y sustantivo: tip in the app / leave a tip. Versión A2 más sencilla: «tip the driver».",
+    "areas": [
+      "hogar",
+      "restaurantes",
+      "bancos"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "No cash needed, [I already tipped in the app].",
+        "es": "No hace falta efectivo, ya le di propina en la app."
+      },
+      {
+        "en": "Relax, [I already tipped in the app].",
+        "es": "Tranquilo, ya le di propina en la app."
+      }
+    ]
+  },
+  {
+    "id": "phr-where-is-the-driver",
+    "type": "phrase",
+    "term": "where is the driver?",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "¿dónde está el repartidor?",
+    "def": "a question when you are waiting for your delivery",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[Where is the driver]? He's not moving.",
+        "es": "¿Dónde está el repartidor? No se mueve."
+      },
+      {
+        "en": "Check the map, [where is the driver]?",
+        "es": "Revisa el mapa, ¿dónde está el repartidor?"
+      }
+    ]
+  },
+  {
+    "id": "phr-the-driver-is-two-minutes-away",
+    "type": "phrase",
+    "term": "the driver is two minutes away",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "al repartidor le faltan dos minutos",
+    "def": "said when the app shows the order is almost there",
+    "note": "«Away» con tiempo o distancia: it's ten minutes away. Versión A2 más sencilla: «where is the driver?».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Get the door, [the driver is two minutes away].",
+        "es": "Ve a la puerta, al repartidor le faltan dos minutos."
+      },
+      {
+        "en": "It said [the driver is two minutes away] ten minutes ago.",
+        "es": "Decía que le faltaban dos minutos hace diez minutos."
+      }
+    ]
+  },
+  {
+    "id": "phr-they-forgot-the-sauce",
+    "type": "phrase",
+    "term": "they forgot the sauce",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "se les olvidó la salsa",
+    "def": "said when part of your food order is missing",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Oh no, [they forgot the sauce].",
+        "es": "No, se les olvidó la salsa."
+      },
+      {
+        "en": "[They forgot the sauce] again!",
+        "es": "¡Otra vez se les olvidó la salsa!"
+      }
+    ]
+  },
+  {
+    "id": "phr-they-messed-up-our-order",
+    "type": "phrase",
+    "term": "they messed up our order",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "se equivocaron con nuestro pedido",
+    "def": "said when the restaurant sent the wrong food",
+    "note": "Mess up = regarla; informal pero no grosero. Versión A2 más sencilla: «they forgot the sauce».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "These aren't wings. [They messed up our order].",
+        "es": "Estas no son alitas. Se equivocaron con el pedido."
+      },
+      {
+        "en": "[They messed up our order], so I asked for a refund.",
+        "es": "Se equivocaron con el pedido, así que pedí reembolso."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-food-is-cold",
+    "type": "phrase",
+    "term": "the food is cold",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "la comida llegó fría",
+    "def": "said when your food is not hot anymore",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[The food is cold], let's heat it up.",
+        "es": "La comida llegó fría, vamos a calentarla."
+      },
+      {
+        "en": "It took an hour, so [the food is cold].",
+        "es": "Tardó una hora, así que la comida llegó fría."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-fries-got-soggy",
+    "type": "phrase",
+    "term": "the fries got soggy",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "las papas se aguadaron",
+    "def": "said when french fries became soft and wet",
+    "note": "Soggy = aguado, remojado. Muy común con comida a domicilio. Versión A2 más sencilla: «the food is cold».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Delivery is fast, but [the fries got soggy].",
+        "es": "La entrega es rápida, pero las papas se aguadaron."
+      },
+      {
+        "en": "Eat them now before [the fries get soggy].",
+        "es": "Cómetelas ya antes de que se aguaden las papas."
+      }
+    ]
+  },
+  {
+    "id": "phr-what-do-you-want-to-order",
+    "type": "phrase",
+    "term": "what do you want to order?",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "¿qué quieres pedir?",
+    "def": "a question to choose food for delivery",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[What do you want to order]? Pizza?",
+        "es": "¿Qué quieres pedir? ¿Pizza?"
+      },
+      {
+        "en": "I'm hungry. [What do you want to order]?",
+        "es": "Tengo hambre. ¿Qué quieres pedir?"
+      }
+    ]
+  },
+  {
+    "id": "phr-im-craving-something-greasy",
+    "type": "phrase",
+    "term": "I'm craving something greasy",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "se me antoja algo grasoso",
+    "def": "said when you really want unhealthy, fried food",
+    "note": "Crave = antojarse mucho. I'm craving tacos = se me antojan tacos. Versión A2 más sencilla: «what do you want to order?».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "No salad tonight, [I'm craving something greasy].",
+        "es": "Nada de ensalada hoy, se me antoja algo grasoso."
+      },
+      {
+        "en": "After the gym [I'm craving something greasy].",
+        "es": "Después del gym se me antoja algo grasoso."
+      }
+    ]
+  },
+  {
+    "id": "col-pay-the-delivery-fee",
+    "type": "collocation",
+    "term": "pay the delivery fee",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "pagar el costo de envío",
+    "def": "to pay extra money for the food to come to your home",
+    "areas": [
+      "hogar",
+      "restaurantes",
+      "bancos"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "We have to [pay the delivery fee] too.",
+        "es": "También tenemos que pagar el envío."
+      },
+      {
+        "en": "I [paid the delivery fee] and the tip.",
+        "es": "Pagué el envío y la propina."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-fees-really-add-up",
+    "type": "phrase",
+    "term": "the fees really add up",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "las comisiones se van sumando",
+    "def": "said when small extra costs become a big total",
+    "note": "Add up = sumarse poco a poco. Versión A2 más sencilla: «pay the delivery fee».",
+    "areas": [
+      "hogar",
+      "restaurantes",
+      "bancos"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Delivery is easy, but [the fees really add up].",
+        "es": "Pedir es cómodo, pero las comisiones se van sumando."
+      },
+      {
+        "en": "We should pick it up. [The fees really add up].",
+        "es": "Deberíamos recogerlo. Las comisiones se van sumando."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-pick-it-up-ourselves",
+    "type": "phrase",
+    "term": "let's pick it up ourselves",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "mejor vamos a recogerlo nosotros",
+    "def": "a suggestion to get the food from the restaurant instead of delivery",
+    "note": "Pick up = recoger; en la app es la opción «pickup». Versión A2 más sencilla: «pay the delivery fee».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "It's close. [Let's pick it up ourselves].",
+        "es": "Está cerca. Mejor vamos a recogerlo nosotros."
+      },
+      {
+        "en": "No delivery fee if [we pick it up ourselves].",
+        "es": "No hay envío si lo recogemos nosotros."
+      }
+    ]
+  },
+  {
+    "id": "phr-what-show-should-we-watch-tonight",
+    "type": "phrase",
+    "term": "what show should we watch tonight?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿qué serie vemos hoy?",
+    "def": "a question to choose a TV series with someone",
+    "note": "Show = serie o programa de tele.",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "[What show should we watch tonight]? Something funny?",
+        "es": "¿Qué serie vemos hoy? ¿Algo chistoso?"
+      },
+      {
+        "en": "OK, dinner's done. [What show should we watch tonight]?",
+        "es": "Listo, ya cenamos. ¿Qué serie vemos hoy?"
+      }
+    ]
+  },
+  {
+    "id": "phr-what-are-we-in-the-mood-for",
+    "type": "phrase",
+    "term": "what are we in the mood for?",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¿de qué tenemos ganas?",
+    "def": "a question to decide what kind of show or food you both want",
+    "note": "In the mood for = tener ganas de algo. Versión A2 más sencilla: «what show should we watch tonight?».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Comedy or crime? [What are we in the mood for]?",
+        "es": "¿Comedia o policiaca? ¿De qué tenemos ganas?"
+      },
+      {
+        "en": "Before we scroll for an hour, [what are we in the mood for]?",
+        "es": "Antes de buscar una hora, ¿de qué tenemos ganas?"
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-watch-the-new-season",
+    "type": "phrase",
+    "term": "let's watch the new season",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "veamos la nueva temporada",
+    "def": "a suggestion to start the new episodes of a series",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "It's out! [Let's watch the new season].",
+        "es": "¡Ya salió! Veamos la nueva temporada."
+      },
+      {
+        "en": "[Let's watch the new season] this weekend.",
+        "es": "Veamos la nueva temporada este fin."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-binge-the-new-season",
+    "type": "phrase",
+    "term": "let's binge the new season",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "echémonos la nueva temporada de un jalón",
+    "def": "a suggestion to watch many episodes in one go",
+    "note": "Binge = ver muchos capítulos seguidos (de binge-watch). Versión A2 más sencilla: «let's watch the new season».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "No plans Saturday? [Let's binge the new season].",
+        "es": "¿Sin planes el sábado? Echémonos la nueva temporada."
+      },
+      {
+        "en": "We [binged the new season] in two nights.",
+        "es": "Nos vimos toda la temporada en dos noches."
+      }
+    ]
+  },
+  {
+    "id": "phr-dont-tell-me-what-happens",
+    "type": "phrase",
+    "term": "don't tell me what happens!",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¡no me digas qué pasa!",
+    "def": "a request not to tell the story of a show you have not seen",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Stop! [Don't tell me what happens]!",
+        "es": "¡Para! ¡No me digas qué pasa!"
+      },
+      {
+        "en": "I'm on episode three, [don't tell me what happens]!",
+        "es": "Voy en el capítulo tres, ¡no me digas qué pasa!"
+      }
+    ]
+  },
+  {
+    "id": "phr-dont-spoil-it-for-me",
+    "type": "phrase",
+    "term": "don't spoil it for me!",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¡no me lo arruines!",
+    "def": "a request not to reveal the ending or surprises of a story",
+    "note": "Spoil = arruinar contando el final; de ahí spoiler. Versión A2 más sencilla: «don't tell me what happens!».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "I haven't finished it, [don't spoil it for me]!",
+        "es": "No la he terminado, ¡no me la arruines!"
+      },
+      {
+        "en": "Lower your voice, [don't spoil it for me]!",
+        "es": "Baja la voz, ¡no me la arruines!"
+      }
+    ]
+  },
+  {
+    "id": "phr-whose-turn-is-it-to-pick",
+    "type": "phrase",
+    "term": "whose turn is it to pick?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿a quién le toca escoger?",
+    "def": "a question to know who chooses the show or movie this time",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "OK, [whose turn is it to pick]?",
+        "es": "A ver, ¿a quién le toca escoger?"
+      },
+      {
+        "en": "[Whose turn is it to pick]? I picked yesterday.",
+        "es": "¿A quién le toca escoger? Yo escogí ayer."
+      }
+    ]
+  },
+  {
+    "id": "phr-you-picked-last-time",
+    "type": "phrase",
+    "term": "you picked last time",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "tú escogiste la vez pasada",
+    "def": "said to remind someone that they already chose before",
+    "note": "Argumento clásico de pareja para decidir quién elige. Versión A2 más sencilla: «whose turn is it to pick?».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "No way, [you picked last time].",
+        "es": "Ni loca, tú escogiste la vez pasada."
+      },
+      {
+        "en": "[You picked last time], and it was terrible.",
+        "es": "Tú escogiste la vez pasada y estuvo malísima."
+      }
+    ]
+  },
+  {
+    "id": "phr-one-more-episode",
+    "type": "phrase",
+    "term": "one more episode",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "un capítulo más",
+    "def": "said when you want to keep watching a little longer",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Come on, [one more episode]!",
+        "es": "¡Ándale, un capítulo más!"
+      },
+      {
+        "en": "We said [one more episode] three episodes ago.",
+        "es": "Dijimos un capítulo más hace tres capítulos."
+      }
+    ]
+  },
+  {
+    "id": "phr-just-one-more-i-promise",
+    "type": "phrase",
+    "term": "just one more, I promise",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "nada más uno más, te lo prometo",
+    "def": "a promise, usually false, to watch only one more episode",
+    "note": "Típico chiste de pareja: nunca es solo uno. Versión A2 más sencilla: «one more episode».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "It's midnight. [Just one more, I promise].",
+        "es": "Es medianoche. Nada más uno más, te lo prometo."
+      },
+      {
+        "en": "You always say [just one more, I promise].",
+        "es": "Siempre dices «nada más uno más, te lo prometo»."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-tired-lets-go-to-bed",
+    "type": "phrase",
+    "term": "I'm tired, let's go to bed",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "estoy cansado, vámonos a dormir",
+    "def": "said when you want to stop and sleep",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "It's late. [I'm tired, let's go to bed].",
+        "es": "Ya es tarde. Estoy cansado, vámonos a dormir."
+      },
+      {
+        "en": "[I'm tired, let's go to bed]. We can finish tomorrow.",
+        "es": "Estoy cansada, vámonos a dormir. Mañana terminamos."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-call-it-a-night",
+    "type": "phrase",
+    "term": "let's call it a night",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "ya hay que irnos a dormir",
+    "def": "a suggestion to stop what you are doing because it is late",
+    "note": "Call it a night = dar por terminada la noche. Versión A2 más sencilla: «I'm tired, let's go to bed».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "I can't keep my eyes open. [Let's call it a night].",
+        "es": "Ya no aguanto los ojos. Hay que irnos a dormir."
+      },
+      {
+        "en": "After this episode, [let's call it a night].",
+        "es": "Después de este capítulo, a dormir."
+      }
+    ]
+  },
+  {
+    "id": "phr-can-you-pause-it",
+    "type": "phrase",
+    "term": "can you pause it?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿le puedes poner pausa?",
+    "def": "a request to stop the video for a moment",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "[Can you pause it]? I need the bathroom.",
+        "es": "¿Le pones pausa? Tengo que ir al baño."
+      },
+      {
+        "en": "The cat is crying, [can you pause it]?",
+        "es": "El gato está llorando, ¿le puedes poner pausa?"
+      }
+    ]
+  },
+  {
+    "id": "phr-pause-it-ill-be-right-back",
+    "type": "phrase",
+    "term": "pause it, I'll be right back",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "ponle pausa, ahorita vengo",
+    "def": "a request to stop the show while you leave for a moment",
+    "note": "I'll be right back = ahorita vuelvo (de verdad rápido). Versión A2 más sencilla: «can you pause it?».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "[Pause it, I'll be right back] with snacks.",
+        "es": "Ponle pausa, ahorita vengo con botanas."
+      },
+      {
+        "en": "Wait, [pause it, I'll be right back]!",
+        "es": "¡Espera, ponle pausa, ahorita vengo!"
+      }
+    ]
+  },
+  {
+    "id": "phr-where-did-we-stop",
+    "type": "phrase",
+    "term": "where did we stop?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿en dónde nos quedamos?",
+    "def": "a question to find the last part you watched",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "[Where did we stop]? Episode five?",
+        "es": "¿En dónde nos quedamos? ¿Capítulo cinco?"
+      },
+      {
+        "en": "I forgot. [Where did we stop]?",
+        "es": "Se me olvidó. ¿En dónde nos quedamos?"
+      }
+    ]
+  },
+  {
+    "id": "phr-where-did-we-leave-off",
+    "type": "phrase",
+    "term": "where did we leave off?",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¿en qué nos quedamos?",
+    "def": "a question to remember the last point in a show or book",
+    "note": "Leave off = dejar algo en un punto. Más natural que «where did we stop?». Versión A2 más sencilla: «where did we stop?».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Before we start, [where did we leave off]?",
+        "es": "Antes de empezar, ¿en qué nos quedamos?"
+      },
+      {
+        "en": "I fell asleep. [Where did we leave off]?",
+        "es": "Me dormí. ¿En qué nos quedamos?"
+      }
+    ]
+  },
+  {
+    "id": "phr-this-show-is-boring",
+    "type": "phrase",
+    "term": "this show is boring",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "esta serie está aburrida",
+    "def": "said when you don't like a series because nothing happens",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Sorry, but [this show is boring].",
+        "es": "Perdón, pero esta serie está aburrida."
+      },
+      {
+        "en": "[This show is boring], let's try another one.",
+        "es": "Esta serie está aburrida, probemos otra."
+      }
+    ]
+  },
+  {
+    "id": "phr-it-takes-a-while-to-get-going",
+    "type": "phrase",
+    "term": "it takes a while to get going",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "tarda en agarrar ritmo",
+    "def": "said when a show is slow at the start but gets better",
+    "note": "Get going = arrancar, tomar ritmo. Versión A2 más sencilla: «this show is boring».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Give it a chance, [it takes a while to get going].",
+        "es": "Dale chance, tarda en agarrar ritmo."
+      },
+      {
+        "en": "Season one [takes a while to get going].",
+        "es": "La primera temporada tarda en agarrar ritmo."
+      }
+    ]
+  },
+  {
+    "id": "phr-turn-on-the-subtitles",
+    "type": "phrase",
+    "term": "turn on the subtitles",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "pon los subtítulos",
+    "def": "a request to show the words on the screen",
+    "note": "En EE. UU. y Canadá también se dice captions.",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "They talk fast, [turn on the subtitles].",
+        "es": "Hablan rápido, pon los subtítulos."
+      },
+      {
+        "en": "I [turned on the subtitles] in English.",
+        "es": "Puse los subtítulos en inglés."
+      }
+    ]
+  },
+  {
+    "id": "phr-can-we-put-the-captions-on",
+    "type": "phrase",
+    "term": "can we put the captions on?",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¿le ponemos subtítulos?",
+    "def": "a request to show the dialogue as text on screen",
+    "note": "En Norteamérica captions es muy común en la tele y las apps. Versión A2 más sencilla: «turn on the subtitles».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "I missed that joke. [Can we put the captions on]?",
+        "es": "No entendí el chiste. ¿Le ponemos subtítulos?"
+      },
+      {
+        "en": "Their accent is strong, [can we put the captions on]?",
+        "es": "Tienen un acento fuerte, ¿le ponemos subtítulos?"
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-stay-home-tonight",
+    "type": "phrase",
+    "term": "let's stay home tonight",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "quedémonos en casa hoy",
+    "def": "a suggestion not to go out this evening",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "It's so cold. [Let's stay home tonight].",
+        "es": "Hace mucho frío. Quedémonos en casa hoy."
+      },
+      {
+        "en": "[Let's stay home tonight] and cook something.",
+        "es": "Quedémonos en casa hoy y cocinemos algo."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-not-in-the-mood-to-go-out",
+    "type": "phrase",
+    "term": "I'm not in the mood to go out",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "no tengo ganas de salir",
+    "def": "said when you prefer to stay home",
+    "note": "Not in the mood = no tener ganas; más natural que «I don't want». Versión A2 más sencilla: «let's stay home tonight».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Honestly, [I'm not in the mood to go out].",
+        "es": "La verdad, no tengo ganas de salir."
+      },
+      {
+        "en": "[I'm not in the mood to go out], can we order in?",
+        "es": "No tengo ganas de salir, ¿pedimos algo?"
+      }
+    ]
+  },
+  {
+    "id": "phr-what-do-you-want-to-do-this-weekend",
+    "type": "phrase",
+    "term": "what do you want to do this weekend?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿qué quieres hacer este fin de semana?",
+    "def": "a question to make weekend plans together",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "[What do you want to do this weekend]?",
+        "es": "¿Qué quieres hacer este fin de semana?"
+      },
+      {
+        "en": "So, [what do you want to do this weekend]? Movies?",
+        "es": "Entonces, ¿qué quieres hacer este fin? ¿Cine?"
+      }
+    ]
+  },
+  {
+    "id": "phr-do-we-have-anything-going-on-this-weekend",
+    "type": "phrase",
+    "term": "do we have anything going on this weekend?",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¿tenemos algo este fin?",
+    "def": "a question to check if there are plans or events this weekend",
+    "note": "«Anything going on» = algún plan o compromiso. Versión A2 más sencilla: «what do you want to do this weekend?».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "[Do we have anything going on this weekend]? Jen invited us.",
+        "es": "¿Tenemos algo este fin? Jen nos invitó."
+      },
+      {
+        "en": "Wait, [do we have anything going on this weekend]?",
+        "es": "Espera, ¿tenemos algo este fin de semana?"
+      }
+    ]
+  },
+  {
+    "id": "phr-you-fell-asleep-again",
+    "type": "phrase",
+    "term": "you fell asleep again!",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¡te volviste a dormir!",
+    "def": "said when someone sleeps during a movie or show",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Hey! [You fell asleep again]!",
+        "es": "¡Oye! ¡Te volviste a dormir!"
+      },
+      {
+        "en": "Every movie night [you fell asleep again].",
+        "es": "Cada noche de película te duermes otra vez."
+      }
+    ]
+  },
+  {
+    "id": "pv-curl-up",
+    "type": "phrasal",
+    "term": "curl up",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "ipa": "/ˌkɝl ˈʌp/",
+    "es": "acurrucarse",
+    "def": "to sit or lie with your arms and legs close to your body",
+    "note": "Intransitivo: curl up on the couch = acurrucarse en el sillón.",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "Let's [curl up] on the couch with a blanket.",
+        "es": "Acurruquémonos en el sillón con una cobija."
+      },
+      {
+        "en": "The cat [curled up] on my lap.",
+        "es": "La gata se acurrucó en mis piernas."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-have-a-date-night-at-home",
+    "type": "phrase",
+    "term": "let's have a date night at home",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "tengamos una cita en casa",
+    "def": "a suggestion to have a romantic evening without going out",
+    "note": "Date night = noche de cita; muy común en parejas norteamericanas. Versión A2 más sencilla: «let's stay home tonight».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "No money for restaurants? [Let's have a date night at home].",
+        "es": "¿Sin dinero para restaurantes? Tengamos una cita en casa."
+      },
+      {
+        "en": "Friday [let's have a date night at home]: candles and pasta.",
+        "es": "El viernes, cita en casa: velas y pasta."
+      }
+    ]
+  },
+  {
+    "id": "pv-skip-ahead",
+    "type": "phrasal",
+    "term": "skip ahead",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "ipa": "/ˌskɪp əˈhɛd/",
+    "es": "adelantar (el video)",
+    "def": "to move forward in a video to a later part",
+    "note": "Intransitivo; para el intro también: skip the intro.",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "This part is slow, [skip ahead] a bit.",
+        "es": "Esta parte está lenta, adelántale un poco."
+      },
+      {
+        "en": "We [skipped ahead] to the last episode by mistake.",
+        "es": "Le adelantamos al último capítulo por error."
+      }
+    ]
+  },
+  {
+    "id": "pv-queue-up",
+    "type": "phrasal",
+    "term": "queue up",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "ipa": "/ˌkju ˈʌp/",
+    "sep": true,
+    "es": "poner en fila; dejar listo para reproducir",
+    "def": "to put a show or song in order so it plays next",
+    "note": "Separable: queue it up. Se pronuncia «kiú».",
+    "areas": [
+      "hogar",
+      "relaciones",
+      "series"
+    ],
+    "tags": [
+      "pareja",
+      "tv"
+    ],
+    "ex": [
+      {
+        "en": "I'll [queue up] the next episode while you make popcorn.",
+        "es": "Dejo listo el siguiente capítulo mientras haces palomitas."
+      },
+      {
+        "en": "She [queued up] three movies for the weekend.",
+        "es": "Dejó listas tres películas para el fin."
+      }
+    ]
+  },
+  {
+    "id": "phr-whats-for-dinner",
+    "type": "phrase",
+    "term": "what's for dinner?",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "¿qué hay de cenar?",
+    "def": "a question about what food you will eat tonight",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'm home! [What's for dinner]?",
+        "es": "¡Ya llegué! ¿Qué hay de cenar?"
+      },
+      {
+        "en": "[What's for dinner]? I'm so hungry.",
+        "es": "¿Qué hay de cenar? Tengo mucha hambre."
+      }
+    ]
+  },
+  {
+    "id": "phr-what-do-you-feel-like-eating",
+    "type": "phrase",
+    "term": "what do you feel like eating?",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "¿qué se te antoja comer?",
+    "def": "a question about what food someone wants right now",
+    "note": "Feel like + -ing/sustantivo = tener ganas: I feel like tacos. Versión A2 más sencilla: «what's for dinner?».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[What do you feel like eating]? I'll cook.",
+        "es": "¿Qué se te antoja comer? Yo cocino."
+      },
+      {
+        "en": "Be honest, [what do you feel like eating]?",
+        "es": "Sé honesto, ¿qué se te antoja comer?"
+      }
+    ]
+  },
+  {
+    "id": "phr-we-have-leftovers",
+    "type": "phrase",
+    "term": "we have leftovers",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "tenemos sobras",
+    "def": "said when there is food from a past meal you can eat",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Don't order, [we have leftovers].",
+        "es": "No pidas, tenemos sobras."
+      },
+      {
+        "en": "[We have leftovers] from Sunday.",
+        "es": "Tenemos sobras del domingo."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-eat-up-the-leftovers",
+    "type": "phrase",
+    "term": "let's eat up the leftovers",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "acabémonos las sobras",
+    "def": "a suggestion to eat the old food before it goes bad",
+    "note": "Eat up = comérselo todo. Versión A2 más sencilla: «we have leftovers».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Before we shop, [let's eat up the leftovers].",
+        "es": "Antes de ir al súper, acabémonos las sobras."
+      },
+      {
+        "en": "Tonight [let's eat up the leftovers] and save money.",
+        "es": "Hoy acabémonos las sobras y ahorramos."
+      }
+    ]
+  },
+  {
+    "id": "pv-finish-off",
+    "type": "phrasal",
+    "term": "finish off",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "ipa": "/ˌfɪnɪʃ ˈɔf/",
+    "sep": true,
+    "es": "acabarse (lo que queda)",
+    "def": "to eat or drink the last part of something",
+    "note": "Separable: finish it off.",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Who [finished off] the ice cream?",
+        "es": "¿Quién se acabó el helado?"
+      },
+      {
+        "en": "Let's [finish off] the pasta tonight.",
+        "es": "Acabémonos la pasta hoy."
+      }
+    ]
+  },
+  {
+    "id": "phr-dinner-is-ready",
+    "type": "phrase",
+    "term": "dinner is ready",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "la cena está lista",
+    "def": "said when the food is ready to eat",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[Dinner is ready]! Come eat.",
+        "es": "¡La cena está lista! Vengan a comer."
+      },
+      {
+        "en": "Wash your hands, [dinner is ready].",
+        "es": "Lávate las manos, la cena está lista."
+      }
+    ]
+  },
+  {
+    "id": "phr-come-and-get-it",
+    "type": "phrase",
+    "term": "come and get it!",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "¡a comer!",
+    "def": "a fun call to tell everyone the food is ready",
+    "note": "Frase de casa, informal y alegre. Versión A2 más sencilla: «dinner is ready».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Tacos are done, [come and get it]!",
+        "es": "¡Ya están los tacos, a comer!"
+      },
+      {
+        "en": "[Come and get it] before the cat does!",
+        "es": "¡A comer antes que el gato!"
+      }
+    ]
+  },
+  {
+    "id": "col-heat-up-the-leftovers",
+    "type": "collocation",
+    "term": "heat up the leftovers",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "calentar las sobras",
+    "def": "to make old food warm again",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'll [heat up the leftovers] for lunch.",
+        "es": "Caliento las sobras para comer."
+      },
+      {
+        "en": "She [heated up the leftovers] in the oven.",
+        "es": "Calentó las sobras en el horno."
+      }
+    ]
+  },
+  {
+    "id": "phr-just-throw-it-in-the-microwave",
+    "type": "phrase",
+    "term": "just throw it in the microwave",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "nada más mételo al micro",
+    "def": "a casual instruction to heat food quickly in the microwave",
+    "note": "Throw it in = mételo rápido, sin complicarte. Versión A2 más sencilla: «heat up the leftovers».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "It's still good, [just throw it in the microwave].",
+        "es": "Todavía sirve, nada más mételo al micro."
+      },
+      {
+        "en": "No need for a pan, [just throw it in the microwave].",
+        "es": "No hace falta sartén, nada más mételo al micro."
+      }
+    ]
+  },
+  {
+    "id": "phr-whos-cooking-tonight",
+    "type": "phrase",
+    "term": "who's cooking tonight?",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "¿quién cocina hoy?",
+    "def": "a question about which person will make dinner",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "So, [who's cooking tonight]?",
+        "es": "Entonces, ¿quién cocina hoy?"
+      },
+      {
+        "en": "[Who's cooking tonight]? I did yesterday.",
+        "es": "¿Quién cocina hoy? Yo cociné ayer."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-your-night-to-cook",
+    "type": "phrase",
+    "term": "it's your night to cook",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "hoy te toca cocinar",
+    "def": "said when the other person must make dinner tonight",
+    "note": "«Your night to…» = tu turno de esa noche. Versión A2 más sencilla: «who's cooking tonight?».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Don't look at me, [it's your night to cook].",
+        "es": "No me veas, hoy te toca cocinar."
+      },
+      {
+        "en": "Monday? [It's your night to cook].",
+        "es": "¿Lunes? Hoy te toca cocinar."
+      }
+    ]
+  },
+  {
+    "id": "phr-it-smells-good",
+    "type": "phrase",
+    "term": "it smells good",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "huele rico",
+    "def": "said when food has a nice smell",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Mmm, [it smells good]. What is it?",
+        "es": "Mmm, huele rico. ¿Qué es?"
+      },
+      {
+        "en": "[It smells good] in the kitchen.",
+        "es": "En la cocina huele rico."
+      }
+    ]
+  },
+  {
+    "id": "phr-it-smells-amazing-in-here",
+    "type": "phrase",
+    "term": "it smells amazing in here",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "aquí huele delicioso",
+    "def": "said when you walk in and the cooking smells great",
+    "note": "Amazing es muy común para exagerar algo bueno. Versión A2 más sencilla: «it smells good».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Wow, [it smells amazing in here]!",
+        "es": "¡Guau, aquí huele delicioso!"
+      },
+      {
+        "en": "[It smells amazing in here]. Is that soup?",
+        "es": "Aquí huele delicioso. ¿Es sopa?"
+      }
+    ]
+  },
+  {
+    "id": "phr-something-is-burning",
+    "type": "phrase",
+    "term": "something is burning!",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "¡algo se está quemando!",
+    "def": "a warning when you smell smoke in the kitchen",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Wait, [something is burning]!",
+        "es": "¡Espera, algo se está quemando!"
+      },
+      {
+        "en": "Open the window, [something is burning]!",
+        "es": "¡Abre la ventana, algo se está quemando!"
+      }
+    ]
+  },
+  {
+    "id": "phr-i-think-i-burned-the-rice",
+    "type": "phrase",
+    "term": "I think I burned the rice",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "creo que se me quemó el arroz",
+    "def": "said when you cooked the rice too long",
+    "note": "En inglés se dice «I burned», no «the rice burned to me». Versión A2 más sencilla: «something is burning!».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Don't panic, but [I think I burned the rice].",
+        "es": "No te asustes, pero creo que se me quemó el arroz."
+      },
+      {
+        "en": "[I think I burned the rice] again. Pizza?",
+        "es": "Creo que otra vez se me quemó el arroz. ¿Pizza?"
+      }
+    ]
+  },
+  {
+    "id": "col-follow-a-recipe",
+    "type": "collocation",
+    "term": "follow a recipe",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "seguir una receta",
+    "def": "to cook using written steps",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I always [follow a recipe] for bread.",
+        "es": "Siempre sigo una receta para el pan."
+      },
+      {
+        "en": "I [followed a recipe] from a video.",
+        "es": "Seguí una receta de un video."
+      }
+    ]
+  },
+  {
+    "id": "phr-ill-just-eyeball-it",
+    "type": "phrase",
+    "term": "I'll just eyeball it",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "le calculo a ojo",
+    "def": "said when you measure without cups or a scale",
+    "note": "Eyeball = calcular a ojo; muy natural en la cocina. Versión A2 más sencilla: «follow a recipe».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Measuring cups? Nah, [I'll just eyeball it].",
+        "es": "¿Tazas medidoras? No, le calculo a ojo."
+      },
+      {
+        "en": "My grandma never measured, [she'd just eyeball it].",
+        "es": "Mi abuela nunca medía, calculaba a ojo."
+      }
+    ]
+  },
+  {
+    "id": "col-chop-the-onions",
+    "type": "collocation",
+    "term": "chop the onions",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "picar la cebolla",
+    "def": "to cut onions into small pieces",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [chop the onions]? I'll start the rice.",
+        "es": "¿Picas la cebolla? Yo empiezo el arroz."
+      },
+      {
+        "en": "I [chopped the onions] and cried.",
+        "es": "Piqué la cebolla y lloré."
+      }
+    ]
+  },
+  {
+    "id": "pv-dish-up",
+    "type": "phrasal",
+    "term": "dish up",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "ipa": "/ˌdɪʃ ˈʌp/",
+    "sep": true,
+    "es": "servir (en los platos)",
+    "def": "to put cooked food onto plates for people",
+    "note": "Separable: dish it up. Más casero que «serve».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [dish up] while I get drinks?",
+        "es": "¿Sirves mientras traigo las bebidas?"
+      },
+      {
+        "en": "She [dished up] two big plates of pasta.",
+        "es": "Sirvió dos platos grandes de pasta."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-cook-at-home-this-week",
+    "type": "phrase",
+    "term": "let's cook at home this week",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "cocinemos en casa esta semana",
+    "def": "a suggestion to make your own food and not order",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "To save money, [let's cook at home this week].",
+        "es": "Para ahorrar, cocinemos en casa esta semana."
+      },
+      {
+        "en": "[Let's cook at home this week], OK?",
+        "es": "Cocinemos en casa esta semana, ¿va?"
+      }
+    ]
+  },
+  {
+    "id": "col-meal-prep-on-sunday",
+    "type": "collocation",
+    "term": "meal prep on Sunday",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "preparar la comida de la semana el domingo",
+    "def": "to cook several meals on Sunday for the next days",
+    "note": "Meal prep = dejar comida lista y en tuppers. Versión A2 más sencilla: «let's cook at home this week».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "If we [meal prep on Sunday], weekdays are easier.",
+        "es": "Si preparamos la comida el domingo, la semana es más fácil."
+      },
+      {
+        "en": "We [meal prepped on Sunday] and didn't order once.",
+        "es": "Preparamos todo el domingo y no pedimos ni una vez."
+      }
+    ]
+  },
+  {
+    "id": "phr-put-it-in-the-fridge",
+    "type": "phrase",
+    "term": "put it in the fridge",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "mételo al refri",
+    "def": "an instruction to keep food cold",
+    "note": "Fridge es lo más común; refrigerator suena formal.",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Don't leave it out, [put it in the fridge].",
+        "es": "No lo dejes afuera, mételo al refri."
+      },
+      {
+        "en": "I [put it in the fridge] last night.",
+        "es": "Lo metí al refri anoche."
+      }
+    ]
+  },
+  {
+    "id": "phr-is-this-still-good",
+    "type": "phrase",
+    "term": "is this still good?",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "¿esto todavía sirve?",
+    "def": "a question to check if food is still safe to eat",
+    "note": "Good aquí = no echado a perder. Versión A2 más sencilla: «put it in the fridge».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "It's from Monday. [Is this still good]?",
+        "es": "Es del lunes. ¿Esto todavía sirve?"
+      },
+      {
+        "en": "Smell it, [is this still good]?",
+        "es": "Huélelo, ¿esto todavía sirve?"
+      }
+    ]
+  },
+  {
+    "id": "col-defrost-the-chicken",
+    "type": "collocation",
+    "term": "defrost the chicken",
+    "level": "A2",
+    "topic": "food",
+    "freq": 5,
+    "es": "descongelar el pollo",
+    "def": "to make frozen chicken soft so you can cook it",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Can you [defrost the chicken] for dinner?",
+        "es": "¿Puedes descongelar el pollo para la cena?"
+      },
+      {
+        "en": "I [defrosted the chicken] in the morning.",
+        "es": "Descongelé el pollo en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-forgot-to-take-the-chicken-out-of-the-freezer",
+    "type": "phrase",
+    "term": "I forgot to take the chicken out of the freezer",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "se me olvidó sacar el pollo del congelador",
+    "def": "said when the meat is still frozen and dinner will be late",
+    "note": "Take out of = sacar de. Fridge = refri; freezer = congelador. Versión A2 más sencilla: «defrost the chicken».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Bad news: [I forgot to take the chicken out of the freezer].",
+        "es": "Mala noticia: se me olvidó sacar el pollo del congelador."
+      },
+      {
+        "en": "Pizza tonight? [I forgot to take the chicken out of the freezer].",
+        "es": "¿Pizza hoy? Se me olvidó sacar el pollo."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-couldnt-eat-another-bite",
+    "type": "phrase",
+    "term": "I couldn't eat another bite",
+    "level": "B1",
+    "topic": "food",
+    "freq": 4,
+    "es": "ya no me cabe ni un bocado",
+    "def": "said when you ate so much that you cannot eat more",
+    "note": "Exageración amable después de comer mucho. Versión A2 más sencilla: «I'm full».",
+    "areas": [
+      "hogar",
+      "restaurantes"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "That was amazing, but [I couldn't eat another bite].",
+        "es": "Estuvo increíble, pero ya no me cabe ni un bocado."
+      },
+      {
+        "en": "Dessert? [I couldn't eat another bite].",
+        "es": "¿Postre? Ya no me cabe ni un bocado."
+      }
+    ]
+  },
+  {
+    "id": "col-pay-the-internet-bill",
+    "type": "collocation",
+    "term": "pay the internet bill",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "pagar el internet",
+    "def": "to pay the monthly money for internet service",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Did you [pay the internet bill]?",
+        "es": "¿Pagaste el internet?"
+      },
+      {
+        "en": "I'll [pay the internet bill] on Friday.",
+        "es": "Pago el internet el viernes."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-internet-bill-went-up-again",
+    "type": "phrase",
+    "term": "the internet bill went up again",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "otra vez subió el internet",
+    "def": "said when the price of internet service is higher than before",
+    "note": "Go up = subir (precios). Lo contrario: go down. Versión A2 más sencilla: «pay the internet bill».",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Look at this, [the internet bill went up again].",
+        "es": "Mira esto, otra vez subió el internet."
+      },
+      {
+        "en": "[The internet bill went up again], we should call them.",
+        "es": "Otra vez subió el internet, hay que llamarles."
+      }
+    ]
+  },
+  {
+    "id": "phr-rent-is-due-on-the-first",
+    "type": "phrase",
+    "term": "rent is due on the first",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "la renta se paga el día primero",
+    "def": "said when you must pay rent on the first day of the month",
+    "areas": [
+      "hogar",
+      "bancos",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Remember, [rent is due on the first].",
+        "es": "Acuérdate, la renta se paga el primero."
+      },
+      {
+        "en": "[Rent is due on the first], so I'll send it Monday.",
+        "es": "La renta se paga el primero, así que la mando el lunes."
+      }
+    ]
+  },
+  {
+    "id": "phr-rent-comes-out-on-the-first",
+    "type": "phrase",
+    "term": "rent comes out on the first",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "la renta se cobra el primero",
+    "def": "said when the rent is taken from the bank account automatically",
+    "note": "Come out (of the account) = cargarse a la cuenta. Versión A2 más sencilla: «rent is due on the first».",
+    "areas": [
+      "hogar",
+      "bancos",
+      "vivienda"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Don't spend it, [rent comes out on the first].",
+        "es": "No lo gastes, la renta se cobra el primero."
+      },
+      {
+        "en": "[Rent comes out on the first], so check the balance.",
+        "es": "La renta se cobra el primero, revisa el saldo."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-split-it-fifty-fifty",
+    "type": "phrase",
+    "term": "let's split it fifty-fifty",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "dividámoslo mitad y mitad",
+    "def": "a suggestion to pay half each",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "The vet bill? [Let's split it fifty-fifty].",
+        "es": "¿Lo del veterinario? Dividámoslo mitad y mitad."
+      },
+      {
+        "en": "For groceries, [let's split it fifty-fifty].",
+        "es": "Para el súper, dividamos mitad y mitad."
+      }
+    ]
+  },
+  {
+    "id": "phr-ill-send-you-my-half",
+    "type": "phrase",
+    "term": "I'll send you my half",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "te mando mi mitad",
+    "def": "said when you will transfer your part of a shared cost",
+    "note": "En Canadá el envío entre cuentas suele ser e-transfer. Versión A2 más sencilla: «let's split it fifty-fifty».",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa",
+      "pareja",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Pay the bill and [I'll send you my half].",
+        "es": "Paga la cuenta y te mando mi mitad."
+      },
+      {
+        "en": "Done, [I sent you my half] this morning.",
+        "es": "Listo, te mandé mi mitad en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-paid-you-back",
+    "type": "phrase",
+    "term": "I paid you back",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "ya te pagué",
+    "def": "said when you returned money you owed",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Check your account, [I paid you back].",
+        "es": "Revisa tu cuenta, ya te pagué."
+      },
+      {
+        "en": "[I paid you back] for the pizza.",
+        "es": "Ya te pagué lo de la pizza."
+      }
+    ]
+  },
+  {
+    "id": "phr-were-square",
+    "type": "phrase",
+    "term": "we're square",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "estamos a mano",
+    "def": "said when nobody owes money to the other person anymore",
+    "note": "Informal: «we're even» también funciona. Versión A2 más sencilla: «I paid you back».",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "You paid for dinner, I paid for gas. [We're square].",
+        "es": "Tú pagaste la cena, yo la gasolina. Estamos a mano."
+      },
+      {
+        "en": "Here's twenty. Now [we're square].",
+        "es": "Aquí tienes veinte. Ya estamos a mano."
+      }
+    ]
+  },
+  {
+    "id": "col-pay-the-bills",
+    "type": "collocation",
+    "term": "pay the bills",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "pagar las cuentas",
+    "def": "to pay money for rent, internet, phone and other services",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I [pay the bills] on Sunday night.",
+        "es": "Pago las cuentas el domingo en la noche."
+      },
+      {
+        "en": "Who [pays the bills] in your house?",
+        "es": "¿Quién paga las cuentas en tu casa?"
+      }
+    ]
+  },
+  {
+    "id": "col-set-up-autopay",
+    "type": "collocation",
+    "term": "set up autopay",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "domiciliar el pago",
+    "def": "to arrange for a bill to be paid automatically each month",
+    "note": "Autopay = pago automático; muy común en Canadá. Versión A2 más sencilla: «pay the bills».",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Let's [set up autopay] so we never forget.",
+        "es": "Domiciliemos el pago para no olvidarlo nunca."
+      },
+      {
+        "en": "I [set up autopay] for the phone bill.",
+        "es": "Domicilié el pago del celular."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-on-autopay-dont-worry",
+    "type": "phrase",
+    "term": "it's on autopay, don't worry",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "se paga solo, no te preocupes",
+    "def": "said when a bill is paid automatically",
+    "note": "Versión A2 más sencilla: «I paid the bill».",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "The internet? [It's on autopay, don't worry].",
+        "es": "¿El internet? Se paga solo, no te preocupes."
+      },
+      {
+        "en": "Relax, the power bill — [it's on autopay, don't worry].",
+        "es": "Tranquilo, lo de la luz se paga solo."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-paid-the-bill",
+    "type": "phrase",
+    "term": "I paid the bill",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "ya pagué la cuenta",
+    "def": "said when you have already paid a service",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Don't worry, [I paid the bill].",
+        "es": "No te preocupes, ya pagué la cuenta."
+      },
+      {
+        "en": "[I paid the bill] yesterday online.",
+        "es": "Ayer pagué la cuenta en línea."
+      }
+    ]
+  },
+  {
+    "id": "phr-we-spent-too-much-this-month",
+    "type": "phrase",
+    "term": "we spent too much this month",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "gastamos mucho este mes",
+    "def": "said when you used more money than planned",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[We spent too much this month], no more takeout.",
+        "es": "Gastamos mucho este mes, ya no más comida para llevar."
+      },
+      {
+        "en": "Look at the card, [we spent too much this month].",
+        "es": "Mira la tarjeta, gastamos mucho este mes."
+      }
+    ]
+  },
+  {
+    "id": "phr-we-need-to-cut-back-this-month",
+    "type": "phrase",
+    "term": "we need to cut back this month",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "este mes hay que apretarnos el cinturón",
+    "def": "said when you must spend less money",
+    "note": "Cut back (on) = reducir gastos: cut back on delivery. Versión A2 más sencilla: «we spent too much this month».",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Christmas was expensive. [We need to cut back this month].",
+        "es": "La Navidad salió cara. Este mes hay que apretarnos el cinturón."
+      },
+      {
+        "en": "[We need to cut back this month], so no delivery.",
+        "es": "Este mes hay que recortar, nada de pedir comida."
+      }
+    ]
+  },
+  {
+    "id": "col-make-a-budget",
+    "type": "collocation",
+    "term": "make a budget",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "hacer un presupuesto",
+    "def": "to plan how much money you will spend",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Let's [make a budget] for the month.",
+        "es": "Hagamos un presupuesto para el mes."
+      },
+      {
+        "en": "We [made a budget] when we moved.",
+        "es": "Hicimos un presupuesto cuando nos mudamos."
+      }
+    ]
+  },
+  {
+    "id": "phr-moneys-a-little-tight-right-now",
+    "type": "phrase",
+    "term": "money's a little tight right now",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "ahorita andamos cortos de dinero",
+    "def": "a polite way to say you don't have much money at the moment",
+    "note": "Tight = justo, apretado. Suena más suave que «we have no money». Versión A2 más sencilla: «we spent too much this month».",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Maybe next month, [money's a little tight right now].",
+        "es": "Mejor el próximo mes, ahorita andamos cortos."
+      },
+      {
+        "en": "[Money's a little tight right now], so let's cook.",
+        "es": "Ahorita andamos cortos de dinero, así que cocinemos."
+      }
+    ]
+  },
+  {
+    "id": "phr-how-much-is-the-electricity-bill",
+    "type": "phrase",
+    "term": "how much is the electricity bill?",
+    "level": "A2",
+    "topic": "money",
+    "freq": 5,
+    "es": "¿cuánto llegó la luz?",
+    "def": "a question about the cost of power this month",
+    "note": "En Alberta también se oye power bill; en Ontario, hydro bill.",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "[How much is the electricity bill] this month?",
+        "es": "¿Cuánto llegó la luz este mes?"
+      },
+      {
+        "en": "Winter is here. [How much is the electricity bill]?",
+        "es": "Llegó el invierno. ¿Cuánto llegó la luz?"
+      }
+    ]
+  },
+  {
+    "id": "phr-the-heating-bill-is-going-to-be-brutal",
+    "type": "phrase",
+    "term": "the heating bill is going to be brutal",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "es": "el recibo de la calefacción va a estar durísimo",
+    "def": "said when you expect to pay a lot for heat in winter",
+    "note": "Brutal (informal) = durísimo, terrible. Versión A2 más sencilla: «how much is the electricity bill?».",
+    "areas": [
+      "hogar",
+      "bancos",
+      "canada"
+    ],
+    "tags": [
+      "casa",
+      "ca",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Close the window! [The heating bill is going to be brutal].",
+        "es": "¡Cierra la ventana! La calefacción nos va a salir carísima."
+      },
+      {
+        "en": "It's minus thirty, [the heating bill is going to be brutal].",
+        "es": "Estamos a menos treinta, la calefacción va a salir durísima."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-going-to-the-pharmacy",
+    "type": "phrase",
+    "term": "I'm going to the pharmacy",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "voy a la farmacia",
+    "def": "said when you leave home to buy medicine or personal items",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[I'm going to the pharmacy], need anything?",
+        "es": "Voy a la farmacia, ¿necesitas algo?"
+      },
+      {
+        "en": "After work, [I'm going to the pharmacy].",
+        "es": "Después del trabajo voy a la farmacia."
+      }
+    ]
+  },
+  {
+    "id": "phr-ive-got-a-few-errands-to-run",
+    "type": "phrase",
+    "term": "I've got a few errands to run",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "tengo unos pendientes que hacer",
+    "def": "said when you have small jobs outside like shopping or the bank",
+    "note": "Errands = mandados, vueltas. Run errands = hacer mandados. Versión A2 más sencilla: «I'm going to the pharmacy».",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'll be back at two, [I've got a few errands to run].",
+        "es": "Vuelvo a las dos, tengo unos mandados que hacer."
+      },
+      {
+        "en": "Saturday morning [I've got a few errands to run].",
+        "es": "El sábado en la mañana tengo unas vueltas que dar."
+      }
+    ]
+  },
+  {
+    "id": "phr-can-you-drive-me-to-work",
+    "type": "phrase",
+    "term": "can you drive me to work?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿me llevas al trabajo?",
+    "def": "a request for someone to take you to work in the car",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "It's snowing. [Can you drive me to work]?",
+        "es": "Está nevando. ¿Me llevas al trabajo?"
+      },
+      {
+        "en": "[Can you drive me to work] tomorrow?",
+        "es": "¿Me llevas al trabajo mañana?"
+      }
+    ]
+  },
+  {
+    "id": "phr-can-you-drop-me-off-on-your-way",
+    "type": "phrase",
+    "term": "can you drop me off on your way?",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¿me dejas de pasada?",
+    "def": "a request to be taken somewhere while the other person goes out",
+    "note": "Drop off = dejar a alguien; on your way = de pasada. Versión A2 más sencilla: «can you drive me to work?».",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "The bus is late. [Can you drop me off on your way]?",
+        "es": "El camión viene tarde. ¿Me dejas de pasada?"
+      },
+      {
+        "en": "I'm going downtown too. [Can you drop me off on your way]?",
+        "es": "Yo también voy al centro. ¿Me dejas de pasada?"
+      }
+    ]
+  },
+  {
+    "id": "phr-the-bus-is-late-again",
+    "type": "phrase",
+    "term": "the bus is late again",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "el camión viene tarde otra vez",
+    "def": "said when the bus does not arrive on time",
+    "note": "En México «camión»; en Canadá bus.",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I'll be late, [the bus is late again].",
+        "es": "Voy a llegar tarde, otra vez viene tarde el camión."
+      },
+      {
+        "en": "Twenty minutes! [The bus is late again].",
+        "es": "¡Veinte minutos! El camión viene tarde otra vez."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-just-missed-the-bus",
+    "type": "phrase",
+    "term": "I just missed the bus",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "se me acaba de ir el camión",
+    "def": "said when the bus left just before you arrived",
+    "note": "Miss = perder (un transporte). Just = hace un momento. Versión A2 más sencilla: «the bus is late again».",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Ugh, [I just missed the bus]. Can you get me?",
+        "es": "Uf, se me acaba de ir el camión. ¿Vienes por mí?"
+      },
+      {
+        "en": "[I just missed the bus], so I'll be ten minutes late.",
+        "es": "Se me acaba de ir el camión, llego diez minutos tarde."
+      }
+    ]
+  },
+  {
+    "id": "col-pick-up-a-package",
+    "type": "collocation",
+    "term": "pick up a package",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "recoger un paquete",
+    "def": "to go and get a box that was sent to you",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I need to [pick up a package] at the store.",
+        "es": "Tengo que recoger un paquete en la tienda."
+      },
+      {
+        "en": "I [picked up a package] for you.",
+        "es": "Recogí un paquete para ti."
+      }
+    ]
+  },
+  {
+    "id": "phr-my-package-is-at-the-pickup-point",
+    "type": "phrase",
+    "term": "my package is at the pickup point",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "mi paquete está en el punto de recolección",
+    "def": "said when a delivery was left at a store for you to collect",
+    "note": "Pickup point = lugar donde recoges paquetes. Versión A2 más sencilla: «pick up a package».",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "They missed me, so [my package is at the pickup point].",
+        "es": "No me encontraron, así que mi paquete está en el punto de recolección."
+      },
+      {
+        "en": "[My package is at the pickup point] until Friday.",
+        "es": "Mi paquete está en el punto de recolección hasta el viernes."
+      }
+    ]
+  },
+  {
+    "id": "phr-where-are-the-car-keys",
+    "type": "phrase",
+    "term": "where are the car keys?",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "¿dónde están las llaves del carro?",
+    "def": "a question when you cannot find the keys",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[Where are the car keys]? We're late!",
+        "es": "¿Dónde están las llaves del carro? ¡Vamos tarde!"
+      },
+      {
+        "en": "Babe, [where are the car keys]?",
+        "es": "Amor, ¿dónde están las llaves del carro?"
+      }
+    ]
+  },
+  {
+    "id": "phr-have-you-seen-my-keys-anywhere",
+    "type": "phrase",
+    "term": "have you seen my keys anywhere?",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "¿no has visto mis llaves?",
+    "def": "a question asking if someone noticed your keys somewhere",
+    "note": "Anywhere al final suaviza: «en algún lado». Versión A2 más sencilla: «where are the car keys?».",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[Have you seen my keys anywhere]? I'm going to be late.",
+        "es": "¿No has visto mis llaves? Voy a llegar tarde."
+      },
+      {
+        "en": "Before you leave, [have you seen my keys anywhere]?",
+        "es": "Antes de que te vayas, ¿no has visto mis llaves?"
+      }
+    ]
+  },
+  {
+    "id": "phr-ill-be-back-in-an-hour",
+    "type": "phrase",
+    "term": "I'll be back in an hour",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "regreso en una hora",
+    "def": "said when you leave and tell someone when you will return",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[I'll be back in an hour], feed the cats.",
+        "es": "Regreso en una hora, dales de comer a los gatos."
+      },
+      {
+        "en": "Going to the store, [I'll be back in an hour].",
+        "es": "Voy a la tienda, regreso en una hora."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-wont-be-long",
+    "type": "phrase",
+    "term": "I won't be long",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "no me tardo",
+    "def": "said when you leave for a short time",
+    "note": "Muy natural al salir: I won't be long. Versión A2 más sencilla: «I'll be back in an hour».",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Just going to the store, [I won't be long].",
+        "es": "Nada más voy a la tienda, no me tardo."
+      },
+      {
+        "en": "Start the episode, [I won't be long].",
+        "es": "Empieza el capítulo, no me tardo."
+      }
+    ]
+  },
+  {
+    "id": "phr-we-need-gas",
+    "type": "phrase",
+    "term": "we need gas",
+    "level": "A2",
+    "topic": "daily",
+    "freq": 5,
+    "es": "hay que cargar gasolina",
+    "def": "said when the car needs fuel",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[We need gas] before the highway.",
+        "es": "Hay que cargar gasolina antes de la carretera."
+      },
+      {
+        "en": "The light is on, [we need gas].",
+        "es": "Ya prendió el foquito, hay que cargar gasolina."
+      }
+    ]
+  },
+  {
+    "id": "phr-were-running-on-fumes",
+    "type": "phrase",
+    "term": "we're running on fumes",
+    "level": "B1",
+    "topic": "daily",
+    "freq": 4,
+    "es": "ya vamos en la reserva",
+    "def": "said when the car has almost no fuel left",
+    "note": "Fumes = vapores; expresión informal de que casi no hay gasolina. Versión A2 más sencilla: «we need gas».",
+    "areas": [
+      "hogar",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Pull over at the next station, [we're running on fumes].",
+        "es": "Párate en la próxima gasolinera, ya vamos en la reserva."
+      },
+      {
+        "en": "Don't drive far, [we're running on fumes].",
+        "es": "No manejes lejos, ya vamos en la reserva."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-working-from-home-today",
+    "type": "phrase",
+    "term": "I'm working from home today",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "es": "hoy trabajo desde casa",
+    "def": "said when you will do your job at home and not at the office",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[I'm working from home today], so be quiet at ten.",
+        "es": "Hoy trabajo desde casa, así que silencio a las diez."
+      },
+      {
+        "en": "No traffic! [I'm working from home today].",
+        "es": "¡Sin tráfico! Hoy trabajo desde casa."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-wfh-today",
+    "type": "phrase",
+    "term": "I'm WFH today",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "hoy hago home office",
+    "def": "a short, informal way to say you work from home today",
+    "note": "WFH (work from home) se dice letra por letra o se escribe en chats. Versión A2 más sencilla: «I'm working from home today».",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "No commute, [I'm WFH today].",
+        "es": "Sin traslado, hoy hago home office."
+      },
+      {
+        "en": "Text me, [I'm WFH today].",
+        "es": "Mándame mensaje, hoy hago home office."
+      }
+    ]
+  },
+  {
+    "id": "phr-please-be-quiet-im-working",
+    "type": "phrase",
+    "term": "please be quiet, I'm working",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "es": "silencio por favor, estoy trabajando",
+    "def": "a request for quiet while you work",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "[Please be quiet, I'm working].",
+        "es": "Silencio por favor, estoy trabajando."
+      },
+      {
+        "en": "Kids, [please be quiet, I'm working]!",
+        "es": "Niños, ¡silencio por favor, estoy trabajando!"
+      }
+    ]
+  },
+  {
+    "id": "phr-can-you-keep-it-down-im-on-a-call",
+    "type": "phrase",
+    "term": "can you keep it down? I'm on a call",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "¿le bajas? estoy en una llamada",
+    "def": "a polite request to make less noise during a work call",
+    "note": "Keep it down = hacer menos ruido. Versión A2 más sencilla: «please be quiet, I'm working».",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Babe, [can you keep it down? I'm on a call].",
+        "es": "Amor, ¿le bajas? Estoy en una llamada."
+      },
+      {
+        "en": "Sorry, [can you keep it down? I'm on a call] with my boss.",
+        "es": "Perdón, ¿le bajas? Estoy en llamada con mi jefe."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-internet-is-slow",
+    "type": "phrase",
+    "term": "the internet is slow",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "es": "el internet está lento",
+    "def": "said when the connection is not working well",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[The internet is slow] today.",
+        "es": "Hoy el internet está lento."
+      },
+      {
+        "en": "I can't upload it, [the internet is slow].",
+        "es": "No puedo subirlo, el internet está lento."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-wi-fi-keeps-cutting-out",
+    "type": "phrase",
+    "term": "the Wi-Fi keeps cutting out",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "el wifi se está cortando a cada rato",
+    "def": "said when the internet connection stops again and again",
+    "note": "Keep + -ing = sigue pasando; cut out = cortarse. Versión A2 más sencilla: «the internet is slow».",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Sorry, [the Wi-Fi keeps cutting out].",
+        "es": "Perdón, el wifi se corta a cada rato."
+      },
+      {
+        "en": "[The Wi-Fi keeps cutting out], so I'll turn my camera off.",
+        "es": "El wifi se sigue cortando, apago la cámara."
+      }
+    ]
+  },
+  {
+    "id": "pv-log-on",
+    "type": "phrasal",
+    "term": "log on",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "ipa": "/ˌlɔɡ ˈɑn/",
+    "es": "conectarse (al trabajo o sistema)",
+    "def": "to start using a computer system or online work account",
+    "note": "Intransitivo: I log on at eight. También: log in.",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I usually [log on] at eight.",
+        "es": "Normalmente me conecto a las ocho."
+      },
+      {
+        "en": "She [logged on] early to finish the report.",
+        "es": "Se conectó temprano para terminar el reporte."
+      }
+    ]
+  },
+  {
+    "id": "pv-clock-out",
+    "type": "phrasal",
+    "term": "clock out",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "ipa": "/ˌklɑk ˈaʊt/",
+    "es": "salir del trabajo (registrar salida)",
+    "def": "to officially finish your work time for the day",
+    "note": "Intransitivo. Con home office se usa en sentido figurado: ya terminé.",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "I [clock out] at five, then we can go.",
+        "es": "Salgo a las cinco y luego nos vamos."
+      },
+      {
+        "en": "She [clocked out] early on Friday.",
+        "es": "El viernes salió temprano."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-finish-work-at-five",
+    "type": "phrase",
+    "term": "I finish work at five",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "es": "salgo del trabajo a las cinco",
+    "def": "said to tell someone when your work day ends",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[I finish work at five], let's eat at six.",
+        "es": "Salgo del trabajo a las cinco, comamos a las seis."
+      },
+      {
+        "en": "Today [I finish work at five].",
+        "es": "Hoy salgo del trabajo a las cinco."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-done-for-the-day",
+    "type": "phrase",
+    "term": "I'm done for the day",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "ya terminé por hoy",
+    "def": "said when you finish working and will not do more today",
+    "note": "Done = terminado; muy natural en casa y oficina. Versión A2 más sencilla: «I finish work at five».",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "Laptop closed. [I'm done for the day].",
+        "es": "Laptop cerrada. Ya terminé por hoy."
+      },
+      {
+        "en": "Finally, [I'm done for the day]. Show?",
+        "es": "Por fin, ya terminé por hoy. ¿Serie?"
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-crashed-my-meeting",
+    "type": "phrase",
+    "term": "the cat crashed my meeting",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "el gato se metió en mi junta",
+    "def": "a funny way to say the cat appeared on camera during a video call",
+    "note": "Crash = colarse sin invitación (crash a party). Versión A2 más sencilla: «the cat is on my keyboard».",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa",
+      "mascotas",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Everyone laughed, [the cat crashed my meeting].",
+        "es": "Todos se rieron, el gato se metió en mi junta."
+      },
+      {
+        "en": "[The cat crashed my meeting] and sat on the keyboard.",
+        "es": "El gato se coló en mi junta y se sentó en el teclado."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-cat-is-on-my-keyboard",
+    "type": "phrase",
+    "term": "the cat is on my keyboard",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "es": "el gato está en mi teclado",
+    "def": "said when the cat sits on your computer while you work",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa",
+      "mascotas"
+    ],
+    "ex": [
+      {
+        "en": "Help, [the cat is on my keyboard]!",
+        "es": "¡Ayuda, el gato está en mi teclado!"
+      },
+      {
+        "en": "Sorry for the typo, [the cat is on my keyboard].",
+        "es": "Perdón por el error, el gato está en mi teclado."
+      }
+    ]
+  },
+  {
+    "id": "phr-i-need-a-coffee-break",
+    "type": "phrase",
+    "term": "I need a coffee break",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "es": "necesito un descanso para un café",
+    "def": "said when you want to stop working for a short time",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa"
+    ],
+    "ex": [
+      {
+        "en": "[I need a coffee break], want one?",
+        "es": "Necesito un descanso para un café, ¿quieres uno?"
+      },
+      {
+        "en": "Two meetings in a row. [I need a coffee break].",
+        "es": "Dos juntas seguidas. Necesito un café."
+      }
+    ]
+  },
+  {
+    "id": "phr-im-going-to-take-five",
+    "type": "phrase",
+    "term": "I'm going to take five",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "es": "me voy a tomar cinco minutos",
+    "def": "said when you take a short break",
+    "note": "Take five = descanso corto (cinco minutos o así). Versión A2 más sencilla: «I need a coffee break».",
+    "areas": [
+      "hogar",
+      "reuniones"
+    ],
+    "tags": [
+      "casa",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "My eyes hurt. [I'm going to take five].",
+        "es": "Me duelen los ojos. Me tomo cinco minutos."
+      },
+      {
+        "en": "After this email [I'm going to take five].",
+        "es": "Después de este correo me tomo cinco minutos."
+      }
+    ]
+  },
+  {
+    "id": "col-shovel-the-snow",
+    "type": "collocation",
+    "term": "shovel the snow",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "quitar la nieve con pala",
+    "def": "to move snow away with a big shovel",
+    "note": "En Canadá es tarea de casa; muchas ciudades exigen limpiar la banqueta.",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "We need to [shovel the snow] before work.",
+        "es": "Tenemos que quitar la nieve antes del trabajo."
+      },
+      {
+        "en": "I [shoveled the snow] for an hour.",
+        "es": "Quité la nieve durante una hora."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-your-turn-to-shovel",
+    "type": "phrase",
+    "term": "it's your turn to shovel",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "te toca palear la nieve",
+    "def": "said when the other person must clear the snow this time",
+    "note": "Shovel = pala y también el verbo palear. Versión A2 más sencilla: «shovel the snow».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "I did it yesterday, [it's your turn to shovel].",
+        "es": "Yo lo hice ayer, te toca palear la nieve."
+      },
+      {
+        "en": "Good morning! [It's your turn to shovel].",
+        "es": "¡Buenos días! Te toca palear la nieve."
+      }
+    ]
+  },
+  {
+    "id": "pv-shovel-out",
+    "type": "phrasal",
+    "term": "shovel out",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "ipa": "/ˌʃʌvəl ˈaʊt/",
+    "sep": true,
+    "es": "sacar con pala (de la nieve)",
+    "def": "to clear snow around something, like a car or door, using a shovel",
+    "note": "Separable: shovel it out. Shovel out the car = desenterrar el carro.",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "We had to [shovel out] the car this morning.",
+        "es": "Tuvimos que sacar el carro de la nieve en la mañana."
+      },
+      {
+        "en": "Can you [shovel out] the front door?",
+        "es": "¿Puedes quitar la nieve de la puerta?"
+      }
+    ]
+  },
+  {
+    "id": "phr-its-very-cold-today",
+    "type": "phrase",
+    "term": "it's very cold today",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "hoy hace mucho frío",
+    "def": "said when the temperature is very low",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Wear a hat, [it's very cold today].",
+        "es": "Ponte gorro, hoy hace mucho frío."
+      },
+      {
+        "en": "[It's very cold today], let's stay inside.",
+        "es": "Hoy hace mucho frío, quedémonos adentro."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-freezing-out-there",
+    "type": "phrase",
+    "term": "it's freezing out there",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "afuera está helando",
+    "def": "said when it is extremely cold outside",
+    "note": "Freezing = helado; out there = allá afuera. Versión A2 más sencilla: «it's very cold today».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Close the door, [it's freezing out there].",
+        "es": "Cierra la puerta, afuera está helando."
+      },
+      {
+        "en": "Take my scarf, [it's freezing out there].",
+        "es": "Llévate mi bufanda, afuera está helando."
+      }
+    ]
+  },
+  {
+    "id": "phr-did-you-plug-in-the-car",
+    "type": "phrase",
+    "term": "did you plug in the car?",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "¿conectaste el carro?",
+    "def": "a question to check if the car is connected to power for the cold night",
+    "note": "En Edmonton se conecta el calentador del motor en noches muy frías.",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "It's minus thirty. [Did you plug in the car]?",
+        "es": "Estamos a menos treinta. ¿Conectaste el carro?"
+      },
+      {
+        "en": "Before bed, [did you plug in the car]?",
+        "es": "Antes de dormir, ¿conectaste el carro?"
+      }
+    ]
+  },
+  {
+    "id": "phr-its-supposed-to-hit-minus-thirty-tonight",
+    "type": "phrase",
+    "term": "it's supposed to hit minus thirty tonight",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "dicen que hoy va a llegar a menos treinta",
+    "def": "said when the forecast says it will be extremely cold tonight",
+    "note": "Hit = llegar a (una cifra). Supposed to = según dicen. Versión A2 más sencilla: «did you plug in the car?».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Plug in the car, [it's supposed to hit minus thirty tonight].",
+        "es": "Conecta el carro, dicen que hoy llega a menos treinta."
+      },
+      {
+        "en": "[It's supposed to hit minus thirty tonight], so no going out.",
+        "es": "Dicen que hoy llega a menos treinta, así que no salimos."
+      }
+    ]
+  },
+  {
+    "id": "phr-wear-your-winter-boots",
+    "type": "phrase",
+    "term": "wear your winter boots",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "ponte las botas de invierno",
+    "def": "an instruction to use warm boots for snow",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "It snowed, [wear your winter boots].",
+        "es": "Nevó, ponte las botas de invierno."
+      },
+      {
+        "en": "Kids, [wear your winter boots] today!",
+        "es": "¡Niños, pónganse las botas de invierno!"
+      }
+    ]
+  },
+  {
+    "id": "phr-bundle-up-its-brutal-out-there",
+    "type": "phrase",
+    "term": "bundle up, it's brutal out there",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "abrígate bien, afuera está terrible",
+    "def": "a warning to dress very warmly because the weather is very cold",
+    "note": "Bundle up = abrigarse mucho. Brutal (informal) = terrible. Versión A2 más sencilla: «wear your winter boots».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Bundle up, it's brutal out there].",
+        "es": "Abrígate bien, afuera está terrible."
+      },
+      {
+        "en": "Grab the big coat. [Bundle up, it's brutal out there].",
+        "es": "Agarra el abrigo grande. Afuera está terrible."
+      }
+    ]
+  },
+  {
+    "id": "col-turn-up-the-heat",
+    "type": "collocation",
+    "term": "turn up the heat",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "subirle a la calefacción",
+    "def": "to make the heating in the house warmer",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "I'm cold, can you [turn up the heat]?",
+        "es": "Tengo frío, ¿le subes a la calefacción?"
+      },
+      {
+        "en": "I [turned up the heat] a little.",
+        "es": "Le subí tantito a la calefacción."
+      }
+    ]
+  },
+  {
+    "id": "phr-who-touched-the-thermostat",
+    "type": "phrase",
+    "term": "who touched the thermostat?",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "¿quién le movió al termostato?",
+    "def": "a funny complaint when someone changed the house temperature",
+    "note": "Thermostat se pronuncia «zérmostat». Pelea clásica de pareja. Versión A2 más sencilla: «turn up the heat».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "It's like a sauna. [Who touched the thermostat]?",
+        "es": "Parece sauna. ¿Quién le movió al termostato?"
+      },
+      {
+        "en": "OK, be honest. [Who touched the thermostat]?",
+        "es": "A ver, sean honestos. ¿Quién le movió al termostato?"
+      }
+    ]
+  },
+  {
+    "id": "phr-the-driveway-is-icy",
+    "type": "phrase",
+    "term": "the driveway is icy",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "la entrada está congelada",
+    "def": "a warning that the area in front of the garage is slippery with ice",
+    "note": "Driveway = la entrada para el carro frente a la casa.",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Be careful, [the driveway is icy].",
+        "es": "Ten cuidado, la entrada está congelada."
+      },
+      {
+        "en": "[The driveway is icy], let's put salt on it.",
+        "es": "La entrada está congelada, echémosle sal."
+      }
+    ]
+  },
+  {
+    "id": "phr-watch-your-step-its-slippery",
+    "type": "phrase",
+    "term": "watch your step, it's slippery",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "cuidado al pisar, está resbaloso",
+    "def": "a warning to walk carefully because the ground is slippery",
+    "note": "Watch your step = fíjate dónde pisas. Versión A2 más sencilla: «the driveway is icy».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "[Watch your step, it's slippery] by the door.",
+        "es": "Cuidado al pisar, está resbaloso junto a la puerta."
+      },
+      {
+        "en": "Hold my arm. [Watch your step, it's slippery].",
+        "es": "Agárrate de mi brazo. Cuidado, está resbaloso."
+      }
+    ]
+  },
+  {
+    "id": "col-salt-the-steps",
+    "type": "collocation",
+    "term": "salt the steps",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "echarle sal a los escalones",
+    "def": "to put salt on outside stairs so the ice melts",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Can you [salt the steps] before the delivery comes?",
+        "es": "¿Le echas sal a los escalones antes de que llegue el pedido?"
+      },
+      {
+        "en": "I [salted the steps] this morning.",
+        "es": "Le eché sal a los escalones en la mañana."
+      }
+    ]
+  },
+  {
+    "id": "phr-its-snowing-a-lot",
+    "type": "phrase",
+    "term": "it's snowing a lot",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "está nevando mucho",
+    "def": "said when a lot of snow is falling",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Look outside, [it's snowing a lot]!",
+        "es": "Mira afuera, ¡está nevando mucho!"
+      },
+      {
+        "en": "[It's snowing a lot], so drive slowly.",
+        "es": "Está nevando mucho, maneja despacio."
+      }
+    ]
+  },
+  {
+    "id": "phr-we-got-dumped-on-last-night",
+    "type": "phrase",
+    "term": "we got dumped on last night",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "anoche cayó un nevadón",
+    "def": "an informal way to say a lot of snow fell last night",
+    "note": "Dump = soltar de golpe; get dumped on = recibir mucha nieve. Versión A2 más sencilla: «it's snowing a lot».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Look at the car! [We got dumped on last night].",
+        "es": "¡Mira el carro! Anoche cayó un nevadón."
+      },
+      {
+        "en": "[We got dumped on last night], so I'm working from home.",
+        "es": "Anoche cayó un nevadón, así que trabajo desde casa."
+      }
+    ]
+  },
+  {
+    "id": "phr-close-the-door-its-cold",
+    "type": "phrase",
+    "term": "close the door, it's cold",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "cierra la puerta, hace frío",
+    "def": "a request to shut the door to keep the warm air inside",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Hurry, [close the door, it's cold]!",
+        "es": "¡Apúrate, cierra la puerta, hace frío!"
+      },
+      {
+        "en": "The cat is out! [Close the door, it's cold].",
+        "es": "¡El gato salió! Cierra la puerta, hace frío."
+      }
+    ]
+  },
+  {
+    "id": "phr-youre-letting-all-the-heat-out",
+    "type": "phrase",
+    "term": "you're letting all the heat out",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "se está saliendo todo el calor",
+    "def": "a complaint when someone keeps the door open in winter",
+    "note": "Let out = dejar salir. Queja clásica de papás canadienses. Versión A2 más sencilla: «close the door, it's cold».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "In or out? [You're letting all the heat out]!",
+        "es": "¿Entras o sales? ¡Se está saliendo todo el calor!"
+      },
+      {
+        "en": "Close it, [you're letting all the heat out].",
+        "es": "Ciérrala, se está saliendo todo el calor."
+      }
+    ]
+  },
+  {
+    "id": "col-clean-the-snow-off-the-car",
+    "type": "collocation",
+    "term": "clean the snow off the car",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 5,
+    "es": "quitarle la nieve al carro",
+    "def": "to remove snow from the car before you drive",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "I'll [clean the snow off the car].",
+        "es": "Yo le quito la nieve al carro."
+      },
+      {
+        "en": "It took ten minutes to [clean the snow off the car].",
+        "es": "Tardé diez minutos en quitarle la nieve al carro."
+      }
+    ]
+  },
+  {
+    "id": "phr-the-windshield-is-frosted-over",
+    "type": "phrase",
+    "term": "the windshield is frosted over",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "el parabrisas está escarchado",
+    "def": "said when ice covers the car window",
+    "note": "Frost over = cubrirse de escarcha. Versión A2 más sencilla: «clean the snow off the car».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "Start the car, [the windshield is frosted over].",
+        "es": "Prende el carro, el parabrisas está escarchado."
+      },
+      {
+        "en": "I'm late because [the windshield was frosted over].",
+        "es": "Llego tarde porque el parabrisas estaba escarchado."
+      }
+    ]
+  },
+  {
+    "id": "phr-lets-stay-in-and-keep-warm",
+    "type": "phrase",
+    "term": "let's stay in and keep warm",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "es": "quedémonos adentro calientitos",
+    "def": "a suggestion to stay at home where it is warm",
+    "note": "Stay in = quedarse en casa; keep warm = mantenerse calientito. Versión A2 más sencilla: «let's stay home tonight».",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Minus thirty? [Let's stay in and keep warm].",
+        "es": "¿Menos treinta? Quedémonos adentro calientitos."
+      },
+      {
+        "en": "Cancel the plans. [Let's stay in and keep warm].",
+        "es": "Cancela los planes. Quedémonos adentro calientitos."
+      }
+    ]
+  },
+  {
+    "id": "pv-cozy-up",
+    "type": "phrasal",
+    "term": "cozy up",
+    "level": "B1",
+    "topic": "canada",
+    "freq": 4,
+    "ipa": "/ˌkoʊzi ˈʌp/",
+    "es": "acurrucarse (para estar calientito)",
+    "def": "to get close and comfortable, usually with a blanket or person",
+    "note": "Intransitivo: cozy up by the fire. Cozy en EE. UU./Canadá (cosy en RU).",
+    "areas": [
+      "hogar",
+      "canada",
+      "transporte"
+    ],
+    "tags": [
+      "casa",
+      "ca",
+      "pareja"
+    ],
+    "ex": [
+      {
+        "en": "Let's [cozy up] with tea and a movie.",
+        "es": "Acurruquémonos con un té y una película."
+      },
+      {
+        "en": "We [cozied up] under the blanket all evening.",
+        "es": "Nos acurrucamos bajo la cobija toda la tarde."
+      }
+    ]
+  },
+  {
+    "id": "pv-fall-behind-on",
+    "type": "phrasal",
+    "term": "fall behind on",
+    "level": "B1",
+    "topic": "money",
+    "freq": 4,
+    "ipa": "/ˌfɔl bɪˈhaɪnd ɑn/",
+    "sep": false,
+    "es": "atrasarse con (pagos, tareas)",
+    "def": "to not do or pay something on time",
+    "note": "Inseparable: fall behind on the bills / on the laundry.",
+    "areas": [
+      "hogar",
+      "bancos"
+    ],
+    "tags": [
+      "casa",
+      "ca"
+    ],
+    "ex": [
+      {
+        "en": "We can't [fall behind on] rent.",
+        "es": "No podemos atrasarnos con la renta."
+      },
+      {
+        "en": "I [fell behind on] the laundry this week.",
+        "es": "Esta semana me atrasé con la ropa."
+      }
+    ]
+  }
+]

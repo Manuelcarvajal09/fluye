@@ -5,6 +5,7 @@ export type AreaGroup = "vida" | "trabajo" | "ciencia" | "extra";
 
 export const AREAS = [
   { id: "conversacion", label: "Conversaciones cotidianas", group: "vida" },
+  { id: "hogar", label: "Vida diaria y hogar", group: "vida" },
   { id: "relaciones", label: "Amigos, pareja y familia", group: "vida" },
   { id: "restaurantes", label: "Restaurantes y cafeterías", group: "vida" },
   { id: "compras", label: "Supermercado y compras", group: "vida" },

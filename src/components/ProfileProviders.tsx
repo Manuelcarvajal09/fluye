@@ -11,7 +11,7 @@ export function ProfileProviders({ profile, children }: { profile: Profile; chil
   const look = lookOf(s.look);
   return (
     <LookProvider look={{ ...look }} celebrations={s.celebrations !== false}>
-      <Prefs theme={s.theme} voice={s.voice} rate={s.rate} accent={s.accent} autoplay={s.autoplay} tz={profile.tz} engine={s.engine} hdVoice={s.hdVoice} sfx={s.sfx} colorAccent={look.accent} motion={s.motion} />
+      <Prefs theme={s.theme} voice={s.voice} rate={s.rate} accent={s.accent} autoplay={s.autoplay} tz={profile.tz} engine={s.engine} hdVoice={s.hdVoice} sfx={s.sfx} colorAccent={look.accent} motion={s.motion} themePack={s.themePack ?? null} />
       <VoiceNotice />
       {children}
     </LookProvider>

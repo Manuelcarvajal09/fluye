@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { eq } from "drizzle-orm";
-import { Search, ChevronRight } from "lucide-react";
-import { IcoBook, IcoCards, IcoChat, IcoMap, IcoMic, IcoMusic, IcoPencil, IcoPepper, IcoPuzzle, IcoStar, IcoTv } from "@/components/Icons";
+import { Search, ChevronRight, MapIcon } from "lucide-react";
+import { IcoBook, IcoCards, IcoChat, IcoJournal, IcoMap, IcoMic, IcoMusic, IcoPencil, IcoPepper, IcoPuzzle, IcoStar, IcoTv } from "@/components/Icons";
 import { db, schema } from "@/db";
 import { requireProfile } from "@/lib/user";
 import { ITEMS, ROUTES, MUSIC, ROLEPLAYS, SOUNDS, SERIES, getScene } from "@/lib/content";
@@ -29,26 +29,58 @@ export default async function Explore() {
           <label htmlFor="q" className="sr-only">
             Buscar en la biblioteca
           </label>
-          <input id="q" name="q" placeholder="Busca una palabra o expresión: give up, I'm down…" className="h-13 w-full rounded-full border border-line bg-surface pl-12 pr-4 font-bold outline-none focus:border-accent" />
+          <input id="q" name="q" placeholder="Busca: give up, I'm down…" className="h-13 w-full rounded-full border border-line bg-surface pl-12 pr-4 font-bold outline-none focus:border-accent" />
         </form>
       </header>
 
-      <nav aria-label="Accesos directos" className="-mt-3 flex max-w-full flex-wrap gap-2">
-        <Link href="/repaso" className="chip-btn">
-          <IcoCards size={20} /> Repaso {due > 0 && <span className="count">{due > 99 ? "99+" : due}</span>}
-        </Link>
-        <Link href="/biblioteca" className="chip-btn">
-          <IcoBook size={20} /> Biblioteca
-        </Link>
-        <Link href="/biblioteca/colecciones" className="chip-btn">
-          <IcoStar size={20} /> Mis colecciones
-        </Link>
-        <Link href="/practicar" className="chip-btn">
-          <IcoChat size={20} /> Conversaciones
-        </Link>
-        <Link href="/sonidos" className="chip-btn">
-          <IcoMic size={20} /> Pronunciación
-        </Link>
+      {/* Accesos agrupados por intención: aprender, practicar y lo tuyo (antes, una nube de botones sin orden). */}
+      <nav aria-label="Accesos directos" className="-mt-3 grid gap-3 md:grid-cols-3">
+        {(
+          [
+            {
+              title: "Aprender",
+              links: [
+                { href: "/mapa", label: "Tu viaje (A1–C2)", icon: <MapIcon size={20} aria-hidden /> },
+                { href: "/lecturas", label: "Lecturas", icon: <IcoBook size={20} /> },
+                { href: "/noticias", label: "Noticia de Canadá", icon: <IcoPencil size={20} /> },
+                { href: "/practicar/gramatica", label: "Gramática e IELTS", icon: <IcoPuzzle size={20} /> },
+              ],
+            },
+            {
+              title: "Practicar",
+              links: [
+                { href: "/practicar", label: "Conversaciones", icon: <IcoChat size={20} /> },
+                { href: "/practicar/entrevistas", label: "Entrevistas", icon: <IcoChat size={20} /> },
+                { href: "/sonidos", label: "Pronunciación", icon: <IcoMic size={20} /> },
+                { href: "/repaso", label: "Repaso", icon: <IcoCards size={20} />, count: due },
+              ],
+            },
+            {
+              title: "Lo tuyo",
+              links: [
+                { href: "/biblioteca", label: "Biblioteca", icon: <IcoBook size={20} /> },
+                { href: "/biblioteca/colecciones", label: "Mis colecciones", icon: <IcoStar size={20} /> },
+                { href: "/diario", label: "Diario", icon: <IcoJournal size={20} /> },
+              ],
+            },
+          ] as { title: string; links: { href: string; label: string; icon: React.ReactNode; count?: number }[] }[]
+        ).map((g) => (
+          <div key={g.title} className="module flex flex-col gap-2 p-4">
+            <p className="eyebrow">{g.title}</p>
+            <ul className="flex flex-col">
+              {g.links.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="explore-row">
+                    {l.icon}
+                    <span className="flex-1 font-bold">{l.label}</span>
+                    {!!l.count && <span className="count-badge">{l.count > 99 ? "99+" : l.count}</span>}
+                    <ChevronRight size={16} className="text-muted" aria-hidden />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </nav>
 
       <section aria-labelledby="misiones">

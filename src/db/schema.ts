@@ -1,4 +1,4 @@
-import { pgTable, text, integer, timestamp, jsonb, primaryKey, index, uniqueIndex, real, date, bigserial, smallint, boolean } from "drizzle-orm/pg-core";
+import { customType, pgTable, text, integer, timestamp, jsonb, primaryKey, index, uniqueIndex, real, date, bigserial, smallint, boolean } from "drizzle-orm/pg-core";
 
 /** Perfil y preferencias. user_id = id de Clerk. */
 export const profiles = pgTable("profiles", {
@@ -17,11 +17,11 @@ export const profiles = pgTable("profiles", {
   onboardedAt: timestamp("onboarded_at", { withTimezone: true }),
   /** Gemas: la única moneda de la app (cosmética; nunca afecta FSRS ni bloquea el aprendizaje). Saldo inicial 120. */
   gems: integer("gems").notNull().default(120),
-  /** Protectores de racha disponibles (máx. 2). */
+  /** Protectores de racha disponibles (máx. 3, ver FREEZE en wardrobe.ts). */
   freezes: smallint("freezes").notNull().default(0),
   /** Retirada en 3.2: su saldo pasó a gemas. Se conserva la columna solo por compatibilidad de datos. */
   coins: integer("coins").notNull().default(0),
-  /** Vidas: se pierden con errores en lecciones (nunca bloquean el estudio) y se recuperan practicando. */
+  /** Vidas: se pierden con errores en lecciones; con 0 no hay lecciones nuevas (el repaso sigue) y se recuperan practicando. */
   lives: smallint("lives").notNull().default(5),
   /** Último día local en que se entregó la vida extra diaria. */
   livesDay: date("lives_day"),
@@ -305,4 +305,124 @@ export const collectionItems = pgTable(
     addedAt: timestamp("added_at", { withTimezone: true }).notNull().defaultNow(),
   },
   (t) => [primaryKey({ columns: [t.collectionId, t.itemId] }), index("collection_items_user_idx").on(t.userId, t.itemId)],
+);
+
+/**
+ * Permisos especiales por cuenta (los concede el propietario en Administrar). Los propietarios (OWNER_USER_IDS)
+ * los tienen todos sin fila. Ningún id de cuenta va en el código.
+ */
+export const memberPerks = pgTable("member_perks", {
+  userId: text("user_id").primaryKey(),
+  /** Vidas ilimitadas: los errores no restan vidas y nunca se bloquean las lecciones nuevas. */
+  unlimitedLives: boolean("unlimited_lives").notNull().default(false),
+  /** Todas las temáticas legendarias desbloqueadas. */
+  allThemes: boolean("all_themes").notNull().default(false),
+  grantedBy: text("granted_by"),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/** Liga de cada cuenta por semana (lunes, hora de Edmonton). Al cerrar la semana se congela el XP y el resultado. */
+export const leagueMembers = pgTable(
+  "league_members",
+  {
+    userId: text("user_id").notNull(),
+    week: date("week").notNull(),
+    /** Nivel de liga (0 = Semilla … 7 = Cumbre). */
+    tier: smallint("tier").notNull().default(0),
+    xp: integer("xp"),
+    rank: smallint("rank"),
+    groupSize: smallint("group_size"),
+    /** up | stay | down (al cerrar la semana). */
+    result: text("result"),
+    /** Ya vio el aviso del resultado. */
+    seen: boolean("seen").notNull().default(false),
+    joinedAt: timestamp("joined_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.week] }), index("league_week_tier_idx").on(t.week, t.tier)],
+);
+
+/** Semanas de liga ya cerradas (cierre idempotente: la primera visita tras el domingo cierra la semana para todos). */
+export const leagueWeeks = pgTable("league_weeks", {
+  week: date("week").primaryKey(),
+  closedAt: timestamp("closed_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/** bytea (imágenes del diario). Drizzle no trae el tipo: se declara aquí. Postgres lo devuelve como texto "\x…" en hexadecimal. */
+const HEX = String.fromCharCode(92) + "x";
+const bytea = customType<{ data: Buffer; driverData: Buffer | string }>({
+  dataType: () => "bytea",
+  fromDriver: (v) => (typeof v === "string" ? Buffer.from(v.startsWith(HEX) ? v.slice(2) : v, "hex") : v),
+});
+
+/** Diario: una entrada por día y cuenta (ánimo, actividades, respuestas opcionales y lo aprendido). Solo la ve su dueño. */
+export const journalEntries = pgTable(
+  "journal_entries",
+  {
+    userId: text("user_id").notNull(),
+    day: date("day").notNull(),
+    mood: smallint("mood"),
+    activities: jsonb("activities").$type<string[]>().notNull().default([]),
+    answers: jsonb("answers").$type<Record<string, string>>().notNull().default({}),
+    englishLine: text("english_line").notNull().default(""),
+    learned: text("learned").notNull().default(""),
+    updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.day] })],
+);
+
+/** Fotos del diario, comprimidas en el navegador (WebP ≤ 1280 px). Máximo 3 por día. Solo las ve su dueño. */
+export const journalPhotos = pgTable(
+  "journal_photos",
+  {
+    id: text("id").primaryKey(),
+    userId: text("user_id").notNull(),
+    day: date("day").notNull(),
+    mime: text("mime").notNull(),
+    data: bytea("data").notNull(),
+    w: smallint("w").notNull(),
+    h: smallint("h").notNull(),
+    size: integer("size").notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index("journal_photos_user_day_idx").on(t.userId, t.day)],
+);
+
+/** Noticia de Canadá del día (comunicados de canada.ca, reproducidos sin fines comerciales con su atribución). */
+export const dailyNews = pgTable("daily_news", {
+  day: date("day").primaryKey(),
+  title: text("title").notNull(),
+  summary: text("summary").notNull().default(""),
+  body: jsonb("body").$type<string[]>().notNull().default([]),
+  url: text("url").notNull(),
+  source: text("source").notNull(),
+  category: text("category").notNull().default(""),
+  publishedAt: timestamp("published_at", { withTimezone: true }),
+  fetchedAt: timestamp("fetched_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/** Lecturas terminadas (puntuación) y reflexión opcional que ven las amistades en el club de lectura. */
+export const readingProgress = pgTable(
+  "reading_progress",
+  {
+    userId: text("user_id").notNull(),
+    readingId: text("reading_id").notNull(),
+    score: smallint("score").notNull(),
+    total: smallint("total").notNull(),
+    reflection: text("reflection").notNull().default(""),
+    completedAt: timestamp("completed_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.readingId] })],
+);
+
+/** Reacciones entre amistades (emoji) a una lectura del club o a un resultado de liga. Una por persona y objetivo. */
+export const socialReactions = pgTable(
+  "social_reactions",
+  {
+    fromUser: text("from_user").notNull(),
+    toUser: text("to_user").notNull(),
+    target: text("target").notNull(),
+    emoji: text("emoji").notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.fromUser, t.toUser, t.target] }), index("reactions_to_idx").on(t.toUser, t.target)],
 );

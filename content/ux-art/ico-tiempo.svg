@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<g id="ico-tiempo"><!-- origen: 16,16 --><rect fill="#9a5b00" x="13" y="2" width="6" height="4" rx="1.5"/><rect fill="#ffe193" x="14" y="1" width="4" height="2" rx="1"/><circle fill="#9a5b00" cx="16" cy="17" r="12.1"/><circle fill="#ffc25e" cx="16" cy="15.5" r="12.1"/><circle fill="#ffe193" cx="16" cy="15.5" r="9.4"/><circle fill="#fff3cb" cx="16" cy="15.2" r="7.8"/><path fill="#192337" d="M16 9.1c.8 0 1.4.6 1.4 1.4v4.3l3.5 2a1.4 1.4 0 1 1-1.4 2.4l-4.2-2.5a1.4 1.4 0 0 1-.7-1.2v-5c0-.8.6-1.4 1.4-1.4Z"/><circle fill="#ed8a55" cx="16" cy="15.6" r="1.65"/></g>
+</svg>

@@ -1,0 +1,2182 @@
+[
+  {
+    "id": "gr-articles",
+    "order": 19,
+    "name_en": "Articles: a, an, the and zero article",
+    "title_es": "Artículos: a, an, the y cuándo no poner artículo",
+    "group": "estructuras",
+    "level": "A2",
+    "use_es": "Los artículos dicen si hablamos de algo cualquiera (a/an), de algo concreto que los dos ya identificamos (the) o de algo en general (sin artículo). Se parecen a un/una y el/la, pero hay dos grandes diferencias con el español: en inglés las profesiones llevan a/an (I'm a nurse = soy enfermera) y lo general va sin artículo (Coffee is expensive = el café está caro). Usarlos bien hace que tu inglés suene mucho más natural.",
+    "steps": [
+      {
+        "title_es": "A y an: uno cualquiera, contable y en singular",
+        "body_es": "A y an equivalen a un/una, pero solo van con sustantivos contables en singular (cosas que se pueden contar: a job, a bus, an apartment). La elección entre a y an depende del SONIDO, no de la letra: an va antes de sonido de vocal (an apple, an hour, porque la h no suena) y a antes de sonido de consonante (a university, porque suena «yu»). Úsalos cuando mencionas algo por primera vez o cuando no importa cuál es exactamente. Con plurales o con cosas incontables no hay a/an: no se dice *a furnitures* ni *a advices*.",
+        "examples": [
+          {
+            "en": "I need a winter jacket before November.",
+            "es": "Necesito una chamarra de invierno antes de noviembre."
+          },
+          {
+            "en": "I waited an hour for a taxi.",
+            "es": "Esperé un taxi durante una hora."
+          },
+          {
+            "en": "He studies at a university in Edmonton.",
+            "es": "Estudia en una universidad de Edmonton."
+          }
+        ],
+        "table": [
+          [
+            "a + sonido de consonante",
+            "a car, a uniform, a one-bedroom apartment"
+          ],
+          [
+            "an + sonido de vocal",
+            "an email, an hour, an MBA"
+          ],
+          [
+            "sin a/an",
+            "plurales (jobs) e incontables (work, advice, money)"
+          ]
+        ]
+      },
+      {
+        "title_es": "The: algo concreto que ya sabemos cuál es",
+        "body_es": "The equivale a el/la/los/las y sirve para singular y plural. Se usa cuando el que escucha sabe exactamente de qué cosa hablas: porque ya la mencionaste (I bought a lamp. The lamp is blue.), porque es única en ese contexto (the manager de tu trabajo, the sun) o porque la frase la define (the bus that goes downtown). Truco: si en español dirías «ese/esa» o «el que…», casi seguro va the. También va con superlativos (the best) y con ordinales (the first day).",
+        "examples": [
+          {
+            "en": "I found an apartment. The rent is a bit high, though.",
+            "es": "Encontré un departamento. Aunque la renta está un poco alta."
+          },
+          {
+            "en": "Can you ask the landlord about the heating?",
+            "es": "¿Le puedes preguntar al casero por la calefacción?"
+          },
+          {
+            "en": "The first week at a new job is always tiring.",
+            "es": "La primera semana en un trabajo nuevo siempre cansa."
+          }
+        ]
+      },
+      {
+        "title_es": "Sin artículo: hablar en general",
+        "body_es": "Esta es la trampa más grande para quien habla español. Cuando hablamos de algo en general (todos los perros, la gente, el dinero como concepto), el inglés NO pone artículo: Dogs need exercise, People are friendly here, Money doesn't buy happiness. En español decimos «los perros», «la gente», «el dinero», pero en inglés poner the haría que suene a unos perros o un dinero concretos. Tampoco llevan artículo los idiomas (I speak Spanish), las comidas en general (We had lunch), los deportes (I play soccer) ni la mayoría de los nombres de países y ciudades (Canada, Mexico, Edmonton).",
+        "examples": [
+          {
+            "en": "Rent is more expensive in big cities.",
+            "es": "La renta es más cara en las ciudades grandes."
+          },
+          {
+            "en": "Life in Canada is quieter than I expected.",
+            "es": "La vida en Canadá es más tranquila de lo que esperaba."
+          },
+          {
+            "en": "We usually have breakfast at seven.",
+            "es": "Normalmente desayunamos a las siete."
+          }
+        ]
+      },
+      {
+        "title_es": "Expresiones fijas y casos especiales",
+        "body_es": "Hay frases que se aprenden de memoria. Sin artículo: go to work, go to school, go to bed, at home, by bus, in class. Ojo: en Norteamérica se dice in the hospital, con the (en Reino Unido, in hospital). Con the: the United States, the Netherlands, the Philippines (países con plural o con palabras como States, Kingdom, Republic), the Rocky Mountains, the North Saskatchewan River, the internet, the weekend. Ojo con la diferencia: go to school (a estudiar, el propósito normal) frente a go to the school (ir al edificio, por ejemplo a una junta de padres).",
+        "examples": [
+          {
+            "en": "I go to work by bus when it snows.",
+            "es": "Me voy al trabajo en camión cuando nieva."
+          },
+          {
+            "en": "My cousin lives in the United States.",
+            "es": "Mi primo vive en Estados Unidos."
+          },
+          {
+            "en": "She went to the school to talk to her son's teacher.",
+            "es": "Fue a la escuela a hablar con la maestra de su hijo."
+          }
+        ],
+        "table": [
+          [
+            "go to work / school / bed",
+            "sin artículo: la actividad habitual"
+          ],
+          [
+            "at home / by car / on foot",
+            "sin artículo"
+          ],
+          [
+            "the United States, the UK",
+            "con the: nombres con States, Kingdom o en plural"
+          ],
+          [
+            "in the hospital",
+            "en inglés de Norteamérica, con the"
+          ]
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I'm a dental assistant, and I'm looking for a job in the south side.",
+        "es": "Soy asistente dental y busco trabajo en el sur de la ciudad."
+      },
+      {
+        "en": "The bus to the university was late again this morning.",
+        "es": "El camión a la universidad volvió a llegar tarde esta mañana."
+      },
+      {
+        "en": "Winter in Edmonton is long, but people know how to enjoy it.",
+        "es": "El invierno en Edmonton es largo, pero la gente sabe disfrutarlo."
+      },
+      {
+        "en": "Could you send me an email with the schedule?",
+        "es": "¿Me podrías mandar un correo con el horario?"
+      }
+    ],
+    "mistakes_es": "1) *I am nurse* → *I am a nurse* (las profesiones llevan a/an). 2) *The people here are friendly* para hablar en general → *People here are friendly* (lo general va sin artículo). 3) *a advice*, *an information* → *some advice*, *some information* (los incontables no llevan a/an). 4) *a hour*, *an university* → *an hour*, *a university* (manda el sonido, no la letra). 5) *I speak the English* → *I speak English* (los idiomas no llevan artículo).",
+    "ielts_es": "Los artículos cuentan en «Grammatical Range and Accuracy» de Writing y Speaking. Un error de artículo aislado no baja la banda, pero si se repite en todo el texto el examinador lo nota como falta de precisión, y para banda 7 se pide que la mayoría de las oraciones no tengan errores. En Writing Task 2 vigila los temas generales: Technology has changed education (sin the). Consejo: al revisar tu ensayo, busca cada sustantivo y pregúntate si es general, uno cualquiera o uno concreto.",
+    "practice": [
+      {
+        "q": "My sister is ___ engineer in Calgary.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "—"
+        ],
+        "answer": 0,
+        "why_es": "Las profesiones llevan a/an, y engineer empieza con sonido de vocal, así que va an."
+      },
+      {
+        "q": "___ is getting more expensive every year. (hablando en general)",
+        "options": [
+          "The food",
+          "Food",
+          "A food"
+        ],
+        "answer": 1,
+        "why_es": "Para hablar de algo en general, sin referirse a una comida concreta, el inglés no usa artículo."
+      },
+      {
+        "q": "I bought a new desk. ___ desk is made of oak.",
+        "options": [
+          "The",
+          "A",
+          "—"
+        ],
+        "answer": 0,
+        "why_es": "La primera vez se menciona con a; la segunda ya sabemos cuál es, así que se usa the."
+      },
+      {
+        "q": "She studies at ___ university near the river.",
+        "options": [
+          "an",
+          "—",
+          "a",
+          "the"
+        ],
+        "answer": 2,
+        "why_es": "University empieza con el sonido «yu», que es de consonante, por eso va a y no an."
+      },
+      {
+        "q": "Can you give me ___ advice about my résumé?",
+        "options": [
+          "some",
+          "an",
+          "a"
+        ],
+        "answer": 0,
+        "why_es": "Advice es incontable: no lleva a/an. Se usa some o a piece of advice."
+      },
+      {
+        "q": "We usually go to ___ bed around eleven.",
+        "options": [
+          "the",
+          "—",
+          "a"
+        ],
+        "answer": 1,
+        "why_es": "Go to bed es una expresión fija sin artículo, igual que go to work o go to school."
+      },
+      {
+        "q": "My uncle moved to ___ United States last year.",
+        "options": [
+          "the",
+          "—",
+          "a"
+        ],
+        "answer": 0,
+        "why_es": "Los nombres de país con States, Kingdom o Republic llevan the: the United States."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "I'm waiting for the hour.",
+          "I'll be there in a hour.",
+          "I'll be there in an hour.",
+          "I'll be there in hour."
+        ],
+        "answer": 2,
+        "why_es": "La h de hour no suena, así que la palabra empieza con sonido de vocal y lleva an."
+      }
+    ]
+  },
+  {
+    "id": "gr-countable-uncountable",
+    "order": 20,
+    "name_en": "Countable and uncountable nouns, quantifiers",
+    "title_es": "Contables e incontables: much, many, a lot of, few, little",
+    "group": "estructuras",
+    "level": "A2",
+    "use_es": "En inglés los sustantivos se dividen en contables (se pueden contar uno por uno: one job, two jobs) e incontables (se ven como una masa o un concepto: money, water, information). De eso depende qué palabra usar para cantidades: many o much, few o little, a number of o an amount of. Muchas palabras que en español se cuentan son incontables en inglés: advice, furniture, news, homework. Dominar esto evita errores muy visibles en el trabajo y en el examen.",
+    "steps": [
+      {
+        "title_es": "Qué es contable y qué no",
+        "body_es": "Un sustantivo contable tiene singular y plural (a chair, three chairs) y puede llevar a/an. Uno incontable no tiene plural, no lleva a/an y va con el verbo en singular: The information is correct. El problema es que el inglés no siempre coincide con el español. Son incontables en inglés: advice (consejos), furniture (muebles), news (noticias), homework (tarea), luggage o baggage (equipaje), equipment (equipo), research (investigación), traffic, weather, money, work (trabajo como actividad; a job sí es contable). Para contar un incontable se usa una unidad: a piece of advice, two pieces of furniture, a bottle of water.",
+        "examples": [
+          {
+            "en": "My manager gave me some useful advice.",
+            "es": "Mi gerente me dio unos consejos útiles."
+          },
+          {
+            "en": "We still need two pieces of furniture for the living room.",
+            "es": "Todavía nos faltan dos muebles para la sala."
+          },
+          {
+            "en": "The news is on at six.",
+            "es": "Las noticias son a las seis."
+          }
+        ],
+        "table": [
+          [
+            "contables",
+            "job, chair, suggestion, dollar, email"
+          ],
+          [
+            "incontables",
+            "work, furniture, advice, money, mail, information"
+          ],
+          [
+            "unidad para contar",
+            "a piece of advice, a slice of bread, a cup of coffee"
+          ]
+        ]
+      },
+      {
+        "title_es": "Many y much: mucho, muchos",
+        "body_es": "Many va con contables en plural (many emails, many people) y much con incontables (much time, much money). En la conversación cotidiana, much se usa sobre todo en negativas y preguntas: I don't have much time, How much does it cost? En frases afirmativas suena formal o raro decir *I have much work*; lo natural es a lot of o lots of, que sirven para los dos tipos: a lot of emails, a lot of work. Para preguntar cantidades: How many…? con contables y How much…? con incontables y precios.",
+        "examples": [
+          {
+            "en": "How many hours do you work per week?",
+            "es": "¿Cuántas horas trabajas a la semana?"
+          },
+          {
+            "en": "We don't have much time before the bus leaves.",
+            "es": "No tenemos mucho tiempo antes de que salga el camión."
+          },
+          {
+            "en": "There's a lot of snow on the sidewalk today.",
+            "es": "Hoy hay mucha nieve en la banqueta."
+          }
+        ]
+      },
+      {
+        "title_es": "Few, a few, little, a little: el matiz cambia todo",
+        "body_es": "Few y a few van con contables; little y a little con incontables. La diferencia entre llevar o no la a es de actitud. A few / a little = algunos, un poco, suficiente, tono positivo: I have a few friends here (tengo algunos amigos, estoy bien). Few / little sin a = pocos, casi nada, tono negativo: I have few friends here (tengo pocos amigos, me siento solo). En el habla diaria, la forma sin a suena formal; lo más común es not many / not much: I don't have many friends here.",
+        "examples": [
+          {
+            "en": "I have a few questions about the contract.",
+            "es": "Tengo algunas preguntas sobre el contrato."
+          },
+          {
+            "en": "Few students finished the test on time.",
+            "es": "Pocos estudiantes terminaron el examen a tiempo."
+          },
+          {
+            "en": "Could I have a little more milk in my coffee?",
+            "es": "¿Me pones un poquito más de leche en el café?"
+          }
+        ],
+        "table": [
+          [
+            "a few + plural",
+            "algunos (positivo): a few days"
+          ],
+          [
+            "few + plural",
+            "pocos, no suficientes: few options"
+          ],
+          [
+            "a little + incontable",
+            "un poco (positivo): a little help"
+          ],
+          [
+            "little + incontable",
+            "poco, casi nada: little experience"
+          ]
+        ]
+      },
+      {
+        "title_es": "Some, any y otras cantidades más formales",
+        "body_es": "Some y any sirven para los dos tipos. Some se usa en afirmativas y en ofrecimientos o peticiones (Would you like some tea?), any en negativas y preguntas abiertas (Do you have any experience?). Para un estilo formal, como en un reporte o un ensayo: a large number of + contable (a large number of applicants) y a great deal of o a large amount of + incontable (a great deal of effort). Fíjate en fewer y less: en el inglés cuidado, fewer va con contables (fewer cars) y less con incontables (less traffic).",
+        "examples": [
+          {
+            "en": "Do you have any experience with customer service?",
+            "es": "¿Tienes experiencia en atención al cliente?"
+          },
+          {
+            "en": "A large number of newcomers arrive in the fall.",
+            "es": "Un gran número de recién llegados llega en otoño."
+          },
+          {
+            "en": "There are fewer buses on Sundays, so there's less traffic too.",
+            "es": "Hay menos camiones los domingos, así que también hay menos tráfico."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "How much is a monthly bus pass?",
+        "es": "¿Cuánto cuesta el pase mensual del camión?"
+      },
+      {
+        "en": "I don't have much experience, but I learn quickly.",
+        "es": "No tengo mucha experiencia, pero aprendo rápido."
+      },
+      {
+        "en": "We bought a few pieces of used furniture online.",
+        "es": "Compramos algunos muebles usados por internet."
+      },
+      {
+        "en": "There were fewer people at the clinic than last week.",
+        "es": "Había menos gente en la clínica que la semana pasada."
+      }
+    ],
+    "mistakes_es": "1) *advices*, *furnitures*, *informations* → *advice*, *furniture*, *information* (son incontables, no tienen plural). 2) *How much people?* → *How many people?* (people es contable). 3) *I have much work* → *I have a lot of work* (much en afirmativas suena raro). 4) *The news are bad* → *The news is bad* (news es incontable y va en singular). 5) *I have few money* → *I don't have much money* o *I have little money* (con incontables, little).",
+    "ielts_es": "En Writing Task 1 describes datos: a large number of / the number of con contables y the amount of con incontables (the amount of energy, the number of students). En Task 2 y en Speaking, errores como *researches* o *informations* restan en «Grammatical Range and Accuracy», y fewer/less o a great deal of muestran control en «Lexical Resource». Consejo: haz una lista personal de incontables que sueles pluralizar por el español y revísala al final del ensayo.",
+    "practice": [
+      {
+        "q": "How ___ languages do you speak?",
+        "options": [
+          "much",
+          "many",
+          "lot"
+        ],
+        "answer": 1,
+        "why_es": "Languages es contable y está en plural, así que la pregunta es How many."
+      },
+      {
+        "q": "I can't go out tonight. I have ___ homework.",
+        "options": [
+          "many",
+          "a lot of",
+          "a few",
+          "an"
+        ],
+        "answer": 1,
+        "why_es": "Homework es incontable; en afirmativas lo natural es a lot of, que sirve para contables e incontables."
+      },
+      {
+        "q": "She gave me some great ___ about moving to Canada.",
+        "options": [
+          "advices",
+          "advice",
+          "an advice"
+        ],
+        "answer": 1,
+        "why_es": "Advice es incontable en inglés: no lleva plural ni a/an."
+      },
+      {
+        "q": "Don't worry, we still have ___ time before the meeting.",
+        "options": [
+          "few",
+          "a few",
+          "a little"
+        ],
+        "answer": 2,
+        "why_es": "Time es incontable, así que va little; con a indica que sí hay algo, en sentido positivo."
+      },
+      {
+        "q": "Sadly, ___ people came to the community event. It was almost empty.",
+        "options": [
+          "a few",
+          "few",
+          "little",
+          "much"
+        ],
+        "answer": 1,
+        "why_es": "People es contable. Few sin a significa pocos, casi nadie, con tono negativo, que coincide con 'almost empty'."
+      },
+      {
+        "q": "There ___ a lot of traffic on the bridge this morning.",
+        "options": [
+          "were",
+          "are",
+          "was"
+        ],
+        "answer": 2,
+        "why_es": "Traffic es incontable y va con el verbo en singular: there was."
+      },
+      {
+        "q": "This new route has ___ stops than the old one.",
+        "options": [
+          "less",
+          "fewer",
+          "little"
+        ],
+        "answer": 1,
+        "why_es": "Stops es contable en plural. En inglés cuidado, con contables se usa fewer; less es para incontables."
+      },
+      {
+        "q": "Do you have ___ questions before we finish?",
+        "options": [
+          "much",
+          "a little",
+          "any"
+        ],
+        "answer": 2,
+        "why_es": "En preguntas abiertas se usa any, que funciona con contables como questions."
+      }
+    ]
+  },
+  {
+    "id": "gr-comparatives-superlatives",
+    "order": 21,
+    "name_en": "Comparatives and superlatives",
+    "title_es": "Comparativos y superlativos: más que, el más, tan… como",
+    "group": "estructuras",
+    "level": "B1",
+    "use_es": "Los comparativos sirven para comparar dos cosas (cheaper than = más barato que) y los superlativos para destacar una entre un grupo (the cheapest = el más barato). En español casi todo se hace con «más», pero en inglés las palabras cortas cambian su terminación (-er, -est) y las largas usan more y most. Además hay estructuras muy útiles para matizar: as… as (tan… como), much better (mucho mejor) y the more…, the better (entre más…, mejor).",
+    "steps": [
+      {
+        "title_es": "Palabras cortas: -er y -est",
+        "body_es": "Con adjetivos de una sílaba se agrega -er para comparar y the + -est para el superlativo: cheap, cheaper, the cheapest. Reglas de ortografía: si termina en -e, solo se agrega -r o -st (nice, nicer); si termina en consonante-vocal-consonante, se dobla la última letra (big, bigger, hot, hottest); con dos sílabas terminadas en -y, la y cambia a i (easy, easier, the easiest; busy, busier). Para comparar dos cosas se usa than: This apartment is bigger than the last one.",
+        "examples": [
+          {
+            "en": "January is colder than December here.",
+            "es": "Aquí enero es más frío que diciembre."
+          },
+          {
+            "en": "This is the cheapest grocery store in the neighborhood.",
+            "es": "Esta es la tienda de abarrotes más barata del barrio."
+          },
+          {
+            "en": "The new schedule is easier for my family.",
+            "es": "El horario nuevo es más fácil para mi familia."
+          }
+        ],
+        "table": [
+          [
+            "cheap → cheaper → the cheapest",
+            "una sílaba: -er / -est"
+          ],
+          [
+            "big → bigger → the biggest",
+            "consonante-vocal-consonante: se dobla la letra"
+          ],
+          [
+            "busy → busier → the busiest",
+            "termina en -y: cambia a -ier / -iest"
+          ]
+        ]
+      },
+      {
+        "title_es": "Palabras largas e irregulares",
+        "body_es": "Con adjetivos de dos sílabas o más (que no terminan en -y) se usa more y the most: more expensive, the most important. No se mezclan las dos formas: nunca *more cheaper*. Hay irregulares que conviene memorizar: good, better, the best; bad, worse, the worst; far, farther o further, the farthest. Para decir menos se usa less y the least con cualquier adjetivo: less crowded, the least expensive. Y el superlativo suele ir con in para lugares o grupos (the best in the city) y con of para periodos o cantidades (the best day of the year).",
+        "examples": [
+          {
+            "en": "Finding a family doctor was the most difficult part.",
+            "es": "Encontrar un médico familiar fue lo más difícil."
+          },
+          {
+            "en": "My English is better than it was six months ago.",
+            "es": "Mi inglés está mejor que hace seis meses."
+          },
+          {
+            "en": "Tuesday is usually the least busy day of the week.",
+            "es": "El martes suele ser el día menos ocupado de la semana."
+          }
+        ]
+      },
+      {
+        "title_es": "As… as: igualdad y diferencia suave",
+        "body_es": "As + adjetivo + as significa tan… como: The bus is as fast as the train. En negativo, not as… as es una forma amable y muy común de decir que algo es menos: The rent here isn't as high as in Vancouver (la renta aquí no es tan alta como en Vancouver). Suena más suave que decir is lower than. También sirve con cantidades: as much as, as many as. Y con adverbios: Come as soon as you can (ven en cuanto puedas). Ojo: el segundo elemento es as, no that ni than.",
+        "examples": [
+          {
+            "en": "My new job isn't as stressful as my old one.",
+            "es": "Mi nuevo trabajo no es tan estresante como el anterior."
+          },
+          {
+            "en": "She speaks English as well as her manager.",
+            "es": "Habla inglés tan bien como su gerente."
+          },
+          {
+            "en": "Please reply as soon as possible.",
+            "es": "Por favor responde lo antes posible."
+          }
+        ]
+      },
+      {
+        "title_es": "Matizar: much, far, a bit y the more…, the more",
+        "body_es": "Para decir cuánta diferencia hay, se pone una palabra antes del comparativo. Mucha diferencia: much, far, a lot (much cheaper, far more expensive, a lot better). Poca diferencia: a bit, a little, slightly (a bit warmer, slightly higher). Nunca se usa very con comparativos: *very cheaper* es incorrecto. Otra estructura útil es the + comparativo…, the + comparativo, que equivale a «entre más…, más…»: The more you practice, the easier it gets. Se puede acortar: The sooner, the better (entre más pronto, mejor).",
+        "examples": [
+          {
+            "en": "Taking the train is much faster than driving downtown.",
+            "es": "Ir en tren es mucho más rápido que manejar al centro."
+          },
+          {
+            "en": "It's slightly warmer today, so let's walk.",
+            "es": "Hoy hace un poquito más de calor, así que vamos caminando."
+          },
+          {
+            "en": "The more I listen to podcasts, the more I understand.",
+            "es": "Entre más escucho podcasts, más entiendo."
+          }
+        ],
+        "table": [
+          [
+            "much / far / a lot + comparativo",
+            "mucho más: far better, much bigger"
+          ],
+          [
+            "a bit / slightly + comparativo",
+            "un poco más: a bit cheaper"
+          ],
+          [
+            "the + comp…, the + comp",
+            "entre más…, más…: the sooner, the better"
+          ]
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "Living near the LRT is more convenient than having a car.",
+        "es": "Vivir cerca del LRT es más práctico que tener carro."
+      },
+      {
+        "en": "This was the coldest week of the year so far.",
+        "es": "Esta fue la semana más fría del año hasta ahora."
+      },
+      {
+        "en": "The evening class isn't as crowded as the morning one.",
+        "es": "La clase de la tarde no está tan llena como la de la mañana."
+      },
+      {
+        "en": "The earlier you apply, the better your chances are.",
+        "es": "Entre antes apliques, mejores son tus posibilidades."
+      }
+    ],
+    "mistakes_es": "1) *more cheaper* → *cheaper* (no se usan more y -er juntos). 2) *very bigger* → *much bigger* (con comparativos se usa much, far o a lot, no very). 3) *bigger that* → *bigger than* (después del comparativo va than). 4) *the best of the city* → *the best in the city* (con lugares, in). 5) *as expensive than* → *as expensive as* (as… as va con as en los dos lados).",
+    "ielts_es": "Es clave en Writing Task 1, donde comparas datos: far higher than, slightly lower than, the largest proportion, not as popular as. En Speaking Part 3 te piden comparar el pasado con el presente o tu país con otros. Todo cuenta en «Grammatical Range and Accuracy»: variar entre -er, more, as… as y the more… muestra rango. Consejo: en cada gráfica usa al menos un comparativo con matiz (significantly, slightly) y un superlativo.",
+    "practice": [
+      {
+        "q": "My new apartment is ___ than the old one.",
+        "options": [
+          "more big",
+          "biggest",
+          "bigger",
+          "more bigger"
+        ],
+        "answer": 2,
+        "why_es": "Big tiene una sílaba: el comparativo es bigger, doblando la g. No se mezcla more con -er."
+      },
+      {
+        "q": "This is ___ restaurant in the neighborhood.",
+        "options": [
+          "the best",
+          "the better",
+          "the most good"
+        ],
+        "answer": 0,
+        "why_es": "Good es irregular: good, better, the best. Para destacar uno entre todos, superlativo."
+      },
+      {
+        "q": "The bus isn't as fast ___ the train.",
+        "options": [
+          "than",
+          "that",
+          "as"
+        ],
+        "answer": 2,
+        "why_es": "La estructura de igualdad es as + adjetivo + as, también en negativo."
+      },
+      {
+        "q": "Renting downtown is ___ more expensive than in the suburbs.",
+        "options": [
+          "much",
+          "very",
+          "most"
+        ],
+        "answer": 0,
+        "why_es": "Para reforzar un comparativo se usa much, far o a lot. Very no funciona con comparativos."
+      },
+      {
+        "q": "___ you start, the sooner you'll finish.",
+        "options": [
+          "Earlier",
+          "More early",
+          "The earlier",
+          "The earliest"
+        ],
+        "answer": 2,
+        "why_es": "La estructura 'entre más…, más…' es the + comparativo, the + comparativo."
+      },
+      {
+        "q": "Yesterday was the ___ day of the winter so far.",
+        "options": [
+          "coldest",
+          "colder",
+          "most cold"
+        ],
+        "answer": 0,
+        "why_es": "Comparamos un día con todos los del invierno: superlativo de una sílaba, the coldest."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "She is the most patient person of the office.",
+          "She is the more patient person in the office.",
+          "She is the most patient person in the office."
+        ],
+        "answer": 2,
+        "why_es": "El superlativo es the most patient, y con lugares o grupos se usa in, no of."
+      },
+      {
+        "q": "Today is ___ warmer than yesterday, but I still need a jacket.",
+        "options": [
+          "slightly",
+          "very",
+          "most",
+          "the"
+        ],
+        "answer": 0,
+        "why_es": "Slightly indica una diferencia pequeña y funciona con comparativos; very no."
+      }
+    ]
+  },
+  {
+    "id": "gr-relative-clauses",
+    "order": 22,
+    "name_en": "Relative clauses",
+    "title_es": "Oraciones de relativo: who, which, that, whose, where",
+    "group": "estructuras",
+    "level": "B1",
+    "use_es": "Las oraciones de relativo dan información sobre un sustantivo, igual que «que», «quien», «cuyo» o «donde» en español: the woman who lives next door (la señora que vive al lado). En inglés hay que elegir la palabra según si hablamos de personas, cosas o lugares, y distinguir dos tipos: las que identifican de quién hablamos (sin comas) y las que solo agregan un dato extra (con comas). Sirven para unir ideas en una sola oración fluida, algo esencial al escribir y en entrevistas.",
+    "steps": [
+      {
+        "title_es": "Who, which y that: personas y cosas",
+        "body_es": "Who se usa para personas: the nurse who helped me. Which se usa para cosas, animales e ideas: the form which I filled out. That sirve para las dos y en el inglés hablado de Norteamérica es lo más común en oraciones sin comas: the nurse that helped me, the form that I filled out. En español todo es «que», por eso hay que pensar un segundo: ¿persona o cosa? La oración de relativo va justo después del sustantivo del que habla, no al final de la frase.",
+        "examples": [
+          {
+            "en": "The coworker who trained me is from Ontario.",
+            "es": "El compañero que me capacitó es de Ontario."
+          },
+          {
+            "en": "I lost the card that opens the main door.",
+            "es": "Perdí la tarjeta que abre la puerta principal."
+          },
+          {
+            "en": "This is the program which helps newcomers find jobs.",
+            "es": "Este es el programa que ayuda a los recién llegados a encontrar trabajo."
+          }
+        ],
+        "table": [
+          [
+            "who",
+            "personas: the doctor who…"
+          ],
+          [
+            "which",
+            "cosas e ideas: the app which…"
+          ],
+          [
+            "that",
+            "personas o cosas, solo sin comas: the bus that…"
+          ]
+        ]
+      },
+      {
+        "title_es": "Whose, where y when",
+        "body_es": "Whose equivale a «cuyo/cuya» o «de quien», y muestra posesión: the student whose laptop broke (el estudiante cuya laptop se descompuso). Es mucho más usado en inglés que «cuyo» en español hablado, así que vale la pena practicarlo. Where se usa para lugares (the clinic where I work) y when para momentos (the day when I arrived). Ojo: después de where no se repite la preposición; se dice the city where I live, o bien the city that I live in, pero nunca *the city where I live in*.",
+        "examples": [
+          {
+            "en": "I have a neighbor whose son plays hockey.",
+            "es": "Tengo un vecino cuyo hijo juega hockey."
+          },
+          {
+            "en": "That's the library where I study on weekends.",
+            "es": "Esa es la biblioteca donde estudio los fines de semana."
+          },
+          {
+            "en": "I still remember the day when we landed in Edmonton.",
+            "es": "Todavía me acuerdo del día en que aterrizamos en Edmonton."
+          }
+        ]
+      },
+      {
+        "title_es": "Con comas o sin comas: identificar o agregar",
+        "body_es": "Las oraciones sin comas (defining) identifican de quién o de qué hablamos; sin ellas, la frase no se entiende igual: My brother who lives in Toronto is a chef (tengo varios hermanos y hablo del que vive en Toronto). Las oraciones con comas (non-defining) solo agregan un dato extra sobre algo que ya está claro: My mother, who lives in Puebla, calls me every Sunday (solo tengo una mamá; el dato de Puebla es extra). Regla importante: con comas NUNCA se usa that, solo who o which. Al hablar, las comas se notan como una pequeña pausa.",
+        "examples": [
+          {
+            "en": "Students who submit late lose ten percent.",
+            "es": "Los estudiantes que entregan tarde pierden diez por ciento."
+          },
+          {
+            "en": "My supervisor, who has worked here for years, is very patient.",
+            "es": "Mi supervisora, que lleva años trabajando aquí, es muy paciente."
+          },
+          {
+            "en": "Edmonton, which is the capital of Alberta, has long winters.",
+            "es": "Edmonton, que es la capital de Alberta, tiene inviernos largos."
+          }
+        ],
+        "table": [
+          [
+            "sin comas (defining)",
+            "identifica: who, which, that; se puede omitir el pronombre a veces"
+          ],
+          [
+            "con comas (non-defining)",
+            "dato extra: who, which; nunca that ni omisión"
+          ]
+        ]
+      },
+      {
+        "title_es": "Quitar el pronombre y el which que resume",
+        "body_es": "En oraciones sin comas se puede omitir who, which o that cuando NO es el sujeto del verbo que sigue: The job (that) I applied for pays well. Aquí I es el sujeto, así que that sobra, y en la conversación casi siempre se quita. Pero si el pronombre es el sujeto, no se puede quitar: The man who called you left a message (sin who no tiene sentido). Un uso avanzado: which con coma puede referirse a toda la idea anterior, como «lo cual»: The bus was late, which made me miss my shift.",
+        "examples": [
+          {
+            "en": "The apartment we saw yesterday has a balcony.",
+            "es": "El departamento que vimos ayer tiene balcón."
+          },
+          {
+            "en": "Is this the course you were telling me about?",
+            "es": "¿Este es el curso del que me estabas contando?"
+          },
+          {
+            "en": "My shift was canceled, which gave me time to rest.",
+            "es": "Me cancelaron el turno, lo cual me dio tiempo para descansar."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "The counselor who reviewed my résumé gave me great tips.",
+        "es": "La consejera que revisó mi currículum me dio muy buenos consejos."
+      },
+      {
+        "en": "We're looking for a place that allows pets.",
+        "es": "Buscamos un lugar que acepte mascotas."
+      },
+      {
+        "en": "Our landlord, whose office is downstairs, fixed the heater quickly.",
+        "es": "Nuestro casero, cuya oficina está abajo, arregló el calentador rápido."
+      },
+      {
+        "en": "The class I'm taking meets on Tuesday evenings.",
+        "es": "La clase que estoy tomando es los martes en la tarde."
+      }
+    ],
+    "mistakes_es": "1) *The man which called* → *The man who called* (which no se usa para personas). 2) *My mother, that lives in Puebla, …* → *My mother, who lives in Puebla, …* (con comas no se usa that). 3) *The city where I live in* → *The city where I live* (no se repite la preposición). 4) *The book that I read it* → *The book that I read* (no se repite el objeto con it). 5) *The man called you left a message* → *The man who called you left a message* (no se omite el pronombre cuando es sujeto).",
+    "ielts_es": "Las oraciones de relativo son una de las formas más claras de mostrar «complex structures» en «Grammatical Range and Accuracy», tanto en Writing como en Speaking. En Task 2 permiten definir con precisión (people who work remotely) y en Task 1 agregar datos (…, which was the highest figure). Consejo: usa al menos una con comas y un which que resuma la idea anterior, y revisa que no aparezca that después de una coma.",
+    "practice": [
+      {
+        "q": "The nurse ___ took my blood was very kind.",
+        "options": [
+          "which",
+          "whose",
+          "where",
+          "who"
+        ],
+        "answer": 3,
+        "why_es": "Nurse es una persona y el pronombre es el sujeto de took, así que va who (o that)."
+      },
+      {
+        "q": "This is the café ___ I met my best friend.",
+        "options": [
+          "which",
+          "where",
+          "who"
+        ],
+        "answer": 1,
+        "why_es": "Para un lugar donde pasa algo se usa where."
+      },
+      {
+        "q": "I have a classmate ___ father works at the hospital.",
+        "options": [
+          "who",
+          "whose",
+          "that",
+          "which"
+        ],
+        "answer": 1,
+        "why_es": "Whose expresa posesión, como 'cuyo': el padre del compañero."
+      },
+      {
+        "q": "My manager, ___ is from Halifax, speaks a little Spanish.",
+        "options": [
+          "that",
+          "who",
+          "whose"
+        ],
+        "answer": 1,
+        "why_es": "Con comas es un dato extra y no se puede usar that; para personas, who."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "The job I applied for pays well.",
+          "The job I applied for it pays well.",
+          "The job where I applied for pays well."
+        ],
+        "answer": 0,
+        "why_es": "Se puede omitir that porque no es sujeto, y no se repite el objeto con it."
+      },
+      {
+        "q": "The train was delayed, ___ meant I was late for my exam.",
+        "options": [
+          "that",
+          "which",
+          "what"
+        ],
+        "answer": 1,
+        "why_es": "Which con coma se refiere a toda la idea anterior, como 'lo cual'. That no va después de coma."
+      },
+      {
+        "q": "In which sentence can you remove the pronoun?",
+        "options": [
+          "The movie that we watched was long.",
+          "The woman who lives upstairs is a teacher.",
+          "The car that broke down was new."
+        ],
+        "answer": 0,
+        "why_es": "Solo se omite cuando no es sujeto: en 'that we watched' el sujeto es we, así que that puede quitarse."
+      },
+      {
+        "q": "Is this the bus ___ goes to the airport?",
+        "options": [
+          "who",
+          "that",
+          "where",
+          "whose"
+        ],
+        "answer": 1,
+        "why_es": "Bus es una cosa y el pronombre es sujeto de goes: that o which."
+      }
+    ]
+  },
+  {
+    "id": "gr-prepositions",
+    "order": 23,
+    "name_en": "Prepositions of time and place, dependent prepositions",
+    "title_es": "Preposiciones in, on, at y las que acompañan a ciertas palabras",
+    "group": "estructuras",
+    "level": "B1",
+    "use_es": "En español casi todo es «en»: en lunes, en mayo, en la parada. En inglés se reparte entre in, on y at según qué tan amplio o específico sea el tiempo o el lugar. Además, muchos verbos y adjetivos van siempre con una preposición fija que no coincide con el español: depend on (depender de), interested in (interesado en), good at (bueno para). No hay una lógica perfecta, así que conviene aprender las combinaciones como bloques.",
+    "steps": [
+      {
+        "title_es": "Tiempo: in, on, at de lo general a lo exacto",
+        "body_es": "Piensa en una pirámide. In para periodos largos: in 2025, in March, in winter, in the morning. On para días y fechas: on Monday, on July 1st, on my birthday, on the weekend (en Norteamérica; en Reino Unido es at the weekend). At para horas y momentos precisos: at 8:30, at noon, at night, at lunchtime. Si la frase empieza con this, next, last o every, no lleva preposición: next Friday, this morning, every Sunday. Error típico: *in Monday* o *on the next week*.",
+        "examples": [
+          {
+            "en": "My course starts in September.",
+            "es": "Mi curso empieza en septiembre."
+          },
+          {
+            "en": "The office is closed on Canada Day.",
+            "es": "La oficina está cerrada el Día de Canadá."
+          },
+          {
+            "en": "My shift ends at midnight, so I'll call you tomorrow morning.",
+            "es": "Mi turno termina a medianoche, así que te llamo mañana temprano."
+          }
+        ],
+        "table": [
+          [
+            "in",
+            "meses, años, estaciones, partes del día: in July, in the evening"
+          ],
+          [
+            "on",
+            "días y fechas: on Friday, on May 5th, on the weekend"
+          ],
+          [
+            "at",
+            "horas y momentos: at 7:00, at night, at noon"
+          ],
+          [
+            "sin preposición",
+            "this, next, last, every: next week"
+          ]
+        ]
+      },
+      {
+        "title_es": "Lugar: in, on, at",
+        "body_es": "La misma idea sirve para lugares. In para dentro de un espacio o un área: in the kitchen, in Edmonton, in Canada, in the car. On para superficies y para calles: on the table, on the wall, on Jasper Avenue, on the bus, on the train, on the plane (transporte grande en el que puedes caminar). At para un punto concreto o un lugar visto como sitio de actividad: at the bus stop, at the door, at work, at school, at the doctor's, at 10230 Jasper Avenue (dirección exacta con número).",
+        "examples": [
+          {
+            "en": "I'll wait for you at the main entrance.",
+            "es": "Te espero en la entrada principal."
+          },
+          {
+            "en": "Their store is on Whyte Avenue.",
+            "es": "Su tienda está en Whyte Avenue."
+          },
+          {
+            "en": "I read a lot on the bus.",
+            "es": "Leo mucho en el camión."
+          }
+        ]
+      },
+      {
+        "title_es": "Preposiciones fijas con verbos",
+        "body_es": "Muchos verbos van con una preposición que no se puede cambiar. Varios coinciden poco con el español: depend on (depender de), listen to (escuchar a; listen siempre lleva to antes de lo que escuchas), wait for (esperar a), apply for (solicitar un puesto) y apply to (aplicar a una empresa o escuela), arrive in (ciudad o país) y arrive at (edificio o punto), pay for (pagar algo), worry about (preocuparse por), agree with (estar de acuerdo con). Y al revés: algunos verbos no llevan nada, aunque en español sí: call someone (llamar a alguien), enter a room (entrar a un cuarto), discuss something (hablar de algo), marry someone (casarse con alguien).",
+        "examples": [
+          {
+            "en": "It depends on the weather.",
+            "es": "Depende del clima."
+          },
+          {
+            "en": "I applied for a job at the clinic.",
+            "es": "Solicité un trabajo en la clínica."
+          },
+          {
+            "en": "We need to discuss the budget.",
+            "es": "Tenemos que hablar del presupuesto."
+          }
+        ],
+        "table": [
+          [
+            "depend on",
+            "depender de"
+          ],
+          [
+            "wait for / pay for",
+            "esperar a / pagar algo"
+          ],
+          [
+            "arrive in + ciudad / arrive at + lugar",
+            "llegar a"
+          ],
+          [
+            "discuss, call, enter, marry",
+            "sin preposición"
+          ]
+        ]
+      },
+      {
+        "title_es": "Preposiciones fijas con adjetivos",
+        "body_es": "Con adjetivos pasa lo mismo, y las combinaciones aparecen muchísimo en entrevistas y conversaciones. Good at (bueno para): She's good at math. Interested in: I'm interested in the position. Responsible for: I was responsible for inventory. Afraid of: miedo a. Proud of: orgulloso de. Married to: casado con. Similar to: parecido a. Different from (en Norteamérica también different than). Si después viene un verbo, va con -ing: I'm good at solving problems, I'm interested in learning French. Este detalle se olvida mucho.",
+        "examples": [
+          {
+            "en": "I'm really interested in working in healthcare.",
+            "es": "Me interesa mucho trabajar en el área de la salud."
+          },
+          {
+            "en": "He was responsible for training new staff.",
+            "es": "Él era responsable de capacitar al personal nuevo."
+          },
+          {
+            "en": "My kids are afraid of the dark.",
+            "es": "Mis hijos le tienen miedo a la oscuridad."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "The interview is on Thursday at 10 a.m.",
+        "es": "La entrevista es el jueves a las 10 de la mañana."
+      },
+      {
+        "en": "We arrived in Edmonton in the middle of winter.",
+        "es": "Llegamos a Edmonton a mitad del invierno."
+      },
+      {
+        "en": "I'm good at organizing schedules and dealing with customers.",
+        "es": "Soy bueno para organizar horarios y tratar con clientes."
+      },
+      {
+        "en": "Don't worry about the snow; the bus always stops at the corner.",
+        "es": "No te preocupes por la nieve; el camión siempre para en la esquina."
+      }
+    ],
+    "mistakes_es": "1) *in Monday* → *on Monday* (los días llevan on). 2) *depend of* → *depend on* (traducción directa de «depender de»). 3) *I'm good in math* → *I'm good at math* (con good va at). 4) *We discussed about the plan* → *We discussed the plan* (discuss no lleva preposición). 5) *I'm interested in learn* → *I'm interested in learning* (después de preposición, el verbo va con -ing).",
+    "ielts_es": "Las preposiciones son pequeñas pero muy visibles. En Writing Task 1 hay que dominar las de tiempo y cifras: in 2010, between 2010 and 2020, from 5% to 12%, an increase of 3%. En Speaking Part 1 y 2 aparecen good at, interested in y depend on todo el tiempo. Los errores cuentan en «Grammatical Range and Accuracy» y las combinaciones correctas en «Lexical Resource» como colocaciones. Consejo: aprende cada verbo o adjetivo con su preposición, como si fuera una sola palabra.",
+    "practice": [
+      {
+        "q": "My birthday is ___ June.",
+        "options": [
+          "on",
+          "in",
+          "at"
+        ],
+        "answer": 1,
+        "why_es": "Los meses llevan in. On sería para la fecha completa (on June 3rd)."
+      },
+      {
+        "q": "The meeting starts ___ 9:15.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answer": 2,
+        "why_es": "Las horas exactas llevan at."
+      },
+      {
+        "q": "The price ___ how many people are coming.",
+        "options": [
+          "depends of",
+          "depends from",
+          "depends on",
+          "depends in"
+        ],
+        "answer": 2,
+        "why_es": "En inglés es depend on, aunque en español digamos 'depender de'."
+      },
+      {
+        "q": "She's really good ___ fixing computers.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answer": 2,
+        "why_es": "Good va con at, y después de la preposición el verbo va en -ing: good at fixing."
+      },
+      {
+        "q": "We'll see you ___ the weekend.",
+        "options": [
+          "in",
+          "on",
+          "—"
+        ],
+        "answer": 1,
+        "why_es": "En inglés de Norteamérica se dice on the weekend."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "Let's discuss about the schedule.",
+          "Let's discuss of the schedule.",
+          "Let's discuss the schedule."
+        ],
+        "answer": 2,
+        "why_es": "Discuss no lleva preposición; el objeto va directo. Talk sí lleva: talk about."
+      },
+      {
+        "q": "I'm interested ___ the evening program.",
+        "options": [
+          "on",
+          "for",
+          "in",
+          "about"
+        ],
+        "answer": 2,
+        "why_es": "La combinación fija es interested in."
+      },
+      {
+        "q": "We arrived ___ Calgary late at night.",
+        "options": [
+          "at",
+          "to",
+          "in"
+        ],
+        "answer": 2,
+        "why_es": "Con ciudades y países se usa arrive in; arrive at es para edificios o puntos concretos. Nunca arrive to."
+      }
+    ]
+  },
+  {
+    "id": "gr-questions-indirect",
+    "order": 24,
+    "name_en": "Question forms and indirect questions",
+    "title_es": "Cómo hacer preguntas y preguntas indirectas más amables",
+    "group": "estructuras",
+    "level": "B1",
+    "use_es": "En español basta con cambiar la entonación: ¿Trabajas aquí? En inglés casi siempre hace falta un auxiliar (do, does, did, is, have, can…) antes del sujeto: Do you work here? Además, en situaciones formales o con desconocidos se prefieren las preguntas indirectas, que empiezan con Could you tell me…? o Do you know…? y suenan más corteses. En ellas el orden vuelve a ser como el de una afirmación, y ahí es donde casi todos se equivocan.",
+    "steps": [
+      {
+        "title_es": "Preguntas de sí o no: el auxiliar va primero",
+        "body_es": "La fórmula básica es auxiliar + sujeto + verbo. Si la oración ya tiene un auxiliar o el verbo be, solo se invierte: You are tired → Are you tired? She can drive → Can she drive? They have finished → Have they finished? Si no hay auxiliar (presente o pasado simple), se agrega do, does o did y el verbo vuelve a su forma base: You live here → Do you live here? She works nights → Does she work nights? They left → Did they leave? Fíjate que la -s y el -ed se pasan al auxiliar.",
+        "examples": [
+          {
+            "en": "Is the pharmacy open on Sundays?",
+            "es": "¿La farmacia abre los domingos?"
+          },
+          {
+            "en": "Does your daughter go to school nearby?",
+            "es": "¿Tu hija va a una escuela cerca?"
+          },
+          {
+            "en": "Did you get my message?",
+            "es": "¿Te llegó mi mensaje?"
+          }
+        ],
+        "table": [
+          [
+            "be / can / have…",
+            "se invierte: Are you…? Can I…? Have you…?"
+          ],
+          [
+            "presente simple",
+            "Do / Does + sujeto + verbo base"
+          ],
+          [
+            "pasado simple",
+            "Did + sujeto + verbo base"
+          ]
+        ]
+      },
+      {
+        "title_es": "Preguntas con wh-: what, where, how…",
+        "body_es": "Se pone la palabra interrogativa al principio y luego el mismo orden: wh- + auxiliar + sujeto + verbo. Where do you live? What time does the store close? How long have you been here? Las más útiles: what (qué), which (cuál, entre opciones), who (quién), where, when, why, how, how much / how many, how long (cuánto tiempo), how often (qué tan seguido). Una preposición puede ir al final, que es lo natural en el inglés hablado: Who are you waiting for? Where are you from?",
+        "examples": [
+          {
+            "en": "How long does it take to get downtown?",
+            "es": "¿Cuánto se tarda en llegar al centro?"
+          },
+          {
+            "en": "Which bus should I take to the hospital?",
+            "es": "¿Qué camión debo tomar para ir al hospital?"
+          },
+          {
+            "en": "What are you looking for?",
+            "es": "¿Qué estás buscando?"
+          }
+        ]
+      },
+      {
+        "title_es": "Preguntas de sujeto: sin do",
+        "body_es": "Cuando who o what son el SUJETO de la oración (es decir, preguntas quién hizo la acción), no se usa do, does ni did, y el verbo se conjuga normal. Compara: Who called you? (¿quién te llamó? El que llamó es lo que no sabemos) frente a Who did you call? (¿a quién llamaste? Tú llamaste, no sabemos a quién). Otros ejemplos: What happened? (nunca *What did happen?*), Who lives in that house?, What makes you a good candidate? Esta diferencia confunde mucho porque en español se arma igual.",
+        "examples": [
+          {
+            "en": "Who left the lights on?",
+            "es": "¿Quién dejó las luces prendidas?"
+          },
+          {
+            "en": "What happened at the meeting?",
+            "es": "¿Qué pasó en la junta?"
+          },
+          {
+            "en": "Who did you talk to at the front desk?",
+            "es": "¿Con quién hablaste en recepción?"
+          }
+        ]
+      },
+      {
+        "title_es": "Preguntas indirectas: más amables, orden normal",
+        "body_es": "Para sonar cortés, sobre todo con desconocidos, en tiendas, oficinas o con tu jefe, se empieza con una frase como Could you tell me…?, Do you know…?, I was wondering… o Can I ask…? Después, el resto va en orden de afirmación: sujeto + verbo, sin do ni inversión. Where is the station? → Could you tell me where the station is? What time does it open? → Do you know what time it opens? Para preguntas de sí o no se usa if o whether: Is there parking? → Do you know if there's parking? Error clásico: *Could you tell me where is the station?*",
+        "examples": [
+          {
+            "en": "Could you tell me where the washrooms are?",
+            "es": "¿Me podría decir dónde están los baños?"
+          },
+          {
+            "en": "Do you know if this bus stops at the mall?",
+            "es": "¿Sabe si este camión para en la plaza?"
+          },
+          {
+            "en": "I was wondering when I'll get my first paycheck.",
+            "es": "Quería saber cuándo me llega mi primer cheque."
+          }
+        ],
+        "table": [
+          [
+            "Where is the office?",
+            "Could you tell me where the office is?"
+          ],
+          [
+            "What time does it close?",
+            "Do you know what time it closes?"
+          ],
+          [
+            "Is it free?",
+            "Do you know if it's free?"
+          ]
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "How often do the trains run on weekends?",
+        "es": "¿Cada cuánto pasan los trenes los fines de semana?"
+      },
+      {
+        "en": "Who's in charge of the schedule this month?",
+        "es": "¿Quién está a cargo del horario este mes?"
+      },
+      {
+        "en": "Could you tell me how much the application fee is?",
+        "es": "¿Me podría decir cuánto cuesta el trámite de la solicitud?"
+      },
+      {
+        "en": "Do you know whether the clinic takes walk-ins?",
+        "es": "¿Sabe si la clínica atiende sin cita?"
+      }
+    ],
+    "mistakes_es": "1) *You like coffee?* en contexto formal → *Do you like coffee?* (falta el auxiliar). 2) *Does she works here?* → *Does she work here?* (la -s ya está en does). 3) *What did happen?* → *What happened?* (pregunta de sujeto, sin did). 4) *Could you tell me where is the bank?* → *Could you tell me where the bank is?* (en la indirecta, orden de afirmación). 5) *Do you know is it open?* → *Do you know if it's open?* (las de sí o no usan if o whether).",
+    "ielts_es": "En Speaking escuchas muchas preguntas, pero también las haces: si no entiendes, pedir aclaración con una indirecta (Could you tell me what you mean by…?) es natural y no penaliza. En Writing las indirectas aparecen como cláusulas: It is unclear whether…, Many people wonder why… Esto suma en «Grammatical Range and Accuracy» como estructura compleja. En Listening, entender bien las preguntas wh- te ayuda a anticipar qué dato buscar. Consejo: practica convertir diez preguntas directas en indirectas cada semana.",
+    "practice": [
+      {
+        "q": "___ you work on weekends?",
+        "options": [
+          "Are",
+          "Do",
+          "Does",
+          "Is"
+        ],
+        "answer": 1,
+        "why_es": "Presente simple con you: se agrega el auxiliar do antes del sujeto."
+      },
+      {
+        "q": "Where ___ she live?",
+        "options": [
+          "does",
+          "do",
+          "is"
+        ],
+        "answer": 0,
+        "why_es": "Con she en presente simple el auxiliar es does, y el verbo queda en forma base: live."
+      },
+      {
+        "q": "Who ___ the window? It's freezing in here!",
+        "options": [
+          "did open",
+          "did opened",
+          "opened"
+        ],
+        "answer": 2,
+        "why_es": "Who es el sujeto (no sabemos quién abrió), así que no se usa did y el verbo va en pasado normal."
+      },
+      {
+        "q": "Could you tell me where ___?",
+        "options": [
+          "the station is",
+          "is the station",
+          "does the station"
+        ],
+        "answer": 0,
+        "why_es": "En una pregunta indirecta el orden es de afirmación: sujeto + verbo."
+      },
+      {
+        "q": "Do you know ___ the store is open today?",
+        "options": [
+          "that",
+          "if",
+          "what",
+          "is"
+        ],
+        "answer": 1,
+        "why_es": "Para una pregunta indirecta de sí o no se usa if o whether."
+      },
+      {
+        "q": "What time ___ the movie start?",
+        "options": [
+          "does",
+          "is",
+          "do"
+        ],
+        "answer": 0,
+        "why_es": "Movie es tercera persona singular en presente simple: What time does … start?"
+      },
+      {
+        "q": "Which is the most polite way to ask a stranger?",
+        "options": [
+          "Where is the bank?",
+          "Tell me where the bank is.",
+          "Excuse me, do you know where the bank is?"
+        ],
+        "answer": 2,
+        "why_es": "La pregunta indirecta con 'Excuse me, do you know…' es la más cortés con desconocidos y lleva orden de afirmación."
+      },
+      {
+        "q": "I was wondering when ___.",
+        "options": [
+          "does the course start",
+          "starts the course",
+          "is the course start",
+          "the course starts"
+        ],
+        "answer": 3,
+        "why_es": "Después de I was wondering, el resto va en orden normal: sujeto + verbo, sin does."
+      }
+    ]
+  },
+  {
+    "id": "gr-modals-obligation",
+    "order": 25,
+    "name_en": "Modals of obligation, permission and advice",
+    "title_es": "Obligación, permiso y consejo: must, have to, should y más",
+    "group": "estructuras",
+    "level": "B1",
+    "use_es": "Los modales sirven para decir lo que es obligatorio, lo que está prohibido, lo que no es necesario, lo que se permite y lo que conviene. En español usamos «tener que», «deber», «poder» y «no hace falta», pero en inglés hay trampas: don't have to NO significa «no debes», sino «no hace falta», y mustn't sí es prohibición. También hay formas para el pasado, como should have, para hablar de lo que debiste hacer y no hiciste.",
+    "steps": [
+      {
+        "title_es": "Obligación: have to y must",
+        "body_es": "Have to es la forma más común para obligaciones, sobre todo reglas externas: I have to wear a uniform, She has to work on Saturdays. Se conjuga como verbo normal (has to, had to, will have to) y hace preguntas con do: Do I have to pay now? Must también expresa obligación, pero suena más fuerte o formal y aparece en reglas escritas, avisos y en lo que uno mismo considera necesario: All visitors must sign in, I must call my mom. En conversación en Canadá, have to y have got to (gotta en lo muy informal) son mucho más frecuentes que must.",
+        "examples": [
+          {
+            "en": "I have to renew my work permit next year.",
+            "es": "Tengo que renovar mi permiso de trabajo el próximo año."
+          },
+          {
+            "en": "All employees must complete the safety training.",
+            "es": "Todos los empleados deben completar la capacitación de seguridad."
+          },
+          {
+            "en": "Do we have to bring our own lunch?",
+            "es": "¿Tenemos que traer nuestra propia comida?"
+          }
+        ]
+      },
+      {
+        "title_es": "La trampa: don't have to frente a mustn't",
+        "body_es": "Aquí está el error más peligroso. Don't have to = no es necesario, puedes hacerlo si quieres: You don't have to wear a tie (no hace falta corbata). Mustn't = está prohibido, no lo hagas: You mustn't park here (no puedes estacionarte aquí). Si confundes los dos, cambias completamente el mensaje. En el inglés de Norteamérica, mustn't casi no se dice; para prohibir se usa can't o not allowed to: You can't smoke here, You're not allowed to use your phone during the test.",
+        "examples": [
+          {
+            "en": "You don't have to call first; just come in.",
+            "es": "No hace falta que llames antes; nada más pásate."
+          },
+          {
+            "en": "You can't park in front of the fire hydrant.",
+            "es": "No te puedes estacionar enfrente del hidrante."
+          },
+          {
+            "en": "Students aren't allowed to use phones during the exam.",
+            "es": "Los estudiantes no pueden usar el teléfono durante el examen."
+          }
+        ],
+        "table": [
+          [
+            "don't have to",
+            "no es necesario (opcional)"
+          ],
+          [
+            "mustn't / can't / not allowed to",
+            "prohibido"
+          ],
+          [
+            "need to / don't need to",
+            "necesario / no necesario, muy común al hablar"
+          ]
+        ]
+      },
+      {
+        "title_es": "Permiso y consejo: can, could, may, should, ought to",
+        "body_es": "Para pedir o dar permiso: Can I…? (normal), Could I…? (más amable), May I…? (formal). Para dar consejos o recomendaciones: should, que equivale a «deberías» o «conviene»: You should bring warm boots. Ought to significa lo mismo pero es menos común y un poco más formal: You ought to see a doctor. Had better ('d better) es un consejo más fuerte, con idea de advertencia: You'd better leave now or you'll miss the bus. Todos van seguidos de verbo base, sin to (excepto ought to y have to).",
+        "examples": [
+          {
+            "en": "Could I leave a little early today?",
+            "es": "¿Podría salir un poco temprano hoy?"
+          },
+          {
+            "en": "You should get winter tires before November.",
+            "es": "Deberías poner llantas de invierno antes de noviembre."
+          },
+          {
+            "en": "We'd better hurry; the office closes at four.",
+            "es": "Más vale que nos apuremos; la oficina cierra a las cuatro."
+          }
+        ]
+      },
+      {
+        "title_es": "En pasado: had to, didn't have to y should have",
+        "body_es": "Must no tiene pasado; para obligaciones pasadas se usa had to: I had to wait two hours at the clinic. Para decir que algo no fue necesario: didn't have to: We didn't have to pay for parking. Para lamentar o criticar algo del pasado se usa should have + participio: I should have brought a jacket (debí traer chamarra, pero no la traje). En negativo: You shouldn't have said that (no debiste decir eso, pero lo dijiste). Al hablar suena como «should've». Cuidado: es should have + participio, nunca *should had*.",
+        "examples": [
+          {
+            "en": "I had to show my passport twice at the airport.",
+            "es": "Tuve que enseñar mi pasaporte dos veces en el aeropuerto."
+          },
+          {
+            "en": "We didn't have to wait long at the bank.",
+            "es": "No tuvimos que esperar mucho en el banco."
+          },
+          {
+            "en": "I should have applied earlier; the deadline passed.",
+            "es": "Debí haber aplicado antes; ya pasó la fecha límite."
+          }
+        ],
+        "table": [
+          [
+            "had to + verbo",
+            "obligación en el pasado"
+          ],
+          [
+            "didn't have to + verbo",
+            "no fue necesario"
+          ],
+          [
+            "should have + participio",
+            "debí / debiste (y no se hizo)"
+          ],
+          [
+            "shouldn't have + participio",
+            "no debí / no debiste (y sí se hizo)"
+          ]
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "New employees have to complete a two-week probation period.",
+        "es": "Los empleados nuevos tienen que cumplir dos semanas de periodo de prueba."
+      },
+      {
+        "en": "You don't have to tip at the counter, but many people do.",
+        "es": "No es obligatorio dejar propina en el mostrador, pero mucha gente lo hace."
+      },
+      {
+        "en": "You should dress in layers when it's this cold.",
+        "es": "Deberías vestirte en capas cuando hace tanto frío."
+      },
+      {
+        "en": "We shouldn't have left the car outside during the storm.",
+        "es": "No debimos haber dejado el carro afuera durante la tormenta."
+      }
+    ],
+    "mistakes_es": "1) *You don't have to smoke here* para prohibir → *You can't smoke here* (don't have to significa que no es necesario). 2) *I must to go* → *I must go* (los modales van sin to). 3) *I musted work yesterday* → *I had to work yesterday* (must no tiene pasado). 4) *I should had studied* → *I should have studied* (should have + participio). 5) *She have to work* → *She has to work* (have to se conjuga con he/she/it).",
+    "ielts_es": "En Writing Task 2 los modales permiten proponer soluciones y matizar opiniones: Governments should invest in…, Schools ought to…, People do not have to… En Speaking Part 3 se usan para dar recomendaciones y hablar de reglas. Should have aparece en Part 2 cuando cuentas una experiencia del pasado. Todo cuenta para «Grammatical Range and Accuracy». Consejo: en tus conclusiones, alterna should, need to y it is essential that en lugar de repetir must en cada párrafo.",
+    "practice": [
+      {
+        "q": "It's a casual office, so you ___ wear a suit.",
+        "options": [
+          "mustn't",
+          "have to",
+          "don't have to",
+          "can't"
+        ],
+        "answer": 2,
+        "why_es": "Don't have to indica que no es necesario. Mustn't o can't serían una prohibición."
+      },
+      {
+        "q": "You ___ use your phone while driving. It's against the law.",
+        "options": [
+          "don't have to",
+          "can't",
+          "shouldn't have"
+        ],
+        "answer": 1,
+        "why_es": "Para algo prohibido por ley se usa can't (o mustn't, not allowed to)."
+      },
+      {
+        "q": "Yesterday I ___ stay late to finish the report.",
+        "options": [
+          "had to",
+          "must",
+          "have to",
+          "musted"
+        ],
+        "answer": 0,
+        "why_es": "Must no tiene pasado. La obligación en pasado se expresa con had to."
+      },
+      {
+        "q": "You look really tired. You ___ get some rest.",
+        "options": [
+          "must to",
+          "should",
+          "had"
+        ],
+        "answer": 1,
+        "why_es": "Para dar un consejo se usa should + verbo base."
+      },
+      {
+        "q": "I failed the test. I ___ more.",
+        "options": [
+          "should have studied",
+          "should study",
+          "should had studied"
+        ],
+        "answer": 0,
+        "why_es": "Para lamentar algo que no se hizo en el pasado: should have + participio."
+      },
+      {
+        "q": "___ I open the window? It's a bit hot in here.",
+        "options": [
+          "Must",
+          "Should have",
+          "Could",
+          "Have to"
+        ],
+        "answer": 2,
+        "why_es": "Para pedir permiso de forma amable se usa Could I…? (o Can I / May I)."
+      },
+      {
+        "q": "She ___ work on Saturdays at her new job.",
+        "options": [
+          "has to",
+          "have to",
+          "must to"
+        ],
+        "answer": 0,
+        "why_es": "Have to se conjuga como verbo normal: con she, has to."
+      },
+      {
+        "q": "We ___ pay for parking. It was free on Sundays.",
+        "options": [
+          "didn't have to",
+          "mustn't",
+          "shouldn't have",
+          "couldn't"
+        ],
+        "answer": 0,
+        "why_es": "Didn't have to expresa que en el pasado no fue necesario hacer algo."
+      }
+    ]
+  },
+  {
+    "id": "gr-wishes-regrets",
+    "order": 26,
+    "name_en": "Wishes and regrets",
+    "title_es": "Deseos y arrepentimientos: wish, if only, would rather, it's time",
+    "group": "estructuras",
+    "level": "B2",
+    "use_es": "Con wish e if only expresamos deseos sobre algo que no es real o arrepentimientos sobre el pasado, como «ojalá» o «me gustaría que…». La clave es que el verbo «retrocede» un tiempo: para un deseo del presente se usa pasado (I wish I had a car = ojalá tuviera carro), y para lamentar el pasado se usa past perfect (I wish I had studied = ojalá hubiera estudiado). Would rather e it's time siguen una lógica parecida y sirven para preferencias y para decir que ya es hora de algo.",
+    "steps": [
+      {
+        "title_es": "Wish + pasado: deseos sobre el presente",
+        "body_es": "Cuando quieres que algo del presente fuera distinto, usas wish + pasado simple, aunque hables de ahora: I wish I lived closer to work (ojalá viviera más cerca del trabajo; en realidad vivo lejos). Funciona igual que «ojalá + subjuntivo pasado» en español: tuviera, viviera, supiera. Con el verbo be, en inglés cuidado se usa were para todas las personas: I wish I were taller, I wish it were summer. En la conversación diaria también se oye was, y es aceptado: I wish it was warmer.",
+        "examples": [
+          {
+            "en": "I wish I spoke French too.",
+            "es": "Ojalá también hablara francés."
+          },
+          {
+            "en": "She wishes she had more time for her kids.",
+            "es": "A ella le gustaría tener más tiempo para sus hijos."
+          },
+          {
+            "en": "I wish it were a little warmer today.",
+            "es": "Ojalá hiciera un poco menos de frío hoy."
+          }
+        ]
+      },
+      {
+        "title_es": "Wish + past perfect: arrepentimientos del pasado",
+        "body_es": "Para lamentar algo que ya pasó se usa wish + had + participio: I wish I had saved more money before moving (ojalá hubiera ahorrado más; no lo hice). En negativo, para algo que sí hiciste y lamentas: I wish I hadn't sold my car. If only tiene el mismo uso, pero suena más intenso o emotivo: If only I had listened to you! Ojo: no se usa would para el pasado; se dice *I wish I had known*, no *I wish I would have known* (que se escucha en la calle, pero se considera incorrecto en exámenes).",
+        "examples": [
+          {
+            "en": "I wish I had brought warmer gloves.",
+            "es": "Ojalá hubiera traído guantes más calientitos."
+          },
+          {
+            "en": "He wishes he hadn't quit his last job so quickly.",
+            "es": "Él quisiera no haber renunciado tan rápido a su último trabajo."
+          },
+          {
+            "en": "If only we had known about the free program earlier!",
+            "es": "¡Si tan solo hubiéramos sabido antes del programa gratuito!"
+          }
+        ],
+        "table": [
+          [
+            "wish + pasado simple",
+            "deseo sobre el presente: I wish I knew"
+          ],
+          [
+            "wish + had + participio",
+            "arrepentimiento del pasado: I wish I had known"
+          ],
+          [
+            "if only + …",
+            "igual que wish, pero más emotivo"
+          ]
+        ]
+      },
+      {
+        "title_es": "Wish + would: quejas sobre lo que otros hacen",
+        "body_es": "Wish + would se usa para quejarte de algo que otra persona (o algo) hace y que quisieras que cambiara: I wish my neighbor would turn down the music (ojalá el vecino le bajara a la música). Expresa molestia o impaciencia y se refiere a acciones, no a estados. Por eso no se dice *I wish I would* sobre uno mismo: para ti se usa could o el pasado: I wish I could come to the party (ojalá pudiera ir). Wish + could también sirve para habilidades o posibilidades que no tienes.",
+        "examples": [
+          {
+            "en": "I wish the bus would come on time for once.",
+            "es": "Ojalá el camión llegara a tiempo aunque sea una vez."
+          },
+          {
+            "en": "I wish you wouldn't leave your boots in the hallway.",
+            "es": "Preferiría que no dejaras tus botas en el pasillo."
+          },
+          {
+            "en": "I wish I could visit my family more often.",
+            "es": "Ojalá pudiera visitar a mi familia más seguido."
+          }
+        ]
+      },
+      {
+        "title_es": "Would rather e it's time",
+        "body_es": "Would rather ('d rather) significa «preferiría». Si el sujeto es el mismo, va con verbo base: I'd rather stay home tonight. Si quieres que OTRA persona haga algo, va con sujeto + pasado: I'd rather you called me before coming (preferiría que me llamaras antes). It's time también se combina con pasado para decir que algo ya debería estar pasando: It's time we left (ya es hora de que nos vayamos). Con It's high time el tono es más fuerte. Si es general, va con to: It's time to go.",
+        "examples": [
+          {
+            "en": "I'd rather take the train than drive in this snow.",
+            "es": "Prefiero tomar el tren a manejar con esta nieve."
+          },
+          {
+            "en": "I'd rather you didn't share that information.",
+            "es": "Preferiría que no compartieras esa información."
+          },
+          {
+            "en": "It's time we looked for a bigger apartment.",
+            "es": "Ya es hora de que busquemos un departamento más grande."
+          }
+        ],
+        "table": [
+          [
+            "would rather + verbo base",
+            "yo prefiero hacer: I'd rather walk"
+          ],
+          [
+            "would rather + sujeto + pasado",
+            "prefiero que otro haga: I'd rather you stayed"
+          ],
+          [
+            "it's time + sujeto + pasado",
+            "ya es hora de que: It's time we went"
+          ]
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I wish I had started learning English when I was younger.",
+        "es": "Ojalá hubiera empezado a aprender inglés de más joven."
+      },
+      {
+        "en": "I wish winter weren't so long here.",
+        "es": "Ojalá el invierno no fuera tan largo aquí."
+      },
+      {
+        "en": "My coworker wishes the manager would give clearer instructions.",
+        "es": "Mi compañera quisiera que el gerente diera instrucciones más claras."
+      },
+      {
+        "en": "It's time I booked my flight home for the holidays.",
+        "es": "Ya es hora de que reserve mi vuelo a casa para las fiestas."
+      }
+    ],
+    "mistakes_es": "1) *I wish I have a car* → *I wish I had a car* (para el presente, wish + pasado). 2) *I wish I would have studied* → *I wish I had studied* (para el pasado, past perfect, no would). 3) *I wish I would speak better* → *I wish I could speak better* (wish + would no se usa sobre uno mismo). 4) *I'd rather you call me* → *I'd rather you called me* (con otro sujeto, pasado). 5) *It's time we go* → *It's time we went* (después de it's time + sujeto, pasado).",
+    "ielts_es": "En Speaking Part 2 muchas tarjetas piden hablar de una decisión, un cambio o algo que quisieras hacer, y Part 3 pregunta por el pasado y el futuro: I wish I had… o If only más una explicación muestran estructuras complejas en «Grammatical Range and Accuracy». En Writing Task 2 son menos comunes, pero It is time governments took action… es un recurso formal útil. Consejo: prepara dos o tres frases con wish sobre tu experiencia al mudarte a Canadá, para usarlas con naturalidad.",
+    "practice": [
+      {
+        "q": "I wish I ___ how to cook better.",
+        "options": [
+          "know",
+          "would know",
+          "have known",
+          "knew"
+        ],
+        "answer": 3,
+        "why_es": "Para un deseo sobre el presente se usa wish + pasado simple."
+      },
+      {
+        "q": "I didn't bring an umbrella. I wish I ___ one.",
+        "options": [
+          "brought",
+          "would bring",
+          "had brought"
+        ],
+        "answer": 2,
+        "why_es": "Para lamentar algo del pasado se usa wish + had + participio."
+      },
+      {
+        "q": "I wish my roommate ___ do the dishes for once.",
+        "options": [
+          "will",
+          "would",
+          "had"
+        ],
+        "answer": 1,
+        "why_es": "Wish + would expresa una queja sobre lo que otra persona hace o no hace."
+      },
+      {
+        "q": "I'd rather ___ home tonight. I'm exhausted.",
+        "options": [
+          "to stay",
+          "stay",
+          "stayed",
+          "staying"
+        ],
+        "answer": 1,
+        "why_es": "Con el mismo sujeto, would rather va seguido de verbo base, sin to."
+      },
+      {
+        "q": "I'd rather you ___ the door. It's cold outside.",
+        "options": [
+          "don't open",
+          "didn't open",
+          "won't open"
+        ],
+        "answer": 1,
+        "why_es": "Cuando la preferencia es sobre otra persona, would rather + sujeto + pasado."
+      },
+      {
+        "q": "It's nearly midnight. It's time we ___ home.",
+        "options": [
+          "go",
+          "will go",
+          "went"
+        ],
+        "answer": 2,
+        "why_es": "Después de it's time + sujeto se usa pasado, aunque se hable del presente."
+      },
+      {
+        "q": "If only I ___ that email before the meeting!",
+        "options": [
+          "read",
+          "had read",
+          "have read",
+          "would read"
+        ],
+        "answer": 1,
+        "why_es": "If only funciona como wish: para arrepentirse del pasado, had + participio."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "I wish I would visit my family more.",
+          "I wish I can visit my family more.",
+          "I wish I could visit my family more."
+        ],
+        "answer": 2,
+        "why_es": "Para una posibilidad que uno no tiene se usa wish + could. Wish + would no se usa sobre uno mismo."
+      }
+    ]
+  },
+  {
+    "id": "gr-mixed-conditionals",
+    "order": 27,
+    "name_en": "Mixed conditionals and alternatives to if",
+    "title_es": "Condicionales mixtas y alternativas a if: unless, as long as, in case",
+    "group": "estructuras",
+    "level": "C1",
+    "use_es": "Las condicionales mixtas combinan tiempos distintos: una condición en el pasado con un resultado en el presente (Si hubiera aceptado ese trabajo, ahora viviría en Toronto), o al revés. Además, el inglés tiene muchas palabras que reemplazan a if y aportan matices: unless (a menos que), as long as y provided that (siempre y cuando), in case (por si acaso) y otherwise (si no, de lo contrario). Esta unidad supone que ya conoces las condicionales básicas (cero, primera, segunda y tercera).",
+    "steps": [
+      {
+        "title_es": "Repaso rápido y la idea de mezclar",
+        "body_es": "La segunda condicional habla de algo irreal en el presente (If I had a car, I would drive to work) y la tercera de algo irreal en el pasado con resultado en el pasado (If I had left earlier, I would have caught the bus). En la vida real, las causas y los resultados no siempre están en el mismo tiempo: una decisión de hace años puede afectar tu situación de hoy, o una característica permanente tuya puede explicar algo que pasó ayer. Para eso se mezclan las dos estructuras. Primero identifica: ¿cuándo es la condición? ¿cuándo es el resultado?",
+        "examples": [
+          {
+            "en": "If I had a car, I would drive to work.",
+            "es": "Si tuviera carro, me iría manejando al trabajo."
+          },
+          {
+            "en": "If I had left earlier, I would have caught the bus.",
+            "es": "Si hubiera salido antes, habría alcanzado el camión."
+          }
+        ]
+      },
+      {
+        "title_es": "Pasado → presente: decisiones que afectan hoy",
+        "body_es": "Es la mezcla más común: If + past perfect, would + verbo base. La condición es irreal en el pasado y el resultado es irreal ahora. If I had studied nursing, I would be working in a hospital now (si hubiera estudiado enfermería, ahora estaría trabajando en un hospital). Suele llevar palabras como now, today o still en el resultado, que ayudan a ver el cambio de tiempo. Es muy útil para hablar de tu historia de migración y de decisiones de carrera.",
+        "examples": [
+          {
+            "en": "If we hadn't moved here, my kids wouldn't speak English so well.",
+            "es": "Si no nos hubiéramos mudado aquí, mis hijos no hablarían inglés tan bien."
+          },
+          {
+            "en": "If I had taken that job offer, I would live in Vancouver now.",
+            "es": "Si hubiera aceptado esa oferta de trabajo, ahora viviría en Vancouver."
+          },
+          {
+            "en": "If she had renewed her license, she could drive today.",
+            "es": "Si hubiera renovado su licencia, hoy podría manejar."
+          }
+        ],
+        "table": [
+          [
+            "If + had + participio, would + verbo base",
+            "pasado irreal → presente irreal"
+          ],
+          [
+            "If I had saved money, I would be less stressed now.",
+            "condición pasada, resultado actual"
+          ]
+        ]
+      },
+      {
+        "title_es": "Presente → pasado: cómo eres explica lo que pasó",
+        "body_es": "La otra mezcla es If + pasado simple, would have + participio. Aquí la condición es algo irreal que es permanente o actual (una característica, una habilidad, una situación general) y el resultado es algo del pasado que no ocurrió. If I spoke better English, I would have gotten that job (si hablara mejor inglés, me habrían dado ese trabajo; mi nivel de inglés de siempre explica lo que pasó). If he weren't so shy, he would have asked her out. Es menos frecuente, pero suena muy natural en el nivel avanzado.",
+        "examples": [
+          {
+            "en": "If I weren't afraid of flying, I would have visited you last summer.",
+            "es": "Si no me diera miedo volar, te habría visitado el verano pasado."
+          },
+          {
+            "en": "If she knew how to drive, she would have taken the job in the suburbs.",
+            "es": "Si supiera manejar, habría aceptado el trabajo en las afueras."
+          }
+        ]
+      },
+      {
+        "title_es": "Unless, as long as, provided that",
+        "body_es": "Unless significa «a menos que» o «si no»: You can't enter unless you have a pass (no puedes entrar a menos que tengas pase). Ojo: unless ya es negativo, así que no se dice *unless you don't have*. As long as, so long as, provided that y providing (that) significan «siempre y cuando» o «con la condición de que»; ponen una condición necesaria: You can work from home as long as you attend the Monday meeting. Provided that es más formal y aparece en contratos y reglamentos. Con todas estas palabras, para el futuro se usa presente, igual que con if: as long as you finish, no *as long as you will finish*.",
+        "examples": [
+          {
+            "en": "I'll walk to work unless it's below minus twenty.",
+            "es": "Me voy caminando al trabajo, a menos que esté a menos de veinte bajo cero."
+          },
+          {
+            "en": "You can borrow my car as long as you fill up the tank.",
+            "es": "Te presto mi carro siempre y cuando le llenes el tanque."
+          },
+          {
+            "en": "Tenants may have a cat provided that they pay a pet deposit.",
+            "es": "Los inquilinos pueden tener gato siempre que paguen un depósito por mascota."
+          }
+        ],
+        "table": [
+          [
+            "unless",
+            "a menos que (= if… not)"
+          ],
+          [
+            "as long as / provided that",
+            "siempre y cuando (condición necesaria)"
+          ],
+          [
+            "presente para el futuro",
+            "unless it rains, as long as you call"
+          ]
+        ]
+      },
+      {
+        "title_es": "In case y otherwise",
+        "body_es": "In case significa «por si acaso» y es diferente de if. Con if, haces algo solo si pasa la condición: I'll bring a jacket if it gets cold (la saco si hace frío). Con in case, haces algo ahora como precaución, pase o no pase: I'll bring a jacket in case it gets cold (la llevo por si acaso). Otherwise significa «si no» o «de lo contrario» y une dos oraciones: Leave now; otherwise, you'll miss the bus. En la escritura suele ir después de punto y coma o al inicio de una nueva oración, seguido de coma.",
+        "examples": [
+          {
+            "en": "Keep a blanket in the car in case you get stuck in the snow.",
+            "es": "Lleva una cobija en el carro por si te quedas atorado en la nieve."
+          },
+          {
+            "en": "Write down the address in case your phone dies.",
+            "es": "Apunta la dirección por si se te acaba la pila del celular."
+          },
+          {
+            "en": "Book the appointment today; otherwise, you'll wait another month.",
+            "es": "Haz la cita hoy; si no, vas a esperar otro mes."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "If I hadn't joined that conversation group, I wouldn't have so many friends here.",
+        "es": "Si no me hubiera unido a ese grupo de conversación, no tendría tantos amigos aquí."
+      },
+      {
+        "en": "The library is free as long as you have a valid card.",
+        "es": "La biblioteca es gratis siempre y cuando tengas una credencial vigente."
+      },
+      {
+        "en": "Unless the roads are closed, the shift starts at six.",
+        "es": "A menos que cierren las carreteras, el turno empieza a las seis."
+      },
+      {
+        "en": "Save a copy of your documents in case the office asks for them again.",
+        "es": "Guarda una copia de tus documentos por si la oficina te los vuelve a pedir."
+      }
+    ],
+    "mistakes_es": "1) *If I would have studied, I would be…* → *If I had studied, I would be…* (en la parte con if no va would). 2) *Unless you don't hurry, you'll be late* → *Unless you hurry, you'll be late* (unless ya es negativo). 3) *As long as you will call me* → *As long as you call me* (presente para el futuro). 4) Confundir in case con if: *Take an umbrella if it rains* para precaución → *Take an umbrella in case it rains*. 5) *If I had moved, I would have be happier now* → *If I had moved, I would be happier now* (resultado presente: would + verbo base).",
+    "ielts_es": "Las condicionales mixtas son una muestra clara de nivel 7+ en «Grammatical Range and Accuracy». En Speaking Part 2 y 3 sirven para hablar de decisiones pasadas y sus consecuencias actuales. En Writing Task 2, unless, provided that y otherwise permiten matizar argumentos: Cities will remain congested unless public transport improves. Consejo: no fuerces mixtas en cada respuesta; una bien usada, con el tiempo exacto, vale más que tres con errores.",
+    "practice": [
+      {
+        "q": "If I ___ that course last year, I would have a better job now.",
+        "options": [
+          "had taken",
+          "took",
+          "would take",
+          "have taken"
+        ],
+        "answer": 0,
+        "why_es": "La condición es pasada e irreal y el resultado es presente: If + had + participio, would + verbo base."
+      },
+      {
+        "q": "If she weren't so shy, she ___ for the promotion last month.",
+        "options": [
+          "would have applied",
+          "would apply",
+          "had applied"
+        ],
+        "answer": 0,
+        "why_es": "La condición es una característica actual y el resultado es pasado: would have + participio."
+      },
+      {
+        "q": "You won't get a refund ___ you have the receipt.",
+        "options": [
+          "as long as",
+          "in case",
+          "unless"
+        ],
+        "answer": 2,
+        "why_es": "Unless significa 'a menos que': sin recibo no hay reembolso."
+      },
+      {
+        "q": "You can use the meeting room ___ you book it in advance.",
+        "options": [
+          "unless",
+          "otherwise",
+          "as long as",
+          "in case"
+        ],
+        "answer": 2,
+        "why_es": "As long as introduce una condición necesaria: siempre y cuando lo reserves."
+      },
+      {
+        "q": "Take some cash ___ the card machine isn't working.",
+        "options": [
+          "if",
+          "unless",
+          "in case"
+        ],
+        "answer": 2,
+        "why_es": "In case indica precaución: llévalo por si acaso, pase o no pase."
+      },
+      {
+        "q": "Hurry up; ___, we'll miss the start of the movie.",
+        "options": [
+          "otherwise",
+          "unless",
+          "provided"
+        ],
+        "answer": 0,
+        "why_es": "Otherwise significa 'si no, de lo contrario' y conecta dos oraciones."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "Unless you don't call, I'll wait.",
+          "Unless you will call, I won't wait.",
+          "Unless you call, I won't wait."
+        ],
+        "answer": 2,
+        "why_es": "Unless ya incluye la negación y, para el futuro, va con presente."
+      },
+      {
+        "q": "If we hadn't missed the flight, we ___ in Cancún right now.",
+        "options": [
+          "would have been",
+          "will be",
+          "would be",
+          "were"
+        ],
+        "answer": 2,
+        "why_es": "La condición está en el pasado pero el resultado es ahora (right now): would + verbo base."
+      }
+    ]
+  },
+  {
+    "id": "gr-agreement-sentence-errors",
+    "order": 28,
+    "name_en": "Subject-verb agreement and common sentence errors",
+    "title_es": "Concordancia sujeto-verbo y errores comunes de oración",
+    "group": "estructuras",
+    "level": "B2",
+    "use_es": "La concordancia es que el verbo coincida con su sujeto: singular con singular y plural con plural. Parece fácil, pero se complica cuando el sujeto es largo, cuando es una palabra como everyone o cuando la frase empieza con there. También veremos errores de puntuación que el español tolera más, como pegar dos oraciones con una coma. Son detalles que un lector nativo nota de inmediato en un correo, un currículum o un ensayo.",
+    "steps": [
+      {
+        "title_es": "There is y there are",
+        "body_es": "There is / there are equivalen a «hay». En español «hay» nunca cambia, pero en inglés el verbo concuerda con lo que viene después: there is + singular o incontable (There is a problem, There is some milk), there are + plural (There are two problems). Lo mismo en pasado (there was, there were) y con presente perfecto (there has been, there have been). En el habla rápida se oye there's con plurales, pero al escribir o en el examen usa la forma correcta. Si hay una lista, el verbo suele concordar con el primer elemento: There is a desk and two chairs.",
+        "examples": [
+          {
+            "en": "There are three new students in my class.",
+            "es": "Hay tres estudiantes nuevos en mi clase."
+          },
+          {
+            "en": "There was a lot of snow on the roads this morning.",
+            "es": "Había mucha nieve en las calles esta mañana."
+          },
+          {
+            "en": "There have been some changes to the schedule.",
+            "es": "Ha habido algunos cambios en el horario."
+          }
+        ]
+      },
+      {
+        "title_es": "Everyone, nobody, each: singulares engañosos",
+        "body_es": "Palabras como everyone, everybody, someone, nobody, everything y each llevan el verbo en SINGULAR, aunque se refieran a mucha gente: Everyone is here (todos están aquí). En español decimos «todos están», por eso el error es frecuente. Each y every también son singulares: Each room has a window. En cambio, all y both van en plural: All the students are here. Para referirse a everyone después, el inglés usa they: Everyone should bring their ID. Así se evita decir his or her.",
+        "examples": [
+          {
+            "en": "Everyone in the office knows about the party.",
+            "es": "Todos en la oficina saben de la fiesta."
+          },
+          {
+            "en": "Nobody likes shoveling snow at 6 a.m.",
+            "es": "A nadie le gusta palear nieve a las 6 de la mañana."
+          },
+          {
+            "en": "Each apartment has its own parking spot.",
+            "es": "Cada departamento tiene su propio lugar de estacionamiento."
+          }
+        ],
+        "table": [
+          [
+            "everyone, someone, nobody + is/has",
+            "singular"
+          ],
+          [
+            "each, every + sustantivo singular",
+            "each room has…"
+          ],
+          [
+            "all, both, many + plural",
+            "all the rooms have…"
+          ]
+        ]
+      },
+      {
+        "title_es": "Sujetos largos y the number of / a number of",
+        "body_es": "Cuando entre el sujeto y el verbo hay mucha información, busca el núcleo del sujeto: The price of the apartments is high (lo que es alto es el price, singular). The list of documents is on the website. Cuidado también con dos expresiones muy parecidas: the number of + plural lleva verbo SINGULAR porque el sujeto es el número: The number of applicants has increased. En cambio, a number of significa «varios» y lleva verbo PLURAL: A number of applicants have experience. Otras: one of the + plural + singular (One of my friends lives in Calgary).",
+        "examples": [
+          {
+            "en": "The cost of groceries has gone up this year.",
+            "es": "El costo del súper ha subido este año."
+          },
+          {
+            "en": "The number of international students is growing.",
+            "es": "El número de estudiantes internacionales está creciendo."
+          },
+          {
+            "en": "A number of employees have asked for remote work.",
+            "es": "Varios empleados han pedido trabajar a distancia."
+          }
+        ],
+        "table": [
+          [
+            "the number of + plural + is/has",
+            "singular: el número"
+          ],
+          [
+            "a number of + plural + are/have",
+            "plural: varios"
+          ],
+          [
+            "one of the + plural + is/has",
+            "singular: uno de ellos"
+          ]
+        ]
+      },
+      {
+        "title_es": "Oraciones pegadas con coma (run-on) y fragmentos",
+        "body_es": "En español a veces unimos dos ideas completas con una coma; en inglés eso es un error llamado comma splice o run-on sentence: *I finished my shift, I went home.* Hay cuatro formas de corregirlo: con punto (I finished my shift. I went home.), con punto y coma (I finished my shift; I went home.), con coma + and, but o so (I finished my shift, so I went home.) o con una palabra como after o because (After I finished my shift, I went home.). Ojo con however: no une oraciones con coma; usa punto o punto y coma antes. El error contrario es el fragmento: una oración incompleta como *Because the bus was late.* sola.",
+        "examples": [
+          {
+            "en": "The office was closed, so I came back the next day.",
+            "es": "La oficina estaba cerrada, así que regresé al día siguiente."
+          },
+          {
+            "en": "I applied for the job; however, they never called me.",
+            "es": "Solicité el trabajo; sin embargo, nunca me llamaron."
+          },
+          {
+            "en": "I was late because the bus didn't come.",
+            "es": "Llegué tarde porque el camión no pasó."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "There are a few things everyone needs to know before winter.",
+        "es": "Hay algunas cosas que todos necesitan saber antes del invierno."
+      },
+      {
+        "en": "The number of hours I work changes every week.",
+        "es": "El número de horas que trabajo cambia cada semana."
+      },
+      {
+        "en": "One of my coworkers speaks Spanish, so she helps me sometimes.",
+        "es": "Una de mis compañeras habla español, así que a veces me ayuda."
+      },
+      {
+        "en": "The rent is high; however, the location is perfect.",
+        "es": "La renta está alta; sin embargo, la ubicación es perfecta."
+      }
+    ],
+    "mistakes_es": "1) *There is many people* → *There are many people* (there are con plural). 2) *Everyone are ready* → *Everyone is ready* (everyone es singular). 3) *The number of students have increased* → *The number of students has increased* (el sujeto es the number). 4) *I was tired, I went to bed* → *I was tired, so I went to bed* (no se unen dos oraciones solo con coma). 5) *The price of the houses are high* → *The price of the houses is high* (concuerda con price, no con houses).",
+    "ielts_es": "Esta unidad es pura «Grammatical Range and Accuracy»: los examinadores penalizan los errores de concordancia repetidos y la puntuación que dificulta leer. En Writing Task 1 vas a usar constantemente the number of, the proportion of y there was / there were. En Task 2, las oraciones pegadas con coma o con however mal puntuado son de los errores más comunes de hispanohablantes. Consejo: al revisar, lee cada oración buscando su sujeto y su verbo, y revisa cada coma entre dos ideas completas.",
+    "practice": [
+      {
+        "q": "There ___ two pharmacies near my house.",
+        "options": [
+          "is",
+          "are",
+          "has",
+          "be"
+        ],
+        "answer": 1,
+        "why_es": "Pharmacies es plural, así que va there are. En inglés el verbo concuerda con lo que sigue."
+      },
+      {
+        "q": "Everyone ___ excited about the long weekend.",
+        "options": [
+          "are",
+          "is",
+          "were"
+        ],
+        "answer": 1,
+        "why_es": "Everyone lleva verbo en singular, aunque se refiera a muchas personas."
+      },
+      {
+        "q": "The number of newcomers ___ increased this year.",
+        "options": [
+          "has",
+          "have",
+          "are"
+        ],
+        "answer": 0,
+        "why_es": "El sujeto es the number, singular, así que va has."
+      },
+      {
+        "q": "A number of students ___ asked for more practice tests.",
+        "options": [
+          "has",
+          "have",
+          "is"
+        ],
+        "answer": 1,
+        "why_es": "A number of significa 'varios' y lleva el verbo en plural."
+      },
+      {
+        "q": "The price of the new laptops ___ too high for me.",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "be"
+        ],
+        "answer": 1,
+        "why_es": "El núcleo del sujeto es price (singular); of the new laptops solo lo describe."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "It was snowing, we stayed home.",
+          "It was snowing, so we stayed home.",
+          "It was snowing, however we stayed home."
+        ],
+        "answer": 1,
+        "why_es": "Dos oraciones completas no se unen solo con coma; hace falta un conector como so. However necesita punto o punto y coma antes."
+      },
+      {
+        "q": "One of my neighbors ___ a snowblower.",
+        "options": [
+          "has",
+          "have",
+          "are having"
+        ],
+        "answer": 0,
+        "why_es": "One of + plural lleva verbo singular, porque el sujeto es one."
+      },
+      {
+        "q": "Which one is a complete sentence?",
+        "options": [
+          "Because the store was closed.",
+          "I called twice because the store was closed.",
+          "Although I called twice."
+        ],
+        "answer": 1,
+        "why_es": "Una oración que empieza con because o although sola es un fragmento; necesita una idea principal."
+      }
+    ]
+  }
+]

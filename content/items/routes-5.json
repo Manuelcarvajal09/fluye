@@ -1,0 +1,761 @@
+[
+  {
+    "id": "phr-what-brings-you-to-edmonton",
+    "type": "phrase",
+    "term": "what brings you to Edmonton?",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas",
+      "canada"
+    ],
+    "es": "¿qué te trae a Edmonton?",
+    "def": "a friendly question about why someone came to live or work in a city",
+    "note": "En entrevistas responde breve y en positivo (trabajo, familia, la ciudad). No tienes que contar toda tu historia migratoria.",
+    "ex": [
+      {
+        "en": "So, [what brings you to Edmonton]?",
+        "es": "Entonces, ¿qué te trae a Edmonton?"
+      },
+      {
+        "en": "[What brings you to Edmonton], if you don't mind me asking?",
+        "es": "¿Qué te trae a Edmonton, si se puede saber?"
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-im-eligible-to-work-in-canada",
+    "type": "phrase",
+    "term": "I'm eligible to work in Canada",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas",
+      "canada"
+    ],
+    "es": "tengo autorización para trabajar en Canadá",
+    "def": "a clear way to say you are legally allowed to work in the country",
+    "note": "Di solo lo que aplica a tu caso y con precisión (p. ej. 'with an open work permit'). Es lenguaje para comunicarte, no asesoría migratoria.",
+    "ex": [
+      {
+        "en": "Yes, [I'm eligible to work in Canada] full-time.",
+        "es": "Sí, tengo autorización para trabajar en Canadá tiempo completo."
+      },
+      {
+        "en": "[I'm eligible to work in Canada], and I can share the details.",
+        "es": "Tengo autorización para trabajar en Canadá y puedo dar los detalles."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "phr-im-available-to-start",
+    "type": "phrase",
+    "term": "I'm available to start…",
+    "level": "A2",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "puedo empezar…; estoy disponible para empezar…",
+    "def": "a way to say the date when you can begin a new job",
+    "note": "Da una fecha concreta: 'I'm available to start on May 5' o 'two weeks after an offer'.",
+    "ex": [
+      {
+        "en": "[I'm available to start] next Monday.",
+        "es": "Puedo empezar el próximo lunes."
+      },
+      {
+        "en": "[I'm available to start] two weeks after an offer.",
+        "es": "Puedo empezar dos semanas después de una oferta."
+      }
+    ]
+  },
+  {
+    "id": "phr-do-you-have-any-questions-for-us",
+    "type": "phrase",
+    "term": "do you have any questions for us?",
+    "level": "A2",
+    "topic": "interview",
+    "freq": 5,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "¿tienes alguna pregunta para nosotros?",
+    "def": "a question interviewers ask near the end of an interview",
+    "note": "Casi siempre llega al final. Ten dos preguntas listas; responder solo 'No' deja mala impresión.",
+    "ex": [
+      {
+        "en": "Before we finish, [do you have any questions for us]?",
+        "es": "Antes de terminar, ¿tienes alguna pregunta para nosotros?"
+      },
+      {
+        "en": "She smiled and asked, '[Do you have any questions for us]?'",
+        "es": "Sonrió y preguntó: '¿Tienes alguna pregunta para nosotros?'"
+      }
+    ]
+  },
+  {
+    "id": "phr-im-looking-for-something-in-the-range-of",
+    "type": "phrase",
+    "term": "I'm looking for something in the range of…",
+    "level": "B2",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas",
+      "canada"
+    ],
+    "es": "busco algo en el rango de…",
+    "def": "a polite way to give the salary you hope to earn",
+    "note": "En Canadá se habla de sueldo anual: 'in the range of 55 to 60 thousand'. Investiga el mercado antes y da un rango, no una sola cifra.",
+    "ex": [
+      {
+        "en": "[I'm looking for something in the range of] 55 to 60 thousand.",
+        "es": "Busco algo en el rango de 55 a 60 mil."
+      },
+      {
+        "en": "Honestly, [I'm looking for something in the range of] 70K.",
+        "es": "Sinceramente, busco algo alrededor de 70 mil."
+      }
+    ]
+  },
+  {
+    "id": "col-two-weeks-notice",
+    "type": "collocation",
+    "term": "two weeks' notice",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas",
+      "canada"
+    ],
+    "es": "aviso de dos semanas (al renunciar)",
+    "def": "the usual time you tell your boss before you leave a job",
+    "note": "Lo habitual en Canadá al dejar un empleo: 'I'd need to give two weeks' notice'. Por eso muchas personas no pueden empezar de inmediato.",
+    "ex": [
+      {
+        "en": "I'd need to give [two weeks' notice] first.",
+        "es": "Primero tendría que dar aviso con dos semanas."
+      },
+      {
+        "en": "He gave [two weeks' notice] and left on good terms.",
+        "es": "Avisó con dos semanas y se fue en buenos términos."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "voc-detail-oriented",
+    "type": "vocab",
+    "term": "detail-oriented",
+    "ipa": "/ˈdiːteɪl ˌɔːriɛntɪd/",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "detallista; cuidadoso con los detalles",
+    "def": "careful to notice small things and avoid mistakes",
+    "note": "Muy común en ofertas de trabajo. Mejor que 'perfectionist', que puede sonar a defecto.",
+    "ex": [
+      {
+        "en": "The job needs someone very [detail-oriented].",
+        "es": "El puesto necesita a alguien muy detallista."
+      },
+      {
+        "en": "I'm [detail-oriented], so I always double-check my reports.",
+        "es": "Soy detallista, así que siempre reviso dos veces mis reportes."
+      }
+    ]
+  },
+  {
+    "id": "voc-campaign",
+    "type": "vocab",
+    "term": "campaign",
+    "ipa": "/kæmˈpeɪn/",
+    "level": "A2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm",
+      "entrevistas"
+    ],
+    "es": "campaña (de marketing o publicidad)",
+    "def": "a planned set of ads, posts or emails to reach a goal",
+    "note": "Se pronuncia 'kam-PEIN' (la g no suena). Colocaciones: run a campaign, launch a campaign.",
+    "ex": [
+      {
+        "en": "We launched a holiday [campaign] in November.",
+        "es": "Lanzamos una campaña navideña en noviembre."
+      },
+      {
+        "en": "The email [campaign] brought in forty new clients.",
+        "es": "La campaña de correo trajo cuarenta clientes nuevos."
+      }
+    ]
+  },
+  {
+    "id": "voc-social-media",
+    "type": "vocab",
+    "term": "social media",
+    "ipa": "/ˌsoʊʃəl ˈmiːdiə/",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "crm",
+      "conversacion"
+    ],
+    "es": "redes sociales",
+    "def": "websites and apps where people share posts, photos and videos",
+    "note": "Va en singular y sin artículo: 'I manage social media', no 'the social medias'.",
+    "ex": [
+      {
+        "en": "I post on [social media] three times a week.",
+        "es": "Publico en redes sociales tres veces por semana."
+      },
+      {
+        "en": "She managed [social media] for a small bakery.",
+        "es": "Ella manejaba las redes sociales de una panadería pequeña."
+      }
+    ]
+  },
+  {
+    "id": "col-content-calendar",
+    "type": "collocation",
+    "term": "content calendar",
+    "level": "B1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "crm"
+    ],
+    "es": "calendario de contenidos",
+    "def": "a plan that shows what you will post or publish and when",
+    "note": "Herramienta básica de un coordinador de marketing: 'I built a content calendar for the quarter'.",
+    "ex": [
+      {
+        "en": "I rebuilt our [content calendar] for the spring.",
+        "es": "Rehice nuestro calendario de contenidos para la primavera."
+      },
+      {
+        "en": "Every post is on the [content calendar] two weeks ahead.",
+        "es": "Cada publicación está en el calendario de contenidos con dos semanas de anticipación."
+      }
+    ]
+  },
+  {
+    "id": "voc-kpi",
+    "type": "vocab",
+    "term": "KPI",
+    "ipa": "/ˌkeɪ piː ˈaɪ/",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "crm",
+      "proyectos"
+    ],
+    "es": "indicador clave de desempeño (KPI)",
+    "def": "a number a team uses to check if it is reaching a goal",
+    "note": "Se dice letra por letra: 'kei-pi-ai'. Plural: KPIs. En entrevistas, nombra el KPI y la cifra.",
+    "ex": [
+      {
+        "en": "Our main [KPI] was the number of booked demos.",
+        "es": "Nuestro KPI principal era el número de demos agendadas."
+      },
+      {
+        "en": "Which [KPI] would you watch first?",
+        "es": "¿Qué KPI revisarías primero?"
+      }
+    ]
+  },
+  {
+    "id": "col-engagement-rate",
+    "type": "collocation",
+    "term": "engagement rate",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "crm"
+    ],
+    "es": "tasa de interacción",
+    "def": "the share of people who like, comment, share or click on content",
+    "note": "Se da en porcentaje: 'Our engagement rate went from 2% to 3.5%'.",
+    "ex": [
+      {
+        "en": "Our [engagement rate] doubled after we changed the posting times.",
+        "es": "Nuestra tasa de interacción se duplicó al cambiar los horarios de publicación."
+      },
+      {
+        "en": "A low [engagement rate] means people scroll past your posts.",
+        "es": "Una tasa de interacción baja significa que la gente pasa de largo tus publicaciones."
+      }
+    ]
+  },
+  {
+    "id": "col-brand-awareness",
+    "type": "collocation",
+    "term": "brand awareness",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "crm"
+    ],
+    "es": "reconocimiento de marca",
+    "def": "how much people know about a company or product",
+    "note": "Objetivo típico de campañas de redes: 'build brand awareness'.",
+    "ex": [
+      {
+        "en": "The goal was to build [brand awareness] before summer.",
+        "es": "El objetivo era crear reconocimiento de marca antes del verano."
+      },
+      {
+        "en": "Local events helped our [brand awareness] a lot.",
+        "es": "Los eventos locales ayudaron mucho a nuestro reconocimiento de marca."
+      }
+    ]
+  },
+  {
+    "id": "col-onboard-a-client",
+    "type": "collocation",
+    "term": "onboard a client",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "crm",
+      "soporte"
+    ],
+    "es": "incorporar a un cliente nuevo",
+    "def": "to help a new customer set up and start using a service",
+    "note": "El sustantivo es 'onboarding': 'client onboarding'. También 'onboard a new hire' (empleado nuevo).",
+    "ex": [
+      {
+        "en": "It usually takes a week to [onboard a client].",
+        "es": "Normalmente toma una semana incorporar a un cliente."
+      },
+      {
+        "en": "Last month I [onboarded a client] with twelve locations.",
+        "es": "El mes pasado incorporé a un cliente con doce sucursales."
+      }
+    ]
+  },
+  {
+    "id": "col-run-an-a-b-test",
+    "type": "collocation",
+    "term": "run an A/B test",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "crm",
+      "datos"
+    ],
+    "es": "hacer una prueba A/B",
+    "def": "to compare two versions of something to see which works better",
+    "note": "Se lee 'ei-bi test'. Ejemplo: probar dos asuntos de correo con la mitad de la lista cada uno.",
+    "ex": [
+      {
+        "en": "We should [run an A/B test] on the subject line.",
+        "es": "Deberíamos hacer una prueba A/B con el asunto."
+      },
+      {
+        "en": "I [ran an A/B test] and version B won by twenty percent.",
+        "es": "Hice una prueba A/B y la versión B ganó por veinte por ciento."
+      }
+    ]
+  },
+  {
+    "id": "phr-let-me-check-that-for-you",
+    "type": "phrase",
+    "term": "let me check that for you",
+    "level": "A2",
+    "topic": "work",
+    "freq": 5,
+    "areas": [
+      "soporte"
+    ],
+    "es": "déjeme revisarlo; permítame verificarlo",
+    "def": "a polite way to say you will look for information to help someone",
+    "note": "Frase clave de soporte: muestra que vas a actuar. Después explica qué vas a revisar.",
+    "ex": [
+      {
+        "en": "Good question. [Let me check that for you].",
+        "es": "Buena pregunta. Déjeme revisarlo."
+      },
+      {
+        "en": "One moment, please. [Let me check that for you] in the system.",
+        "es": "Un momento, por favor. Permítame verificarlo en el sistema."
+      }
+    ]
+  },
+  {
+    "id": "col-upset-customer",
+    "type": "collocation",
+    "term": "upset customer",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "soporte"
+    ],
+    "es": "cliente molesto",
+    "def": "a customer who is angry or unhappy about a problem",
+    "note": "Pregunta típica: 'How do you deal with an upset customer?'. Responde con empatía + acción concreta.",
+    "ex": [
+      {
+        "en": "How do you calm down an [upset customer]?",
+        "es": "¿Cómo calmas a un cliente molesto?"
+      },
+      {
+        "en": "I spoke with an [upset customer] for twenty minutes.",
+        "es": "Hablé con un cliente molesto durante veinte minutos."
+      }
+    ]
+  },
+  {
+    "id": "phr-heres-what-i-can-do",
+    "type": "phrase",
+    "term": "here's what I can do",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "soporte"
+    ],
+    "es": "esto es lo que puedo hacer",
+    "def": "a phrase to offer a clear solution after listening to a problem",
+    "note": "Pasa de la disculpa a la acción. Evita prometer lo que no depende de ti.",
+    "ex": [
+      {
+        "en": "I'm sorry about the delay. [Here's what I can do].",
+        "es": "Lamento el retraso. Esto es lo que puedo hacer."
+      },
+      {
+        "en": "[Here's what I can do]: I'll refund the shipping today.",
+        "es": "Esto es lo que puedo hacer: hoy le reembolso el envío."
+      }
+    ]
+  },
+  {
+    "id": "col-response-time",
+    "type": "collocation",
+    "term": "response time",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "soporte"
+    ],
+    "es": "tiempo de respuesta",
+    "def": "how long it takes to answer a customer or a request",
+    "note": "Métrica típica de soporte; 'first response time' = tiempo hasta la primera respuesta.",
+    "ex": [
+      {
+        "en": "Our average [response time] is under one hour.",
+        "es": "Nuestro tiempo de respuesta promedio es menor a una hora."
+      },
+      {
+        "en": "We cut our [response time] in half last year.",
+        "es": "Redujimos a la mitad nuestro tiempo de respuesta el año pasado."
+      }
+    ]
+  },
+  {
+    "id": "col-customer-satisfaction",
+    "type": "collocation",
+    "term": "customer satisfaction",
+    "level": "B2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "soporte",
+      "crm"
+    ],
+    "es": "satisfacción del cliente",
+    "def": "how happy customers are with a product or service",
+    "note": "Se mide con encuestas cortas (CSAT): 'Our customer satisfaction score was 94%'.",
+    "ex": [
+      {
+        "en": "[Customer satisfaction] went up after the new chat tool.",
+        "es": "La satisfacción del cliente subió con la nueva herramienta de chat."
+      },
+      {
+        "en": "I track [customer satisfaction] every week.",
+        "es": "Doy seguimiento a la satisfacción del cliente cada semana."
+      }
+    ]
+  },
+  {
+    "id": "col-de-escalate-a-situation",
+    "type": "collocation",
+    "term": "de-escalate a situation",
+    "level": "C1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "soporte",
+      "proyectos"
+    ],
+    "es": "calmar una situación tensa",
+    "def": "to make an angry or tense moment calmer and less serious",
+    "note": "Lenguaje profesional; no confundir con 'escalate a ticket' (pasar el caso a otro nivel).",
+    "ex": [
+      {
+        "en": "My first goal is to [de-escalate the situation].",
+        "es": "Mi primer objetivo es calmar la situación."
+      },
+      {
+        "en": "She [de-escalated the situation] with one calm question.",
+        "es": "Ella calmó la situación con una sola pregunta tranquila."
+      }
+    ]
+  },
+  {
+    "id": "col-juggle-priorities",
+    "type": "collocation",
+    "term": "juggle priorities",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "proyectos",
+      "soporte"
+    ],
+    "es": "manejar varias prioridades a la vez",
+    "def": "to manage several important tasks at the same time",
+    "note": "Informal-profesional; muy usado en entrevistas: 'I'm used to juggling priorities'.",
+    "ex": [
+      {
+        "en": "Coordinators [juggle priorities] all day.",
+        "es": "Los coordinadores manejan varias prioridades todo el día."
+      },
+      {
+        "en": "I learned to [juggle priorities] in a busy call centre.",
+        "es": "Aprendí a manejar varias prioridades en un centro de llamadas muy ocupado."
+      }
+    ]
+  },
+  {
+    "id": "col-lab-safety",
+    "type": "collocation",
+    "term": "lab safety",
+    "level": "A2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "seguridad en el laboratorio",
+    "def": "the rules and habits that protect people working in a lab",
+    "note": "Pregunta frecuente en entrevistas de laboratorio: 'What do you know about lab safety?'.",
+    "ex": [
+      {
+        "en": "[Lab safety] is the first thing we teach new staff.",
+        "es": "La seguridad en el laboratorio es lo primero que enseñamos al personal nuevo."
+      },
+      {
+        "en": "She took a [lab safety] course last spring.",
+        "es": "Ella tomó un curso de seguridad en el laboratorio la primavera pasada."
+      }
+    ]
+  },
+  {
+    "id": "col-record-data",
+    "type": "collocation",
+    "term": "record data",
+    "level": "A2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "datos"
+    ],
+    "es": "registrar datos",
+    "def": "to write down or save measurements and results",
+    "note": "Aquí 'record' es verbo y se pronuncia 'ri-KORD'; el sustantivo es 'REK-ord'.",
+    "ex": [
+      {
+        "en": "I [record data] on a tablet at every site.",
+        "es": "Registro datos en una tableta en cada sitio."
+      },
+      {
+        "en": "We [recorded data] every hour during the test.",
+        "es": "Registramos datos cada hora durante la prueba."
+      }
+    ]
+  },
+  {
+    "id": "voc-logbook",
+    "type": "vocab",
+    "term": "logbook",
+    "ipa": "/ˈlɔːɡbʊk/",
+    "level": "A2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "biologia"
+    ],
+    "es": "bitácora",
+    "def": "a book where you write what happened, when and who did it",
+    "note": "En laboratorios se firma y se fecha cada entrada; también 'field log' en trabajo de campo.",
+    "ex": [
+      {
+        "en": "Write the time and your initials in the [logbook].",
+        "es": "Escribe la hora y tus iniciales en la bitácora."
+      },
+      {
+        "en": "The old [logbook] showed when the freezer was last cleaned.",
+        "es": "La bitácora vieja mostraba cuándo se limpió el congelador por última vez."
+      }
+    ]
+  },
+  {
+    "id": "col-cold-weather-gear",
+    "type": "collocation",
+    "term": "cold-weather gear",
+    "level": "B1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "transporte",
+      "canada"
+    ],
+    "es": "ropa y equipo para el frío",
+    "def": "warm clothes and equipment for working or being outside in winter",
+    "note": "Muy útil en Edmonton: parka, botas aislantes, guantes y capas. 'Do you have cold-weather gear?'",
+    "ex": [
+      {
+        "en": "The company gives you [cold-weather gear] for field days.",
+        "es": "La empresa te da ropa para el frío para los días de campo."
+      },
+      {
+        "en": "Pack your [cold-weather gear]; it's minus thirty tomorrow.",
+        "es": "Empaca tu ropa para el frío; mañana estaremos a menos treinta."
+      }
+    ],
+    "tags": [
+      "ca"
+    ]
+  },
+  {
+    "id": "col-chain-of-custody",
+    "type": "collocation",
+    "term": "chain of custody",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "cadena de custodia",
+    "def": "the signed record of who handled a sample, and when",
+    "note": "Clave en laboratorios ambientales: cada persona que entrega o recibe una muestra firma el formulario.",
+    "ex": [
+      {
+        "en": "Sign the [chain of custody] form before you hand over the cooler.",
+        "es": "Firma el formulario de cadena de custodia antes de entregar la hielera."
+      },
+      {
+        "en": "A gap in the [chain of custody] can make results useless.",
+        "es": "Un hueco en la cadena de custodia puede volver inútiles los resultados."
+      }
+    ]
+  },
+  {
+    "id": "voc-ppe",
+    "type": "vocab",
+    "term": "PPE",
+    "ipa": "/ˌpiː piː ˈiː/",
+    "level": "B1",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "equipo de protección personal (EPP)",
+    "def": "personal protective equipment, like gloves, goggles and vests",
+    "note": "Se dice letra por letra: 'pi-pi-i'. Es incontable: 'wear PPE', no 'a PPE'.",
+    "ex": [
+      {
+        "en": "You can't enter the site without [PPE].",
+        "es": "No puedes entrar al sitio sin equipo de protección."
+      },
+      {
+        "en": "Check your [PPE] before every field day.",
+        "es": "Revisa tu equipo de protección antes de cada día de campo."
+      }
+    ]
+  },
+  {
+    "id": "voc-calibrate",
+    "type": "vocab",
+    "term": "calibrate",
+    "ipa": "/ˈkæləˌbreɪt/",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "calibrar",
+    "def": "to adjust a tool so its readings are correct",
+    "note": "Sustantivo: calibration. 'I calibrate the pH meter every morning.'",
+    "ex": [
+      {
+        "en": "Please [calibrate] the scale before you weigh the samples.",
+        "es": "Por favor calibra la báscula antes de pesar las muestras."
+      },
+      {
+        "en": "We [calibrated] the meters with fresh buffer solution.",
+        "es": "Calibramos los medidores con solución amortiguadora nueva."
+      }
+    ]
+  },
+  {
+    "id": "col-environmental-monitoring",
+    "type": "collocation",
+    "term": "environmental monitoring",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "biologia",
+      "ciencia"
+    ],
+    "es": "monitoreo ambiental",
+    "def": "regular checks of air, water or soil to see if they change",
+    "note": "Común en Alberta (ríos, suelos, sitios industriales). Un puesto típico: 'environmental monitoring technician'.",
+    "ex": [
+      {
+        "en": "Our lab does [environmental monitoring] for three rivers.",
+        "es": "Nuestro laboratorio hace monitoreo ambiental de tres ríos."
+      },
+      {
+        "en": "She has five years in [environmental monitoring].",
+        "es": "Ella tiene cinco años en monitoreo ambiental."
+      }
+    ]
+  }
+]

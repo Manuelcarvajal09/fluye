@@ -1,0 +1,86 @@
+{
+  "id": "lectura-hockey",
+  "level": "B1",
+  "title": "Why Hockey Matters",
+  "title_es": "Por qué importa el hockey",
+  "topic": "ocio",
+  "minutes": 5,
+  "intro_es": "Entender el hockey es entender a tus vecinos y compañeros: aquí tienes lo esencial.",
+  "paragraphs": [
+    "If you live in Edmonton, you can't escape hockey. In winter, you will see kids carrying hockey bags almost as big as they are, neighbours flooding their backyards to make ice rinks and coworkers wearing team jerseys on game days. Hockey is officially Canada's national winter sport, but for many people it is more than a sport: it is part of their identity.",
+    "Why is hockey so important? Part of the answer is the climate. For generations, Canadians spent long winters on frozen lakes, ponds and outdoor rinks. Hockey was something you could play almost anywhere there was ice. Many adults have childhood memories of early morning practices, cold arenas and parents drinking coffee in the stands. Today, many neighbourhoods in Edmonton have a community rink.",
+    "Edmonton has a professional team with a long history, and the city gets very excited when the team does well. During the playoffs, the elimination rounds in spring, the mood in the city changes. Restaurants are full, cars have small flags and some fans stop shaving until their team is eliminated. This tradition is called a playoff beard.",
+    "You don't need to understand every rule to enjoy a game. Here are the basics: two teams of six players, including a goalie, try to shoot a small rubber disc, the puck, into the other team's net. A game has three periods of twenty minutes. When a player breaks a rule, they go to the penalty box, and the other team gets a power play, a chance to score with an extra player on the ice.",
+    "Watching a game with coworkers is a great way to connect. If someone invites you to a bar or a house to watch, say yes! Ask simple questions like “Who's their best player?” or “Why did the referee stop the game?” People love explaining hockey to newcomers. On Monday, you can ask, “Did you catch the game?” and start a conversation easily.",
+    "Maybe you will become a big fan, or maybe you will prefer soccer forever. Either way, understanding hockey helps you understand your new neighbours."
+  ],
+  "glossary": [
+    { "term": "flooding", "es": "inundar (para hacer hielo)", "def": "covering an area with water; here, so it freezes into ice" },
+    { "term": "rinks", "es": "pistas de hielo", "def": "flat areas of ice for skating or playing hockey" },
+    { "term": "jerseys", "es": "camisetas (de equipo)", "def": "shirts that players and fans wear with the team's colours and logo" },
+    { "term": "ponds", "es": "estanques", "def": "small areas of still water, smaller than a lake" },
+    { "term": "stands", "es": "gradas", "def": "the rows of seats where people sit to watch a game" },
+    { "term": "playoffs", "es": "eliminatorias, liguilla", "def": "the series of games at the end of the season to decide the champion" },
+    { "term": "playoff beard", "es": "barba de la liguilla", "def": "a beard fans or players grow during the playoffs for good luck", "note": "Es una superstición divertida, no una regla." },
+    { "term": "goalie", "es": "portero", "def": "the player who protects the net" },
+    { "term": "puck", "es": "disco (de hockey)", "def": "the small, hard, black rubber disc used in hockey" },
+    { "term": "periods", "es": "tiempos, periodos", "def": "the parts a game is divided into; hockey has three" },
+    { "term": "penalty box", "es": "banca de castigo", "def": "the place where a player sits for a few minutes after breaking a rule" },
+    { "term": "power play", "es": "jugada de superioridad numérica", "def": "a time when one team has more players on the ice because of a penalty" },
+    { "term": "referee", "es": "árbitro", "def": "the official who makes sure players follow the rules" },
+    { "term": "catch the game", "es": "ver el partido", "def": "to watch a game, often on TV", "note": "Did you catch the game? es una forma muy común de iniciar conversación." }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Hockey is a difficult sport that only Canadians can understand.",
+      "Edmonton's team wins the playoffs almost every year.",
+      "Hockey is a big part of Canadian identity, and watching it with others helps you connect."
+    ],
+    "answer": 2,
+    "why_es": "El texto explica por qué el hockey es parte de la identidad canadiense y cómo usarlo para conectar."
+  },
+  "questions": [
+    {
+      "q": "Why did hockey become so popular in Canada?",
+      "options": [
+        "Because the government built arenas in every city",
+        "Because long winters gave people ice almost everywhere",
+        "Because it was the only sport on television"
+      ],
+      "answer": 1,
+      "why_es": "Los inviernos largos daban hielo en lagos, estanques y pistas al aire libre: se podía jugar casi en todas partes."
+    },
+    {
+      "q": "What is a playoff beard?",
+      "options": [
+        "When fans don't shave until their team is eliminated",
+        "A beard that players must have to play in the playoffs",
+        "A prize for the best player of the season"
+      ],
+      "answer": 0,
+      "why_es": "Algunos aficionados dejan de rasurarse durante la liguilla hasta que su equipo queda eliminado."
+    },
+    {
+      "q": "What happens during a power play?",
+      "options": [
+        "The game stops for twenty minutes.",
+        "Both goalies leave the ice.",
+        "One team has an extra player because of a penalty."
+      ],
+      "answer": 2,
+      "why_es": "Cuando un jugador va a la banca de castigo, el otro equipo juega con un jugador más."
+    },
+    {
+      "q": "According to the text, what is a good question when you watch with coworkers?",
+      "options": [
+        "How much money do the players earn?",
+        "Who's their best player?",
+        "Why don't Canadians watch soccer?"
+      ],
+      "answer": 1,
+      "why_es": "El texto sugiere preguntas sencillas como Who's their best player?, porque a la gente le gusta explicar."
+    }
+  ],
+  "club": true
+}

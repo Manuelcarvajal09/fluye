@@ -1,4 +1,5 @@
 "use client";
+import type { ReactNode } from "react";
 import { Mascot } from "./Mascot";
 import { useLook } from "./Coach";
 import { wearOf } from "@/lib/look";
@@ -37,6 +38,46 @@ export function SectionSkeleton({ rows = 3 }: { rows?: number }) {
           <div key={i} className="skel h-28" />
         ))}
       </div>
+    </div>
+  );
+}
+
+/* Piezas de esqueleto: cada pantalla de carga imita la estructura real de su sección. */
+export function Skel({ children }: { children: ReactNode }) {
+  return (
+    <div className="flex flex-col gap-5" aria-busy="true">
+      <span role="status" className="sr-only">
+        Cargando…
+      </span>
+      {children}
+    </div>
+  );
+}
+/** Título (y cabecera ilustrada si la sección la tiene). */
+export function SkelHeader({ banner = false, sub = true }: { banner?: boolean; sub?: boolean }) {
+  return (
+    <div className="flex flex-col gap-3" aria-hidden>
+      <div className={`skel h-10 w-48 ${banner ? "sm:hidden" : ""}`} />
+      {banner && <div className="section-header skel" />}
+      {sub && <div className="skel h-4 w-full max-w-md" />}
+    </div>
+  );
+}
+export function SkelChips({ n = 4 }: { n?: number }) {
+  return (
+    <div className="flex flex-wrap gap-2" aria-hidden>
+      {Array.from({ length: n }, (_, i) => (
+        <div key={i} className="skel h-10 w-24 rounded-full" />
+      ))}
+    </div>
+  );
+}
+export function SkelGrid({ n = 6, h = "h-28", cols = "sm:grid-cols-2 lg:grid-cols-3" }: { n?: number; h?: string; cols?: string }) {
+  return (
+    <div className={`grid gap-3 ${cols}`} aria-hidden>
+      {Array.from({ length: n }, (_, i) => (
+        <div key={i} className={`skel ${h}`} />
+      ))}
     </div>
   );
 }

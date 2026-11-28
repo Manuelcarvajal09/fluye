@@ -1,0 +1,86 @@
+{
+  "id": "lectura-rentar-depa",
+  "level": "B1",
+  "title": "Renting Your First Apartment",
+  "title_es": "Rentar tu primer departamento",
+  "topic": "vida",
+  "minutes": 5,
+  "intro_es": "Del anuncio a las llaves: entiende cada paso para rentar sin estrés ni fraudes.",
+  "paragraphs": [
+    "Finding a place to live is one of the first big tasks when you move to Edmonton. The good news is that the city has many options, from basement suites in houses to apartments in tall buildings. The process can feel confusing at first, but if you understand the main steps, you can avoid stress and expensive mistakes.",
+    "Most people start by looking at online listings. A listing usually shows the monthly rent, the number of bedrooms, the location and what is included. Read carefully: “heat and water included” can save you a lot of money in winter. Check how far the place is from a bus stop or LRT station, and look for words like “pet-friendly” or “no smoking” if they matter to you.",
+    "When you find something interesting, ask for a viewing. Never send money for a place you have not seen, and be careful if the rent seems too low or the landlord says they are “out of the country.” These are common signs of a scam. During the viewing, turn on the taps, check the windows, look for signs of mould and ask questions such as “How is the building heated?” or “Where can I do laundry?”",
+    "If you decide to rent, the landlord may ask for references, proof of income or a credit check. As a newcomer, you may not have a Canadian credit history yet, so a letter from your employer or a job offer can help. You will usually pay a security deposit. In Alberta, the deposit cannot be more than one month's rent, and the landlord must return it at the end, minus the cost of any damage.",
+    "Next, you sign a lease, the contract that explains the rules, the length of the rental and the rent. A fixed-term lease lasts a specific time, often one year; a periodic lease continues month to month. When you move in, you and the landlord should complete an inspection report together. Take photos of everything. This protects your deposit when you move out.",
+    "Finally, think about utilities. If they are not included, you will need to set up electricity, natural gas and sometimes water and internet in your name. Many people also buy tenant insurance, which protects your belongings if there is a fire or a robbery. With patience and good questions, your new apartment will soon feel like home."
+  ],
+  "glossary": [
+    { "term": "basement suites", "es": "departamentos en el sótano de una casa", "def": "small apartments on the lowest floor of a house, often with a separate entrance" },
+    { "term": "listings", "es": "anuncios (de renta)", "def": "advertisements that show places available to rent or buy" },
+    { "term": "rent", "es": "renta", "def": "money you pay every month to live in a place you don't own" },
+    { "term": "viewing", "es": "visita para ver el lugar", "def": "a visit to see an apartment or house before you decide to rent it" },
+    { "term": "landlord", "es": "arrendador, casero", "def": "the person or company that owns a place and rents it to you" },
+    { "term": "scam", "es": "fraude, estafa", "def": "a dishonest plan to take your money", "note": "Regla de oro: nunca pagues nada antes de ver el lugar en persona." },
+    { "term": "mould", "es": "moho", "def": "a green or black substance that grows in wet places", "note": "En Canadá se escribe mould; en EE. UU., mold." },
+    { "term": "credit check", "es": "revisión del historial crediticio", "def": "a review of your history of paying bills and loans" },
+    { "term": "security deposit", "es": "depósito en garantía", "def": "money you pay before moving in; you get it back if there is no damage" },
+    { "term": "lease", "es": "contrato de arrendamiento", "def": "a legal agreement between a landlord and a tenant" },
+    { "term": "fixed-term", "es": "de plazo fijo", "def": "lasting for a specific, agreed period of time" },
+    { "term": "inspection report", "es": "reporte de inspección", "def": "a written record of the condition of a place at move-in and move-out" },
+    { "term": "utilities", "es": "servicios (luz, gas, agua)", "def": "basic services for a home, such as electricity, gas and water" },
+    { "term": "tenant insurance", "es": "seguro de inquilino", "def": "insurance that protects a renter's things and covers some accidents" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Newcomers should always rent a basement suite.",
+      "Renting in Edmonton is easier when you understand each step of the process.",
+      "Landlords in Alberta do not need a written contract."
+    ],
+    "answer": 1,
+    "why_es": "El texto recorre los pasos: anuncios, visita, depósito, contrato, inspección y servicios."
+  },
+  "questions": [
+    {
+      "q": "Which is a common sign of a scam?",
+      "options": [
+        "The landlord asks you to complete an inspection report.",
+        "The landlord asks for a reference.",
+        "The landlord is “out of the country” and wants money before a viewing."
+      ],
+      "answer": 2,
+      "why_es": "Pedir dinero sin que veas el lugar, o decir que está fuera del país, son señales típicas de fraude."
+    },
+    {
+      "q": "What is true about the security deposit in Alberta?",
+      "options": [
+        "It cannot be more than one month's rent.",
+        "It is always two months' rent.",
+        "The landlord keeps it at the end."
+      ],
+      "answer": 0,
+      "why_es": "En Alberta el depósito no puede superar una renta mensual y se devuelve, menos los daños."
+    },
+    {
+      "q": "What can help a newcomer with no Canadian credit history?",
+      "options": [
+        "Paying the whole year in cash",
+        "A letter from an employer or a job offer",
+        "Signing a periodic lease"
+      ],
+      "answer": 1,
+      "why_es": "Una carta del empleador o una oferta de trabajo demuestra que tienes ingresos."
+    },
+    {
+      "q": "Why should you take photos during the inspection?",
+      "options": [
+        "To post them on social media",
+        "To show the apartment to future tenants",
+        "To protect your deposit when you move out"
+      ],
+      "answer": 2,
+      "why_es": "Las fotos prueban cómo estaba el lugar al entrar, así no te cobran daños que no hiciste."
+    }
+  ],
+  "club": false
+}

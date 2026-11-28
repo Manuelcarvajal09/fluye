@@ -1,7 +1,10 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { and, eq, gte } from "drizzle-orm";
-import { Sparkles, Check, ChevronRight } from "lucide-react";
-import { IcoBook, IcoCards, IcoChart, IcoClock, IcoFlame, IcoIce, IcoTarget, IcoTrophy, IcoTv } from "@/components/Icons";
+import { Sparkles, Check, ChevronRight, MapIcon } from "lucide-react";
+import { mapOf } from "@/lib/map";
+import { pct } from "@/lib/map-rules";
+import { IcoBook, IcoCards, IcoChart, IcoClock, IcoFlame, IcoIce, IcoJournal, IcoTarget, IcoTrophy, IcoTv } from "@/components/Icons";
 import { db, schema } from "@/db";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { dueCount, lastDays, forecast, achievementTotals, itemStatus } from "@/lib/stats";
@@ -15,10 +18,16 @@ import { Gem } from "@/components/Nav";
 import { StartButton } from "@/components/StartButton";
 import { recommendMission, trackFor } from "@/lib/recommend";
 import { seasonFor, seasonLabel, seasonRoute } from "@/lib/seasons";
-import { settleWeekly } from "@/lib/rewards";
+import { settleAchievements, settleWeekly } from "@/lib/rewards";
 import { ACHIEVEMENTS } from "@/lib/achievements";
 import { tutorTips } from "@/lib/tutor";
 import { RouteIcon } from "@/components/RouteIcon";
+import { petOf, pieceOf } from "@/lib/wardrobe";
+import { ensureLeague } from "@/lib/league";
+import { todayNews } from "@/lib/news";
+import { quoteOfDay } from "@/lib/quotes";
+import { ThemeCorner } from "@/components/theme/ThemeDecor";
+import { LEAGUES, PROMOTE_GEMS, addWeeks } from "@/lib/league-rules";
 
 export const metadata = { title: "Hoy" };
 
@@ -27,30 +36,20 @@ const SKILL: Record<string, string> = { listen: "Escuchar", read: "Leer", speak:
 
 export default async function Today() {
   const profile = await requireProfile();
-  const tips = (await tutorTips(profile).catch(() => [])).map(({ text, href, cta }) => ({ text, href, cta }));
   const s = settingsOf(profile);
   const mods = { week: true, load: true, goal: true, achievement: true, theme: true, challenges: true, ...s.hoy };
   const today = localDay(profile.tz);
-  const [due, week, load, done, totals, status, weekly, frozenRows, cols] = await Promise.all([
+  // Lo secundario (columna lateral y módulos de abajo) se pide ya, pero no bloquea: llega por partes.
+  const extra = loadExtra(profile, today);
+  extra.catch(() => {}); // el error real lo recibe el bloque que lo espera
+  const [due, week, done, cols, islands] = await Promise.all([
     dueCount(profile.userId),
     lastDays(profile, 7),
-    forecast(profile, 7),
     db().select({ id: schema.lessonProgress.lessonId }).from(schema.lessonProgress).where(eq(schema.lessonProgress.userId, profile.userId)),
-    achievementTotals(profile.userId),
-    itemStatus(profile.userId),
-    settleWeekly(profile),
-    db()
-      .select({ day: schema.dailyStats.day })
-      .from(schema.dailyStats)
-      .where(and(eq(schema.dailyStats.userId, profile.userId), eq(schema.dailyStats.frozen, 1), gte(schema.dailyStats.day, addDays(today, -6)))),
     collectionsOf(profile.userId),
+    mapOf(profile.userId),
   ]);
-  // Palabra sugerida: la más frecuente del catálogo que aún no estudias ni declaraste conocer.
-  const knownSet = new Set(s.known ?? []);
-  // A partir de tu nivel: a alguien B1 no se le sugiere "the".
-  const lv = ["A1", "A2", "B1", "B2", "C1", "C2"];
-  const word = CATALOG.find((c) => c.status === "complete" && !c.dupOf && lv.indexOf(c.level) >= lv.indexOf(profile.level) && c.pos !== "det" && c.pos !== "pron" && !status.has(c.id) && !knownSet.has(c.id) && (s.explicit === true || !c.register));
-  const frozen = new Set(frozenRows.map((r) => r.day));
+  const isl = islands.find((i) => i.level === profile.level) ?? islands[0];
   const todayRow = week[week.length - 1];
   const goal = goalXp(profile.goalMinutes);
   const streak = visibleStreak(profile.streak, profile.lastGoalDay, today);
@@ -63,30 +62,40 @@ export default async function Today() {
   const first = profile.name.split(" ")[0] || undefined;
   const say = greetingSay({ name: first, hour, streak, todayXp: todayRow.xp, goal, due, doneYesterday: profile.lastGoalDay === addDays(today, -1), sessionsToday: todayRow.reviews, hasStarted: profile.xp > 0 }, seed);
   const hello = hour < 12 ? "Buenos días" : hour < 19 ? "Buenas tardes" : "Buenas noches";
-  const missions = missionsFor(today, profile.goalMinutes);
-  const lvl = levelFromXp(profile.xp);
-  const learned = [...status.values()].filter((v) => v !== "suspended").length;
-  const mastered = [...status.values()].filter((v) => v === "mastered").length;
-  const achStats = { bestStreak: profile.bestStreak, reviews: totals.reviews, learned, mastered, roleplays: totals.roleplays, lessons: totals.lessons, recordings: totals.recordings, level: lvl.level, placement: s.placement ? 1 : 0 };
-  const nextAch = ACHIEVEMENTS.filter((a) => a.value(achStats) < a.goal).sort((a, b) => b.value(achStats) / b.goal - a.value(achStats) / a.goal)[0];
   const themed = ROUTES.find((r) => r.id === (s.season?.content !== false ? seasonRoute(season) : null) && r.id !== rec?.route.id) ?? ROUTES.find((r) => r.id !== rec?.route.id && r.areas.some((a) => profile.topics.includes(a)));
-  const hasWeek = week.some((d) => d.reviews > 0);
   const minutes = rec ? Math.max(profile.goalMinutes, rec.track.minutes) : profile.goalMinutes;
 
+  // Componente de servidor (por petición): el regalo de bienvenida se muestra las dos primeras semanas.
+  // eslint-disable-next-line react-hooks/purity
+  const showGift = !!s.welcomeGift && Date.now() - new Date(profile.createdAt).getTime() < 14 * 86_400_000;
   const left = Math.max(0, goal - todayRow.xp);
   const goalDone = todayRow.xp >= goal;
 
   return (
     <div className="flex flex-col gap-5 lg:gap-6">
-      <header>
+      <header className="relative">
+        <ThemeCorner />
         <h1 className="text-[1.9rem] font-black leading-tight lg:text-4xl">{first ? `¡Hola, ${first}!` : `¡${hello}!`}</h1>
         <p className="mt-1 text-muted">{rec ? "Tu misión de hoy te espera." : "Elige cómo quieres estudiar hoy."}</p>
       </header>
 
+      {showGift && s.welcomeGift && (
+        <Link href="/tienda" className="module flex items-center gap-4 p-4 ring-2 ring-accent/40">
+          <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-accent-soft text-accent">
+            <Sparkles size={24} aria-hidden />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-black">Tu regalo de bienvenida</span>
+            <span className="block text-sm text-muted">
+              {petOf(s.welcomeGift.pet)?.label ?? "Una mascota"}, {pieceOf(s.welcomeGift.piece)?.name ?? "una pieza"}, {pieceOf(s.welcomeGift.xmas)?.name ?? "una pieza navideña"} y la temática Navidad. Ya están en tu armario.
+            </span>
+          </span>
+        </Link>
+      )}
       <div className="grid gap-5 lg:grid-cols-12 lg:gap-6">
         <div className="flex min-w-0 flex-col gap-5 lg:col-span-8 3xl:col-span-9">
-          {/* Meta del día + compañero (en móvil va después de la misión: lo primero es saber qué estudiar) */}
-          <section aria-labelledby="meta" className="goal-card max-lg:order-2">
+          {/* Estado del día primero: meta, racha y repasos (tocables). Debajo, la misión con el botón grande. */}
+          <section aria-labelledby="meta" className="goal-card max-lg:order-1">
             <div className="min-w-0 flex-1">
               <p id="meta" className="eyebrow text-brand-ink">Tu meta de hoy</p>
               <p className="mt-1 text-2xl font-black leading-tight sm:text-[1.7rem]">
@@ -94,22 +103,30 @@ export default async function Today() {
               </p>
               <Bar value={todayRow.xp} max={goal} color="var(--brand)" className="mt-3 h-2.5 max-w-md" label="Meta diaria" />
               <p className="mt-3 text-sm font-semibold text-brand-ink">{goalDone ? "¡Meta cumplida! Tu racha de hoy está a salvo." : todayRow.xp === 0 ? `${profile.goalMinutes} minutos bastan para cumplirla.` : `¡Solo faltan ${left} XP!`}</p>
-              {profile.freezes > 0 && (
-                <p className="mt-1 flex items-center gap-1 text-xs font-bold text-muted">
-                  <IcoIce size={16} /> {profile.freezes} {profile.freezes === 1 ? "protector" : "protectores"} de racha
-                </p>
-              )}
+              <div className="mt-3 flex flex-wrap gap-2 text-sm font-black">
+                <Link href="/progreso" className="flex items-center gap-1 rounded-full bg-fire-soft px-3 py-1 text-fire">
+                  <IcoFlame size={18} /> {streak} {streak === 1 ? "día" : "días"} de racha
+                </Link>
+                <Link href="/repaso" className="flex items-center gap-1 rounded-full bg-surface px-3 py-1 text-text">
+                  <IcoCards size={18} /> {due} {due === 1 ? "repaso" : "repasos"}
+                </Link>
+                {profile.freezes > 0 && (
+                  <span className="flex items-center gap-1 rounded-full bg-surface px-3 py-1 text-muted">
+                    <IcoIce size={16} /> {profile.freezes} {profile.freezes === 1 ? "protector" : "protectores"}
+                  </span>
+                )}
+              </div>
             </div>
             <HeroCoach say={say} />
           </section>
 
           {/* Protagonista: la misión de hoy */}
-          <section aria-labelledby="mision" className="mission-card max-lg:order-1">
+          <section aria-labelledby="mision" className="mission-card max-lg:order-2">
             {scene && (
               <div className="mission-art" style={{ background: "linear-gradient(140deg, var(--hero-from), var(--hero-to))" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element -- SVG local pequeño, sin optimización necesaria */}
                 <img src={scene.file} alt={scene.alt_es} width={400} height={250} loading="eager" />
-                <span className="chip absolute left-4 top-4 bg-surface text-accent shadow-card">Misión recomendada</span>
+                <span className="chip absolute left-4 top-4 bg-surface font-black text-accent shadow-card">Misión recomendada</span>
               </div>
             )}
             <div className="flex min-w-0 flex-col gap-4 p-5 sm:p-6">
@@ -130,11 +147,6 @@ export default async function Today() {
                 </li>
                 {rec && <li className="rounded-full bg-surface-2 px-3 py-1.5">{rec.track.band}</li>}
                 {rec && rec.track.skills.length > 0 && <li className="rounded-full bg-accent-soft px-3 py-1.5 text-accent">{rec.track.skills.map((k) => SKILL[k] ?? k).join(" + ")}</li>}
-                {due > 0 && (
-                  <li className="flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5">
-                    <IcoCards size={18} /> {due} {due === 1 ? "repaso" : "repasos"}
-                  </li>
-                )}
               </ul>
               <StartButton href={rec ? `/sesion?mision=${rec.track.id}&min=${minutes}` : `/sesion?min=${profile.goalMinutes}`} />
               <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Elegir cuánto tiempo">
@@ -156,9 +168,30 @@ export default async function Today() {
             </div>
           </section>
 
-          {/* Accesos rápidos, ordenados con tus datos: muchos repasos pendientes van primero. */}
+          {/* Accesos rápidos (los repasos y las colecciones ya están arriba y abajo: sin duplicados). */}
           <div className="grid grid-cols-2 gap-4 max-lg:order-3 sm:grid-cols-4">
-            <Link href="/sesion?min=5" className={`module tile-ico-wrap flex flex-col gap-1 p-5 ${due >= 15 ? "order-2" : "order-1"}`}>
+            <Link href="/mapa" className="module col-span-2 flex items-center gap-4 p-5">
+              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-brand-soft text-brand-ink">
+                <MapIcon size={26} aria-hidden />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-xs font-bold text-muted">Tu viaje · de A1 a C2</span>
+                <span className="block font-black">
+                  {isl.level} · {isl.name}: {pct(isl.done, isl.total)} %
+                </span>
+                <span className="mt-1 flex gap-1" aria-hidden>
+                  {islands.map((i) => (
+                    <span key={i.level} className="flex-1 text-center text-xs font-bold text-muted">
+                      <span className="mb-0.5 block h-1.5 overflow-hidden rounded-full bg-surface-2">
+                        <span className="block h-full rounded-full bg-brand" style={{ width: `${pct(i.done, i.total)}%` }} />
+                      </span>
+                      {i.level}
+                    </span>
+                  ))}
+                </span>
+              </span>
+            </Link>
+            <Link href="/sesion?min=5" className="module tile-ico-wrap flex flex-col gap-1 p-5">
               <span className="tile-ico w-fit">
                 <IcoClock size={34} />
               </span>
@@ -167,7 +200,7 @@ export default async function Today() {
               <span className="text-sm text-muted">Minutos para no perder el ritmo</span>
             </Link>
             {levelIndex(profile.level) >= 2 && (
-              <Link href="/series" className="module tile-ico-wrap order-3 flex flex-col gap-1 p-5">
+              <Link href="/series" className="module tile-ico-wrap flex flex-col gap-1 p-5">
                 <span className="tile-ico w-fit">
                   <IcoTv size={34} />
                 </span>
@@ -176,27 +209,91 @@ export default async function Today() {
                 <span className="text-sm text-muted">Escenas sin subtítulos para tu nivel</span>
               </Link>
             )}
-            <Link href="/repaso" className={`module tile-ico-wrap flex flex-col gap-1 p-5 ${due >= 15 ? "order-1" : "order-2"}`}>
-              <span className="tile-ico w-fit">
-                <IcoCards size={34} />
-              </span>
-              <span className="mt-1 text-3xl font-black leading-none">{due}</span>
-              <span className="font-black leading-tight">{due === 1 ? "Repaso pendiente" : "Repasos pendientes"}</span>
-              <span className="text-sm text-muted">{due > 0 ? "Recupera lo que aprendiste" : "Estás al día"}</span>
-            </Link>
-            <Link href="/biblioteca/colecciones" className="module tile-ico-wrap order-4 flex flex-col gap-1 p-5">
-              <span className="tile-ico w-fit">
-                <IcoBook size={34} />
-              </span>
-              <span className="mt-1 text-3xl font-black leading-none">{cols.length}</span>
-              <span className="font-black leading-tight">Mis colecciones</span>
-              <span className="text-sm text-muted">Elige qué quieres estudiar</span>
-            </Link>
           </div>
         </div>
 
-        {/* Columna lateral: semana, retos, consejo y logro */}
+        {/* Columna lateral: semana, retos, consejo y logro (llega por partes) */}
+        <Suspense fallback={<AsideSkeleton />}>
+          <HoyAside extra={extra} profile={profile} mods={mods} week={week} goal={goal} today={today} streak={streak} seed={seed} say={say} />
+        </Suspense>
+      </div>
+
+      <Suspense fallback={<MoreSkeleton />}>
+        <HoyMore extra={extra} profile={profile} mods={mods} cols={cols} themed={themed} season={season} />
+      </Suspense>
+    </div>
+  );
+}
+
+type Profile = Awaited<ReturnType<typeof requireProfile>>;
+type Mods = Partial<Record<"week" | "load" | "goal" | "achievement" | "theme" | "challenges", boolean>>;
+
+/** Datos de los módulos secundarios de Hoy (se piden en paralelo con lo principal). */
+async function loadExtra(profile: Profile, today: string) {
+  const [tips, load, totals, status, weekly, frozenRows] = await Promise.all([
+    tutorTips(profile).catch(() => []),
+    forecast(profile, 7),
+    achievementTotals(profile.userId),
+    itemStatus(profile.userId),
+    settleWeekly(profile),
+    db()
+      .select({ day: schema.dailyStats.day })
+      .from(schema.dailyStats)
+      .where(and(eq(schema.dailyStats.userId, profile.userId), eq(schema.dailyStats.frozen, 1), gte(schema.dailyStats.day, addDays(today, -6)))),
+  ]);
+  const news = await todayNews().catch(() => null);
+  // Liga: alta de la semana (y cierre perezoso de la anterior) y aviso del resultado si aún no lo vio.
+  const lg = await ensureLeague(profile);
+  const [lastLeague] = await db().select().from(schema.leagueMembers).where(and(eq(schema.leagueMembers.userId, profile.userId), eq(schema.leagueMembers.week, addWeeks(lg.week, -1))));
+  const leagueNews = lastLeague?.result && !lastLeague.seen ? { from: lastLeague.tier, result: lastLeague.result as "up" | "stay" | "down", now: lg.tier } : null;
+  return { tips: tips.map(({ text, href, cta }) => ({ text, href, cta })), load, totals, status, weekly, frozenRows, leagueNews, news: news ? { title: news.title, source: news.source } : null };
+}
+type Extra = ReturnType<typeof loadExtra>;
+
+function AsideSkeleton() {
+  return (
+    <aside className="flex min-w-0 flex-col gap-5 lg:col-span-4 3xl:col-span-3" aria-hidden>
+      <div className="skel h-44" />
+      <div className="skel h-52" />
+      <div className="skel h-32" />
+    </aside>
+  );
+}
+function MoreSkeleton() {
+  return (
+    <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4" aria-hidden>
+      <div className="skel h-36" />
+      <div className="skel h-36" />
+      <div className="skel h-36" />
+    </div>
+  );
+}
+
+async function HoyAside({ extra, profile, mods, week, goal, today, streak, seed, say }: { extra: Extra; profile: Profile; mods: Mods; week: Awaited<ReturnType<typeof lastDays>>; goal: number; today: string; streak: number; seed: number; say: ReturnType<typeof greetingSay> }) {
+  const { tips, totals, status, frozenRows, leagueNews, weekly } = await extra;
+  const s = settingsOf(profile);
+  const frozen = new Set(frozenRows.map((r) => r.day));
+  const todayRow = week[week.length - 1];
+  const missions = missionsFor(today, profile.goalMinutes);
+  const lvl = levelFromXp(profile.xp);
+  const learned = [...status.values()].filter((v) => v !== "suspended").length;
+  const mastered = [...status.values()].filter((v) => v === "mastered").length;
+  const achStats = { bestStreak: profile.bestStreak, reviews: totals.reviews, learned, mastered, roleplays: totals.roleplays, lessons: totals.lessons, recordings: totals.recordings, level: lvl.level, placement: s.placement ? 1 : 0 };
+  const nextAch = ACHIEVEMENTS.filter((a) => a.value(achStats) < a.goal).sort((a, b) => b.value(achStats) / b.goal - a.value(achStats) / a.goal)[0];
+  // Los logros alcanzados se pagan una sola vez (clave idempotente en el libro de gemas).
+  await settleAchievements(profile.userId, ACHIEVEMENTS.filter((a) => a.value(achStats) >= a.goal));
+  const hasWeek = week.some((d) => d.reviews > 0);
+  return (
         <aside className="flex min-w-0 flex-col gap-5 lg:col-span-4 3xl:col-span-3">
+          {leagueNews && (
+            <Link href="/amigos" className={`module flex items-center gap-3 p-4 ${leagueNews.result === "up" ? "ring-2 ring-good/40" : ""}`}>
+              <IcoTrophy size={32} />
+              <span className="min-w-0 flex-1">
+                <b className="block">{leagueNews.result === "up" ? `¡Subiste a la liga ${LEAGUES[leagueNews.now]}!` : leagueNews.result === "down" ? `Bajaste a la liga ${LEAGUES[leagueNews.now]}` : `Sigues en la liga ${LEAGUES[leagueNews.now]}`}</b>
+                <span className="text-sm text-muted">{leagueNews.result === "up" ? `+${PROMOTE_GEMS[leagueNews.now]} gemas. Mira la nueva tabla.` : "Esta semana es otra oportunidad. Ver la tabla."}</span>
+              </span>
+            </Link>
+          )}
           {mods.week && (
             <section className="module p-5">
               <div className="mb-4 flex items-center justify-between gap-2">
@@ -232,8 +329,9 @@ export default async function Today() {
           {mods.challenges && (
             <section className="module p-5">
               <h2 className="mb-3 flex items-center justify-between gap-2 text-xl font-black">
-                Retos de hoy <IcoTrophy size={26} />
+                Retos <IcoTrophy size={26} />
               </h2>
+              <p className="mb-2 text-xs font-black uppercase tracking-wide text-muted">Hoy</p>
               <ul className="flex flex-col gap-3.5">
                 {missions.map((m) => {
                   const v = m.value(todayRow);
@@ -248,6 +346,18 @@ export default async function Today() {
                     </li>
                   );
                 })}
+              </ul>
+              <p className="mb-2 mt-5 text-xs font-black uppercase tracking-wide text-muted">Esta semana</p>
+              <ul className="flex flex-col gap-3">
+                {weekly.map((w) => (
+                  <li key={w.id}>
+                    <p className="flex justify-between text-sm font-extrabold">
+                      <span>{w.label}</span>
+                      <span className="text-muted">{w.done ? <Check size={16} className="text-good" aria-label="cumplido" /> : `${Math.min(w.value, w.target)}/${w.target}`}</span>
+                    </p>
+                    <Bar value={w.value} max={w.target} color={w.done ? "var(--good)" : "var(--accent)"} className="mt-1 h-1.5" label={w.label} />
+                  </li>
+                ))}
               </ul>
               <p className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1.5 text-xs font-black text-accent">
                 <Gem size={16} /> +5 gemas por reto · +10 por la meta
@@ -269,8 +379,46 @@ export default async function Today() {
             </Link>
           )}
         </aside>
-      </div>
+  );
+}
 
+async function HoyMore({ extra, profile, mods, cols, themed, season }: { extra: Extra; profile: Profile; mods: Mods; cols: Awaited<ReturnType<typeof collectionsOf>>; themed: (typeof ROUTES)[number] | undefined; season: ReturnType<typeof seasonFor> }) {
+  const { load, status, news } = await extra;
+  const quote = quoteOfDay(localDay(profile.tz));
+  const s = settingsOf(profile);
+  const learned = [...status.values()].filter((v) => v !== "suspended").length;
+  const mastered = [...status.values()].filter((v) => v === "mastered").length;
+  // Palabra sugerida: la más frecuente del catálogo que aún no estudias ni declaraste conocer, desde tu nivel.
+  const knownSet = new Set(s.known ?? []);
+  const lv = ["A1", "A2", "B1", "B2", "C1", "C2"];
+  const word = CATALOG.find((c) => c.status === "complete" && !c.dupOf && lv.indexOf(c.level) >= lv.indexOf(profile.level) && c.pos !== "det" && c.pos !== "pron" && !status.has(c.id) && !knownSet.has(c.id) && (s.explicit === true || !c.register));
+  return (
+    <>
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+        <Link href="/diario" className="module flex flex-col gap-1 p-5">
+          <span className="flex items-center gap-2 text-xs font-bold text-muted">
+            <IcoJournal size={20} /> Tu diario de hoy
+          </span>
+          <span className="font-display text-lg font-extrabold leading-snug" lang="en">
+            “{quote.en}”
+          </span>
+          <span className="text-sm text-muted">{quote.es}</span>
+        </Link>
+        {news && (
+          <Link href="/noticias" className="module flex flex-col gap-1 p-5">
+            <span className="text-xs font-bold text-muted">Noticia de Canadá del día</span>
+            <span className="font-black leading-snug" lang="en">
+              {news.title}
+            </span>
+            <span className="text-sm text-muted">{news.source} · léela con ayuda</span>
+          </Link>
+        )}
+        <Link href="/lecturas" className="module flex flex-col gap-1 p-5">
+          <span className="text-xs font-bold text-muted">Club de lectura</span>
+          <span className="font-black">Lecturas sobre la vida en Canadá</span>
+          <span className="text-sm text-muted">Toca cualquier palabra para ver su significado.</span>
+        </Link>
+      </div>
       {!s.placement && (
         <Link href="/practicar/test" className="module flex items-center gap-4 p-4">
           <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-accent-soft text-accent">
@@ -307,25 +455,6 @@ export default async function Today() {
               <p className="text-sm text-muted">Sin repasos programados todavía. Aparecen cuando aprendes tus primeras expresiones.</p>
             )}
           </Link>
-        )}
-
-        {mods.challenges && (
-          <section className="module p-5">
-            <h2 className="mb-3 flex items-center gap-2 font-black">
-              <IcoTrophy size={22} /> Retos de la semana
-            </h2>
-            <ul className="flex flex-col gap-3">
-              {weekly.map((w) => (
-                <li key={w.id}>
-                  <p className="flex justify-between text-sm font-extrabold">
-                    <span>{w.label}</span>
-                    <span className="text-muted">{w.done ? <Check size={16} className="text-good" aria-label="cumplido" /> : `${Math.min(w.value, w.target)}/${w.target}`}</span>
-                  </p>
-                  <Bar value={w.value} max={w.target} color={w.done ? "var(--good)" : "var(--accent)"} className="mt-1 h-1.5" label={w.label} />
-                </li>
-              ))}
-            </ul>
-          </section>
         )}
 
         {mods.goal && (
@@ -392,6 +521,6 @@ export default async function Today() {
           </Link>
         )}
       </div>
-    </div>
+    </>
   );
 }

@@ -6,15 +6,8 @@ import { db, schema } from "@/db";
 
 export type Access = "owner" | "member" | "denied";
 
-/** Propietarios: ids de Clerk en la variable privada OWNER_USER_IDS (coma). Nunca "el primero que se registre". */
-export function isOwner(userId: string | null | undefined) {
-  if (!userId) return false;
-  return (process.env.OWNER_USER_IDS ?? "")
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .includes(userId);
-}
+import { isOwner } from "./owner";
+export { isOwner };
 
 /**
  * Comprueba en el servidor, en cada petición, si la cuenta puede usar la app.

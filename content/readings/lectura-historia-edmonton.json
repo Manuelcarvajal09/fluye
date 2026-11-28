@@ -1,0 +1,98 @@
+{
+  "id": "lectura-historia-edmonton",
+  "level": "C2",
+  "title": "A River, a Fort and a Prairie Capital",
+  "title_es": "Un río, un fuerte y una capital de las praderas",
+  "topic": "cultura",
+  "minutes": 9,
+  "intro_es": "Edmonton no nació como ciudad petrolera: su historia empieza en un río, mucho antes del fuerte que le dio nombre.",
+  "paragraphs": [
+    "To understand Edmonton, it helps to begin not with its skyline but with its river. The North Saskatchewan carves a deep, winding valley through the heart of the city, and long before any European arrived, that valley was a crossroads. For thousands of years, Indigenous peoples, among them Cree, Blackfoot, Dene, Saulteaux and Nakota Sioux, travelled, hunted, traded and gathered along its banks. The river was a highway, a source of food and water, and a place of ceremony, and the surrounding parkland offered shelter from the harsher open plains to the south.",
+    "European interest in the region was driven, above all, by fur. From the late eighteenth century onward, rival trading companies pushed westward in search of beaver pelts, which were in high demand for fashionable hats in Europe. Fort Edmonton was established as a trading post, and after the competing companies merged, it became one of the most important posts in the West. Its location was strategic: it lay along the transport routes linking the prairies to the mountains and the northern forests. The fort was relocated several times before settling on the site near where the provincial legislature stands today.",
+    "Life at the fort depended on relationships that were far more interdependent than older history books tended to admit. Indigenous hunters and trappers supplied the furs and, crucially, the pemmican, a nutrient-dense mixture of dried meat and fat that sustained traders through long journeys and brutal winters. The Métis, a distinct people whose roots lie in the unions between European fur traders and First Nations women, played a pivotal role as guides, interpreters, boatmen and freighters. Their culture, language and enterprise left an indelible mark on the region, visible today in place names, river-lot patterns and a vibrant Métis community.",
+    "The second half of the nineteenth century brought profound and often painful upheaval. The decline of the bison herds, on which Plains peoples had depended for generations, caused widespread hardship. In 1876, Treaty 6 was signed between the Crown and a number of First Nations across what is now central Alberta and Saskatchewan. Edmonton lies within Treaty 6 territory, and the meaning and obligations of that agreement remain the subject of ongoing dialogue. Many First Nations emphasize that they understood the treaty as an agreement to share the land, not to surrender it.",
+    "As the fur trade waned, the settlement around the fort gradually reinvented itself. The arrival of the railway in the region opened the door to waves of settlers, many from Eastern Europe, who were drawn by the promise of farmland. During the Klondike Gold Rush of the late 1890s, Edmonton promoted itself as a gateway to the Yukon, although the overland route north proved so gruelling that many hopeful prospectors never reached the goldfields at all. The episode nonetheless brought people, money and ambition to the young town.",
+    "A defining moment came in 1905, when Alberta became a province and Edmonton was chosen as its capital, a decision that its southern rival, Calgary, did not accept gracefully. The rivalry between the two cities endures to this day, though it now plays out mostly on hockey rinks and football fields. Soon after, the provincial university was founded on the south side of the river, cementing the city's role as a centre of government and learning.",
+    "The twentieth century added yet another layer. Edmonton served as a vital hub for aviation in the North and, during the Second World War, for military supply routes. Then, in the late 1940s, a major oil discovery near the town of Leduc, just south of the city, transformed Alberta's economy. Edmonton boomed, earning the nickname “Oil Capital of Canada” and attracting workers from across the country and, eventually, the world. The city's fortunes have since risen and fallen with energy prices, a volatility that residents know only too well.",
+    "Today's Edmonton is a diverse, outward-looking city whose newcomers arrive from Mexico, the Philippines, India, Nigeria and dozens of other countries. Yet the river valley remains its defining feature: one of the largest urban park systems in North America, threaded with trails that thousands of people walk, cycle and ski every year. Standing on its banks, it is worth remembering that the city's story did not begin with a fort or an oil well, but with the peoples who knew this valley intimately long before either existed."
+  ],
+  "glossary": [
+    { "term": "carves", "es": "labra, excava", "def": "cuts a shape into land or stone over a long period" },
+    { "term": "crossroads", "es": "encrucijada, punto de encuentro", "def": "a place where routes, people or cultures meet" },
+    { "term": "pelts", "es": "pieles (de animal)", "def": "animal skins with the fur still on them" },
+    { "term": "trading post", "es": "puesto comercial", "def": "a small settlement where goods were bought, sold or exchanged" },
+    { "term": "interdependent", "es": "interdependiente", "def": "depending on each other" },
+    { "term": "pemmican", "es": "pemmican (carne seca con grasa)", "def": "a traditional food of dried meat mixed with fat, easy to store and carry" },
+    { "term": "pivotal", "es": "crucial, clave", "def": "of central importance to how something develops" },
+    { "term": "indelible", "es": "imborrable", "def": "impossible to remove or forget" },
+    { "term": "upheaval", "es": "convulsión, gran trastorno", "def": "a sudden, major change that causes disruption" },
+    { "term": "surrender", "es": "ceder, entregar", "def": "to give up control or possession of something" },
+    { "term": "waned", "es": "decayó, menguó", "def": "became gradually weaker or less important" },
+    { "term": "gruelling", "es": "agotador, extenuante", "def": "extremely tiring and demanding", "note": "Ortografía británica y canadiense; en EE. UU. se escribe grueling." },
+    { "term": "prospectors", "es": "buscadores (de oro)", "def": "people who search an area for gold or other minerals" },
+    { "term": "volatility", "es": "volatilidad", "def": "a tendency to change suddenly and unpredictably" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Edmonton's history is essentially the story of the oil industry.",
+      "Edmonton developed through many layers, from Indigenous life along the river to the fur trade, settlement and oil, and its origins predate the fort.",
+      "Edmonton became important only because it won its rivalry with Calgary."
+    ],
+    "answer": 1,
+    "why_es": "El texto recorre varias capas de la historia y subraya que la ciudad empezó con los pueblos indígenas del valle del río."
+  },
+  "questions": [
+    {
+      "q": "Why was the river valley important before European arrival?",
+      "options": [
+        "It was a crossroads for travel, trade, food and ceremony.",
+        "It was the site of the first oil wells.",
+        "It was completely uninhabited."
+      ],
+      "answer": 0,
+      "why_es": "El río funcionaba como vía de transporte, fuente de alimento y lugar ceremonial para varios pueblos."
+    },
+    {
+      "q": "What role did the Métis play in the fur trade, according to the text?",
+      "options": [
+        "They owned the European trading companies.",
+        "They worked as guides, interpreters, boatmen and freighters.",
+        "They opposed all trade with Europeans."
+      ],
+      "answer": 1,
+      "why_es": "Los métis fueron clave como guías, intérpretes, remeros y transportistas."
+    },
+    {
+      "q": "How do many First Nations understand Treaty 6?",
+      "options": [
+        "As a sale of the land to the Crown",
+        "As an agreement that is no longer relevant",
+        "As an agreement to share the land, not to surrender it"
+      ],
+      "answer": 2,
+      "why_es": "Muchas Primeras Naciones lo entienden como un acuerdo para compartir la tierra."
+    },
+    {
+      "q": "What does the text suggest about the Klondike route through Edmonton?",
+      "options": [
+        "It was so difficult that many prospectors never reached the goldfields.",
+        "It was the fastest and safest route to the Yukon.",
+        "It was used only by the military."
+      ],
+      "answer": 0,
+      "why_es": "La ruta por tierra resultó tan agotadora que muchos nunca llegaron."
+    },
+    {
+      "q": "What transformed Alberta's economy in the late 1940s?",
+      "options": [
+        "The founding of the provincial university",
+        "A major oil discovery near Leduc",
+        "The arrival of the railway"
+      ],
+      "answer": 1,
+      "why_es": "El descubrimiento de petróleo cerca de Leduc provocó el auge económico de Edmonton."
+    }
+  ],
+  "club": false
+}

@@ -1,0 +1,82 @@
+{
+  "id": "lectura-transporte-ets",
+  "level": "A2",
+  "title": "Taking the Bus and the LRT",
+  "title_es": "Moverte en camión y en LRT",
+  "topic": "vida",
+  "minutes": 4,
+  "intro_es": "No necesitas coche para moverte por Edmonton: aprende a usar el transporte público como local.",
+  "paragraphs": [
+    "Edmonton is a big city, but you don't need a car to move around. Edmonton Transit Service, usually called ETS, has buses all over the city and a train system called the LRT, which means Light Rail Transit. The LRT is fast and goes to downtown, the university and other busy areas. Buses connect the neighbourhoods to the train stations.",
+    "Before your first trip, plan your route. You can use a map app or the ETS website to see which bus to take and when it arrives. Many bus stops have a number on the sign. Write it down, because it helps you check the schedule. In winter, try to arrive a few minutes early, but don't wait outside too long when it is very cold.",
+    "To pay your fare, you can use Arc, the reloadable fare card for the Edmonton area. You tap the card on the reader when you get on the bus or before you go to the train platform. You can add money or a monthly pass online or at some stations. Keep your card in an easy pocket so you don't hold up the line.",
+    "Being polite on transit is important in Canada. Let people get off before you get on. Offer the priority seats near the front to older people, pregnant women and people with disabilities. Take off your backpack when the bus is full, and use headphones for music or videos. Many people in Edmonton say “thank you” to the driver when they leave the bus.",
+    "If you are not sure where to get off, ask the driver or another passenger: “Excuse me, does this bus go to the hospital?” Most people are happy to help. After a few trips, you will feel like a local."
+  ],
+  "glossary": [
+    { "term": "neighbourhoods", "es": "colonias, barrios", "def": "areas of a city where people live", "note": "En Canadá se escribe neighbourhood (con u); en EE. UU., neighborhood." },
+    { "term": "route", "es": "ruta", "def": "the way you travel from one place to another" },
+    { "term": "schedule", "es": "horario", "def": "a list of times when buses or trains arrive and leave" },
+    { "term": "fare", "es": "tarifa, pasaje", "def": "the money you pay to travel on a bus or train" },
+    { "term": "reloadable", "es": "recargable", "def": "that you can add more money to and use again" },
+    { "term": "tap", "es": "acercar, tocar (la tarjeta)", "def": "to touch a card quickly against a reader to pay" },
+    { "term": "platform", "es": "andén", "def": "the area next to the train tracks where you wait for the train" },
+    { "term": "hold up the line", "es": "hacer esperar a la fila", "def": "to make other people in a line wait longer" },
+    { "term": "get off", "es": "bajarse", "def": "to leave a bus or train", "note": "Lo contrario es get on: subirse." },
+    { "term": "priority seats", "es": "asientos preferentes", "def": "seats for people who need them more, like older people or people with disabilities" },
+    { "term": "passenger", "es": "pasajero", "def": "a person who travels in a vehicle but is not the driver" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "The LRT is the only good way to travel in Edmonton.",
+      "Taking transit in Edmonton is easy if you plan, pay correctly and are polite.",
+      "Driving is cheaper and faster than taking the bus in Edmonton."
+    ],
+    "answer": 1,
+    "why_es": "El texto explica cómo planear el viaje, pagar con Arc y comportarse con cortesía en el transporte."
+  },
+  "questions": [
+    {
+      "q": "What is Arc?",
+      "options": [
+        "A train line to downtown",
+        "A map app for buses",
+        "A reloadable card to pay your fare"
+      ],
+      "answer": 2,
+      "why_es": "Arc es la tarjeta recargable para pagar el pasaje en la zona de Edmonton."
+    },
+    {
+      "q": "What should you do when the bus is full?",
+      "options": [
+        "Take off your backpack.",
+        "Sit in the priority seats.",
+        "Stand next to the driver."
+      ],
+      "answer": 0,
+      "why_es": "Quitarte la mochila deja más espacio a los demás cuando el camión va lleno."
+    },
+    {
+      "q": "Why is it useful to write down the bus stop number?",
+      "options": [
+        "To pay a lower fare",
+        "To check the schedule",
+        "To give it to the driver"
+      ],
+      "answer": 1,
+      "why_es": "Con el número de la parada puedes consultar el horario y saber cuándo llega el camión."
+    },
+    {
+      "q": "What do many people in Edmonton do when they leave the bus?",
+      "options": [
+        "They tap their card again.",
+        "They say “thank you” to the driver.",
+        "They wait for everyone to get on."
+      ],
+      "answer": 1,
+      "why_es": "Es una costumbre amable y muy común dar las gracias al conductor al bajar."
+    }
+  ],
+  "club": false
+}

@@ -1,0 +1,87 @@
+{
+  "id": "lectura-trabajo-remoto",
+  "level": "B2",
+  "title": "Remote and Hybrid Work in Canada",
+  "title_es": "Trabajo remoto e híbrido en Canadá",
+  "topic": "trabajo",
+  "minutes": 6,
+  "intro_es": "Trabajar desde casa también tiene reglas no escritas; conocerlas te hace visible y confiable.",
+  "paragraphs": [
+    "Remote and hybrid work have become a normal part of professional life in Canada, especially in fields like technology, finance, marketing and administration. For a newcomer, this flexibility is attractive: less time commuting in winter, more control over your day. But working from home has its own unwritten rules, and understanding them can make the difference between being seen as reliable and being quietly overlooked.",
+    "In a hybrid arrangement, you split your week between the office and home. Many teams agree on specific anchor days when everyone comes in, so that in-person time is actually useful. If your team has core hours, the period when everyone is expected to be available, respect them carefully. Outside those hours you may have some freedom, but your status on the chat app and your response time still send a message.",
+    "Communication is the heart of remote work. Because your manager can't see you working, you need to make your progress visible. Short, regular updates about what you finished, what you're working on and where you're blocked build trust far more effectively than a long report at the end of the week. Canadian workplaces also tend to value asynchronous communication: clear written messages that people can read and answer later, without needing an immediate meeting.",
+    "Video meetings have their own etiquette. Join on time, mute your microphone when you're not speaking and, unless your team says otherwise, turn your camera on, at least at the beginning. Use the “raise hand” feature or the chat if it's hard to find a gap in the conversation. If you missed something because of the connection or an accent, it's perfectly acceptable to say, “Sorry, you cut out for a second. Could you repeat the last part?”",
+    "Time zones add another layer. Edmonton is on Mountain Time, so colleagues in Toronto are two hours ahead and those in Vancouver are one hour behind. If you work with Mexico, the difference changes during the year: since most of Mexico no longer observes daylight saving time, Mexico City is one hour ahead of Edmonton in winter and on the same time in summer. Always include the time zone when you suggest a meeting, and use a shared calendar to avoid confusion.",
+    "Finally, protect your boundaries. When your home is also your office, it's easy to answer emails late at night or skip lunch. Set a start and end time, create a small dedicated workspace if possible and take real breaks. Burnout is a risk for anyone, and it can be stronger when you're also adjusting to a new country.",
+    "Remote work can feel isolating, so be intentional about connection. Join optional social calls, say hello in team channels and go to the office on anchor days with a clear goal: to have at least one real conversation. Visibility and relationships still matter, even through a screen."
+  ],
+  "glossary": [
+    { "term": "commuting", "es": "trasladarse al trabajo", "def": "travelling regularly between your home and your workplace" },
+    { "term": "overlooked", "es": "ignorado, pasado por alto", "def": "not noticed or not given the attention or credit you deserve" },
+    { "term": "hybrid arrangement", "es": "esquema híbrido", "def": "a way of working that combines days in the office and days at home" },
+    { "term": "anchor days", "es": "días fijos de oficina", "def": "days when the whole team agrees to work in the office together" },
+    { "term": "core hours", "es": "horario núcleo", "def": "the part of the day when all team members must be available" },
+    { "term": "blocked", "es": "atorado, bloqueado", "def": "unable to continue a task because you need something from someone else" },
+    { "term": "asynchronous", "es": "asíncrono", "def": "not happening at the same time; people respond when they are able to", "note": "Lo contrario es synchronous: una llamada o reunión en vivo." },
+    { "term": "etiquette", "es": "normas de cortesía, protocolo", "def": "the accepted rules of polite behaviour in a particular situation" },
+    { "term": "mute", "es": "silenciar (el micrófono)", "def": "to turn off the sound of your microphone" },
+    { "term": "cut out", "es": "cortarse (la señal)", "def": "when sound or video stops for a moment because of a bad connection" },
+    { "term": "daylight saving time", "es": "horario de verano", "def": "moving clocks one hour forward in spring and back in autumn", "note": "Alberta sí cambia la hora; la mayor parte de México dejó de hacerlo en 2022." },
+    { "term": "boundaries", "es": "límites (personales)", "def": "limits you set to protect your time, energy and private life" },
+    { "term": "burnout", "es": "agotamiento laboral", "def": "extreme physical and mental tiredness caused by too much work or stress" },
+    { "term": "intentional", "es": "deliberado, con intención", "def": "done on purpose, with a clear plan" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Remote work is less professional than office work in Canada.",
+      "Success in remote and hybrid work depends on clear communication, respect for schedules and healthy boundaries.",
+      "Newcomers should avoid remote jobs until their English is perfect."
+    ],
+    "answer": 1,
+    "why_es": "El texto explica normas de comunicación, reuniones, husos horarios y límites para trabajar bien a distancia."
+  },
+  "questions": [
+    {
+      "q": "What are core hours?",
+      "options": [
+        "The hours when everyone is expected to be available",
+        "The days when you must work in the office",
+        "The extra hours you work at night"
+      ],
+      "answer": 0,
+      "why_es": "Core hours es el horario en que todo el equipo debe estar disponible; los días de oficina son anchor days."
+    },
+    {
+      "q": "In winter, when it is 9:00 a.m. in Edmonton, what time is it in Mexico City?",
+      "options": [
+        "9:00 a.m.",
+        "8:00 a.m.",
+        "10:00 a.m."
+      ],
+      "answer": 2,
+      "why_es": "En invierno la Ciudad de México va una hora adelante de Edmonton; en verano tienen la misma hora."
+    },
+    {
+      "q": "Why are short, regular updates useful when you work remotely?",
+      "options": [
+        "They replace all team meetings.",
+        "They make your progress visible and build trust.",
+        "They show that you work late at night."
+      ],
+      "answer": 1,
+      "why_es": "Como tu jefe no te ve trabajar, los avances breves y frecuentes hacen visible tu progreso."
+    },
+    {
+      "q": "What can you say if someone's audio cuts out in a meeting?",
+      "options": [
+        "Nothing, because asking is impolite.",
+        "“Sorry, you cut out for a second. Could you repeat the last part?”",
+        "“Please speak English better.”"
+      ],
+      "answer": 1,
+      "why_es": "Pedir que repitan por un problema de conexión es totalmente aceptable y educado."
+    }
+  ],
+  "club": false
+}

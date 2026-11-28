@@ -1,14 +1,18 @@
 import Link from "next/link";
 import { asc, eq } from "drizzle-orm";
 import { Settings, ShieldCheck, ChevronRight, Download, Shirt, Users } from "lucide-react";
-import { IcoGem, IcoHeart, IcoIce } from "@/components/Icons";
+import { IcoGem, IcoHeart, IcoIce, IcoTrophy } from "@/components/Icons";
 import { UserButton } from "@clerk/nextjs";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { isOwner } from "@/lib/access";
-import { rankOf } from "@/lib/challenges";
+import { ensureLeague } from "@/lib/league";
+import { perksOf } from "@/lib/perks";
+import { bgImage } from "@/lib/themes";
+import { FREEZE } from "@/lib/wardrobe";
+import { LEAGUES } from "@/lib/league-rules";
+import { LEAGUE_TINT } from "@/components/amigos/LeaguePanel";
 import { levelFromXp, levelTitle, localDay, visibleStreak } from "@/lib/game";
 import { MyMascot } from "@/components/Coach";
-import { Bar } from "@/components/ui";
 import { AREA_LABEL } from "@/lib/areas";
 import { db, schema } from "@/db";
 import { ITEMS } from "@/lib/content";
@@ -19,7 +23,7 @@ const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
 export default async function ProfilePage() {
   const profile = await requireProfile();
-  const rank = rankOf(profile.xp);
+  const [league, perks] = await Promise.all([ensureLeague(profile), perksOf(profile.userId)]);
   const lvl = levelFromXp(profile.xp);
   const owner = isOwner(profile.userId);
   const today = localDay(profile.tz);
@@ -47,39 +51,48 @@ export default async function ProfilePage() {
   return (
     <div className="flex flex-col gap-6">
       <header className="hero-card flex flex-col items-center gap-4 p-6 text-center sm:flex-row sm:text-left">
-        <MyMascot size={140} mood="happy" />
+        {settingsOf(profile).background ? (
+          <span className="grid shrink-0 place-items-end overflow-hidden rounded-[var(--r-lg)] bg-cover bg-center px-4 pt-3" style={{ backgroundImage: `url(${bgImage(settingsOf(profile).background, "square")})` }}>
+            <MyMascot size={140} mood="happy" />
+          </span>
+        ) : (
+          <MyMascot size={140} mood="happy" />
+        )}
         <div className="min-w-0 flex-1">
           <h1 className="font-display text-4xl font-extrabold">{profile.name || "Tu perfil"}</h1>
           <p className="text-muted">
-            Inglés {profile.level} (orientativo) · {(profile.topics ?? []).slice(0, 3).map((t) => AREA_LABEL[t] ?? t).join(", ")}
+            {(profile.topics ?? []).slice(0, 3).map((t) => AREA_LABEL[t] ?? t).join(", ")}
             {(profile.topics?.length ?? 0) > 3 ? "…" : ""}
           </p>
-          <div className="mt-4 grid gap-3 sm:grid-cols-3">
-            <div className="rounded-[var(--r-md)] bg-surface/80 p-3">
-              <p className="text-xs font-bold text-muted">Rango de juego</p>
-              <p className="font-black" style={{ color: rank.color }}>
-                {rank.label}
-              </p>
-              <Bar value={rank.into} max={rank.span} color={rank.color} className="mt-1 h-1.5" label="Progreso de rango" />
-              <p className="mt-1 text-[11px] text-muted">{rank.next ? `${rank.next.min - profile.xp} XP para ${rank.next.label}` : "Rango máximo"}</p>
-            </div>
-            <div className="rounded-[var(--r-md)] bg-surface/80 p-3">
-              <p className="text-xs font-bold text-muted">Nivel de juego</p>
-              <p className="font-black">
-                {lvl.level} · {levelTitle(lvl.level)}
-              </p>
-              <Bar value={lvl.into} max={lvl.span} color="var(--accent)" className="mt-1 h-1.5" label="Progreso de nivel" />
-              <p className="mt-1 text-[11px] text-muted">No es tu nivel de inglés.</p>
-            </div>
-            <div className="flex flex-col gap-1 rounded-[var(--r-md)] bg-surface/80 p-3 text-sm font-black">
-              <span className="flex items-center gap-1.5">
-                <IcoGem size={18} /> {profile.gems} gemas
+          {/* Tres datos del mismo tamaño y forma: liga, nivel de inglés y monedero. */}
+          <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-3">
+            <Link href="/amigos" className="profile-stat" aria-label={`Liga ${LEAGUES[league.tier]}, ${league.tier + 1} de ${LEAGUES.length}. Ver la tabla`}>
+              <span className="profile-stat-ico" style={{ color: LEAGUE_TINT[league.tier], background: `color-mix(in oklab, ${LEAGUE_TINT[league.tier]} 16%, var(--surface))` }}>
+                <IcoTrophy size={22} />
               </span>
-              <span className="flex items-center gap-1.5">
-                <IcoHeart size={18} /> {profile.lives} vidas · <IcoIce size={16} /> {profile.freezes}/2
+              <b className="profile-stat-val">{LEAGUES[league.tier]}</b>
+              <span className="profile-stat-lbl">
+                Liga {league.tier + 1} de {LEAGUES.length}
               </span>
-            </div>
+            </Link>
+            <Link href="/mapa" className="profile-stat" aria-label={`Nivel de inglés ${profile.level}. Ver tu viaje`}>
+              <span className="profile-stat-ico bg-brand-soft text-brand-ink font-display text-sm font-black">{profile.level}</span>
+              <b className="profile-stat-val">Inglés {profile.level}</b>
+              <span className="profile-stat-lbl">{settingsOf(profile).placement ? "Según tu test" : "Lo elegiste tú"}</span>
+            </Link>
+            <Link href="/tienda?tab=vidas" className="profile-stat" aria-label={`${profile.gems} gemas. Ver vidas y extras`}>
+              <span className="profile-stat-ico bg-accent-soft">
+                <IcoGem size={22} />
+              </span>
+              <b className="profile-stat-val">{profile.gems}</b>
+              <span className="profile-stat-lbl flex items-center justify-center gap-1">
+                <IcoHeart size={13} /> {perks.unlimitedLives ? "∞" : profile.lives} · <IcoIce size={13} /> {profile.freezes}/{FREEZE.max}
+              </span>
+            </Link>
           </div>
+          <p className="mt-2 text-xs text-muted">
+            Nivel de juego {lvl.level} · {levelTitle(lvl.level)}
+          </p>
         </div>
       </header>
 
@@ -87,10 +100,10 @@ export default async function ProfilePage() {
       <StudyStats days={days} today={today} streak={visibleStreak(profile.streak, profile.lastGoalDay, today)} bestStreak={profile.bestStreak} totalXp={profile.xp} />
 
       <ul className="grid gap-3 sm:grid-cols-2">
-        <Row href="/tienda" icon={<Shirt size={22} />} title="Armario" text="Mascotas, ropa, accesorios, cofres y vidas." />
+        <Row href="/tienda" icon={<Shirt size={22} />} title="Armario y tu estilo" text="Mascotas, ropa, colores, temáticas, fondos, cofres y vidas." />
         <Row href="/amigos" icon={<Users size={22} />} title="Amigos" text="Clasificación semanal, regalos y buzón." />
         <Row href="/progreso" icon={<ChevronRight size={22} />} title="Progreso detallado" text="Retención, errores frecuentes, pronunciación y carga de repasos." />
-        <Row href="/ajustes" icon={<Settings size={22} />} title="Ajustes" text="Meta diaria, voz, temporadas, sonidos, lenguaje explícito, privacidad." />
+        <Row href="/ajustes" icon={<Settings size={22} />} title="Ajustes" text="Meta diaria, nivel, voz, sonidos, recordatorio y privacidad." />
         <Row href="/api/data" icon={<Download size={22} />} title="Exportar mis datos" text="Descarga un respaldo completo (JSON) de tu progreso." download />
         {owner && <Row href="/admin" icon={<ShieldCheck size={22} />} title="Administrar acceso" text="Invitaciones y miembros (solo propietario)." />}
       </ul>

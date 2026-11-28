@@ -6,11 +6,15 @@ import { activateBoost, activateShield, buyBoost, buyItem, openChest, ownedSet, 
 import { lookOf } from "@/lib/look";
 import { missingFor, sanitizeWear, PET_IDS } from "@/lib/wardrobe";
 import { db, schema } from "@/db";
+import { perksOf } from "@/lib/perks";
+import { canUseBg, canUseTheme } from "@/lib/themes";
 
 /** Tienda y armario. Todo se valida en el servidor (precio, saldo, propiedad). `key` hace idempotente cada operación. */
 const KEY = z.string().min(8).max(64);
 const Body = z.discriminatedUnion("action", [
-  z.object({ action: z.literal("buy"), kind: z.enum(["piece", "pet"]), id: z.string().max(40), key: KEY }),
+  z.object({ action: z.literal("buy"), kind: z.enum(["piece", "pet", "theme", "bg"]), id: z.string().max(40), key: KEY }),
+  // Aplicar temática legendaria y fondo (null = quitar). Solo lo que ya es tuyo.
+  z.object({ action: z.literal("appearance"), themePack: z.string().max(40).nullable().optional(), background: z.string().max(40).nullable().optional() }),
   z.object({ action: z.literal("chest"), chest: z.string().max(20), key: KEY }),
   z.object({ action: z.literal("boost-buy"), key: KEY }),
   z.object({ action: z.literal("boost-use"), key: KEY }),
@@ -52,6 +56,16 @@ export async function POST(req: Request) {
         .set({ settings: { ...s, look: next } })
         .where(eq(schema.profiles.userId, profile.userId));
       return Response.json({ ok: true, look: next });
+    }
+    case "appearance": {
+      const s = settingsOf(profile);
+      const owned = await ownedSet(profile.userId);
+      const { allThemes } = await perksOf(profile.userId);
+      if (b.themePack && !canUseTheme(b.themePack, owned, allThemes)) return Response.json({ ok: false, error: "Aún no tienes esa temática." }, { status: 403 });
+      if (b.background && !canUseBg(b.background, owned)) return Response.json({ ok: false, error: "Aún no tienes ese fondo." }, { status: 403 });
+      const next = { ...s, ...(b.themePack !== undefined ? { themePack: b.themePack } : {}), ...(b.background !== undefined ? { background: b.background } : {}) };
+      await db().update(schema.profiles).set({ settings: next }).where(eq(schema.profiles.userId, profile.userId));
+      return Response.json({ ok: true, themePack: next.themePack ?? null, background: next.background ?? null });
     }
   }
 }

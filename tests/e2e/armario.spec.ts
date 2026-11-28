@@ -2,6 +2,10 @@ import { clerk, clerkSetup, setupClerkTestingToken } from "@clerk/testing/playwr
 import { expect, test, type Browser, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { ensureTestUser, sql, TEST_EMAIL } from "./helpers";
+import { CHESTS, PRICE, dupRefund } from "../../src/lib/wardrobe";
+
+// Precios del código (no escritos a mano): así la prueba sigue valiendo cuando se reequilibra la economía.
+const CHEST = Object.fromEntries(CHESTS.map((c) => [c.id, c])) as Record<string, (typeof CHESTS)[number]>;
 
 /** Segunda cuenta de prueba (modo test de Clerk: no envía correos) para amistades y regalos. */
 const FRIEND_EMAIL = "fluye-e2e-amigo+clerk_test@example.com";
@@ -61,9 +65,9 @@ test("armario: probar, comprar, guardar un conjunto por mascota y validar en el 
   // Comprar la gorra y guardar gorra + lentes.
   await page.getByRole("button", { name: "Quitar Corona", exact: true }).click();
   const before = (await profile(A)).gems;
-  await page.getByRole("button", { name: "Comprar Gorra violeta por 35 gemas" }).click();
+  await page.getByRole("button", { name: `Comprar Gorra violeta por ${PRICE[0]} gemas` }).click();
   await expect(page.getByText("¡Gorra violeta es tuya!")).toBeVisible();
-  expect((await profile(A)).gems).toBe(before - 35);
+  expect((await profile(A)).gems).toBe(before - PRICE[0]);
   await page.getByRole("button", { name: "Cara", exact: true }).click();
   await page.getByRole("button", { name: "Probar Lentes redondos" }).click();
   await page.getByRole("button", { name: "Guardar conjunto" }).click();
@@ -78,7 +82,7 @@ test("armario: probar, comprar, guardar un conjunto por mascota y validar en el 
   const c0 = (await profile(A)).gems;
   expect((await api(page, "/api/shop", { action: "buy", kind: "piece", id: "bowtie", key: k })).ok).toBe(true);
   await api(page, "/api/shop", { action: "buy", kind: "piece", id: "bowtie", key: k });
-  expect((await profile(A)).gems).toBe(c0 - 65);
+  expect((await profile(A)).gems).toBe(c0 - PRICE[1]);
   // Las piezas de logro no se compran.
   expect((await api(page, "/api/shop", { action: "buy", kind: "piece", id: "racha-360", key: key() })).ok).toBe(false);
   // Otra mascota conserva su propio conjunto.
@@ -104,12 +108,12 @@ test("cofres: cobran una vez, salen vacíos y repetidos, y la cuenta de gemas cu
     expect(r.ok).toBe(true);
     seen[r.outcome as keyof typeof seen]++;
     refunds += r.refund;
-    if (r.outcome === "dup") expect(r.refund).toBe(10);
+    if (r.outcome === "dup") expect(r.refund).toBe(dupRefund(CHEST.semilla));
     if (r.outcome === "empty") expect(r.refund).toBe(0);
   }
   expect(seen.empty).toBeGreaterThan(0);
   expect(seen.dup).toBeGreaterThan(0);
-  expect((await profile(A)).gems).toBe(start - 45 * 20 + refunds);
+  expect((await profile(A)).gems).toBe(start - 45 * CHEST.semilla.price + refunds);
   // Repetir la misma clave no vuelve a cobrar.
   const k = key();
   const c0 = (await profile(A)).gems;
@@ -117,10 +121,10 @@ test("cofres: cobran una vez, salen vacíos y repetidos, y la cuenta de gemas cu
   const again = await api(page, "/api/shop", { action: "chest", chest: "aurora", key: k });
   expect(again.ok).toBe(false);
   const after = (await profile(A)).gems;
-  expect(c0 - after).toBeLessThanOrEqual(34);
+  expect(c0 - after).toBeLessThanOrEqual(CHEST.aurora.price);
   // Interfaz: un cofre real y el modo de prueba con vacío, repetido y legendario.
   await page.goto("/tienda?tab=cofres");
-  await page.getByRole("button", { name: /Abrir Cofre brote por 28 gemas/ }).click();
+  await page.getByRole("button", { name: new RegExp(`Abrir Cofre brote por ${CHEST.brote.price} gemas`) }).click();
   await expect(page.getByRole("button", { name: "Seguir" })).toBeEnabled({ timeout: 8000 });
   await page.screenshot({ path: `${SHOTS}/pc_cofre-real.png` });
   await page.getByRole("button", { name: "Seguir" }).click();
@@ -216,10 +220,13 @@ test("amistad y los tres regalos entre dos cuentas, cobrados y entregados una so
   await b.context().close();
 });
 
-test("vidas: protección con gemas, pérdida sin bloquear y recuperación practicando", async ({ browser }) => {
+test("vidas: protección con gemas, pérdida de vidas y recuperación practicando", async ({ browser }) => {
   test.setTimeout(240_000);
-  const page = await login(browser, TEST_EMAIL);
-  await sql().query("update profiles set lives = 1, shield = 0, gems = 20 where user_id = $1", [A]);
+  // Cuenta de miembro normal: la cuenta propietaria tiene vidas ilimitadas (no pierde vidas).
+  const page = await login(browser, FRIEND_EMAIL);
+  const A = B;
+  await sql().query("delete from member_perks where user_id = $1", [A]);
+  await sql().query("update profiles set lives = 1, shield = 0, gems = 20, lives_day = (now() at time zone tz)::date where user_id = $1", [A]);
   const k = key();
   expect((await api(page, "/api/shop", { action: "shield", key: k })).ok).toBe(true);
   await api(page, "/api/shop", { action: "shield", key: k });

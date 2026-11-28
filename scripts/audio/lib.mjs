@@ -61,7 +61,7 @@ export function collect(only = voices.voices.map((v) => v.id)) {
     for (const p of s.phrases) add(d, p.en, "sound");
   }
   for (const p of gen("prosody.json")) for (const x of p.drills) add(d, x.en, "prosody");
-  for (const g of gen("tenses.json")) for (const e of g.examples) add(d, e.en, "grammar");
+  for (const g of gen("tenses.json")) for (const e of [...g.examples, ...(g.steps ?? []).flatMap((s) => s.examples ?? [])]) add(d, e.en, "grammar");
   for (const e of gen("errors.json")) for (const r of e.right) add(d, r, "errors");
 
   // P1b: rutas temáticas (diálogos, misión final, frases de reparación y modelos de producción) y música.

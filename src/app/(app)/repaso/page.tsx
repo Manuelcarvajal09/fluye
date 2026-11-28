@@ -6,8 +6,9 @@ import { getItem } from "@/lib/content";
 import { previewLabels, fmtInterval } from "@/lib/srs";
 import { collectionOf, collectionsOf } from "@/lib/collections";
 import { FlashReview, type Flash } from "@/components/FlashReview";
-import { MyMascot } from "@/components/Coach";
+import { EmptyArt } from "@/components/ux/EmptyArt";
 import type { Mode } from "@/lib/types";
+import { SectionHeader } from "@/components/ux/SectionHeader";
 
 export const metadata = { title: "Repaso" };
 
@@ -85,10 +86,10 @@ export default async function Review({ searchParams }: PageProps<"/repaso">) {
     const [next] = await db().select({ due: schema.cards.due }).from(schema.cards).where(and(base, gt(schema.cards.due, now))).orderBy(asc(schema.cards.due)).limit(1);
     return (
       <div className="flex flex-col gap-6">
-        <h1 className="font-display text-4xl font-extrabold">Repaso</h1>
+        <SectionHeader art="repaso" title="Repaso" />
         {filters}
         <div className="empty-state">
-          <MyMascot mood="cheer" size={120} />
+          <EmptyArt kind={col && !col.items.length ? "vacio-colecciones" : "vacio-repasos"} mood={col && !col.items.length ? "think" : "cheer"} />
           <h2 className="font-display text-2xl font-extrabold">{col && !col.items.length ? "Esta colección está vacía" : "Aquí estás al día"}</h2>
           <p className="max-w-sm text-muted">
             {next ? `La siguiente tarjeta de este filtro vence en ${fmtInterval(next.due.getTime() - now.getTime())}. Si quieres practicar ya, usa «Adelantar».` : col ? "Aún no activas entradas de esta colección. Estúdiala para crear sus tarjetas." : "Todavía no tienes tarjetas con este filtro."}
@@ -110,13 +111,12 @@ export default async function Review({ searchParams }: PageProps<"/repaso">) {
 
   return (
     <div className="flex flex-col gap-5">
-      <header>
-        <h1 className="font-display text-4xl font-extrabold">Repaso{col ? ` · ${col.name}` : ""}</h1>
+      <SectionHeader art="repaso" title={`Repaso${col ? ` · ${col.name}` : ""}`}>
         <p className="text-muted">
           Intenta recordar, voltea y califica con honestidad. Cada botón muestra en cuánto volverá la tarjeta. {cards.length} {cards.length === 1 ? "tarjeta" : "tarjetas"}
           {early ? " (incluye adelantadas)" : " pendientes"}.
         </p>
-      </header>
+      </SectionHeader>
       {filters}
       <FlashReview cards={cards} />
     </div>

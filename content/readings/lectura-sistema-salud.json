@@ -1,0 +1,97 @@
+{
+  "id": "lectura-sistema-salud",
+  "level": "C1",
+  "title": "Finding Your Way Through Canadian Health Care",
+  "title_es": "Cómo moverte en el sistema de salud canadiense",
+  "topic": "vida",
+  "minutes": 7,
+  "intro_es": "La salud pública en Canadá es universal, pero no funciona como en México: saber a dónde ir te ahorra horas de espera.",
+  "paragraphs": [
+    "Canadians often describe their public health care system as a point of national pride, and for good reason: if you are covered, you can see a doctor or go to hospital without paying at the point of service. For newcomers, however, the system can be confusing. It is not one single national service but a collection of provincial and territorial plans, each with its own rules, and knowing how to navigate it can spare you a great deal of frustration.",
+    "The first step in Alberta is to register for the provincial health insurance plan and obtain your personal health card. Eligibility depends on your immigration status and your intention to live in the province, and there may be documents to gather. Do this as soon as you arrive. Until your coverage starts, any medical care could be billed to you directly, which is why many newcomers buy private travel or visitor insurance for the first weeks.",
+    "Once you are covered, the cornerstone of the system is the family doctor, or general practitioner. This person handles routine check-ups, prescriptions, minor illnesses and, crucially, referrals to specialists. In most cases you cannot simply book an appointment with a dermatologist or a cardiologist; your family doctor has to refer you. Finding one who is accepting new patients can take persistence, so start looking early and ask friends, colleagues or online provincial directories.",
+    "In the meantime, walk-in clinics fill the gap. You can show up without an appointment and be seen the same day, although waits can be long. For anything that is urgent but not life-threatening, such as a deep cut or a high fever that will not come down, urgent care centres are usually a better choice than the emergency department. Hospital emergency rooms use a triage system: patients are seen according to the severity of their condition, not their arrival time, so a sprained wrist may wait for hours while more serious cases go first.",
+    "Alberta also offers a free telephone health line staffed by registered nurses, available around the clock. Calling before you rush anywhere can save time, since the nurse can tell you whether you need emergency care, a clinic visit or simply rest at home. In a genuine emergency, of course, you should call 911 immediately.",
+    "It is equally important to understand what public coverage does not include. Prescription drugs, dental care, eye exams for adults, physiotherapy and mental health counselling are often only partly covered or not covered at all. Many employers offer extended health benefits that pay for some of these services, so read your benefits package carefully and keep receipts for any claims.",
+    "Finally, be an active participant in your own care. Write down your symptoms and questions before an appointment, bring a list of medications and do not hesitate to ask the doctor to repeat or explain a term. If you are not comfortable discussing health matters in English, you may be able to request an interpreter. Understanding the system will not eliminate waiting times, but it will make you a far more confident patient."
+  ],
+  "glossary": [
+    { "term": "at the point of service", "es": "en el momento de la atención", "def": "at the moment you receive a service, for example in the clinic" },
+    { "term": "navigate", "es": "orientarse, moverse en", "def": "to find your way through a complicated system or place" },
+    { "term": "spare you", "es": "ahorrarte, evitarte", "def": "to save you from something unpleasant" },
+    { "term": "eligibility", "es": "elegibilidad, derecho a", "def": "the state of meeting the conditions to receive something" },
+    { "term": "billed", "es": "cobrado, facturado", "def": "sent a request for payment" },
+    { "term": "cornerstone", "es": "pilar, piedra angular", "def": "the most important part on which everything else depends" },
+    { "term": "referrals", "es": "pases, canalizaciones", "def": "official recommendations sending a patient to a specialist", "note": "En México se dice «pase» o «te canalizan con el especialista»." },
+    { "term": "persistence", "es": "perseverancia", "def": "continuing to try even when something is difficult" },
+    { "term": "walk-in clinics", "es": "clínicas sin cita", "def": "medical clinics where you can be seen without an appointment" },
+    { "term": "life-threatening", "es": "que pone en riesgo la vida", "def": "so serious that it could cause death" },
+    { "term": "triage", "es": "triaje, clasificación de urgencias", "def": "deciding the order of treatment according to how serious each case is" },
+    { "term": "sprained", "es": "torcido, con esguince", "def": "injured by twisting a joint such as a wrist or ankle" },
+    { "term": "around the clock", "es": "las 24 horas", "def": "all day and all night, without stopping" },
+    { "term": "extended health benefits", "es": "seguro de gastos médicos complementario", "def": "extra insurance, often from an employer, that covers services the public plan does not" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Canadian health care is completely free for everything, including dental care.",
+      "Newcomers should always go to the emergency room because it is the fastest option.",
+      "Canada's public health care is valuable, but you need to understand how it is organized to use it well."
+    ],
+    "answer": 2,
+    "why_es": "El texto explica cómo registrarte, a quién acudir según el caso y qué no cubre el sistema público."
+  },
+  "questions": [
+    {
+      "q": "Why do many newcomers buy private insurance for their first weeks?",
+      "options": [
+        "Because public coverage may not have started yet",
+        "Because public insurance is only for citizens",
+        "Because private insurance is required by law"
+      ],
+      "answer": 0,
+      "why_es": "Mientras no inicie la cobertura provincial, cualquier atención médica se te podría cobrar."
+    },
+    {
+      "q": "What is one key role of the family doctor?",
+      "options": [
+        "Running the emergency department",
+        "Referring patients to specialists",
+        "Issuing provincial health cards"
+      ],
+      "answer": 1,
+      "why_es": "En general no puedes ir directo a un especialista: tu médico familiar te tiene que canalizar."
+    },
+    {
+      "q": "How are patients seen in a hospital emergency room?",
+      "options": [
+        "In order of arrival",
+        "According to the severity of their condition",
+        "According to their insurance plan"
+      ],
+      "answer": 1,
+      "why_es": "El triaje prioriza los casos más graves, no la hora de llegada."
+    },
+    {
+      "q": "What is the advantage of calling the nurse health line first?",
+      "options": [
+        "The nurse can send an ambulance to your home for free.",
+        "The nurse can prescribe any medication.",
+        "The nurse can tell you what kind of care you actually need."
+      ],
+      "answer": 2,
+      "why_es": "Te orientan sobre si necesitas urgencias, una clínica o solo descansar en casa."
+    },
+    {
+      "q": "Which of these is often not fully covered by the public plan?",
+      "options": [
+        "A visit to the family doctor",
+        "Dental care",
+        "Treatment in the emergency department"
+      ],
+      "answer": 1,
+      "why_es": "Dentista, medicamentos, lentes y terapias suelen requerir beneficios complementarios o pago propio."
+    }
+  ],
+  "club": false
+}

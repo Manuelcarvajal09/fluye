@@ -1,11 +1,14 @@
 import "server-only";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { cache } from "react";
 import { eq } from "drizzle-orm";
 import { db, schema } from "@/db";
 import type { Look } from "./look";
 import { accessFor } from "./access";
 import type { SeasonPrefs } from "./seasons";
+import { pickSignupGift, promoActive, type SignupGift } from "./promo";
+import { petKey, pieceKey } from "./wardrobe";
 
 export type Profile = typeof schema.profiles.$inferSelect;
 
@@ -27,7 +30,8 @@ export async function apiProfile(): Promise<Profile | null> {
   return getOrCreateProfile(userId);
 }
 
-async function getOrCreateProfile(userId: string) {
+/** Una sola lectura del perfil por petición (layout y página comparten el resultado). */
+const getOrCreateProfile = cache(async (userId: string): Promise<Profile> => {
   const [found] = await db().select().from(schema.profiles).where(eq(schema.profiles.userId, userId));
   if (found) return found;
   const u = await currentUser();
@@ -37,9 +41,25 @@ async function getOrCreateProfile(userId: string) {
     .values({ userId, name: preset?.name ?? u?.firstName ?? "", ...(preset?.level ? { level: preset.level } : {}), ...(preset?.topics ? { topics: preset.topics } : {}), ...(preset?.goalMinutes ? { goalMinutes: preset.goalMinutes } : {}), ...(preset?.dailyNew ? { dailyNew: preset.dailyNew } : {}) })
     .onConflictDoNothing()
     .returning();
-  if (created) return created;
+  if (created) {
+    // Promoción de lanzamiento: regalo de bienvenida una sola vez (claves de inventario idempotentes).
+    if (promoActive()) return grantSignupGift(created);
+    return created;
+  }
   const [again] = await db().select().from(schema.profiles).where(eq(schema.profiles.userId, userId));
   return again;
+});
+
+/** Entrega el regalo de registro y lo anota en settings.welcomeGift (Hoy lo muestra los primeros días). */
+async function grantSignupGift(p: Profile): Promise<Profile> {
+  const g = pickSignupGift();
+  await db()
+    .insert(schema.inventory)
+    .values([petKey(g.pet), pieceKey(g.piece), pieceKey(g.xmas), g.theme].map((itemId) => ({ userId: p.userId, itemId })))
+    .onConflictDoNothing();
+  const settings = { ...(p.settings ?? {}), welcomeGift: g };
+  const [upd] = await db().update(schema.profiles).set({ settings }).where(eq(schema.profiles.userId, p.userId)).returning();
+  return upd ?? p;
 }
 
 type Preset = { name?: string; level?: string; topics?: string[]; goalMinutes?: number; dailyNew?: number };
@@ -60,6 +80,9 @@ function presetFor(emails: string[]): Preset | null {
 }
 
 export type Settings = {
+  themePack?: string | null;
+  background?: string | null;
+  welcomeGift?: SignupGift;
   theme?: "system" | "light" | "dark";
   voice?: string;
   rate?: number;
@@ -89,6 +112,8 @@ export type Settings = {
   /** Ítems que la persona declaró como "ya la conozco" (declaración, no dominio). */
   known?: string[];
   fragments?: { id: string; text: string; note: string }[];
+  /** Ejercicios de música marcados como hechos. */
+  musicDone?: string[];
 };
 
 export type PlacementResult = {

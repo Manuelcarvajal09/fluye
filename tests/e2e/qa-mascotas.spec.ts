@@ -7,7 +7,8 @@ import { TEST_EMAIL } from "./helpers";
  * FLUYE_QA=1 (que también habilita la página /qa/mascotas en el servidor local).
  *   FLUYE_QA=1 npx playwright test --project=qa-mascotas
  */
-const PETS = ["zorro", "gato", "perro", "castor", "oso", "panda", "buho", "conejo", "nutria", "ciervo", "panda-rojo", "ajolote"];
+import { PETS as ALL } from "../../src/lib/wardrobe";
+const PETS = ALL.map((p) => p.id);
 const SHEETS: [string, number][] = [
   ["pieces", 130],
   ["poses", 130],

@@ -39,6 +39,12 @@ export function GrammarPractice({ id, practice }: { id: string; practice: Tense[
               );
             })}
           </div>
+          {picked[i] !== undefined && p.why_es && (
+            <p className={`rounded-xl p-2.5 text-sm ${picked[i] === p.answer ? "bg-good-soft" : "bg-bad-soft"}`}>
+              <b>{picked[i] === p.answer ? "Correcto. " : `La respuesta es «${p.options[p.answer]}». `}</b>
+              {p.why_es}
+            </p>
+          )}
         </div>
       ))}
       {doneCount === practice.length && (

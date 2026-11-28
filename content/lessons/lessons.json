@@ -1123,5 +1123,1812 @@
       { "q": "Why is Dan leaving?", "options": ["He was fired", "He wants someone new to lead and to try teaching", "He's moving to Vancouver"], "answer": 1, "why_es": "Deja el puesto para que alguien nuevo tome el mando y quiere dedicarse a enseñar." },
       { "q": "What does Dan say about Maya?", "options": ["She is always quiet", "She always says what others are thinking", "She is a bad designer"], "answer": 1, "why_es": "Dice que siempre suelta lo que los demás están pensando." }
     ]
+  },
+  {
+    "id": "les-a1-first-day-bank",
+    "level": "A1",
+    "topic": "money",
+    "order": 49,
+    "title": "First day: the bank",
+    "title_es": "Primer día: el banco",
+    "intro_es": "Es el primer día de Mateo en Edmonton. Va al banco a abrir una cuenta y le piden sus datos.",
+    "lines": [
+      { "who": "Banker", "en": "[Good morning]! How can I help you?", "es": "¡Buenos días! ¿En qué le puedo ayudar?", "item": "phr-good-morning" },
+      { "who": "Mateo", "en": "Hi. [I'm new here], and I want to open an account.", "es": "Hola. Acabo de llegar y quiero abrir una cuenta.", "item": "phr-im-new-here" },
+      { "who": "Banker", "en": "Welcome to Edmonton! Can I see your ID, please?", "es": "¡Bienvenido a Edmonton! ¿Me permite una identificación, por favor?" },
+      { "who": "Mateo", "en": "Sure. Here's my passport.", "es": "Claro. Aquí está mi pasaporte." },
+      { "who": "Banker", "en": "Thank you. Your last name is Ramírez? [How do you spell that]?", "es": "Gracias. ¿Su apellido es Ramírez? ¿Cómo se escribe?", "item": "phr-how-do-you-spell-that" },
+      { "who": "Mateo", "en": "R-A-M-I-R-E-Z.", "es": "R-A-M-I-R-E-Z." },
+      { "who": "Banker", "en": "Great. And what's your home [address]?", "es": "Muy bien. ¿Y cuál es la dirección de su casa?", "item": "voc-address" },
+      { "who": "Mateo", "en": "It's 45 Jasper Avenue, apartment 12.", "es": "Es Jasper Avenue 45, departamento 12." },
+      { "who": "Banker", "en": "Perfect. Last thing: [what's your phone number]?", "es": "Perfecto. Lo último: ¿cuál es su número de teléfono?", "item": "phr-whats-your-phone-number" },
+      { "who": "Mateo", "en": "It's 780-555-0142. Thanks for your help!", "es": "Es 780-555-0142. ¡Gracias por su ayuda!" }
+    ],
+    "items": ["phr-good-morning", "phr-im-new-here", "phr-how-do-you-spell-that", "voc-address", "phr-whats-your-phone-number"],
+    "questions": [
+      { "q": "Why is Mateo at the bank?", "options": ["To change money", "To open an account", "To pay a bill"], "answer": 1, "why_es": "Dice que acaba de llegar y quiere abrir una cuenta (open an account)." },
+      { "q": "What does the banker ask Mateo to spell?", "options": ["His last name", "His street", "His city"], "answer": 0, "why_es": "Le pregunta cómo se escribe su apellido, Ramírez." }
+    ]
+  },
+  {
+    "id": "les-a1-grocery-run",
+    "level": "A1",
+    "topic": "food",
+    "order": 50,
+    "title": "At the grocery store",
+    "title_es": "En el súper",
+    "intro_es": "Rosa compra lo básico para su primera noche en Edmonton y paga en la caja.",
+    "lines": [
+      { "who": "Rosa", "en": "Excuse me, where is the bread?", "es": "Disculpe, ¿dónde está el pan?" },
+      { "who": "Cashier", "en": "[It's next to] the eggs, at the back.", "es": "Está junto a los huevos, hasta el fondo.", "item": "phr-its-next-to" },
+      { "who": "Rosa", "en": "Thanks! I just need bread and [milk] today.", "es": "¡Gracias! Hoy solo necesito pan y leche.", "item": "voc-milk" },
+      { "who": "Cashier", "en": "Okay, [that'll be] nine dollars and twenty cents.", "es": "Bueno, son nueve dólares con veinte centavos.", "item": "phr-thatll-be" },
+      { "who": "Rosa", "en": "Here you go.", "es": "Aquí tiene." },
+      { "who": "Cashier", "en": "[Do you need a bag]?", "es": "¿Necesita bolsa?", "item": "phr-do-you-need-a-bag" },
+      { "who": "Rosa", "en": "No, I brought my own.", "es": "No, traje la mía." },
+      { "who": "Cashier", "en": "Great. Anything else?", "es": "Muy bien. ¿Algo más?" },
+      { "who": "Rosa", "en": "No, [that's all, thanks].", "es": "No, es todo, gracias.", "item": "phr-thats-all-thanks" },
+      { "who": "Cashier", "en": "Have a good night!", "es": "¡Que pase buena noche!" }
+    ],
+    "items": ["phr-its-next-to", "voc-milk", "phr-thatll-be", "phr-do-you-need-a-bag", "phr-thats-all-thanks"],
+    "questions": [
+      { "q": "Where is the bread?", "options": ["At the front door", "Next to the milk", "Next to the eggs"], "answer": 2, "why_es": "La cajera dice que está junto a los huevos (next to the eggs), al fondo." },
+      { "q": "How much does Rosa pay?", "options": ["$9.20", "$20.90", "$2.90"], "answer": 0, "why_es": "Nine dollars and twenty cents = 9.20 dólares." },
+      { "q": "Does Rosa buy a bag?", "options": ["Yes, one bag", "No, she has her own", "Yes, two bags"], "answer": 1, "why_es": "Dice: «I brought my own», trajo su propia bolsa." }
+    ]
+  },
+  {
+    "id": "les-a1-bus-downtown",
+    "level": "A1",
+    "topic": "travel",
+    "order": 51,
+    "title": "The bus downtown",
+    "title_es": "El camión al centro",
+    "intro_es": "Ana toma el camión por primera vez. Omar, otro pasajero, le explica cómo llegar a la biblioteca.",
+    "lines": [
+      { "who": "Ana", "en": "Excuse me, does this bus go downtown?", "es": "Disculpe, ¿este camión va al centro?" },
+      { "who": "Omar", "en": "Yes, it does. Where are you going?", "es": "Sí. ¿A dónde vas?" },
+      { "who": "Ana", "en": "To the central library. [Is it far]?", "es": "A la biblioteca central. ¿Está lejos?", "item": "phr-is-it-far" },
+      { "who": "Omar", "en": "Not really. It's about ten minutes.", "es": "No mucho. Como diez minutos." },
+      { "who": "Ana", "en": "Do I need to tell the [driver] where I'm getting off?", "es": "¿Tengo que decirle al chofer dónde me bajo?", "item": "voc-driver" },
+      { "who": "Omar", "en": "No, just push the yellow strip before your stop.", "es": "No, nomás aprieta la tira amarilla antes de tu parada." },
+      { "who": "Omar", "en": "Oh, look! Downtown is the [next stop].", "es": "¡Ah, mira! El centro es la próxima parada.", "item": "phr-next-stop" },
+      { "who": "Omar", "en": "When you get off, [go straight] for two blocks.", "es": "Cuando te bajes, sigue derecho dos cuadras.", "item": "phr-go-straight" },
+      { "who": "Omar", "en": "The library is [across from] a big hotel.", "es": "La biblioteca está enfrente de un hotel grande.", "item": "phr-across-from" },
+      { "who": "Ana", "en": "Thank you so much! Have a nice day.", "es": "¡Muchísimas gracias! Que tengas buen día." }
+    ],
+    "items": ["phr-is-it-far", "voc-driver", "phr-next-stop", "phr-go-straight", "phr-across-from"],
+    "questions": [
+      { "q": "How long is the bus ride to the library?", "options": ["About an hour", "About ten minutes", "Two minutes"], "answer": 1, "why_es": "Omar dice: «It's about ten minutes»." },
+      { "q": "How does Ana ask the bus to stop?", "options": ["She pushes the yellow strip", "She tells the driver", "She stands up and waves"], "answer": 0, "why_es": "Omar le explica que solo tiene que apretar la tira amarilla (push the yellow strip)." },
+      { "q": "Where is the library?", "options": ["Next to the bus station", "Behind the mall", "Across from a hotel"], "answer": 2, "why_es": "Está enfrente de un hotel grande: across from a big hotel." }
+    ]
+  },
+  {
+    "id": "les-a1-clinic-appointment",
+    "level": "A1",
+    "topic": "health",
+    "order": 52,
+    "title": "At the clinic",
+    "title_es": "En la clínica",
+    "intro_es": "Diego llega a la clínica para su primera cita médica en Edmonton. Habla con la recepcionista y luego con la doctora.",
+    "lines": [
+      { "who": "Jen", "en": "Good afternoon! How can I help you?", "es": "¡Buenas tardes! ¿En qué le puedo ayudar?" },
+      { "who": "Diego", "en": "Hi, [I have an appointment] with Dr. Lin.", "es": "Hola, tengo cita con la doctora Lin.", "item": "phr-i-have-an-appointment" },
+      { "who": "Jen", "en": "Okay. Can I get your name, please?", "es": "Muy bien. ¿Me da su nombre, por favor?" },
+      { "who": "Diego", "en": "Diego Torres. Sorry, I'm a little [early].", "es": "Diego Torres. Perdón, llegué un poco temprano.", "item": "voc-early" },
+      { "who": "Jen", "en": "No problem. Your appointment is at [quarter after] two.", "es": "No hay problema. Su cita es a las dos y cuarto.", "item": "phr-quarter-after" },
+      { "who": "Jen", "en": "Please have a seat. The doctor will see you soon.", "es": "Tome asiento, por favor. La doctora lo atiende pronto." },
+      { "who": "Lin", "en": "Hi, Diego. I'm Dr. Lin. What brings you in today?", "es": "Hola, Diego. Soy la doctora Lin. ¿Qué lo trae por aquí hoy?" },
+      { "who": "Diego", "en": "[I don't feel well]. I have a headache.", "es": "No me siento bien. Me duele la cabeza.", "item": "phr-i-dont-feel-well" },
+      { "who": "Diego", "en": "And I'm [tired] all the time.", "es": "Y estoy cansado todo el tiempo.", "item": "voc-tired" },
+      { "who": "Lin", "en": "Okay, don't worry. Let's take a look.", "es": "Bueno, no se preocupe. Vamos a revisarlo." }
+    ],
+    "items": ["phr-i-have-an-appointment", "voc-early", "phr-quarter-after", "phr-i-dont-feel-well", "voc-tired"],
+    "questions": [
+      { "q": "What time is Diego's appointment?", "options": ["1:15", "2:45", "2:15"], "answer": 2, "why_es": "«Quarter after two» = las dos y cuarto, 2:15." },
+      { "q": "Who is Diego's appointment with?", "options": ["Dr. Lin", "Jen", "Dr. Torres"], "answer": 0, "why_es": "Dice que tiene cita con la doctora Lin; Jen es la recepcionista." },
+      { "q": "How does Diego feel?", "options": ["Happy and hungry", "He has a headache and feels tired", "He has a broken arm"], "answer": 1, "why_es": "Dice que le duele la cabeza y que está cansado todo el tiempo." }
+    ]
+  },
+  {
+    "id": "les-c2-condo-board",
+    "level": "C2",
+    "topic": "home",
+    "order": 53,
+    "title": "The condo board meeting",
+    "title_es": "La junta de condóminos",
+    "intro_es": "En la junta del condominio, Gord se resiste a cambiar el techo y Priya presiona para discutir los números en serio.",
+    "lines": [
+      {
+        "who": "Maya",
+        "en": "Forty minutes in and Gord is still [holding forth] on the history of the parking bylaw.",
+        "es": "Llevamos cuarenta minutos y Gord sigue echando rollo sobre la historia del reglamento del estacionamiento.",
+        "item": "pv-hold-forth"
+      },
+      {
+        "who": "Leo",
+        "en": "Wait for it — he's about to [trot out] the old 'we've always done it this way' line.",
+        "es": "Espérate: ahorita sale con su frase de siempre de «así lo hemos hecho siempre».",
+        "item": "pv-trot-out"
+      },
+      {
+        "who": "Gord",
+        "en": "The roof is fine. A coat of sealant this spring and we're good for another decade.",
+        "es": "El techo está bien. Una capa de sellador esta primavera y aguanta otra década."
+      },
+      {
+        "who": "Priya",
+        "en": "With respect, sealant just [papers over] the problem. My ceiling has been dripping since the January thaw.",
+        "es": "Con todo respeto, el sellador nomás tapa el problema. Mi techo gotea desde el deshielo de enero.",
+        "item": "pv-paper-over"
+      },
+      {
+        "who": "Gord",
+        "en": "Nobody's denying there's a leak, Priya. We're simply questioning whose leak it is.",
+        "es": "Nadie niega que hay una gotera, Priya. Solo cuestionamos de quién es la gotera."
+      },
+      {
+        "who": "Maya",
+        "en": "I had to [bite back] a laugh. 'Whose leak it is' — as if water reads the condo bylaws.",
+        "es": "Tuve que aguantarme la risa. «De quién es la gotera», como si el agua leyera el reglamento del condominio.",
+        "item": "pv-bite-back"
+      },
+      {
+        "who": "Leo",
+        "en": "The engineer's report says a full replacement now costs less than three more years of patch jobs.",
+        "es": "El informe del ingeniero dice que cambiarlo completo ahora cuesta menos que otros tres años de parches."
+      },
+      {
+        "who": "Gord",
+        "en": "Reports can be written to say just about anything.",
+        "es": "Los informes se pueden escribir para que digan casi cualquier cosa."
+      },
+      {
+        "who": "Priya",
+        "en": "Then let's form a committee and [thrash out] the numbers properly, before the next special assessment lands on all of us.",
+        "es": "Entonces formemos un comité y discutamos a fondo los números, antes de que nos caiga a todos la próxima cuota extraordinaria.",
+        "item": "pv-thrash-out"
+      },
+      {
+        "who": "Gord",
+        "en": "Fine. A committee. Which I will, naturally, chair.",
+        "es": "Está bien. Un comité. Que yo, naturalmente, presidiré."
+      }
+    ],
+    "items": [
+      "pv-hold-forth",
+      "pv-trot-out",
+      "pv-paper-over",
+      "pv-bite-back",
+      "pv-thrash-out"
+    ],
+    "questions": [
+      {
+        "q": "What does Priya think of the sealant plan?",
+        "options": [
+          "It is the best option",
+          "It only hides the problem",
+          "It is too expensive"
+        ],
+        "answer": 1,
+        "why_es": "Dice que el sellador solo tapa el problema (papers over) sin arreglarlo."
+      },
+      {
+        "q": "Why does Maya almost laugh?",
+        "options": [
+          "Gord's point about whose leak it is sounds absurd",
+          "Leo told her a joke",
+          "Gord fell asleep"
+        ],
+        "answer": 0,
+        "why_es": "Le parece absurdo discutir «de quién es la gotera», como si el agua leyera el reglamento."
+      },
+      {
+        "q": "What does Gord's last line suggest?",
+        "options": [
+          "He is happy to step aside",
+          "He agrees to replace the roof",
+          "He still wants to stay in control"
+        ],
+        "answer": 2,
+        "why_es": "Acepta el comité, pero aclara que él lo presidirá: quiere seguir mandando."
+      }
+    ]
+  },
+  {
+    "id": "les-c2-merger-memo",
+    "level": "C2",
+    "topic": "work",
+    "order": 54,
+    "title": "Reading the merger memo",
+    "title_es": "Entre líneas del memo de la fusión",
+    "intro_es": "Sam, Priya y Leo leen entre líneas el comunicado de una fusión y buscan cómo defender la plataforma de su equipo.",
+    "lines": [
+      {
+        "who": "Sam",
+        "en": "'This merger will [usher in] an exciting new chapter.' Has an exciting new chapter ever meant anything good?",
+        "es": "«Esta fusión dará paso a un emocionante nuevo capítulo». ¿Alguna vez un «emocionante nuevo capítulo» ha significado algo bueno?",
+        "item": "pv-usher-in"
+      },
+      {
+        "who": "Priya",
+        "en": "Read the second paragraph. They're already trying to [tamp down] the layoff rumors, which tells you the rumors aren't baseless.",
+        "es": "Lee el segundo párrafo. Ya están tratando de frenar los rumores de despidos, lo cual te dice que no son infundados.",
+        "item": "pv-tamp-down"
+      },
+      {
+        "who": "Leo",
+        "en": "Meanwhile, the directors are [jockeying for] the new VP roles like it's musical chairs.",
+        "es": "Mientras tanto, los directores se disputan los nuevos puestos de VP como si fuera el juego de las sillas.",
+        "item": "pv-jockey-for"
+      },
+      {
+        "who": "Sam",
+        "en": "And whatever they decide upstairs will [trickle down] to us in about six months, heavily edited.",
+        "es": "Y lo que decidan allá arriba nos irá llegando en unos seis meses, muy editado.",
+        "item": "pv-trickle-down"
+      },
+      {
+        "who": "Priya",
+        "en": "The real question is whether we keep our own platform or have to adopt theirs.",
+        "es": "La verdadera pregunta es si conservamos nuestra plataforma o tenemos que adoptar la de ellos."
+      },
+      {
+        "who": "Leo",
+        "en": "Oh, we'll adopt theirs. Our VP will push back for a week, then [knuckle under] the moment someone says 'synergies.'",
+        "es": "Ah, adoptaremos la suya. Nuestro VP se resistirá una semana y luego agachará la cabeza en cuanto alguien diga «sinergias».",
+        "item": "pv-knuckle-under"
+      },
+      {
+        "who": "Sam",
+        "en": "You're so cynical.",
+        "es": "Qué cínico eres."
+      },
+      {
+        "who": "Leo",
+        "en": "I'm experienced. There's a difference, though admittedly not a big one.",
+        "es": "Tengo experiencia. Hay una diferencia, aunque admito que no es muy grande."
+      },
+      {
+        "who": "Priya",
+        "en": "Here's a thought: their platform crashed twice last quarter. If we [seize on] that, we have a real case for keeping ours.",
+        "es": "Se me ocurre algo: su plataforma se cayó dos veces el trimestre pasado. Si nos agarramos de eso, tenemos buenos argumentos para conservar la nuestra.",
+        "item": "pv-seize-on"
+      },
+      {
+        "who": "Sam",
+        "en": "Look at you, playing office politics. The merger is already changing us.",
+        "es": "Mírate, haciendo grilla de oficina. La fusión ya nos está cambiando."
+      }
+    ],
+    "items": [
+      "pv-usher-in",
+      "pv-tamp-down",
+      "pv-jockey-for",
+      "pv-trickle-down",
+      "pv-knuckle-under",
+      "pv-seize-on"
+    ],
+    "questions": [
+      {
+        "q": "Why does Priya think the layoff rumors might be true?",
+        "options": [
+          "A director told her",
+          "The memo tries hard to calm them",
+          "The memo announces layoffs"
+        ],
+        "answer": 1,
+        "why_es": "Si la empresa se esfuerza en frenar los rumores (tamp down), es señal de que tienen algo de fondo."
+      },
+      {
+        "q": "What does Leo predict about their VP?",
+        "options": [
+          "He will resist briefly and then give in",
+          "He will quit the company",
+          "He will win the argument"
+        ],
+        "answer": 0,
+        "why_es": "Dice que se resistirá una semana y luego agachará la cabeza (knuckle under)."
+      },
+      {
+        "q": "How does Priya want to use the other platform's crashes?",
+        "options": [
+          "To get the other team fired",
+          "To ask for a raise",
+          "As an argument to keep their own platform"
+        ],
+        "answer": 2,
+        "why_es": "Quiere agarrarse de esos fallos (seize on) para defender que conserven su plataforma."
+      }
+    ]
+  },
+  {
+    "id": "les-c2-six-months-runway",
+    "level": "C2",
+    "topic": "money",
+    "order": 55,
+    "title": "Six months of runway",
+    "title_es": "Seis meses de vida",
+    "intro_es": "Rosa, la contadora, les dice a Maya y Leo que a su startup le queda poco dinero y que tienen que recortar ya.",
+    "lines": [
+      {
+        "who": "Rosa",
+        "en": "I'll be blunt: at this burn rate, you have six months of runway. Maybe seven if nobody gets sick.",
+        "es": "Voy a ser directa: a este ritmo de gasto, les quedan seis meses de vida. Tal vez siete si nadie se enferma."
+      },
+      {
+        "who": "Leo",
+        "en": "Six? We raised enough for two years.",
+        "es": "¿Seis? Levantamos dinero para dos años."
+      },
+      {
+        "who": "Rosa",
+        "en": "You did. Then you [laid out] forty thousand on a rebrand and an office with a view of the river.",
+        "es": "Así fue. Luego soltaron cuarenta mil en un cambio de imagen y una oficina con vista al río.",
+        "item": "pv-lay-out-2"
+      },
+      {
+        "who": "Maya",
+        "en": "The view was for recruiting.",
+        "es": "La vista era para reclutar."
+      },
+      {
+        "who": "Rosa",
+        "en": "And the catered lunches, the conference booths, the swag — none of it big on its own. You just [frittered away] the money a few hundred dollars at a time.",
+        "es": "Y las comidas pagadas, los stands en congresos, los regalitos: nada era grande por sí solo. Se les fue el dinero de a poquito.",
+        "item": "pv-fritter-away"
+      },
+      {
+        "who": "Maya",
+        "en": "Okay, point taken. How do we [stave off] another funding round until the product's ready?",
+        "es": "Bueno, entendido. ¿Cómo evitamos otra ronda de inversión hasta que el producto esté listo?",
+        "item": "pv-stave-off"
+      },
+      {
+        "who": "Rosa",
+        "en": "[Pare down] to the essentials. Sublet the office, and cancel every subscription you can't name from memory.",
+        "es": "Recorten a lo esencial. Subarrienden la oficina y cancelen toda suscripción cuyo nombre no recuerden de memoria.",
+        "item": "pv-pare-down"
+      },
+      {
+        "who": "Leo",
+        "en": "That won't fix the burn overnight.",
+        "es": "Eso no va a arreglar el gasto de la noche a la mañana."
+      },
+      {
+        "who": "Rosa",
+        "en": "No, but it'll [chip away at] it. Small expenses got you into this; small cuts can get you out.",
+        "es": "No, pero lo irá reduciendo poco a poco. Los gastos pequeños los metieron en esto; los recortes pequeños pueden sacarlos.",
+        "item": "pv-chip-away-at"
+      },
+      {
+        "who": "Maya",
+        "en": "And if the launch slips again, we [eke out] a few more months with consulting gigs. Not glamorous.",
+        "es": "Y si el lanzamiento se vuelve a retrasar, sacamos a duras penas unos meses más con trabajos de consultoría. Nada glamoroso.",
+        "item": "pv-eke-out"
+      },
+      {
+        "who": "Rosa",
+        "en": "Neither is bankruptcy.",
+        "es": "Tampoco lo es la quiebra."
+      }
+    ],
+    "items": [
+      "pv-lay-out-2",
+      "pv-fritter-away",
+      "pv-stave-off",
+      "pv-pare-down",
+      "pv-chip-away-at",
+      "pv-eke-out"
+    ],
+    "questions": [
+      {
+        "q": "According to Rosa, how did they lose most of the money?",
+        "options": [
+          "Through one bad investment",
+          "Through many small expenses",
+          "Through high salaries"
+        ],
+        "answer": 1,
+        "why_es": "Dice que nada era grande por sí solo: el dinero se fue de a poquito (frittered away)."
+      },
+      {
+        "q": "What does Rosa recommend first?",
+        "options": [
+          "Raising more money now",
+          "Hiring more salespeople",
+          "Cutting back to the essentials"
+        ],
+        "answer": 2,
+        "why_es": "Les pide recortar a lo esencial (pare down): subarrendar la oficina y cancelar suscripciones."
+      },
+      {
+        "q": "What is the tone of Rosa's last line?",
+        "options": [
+          "Dry and ironic",
+          "Warm and hopeful",
+          "Angry and loud"
+        ],
+        "answer": 0,
+        "why_es": "Responde con ironía seca: la quiebra tampoco es glamorosa."
+      }
+    ]
+  },
+  {
+    "id": "les-c2-turf-war",
+    "level": "C2",
+    "topic": "tech",
+    "order": 56,
+    "title": "Turf war",
+    "title_es": "Pleito de territorio",
+    "intro_es": "Otro equipo quiere quedarse con el proyecto de pagos de Priya y Sam justo cuando por fin funciona.",
+    "lines": [
+      {
+        "who": "Sam",
+        "en": "Did you see the email? Platform wants to [muscle in] on our payments project now that it finally works.",
+        "es": "¿Viste el correo? El equipo de Plataforma quiere meterse a la fuerza en nuestro proyecto de pagos ahora que por fin funciona.",
+        "item": "pv-muscle-in"
+      },
+      {
+        "who": "Priya",
+        "en": "Of course they do. Nobody wanted it when it was a pile of legacy code and angry tickets.",
+        "es": "Claro. Nadie lo quería cuando era un montón de código viejo y tickets de clientes enojados."
+      },
+      {
+        "who": "Sam",
+        "en": "Owen's pitch is that we should [farm out] the integration work to them because they have 'more capacity.'",
+        "es": "La propuesta de Owen es que les pasemos a ellos el trabajo de integración porque tienen «más capacidad».",
+        "item": "pv-farm-out"
+      },
+      {
+        "who": "Priya",
+        "en": "More capacity meaning more people to put their names on the launch announcement.",
+        "es": "Más capacidad, o sea, más gente para poner su nombre en el anuncio del lanzamiento."
+      },
+      {
+        "who": "Sam",
+        "en": "If we say no outright, we look territorial. If we say yes, we'll be [hemmed in] by their approval process for every change.",
+        "es": "Si decimos que no de plano, nos vemos territoriales. Si decimos que sí, vamos a quedar acorralados por su proceso de aprobación para cada cambio.",
+        "item": "pv-hem-in"
+      },
+      {
+        "who": "Priya",
+        "en": "So we don't argue about ownership. We make it a non-question.",
+        "es": "Entonces no discutimos de quién es. Hacemos que ni siquiera sea tema."
+      },
+      {
+        "who": "Priya",
+        "en": "Let's [square away] the last three compliance items this week, so there's nothing left for anyone to 'help' with.",
+        "es": "Dejemos listos los últimos tres pendientes de cumplimiento esta semana, para que no quede nada con qué «ayudar».",
+        "item": "pv-square-away"
+      },
+      {
+        "who": "Sam",
+        "en": "And I'll get finance to sign off on the pilot before Owen's meeting on Thursday.",
+        "es": "Y yo consigo que finanzas apruebe el piloto antes de la junta de Owen del jueves."
+      },
+      {
+        "who": "Priya",
+        "en": "Perfect. If finance is on board, we've [sewn up] the argument before he even opens his slides.",
+        "es": "Perfecto. Si finanzas está de acuerdo, ya amarramos la discusión antes de que él abra sus diapositivas.",
+        "item": "pv-sew-up"
+      },
+      {
+        "who": "Sam",
+        "en": "Remind me never to get on your bad side.",
+        "es": "Recuérdame nunca caerte mal."
+      }
+    ],
+    "items": [
+      "pv-muscle-in",
+      "pv-farm-out",
+      "pv-hem-in",
+      "pv-square-away",
+      "pv-sew-up"
+    ],
+    "questions": [
+      {
+        "q": "Why does Priya think Platform is suddenly interested?",
+        "options": [
+          "Their manager ordered it",
+          "The project is now successful",
+          "They have nothing else to do"
+        ],
+        "answer": 1,
+        "why_es": "Nadie lo quería cuando era un desastre; ahora que funciona, quieren meterse (muscle in)."
+      },
+      {
+        "q": "What does Sam fear if they accept Owen's offer?",
+        "options": [
+          "Losing their jobs",
+          "Being limited by approvals for every change",
+          "Missing the deadline"
+        ],
+        "answer": 1,
+        "why_es": "Teme quedar acorralados (hemmed in) por las aprobaciones del otro equipo."
+      },
+      {
+        "q": "What is Priya's strategy?",
+        "options": [
+          "Finish the work and get approval before the meeting",
+          "Complain to the CEO",
+          "Give the project to Owen"
+        ],
+        "answer": 0,
+        "why_es": "Quiere dejar todo listo (square away) y tener a finanzas de su lado para amarrar (sew up) la discusión."
+      }
+    ]
+  },
+  {
+    "id": "les-c2-dads-letters",
+    "level": "C2",
+    "topic": "feelings",
+    "order": 57,
+    "title": "Dad's letters",
+    "title_es": "Las cartas de papá",
+    "intro_es": "Maya y su hermana Ana encuentran en el sótano las cartas que su papá le escribía a su mamá desde Alberta hace años.",
+    "lines": [
+      {
+        "who": "Ana",
+        "en": "Mom asked us to sort the basement, not to read every letter in the box.",
+        "es": "Mamá nos pidió ordenar el sótano, no leer todas las cartas de la caja."
+      },
+      {
+        "who": "Maya",
+        "en": "Listen to this one. Dad wrote it his first winter in Fort McMurray. He says he [pines for] the noise of the market on Sundays.",
+        "es": "Escucha esta. Papá la escribió su primer invierno en Fort McMurray. Dice que extraña con el alma el ruido del mercado los domingos.",
+        "item": "pv-pine-for"
+      },
+      {
+        "who": "Ana",
+        "en": "That's funny. He always said he never missed Mexico at all.",
+        "es": "Qué curioso. Él siempre decía que nunca extrañó México para nada."
+      },
+      {
+        "who": "Maya",
+        "en": "He'd never [cop to] being homesick. Far too proud.",
+        "es": "Jamás habría admitido que extrañaba su tierra. Era demasiado orgulloso.",
+        "item": "pv-cop-to"
+      },
+      {
+        "who": "Ana",
+        "en": "Some of these are half in code, though. 'The situation with R. is not what it seems.' Who's R.?",
+        "es": "Aunque algunas están medio en clave. «Lo de R. no es lo que parece». ¿Quién es R.?"
+      },
+      {
+        "who": "Maya",
+        "en": "No idea. It'll take a while to [puzzle out] who all these initials are.",
+        "es": "Ni idea. Nos va a tomar un rato descifrar quiénes son todas esas iniciales.",
+        "item": "pv-puzzle-out"
+      },
+      {
+        "who": "Ana",
+        "en": "Maybe we shouldn't. Why [dredge up] old stories Mom might not want to talk about?",
+        "es": "Tal vez no deberíamos. ¿Para qué remover historias viejas de las que mamá quizá no quiera hablar?",
+        "item": "pv-dredge-up"
+      },
+      {
+        "who": "Maya",
+        "en": "I'm not trying to expose anything. I just want to [tease out] who he was before he was 'Dad.'",
+        "es": "No quiero exponer nada. Solo quiero ir entendiendo quién era antes de ser «papá».",
+        "item": "pv-tease-out"
+      },
+      {
+        "who": "Ana",
+        "en": "He was the guy who [doted on] us and pretended winter didn't bother him.",
+        "es": "Era el que nos consentía y fingía que el invierno no le molestaba.",
+        "item": "pv-dote-on"
+      },
+      {
+        "who": "Maya",
+        "en": "Apparently it bothered him a lot. Third letter: 'Minus forty. I have stopped believing in my feet.'",
+        "es": "Al parecer le molestaba mucho. Tercera carta: «Cuarenta bajo cero. Ya dejé de creer en mis pies»."
+      }
+    ],
+    "items": [
+      "pv-pine-for",
+      "pv-cop-to",
+      "pv-puzzle-out",
+      "pv-dredge-up",
+      "pv-tease-out",
+      "pv-dote-on"
+    ],
+    "questions": [
+      {
+        "q": "What do the letters reveal about Dad?",
+        "options": [
+          "He hated his job",
+          "He missed home more than he admitted",
+          "He never wrote to Mom"
+        ],
+        "answer": 1,
+        "why_es": "Las cartas muestran que extrañaba mucho el mercado (pined for), aunque nunca lo admitía."
+      },
+      {
+        "q": "Why is Ana hesitant to keep reading?",
+        "options": [
+          "She is bored",
+          "She thinks it might bring up painful things for Mom",
+          "She has already read them"
+        ],
+        "answer": 1,
+        "why_es": "No quiere remover (dredge up) historias de las que su mamá quizá no quiera hablar."
+      },
+      {
+        "q": "What does Maya want to understand?",
+        "options": [
+          "Who her father was as a young man",
+          "Where the family money went",
+          "Who sent the box"
+        ],
+        "answer": 0,
+        "why_es": "Quiere descubrir poco a poco (tease out) quién era su papá antes de ser papá."
+      }
+    ]
+  },
+  {
+    "id": "les-c2-pr-limbo",
+    "level": "C2",
+    "topic": "canada",
+    "order": 58,
+    "title": "Waiting on the decision",
+    "title_es": "Esperando la resolución",
+    "intro_es": "Leo lleva meses esperando respuesta a su solicitud de residencia permanente y Priya intenta sacarlo de casa.",
+    "lines": [
+      {
+        "who": "Priya",
+        "en": "Any news on your PR application?",
+        "es": "¿Alguna novedad de tu solicitud de residencia permanente?"
+      },
+      {
+        "who": "Leo",
+        "en": "Status: 'in progress.' It's said 'in progress' for five months. I'm starting to think it's a philosophical statement.",
+        "es": "Estado: «en proceso». Lleva cinco meses diciendo «en proceso». Empiezo a pensar que es una postura filosófica."
+      },
+      {
+        "who": "Priya",
+        "en": "Everyone [sweats out] that stage. I refreshed the portal so often I'm pretty sure they flagged me as a bot.",
+        "es": "Todo mundo pasa esa etapa con el alma en un hilo. Yo actualizaba el portal tan seguido que seguro me marcaron como bot.",
+        "item": "pv-sweat-out"
+      },
+      {
+        "who": "Leo",
+        "en": "I've been [boning up on] the citizenship guide, just in case. Did you know the beaver became an official symbol in 1975?",
+        "es": "Me he estado dando una empapada de la guía de ciudadanía, por si acaso. ¿Sabías que el castor se volvió símbolo oficial en 1975?",
+        "item": "pv-bone-up-on"
+      },
+      {
+        "who": "Priya",
+        "en": "You're studying for a test that's years away. That's not preparation, that's anxiety with a reading list.",
+        "es": "Estás estudiando para un examen que es dentro de años. Eso no es preparación, es ansiedad con lista de lecturas."
+      },
+      {
+        "who": "Leo",
+        "en": "Fair. I also [begged off] Maya's birthday dinner because I didn't want to explain the whole situation again.",
+        "es": "Es cierto. También me excusé de la cena de cumpleaños de Maya porque no quería volver a explicar todo el asunto.",
+        "item": "pv-beg-off"
+      },
+      {
+        "who": "Priya",
+        "en": "Hiding at home won't make the letter come any faster. Come skating at the Legislature grounds on Saturday.",
+        "es": "Esconderte en casa no va a hacer que la carta llegue más rápido. Ven a patinar a los jardines de la Legislatura el sábado."
+      },
+      {
+        "who": "Leo",
+        "en": "And do what, [while away] the afternoon pretending I'm not checking my phone?",
+        "es": "¿Y qué, pasar la tarde muy tranquilo fingiendo que no estoy revisando el celular?",
+        "item": "pv-while-away"
+      },
+      {
+        "who": "Priya",
+        "en": "Exactly. However it [shakes out], you'll have had one nice Saturday.",
+        "es": "Exacto. Como sea que resulte, al menos habrás tenido un sábado bonito.",
+        "item": "pv-shake-out"
+      },
+      {
+        "who": "Leo",
+        "en": "That's either very wise or very Canadian.",
+        "es": "Eso es o muy sabio o muy canadiense."
+      }
+    ],
+    "items": [
+      "pv-sweat-out",
+      "pv-bone-up-on",
+      "pv-beg-off",
+      "pv-while-away",
+      "pv-shake-out"
+    ],
+    "questions": [
+      {
+        "q": "How long has Leo's application said 'in progress'?",
+        "options": [
+          "Five weeks",
+          "Five months",
+          "Five years"
+        ],
+        "answer": 1,
+        "why_es": "Dice que lleva cinco meses diciendo «en proceso»."
+      },
+      {
+        "q": "What does Priya mean by 'anxiety with a reading list'?",
+        "options": [
+          "Leo is studying because he is nervous, not because he needs to",
+          "Leo needs to read more books",
+          "Leo should take a class"
+        ],
+        "answer": 0,
+        "why_es": "Insinúa que Leo estudia por nervios, no porque el examen sea pronto."
+      },
+      {
+        "q": "Why did Leo skip Maya's birthday dinner?",
+        "options": [
+          "He was sick",
+          "He had to work late",
+          "He didn't want to explain his situation again"
+        ],
+        "answer": 2,
+        "why_es": "Se excusó (begged off) para no tener que explicar otra vez lo de su trámite."
+      }
+    ]
+  },
+  {
+    "id": "les-c1-negotiating-the-offer",
+    "level": "C1",
+    "topic": "interview",
+    "order": 59,
+    "title": "Negotiating the offer",
+    "title_es": "Negociar la oferta",
+    "intro_es": "Maya recibe una oferta de trabajo en Edmonton y negocia el sueldo y el trabajo remoto con el reclutador.",
+    "lines": [
+      {
+        "who": "Jordan",
+        "en": "So, we're excited to extend the offer: ninety-two thousand base, plus the standard benefits package.",
+        "es": "Bueno, nos da gusto hacerte la oferta: noventa y dos mil de base, más el paquete estándar de prestaciones."
+      },
+      {
+        "who": "Maya",
+        "en": "Thank you, I'm really excited too. Before I accept — [is there any flexibility on] the base salary?",
+        "es": "Gracias, a mí también me emociona mucho. Antes de aceptar: ¿hay algo de flexibilidad en el sueldo base?",
+        "item": "phr-is-there-any-flexibility-on"
+      },
+      {
+        "who": "Jordan",
+        "en": "There's a little [wiggle room], but I'll need to take a number back to the hiring manager.",
+        "es": "Hay un poco de margen de maniobra, pero necesito llevarle una cifra al gerente de contratación.",
+        "item": "idi-wiggle-room"
+      },
+      {
+        "who": "Maya",
+        "en": "Based on what this role pays in Edmonton, I was thinking closer to a hundred and five.",
+        "es": "Según lo que se paga por este puesto en Edmonton, yo pensaba en algo más cercano a ciento cinco."
+      },
+      {
+        "who": "Jordan",
+        "en": "That's a big jump. Keep in mind the [total compensation] includes a ten percent bonus and RRSP matching.",
+        "es": "Es un salto grande. Ten en cuenta que la compensación total incluye un bono del diez por ciento y aportaciones a tu RRSP.",
+        "item": "col-total-compensation"
+      },
+      {
+        "who": "Maya",
+        "en": "I appreciate that. Working remotely two days a week is [non-negotiable] for me, though. The salary I can discuss.",
+        "es": "Lo agradezco. Aunque trabajar remoto dos días a la semana es innegociable para mí. El sueldo sí lo puedo platicar.",
+        "item": "voc-non-negotiable"
+      },
+      {
+        "who": "Sam",
+        "en": "So? Did they [lowball] you?",
+        "es": "¿Y? ¿Te ofrecieron una miseria?",
+        "item": "voc-lowball"
+      },
+      {
+        "who": "Maya",
+        "en": "A bit, at first. But they came back with a [counteroffer] of ninety-nine and the remote days in writing.",
+        "es": "Un poco, al principio. Pero regresaron con una contraoferta de noventa y nueve y los días remotos por escrito.",
+        "item": "voc-counteroffer"
+      },
+      {
+        "who": "Sam",
+        "en": "Ninety-nine, and you didn't even have to invent a competing offer? Take it before they change their minds.",
+        "es": "¿Noventa y nueve y ni siquiera tuviste que inventar otra oferta? Acéptala antes de que se arrepientan."
+      }
+    ],
+    "items": [
+      "phr-is-there-any-flexibility-on",
+      "idi-wiggle-room",
+      "col-total-compensation",
+      "voc-non-negotiable",
+      "voc-lowball",
+      "voc-counteroffer"
+    ],
+    "questions": [
+      {
+        "q": "What is not open for discussion for Maya?",
+        "options": [
+          "The bonus",
+          "Working remotely two days a week",
+          "The start date"
+        ],
+        "answer": 1,
+        "why_es": "Dice que trabajar remoto dos días a la semana es innegociable (non-negotiable)."
+      },
+      {
+        "q": "What does Jordan remind Maya about?",
+        "options": [
+          "The bonus and RRSP matching",
+          "Her vacation days",
+          "The office location"
+        ],
+        "answer": 0,
+        "why_es": "Le recuerda que la compensación total incluye un bono y aportaciones al RRSP."
+      },
+      {
+        "q": "What was the final offer?",
+        "options": [
+          "92,000 with no remote days",
+          "105,000 with remote days",
+          "99,000 with remote days in writing"
+        ],
+        "answer": 2,
+        "why_es": "La contraoferta fue de 99 mil, con los días remotos por escrito."
+      }
+    ]
+  },
+  {
+    "id": "les-c1-the-war-room",
+    "level": "C1",
+    "topic": "tech",
+    "order": 60,
+    "title": "The war room",
+    "title_es": "El cuarto de crisis",
+    "intro_es": "A las dos de la mañana se cae la base de datos principal y Priya tiene que elegir entre un parche rápido y una reparación lenta.",
+    "lines": [
+      {
+        "who": "Leo",
+        "en": "The primary database just went down. Checkout is timing out for every customer in Western Canada.",
+        "es": "Se acaba de caer la base de datos principal. El checkout está fallando por tiempo de espera para todos los clientes del oeste de Canadá."
+      },
+      {
+        "who": "Priya",
+        "en": "First things first: what's the [blast radius]? Is it just checkout, or are logins failing too?",
+        "es": "Lo primero: ¿cuál es el alcance del impacto? ¿Es solo el checkout o también fallan los inicios de sesión?",
+        "item": "col-blast-radius"
+      },
+      {
+        "who": "Sam",
+        "en": "Just checkout and order history. Logins run on a different cluster.",
+        "es": "Solo el checkout y el historial de pedidos. Los inicios de sesión corren en otro clúster."
+      },
+      {
+        "who": "Priya",
+        "en": "Then why didn't the system [fail over] to the replica automatically?",
+        "es": "¿Entonces por qué el sistema no conmutó automáticamente a la réplica?",
+        "item": "pv-fail-over"
+      },
+      {
+        "who": "Leo",
+        "en": "Because the failover script still points to a server we shut down in the spring. Nobody updated it.",
+        "es": "Porque el script de conmutación sigue apuntando a un servidor que apagamos en primavera. Nadie lo actualizó."
+      },
+      {
+        "who": "Sam",
+        "en": "Classic. That's two years of [technical debt] sending us the bill at two in the morning.",
+        "es": "Clásico. Son dos años de deuda técnica pasándonos la factura a las dos de la mañana.",
+        "item": "col-technical-debt"
+      },
+      {
+        "who": "Leo",
+        "en": "I can point the script at the new replica by hand. It's a [band-aid solution], but checkout would be back in ten minutes.",
+        "es": "Puedo apuntar el script a la nueva réplica a mano. Es un parche, pero el checkout volvería en diez minutos.",
+        "item": "idi-band-aid-solution"
+      },
+      {
+        "who": "Sam",
+        "en": "Or we restore the primary properly, which is safer but could take an hour.",
+        "es": "O restauramos la principal como se debe, que es más seguro pero podría tardar una hora."
+      },
+      {
+        "who": "Priya",
+        "en": "[It's a judgment call], and I'm making it: patch it now, and on Monday we fix the root cause properly, with a ticket and an owner.",
+        "es": "Es cuestión de criterio, y yo decido: lo parchamos ahora y el lunes arreglamos la causa raíz bien, con ticket y responsable.",
+        "item": "phr-its-a-judgment-call"
+      },
+      {
+        "who": "Leo",
+        "en": "Pointing it at the replica now. Somebody please make coffee.",
+        "es": "Apuntándolo a la réplica ya. Que alguien haga café, por favor."
+      }
+    ],
+    "items": [
+      "col-blast-radius",
+      "pv-fail-over",
+      "col-technical-debt",
+      "idi-band-aid-solution",
+      "phr-its-a-judgment-call"
+    ],
+    "questions": [
+      {
+        "q": "Why didn't the automatic backup work?",
+        "options": [
+          "The replica was also down",
+          "Someone turned it off on purpose",
+          "The script pointed to an old server"
+        ],
+        "answer": 2,
+        "why_es": "El script de conmutación apuntaba a un servidor que apagaron en primavera."
+      },
+      {
+        "q": "What does Priya decide?",
+        "options": [
+          "Wait an hour for a full restore",
+          "Use the quick fix now and fix the real cause later",
+          "Shut down checkout until Monday"
+        ],
+        "answer": 1,
+        "why_es": "Elige el parche ahora y arreglar la causa raíz el lunes, con ticket y responsable."
+      },
+      {
+        "q": "What does Sam mean by 'sending us the bill'?",
+        "options": [
+          "Old shortcuts are now causing problems",
+          "The servers are expensive",
+          "A customer wants a refund"
+        ],
+        "answer": 0,
+        "why_es": "La deuda técnica acumulada les está «cobrando»: los atajos del pasado causaron la falla."
+      }
+    ]
+  },
+  {
+    "id": "les-c1-stuck-on-the-highway",
+    "level": "C1",
+    "topic": "canada",
+    "order": 61,
+    "title": "Stuck on the highway",
+    "title_es": "Varados en la carretera",
+    "intro_es": "Sam y Maya manejan a Calgary cuando cierran la carretera por una tormenta de nieve y tienen que decidir qué hacer.",
+    "lines": [
+      {
+        "who": "Sam",
+        "en": "The highway's closed south of Red Deer. Whiteout conditions all the way to Calgary.",
+        "es": "Cerraron la carretera al sur de Red Deer. No se ve nada por la nieve hasta Calgary."
+      },
+      {
+        "who": "Maya",
+        "en": "So we're stuck. Great. Do we try the back roads or turn around?",
+        "es": "O sea que estamos atorados. Genial. ¿Intentamos por caminos secundarios o nos regresamos?"
+      },
+      {
+        "who": "Sam",
+        "en": "Neither. The back roads are worse. We should [wait out] the storm somewhere warm.",
+        "es": "Ninguna. Los caminos secundarios están peor. Deberíamos esperar a que pase la tormenta en algún lugar caliente.",
+        "item": "pv-wait-out"
+      },
+      {
+        "who": "Maya",
+        "en": "There's a truck stop about ten kilometres back. We could [hunker down] there until morning.",
+        "es": "Hay una parada de camiones como a diez kilómetros atrás. Podríamos resguardarnos ahí hasta la mañana.",
+        "item": "pv-hunker-down"
+      },
+      {
+        "who": "Sam",
+        "en": "Good. And if the car stalls before we get there, nobody gets out to walk. People die of [hypothermia] doing exactly that.",
+        "es": "Bien. Y si el carro se apaga antes de llegar, nadie se baja a caminar. La gente muere de hipotermia haciendo justo eso.",
+        "item": "voc-hypothermia"
+      },
+      {
+        "who": "Maya",
+        "en": "Relax, I packed the emergency kit: blankets, candles, granola bars — enough to [tide us over] for a day.",
+        "es": "Tranquilo, empaqué el kit de emergencia: cobijas, velas, barras de granola; suficiente para sacarnos del apuro un día.",
+        "item": "pv-tide-over"
+      },
+      {
+        "who": "Sam",
+        "en": "And put your mittens back on. Ten minutes scraping the windshield bare-handed is how people get [frostbite].",
+        "es": "Y ponte otra vez los guantes. Diez minutos raspando el parabrisas sin guantes y así es como a la gente le da congelamiento.",
+        "item": "voc-frostbite"
+      },
+      {
+        "who": "Maya",
+        "en": "Yes, Dad. By the way, the forecast says a [chinook] is coming in tomorrow. Plus five by the afternoon.",
+        "es": "Sí, papá. Por cierto, el pronóstico dice que mañana entra un chinook. Cinco grados sobre cero en la tarde.",
+        "item": "voc-chinook"
+      },
+      {
+        "who": "Sam",
+        "en": "Only in Alberta can you nearly freeze to death and get a spring day eighteen hours later.",
+        "es": "Solo en Alberta puedes casi morir congelado y tener un día de primavera dieciocho horas después."
+      }
+    ],
+    "items": [
+      "pv-wait-out",
+      "pv-hunker-down",
+      "voc-hypothermia",
+      "pv-tide-over",
+      "voc-frostbite",
+      "voc-chinook"
+    ],
+    "questions": [
+      {
+        "q": "What do they decide to do?",
+        "options": [
+          "Drive on the back roads",
+          "Stay at a truck stop until the storm passes",
+          "Walk to the next town"
+        ],
+        "answer": 1,
+        "why_es": "Deciden esperar a que pase la tormenta (wait out) en una parada de camiones."
+      },
+      {
+        "q": "Why does Sam tell Maya to put her mittens on?",
+        "options": [
+          "To avoid frostbite",
+          "Because she is driving",
+          "So she can hold the candles"
+        ],
+        "answer": 0,
+        "why_es": "Advierte que raspar el parabrisas sin guantes puede causar congelamiento (frostbite)."
+      },
+      {
+        "q": "What will the weather be like tomorrow?",
+        "options": [
+          "Even colder",
+          "Rainy and windy",
+          "Much warmer because of a chinook"
+        ],
+        "answer": 2,
+        "why_es": "Un chinook, viento cálido de Alberta, subirá la temperatura a cinco grados."
+      }
+    ]
+  },
+  {
+    "id": "les-c1-coming-clean",
+    "level": "C1",
+    "topic": "feelings",
+    "order": 62,
+    "title": "Coming clean",
+    "title_es": "Sincerarse",
+    "intro_es": "Leo nota que Priya trabaja hasta la medianoche desde su ascenso y la anima a hablar con su equipo.",
+    "lines": [
+      {
+        "who": "Leo",
+        "en": "You've answered emails at midnight every night this week. What's going on?",
+        "es": "Has contestado correos a medianoche todas las noches de esta semana. ¿Qué está pasando?"
+      },
+      {
+        "who": "Priya",
+        "en": "Honestly? Since the promotion, I feel like everyone's about to find out I have no idea what I'm doing.",
+        "es": "¿La verdad? Desde el ascenso siento que todos están a punto de descubrir que no tengo idea de lo que hago."
+      },
+      {
+        "who": "Leo",
+        "en": "That's [imposter syndrome] talking. You got promoted because you're good, not by accident.",
+        "es": "Ese es el síndrome del impostor hablando. Te ascendieron porque eres buena, no por accidente.",
+        "item": "col-imposter-syndrome"
+      },
+      {
+        "who": "Priya",
+        "en": "Maybe. But it's been [weighing on] me for months, and working late is the only thing that quiets it down.",
+        "es": "Tal vez. Pero me ha estado agobiando desde hace meses, y trabajar hasta tarde es lo único que lo calma.",
+        "item": "pv-weigh-on"
+      },
+      {
+        "who": "Leo",
+        "en": "That's a [coping mechanism], not a solution. And not a very healthy one.",
+        "es": "Eso es un mecanismo de afrontamiento, no una solución. Y no uno muy sano.",
+        "item": "col-coping-mechanism"
+      },
+      {
+        "who": "Leo",
+        "en": "Can I [level with] you? Your team has noticed. They think you don't trust them with the hard tasks.",
+        "es": "¿Puedo ser franco contigo? Tu equipo ya lo notó. Creen que no les confías las tareas difíciles.",
+        "item": "pv-level-with"
+      },
+      {
+        "who": "Priya",
+        "en": "Ouch. Okay. That's fair, I guess.",
+        "es": "Auch. Bueno. Supongo que es justo."
+      },
+      {
+        "who": "Leo",
+        "en": "Don't [dwell on] it tonight, though. You can't fix it at eleven p.m.",
+        "es": "Pero no le des vueltas esta noche. No lo vas a arreglar a las once.",
+        "item": "pv-dwell-on"
+      },
+      {
+        "who": "Priya",
+        "en": "You're right. Tomorrow I'll [come clean] with the team, tell them I've been overcompensating, and start delegating.",
+        "es": "Tienes razón. Mañana me sincero con el equipo: les digo que he estado sobrecompensando y empiezo a delegar.",
+        "item": "pv-come-clean"
+      },
+      {
+        "who": "Leo",
+        "en": "And log off by six. Doctor's orders.",
+        "es": "Y desconéctate a las seis. Órdenes del doctor."
+      },
+      {
+        "who": "Priya",
+        "en": "You're a backend developer, Leo.",
+        "es": "Eres desarrollador backend, Leo."
+      }
+    ],
+    "items": [
+      "col-imposter-syndrome",
+      "pv-weigh-on",
+      "col-coping-mechanism",
+      "pv-level-with",
+      "pv-dwell-on",
+      "pv-come-clean"
+    ],
+    "questions": [
+      {
+        "q": "Why has Priya been working so late?",
+        "options": [
+          "Her boss asked her to",
+          "She enjoys working at night",
+          "She feels she doesn't deserve her new role"
+        ],
+        "answer": 2,
+        "why_es": "Siente síndrome del impostor desde su ascenso, y trabajar tarde la calma."
+      },
+      {
+        "q": "What has Priya's team noticed?",
+        "options": [
+          "She seems not to trust them with hard tasks",
+          "She is planning to quit",
+          "She is always late"
+        ],
+        "answer": 0,
+        "why_es": "Leo le dice que su equipo cree que no les confía las tareas difíciles."
+      },
+      {
+        "q": "What will Priya do tomorrow?",
+        "options": [
+          "Ask for a vacation",
+          "Be honest with her team and start delegating",
+          "Look for a new job"
+        ],
+        "answer": 1,
+        "why_es": "Va a sincerarse (come clean) con el equipo y empezar a delegar."
+      }
+    ]
+  },
+  {
+    "id": "les-c1-the-viral-chart",
+    "level": "C1",
+    "topic": "social",
+    "order": 63,
+    "title": "The viral chart",
+    "title_es": "La gráfica viral",
+    "intro_es": "Dan está a punto de compartir una gráfica alarmante sobre las rentas en Edmonton, y Maya le pide revisarla primero.",
+    "lines": [
+      {
+        "who": "Dan",
+        "en": "Did you see this? 'Edmonton rents doubled in a single year.' It's all over my feed.",
+        "es": "¿Ya viste esto? «Las rentas en Edmonton se duplicaron en un solo año». Está por todos lados en mis redes."
+      },
+      {
+        "who": "Maya",
+        "en": "Who posted it? And [can you back that up] with anything other than a chart with no labels?",
+        "es": "¿Quién lo publicó? ¿Y puedes respaldar eso con algo que no sea una gráfica sin etiquetas?",
+        "item": "phr-can-you-back-that-up"
+      },
+      {
+        "who": "Dan",
+        "en": "It's from an [opinion piece] in some online magazine. The writer seems pretty sure.",
+        "es": "Es de un artículo de opinión en una revista en línea. El autor parece muy seguro.",
+        "item": "voc-opinion-piece"
+      },
+      {
+        "who": "Maya",
+        "en": "Being sure isn't the same as being right. Let's [fact-check] it before you send it to your whole family.",
+        "es": "Estar seguro no es lo mismo que tener razón. Verifiquemos los datos antes de que se lo mandes a toda tu familia.",
+        "item": "voc-fact-check"
+      },
+      {
+        "who": "Maya",
+        "en": "Okay, look: the chart only shows new listings for one-bedrooms downtown, not all the rents in the city.",
+        "es": "A ver, mira: la gráfica solo muestra anuncios nuevos de departamentos de una recámara en el centro, no todas las rentas de la ciudad."
+      },
+      {
+        "who": "Dan",
+        "en": "So it's not false, exactly. Just [misleading].",
+        "es": "O sea que no es falso exactamente. Solo engañoso.",
+        "item": "voc-misleading"
+      },
+      {
+        "who": "Maya",
+        "en": "Right. And that whole paragraph about the new arena is a [red herring]. It never connects it to rent at all.",
+        "es": "Exacto. Y todo ese párrafo sobre la nueva arena es una pista falsa. Nunca la relaciona con las rentas.",
+        "item": "idi-red-herring"
+      },
+      {
+        "who": "Dan",
+        "en": "Fine. I'll [take it with a grain of salt].",
+        "es": "Está bien. Me lo tomaré con reservas.",
+        "item": "idi-take-something-with-a-grain-of-salt"
+      },
+      {
+        "who": "Maya",
+        "en": "Take the whole magazine that way. Last month they claimed Calgary has better pizza.",
+        "es": "Tómate así toda la revista. El mes pasado dijeron que Calgary tiene mejor pizza."
+      },
+      {
+        "who": "Dan",
+        "en": "Okay, now that's clearly misinformation.",
+        "es": "Bueno, eso sí es claramente desinformación."
+      }
+    ],
+    "items": [
+      "phr-can-you-back-that-up",
+      "voc-opinion-piece",
+      "voc-fact-check",
+      "voc-misleading",
+      "idi-red-herring",
+      "idi-take-something-with-a-grain-of-salt"
+    ],
+    "questions": [
+      {
+        "q": "What does the chart actually show?",
+        "options": [
+          "All rents in Alberta",
+          "New one-bedroom listings downtown",
+          "House prices in Calgary"
+        ],
+        "answer": 1,
+        "why_es": "Solo muestra anuncios nuevos de departamentos de una recámara en el centro."
+      },
+      {
+        "q": "Why does Maya call the arena paragraph a red herring?",
+        "options": [
+          "It distracts without being connected to rent",
+          "It is too long",
+          "It is about sports"
+        ],
+        "answer": 0,
+        "why_es": "Es una distracción: el artículo nunca la relaciona con el precio de las rentas."
+      },
+      {
+        "q": "How does Dan react at the end?",
+        "options": [
+          "He gets angry with Maya",
+          "He jokes about the pizza claim",
+          "He shares the article anyway"
+        ],
+        "answer": 1,
+        "why_es": "Bromea diciendo que lo de la pizza sí es desinformación."
+      }
+    ]
+  },
+  {
+    "id": "les-b2-car-wont-start",
+    "level": "B2",
+    "topic": "canada",
+    "order": 64,
+    "title": "The car won't start",
+    "title_es": "El carro no arranca",
+    "intro_es": "Es el primer invierno de Leo en Edmonton y su carro no arranca. Su vecina Carol le explica lo básico del frío.",
+    "lines": [
+      {
+        "who": "Leo",
+        "en": "Morning, Carol. My car won't start. It just makes a clicking sound.",
+        "es": "Buenos días, Carol. Mi carro no arranca. Nada más hace clic."
+      },
+      {
+        "who": "Carol",
+        "en": "It's minus thirty-four, hon. Did you [plug in your car] last night?",
+        "es": "Estamos a treinta y cuatro bajo cero, cariño. ¿Conectaste tu carro anoche?",
+        "item": "col-plug-in-your-car"
+      },
+      {
+        "who": "Leo",
+        "en": "Plug it in? I thought that was only for electric cars.",
+        "es": "¿Conectarlo? Pensé que eso era solo para carros eléctricos."
+      },
+      {
+        "who": "Carol",
+        "en": "Nope. See that cord coming out of the front? That's your [block heater]. It keeps the engine warm overnight.",
+        "es": "No. ¿Ves ese cable que sale del frente? Es tu calentador de motor. Mantiene el motor caliente toda la noche.",
+        "item": "col-block-heater"
+      },
+      {
+        "who": "Leo",
+        "en": "I had no idea. The guy at the dealership never mentioned it.",
+        "es": "No tenía idea. El de la agencia nunca me lo dijo."
+      },
+      {
+        "who": "Carol",
+        "en": "Well, there was an [extreme cold warning] on the radio all weekend. Your battery probably died.",
+        "es": "Pues estuvo el aviso de frío extremo en la radio todo el fin de semana. Seguro se te murió la batería.",
+        "item": "voc-extreme-cold-warning"
+      },
+      {
+        "who": "Carol",
+        "en": "Grab the cables from my trunk. I'll give you a [jump start].",
+        "es": "Saca los cables de mi cajuela. Te paso corriente.",
+        "item": "voc-jump-start"
+      },
+      {
+        "who": "Leo",
+        "en": "And if that doesn't work?",
+        "es": "¿Y si eso no funciona?"
+      },
+      {
+        "who": "Carol",
+        "en": "Then we call a [tow truck], but on days like this they're backed up for hours.",
+        "es": "Entonces llamamos una grúa, pero en días así se tardan horas.",
+        "item": "voc-tow-truck"
+      },
+      {
+        "who": "Carol",
+        "en": "And drive slowly today. The bridge always gets [black ice], and you don't see it until you're sliding.",
+        "es": "Y maneja despacio hoy. En el puente siempre se forma hielo negro y no lo ves hasta que ya te estás derrapando.",
+        "item": "voc-black-ice"
+      },
+      {
+        "who": "Leo",
+        "en": "Got it: plug in the car, respect the bridge. Thanks, Carol. You're a lifesaver.",
+        "es": "Entendido: conectar el carro y respetar el puente. Gracias, Carol. Me salvaste."
+      }
+    ],
+    "items": [
+      "col-plug-in-your-car",
+      "col-block-heater",
+      "voc-extreme-cold-warning",
+      "voc-jump-start",
+      "voc-tow-truck",
+      "voc-black-ice"
+    ],
+    "questions": [
+      {
+        "q": "Why didn't Leo's car start?",
+        "options": [
+          "It ran out of gas",
+          "The cold probably killed the battery",
+          "It has a flat tire"
+        ],
+        "answer": 1,
+        "why_es": "Hubo frío extremo todo el fin de semana y no lo conectó: seguro se murió la batería."
+      },
+      {
+        "q": "What is a block heater for?",
+        "options": [
+          "Keeping the engine warm overnight",
+          "Charging an electric car",
+          "Heating the seats"
+        ],
+        "answer": 0,
+        "why_es": "Carol explica que mantiene el motor caliente durante la noche."
+      },
+      {
+        "q": "Why should Leo drive slowly on the bridge?",
+        "options": [
+          "There is construction",
+          "There might be ice he can't see",
+          "The police are there"
+        ],
+        "answer": 1,
+        "why_es": "En el puente se forma hielo negro, que casi no se ve."
+      }
+    ]
+  },
+  {
+    "id": "les-b2-dizzy-mornings",
+    "level": "B2",
+    "topic": "health",
+    "order": 65,
+    "title": "Dizzy mornings",
+    "title_es": "Mañanas con mareo",
+    "intro_es": "Maya va a la farmacia por su medicamento y le cuenta al farmacéutico que se marea desde que le subieron la dosis.",
+    "lines": [
+      {
+        "who": "Maya",
+        "en": "Hi, I need to [refill a prescription] for my blood pressure pills, but I have a question first.",
+        "es": "Hola, necesito resurtir una receta de mis pastillas para la presión, pero antes tengo una pregunta.",
+        "item": "col-refill-a-prescription"
+      },
+      {
+        "who": "Pharmacist",
+        "en": "Sure. What's going on?",
+        "es": "Claro. ¿Qué pasa?"
+      },
+      {
+        "who": "Maya",
+        "en": "Since my doctor raised the [dosage] last month, I've been dizzy almost every morning.",
+        "es": "Desde que mi doctor me subió la dosis el mes pasado, ando mareada casi todas las mañanas.",
+        "item": "voc-dosage"
+      },
+      {
+        "who": "Pharmacist",
+        "en": "Dizziness is one of the most common [side effects], especially when you stand up quickly.",
+        "es": "El mareo es uno de los efectos secundarios más comunes, sobre todo cuando te paras rápido.",
+        "item": "voc-side-effects"
+      },
+      {
+        "who": "Maya",
+        "en": "My family doctor can't see me for three weeks. Should I just go to the ER?",
+        "es": "Mi médico de cabecera no me puede ver en tres semanas. ¿Mejor me voy a urgencias del hospital?"
+      },
+      {
+        "who": "Pharmacist",
+        "en": "Unless you're fainting or having chest pain, I'd try [urgent care] instead. The wait is usually much shorter.",
+        "es": "A menos que te desmayes o tengas dolor en el pecho, yo mejor iría a una clínica de atención urgente. La espera suele ser mucho más corta.",
+        "item": "voc-urgent-care"
+      },
+      {
+        "who": "Pharmacist",
+        "en": "There's also a [walk-in] clinic two blocks from here. You don't need an appointment.",
+        "es": "También hay una clínica sin cita a dos cuadras de aquí. No necesitas hacer cita.",
+        "item": "voc-walk-in"
+      },
+      {
+        "who": "Maya",
+        "en": "Honestly, I'm not sure the new dose is right for me at all.",
+        "es": "La verdad, no estoy segura de que la nueva dosis sea para mí."
+      },
+      {
+        "who": "Pharmacist",
+        "en": "Then it's worth getting a [second opinion]. Just don't stop the medication on your own.",
+        "es": "Entonces vale la pena pedir una segunda opinión. Pero no dejes el medicamento por tu cuenta.",
+        "item": "col-second-opinion"
+      },
+      {
+        "who": "Maya",
+        "en": "Understood. I'll go to the clinic this afternoon.",
+        "es": "Entendido. Voy a la clínica en la tarde."
+      }
+    ],
+    "items": [
+      "col-refill-a-prescription",
+      "voc-dosage",
+      "voc-side-effects",
+      "voc-urgent-care",
+      "voc-walk-in",
+      "col-second-opinion"
+    ],
+    "questions": [
+      {
+        "q": "What problem has Maya had since the dose went up?",
+        "options": [
+          "Headaches",
+          "Dizziness in the morning",
+          "Trouble sleeping"
+        ],
+        "answer": 1,
+        "why_es": "Dice que anda mareada casi todas las mañanas desde que le subieron la dosis."
+      },
+      {
+        "q": "When does the pharmacist say Maya should go to the ER?",
+        "options": [
+          "If she faints or has chest pain",
+          "If she feels tired",
+          "Never"
+        ],
+        "answer": 0,
+        "why_es": "Solo si se desmaya o tiene dolor en el pecho; si no, mejor atención urgente."
+      },
+      {
+        "q": "What does the pharmacist warn Maya not to do?",
+        "options": [
+          "Visit a walk-in clinic",
+          "Talk to another doctor",
+          "Stop the medicine on her own"
+        ],
+        "answer": 2,
+        "why_es": "Le dice que no deje el medicamento por su cuenta."
+      }
+    ]
+  },
+  {
+    "id": "les-b2-setting-up-payroll",
+    "level": "B2",
+    "topic": "money",
+    "order": 66,
+    "title": "Setting up payroll",
+    "title_es": "Dar de alta la nómina",
+    "intro_es": "En su primer día, Leo da sus datos a Nadia, de recursos humanos, para recibir su sueldo, y le pregunta cómo hacer historial de crédito.",
+    "lines": [
+      {
+        "who": "Nadia",
+        "en": "Welcome aboard, Leo! I just need a few things to set up your pay.",
+        "es": "¡Bienvenido, Leo! Solo necesito unas cosas para darte de alta en la nómina."
+      },
+      {
+        "who": "Nadia",
+        "en": "First, your [SIN]. You should have received it when you got your work permit.",
+        "es": "Primero, tu NAS. Te lo debieron dar cuando recibiste tu permiso de trabajo.",
+        "item": "voc-sin"
+      },
+      {
+        "who": "Leo",
+        "en": "I've got it right here. What else?",
+        "es": "Aquí lo tengo. ¿Qué más?"
+      },
+      {
+        "who": "Nadia",
+        "en": "We pay by [direct deposit] every two weeks, so I need your banking information.",
+        "es": "Pagamos por depósito directo cada dos semanas, así que necesito tus datos bancarios.",
+        "item": "voc-direct-deposit"
+      },
+      {
+        "who": "Nadia",
+        "en": "The easiest way is to bring a [void cheque]. It has the transit, institution and account numbers on it.",
+        "es": "Lo más fácil es que traigas un cheque anulado. Ahí vienen los números de sucursal, institución y cuenta.",
+        "item": "voc-void-cheque"
+      },
+      {
+        "who": "Leo",
+        "en": "I don't even have cheques yet. The bank wanted [proof of address] first, and I only signed my lease last week.",
+        "es": "Ni siquiera tengo cheques todavía. El banco me pidió comprobante de domicilio primero, y apenas firmé mi contrato de renta la semana pasada.",
+        "item": "voc-proof-of-address"
+      },
+      {
+        "who": "Nadia",
+        "en": "No problem. Most banks let you print a direct deposit form from their app. That works too.",
+        "es": "No hay problema. Casi todos los bancos te dejan imprimir un formulario de depósito directo desde su app. Eso también sirve."
+      },
+      {
+        "who": "Leo",
+        "en": "Great. Next I need a credit card. With no [credit score] here, every bank treats me like a teenager.",
+        "es": "Genial. Lo siguiente es una tarjeta de crédito. Sin historial crediticio aquí, todos los bancos me tratan como adolescente.",
+        "item": "col-credit-score"
+      },
+      {
+        "who": "Nadia",
+        "en": "Get a secured card and pay it off every month. In a year you'll be fine. Everyone starts from zero here.",
+        "es": "Saca una tarjeta asegurada y págala completa cada mes. En un año vas a estar bien. Aquí todos empiezan de cero."
+      }
+    ],
+    "items": [
+      "voc-sin",
+      "voc-direct-deposit",
+      "voc-void-cheque",
+      "voc-proof-of-address",
+      "col-credit-score"
+    ],
+    "questions": [
+      {
+        "q": "How often does the company pay?",
+        "options": [
+          "Every week",
+          "Every two weeks",
+          "Once a month"
+        ],
+        "answer": 1,
+        "why_es": "Nadia dice que pagan por depósito directo cada dos semanas."
+      },
+      {
+        "q": "Why doesn't Leo have cheques yet?",
+        "options": [
+          "The bank needed proof of address first",
+          "He lost them",
+          "He doesn't have a bank account"
+        ],
+        "answer": 0,
+        "why_es": "El banco le pidió comprobante de domicilio y apenas firmó su contrato de renta."
+      },
+      {
+        "q": "What does Nadia suggest for building credit?",
+        "options": [
+          "Borrowing from friends",
+          "Avoiding all cards",
+          "Using a secured card and paying it off monthly"
+        ],
+        "answer": 2,
+        "why_es": "Le recomienda una tarjeta asegurada que pague completa cada mes."
+      }
+    ]
+  },
+  {
+    "id": "les-b2-snowed-in-airport",
+    "level": "B2",
+    "topic": "travel",
+    "order": 67,
+    "title": "Snowed in at the airport",
+    "title_es": "Atrapados por la nieve",
+    "intro_es": "A dos días de Navidad, cancelan el vuelo de Priya y Sam a Toronto por una nevada y tienen que resolver con la aerolínea.",
+    "lines": [
+      {
+        "who": "Priya",
+        "en": "Cancelled. Our flight to Toronto is officially cancelled.",
+        "es": "Cancelado. Nuestro vuelo a Toronto está oficialmente cancelado."
+      },
+      {
+        "who": "Sam",
+        "en": "Of course it is. Half a metre of snow overnight. We're going to [get snowed in] two days before Christmas.",
+        "es": "Claro. Medio metro de nieve en la noche. Nos vamos a quedar atrapados por la nieve a dos días de Navidad.",
+        "item": "col-get-snowed-in"
+      },
+      {
+        "who": "Agent",
+        "en": "I'm sorry, folks. The morning flight is already [overbooked] because of all the cancellations.",
+        "es": "Lo siento mucho. El vuelo de la mañana ya tiene sobreventa por todas las cancelaciones.",
+        "item": "voc-overbooked"
+      },
+      {
+        "who": "Agent",
+        "en": "I can put you both on [standby], or confirm you on the flight tomorrow night.",
+        "es": "Los puedo poner a los dos en lista de espera, o confirmarlos en el vuelo de mañana en la noche.",
+        "item": "voc-standby"
+      },
+      {
+        "who": "Priya",
+        "en": "Confirm us for tomorrow night, please. Standby with two people never works.",
+        "es": "Confírmenos para mañana en la noche, por favor. La lista de espera con dos personas nunca funciona."
+      },
+      {
+        "who": "Agent",
+        "en": "Done. Here's a [meal voucher] for each of you, and a hotel near the airport for tonight.",
+        "es": "Listo. Aquí tienen un vale de comida para cada uno y un hotel cerca del aeropuerto para esta noche.",
+        "item": "voc-meal-voucher"
+      },
+      {
+        "who": "Sam",
+        "en": "And my suitcase? It was already checked.",
+        "es": "¿Y mi maleta? Ya la había documentado."
+      },
+      {
+        "who": "Agent",
+        "en": "If it doesn't come out on the carousel within an hour, you can [file a claim] at the baggage office downstairs.",
+        "es": "Si no sale en la banda en una hora, puede presentar un reclamo en la oficina de equipaje de abajo.",
+        "item": "col-file-a-claim"
+      },
+      {
+        "who": "Sam",
+        "en": "Twenty-five dollars for food. I bet that buys exactly one airport sandwich.",
+        "es": "Veinticinco dólares para comida. Seguro que alcanza exactamente para un sándwich de aeropuerto."
+      },
+      {
+        "who": "Priya",
+        "en": "Come on, let's [make the best of it]. Hotel pool, room service and a movie. A tiny vacation.",
+        "es": "Ándale, saquémosle el mejor partido. Alberca del hotel, servicio a la habitación y una película. Unas mini vacaciones.",
+        "item": "idi-make-the-best-of-it"
+      }
+    ],
+    "items": [
+      "col-get-snowed-in",
+      "voc-overbooked",
+      "voc-standby",
+      "voc-meal-voucher",
+      "col-file-a-claim",
+      "idi-make-the-best-of-it"
+    ],
+    "questions": [
+      {
+        "q": "Why was the flight cancelled?",
+        "options": [
+          "A mechanical problem",
+          "Heavy snow",
+          "A strike"
+        ],
+        "answer": 1,
+        "why_es": "Cayó medio metro de nieve durante la noche."
+      },
+      {
+        "q": "Why doesn't Priya want to fly on standby?",
+        "options": [
+          "It rarely works for two people",
+          "It is more expensive",
+          "She is afraid of flying"
+        ],
+        "answer": 0,
+        "why_es": "Dice que la lista de espera con dos personas nunca funciona."
+      },
+      {
+        "q": "What does Priya suggest at the end?",
+        "options": [
+          "Complaining to the airline",
+          "Driving to Toronto",
+          "Enjoying the hotel like a small vacation"
+        ],
+        "answer": 2,
+        "why_es": "Propone sacarle el mejor partido: alberca, servicio a la habitación y película."
+      }
+    ]
+  },
+  {
+    "id": "les-b2-the-housewarming",
+    "level": "B2",
+    "topic": "social",
+    "order": 68,
+    "title": "The housewarming",
+    "title_es": "La fiesta de estreno",
+    "intro_es": "Dan llega a la fiesta de estreno de la casa nueva de Priya, donde ya están de visita sus suegros.",
+    "lines": [
+      {
+        "who": "Dan",
+        "en": "Priya! Congrats on the new place. I brought you a plant — apparently it's impossible to kill.",
+        "es": "¡Priya! Felicidades por la casa nueva. Te traje una planta; según esto es imposible de matar."
+      },
+      {
+        "who": "Priya",
+        "en": "Thank you! Come in. I'm so glad you made it to the [housewarming].",
+        "es": "¡Gracias! Pásale. Qué gusto que hayas venido a la fiesta de estreno.",
+        "item": "voc-housewarming"
+      },
+      {
+        "who": "Dan",
+        "en": "I hope it's okay that I didn't bring a [plus-one]. Jen had to work a night shift.",
+        "es": "Espero que no haya problema que no traje acompañante. Jen tuvo que trabajar turno de noche.",
+        "item": "voc-plus-one"
+      },
+      {
+        "who": "Priya",
+        "en": "Totally fine. Honestly, it's a full house already. My [in-laws] drove up from Lethbridge this morning.",
+        "es": "Para nada. La verdad, ya está lleno. Mis suegros manejaron desde Lethbridge esta mañana.",
+        "item": "voc-in-laws"
+      },
+      {
+        "who": "Dan",
+        "en": "Wow, that's a long drive. Are they staying with you?",
+        "es": "Uy, qué viaje tan largo. ¿Se van a quedar con ustedes?"
+      },
+      {
+        "who": "Priya",
+        "en": "For a week. Which is great. Really. I keep saying it so I'll believe it.",
+        "es": "Una semana. Lo cual es genial. De verdad. Lo repito para creérmelo."
+      },
+      {
+        "who": "Dan",
+        "en": "Ha! [Speaking of which], where's Arjun? Hiding from his parents?",
+        "es": "¡Ja! Hablando de eso, ¿dónde está Arjun? ¿Escondiéndose de sus papás?",
+        "item": "phr-speaking-of-which"
+      },
+      {
+        "who": "Priya",
+        "en": "He's in the kitchen pretending to fix the dishwasher. Grab a drink — there's beer in the cooler.",
+        "es": "Está en la cocina fingiendo que arregla el lavaplatos. Agarra algo de tomar; hay cerveza en la hielera."
+      },
+      {
+        "who": "Dan",
+        "en": "Just pop for me, thanks. I'm the [designated driver] for Sam and Leo tonight.",
+        "es": "Para mí solo refresco, gracias. Hoy soy el conductor designado de Sam y Leo.",
+        "item": "col-designated-driver"
+      },
+      {
+        "who": "Priya",
+        "en": "Responsible, and you brought a plant. You can come over anytime.",
+        "es": "Responsable y además trajiste una planta. Puedes venir cuando quieras."
+      }
+    ],
+    "items": [
+      "voc-housewarming",
+      "voc-plus-one",
+      "voc-in-laws",
+      "phr-speaking-of-which",
+      "col-designated-driver"
+    ],
+    "questions": [
+      {
+        "q": "Why did Dan come alone?",
+        "options": [
+          "His partner had to work",
+          "He forgot to invite anyone",
+          "He wanted to leave early"
+        ],
+        "answer": 0,
+        "why_es": "Dice que Jen tuvo que trabajar turno de noche."
+      },
+      {
+        "q": "How does Priya really feel about her in-laws staying a week?",
+        "options": [
+          "Completely thrilled",
+          "A little unsure, although she says it's great",
+          "Very angry"
+        ],
+        "answer": 1,
+        "why_es": "Dice que es genial, pero «lo repite para creérselo»: no está tan segura."
+      },
+      {
+        "q": "Why isn't Dan drinking beer?",
+        "options": [
+          "He doesn't like it",
+          "He is driving his friends home",
+          "He is on medication"
+        ],
+        "answer": 1,
+        "why_es": "Es el conductor designado de Sam y Leo."
+      }
+    ]
   }
 ]

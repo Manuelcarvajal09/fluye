@@ -1,0 +1,87 @@
+{
+  "id": "lectura-series-favoritas",
+  "level": "B2",
+  "title": "Learning Real English from TV Series",
+  "title_es": "Aprender inglés real con series",
+  "topic": "ocio",
+  "minutes": 6,
+  "intro_es": "Tus series favoritas pueden ser tu mejor clase de inglés si las ves con estrategia.",
+  "paragraphs": [
+    "If you've ever finished a TV episode and thought, “I understood the story, but I missed half the jokes,” you're not alone. Series are one of the most enjoyable ways to improve your English, but they can also be humbling. Characters talk fast, interrupt each other and use expressions you'll never find in a grammar book. That's exactly why they're so useful: they show you English as people actually speak it.",
+    "Textbook dialogues are clean and polite. Real conversations are messy. In a good series, you'll hear reductions like “gonna,” “wanna” and “kinda,” fillers such as “like” and “you know,” and sentences that trail off unfinished. You'll also notice how people soften requests (“Would you mind...?”), change topics and react with tiny words like “oh,” “huh” or “no way.” Getting used to this rhythm will make your conversations at work and in the community much less stressful.",
+    "Slang is another big lesson. Each show reflects a place and a generation, so pay attention to who is speaking. Teenagers in a high school drama won't talk like doctors in a hospital series. When you hear an unfamiliar expression, write it down with the situation, not just the translation. “That's sketchy” makes more sense if you remember the character was looking at a suspicious used car. Before using new slang yourself, check whether it's casual, rude or simply outdated.",
+    "Sarcasm may be the trickiest skill. In many English-speaking cultures, including Canada, people often say the opposite of what they mean to be funny. If a character steps into a snowstorm and says, “Wow, beautiful weather today,” the tone, the facial expression and the context tell you it's a joke. Series are a safe place to learn these signals, because you can pause, rewind and watch the scene again.",
+    "Subtitles can help or hurt, depending on how you use them. A useful strategy works in three stages. First, watch an episode with Spanish subtitles to enjoy the story. Then, rewatch key scenes with English subtitles to connect sounds and spelling. Finally, try short scenes with no subtitles at all, and check your understanding afterwards. Don't feel guilty about going back a step on a difficult day; the goal is steady exposure, not perfection.",
+    "To turn watching into active practice, try shadowing: pause after a line and repeat it, copying the intonation and the speed. Choose one or two scenes per episode and practise them until they feel natural. You can also keep a small notebook of expressions and challenge yourself to use one in a real conversation each week.",
+    "Finally, choose shows you genuinely love. Comedies with short episodes are easier to follow, while dramas offer richer vocabulary. If you're enjoying yourself, you'll keep watching, and consistency is what really transforms your listening."
+  ],
+  "glossary": [
+    { "term": "humbling", "es": "que te baja los humos, que te hace sentir humilde", "def": "making you realize you are not as good at something as you thought" },
+    { "term": "reductions", "es": "reducciones (formas cortas al hablar)", "def": "shorter forms of words in fast speech, like gonna for going to" },
+    { "term": "fillers", "es": "muletillas", "def": "words or sounds people use while they think, like um, like or you know", "note": "Equivalen a nuestro este..., o sea o ¿sabes?" },
+    { "term": "trail off", "es": "irse apagando (una frase)", "def": "to stop speaking gradually, without finishing what you were saying" },
+    { "term": "soften", "es": "suavizar", "def": "to make something sound less direct or less strong" },
+    { "term": "slang", "es": "jerga, modismos", "def": "very informal words and expressions used by a particular group" },
+    { "term": "sketchy", "es": "sospechoso, de dudosa confianza", "def": "seeming dishonest, unsafe or not trustworthy (informal)" },
+    { "term": "outdated", "es": "pasado de moda, obsoleto", "def": "no longer used or popular" },
+    { "term": "sarcasm", "es": "sarcasmo", "def": "saying the opposite of what you mean, often to be funny or critical" },
+    { "term": "trickiest", "es": "más complicado, más engañoso", "def": "most difficult to deal with or understand" },
+    { "term": "rewind", "es": "retroceder (un video)", "def": "to go back to an earlier point in a video or recording" },
+    { "term": "steady exposure", "es": "contacto constante (con el idioma)", "def": "regular, continuous contact with something over time" },
+    { "term": "shadowing", "es": "técnica de repetir como sombra", "def": "repeating what a speaker says right after them, copying sound and rhythm" },
+    { "term": "genuinely", "es": "de verdad, sinceramente", "def": "really; in a true and honest way" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "TV series teach real, everyday English, and using them with a strategy improves your listening.",
+      "Watching TV is a waste of time for serious English students.",
+      "You should watch series without subtitles from the very first day."
+    ],
+    "answer": 0,
+    "why_es": "El texto muestra lo que enseñan las series (ritmo, jerga, sarcasmo) y cómo verlas con estrategia."
+  },
+  "questions": [
+    {
+      "q": "Why should you write down new slang with the situation?",
+      "options": [
+        "Because translations of slang are always wrong",
+        "Because teachers require a notebook",
+        "Because the meaning makes more sense in context"
+      ],
+      "answer": 2,
+      "why_es": "Recordar la escena (como el auto usado sospechoso) te ayuda a entender y usar bien la expresión."
+    },
+    {
+      "q": "How can you recognize sarcasm in a scene?",
+      "options": [
+        "By the grammar of the sentence",
+        "By the tone, the facial expression and the context",
+        "By the length of the sentence"
+      ],
+      "answer": 1,
+      "why_es": "El sarcasmo se nota por el tono, la cara y la situación, no por la gramática."
+    },
+    {
+      "q": "What is the first stage of the subtitles strategy?",
+      "options": [
+        "Watch with Spanish subtitles to enjoy the story.",
+        "Watch with English subtitles to connect sounds and spelling.",
+        "Watch with no subtitles and check your understanding."
+      ],
+      "answer": 0,
+      "why_es": "Primero se ve con subtítulos en español para disfrutar la historia; luego en inglés y al final sin subtítulos."
+    },
+    {
+      "q": "What is shadowing?",
+      "options": [
+        "Writing the translation of every line",
+        "Repeating a line right after you hear it, copying its intonation and speed",
+        "Watching a whole season in one weekend"
+      ],
+      "answer": 1,
+      "why_es": "Shadowing es pausar y repetir la frase imitando entonación y velocidad."
+    }
+  ],
+  "club": true
+}

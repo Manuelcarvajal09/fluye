@@ -1,0 +1,98 @@
+{
+  "id": "lectura-reconocimiento-territorial",
+  "level": "C2",
+  "title": "Behind the Words of a Land Acknowledgement",
+  "title_es": "Lo que hay detrás de un reconocimiento territorial",
+  "topic": "cultura",
+  "minutes": 9,
+  "intro_es": "En Canadá muchas reuniones empiezan reconociendo el territorio indígena; entender por qué te ayuda a participar con respeto.",
+  "paragraphs": [
+    "Attend a university lecture, a city council meeting or even a hockey game in Edmonton, and there is a good chance the proceedings will open with a few carefully chosen words: a statement recognizing that the event is taking place on Treaty 6 territory, the traditional lands of various First Nations and the homeland of the Métis. To a newcomer, this ritual can seem puzzling. What exactly is being acknowledged, and why does it matter so much?",
+    "A land acknowledgement is, at its simplest, a formal statement that recognizes the Indigenous peoples who have lived on, cared for and maintained relationships with a particular territory since long before Canada existed. In Canada, the term Indigenous peoples encompasses three broad groups recognized in the Constitution: First Nations, Inuit and Métis. Each comprises many distinct nations, languages and traditions, and lumping them together as a single culture is a common, if understandable, misconception among newcomers.",
+    "The practice is not merely ceremonial. It is rooted in a long and often painful history that many Canadians themselves learned about only relatively recently. Treaties signed between the Crown and First Nations, many of them in the nineteenth century, were intended by Indigenous signatories to establish an ongoing relationship of mutual obligation and shared use of the land. Over time, however, government policies sought to suppress Indigenous languages, governance and spiritual practices. Among the most damaging was the residential school system, under which Indigenous children were removed from their families and sent to institutions where speaking their own language was frequently punished. The last of these schools closed only in the 1990s, and its effects continue to reverberate through families and communities.",
+    "In 2015, the Truth and Reconciliation Commission, which gathered testimony from thousands of survivors, published its final report along with a series of Calls to Action addressed to governments, churches, educators and other institutions. Land acknowledgements became more widespread in the years that followed, as organizations looked for ways to signal their commitment to reconciliation, a term that refers to the process of repairing the relationship between Indigenous and non-Indigenous people in Canada.",
+    "It would be disingenuous to claim that acknowledgements are universally embraced. Some Indigenous people welcome them as a meaningful gesture of respect and visibility. Others caution that, when recited mechanically and without any accompanying action, they risk becoming a hollow formality, words that soothe the speaker's conscience without changing anything for the communities being named. Many suggest that the most meaningful acknowledgements are specific, sincere and connected to some form of concrete commitment, whether that means learning the history of the land, supporting Indigenous-led organizations or simply listening.",
+    "For a newcomer, this debate may raise an uncomfortable question: how does someone who has just arrived fit into a history they had no part in? Many Indigenous educators offer a generous answer. Immigrants, they point out, are also treaty people: by choosing to live on treaty land, they inherit both the benefits and the responsibilities of those agreements. Far from being excluded from reconciliation, newcomers are often seen as potential allies, particularly since many come from countries with their own histories of colonization and Indigenous resilience. Mexicans, whose nation is home to dozens of Indigenous languages, may find more common ground than they expect.",
+    "What, then, does respectful participation look like in practice? It starts with curiosity rather than assumption. Learn the names of the nations whose territory you live on, and how to pronounce them correctly. Attend public events such as National Indigenous Peoples Day, celebrated on June 21, or the National Day for Truth and Reconciliation on September 30, when many people wear orange shirts in memory of children who attended residential schools. Visit local cultural centres, read books by Indigenous authors and, above all, approach the subject with humility.",
+    "A land acknowledgement lasts only a minute or two. Yet behind those few sentences lies a complex history and an unfinished conversation about how people can live together justly on shared land. Understanding that context allows you to hear the words not as a mere preamble to the main event, but as an invitation to take part in that conversation."
+  ],
+  "glossary": [
+    { "term": "proceedings", "es": "acto, sesión", "def": "a series of events or activities that take place at a formal meeting" },
+    { "term": "puzzling", "es": "desconcertante", "def": "confusing and difficult to understand" },
+    { "term": "encompasses", "es": "abarca, comprende", "def": "includes a wide range of things" },
+    { "term": "lumping them together", "es": "meterlos a todos en el mismo saco", "def": "treating different things as if they were the same" },
+    { "term": "signatories", "es": "firmantes", "def": "the people or parties who sign an official agreement" },
+    { "term": "reverberate", "es": "repercutir", "def": "to continue to have strong effects over a long time" },
+    { "term": "reconciliation", "es": "reconciliación", "def": "the process of repairing a damaged relationship and building trust" },
+    { "term": "disingenuous", "es": "poco sincero, tramposo", "def": "pretending to be honest while hiding part of the truth" },
+    { "term": "hollow formality", "es": "mero trámite vacío", "def": "an action done only because it is expected, without real meaning" },
+    { "term": "soothe", "es": "tranquilizar, aliviar", "def": "to make someone feel calmer or less uncomfortable" },
+    { "term": "treaty people", "es": "gente del tratado", "def": "everyone who lives on treaty land and shares its rights and responsibilities", "note": "Expresión muy usada en Alberta y Saskatchewan." },
+    { "term": "allies", "es": "aliados", "def": "people who support a group they do not belong to" },
+    { "term": "resilience", "es": "resiliencia", "def": "the ability to recover and stay strong after difficulties" },
+    { "term": "preamble", "es": "preámbulo", "def": "an introduction that comes before the main part of something" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Land acknowledgements are a legal requirement that every Canadian event must follow.",
+      "Land acknowledgements are rooted in a complex history, their value is debated, and newcomers can engage with them respectfully and meaningfully.",
+      "Newcomers should avoid the topic of Indigenous history because it does not concern them."
+    ],
+    "answer": 1,
+    "why_es": "El texto explica el origen de los reconocimientos, el debate sobre su sentido y cómo pueden participar los recién llegados con respeto."
+  },
+  "questions": [
+    {
+      "q": "Which three groups does the term Indigenous peoples include in Canada?",
+      "options": [
+        "First Nations, Inuit and Métis",
+        "Cree, Dene and Blackfoot only",
+        "Settlers, immigrants and First Nations"
+      ],
+      "answer": 0,
+      "why_es": "La Constitución reconoce a las Primeras Naciones, los inuit y los métis, cada uno con muchas naciones distintas."
+    },
+    {
+      "q": "What criticism of land acknowledgements does the text mention?",
+      "options": [
+        "They are too long and delay events.",
+        "Without action, they can become a hollow formality.",
+        "They are spoken only in Indigenous languages."
+      ],
+      "answer": 1,
+      "why_es": "Algunos advierten que, sin acciones concretas, se vuelven un trámite vacío."
+    },
+    {
+      "q": "What does the Truth and Reconciliation Commission's report include?",
+      "options": [
+        "A list of Canadian cities",
+        "A ban on land acknowledgements",
+        "Calls to Action for governments and institutions"
+      ],
+      "answer": 2,
+      "why_es": "El informe final incluyó llamados a la acción dirigidos a gobiernos, iglesias, educadores y otras instituciones."
+    },
+    {
+      "q": "Why do some Indigenous educators describe immigrants as treaty people?",
+      "options": [
+        "Because immigrants live on treaty land and inherit its benefits and responsibilities",
+        "Because immigrants signed the original treaties",
+        "Because immigrants must sign a treaty to become citizens"
+      ],
+      "answer": 0,
+      "why_es": "Al vivir en territorio de tratado, también heredan sus beneficios y responsabilidades."
+    },
+    {
+      "q": "What is the author's overall recommendation for newcomers?",
+      "options": [
+        "Recite acknowledgements at every personal event.",
+        "Stay silent and never ask questions.",
+        "Approach the subject with curiosity and humility, and learn about the land."
+      ],
+      "answer": 2,
+      "why_es": "El autor sugiere curiosidad, aprender la historia del territorio y acercarse al tema con humildad."
+    }
+  ],
+  "club": false
+}

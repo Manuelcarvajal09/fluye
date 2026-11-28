@@ -631,7 +631,7 @@
     "freq": 4,
     "es": "¿qué estás...?; ¿qué haces?; lo que tú",
     "def": "a spoken form of 'what are you' or 'what do you'",
-    "note": "Whatcha doing? = What are you doing? Whatcha want? = What do you want? Fuera de preguntas, 'whatcha got' = what have you got. Solo informal; no en correos ni exámenes.",
+    "note": "Whatcha doing? = What are you doing? Whatcha want? = What do you want? Fuera de preguntas, 'whatcha got' = what have you got. También se escribe «watcha». Solo informal; no en correos ni exámenes.",
     "areas": [
       "series",
       "conversacion"
@@ -2443,6 +2443,286 @@
       {
         "en": "She [gotta] new phone yesterday.",
         "es": "Se consiguió un celular nuevo ayer."
+      }
+    ]
+  },
+  {
+    "id": "con-cuz",
+    "type": "contraction",
+    "term": "cuz",
+    "full": "because",
+    "ipa": "/kʌz/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "porque",
+    "def": "a very casual spoken and texting form of 'because'",
+    "note": "Variante escrita de 'cause; se oye muchísimo en series y se usa en mensajes. Ojo: entre amigos también puede ser 'cousin' (primo). Nunca en correos formales, CV ni IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I left early [cuz] I was super tired.",
+        "es": "Me fui temprano porque estaba muy cansado."
+      },
+      {
+        "en": "We can't go, [cuz] the road's closed.",
+        "es": "No podemos ir, porque el camino está cerrado."
+      }
+    ]
+  },
+  {
+    "id": "con-nah",
+    "type": "contraction",
+    "term": "nah",
+    "full": "no",
+    "ipa": "/næ/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "nel; no",
+    "def": "a relaxed, friendly way to say 'no'",
+    "note": "Suena relajado, no grosero: 'Nah, I'm good' = no, gracias. Con desconocidos o en el trabajo usa 'No, thanks'. Nunca en textos formales ni en IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Nah], I'm good, thanks.",
+        "es": "Nel, así estoy bien, gracias."
+      },
+      {
+        "en": "[Nah], it wasn't that bad.",
+        "es": "No, no estuvo tan mal."
+      }
+    ]
+  },
+  {
+    "id": "con-yep",
+    "type": "contraction",
+    "term": "yep",
+    "full": "yes",
+    "ipa": "/jɛp/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "sip; sí",
+    "def": "a casual way to say 'yes'",
+    "note": "Igual de común: 'yup'. Suena cercano y rápido; en una entrevista o con un cliente di 'Yes' o 'Sure'. Nunca en correos formales ni en IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Yep], I'll be there at six.",
+        "es": "Sip, ahí estaré a las seis."
+      },
+      {
+        "en": "\"Did you lock the door?\" \"[Yep].\"",
+        "es": "—¿Cerraste la puerta? —Sip."
+      }
+    ]
+  },
+  {
+    "id": "con-nope",
+    "type": "contraction",
+    "term": "nope",
+    "full": "no",
+    "ipa": "/noʊp/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 5,
+    "es": "nop; para nada",
+    "def": "a casual, firm way to say 'no'",
+    "note": "Más tajante que 'nah' y a veces juguetón: 'Nope, not today'. Úsalo con amigos; con clientes o jefes di 'No' con una explicación. Nunca en textos formales ni en IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "\"Is it still snowing?\" \"[Nope], it stopped.\"",
+        "es": "—¿Sigue nevando? —Nop, ya paró."
+      },
+      {
+        "en": "[Nope], I've never tried poutine.",
+        "es": "Nop, nunca he probado la poutine."
+      }
+    ]
+  },
+  {
+    "id": "con-sup",
+    "type": "contraction",
+    "term": "sup",
+    "full": "what's up? (¿qué onda?)",
+    "ipa": "/sʌp/",
+    "level": "A2",
+    "topic": "informal",
+    "freq": 4,
+    "es": "¿qué onda?; ¿qué hay?",
+    "def": "a very casual greeting meaning 'what's up?'",
+    "note": "Saludo muy informal entre amigos, a veces solo con un movimiento de cabeza. Se responde 'Not much' o 'Nothing much, you?'. No lo uses con jefes ni en una entrevista; nunca en IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal",
+      "slang"
+    ],
+    "ex": [
+      {
+        "en": "Hey man, [sup]?",
+        "es": "Oye, ¿qué onda?"
+      },
+      {
+        "en": "He just walked in and said, \"[Sup]?\"",
+        "es": "Nomás entró y dijo: '¿Qué onda?'"
+      }
+    ]
+  },
+  {
+    "id": "con-prolly",
+    "type": "contraction",
+    "term": "prolly",
+    "full": "probably",
+    "ipa": "/ˈprɑːli/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "probablemente; a lo mejor",
+    "def": "a spoken and texting form of 'probably'",
+    "note": "Imita cómo se 'come' la sílaba de en medio al hablar rápido. Muy común en mensajes. En voz alta, 'probably' bien dicho suena natural; nunca escribas 'prolly' en correos, CV ni IELTS/CELPIP.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "I'll [prolly] be late tonight.",
+        "es": "Probablemente llegue tarde hoy en la noche."
+      },
+      {
+        "en": "It's [prolly] gonna rain anyway.",
+        "es": "De todos modos a lo mejor va a llover."
+      }
+    ]
+  },
+  {
+    "id": "con-lil",
+    "type": "contraction",
+    "term": "lil",
+    "full": "little",
+    "ipa": "/lɪl/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 4,
+    "es": "pequeño; un poquito; chiquito",
+    "def": "a casual spoken form of 'little'",
+    "note": "Muy común en mensajes y nombres de artistas; 'a lil bit' = un poquito. Suena tierno o relajado. En textos formales y en IELTS/CELPIP escritos siempre 'little'.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "Can you turn it up a [lil] bit?",
+        "es": "¿Le puedes subir un poquito?"
+      },
+      {
+        "en": "Look at that [lil] puppy!",
+        "es": "¡Mira ese perrito tan chiquito!"
+      }
+    ]
+  },
+  {
+    "id": "con-lotsa",
+    "type": "contraction",
+    "term": "lotsa",
+    "full": "lots of",
+    "ipa": "/ˈlɑːtsə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 3,
+    "es": "un montón de; muchos",
+    "def": "a spoken form of 'lots of'",
+    "note": "Reflejo de cómo suena 'lots of' rápido: la 'of' se reduce a 'a'. Se ve en mensajes y letreros juguetones ('lotsa pasta'). Nunca en correos formales ni en IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "We've got [lotsa] snacks for the game.",
+        "es": "Tenemos un montón de botanas para el partido."
+      },
+      {
+        "en": "There were [lotsa] people at the market.",
+        "es": "Había muchísima gente en el mercado."
+      }
+    ]
+  },
+  {
+    "id": "con-wontcha",
+    "type": "contraction",
+    "term": "wontcha",
+    "full": "won't you",
+    "ipa": "/ˈwoʊntʃə/",
+    "level": "B1",
+    "topic": "informal",
+    "freq": 2,
+    "es": "¿no vas a…?; ¿por qué no…?",
+    "def": "a spoken form of 'won't you', often in friendly invitations",
+    "note": "La t + you se funde en 'ch' (como en gotcha). Suena a invitación cálida: 'Wontcha stay?'. Sale en canciones y series; en un correo escribe 'Won't you…?' o 'Would you like to…?'. Nunca en IELTS/CELPIP escritos.",
+    "areas": [
+      "series",
+      "conversacion"
+    ],
+    "tags": [
+      "tv",
+      "informal"
+    ],
+    "ex": [
+      {
+        "en": "[Wontcha] stay for dinner?",
+        "es": "¿No te quedas a cenar?"
+      },
+      {
+        "en": "Come on, [wontcha] give it a try?",
+        "es": "Ándale, ¿por qué no lo intentas?"
       }
     ]
   }

@@ -25,6 +25,10 @@ const BLURB: Record<string, string> = {
   ciervo: "Sereno y atento",
   "panda-rojo": "Dormilón con estilo",
   ajolote: "Siempre se regenera",
+  tlacuache: "Mexicano y resistente",
+  mapache: "Ingenioso y nocturno",
+  dragon: "Legendario y cariñoso",
+  unicornio: "Legendario y soñador",
 };
 /** Todas las especies (las de pago se desbloquean en la tienda o en cofres). */
 export const SPECIES = PETS.map((p) => ({ ...p, blurb: BLURB[p.id] ?? "" }));

@@ -8,6 +8,8 @@ import { opKey, useWallet, type Wallet } from "../wallet";
 import { post } from "../armario/api";
 import { GiftScene, type GiftKind, type Pet } from "./GiftScene";
 import { GIFT } from "@/lib/wardrobe";
+import { EmptyArt } from "../ux/EmptyArt";
+import { LeaguePanel, type LeagueData } from "./LeaguePanel";
 
 type Card = { id: string; name: string; species: string; wear: string[]; streak: number; weekXp: number; lastDay: string | null; status: "accepted" | "incoming" | "outgoing"; me?: boolean };
 type Mail = { id: string; kind: GiftKind; amount: number; message: string; sentAt: string; openedAt: string | null; thanks: string | null; other: { id: string; name: string; species: string; wear: string[] } };
@@ -24,7 +26,7 @@ function lastSeen(day: string | null, today: string) {
 type Scene = { mode: "send" | "receive"; kind: GiftKind; amount: number; message: string; pet: Pet; other: string; mail?: Mail; demo?: boolean };
 
 /** Amigos: código para agregar, solicitudes, clasificación semanal, regalos y buzón. */
-export function Friends({ code, friends, ranking, inbox: initialInbox, sent, me, wallet, today }: { code: string; friends: Card[]; ranking: Card[]; inbox: Mail[]; sent: Mail[]; me: Pet; wallet: Omit<Wallet, "streak">; today: string }) {
+export function Friends({ code, friends, ranking, inbox: initialInbox, sent, me, wallet, today, league }: { code: string; friends: Card[]; ranking: Card[]; inbox: Mail[]; sent: Mail[]; me: Pet; wallet: Omit<Wallet, "streak">; today: string; league?: LeagueData }) {
   const router = useRouter();
   const w = useWallet({ ...wallet, streak: 0 });
   const [inbox, setInbox] = useState(initialInbox);
@@ -78,7 +80,7 @@ export function Friends({ code, friends, ranking, inbox: initialInbox, sent, me,
         <h1 className="font-display text-4xl font-extrabold">Amigos</h1>
       </header>
 
-      <section className="grid gap-4 md:grid-cols-2">
+      <section className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="module flex flex-col gap-2 p-5">
           <h2 className="font-black">Tu código de amistad</h2>
           <div className="flex items-center gap-2">
@@ -138,7 +140,10 @@ export function Friends({ code, friends, ranking, inbox: initialInbox, sent, me,
         </section>
       )}
 
-      <section className="grid gap-4 lg:grid-cols-[1fr_1fr]">
+      <section className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+        {league ? (
+          <LeaguePanel league={league} />
+        ) : (
         <div className="module flex flex-col gap-3 p-5">
           <h2 className="flex items-center gap-2 font-display text-2xl font-black">
             <IcoTrophy size={28} /> Clasificación de la semana
@@ -161,12 +166,18 @@ export function Friends({ code, friends, ranking, inbox: initialInbox, sent, me,
           </ol>
           {accepted.length === 0 && <p className="text-sm text-muted">Agrega una amistad para competir esta semana.</p>}
         </div>
+        )}
 
         <div className="module flex flex-col gap-3 p-5">
           <h2 className="flex items-center gap-2 font-display text-2xl font-black">
             <IcoMail size={28} /> Buzón
           </h2>
-          {inbox.length === 0 && <p className="text-sm text-muted">Aún no tienes regalos. Cuando alguien te envíe uno, llegará aquí.</p>}
+          {inbox.length === 0 && (
+            <div className="flex flex-col items-center gap-2 text-center">
+              <EmptyArt kind="vacio-buzon" mood="sleep" />
+              <p className="text-sm text-muted">Aún no tienes regalos. Cuando alguien te envíe uno, llegará aquí.</p>
+            </div>
+          )}
           <ul className="flex flex-col gap-2">
             {inbox.map((m) => (
               <li key={m.id}>
@@ -188,7 +199,12 @@ export function Friends({ code, friends, ranking, inbox: initialInbox, sent, me,
 
       <section className="flex flex-col gap-3">
         <h2 className="font-display text-2xl font-black">Tus amistades</h2>
-        {accepted.length === 0 && <p className="module p-5 text-muted">Todavía no hay nadie. Comparte tu código o escribe el de alguien.</p>}
+        {accepted.length === 0 && (
+          <div className="module flex flex-col items-center gap-2 p-5 text-center">
+            <EmptyArt kind="vacio-amigos" mood="encourage" />
+            <p className="text-muted">Todavía no hay nadie. Comparte tu código o escribe el de alguien.</p>
+          </div>
+        )}
         <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
           {accepted.map((f) => (
             <li key={f.id} className="module flex items-center gap-3 p-4">

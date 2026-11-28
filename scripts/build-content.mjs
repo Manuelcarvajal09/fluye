@@ -73,7 +73,8 @@ write("music.json", json(c("music", "exercises.json")));
 // Inglés de series: microescenas originales, de B1 a C2.
 const LV = ["A1", "A2", "B1", "B2", "C1", "C2"];
 write("series.json", (existsSync(c("series")) ? readDir(c("series")) : []).sort((a, b) => LV.indexOf(a.level) - LV.indexOf(b.level) || a.id.localeCompare(b.id)));
-write("tenses.json", json(c("grammar", "tenses.json")).sort((a, b) => a.order - b.order));
+// Gramática: tenses.json (tiempos y estructuras base) más las unidades nuevas de content/grammar/*.json.
+write("tenses.json", readdirSync(c("grammar")).filter((f) => f.endsWith(".json")).flatMap((f) => json(c("grammar", f))).sort((a, b) => a.order - b.order));
 
 const missingTv = tvList.filter((id) => !items.some((i) => i.id === id));
 if (missingTv.length) console.warn(`aviso: ${missingTv.length} ids de tv-phrasal.json no existen: ${missingTv.slice(0, 5).join(", ")}`);

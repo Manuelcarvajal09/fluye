@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Search } from "lucide-react";
+import { Search, SlidersHorizontal, X } from "lucide-react";
 import { requireProfile, settingsOf } from "@/lib/user";
 import { maskExplicit, REGISTER_ES } from "@/lib/realtalk";
 import { ITEMS, levelIndex } from "@/lib/content";
@@ -9,6 +9,8 @@ import { LibraryGrid } from "@/components/LibraryGrid";
 import { collectionsOf } from "@/lib/collections";
 import { normalize } from "@/lib/answer";
 import { AREAS } from "@/lib/areas";
+import { EmptyArt } from "@/components/ux/EmptyArt";
+import { SectionHeader } from "@/components/ux/SectionHeader";
 
 export const metadata = { title: "Biblioteca" };
 const PER = 48;
@@ -21,7 +23,10 @@ export default async function Library({ searchParams }: PageProps<"/biblioteca">
   const str = (k: string) => (typeof sp[k] === "string" ? (sp[k] as string) : "");
   const q = normalize(str("q"));
   const type = str("type");
-  const level = str("level");
+  // Sin ningún filtro (primera visita), la lista empieza en tu nivel; «todos» los muestra todos.
+  const fresh = Object.keys(sp).length === 0;
+  const levelParam = fresh ? profile.level : str("level");
+  const level = levelParam === "todos" ? "" : levelParam;
   const topic = str("topic");
   const status = str("status");
   const area = str("area");
@@ -49,19 +54,34 @@ export default async function Library({ searchParams }: PageProps<"/biblioteca">
   const counts = { total: ITEMS.length, learning: [...statuses.values()].filter((s) => s === "learning").length, mastered: [...statuses.values()].filter((s) => s === "mastered").length };
   const link = (p: number) => {
     const u = new URLSearchParams();
-    for (const [k, v] of Object.entries({ q: str("q"), type, level, topic, status, area, tag, show })) if (v) u.set(k, v);
+    for (const [k, v] of Object.entries({ q: str("q"), type, level: levelParam, topic, status, area, tag, show })) if (v) u.set(k, v);
     if (p > 1) u.set("page", String(p));
     return `/biblioteca${u.size ? `?${u}` : ""}`;
   };
+  // Chips rápidos: cada uno activa o quita su filtro conservando los demás.
+  const toggle = (k: string, v: string) => {
+    const cur: Record<string, string> = { q: str("q"), type, level: levelParam || "todos", topic, status, area, tag, show };
+    cur[k] = cur[k] === v ? (k === "level" ? "todos" : "") : v;
+    const u = new URLSearchParams();
+    for (const [kk, vv] of Object.entries(cur)) if (vv) u.set(kk, vv);
+    return `/biblioteca?${u}`;
+  };
+  const QUICK: [string, string, string][] = [
+    ["level", profile.level, `Mi nivel (${profile.level})`],
+    ["status", "learning", "Aprendiendo"],
+    ["type", "phrasal", "Phrasal verbs"],
+    ["tag", "tv", "De series"],
+    ["area", "hogar", "Vida diaria"],
+  ];
+  const active = [type, level, area, tag, status, show].filter(Boolean).length;
 
   return (
     <div className="flex flex-col gap-5">
-      <header>
-        <h1 className="font-display text-4xl font-extrabold">Biblioteca</h1>
+      <SectionHeader art="biblioteca" title="Biblioteca">
         <p className="text-muted">
           {counts.total} expresiones · {counts.learning} aprendiendo · {counts.mastered} dominadas
         </p>
-      </header>
+      </SectionHeader>
 
       <div className="grid gap-3 sm:grid-cols-2">
         <Link href="/biblioteca/colecciones" className="module flex items-center justify-between gap-3 p-4">
@@ -80,23 +100,66 @@ export default async function Library({ searchParams }: PageProps<"/biblioteca">
         </Link>
       </div>
 
-      <form className="card grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-7" role="search">
+      {/* Buscador y un botón «Filtros (n)»: los selectores viven en una hoja (popover nativo, se cierra con Esc o tocando fuera). */}
+      <form id="lib-form" className="flex gap-2" role="search">
         {topic && <input type="hidden" name="topic" value={topic} />}
-        <label className="relative sm:col-span-2 lg:col-span-2">
+        <label className="relative min-w-0 flex-1">
           <span className="sr-only">Buscar</span>
           <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted" aria-hidden />
-          <input name="q" defaultValue={str("q")} placeholder="Buscar en inglés o español…" className="h-12 w-full rounded-xl border-2 border-line bg-surface pl-10 pr-3 font-semibold outline-none focus:border-accent" />
+          <input name="q" defaultValue={str("q")} placeholder="Inglés o español…" className="h-12 w-full rounded-xl border-2 border-line bg-surface pl-10 pr-3 font-semibold outline-none focus:border-accent" />
         </label>
-        <Select name="type" value={type} label="Tipo" options={Object.entries(TYPE_LABEL) as [ItemType, string][]} />
-        <Select name="level" value={level} label="Nivel" options={LEVELS.map((l) => [l, l])} />
-        <Select name="area" value={area} label="Área" options={AREAS.map((a) => [a.id, a.label])} />
-        <Select name="tag" value={tag} label="Etiqueta" options={[["real", "Inglés real (slang, groserías)"], ["shows", "Para ver series"], ["tv", "Frecuente en series"], ["ca", "Propio de Canadá"], ["informal", "Informal"], ["slang", "Slang"]]} />
-        {tag === "shows" && <Select name="show" value={show} label="Serie" options={[["big-bang-theory", "The Big Bang Theory"], ["himym", "How I Met Your Mother"], ["helluva-boss", "Helluva Boss"], ["hazbin-hotel", "Hazbin Hotel"], ["suits", "Suits"], ["the-mentalist", "The Mentalist"], ["bojack-horseman", "BoJack Horseman"], ["sitcoms", "Sitcoms en general"]]} />}
-        <Select name="status" value={status} label="Estado" options={Object.entries(STATUS_LABEL)} />
-        <button className="btn btn-primary">Filtrar</button>
+        <button type="button" popoverTarget="filtros" className="btn btn-ghost h-12 min-h-12 shrink-0 px-3" aria-label={`Filtros${active ? ` (${active} activos)` : ""}`}>
+          <SlidersHorizontal size={18} aria-hidden /> <span className="max-sm:sr-only">Filtros</span>
+          {active > 0 && <span className="chip bg-brand text-xs text-white">{active}</span>}
+        </button>
+        <button className="btn btn-primary h-12 min-h-12 shrink-0 px-4">Buscar</button>
+        <div id="filtros" popover="auto" className="filter-sheet" aria-label="Filtros">
+          <div className="flex items-center justify-between gap-2">
+            <h2 className="text-xl font-black">Filtros</h2>
+            <button type="button" popoverTarget="filtros" popoverTargetAction="hide" className="btn btn-ghost h-10 w-10 min-h-10 !p-0" aria-label="Cerrar filtros">
+              <X size={20} aria-hidden />
+            </button>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Select form="lib-form" name="type" value={type} label="Tipo" options={Object.entries(TYPE_LABEL) as [ItemType, string][]} />
+            <Select form="lib-form" name="level" value={levelParam || "todos"} label="Nivel" allValue="todos" options={LEVELS.map((l) => [l, l])} />
+            <Select form="lib-form" name="area" value={area} label="Área" options={AREAS.map((a) => [a.id, a.label])} />
+            <Select form="lib-form" name="tag" value={tag} label="Etiqueta" options={[["real", "Inglés real (slang, groserías)"], ["shows", "Para ver series"], ["tv", "Frecuente en series"], ["ca", "Propio de Canadá"], ["informal", "Informal"], ["slang", "Slang"]]} />
+            {tag === "shows" && <Select form="lib-form" name="show" value={show} label="Serie" options={[["big-bang-theory", "The Big Bang Theory"], ["himym", "How I Met Your Mother"], ["helluva-boss", "Helluva Boss"], ["hazbin-hotel", "Hazbin Hotel"], ["suits", "Suits"], ["the-mentalist", "The Mentalist"], ["bojack-horseman", "BoJack Horseman"], ["sitcoms", "Sitcoms en general"]]} />}
+            <Select form="lib-form" name="status" value={status} label="Estado" options={Object.entries(STATUS_LABEL)} />
+          </div>
+          <div className="flex gap-2">
+            <button form="lib-form" className="btn btn-primary flex-1">
+              Ver resultados
+            </button>
+            <Link href="/biblioteca?level=todos" className="btn btn-ghost">
+              Quitar todos
+            </Link>
+          </div>
+        </div>
       </form>
+      <nav aria-label="Filtros rápidos" className="-mx-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
+        {QUICK.map(([k, v, label]) => {
+          const on = (k === "level" ? level : k === "status" ? status : k === "type" ? type : k === "tag" ? tag : area) === v;
+          return (
+            <Link key={k} href={toggle(k, v)} aria-current={on ? "true" : undefined} className={`chip-btn shrink-0 whitespace-nowrap ${on ? "is-on" : ""}`}>
+              {label}
+            </Link>
+          );
+        })}
+      </nav>
 
       <p className="text-sm font-bold text-muted">{filtered.length} resultados</p>
+      {filtered.length === 0 && (
+        <div className="empty-state">
+          <EmptyArt kind="vacio-busqueda" mood="think" />
+          <h2 className="font-display text-2xl font-extrabold">Nada con estos filtros</h2>
+          <p className="max-w-sm text-muted">Prueba otra palabra, en inglés o en español, o quita algún filtro.</p>
+          <Link href="/biblioteca" className="btn btn-ghost">
+            Quitar filtros
+          </Link>
+        </div>
+      )}
       <LibraryGrid
         collections={cols.map((c) => ({ id: c.id, name: c.name, n: c.n }))}
         items={shown.map((i) => ({
@@ -129,12 +192,12 @@ export default async function Library({ searchParams }: PageProps<"/biblioteca">
   );
 }
 
-function Select({ name, value, label, options }: { name: string; value: string; label: string; options: [string, string][] }) {
+function Select({ name, value, label, options, form, allValue = "" }: { name: string; value: string; label: string; options: [string, string][]; form?: string; allValue?: string }) {
   return (
-    <label>
-      <span className="sr-only">{label}</span>
-      <select name={name} defaultValue={value} className="h-12 w-full rounded-xl border-2 border-line bg-surface px-3 font-semibold outline-none focus:border-accent">
-        <option value="">{label}: todos</option>
+    <label className="flex flex-col gap-1 text-sm font-bold text-muted">
+      {label}
+      <select form={form} name={name} defaultValue={value} className="h-12 w-full rounded-xl border-2 border-line bg-surface px-3 font-semibold text-text outline-none focus:border-accent">
+        <option value={allValue}>Todos</option>
         {options.map(([v, l]) => (
           <option key={v} value={v}>
             {l}

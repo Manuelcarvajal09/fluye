@@ -1,0 +1,3184 @@
+[
+  {
+    "id": "gr-linking-contrast-cause",
+    "order": 29,
+    "name_en": "Linking words: contrast, addition, cause and result",
+    "title_es": "Conectores de contraste, adición y causa-efecto",
+    "group": "escritura",
+    "level": "B1",
+    "use_es": "Los conectores son las palabras que unen ideas y le dicen al lector qué relación hay entre ellas: si una idea contradice a otra (however, although), si añade algo (moreover, in addition) o si es la consecuencia de otra (therefore, as a result). Sin ellos, un ensayo parece una lista de frases sueltas. El truco no es usar muchos, sino elegir el correcto y puntuarlo bien, porque cada conector tiene su propia gramática: unos van con una oración completa, otros con un sustantivo y otros abren una frase nueva.",
+    "steps": [
+      {
+        "title_es": "Contraste dentro de la misma oración: although y whereas",
+        "body_es": "Although (aunque) y whereas (mientras que) son conjunciones: unen dos oraciones completas (sujeto + verbo) dentro de la misma frase. Although presenta una idea que sorprende frente a la otra; whereas compara dos cosas que son diferentes entre sí, muy útil para contrastar grupos o datos. Si la oración con although va primero, se pone coma al final de esa parte. Ojo: en inglés nunca se dice although... but; con un solo conector basta.",
+        "examples": [
+          {
+            "en": "Although public transport is cheaper, many people still prefer to drive.",
+            "es": "Aunque el transporte público es más barato, mucha gente sigue prefiriendo manejar."
+          },
+          {
+            "en": "Younger workers favour remote jobs, whereas older employees tend to prefer the office.",
+            "es": "Los trabajadores jóvenes prefieren el trabajo remoto, mientras que los mayores suelen preferir la oficina."
+          }
+        ],
+        "table": [
+          [
+            "although / even though + oración",
+            "aunque (contraste o sorpresa)"
+          ],
+          [
+            "whereas / while + oración",
+            "mientras que (comparar dos cosas distintas)"
+          ]
+        ]
+      },
+      {
+        "title_es": "Despite e in spite of: van con sustantivo o -ing",
+        "body_es": "Despite y in spite of significan lo mismo que although, pero son preposiciones: después de ellas no puede ir una oración con sujeto y verbo, sino un sustantivo (despite the cost), un gerundio (despite having...) o la fórmula the fact that + oración. Es uno de los errores más comunes: *despite it is expensive* no existe. Recuerda también que es despite, sin of, e in spite of, con of.",
+        "examples": [
+          {
+            "en": "Despite the high cost, the project was approved.",
+            "es": "A pesar del alto costo, el proyecto se aprobó."
+          },
+          {
+            "en": "In spite of living in a big city, she rarely uses public transport.",
+            "es": "A pesar de vivir en una ciudad grande, casi nunca usa el transporte público."
+          },
+          {
+            "en": "Despite the fact that prices rose, sales remained stable.",
+            "es": "A pesar de que los precios subieron, las ventas se mantuvieron estables."
+          }
+        ]
+      },
+      {
+        "title_es": "However, moreover, therefore: conectores entre oraciones",
+        "body_es": "However (sin embargo), moreover / furthermore / in addition (además) y therefore / as a result / consequently (por lo tanto, como resultado) son adverbios de enlace: conectan una oración con la anterior. Normalmente abren la frase nueva, después de un punto, y llevan coma: Prices increased. However, demand stayed high. También pueden ir después de un punto y coma (; however,). Lo que no se puede hacer es unir dos oraciones solo con coma + however, como se haría con pero en español.",
+        "examples": [
+          {
+            "en": "Online courses are flexible. However, they require a lot of self-discipline.",
+            "es": "Los cursos en línea son flexibles. Sin embargo, exigen mucha autodisciplina."
+          },
+          {
+            "en": "The city built new bike lanes; as a result, cycling increased significantly.",
+            "es": "La ciudad construyó nuevas ciclovías; como resultado, el uso de la bicicleta aumentó mucho."
+          }
+        ],
+        "table": [
+          [
+            "However, / Nevertheless,",
+            "Sin embargo, (contraste)"
+          ],
+          [
+            "Moreover, / Furthermore, / In addition,",
+            "Además, (añadir un argumento)"
+          ],
+          [
+            "Therefore, / As a result, / Consequently,",
+            "Por lo tanto, / Como resultado, (consecuencia)"
+          ]
+        ]
+      },
+      {
+        "title_es": "Causa: because, because of, due to, since",
+        "body_es": "Para dar la causa también importa qué viene después. Because y since van con una oración completa (because prices rose). Because of y due to van con un sustantivo (because of the rise in prices). En un ensayo formal, due to y owing to suenan más académicos que because of. Y as a result of + sustantivo presenta la causa, mientras que as a result, con coma, presenta la consecuencia.",
+        "examples": [
+          {
+            "en": "Many families moved to the suburbs because housing was cheaper there.",
+            "es": "Muchas familias se mudaron a las afueras porque la vivienda era más barata allí."
+          },
+          {
+            "en": "The flight was cancelled due to heavy snow.",
+            "es": "El vuelo se canceló debido a una fuerte nevada."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "Although technology saves time, it can also make people less patient.",
+        "es": "Aunque la tecnología ahorra tiempo, también puede hacer que la gente sea menos paciente."
+      },
+      {
+        "en": "Rural areas lost population, whereas cities grew rapidly.",
+        "es": "Las zonas rurales perdieron población, mientras que las ciudades crecieron rápidamente."
+      },
+      {
+        "en": "Recycling is cheap to organize. Moreover, it reduces the amount of waste sent to landfills.",
+        "es": "El reciclaje es barato de organizar. Además, reduce la cantidad de basura que llega a los rellenos sanitarios."
+      },
+      {
+        "en": "Despite my busy schedule, I try to read every evening.",
+        "es": "A pesar de mi horario tan ocupado, intento leer todas las noches."
+      }
+    ],
+    "mistakes_es": "1) *Despite it is expensive* → *Despite the cost* / *Although it is expensive* (despite va con sustantivo o -ing, no con oración). 2) *Although it rained, but we went out* → *Although it rained, we went out* (no se combinan although y but). 3) *The plan is good, however it is expensive* → *The plan is good. However, it is expensive* (however no une dos oraciones con coma). 4) *Despite of the rain* → *Despite the rain* / *In spite of the rain*. 5) *Because of prices rose* → *Because prices rose* / *Because of the rise in prices*.",
+    "ielts_es": "Ayuda en Writing Task 2 y Task 1, sobre todo en el criterio Coherence and Cohesion, que valora cómo enlazas las ideas y si los recursos de cohesión se usan con precisión. También se nota en Grammatical Range and Accuracy, porque la puntuación y la estructura correcta de cada conector son parte de la exactitud. Consejo: no abras cada frase con un conector; un uso mecánico (Firstly, Moreover, Furthermore en cada línea) se nota. Usa uno cuando la relación lógica no sea obvia.",
+    "practice": [
+      {
+        "q": "___ the weather was terrible, the event was a success.",
+        "options": [
+          "Despite",
+          "Although",
+          "However",
+          "Because of"
+        ],
+        "answer": 1,
+        "why_es": "Después viene una oración completa (the weather was terrible), así que necesitamos una conjunción: although. Despite necesitaría un sustantivo."
+      },
+      {
+        "q": "The rent is high. ___, the apartment is close to everything.",
+        "options": [
+          "However",
+          "Although",
+          "Despite",
+          "Whereas"
+        ],
+        "answer": 0,
+        "why_es": "Es una oración nueva tras punto, así que va un adverbio de enlace con coma: However,."
+      },
+      {
+        "q": "___ the heavy traffic, we arrived on time.",
+        "options": [
+          "Although",
+          "Even though",
+          "In spite of",
+          "However"
+        ],
+        "answer": 2,
+        "why_es": "The heavy traffic es un sustantivo, no una oración; por eso va in spite of (o despite)."
+      },
+      {
+        "q": "Some students learn best by reading, ___ others prefer videos.",
+        "options": [
+          "therefore",
+          "despite",
+          "moreover",
+          "whereas"
+        ],
+        "answer": 3,
+        "why_es": "Comparamos dos grupos con preferencias distintas dentro de la misma oración: whereas (mientras que)."
+      },
+      {
+        "q": "The factory closed. ___, hundreds of people lost their jobs.",
+        "options": [
+          "As a result",
+          "Because of",
+          "Although",
+          "Despite"
+        ],
+        "answer": 0,
+        "why_es": "La segunda oración es la consecuencia de la primera: As a result, (como resultado)."
+      },
+      {
+        "q": "The match was postponed ___ the storm.",
+        "options": [
+          "because",
+          "due to",
+          "although",
+          "therefore"
+        ],
+        "answer": 1,
+        "why_es": "The storm es un sustantivo, así que necesitamos due to (o because of). Because pediría una oración."
+      },
+      {
+        "q": "Cycling is good for your health. ___, it does not pollute the air.",
+        "options": [
+          "Whereas",
+          "Despite",
+          "Moreover",
+          "Although"
+        ],
+        "answer": 2,
+        "why_es": "Añadimos un segundo argumento a favor en una oración nueva: Moreover, (además)."
+      },
+      {
+        "q": "Which sentence is punctuated correctly?",
+        "options": [
+          "The idea is good, however it is costly.",
+          "The idea is good however, it is costly.",
+          "The idea is good; however, it is costly.",
+          "The idea is good however it is costly."
+        ],
+        "answer": 2,
+        "why_es": "However une dos oraciones independientes solo con punto o punto y coma, y lleva coma después: ; however,."
+      }
+    ]
+  },
+  {
+    "id": "gr-cohesion-reference",
+    "order": 30,
+    "name_en": "Cohesion: reference and substitution",
+    "title_es": "Cohesión: referencias y sustitución para no repetir",
+    "group": "escritura",
+    "level": "B2",
+    "use_es": "La cohesión es lo que hace que un texto se lea como un todo y no como frases aisladas. Una forma clave de lograrla es referirse a algo que ya mencionaste sin repetirlo: con pronombres (it, they), demostrativos (this, these), palabras como such o the former / the latter, y sustitutos como one, do so o so. En español también lo hacemos (esto, dicho problema, el primero), pero en inglés hay reglas precisas de número y de claridad que conviene dominar para que el examinador nunca dude a qué te refieres.",
+    "steps": [
+      {
+        "title_es": "This / these + sustantivo para resumir la idea anterior",
+        "body_es": "Una de las herramientas más útiles en un ensayo es empezar una oración con this o these seguido de un sustantivo que resume lo que acabas de decir: this trend, this problem, these changes, this approach. Es más claro que un this solo, porque el lector sabe exactamente a qué te refieres. Recuerda que this y that van con singular, y these y those con plural: these problems, nunca *this problems*.",
+        "examples": [
+          {
+            "en": "Many young people cannot afford to buy a home. This problem is especially serious in large cities.",
+            "es": "Muchos jóvenes no pueden comprar una casa. Este problema es especialmente grave en las ciudades grandes."
+          },
+          {
+            "en": "Some schools have banned phones in class. These measures aim to improve concentration.",
+            "es": "Algunas escuelas han prohibido los teléfonos en clase. Estas medidas buscan mejorar la concentración."
+          }
+        ]
+      },
+      {
+        "title_es": "Such, the former y the latter",
+        "body_es": "Such + sustantivo significa algo como «este tipo de»: such policies, such a decision (en singular lleva a o an). The former se refiere al primero de dos elementos que acabas de mencionar y the latter al segundo. Son muy útiles cuando comparas dos opciones en Task 2, pero solo funcionan con dos elementos y deben estar muy cerca en el texto; si el lector tiene que regresar a buscar, mejor repite el sustantivo.",
+        "examples": [
+          {
+            "en": "Governments could invest in trains or in new highways. The former would reduce pollution, while the latter might increase traffic.",
+            "es": "Los gobiernos podrían invertir en trenes o en nuevas autopistas. Lo primero reduciría la contaminación, mientras que lo segundo podría aumentar el tráfico."
+          },
+          {
+            "en": "Such policies are popular with voters but expensive to maintain.",
+            "es": "Este tipo de políticas son populares entre los votantes pero caras de mantener."
+          }
+        ],
+        "table": [
+          [
+            "the former",
+            "el primero / lo primero (de dos)"
+          ],
+          [
+            "the latter",
+            "el segundo / lo segundo (de dos)"
+          ],
+          [
+            "such + plural / such a + singular",
+            "este tipo de, semejante"
+          ]
+        ]
+      },
+      {
+        "title_es": "Sustituir con one, ones, do so y so",
+        "body_es": "En lugar de repetir un sustantivo contable, el inglés usa one (singular) o ones (plural): old buildings and new ones. Para no repetir una acción completa se usa do so o simplemente do: Some people recycle, but many do not (do so). Y so sustituye una oración después de verbos como think, hope o expect: Will prices fall? I hope so. En español solemos omitir la palabra, pero en inglés hace falta este sustituto.",
+        "examples": [
+          {
+            "en": "The new apartments are more expensive than the old ones.",
+            "es": "Los departamentos nuevos son más caros que los viejos."
+          },
+          {
+            "en": "Employees are encouraged to cycle to work, and many have chosen to do so.",
+            "es": "Se anima a los empleados a ir en bici al trabajo, y muchos han decidido hacerlo."
+          }
+        ]
+      },
+      {
+        "title_es": "Pronombres claros: evita la ambigüedad",
+        "body_es": "It, they y them deben tener un referente obvio. Si en la oración anterior hay dos sustantivos posibles, el pronombre puede confundir: Parents and teachers disagree, and they think... ¿quiénes? En ese caso repite el sustantivo o usa the former / the latter. Otra trampa: el sujeto no se repite con un pronombre. *The government it should act* está mal; basta con The government should act.",
+        "examples": [
+          {
+            "en": "Parents often blame teachers, but teachers argue that discipline starts at home.",
+            "es": "Los padres suelen culpar a los maestros, pero los maestros sostienen que la disciplina empieza en casa."
+          },
+          {
+            "en": "Social media can spread false information quickly. It can also connect people with useful services.",
+            "es": "Las redes sociales pueden difundir información falsa rápidamente. También pueden conectar a las personas con servicios útiles."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "Car use in the city has doubled. This increase has led to longer commutes.",
+        "es": "El uso del coche en la ciudad se ha duplicado. Este aumento ha provocado trayectos más largos."
+      },
+      {
+        "en": "Students can study online or on campus. The latter offers more contact with teachers.",
+        "es": "Los estudiantes pueden estudiar en línea o en el campus. Lo segundo ofrece más contacto con los profesores."
+      },
+      {
+        "en": "Some companies allow flexible hours, and others are starting to do so.",
+        "es": "Algunas empresas permiten horarios flexibles, y otras están empezando a hacerlo."
+      },
+      {
+        "en": "I used to have a small phone, but now I have a bigger one.",
+        "es": "Antes tenía un teléfono pequeño, pero ahora tengo uno más grande."
+      }
+    ],
+    "mistakes_es": "1) *This problems are serious* → *These problems are serious* (concordancia de número). 2) *The government it should invest* → *The government should invest* (no se repite el sujeto con pronombre). 3) *Old houses are cheaper than new* → *Old houses are cheaper than new ones* (hace falta ones). 4) *Do you think it will rain? I think yes* → *I think so* (so sustituye la oración). 5) Usar *the latter* con tres elementos → con tres o más, repite el sustantivo o usa *the last one*.",
+    "ielts_es": "Se nota sobre todo en Writing Task 2 y Task 1, en el criterio Coherence and Cohesion, que menciona explícitamente el uso de referencias y sustitución. También mejora Lexical Resource, porque evitar repetir la misma palabra muestra más variedad. Consejo: al revisar tu ensayo, busca un sustantivo que aparezca tres o más veces seguidas y cambia una de esas repeticiones por this + sustantivo resumen o por un pronombre claro.",
+    "practice": [
+      {
+        "q": "Many cities have introduced bike-sharing schemes. ___ schemes are popular with tourists.",
+        "options": [
+          "This",
+          "These",
+          "That",
+          "Such a"
+        ],
+        "answer": 1,
+        "why_es": "Schemes es plural, así que el demostrativo debe ser plural: These."
+      },
+      {
+        "q": "You can rent a car or take the bus. ___ is cheaper but slower.",
+        "options": [
+          "The latter",
+          "The latters",
+          "The last",
+          "Such"
+        ],
+        "answer": 0,
+        "why_es": "Nos referimos a la segunda opción de dos (the bus): the latter, siempre en singular."
+      },
+      {
+        "q": "My old laptop was slow, so I bought a new ___.",
+        "options": [
+          "it",
+          "ones",
+          "one",
+          "so"
+        ],
+        "answer": 2,
+        "why_es": "Sustituimos un sustantivo contable singular (laptop) con one."
+      },
+      {
+        "q": "Will the train be late? — I hope ___.",
+        "options": [
+          "it",
+          "yes",
+          "that",
+          "not"
+        ],
+        "answer": 3,
+        "why_es": "Hope not significa «espero que no». Con think, hope o expect se usa so / not para sustituir la oración; aquí not es la única opción gramatical."
+      },
+      {
+        "q": "___ a decision would affect thousands of families.",
+        "options": [
+          "Such",
+          "Such a",
+          "These",
+          "This a"
+        ],
+        "answer": 1,
+        "why_es": "Decision es singular contable: such a decision (este tipo de decisión)."
+      },
+      {
+        "q": "Choose the sentence without an error.",
+        "options": [
+          "The school it needs more teachers.",
+          "The school needs more teachers.",
+          "The school, it needs more teachers.",
+          "The school needs more teachers it."
+        ],
+        "answer": 1,
+        "why_es": "En inglés el sujeto no se repite con un pronombre: The school needs more teachers."
+      },
+      {
+        "q": "Some employees work from home, and more companies are allowing them to ___.",
+        "options": [
+          "do so",
+          "make so",
+          "do it so",
+          "so do"
+        ],
+        "answer": 0,
+        "why_es": "Do so sustituye una acción ya mencionada (work from home)."
+      },
+      {
+        "q": "Fewer people are buying newspapers. ___ has forced many publishers to go digital.",
+        "options": [
+          "These trend",
+          "This trend",
+          "Such trends",
+          "That trends"
+        ],
+        "answer": 1,
+        "why_es": "This + sustantivo singular resume la idea anterior: This trend."
+      }
+    ]
+  },
+  {
+    "id": "gr-hedging",
+    "order": 31,
+    "name_en": "Hedging and cautious language",
+    "title_es": "Lenguaje prudente: cómo no exagerar en un ensayo",
+    "group": "escritura",
+    "level": "B2",
+    "use_es": "Hedging es suavizar una afirmación para que no suene absoluta. En un texto académico, decir que algo siempre ocurre o que todos piensan igual casi nunca es verdad, y suena poco serio. Con verbos modales (may, might, could), verbos como tend to o appear to, expresiones como it is likely that y cuantificadores como many o to some extent, presentas tus ideas como razonables y defendibles. No es ser indeciso: es mostrar que piensas con matices, algo que se espera en un ensayo de nivel alto.",
+    "steps": [
+      {
+        "title_es": "Modales: may, might, could",
+        "body_es": "May, might y could expresan posibilidad, no certeza. Después de ellos el verbo va en forma base, sin to y sin -s: it may cause, nunca *it may causes* ni *it may to cause*. May suena un poco más probable y formal; might, un poco menos seguro; could, que algo es posible. Compara: Technology causes isolation (afirmación absoluta) con Technology may cause isolation in some cases (afirmación prudente y más fácil de defender).",
+        "examples": [
+          {
+            "en": "Working from home may reduce stress for some employees.",
+            "es": "Trabajar desde casa puede reducir el estrés de algunos empleados."
+          },
+          {
+            "en": "Higher taxes on fuel could encourage people to use public transport.",
+            "es": "Impuestos más altos a la gasolina podrían animar a la gente a usar el transporte público."
+          }
+        ]
+      },
+      {
+        "title_es": "Tend to, appear to, seem to",
+        "body_es": "Estos verbos describen una tendencia general sin afirmar que siempre es así. Tend to + verbo significa «suele» o «tiende a»: Older people tend to read more newspapers. Appear to y seem to indican que algo parece ser cierto según la evidencia. Son ideales para hablar de grupos de personas sin generalizar en exceso.",
+        "examples": [
+          {
+            "en": "Children who read regularly tend to have a wider vocabulary.",
+            "es": "Los niños que leen con regularidad suelen tener un vocabulario más amplio."
+          },
+          {
+            "en": "The policy appears to have had little effect on traffic.",
+            "es": "La política parece haber tenido poco efecto en el tráfico."
+          }
+        ]
+      },
+      {
+        "title_es": "It is likely that, to some extent y otros suavizadores",
+        "body_es": "Hay expresiones fijas muy útiles. It is likely / unlikely that + oración (es probable / poco probable que). X is likely to + verbo (es probable que X...). To some extent o to a certain extent (hasta cierto punto) para estar de acuerdo solo en parte. También los cuantificadores: many, most, some, a large number of, en lugar de people o everyone. Y adverbios como generally, often, probably, arguably.",
+        "examples": [
+          {
+            "en": "It is likely that more jobs will be automated in the next decade.",
+            "es": "Es probable que más empleos se automaticen en la próxima década."
+          },
+          {
+            "en": "I agree to some extent that university should be free.",
+            "es": "Estoy de acuerdo hasta cierto punto en que la universidad debería ser gratuita."
+          }
+        ],
+        "table": [
+          [
+            "It is likely that... / X is likely to...",
+            "es probable que..."
+          ],
+          [
+            "to some extent / to a certain extent",
+            "hasta cierto punto"
+          ],
+          [
+            "generally, often, arguably",
+            "en general, a menudo, se podría decir que"
+          ],
+          [
+            "many / most / some people",
+            "muchas / la mayoría de / algunas personas (no everyone)"
+          ]
+        ]
+      },
+      {
+        "title_es": "Sin pasarse: equilibrio entre seguridad y prudencia",
+        "body_es": "Demasiado hedging también es un problema: It might possibly perhaps be true suena inseguro y confuso. Usa una sola marca de prudencia por idea, y reserva la certeza para lo que sí es claro (datos de una gráfica, hechos evidentes). En tu opinión principal de Task 2 puedes ser firme (I strongly believe...), y suavizar los argumentos de apoyo o las predicciones.",
+        "examples": [
+          {
+            "en": "This trend will probably continue.",
+            "es": "Esta tendencia probablemente continuará."
+          },
+          {
+            "en": "Online learning is arguably the most important change in education this century.",
+            "es": "Se podría decir que el aprendizaje en línea es el cambio más importante en la educación de este siglo."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "Social media may contribute to lower self-esteem among teenagers.",
+        "es": "Las redes sociales pueden contribuir a una menor autoestima entre los adolescentes."
+      },
+      {
+        "en": "People in large cities tend to spend more time commuting.",
+        "es": "La gente de las ciudades grandes suele pasar más tiempo en traslados."
+      },
+      {
+        "en": "It is unlikely that cars will disappear completely from city centres.",
+        "es": "Es poco probable que los coches desaparezcan por completo del centro de las ciudades."
+      },
+      {
+        "en": "To a certain extent, the success of a student depends on the teacher.",
+        "es": "Hasta cierto punto, el éxito de un estudiante depende del maestro."
+      }
+    ],
+    "mistakes_es": "1) *It may causes problems* → *It may cause problems* (después de modal, forma base). 2) *People tends to* → *People tend to* (people es plural). 3) *It is likely to more jobs disappear* → *It is likely that more jobs will disappear* / *More jobs are likely to disappear*. 4) *Everybody thinks that technology is bad* → *Many people believe that technology can be harmful* (evitar generalizar). 5) *In some extent* → *To some extent* (la preposición es to).",
+    "ielts_es": "Se nota en Writing Task 2 y en Speaking Part 3, donde se habla de temas generales. Mejora Grammatical Range and Accuracy (uso variado de modales y estructuras) y Lexical Resource (expresiones precisas como to some extent o arguably); además ayuda a que tus argumentos sean más razonables, algo que pesa en Task Response. Consejo: revisa tu ensayo buscando always, never, everyone y all; cambia la mayoría por tend to, often, many o most, salvo cuando de verdad sea un hecho.",
+    "practice": [
+      {
+        "q": "Video games ___ improve some cognitive skills.",
+        "options": [
+          "may",
+          "may to",
+          "mays",
+          "are may"
+        ],
+        "answer": 0,
+        "why_es": "Modal + verbo base: may improve. Nunca lleva to ni -s."
+      },
+      {
+        "q": "Young people ___ use social media more than older adults.",
+        "options": [
+          "tends to",
+          "tend",
+          "tend to",
+          "are tend to"
+        ],
+        "answer": 2,
+        "why_es": "People es plural y la estructura es tend to + verbo: tend to use."
+      },
+      {
+        "q": "It is likely ___ prices will rise next year.",
+        "options": [
+          "to",
+          "that",
+          "of",
+          "for"
+        ],
+        "answer": 1,
+        "why_es": "La estructura es It is likely that + oración."
+      },
+      {
+        "q": "Remote work is ___ to become more common.",
+        "options": [
+          "likely",
+          "likely that",
+          "probably",
+          "may"
+        ],
+        "answer": 0,
+        "why_es": "Sujeto + be likely to + verbo: Remote work is likely to become..."
+      },
+      {
+        "q": "I agree ___ that exams are stressful, but they are also necessary.",
+        "options": [
+          "in some extent",
+          "to some extent",
+          "at some extent",
+          "on some extent"
+        ],
+        "answer": 1,
+        "why_es": "La expresión fija es to some extent (hasta cierto punto)."
+      },
+      {
+        "q": "Which sentence is the most appropriately cautious for an essay?",
+        "options": [
+          "Technology always makes people lazy.",
+          "Technology might possibly perhaps make people lazy.",
+          "Technology makes everyone lazy.",
+          "Technology can make some people less active."
+        ],
+        "answer": 3,
+        "why_es": "Suaviza con can y some sin acumular marcas de duda como might possibly perhaps."
+      },
+      {
+        "q": "The new law ___ to have reduced crime, according to early data.",
+        "options": [
+          "seem",
+          "appears",
+          "is appearing",
+          "appear"
+        ],
+        "answer": 1,
+        "why_es": "El sujeto es singular (the new law), así que appears to have reduced."
+      },
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "It might to rain later.",
+          "It might rains later.",
+          "It might rain later.",
+          "It mights rain later."
+        ],
+        "answer": 2,
+        "why_es": "Might + verbo base, sin to ni -s: It might rain."
+      }
+    ]
+  },
+  {
+    "id": "gr-opinion-argument",
+    "order": 32,
+    "name_en": "Expressing opinion and structuring an argument",
+    "title_es": "Dar tu opinión y organizar el argumento en Task 2",
+    "group": "escritura",
+    "level": "B2",
+    "use_es": "En Writing Task 2 casi siempre tienes que dar una opinión clara y defenderla con razones. Para eso necesitas un repertorio de frases formales que presenten tu postura (In my view), la de otros (It could be argued that), el contraste (On the other hand) y la conclusión (To sum up). El registro importa: en un ensayo no se escribe como se habla, así que frases como I think o Anyway se sustituyen por versiones más académicas, y tu opinión debe mantenerse coherente de principio a fin.",
+    "steps": [
+      {
+        "title_es": "Presentar tu opinión",
+        "body_es": "Tu postura debe quedar clara desde la introducción. Frases formales: In my view, / In my opinion, (con coma), I would argue that..., I strongly believe that..., From my perspective,. Si estás de acuerdo solo en parte: I partly agree that... o I agree to some extent. Evita mezclar fórmulas: *In my opinion, I think* es redundante. Y mantén la misma postura en el cuerpo y en la conclusión; cambiar de opinión a mitad del ensayo confunde al lector.",
+        "examples": [
+          {
+            "en": "In my view, governments should invest more in public transport.",
+            "es": "En mi opinión, los gobiernos deberían invertir más en transporte público."
+          },
+          {
+            "en": "I would argue that online learning cannot fully replace the classroom.",
+            "es": "Yo diría que el aprendizaje en línea no puede reemplazar por completo el salón de clases."
+          }
+        ]
+      },
+      {
+        "title_es": "Presentar la opinión contraria sin hacerla tuya",
+        "body_es": "Un buen argumento reconoce el otro lado. Para presentar ideas que no son necesariamente tuyas: It could be argued that..., Some people claim that..., Opponents of this idea argue that..., It is often said that.... Después, responde con un contraste: However, this view ignores..., Nevertheless,. Esto se llama concesión y refutación: aceptas parte de la otra idea y luego explicas por qué tu postura es más sólida.",
+        "examples": [
+          {
+            "en": "It could be argued that tourism damages local culture. However, it also creates jobs and funds heritage sites.",
+            "es": "Se podría argumentar que el turismo daña la cultura local. Sin embargo, también crea empleos y financia sitios históricos."
+          },
+          {
+            "en": "Some people claim that homework is unnecessary for young children.",
+            "es": "Algunas personas afirman que la tarea es innecesaria para los niños pequeños."
+          }
+        ]
+      },
+      {
+        "title_es": "Ordenar los párrafos: primero, por otro lado, en conclusión",
+        "body_es": "Cada párrafo del cuerpo debe empezar con una oración principal (topic sentence) que diga de qué trata. Para ordenar: Firstly, / The main reason is that..., Another important point is that..., On the other hand, (para pasar al lado contrario, no para añadir). Para dar ejemplos: For example, / For instance, / such as + sustantivo. Ojo con On the other hand: se usa para contrastar dos caras de un tema, no como sinónimo de además.",
+        "examples": [
+          {
+            "en": "The main reason is that cities are becoming too crowded.",
+            "es": "La razón principal es que las ciudades se están saturando."
+          },
+          {
+            "en": "On the one hand, cars offer freedom. On the other hand, they cause pollution and congestion.",
+            "es": "Por un lado, los coches ofrecen libertad. Por otro lado, causan contaminación y congestión."
+          }
+        ],
+        "table": [
+          [
+            "Firstly, / The main reason is that...",
+            "En primer lugar, / La razón principal es que..."
+          ],
+          [
+            "For instance, / such as + sustantivo",
+            "Por ejemplo, / como..."
+          ],
+          [
+            "On the other hand,",
+            "Por otro lado, (contraste, no adición)"
+          ],
+          [
+            "To sum up, / In conclusion,",
+            "En resumen, / En conclusión,"
+          ]
+        ]
+      },
+      {
+        "title_es": "Registro formal y una buena conclusión",
+        "body_es": "Un ensayo pide registro formal: nada de contracciones (do not, en lugar de don't), ni expresiones coloquiales como a lot of stuff, kids o pretty good; mejor a great deal of, children, fairly good. Evita las preguntas retóricas en exceso y frases como Anyway. La conclusión empieza con In conclusion, o To sum up,, repite tu postura con otras palabras y resume las razones principales, sin introducir ideas nuevas.",
+        "examples": [
+          {
+            "en": "To sum up, although technology has some drawbacks, its benefits for education are greater.",
+            "es": "En resumen, aunque la tecnología tiene algunas desventajas, sus beneficios para la educación son mayores."
+          },
+          {
+            "en": "In conclusion, I believe that both parents and schools share responsibility.",
+            "es": "En conclusión, creo que tanto los padres como las escuelas comparten la responsabilidad."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "In my opinion, the advantages of living in a big city outweigh the disadvantages.",
+        "es": "En mi opinión, las ventajas de vivir en una ciudad grande superan a las desventajas."
+      },
+      {
+        "en": "It is often said that young people spend too much time online.",
+        "es": "A menudo se dice que los jóvenes pasan demasiado tiempo en línea."
+      },
+      {
+        "en": "For instance, many companies now offer training courses for older employees.",
+        "es": "Por ejemplo, muchas empresas ofrecen ahora cursos de formación para empleados mayores."
+      },
+      {
+        "en": "Nevertheless, this argument does not take into account the cost to taxpayers.",
+        "es": "Sin embargo, este argumento no toma en cuenta el costo para los contribuyentes."
+      }
+    ],
+    "mistakes_es": "1) *In my opinion, I think that...* → *In my opinion, ...* o *I think that...* (redundante). 2) *On the other hand* para añadir → usar *Moreover* o *In addition* (on the other hand es contraste). 3) *According to me* → *In my view* / *In my opinion* (according to se usa con fuentes, no contigo). 4) *Don't, it's, kids* en un ensayo → *do not, it is, children* (registro formal). 5) *In conclusion, also there is a new idea...* → la conclusión no presenta ideas nuevas.",
+    "ielts_es": "Es la base de Writing Task 2. Influye en Task Response, que valora que tu postura sea clara y se mantenga en todo el texto, y en Coherence and Cohesion, por la organización de los párrafos y los conectores. El registro formal también cuenta en Lexical Resource. Consejo: escribe tu postura en una sola frase antes de empezar (por ejemplo, I partly agree because...) y verifica que tu introducción y tu conclusión digan lo mismo con palabras distintas.",
+    "practice": [
+      {
+        "q": "___, governments should do more to protect the environment.",
+        "options": [
+          "According to me",
+          "In my view",
+          "In my opinion I think",
+          "For me opinion"
+        ],
+        "answer": 1,
+        "why_es": "In my view, es una forma formal y correcta de presentar tu opinión. According to me no se usa en inglés."
+      },
+      {
+        "q": "___ that cars should be banned from city centres. However, this would hurt local businesses.",
+        "options": [
+          "It could be argued",
+          "I strongly believe",
+          "To sum up",
+          "For instance"
+        ],
+        "answer": 0,
+        "why_es": "Presentamos una idea que luego refutamos con However, así que encaja It could be argued that."
+      },
+      {
+        "q": "Cities offer more jobs. ___, they are often expensive and noisy.",
+        "options": [
+          "Moreover",
+          "For instance",
+          "On the other hand",
+          "Firstly"
+        ],
+        "answer": 2,
+        "why_es": "Pasamos a una desventaja que contrasta con la ventaja anterior: On the other hand."
+      },
+      {
+        "q": "Which phrase is the best way to start a conclusion?",
+        "options": [
+          "Anyway,",
+          "To sum up,",
+          "On the other hand,",
+          "By the way,"
+        ],
+        "answer": 1,
+        "why_es": "To sum up, (o In conclusion,) abre la conclusión. Anyway y By the way son coloquiales."
+      },
+      {
+        "q": "Choose the most formal option for an essay.",
+        "options": [
+          "Kids don't get enough exercise.",
+          "Kids do not get enough exercise.",
+          "Children don't get enough exercise.",
+          "Children do not get enough exercise."
+        ],
+        "answer": 3,
+        "why_es": "Registro formal: children en lugar de kids y sin contracción (do not)."
+      },
+      {
+        "q": "Many hobbies are inexpensive, ___ walking, reading or cooking.",
+        "options": [
+          "for example",
+          "such as",
+          "for instance,",
+          "like as"
+        ],
+        "answer": 1,
+        "why_es": "Delante de una lista de sustantivos se usa such as. For example necesita una oración o va entre comas."
+      },
+      {
+        "q": "Public transport is cheap. ___, it reduces pollution.",
+        "options": [
+          "On the other hand",
+          "However",
+          "In addition",
+          "Nevertheless"
+        ],
+        "answer": 2,
+        "why_es": "Añadimos una segunda ventaja, no un contraste: In addition,."
+      },
+      {
+        "q": "Which sentence presents an opposing view without adopting it?",
+        "options": [
+          "I believe homework is useless.",
+          "Some people claim that homework is useless.",
+          "Homework is useless.",
+          "In my view, homework is useless."
+        ],
+        "answer": 1,
+        "why_es": "Some people claim that atribuye la idea a otras personas; las demás presentan la idea como tuya."
+      }
+    ]
+  },
+  {
+    "id": "gr-describing-trends",
+    "order": 33,
+    "name_en": "Describing trends in graphs",
+    "title_es": "Describir tendencias en gráficas (Task 1)",
+    "group": "escritura",
+    "level": "B2",
+    "use_es": "En Academic Writing Task 1 tienes que describir una gráfica, una tabla o un diagrama: cómo suben, bajan o se mantienen las cifras con el tiempo. Para eso hay un vocabulario muy específico (rise, decline, fluctuate, peak) y dos formas de usarlo: como verbo con un adverbio (rose sharply) o como sustantivo con un adjetivo (a sharp rise). Alternar entre ambas te permite variar sin repetirte. También importan los tiempos verbales: pasado para fechas pasadas y futuro para proyecciones.",
+    "steps": [
+      {
+        "title_es": "Los verbos del movimiento",
+        "body_es": "Para subir: rise (rose, risen), increase, grow (grew, grown), climb. Para bajar: fall (fell, fallen), decrease, decline, drop. Para no cambiar: remain stable / steady, stay the same, level off (dejar de cambiar), plateau (estabilizarse tras subir). Para subir y bajar varias veces: fluctuate. Para el punto más alto: peak at / reach a peak of; el más bajo: hit a low of. Ojo con los irregulares: rise-rose-risen y fall-fell-fallen; *rised* y *falled* no existen.",
+        "examples": [
+          {
+            "en": "The number of visitors rose from 2 million to 3.5 million.",
+            "es": "El número de visitantes subió de 2 a 3.5 millones."
+          },
+          {
+            "en": "Sales fluctuated between 2010 and 2015 and then levelled off.",
+            "es": "Las ventas fluctuaron entre 2010 y 2015 y después se estabilizaron."
+          }
+        ],
+        "table": [
+          [
+            "rise / increase / grow / climb",
+            "subir, aumentar"
+          ],
+          [
+            "fall / decrease / decline / drop",
+            "bajar, disminuir"
+          ],
+          [
+            "remain stable / level off / plateau",
+            "mantenerse, estabilizarse"
+          ],
+          [
+            "fluctuate",
+            "subir y bajar (variar)"
+          ],
+          [
+            "peak at / reach a peak of",
+            "alcanzar el máximo"
+          ]
+        ]
+      },
+      {
+        "title_es": "Cuánto y qué tan rápido: adverbios y adjetivos",
+        "body_es": "Para indicar la intensidad: sharply / dramatically (mucho y rápido), significantly / considerably (bastante), steadily / gradually (poco a poco y de forma constante), slightly (un poco). Con un verbo usas el adverbio (-ly): increased steadily. Con un sustantivo usas el adjetivo: a steady increase. No exageres: dramatically solo si el cambio es de verdad grande en la gráfica.",
+        "examples": [
+          {
+            "en": "Unemployment fell slightly in the first quarter.",
+            "es": "El desempleo bajó ligeramente en el primer trimestre."
+          },
+          {
+            "en": "There was a dramatic increase in online shopping after 2020.",
+            "es": "Hubo un aumento drástico en las compras en línea después de 2020."
+          }
+        ],
+        "table": [
+          [
+            "sharply / dramatically",
+            "sharp / dramatic"
+          ],
+          [
+            "significantly / considerably",
+            "significant / considerable"
+          ],
+          [
+            "steadily / gradually",
+            "steady / gradual"
+          ],
+          [
+            "slightly",
+            "slight"
+          ]
+        ]
+      },
+      {
+        "title_es": "Verbo + adverbio o sustantivo + adjetivo",
+        "body_es": "La misma información se puede decir de dos maneras. Con verbo: Car sales rose sharply in 2019. Con sustantivo: There was a sharp rise in car sales in 2019, o 2019 saw a sharp rise in car sales. Fíjate en las preposiciones: a rise IN algo (el tema), a rise OF 20% (la cantidad), rose BY 20% (la diferencia), rose FROM 10 TO 30 (los puntos), peaked AT 50 (el valor). Alternar las dos formas da variedad gramatical.",
+        "examples": [
+          {
+            "en": "The price of houses increased by 15% over the decade.",
+            "es": "El precio de las casas aumentó un 15 % a lo largo de la década."
+          },
+          {
+            "en": "There was a gradual decline in the number of smokers.",
+            "es": "Hubo un descenso gradual en el número de fumadores."
+          }
+        ]
+      },
+      {
+        "title_es": "Tiempos verbales y lo más importante primero",
+        "body_es": "Si la gráfica muestra años pasados, usa past simple (fell, rose). Si muestra un periodo hasta hoy, puedes usar present perfect (has risen). Si son proyecciones a futuro: is expected / predicted / projected to rise, o will probably fall. Además, Task 1 pide una visión general (overview): empieza con Overall, y describe las tendencias principales antes de entrar en detalle con cifras concretas.",
+        "examples": [
+          {
+            "en": "Overall, the use of renewable energy increased, while coal consumption declined.",
+            "es": "En general, el uso de energía renovable aumentó, mientras que el consumo de carbón disminuyó."
+          },
+          {
+            "en": "The population is projected to reach 10 million by 2050.",
+            "es": "Se prevé que la población alcance los 10 millones para 2050."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "The number of cyclists climbed steadily from 2005 to 2015.",
+        "es": "El número de ciclistas subió de forma constante de 2005 a 2015."
+      },
+      {
+        "en": "Water consumption peaked at 400 litres per day in July.",
+        "es": "El consumo de agua alcanzó su máximo de 400 litros por día en julio."
+      },
+      {
+        "en": "There was a slight drop in student enrolments in 2018.",
+        "es": "Hubo una ligera caída en las inscripciones de estudiantes en 2018."
+      },
+      {
+        "en": "After 2012, the figures remained stable at around 30%.",
+        "es": "Después de 2012, las cifras se mantuvieron estables en torno al 30 %."
+      }
+    ],
+    "mistakes_es": "1) *The sales rised* → *Sales rose* (verbo irregular). 2) *Rose sharp* → *rose sharply* (con verbo va el adverbio). 3) *A sharply increase* → *a sharp increase* (con sustantivo va el adjetivo). 4) *Increased in 20%* → *increased by 20%* (la diferencia se expresa con by). 5) *The prices raised* → *Prices rose* (raise necesita objeto: the company raised prices; rise no).",
+    "ielts_es": "Es central en Academic Writing Task 1. Mejora Lexical Resource (vocabulario preciso de tendencias y su intensidad) y Grammatical Range and Accuracy (alternar verbo + adverbio y sustantivo + adjetivo, preposiciones correctas). La visión general con Overall es parte de lo que se espera en Task Achievement. Consejo: antes de escribir, marca en la gráfica las dos o tres tendencias más claras y descríbelas en tu overview sin cifras; los números van en los párrafos siguientes.",
+    "practice": [
+      {
+        "q": "Car sales ___ sharply in 2020.",
+        "options": [
+          "rised",
+          "rose",
+          "raised",
+          "risen"
+        ],
+        "answer": 1,
+        "why_es": "El pasado de rise es rose. Raise es otro verbo y necesita objeto."
+      },
+      {
+        "q": "There was a ___ increase in the number of tourists.",
+        "options": [
+          "steadily",
+          "steady",
+          "steadiness",
+          "steadied"
+        ],
+        "answer": 1,
+        "why_es": "Delante del sustantivo increase va el adjetivo: a steady increase."
+      },
+      {
+        "q": "The price of fuel increased ___ 10% in one year.",
+        "options": [
+          "in",
+          "of",
+          "by",
+          "at"
+        ],
+        "answer": 2,
+        "why_es": "La diferencia entre dos valores se expresa con by: increased by 10%."
+      },
+      {
+        "q": "Visitor numbers ___ at 5,000 in August and then fell.",
+        "options": [
+          "peaked",
+          "fluctuated",
+          "levelled",
+          "dropped"
+        ],
+        "answer": 0,
+        "why_es": "Peak at indica el punto más alto que se alcanzó antes de bajar."
+      },
+      {
+        "q": "The figures went up and down several times. They ___.",
+        "options": [
+          "plateaued",
+          "declined",
+          "fluctuated",
+          "remained stable"
+        ],
+        "answer": 2,
+        "why_es": "Fluctuate describe un valor que sube y baja varias veces."
+      },
+      {
+        "q": "The number of smokers decreased ___ over the period.",
+        "options": [
+          "gradual",
+          "gradually",
+          "a gradual",
+          "graduals"
+        ],
+        "answer": 1,
+        "why_es": "Con un verbo (decreased) se usa el adverbio: gradually."
+      },
+      {
+        "q": "The population is expected ___ 12 million by 2040.",
+        "options": [
+          "reaching",
+          "reach",
+          "to reach",
+          "reached"
+        ],
+        "answer": 2,
+        "why_es": "Be expected to + verbo base, para proyecciones: is expected to reach."
+      },
+      {
+        "q": "There was a significant rise ___ the use of electric cars.",
+        "options": [
+          "of",
+          "in",
+          "by",
+          "at"
+        ],
+        "answer": 1,
+        "why_es": "Para indicar en qué hubo el aumento: a rise in the use of... A rise of iría con una cifra."
+      }
+    ]
+  },
+  {
+    "id": "gr-comparing-data",
+    "order": 34,
+    "name_en": "Comparing data",
+    "title_es": "Comparar datos: el doble, la mayor proporción, respectivamente",
+    "group": "escritura",
+    "level": "B2",
+    "use_es": "Describir una gráfica no es solo decir que algo subió: casi siempre hay que comparar categorías, países, grupos o años. Para eso se usan comparativos y superlativos (higher than, the highest), multiplicadores (twice as many as), conectores de comparación (while, compared with) y palabras para dar cifras aproximadas (approximately, just over). Comparar bien demuestra que entendiste la gráfica y no solo copiaste números, y es lo que distingue una descripción de una simple lista.",
+    "steps": [
+      {
+        "title_es": "Comparativos y superlativos con datos",
+        "body_es": "Con adjetivos cortos se añade -er / -est (higher, the highest); con adjetivos largos, more / the most (more popular, the most popular). Con datos se usan mucho: the highest proportion of, the lowest figure, the largest share. Para diferencias pequeñas o grandes: slightly higher, much / considerably lower. Recuerda: than (que) para comparar, nunca *that*.",
+        "examples": [
+          {
+            "en": "Canada had the highest proportion of university graduates.",
+            "es": "Canadá tuvo la mayor proporción de graduados universitarios."
+          },
+          {
+            "en": "Spending on food was considerably higher than spending on clothes.",
+            "es": "El gasto en comida fue considerablemente mayor que el gasto en ropa."
+          }
+        ]
+      },
+      {
+        "title_es": "Multiplicadores: twice as many as, three times",
+        "body_es": "Para decir que una cifra es el doble o el triple de otra: twice as many / much as, three times as many as, o three times higher than. Usa many con contables (people, cars) y much con incontables (money, energy). Para fracciones: half as many as (la mitad que). También puedes decir: the figure for X was double that of Y.",
+        "examples": [
+          {
+            "en": "Twice as many women as men used the library.",
+            "es": "El doble de mujeres que de hombres usaron la biblioteca."
+          },
+          {
+            "en": "The city used three times as much water in summer as in winter.",
+            "es": "La ciudad usó el triple de agua en verano que en invierno."
+          }
+        ],
+        "table": [
+          [
+            "twice as many / much as",
+            "el doble que"
+          ],
+          [
+            "three times as many as",
+            "el triple que"
+          ],
+          [
+            "half as many as",
+            "la mitad que"
+          ],
+          [
+            "double / triple that of",
+            "el doble / el triple del de..."
+          ]
+        ]
+      },
+      {
+        "title_es": "While, whereas, compared with y respectively",
+        "body_es": "While y whereas unen dos datos que contrastan en la misma oración: Sales rose in Asia, while they fell in Europe. Compared with / compared to + sustantivo introduce el punto de comparación. Respectively significa «respectivamente» y se usa al final para emparejar dos listas en el mismo orden: Men and women spent 30 and 45 minutes respectively. Se usa mucho para dar varias cifras sin repetir la estructura.",
+        "examples": [
+          {
+            "en": "Compared with 2010, the number of cyclists had doubled by 2020.",
+            "es": "En comparación con 2010, el número de ciclistas se había duplicado para 2020."
+          },
+          {
+            "en": "The figures for France and Spain were 20% and 35% respectively.",
+            "es": "Las cifras de Francia y España fueron de 20 % y 35 % respectivamente."
+          }
+        ]
+      },
+      {
+        "title_es": "Cifras aproximadas y proporciones",
+        "body_es": "En Task 1 no siempre puedes leer un número exacto, así que usa aproximaciones: approximately, around, roughly, about (aproximadamente); just over / just under (un poco más / un poco menos de); nearly / almost (casi). Para porcentajes puedes alternar: 25% = a quarter, 50% = half, 33% = a third, 75% = three quarters. Y la mayoría: the majority of, a minority of.",
+        "examples": [
+          {
+            "en": "Just under half of the respondents said they worked from home.",
+            "es": "Poco menos de la mitad de los encuestados dijo que trabajaba desde casa."
+          },
+          {
+            "en": "Approximately a quarter of the budget was spent on education.",
+            "es": "Aproximadamente una cuarta parte del presupuesto se destinó a educación."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "Rail travel was the most popular option, accounting for 40% of journeys.",
+        "es": "El tren fue la opción más popular y representó el 40 % de los viajes."
+      },
+      {
+        "en": "Nearly twice as many teenagers as adults played online games.",
+        "es": "Casi el doble de adolescentes que de adultos jugaban videojuegos en línea."
+      },
+      {
+        "en": "Electricity costs rose in the north, whereas they remained stable in the south.",
+        "es": "Los costos de electricidad subieron en el norte, mientras que se mantuvieron estables en el sur."
+      },
+      {
+        "en": "The proportion of older workers was slightly lower than in the previous year.",
+        "es": "La proporción de trabajadores mayores fue un poco menor que el año anterior."
+      }
+    ],
+    "mistakes_es": "1) *Higher that* → *higher than*. 2) *Two times more people* → *twice as many people* (forma más natural y precisa). 3) *The most high* → *the highest* (adjetivo corto). 4) *Twice as much people* → *twice as many people* (people es contable). 5) *Respectively* al principio o sin dos listas → va al final y empareja elementos en el mismo orden.",
+    "ielts_es": "Se usa en Academic Writing Task 1, especialmente en gráficas de barras, tablas y gráficas circulares. Aporta a Task Achievement, porque una buena respuesta destaca y compara los datos clave, y a Grammatical Range and Accuracy por la variedad de estructuras comparativas. Consejo: en cada párrafo del cuerpo, incluye al menos una comparación directa (higher than, twice as many as, while) en lugar de dar cifras una tras otra.",
+    "practice": [
+      {
+        "q": "The number of cars was ___ than the number of bikes.",
+        "options": [
+          "more high",
+          "highest",
+          "higher",
+          "the higher"
+        ],
+        "answer": 2,
+        "why_es": "Comparativo de un adjetivo corto: higher than."
+      },
+      {
+        "q": "___ people used buses as trains.",
+        "options": [
+          "Twice as much",
+          "Twice as many",
+          "Two times much",
+          "Twice many"
+        ],
+        "answer": 1,
+        "why_es": "People es contable, así que twice as many... as."
+      },
+      {
+        "q": "Germany had ___ proportion of renewable energy in the chart.",
+        "options": [
+          "the highest",
+          "the most high",
+          "higher",
+          "the more high"
+        ],
+        "answer": 0,
+        "why_es": "Superlativo de high: the highest."
+      },
+      {
+        "q": "Men and women spent 2 and 3 hours online ___.",
+        "options": [
+          "respectively",
+          "respective",
+          "accordingly",
+          "comparatively"
+        ],
+        "answer": 0,
+        "why_es": "Respectively empareja las dos cifras con men y women en el mismo orden."
+      },
+      {
+        "q": "___ 2015, the number of students had risen by 20%.",
+        "options": [
+          "Compared to the",
+          "Compared with",
+          "Comparing",
+          "Compare with"
+        ],
+        "answer": 1,
+        "why_es": "Compared with + año o sustantivo introduce el punto de comparación."
+      },
+      {
+        "q": "49% is ___ half.",
+        "options": [
+          "just over",
+          "just under",
+          "approximately double",
+          "exactly"
+        ],
+        "answer": 1,
+        "why_es": "49 % está un poco por debajo de la mitad: just under half."
+      },
+      {
+        "q": "Exports rose in Asia, ___ they fell in Europe.",
+        "options": [
+          "respectively",
+          "despite",
+          "while",
+          "compared"
+        ],
+        "answer": 2,
+        "why_es": "While une dos datos que contrastan en la misma oración."
+      },
+      {
+        "q": "The country consumed three times ___ energy as its neighbour.",
+        "options": [
+          "as many",
+          "as much",
+          "more as",
+          "much as"
+        ],
+        "answer": 1,
+        "why_es": "Energy es incontable: three times as much energy as."
+      }
+    ]
+  },
+  {
+    "id": "gr-academic-passive",
+    "order": 35,
+    "name_en": "Academic passive and impersonal structures",
+    "title_es": "Pasiva académica y estructuras impersonales",
+    "group": "escritura",
+    "level": "C1",
+    "use_es": "En el inglés académico es común presentar ideas sin decir quién las piensa: It is believed that..., Technology is thought to..., There has been a rise in.... Son estructuras impersonales que dan un tono objetivo y permiten hablar de opiniones generales o investigaciones sin nombrar a nadie. Ya conoces la voz pasiva básica; aquí se trata de las fórmulas típicas de los textos formales, que en español equivaldrían a «se cree que» o «se considera que», y de usarlas con moderación.",
+    "steps": [
+      {
+        "title_es": "It is + participio + that...",
+        "body_es": "La fórmula It is believed / thought / said / widely accepted / often argued that + oración equivale a «se cree que», «se dice que», «se acepta ampliamente que». El it no se refiere a nada; es un sujeto vacío que el inglés necesita porque toda oración requiere sujeto. Es ideal para introducir opiniones generales en un ensayo sin decir everybody thinks.",
+        "examples": [
+          {
+            "en": "It is widely believed that exercise improves mental health.",
+            "es": "Se cree ampliamente que el ejercicio mejora la salud mental."
+          },
+          {
+            "en": "It is often argued that cities should limit the number of cars.",
+            "es": "A menudo se argumenta que las ciudades deberían limitar el número de coches."
+          }
+        ],
+        "table": [
+          [
+            "It is believed that...",
+            "Se cree que..."
+          ],
+          [
+            "It is widely accepted that...",
+            "Se acepta ampliamente que..."
+          ],
+          [
+            "It has been suggested that...",
+            "Se ha sugerido que..."
+          ],
+          [
+            "It is expected that...",
+            "Se espera que..."
+          ]
+        ]
+      },
+      {
+        "title_es": "Sujeto + is thought / said / believed + to...",
+        "body_es": "Otra forma, más elegante, es empezar con el sujeto real: Technology is thought to improve productivity (se cree que la tecnología mejora...). Si la idea se refiere al pasado, usa to have + participio: The policy is believed to have reduced crime (se cree que la política redujo el delito). Esta estructura muestra un nivel gramatical alto, pero solo funciona con verbos como think, believe, say, know, expect, consider.",
+        "examples": [
+          {
+            "en": "Green spaces are known to reduce stress.",
+            "es": "Se sabe que las áreas verdes reducen el estrés."
+          },
+          {
+            "en": "The new bridge is expected to open next year.",
+            "es": "Se espera que el nuevo puente abra el próximo año."
+          },
+          {
+            "en": "The fire is thought to have started in the kitchen.",
+            "es": "Se cree que el incendio empezó en la cocina."
+          }
+        ]
+      },
+      {
+        "title_es": "There is / There has been + sustantivo",
+        "body_es": "There is / there are / there has been / there was + sustantivo presenta la existencia de algo, muy útil para hablar de cambios: There has been a significant increase in remote work. Nota la concordancia: there has been + singular, there have been + plural. En español decimos «ha habido» para ambos, pero en inglés el verbo cambia según el sustantivo que sigue.",
+        "examples": [
+          {
+            "en": "There has been a growing interest in plant-based diets.",
+            "es": "Ha habido un interés creciente por las dietas basadas en plantas."
+          },
+          {
+            "en": "There have been several changes to the immigration process.",
+            "es": "Ha habido varios cambios en el proceso de inmigración."
+          }
+        ]
+      },
+      {
+        "title_es": "Pasiva cuando importa la acción, no quién la hace",
+        "body_es": "En textos de procesos (Task 1 con diagramas) y en ensayos, la pasiva pone el foco en lo que se hace: The water is filtered and then stored. Se forma con be + participio, y be cambia de tiempo: is built, was built, has been built, will be built. Agrega by + agente solo si aporta información. Evita encadenar pasivas en todo el texto: alterna con oraciones activas para que no suene pesado.",
+        "examples": [
+          {
+            "en": "The leaves are dried and then crushed into powder.",
+            "es": "Las hojas se secan y después se trituran hasta hacerlas polvo."
+          },
+          {
+            "en": "More money should be invested in public health.",
+            "es": "Se debería invertir más dinero en salud pública."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "It is generally accepted that education reduces poverty.",
+        "es": "Se acepta en general que la educación reduce la pobreza."
+      },
+      {
+        "en": "Remote work is said to improve work-life balance.",
+        "es": "Se dice que el trabajo remoto mejora el equilibrio entre vida y trabajo."
+      },
+      {
+        "en": "There has been a sharp decline in the number of bookshops.",
+        "es": "Ha habido un fuerte descenso en el número de librerías."
+      },
+      {
+        "en": "In the final stage, the bottles are cleaned and refilled.",
+        "es": "En la etapa final, las botellas se limpian y se vuelven a llenar."
+      }
+    ],
+    "mistakes_es": "1) *Is believed that exercise helps* → *It is believed that exercise helps* (falta el sujeto it). 2) *Technology is thought that improves* → *Technology is thought to improve* (con sujeto real va to). 3) *There has been many changes* → *There have been many changes* (concordancia con plural). 4) *Se dice que* traducido como *It says that* → *It is said that*. 5) *The crime is believed to reduce last year* → *is believed to have been reduced* / *to have fallen* (para el pasado, to have + participio).",
+    "ielts_es": "Se usa en Writing Task 2 para presentar opiniones generales y en Academic Task 1 para describir procesos y cambios. Aporta a Grammatical Range and Accuracy, porque las estructuras impersonales y la pasiva en distintos tiempos muestran variedad y control, y ayuda a mantener un tono académico. Consejo: usa It is widely believed that... o X is thought to... una o dos veces por ensayo para introducir la opinión ajena antes de dar la tuya; abusar de ellas hace el texto impersonal y difícil de seguir.",
+    "practice": [
+      {
+        "q": "___ believed that reading improves concentration.",
+        "options": [
+          "Is",
+          "It is",
+          "There is",
+          "It"
+        ],
+        "answer": 1,
+        "why_es": "Necesitamos el sujeto vacío it: It is believed that..."
+      },
+      {
+        "q": "Electric cars are expected ___ cheaper in the future.",
+        "options": [
+          "becoming",
+          "that become",
+          "to become",
+          "become"
+        ],
+        "answer": 2,
+        "why_es": "Sujeto + is expected to + verbo base: are expected to become."
+      },
+      {
+        "q": "There ___ several improvements to the transport system.",
+        "options": [
+          "has been",
+          "have been",
+          "is been",
+          "was been"
+        ],
+        "answer": 1,
+        "why_es": "Improvements es plural: there have been."
+      },
+      {
+        "q": "The castle is thought ___ in the 12th century.",
+        "options": [
+          "to build",
+          "to be building",
+          "to have been built",
+          "that was built"
+        ],
+        "answer": 2,
+        "why_es": "Se refiere al pasado y en pasiva: is thought to have been built."
+      },
+      {
+        "q": "In the first stage, the fruit ___ by hand.",
+        "options": [
+          "is picked",
+          "picks",
+          "is picking",
+          "picked"
+        ],
+        "answer": 0,
+        "why_es": "En un proceso, la pasiva en presente: the fruit is picked."
+      },
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "It says that coffee is healthy.",
+          "It is said that coffee is healthy.",
+          "Is said that coffee is healthy.",
+          "Coffee is said that is healthy."
+        ],
+        "answer": 1,
+        "why_es": "Se dice que = It is said that. It says sería «el texto dice»."
+      },
+      {
+        "q": "There ___ a significant rise in housing prices since 2015.",
+        "options": [
+          "have been",
+          "is",
+          "has been",
+          "were"
+        ],
+        "answer": 2,
+        "why_es": "Una sola subida (singular) y periodo hasta hoy (since): there has been."
+      },
+      {
+        "q": "Green spaces ___ to improve people's mood.",
+        "options": [
+          "know",
+          "are known",
+          "are knowing",
+          "is known"
+        ],
+        "answer": 1,
+        "why_es": "Sujeto plural + are known to + verbo: Green spaces are known to improve..."
+      }
+    ]
+  },
+  {
+    "id": "gr-participle-clauses",
+    "order": 36,
+    "name_en": "Participle clauses and reduced relatives",
+    "title_es": "Oraciones con participio y relativas reducidas",
+    "group": "escritura",
+    "level": "C1",
+    "use_es": "Las oraciones con participio permiten decir más con menos palabras: en lugar de After the researchers had analysed the data, they..., se escribe Having analysed the data, the researchers.... Y en lugar de The figures which are shown in the table, se puede decir The figures shown in the table. Son estructuras propias del inglés escrito formal y dan un estilo más compacto y avanzado. La regla de oro es que el sujeto implícito del participio debe ser el mismo que el de la oración principal.",
+    "steps": [
+      {
+        "title_es": "Relativas reducidas con -ed (pasivas)",
+        "body_es": "Cuando una oración relativa es pasiva (which is shown, that was built), puedes quitar el pronombre y el verbo be y dejar solo el participio: The data which is shown in the graph → The data shown in the graph. Es muy útil en Task 1: the information given, the countries listed, the figures presented. Va justo después del sustantivo al que describe.",
+        "examples": [
+          {
+            "en": "The chart shows the number of houses built between 2000 and 2020.",
+            "es": "La gráfica muestra el número de casas construidas entre 2000 y 2020."
+          },
+          {
+            "en": "Most of the food sold in supermarkets is imported.",
+            "es": "La mayor parte de la comida que se vende en los supermercados es importada."
+          }
+        ]
+      },
+      {
+        "title_es": "Relativas reducidas con -ing (activas)",
+        "body_es": "Si la relativa es activa (people who live, students who use), puedes reemplazarla por el verbo en -ing: People who live in rural areas → People living in rural areas. Sirve para acciones generales o en curso, no para una sola acción terminada: *The man stealing my phone yesterday* suena raro; mejor The man who stole my phone yesterday.",
+        "examples": [
+          {
+            "en": "Students using the library late at night need a special card.",
+            "es": "Los estudiantes que usan la biblioteca de noche necesitan una tarjeta especial."
+          },
+          {
+            "en": "Families earning less than the average receive support.",
+            "es": "Las familias que ganan menos que el promedio reciben apoyo."
+          }
+        ],
+        "table": [
+          [
+            "which is / was + participio → participio",
+            "the data (which is) shown → the data shown"
+          ],
+          [
+            "who / which + verbo activo → -ing",
+            "people who live → people living"
+          ]
+        ]
+      },
+      {
+        "title_es": "Participio al inicio: causa o tiempo",
+        "body_es": "Una oración con participio al principio puede expresar tiempo o causa. Con -ing, la acción ocurre al mismo tiempo o es la razón: Living abroad, I learned to cook (como vivía en el extranjero...). Con Having + participio, una acción ocurrió antes que la otra: Having finished the report, she went home (después de terminar...). Con -ed, sentido pasivo: Built in 1900, the bridge needs repairs (construido en 1900...).",
+        "examples": [
+          {
+            "en": "Having analysed the results, the team made several recommendations.",
+            "es": "Tras analizar los resultados, el equipo hizo varias recomendaciones."
+          },
+          {
+            "en": "Located near the river, the town often floods in spring.",
+            "es": "Al estar situado junto al río, el pueblo se inunda a menudo en primavera."
+          }
+        ]
+      },
+      {
+        "title_es": "Cuidado con el sujeto: el participio colgado",
+        "body_es": "El sujeto implícito del participio debe ser el sujeto de la oración principal. *Walking to work, the rain started* dice literalmente que la lluvia caminaba al trabajo. Correcto: Walking to work, I got caught in the rain, o While I was walking to work, it started to rain. Este error se llama dangling participle; si dudas, usa una oración completa con while, because o after.",
+        "examples": [
+          {
+            "en": "Feeling tired, I decided to stay at home.",
+            "es": "Como me sentía cansado, decidí quedarme en casa."
+          },
+          {
+            "en": "After reading the letter, she called the landlord.",
+            "es": "Después de leer la carta, llamó al casero."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "The table compares the amount of waste produced by five cities.",
+        "es": "La tabla compara la cantidad de residuos producidos por cinco ciudades."
+      },
+      {
+        "en": "Workers commuting more than an hour reported higher stress levels.",
+        "es": "Los trabajadores que tardan más de una hora en llegar reportaron niveles de estrés más altos."
+      },
+      {
+        "en": "Having lived in three countries, I find it easy to adapt to new places.",
+        "es": "Como he vivido en tres países, me resulta fácil adaptarme a lugares nuevos."
+      },
+      {
+        "en": "Designed for older users, the app has large buttons and clear text.",
+        "es": "Diseñada para usuarios mayores, la aplicación tiene botones grandes y texto claro."
+      }
+    ],
+    "mistakes_es": "1) *The figures are shown in the table indicate...* → *The figures shown in the table indicate...* (sobra are). 2) *Walking home, the bus passed me* → *Walking home, I saw the bus pass* (el sujeto debe ser quien camina). 3) *Having finish the course* → *Having finished the course* (participio pasado). 4) *People live in cities are...* → *People living in cities are...*. 5) *Built in 1950, they renovated the school* → *Built in 1950, the school was renovated* (lo construido es la escuela).",
+    "ielts_es": "Muy útil en Academic Writing Task 1 (the data shown, the figures given) y en Task 2 para condensar ideas. Aporta a Grammatical Range and Accuracy, porque las oraciones complejas bien construidas son una muestra de rango gramatical; usadas con error, en cambio, restan precisión. Consejo: no fuerces una en cada frase; con dos o tres bien hechas en un ensayo basta. Revisa siempre que el sujeto de la oración principal sea quien realiza la acción del participio.",
+    "practice": [
+      {
+        "q": "The graph shows the number of cars ___ in Canada in 2020.",
+        "options": [
+          "sold",
+          "selling",
+          "were sold",
+          "sells"
+        ],
+        "answer": 0,
+        "why_es": "Relativa reducida pasiva: the cars (which were) sold → the cars sold."
+      },
+      {
+        "q": "People ___ near airports often complain about noise.",
+        "options": [
+          "lived",
+          "living",
+          "are living",
+          "who living"
+        ],
+        "answer": 1,
+        "why_es": "Relativa activa reducida: people who live → people living."
+      },
+      {
+        "q": "___ the report, the manager sent it to the team.",
+        "options": [
+          "Having finished",
+          "Finished",
+          "Have finished",
+          "Having finish"
+        ],
+        "answer": 0,
+        "why_es": "Having + participio indica que terminó el reporte antes de enviarlo."
+      },
+      {
+        "q": "___ in 1890, the library is the oldest building in town.",
+        "options": [
+          "Building",
+          "Having built",
+          "Built",
+          "Was built"
+        ],
+        "answer": 2,
+        "why_es": "Sentido pasivo: la biblioteca fue construida. Built in 1890, ..."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "Walking to school, the rain started.",
+          "Walking to school, I got caught in the rain.",
+          "Walked to school, I got wet.",
+          "Walking to school, it rained on me."
+        ],
+        "answer": 1,
+        "why_es": "El sujeto de la oración principal (I) es quien camina; en las otras el sujeto no encaja con el participio."
+      },
+      {
+        "q": "The information ___ in the table is from 2019.",
+        "options": [
+          "is given",
+          "giving",
+          "gives",
+          "given"
+        ],
+        "answer": 3,
+        "why_es": "Relativa reducida pasiva: the information (which is) given."
+      },
+      {
+        "q": "___ tired after the trip, I went straight to bed.",
+        "options": [
+          "Felt",
+          "Feeling",
+          "Having feel",
+          "Feel"
+        ],
+        "answer": 1,
+        "why_es": "Feeling expresa la causa al mismo tiempo: como me sentía cansado."
+      },
+      {
+        "q": "Students ___ the online course must register by Friday.",
+        "options": [
+          "take",
+          "taken",
+          "taking",
+          "are taking"
+        ],
+        "answer": 2,
+        "why_es": "Students who take → students taking (relativa activa reducida)."
+      }
+    ]
+  },
+  {
+    "id": "gr-nominalisation",
+    "order": 37,
+    "name_en": "Nominalisation and formal style",
+    "title_es": "Nominalización y estilo formal",
+    "group": "escritura",
+    "level": "C1",
+    "use_es": "La nominalización consiste en convertir un verbo o adjetivo en sustantivo: grow → the growth of, reduce → a reduction in, important → the importance of. El inglés académico la usa mucho porque permite condensar ideas y presentarlas de forma más objetiva. Junto con un vocabulario formal (obtain en lugar de get) y la ausencia de contracciones, crea el registro que se espera en un ensayo. Bien usada da precisión; abusar de ella hace el texto pesado, así que la clave está en el equilibrio.",
+    "steps": [
+      {
+        "title_es": "De verbo a sustantivo",
+        "body_es": "Compara: Cities grew quickly, so housing became more expensive (estilo hablado) con The rapid growth of cities led to an increase in housing costs (estilo académico). El verbo grew pasa a ser the growth of y el adverbio quickly pasa a ser el adjetivo rapid. Sufijos comunes: -tion (reduce → reduction), -ment (develop → development), -ance / -ence (perform → performance), -th (grow → growth), -al (arrive → arrival).",
+        "examples": [
+          {
+            "en": "The development of new technologies has changed the job market.",
+            "es": "El desarrollo de nuevas tecnologías ha cambiado el mercado laboral."
+          },
+          {
+            "en": "There has been a reduction in the use of plastic bags.",
+            "es": "Ha habido una reducción en el uso de bolsas de plástico."
+          }
+        ],
+        "table": [
+          [
+            "grow → growth",
+            "crecer → crecimiento"
+          ],
+          [
+            "reduce → reduction",
+            "reducir → reducción"
+          ],
+          [
+            "develop → development",
+            "desarrollar → desarrollo"
+          ],
+          [
+            "fail → failure",
+            "fallar → fracaso / falla"
+          ],
+          [
+            "important → importance",
+            "importante → importancia"
+          ]
+        ]
+      },
+      {
+        "title_es": "La preposición correcta después del sustantivo",
+        "body_es": "Cada sustantivo tiene sus preposiciones típicas, y en español a veces son distintas: an increase in / a reduction in (aumento o reducción en algo), the growth of (el crecimiento de), the impact of X on Y (el impacto de X en Y), access to (acceso a), demand for (demanda de), the cause of / a reason for. Aprende estos sustantivos con su preposición como un bloque.",
+        "examples": [
+          {
+            "en": "The impact of social media on young people is a growing concern.",
+            "es": "El impacto de las redes sociales en los jóvenes es una preocupación creciente."
+          },
+          {
+            "en": "Demand for affordable housing continues to rise.",
+            "es": "La demanda de vivienda asequible sigue en aumento."
+          }
+        ]
+      },
+      {
+        "title_es": "Palabras formales frente a informales",
+        "body_es": "Muchos verbos frasales y palabras cotidianas tienen un equivalente más formal: get → obtain / receive, find out → discover, go up → increase, cut down on → reduce, show → demonstrate, a lot of → a large number of / a great deal of, big → significant / considerable, kids → children, stuff → things / items. En un ensayo, prefiere la versión formal, pero sin usar palabras rebuscadas que no domines.",
+        "examples": [
+          {
+            "en": "Many students obtain part-time jobs to cover their expenses.",
+            "es": "Muchos estudiantes consiguen trabajos de medio tiempo para cubrir sus gastos."
+          },
+          {
+            "en": "Governments should reduce the amount of waste sent to landfill.",
+            "es": "Los gobiernos deberían reducir la cantidad de residuos enviados a los rellenos sanitarios."
+          }
+        ],
+        "table": [
+          [
+            "get / find out / go up",
+            "obtain / discover / increase"
+          ],
+          [
+            "a lot of / big",
+            "a large number of, a great deal of / significant"
+          ],
+          [
+            "kids / stuff / really",
+            "children / items / extremely, highly"
+          ]
+        ]
+      },
+      {
+        "title_es": "Sin contracciones y con medida",
+        "body_es": "En un ensayo formal no se usan contracciones: it is, do not, cannot (se escribe junto), will not. Tampoco signos de exclamación ni expresiones como I guess o you know. Y no conviertas todo en sustantivos: The implementation of the reduction of the consumption of energy... se vuelve imposible de leer. Alterna oraciones con verbos claros y algunas nominalizaciones bien elegidas.",
+        "examples": [
+          {
+            "en": "It is not clear whether this policy will work.",
+            "es": "No está claro si esta política funcionará."
+          },
+          {
+            "en": "Young people cannot always afford to live in city centres.",
+            "es": "Los jóvenes no siempre pueden permitirse vivir en el centro de las ciudades."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "The expansion of public transport could ease congestion.",
+        "es": "La ampliación del transporte público podría aliviar la congestión."
+      },
+      {
+        "en": "A lack of exercise is one of the main causes of poor health.",
+        "es": "La falta de ejercicio es una de las principales causas de la mala salud."
+      },
+      {
+        "en": "The introduction of online banking has reduced the need for branches.",
+        "es": "La introducción de la banca en línea ha reducido la necesidad de sucursales."
+      },
+      {
+        "en": "There is a growing awareness of the importance of mental health at work.",
+        "es": "Hay una creciente conciencia de la importancia de la salud mental en el trabajo."
+      }
+    ],
+    "mistakes_es": "1) *An increase of the prices* → *An increase in prices* (preposición in). 2) *The impact in the environment* → *The impact on the environment*. 3) *Can't, don't, it's* en un ensayo → *cannot, do not, it is*. 4) *The grow of cities* → *The growth of cities* (grow es verbo; el sustantivo es growth). 5) *Kids get a lot of stuff* → *Children receive a large number of items* (registro formal).",
+    "ielts_es": "Se nota en Writing Task 2 y Task 1. Mejora Lexical Resource, que valora el vocabulario preciso, las colocaciones correctas (an increase in, the impact on) y un registro adecuado; y Grammatical Range and Accuracy, por las frases nominales complejas. Consejo: toma una oración tuya del tipo Because prices went up a lot, people bought less y reescríbela con un sustantivo: The sharp rise in prices led to a fall in consumption. Practica así con tus propios borradores.",
+    "practice": [
+      {
+        "q": "There has been a significant ___ in unemployment.",
+        "options": [
+          "reduce",
+          "reduction",
+          "reducing",
+          "reduced"
+        ],
+        "answer": 1,
+        "why_es": "Después de a significant necesitamos un sustantivo: reduction."
+      },
+      {
+        "q": "The ___ of the city has created new problems.",
+        "options": [
+          "grow",
+          "growing",
+          "grew",
+          "growth"
+        ],
+        "answer": 3,
+        "why_es": "El sustantivo de grow es growth: the growth of the city."
+      },
+      {
+        "q": "An increase ___ prices often reduces demand.",
+        "options": [
+          "of",
+          "in",
+          "on",
+          "at"
+        ],
+        "answer": 1,
+        "why_es": "Con un cambio en algo, increase va con in: an increase in prices."
+      },
+      {
+        "q": "Technology has a strong impact ___ education.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "for"
+        ],
+        "answer": 2,
+        "why_es": "La colocación es impact on: el impacto en algo."
+      },
+      {
+        "q": "Choose the most formal option.",
+        "options": [
+          "We need to find out why this happens.",
+          "We need to discover why this occurs.",
+          "We gotta find out why this happens.",
+          "We need to figure out why this happens."
+        ],
+        "answer": 1,
+        "why_es": "Discover y occur son más formales que find out / figure out y happen."
+      },
+      {
+        "q": "Which is correct in a formal essay?",
+        "options": [
+          "It's not easy to change habits.",
+          "It isn't easy to change habits.",
+          "It is not easy to change habits.",
+          "Its not easy to change habits."
+        ],
+        "answer": 2,
+        "why_es": "Sin contracciones: It is not easy."
+      },
+      {
+        "q": "There is a growing demand ___ renewable energy.",
+        "options": [
+          "for",
+          "of",
+          "in",
+          "to"
+        ],
+        "answer": 0,
+        "why_es": "Demand va con for: demand for renewable energy."
+      },
+      {
+        "q": "Choose the best academic version: Cities grew fast, so pollution got worse.",
+        "options": [
+          "The fast grow of cities made pollution bad.",
+          "Cities growing fast, pollution got worse.",
+          "The rapid growth of cities led to an increase in pollution.",
+          "Cities grew rapidly, so pollution got badder."
+        ],
+        "answer": 2,
+        "why_es": "Nominaliza (the rapid growth of) y usa vocabulario formal (led to an increase in)."
+      }
+    ]
+  },
+  {
+    "id": "gr-letter-writing",
+    "order": 38,
+    "name_en": "Letter writing for General Training",
+    "title_es": "Cartas formales, semiformales e informales (General Training)",
+    "group": "escritura",
+    "level": "B1",
+    "use_es": "En General Training Writing Task 1 escribes una carta de al menos 150 palabras para una situación de la vida diaria: quejarte con un casero, pedir información a una empresa, invitar a un amigo. Lo primero es identificar a quién escribes, porque eso define el tono: formal (alguien que no conoces), semiformal (alguien que conoces pero con quien tienes una relación respetuosa, como un jefe o un vecino) o informal (un amigo). El saludo, la despedida, las peticiones y el vocabulario cambian con cada tipo.",
+    "steps": [
+      {
+        "title_es": "Saludo y despedida según el tono",
+        "body_es": "Formal, si no sabes el nombre: Dear Sir or Madam, y cierras con Yours faithfully. Formal o semiformal con nombre: Dear Mr Brown / Dear Ms Lee, y cierras con Yours sincerely (en Norteamérica también Sincerely). Informal: Dear Ana, o Hi Ana, y cierras con Best wishes, All the best o Love. Ms es la forma neutra para mujeres. No escribas el nombre de pila con Mr: *Dear Mr John* no es correcto.",
+        "examples": [
+          {
+            "en": "Dear Sir or Madam, I am writing to enquire about your evening courses.",
+            "es": "Estimado señor o señora: le escribo para pedir información sobre sus cursos nocturnos."
+          },
+          {
+            "en": "Hi Sam, Thanks so much for your letter. It was great to hear from you!",
+            "es": "Hola, Sam: muchas gracias por tu carta. ¡Me dio mucho gusto saber de ti!"
+          }
+        ],
+        "table": [
+          [
+            "Dear Sir or Madam, ... Yours faithfully,",
+            "formal, sin nombre"
+          ],
+          [
+            "Dear Ms Lee, ... Yours sincerely,",
+            "formal o semiformal, con apellido"
+          ],
+          [
+            "Dear Ana, / Hi Ana, ... Best wishes,",
+            "informal, a un amigo"
+          ]
+        ]
+      },
+      {
+        "title_es": "Decir el propósito en la primera línea",
+        "body_es": "Quien lee debe saber de inmediato por qué escribes. Formal: I am writing to complain about..., I am writing to enquire about..., I am writing with regard to.... Semiformal: I am writing to let you know that.... Informal: I'm writing to tell you about..., I just wanted to let you know that.... Después, cubre los tres puntos que pide la tarea, normalmente uno por párrafo.",
+        "examples": [
+          {
+            "en": "I am writing to complain about the noise from the apartment above mine.",
+            "es": "Le escribo para quejarme del ruido del departamento de arriba."
+          },
+          {
+            "en": "I'm writing to invite you to my birthday party next month.",
+            "es": "Te escribo para invitarte a mi fiesta de cumpleaños el próximo mes."
+          }
+        ]
+      },
+      {
+        "title_es": "Peticiones educadas",
+        "body_es": "En una carta formal, las peticiones directas (Fix my heater) suenan bruscas. Usa estructuras indirectas: I would be grateful if you could + verbo (le agradecería que...), I would appreciate it if you could..., Could you please...?, Would it be possible to...?. Ojo con la gramática: después de I would be grateful if you could va el verbo base, y I would appreciate lleva it antes de if.",
+        "examples": [
+          {
+            "en": "I would be grateful if you could send me more information about the course fees.",
+            "es": "Le agradecería que me enviara más información sobre el costo de los cursos."
+          },
+          {
+            "en": "Would it be possible to change my appointment to Friday?",
+            "es": "¿Sería posible cambiar mi cita al viernes?"
+          }
+        ],
+        "table": [
+          [
+            "I would be grateful if you could...",
+            "Le agradecería que..."
+          ],
+          [
+            "I would appreciate it if you could...",
+            "Le agradecería que... (lleva it)"
+          ],
+          [
+            "Would it be possible to...?",
+            "¿Sería posible...?"
+          ],
+          [
+            "Could you let me know...? (informal)",
+            "¿Me avisas...?"
+          ]
+        ]
+      },
+      {
+        "title_es": "Cerrar la carta con naturalidad",
+        "body_es": "Antes de la despedida, una línea de cierre. Formal: I look forward to hearing from you. (look forward to + -ing), Thank you for your attention to this matter. Informal: Can't wait to see you!, Write back soon!, Let me know what you think. En las cartas informales sí puedes usar contracciones y un tono cercano; en las formales, no. Después de la despedida va tu nombre completo (formal) o solo el nombre de pila (informal).",
+        "examples": [
+          {
+            "en": "I look forward to hearing from you.",
+            "es": "Quedo a la espera de su respuesta."
+          },
+          {
+            "en": "Let me know if you can make it. Hope to see you soon!",
+            "es": "Avísame si puedes venir. ¡Espero verte pronto!"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I am writing with regard to the job advertised on your website.",
+        "es": "Le escribo en relación con el empleo anunciado en su sitio web."
+      },
+      {
+        "en": "I would appreciate it if you could repair the heater as soon as possible.",
+        "es": "Le agradecería que reparara la calefacción lo antes posible."
+      },
+      {
+        "en": "I'm really sorry I missed your call last week. Things have been crazy at work.",
+        "es": "Perdón por no contestar tu llamada la semana pasada. He tenido mucho trabajo."
+      },
+      {
+        "en": "I would be grateful if you could confirm my booking by email.",
+        "es": "Le agradecería que me confirmara mi reservación por correo electrónico."
+      }
+    ],
+    "mistakes_es": "1) *Dear Sir or Madam ... Yours sincerely* → *Yours faithfully* (si no sabes el nombre). 2) *I would be grateful if you can sent* → *I would be grateful if you could send*. 3) *I would appreciate if you could* → *I would appreciate it if you could* (falta it). 4) *I look forward to hear from you* → *I look forward to hearing from you* (to es preposición). 5) *Dear Mr Carlos* → *Dear Mr Ruiz* (Mr va con el apellido).",
+    "ielts_es": "Exclusivo de General Training Writing Task 1. El tono adecuado y el propósito claro son parte de Task Achievement, que valora que cubras los tres puntos de la tarea y uses el registro apropiado. Las peticiones indirectas y la estructura por párrafos aportan a Grammatical Range and Accuracy y a Coherence and Cohesion. Consejo: antes de escribir, subraya a quién va la carta y decide el tono; luego asigna un párrafo a cada uno de los tres puntos y empieza con tu propósito.",
+    "practice": [
+      {
+        "q": "You don't know the name of the person. How do you start?",
+        "options": [
+          "Dear Mr,",
+          "Dear Sir or Madam,",
+          "Hi there,",
+          "Dear Friend,"
+        ],
+        "answer": 1,
+        "why_es": "En una carta formal sin nombre se usa Dear Sir or Madam,."
+      },
+      {
+        "q": "You started with Dear Sir or Madam. How do you end?",
+        "options": [
+          "Yours faithfully,",
+          "Yours sincerely,",
+          "Love,",
+          "Best wishes,"
+        ],
+        "answer": 0,
+        "why_es": "Con Dear Sir or Madam se cierra con Yours faithfully."
+      },
+      {
+        "q": "I would be grateful if you ___ me a refund.",
+        "options": [
+          "can give",
+          "could give",
+          "would gave",
+          "could gave"
+        ],
+        "answer": 1,
+        "why_es": "La fórmula es I would be grateful if you could + verbo base."
+      },
+      {
+        "q": "I look forward to ___ from you.",
+        "options": [
+          "hear",
+          "hearing",
+          "heard",
+          "be hearing"
+        ],
+        "answer": 1,
+        "why_es": "Look forward to + gerundio: hearing."
+      },
+      {
+        "q": "I would appreciate ___ if you could call me back.",
+        "options": [
+          "it",
+          "that",
+          "so",
+          "this"
+        ],
+        "answer": 0,
+        "why_es": "La estructura correcta es I would appreciate it if..."
+      },
+      {
+        "q": "Which opening is best for a complaint to a company?",
+        "options": [
+          "Hey guys, I'm angry about...",
+          "I am writing to complain about...",
+          "What's up? I want to tell you...",
+          "Listen, there's a problem with..."
+        ],
+        "answer": 1,
+        "why_es": "Formal y con el propósito claro: I am writing to complain about..."
+      },
+      {
+        "q": "Which line suits a letter to a close friend?",
+        "options": [
+          "I look forward to your prompt reply.",
+          "Yours faithfully,",
+          "Can't wait to see you!",
+          "Thank you for your attention to this matter."
+        ],
+        "answer": 2,
+        "why_es": "Can't wait to see you! es un cierre cercano e informal, propio de una carta a un amigo."
+      },
+      {
+        "q": "Choose the correct greeting for a letter to Sarah Thompson, your landlord.",
+        "options": [
+          "Dear Ms Sarah,",
+          "Dear Landlord Thompson,",
+          "Dear Ms Thompson,",
+          "Dear Thompson,"
+        ],
+        "answer": 2,
+        "why_es": "Ms + apellido: Dear Ms Thompson,."
+      }
+    ]
+  },
+  {
+    "id": "gr-speaking-past-habits",
+    "order": 39,
+    "name_en": "Past and present habits in Speaking Part 1",
+    "title_es": "Hábitos de antes y de ahora en Speaking Part 1",
+    "group": "conversacion",
+    "level": "B1",
+    "use_es": "En Speaking Part 1 te preguntan por tu vida: dónde creciste, qué hacías de niño, tus pasatiempos, tu rutina. Para responder con naturalidad necesitas contrastar el pasado con el presente: used to y would para hábitos que ya no tienes, be used to y get used to para hablar de costumbres y adaptación, y el present perfect para experiencias de tu vida. Ya viste used to en la unidad de tiempos; aquí lo aplicamos a respuestas reales de examen y le sumamos would y el present perfect.",
+    "steps": [
+      {
+        "title_es": "Used to y would para hábitos del pasado",
+        "body_es": "Used to + verbo describe algo que hacías antes y ya no: I used to play soccer every weekend. Would + verbo también expresa hábitos repetidos del pasado, sobre todo al contar recuerdos: On Sundays, my grandmother would cook for the whole family. La diferencia clave: would solo funciona con acciones repetidas, no con estados. Con verbos como live, have, like o be, solo usa used to: I used to live in Puebla, nunca *I would live in Puebla* con ese sentido.",
+        "examples": [
+          {
+            "en": "When I was a kid, I used to spend hours drawing.",
+            "es": "Cuando era niño, pasaba horas dibujando."
+          },
+          {
+            "en": "Every summer, we would drive to the coast and stay with my uncle.",
+            "es": "Cada verano manejábamos a la costa y nos quedábamos con mi tío."
+          }
+        ],
+        "table": [
+          [
+            "used to + acción o estado",
+            "I used to live / play / have..."
+          ],
+          [
+            "would + solo acción repetida",
+            "We would go to the beach every summer."
+          ]
+        ]
+      },
+      {
+        "title_es": "Be used to y get used to: costumbre y adaptación",
+        "body_es": "Be used to + -ing o sustantivo significa estar acostumbrado: I'm used to waking up early. Get used to significa acostumbrarse, es decir, el proceso: It took me a while to get used to the cold. Es perfecto para hablar de tu vida en Canadá. Lo que confunde es que aquí to es preposición, así que va seguido de -ing o de un sustantivo, no del verbo base: *I'm used to wake up* está mal.",
+        "examples": [
+          {
+            "en": "I'm used to working long hours, so it doesn't bother me.",
+            "es": "Estoy acostumbrado a trabajar muchas horas, así que no me molesta."
+          },
+          {
+            "en": "I'm still getting used to the winters here.",
+            "es": "Todavía me estoy acostumbrando a los inviernos de aquí."
+          }
+        ]
+      },
+      {
+        "title_es": "Present perfect para tus experiencias",
+        "body_es": "Cuando hablas de experiencias de tu vida sin decir cuándo, usa el present perfect: I've been to Vancouver twice. I've never tried skiing. Si das un momento concreto, cambias al pasado simple: I went there in 2022. Una respuesta natural suele combinar los dos: I've always loved cooking. I started when I was about twelve.",
+        "examples": [
+          {
+            "en": "I've lived in three different cities so far.",
+            "es": "Hasta ahora he vivido en tres ciudades distintas."
+          },
+          {
+            "en": "I've never been very good at sports, to be honest.",
+            "es": "La verdad, nunca he sido muy bueno para los deportes."
+          }
+        ]
+      },
+      {
+        "title_es": "Armar una respuesta: antes, ahora y por qué",
+        "body_es": "En Part 1 las respuestas deben ser cortas pero desarrolladas: dos o tres frases. Una estructura sencilla es contrastar el antes y el ahora y dar una razón: I used to... but these days I... because.... Por ejemplo, si te preguntan Do you read much?, en lugar de Yes, puedes decir: I used to read a lot when I was at school, but these days I mostly listen to podcasts because I spend a lot of time commuting.",
+        "examples": [
+          {
+            "en": "I used to hate vegetables, but now I actually enjoy cooking them.",
+            "es": "Antes odiaba las verduras, pero ahora la verdad disfruto cocinarlas."
+          },
+          {
+            "en": "I didn't use to exercise much, but I've started running recently.",
+            "es": "Antes no hacía mucho ejercicio, pero hace poco empecé a correr."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "My hometown used to be quite quiet, but now it's much busier.",
+        "es": "Mi ciudad natal antes era bastante tranquila, pero ahora tiene mucho más movimiento."
+      },
+      {
+        "en": "After school, my friends and I would play in the street until dinner.",
+        "es": "Después de la escuela, mis amigos y yo jugábamos en la calle hasta la cena."
+      },
+      {
+        "en": "It took me a few months to get used to speaking English at work.",
+        "es": "Me tomó unos meses acostumbrarme a hablar inglés en el trabajo."
+      },
+      {
+        "en": "I've always enjoyed photography, but I've only recently bought a good camera.",
+        "es": "Siempre me ha gustado la fotografía, pero apenas hace poco compré una buena cámara."
+      }
+    ],
+    "mistakes_es": "1) *I use to play* → *I used to play* (en afirmativo lleva -d). 2) *I didn't used to* → *I didn't use to* (después de did, sin -d). 3) *I'm used to wake up early* → *I'm used to waking up early*. 4) *I would live in Monterrey* (para un estado) → *I used to live in Monterrey*. 5) *I have been to Toronto last year* → *I went to Toronto last year* (con un momento concreto, pasado simple).",
+    "ielts_es": "Muy útil en Speaking Part 1 (tu ciudad, tu infancia, pasatiempos) y en Part 2 cuando cuentas una experiencia. Mejora Grammatical Range and Accuracy, porque muestras control de distintas formas del pasado, y Fluency and Coherence, porque contrastar antes y ahora te da material para extender la respuesta de forma natural. Consejo: prepara una o dos frases con used to... but now... para los temas más comunes (hometown, hobbies, reading, sports) y practícalas en voz alta.",
+    "practice": [
+      {
+        "q": "When I was younger, I ___ play the guitar every day.",
+        "options": [
+          "use to",
+          "used to",
+          "am used to",
+          "was used to"
+        ],
+        "answer": 1,
+        "why_es": "Para un hábito del pasado que ya no tienes: used to + verbo base."
+      },
+      {
+        "q": "I ___ live in a small town before I moved here.",
+        "options": [
+          "would",
+          "used to",
+          "was used",
+          "am used to"
+        ],
+        "answer": 1,
+        "why_es": "Live es un estado, así que no se usa would; solo used to."
+      },
+      {
+        "q": "I'm not used to ___ in such cold weather.",
+        "options": [
+          "drive",
+          "driving",
+          "drove",
+          "be driving"
+        ],
+        "answer": 1,
+        "why_es": "Be used to + -ing: aquí to es preposición."
+      },
+      {
+        "q": "Did you ___ go to the beach as a child?",
+        "options": [
+          "used to",
+          "use to",
+          "using to",
+          "be used to"
+        ],
+        "answer": 1,
+        "why_es": "En preguntas y negativas con did, se escribe use to (sin -d)."
+      },
+      {
+        "q": "It was hard at first, but I ___ the new schedule.",
+        "options": [
+          "got used to",
+          "used to",
+          "would",
+          "use to"
+        ],
+        "answer": 0,
+        "why_es": "Get used to expresa el proceso de acostumbrarse: I got used to the new schedule."
+      },
+      {
+        "q": "I ___ never ___ to a hockey game.",
+        "options": [
+          "have / been",
+          "did / go",
+          "was / gone",
+          "have / went"
+        ],
+        "answer": 0,
+        "why_es": "Experiencia sin tiempo concreto: present perfect, I have never been to..."
+      },
+      {
+        "q": "Every Christmas, my family ___ get together at my grandparents' house.",
+        "options": [
+          "is used to",
+          "has",
+          "would",
+          "gets used to"
+        ],
+        "answer": 2,
+        "why_es": "Acción repetida en el pasado al contar un recuerdo: would get together."
+      },
+      {
+        "q": "I ___ to Montreal in 2021.",
+        "options": [
+          "have gone",
+          "have been",
+          "went",
+          "used to go"
+        ],
+        "answer": 2,
+        "why_es": "Con una fecha concreta (in 2021) se usa pasado simple: went."
+      }
+    ]
+  },
+  {
+    "id": "gr-preferences-opinions",
+    "order": 40,
+    "name_en": "Expressing preferences and opinions naturally",
+    "title_es": "Preferencias y opiniones que suenan naturales",
+    "group": "conversacion",
+    "level": "B1",
+    "use_es": "En el Speaking te preguntan constantemente qué prefieres y qué opinas: ¿te gusta más la ciudad o el campo?, ¿prefieres leer o ver películas? Decir solo I like o I think en cada respuesta suena repetitivo. El inglés hablado tiene muchas formas naturales de expresar preferencias (I'd rather, I prefer... to...), gustos con matices (I'm really into, I'm not a big fan of), tendencias (I tend to) y respuestas que dependen del contexto (It depends on...). Cada una tiene su propia gramática, que vale la pena dominar.",
+    "steps": [
+      {
+        "title_es": "Prefer y would rather: dos gramáticas distintas",
+        "body_es": "Prefer se usa para preferencias generales: I prefer tea to coffee, I prefer walking to driving (prefer A to B, con sustantivos o -ing). Would rather (contracción I'd rather) se usa para una preferencia concreta o general y va con el verbo base, sin to: I'd rather stay at home tonight. Para comparar: I'd rather read than watch TV. Ojo: *I'd rather to stay* y *I prefer stay* están mal.",
+        "examples": [
+          {
+            "en": "I prefer living in a small town to living in a big city.",
+            "es": "Prefiero vivir en un pueblo que en una ciudad grande."
+          },
+          {
+            "en": "I'd rather cook at home than eat out every night.",
+            "es": "Prefiero cocinar en casa que comer fuera todas las noches."
+          }
+        ],
+        "table": [
+          [
+            "prefer + sustantivo / -ing + to + sustantivo / -ing",
+            "I prefer tea to coffee."
+          ],
+          [
+            "would rather + verbo base + than + verbo base",
+            "I'd rather walk than drive."
+          ],
+          [
+            "would prefer + to + verbo",
+            "I'd prefer to stay in."
+          ]
+        ]
+      },
+      {
+        "title_es": "Gustos con matices: into, keen on, a big fan of",
+        "body_es": "Para variar más allá de like: I'm really into hiking (me encanta), I'm keen on photography (británico, me interesa), I'm a big fan of jazz, I'm not really into team sports, It's not really my thing. Después de into, keen on y fan of va sustantivo o -ing. Usar formas negativas suaves como I'm not a big fan of suena más natural y educado que I hate.",
+        "examples": [
+          {
+            "en": "I'm really into cooking food from different countries.",
+            "es": "Me encanta cocinar comida de diferentes países."
+          },
+          {
+            "en": "To be honest, horror movies aren't really my thing.",
+            "es": "La verdad, las películas de terror no son lo mío."
+          }
+        ]
+      },
+      {
+        "title_es": "Tend to y hábitos con matiz",
+        "body_es": "I tend to + verbo significa «suelo» o «normalmente»: I tend to read before bed. Es más natural que repetir usually en cada respuesta. También: I usually end up + -ing (normalmente termino...), I'm more of a... person (soy más de...): I'm more of a morning person. Son fórmulas que hacen que tu respuesta suene espontánea.",
+        "examples": [
+          {
+            "en": "I tend to go to the gym in the morning, before work.",
+            "es": "Suelo ir al gimnasio en la mañana, antes del trabajo."
+          },
+          {
+            "en": "I'm more of a beach person than a mountain person.",
+            "es": "Soy más de playa que de montaña."
+          }
+        ]
+      },
+      {
+        "title_es": "It depends on y respuestas matizadas",
+        "body_es": "Muchas preguntas no tienen una respuesta absoluta. It depends on + sustantivo o + wh-: It depends on the weather, It depends on how much time I have. Ojo: es depends on, no *depends of*. También: I'd say..., For me, it's..., I guess it's a bit of both. Después de un It depends, explica con ejemplos: If it's sunny, I go out; if not, I stay in.",
+        "examples": [
+          {
+            "en": "It depends on who I'm with, really.",
+            "es": "Depende de con quién esté, la verdad."
+          },
+          {
+            "en": "I'd say I prefer weekends at home, but it depends on my mood.",
+            "es": "Diría que prefiero los fines de semana en casa, pero depende de mi estado de ánimo."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I'd rather live near the city centre, even if it's more expensive.",
+        "es": "Preferiría vivir cerca del centro, aunque sea más caro."
+      },
+      {
+        "en": "I'm not a big fan of shopping malls; they're too crowded for me.",
+        "es": "No me gustan mucho los centros comerciales; para mí hay demasiada gente."
+      },
+      {
+        "en": "I tend to listen to music when I'm studying.",
+        "es": "Suelo escuchar música cuando estudio."
+      },
+      {
+        "en": "Whether I go out or not depends on how tired I am after work.",
+        "es": "Que salga o no depende de qué tan cansado esté después del trabajo."
+      }
+    ],
+    "mistakes_es": "1) *I'd rather to stay home* → *I'd rather stay home* (sin to). 2) *I prefer tea than coffee* → *I prefer tea to coffee* (prefer A to B). 3) *It depends of the weather* → *It depends on the weather*. 4) *I'm into to play tennis* → *I'm into playing tennis*. 5) *I tend going out* → *I tend to go out*.",
+    "ielts_es": "Se usa en Speaking Part 1 (gustos, pasatiempos, rutina) y en Part 3 al dar opiniones. Aporta a Lexical Resource, que valora el uso de expresiones idiomáticas y variedad de vocabulario, y a Grammatical Range and Accuracy, porque prefer, would rather y depend on tienen estructuras distintas. Consejo: graba tus respuestas a tres preguntas de Part 1 y cuenta cuántas veces dices I like o I think; sustituye algunas por I'm really into, I tend to o I'd rather.",
+    "practice": [
+      {
+        "q": "I'd rather ___ at home tonight.",
+        "options": [
+          "to stay",
+          "stay",
+          "staying",
+          "stayed"
+        ],
+        "answer": 1,
+        "why_es": "Would rather + verbo base, sin to: I'd rather stay."
+      },
+      {
+        "q": "I prefer walking ___ taking the bus.",
+        "options": [
+          "than",
+          "that",
+          "to",
+          "of"
+        ],
+        "answer": 2,
+        "why_es": "Prefer A to B: I prefer walking to taking the bus."
+      },
+      {
+        "q": "It depends ___ the weather.",
+        "options": [
+          "of",
+          "from",
+          "in",
+          "on"
+        ],
+        "answer": 3,
+        "why_es": "El verbo depend va con on: it depends on."
+      },
+      {
+        "q": "I'm really into ___ old movies.",
+        "options": [
+          "watch",
+          "watching",
+          "to watch",
+          "watched"
+        ],
+        "answer": 1,
+        "why_es": "Into es preposición, así que va seguido de -ing: into watching."
+      },
+      {
+        "q": "I ___ to wake up early, even on weekends.",
+        "options": [
+          "tend",
+          "tends",
+          "am tend",
+          "tending"
+        ],
+        "answer": 0,
+        "why_es": "I tend to + verbo: I tend to wake up early."
+      },
+      {
+        "q": "I'd rather read a book ___ watch TV.",
+        "options": [
+          "to",
+          "than",
+          "that",
+          "then"
+        ],
+        "answer": 1,
+        "why_es": "Con would rather, la comparación se hace con than: rather read than watch."
+      },
+      {
+        "q": "Which is the most natural way to say you don't like something much?",
+        "options": [
+          "I hate it very much.",
+          "I'm not a big fan of it.",
+          "I don't like it never.",
+          "It's not my like."
+        ],
+        "answer": 1,
+        "why_es": "I'm not a big fan of it es una forma suave y natural de decir que no te gusta mucho."
+      },
+      {
+        "q": "I'm more of a night ___.",
+        "options": [
+          "people",
+          "persons",
+          "person",
+          "personal"
+        ],
+        "answer": 2,
+        "why_es": "La expresión es be more of a ... person: I'm more of a night person."
+      }
+    ]
+  },
+  {
+    "id": "gr-speculating",
+    "order": 41,
+    "name_en": "Speculating and hypothesising",
+    "title_es": "Especular e imaginar situaciones al hablar",
+    "group": "conversacion",
+    "level": "B2",
+    "use_es": "En Speaking Part 3 te hacen preguntas abstractas: ¿por qué crees que la gente se muda a las ciudades?, ¿cómo serán las escuelas en el futuro?, ¿qué harías si fueras alcalde? Para responder bien necesitas especular (dar causas posibles sin estar seguro) e imaginar situaciones hipotéticas. Para eso sirven los condicionales segundo y tercero, que ya viste en la unidad de condicionales, y expresiones como I'd imagine, It might be because o I suppose. Aquí las practicamos en respuestas habladas.",
+    "steps": [
+      {
+        "title_es": "Especular sobre causas: might be because, probably",
+        "body_es": "Cuando no sabes la razón exacta de algo, no digas solo I don't know. Especula: It might be because..., It's probably because..., I'd imagine that..., I suppose it's partly due to.... Después de because va una oración completa; después de due to, un sustantivo. Puedes dar dos razones posibles: It might be because of the cost, or perhaps people just prefer....",
+        "examples": [
+          {
+            "en": "I'd imagine it's because cities offer more job opportunities.",
+            "es": "Me imagino que es porque las ciudades ofrecen más oportunidades de trabajo."
+          },
+          {
+            "en": "It might be because young people have less free time these days.",
+            "es": "Podría ser porque los jóvenes tienen menos tiempo libre hoy en día."
+          }
+        ],
+        "table": [
+          [
+            "I'd imagine (that)...",
+            "Me imagino que..."
+          ],
+          [
+            "It might / could be because...",
+            "Podría ser porque..."
+          ],
+          [
+            "I suppose... / I guess...",
+            "Supongo que..."
+          ],
+          [
+            "Perhaps / Maybe...",
+            "Quizás..."
+          ]
+        ]
+      },
+      {
+        "title_es": "Situaciones imaginarias del presente: If I were...",
+        "body_es": "El segundo condicional (If + pasado, would + verbo) se usa para situaciones imaginarias o poco probables: If I were the mayor, I would build more parks. Con el verbo be, en un registro cuidado se usa were para todas las personas: If I were you, If it were possible. En la conversación oirás if I was, pero en el examen were muestra precisión. Recuerda: would no va en la parte del if.",
+        "examples": [
+          {
+            "en": "If I had more free time, I'd learn to play the piano.",
+            "es": "Si tuviera más tiempo libre, aprendería a tocar el piano."
+          },
+          {
+            "en": "If I were in charge of education, I would reduce the number of exams.",
+            "es": "Si yo estuviera a cargo de la educación, reduciría el número de exámenes."
+          }
+        ]
+      },
+      {
+        "title_es": "Imaginar un pasado distinto: tercer condicional",
+        "body_es": "El tercer condicional (If + had + participio, would have + participio) habla de algo que no ocurrió y de su resultado imaginario: If I had studied English earlier, I would have moved to Canada sooner. Es útil en Part 2 cuando cuentas una experiencia y reflexionas sobre ella. Al hablar, would have se pronuncia rápido: would've. También existe la mezcla: If I hadn't moved, I wouldn't be here now (pasado que afecta al presente).",
+        "examples": [
+          {
+            "en": "If I hadn't taken that job, I would never have met my best friend.",
+            "es": "Si no hubiera aceptado ese trabajo, nunca habría conocido a mi mejor amigo."
+          },
+          {
+            "en": "If I had known about the course, I would have signed up.",
+            "es": "Si hubiera sabido del curso, me habría inscrito."
+          }
+        ]
+      },
+      {
+        "title_es": "Especular sobre el futuro y sobre otros",
+        "body_es": "Para predicciones abstractas en Part 3: I'd say that..., It's quite likely that..., I doubt that..., There's a good chance that.... Y para hablar de lo que otras personas harían: Most people would probably..., I suppose some people might.... Combinar estas expresiones con razones y ejemplos alarga la respuesta de forma natural y muestra que puedes razonar en inglés.",
+        "examples": [
+          {
+            "en": "I doubt that books will disappear completely.",
+            "es": "Dudo que los libros desaparezcan por completo."
+          },
+          {
+            "en": "Most people would probably choose a shorter commute over a bigger house.",
+            "es": "Probablemente la mayoría de la gente elegiría un trayecto más corto antes que una casa más grande."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "I suppose people move abroad because they want a better quality of life.",
+        "es": "Supongo que la gente se va al extranjero porque quiere una mejor calidad de vida."
+      },
+      {
+        "en": "If I could live anywhere, I'd probably choose a city near the mountains.",
+        "es": "Si pudiera vivir en cualquier lugar, probablemente elegiría una ciudad cerca de las montañas."
+      },
+      {
+        "en": "If my parents hadn't encouraged me, I wouldn't have started learning English.",
+        "es": "Si mis papás no me hubieran animado, no habría empezado a aprender inglés."
+      },
+      {
+        "en": "There's a good chance that most shopping will be done online in the future.",
+        "es": "Es muy probable que en el futuro la mayoría de las compras se hagan en línea."
+      }
+    ],
+    "mistakes_es": "1) *If I would have money, I would travel* → *If I had money, I would travel* (sin would en la parte del if). 2) *If I would have known* → *If I had known*. 3) *I would went* → *I would have gone* / *I would go*. 4) *It might be because of people prefer...* → *It might be because people prefer...* (because of va con sustantivo). 5) Responder *I don't know* a una pregunta de Part 3 → especular: *I'm not sure, but I'd imagine...*.",
+    "ielts_es": "Clave en Speaking Part 3, donde las preguntas son abstractas, y útil en Part 2 al reflexionar sobre una experiencia. Mejora Grammatical Range and Accuracy, porque los condicionales y los modales de posibilidad son estructuras complejas, y Fluency and Coherence, porque especular te permite seguir hablando aunque no sepas la respuesta exacta. Consejo: si una pregunta te deja en blanco, empieza con I've never really thought about it, but I'd imagine... y da una razón posible con un ejemplo.",
+    "practice": [
+      {
+        "q": "If I ___ more money, I would travel around the world.",
+        "options": [
+          "have",
+          "would have",
+          "had",
+          "will have"
+        ],
+        "answer": 2,
+        "why_es": "Segundo condicional: If + pasado (had), would + verbo."
+      },
+      {
+        "q": "If I ___ you, I would accept the offer.",
+        "options": [
+          "am",
+          "were",
+          "would be",
+          "be"
+        ],
+        "answer": 1,
+        "why_es": "Con be en el segundo condicional se usa were: If I were you."
+      },
+      {
+        "q": "If she had left earlier, she ___ the train.",
+        "options": [
+          "would catch",
+          "would have caught",
+          "will catch",
+          "caught"
+        ],
+        "answer": 1,
+        "why_es": "Tercer condicional: would have + participio (caught)."
+      },
+      {
+        "q": "Why do people move to cities? — ___ it's because of the jobs.",
+        "options": [
+          "I'd imagine",
+          "I'd imagined",
+          "I imagine to",
+          "I'm imagine"
+        ],
+        "answer": 0,
+        "why_es": "I'd imagine + oración es una forma natural de especular."
+      },
+      {
+        "q": "It might be ___ people want more privacy.",
+        "options": [
+          "because of",
+          "because",
+          "due to",
+          "since of"
+        ],
+        "answer": 1,
+        "why_es": "Después viene una oración completa (people want...), así que va because."
+      },
+      {
+        "q": "If I hadn't moved here, I ___ my wife.",
+        "options": [
+          "wouldn't meet",
+          "won't have met",
+          "wouldn't have met",
+          "didn't meet"
+        ],
+        "answer": 2,
+        "why_es": "Tercer condicional negativo: wouldn't have met."
+      },
+      {
+        "q": "I ___ that cars will be completely replaced by trains.",
+        "options": [
+          "doubt",
+          "am doubt",
+          "doubting",
+          "doubts"
+        ],
+        "answer": 0,
+        "why_es": "I doubt that + oración: dudo que..."
+      },
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "If I would live in Canada, I would ski.",
+          "If I lived in Canada, I would ski.",
+          "If I lived in Canada, I will ski.",
+          "If I live in Canada, I would ski."
+        ],
+        "answer": 1,
+        "why_es": "Segundo condicional: If + pasado (lived), would + verbo (would ski)."
+      }
+    ]
+  },
+  {
+    "id": "gr-emphasis-cleft-inversion",
+    "order": 42,
+    "name_en": "Emphasis: cleft sentences and inversion",
+    "title_es": "Dar énfasis: oraciones hendidas e inversión",
+    "group": "conversacion",
+    "level": "C1",
+    "use_es": "A veces quieres destacar una parte de lo que dices: lo que más te gusta, la verdadera razón, algo sorprendente. En español lo hacemos con «lo que más me gusta es...» o «fue entonces cuando...». En inglés existen estructuras parecidas: las oraciones hendidas (What I like most is..., It was... that...) y la inversión (Not only... but also, Never have I...). Las primeras son muy naturales al hablar; la inversión es más formal y conviene usarla con cuidado para no sonar artificial.",
+    "steps": [
+      {
+        "title_es": "What... is...: destacar lo importante",
+        "body_es": "La oración con What pone al principio una idea general y después revela lo importante: What I like most about my city is the food. What surprised me was how friendly people were. La estructura es What + sujeto + verbo + is / was + lo que quieres destacar. Es muy natural en Speaking porque te da un segundo para pensar y crea expectativa. Ojo: no se usa *The thing what*, sino The thing that... o simplemente What....",
+        "examples": [
+          {
+            "en": "What I love about living here is the access to nature.",
+            "es": "Lo que me encanta de vivir aquí es el acceso a la naturaleza."
+          },
+          {
+            "en": "What I really need is a bit more free time.",
+            "es": "Lo que de verdad necesito es un poco más de tiempo libre."
+          }
+        ],
+        "table": [
+          [
+            "What I like most is...",
+            "Lo que más me gusta es..."
+          ],
+          [
+            "What surprised me was...",
+            "Lo que me sorprendió fue..."
+          ],
+          [
+            "The thing (that) I miss most is...",
+            "Lo que más extraño es..."
+          ],
+          [
+            "All I want is...",
+            "Lo único que quiero es..."
+          ]
+        ]
+      },
+      {
+        "title_es": "It is / It was... that...: señalar el elemento clave",
+        "body_es": "It was + elemento destacado + that / who + resto de la oración se usa para corregir o precisar: It was my grandmother who taught me to cook (fue mi abuela quien me enseñó...). It's not the money that matters, it's the experience. Puedes destacar una persona, un lugar o un momento: It was in high school that I started playing the guitar.",
+        "examples": [
+          {
+            "en": "It was my first trip abroad that made me want to learn languages.",
+            "es": "Fue mi primer viaje al extranjero lo que me hizo querer aprender idiomas."
+          },
+          {
+            "en": "It's not the weather that bothers me; it's the short days.",
+            "es": "No es el clima lo que me molesta; son los días tan cortos."
+          }
+        ]
+      },
+      {
+        "title_es": "Not only... but also y la inversión",
+        "body_es": "Not only... but also añade dos ideas con fuerza. En posición normal no cambia nada: The course was not only useful but also fun. Si pones Not only al principio, el inglés invierte sujeto y auxiliar, como en una pregunta: Not only is it cheap, but it is also healthy. Lo mismo pasa con Never, Rarely o Seldom al inicio: Never have I seen so much snow. Si no hay auxiliar, se añade do / does / did: Not only did she pass, but she also got the top score.",
+        "examples": [
+          {
+            "en": "Not only is cycling good for your health, but it also saves money.",
+            "es": "Andar en bici no solo es bueno para la salud, sino que también ahorra dinero."
+          },
+          {
+            "en": "Never have I felt so welcome in a new place.",
+            "es": "Nunca me había sentido tan bienvenido en un lugar nuevo."
+          }
+        ]
+      },
+      {
+        "title_es": "¿Cuándo suena natural y cuándo forzado?",
+        "body_es": "Las oraciones con What y It was... that son comunes en la conversación diaria: úsalas con confianza en cualquier parte del Speaking. La inversión con Never have I o Rarely do we es más propia de la escritura formal o de discursos; en una charla con el examinador, una vez puede sonar bien, pero varias seguidas suenan memorizadas. Not only... but also sin inversión es seguro tanto al hablar como al escribir.",
+        "examples": [
+          {
+            "en": "Honestly, what makes a good teacher is patience.",
+            "es": "La verdad, lo que hace a un buen maestro es la paciencia."
+          },
+          {
+            "en": "Rarely do governments manage to solve this problem quickly.",
+            "es": "Rara vez los gobiernos logran resolver este problema rápidamente."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "What I miss most about Mexico is my mom's cooking.",
+        "es": "Lo que más extraño de México es la comida de mi mamá."
+      },
+      {
+        "en": "It was during the pandemic that I started working from home.",
+        "es": "Fue durante la pandemia cuando empecé a trabajar desde casa."
+      },
+      {
+        "en": "Public transport here is not only cheap but also very reliable.",
+        "es": "El transporte público aquí no solo es barato, sino también muy confiable."
+      },
+      {
+        "en": "Not only did the city build new parks, but it also planted thousands of trees.",
+        "es": "La ciudad no solo construyó parques nuevos, sino que también plantó miles de árboles."
+      }
+    ],
+    "mistakes_es": "1) *What I like most it is the food* → *What I like most is the food* (sobra it). 2) *Not only it is cheap* → *Not only is it cheap* (inversión al inicio). 3) *Never I have seen* → *Never have I seen*. 4) *Not only she passed* → *Not only did she pass* (hace falta did). 5) *The thing what I like* → *The thing that I like* / *What I like*.",
+    "ielts_es": "Útil en Speaking Part 2 y Part 3 para destacar ideas, y en Writing Task 2 para el énfasis con Not only... but also. Aporta a Grammatical Range and Accuracy, porque son estructuras complejas, y a Fluency and Coherence, porque organizan el discurso y marcan lo importante. Consejo: en Part 2 prueba a introducir el punto central de tu historia con What I remember most is... o It was then that...; reserva la inversión para un uso puntual y bien practicado.",
+    "practice": [
+      {
+        "q": "What I like most about my job ___ the people.",
+        "options": [
+          "it is",
+          "is",
+          "are",
+          "it's being"
+        ],
+        "answer": 1,
+        "why_es": "What I like most + is + lo destacado. No se añade it."
+      },
+      {
+        "q": "It was my sister ___ convinced me to move.",
+        "options": [
+          "which",
+          "what",
+          "who",
+          "whom she"
+        ],
+        "answer": 2,
+        "why_es": "Para destacar a una persona: It was my sister who..."
+      },
+      {
+        "q": "Not only ___ cheap, but it is also delicious.",
+        "options": [
+          "it is",
+          "is it",
+          "it was",
+          "does it"
+        ],
+        "answer": 1,
+        "why_es": "Con Not only al inicio se invierte: Not only is it..."
+      },
+      {
+        "q": "Never ___ such a beautiful sunset.",
+        "options": [
+          "I have seen",
+          "have I seen",
+          "I saw",
+          "did I saw"
+        ],
+        "answer": 1,
+        "why_es": "Never al inicio: inversión con el auxiliar, Never have I seen."
+      },
+      {
+        "q": "Not only ___ the exam, but she also got the highest score.",
+        "options": [
+          "she passed",
+          "passed she",
+          "did she pass",
+          "she did pass"
+        ],
+        "answer": 2,
+        "why_es": "Sin auxiliar en la oración original, se añade did: Not only did she pass."
+      },
+      {
+        "q": "___ surprised me was the size of the city.",
+        "options": [
+          "That",
+          "Which",
+          "What",
+          "It"
+        ],
+        "answer": 2,
+        "why_es": "Oración hendida: What surprised me was..."
+      },
+      {
+        "q": "Which sentence sounds most natural in a casual Speaking answer?",
+        "options": [
+          "Seldom do I eat fast food.",
+          "Never have I eaten such food.",
+          "What I really enjoy is cooking with friends.",
+          "Rarely do I cook with friends."
+        ],
+        "answer": 2,
+        "why_es": "La oración con What... is es natural al hablar; la inversión suena más formal y escrita."
+      },
+      {
+        "q": "The app is not only free ___ easy to use.",
+        "options": [
+          "but also",
+          "and also but",
+          "but too",
+          "also"
+        ],
+        "answer": 0,
+        "why_es": "La pareja correcta es not only... but also."
+      }
+    ]
+  },
+  {
+    "id": "gr-future-forms-speaking",
+    "order": 43,
+    "name_en": "Future forms for plans and predictions",
+    "title_es": "Formas de futuro para planes y predicciones",
+    "group": "conversacion",
+    "level": "B2",
+    "use_es": "En el Speaking te preguntan por tus planes (¿qué vas a hacer después del examen?) y por el futuro en general (¿cómo cambiará el trabajo?). En inglés no existe un solo futuro: going to para planes e intenciones, el presente continuo para citas ya acordadas, will para decisiones del momento y predicciones, be likely to y be about to para probabilidad e inminencia, y el futuro perfecto para algo que estará terminado en un momento dado. Ya conoces cada tiempo por separado; aquí aprendes a elegir el adecuado en una respuesta.",
+    "steps": [
+      {
+        "title_es": "Going to y presente continuo: planes",
+        "body_es": "Going to + verbo expresa una intención o un plan que ya decidiste: I'm going to study nursing. El presente continuo (be + -ing) se usa para planes ya organizados, con fecha, hora o personas involucradas: I'm meeting my advisor on Monday. En la práctica se parecen mucho, pero el presente continuo suena a cita en la agenda. Para Part 1 (What are your plans for the weekend?) los dos son ideales; will suele sonar menos natural para planes ya hechos.",
+        "examples": [
+          {
+            "en": "I'm going to apply for a master's program next year.",
+            "es": "Voy a solicitar un programa de maestría el próximo año."
+          },
+          {
+            "en": "I'm flying to Calgary on Friday to see my cousin.",
+            "es": "Vuelo a Calgary el viernes para ver a mi primo."
+          }
+        ],
+        "table": [
+          [
+            "going to + verbo",
+            "intención o plan decidido"
+          ],
+          [
+            "presente continuo",
+            "plan organizado (fecha, hora, cita)"
+          ],
+          [
+            "will + verbo",
+            "decisión en el momento, predicción, promesa"
+          ]
+        ]
+      },
+      {
+        "title_es": "Will y going to para predicciones",
+        "body_es": "Will se usa para predicciones basadas en tu opinión: I think people will work fewer hours in the future. Going to se prefiere cuando hay evidencia presente: Look at those clouds, it's going to rain. En Part 3, will combinado con I think, I doubt o probably es la forma más común: I don't think robots will replace teachers. Nota: suena más natural I don't think... will que I think... won't.",
+        "examples": [
+          {
+            "en": "I think more people will choose to live outside big cities.",
+            "es": "Creo que más gente elegirá vivir fuera de las ciudades grandes."
+          },
+          {
+            "en": "Prices are rising so fast that housing is going to be a big problem.",
+            "es": "Los precios suben tan rápido que la vivienda va a ser un gran problema."
+          }
+        ]
+      },
+      {
+        "title_es": "Be likely to, be about to y matices de probabilidad",
+        "body_es": "Be likely to + verbo expresa probabilidad: Remote work is likely to become even more common. Be unlikely to, lo contrario. Be about to + verbo indica que algo está a punto de pasar: I'm about to start a new job. También: be bound to (seguro que pasará) y be due to (está programado): The new station is due to open in 2027. Son útiles para matizar sin depender siempre de will.",
+        "examples": [
+          {
+            "en": "Technology is likely to change the way we shop even more.",
+            "es": "Es probable que la tecnología cambie aún más la forma en que compramos."
+          },
+          {
+            "en": "I'm about to finish my English course, actually.",
+            "es": "De hecho, estoy a punto de terminar mi curso de inglés."
+          }
+        ]
+      },
+      {
+        "title_es": "Futuro perfecto: algo terminado para entonces",
+        "body_es": "Will have + participio expresa que algo estará terminado antes de un momento futuro: By next summer, I will have finished my degree. Casi siempre va con by + momento (by 2030, by the time I'm 40). Es una estructura avanzada que da rango gramatical, ideal cuando te preguntan dónde te ves en unos años. En el habla se contrae: I'll have finished.",
+        "examples": [
+          {
+            "en": "By the end of this year, I'll have lived in Canada for three years.",
+            "es": "Para finales de este año, habré vivido en Canadá tres años."
+          },
+          {
+            "en": "By 2040, most cars will probably have become electric.",
+            "es": "Para 2040, probablemente la mayoría de los coches se habrán vuelto eléctricos."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "This weekend I'm going to relax and maybe visit a farmers' market.",
+        "es": "Este fin de semana voy a descansar y tal vez visitar un mercado de productores."
+      },
+      {
+        "en": "I'm starting a new job on Monday, so I'm a bit nervous.",
+        "es": "Empiezo un nuevo trabajo el lunes, así que estoy un poco nervioso."
+      },
+      {
+        "en": "I doubt that people will stop using cash completely.",
+        "es": "Dudo que la gente deje de usar efectivo por completo."
+      },
+      {
+        "en": "In five years, I hope I'll have got my permanent residence.",
+        "es": "En cinco años, espero haber obtenido mi residencia permanente."
+      }
+    ],
+    "mistakes_es": "1) *I will meet my doctor tomorrow at 3* (cita fija) → *I'm meeting my doctor tomorrow at 3*. 2) *I'm going to study* sin to: *I'm going study* → *I'm going to study*. 3) *It is likely to people will move* → *People are likely to move*. 4) *By 2030 I will finish my degree* → *By 2030 I will have finished my degree* (terminado para entonces). 5) *I'm about to starting* → *I'm about to start*.",
+    "ielts_es": "Muy útil en Speaking Part 1 (planes para el fin de semana o los estudios) y en Part 3 (predicciones sobre trabajo, tecnología o ciudades). Mejora Grammatical Range and Accuracy, porque elegir la forma de futuro adecuada a cada situación demuestra control, y Lexical Resource con expresiones como be likely to o be due to. Consejo: cuando te pregunten por el futuro, combina dos formas en la misma respuesta, por ejemplo I'm going to... and by then I'll have..., en lugar de repetir will.",
+    "practice": [
+      {
+        "q": "I ___ my dentist tomorrow at 10. It's all booked.",
+        "options": [
+          "will see",
+          "am seeing",
+          "see will",
+          "am going see"
+        ],
+        "answer": 1,
+        "why_es": "Una cita ya organizada con hora: presente continuo, I'm seeing."
+      },
+      {
+        "q": "A: The phone is ringing. B: I ___ it!",
+        "options": [
+          "'ll get",
+          "'m getting",
+          "'m going to get",
+          "get"
+        ],
+        "answer": 0,
+        "why_es": "Decisión tomada en el momento: will (I'll get it)."
+      },
+      {
+        "q": "Look at the sky! It ___ snow.",
+        "options": [
+          "will",
+          "is going to",
+          "is about",
+          "is likely"
+        ],
+        "answer": 1,
+        "why_es": "Predicción con evidencia presente (las nubes): is going to."
+      },
+      {
+        "q": "By 2030, I ___ my studies.",
+        "options": [
+          "will finish",
+          "will have finished",
+          "am finishing",
+          "finish"
+        ],
+        "answer": 1,
+        "why_es": "Algo terminado antes de un momento futuro (by 2030): futuro perfecto."
+      },
+      {
+        "q": "Hurry up! The film is ___ start.",
+        "options": [
+          "about to",
+          "likely",
+          "going",
+          "due"
+        ],
+        "answer": 0,
+        "why_es": "Be about to + verbo: a punto de empezar."
+      },
+      {
+        "q": "Online learning is ___ to grow in the coming years.",
+        "options": [
+          "about",
+          "likely",
+          "going",
+          "will"
+        ],
+        "answer": 1,
+        "why_es": "Be likely to + verbo expresa probabilidad."
+      },
+      {
+        "q": "I don't think robots ___ teachers.",
+        "options": [
+          "are replacing",
+          "will replace",
+          "replace",
+          "going to replace"
+        ],
+        "answer": 1,
+        "why_es": "Predicción basada en opinión, con I don't think: will replace."
+      },
+      {
+        "q": "I'm ___ apply for a new job next month.",
+        "options": [
+          "going",
+          "go to",
+          "going to",
+          "will"
+        ],
+        "answer": 2,
+        "why_es": "Intención decidida: be going to + verbo."
+      }
+    ]
+  },
+  {
+    "id": "gr-fillers-paraphrasing",
+    "order": 44,
+    "name_en": "Buying time, fillers, paraphrasing and question tags",
+    "title_es": "Ganar tiempo, reformular y usar question tags",
+    "group": "conversacion",
+    "level": "B2",
+    "use_es": "En el Speaking es normal no tener la respuesta lista. Lo que importa es no quedarse callado ni llenar el silencio con «eh...». El inglés tiene frases para ganar unos segundos (That's an interesting question, Let me think), para aclarar lo que dijiste (What I mean is..., In other words...) y para pedir que repitan la pregunta. También están las question tags (..., isn't it?), que suenan muy naturales al conversar. Usadas con medida, todas te ayudan a mantener la fluidez sin parecer memorizado.",
+    "steps": [
+      {
+        "title_es": "Frases para ganar tiempo",
+        "body_es": "Cuando necesitas pensar, usa una frase natural en lugar de silencio: That's an interesting question., Let me think about that for a second., I've never really thought about it, but..., Well, it's hard to say, but.... No repitas la misma en cada respuesta y no la uses en preguntas fáciles de Part 1 (What's your name?), porque suena forzado. También puedes empezar con Well, o Hmm, de forma breve.",
+        "examples": [
+          {
+            "en": "That's an interesting question. I suppose it depends on the person.",
+            "es": "Es una pregunta interesante. Supongo que depende de la persona."
+          },
+          {
+            "en": "I've never really thought about it, but I'd say probably yes.",
+            "es": "Nunca lo había pensado, pero diría que probablemente sí."
+          }
+        ],
+        "table": [
+          [
+            "That's an interesting question.",
+            "Es una pregunta interesante."
+          ],
+          [
+            "Let me think for a second.",
+            "Déjame pensar un momento."
+          ],
+          [
+            "It's hard to say, but...",
+            "Es difícil decirlo, pero..."
+          ],
+          [
+            "Could you repeat the question, please?",
+            "¿Podría repetir la pregunta, por favor?"
+          ]
+        ]
+      },
+      {
+        "title_es": "Reformular y aclarar: what I mean is, in other words",
+        "body_es": "Si notas que no te explicaste bien o te falta una palabra, reformula: What I mean is..., In other words..., Let me put it another way..., I'm not sure how to say this, but it's like.... Si no recuerdas una palabra, descríbela: It's a kind of..., It's the thing you use to.... Reformular demuestra que puedes comunicar ideas aunque no tengas el vocabulario exacto.",
+        "examples": [
+          {
+            "en": "I think cities are too noisy. What I mean is, there's never a quiet moment.",
+            "es": "Creo que las ciudades son demasiado ruidosas. Lo que quiero decir es que nunca hay un momento de silencio."
+          },
+          {
+            "en": "It's a kind of tool you use to open cans.",
+            "es": "Es una especie de herramienta que se usa para abrir latas."
+          }
+        ]
+      },
+      {
+        "title_es": "Question tags: ..., isn't it? / ..., don't you?",
+        "body_es": "Las question tags son preguntas cortas al final de una frase para confirmar o buscar acuerdo, como «¿verdad?» o «¿no?». Regla: si la frase es afirmativa, la tag es negativa (It's cold, isn't it?), y si es negativa, la tag es afirmativa (You don't smoke, do you?). Se usa el mismo auxiliar y tiempo de la frase; si no hay auxiliar, do / does / did: She works here, doesn't she?. Casos especiales: I'm late, aren't I? y Let's go, shall we?",
+        "examples": [
+          {
+            "en": "It's a beautiful day, isn't it?",
+            "es": "Hace un día precioso, ¿verdad?"
+          },
+          {
+            "en": "You've been to Quebec, haven't you?",
+            "es": "Ya has ido a Quebec, ¿no?"
+          },
+          {
+            "en": "They didn't call, did they?",
+            "es": "No llamaron, ¿verdad?"
+          }
+        ],
+        "table": [
+          [
+            "frase afirmativa → tag negativa",
+            "It's late, isn't it?"
+          ],
+          [
+            "frase negativa → tag afirmativa",
+            "You can't swim, can you?"
+          ],
+          [
+            "sin auxiliar → do / does / did",
+            "He lives here, doesn't he?"
+          ],
+          [
+            "I am → aren't I?",
+            "I'm right, aren't I?"
+          ]
+        ]
+      },
+      {
+        "title_es": "Muletillas con moderación",
+        "body_es": "Palabras como well, actually, I mean, you know, kind of y to be honest son normales en el inglés hablado y hacen que suenes natural. Pero si dices you know o like en cada frase, distraen y parecen falta de vocabulario. Actually significa «en realidad» o «de hecho», no «actualmente» (eso es currently o nowadays). Una buena regla: una muletilla por respuesta es natural; cinco ya son ruido.",
+        "examples": [
+          {
+            "en": "Actually, I don't watch much TV. I mostly read.",
+            "es": "De hecho, no veo mucha tele. Más que nada leo."
+          },
+          {
+            "en": "To be honest, I find big parties a bit tiring.",
+            "es": "La verdad, las fiestas grandes me cansan un poco."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "en": "Let me think for a second... I'd say my favourite season is autumn.",
+        "es": "Déjame pensar un momento... Diría que mi estación favorita es el otoño."
+      },
+      {
+        "en": "Sorry, could you repeat the question, please?",
+        "es": "Perdón, ¿podría repetir la pregunta, por favor?"
+      },
+      {
+        "en": "Technology makes life easier. In other words, we can do more in less time.",
+        "es": "La tecnología facilita la vida. En otras palabras, podemos hacer más en menos tiempo."
+      },
+      {
+        "en": "Public transport here is quite good, isn't it?",
+        "es": "El transporte público aquí es bastante bueno, ¿verdad?"
+      }
+    ],
+    "mistakes_es": "1) *It's cold, no?* o *It's cold, isn't?* → *It's cold, isn't it?* (la tag lleva auxiliar y pronombre). 2) *You like coffee, isn't it?* → *You like coffee, don't you?* (el auxiliar debe coincidir). 3) *I'm right, amn't I?* → *I'm right, aren't I?*. 4) *Actually I live in Toronto* para decir «actualmente» → *Currently I live in Toronto*. 5) Repetir *That's an interesting question* en todas las respuestas → varía las frases y úsalas solo cuando de verdad necesites pensar.",
+    "ielts_es": "Se usa en todas las partes del Speaking, sobre todo en Part 3. Ayuda a Fluency and Coherence, que valora hablar sin pausas largas y con marcadores del discurso adecuados, y a Lexical Resource, que incluye la capacidad de parafrasear cuando te falta una palabra. Las question tags bien usadas aportan a Grammatical Range and Accuracy. Consejo: aprende dos o tres frases para ganar tiempo y otras dos para reformular, y practícalas hasta que salgan naturales; las fórmulas largas memorizadas suelen notarse.",
+    "practice": [
+      {
+        "q": "It's really cold today, ___?",
+        "options": [
+          "is it",
+          "isn't it",
+          "no",
+          "doesn't it"
+        ],
+        "answer": 1,
+        "why_es": "Frase afirmativa con is → tag negativa: isn't it?"
+      },
+      {
+        "q": "You don't eat meat, ___?",
+        "options": [
+          "don't you",
+          "do you",
+          "are you",
+          "eat you"
+        ],
+        "answer": 1,
+        "why_es": "Frase negativa con do → tag afirmativa: do you?"
+      },
+      {
+        "q": "She lives near the station, ___?",
+        "options": [
+          "isn't she",
+          "doesn't she",
+          "does she",
+          "lives she"
+        ],
+        "answer": 1,
+        "why_es": "No hay auxiliar en presente simple con she: la tag es doesn't she?"
+      },
+      {
+        "q": "I'm on the list, ___?",
+        "options": [
+          "amn't I",
+          "am not I",
+          "aren't I",
+          "isn't I"
+        ],
+        "answer": 2,
+        "why_es": "Caso especial: I am → aren't I?"
+      },
+      {
+        "q": "You've finished the report, ___?",
+        "options": [
+          "haven't you",
+          "didn't you",
+          "don't you",
+          "have you"
+        ],
+        "answer": 0,
+        "why_es": "El auxiliar es have (you've finished): tag negativa haven't you?"
+      },
+      {
+        "q": "Which phrase is best for clarifying what you just said?",
+        "options": [
+          "In other words,",
+          "By the way,",
+          "Anyway,",
+          "Excuse me,"
+        ],
+        "answer": 0,
+        "why_es": "In other words introduce una reformulación de lo que acabas de decir."
+      },
+      {
+        "q": "You don't understand the question. What do you say?",
+        "options": [
+          "What?",
+          "Repeat.",
+          "Sorry, could you repeat the question, please?",
+          "I don't know."
+        ],
+        "answer": 2,
+        "why_es": "Pedir que repitan de forma educada es aceptable y mejor que adivinar."
+      },
+      {
+        "q": "How do you say «actualmente vivo en Ottawa»?",
+        "options": [
+          "Actually I live in Ottawa.",
+          "Currently I live in Ottawa.",
+          "Actual I live in Ottawa.",
+          "At the actual I live in Ottawa."
+        ],
+        "answer": 1,
+        "why_es": "Actualmente = currently. Actually significa «en realidad» o «de hecho»."
+      }
+    ]
+  }
+]

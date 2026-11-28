@@ -1,0 +1,87 @@
+{
+  "id": "lectura-voluntariado",
+  "level": "B2",
+  "title": "Volunteering as a Newcomer",
+  "title_es": "Hacer voluntariado al llegar",
+  "topic": "trabajo",
+  "minutes": 6,
+  "intro_es": "Unas horas a la semana pueden darte experiencia, referencias y, sobre todo, comunidad.",
+  "paragraphs": [
+    "When you arrive in a new country, it can feel as if everyone wants something you don't have yet: Canadian experience, Canadian references, a local network. It's a frustrating loop. Employers hesitate to hire you without local experience, but you can't get that experience without a job. Volunteering is one of the most effective ways to break that cycle, and it often brings benefits you didn't expect.",
+    "Edmonton is often called Canada's Festival City, and its festivals rely heavily on volunteers to sell tickets, guide visitors and set up stages. Beyond festivals, there are food banks, settlement agencies, libraries, animal shelters, sports clubs and seniors' centres, all of which welcome people who can give a few hours a week. Some opportunities are one-day events; others ask for a commitment of several months.",
+    "The most obvious benefit is language practice in a real context. Sorting donations next to a retired teacher or helping families at a registration desk forces you to listen to different accents, handle unexpected questions and use English without a script. Mistakes feel less risky in a friendly environment, and you'll pick up the casual expressions that textbooks rarely include.",
+    "Volunteering also gives you something concrete to put on your résumé. If you choose a role related to your profession, the connection is even stronger: an accountant might help a non-profit with bookkeeping, and a graphic designer might create posters for a community event. Just as important, a volunteer coordinator who has watched you show up on time, solve problems and treat people with respect can become a valuable reference when you apply for paid work.",
+    "Then there is the community side. Many newcomers describe their first year as lonely, especially during the long winter. Volunteering puts you in regular contact with people who share your values, and some of those acquaintances may grow into real friendships. You also learn how local institutions work from the inside, which makes the city feel less foreign.",
+    "A few practical tips will help you get started. Be realistic about your schedule and only commit to what you can deliver; reliability is the quality organizations value most. Expect a short application or interview and, for roles involving children or vulnerable people, a police information check. Ask what training is provided, and keep a simple record of your hours, your tasks and the name of your supervisor.",
+    "Above all, remember that volunteering is not only a strategy. You are giving something real to the place that is becoming your home. That sense of contribution, of belonging rather than just arriving, may be the most lasting benefit of all."
+  ],
+  "glossary": [
+    { "term": "loop", "es": "círculo vicioso, ciclo", "def": "a situation that keeps repeating and is hard to escape" },
+    { "term": "hesitate", "es": "dudar, titubear", "def": "to pause before doing something because you are not sure" },
+    { "term": "rely heavily on", "es": "depender mucho de", "def": "to need someone or something a lot in order to work" },
+    { "term": "food banks", "es": "bancos de alimentos", "def": "organizations that collect food and give it to people who need it" },
+    { "term": "settlement agencies", "es": "agencias de apoyo a recién llegados", "def": "organizations that help immigrants with housing, jobs, language and services", "note": "Suelen ser gratuitas y un gran primer lugar para buscar voluntariado." },
+    { "term": "commitment", "es": "compromiso", "def": "a promise to give your time or effort to something" },
+    { "term": "sorting donations", "es": "clasificar donativos", "def": "organizing things that people have given, by type or size" },
+    { "term": "pick up", "es": "aprender (sin estudiar), agarrar", "def": "to learn something informally, by hearing or doing it" },
+    { "term": "non-profit", "es": "organización sin fines de lucro", "def": "an organization that uses its money to help people, not to make a profit" },
+    { "term": "bookkeeping", "es": "contabilidad básica, teneduría de libros", "def": "the job of keeping records of the money an organization receives and spends" },
+    { "term": "volunteer coordinator", "es": "coordinador de voluntarios", "def": "the person who organizes and supervises volunteers" },
+    { "term": "acquaintances", "es": "conocidos", "def": "people you know a little, but who are not close friends" },
+    { "term": "reliability", "es": "confiabilidad", "def": "the quality of being someone others can trust to do what they promised" },
+    { "term": "police information check", "es": "constancia de antecedentes policiales", "def": "a document that shows whether a person has a criminal record" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Volunteering is only useful for people who already have a job.",
+      "Festivals are the best place to find a paid job in Edmonton.",
+      "Volunteering helps newcomers gain experience, references, language practice and a sense of belonging."
+    ],
+    "answer": 2,
+    "why_es": "El texto muestra varios beneficios del voluntariado: idioma, currículum, referencias y comunidad."
+  },
+  "questions": [
+    {
+      "q": "What “loop” does the first paragraph describe?",
+      "options": [
+        "Employers want local experience, but you need a job to get it.",
+        "Volunteers must work every day of the week.",
+        "Festivals in Edmonton repeat every year."
+      ],
+      "answer": 0,
+      "why_es": "Te piden experiencia local para contratarte, pero sin trabajo no puedes conseguirla."
+    },
+    {
+      "q": "Why can a volunteer coordinator be valuable for your career?",
+      "options": [
+        "They can pay you for your volunteer hours.",
+        "They can be a reference when you apply for paid work.",
+        "They can give you a work permit."
+      ],
+      "answer": 1,
+      "why_es": "Quien te vio ser puntual y resolver problemas puede recomendarte ante un empleador."
+    },
+    {
+      "q": "According to the text, which quality do organizations value most in volunteers?",
+      "options": [
+        "Perfect English",
+        "Professional experience",
+        "Reliability"
+      ],
+      "answer": 2,
+      "why_es": "El texto dice que la confiabilidad, cumplir lo que prometes, es lo que más se valora."
+    },
+    {
+      "q": "When might you need a police information check?",
+      "options": [
+        "For roles involving children or vulnerable people",
+        "For every one-day festival event",
+        "Only after volunteering for more than a year"
+      ],
+      "answer": 0,
+      "why_es": "Se suele pedir en puestos con niños o personas vulnerables, para protegerlos."
+    }
+  ],
+  "club": true
+}

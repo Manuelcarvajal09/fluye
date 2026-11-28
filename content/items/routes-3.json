@@ -1,0 +1,654 @@
+[
+  {
+    "id": "col-work-permit",
+    "type": "collocation",
+    "term": "work permit",
+    "level": "A2",
+    "topic": "canada",
+    "freq": 4,
+    "areas": [
+      "entrevistas",
+      "canada"
+    ],
+    "es": "permiso de trabajo",
+    "def": "an official document that lets a person from another country work",
+    "note": "Di solo lo que aplica a tu caso: *I have an open work permit* o *I'll need a work permit*. No inventes detalles legales.",
+    "ex": [
+      {
+        "en": "My [work permit] is valid for two more years.",
+        "es": "Mi permiso de trabajo es válido dos años más."
+      },
+      {
+        "en": "I'll need a [work permit] before I can accept an offer.",
+        "es": "Voy a necesitar un permiso de trabajo antes de aceptar una oferta."
+      }
+    ]
+  },
+  {
+    "id": "col-salary-range",
+    "type": "collocation",
+    "term": "salary range",
+    "level": "B1",
+    "topic": "interview",
+    "freq": 4,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "rango salarial",
+    "def": "the lowest and highest pay a company plans to offer for a job",
+    "note": "Mejor dar un rango investigado que una cifra exacta: *Based on my research, I'm looking at…*.",
+    "ex": [
+      {
+        "en": "What's the [salary range] for this position?",
+        "es": "¿Cuál es el rango salarial de este puesto?"
+      },
+      {
+        "en": "My research showed a [salary range] of fifty-five to sixty thousand.",
+        "es": "Según lo que investigué, el rango salarial es de 55 a 60 mil."
+      }
+    ]
+  },
+  {
+    "id": "phr-do-you-have-any-questions-for-me",
+    "type": "phrase",
+    "term": "do you have any questions for me?",
+    "level": "A2",
+    "topic": "interview",
+    "freq": 5,
+    "areas": [
+      "entrevistas"
+    ],
+    "es": "¿tienes alguna pregunta para mí?",
+    "def": "what an interviewer asks near the end so the candidate can ask about the job",
+    "note": "Nunca contestes solo *No*. Ten lista una o dos preguntas sobre el equipo, el horario o la capacitación.",
+    "ex": [
+      {
+        "en": "Before we finish, [do you have any questions for me]?",
+        "es": "Antes de terminar, ¿tienes alguna pregunta para mí?"
+      },
+      {
+        "en": "So, [do you have any questions for me] about the role?",
+        "es": "Bueno, ¿tienes alguna pregunta para mí sobre el puesto?"
+      }
+    ]
+  },
+  {
+    "id": "col-ticketing-system",
+    "type": "collocation",
+    "term": "ticketing system",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "soporte",
+      "software"
+    ],
+    "es": "sistema de tickets",
+    "def": "software a team uses to record, assign and track help requests",
+    "ex": [
+      {
+        "en": "Every request goes into the [ticketing system] first.",
+        "es": "Toda solicitud entra primero al sistema de tickets."
+      },
+      {
+        "en": "I've worked with two different [ticketing systems].",
+        "es": "He trabajado con dos sistemas de tickets distintos."
+      }
+    ]
+  },
+  {
+    "id": "voc-sla",
+    "type": "vocab",
+    "term": "SLA",
+    "ipa": "/ˌɛs ɛl ˈeɪ/",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "soporte",
+      "proyectos"
+    ],
+    "es": "acuerdo de nivel de servicio (tiempo de atención comprometido)",
+    "def": "service level agreement: the promised time and quality for a service",
+    "note": "Se pronuncia letra por letra: S-L-A. *We met our SLA* = cumplimos el tiempo acordado.",
+    "ex": [
+      {
+        "en": "High-priority tickets have a four-hour [SLA].",
+        "es": "Los tickets de alta prioridad tienen un SLA de cuatro horas."
+      },
+      {
+        "en": "We didn't miss a single [SLA] last quarter.",
+        "es": "No incumplimos ni un SLA el trimestre pasado."
+      }
+    ]
+  },
+  {
+    "id": "col-train-users",
+    "type": "collocation",
+    "term": "train users",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "soporte"
+    ],
+    "es": "capacitar a los usuarios",
+    "def": "to teach people how to use a system or a tool",
+    "ex": [
+      {
+        "en": "I [trained users] on the new phone system.",
+        "es": "Capacité a los usuarios en el nuevo sistema telefónico."
+      },
+      {
+        "en": "Part of the job is to [train users] in small groups.",
+        "es": "Parte del trabajo es capacitar a los usuarios en grupos pequeños."
+      }
+    ]
+  },
+  {
+    "id": "col-first-call-resolution",
+    "type": "collocation",
+    "term": "first-call resolution",
+    "level": "C1",
+    "topic": "tech",
+    "freq": 2,
+    "areas": [
+      "soporte"
+    ],
+    "es": "resolución en el primer contacto",
+    "def": "solving a user's problem during the first call, without a follow-up",
+    "note": "Métrica típica de mesas de ayuda; a veces se abrevia FCR.",
+    "ex": [
+      {
+        "en": "Our [first-call resolution] rate went up after the new guides.",
+        "es": "Nuestra tasa de resolución en el primer contacto subió con las nuevas guías."
+      },
+      {
+        "en": "Complex tickets lower your [first-call resolution] numbers.",
+        "es": "Los tickets complejos bajan tus cifras de resolución en el primer contacto."
+      }
+    ]
+  },
+  {
+    "id": "col-data-migration",
+    "type": "collocation",
+    "term": "data migration",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "analisis",
+      "datos"
+    ],
+    "es": "migración de datos",
+    "def": "moving information from an old system to a new one",
+    "ex": [
+      {
+        "en": "The [data migration] took three weekends.",
+        "es": "La migración de datos tomó tres fines de semana."
+      },
+      {
+        "en": "We tested every step of the [data migration] in a copy first.",
+        "es": "Primero probamos cada paso de la migración de datos en una copia."
+      }
+    ]
+  },
+  {
+    "id": "voc-uat",
+    "type": "vocab",
+    "term": "UAT",
+    "ipa": "/ˌjuː eɪ ˈtiː/",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "analisis",
+      "software"
+    ],
+    "es": "pruebas de aceptación del usuario",
+    "def": "user acceptance testing: real users check that a system does what they need",
+    "note": "Se pronuncia letra por letra: U-A-T. Suele ser el último paso antes de salir a producción.",
+    "ex": [
+      {
+        "en": "We ran [UAT] with two people from each team.",
+        "es": "Hicimos UAT con dos personas de cada equipo."
+      },
+      {
+        "en": "The launch waits until [UAT] is signed off.",
+        "es": "El lanzamiento espera hasta que se aprueben las pruebas de aceptación."
+      }
+    ]
+  },
+  {
+    "id": "col-custom-field",
+    "type": "collocation",
+    "term": "custom field",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "crm"
+    ],
+    "es": "campo personalizado",
+    "def": "an extra field you add to a system to store information it doesn't include by default",
+    "ex": [
+      {
+        "en": "I added a [custom field] for the customer's preferred language.",
+        "es": "Agregué un campo personalizado para el idioma preferido del cliente."
+      },
+      {
+        "en": "Too many [custom fields] make the form slow to fill in.",
+        "es": "Demasiados campos personalizados hacen lento el formulario."
+      }
+    ]
+  },
+  {
+    "id": "col-change-request",
+    "type": "collocation",
+    "term": "change request",
+    "level": "B2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "proyectos",
+      "analisis"
+    ],
+    "es": "solicitud de cambio",
+    "def": "a formal request to change what a project will deliver",
+    "note": "Sirve para controlar el *scope creep*: todo cambio se registra, se evalúa y se aprueba.",
+    "ex": [
+      {
+        "en": "Please submit a [change request] so we can check the impact.",
+        "es": "Por favor envía una solicitud de cambio para revisar el impacto."
+      },
+      {
+        "en": "The client approved the [change request] on Friday.",
+        "es": "El cliente aprobó la solicitud de cambio el viernes."
+      }
+    ]
+  },
+  {
+    "id": "col-duplicate-records",
+    "type": "collocation",
+    "term": "duplicate records",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "crm",
+      "datos"
+    ],
+    "es": "registros duplicados",
+    "def": "two or more entries in a system for the same person or thing",
+    "ex": [
+      {
+        "en": "I merged hundreds of [duplicate records] in the client list.",
+        "es": "Combiné cientos de registros duplicados en la lista de clientes."
+      },
+      {
+        "en": "[Duplicate records] make the sales reports wrong.",
+        "es": "Los registros duplicados hacen que los reportes de ventas estén mal."
+      }
+    ]
+  },
+  {
+    "id": "col-code-review",
+    "type": "collocation",
+    "term": "code review",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 4,
+    "areas": [
+      "software"
+    ],
+    "es": "revisión de código",
+    "def": "when other developers read your changes before they are added to the project",
+    "note": "Verbo relacionado: *review code*. *In the code review, she suggested…*",
+    "ex": [
+      {
+        "en": "In the [code review], a senior dev found a missing check.",
+        "es": "En la revisión de código, una dev senior encontró una validación faltante."
+      },
+      {
+        "en": "Every change needs a [code review] before we merge it.",
+        "es": "Todo cambio necesita una revisión de código antes de integrarlo."
+      }
+    ]
+  },
+  {
+    "id": "col-unit-test",
+    "type": "collocation",
+    "term": "unit test",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 4,
+    "areas": [
+      "software"
+    ],
+    "es": "prueba unitaria",
+    "def": "a small automated check for one function or piece of code",
+    "ex": [
+      {
+        "en": "I wrote a [unit test] for the timeout.",
+        "es": "Escribí una prueba unitaria para el tiempo de espera."
+      },
+      {
+        "en": "The build failed because one [unit test] broke.",
+        "es": "La compilación falló porque se rompió una prueba unitaria."
+      }
+    ]
+  },
+  {
+    "id": "voc-debug",
+    "type": "vocab",
+    "term": "debug",
+    "ipa": "/diːˈbʌɡ/",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 4,
+    "areas": [
+      "software"
+    ],
+    "es": "depurar; buscar y corregir errores en el código",
+    "def": "to find and fix the problems in a program",
+    "note": "Sustantivo: *debugging*. *I spent the morning debugging* = me pasé la mañana depurando.",
+    "ex": [
+      {
+        "en": "I had to [debug] the app on an old phone.",
+        "es": "Tuve que depurar la app en un teléfono viejo."
+      },
+      {
+        "en": "She [debugged] the payment error in one afternoon.",
+        "es": "Depuró el error de pagos en una tarde."
+      }
+    ]
+  },
+  {
+    "id": "col-edge-case",
+    "type": "collocation",
+    "term": "edge case",
+    "level": "B2",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "software"
+    ],
+    "es": "caso límite (situación rara que puede romper el código)",
+    "def": "an unusual situation at the limits of what a program expects",
+    "ex": [
+      {
+        "en": "We missed an [edge case]: an order with zero items.",
+        "es": "Se nos pasó un caso límite: un pedido con cero artículos."
+      },
+      {
+        "en": "Good tests cover the main path and the [edge cases].",
+        "es": "Las buenas pruebas cubren el flujo principal y los casos límite."
+      }
+    ]
+  },
+  {
+    "id": "col-side-project",
+    "type": "collocation",
+    "term": "side project",
+    "level": "B1",
+    "topic": "tech",
+    "freq": 3,
+    "areas": [
+      "software",
+      "entrevistas"
+    ],
+    "es": "proyecto personal (aparte del trabajo o la escuela)",
+    "def": "something you build in your free time, outside your main job or studies",
+    "note": "En entrevistas de desarrollo sirve para mostrar lo que sabes hacer aunque no tengas experiencia en Canadá.",
+    "ex": [
+      {
+        "en": "My [side project] is an app for bus times.",
+        "es": "Mi proyecto personal es una app de horarios de autobús."
+      },
+      {
+        "en": "She learned the framework through a [side project].",
+        "es": "Aprendió el framework con un proyecto personal."
+      }
+    ]
+  },
+  {
+    "id": "voc-forklift",
+    "type": "vocab",
+    "term": "forklift",
+    "ipa": "/ˈfɔrkˌlɪft/",
+    "level": "A2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos"
+    ],
+    "es": "montacargas",
+    "def": "a small vehicle with two metal arms in front for lifting heavy loads",
+    "note": "En Canadá normalmente se necesita capacitación y certificado del empleador para manejarlo.",
+    "ex": [
+      {
+        "en": "You need training before you drive a [forklift] here.",
+        "es": "Necesitas capacitación antes de manejar un montacargas aquí."
+      },
+      {
+        "en": "He moved the boxes with the [forklift].",
+        "es": "Movió las cajas con el montacargas."
+      }
+    ]
+  },
+  {
+    "id": "voc-pallet",
+    "type": "vocab",
+    "term": "pallet",
+    "ipa": "/ˈpælət/",
+    "level": "A2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos"
+    ],
+    "es": "tarima",
+    "def": "a flat wooden or plastic base that goods are stacked on",
+    "note": "*Pallet jack* = patín hidráulico (gato para tarimas).",
+    "ex": [
+      {
+        "en": "Each [pallet] had forty boxes.",
+        "es": "Cada tarima tenía cuarenta cajas."
+      },
+      {
+        "en": "Please wrap the [pallet] before it leaves.",
+        "es": "Por favor emplaya la tarima antes de que salga."
+      }
+    ]
+  },
+  {
+    "id": "col-receive-a-shipment",
+    "type": "collocation",
+    "term": "receive a shipment",
+    "level": "A2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos"
+    ],
+    "es": "recibir un envío; recibir mercancía",
+    "def": "to accept and check goods that arrive from a supplier",
+    "ex": [
+      {
+        "en": "We [receive a shipment] every Tuesday morning.",
+        "es": "Recibimos un envío cada martes en la mañana."
+      },
+      {
+        "en": "I [received shipments] and checked the boxes.",
+        "es": "Recibía mercancía y revisaba las cajas."
+      }
+    ]
+  },
+  {
+    "id": "col-barcode-scanner",
+    "type": "collocation",
+    "term": "barcode scanner",
+    "level": "A2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos"
+    ],
+    "es": "lector de código de barras; escáner",
+    "def": "a handheld device that reads the striped code on a product",
+    "ex": [
+      {
+        "en": "I used a [barcode scanner] all day.",
+        "es": "Usaba un lector de código de barras todo el día."
+      },
+      {
+        "en": "The [barcode scanner] needs a new battery.",
+        "es": "El escáner necesita una batería nueva."
+      }
+    ]
+  },
+  {
+    "id": "col-steel-toe-boots",
+    "type": "collocation",
+    "term": "steel-toe boots",
+    "level": "A2",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos",
+      "canada"
+    ],
+    "es": "botas con casquillo; botas de seguridad",
+    "def": "work boots with a metal cap that protects your toes",
+    "note": "También: *steel-toed boots* o *safety boots*. En Canadá muchos almacenes piden botas certificadas.",
+    "ex": [
+      {
+        "en": "You must wear [steel-toe boots] in the warehouse.",
+        "es": "Debes usar botas con casquillo en el almacén."
+      },
+      {
+        "en": "I bought new [steel-toe boots] for the job.",
+        "es": "Compré botas de seguridad nuevas para el trabajo."
+      }
+    ]
+  },
+  {
+    "id": "col-night-shift",
+    "type": "collocation",
+    "term": "night shift",
+    "level": "A2",
+    "topic": "work",
+    "freq": 4,
+    "areas": [
+      "datos"
+    ],
+    "es": "turno de noche",
+    "def": "a work period during the night, often from late evening to early morning",
+    "note": "Se dice *work the night shift* o *work nights*.",
+    "ex": [
+      {
+        "en": "Can you work the [night shift] on weekends?",
+        "es": "¿Puedes trabajar el turno de noche los fines de semana?"
+      },
+      {
+        "en": "The [night shift] starts at ten.",
+        "es": "El turno de noche empieza a las diez."
+      }
+    ]
+  },
+  {
+    "id": "col-cycle-count",
+    "type": "collocation",
+    "term": "cycle count",
+    "level": "B1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos"
+    ],
+    "es": "conteo cíclico (conteo parcial y frecuente de inventario)",
+    "def": "counting a small part of the stock often, instead of everything once a year",
+    "ex": [
+      {
+        "en": "We do a [cycle count] of one aisle every day.",
+        "es": "Hacemos un conteo cíclico de un pasillo cada día."
+      },
+      {
+        "en": "The [cycle count] showed six missing cases.",
+        "es": "El conteo cíclico mostró seis cajas faltantes."
+      }
+    ]
+  },
+  {
+    "id": "col-packing-slip",
+    "type": "collocation",
+    "term": "packing slip",
+    "level": "B1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos"
+    ],
+    "es": "lista de empaque; remisión",
+    "def": "the paper inside a delivery that lists what is in the box",
+    "ex": [
+      {
+        "en": "Check the [packing slip] before you sign for the delivery.",
+        "es": "Revisa la lista de empaque antes de firmar la entrega."
+      },
+      {
+        "en": "The [packing slip] said twelve, but there were ten.",
+        "es": "La remisión decía doce, pero había diez."
+      }
+    ]
+  },
+  {
+    "id": "col-purchase-order",
+    "type": "collocation",
+    "term": "purchase order",
+    "level": "B1",
+    "topic": "work",
+    "freq": 3,
+    "areas": [
+      "datos"
+    ],
+    "es": "orden de compra",
+    "def": "an official document a company sends to a supplier to order goods",
+    "note": "Se abrevia PO (pi-ou): *What's the PO number?*",
+    "ex": [
+      {
+        "en": "Compare the delivery with the [purchase order].",
+        "es": "Compara la entrega con la orden de compra."
+      },
+      {
+        "en": "I created a [purchase order] for more gloves.",
+        "es": "Hice una orden de compra de más guantes."
+      }
+    ]
+  },
+  {
+    "id": "voc-shrinkage",
+    "type": "vocab",
+    "term": "shrinkage",
+    "ipa": "/ˈʃrɪŋkɪdʒ/",
+    "level": "C1",
+    "topic": "work",
+    "freq": 2,
+    "areas": [
+      "datos"
+    ],
+    "es": "merma (pérdida de inventario)",
+    "def": "the loss of stock from errors, damage or theft",
+    "note": "Término de retail y almacenes. No culpa a nadie: incluye errores de registro.",
+    "ex": [
+      {
+        "en": "Our [shrinkage] dropped after we fixed the returns process.",
+        "es": "Nuestra merma bajó cuando arreglamos el proceso de devoluciones."
+      },
+      {
+        "en": "High [shrinkage] isn't always theft.",
+        "es": "Una merma alta no siempre es robo."
+      }
+    ]
+  }
+]

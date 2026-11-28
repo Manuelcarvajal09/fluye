@@ -1,0 +1,433 @@
+{
+  "id": "en-casa",
+  "title_es": "Un día en casa",
+  "icon": "home",
+  "scene": null,
+  "areas": ["hogar"],
+  "season": null,
+  "objective_es": "Repartir quehaceres, cuidar a los gatos, hacer el súper, pedir comida a domicilio, elegir serie, dividir cuentas y sobrevivir al invierno de Edmonton sin pelear (mucho).",
+  "tracks": [
+    {
+      "id": "en-casa-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 11,
+      "skills": ["listen", "read", "speak", "write"],
+      "objective_es": "Decir a quién le toca cada quehacer, avisar qué falta en casa, pedir la cena y escoger qué ver.",
+      "items": [
+        "phr-its-my-turn-to-do-the-dishes",
+        "col-clean-the-litter-box",
+        "col-take-out-the-trash",
+        "phr-did-you-feed-the-cats",
+        "phr-were-out-of-milk",
+        "phr-lets-order-food-tonight",
+        "col-tip-the-driver",
+        "phr-the-food-is-late",
+        "phr-whose-turn-is-it-to-pick",
+        "phr-what-show-should-we-watch-tonight"
+      ],
+      "lesson": {
+        "id": "ls-en-casa-a",
+        "level": "A2",
+        "topic": "home",
+        "order": 960,
+        "title": "Who does what tonight?",
+        "title_es": "¿Quién hace qué hoy?",
+        "intro_es": "Ana y Diego llegan cansados del trabajo a su departamento en Edmonton. Hay que repartir los quehaceres, dar de comer a los gatos y decidir la cena.",
+        "lines": [
+          { "who": "Ana", "en": "I'm home! [Did you feed the cats]? They're crying.", "es": "¡Ya llegué! ¿Les diste de comer a los gatos? Están maullando.", "item": "phr-did-you-feed-the-cats" },
+          { "who": "Diego", "en": "Yes, two times. They're lying to you.", "es": "Sí, dos veces. Te están mintiendo." },
+          { "who": "Ana", "en": "OK. Can you [clean the litter box] today?", "es": "Va. ¿Puedes limpiar el arenero hoy?", "item": "col-clean-the-litter-box" },
+          { "who": "Diego", "en": "Sure. And I'll [take out the trash] after that.", "es": "Claro. Y después saco la basura.", "item": "col-take-out-the-trash" },
+          { "who": "Ana", "en": "Great. You cooked yesterday, so [it's my turn to do the dishes].", "es": "Perfecto. Tú cocinaste ayer, así que me toca lavar los trastes.", "item": "phr-its-my-turn-to-do-the-dishes" },
+          { "who": "Diego", "en": "Cook? I don't want to cook. And [we're out of milk].", "es": "¿Cocinar? No quiero cocinar. Y ya no hay leche.", "item": "phr-were-out-of-milk" },
+          { "who": "Ana", "en": "Me neither. [Let's order food tonight].", "es": "Yo tampoco. Pidamos comida hoy.", "item": "phr-lets-order-food-tonight" },
+          { "who": "Diego", "en": "Pizza on the app? I'll [tip the driver]. It's snowing.", "es": "¿Pizza en la app? Yo le doy propina al repartidor. Está nevando.", "item": "col-tip-the-driver" },
+          { "who": "Ana", "en": "Perfect. So... [what show should we watch tonight]?", "es": "Perfecto. Entonces... ¿qué serie vemos hoy?", "item": "phr-what-show-should-we-watch-tonight" },
+          { "who": "Diego", "en": "Hmm. [Whose turn is it to pick]?", "es": "Mmm. ¿A quién le toca escoger?", "item": "phr-whose-turn-is-it-to-pick" },
+          { "who": "Ana", "en": "Mine! You picked the boring cooking show.", "es": "¡A mí! Tú escogiste el programa aburrido de cocina." },
+          { "who": "Diego", "en": "Forty minutes later... [the food is late]. I'm so hungry.", "es": "Cuarenta minutos después... la comida viene tarde. Tengo mucha hambre.", "item": "phr-the-food-is-late" },
+          { "who": "Ana", "en": "Look, the cats are at the door. The pizza is here!", "es": "Mira, los gatos están en la puerta. ¡Llegó la pizza!" }
+        ],
+        "items": [
+          "phr-did-you-feed-the-cats",
+          "col-clean-the-litter-box",
+          "col-take-out-the-trash",
+          "phr-its-my-turn-to-do-the-dishes",
+          "phr-were-out-of-milk",
+          "phr-lets-order-food-tonight",
+          "col-tip-the-driver",
+          "phr-what-show-should-we-watch-tonight",
+          "phr-whose-turn-is-it-to-pick",
+          "phr-the-food-is-late"
+        ],
+        "questions": [
+          { "q": "Who will do the dishes tonight?", "options": ["Diego", "Ana", "Nobody"], "answer": 1, "why_es": "Ana dice: it's my turn to do the dishes, porque Diego cocinó ayer." },
+          { "q": "Why don't they cook?", "options": ["They are tired and there is no milk", "The stove is broken", "The cats ate the food"], "answer": 0, "why_es": "Ninguno quiere cocinar y además se acabó la leche." },
+          { "q": "Who picks the show?", "options": ["Diego", "The cats", "Ana"], "answer": 2, "why_es": "Ana dice «Mine!»: le toca a ella porque Diego escogió la vez pasada." },
+          { "q": "What is the problem with the pizza?", "options": ["It is cold", "It is late", "It is the wrong order"], "answer": 1, "why_es": "Diego dice: the food is late." }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Dile a tu pareja que hoy te toca lavar los trastes.",
+          "model": ["It's my turn to do the dishes.", "Tonight it's my turn to wash the dishes."],
+          "expect": [["my turn", "i will", "i'll"], ["dishes"]]
+        },
+        {
+          "prompt_es": "Avisa que ya no hay leche y propón ir al súper.",
+          "model": ["We're out of milk. Let's go to the store.", "There's no milk. We need to go grocery shopping."],
+          "expect": [["milk"], ["out of", "no milk", "no more"]]
+        },
+        {
+          "prompt_es": "Pregunta qué serie ven hoy y a quién le toca escoger.",
+          "model": ["What show should we watch tonight? Whose turn is it to pick?", "What do you want to watch? Whose turn is it to choose?"],
+          "expect": [["show", "watch", "movie", "series"], ["turn", "pick", "choose"]]
+        }
+      ],
+      "repair": [
+        { "situation_es": "No entendiste qué quehacer te toca.", "en": "Sorry, what do I have to do?", "es": "Perdón, ¿qué tengo que hacer yo?" },
+        { "situation_es": "Tu pareja habla muy rápido.", "en": "Slow down, please. One more time?", "es": "Más despacio, por favor. ¿Otra vez?" },
+        { "situation_es": "Quieres confirmar el acuerdo.", "en": "So I do the dishes and you take out the trash, right?", "es": "Entonces yo lavo los trastes y tú sacas la basura, ¿verdad?" }
+      ],
+      "roleplay": {
+        "id": "rp-en-casa-a",
+        "area": "hogar",
+        "level": "A2",
+        "title": "Chores and dinner",
+        "title_es": "Quehaceres y cena",
+        "setting_es": "Es domingo en la noche en tu departamento de Edmonton. Tu pareja, Diego, está en el sillón con los gatos.",
+        "npc": "Diego",
+        "turns": [
+          {
+            "npc": "Hey! The cats are crying again. Did you feed them?",
+            "npc_es": "¡Oye! Los gatos están maullando otra vez. ¿Les diste de comer?",
+            "task_es": "Dile que sí, que ya les diste de comer en la mañana.",
+            "expect": [["yes", "yeah", "i did", "already"], ["fed", "feed", "food", "ate"]],
+            "model": ["Yes, I fed the cats this morning.", "Yeah, I already fed them this morning."],
+            "tips": [{ "wrong": "\\bi gave (them )?(of )?eat\\b", "fix": "I fed them", "why_es": "«Darles de comer» es *feed*: I fed the cats." }]
+          },
+          {
+            "npc": "OK, they're lying. What about the litter box?",
+            "npc_es": "Va, están mintiendo. ¿Y el arenero?",
+            "task_es": "Pídele que limpie el arenero hoy.",
+            "expect": [["litter box", "litter"], ["clean", "scoop", "can you", "please"]],
+            "model": ["Can you clean the litter box today?", "Please clean the litter box today."]
+          },
+          {
+            "npc": "Fine. And I'll take out the trash. What's for dinner?",
+            "npc_es": "Está bien. Y yo saco la basura. ¿Qué hay de cenar?",
+            "task_es": "Propón pedir comida porque estás cansado/a.",
+            "expect": [["order", "delivery", "app"], ["food", "pizza", "dinner", "tonight", "something"]],
+            "model": ["I'm tired. Let's order food tonight.", "Let's order pizza on the app."]
+          },
+          {
+            "npc": "Good idea. Should we tip the driver? It's snowing a lot.",
+            "npc_es": "Buena idea. ¿Le damos propina al repartidor? Está nevando mucho.",
+            "task_es": "Dile que sí, que le des propina al repartidor.",
+            "expect": [["yes", "yeah", "sure", "of course"], ["tip"]],
+            "model": ["Yes, let's tip the driver.", "Sure, we should tip the driver five dollars."]
+          },
+          {
+            "npc": "Done. OK, what show should we watch tonight?",
+            "npc_es": "Listo. Bueno, ¿qué serie vemos hoy?",
+            "task_es": "Pregunta a quién le toca escoger.",
+            "expect": [["turn", "pick", "choose"]],
+            "model": ["Whose turn is it to pick?", "Who picks tonight? Is it my turn?"]
+          },
+          {
+            "npc": "Hmm, I picked last time... so it's your turn.",
+            "npc_es": "Mmm, yo escogí la vez pasada... así que te toca a ti.",
+            "task_es": "Escoge una comedia y propón ver la nueva temporada.",
+            "expect": [["comedy", "funny", "new season", "season"]],
+            "model": ["Let's watch a comedy. The new season is out!", "I want something funny. Let's watch the new season."]
+          }
+        ],
+        "useful": ["Did you feed the cats?", "It's my turn to do the dishes.", "Let's order food tonight.", "Whose turn is it to pick?", "We're out of milk."]
+      }
+    },
+    {
+      "id": "en-casa-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 14,
+      "skills": ["listen", "read", "speak", "write"],
+      "objective_es": "Negociar quehaceres con naturalidad, resolver un pedido retrasado y discutir (con humor) qué serie ver.",
+      "items": [
+        "phr-the-litter-box-needs-scooping",
+        "phr-im-on-dish-duty-tonight",
+        "phr-tomorrow-is-garbage-day",
+        "phr-were-running-low-on-eggs",
+        "phr-lets-just-order-in",
+        "phr-the-wings-deal-is-a-steal",
+        "phr-our-order-is-running-late",
+        "phr-i-already-tipped-in-the-app",
+        "phr-you-picked-last-time",
+        "phr-lets-binge-the-new-season",
+        "phr-dont-spoil-it-for-me"
+      ],
+      "lesson": {
+        "id": "ls-en-casa-b",
+        "level": "B1",
+        "topic": "home",
+        "order": 961,
+        "title": "The great wings negotiation",
+        "title_es": "La gran negociación de las alitas",
+        "intro_es": "Sofía y Mateo llevan tres meses en Edmonton. Es viernes, nadie quiere cocinar y los dos quieren escoger la serie.",
+        "lines": [
+          { "who": "Sofía", "en": "Before you sit down: [the litter box needs scooping].", "es": "Antes de que te sientes: ya hay que limpiar el arenero.", "item": "phr-the-litter-box-needs-scooping" },
+          { "who": "Mateo", "en": "Fine, but then [I'm on dish duty tonight]? That's not fair.", "es": "Va, ¿pero luego también me tocan los trastes? No es justo.", "item": "phr-im-on-dish-duty-tonight" },
+          { "who": "Sofía", "en": "No dishes if nobody cooks. Also, [tomorrow is garbage day].", "es": "No hay trastes si nadie cocina. Además, mañana pasa la basura.", "item": "phr-tomorrow-is-garbage-day" },
+          { "who": "Mateo", "en": "Noted. And [we're running low on eggs], so breakfast is a problem.", "es": "Anotado. Y ya casi no hay huevos, así que el desayuno es un problema.", "item": "phr-were-running-low-on-eggs" },
+          { "who": "Sofía", "en": "Then forget cooking. [Let's just order in].", "es": "Entonces olvídate de cocinar. Mejor pidamos algo.", "item": "phr-lets-just-order-in" },
+          { "who": "Mateo", "en": "Twenty wings for fifteen bucks? [The wings deal is a steal].", "es": "¿Veinte alitas por quince dólares? La promo de alitas está regalada.", "item": "phr-the-wings-deal-is-a-steal" },
+          { "who": "Sofía", "en": "Order it. Now, the important part: the show.", "es": "Pídela. Ahora, lo importante: la serie." },
+          { "who": "Mateo", "en": "The detective one! The new season just came out.", "es": "¡La de detectives! Acaba de salir la nueva temporada." },
+          { "who": "Sofía", "en": "Excuse me, [you picked last time]. And the time before.", "es": "Perdón, tú escogiste la vez pasada. Y la anterior.", "item": "phr-you-picked-last-time" },
+          { "who": "Mateo", "en": "OK, but think about it: [let's binge the new season] together. Everyone's talking about it.", "es": "Va, pero piénsalo: echémonos la temporada juntos. Todos están hablando de ella.", "item": "phr-lets-binge-the-new-season" },
+          { "who": "Sofía", "en": "Fine. Jen at work already watched it, so she said the ending is...", "es": "Está bien. Jen del trabajo ya la vio, y dijo que el final es..." },
+          { "who": "Mateo", "en": "Stop! [Don't spoil it for me]!", "es": "¡Para! ¡No me la arruines!", "item": "phr-dont-spoil-it-for-me" },
+          { "who": "Sofía", "en": "Hmm. The app says [our order is running late]. The snow, I guess.", "es": "Mmm. La app dice que nuestro pedido viene retrasado. Por la nieve, supongo.", "item": "phr-our-order-is-running-late" },
+          { "who": "Mateo", "en": "Poor driver. Don't worry, [I already tipped in the app].", "es": "Pobre repartidor. No te preocupes, ya le di propina en la app.", "item": "phr-i-already-tipped-in-the-app" }
+        ],
+        "items": [
+          "phr-the-litter-box-needs-scooping",
+          "phr-im-on-dish-duty-tonight",
+          "phr-tomorrow-is-garbage-day",
+          "phr-were-running-low-on-eggs",
+          "phr-lets-just-order-in",
+          "phr-the-wings-deal-is-a-steal",
+          "phr-you-picked-last-time",
+          "phr-lets-binge-the-new-season",
+          "phr-dont-spoil-it-for-me",
+          "phr-our-order-is-running-late",
+          "phr-i-already-tipped-in-the-app"
+        ],
+        "questions": [
+          { "q": "Why does Mateo think it's unfair?", "options": ["He has to scoop the litter box and do the dishes", "Sofía ate all the wings", "He has to shovel the snow"], "answer": 0, "why_es": "Le piden el arenero y cree que también le tocarán los trastes." },
+          { "q": "Why does Sofía say Mateo can't pick the show?", "options": ["He fell asleep", "He doesn't like detective shows", "He picked the last two times"], "answer": 2, "why_es": "Dice: you picked last time. And the time before." },
+          { "q": "Why does Mateo shout «Stop!»?", "options": ["The cat got out", "Sofía is going to tell him the ending", "The driver is at the door"], "answer": 1, "why_es": "Sofía iba a contar el final: don't spoil it for me." },
+          { "q": "Why is the order late?", "options": ["Probably the snow", "They ordered the wrong food", "The app is broken"], "answer": 0, "why_es": "Sofía dice: The snow, I guess." }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Avisa de forma natural que ya casi no hay huevos y que hay que ir al súper.",
+          "model": ["We're running low on eggs, we need to do a grocery run.", "We're almost out of eggs. Can you grab some?"],
+          "expect": [["eggs"], ["running low", "almost out", "low on"]]
+        },
+        {
+          "prompt_es": "Propón pedir algo en lugar de cocinar, con un tono relajado.",
+          "model": ["Forget cooking, let's just order in.", "I'm not in the mood to cook. Let's just order in."],
+          "expect": [["order in", "order something", "order food", "get delivery"]]
+        },
+        {
+          "prompt_es": "Reclama (con humor) que tu pareja escogió la vez pasada y pide que no te cuente el final.",
+          "model": ["You picked last time! And don't spoil it for me.", "No way, you picked last time. And no spoilers!"],
+          "expect": [["picked last time", "chose last time", "your turn last time"], ["spoil", "spoilers", "don't tell me"]]
+        }
+      ],
+      "repair": [
+        { "situation_es": "No entendiste qué dijo la app sobre el pedido.", "en": "Wait, what does the app say? Is it still coming?", "es": "Espera, ¿qué dice la app? ¿Todavía viene?" },
+        { "situation_es": "Tu pareja usa una expresión que no conoces.", "en": "Sorry, what do you mean by «a steal»?", "es": "Perdón, ¿qué quieres decir con «a steal»?" },
+        { "situation_es": "Quieres resumir el acuerdo para evitar peleas.", "en": "So just to be clear: I scoop, you do the dishes, and I pick the show.", "es": "Para que quede claro: yo limpio el arenero, tú lavas los trastes y yo escojo la serie." }
+      ],
+      "roleplay": {
+        "id": "rp-en-casa-b",
+        "area": "hogar",
+        "level": "B1",
+        "title": "Friday night at home",
+        "title_es": "Viernes en la noche en casa",
+        "setting_es": "Es viernes, hace mucho frío y tu pareja, Mateo, quiere ver la nueva temporada de su serie. Hay que negociar quehaceres, cena y serie.",
+        "npc": "Mateo",
+        "turns": [
+          {
+            "npc": "Ugh, I can smell the litter box from here.",
+            "npc_es": "Uf, huelo el arenero desde aquí.",
+            "task_es": "Dile que sí, que ya hay que limpiarlo, y que le toca a él.",
+            "expect": [["needs scooping", "needs cleaning", "scoop", "clean"], ["your turn", "you", "yours"]],
+            "model": ["Yeah, the litter box needs scooping. It's your turn.", "I know, it needs scooping, and it's your turn."]
+          },
+          {
+            "npc": "Fine, I'll scoop it. But I'm not cooking tonight, no way.",
+            "npc_es": "Va, yo lo limpio. Pero hoy no cocino, ni loco.",
+            "task_es": "Propón con naturalidad que pidan algo.",
+            "expect": [["order in", "order something", "order food", "delivery", "order"]],
+            "model": ["Same. Let's just order in.", "Me neither. Let's just order in tonight."],
+            "tips": [{ "wrong": "\\bask for (a )?(food|delivery)\\b", "fix": "order in / order food", "why_es": "«Pedir comida» es *order (food)*, no *ask for food*." }]
+          },
+          {
+            "npc": "There's a wings deal: twenty wings for fifteen bucks.",
+            "npc_es": "Hay promo de alitas: veinte alitas por quince dólares.",
+            "task_es": "Di que es una ganga y pídele que la pida ya.",
+            "expect": [["steal", "great deal", "good deal", "cheap", "bargain"], ["order"]],
+            "model": ["That's a steal! Order it now.", "Wow, the wings deal is a steal. Go ahead and order it."]
+          },
+          {
+            "npc": "Ordered. Now, the new season of my detective show is out...",
+            "npc_es": "Listo. Ahora, ya salió la nueva temporada de mi serie de detectives...",
+            "task_es": "Recuérdale que él escogió la vez pasada.",
+            "expect": [["picked last time", "chose last time", "picked the last", "your turn last time", "you picked"]],
+            "model": ["Hold on, you picked last time.", "No way, you picked last time. It's my turn."]
+          },
+          {
+            "npc": "OK, OK. But if we binge it together, I'll do dish duty all week.",
+            "npc_es": "Va, va. Pero si nos la echamos juntos, yo lavo trastes toda la semana.",
+            "task_es": "Acepta el trato y pide que no te cuente nada del final.",
+            "expect": [["deal", "fine", "ok", "okay", "sure"], ["spoil", "spoilers", "don't tell me"]],
+            "model": ["Deal! But don't spoil it for me.", "Fine, let's binge it. And no spoilers!"]
+          },
+          {
+            "npc": "Hmm, the app says our order is running late. Should I add more tip?",
+            "npc_es": "Mmm, la app dice que nuestro pedido viene retrasado. ¿Le pongo más propina?",
+            "task_es": "Dile que no hace falta, que ya le diste propina en la app, y que es por la nieve.",
+            "expect": [["tipped", "tip"], ["snow", "weather", "roads"]],
+            "model": ["No need, I already tipped in the app. It's probably the snow.", "It's fine, I already tipped in the app. The roads are bad with the snow."]
+          }
+        ],
+        "useful": ["The litter box needs scooping.", "Let's just order in.", "That's a steal!", "You picked last time.", "Don't spoil it for me!", "I already tipped in the app."]
+      }
+    },
+    {
+      "id": "en-casa-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 16,
+      "skills": ["listen", "read", "speak", "write"],
+      "objective_es": "Negociar con ironía la palada de nieve, el termostato y el presupuesto del mes; ceder con elegancia y cerrar acuerdos.",
+      "items": [
+        "phr-we-got-dumped-on-last-night",
+        "phr-its-your-turn-to-shovel",
+        "col-shovel-the-driveway",
+        "phr-its-supposed-to-hit-minus-thirty-tonight",
+        "col-plug-in-your-car",
+        "phr-who-touched-the-thermostat",
+        "phr-the-heating-bill-is-going-to-be-brutal",
+        "phr-we-need-to-cut-back-this-month",
+        "pv-settle-up",
+        "pv-veg-out",
+        "phr-where-did-we-leave-off"
+      ],
+      "lesson": {
+        "id": "ls-en-casa-c",
+        "level": "C1",
+        "topic": "home",
+        "order": 962,
+        "title": "Treaty of the thermostat",
+        "title_es": "El tratado del termostato",
+        "intro_es": "Primer invierno de verdad para Elena y Omar en Edmonton. Una nevada, un recibo de calefacción y un termostato en disputa: toca negociar como diplomáticos.",
+        "lines": [
+          { "who": "Omar", "en": "Have you looked outside? [We got dumped on last night].", "es": "¿Ya viste afuera? Anoche cayó un nevadón.", "item": "phr-we-got-dumped-on-last-night" },
+          { "who": "Elena", "en": "I have. And with deep respect, [it's your turn to shovel].", "es": "Ya vi. Y con todo respeto, te toca palear.", "item": "phr-its-your-turn-to-shovel" },
+          { "who": "Omar", "en": "I'd argue I [shoveled the driveway] twice last week, which buys me at least one pass.", "es": "Yo diría que paleé la entrada dos veces la semana pasada, lo que me da al menos un pase.", "item": "col-shovel-the-driveway" },
+          { "who": "Elena", "en": "Interesting theory. Rejected. Also, [it's supposed to hit minus thirty tonight].", "es": "Interesante teoría. Rechazada. Además, dicen que hoy llega a menos treinta.", "item": "phr-its-supposed-to-hit-minus-thirty-tonight" },
+          { "who": "Omar", "en": "Then someone has to [plug in the car], and it won't be the person shoveling.", "es": "Entonces alguien tiene que conectar el carro, y no va a ser quien palee.", "item": "col-plug-in-your-car" },
+          { "who": "Elena", "en": "Fair. Now, a separate matter: it's twenty-six degrees in here. [Who touched the thermostat]?", "es": "Justo. Ahora, otro asunto: aquí hace veintiséis grados. ¿Quién le movió al termostato?", "item": "phr-who-touched-the-thermostat" },
+          { "who": "Omar", "en": "I plead the fifth. I'm from a warm city, I have needs.", "es": "Me reservo el derecho a no declarar. Soy de una ciudad cálida, tengo necesidades." },
+          { "who": "Elena", "en": "Your needs are lovely, but [the heating bill is going to be brutal].", "es": "Tus necesidades son preciosas, pero el recibo de calefacción va a estar durísimo.", "item": "phr-the-heating-bill-is-going-to-be-brutal" },
+          { "who": "Omar", "en": "Counteroffer: twenty-two degrees, and I wear the ugly sweater your aunt sent.", "es": "Contraoferta: veintidós grados, y me pongo el suéter feo que mandó tu tía." },
+          { "who": "Elena", "en": "Accepted. Honestly, after the holidays, [we need to cut back this month] anyway.", "es": "Aceptado. La verdad, después de las fiestas, este mes hay que apretarnos el cinturón de todos modos.", "item": "phr-we-need-to-cut-back-this-month" },
+          { "who": "Omar", "en": "Agreed. Send me the grocery receipts and we'll [settle up] on Sunday.", "es": "De acuerdo. Mándame los tickets del súper y hacemos cuentas el domingo.", "item": "pv-settle-up" },
+          { "who": "Elena", "en": "Deal. Shovel, plug in the car, and then we [veg out] on the couch.", "es": "Trato. Paleas, conectas el carro y luego nos tiramos en el sillón sin hacer nada.", "item": "pv-veg-out" },
+          { "who": "Omar", "en": "With the show? [Where did we leave off], the wedding episode?", "es": "¿Con la serie? ¿En qué nos quedamos, el capítulo de la boda?", "item": "phr-where-did-we-leave-off" },
+          { "who": "Elena", "en": "The wedding. Now go, the snow isn't going to negotiate with you.", "es": "La boda. Ahora ve, la nieve no va a negociar contigo." }
+        ],
+        "items": [
+          "phr-we-got-dumped-on-last-night",
+          "phr-its-your-turn-to-shovel",
+          "col-shovel-the-driveway",
+          "phr-its-supposed-to-hit-minus-thirty-tonight",
+          "col-plug-in-your-car",
+          "phr-who-touched-the-thermostat",
+          "phr-the-heating-bill-is-going-to-be-brutal",
+          "phr-we-need-to-cut-back-this-month",
+          "pv-settle-up",
+          "pv-veg-out",
+          "phr-where-did-we-leave-off"
+        ],
+        "questions": [
+          { "q": "What argument does Omar use to avoid shoveling?", "options": ["He has a meeting", "He shoveled twice last week", "His back hurts"], "answer": 1, "why_es": "Dice que paleó dos veces la semana pasada y merece un pase." },
+          { "q": "What does «I plead the fifth» suggest here?", "options": ["He is joking that he won't admit he changed the thermostat", "He wants five degrees more", "He is going to call a lawyer"], "answer": 0, "why_es": "Es una broma: se niega a confesar, lo que implica que sí fue él." },
+          { "q": "What compromise do they reach on the heat?", "options": ["Twenty-six degrees", "They turn the heat off", "Twenty-two degrees and a sweater"], "answer": 2, "why_es": "Omar ofrece 22 grados y ponerse el suéter; Elena acepta." },
+          { "q": "When will they settle up?", "options": ["On Sunday", "Tonight", "At the end of the year"], "answer": 0, "why_es": "Omar dice: we'll settle up on Sunday." }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Con ironía amable, recuérdale a tu pareja que hoy le toca palear la nieve.",
+          "model": ["With all due respect, it's your turn to shovel.", "I hate to break it to you, but it's your turn to shovel the driveway."],
+          "expect": [["your turn"], ["shovel", "snow", "driveway"]]
+        },
+        {
+          "prompt_es": "Haz una contraoferta sobre el termostato y justifícala con el recibo de calefacción.",
+          "model": ["How about twenty-two degrees? The heating bill is going to be brutal.", "Counteroffer: we keep it at twenty-one, otherwise the heating bill will be brutal."],
+          "expect": [["how about", "counteroffer", "what if", "let's keep", "we keep"], ["bill", "expensive", "cost"]]
+        },
+        {
+          "prompt_es": "Propón recortar gastos este mes y hacer cuentas el domingo.",
+          "model": ["We need to cut back this month. Let's settle up on Sunday.", "Let's cut back on delivery this month and settle up on Sunday."],
+          "expect": [["cut back", "spend less", "save"], ["settle up", "sunday", "split"]]
+        }
+      ],
+      "repair": [
+        { "situation_es": "Tu pareja usa una expresión idiomática que no entendiste.", "en": "Hang on, what does «plead the fifth» mean exactly?", "es": "Espera, ¿qué significa exactamente «plead the fifth»?" },
+        { "situation_es": "La discusión se calienta y quieres bajar el tono.", "en": "OK, let's take a step back. What would work for both of us?", "es": "Va, demos un paso atrás. ¿Qué nos funcionaría a los dos?" },
+        { "situation_es": "Quieres dejar claro el acuerdo final.", "en": "Let me make sure I've got this right: you shovel, I plug in the car, and we keep it at twenty-two.", "es": "A ver si entendí bien: tú paleas, yo conecto el carro y lo dejamos en veintidós." }
+      ],
+      "roleplay": {
+        "id": "rp-en-casa-c",
+        "area": "hogar",
+        "level": "C1",
+        "title": "Snow day summit",
+        "title_es": "Cumbre del día de nieve",
+        "setting_es": "Es sábado en la mañana después de una gran nevada. Tu pareja, Omar, intenta librarse de palear y quiere el termostato en 26 grados. Negocia con humor y firmeza.",
+        "npc": "Omar",
+        "turns": [
+          {
+            "npc": "Good morning, sunshine. So... we got dumped on last night.",
+            "npc_es": "Buenos días, solecito. Pues... anoche cayó un nevadón.",
+            "task_es": "Con ironía, responde que ya lo viste y que le toca palear.",
+            "expect": [["your turn", "you're up", "you are up"], ["shovel", "snow", "driveway"]],
+            "model": ["I noticed. And what a coincidence, it's your turn to shovel.", "I saw. With all due respect, it's your turn to shovel the driveway."]
+          },
+          {
+            "npc": "Technically, I shoveled twice last week, so I've earned a day off.",
+            "npc_es": "Técnicamente paleé dos veces la semana pasada, así que me gané un día libre.",
+            "task_es": "Rechaza su argumento con humor y recuerda que tú hiciste otra tarea (por ejemplo, limpiaste el baño).",
+            "expect": [["nice try", "no way", "rejected", "not buying", "i don't think so", "doesn't count"], ["i cleaned", "i did", "bathroom", "dishes", "laundry"]],
+            "model": ["Nice try. I cleaned the bathroom twice, so we're even.", "I'm not buying it. I did the laundry all week."]
+          },
+          {
+            "npc": "Fine, fine. But it's supposed to hit minus thirty tonight. Can I at least keep the heat at twenty-six?",
+            "npc_es": "Va, va. Pero dicen que hoy llega a menos treinta. ¿Al menos puedo dejar la calefacción en veintiséis?",
+            "task_es": "Haz una contraoferta (por ejemplo, 22 grados y un suéter) y menciona el recibo.",
+            "expect": [["twenty-two", "twenty two", "22", "twenty-one", "21", "how about", "counteroffer"], ["bill", "sweater", "expensive", "brutal"]],
+            "model": ["How about twenty-two and a sweater? The heating bill is going to be brutal.", "Counteroffer: twenty-two degrees. Otherwise the bill will be brutal."]
+          },
+          {
+            "npc": "Ugh, deal. And who's going to plug in the car?",
+            "npc_es": "Uf, trato. ¿Y quién va a conectar el carro?",
+            "task_es": "Ofrécete a conectar el carro, ya que él va a palear.",
+            "expect": [["i'll", "i will", "i can", "let me"], ["plug in", "plug it in", "plug the car"]],
+            "model": ["I'll plug in the car, since you're shoveling.", "Let me plug in the car. You've got enough on your plate."]
+          },
+          {
+            "npc": "Generous. Also, the credit card after the holidays... it's not pretty.",
+            "npc_es": "Qué generosa. Además, la tarjeta después de las fiestas... no se ve bonita.",
+            "task_es": "Propón recortar gastos este mes y hacer cuentas el domingo.",
+            "expect": [["cut back", "spend less", "tighten", "budget"], ["settle up", "sunday", "go over", "split"]],
+            "model": ["We need to cut back this month. Let's settle up on Sunday.", "Let's tighten the budget and settle up on Sunday."]
+          },
+          {
+            "npc": "Agreed. After shoveling, can we just veg out and watch the show?",
+            "npc_es": "De acuerdo. Después de palear, ¿podemos tirarnos en el sillón a ver la serie?",
+            "task_es": "Acepta y pregunta en qué capítulo se quedaron.",
+            "expect": [["sure", "deal", "absolutely", "of course", "yes", "yeah"], ["leave off", "left off", "where did we", "which episode"]],
+            "model": ["Absolutely. Where did we leave off?", "Deal. Which episode were we on? Where did we leave off?"]
+          }
+        ],
+        "useful": ["It's your turn to shovel.", "Nice try.", "How about twenty-two degrees?", "The heating bill is going to be brutal.", "Let's settle up on Sunday.", "Where did we leave off?"]
+      }
+    }
+  ]
+}

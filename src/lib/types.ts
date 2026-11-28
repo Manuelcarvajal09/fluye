@@ -129,17 +129,25 @@ export interface PlacementQ {
   group?: string;
 }
 
+export type GrammarGroup = "tiempos" | "estructuras" | "escritura" | "conversacion";
 export interface Tense {
   id: string;
   order: number;
   name_en: string;
   title_es: string;
   use_es: string;
-  form: { aff: string; neg: string; q: string };
+  /** Bloque de la lista (si falta: los tiempos verbales son «tiempos» y el resto «estructuras»). */
+  group?: GrammarGroup;
+  level?: Level;
+  form?: { aff: string; neg: string; q: string };
+  /** Explicación paso a paso (unidades nuevas): cada paso con su idea, ejemplos y, si ayuda, una tabla. */
+  steps?: { title_es: string; body_es: string; examples?: Example[]; table?: [string, string][] }[];
   signals?: string[];
   examples: Example[];
   mistakes_es?: string;
-  practice: { q: string; options: string[]; answer: number }[];
+  /** Para qué sirve en el IELTS y en qué criterio se nota. */
+  ielts_es?: string;
+  practice: { q: string; options: string[]; answer: number; why_es?: string }[];
 }
 
 export const TOPIC_LABEL: Record<string, string> = {

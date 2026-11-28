@@ -4,6 +4,7 @@ import { db, schema } from "@/db";
 import type { Profile } from "./user";
 import { addDays, dayDiff, goalXp, localDay } from "./game";
 import { GEMS, weeklyChallenges, weekKey, weekStart } from "./challenges";
+import { FREEZE } from "./wardrobe";
 
 /**
  * Otorga gemas con clave idempotente. Devuelve true solo la primera vez para esa clave.
@@ -22,17 +23,30 @@ export async function ownedItems(userId: string) {
   return new Set(rows.map((r) => r.id));
 }
 
-/** Protector de racha (con gemas, máx. 2). Descuenta solo si alcanza (condición en el UPDATE). */
-export const FREEZE_PRICE = 50;
+/** Protector de racha (con gemas, máx. FREEZE.max). Descuenta solo si alcanza (condición en el UPDATE). */
 export async function buyFreeze(profile: Profile): Promise<{ ok: true; gems: number } | { ok: false; error: string }> {
-  if (profile.freezes >= 2) return { ok: false, error: "Ya tienes 2 protectores (el máximo)." };
+  if (profile.freezes >= FREEZE.max) return { ok: false, error: `Ya tienes ${FREEZE.max} protectores (el máximo).` };
   const [paid] = await db()
     .update(schema.profiles)
-    .set({ gems: sql`${schema.profiles.gems} - ${FREEZE_PRICE}`, freezes: sql`least(${schema.profiles.freezes} + 1, 2)` })
-    .where(and(eq(schema.profiles.userId, profile.userId), gte(schema.profiles.gems, FREEZE_PRICE), lte(schema.profiles.freezes, 1)))
+    .set({ gems: sql`${schema.profiles.gems} - ${FREEZE.price}`, freezes: sql`least(${schema.profiles.freezes} + 1, ${FREEZE.max})` })
+    .where(and(eq(schema.profiles.userId, profile.userId), gte(schema.profiles.gems, FREEZE.price), lte(schema.profiles.freezes, FREEZE.max - 1)))
     .returning({ gems: schema.profiles.gems });
   if (!paid) return { ok: false, error: "Te faltan gemas." };
   return { ok: true, gems: paid.gems };
+}
+
+/** Paga una sola vez los logros alcanzados (GEMS.achievement cada uno). Devuelve las gemas nuevas. */
+export async function settleAchievements(userId: string, reached: { id: string; title: string }[]) {
+  if (!reached.length) return 0;
+  const d = db();
+  const ins = await d
+    .insert(schema.gemLedger)
+    .values(reached.map((a) => ({ userId, key: `ach:${a.id}`, amount: GEMS.achievement, reason: `Logro: ${a.title}` })))
+    .onConflictDoNothing()
+    .returning({ amount: schema.gemLedger.amount });
+  const total = ins.reduce((n, r) => n + r.amount, 0);
+  if (total) await d.update(schema.profiles).set({ gems: sql`${schema.profiles.gems} + ${total}` }).where(eq(schema.profiles.userId, userId));
+  return total;
 }
 
 /**

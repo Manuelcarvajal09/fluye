@@ -1,0 +1,85 @@
+{
+  "id": "lectura-primer-empleo",
+  "level": "B1",
+  "title": "Your First Job in Canada",
+  "title_es": "Tu primer empleo en Canadá",
+  "topic": "trabajo",
+  "minutes": 5,
+  "intro_es": "Los primeros días en un trabajo nuevo marcan mucho: llega preparado y con confianza.",
+  "paragraphs": [
+    "Your first job in Canada is an exciting step. It may not be the job you had in Mexico, and that is normal. Many newcomers start in a position below their experience while they build Canadian contacts and confidence. Every job is a chance to practise English, understand workplace culture and add a Canadian reference to your résumé.",
+    "The first days are usually called onboarding. You will probably fill out forms, give your Social Insurance Number for payroll, set up direct deposit and complete safety training. Some workplaces give you a buddy, a coworker who helps you learn the routines. Many jobs also have a probation period, often the first few months, when your employer checks if the job is a good fit.",
+    "Small talk is an important part of work life in Canada. In the kitchen or before a meeting, people often chat about the weather, sports, food or their plans. These short conversations build trust. You don't need perfect English. A simple question like “Did you do anything fun this weekend?” is enough to start. Listen, smile and share a little about yourself too.",
+    "Many newcomers are afraid to ask questions because they don't want to look incompetent. In Canada, asking questions is usually seen as a good thing. It shows that you care about doing the job right. Try phrases like “Could you walk me through this?” or “Just to make sure I understand, you want me to...?” If you didn't hear something, it is fine to say, “Sorry, could you repeat that?”",
+    "Pay attention to workplace expectations. Arrive on time, tell your manager early if you are sick and follow the rules for breaks. When you get paid, read your pay stub to check your hours and deductions, such as income tax and pension contributions.",
+    "Finally, be patient with yourself. The first months can be tiring, especially when you work in a second language. Celebrate small wins, ask for feedback and keep learning. Step by step, you will feel more confident."
+  ],
+  "glossary": [
+    { "term": "onboarding", "es": "proceso de integración (inducción)", "def": "the process of helping a new employee learn about the job and the company" },
+    { "term": "payroll", "es": "nómina", "def": "the system a company uses to pay its employees" },
+    { "term": "direct deposit", "es": "depósito directo (en tu cuenta)", "def": "when your salary goes straight into your bank account" },
+    { "term": "safety training", "es": "capacitación en seguridad", "def": "lessons about how to work without accidents or injuries" },
+    { "term": "buddy", "es": "compañero guía", "def": "a coworker who helps a new employee during the first weeks" },
+    { "term": "probation period", "es": "periodo de prueba", "def": "the first part of a job when the employer checks if you are right for it" },
+    { "term": "good fit", "es": "buena combinación, encajar bien", "def": "when a person and a job, team or place match well" },
+    { "term": "small talk", "es": "charla casual", "def": "short, friendly conversation about everyday topics", "note": "No es perder el tiempo: así se construye la confianza en el trabajo." },
+    { "term": "incompetent", "es": "incompetente", "def": "not having the skills to do something well" },
+    { "term": "walk me through", "es": "explicarme paso a paso", "def": "to explain something to someone slowly, one step at a time" },
+    { "term": "pay stub", "es": "recibo de nómina", "def": "a document that shows how much you earned and what was taken off" },
+    { "term": "deductions", "es": "deducciones, descuentos", "def": "money taken from your pay, for example for taxes or a pension" },
+    { "term": "feedback", "es": "retroalimentación, comentarios", "def": "comments about your work that help you improve" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Newcomers should only accept jobs that match their experience.",
+      "Small talk is more important than doing your job well.",
+      "Your first job is a learning step: understand onboarding, make small talk and ask questions."
+    ],
+    "answer": 2,
+    "why_es": "El texto presenta el primer empleo como aprendizaje y da claves: inducción, charla casual y preguntar."
+  },
+  "questions": [
+    {
+      "q": "What is a probation period?",
+      "options": [
+        "A time when the employer checks if the job is a good fit",
+        "A holiday after your first month of work",
+        "A training course only for managers"
+      ],
+      "answer": 0,
+      "why_es": "El periodo de prueba son los primeros meses en los que la empresa evalúa si encajas en el puesto."
+    },
+    {
+      "q": "How are questions usually seen in Canadian workplaces?",
+      "options": [
+        "As a sign that you are not ready for the job",
+        "As a sign that you care about doing the job right",
+        "As something only managers should do"
+      ],
+      "answer": 1,
+      "why_es": "Preguntar demuestra interés por hacer bien el trabajo, no falta de capacidad."
+    },
+    {
+      "q": "What can you check on your pay stub?",
+      "options": [
+        "The results of your probation period",
+        "Your safety training schedule",
+        "Your hours and deductions"
+      ],
+      "answer": 2,
+      "why_es": "El recibo de nómina muestra tus horas y los descuentos, como impuestos y pensión."
+    },
+    {
+      "q": "Which is a typical small talk topic at work?",
+      "options": [
+        "Your salary",
+        "The weather or weekend plans",
+        "Your political opinions"
+      ],
+      "answer": 1,
+      "why_es": "El clima, los deportes y los planes son temas seguros; el sueldo o la política no lo son."
+    }
+  ],
+  "club": false
+}

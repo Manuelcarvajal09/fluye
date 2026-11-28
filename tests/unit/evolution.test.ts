@@ -4,7 +4,7 @@ import { inRange, seasonFor } from "@/lib/seasons";
 import { rankOf, weekStart, weeklyChallenges } from "@/lib/challenges";
 import { goalOf, maskExplicit } from "@/lib/realtalk";
 import { lookOf, wearOf } from "@/lib/look";
-import { CHESTS, PETS, PIECES, PRICE, STARTERS, chestPool, combine, dressLayers, dupRefund, missingFor, ownsPiece, poseLayers, sanitizeWear } from "@/lib/wardrobe";
+import { CHESTS, FASE3_ART_READY, PETS, PIECES, PRICE, STARTERS, chestPool, combine, dressLayers, dupRefund, missingFor, ownsPiece, poseLayers, sanitizeWear } from "@/lib/wardrobe";
 
 describe("calificación de intentos", () => {
   it("ver la solución es olvido y casi no da XP", () => {
@@ -91,9 +91,9 @@ describe("inglés real", () => {
 });
 
 describe("armario", () => {
-  it("catálogo: 71 piezas, 12 mascotas, cuatro rarezas y precios por rareza", () => {
-    expect(PIECES).toHaveLength(71);
-    expect(PETS).toHaveLength(12);
+  it("catálogo: 71 piezas y 12 mascotas (la Fase 3 sigue oculta hasta el arte regenerado), cuatro rarezas y precios por rareza", () => {
+    expect(PIECES).toHaveLength(FASE3_ART_READY ? 79 : 71);
+    expect(PETS).toHaveLength(FASE3_ART_READY ? 16 : 12);
     for (const p of PIECES) if (p.source === "shop") expect(p.price).toBe(PRICE[p.tier]);
     expect(new Set(PIECES.map((p) => p.tier))).toEqual(new Set([0, 1, 2, 3]));
     expect(STARTERS.sort()).toEqual(["flower", "glasses"]);

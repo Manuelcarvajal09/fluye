@@ -1,6 +1,6 @@
 # Fluye 1.0 — respaldo, despliegue y reversión
 
-Nada de esto se ejecuta sin la aprobación explícita de Manuel.
+Nada de esto se ejecuta sin la aprobación explícita del dueño de la app.
 
 ## Qué cambia en la base de datos
 
@@ -32,7 +32,7 @@ Si Vercel responde «Running Checks: canceled» o «temporarily throttled», no 
 
 - `get_runtime_errors` del proyecto `fluye` en los últimos 15 minutos.
 - Los mismos contadores del paso 2 deben coincidir: el despliegue no escribe datos.
-- Con la sesión de Manuel: Hoy, una sesión corta, una escena de series, Música, Armario y Amigos, en el móvil y en la computadora.
+- Con la sesión del dueño: Hoy, una sesión corta, una escena de series, Música, Armario y Amigos, en el móvil y en la computadora.
 
 ## Revertir
 

@@ -75,7 +75,7 @@ export async function recordProgress(original: Profile, input: Delta) {
   if (reachedNow && (await awardGems(profile.userId, `goal:${today}`, GEMS.dailyGoal, "Meta diaria"))) gems += GEMS.dailyGoal;
   for (const m of newly) if (await awardGems(profile.userId, `mission:${today}:${m.id}`, GEMS.dailyMission, `Reto diario: ${m.label}`)) gems += GEMS.dailyMission;
 
-  gems += await studyGems(profile.userId, today, gained);
+  gems += await studyGems(profile.userId, today, dayXp);
   const awards = reachedNow || (await isFirstReview(profile.userId)) ? await settleAwards({ ...profile, streak }) : [];
   return { gems, boosted, awards, gained, dayXp, goal: goalXp(profile.goalMinutes), goalReached: reachedNow, streak, missions: newly.map((m) => m.label) };
 }

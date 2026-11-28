@@ -1,4 +1,5 @@
 import "server-only";
+import { allowsNewItem, lessonMin } from "./levels";
 import { and, asc, eq, lte, max } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { ITEMS, LESSONS, getItem, getTrack, levelIndex } from "./content";
@@ -97,13 +98,14 @@ export type SessionKind = "daily" | "mission" | "return";
 /** Días sin estudiar a partir de los cuales la sesión se vuelve "de regreso": más repaso, menos nuevo. */
 export const RETURN_AFTER_DAYS = 4;
 
-export async function buildSession(profile: Profile, minutes: number, opts: { trackId?: string; only?: string[]; qaFormat?: "build" } = {}, now = new Date()) {
+/** noNew: sin vidas (y sin vidas ilimitadas) solo hay repaso y práctica, nada nuevo. */
+export async function buildSession(profile: Profile, minutes: number, opts: { trackId?: string; only?: string[]; qaFormat?: "build"; noNew?: boolean; lessonId?: string } = {}, now = new Date()) {
   // Solo pruebas (FLUYE_QA=1): fuerza el banco de palabras para poder probarlo de punta a punta.
   const qaRnd = opts.qaFormat === "build" ? () => 0 : undefined;
   const d = db();
   const budget = Math.max(12, Math.round(minutes * 4));
   const userLevel = levelIndex(profile.level);
-  const mission = opts.trackId ? getTrack(opts.trackId) : undefined;
+  const mission = opts.trackId && !opts.noNew ? getTrack(opts.trackId) : undefined;
   // Estudiar una colección: solo sus entradas (repasos vencidos + las que aún no activas), con el mismo motor FSRS.
   const only = opts.only ? new Set(opts.only) : null;
   const st = settingsOf(profile);
@@ -143,7 +145,7 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
   // Cuántas nuevas: lo que quede del límite diario, sin pasarse del tiempo de la sesión.
   const newLeft = Math.max(0, profile.dailyNew - (todayRow[0]?.newItems ?? 0));
   const room = Math.max(0, Math.floor((budget - dueSteps.length) / 3));
-  let newCount = Math.min(newLeft, room, kind === "return" ? 2 : 99);
+  let newCount = opts.noNew ? 0 : Math.min(newLeft, room, kind === "return" ? 2 : 99);
 
   const steps: Step[] = [];
   const fresh: Item[] = [];
@@ -172,7 +174,7 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
   }
 
   if (only) {
-    const cap = Math.max(3, Math.min(Math.floor((budget - dueSteps.length) / 3), 10));
+    const cap = opts.noNew ? 0 : Math.max(3, Math.min(Math.floor((budget - dueSteps.length) / 3), 10));
     for (const id of only) {
       const it = getItem(id);
       if (it && !knownIds.has(id) && fresh.length < cap) fresh.push(it);
@@ -186,8 +188,11 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     return { steps, lessonId, newCount: fresh.length, dueCount: dueSteps.length, kind: "daily" as SessionKind, away: Math.floor(away) };
   }
 
-  const lesson = kind === "return" || opts.qaFormat ? undefined : LESSONS.find((l) => !doneIds.has(l.id) && levelIndex(l.level) <= userLevel + 1);
-  if (lesson && (newCount > 0 || dueSteps.length < 6)) {
+  // Lección del día dentro de tu franja: desde B1 no se proponen lecciones A1/A2 (lo básico se da por sabido).
+  // Desde el mapa («Tu viaje») se puede pedir una lección concreta de cualquier nivel, aunque ya esté hecha (para repasarla).
+  const chosen = opts.lessonId && !opts.noNew ? LESSONS.find((l) => l.id === opts.lessonId) : undefined;
+  const lesson = chosen ?? (kind === "return" || opts.qaFormat || opts.noNew ? undefined : LESSONS.find((l) => !doneIds.has(l.id) && levelIndex(l.level) >= lessonMin(userLevel) && levelIndex(l.level) <= userLevel + 1));
+  if (lesson && (chosen || newCount > 0 || dueSteps.length < 6)) {
     lessonId = lesson.id;
     steps.push({ kind: "story", lesson });
     for (const q of lesson.questions) steps.push({ kind: "question", lessonId: lesson.id, q });
@@ -208,23 +213,17 @@ export async function buildSession(profile: Profile, minutes: number, opts: { tr
     };
     // Groserías e insultos solo entran solos si activaste «lenguaje explícito»; nunca se imponen.
     const declared = new Set(st.known ?? []);
-    // Nivel: A1–A2 avanzan paso a paso; desde B1 se estudia de un nivel abajo a uno arriba y lo elemental solo entra
-    // si tiene valor idiomático (modismo, contracción, slang o muy frecuente en series). Así un B2 no repasa saludos de A1.
-    const lo = userLevel >= 2 ? userLevel - 1 : 0;
-    const hi = userLevel >= 2 ? userLevel + 1 : userLevel;
-    const idiomatic = (i: Item) => i.type === "idiom" || i.type === "contraction" || !!i.tags?.some((t) => t === "tv" || t === "slang");
-    const inLevel = (i: Item) => {
-      const l = levelIndex(i.level);
-      return l <= hi && (l >= lo || idiomatic(i));
-    };
+    // Franja de nivel (src/lib/levels.ts): desde B1 nada de A1/A2 salvo el habla real.
+    const inLevel = (i: Item) => allowsNewItem(userLevel, i);
     const near = (i: Item) => Math.abs(levelIndex(i.level) - userLevel) + (levelIndex(i.level) > userLevel ? 0.5 : 0);
     const pool = ITEMS.filter((i) => !knownIds.has(i.id) && !declared.has(i.id) && !fresh.includes(i) && inLevel(i) && (st.explicit === true || (!i.explicit && i.register !== "vulgar" && i.register !== "offensive"))).sort(
       (a, b) => near(a) - near(b) || score(b) - score(a) || a.id.localeCompare(b.id),
     );
     // Mezcla tipos para que una sesión no sea solo phrasal verbs.
     const seenTypes = new Map<string, number>();
+    const target = fresh.length + newCount; // lo de la lección ya cuenta; solo se añaden las que faltan
     for (const it of pool) {
-      if (fresh.length >= (lessonId ? fresh.length + newCount : newCount)) break;
+      if (fresh.length >= target) break;
       const n = seenTypes.get(it.type) ?? 0;
       if (n >= Math.ceil(newCount / 2)) continue;
       seenTypes.set(it.type, n + 1);

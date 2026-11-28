@@ -2,7 +2,8 @@
 import { useCallback, useEffect, useState } from "react";
 import { Loader2, MailPlus, RotateCw, Ban, UserCheck, XCircle } from "lucide-react";
 
-type Member = { email: string; status: string; role: string; sends: number; invitedAt: string; expiresAt: string | null; activatedAt: string | null; disabledAt: string | null; lastSentAt: string | null; linked: boolean };
+type Perks = { unlimitedLives: boolean; allThemes: boolean };
+type Member = { email: string; status: string; role: string; sends: number; invitedAt: string; expiresAt: string | null; activatedAt: string | null; disabledAt: string | null; lastSentAt: string | null; linked: boolean; owner?: boolean; perks?: Perks };
 
 const STATUS: Record<string, { label: string; cls: string }> = {
   active: { label: "Activo", cls: "bg-good-soft text-good" },
@@ -27,6 +28,15 @@ export function AdminPanel() {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- carga inicial desde la API
     void load();
   }, [load]);
+
+  async function setPerks(m: Member, next: Perks) {
+    setBusy("perks" + m.email);
+    const r = await fetch("/api/admin", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: "perks", email: m.email, ...next }) });
+    const j = await r.json().catch(() => ({}));
+    setBusy(null);
+    setMsg(r.ok ? { text: "Permisos guardados.", ok: true } : { text: j.error ?? "No se pudieron guardar los permisos.", ok: false });
+    await load();
+  }
 
   async function act(action: string, target: string, confirmText?: string) {
     if (confirmText && !confirm(confirmText)) return;
@@ -80,6 +90,22 @@ export function AdminPanel() {
                     {m.activatedAt && <span>Miembro desde: {fmt(m.activatedAt)}</span>}
                     {m.sends > 0 && <span>Envíos: {m.sends}</span>}
                   </p>
+                  {m.status === "active" && m.linked && m.perks && (
+                    <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm font-bold">
+                      {(
+                        [
+                          ["unlimitedLives", "Vidas ilimitadas"],
+                          ["allThemes", "Todas las temáticas"],
+                        ] as const
+                      ).map(([k, label]) => (
+                        <label key={k} className="flex items-center gap-2">
+                          <input type="checkbox" className="h-4 w-4 accent-[var(--brand)]" checked={m.perks![k]} disabled={!!busy || m.owner} onChange={(e) => void setPerks(m, { ...m.perks!, [k]: e.target.checked })} />
+                          {label}
+                        </label>
+                      ))}
+                      {m.owner && <span className="text-xs text-muted">(propietario: los tiene siempre)</span>}
+                    </div>
+                  )}
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {(m.status === "invited" || m.status === "expired") && (

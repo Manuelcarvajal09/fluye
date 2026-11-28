@@ -1,0 +1,1566 @@
+{
+  "id": "entrevista-clientes",
+  "title_es": "Entrevista: atención al cliente",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas",
+    "canada",
+    "soporte",
+    "proyectos"
+  ],
+  "season": null,
+  "objective_es": "Prepararte para entrevistas de atención al cliente, soporte de CRM y coordinación junior de proyectos: empatía, tickets, seguimiento, prioridades, sueldo y disponibilidad.",
+  "tracks": [
+    {
+      "id": "entrevista-clientes-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Presentarte para un puesto de soporte al cliente: tu experiencia con tickets, qué le dices a un cliente molesto, turnos y cuándo puedes empezar.",
+      "items": [
+        "phr-what-brings-you-to-edmonton",
+        "voc-ticket",
+        "col-upset-customer",
+        "phr-im-sorry-to-hear-that",
+        "phr-let-me-check-that-for-you",
+        "phr-is-there-anything-else-i-can-help-you-with",
+        "voc-shift",
+        "voc-reliable",
+        "phr-im-available-to-start",
+        "phr-im-eligible-to-work-in-canada"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-clientes-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 985,
+        "title": "Customer support interview",
+        "title_es": "Entrevista para soporte al cliente",
+        "intro_es": "Marisol tiene una entrevista para agente de soporte por teléfono y chat. Ken, el líder del equipo, le hace preguntas sencillas.",
+        "lines": [
+          {
+            "who": "Ken",
+            "en": "Hi, Marisol. Have a seat. This job is customer support by phone and chat.",
+            "es": "Hola, Marisol. Siéntate. Este trabajo es de soporte al cliente por teléfono y chat."
+          },
+          {
+            "who": "Marisol",
+            "en": "Thank you. I like helping people, so it sounds great.",
+            "es": "Gracias. Me gusta ayudar a la gente, así que suena muy bien."
+          },
+          {
+            "who": "Ken",
+            "en": "So, [what brings you to Edmonton]?",
+            "es": "Entonces, ¿qué te trae a Edmonton?",
+            "item": "phr-what-brings-you-to-edmonton"
+          },
+          {
+            "who": "Marisol",
+            "en": "My brother lives here. I moved in June, and I love the river valley.",
+            "es": "Mi hermano vive aquí. Me mudé en junio y me encanta el valle del río."
+          },
+          {
+            "who": "Ken",
+            "en": "Nice. Did you answer [tickets] in your last job?",
+            "es": "Qué bien. ¿Contestabas tickets en tu último trabajo?",
+            "item": "voc-ticket"
+          },
+          {
+            "who": "Marisol",
+            "en": "Yes. I answered about forty tickets a day for an online store.",
+            "es": "Sí. Contestaba unos cuarenta tickets al día para una tienda en línea."
+          },
+          {
+            "who": "Ken",
+            "en": "What do you say to an [upset customer]?",
+            "es": "¿Qué le dices a un cliente molesto?",
+            "item": "col-upset-customer"
+          },
+          {
+            "who": "Marisol",
+            "en": "First I say, '[I'm sorry to hear that].' Then I listen.",
+            "es": "Primero digo: 'Lamento escuchar eso'. Luego escucho.",
+            "item": "phr-im-sorry-to-hear-that"
+          },
+          {
+            "who": "Marisol",
+            "en": "After that, I say, '[Let me check that for you].'",
+            "es": "Después digo: 'Déjeme revisarlo'.",
+            "item": "phr-let-me-check-that-for-you"
+          },
+          {
+            "who": "Ken",
+            "en": "Good. At the end of a call, what do you ask?",
+            "es": "Bien. Al final de una llamada, ¿qué preguntas?"
+          },
+          {
+            "who": "Marisol",
+            "en": "I ask, '[Is there anything else I can help you with]?'",
+            "es": "Pregunto: '¿Hay algo más en lo que pueda ayudarle?'",
+            "item": "phr-is-there-anything-else-i-can-help-you-with"
+          },
+          {
+            "who": "Ken",
+            "en": "Perfect. Can you work an evening [shift]?",
+            "es": "Perfecto. ¿Puedes trabajar en el turno de la noche?",
+            "item": "voc-shift"
+          },
+          {
+            "who": "Marisol",
+            "en": "Yes, evenings are fine. I'm very [reliable].",
+            "es": "Sí, las noches están bien. Soy muy confiable.",
+            "item": "voc-reliable"
+          },
+          {
+            "who": "Ken",
+            "en": "Great. When can you start?",
+            "es": "Muy bien. ¿Cuándo puedes empezar?"
+          },
+          {
+            "who": "Marisol",
+            "en": "[I'm available to start] next week.",
+            "es": "Puedo empezar la próxima semana.",
+            "item": "phr-im-available-to-start"
+          }
+        ],
+        "items": [
+          "phr-what-brings-you-to-edmonton",
+          "voc-ticket",
+          "col-upset-customer",
+          "phr-im-sorry-to-hear-that",
+          "phr-let-me-check-that-for-you",
+          "phr-is-there-anything-else-i-can-help-you-with",
+          "voc-shift",
+          "voc-reliable",
+          "phr-im-available-to-start"
+        ],
+        "questions": [
+          {
+            "q": "Why did Marisol move to Edmonton?",
+            "options": [
+              "For school",
+              "Her brother lives there",
+              "For a hockey game"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'My brother lives here'."
+          },
+          {
+            "q": "How many tickets did she answer a day?",
+            "options": [
+              "About forty",
+              "About four",
+              "About four hundred"
+            ],
+            "answer": 0,
+            "why_es": "Contestaba 'about forty tickets a day'."
+          },
+          {
+            "q": "What does she say first to an upset customer?",
+            "options": [
+              "Please call later",
+              "That's not my job",
+              "I'm sorry to hear that"
+            ],
+            "answer": 2,
+            "why_es": "Primero dice 'I'm sorry to hear that' y luego escucha."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di qué le dices primero a un cliente molesto y ofrece revisar.",
+          "model": [
+            "I'm sorry to hear that. Let me check that for you.",
+            "I'm so sorry. Let me look into it."
+          ],
+          "expect": [
+            [
+              "sorry"
+            ],
+            [
+              "check",
+              "look",
+              "help"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que contestabas unos 30 tickets al día.",
+          "model": [
+            "I answered about thirty tickets a day.",
+            "I answered 30 tickets every day."
+          ],
+          "expect": [
+            [
+              "ticket",
+              "tickets"
+            ],
+            [
+              "thirty",
+              "30"
+            ],
+            [
+              "day",
+              "daily"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que puedes trabajar en el turno de la noche y que eres confiable.",
+          "model": [
+            "I can work the evening shift. I'm very reliable.",
+            "Night shifts are fine for me, and I'm reliable."
+          ],
+          "expect": [
+            [
+              "evening",
+              "night"
+            ],
+            [
+              "reliable",
+              "on time",
+              "punctual"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "El entrevistador habla muy rápido.",
+          "en": "Sorry, could you speak a little slower, please?",
+          "es": "Perdón, ¿podría hablar un poco más despacio, por favor?"
+        },
+        {
+          "situation_es": "No entendiste una palabra.",
+          "en": "Sorry, what do you mean by 'shift'?",
+          "es": "Perdón, ¿a qué se refiere con 'shift'?"
+        },
+        {
+          "situation_es": "Quieres confirmar un horario.",
+          "en": "So, evenings from five to eleven, right?",
+          "es": "Entonces, en las noches de cinco a once, ¿verdad?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-clientes-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "Support agent interview",
+        "title_es": "Entrevista para agente de soporte",
+        "setting_es": "Entrevista para agente de atención al cliente por chat y teléfono en un centro de soporte de Edmonton. El líder del equipo te hace preguntas y una pequeña práctica.",
+        "npc": "Team lead",
+        "turns": [
+          {
+            "npc": "Hi {name}, thanks for coming. What brings you to Edmonton?",
+            "npc_es": "Hola {name}, gracias por venir. ¿Qué te trae a Edmonton?",
+            "task_es": "Di por qué estás en Edmonton (familia o trabajo) y que te gusta la ciudad.",
+            "expect": [
+              [
+                "family",
+                "brother",
+                "sister",
+                "job",
+                "work",
+                "husband",
+                "wife",
+                "partner"
+              ],
+              [
+                "like",
+                "love",
+                "enjoy",
+                "nice",
+                "great"
+              ]
+            ],
+            "model": [
+              "My brother lives here, and I really like the city.",
+              "I came for work, and I love Edmonton."
+            ]
+          },
+          {
+            "npc": "Do you have experience in customer service?",
+            "npc_es": "¿Tienes experiencia en atención al cliente?",
+            "task_es": "Di que trabajaste un año en atención al cliente por teléfono.",
+            "expect": [
+              [
+                "year",
+                "years"
+              ],
+              [
+                "customer",
+                "phone",
+                "calls",
+                "service",
+                "support"
+              ]
+            ],
+            "model": [
+              "Yes, I worked in customer service for one year, on the phone.",
+              "Yes, I answered customer calls for a year."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi have one year working\\b",
+                "fix": "I worked for one year",
+                "why_es": "Mejor *I worked in… for one year* o *I have one year of experience*."
+              }
+            ]
+          },
+          {
+            "npc": "Okay, let's practise. I'm a customer: 'My order never arrived, and I'm really angry!'",
+            "npc_es": "Bien, practiquemos. Soy un cliente: '¡Mi pedido nunca llegó y estoy muy enojado!'",
+            "task_es": "Responde con empatía y ofrece revisar.",
+            "expect": [
+              [
+                "sorry"
+              ],
+              [
+                "check",
+                "look into",
+                "see what",
+                "help"
+              ]
+            ],
+            "model": [
+              "I'm so sorry to hear that. Let me check that for you.",
+              "I'm sorry about that. Let me look into it right now."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bcalm down\\b",
+                "fix": "I'm sorry to hear that",
+                "why_es": "Decirle *calm down* a un cliente molesto suele empeorar las cosas."
+              }
+            ]
+          },
+          {
+            "npc": "Good. Can you work weekends or evening shifts?",
+            "npc_es": "Bien. ¿Puedes trabajar fines de semana o turnos de noche?",
+            "task_es": "Di que puedes trabajar fines de semana, pero no los domingos en la mañana.",
+            "expect": [
+              [
+                "weekend",
+                "weekends",
+                "saturday",
+                "saturdays"
+              ],
+              [
+                "not",
+                "except",
+                "but"
+              ]
+            ],
+            "model": [
+              "Yes, I can work weekends, but not Sunday mornings.",
+              "I can work Saturdays and evenings, except Sunday mornings."
+            ]
+          },
+          {
+            "npc": "Are you eligible to work in Canada?",
+            "npc_es": "¿Tienes autorización para trabajar en Canadá?",
+            "task_es": "Responde que sí y que tienes permiso de trabajo.",
+            "expect": [
+              [
+                "yes",
+                "yeah"
+              ],
+              [
+                "eligible",
+                "permit",
+                "authorized",
+                "allowed",
+                "can work"
+              ]
+            ],
+            "model": [
+              "Yes, I'm eligible to work in Canada.",
+              "Yes, I have a valid work permit."
+            ]
+          },
+          {
+            "npc": "Great. Any questions for me?",
+            "npc_es": "Muy bien. ¿Tienes alguna pregunta para mí?",
+            "task_es": "Pregunta cuándo empieza la capacitación.",
+            "expect": [
+              [
+                "training"
+              ],
+              [
+                "when",
+                "start",
+                "begin"
+              ]
+            ],
+            "model": [
+              "Yes, when does the training start?",
+              "When does training begin?"
+            ]
+          }
+        ],
+        "useful": [
+          "I'm sorry to hear that.",
+          "Let me check that for you.",
+          "Is there anything else I can help you with?",
+          "I'm available to start…"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-clientes-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Contar con STAR cómo manejaste a un cliente difícil, escalaste un caso y diste seguimiento; explicar cómo priorizas tareas y fechas límite.",
+      "items": [
+        "phr-tell-me-about-a-time-when",
+        "phr-i-understand-how-frustrating-this-must-be",
+        "phr-heres-what-i-can-do",
+        "col-escalate-a-ticket",
+        "pv-follow-up",
+        "col-customer-satisfaction",
+        "col-response-time",
+        "col-juggle-priorities",
+        "voc-priority",
+        "col-meet-a-deadline",
+        "idi-keep-someone-posted",
+        "col-provide-references"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-clientes-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 986,
+        "title": "A difficult customer, STAR style",
+        "title_es": "Un cliente difícil, con el método STAR",
+        "intro_es": "Diego tiene una entrevista para un puesto mitad soporte de CRM y mitad coordinación junior de proyectos. Imani le pide ejemplos reales.",
+        "lines": [
+          {
+            "who": "Imani",
+            "en": "Diego, this role is half CRM support and half project coordination.",
+            "es": "Diego, este puesto es mitad soporte de CRM y mitad coordinación de proyectos."
+          },
+          {
+            "who": "Diego",
+            "en": "That mix is exactly why I applied.",
+            "es": "Esa combinación es justo por lo que me postulé."
+          },
+          {
+            "who": "Imani",
+            "en": "[Tell me about a time when] you handled a really difficult customer.",
+            "es": "Cuéntame de una vez en que manejaste a un cliente muy difícil.",
+            "item": "phr-tell-me-about-a-time-when"
+          },
+          {
+            "who": "Diego",
+            "en": "Sure. A client's invoices disappeared from our CRM the day before their audit.",
+            "es": "Claro. Las facturas de un cliente desaparecieron de nuestro CRM un día antes de su auditoría."
+          },
+          {
+            "who": "Diego",
+            "en": "He was furious, so I said, '[I understand how frustrating this must be].'",
+            "es": "Estaba furioso, así que le dije: 'Entiendo lo frustrante que debe ser esto'.",
+            "item": "phr-i-understand-how-frustrating-this-must-be"
+          },
+          {
+            "who": "Diego",
+            "en": "Then I said, '[Here's what I can do]: I'll restore yesterday's backup within the hour.'",
+            "es": "Luego le dije: 'Esto es lo que puedo hacer: restauro el respaldo de ayer en menos de una hora'.",
+            "item": "phr-heres-what-i-can-do"
+          },
+          {
+            "who": "Diego",
+            "en": "The backup didn't fix everything, so I had to [escalate the ticket] to our developers.",
+            "es": "El respaldo no lo arregló todo, así que tuve que escalar el ticket a los desarrolladores.",
+            "item": "col-escalate-a-ticket"
+          },
+          {
+            "who": "Diego",
+            "en": "I [followed up] every two hours, so he always knew where things stood.",
+            "es": "Le di seguimiento cada dos horas, así siempre sabía cómo iban las cosas.",
+            "item": "pv-follow-up"
+          },
+          {
+            "who": "Imani",
+            "en": "And the outcome?",
+            "es": "¿Y el resultado?"
+          },
+          {
+            "who": "Diego",
+            "en": "Everything was back by morning, and he gave us ten out of ten for [customer satisfaction].",
+            "es": "Todo quedó listo para la mañana, y nos dio diez de diez en satisfacción del cliente.",
+            "item": "col-customer-satisfaction"
+          },
+          {
+            "who": "Imani",
+            "en": "Nice. Our average [response time] is under an hour. How would you keep up?",
+            "es": "Bien. Nuestro tiempo de respuesta promedio es menor a una hora. ¿Cómo le seguirías el ritmo?",
+            "item": "col-response-time"
+          },
+          {
+            "who": "Diego",
+            "en": "I'm used to it. I [juggle priorities] with a simple rule: urgent and blocking first.",
+            "es": "Estoy acostumbrado. Manejo varias prioridades con una regla sencilla: primero lo urgente y lo que bloquea.",
+            "item": "col-juggle-priorities"
+          },
+          {
+            "who": "Imani",
+            "en": "What if two managers both say their task is the top [priority]?",
+            "es": "¿Y si dos gerentes dicen que su tarea es la máxima prioridad?",
+            "item": "voc-priority"
+          },
+          {
+            "who": "Diego",
+            "en": "I'd ask them together which deadline matters more, instead of guessing.",
+            "es": "Les preguntaría juntos qué fecha importa más, en lugar de adivinar."
+          },
+          {
+            "who": "Imani",
+            "en": "Smart. Coordinators here have to [meet a deadline] almost every week.",
+            "es": "Inteligente. Aquí los coordinadores tienen que cumplir una fecha límite casi cada semana.",
+            "item": "col-meet-a-deadline"
+          },
+          {
+            "who": "Diego",
+            "en": "Understood. And I'll always [keep you posted] if something slips.",
+            "es": "Entendido. Y siempre los mantendré al tanto si algo se retrasa.",
+            "item": "idi-keep-someone-posted"
+          }
+        ],
+        "items": [
+          "phr-tell-me-about-a-time-when",
+          "phr-i-understand-how-frustrating-this-must-be",
+          "phr-heres-what-i-can-do",
+          "col-escalate-a-ticket",
+          "pv-follow-up",
+          "col-customer-satisfaction",
+          "col-response-time",
+          "col-juggle-priorities",
+          "voc-priority",
+          "col-meet-a-deadline",
+          "idi-keep-someone-posted"
+        ],
+        "questions": [
+          {
+            "q": "What was the customer's problem?",
+            "options": [
+              "His password expired",
+              "His invoices disappeared from the CRM",
+              "He was charged twice"
+            ],
+            "answer": 1,
+            "why_es": "Sus facturas desaparecieron del CRM antes de una auditoría."
+          },
+          {
+            "q": "What did Diego do when the backup didn't fix everything?",
+            "options": [
+              "He escalated the ticket to the developers",
+              "He closed the ticket",
+              "He asked the client to wait a week"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'I had to escalate the ticket to our developers'."
+          },
+          {
+            "q": "How often did he follow up?",
+            "options": [
+              "Once a day",
+              "Only at the end",
+              "Every two hours"
+            ],
+            "answer": 2,
+            "why_es": "Dio seguimiento 'every two hours'."
+          },
+          {
+            "q": "What does Diego do when two managers both say 'top priority'?",
+            "options": [
+              "He picks the easier task",
+              "He asks them together which deadline matters more",
+              "He works overtime on both"
+            ],
+            "answer": 1,
+            "why_es": "Les preguntaría juntos qué fecha importa más."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Muestra empatía y ofrece una acción concreta a un cliente molesto.",
+          "model": [
+            "I understand how frustrating this must be. Here's what I can do: I'll fix it within the hour.",
+            "I'm really sorry. Let me restore your data right now."
+          ],
+          "expect": [
+            [
+              "understand",
+              "sorry",
+              "frustrating"
+            ],
+            [
+              "here's what i can do",
+              "i'll",
+              "i will",
+              "let me"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica que diste seguimiento cada dos horas.",
+          "model": [
+            "I followed up every two hours.",
+            "I followed up with him every two hours."
+          ],
+          "expect": [
+            [
+              "followed up",
+              "follow up",
+              "updated",
+              "checked in"
+            ],
+            [
+              "two hours",
+              "2 hours"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di cómo priorizas: lo urgente y lo que bloquea a otros va primero.",
+          "model": [
+            "I prioritize urgent tasks and anything blocking other people first.",
+            "Urgent work and blocking issues come first."
+          ],
+          "expect": [
+            [
+              "urgent"
+            ],
+            [
+              "block",
+              "blocking",
+              "blocks"
+            ],
+            [
+              "first"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Quieres saber qué tipo de ejemplo prefieren.",
+          "en": "Would you like an example from support or from coordination?",
+          "es": "¿Prefiere un ejemplo de soporte o de coordinación?"
+        },
+        {
+          "situation_es": "No conoces la herramienta que mencionan.",
+          "en": "I haven't used that tool yet, but I learned our last CRM in a week.",
+          "es": "Aún no he usado esa herramienta, pero aprendí nuestro último CRM en una semana."
+        },
+        {
+          "situation_es": "Quieres aclarar una cifra.",
+          "en": "Sorry, did you say under one hour or under one day?",
+          "es": "Perdón, ¿dijo menos de una hora o menos de un día?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-clientes-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Behavioural interview: CRM support",
+        "title_es": "Entrevista de comportamiento: soporte de CRM",
+        "setting_es": "Entrevista para soporte de CRM y coordinación junior de proyectos en una empresa de software de Edmonton. Responde con ejemplos STAR.",
+        "npc": "Operations manager",
+        "turns": [
+          {
+            "npc": "Tell me about a time when you dealt with an upset customer. Start with the situation.",
+            "npc_es": "Cuéntame de una vez en que trataste con un cliente molesto. Empieza por la situación.",
+            "task_es": "Describe la situación: un cliente perdió datos en el CRM antes de una fecha importante.",
+            "expect": [
+              [
+                "client",
+                "customer",
+                "customer's",
+                "client's"
+              ],
+              [
+                "lost",
+                "missing",
+                "disappeared",
+                "deleted"
+              ],
+              [
+                "crm",
+                "data",
+                "records",
+                "invoices",
+                "contacts"
+              ]
+            ],
+            "model": [
+              "A client lost all his contacts in our CRM the day before a big launch.",
+              "One customer's invoices disappeared from the CRM right before an audit."
+            ]
+          },
+          {
+            "npc": "What did you say to calm things down?",
+            "npc_es": "¿Qué dijiste para calmar las cosas?",
+            "task_es": "Usa una frase de empatía y luego di lo que puedes hacer.",
+            "expect": [
+              [
+                "understand",
+                "sorry",
+                "frustrating"
+              ],
+              [
+                "here's what i can do",
+                "i can",
+                "i'll",
+                "let me",
+                "right away"
+              ]
+            ],
+            "model": [
+              "I said, 'I understand how frustrating this must be. Here's what I can do.'",
+              "I told him I was sorry and that I'd restore a backup right away."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bcalm down\\b",
+                "fix": "I understand how frustrating this must be.",
+                "why_es": "Decirle *calm down* a un cliente molesto suele empeorar las cosas."
+              }
+            ]
+          },
+          {
+            "npc": "The fix didn't work right away. Then what?",
+            "npc_es": "La solución no funcionó de inmediato. ¿Y luego?",
+            "task_es": "Di que escalaste el ticket y diste seguimiento con regularidad.",
+            "expect": [
+              [
+                "escalated",
+                "escalate"
+              ],
+              [
+                "followed up",
+                "updates",
+                "updated",
+                "follow up",
+                "checked in"
+              ]
+            ],
+            "model": [
+              "I escalated the ticket to the developers and followed up every two hours.",
+              "I escalated it and sent him updates every couple of hours."
+            ]
+          },
+          {
+            "npc": "What was the result?",
+            "npc_es": "¿Cuál fue el resultado?",
+            "task_es": "Da el resultado y una medida (satisfacción o tiempo).",
+            "expect": [
+              [
+                "fixed",
+                "resolved",
+                "restored",
+                "back"
+              ],
+              [
+                "satisfaction",
+                "score",
+                "rating",
+                "hours",
+                "morning",
+                "ten"
+              ]
+            ],
+            "model": [
+              "Everything was restored by morning, and he gave us a ten for satisfaction.",
+              "The issue was resolved in six hours, and our satisfaction score stayed high."
+            ]
+          },
+          {
+            "npc": "You'd coordinate small projects too. How do you handle competing deadlines?",
+            "npc_es": "También coordinarías proyectos pequeños. ¿Cómo manejas fechas límite que compiten entre sí?",
+            "task_es": "Explica cómo priorizas y cómo avisas si algo se retrasa.",
+            "expect": [
+              [
+                "prioritize",
+                "priority",
+                "priorities",
+                "urgent",
+                "first"
+              ],
+              [
+                "let",
+                "tell",
+                "update",
+                "keep",
+                "posted",
+                "flag"
+              ]
+            ],
+            "model": [
+              "I prioritize what's urgent and blocking, and I keep everyone posted if something slips.",
+              "Urgent items go first, and I flag delays to the team early."
+            ]
+          },
+          {
+            "npc": "Last thing: when could you start, and what salary are you looking for?",
+            "npc_es": "Por último: ¿cuándo podrías empezar y qué sueldo buscas?",
+            "task_es": "Di que puedes empezar en dos semanas y da un rango de 50 a 55 mil.",
+            "expect": [
+              [
+                "two weeks",
+                "2 weeks",
+                "notice"
+              ],
+              [
+                "50",
+                "55",
+                "fifty",
+                "range"
+              ]
+            ],
+            "model": [
+              "I could start in two weeks, and I'm looking for something in the range of 50 to 55 thousand.",
+              "After two weeks' notice. Somewhere between 50 and 55 thousand would work for me."
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about a time when…",
+          "I understand how frustrating this must be.",
+          "Here's what I can do:",
+          "I escalated the ticket.",
+          "I'll keep you posted."
+        ]
+      }
+    },
+    {
+      "id": "entrevista-clientes-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Responder escenarios difíciles de clientes y proyectos: alcance que crece, escalamientos, capacidad del equipo, decisiones bajo presión y negociación salarial.",
+      "items": [
+        "col-scope-creep",
+        "phr-thats-outside-the-scope-of-this-phase",
+        "col-de-escalate-a-situation",
+        "col-goodwill-gesture",
+        "voc-bandwidth",
+        "idi-think-on-your-feet",
+        "phr-i-wouldnt-want-to-overstate",
+        "col-sign-off",
+        "col-take-ownership",
+        "phr-what-are-your-salary-expectations",
+        "phr-im-looking-for-something-in-the-range-of",
+        "col-benefits-package"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-clientes-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 987,
+        "title": "Scope creep and a blunt panel",
+        "title_es": "Alcance que crece y un panel directo",
+        "intro_es": "Lucía está en la ronda final para coordinadora de proyectos y soporte a clientes. Rowan y Tunde le hablan sin rodeos de por qué el puesto quema a la gente.",
+        "lines": [
+          {
+            "who": "Rowan",
+            "en": "Lucía, I'll be blunt: our last coordinator burned out in four months.",
+            "es": "Lucía, seré directo: nuestro último coordinador se quemó en cuatro meses."
+          },
+          {
+            "who": "Lucía",
+            "en": "I appreciate you telling me. Can I ask what made it unsustainable?",
+            "es": "Le agradezco que me lo diga. ¿Puedo preguntar qué lo hizo insostenible?"
+          },
+          {
+            "who": "Rowan",
+            "en": "Mostly [scope creep]. Clients kept adding 'small' requests.",
+            "es": "Sobre todo el alcance que crecía sin control. Los clientes seguían agregando peticiones 'pequeñas'.",
+            "item": "col-scope-creep"
+          },
+          {
+            "who": "Lucía",
+            "en": "That's familiar. I'd log each request and say, '[That's outside the scope of this phase].'",
+            "es": "Me suena. Registraría cada petición y diría: 'Eso queda fuera del alcance de esta fase'.",
+            "item": "phr-thats-outside-the-scope-of-this-phase"
+          },
+          {
+            "who": "Tunde",
+            "en": "Clients don't love hearing that. What if one escalates to the CEO?",
+            "es": "A los clientes no les encanta oír eso. ¿Y si uno lo escala al director general?"
+          },
+          {
+            "who": "Lucía",
+            "en": "Then my job is to [de-escalate the situation], not to win the argument.",
+            "es": "Entonces mi trabajo es calmar la situación, no ganar la discusión.",
+            "item": "col-de-escalate-a-situation"
+          },
+          {
+            "who": "Lucía",
+            "en": "I'd acknowledge the frustration and offer a [goodwill gesture], like an extra training session.",
+            "es": "Reconocería la frustración y ofrecería un gesto de buena voluntad, como una sesión extra de capacitación.",
+            "item": "col-goodwill-gesture"
+          },
+          {
+            "who": "Tunde",
+            "en": "And if the team simply doesn't have the [bandwidth]?",
+            "es": "¿Y si el equipo simplemente no tiene capacidad?",
+            "item": "voc-bandwidth"
+          },
+          {
+            "who": "Lucía",
+            "en": "I'd say so early. Quiet overcommitting is how deadlines slip.",
+            "es": "Lo diría pronto. Comprometerse de más en silencio es como se retrasan las fechas."
+          },
+          {
+            "who": "Rowan",
+            "en": "Give me a real example where you had to [think on your feet].",
+            "es": "Dame un ejemplo real en el que tuviste que resolver sobre la marcha.",
+            "item": "idi-think-on-your-feet"
+          },
+          {
+            "who": "Lucía",
+            "en": "A vendor missed a delivery the morning of a go-live, so I split the launch into two parts.",
+            "es": "Un proveedor no entregó la mañana de un lanzamiento, así que dividí el lanzamiento en dos partes."
+          },
+          {
+            "who": "Lucía",
+            "en": "[I wouldn't want to overstate] it; the client was still annoyed, but they renewed.",
+            "es": "No quisiera exagerar; el cliente seguía molesto, pero renovó.",
+            "item": "phr-i-wouldnt-want-to-overstate"
+          },
+          {
+            "who": "Rowan",
+            "en": "Who gave the final [sign-off] on splitting it?",
+            "es": "¿Quién dio la aprobación final para dividirlo?",
+            "item": "col-sign-off"
+          },
+          {
+            "who": "Lucía",
+            "en": "I did, after a ten-minute call. I [took ownership] of the decision and the fallout.",
+            "es": "Yo, después de una llamada de diez minutos. Me hice cargo de la decisión y de sus consecuencias.",
+            "item": "col-take-ownership"
+          },
+          {
+            "who": "Tunde",
+            "en": "Good. So, [what are your salary expectations]?",
+            "es": "Bien. Entonces, ¿cuáles son tus pretensiones salariales?",
+            "item": "phr-what-are-your-salary-expectations"
+          },
+          {
+            "who": "Lucía",
+            "en": "[I'm looking for something in the range of] sixty to sixty-five, depending on the benefits.",
+            "es": "Busco algo en el rango de sesenta a sesenta y cinco, según las prestaciones.",
+            "item": "phr-im-looking-for-something-in-the-range-of"
+          }
+        ],
+        "items": [
+          "col-scope-creep",
+          "phr-thats-outside-the-scope-of-this-phase",
+          "col-de-escalate-a-situation",
+          "col-goodwill-gesture",
+          "voc-bandwidth",
+          "idi-think-on-your-feet",
+          "phr-i-wouldnt-want-to-overstate",
+          "col-sign-off",
+          "col-take-ownership",
+          "phr-what-are-your-salary-expectations",
+          "phr-im-looking-for-something-in-the-range-of"
+        ],
+        "questions": [
+          {
+            "q": "Why did the last coordinator burn out?",
+            "options": [
+              "Too many meetings",
+              "Clients kept adding small requests",
+              "The salary was too low"
+            ],
+            "answer": 1,
+            "why_es": "Rowan dice que fue sobre todo 'scope creep': peticiones 'pequeñas' que no paraban."
+          },
+          {
+            "q": "What does Lucía say her job is when a client escalates?",
+            "options": [
+              "To calm the situation down",
+              "To win the argument",
+              "To call a lawyer"
+            ],
+            "answer": 0,
+            "why_es": "Dice que su trabajo es 'de-escalate the situation', no ganar la discusión."
+          },
+          {
+            "q": "What did she do when a vendor missed a delivery?",
+            "options": [
+              "She cancelled the launch",
+              "She blamed the vendor",
+              "She split the launch into two parts"
+            ],
+            "answer": 2,
+            "why_es": "Dividió el lanzamiento en dos partes."
+          },
+          {
+            "q": "What does her salary range depend on?",
+            "options": [
+              "The job title",
+              "The benefits",
+              "The office location"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'depending on the benefits'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Pon un límite con tacto: di que eso está fuera del alcance de esta fase y ofrece cotizarlo aparte.",
+          "model": [
+            "I understand, but that's outside the scope of this phase. I'm happy to quote it separately."
+          ],
+          "expect": [
+            [
+              "outside the scope",
+              "out of scope",
+              "not in scope"
+            ],
+            [
+              "quote",
+              "estimate",
+              "separately",
+              "next phase",
+              "change request"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica que avisarías pronto si el equipo no tiene capacidad, en vez de comprometerte de más.",
+          "model": [
+            "If the team doesn't have the bandwidth, I'd flag it early instead of overcommitting."
+          ],
+          "expect": [
+            [
+              "bandwidth",
+              "capacity"
+            ],
+            [
+              "early",
+              "right away",
+              "upfront"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Responde a «¿cuáles son tus pretensiones?» con un rango (60 a 65 mil) y una condición.",
+          "model": [
+            "I'm looking for something in the range of 60 to 65 thousand, depending on the benefits package."
+          ],
+          "expect": [
+            [
+              "range",
+              "between"
+            ],
+            [
+              "60",
+              "65",
+              "sixty"
+            ],
+            [
+              "benefits",
+              "package",
+              "compensation"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te plantean una hipótesis difícil y necesitas un segundo.",
+          "en": "That's a fair challenge. Give me a second to think it through.",
+          "es": "Es un buen reto. Deme un segundo para pensarlo bien."
+        },
+        {
+          "situation_es": "No queda claro a quién se refieren.",
+          "en": "Sorry, when you say 'they', do you mean the client or the vendor?",
+          "es": "Perdón, cuando dice 'ellos', ¿se refiere al cliente o al proveedor?"
+        },
+        {
+          "situation_es": "Quieres volver a un punto anterior.",
+          "en": "If I could go back to the bandwidth question for a moment…",
+          "es": "Si me permite volver un momento a la pregunta de la capacidad…"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-clientes-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Final round: client escalations",
+        "title_es": "Ronda final: escalamientos de clientes",
+        "setting_es": "Ronda final para coordinador/a de proyectos y soporte. La directora te plantea escenarios difíciles con clientes y luego habla de sueldo.",
+        "npc": "Director of Client Services",
+        "turns": [
+          {
+            "npc": "A client emails the CEO saying we're 'completely useless'. You're the first to see it. What's your first move?",
+            "npc_es": "Un cliente le escribe al director general diciendo que somos 'totalmente inútiles'. Eres el primero en verlo. ¿Qué haces primero?",
+            "task_es": "Di que responderías rápido, reconocerías el problema y propondrías una llamada, sin ponerte a la defensiva.",
+            "expect": [
+              [
+                "acknowledge",
+                "apologize",
+                "sorry",
+                "understand"
+              ],
+              [
+                "call",
+                "meet",
+                "talk",
+                "speak"
+              ]
+            ],
+            "model": [
+              "I'd reply within the hour, acknowledge the problem, and offer a call today.",
+              "First I'd apologize for the experience and ask to speak with them this afternoon."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bnot (our|my) fault\\b",
+                "fix": "I understand why you're frustrated.",
+                "why_es": "Culpar de entrada escala el conflicto; primero reconoce el problema."
+              }
+            ]
+          },
+          {
+            "npc": "On the call, they demand three new features for free. That's scope creep. How do you respond?",
+            "npc_es": "En la llamada exigen tres funciones nuevas gratis. Eso es alcance que crece. ¿Cómo respondes?",
+            "task_es": "Pon el límite con tacto: fuera del alcance; ofrece cotizar o un gesto de buena voluntad.",
+            "expect": [
+              [
+                "scope",
+                "outside",
+                "phase"
+              ],
+              [
+                "quote",
+                "estimate",
+                "goodwill",
+                "change request",
+                "separately",
+                "training"
+              ]
+            ],
+            "model": [
+              "I'd say those are outside the scope of this phase, but I'm happy to quote them or offer a goodwill gesture.",
+              "I'd explain that's outside the current scope and suggest a change request with an estimate."
+            ]
+          },
+          {
+            "npc": "Follow-up: the account manager already promised them those features. Now what?",
+            "npc_es": "Pregunta de seguimiento: el account manager ya les prometió esas funciones. ¿Y ahora?",
+            "task_es": "Di que hablarías primero en privado con el account manager para alinear un solo mensaje, sin contradecirlo frente al cliente.",
+            "expect": [
+              [
+                "privately",
+                "private",
+                "first",
+                "before",
+                "offline"
+              ],
+              [
+                "align",
+                "agree",
+                "same page",
+                "message",
+                "together"
+              ]
+            ],
+            "model": [
+              "I'd talk to the account manager privately first so we align on one message.",
+              "Before going back to the client, I'd get on the same page with him offline."
+            ]
+          },
+          {
+            "npc": "Some of us worry you'd get overwhelmed here. What makes you sure you won't?",
+            "npc_es": "A algunos nos preocupa que te satures aquí. ¿Qué te hace estar seguro/a de que no?",
+            "task_es": "Responde a la objeción con evidencia: cuántos proyectos manejabas y cómo priorizas.",
+            "expect": [
+              [
+                "projects",
+                "accounts",
+                "clients"
+              ],
+              [
+                "prioritize",
+                "priorities",
+                "priority",
+                "urgent",
+                "system",
+                "weekly"
+              ]
+            ],
+            "model": [
+              "Fair concern. I managed six projects at once, and I prioritize weekly by urgency and impact.",
+              "I understand. I ran eight client accounts in parallel with a clear weekly priority system."
+            ]
+          },
+          {
+            "npc": "Let's talk compensation. What are your salary expectations?",
+            "npc_es": "Hablemos de compensación. ¿Cuáles son tus pretensiones salariales?",
+            "task_es": "Da un rango (60 a 65 mil) y di que depende del paquete de prestaciones.",
+            "expect": [
+              [
+                "60",
+                "65",
+                "sixty",
+                "range"
+              ],
+              [
+                "benefits",
+                "package",
+                "compensation",
+                "depending"
+              ]
+            ],
+            "model": [
+              "I'm looking for something in the range of 60 to 65 thousand, depending on the benefits package.",
+              "Between sixty and sixty-five, depending on the total compensation."
+            ]
+          },
+          {
+            "npc": "And if we offered fifty-eight with extra vacation?",
+            "npc_es": "¿Y si te ofreciéramos cincuenta y ocho con vacaciones extra?",
+            "task_es": "No aceptes ni rechaces: agradece, pide un día para pensarlo y pregunta si hay flexibilidad en la base.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "think",
+                "consider",
+                "day",
+                "time",
+                "review"
+              ],
+              [
+                "flexibility",
+                "flexible",
+                "room",
+                "base"
+              ]
+            ],
+            "model": [
+              "Thank you, that's helpful. Could I take a day to consider it? Is there any flexibility on the base?",
+              "I appreciate that. I'd like a day to think it over, and I'd love to know if there's any room on the base."
+            ]
+          }
+        ],
+        "useful": [
+          "That's outside the scope of this phase.",
+          "de-escalate the situation",
+          "a goodwill gesture",
+          "I wouldn't want to overstate it.",
+          "I'm looking for something in the range of…"
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "phr-what-brings-you-to-edmonton",
+      "type": "phrase",
+      "term": "what brings you to Edmonton?",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "¿qué te trae a Edmonton?",
+      "def": "a friendly question about why someone came to live or work in a city",
+      "note": "En entrevistas responde breve y en positivo (trabajo, familia, la ciudad). No tienes que contar toda tu historia migratoria.",
+      "ex": [
+        {
+          "en": "So, [what brings you to Edmonton]?",
+          "es": "Entonces, ¿qué te trae a Edmonton?"
+        },
+        {
+          "en": "[What brings you to Edmonton], if you don't mind me asking?",
+          "es": "¿Qué te trae a Edmonton, si se puede saber?"
+        }
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "col-upset-customer",
+      "type": "collocation",
+      "term": "upset customer",
+      "level": "B1",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "soporte"
+      ],
+      "es": "cliente molesto",
+      "def": "a customer who is angry or unhappy about a problem",
+      "note": "Pregunta típica: 'How do you deal with an upset customer?'. Responde con empatía + acción concreta.",
+      "ex": [
+        {
+          "en": "How do you calm down an [upset customer]?",
+          "es": "¿Cómo calmas a un cliente molesto?"
+        },
+        {
+          "en": "I spoke with an [upset customer] for twenty minutes.",
+          "es": "Hablé con un cliente molesto durante veinte minutos."
+        }
+      ]
+    },
+    {
+      "id": "phr-let-me-check-that-for-you",
+      "type": "phrase",
+      "term": "let me check that for you",
+      "level": "A2",
+      "topic": "work",
+      "freq": 5,
+      "areas": [
+        "soporte"
+      ],
+      "es": "déjeme revisarlo; permítame verificarlo",
+      "def": "a polite way to say you will look for information to help someone",
+      "note": "Frase clave de soporte: muestra que vas a actuar. Después explica qué vas a revisar.",
+      "ex": [
+        {
+          "en": "Good question. [Let me check that for you].",
+          "es": "Buena pregunta. Déjeme revisarlo."
+        },
+        {
+          "en": "One moment, please. [Let me check that for you] in the system.",
+          "es": "Un momento, por favor. Permítame verificarlo en el sistema."
+        }
+      ]
+    },
+    {
+      "id": "phr-im-available-to-start",
+      "type": "phrase",
+      "term": "I'm available to start…",
+      "level": "A2",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "puedo empezar…; estoy disponible para empezar…",
+      "def": "a way to say the date when you can begin a new job",
+      "note": "Da una fecha concreta: 'I'm available to start on May 5' o 'two weeks after an offer'.",
+      "ex": [
+        {
+          "en": "[I'm available to start] next Monday.",
+          "es": "Puedo empezar el próximo lunes."
+        },
+        {
+          "en": "[I'm available to start] two weeks after an offer.",
+          "es": "Puedo empezar dos semanas después de una oferta."
+        }
+      ]
+    },
+    {
+      "id": "phr-im-eligible-to-work-in-canada",
+      "type": "phrase",
+      "term": "I'm eligible to work in Canada",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "tengo autorización para trabajar en Canadá",
+      "def": "a clear way to say you are legally allowed to work in the country",
+      "note": "Di solo lo que aplica a tu caso y con precisión (p. ej. 'with an open work permit'). Es lenguaje para comunicarte, no asesoría migratoria.",
+      "ex": [
+        {
+          "en": "Yes, [I'm eligible to work in Canada] full-time.",
+          "es": "Sí, tengo autorización para trabajar en Canadá tiempo completo."
+        },
+        {
+          "en": "[I'm eligible to work in Canada], and I can share the details.",
+          "es": "Tengo autorización para trabajar en Canadá y puedo dar los detalles."
+        }
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-heres-what-i-can-do",
+      "type": "phrase",
+      "term": "here's what I can do",
+      "level": "B1",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "soporte"
+      ],
+      "es": "esto es lo que puedo hacer",
+      "def": "a phrase to offer a clear solution after listening to a problem",
+      "note": "Pasa de la disculpa a la acción. Evita prometer lo que no depende de ti.",
+      "ex": [
+        {
+          "en": "I'm sorry about the delay. [Here's what I can do].",
+          "es": "Lamento el retraso. Esto es lo que puedo hacer."
+        },
+        {
+          "en": "[Here's what I can do]: I'll refund the shipping today.",
+          "es": "Esto es lo que puedo hacer: hoy le reembolso el envío."
+        }
+      ]
+    },
+    {
+      "id": "col-customer-satisfaction",
+      "type": "collocation",
+      "term": "customer satisfaction",
+      "level": "B2",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "soporte",
+        "crm"
+      ],
+      "es": "satisfacción del cliente",
+      "def": "how happy customers are with a product or service",
+      "note": "Se mide con encuestas cortas (CSAT): 'Our customer satisfaction score was 94%'.",
+      "ex": [
+        {
+          "en": "[Customer satisfaction] went up after the new chat tool.",
+          "es": "La satisfacción del cliente subió con la nueva herramienta de chat."
+        },
+        {
+          "en": "I track [customer satisfaction] every week.",
+          "es": "Doy seguimiento a la satisfacción del cliente cada semana."
+        }
+      ]
+    },
+    {
+      "id": "col-response-time",
+      "type": "collocation",
+      "term": "response time",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "soporte"
+      ],
+      "es": "tiempo de respuesta",
+      "def": "how long it takes to answer a customer or a request",
+      "note": "Métrica típica de soporte; 'first response time' = tiempo hasta la primera respuesta.",
+      "ex": [
+        {
+          "en": "Our average [response time] is under one hour.",
+          "es": "Nuestro tiempo de respuesta promedio es menor a una hora."
+        },
+        {
+          "en": "We cut our [response time] in half last year.",
+          "es": "Redujimos a la mitad nuestro tiempo de respuesta el año pasado."
+        }
+      ]
+    },
+    {
+      "id": "col-juggle-priorities",
+      "type": "collocation",
+      "term": "juggle priorities",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "proyectos",
+        "soporte"
+      ],
+      "es": "manejar varias prioridades a la vez",
+      "def": "to manage several important tasks at the same time",
+      "note": "Informal-profesional; muy usado en entrevistas: 'I'm used to juggling priorities'.",
+      "ex": [
+        {
+          "en": "Coordinators [juggle priorities] all day.",
+          "es": "Los coordinadores manejan varias prioridades todo el día."
+        },
+        {
+          "en": "I learned to [juggle priorities] in a busy call centre.",
+          "es": "Aprendí a manejar varias prioridades en un centro de llamadas muy ocupado."
+        }
+      ]
+    },
+    {
+      "id": "col-de-escalate-a-situation",
+      "type": "collocation",
+      "term": "de-escalate a situation",
+      "level": "C1",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "soporte",
+        "proyectos"
+      ],
+      "es": "calmar una situación tensa",
+      "def": "to make an angry or tense moment calmer and less serious",
+      "note": "Lenguaje profesional; no confundir con 'escalate a ticket' (pasar el caso a otro nivel).",
+      "ex": [
+        {
+          "en": "My first goal is to [de-escalate the situation].",
+          "es": "Mi primer objetivo es calmar la situación."
+        },
+        {
+          "en": "She [de-escalated the situation] with one calm question.",
+          "es": "Ella calmó la situación con una sola pregunta tranquila."
+        }
+      ]
+    },
+    {
+      "id": "phr-im-looking-for-something-in-the-range-of",
+      "type": "phrase",
+      "term": "I'm looking for something in the range of…",
+      "level": "B2",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "busco algo en el rango de…",
+      "def": "a polite way to give the salary you hope to earn",
+      "note": "En Canadá se habla de sueldo anual: 'in the range of 55 to 60 thousand'. Investiga el mercado antes y da un rango, no una sola cifra.",
+      "ex": [
+        {
+          "en": "[I'm looking for something in the range of] 55 to 60 thousand.",
+          "es": "Busco algo en el rango de 55 a 60 mil."
+        },
+        {
+          "en": "Honestly, [I'm looking for something in the range of] 70K.",
+          "es": "Sinceramente, busco algo alrededor de 70 mil."
+        }
+      ]
+    }
+  ]
+}

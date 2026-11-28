@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { HelpCircle, Undo2 } from "lucide-react";
 import { gradeSentence, type WordOp } from "@/lib/answer";
+import { ErrorIcon, type ErrorKind } from "../ux/ErrorIcon";
 import type { Alt } from "@/lib/types";
 import { AudioButton } from "../ui";
 import { playSfx } from "@/lib/audio/sfx";
@@ -136,14 +137,47 @@ export function WordDiff({ ops }: { ops: WordOp[] }) {
   );
 }
 
+/** Una línea por diferencia entre lo escrito y la frase correcta, con el icono del tipo de error. */
+export function OpsHint({ ops }: { ops: WordOp[] }) {
+  const norm = (w?: string) => (w ?? "").toLowerCase().replace(/[^a-z']/g, "");
+  const missing = new Set(ops.filter((o) => o.op === "missing").map((o) => norm(o.want)));
+  const moved = new Set(ops.filter((o) => o.op === "extra" && missing.has(norm(o.got))).map((o) => norm(o.got)));
+  const q = (ws: string[]) => ws.map((w) => `«${w}»`).join(", ");
+  const miss: string[] = [], extra: string[] = [], order: string[] = [], subs: string[] = [];
+  for (const o of ops) {
+    if (o.op === "ok") continue;
+    if (o.op === "missing") (moved.has(norm(o.want)) ? order : miss).push(o.want ?? "");
+    else if (o.op === "extra") { if (!moved.has(norm(o.got))) extra.push(o.got ?? ""); }
+    else subs.push(`«${o.got}» debería ser «${o.want}»`);
+  }
+  // Una línea por tipo: varias palabras del mismo tipo se agrupan para no llenar la pantalla.
+  const lines: { kind: ErrorKind; text: string }[] = [];
+  if (order.length) lines.push({ kind: "orden", text: order.length === 1 ? `«${order[0]}» va en otro lugar de la frase` : `Cambia de lugar ${q(order)}` });
+  if (miss.length) lines.push({ kind: "falta", text: miss.length === 1 ? `Te faltó «${miss[0]}»` : `Te faltaron ${q(miss)}` });
+  if (extra.length) lines.push({ kind: "sobra", text: extra.length === 1 ? `Sobró «${extra[0]}»` : `Sobraron ${q(extra)}` });
+  for (const t of subs.slice(0, 3)) lines.push({ kind: "significado", text: t });
+  if (subs.length > 3) lines.push({ kind: "significado", text: `Y ${subs.length - 3} cambios más (marcados arriba)` });
+  if (!lines.length) return null;
+  return (
+    <ul className="mt-2 flex flex-col gap-1.5 text-sm font-bold" aria-label="Qué cambiar">
+      {lines.map((l, i) => (
+        <li key={i} className="flex items-center gap-2">
+          <ErrorIcon kind={l.kind} size={22} />
+          {l.text}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 export type Why = { term: string; meaning: string; def?: string; note?: string; errors?: string; confuse?: string[]; picked?: Alt; ex?: { en: string; es: string } };
 
 /**
  * «¿Por qué?»: explica la respuesta solo con datos del contenido (significado, definición, notas de uso,
  * errores típicos, confusiones frecuentes y qué significaba la opción elegida). Incluye un mini refuerzo.
  */
-export function WhyPanel({ why }: { why: Why }) {
-  const [open, setOpen] = useState(false);
+export function WhyPanel({ why, defaultOpen = false }: { why: Why; defaultOpen?: boolean }) {
+  const [open, setOpen] = useState(defaultOpen);
   const [quiz, setQuiz] = useState<null | boolean>(null);
   const opts = useMemo(() => (why.picked ? [why.term, why.picked.term].sort() : []), [why]);
   return (
@@ -162,8 +196,11 @@ export function WhyPanel({ why }: { why: Why }) {
             )}
           </p>
           {why.picked && why.picked.term !== why.term && (
-            <p>
+            <p className="flex items-start gap-2">
+              <ErrorIcon kind="significado" size={22} />
+              <span>
               Elegiste <b lang="en">{why.picked.term}</b>, que significa «{why.picked.es}»: no es lo que pide la frase.
+              </span>
             </p>
           )}
           {why.note && <p>{why.note}</p>}

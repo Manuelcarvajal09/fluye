@@ -1,0 +1,97 @@
+{
+  "id": "lectura-reconocimiento-credenciales",
+  "level": "C1",
+  "title": "Getting Your Credentials Recognized",
+  "title_es": "Lograr que reconozcan tus títulos",
+  "topic": "trabajo",
+  "minutes": 7,
+  "intro_es": "Tu título de México vale, pero en Canadá hay que demostrarlo: así funciona el camino para que te lo reconozcan.",
+  "paragraphs": [
+    "Many newcomers arrive in Canada with impressive résumés: a degree in engineering, years of experience as a nurse, a successful accounting practice. Then they discover that their qualifications, however solid, are not automatically recognized. It can be a disheartening moment, especially after a long and expensive immigration process. Understanding how the system works, and why it exists, makes the road ahead far less intimidating.",
+    "The first distinction to grasp is between regulated and non-regulated occupations. In a regulated profession, such as medicine, nursing, law, teaching, engineering or many skilled trades, you need a licence from a provincial regulatory body before you can practise or use a protected title. In Alberta, for instance, you cannot call yourself a professional engineer until the relevant association has assessed and approved you. Non-regulated jobs, from marketing to software development, have no such legal requirement; employers simply decide whether your experience fits.",
+    "Because licensing is a provincial responsibility, the rules vary across the country. A licence obtained in one province does not always transfer seamlessly to another, although agreements exist to make mobility easier. That is why it pays to research the specific regulator in the province where you intend to settle, ideally before you land. Many regulators let you begin the paperwork from abroad.",
+    "Even for non-regulated roles, an educational credential assessment can be useful. This report, issued by a designated organization, states how your foreign degree compares with a Canadian one. It is often required for immigration purposes, but it also reassures employers who may be unfamiliar with Mexican universities. Keep in mind that the process can take weeks or months, and you will usually need official transcripts sent directly from your institution, sometimes with certified translations.",
+    "For regulated professions, the journey is typically longer. You may be asked to pass exams, complete a period of supervised practice, take bridging courses or prove your English through a standardized test. These requirements can feel like an obstacle course, but they are designed to protect the public, not to exclude immigrants. A nurse trained abroad, however skilled, needs to know Canadian protocols, medication names and patient-rights legislation.",
+    "While you work through the process, consider adjacent roles that use your expertise without requiring a licence. An engineer might work as a technologist or project coordinator; a lawyer might find a position in compliance or immigration consulting, where different rules apply. These jobs provide Canadian experience, income and professional networks, all of which strengthen your application. Volunteering and mentorship programs offered by settlement agencies can open doors too.",
+    "Finally, document everything. Keep copies of diplomas, course descriptions, reference letters and proof of employment, and ask former employers to describe your responsibilities in detail. Recognition rarely happens overnight, but with patience, strategic planning and accurate records, the credentials you worked so hard for can once again become the foundation of your career."
+  ],
+  "glossary": [
+    { "term": "disheartening", "es": "desalentador", "def": "making you lose hope or confidence" },
+    { "term": "regulated profession", "es": "profesión regulada", "def": "a job that legally requires a licence from an official body" },
+    { "term": "regulatory body", "es": "organismo regulador, colegio profesional", "def": "an official organization that sets standards and grants licences in a profession" },
+    { "term": "protected title", "es": "título protegido", "def": "a professional name that only licensed people are legally allowed to use" },
+    { "term": "seamlessly", "es": "sin contratiempos", "def": "smoothly, without problems or interruptions" },
+    { "term": "it pays to", "es": "vale la pena", "def": "it is worth doing because it brings a benefit" },
+    { "term": "educational credential assessment", "es": "evaluación de títulos extranjeros", "def": "an official report comparing a foreign degree with a Canadian one", "note": "Se le conoce como ECA." },
+    { "term": "transcripts", "es": "historial académico, kárdex", "def": "official records of the courses and grades from a school or university" },
+    { "term": "bridging courses", "es": "cursos puente", "def": "programs that help foreign-trained professionals meet local requirements" },
+    { "term": "obstacle course", "es": "carrera de obstáculos", "def": "a long series of difficulties you must get through" },
+    { "term": "adjacent roles", "es": "puestos afines", "def": "jobs closely related to your profession that use similar skills" },
+    { "term": "compliance", "es": "cumplimiento normativo", "def": "the work of making sure an organization follows laws and rules" },
+    { "term": "settlement agencies", "es": "organizaciones de apoyo a recién llegados", "def": "organizations that help newcomers with jobs, housing and services" },
+    { "term": "overnight", "es": "de la noche a la mañana", "def": "very quickly or suddenly" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Foreign degrees are worthless in Canada, so newcomers should start their education again.",
+      "Credential recognition can be long and varies by profession and province, but planning and documentation make it manageable.",
+      "Only engineers and nurses need to worry about having their credentials recognized."
+    ],
+    "answer": 1,
+    "why_es": "El texto explica que el proceso es largo y depende de la profesión y la provincia, pero que con planeación y documentos en orden se puede lograr."
+  },
+  "questions": [
+    {
+      "q": "What is the key difference between regulated and non-regulated occupations?",
+      "options": [
+        "Regulated occupations pay more money.",
+        "Regulated occupations legally require a licence from a provincial body.",
+        "Non-regulated occupations are only available to Canadian citizens."
+      ],
+      "answer": 1,
+      "why_es": "En una profesión regulada necesitas una licencia del organismo provincial para ejercer o usar el título."
+    },
+    {
+      "q": "Why does the author recommend researching the regulator in your specific province?",
+      "options": [
+        "Because licensing rules are provincial and can vary across Canada.",
+        "Because only one province accepts immigrants.",
+        "Because federal law prohibits moving between provinces."
+      ],
+      "answer": 0,
+      "why_es": "Las licencias son responsabilidad provincial, así que los requisitos cambian de una provincia a otra."
+    },
+    {
+      "q": "According to the text, what is the purpose of exams and supervised practice?",
+      "options": [
+        "To exclude immigrants from the job market.",
+        "To raise money for the regulators.",
+        "To protect the public by ensuring professionals know Canadian standards."
+      ],
+      "answer": 2,
+      "why_es": "El autor aclara que los requisitos buscan proteger al público, no excluir a los inmigrantes."
+    },
+    {
+      "q": "What does the author suggest doing while your licence is in process?",
+      "options": [
+        "Wait without working so you can focus on exams.",
+        "Look for adjacent roles that use your expertise without requiring a licence.",
+        "Use your protected title anyway."
+      ],
+      "answer": 1,
+      "why_es": "Los puestos afines dan experiencia canadiense, ingresos y contactos mientras avanza el trámite."
+    },
+    {
+      "q": "What does an educational credential assessment do?",
+      "options": [
+        "It compares your foreign degree with a Canadian one.",
+        "It gives you a licence to practise medicine.",
+        "It translates your diploma into French."
+      ],
+      "answer": 0,
+      "why_es": "Es un informe que indica a qué equivale tu título extranjero en Canadá."
+    }
+  ],
+  "club": false
+}

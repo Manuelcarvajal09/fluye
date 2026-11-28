@@ -1,0 +1,86 @@
+{
+  "id": "lectura-cultura-canadiense",
+  "level": "B1",
+  "title": "The Unwritten Rules of Canada",
+  "title_es": "Las reglas no escritas de Canadá",
+  "topic": "cultura",
+  "minutes": 5,
+  "intro_es": "Nadie te da un manual al llegar, pero estas costumbres te ahorrarán más de un malentendido.",
+  "paragraphs": [
+    "Every country has unwritten rules, and Canada is no exception. Nobody gives you a manual when you arrive, but understanding a few cultural habits can make your daily life in Edmonton much easier. Remember that Canada is very diverse, so these are general patterns, not rules that every person follows.",
+    "You will hear “sorry” everywhere. Canadians say it when they bump into someone, when they need to pass and sometimes even when someone else bumps into them. Often it simply means “excuse me” or “I didn't mean to bother you.” It is not always an apology. Using it yourself will make you sound polite and friendly. “Please” and “thank you” are also very important, even in short exchanges at a store.",
+    "Personal space matters too. In general, Canadians stand a little farther apart than many Mexicans do, about an arm's length. Greetings are usually a handshake or a smile and a wave, not a kiss on the cheek, especially at work. People also line up patiently at bus stops, in coffee shops and at the bank. Cutting in line is considered very rude.",
+    "Punctuality is taken seriously, especially at work. If a meeting starts at nine, people arrive a few minutes early. If you are going to be late, send a quick message. Social events are a little more flexible, but for a dinner at someone's house, arriving very late without warning can seem disrespectful. Your sense of time may need some adjustment!",
+    "Small talk is the glue of Canadian social life. Safe topics include the weather (a favourite in Edmonton), weekend plans, sports, travel, food and pets. With people you don't know well, it is better to avoid questions about salary, age, religion or politics. Canadians are also often indirect: “That's an interesting idea” can sometimes mean “I don't agree.”",
+    "None of this means you have to lose your own culture. Your warmth and friendliness are a strength, and many Canadians will appreciate them. Observe, ask questions when you are unsure and find a balance that feels right for you."
+  ],
+  "glossary": [
+    { "term": "unwritten rules", "es": "reglas no escritas", "def": "rules that everyone knows and follows, but nobody writes down" },
+    { "term": "bump into", "es": "chocar con (alguien)", "def": "to hit someone or something by accident; also, to meet someone by chance" },
+    { "term": "apology", "es": "disculpa", "def": "words that say you are sorry for something you did" },
+    { "term": "exchanges", "es": "intercambios (breves)", "def": "short conversations or interactions between people" },
+    { "term": "personal space", "es": "espacio personal", "def": "the distance people like to keep between themselves and others" },
+    { "term": "arm's length", "es": "a un brazo de distancia", "def": "the distance of a person's arm; a comfortable distance" },
+    { "term": "handshake", "es": "apretón de manos", "def": "the action of holding and shaking another person's hand to greet them" },
+    { "term": "wave", "es": "saludo con la mano", "def": "a movement of your hand to say hello or goodbye" },
+    { "term": "line up", "es": "hacer fila", "def": "to stand one behind another and wait your turn" },
+    { "term": "cutting in line", "es": "meterse en la fila", "def": "going in front of people who were waiting before you", "note": "Se considera muy grosero; mejor pregunta: Is this the line?" },
+    { "term": "punctuality", "es": "puntualidad", "def": "the habit of arriving or doing things at the agreed time" },
+    { "term": "disrespectful", "es": "irrespetuoso", "def": "showing no respect for other people" },
+    { "term": "glue", "es": "pegamento", "def": "a substance that sticks things together; here, what keeps people connected" },
+    { "term": "indirect", "es": "indirecto", "def": "not saying something clearly or openly" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Canadians are cold people who don't like to talk.",
+      "Learning common Canadian habits helps you adapt without losing your own culture.",
+      "Newcomers must change their personality to live in Canada."
+    ],
+    "answer": 1,
+    "why_es": "El texto explica costumbres (sorry, espacio personal, puntualidad) y anima a adaptarte sin perder tu identidad."
+  },
+  "questions": [
+    {
+      "q": "What does “sorry” often mean in Canada?",
+      "options": [
+        "That the person did something very wrong",
+        "Excuse me, or I didn't mean to bother you",
+        "That the person wants to leave"
+      ],
+      "answer": 1,
+      "why_es": "Muchas veces sorry funciona como excuse me, no como una disculpa seria."
+    },
+    {
+      "q": "How do people usually greet each other at work?",
+      "options": [
+        "With a kiss on the cheek",
+        "With a long hug",
+        "With a handshake or a smile and a wave"
+      ],
+      "answer": 2,
+      "why_es": "En el trabajo lo normal es un apretón de manos o sonreír y saludar con la mano."
+    },
+    {
+      "q": "What should you do if you are going to be late for a meeting?",
+      "options": [
+        "Send a quick message.",
+        "Arrive without saying anything.",
+        "Wait until the next meeting."
+      ],
+      "answer": 0,
+      "why_es": "Avisar con un mensaje rápido muestra respeto por el tiempo de los demás."
+    },
+    {
+      "q": "“That's an interesting idea” can sometimes mean...",
+      "options": [
+        "I want to hear more about it right now.",
+        "I will do it immediately.",
+        "I don't agree."
+      ],
+      "answer": 2,
+      "why_es": "Los canadienses suelen ser indirectos; esa frase a veces expresa desacuerdo con cortesía."
+    }
+  ],
+  "club": true
+}

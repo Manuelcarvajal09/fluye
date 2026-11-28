@@ -1,0 +1,86 @@
+{
+  "id": "lectura-parques-nacionales",
+  "level": "B1",
+  "title": "Exploring Alberta's National Parks",
+  "title_es": "Explorar los parques nacionales de Alberta",
+  "topic": "ocio",
+  "minutes": 5,
+  "intro_es": "Montañas, lagos y bisontes a pocas horas de casa: disfrútalos con seguridad y respeto.",
+  "paragraphs": [
+    "One of the best things about living in Alberta is that the Rocky Mountains are only a few hours away. Alberta has several national parks, and each one offers something special. Banff, created in 1885, is Canada's first national park. Jasper is the largest national park in the Canadian Rockies, and it is famous for its dark night skies and quiet trails. Very close to Edmonton, less than an hour east, Elk Island National Park protects herds of bison.",
+    "To visit a national park, you need a park pass. You can buy a daily pass or an annual pass that works in all national parks. Popular places can be very busy in summer, so it's smart to start early in the day and book campsites in advance. In winter, the parks are quieter and beautiful, but mountain roads can be icy, so check road conditions before you leave.",
+    "National parks are home to wild animals: elk, deer, bighorn sheep, bison and bears. Seeing them is exciting, but remember that they are wild, not pets. Never feed wildlife. Human food can make animals sick and teaches them to come close to roads and campsites, which is dangerous for everyone. Stay in your car if animals are near the road, and keep a safe distance; use your camera's zoom instead of walking closer.",
+    "If you hike in bear country, make noise as you walk, especially near rivers or in thick forest. Talking loudly or clapping lets bears know you are coming. Hike in a group, keep children close and carry bear spray where you can reach it quickly, not at the bottom of your backpack. Learn how to use it before your trip, and pay attention to warning signs and trail closures.",
+    "Many visitors follow the Leave No Trace principles. The idea is simple: leave nature as you found it. Pack out all your garbage, stay on marked trails, don't pick flowers or take rocks and respect other visitors by keeping noise down at campsites at night.",
+    "Exploring these parks is a wonderful way to fall in love with your new home. Plan well, respect the animals and you will collect memories that last a lifetime."
+  ],
+  "glossary": [
+    { "term": "herds", "es": "manadas", "def": "large groups of animals of the same kind that live together" },
+    { "term": "bison", "es": "bisonte", "def": "a large wild animal like a big cow, with a heavy head and thick fur" },
+    { "term": "park pass", "es": "pase de entrada al parque", "def": "a permit you buy to enter a national park" },
+    { "term": "campsites", "es": "zonas para acampar", "def": "places where you are allowed to put up a tent or park a camper" },
+    { "term": "in advance", "es": "con anticipación", "def": "before the time something happens" },
+    { "term": "icy", "es": "con hielo, resbaloso", "def": "covered with ice and dangerous to drive or walk on" },
+    { "term": "elk", "es": "uapití, alce americano", "def": "a large deer with big antlers, common in the Rocky Mountains" },
+    { "term": "bighorn sheep", "es": "borrego cimarrón", "def": "a wild mountain sheep with large curved horns" },
+    { "term": "wildlife", "es": "fauna silvestre", "def": "wild animals living in their natural environment" },
+    { "term": "bear country", "es": "zona de osos", "def": "an area where bears live" },
+    { "term": "clapping", "es": "aplaudir", "def": "hitting your hands together to make a noise" },
+    { "term": "bear spray", "es": "spray contra osos", "def": "a strong pepper spray used to stop a bear that comes too close", "note": "Llévalo a la mano (en el cinturón o el pecho) y practica cómo sacarlo." },
+    { "term": "trail closures", "es": "cierres de senderos", "def": "when paths are closed to visitors, for example because of animals or danger" },
+    { "term": "pack out", "es": "llevarte de vuelta (tu basura)", "def": "to carry everything you brought, including garbage, back with you" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "Banff is the only park worth visiting in Alberta.",
+      "Alberta's national parks are wonderful if you plan ahead and respect wildlife and nature.",
+      "National parks in Alberta are closed to visitors in winter."
+    ],
+    "answer": 1,
+    "why_es": "El texto presenta los parques y da consejos de planeación, seguridad con animales y Leave No Trace."
+  },
+  "questions": [
+    {
+      "q": "Why should you never feed wildlife?",
+      "options": [
+        "Human food can make animals sick and bring them close to roads.",
+        "It is too expensive to buy food for animals.",
+        "Animals only eat during the night."
+      ],
+      "answer": 0,
+      "why_es": "La comida humana enferma a los animales y los acostumbra a acercarse a caminos y campamentos."
+    },
+    {
+      "q": "Where should you carry bear spray?",
+      "options": [
+        "At the bottom of your backpack",
+        "Inside your car",
+        "Where you can reach it quickly"
+      ],
+      "answer": 2,
+      "why_es": "Debes poder sacarlo rápido; en el fondo de la mochila no sirve en una emergencia."
+    },
+    {
+      "q": "Which park is less than an hour from Edmonton?",
+      "options": [
+        "Banff National Park",
+        "Elk Island National Park",
+        "Jasper National Park"
+      ],
+      "answer": 1,
+      "why_es": "Elk Island está al este de Edmonton, a menos de una hora, y protege manadas de bisontes."
+    },
+    {
+      "q": "What is the main idea of Leave No Trace?",
+      "options": [
+        "Never visit the same park twice.",
+        "Hike only in large groups.",
+        "Leave nature as you found it."
+      ],
+      "answer": 2,
+      "why_es": "La idea central es dejar la naturaleza tal como la encontraste: llevarte tu basura y no tomar nada."
+    }
+  ],
+  "club": false
+}

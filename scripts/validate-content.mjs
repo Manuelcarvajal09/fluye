@@ -10,7 +10,7 @@ const itemsDir = join(root, "content", "items");
 const lessonsDir = join(root, "content", "lessons");
 
 const TYPES = { phrasal: "pv-", collocation: "col-", idiom: "idi-", vocab: "voc-", phrase: "phr-", contraction: "con-" };
-const AREAS = ["conversacion","relaciones","restaurantes","compras","salud","noticias","vivienda","bancos","transporte","viajes","emergencias","canada","series","entrevistas","reuniones","analisis","automatizacion","software","devops","crm","datos","soporte","proyectos","ciencia","biologia"];
+const AREAS = ["conversacion","hogar","relaciones","restaurantes","compras","salud","noticias","vivienda","bancos","transporte","viajes","emergencias","canada","series","entrevistas","reuniones","analisis","automatizacion","software","devops","crm","datos","soporte","proyectos","ciencia","biologia"];
 const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 const TOPICS = ["daily", "work", "tech", "travel", "canada", "interview", "social", "informal", "money", "health", "feelings", "study", "home", "food"];
 
@@ -163,11 +163,18 @@ if (only.length === 0) {
     if (q.section === "reading" && !str(q.passage, 1800)) err("test.json", q.id, "reading sin passage");
     if (q.section === "listening" && !str(q.audio, 1200)) err("test.json", q.id, "listening sin audio");
   }
-  const tenses = readArr(join(root, "content", "grammar", "tenses.json"));
+  // Gramática: todos los archivos de content/grammar (tiempos verbales y unidades de estructuras, escritura y examen).
+  const gdir = join(root, "content", "grammar");
+  const GROUPS = ["tiempos", "estructuras", "escritura", "conversacion"];
+  const tenses = existsSync(gdir) ? readdirSync(gdir).filter((f) => f.endsWith(".json")).flatMap((f) => readArr(join(gdir, f))) : [];
   for (const g of tenses) {
-    uniq("tenses.json", g?.id);
-    if (!/^gr-[a-z0-9-]+$/.test(g?.id ?? "") || !str(g.name_en, 60) || !str(g.title_es, 80) || !str(g.use_es, 600) || !g.form || !Array.isArray(g.examples) || !Array.isArray(g.practice)) err("tenses.json", g?.id, "lección mal formada");
-    for (const p of g.practice ?? []) if (!Array.isArray(p.options) || p.options.length < 3 || !Number.isInteger(p.answer) || p.answer >= p.options.length) err("tenses.json", g.id, "práctica mal formada");
+    uniq("grammar", g?.id);
+    if (!/^gr-[a-z0-9-]+$/.test(g?.id ?? "") || !str(g.name_en, 60) || !str(g.title_es, 80) || !str(g.use_es, 600) || (!g.form && !Array.isArray(g.steps)) || !Array.isArray(g.examples) || !Array.isArray(g.practice)) err("grammar", g?.id, "lección mal formada");
+    if (g.group !== undefined && !GROUPS.includes(g.group)) err("grammar", g.id, `grupo desconocido ${g.group}`);
+    if (g.level !== undefined && !LEVELS.includes(g.level)) err("grammar", g.id, `nivel desconocido ${g.level}`);
+    for (const s of g.steps ?? []) if (!str(s?.title_es, 80) || !str(s?.body_es, 900)) err("grammar", g.id, "paso mal formado");
+    if (g.ielts_es !== undefined && !str(g.ielts_es, 600)) err("grammar", g.id, "ielts_es demasiado largo");
+    for (const p of g.practice ?? []) if (!Array.isArray(p.options) || p.options.length < 3 || !Number.isInteger(p.answer) || p.answer >= p.options.length || (p.why_es !== undefined && !str(p.why_es, 300))) err("grammar", g.id, "práctica mal formada");
   }
   // Inglés de series: microescenas originales.
   const GENRES = ["sitcom", "drama", "policial", "medica", "oficina", "romance", "scifi", "thriller", "amigos", "noticias", "juzgado"];

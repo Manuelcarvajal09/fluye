@@ -9,10 +9,13 @@ import { dailyLife, walletOf } from "@/lib/economy";
 import { seasonFor } from "@/lib/seasons";
 import { localDay, visibleStreak } from "@/lib/game";
 import { StatBar } from "@/components/StatBar";
+import { ThemeGarland, ThemeParticles } from "@/components/theme/ThemeDecor";
+import { perksOf } from "@/lib/perks";
 
 export default async function AppLayout({ children }: LayoutProps<"/">) {
-  const profile = await dailyLife(await applyFreezes(await requireProfile()));
-  const due = await dueCount(profile.userId);
+  const base = await requireProfile();
+  // Los repasos pendientes no dependen de protectores ni vidas: se piden a la vez.
+  const [profile, due, perks] = await Promise.all([applyFreezes(base).then(dailyLife), dueCount(base.userId), perksOf(base.userId)]);
   const sp = settingsOf(profile).season;
   const today = localDay(profile.tz);
   const season = seasonFor(today, sp);
@@ -20,11 +23,13 @@ export default async function AppLayout({ children }: LayoutProps<"/">) {
     <ProfileProviders profile={profile}>
       <ActivityTracker />
       <DayWatch />
-      <div className="flex min-h-dvh" data-season-palette={sp?.palette === false ? undefined : season}>
+      <div className="flex min-h-dvh" data-season-palette={sp?.palette === false || settingsOf(profile).themePack ? undefined : season}>
+        <ThemeParticles />
         <Nav due={due} gems={profile.gems} />
-        <div className="min-w-0 flex-1 pb-[calc(4.6rem+env(safe-area-inset-bottom))] lg:pb-0">
+        <div className="relative z-10 min-w-0 flex-1 pb-[calc(4.6rem+env(safe-area-inset-bottom))] lg:pb-0">
           <div className="mx-auto w-full max-w-6xl px-4 pt-[max(env(safe-area-inset-top),1.25rem)] pb-8 sm:px-6 lg:px-10 lg:pt-6 3xl:max-w-[100rem]">
-            <StatBar wallet={{ ...walletOf(profile), streak: visibleStreak(profile.streak, profile.lastGoalDay, today) }} />
+            <StatBar wallet={{ ...walletOf(profile), streak: visibleStreak(profile.streak, profile.lastGoalDay, today) }} unlimited={perks.unlimitedLives} />
+            <ThemeGarland />
             {children}
           </div>
         </div>

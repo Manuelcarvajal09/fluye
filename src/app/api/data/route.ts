@@ -10,16 +10,19 @@ export async function GET() {
   if (!profile) return Response.json({ error: "no autorizado" }, { status: 401 });
   const d = db();
   const u = profile.userId;
-  const [cards, logs, days, lessons, sounds] = await Promise.all([
+  const [cards, logs, days, lessons, sounds, journal, photos, readings] = await Promise.all([
     d.select().from(schema.cards).where(eq(schema.cards.userId, u)),
     d.select().from(schema.reviewLogs).where(eq(schema.reviewLogs.userId, u)),
     d.select().from(schema.dailyStats).where(eq(schema.dailyStats.userId, u)),
     d.select().from(schema.lessonProgress).where(eq(schema.lessonProgress.userId, u)),
     d.select().from(schema.soundProgress).where(eq(schema.soundProgress.userId, u)),
+    d.select().from(schema.journalEntries).where(eq(schema.journalEntries.userId, u)),
+    d.select().from(schema.journalPhotos).where(eq(schema.journalPhotos.userId, u)),
+    d.select().from(schema.readingProgress).where(eq(schema.readingProgress.userId, u)),
   ]);
   const omit = <T extends object>(row: T, ...keys: string[]) => Object.fromEntries(Object.entries(row).filter(([k]) => !keys.includes(k)));
   const strip = <T extends object>(rows: T[], ...extra: string[]) => rows.map((r) => omit(r, "userId", ...extra));
-  const body = { app: "fluye", version: 1, exportedAt: new Date().toISOString(), profile: omit(profile, "userId"), cards: strip(cards), logs: strip(logs, "id"), days: strip(days), lessons: strip(lessons), sounds: strip(sounds) };
+  const body = { app: "fluye", version: 1, exportedAt: new Date().toISOString(), profile: omit(profile, "userId"), cards: strip(cards), logs: strip(logs, "id"), days: strip(days), lessons: strip(lessons), sounds: strip(sounds), journal: strip(journal), journalPhotos: photos.map((p) => ({ id: p.id, day: p.day, mime: p.mime, w: p.w, h: p.h, data: Buffer.from(p.data).toString("base64") })), readings: strip(readings) };
   return new Response(JSON.stringify(body), {
     headers: { "content-type": "application/json", "content-disposition": `attachment; filename="fluye-${new Date().toISOString().slice(0, 10)}.json"` },
   });
@@ -37,7 +40,10 @@ const Card = z.object({
   suspended: z.number().int().min(0).max(1).default(0),
   lastReview: z.coerce.date().nullable().optional(),
 });
-const Import = z.object({ app: z.literal("fluye"), cards: z.array(Card).max(50_000) });
+const Day = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
+const JournalRow = z.object({ day: Day, mood: z.number().int().min(1).max(5).nullable(), activities: z.array(z.string().max(30)).max(16), answers: z.record(z.string().max(40), z.string().max(400)), englishLine: z.string().max(400), learned: z.string().max(600) });
+const PhotoRow = z.object({ id: z.string().max(40), day: Day, mime: z.enum(["image/webp", "image/jpeg"]), w: z.number().int().min(1).max(1280), h: z.number().int().min(1).max(1280), data: z.string().max(560_000) });
+const Import = z.object({ app: z.literal("fluye"), cards: z.array(Card).max(50_000), journal: z.array(JournalRow).max(5000).optional(), journalPhotos: z.array(PhotoRow).max(15_000).optional() });
 
 /**
  * Importa tarjetas de una exportación. Por cada tarjeta gana la versión con el repaso más reciente,
@@ -69,5 +75,12 @@ export async function POST(req: Request) {
         setWhere: sql`coalesce(excluded.last_review, 'epoch') > coalesce(${t.lastReview}, 'epoch')`,
       });
   }
-  return Response.json({ ok: true, imported: rows.length, skipped: parsed.data.cards.length - rows.length });
+  // Diario y fotos: se añaden los días que no existan (nunca se sobrescribe lo que ya tienes).
+  for (const j of parsed.data.journal ?? []) await db().insert(schema.journalEntries).values({ ...j, userId: profile.userId }).onConflictDoNothing();
+  for (const p of parsed.data.journalPhotos ?? []) {
+    const data = Buffer.from(p.data, "base64");
+    if (data.length > 400_000) continue;
+    await db().insert(schema.journalPhotos).values({ id: p.id, userId: profile.userId, day: p.day, mime: p.mime, w: p.w, h: p.h, data, size: data.length }).onConflictDoNothing();
+  }
+  return Response.json({ ok: true, imported: rows.length, skipped: parsed.data.cards.length - rows.length, journal: parsed.data.journal?.length ?? 0 });
 }

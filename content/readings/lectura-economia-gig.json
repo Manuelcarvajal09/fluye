@@ -1,0 +1,98 @@
+{
+  "id": "lectura-economia-gig",
+  "level": "C2",
+  "title": "The Gig Economy: Freedom With Fine Print",
+  "title_es": "La economía de plataformas: libertad con letra chiquita",
+  "topic": "trabajo",
+  "minutes": 9,
+  "intro_es": "Repartir comida o manejar con una app parece una salida rápida al llegar a Canadá; antes conviene entender qué ganas y qué arriesgas.",
+  "paragraphs": [
+    "Within days of arriving in Canada, many newcomers notice a parallel workforce moving through the city: couriers balancing insulated bags on bicycles, drivers picking up passengers through an app, freelancers bidding for design or translation projects on online marketplaces. This is the gig economy, a loose term for work that is organized around short-term tasks rather than ongoing employment. For someone without Canadian experience, it can look like the most accessible door into the labour market, and in some respects it is. But the freedom it offers comes with fine print worth reading carefully.",
+    "The appeal is undeniable. Gig work typically requires little more than a smartphone, a valid permit and, depending on the platform, a vehicle and a clean background check. There is no lengthy interview process and, at least in theory, no boss. You choose when to log in, how many hours to work and which jobs to accept. For a parent juggling childcare, a student between classes or a professional waiting for a licence to be approved, that flexibility can be genuinely valuable. Many people also use gigs as a side hustle, supplementing a regular income rather than replacing it.",
+    "The trade-off lies largely in how these workers are classified. Most platforms treat their workers not as employees but as independent contractors. The distinction may sound technical, yet its consequences are far-reaching. Employees in Canada are generally protected by employment standards legislation, which covers matters such as minimum wage, overtime, vacation pay and notice of termination. Independent contractors, by contrast, are considered to be running their own businesses. They are usually responsible for their own expenses, from fuel and phone plans to vehicle maintenance, and they may not be entitled to the protections that employees take for granted.",
+    "Taxes are a frequent source of unpleasant surprises. Because no employer is deducting income tax and pension contributions at source, gig workers must set money aside themselves and report their earnings when they file their annual return. Those who earn above a certain threshold may also need to register to collect sales tax. Keeping meticulous records of income and deductible expenses is not optional; it is the difference between a manageable tax season and a daunting bill.",
+    "Insurance is another blind spot. A standard personal auto policy may not cover accidents that occur while driving for a delivery or ride-hailing app, and an uninsured incident could be financially devastating. Before accepting a single order, it is prudent to confirm what coverage the platform provides and whether you need to inform your insurer or purchase additional protection.",
+    "Then there is the question of income stability. Earnings fluctuate with demand, weather, the time of day and the platform's own decisions. Pay rates, bonus structures and the way jobs are assigned are often governed by algorithms that workers can neither see nor negotiate with. A driver who earned well last month may find that a change in the formula has quietly eroded their income. This opacity has prompted growing debate in Canada and elsewhere about algorithmic transparency and whether gig workers deserve a hybrid status that offers some protections without eliminating flexibility. Several provinces have explored or introduced rules on the subject, and the landscape continues to evolve.",
+    "None of this means gig work should be avoided. Approached with clear eyes, it can provide income, a degree of independence and even opportunities to practise English with customers every day. The key is to treat it as what it is: a small business. Calculate your real hourly earnings after expenses, not just the figure displayed on the app. Read the terms of service, however tedious they may be. Set aside a fixed percentage of each payment for taxes. And keep an eye on the long term, building skills, credentials and networks that can lead to more stable work if that is what you eventually want.",
+    "In the end, the gig economy is neither the liberation its marketing promises nor the trap its harshest critics describe. It is a tool, and like any tool, its value depends on whether the person using it understands both its capabilities and its limits."
+  ],
+  "glossary": [
+    { "term": "fine print", "es": "letra chiquita", "def": "the detailed conditions of an agreement, often easy to overlook" },
+    { "term": "bidding for", "es": "concursar por, ofertar por", "def": "offering a price in competition with others to win a job" },
+    { "term": "background check", "es": "verificación de antecedentes", "def": "an investigation of someone's criminal or driving record" },
+    { "term": "juggling", "es": "hacer malabares con", "def": "trying to manage several responsibilities at the same time" },
+    { "term": "side hustle", "es": "chamba extra", "def": "work done in addition to your main job to earn extra money" },
+    { "term": "trade-off", "es": "contrapartida, precio a pagar", "def": "a balance between two things, where gaining one means losing the other" },
+    { "term": "independent contractors", "es": "trabajadores independientes", "def": "people who work for clients under contract but are not their employees" },
+    { "term": "take for granted", "es": "dar por sentado", "def": "to assume something will always be available without thinking about it" },
+    { "term": "at source", "es": "en la fuente (retención)", "def": "deducted directly from a payment before you receive it" },
+    { "term": "threshold", "es": "umbral, tope", "def": "the level at which something starts to apply" },
+    { "term": "daunting", "es": "abrumador, intimidante", "def": "seeming difficult and making you feel less confident" },
+    { "term": "prudent", "es": "prudente, sensato", "def": "careful and sensible, avoiding unnecessary risk" },
+    { "term": "eroded", "es": "mermó, desgastó", "def": "gradually reduced or weakened" },
+    { "term": "opacity", "es": "opacidad, falta de transparencia", "def": "the quality of being difficult to see through or understand" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "The gig economy is a trap that newcomers should avoid completely.",
+      "Gig work is the best long-term career path for every newcomer.",
+      "Gig work offers flexibility and easy access, but workers must understand its legal, financial and practical risks."
+    ],
+    "answer": 2,
+    "why_es": "El texto equilibra las ventajas con los riesgos: clasificación laboral, impuestos, seguros e ingresos inestables."
+  },
+  "questions": [
+    {
+      "q": "Why does the classification as independent contractors matter?",
+      "options": [
+        "Contractors may not receive protections like minimum wage and vacation pay.",
+        "Contractors always earn more than employees.",
+        "Contractors cannot work more than twenty hours a week."
+      ],
+      "answer": 0,
+      "why_es": "Los contratistas independientes suelen quedar fuera de las normas laborales que protegen a los empleados."
+    },
+    {
+      "q": "What does the author say about taxes for gig workers?",
+      "options": [
+        "The platform always pays them.",
+        "Workers must set money aside and report their own earnings.",
+        "Gig income is not taxable in Canada."
+      ],
+      "answer": 1,
+      "why_es": "Como nadie retiene impuestos en la fuente, el propio trabajador debe apartar dinero y declarar."
+    },
+    {
+      "q": "What is the risk mentioned about car insurance?",
+      "options": [
+        "Insurance is illegal for delivery drivers.",
+        "Platforms require drivers to buy insurance from them.",
+        "A personal policy may not cover accidents while working for an app."
+      ],
+      "answer": 2,
+      "why_es": "Una póliza personal podría no cubrirte mientras trabajas para una aplicación."
+    },
+    {
+      "q": "What does the word “opacity” refer to in the text?",
+      "options": [
+        "The difficulty of seeing how algorithms set pay and assign jobs",
+        "Bad visibility when driving in winter",
+        "The colour of delivery bags"
+      ],
+      "answer": 0,
+      "why_es": "Se refiere a que los trabajadores no pueden ver ni negociar los algoritmos que fijan pagos y asignan trabajos."
+    },
+    {
+      "q": "How does the author suggest treating gig work?",
+      "options": [
+        "As a temporary hobby",
+        "As a small business",
+        "As a guaranteed salary"
+      ],
+      "answer": 1,
+      "why_es": "Recomienda tratarlo como un pequeño negocio: calcular ganancias reales, leer términos y apartar para impuestos."
+    }
+  ],
+  "club": false
+}

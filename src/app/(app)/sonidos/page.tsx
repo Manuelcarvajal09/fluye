@@ -4,6 +4,7 @@ import { Info } from "lucide-react";
 import { db, schema } from "@/db";
 import { requireProfile } from "@/lib/user";
 import { SOUNDS, PROSODY } from "@/lib/content";
+import { SectionHeader } from "@/components/ux/SectionHeader";
 
 export const metadata = { title: "Sonidos" };
 
@@ -28,7 +29,7 @@ export default async function Sounds() {
   return (
     <div className="flex flex-col gap-8">
       <header className="flex flex-col gap-2">
-        <h1 className="font-display text-4xl font-extrabold">Pronunciación</h1>
+        <SectionHeader art="pronunciacion" title="Pronunciación" />
         <p className="max-w-3xl text-muted">Los sonidos del inglés norteamericano que más le cuestan a un hispanohablante, explicados en español, con pares mínimos para entrenar el oído y grabación para comparar tu voz.</p>
         <p className="flex max-w-3xl gap-2 rounded-2xl bg-surface-2 p-3 text-sm text-muted">
           <Info size={18} className="shrink-0" aria-hidden />

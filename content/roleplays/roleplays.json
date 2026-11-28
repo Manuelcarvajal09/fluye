@@ -7118,5 +7118,1288 @@
       "fume hood",
       "I'll let you know right away"
     ]
+  },
+  {
+    "id": "rp-salary-counteroffer",
+    "area": "entrevistas",
+    "level": "C1",
+    "title": "Negotiating a job offer",
+    "title_es": "Negociar el salario de una oferta",
+    "setting_es": "Una empresa de Edmonton te hizo una oferta de trabajo. El salario está por debajo de lo que esperabas. Hablas por videollamada con la reclutadora para negociar sin poner en riesgo la oferta.",
+    "npc": "Recruiter",
+    "turns": [
+      {
+        "npc": "Hi {name}! So, you've had a couple of days to look over the offer. What are your thoughts?",
+        "npc_es": "¡Hola! Ya tuviste un par de días para revisar la oferta. ¿Qué te pareció?",
+        "task_es": "Agradece la oferta y muestra entusiasmo por el puesto, pero di que te gustaría hablar del salario.",
+        "expect": [
+          [
+            "thank",
+            "thanks",
+            "appreciate",
+            "grateful"
+          ],
+          [
+            "excited",
+            "enthusiastic",
+            "interested",
+            "great opportunity",
+            "really like",
+            "looking forward"
+          ],
+          [
+            "salary",
+            "compensation",
+            "base pay",
+            "pay",
+            "the number",
+            "the offer"
+          ]
+        ],
+        "model": [
+          "Thank you so much. I'm really excited about the role, but I'd like to talk about the salary before I sign.",
+          "I appreciate the offer, and I'm genuinely enthusiastic about the team. I was hoping we could discuss the base salary."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi want more money\\b",
+            "fix": "I'd like to discuss the salary",
+            "why_es": "Demasiado directo; en una negociación se suaviza: *I'd like to discuss…*"
+          }
+        ]
+      },
+      {
+        "npc": "Of course. The offer is seventy-two thousand. Where were you hoping to land?",
+        "npc_es": "Claro. La oferta es de setenta y dos mil. ¿En qué cifra pensabas?",
+        "task_es": "Pide ochenta mil y justifícalo con tu experiencia y con lo que pagan puestos similares en Alberta.",
+        "expect": [
+          [
+            "eighty",
+            "80",
+            "80k",
+            "80000"
+          ],
+          [
+            "experience",
+            "years",
+            "background",
+            "skills",
+            "track record"
+          ],
+          [
+            "market",
+            "similar roles",
+            "comparable",
+            "research",
+            "industry",
+            "range",
+            "alberta"
+          ]
+        ],
+        "model": [
+          "Based on my eight years of experience and what similar roles pay in Alberta, I was hoping for something closer to eighty thousand.",
+          "My research on comparable positions suggests a range around eighty thousand, which I think reflects my background."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi (was )?thinking in\\b",
+            "fix": "I was thinking of / hoping for",
+            "why_es": "*Pensar en* una cifra = *think of*, no *think in*."
+          },
+          {
+            "wrong": "\\bmy pretensions\\b",
+            "fix": "my salary expectations",
+            "why_es": "Falso amigo: *pretensiones salariales* = *salary expectations*."
+          }
+        ]
+      },
+      {
+        "npc": "I hear you. Honestly, eighty is above our band for this level. The best I can do on base is seventy-six.",
+        "npc_es": "Te entiendo. Sinceramente, ochenta está por encima de nuestro rango para este nivel. Lo máximo que puedo ofrecer de base es setenta y seis.",
+        "task_es": "Reconoce el esfuerzo y pregunta si hay flexibilidad en otros aspectos, como un bono de firma o más días de vacaciones.",
+        "expect": [
+          [
+            "appreciate",
+            "thank",
+            "understand",
+            "fair",
+            "i see"
+          ],
+          [
+            "signing bonus",
+            "bonus",
+            "vacation",
+            "time off",
+            "pto",
+            "benefits",
+            "flexibility",
+            "other areas",
+            "remote",
+            "professional development"
+          ]
+        ],
+        "model": [
+          "I appreciate you moving on that. Is there any flexibility elsewhere, like a signing bonus or an extra week of vacation?",
+          "That's fair, and I understand the band. Could we look at other parts of the package, such as more time off?"
+        ],
+        "tips": [
+          {
+            "wrong": "\\bvacations\\b",
+            "fix": "vacation / time off",
+            "why_es": "En inglés norteamericano se dice *vacation* (singular) o *time off*."
+          },
+          {
+            "wrong": "\\bbonus of signature\\b",
+            "fix": "signing bonus",
+            "why_es": "Bono de contratación = *signing bonus*."
+          }
+        ]
+      },
+      {
+        "npc": "That's a reasonable ask. I could probably get approval for a three-thousand-dollar signing bonus and a fourth week of vacation.",
+        "npc_es": "Es una petición razonable. Probablemente consiga aprobación para un bono de firma de tres mil dólares y una cuarta semana de vacaciones.",
+        "task_es": "Responde positivamente y pide una revisión salarial a los seis meses según tu desempeño.",
+        "expect": [
+          [
+            "great",
+            "sounds good",
+            "works",
+            "appreciate",
+            "helpful",
+            "that helps",
+            "generous",
+            "helps"
+          ],
+          [
+            "review",
+            "revisit",
+            "check in",
+            "reassess"
+          ],
+          [
+            "six months",
+            "6 months",
+            "six month"
+          ]
+        ],
+        "model": [
+          "That sounds great, thank you. Would it also be possible to schedule a salary review after six months, based on performance?",
+          "That really helps. Could we agree to revisit the base salary at the six-month mark, depending on my results?"
+        ],
+        "tips": [
+          {
+            "wrong": "\\bin six months more\\b",
+            "fix": "in six months / after six months",
+            "why_es": "*Dentro de seis meses* = *in six months*."
+          }
+        ]
+      },
+      {
+        "npc": "I think we can put a six-month review in writing. So, with all that, are you ready to accept?",
+        "npc_es": "Creo que podemos poner por escrito la revisión a los seis meses. Con todo eso, ¿estás listo para aceptar?",
+        "task_es": "Di que sí, con gusto, una vez que recibas la oferta actualizada por escrito.",
+        "expect": [
+          [
+            "yes",
+            "happy to",
+            "glad to",
+            "accept",
+            "on board",
+            "deal",
+            "absolutely",
+            "sign"
+          ],
+          [
+            "writing",
+            "written",
+            "updated offer",
+            "revised offer",
+            "email",
+            "paper",
+            "contract"
+          ]
+        ],
+        "model": [
+          "Yes, I'd be happy to accept once I receive the updated offer in writing.",
+          "Absolutely. Please send the revised offer letter, and I'll sign as soon as I've reviewed it."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi accept the offer of you\\b",
+            "fix": "I accept your offer",
+            "why_es": "Posesivo antes del sustantivo: *your offer*."
+          }
+        ]
+      },
+      {
+        "npc": "Wonderful! I'll send it over this afternoon. Welcome to the team, {name}.",
+        "npc_es": "¡Excelente! Te la mando esta tarde. Bienvenido al equipo.",
+        "task_es": "Agradece su ayuda durante el proceso y di que esperas empezar.",
+        "expect": [
+          [
+            "thank",
+            "thanks",
+            "appreciate"
+          ],
+          [
+            "looking forward",
+            "excited",
+            "cannot wait",
+            "can not wait",
+            "start",
+            "joining"
+          ]
+        ],
+        "model": [
+          "Thank you for advocating for me. I'm really looking forward to getting started.",
+          "Thanks so much for your help with this. I can't wait to join the team."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi wait (to|for) start\\b",
+            "fix": "I'm looking forward to starting",
+            "why_es": "*Looking forward to* + verbo en -ing."
+          }
+        ]
+      }
+    ],
+    "useful": [
+      "I was hoping for something closer to…",
+      "Is there any flexibility elsewhere?",
+      "signing bonus",
+      "Could we revisit it in six months?",
+      "once I receive it in writing"
+    ]
+  },
+  {
+    "id": "rp-peer-feedback",
+    "area": "reuniones",
+    "level": "C1",
+    "title": "Giving difficult feedback to a peer",
+    "title_es": "Dar retroalimentación difícil a un colega",
+    "setting_es": "Jordan, tu compañero de equipo, ha entregado tarde su parte del proyecto varias veces y eso te ha obligado a quedarte hasta tarde. Le pediste un café uno a uno para hablarlo con tacto.",
+    "npc": "Jordan",
+    "turns": [
+      {
+        "npc": "Hey {name}, you wanted to grab a coffee? Everything okay?",
+        "npc_es": "Oye, ¿querías ir por un café? ¿Todo bien?",
+        "task_es": "Abre la conversación con calidez: di que valoras trabajar con él y que quieres comentarle algo que te ha estado preocupando.",
+        "expect": [
+          [
+            "enjoy",
+            "value",
+            "appreciate",
+            "like working",
+            "great working"
+          ],
+          [
+            "something",
+            "bring up",
+            "talk about",
+            "mention",
+            "on my mind",
+            "concern"
+          ]
+        ],
+        "model": [
+          "Yeah, all good. I really enjoy working with you, and there's something I'd like to bring up, if that's okay.",
+          "Everything's fine. I value our collaboration, so I wanted to talk about something that's been on my mind."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi have to tell you something bad\\b",
+            "fix": "there's something I'd like to bring up",
+            "why_es": "Suena alarmante; *bring up* abre el tema con suavidad."
+          }
+        ]
+      },
+      {
+        "npc": "Sure, go ahead. What's up?",
+        "npc_es": "Claro, dime. ¿Qué pasa?",
+        "task_es": "Describe el hecho concreto sin acusar: en los últimos tres sprints, su parte llegó uno o dos días tarde.",
+        "expect": [
+          [
+            "last three",
+            "past three",
+            "three sprints",
+            "last few",
+            "recent",
+            "past few"
+          ],
+          [
+            "late",
+            "behind",
+            "after the deadline",
+            "delayed",
+            "past the deadline"
+          ]
+        ],
+        "model": [
+          "Over the last three sprints, I've noticed that your part has come in a day or two after the deadline.",
+          "In the past few sprints, the API work has been arriving a bit late, usually by a day or two."
+        ],
+        "tips": [
+          {
+            "wrong": "\\byou are always late\\b|\\byou never\\b",
+            "fix": "I've noticed that…",
+            "why_es": "Evita generalizar con *always/never*; describe hechos concretos."
+          }
+        ]
+      },
+      {
+        "npc": "Oh. I mean, I didn't think a day here or there was a big deal.",
+        "npc_es": "Ah. Bueno, no pensé que un día aquí o allá fuera para tanto.",
+        "task_es": "Explica el impacto: tú tienes que quedarte tarde para hacer pruebas y el equipo de QA pierde tiempo.",
+        "expect": [
+          [
+            "impact",
+            "affects",
+            "means",
+            "result",
+            "knock-on",
+            "so i",
+            "which means"
+          ],
+          [
+            "stay late",
+            "staying late",
+            "late nights",
+            "overtime",
+            "evening",
+            "work late"
+          ],
+          [
+            "qa",
+            "testing",
+            "tests",
+            "testers",
+            "team"
+          ]
+        ],
+        "model": [
+          "I understand, but the impact is that I end up staying late to finish testing, and QA loses time too.",
+          "It does have a knock-on effect: I've had to work late to test, and the QA team gets squeezed."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bit affects to\\b",
+            "fix": "it affects",
+            "why_es": "*Affect* es transitivo: sin *to*."
+          }
+        ]
+      },
+      {
+        "npc": "Hmm. Honestly, I've been pulled into a lot of support tickets lately. I'm kind of drowning.",
+        "npc_es": "Mmm. La verdad es que me han jalado a muchos tickets de soporte últimamente. Estoy bastante saturado.",
+        "task_es": "Muestra empatía y pregunta si podrían hablar con la líder para redistribuir los tickets.",
+        "expect": [
+          [
+            "sorry",
+            "understand",
+            "makes sense",
+            "sounds tough",
+            "did not know",
+            "sounds like a lot"
+          ],
+          [
+            "manager",
+            "lead",
+            "team lead",
+            "talk to",
+            "raise it",
+            "bring it up"
+          ],
+          [
+            "redistribute",
+            "rebalance",
+            "share",
+            "split",
+            "rotation",
+            "workload",
+            "reassign",
+            "spread",
+            "redistributing",
+            "rebalancing",
+            "sharing"
+          ]
+        ],
+        "model": [
+          "That sounds like a lot, I didn't realize. Should we talk to our lead about redistributing the support tickets?",
+          "That makes sense. Maybe we could raise it with the team lead and set up a rotation so the workload is shared."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi comprehend\\b",
+            "fix": "I understand / that makes sense",
+            "why_es": "*Comprehend* es muy formal; se dice *I understand*."
+          }
+        ]
+      },
+      {
+        "npc": "Yeah, that would actually help a lot. I should have said something sooner.",
+        "npc_es": "Sí, eso ayudaría mucho. Debí haber dicho algo antes.",
+        "task_es": "Tranquilízalo y propón que, si ve que no llega a una fecha, te avise con un día de anticipación.",
+        "expect": [
+          [
+            "no worries",
+            "it is okay",
+            "do not worry",
+            "totally fine",
+            "happens"
+          ],
+          [
+            "heads up",
+            "let me know",
+            "tell me",
+            "flag",
+            "give me notice"
+          ],
+          [
+            "day",
+            "advance",
+            "ahead",
+            "early",
+            "sooner"
+          ]
+        ],
+        "model": [
+          "No worries, it happens. Going forward, could you just give me a heads up a day in advance if something's going to slip?",
+          "Don't worry about it. If you see a deadline is at risk, just flag it a day ahead so I can plan around it."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bwith one day of anticipation\\b",
+            "fix": "a day in advance",
+            "why_es": "Con anticipación = *in advance* / *ahead of time*."
+          }
+        ]
+      },
+      {
+        "npc": "Deal. Thanks for being straight with me, {name}. I appreciate it.",
+        "npc_es": "Trato hecho. Gracias por ser directo conmigo. Lo valoro.",
+        "task_es": "Cierra de forma positiva: agradécele la apertura y propón volver a revisarlo en dos semanas.",
+        "expect": [
+          [
+            "thanks",
+            "thank",
+            "appreciate",
+            "glad"
+          ],
+          [
+            "two weeks",
+            "2 weeks",
+            "couple of weeks",
+            "check in",
+            "follow up",
+            "touch base",
+            "next sprint"
+          ]
+        ],
+        "model": [
+          "Thanks for being so open about it. Let's check in again in two weeks and see how it's going.",
+          "I appreciate you hearing me out. Shall we touch base after the next sprint?"
+        ],
+        "tips": [
+          {
+            "wrong": "\\bin two weeks more\\b",
+            "fix": "in two weeks",
+            "why_es": "*Dentro de dos semanas* = *in two weeks*."
+          }
+        ]
+      }
+    ],
+    "useful": [
+      "There's something I'd like to bring up",
+      "I've noticed that…",
+      "The impact is that…",
+      "Could you give me a heads up?",
+      "Let's check in again in two weeks"
+    ]
+  },
+  {
+    "id": "rp-deposit-dispute",
+    "area": "vivienda",
+    "level": "C1",
+    "title": "Disputing a damage deposit",
+    "title_es": "Reclamar el depósito de la renta",
+    "setting_es": "Dejaste tu departamento hace tres semanas. El casero quiere quedarse con casi todo tu depósito por daños que, según tú, ya existían o son desgaste normal. Lo llamas para resolverlo.",
+    "npc": "Landlord",
+    "turns": [
+      {
+        "npc": "Hello, this is Gary speaking.",
+        "npc_es": "Hola, habla Gary.",
+        "task_es": "Preséntate como el inquilino anterior del departamento 204 y di que llamas por el depósito.",
+        "expect": [
+          [
+            "tenant",
+            "renter",
+            "rented",
+            "lived",
+            "used to live",
+            "used to rent",
+            "rent"
+          ],
+          [
+            "204",
+            "two oh four",
+            "two zero four",
+            "unit",
+            "apartment",
+            "suite"
+          ],
+          [
+            "deposit",
+            "damage deposit",
+            "security deposit"
+          ]
+        ],
+        "model": [
+          "Hi Gary, this is {name}, the former tenant in unit 204. I'm calling about my damage deposit.",
+          "Hello, it's {name}. I used to rent suite 204, and I'd like to talk about the security deposit."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bthe deposit of garantee\\b|\\bguarantee deposit\\b",
+            "fix": "damage deposit / security deposit",
+            "why_es": "En Alberta se dice *security deposit* o *damage deposit*."
+          }
+        ]
+      },
+      {
+        "npc": "Right. I sent you the statement. There was damage to the carpet and the walls, so I'm keeping eleven hundred.",
+        "npc_es": "Ah, sí. Te mandé el estado de cuenta. Había daños en la alfombra y las paredes, así que me quedo con mil cien.",
+        "task_es": "Di con calma que no estás de acuerdo: la mancha de la alfombra ya estaba en la inspección de entrada.",
+        "expect": [
+          [
+            "disagree",
+            "do not agree",
+            "not sure i agree",
+            "respectfully",
+            "concern"
+          ],
+          [
+            "move-in",
+            "move in",
+            "initial inspection",
+            "inspection report",
+            "when i moved",
+            "already there",
+            "before i moved"
+          ]
+        ],
+        "model": [
+          "I respectfully disagree. The stain on the carpet was already noted in the move-in inspection report.",
+          "I'm not sure I agree with that. That carpet stain was there when I moved in, and it's on the initial inspection."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bthe moquette\\b",
+            "fix": "the carpet",
+            "why_es": "Alfombra (de pared a pared) = *carpet*."
+          }
+        ]
+      },
+      {
+        "npc": "Well, I don't remember that. And what about the nail holes in the living room walls?",
+        "npc_es": "Pues no lo recuerdo. ¿Y qué me dices de los agujeros de clavos en las paredes de la sala?",
+        "task_es": "Explica que unos cuantos agujeros pequeños de cuadros se consideran desgaste normal, no daño.",
+        "expect": [
+          [
+            "small",
+            "few",
+            "couple",
+            "minor",
+            "tiny"
+          ],
+          [
+            "normal wear and tear",
+            "wear and tear",
+            "normal use",
+            "reasonable use"
+          ]
+        ],
+        "model": [
+          "A few small holes from hanging pictures are generally considered normal wear and tear, not damage.",
+          "Those are just a couple of tiny nail holes. That's usually treated as normal wear and tear."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bnormal use and tear\\b|\\bnormal wear\\b(?! and)",
+            "fix": "normal wear and tear",
+            "why_es": "Expresión fija: *normal wear and tear* (desgaste normal)."
+          }
+        ]
+      },
+      {
+        "npc": "Maybe, but I still had to pay someone to repaint the whole room.",
+        "npc_es": "Puede ser, pero aun así tuve que pagarle a alguien para pintar todo el cuarto.",
+        "task_es": "Pide copias de los recibos de la reparación y las fotos de la inspección de salida.",
+        "expect": [
+          [
+            "receipts",
+            "invoices",
+            "invoice",
+            "receipt",
+            "bill"
+          ],
+          [
+            "photos",
+            "pictures",
+            "move-out",
+            "move out",
+            "inspection",
+            "report"
+          ]
+        ],
+        "model": [
+          "I understand. Could you send me copies of the receipts for the painting and the photos from the move-out inspection?",
+          "In that case, I'd like to see the invoices and the move-out inspection report, please."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bthe tickets\\b",
+            "fix": "the receipts",
+            "why_es": "Ticket de compra = *receipt*."
+          }
+        ]
+      },
+      {
+        "npc": "Look, I'm not trying to rip you off. What would you consider fair?",
+        "npc_es": "Mira, no estoy tratando de verte la cara. ¿Qué te parecería justo?",
+        "task_es": "Propón un acuerdo: que se quede con doscientos por la limpieza y te devuelva el resto.",
+        "expect": [
+          [
+            "200",
+            "two hundred"
+          ],
+          [
+            "cleaning",
+            "clean"
+          ],
+          [
+            "rest",
+            "remainder",
+            "balance",
+            "return",
+            "refund",
+            "back"
+          ]
+        ],
+        "model": [
+          "I'd be willing to accept two hundred for cleaning, as long as you return the rest of the deposit.",
+          "A fair compromise would be keeping two hundred for cleaning and refunding the balance to me."
+        ],
+        "tips": [
+          {
+            "wrong": "\\breturn me\\b",
+            "fix": "return it to me / give me back",
+            "why_es": "*Return* algo *to* alguien; o *give me back*."
+          }
+        ]
+      },
+      {
+        "npc": "Hmm. And if I say no?",
+        "npc_es": "Mmm. ¿Y si te digo que no?",
+        "task_es": "Responde con tacto que preferirías resolverlo entre ustedes, pero que, si no, presentarías el caso ante el servicio de resolución de disputas de arrendamiento.",
+        "expect": [
+          [
+            "prefer",
+            "rather",
+            "hope",
+            "would like"
+          ],
+          [
+            "between us",
+            "ourselves",
+            "directly",
+            "resolve",
+            "sort it out",
+            "work it out"
+          ],
+          [
+            "dispute",
+            "tribunal",
+            "residential tenancy",
+            "tenancy",
+            "file",
+            "formal"
+          ]
+        ],
+        "model": [
+          "I'd really prefer to sort this out between us, but otherwise I'd file with the residential tenancy dispute service.",
+          "I'd rather resolve it directly with you. If we can't, I'd have to take it to the tenancy dispute service."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi will denounce you\\b",
+            "fix": "I'd file a claim",
+            "why_es": "Falso amigo: *denunciar* en este contexto = *file a claim / a complaint*."
+          }
+        ]
+      },
+      {
+        "npc": "Okay, okay. Two hundred for cleaning. I'll e-transfer you the rest by Friday.",
+        "npc_es": "Ya, está bien. Doscientos por la limpieza. Te mando el resto por transferencia el viernes.",
+        "task_es": "Agradece y pide que te lo confirme por correo electrónico.",
+        "expect": [
+          [
+            "thank",
+            "thanks",
+            "appreciate"
+          ],
+          [
+            "email",
+            "in writing",
+            "written",
+            "text",
+            "confirm"
+          ]
+        ],
+        "model": [
+          "Thank you, Gary. Could you confirm that in an email so we both have it in writing?",
+          "I appreciate it. Would you mind sending me a quick email to confirm?"
+        ],
+        "tips": [
+          {
+            "wrong": "\\bmail me\\b",
+            "fix": "email me",
+            "why_es": "*Mail* es correo postal; correo electrónico = *email*."
+          }
+        ]
+      }
+    ],
+    "useful": [
+      "I respectfully disagree",
+      "It was noted in the move-in inspection",
+      "normal wear and tear",
+      "Could you send me copies of the receipts?",
+      "I'd prefer to sort this out between us"
+    ]
+  },
+  {
+    "id": "rp-design-review-defense",
+    "area": "software",
+    "level": "C2",
+    "title": "Defending a technical decision",
+    "title_es": "Defender una decisión técnica en una revisión de diseño",
+    "setting_es": "Propusiste usar una cola de mensajes para procesar pedidos de forma asíncrona en lugar de llamadas directas entre servicios. En la revisión de diseño, un arquitecto sénior cuestiona tu propuesta frente a todo el equipo.",
+    "npc": "Principal architect",
+    "turns": [
+      {
+        "npc": "Thanks, {name}. I'll be candid: introducing a message queue feels like overkill for our traffic. Why not keep the synchronous calls?",
+        "npc_es": "Gracias. Seré franco: meter una cola de mensajes parece excesivo para nuestro tráfico. ¿Por qué no mantener las llamadas síncronas?",
+        "task_es": "Reconoce la preocupación y explica que el problema no es el volumen promedio sino los picos, cuando un servicio lento tumba toda la cadena.",
+        "expect": [
+          [
+            "fair",
+            "valid",
+            "good point",
+            "understand",
+            "appreciate",
+            "legitimate"
+          ],
+          [
+            "peak",
+            "peaks",
+            "spike",
+            "spikes",
+            "bursts",
+            "black friday",
+            "surge"
+          ],
+          [
+            "cascade",
+            "cascading",
+            "chain",
+            "take down",
+            "brings down",
+            "knock-on",
+            "timeouts"
+          ]
+        ],
+        "model": [
+          "That's a fair challenge. The issue isn't our average load, it's the spikes: when one downstream service slows down, the synchronous chain cascades and everything times out.",
+          "I appreciate the pushback. My concern is less about volume and more about traffic bursts, where a single slow dependency brings down the whole chain."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bthe peaks of traffic\\b",
+            "fix": "traffic spikes / peak traffic",
+            "why_es": "Natural: *traffic spikes* o *peak traffic*."
+          }
+        ]
+      },
+      {
+        "npc": "But we could solve that with retries and circuit breakers, without adding a whole new piece of infrastructure.",
+        "npc_es": "Pero eso se puede resolver con reintentos y circuit breakers, sin añadir toda una nueva pieza de infraestructura.",
+        "task_es": "Concede que es una opción válida, pero argumenta que los reintentos pueden amplificar la carga y que, aun así, perderíamos pedidos si el servicio cae.",
+        "expect": [
+          [
+            "option",
+            "could work",
+            "valid",
+            "fair",
+            "agree",
+            "true",
+            "mitigate"
+          ],
+          [
+            "retries",
+            "retry",
+            "amplify",
+            "pile up",
+            "thundering herd",
+            "extra load",
+            "more load"
+          ],
+          [
+            "lose",
+            "lost",
+            "dropped",
+            "drop",
+            "durability",
+            "durable",
+            "persist"
+          ]
+        ],
+        "model": [
+          "Circuit breakers would certainly mitigate it, but retries tend to amplify load during an incident, and if the service is down, we'd still drop orders.",
+          "That's a valid option. My worry is that retries pile up exactly when we're struggling, and nothing guarantees durability, so orders could be lost."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bwe would loss\\b",
+            "fix": "we would lose",
+            "why_es": "Verbo: *lose*; sustantivo: *loss*."
+          }
+        ]
+      },
+      {
+        "npc": "Okay, but who's going to operate this thing? We don't have anyone on the team with experience running a broker.",
+        "npc_es": "Bien, pero ¿quién va a operar esto? Nadie del equipo tiene experiencia administrando un broker.",
+        "task_es": "Reconoce que el costo operativo es real y propón un servicio administrado en la nube para reducirlo, además de un runbook y capacitación.",
+        "expect": [
+          [
+            "real",
+            "valid",
+            "fair",
+            "concern",
+            "cost",
+            "overhead"
+          ],
+          [
+            "managed",
+            "cloud",
+            "hosted",
+            "fully managed"
+          ],
+          [
+            "runbook",
+            "training",
+            "documentation",
+            "playbook",
+            "upskill",
+            "knowledge transfer"
+          ]
+        ],
+        "model": [
+          "The operational overhead is a real concern. That's why I'd go with a fully managed cloud service and pair it with a runbook and some training for on-call.",
+          "Fair point. To keep the cost down, I'd use a managed offering rather than self-hosting, and I'd write the runbook and run a knowledge-transfer session."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bcapacitation\\b",
+            "fix": "training",
+            "why_es": "Falso amigo: *capacitación* = *training*."
+          }
+        ]
+      },
+      {
+        "npc": "And eventual consistency? Support will see orders that look 'pending' for a while. That's going to generate tickets.",
+        "npc_es": "¿Y la consistencia eventual? Soporte verá pedidos como «pendientes» un rato. Eso va a generar tickets.",
+        "task_es": "Admite el trade-off y explica cómo mitigarlo: mostrar un estado claro al usuario y alertas si un pedido queda pendiente más de un par de minutos.",
+        "expect": [
+          [
+            "trade-off",
+            "tradeoff",
+            "trade off",
+            "downside",
+            "admit",
+            "acknowledge",
+            "true"
+          ],
+          [
+            "status",
+            "state",
+            "message",
+            "ui",
+            "processing",
+            "show"
+          ],
+          [
+            "alert",
+            "alerts",
+            "alerting",
+            "monitor",
+            "monitoring",
+            "threshold",
+            "few minutes",
+            "couple of minutes"
+          ]
+        ],
+        "model": [
+          "That's a genuine trade-off. We'd mitigate it by showing a clear processing status in the UI and alerting if any order stays pending for more than a couple of minutes.",
+          "I acknowledge the downside. The plan is to surface the status to users and set up monitoring with a threshold, so we catch stuck orders before support does."
+        ],
+        "tips": [
+          {
+            "wrong": "\\beventual consistence\\b",
+            "fix": "eventual consistency",
+            "why_es": "Sustantivo: *consistency*."
+          }
+        ]
+      },
+      {
+        "npc": "I'm still not entirely convinced. What would it take for you to admit this was the wrong call?",
+        "npc_es": "Todavía no me convence del todo. ¿Qué haría falta para que admitieras que fue la decisión equivocada?",
+        "task_es": "Propón criterios medibles: un piloto en un solo flujo durante un mes, midiendo latencia, errores y carga operativa, y revertir si no mejora.",
+        "expect": [
+          [
+            "pilot",
+            "trial",
+            "experiment",
+            "proof of concept",
+            "one flow",
+            "single flow",
+            "limited"
+          ],
+          [
+            "measure",
+            "metrics",
+            "latency",
+            "error rate",
+            "errors",
+            "success criteria"
+          ],
+          [
+            "roll back",
+            "revert",
+            "back out",
+            "abandon",
+            "drop it",
+            "reconsider",
+            "roll it back",
+            "revert it"
+          ]
+        ],
+        "model": [
+          "Fair question. Let's pilot it on a single flow for a month, measure latency, error rate and on-call load, and if it doesn't improve, we roll it back.",
+          "I'd propose a limited proof of concept with clear success criteria. If the metrics don't move, I'll be the first to suggest we revert."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bmake a pilot\\b",
+            "fix": "run a pilot",
+            "why_es": "Colocación natural: *run a pilot*."
+          }
+        ]
+      },
+      {
+        "npc": "Alright. That's a reasonable compromise. Can you write up an ADR with those criteria before we commit?",
+        "npc_es": "De acuerdo. Es un compromiso razonable. ¿Puedes redactar un ADR con esos criterios antes de comprometernos?",
+        "task_es": "Acepta, di que incluirás las alternativas consideradas y sus objeciones, y agradécele el desafío.",
+        "expect": [
+          [
+            "yes",
+            "sure",
+            "absolutely",
+            "of course",
+            "will do",
+            "happy to"
+          ],
+          [
+            "alternatives",
+            "options",
+            "retries",
+            "circuit breakers",
+            "considered",
+            "objections",
+            "concerns"
+          ],
+          [
+            "thank",
+            "thanks",
+            "appreciate"
+          ]
+        ],
+        "model": [
+          "Absolutely. I'll include the alternatives we considered, including retries and circuit breakers, and your concerns. Thanks for pushing on this.",
+          "Happy to. The ADR will document the options and the objections raised today. I appreciate the scrutiny; it made the proposal stronger."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bthanks for the challenge me\\b",
+            "fix": "thanks for challenging me",
+            "why_es": "Tras preposición va verbo en -ing."
+          }
+        ]
+      }
+    ],
+    "useful": [
+      "That's a fair challenge",
+      "It's a genuine trade-off",
+      "We'd mitigate it by…",
+      "Let's pilot it with clear success criteria",
+      "If the metrics don't move, we roll it back"
+    ]
+  },
+  {
+    "id": "rp-neighbour-conflict",
+    "area": "hogar",
+    "level": "C2",
+    "title": "Defusing a tense neighbour dispute",
+    "title_es": "Calmar un conflicto tenso con un vecino",
+    "setting_es": "Tu vecino de la casa de al lado te para en la entrada, molesto: dice que tu nieve termina en su banqueta y que tu perro ladra cuando no estás. Quieres calmar la situación sin ceder en todo.",
+    "npc": "Neighbour",
+    "turns": [
+      {
+        "npc": "Hey. We need to talk. I'm getting really fed up with your snow ending up on my side of the walkway.",
+        "npc_es": "Oye. Tenemos que hablar. Ya me tiene harto que tu nieve termine de mi lado de la banqueta.",
+        "task_es": "Mantén la calma, valida su frustración y pídele que te explique exactamente qué ha pasado.",
+        "expect": [
+          [
+            "sorry",
+            "hear you",
+            "understand",
+            "frustrating",
+            "sounds frustrating",
+            "fair enough"
+          ],
+          [
+            "tell me",
+            "walk me through",
+            "explain",
+            "what happened",
+            "show me",
+            "more about"
+          ]
+        ],
+        "model": [
+          "I hear you, and I can see it's frustrating. Could you walk me through exactly what's been happening?",
+          "I'm sorry to hear that. I genuinely didn't realize, so can you tell me a bit more about what you've seen?"
+        ],
+        "tips": [
+          {
+            "wrong": "\\bcalm down\\b",
+            "fix": "I hear you",
+            "why_es": "Decir *calm down* suele empeorar las cosas; valida primero la emoción."
+          }
+        ]
+      },
+      {
+        "npc": "Every time you clear your driveway, you throw it right onto the boulevard by my walk. Then it melts and freezes into a sheet of ice.",
+        "npc_es": "Cada vez que limpias tu entrada, la avientas justo al camellón junto a mi banqueta. Luego se derrite y se congela como una pista de hielo.",
+        "task_es": "Reconoce que no lo habías pensado así, discúlpate sin exagerar y ofrece apilar la nieve del otro lado de tu entrada.",
+        "expect": [
+          [
+            "did not think",
+            "hadn't considered",
+            "had not considered",
+            "did not realize",
+            "never thought",
+            "fair point"
+          ],
+          [
+            "sorry",
+            "apologize",
+            "my bad",
+            "apologies"
+          ],
+          [
+            "other side",
+            "pile",
+            "my side",
+            "my yard",
+            "my lawn",
+            "instead"
+          ]
+        ],
+        "model": [
+          "That's a fair point; I hadn't considered the melting. I'm sorry about that. From now on, I'll pile it on the other side of my driveway.",
+          "I didn't realize it was turning into ice, and I apologize. I'll pile the snow on my own lawn instead."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bi am very very sorry\\b",
+            "fix": "I'm sorry about that",
+            "why_es": "Una disculpa breve y concreta suena más sincera que exagerarla."
+          }
+        ]
+      },
+      {
+        "npc": "Well, good. And while we're at it, your dog barks for hours when you're at work. My wife works nights. She can't sleep.",
+        "npc_es": "Bueno, qué bien. Y ya que estamos, tu perro ladra horas cuando estás en el trabajo. Mi esposa trabaja de noche. No puede dormir.",
+        "task_es": "Agradece que te lo diga, pero aclara con tacto que tus otros vecinos no han mencionado nada; pregúntale a qué horas suele pasar.",
+        "expect": [
+          [
+            "thank",
+            "thanks",
+            "appreciate",
+            "glad you told",
+            "good to know"
+          ],
+          [
+            "other neighbours",
+            "other neighbors",
+            "nobody else",
+            "no one else",
+            "hasn't come up",
+            "has not come up",
+            "first time",
+            "first i have heard",
+            "news to me"
+          ],
+          [
+            "what time",
+            "when",
+            "which hours",
+            "what hours",
+            "time of day"
+          ]
+        ],
+        "model": [
+          "I appreciate you telling me. To be honest, it hasn't come up with the other neighbours, so could you tell me roughly what time it usually happens?",
+          "Thanks for letting me know. This is the first I've heard of it, so it would help to know when it tends to start."
+        ],
+        "tips": [
+          {
+            "wrong": "\\bit's not possible\\b|\\bthat's impossible\\b",
+            "fix": "This is the first I've heard of it",
+            "why_es": "Negar en seco suena a ataque; mejor expresar sorpresa con tacto."
+          }
+        ]
+      },
+      {
+        "npc": "Late morning, usually. Right when she's trying to get to sleep. Are you saying I'm making it up?",
+        "npc_es": "A media mañana, normalmente. Justo cuando ella intenta dormirse. ¿Me estás diciendo que me lo invento?",
+        "task_es": "Desescala: aclara que no dudas de él, que quieres resolverlo y que pondrás una cámara para ver qué pasa.",
+        "expect": [
+          [
+            "not at all",
+            "not saying",
+            "of course not",
+            "believe you",
+            "not what i meant",
+            "did not mean"
+          ],
+          [
+            "fix",
+            "solve",
+            "sort",
+            "resolve",
+            "deal with",
+            "work out"
+          ],
+          [
+            "camera",
+            "record",
+            "monitor",
+            "pet cam",
+            "check"
+          ]
+        ],
+        "model": [
+          "Not at all, that's not what I meant. I want to sort this out, so I'll set up a camera this week to see what's setting him off.",
+          "Of course not, I believe you. I'll put a pet camera in so I can figure out what's going on and deal with it."
+        ],
+        "tips": [
+          {
+            "wrong": "\\byou are lying\\b|\\byou're exaggerating\\b",
+            "fix": "that's not what I meant",
+            "why_es": "Evita acusar; reformula tu intención."
+          }
+        ]
+      },
+      {
+        "npc": "And then what? A camera isn't going to stop him barking.",
+        "npc_es": "¿Y luego qué? Una cámara no va a hacer que deje de ladrar.",
+        "task_es": "Propón medidas concretas: un paseador de perros a media mañana y, si hace falta, consultar a un entrenador.",
+        "expect": [
+          [
+            "dog walker",
+            "walker",
+            "walk",
+            "daycare",
+            "doggy daycare"
+          ],
+          [
+            "trainer",
+            "training",
+            "behaviourist",
+            "behaviorist",
+            "vet"
+          ]
+        ],
+        "model": [
+          "Fair enough. I'll book a dog walker for late morning, and if that doesn't help, I'll bring in a trainer.",
+          "You're right. My plan is a midday walk with a dog walker, and if it's still a problem, I'll look into training or doggy daycare."
+        ],
+        "tips": [
+          {
+            "wrong": "\\ba walker of dogs\\b",
+            "fix": "a dog walker",
+            "why_es": "El sustantivo que modifica va antes: *dog walker*."
+          }
+        ]
+      },
+      {
+        "npc": "Hm. Okay. I guess that's more than I expected. Sorry if I came on a bit strong.",
+        "npc_es": "Mmm. Bueno. Supongo que es más de lo que esperaba. Perdón si me puse un poco intenso.",
+        "task_es": "Quítale importancia con amabilidad y propón intercambiar números para avisarse directamente si algo vuelve a pasar.",
+        "expect": [
+          [
+            "no worries",
+            "no problem",
+            "do not worry",
+            "totally understand",
+            "it is fine",
+            "no hard feelings"
+          ],
+          [
+            "number",
+            "numbers",
+            "text",
+            "contact",
+            "phone"
+          ],
+          [
+            "let me know",
+            "reach out",
+            "tell me",
+            "directly",
+            "heads up"
+          ]
+        ],
+        "model": [
+          "No hard feelings, I totally understand. Why don't we swap numbers, so you can text me directly if anything comes up again?",
+          "Don't worry about it. Let's exchange phone numbers; that way you can just let me know if there's ever an issue."
+        ],
+        "tips": [
+          {
+            "wrong": "\\binterchange numbers\\b",
+            "fix": "swap / exchange numbers",
+            "why_es": "Intercambiar números = *swap* o *exchange numbers*."
+          }
+        ]
+      }
+    ],
+    "useful": [
+      "I hear you",
+      "Could you walk me through what's been happening?",
+      "That's not what I meant",
+      "This is the first I've heard of it",
+      "No hard feelings",
+      "Let's swap numbers"
+    ]
   }
 ]

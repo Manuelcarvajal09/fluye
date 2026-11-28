@@ -35,7 +35,7 @@ export function MascotStudio({ look, setLook, onSpecies, ownedPets }: { look: Lo
           </label>
           <div className="flex flex-wrap gap-1" role="group" aria-label="Ver una emoción">
             {MOODS.map((m) => (
-              <button key={m.id} type="button" aria-pressed={mood === m.id} onClick={() => setMood(m.id)} className={`rounded-full px-2 py-1 text-[11px] font-extrabold ${mood === m.id ? "bg-accent text-white" : "bg-surface text-muted"}`}>
+              <button key={m.id} type="button" aria-pressed={mood === m.id} onClick={() => setMood(m.id)} className={`rounded-full px-2 py-1 text-xs font-extrabold ${mood === m.id ? "bg-accent text-white" : "bg-surface text-muted"}`}>
                 {m.label}
               </button>
             ))}

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "content": "node scripts/build-content.mjs && node scripts/build-catalog.mjs",
+    "content": "node scripts/build-content.mjs && node scripts/build-catalog.mjs && node scripts/build-ux-art.mjs && node scripts/build-readings.mjs && node scripts/build-themes.mjs",
     "predev": "npm run content",
     "dev": "next dev",
     "prebuild": "npm run content",

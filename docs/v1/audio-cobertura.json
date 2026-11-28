@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "voices": [
     {
       "id": "af_heart",
@@ -13,47 +13,47 @@
     }
   ],
   "total": {
-    "required": 40912,
-    "ok": 40912
+    "required": 43675,
+    "ok": 43675
   },
   "groups": [
     {
       "voice": "af_heart",
       "group": "catalog",
-      "required": 25121,
-      "ok": 25121,
+      "required": 24943,
+      "ok": 24943,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "errors",
-      "required": 192,
-      "ok": 192,
+      "required": 190,
+      "ok": 190,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "grammar",
-      "required": 72,
-      "ok": 72,
+      "required": 428,
+      "ok": 428,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "item",
-      "required": 11812,
-      "ok": 11812,
+      "required": 13103,
+      "ok": 13103,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "lesson",
-      "required": 152,
-      "ok": 152,
+      "required": 267,
+      "ok": 267,
       "missing": 0,
       "invalid": 0
     },
@@ -84,40 +84,40 @@
     {
       "voice": "af_heart",
       "group": "roleplay-model",
-      "required": 338,
-      "ok": 338,
+      "required": 400,
+      "ok": 400,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "roleplay-useful",
-      "required": 144,
-      "ok": 144,
+      "required": 170,
+      "ok": 170,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "route",
-      "required": 261,
-      "ok": 261,
+      "required": 482,
+      "ok": 482,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "route-model",
-      "required": 620,
-      "ok": 620,
+      "required": 1026,
+      "ok": 1026,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "af_heart",
       "group": "route-repair",
-      "required": 118,
-      "ok": 118,
+      "required": 189,
+      "ok": 189,
       "missing": 0,
       "invalid": 0
     },
@@ -156,8 +156,8 @@
     {
       "voice": "am_adam",
       "group": "lesson",
-      "required": 200,
-      "ok": 200,
+      "required": 285,
+      "ok": 285,
       "missing": 0,
       "invalid": 0
     },
@@ -172,24 +172,24 @@
     {
       "voice": "am_adam",
       "group": "roleplay",
-      "required": 169,
-      "ok": 169,
+      "required": 200,
+      "ok": 200,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "am_adam",
       "group": "route",
-      "required": 231,
-      "ok": 231,
+      "required": 377,
+      "ok": 377,
       "missing": 0,
       "invalid": 0
     },
     {
       "voice": "am_adam",
       "group": "route-roleplay",
-      "required": 203,
-      "ok": 203,
+      "required": 336,
+      "ok": 336,
       "missing": 0,
       "invalid": 0
     },

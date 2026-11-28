@@ -1,0 +1,1484 @@
+{
+  "id": "entrevista-inventarios",
+  "title_es": "Entrevista: inventarios y almacén",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas",
+    "canada",
+    "datos"
+  ],
+  "season": null,
+  "objective_es": "Prepararte para entrevistas de auxiliar de inventarios o almacén en Edmonton: conteos, recepción, conciliación, seguridad, turnos, sistemas de inventario y negociación.",
+  "tracks": [
+    {
+      "id": "entrevista-inventarios-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 11,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Responder una entrevista sencilla para almacén: tu experiencia, recibir mercancía, seguridad, turnos y cuándo puedes empezar.",
+      "items": [
+        "phr-i-have-years-of-experience",
+        "col-receive-a-shipment",
+        "voc-pallet",
+        "col-barcode-scanner",
+        "voc-forklift",
+        "col-steel-toe-boots",
+        "col-night-shift",
+        "phr-im-available-to-start"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-inventarios-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 979,
+        "title": "Interview for a warehouse job",
+        "title_es": "Entrevista para un trabajo de almacén",
+        "intro_es": "Rosa tiene una entrevista en un almacén de Edmonton. Greg, el supervisor, le pregunta por su experiencia y por los turnos.",
+        "lines": [
+          {
+            "who": "Greg",
+            "en": "Hi, Rosa. I'm Greg, the warehouse supervisor. Do you have warehouse experience?",
+            "es": "Hola, Rosa. Soy Greg, el supervisor del almacén. ¿Tienes experiencia en almacén?"
+          },
+          {
+            "who": "Rosa",
+            "en": "Yes. [I have three years of experience] in a warehouse in Monterrey.",
+            "es": "Sí. Tengo tres años de experiencia en un almacén en Monterrey.",
+            "item": "phr-i-have-years-of-experience"
+          },
+          {
+            "who": "Greg",
+            "en": "What did you do there?",
+            "es": "¿Qué hacías ahí?"
+          },
+          {
+            "who": "Rosa",
+            "en": "I helped [receive shipments] every morning.",
+            "es": "Ayudaba a recibir mercancía todas las mañanas.",
+            "item": "col-receive-a-shipment"
+          },
+          {
+            "who": "Rosa",
+            "en": "I counted the boxes and checked each [pallet].",
+            "es": "Contaba las cajas y revisaba cada tarima.",
+            "item": "voc-pallet"
+          },
+          {
+            "who": "Greg",
+            "en": "Did you use a [barcode scanner]?",
+            "es": "¿Usabas un lector de código de barras?",
+            "item": "col-barcode-scanner"
+          },
+          {
+            "who": "Rosa",
+            "en": "Yes, every day. I scanned all the boxes into the system.",
+            "es": "Sí, todos los días. Escaneaba todas las cajas en el sistema."
+          },
+          {
+            "who": "Greg",
+            "en": "Can you drive a [forklift]?",
+            "es": "¿Sabes manejar un montacargas?",
+            "item": "voc-forklift"
+          },
+          {
+            "who": "Rosa",
+            "en": "Not in Canada yet. I don't have the certificate here, but I want to get it.",
+            "es": "Aquí en Canadá todavía no. No tengo el certificado aquí, pero quiero sacarlo."
+          },
+          {
+            "who": "Greg",
+            "en": "Okay, we can train you. Safety is very important here.",
+            "es": "Está bien, te podemos capacitar. Aquí la seguridad es muy importante."
+          },
+          {
+            "who": "Rosa",
+            "en": "I understand. I have [steel-toe boots] and safety glasses.",
+            "es": "Entiendo. Tengo botas con casquillo y lentes de seguridad.",
+            "item": "col-steel-toe-boots"
+          },
+          {
+            "who": "Greg",
+            "en": "Good. Can you work the [night shift]?",
+            "es": "Bien. ¿Puedes trabajar el turno de noche?",
+            "item": "col-night-shift"
+          },
+          {
+            "who": "Rosa",
+            "en": "Yes, nights are fine. Weekends are fine too.",
+            "es": "Sí, las noches están bien. Los fines de semana también."
+          },
+          {
+            "who": "Greg",
+            "en": "Great. When can you start?",
+            "es": "Muy bien. ¿Cuándo puedes empezar?"
+          },
+          {
+            "who": "Rosa",
+            "en": "[I'm available to start] next Monday.",
+            "es": "Puedo empezar el próximo lunes.",
+            "item": "phr-im-available-to-start"
+          },
+          {
+            "who": "Greg",
+            "en": "Perfect. I'll call you on Thursday.",
+            "es": "Perfecto. Te llamo el jueves."
+          }
+        ],
+        "items": [
+          "phr-i-have-years-of-experience",
+          "col-receive-a-shipment",
+          "voc-pallet",
+          "col-barcode-scanner",
+          "voc-forklift",
+          "col-steel-toe-boots",
+          "col-night-shift",
+          "phr-im-available-to-start"
+        ],
+        "questions": [
+          {
+            "q": "Where did Rosa work before?",
+            "options": [
+              "In a store in Toronto",
+              "In a warehouse in Monterrey",
+              "In an office"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'in a warehouse in Monterrey'."
+          },
+          {
+            "q": "What does Rosa say about the forklift?",
+            "options": [
+              "She drives one every day",
+              "She doesn't like it",
+              "She doesn't have the certificate in Canada yet"
+            ],
+            "answer": 2,
+            "why_es": "Responde: 'I don't have the certificate here, but I want to get it'."
+          },
+          {
+            "q": "Which shift can Rosa work?",
+            "options": [
+              "The night shift",
+              "Only mornings",
+              "Only Mondays"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'Yes, nights are fine'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di que recibías mercancía y contabas cajas.",
+          "model": [
+            "I received shipments and counted boxes.",
+            "Every morning I helped receive shipments and count boxes."
+          ],
+          "expect": [
+            [
+              "receive",
+              "received",
+              "shipment",
+              "shipments"
+            ],
+            [
+              "count",
+              "counted",
+              "boxes"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di con honestidad que no tienes el certificado de montacargas en Canadá, pero quieres sacarlo.",
+          "model": [
+            "I don't have a forklift certificate in Canada yet, but I want to get it.",
+            "I'm not certified on forklifts here yet, but I'd like to get certified."
+          ],
+          "expect": [
+            [
+              "forklift",
+              "forklifts"
+            ],
+            [
+              "certificate",
+              "certified",
+              "license",
+              "licence"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que puedes trabajar el turno de noche y los fines de semana.",
+          "model": [
+            "I can work the night shift and weekends.",
+            "Nights and weekends are fine for me."
+          ],
+          "expect": [
+            [
+              "night",
+              "nights"
+            ],
+            [
+              "weekend",
+              "weekends"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Hay mucho ruido y no escuchaste.",
+          "en": "Sorry, it's a bit loud. Could you say that again?",
+          "es": "Perdón, hay un poco de ruido. ¿Lo puede repetir?"
+        },
+        {
+          "situation_es": "No conoces una palabra.",
+          "en": "Sorry, what's a pallet jack?",
+          "es": "Perdón, ¿qué es un 'pallet jack'?"
+        },
+        {
+          "situation_es": "Quieres confirmar el día.",
+          "en": "So you'll call me on Thursday, right?",
+          "es": "Entonces me llama el jueves, ¿verdad?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-inventarios-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "Interview: warehouse associate",
+        "title_es": "Entrevista: auxiliar de almacén",
+        "setting_es": "Entrevista en un almacén de Edmonton para un puesto de auxiliar. El supervisor te hace preguntas cortas sobre experiencia, seguridad y turnos.",
+        "npc": "Warehouse supervisor",
+        "turns": [
+          {
+            "npc": "Hi {name}, thanks for coming. Do you have any warehouse experience?",
+            "npc_es": "Hola {name}, gracias por venir. ¿Tienes experiencia en almacén?",
+            "task_es": "Di cuántos años de experiencia tienes y dónde.",
+            "expect": [
+              [
+                "experience",
+                "worked",
+                "work"
+              ],
+              [
+                "warehouse",
+                "store",
+                "factory",
+                "years",
+                "year"
+              ]
+            ],
+            "model": [
+              "Yes, I have two years of experience in a warehouse.",
+              "Yes, I worked in a factory warehouse for three years."
+            ]
+          },
+          {
+            "npc": "What did you do every day?",
+            "npc_es": "¿Qué hacías todos los días?",
+            "task_es": "Di dos tareas: recibir mercancía, contar o escanear cajas.",
+            "expect": [
+              [
+                "receive",
+                "received",
+                "shipments",
+                "shipment",
+                "boxes",
+                "count",
+                "counted",
+                "scan",
+                "scanned",
+                "pallets",
+                "stock"
+              ]
+            ],
+            "model": [
+              "I received shipments and scanned boxes.",
+              "I counted stock and checked pallets."
+            ]
+          },
+          {
+            "npc": "Are you okay with safety rules? You need steel-toe boots here.",
+            "npc_es": "¿Estás de acuerdo con las reglas de seguridad? Aquí necesitas botas con casquillo.",
+            "task_es": "Di que sí y que tienes botas de seguridad.",
+            "expect": [
+              [
+                "yes",
+                "sure",
+                "of course"
+              ],
+              [
+                "boots",
+                "safety"
+              ]
+            ],
+            "model": [
+              "Yes, of course. I have steel-toe boots.",
+              "Sure. Safety is important, and I have safety boots."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bsecurity boots\\b",
+                "fix": "safety boots / steel-toe boots",
+                "why_es": "*Seguridad* física es *safety*; *security* es protección contra robos o ataques."
+              }
+            ]
+          },
+          {
+            "npc": "Can you work nights or weekends?",
+            "npc_es": "¿Puedes trabajar de noche o los fines de semana?",
+            "task_es": "Di qué turnos puedes trabajar.",
+            "expect": [
+              [
+                "night",
+                "nights",
+                "weekend",
+                "weekends",
+                "morning",
+                "mornings",
+                "evening",
+                "evenings",
+                "shift",
+                "shifts"
+              ]
+            ],
+            "model": [
+              "I can work nights and weekends.",
+              "I prefer mornings, but I can do some weekend shifts."
+            ]
+          },
+          {
+            "npc": "Are you eligible to work in Canada?",
+            "npc_es": "¿Tienes autorización para trabajar en Canadá?",
+            "task_es": "Responde con honestidad según tu caso.",
+            "expect": [
+              [
+                "eligible",
+                "permit",
+                "yes",
+                "citizen",
+                "resident"
+              ]
+            ],
+            "model": [
+              "Yes, I'm eligible to work in Canada.",
+              "I have a work permit, so yes."
+            ]
+          },
+          {
+            "npc": "When can you start?",
+            "npc_es": "¿Cuándo puedes empezar?",
+            "task_es": "Di cuándo puedes empezar y da las gracias.",
+            "expect": [
+              [
+                "start",
+                "available"
+              ],
+              [
+                "thank",
+                "thanks"
+              ]
+            ],
+            "model": [
+              "I'm available to start next Monday. Thank you!",
+              "I can start next week. Thanks for your time."
+            ]
+          }
+        ],
+        "useful": [
+          "I have … years of experience.",
+          "I received shipments.",
+          "I have steel-toe boots.",
+          "I can work the night shift.",
+          "I'm available to start…"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-inventarios-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Contar con el método STAR cómo encontraste y corregiste una diferencia de inventario, y hablar de presión, turnos, referencias y pago por hora.",
+      "items": [
+        "col-cycle-count",
+        "voc-discrepancy",
+        "col-packing-slip",
+        "col-purchase-order",
+        "col-update-the-inventory",
+        "voc-stock",
+        "col-work-under-pressure",
+        "col-provide-references",
+        "voc-reliable",
+        "voc-shift"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-inventarios-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 980,
+        "title": "Interview: inventory control clerk",
+        "title_es": "Entrevista: auxiliar de control de inventarios",
+        "intro_es": "Ana tiene una entrevista para auxiliar de control de inventarios. Rhonda, gerente de inventarios, y Tunde, de operaciones, le piden un ejemplo concreto.",
+        "lines": [
+          {
+            "who": "Rhonda",
+            "en": "Ana, this role is all about accuracy. Tell us about a time you found a problem in the numbers.",
+            "es": "Ana, este puesto se trata de precisión. Cuéntanos de una vez en que encontraste un problema en los números."
+          },
+          {
+            "who": "Ana",
+            "en": "Sure. During a weekly [cycle count], the system showed forty cases of gloves, but we only had twenty-eight.",
+            "es": "Claro. En un conteo cíclico semanal, el sistema mostraba cuarenta cajas de guantes, pero solo teníamos veintiocho.",
+            "item": "col-cycle-count"
+          },
+          {
+            "who": "Ana",
+            "en": "My job was to find the [discrepancy] before the monthly report.",
+            "es": "Mi trabajo era encontrar la diferencia antes del reporte mensual.",
+            "item": "voc-discrepancy"
+          },
+          {
+            "who": "Tunde",
+            "en": "Where did you start?",
+            "es": "¿Por dónde empezaste?"
+          },
+          {
+            "who": "Ana",
+            "en": "I pulled the receiving records and checked every [packing slip].",
+            "es": "Saqué los registros de recepción y revisé cada lista de empaque.",
+            "item": "col-packing-slip"
+          },
+          {
+            "who": "Ana",
+            "en": "Then I compared them with the original [purchase order].",
+            "es": "Luego los comparé con la orden de compra original.",
+            "item": "col-purchase-order"
+          },
+          {
+            "who": "Ana",
+            "en": "It turned out the supplier had shipped a partial order, but someone received it as complete.",
+            "es": "Resultó que el proveedor había mandado un pedido parcial, pero alguien lo recibió como completo."
+          },
+          {
+            "who": "Rhonda",
+            "en": "What did you do about it?",
+            "es": "¿Qué hiciste al respecto?"
+          },
+          {
+            "who": "Ana",
+            "en": "I [updated the inventory] and flagged it to my supervisor.",
+            "es": "Actualicé el inventario y se lo reporté a mi supervisora.",
+            "item": "col-update-the-inventory"
+          },
+          {
+            "who": "Ana",
+            "en": "We also added a rule: partial orders get a yellow tag at the dock.",
+            "es": "También agregamos una regla: los pedidos parciales llevan una etiqueta amarilla en el andén."
+          },
+          {
+            "who": "Tunde",
+            "en": "And the result?",
+            "es": "¿Y el resultado?"
+          },
+          {
+            "who": "Ana",
+            "en": "Our [stock] accuracy went from about ninety-two to ninety-eight percent in three months.",
+            "es": "La precisión de nuestro inventario pasó de cerca de 92 a 98 por ciento en tres meses.",
+            "item": "voc-stock"
+          },
+          {
+            "who": "Rhonda",
+            "en": "Peak season is busy here. How do you [work under pressure]?",
+            "es": "La temporada alta aquí es pesada. ¿Cómo trabajas bajo presión?",
+            "item": "col-work-under-pressure"
+          },
+          {
+            "who": "Ana",
+            "en": "I make a short list, do the high-value items first, and I never skip the double-check.",
+            "es": "Hago una lista corta, empiezo por los artículos de mayor valor y nunca me salto la doble revisión."
+          },
+          {
+            "who": "Tunde",
+            "en": "Good. Can you [provide references]?",
+            "es": "Bien. ¿Puedes dar referencias?",
+            "item": "col-provide-references"
+          },
+          {
+            "who": "Ana",
+            "en": "Yes, two. My last supervisor can tell you I'm [reliable] and always on time.",
+            "es": "Sí, dos. Mi última supervisora puede decirles que soy confiable y siempre puntual.",
+            "item": "voc-reliable"
+          }
+        ],
+        "items": [
+          "col-cycle-count",
+          "voc-discrepancy",
+          "col-packing-slip",
+          "col-purchase-order",
+          "col-update-the-inventory",
+          "voc-stock",
+          "col-work-under-pressure",
+          "col-provide-references",
+          "voc-reliable"
+        ],
+        "questions": [
+          {
+            "q": "How many cases of gloves did the system show?",
+            "options": [
+              "Twenty-eight",
+              "Forty",
+              "Fourteen"
+            ],
+            "answer": 1,
+            "why_es": "'The system showed forty cases of gloves'."
+          },
+          {
+            "q": "What caused the discrepancy?",
+            "options": [
+              "Theft",
+              "A broken scanner",
+              "A partial order received as complete"
+            ],
+            "answer": 2,
+            "why_es": "'The supplier had shipped a partial order, but someone received it as complete'."
+          },
+          {
+            "q": "What new rule did they add?",
+            "options": [
+              "Partial orders get a yellow tag",
+              "Counts happen every hour",
+              "They changed suppliers"
+            ],
+            "answer": 0,
+            "why_es": "'Partial orders get a yellow tag at the dock'."
+          },
+          {
+            "q": "How did stock accuracy change?",
+            "options": [
+              "It went down",
+              "It stayed at 92%",
+              "It went from about 92% to 98%"
+            ],
+            "answer": 2,
+            "why_es": "'From about ninety-two to ninety-eight percent'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "STAR – Situación: en un conteo cíclico, el sistema no coincidía con lo que había en el estante.",
+          "model": [
+            "During a cycle count, the system showed forty cases, but we only had twenty-eight.",
+            "In a weekly cycle count, the numbers in the system didn't match the shelf."
+          ],
+          "expect": [
+            [
+              "cycle count",
+              "count"
+            ],
+            [
+              "system"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "STAR – Acción: revisaste las listas de empaque contra las órdenes de compra.",
+          "model": [
+            "I checked every packing slip against the purchase order.",
+            "I compared the packing slips with the purchase orders."
+          ],
+          "expect": [
+            [
+              "packing slip",
+              "packing slips"
+            ],
+            [
+              "purchase order",
+              "purchase orders",
+              "po"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di cómo trabajas bajo presión en temporada alta.",
+          "model": [
+            "I make a short list, do the high-value items first, and always double-check.",
+            "Under pressure, I prioritize the most important items and still double-check my counts."
+          ],
+          "expect": [
+            [
+              "list",
+              "prioritize",
+              "prioritise",
+              "first",
+              "important"
+            ],
+            [
+              "double-check",
+              "double check",
+              "check"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No conoces una sigla.",
+          "en": "Sorry, by SKU do you mean the product code?",
+          "es": "Perdón, ¿con SKU se refiere al código del producto?"
+        },
+        {
+          "situation_es": "Quieres aclarar un número.",
+          "en": "Just to clarify, did you say fifteen or fifty?",
+          "es": "Solo para aclarar, ¿dijo quince o cincuenta?"
+        },
+        {
+          "situation_es": "Te interrumpieron a la mitad.",
+          "en": "Sorry, can I finish that thought?",
+          "es": "Perdón, ¿puedo terminar la idea?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-inventarios-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Interview: inventory control clerk",
+        "title_es": "Entrevista: auxiliar de control de inventarios",
+        "setting_es": "Entrevista para auxiliar de control de inventarios en un centro de distribución de Edmonton. La gerente quiere un ejemplo STAR y hablar de turnos y pago.",
+        "npc": "Inventory manager",
+        "turns": [
+          {
+            "npc": "Thanks for coming, {name}. Tell me about a time you found an inventory discrepancy.",
+            "npc_es": "Gracias por venir, {name}. Cuéntame de una vez en que encontraste una diferencia de inventario.",
+            "task_es": "Situación: el sistema mostraba más producto del que había en el estante.",
+            "expect": [
+              [
+                "system",
+                "count",
+                "records"
+              ],
+              [
+                "more",
+                "fewer",
+                "didn't match",
+                "missing",
+                "short"
+              ]
+            ],
+            "model": [
+              "During a count, the system showed more boxes than we had on the shelf.",
+              "Our records said fifty units, but twelve were missing."
+            ]
+          },
+          {
+            "npc": "How did you find the cause?",
+            "npc_es": "¿Cómo encontraste la causa?",
+            "task_es": "Acción: revisaste los documentos de recepción y las órdenes de compra.",
+            "expect": [
+              [
+                "checked",
+                "compared",
+                "reviewed",
+                "looked"
+              ],
+              [
+                "packing slip",
+                "packing slips",
+                "purchase order",
+                "purchase orders",
+                "receiving",
+                "records",
+                "documents"
+              ]
+            ],
+            "model": [
+              "I checked the receiving records against the purchase orders.",
+              "I compared every packing slip with the purchase order and found a partial delivery."
+            ]
+          },
+          {
+            "npc": "What was the result?",
+            "npc_es": "¿Cuál fue el resultado?",
+            "task_es": "Resultado con un dato concreto (porcentaje o tiempo).",
+            "expect": [
+              [
+                "percent",
+                "accuracy",
+                "hours",
+                "days",
+                "fixed",
+                "improved"
+              ]
+            ],
+            "model": [
+              "Our accuracy improved to ninety-eight percent.",
+              "We fixed the records in two days and improved accuracy."
+            ]
+          },
+          {
+            "npc": "This job uses our inventory system all day. How comfortable are you with that?",
+            "npc_es": "En este trabajo se usa el sistema de inventarios todo el día. ¿Qué tan cómoda te sientes con eso?",
+            "task_es": "Di qué herramientas has usado (escáner, hoja de cálculo, sistema de inventarios).",
+            "expect": [
+              [
+                "scanner",
+                "scanners",
+                "spreadsheet",
+                "spreadsheets",
+                "system",
+                "software",
+                "erp"
+              ]
+            ],
+            "model": [
+              "Very comfortable. I've used barcode scanners, spreadsheets and an ERP system.",
+              "I used inventory software every day, and I learn new systems quickly."
+            ]
+          },
+          {
+            "npc": "We run rotating shifts, including some Saturdays. Does that work for you?",
+            "npc_es": "Tenemos turnos rotativos, incluidos algunos sábados. ¿Te funciona?",
+            "task_es": "Di que sí y pregunta con cuánta anticipación publican el horario.",
+            "expect": [
+              [
+                "yes",
+                "works",
+                "fine",
+                "sure"
+              ],
+              [
+                "schedule",
+                "advance",
+                "notice",
+                "posted",
+                "ahead"
+              ]
+            ],
+            "model": [
+              "Yes, that works. How far in advance is the schedule posted?",
+              "Sure, that's fine. Do you share the schedule ahead of time?"
+            ]
+          },
+          {
+            "npc": "Great. What hourly rate are you expecting?",
+            "npc_es": "Muy bien. ¿Qué pago por hora esperas?",
+            "task_es": "Da un rango por hora investigado.",
+            "expect": [
+              [
+                "hour",
+                "hourly",
+                "per hour"
+              ],
+              [
+                "range",
+                "between",
+                "research",
+                "to"
+              ]
+            ],
+            "model": [
+              "Based on my research, between 21 and 24 dollars an hour.",
+              "I'm looking for a range of twenty-two to twenty-four dollars per hour."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bfor hour\\b",
+                "fix": "an hour / per hour",
+                "why_es": "Se dice *24 dollars an hour* o *per hour*, no *for hour*."
+              }
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about a time when…",
+          "I checked the packing slip against the purchase order.",
+          "Our accuracy improved to…",
+          "How far in advance is the schedule posted?",
+          "Based on my research,…"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-inventarios-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 17,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Defender un enfoque de procesos ante la merma, proponer mejoras de conteo y negociar salario y fecha de inicio con argumentos.",
+      "items": [
+        "voc-shrinkage",
+        "col-reconcile-records",
+        "col-root-cause",
+        "col-take-the-initiative",
+        "voc-inventory",
+        "idi-wear-many-hats",
+        "idi-ballpark-figure",
+        "col-competitive-salary",
+        "col-short-notice",
+        "col-give-notice"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-inventarios-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 981,
+        "title": "Final round: inventory control lead",
+        "title_es": "Ronda final: líder de control de inventarios",
+        "intro_es": "Camila compite por el puesto de líder de control de inventarios. Whitfield, director de operaciones, la presiona sobre la merma; Keisha, de recursos humanos, habla de la oferta.",
+        "lines": [
+          {
+            "who": "Whitfield",
+            "en": "Camila, our [shrinkage] is running close to three percent. Is that a people problem or a process problem?",
+            "es": "Camila, nuestra merma anda cerca del tres por ciento. ¿Es un problema de personas o de procesos?",
+            "item": "voc-shrinkage"
+          },
+          {
+            "who": "Camila",
+            "en": "Usually it's a process problem dressed up as a people problem. Most losses I've seen came from receiving errors, not theft.",
+            "es": "Normalmente es un problema de procesos disfrazado de problema de personas. La mayoría de las pérdidas que he visto venían de errores de recepción, no de robos."
+          },
+          {
+            "who": "Whitfield",
+            "en": "That's a convenient answer. Prove it.",
+            "es": "Esa respuesta es muy cómoda. Demuéstralo."
+          },
+          {
+            "who": "Camila",
+            "en": "At my last site, I [reconciled records] between the warehouse system and the online store every week.",
+            "es": "En mi último centro, conciliaba cada semana los registros entre el sistema del almacén y la tienda en línea.",
+            "item": "col-reconcile-records"
+          },
+          {
+            "who": "Camila",
+            "en": "The [root cause] of most gaps was returns being put back on shelves without being scanned.",
+            "es": "La causa raíz de la mayoría de las diferencias eran devoluciones que se regresaban al estante sin escanear.",
+            "item": "col-root-cause"
+          },
+          {
+            "who": "Camila",
+            "en": "Nobody asked me to fix it; I [took the initiative] and proposed a returns bench with its own scanner.",
+            "es": "Nadie me pidió arreglarlo; tomé la iniciativa y propuse una mesa de devoluciones con su propio escáner.",
+            "item": "col-take-the-initiative"
+          },
+          {
+            "who": "Keisha",
+            "en": "And what did that do to the numbers?",
+            "es": "¿Y qué pasó con los números?"
+          },
+          {
+            "who": "Camila",
+            "en": "Write-offs dropped by about a third in two quarters, and our [inventory] counts finally matched.",
+            "es": "Las bajas contables cayeron cerca de un tercio en dos trimestres, y por fin cuadraron nuestros conteos de inventario.",
+            "item": "voc-inventory"
+          },
+          {
+            "who": "Whitfield",
+            "en": "We're a small site, though. You'd be counting, training and fixing systems.",
+            "es": "Pero somos un centro pequeño. Tendrías que contar, capacitar y arreglar sistemas."
+          },
+          {
+            "who": "Camila",
+            "en": "I'm used to that. In my last role I [wore many hats], including forklift training.",
+            "es": "Estoy acostumbrada. En mi último puesto hacía de todo, incluso capacitar en montacargas.",
+            "item": "idi-wear-many-hats"
+          },
+          {
+            "who": "Keisha",
+            "en": "Let's talk compensation. What range did you have in mind?",
+            "es": "Hablemos de compensación. ¿Qué rango tenías en mente?"
+          },
+          {
+            "who": "Camila",
+            "en": "Could you give me a [ballpark figure] for the band first?",
+            "es": "¿Me podría dar primero una cifra aproximada de la banda salarial?",
+            "item": "idi-ballpark-figure"
+          },
+          {
+            "who": "Keisha",
+            "en": "We're thinking sixty to sixty-five thousand.",
+            "es": "Estamos pensando en 60 a 65 mil."
+          },
+          {
+            "who": "Camila",
+            "en": "That's a [competitive salary], though given the scope I'd aim for the top of the band.",
+            "es": "Es un salario competitivo, aunque por el alcance del puesto yo apuntaría a la parte alta de la banda.",
+            "item": "col-competitive-salary"
+          },
+          {
+            "who": "Whitfield",
+            "en": "Could you start on [short notice]? Peak season is coming.",
+            "es": "¿Podrías empezar con poco tiempo de aviso? Se viene la temporada alta.",
+            "item": "col-short-notice"
+          },
+          {
+            "who": "Camila",
+            "en": "I'd like to [give notice] properly, two weeks, but I could join a couple of planning calls before my start date.",
+            "es": "Me gustaría avisar como se debe, con dos semanas, pero podría unirme a un par de llamadas de planeación antes de mi fecha de inicio.",
+            "item": "col-give-notice"
+          }
+        ],
+        "items": [
+          "voc-shrinkage",
+          "col-reconcile-records",
+          "col-root-cause",
+          "col-take-the-initiative",
+          "voc-inventory",
+          "idi-wear-many-hats",
+          "idi-ballpark-figure",
+          "col-competitive-salary",
+          "col-short-notice",
+          "col-give-notice"
+        ],
+        "questions": [
+          {
+            "q": "According to Camila, where do most losses come from?",
+            "options": [
+              "Theft",
+              "Receiving and process errors",
+              "Damaged forklifts"
+            ],
+            "answer": 1,
+            "why_es": "'Most losses I've seen came from receiving errors, not theft'."
+          },
+          {
+            "q": "What did Camila propose at her last site?",
+            "options": [
+              "Hiring security guards",
+              "Closing the online store",
+              "A returns bench with its own scanner"
+            ],
+            "answer": 2,
+            "why_es": "'I proposed a returns bench with its own scanner'."
+          },
+          {
+            "q": "Why does Camila ask for a ballpark figure?",
+            "options": [
+              "To hear the company's range first",
+              "Because she has no idea of salaries",
+              "To end the interview"
+            ],
+            "answer": 0,
+            "why_es": "Pide la banda primero para no fijar ella el número."
+          },
+          {
+            "q": "What does Camila say about starting on short notice?",
+            "options": [
+              "She can start tomorrow",
+              "She'll give two weeks' notice but can join some calls earlier",
+              "She can't start until summer"
+            ],
+            "answer": 1,
+            "why_es": "Quiere avisar con dos semanas, pero ofrece unirse a llamadas de planeación antes."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Responde a «Esa respuesta es muy cómoda, demuéstralo» con un ejemplo concreto.",
+          "model": [
+            "Fair enough. At my last site, returns were restocked without scanning, and that was the root cause.",
+            "Let me back that up: most of our gaps came from unscanned returns, not theft."
+          ],
+          "expect": [
+            [
+              "root cause",
+              "came from",
+              "caused",
+              "because"
+            ],
+            [
+              "returns",
+              "receiving",
+              "scanning",
+              "scanned",
+              "unscanned"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pide con elegancia que la empresa diga primero su rango.",
+          "model": [
+            "Could you give me a ballpark figure for the band first?",
+            "Before I name a number, could you share the range you have in mind?"
+          ],
+          "expect": [
+            [
+              "ballpark",
+              "range",
+              "band"
+            ],
+            [
+              "could",
+              "would",
+              "share"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que quieres avisar en tu trabajo como se debe, pero ofreces ayudar antes de empezar.",
+          "model": [
+            "I'd like to give two weeks' notice, but I could join a few planning calls before I start.",
+            "I need to give proper notice, though I'm happy to help with planning before my start date."
+          ],
+          "expect": [
+            [
+              "notice"
+            ],
+            [
+              "calls",
+              "help",
+              "planning",
+              "before"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te provocan para ver cómo reaccionas.",
+          "en": "That's a fair challenge. Let me give you the numbers.",
+          "es": "Es un cuestionamiento válido. Déjeme darle los números."
+        },
+        {
+          "situation_es": "Quieres confirmar la cifra.",
+          "en": "Sorry, was that sixty to sixty-five, or sixty-five to seventy?",
+          "es": "Perdón, ¿era de 60 a 65 o de 65 a 70?"
+        },
+        {
+          "situation_es": "Necesitas un momento.",
+          "en": "Give me a second to think about how that would work here.",
+          "es": "Deme un segundo para pensar cómo funcionaría aquí."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-inventarios-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Final round: inventory control lead",
+        "title_es": "Ronda final: líder de control de inventarios",
+        "setting_es": "Última entrevista para líder de control de inventarios en un centro de distribución de Edmonton. El director de operaciones es escéptico y te presiona.",
+        "npc": "Operations director",
+        "turns": [
+          {
+            "npc": "Our counts never match the system. Some people here think staff are stealing. What's your take?",
+            "npc_es": "Nuestros conteos nunca coinciden con el sistema. Algunos aquí creen que el personal está robando. ¿Qué opinas?",
+            "task_es": "Responde con tacto: puede ser un problema de procesos, y propón investigar antes de culpar.",
+            "expect": [
+              [
+                "process",
+                "receiving",
+                "returns",
+                "errors",
+                "system"
+              ],
+              [
+                "investigate",
+                "check",
+                "look",
+                "data",
+                "audit",
+                "review"
+              ]
+            ],
+            "model": [
+              "It could be a process issue, like receiving errors. I'd look at the data before blaming anyone.",
+              "In my experience it's usually process, not people. I'd audit receiving and returns first."
+            ]
+          },
+          {
+            "npc": "That sounds naive. Shrinkage is shrinkage.",
+            "npc_es": "Eso suena ingenuo. La merma es la merma.",
+            "task_es": "Mantén tu postura con respeto y con un dato de tu experiencia.",
+            "expect": [
+              [
+                "understand",
+                "fair",
+                "respect",
+                "see"
+              ],
+              [
+                "data",
+                "percent",
+                "third",
+                "experience",
+                "last site",
+                "numbers"
+              ]
+            ],
+            "model": [
+              "I understand the concern, but at my last site, write-offs dropped by a third once we fixed returns.",
+              "That's fair to question. In my experience, the numbers showed most losses came from unscanned returns."
+            ]
+          },
+          {
+            "npc": "How would you run cycle counts without stopping operations?",
+            "npc_es": "¿Cómo harías conteos cíclicos sin detener la operación?",
+            "task_es": "Propón contar por zonas o por valor (ABC) en horas tranquilas.",
+            "expect": [
+              [
+                "zone",
+                "zones",
+                "abc",
+                "high-value",
+                "section",
+                "sections"
+              ],
+              [
+                "quiet",
+                "night",
+                "early",
+                "shift",
+                "off-peak",
+                "before"
+              ]
+            ],
+            "model": [
+              "I'd count by zone during quiet hours, starting with high-value items.",
+              "We could use ABC counts: high-value items weekly, early in the morning before the trucks arrive."
+            ]
+          },
+          {
+            "npc": "You'd have to train people who've been here twenty years. How do you get buy-in?",
+            "npc_es": "Tendrías que capacitar a gente que lleva veinte años aquí. ¿Cómo consigues su apoyo?",
+            "task_es": "Explica cómo ganas apoyo: escuchar, involucrarlos y mostrar resultados.",
+            "expect": [
+              [
+                "listen",
+                "ask",
+                "involve",
+                "include"
+              ],
+              [
+                "results",
+                "show",
+                "data",
+                "quick wins",
+                "easier"
+              ]
+            ],
+            "model": [
+              "I'd listen first, involve them in the changes, and show quick wins.",
+              "I'd ask for their ideas and share the results, so they see it makes their job easier."
+            ]
+          },
+          {
+            "npc": "The band is sixty to sixty-five. Where do you land?",
+            "npc_es": "La banda es de 60 a 65. ¿Dónde te ubicas?",
+            "task_es": "Pide la parte alta de la banda con una razón (alcance del puesto).",
+            "expect": [
+              [
+                "top",
+                "sixty-five",
+                "65",
+                "upper"
+              ],
+              [
+                "scope",
+                "responsibilities",
+                "experience",
+                "training",
+                "given"
+              ]
+            ],
+            "model": [
+              "Given the scope, I'd aim for the top of the band, around sixty-five.",
+              "With the training and systems work, I think the upper end, 65, is fair."
+            ]
+          },
+          {
+            "npc": "We need someone before peak season. Could you start on short notice?",
+            "npc_es": "Necesitamos a alguien antes de la temporada alta. ¿Podrías empezar con poco aviso?",
+            "task_es": "Di que darás tus dos semanas de aviso y ofrece una alternativa.",
+            "expect": [
+              [
+                "notice",
+                "two weeks"
+              ],
+              [
+                "calls",
+                "help",
+                "plan",
+                "planning",
+                "before",
+                "meetings"
+              ]
+            ],
+            "model": [
+              "I need to give two weeks' notice, but I could help with planning calls before I start.",
+              "I'd give proper notice, though I'm happy to join a couple of planning meetings remotely before then."
+            ]
+          }
+        ],
+        "useful": [
+          "In my experience, it's usually process, not people.",
+          "The root cause was…",
+          "Could you give me a ballpark figure?",
+          "Given the scope, I'd aim for…",
+          "I'd like to give proper notice."
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "col-receive-a-shipment",
+      "type": "collocation",
+      "term": "receive a shipment",
+      "level": "A2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos"
+      ],
+      "es": "recibir un envío; recibir mercancía",
+      "def": "to accept and check goods that arrive from a supplier",
+      "ex": [
+        {
+          "en": "We [receive a shipment] every Tuesday morning.",
+          "es": "Recibimos un envío cada martes en la mañana."
+        },
+        {
+          "en": "I [received shipments] and checked the boxes.",
+          "es": "Recibía mercancía y revisaba las cajas."
+        }
+      ]
+    },
+    {
+      "id": "voc-pallet",
+      "type": "vocab",
+      "term": "pallet",
+      "ipa": "/ˈpælət/",
+      "level": "A2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos"
+      ],
+      "es": "tarima",
+      "def": "a flat wooden or plastic base that goods are stacked on",
+      "note": "*Pallet jack* = patín hidráulico (gato para tarimas).",
+      "ex": [
+        {
+          "en": "Each [pallet] had forty boxes.",
+          "es": "Cada tarima tenía cuarenta cajas."
+        },
+        {
+          "en": "Please wrap the [pallet] before it leaves.",
+          "es": "Por favor emplaya la tarima antes de que salga."
+        }
+      ]
+    },
+    {
+      "id": "col-barcode-scanner",
+      "type": "collocation",
+      "term": "barcode scanner",
+      "level": "A2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos"
+      ],
+      "es": "lector de código de barras; escáner",
+      "def": "a handheld device that reads the striped code on a product",
+      "ex": [
+        {
+          "en": "I used a [barcode scanner] all day.",
+          "es": "Usaba un lector de código de barras todo el día."
+        },
+        {
+          "en": "The [barcode scanner] needs a new battery.",
+          "es": "El escáner necesita una batería nueva."
+        }
+      ]
+    },
+    {
+      "id": "voc-forklift",
+      "type": "vocab",
+      "term": "forklift",
+      "ipa": "/ˈfɔrkˌlɪft/",
+      "level": "A2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos"
+      ],
+      "es": "montacargas",
+      "def": "a small vehicle with two metal arms in front for lifting heavy loads",
+      "note": "En Canadá normalmente se necesita capacitación y certificado del empleador para manejarlo.",
+      "ex": [
+        {
+          "en": "You need training before you drive a [forklift] here.",
+          "es": "Necesitas capacitación antes de manejar un montacargas aquí."
+        },
+        {
+          "en": "He moved the boxes with the [forklift].",
+          "es": "Movió las cajas con el montacargas."
+        }
+      ]
+    },
+    {
+      "id": "col-steel-toe-boots",
+      "type": "collocation",
+      "term": "steel-toe boots",
+      "level": "A2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos",
+        "canada"
+      ],
+      "es": "botas con casquillo; botas de seguridad",
+      "def": "work boots with a metal cap that protects your toes",
+      "note": "También: *steel-toed boots* o *safety boots*. En Canadá muchos almacenes piden botas certificadas.",
+      "ex": [
+        {
+          "en": "You must wear [steel-toe boots] in the warehouse.",
+          "es": "Debes usar botas con casquillo en el almacén."
+        },
+        {
+          "en": "I bought new [steel-toe boots] for the job.",
+          "es": "Compré botas de seguridad nuevas para el trabajo."
+        }
+      ]
+    },
+    {
+      "id": "col-night-shift",
+      "type": "collocation",
+      "term": "night shift",
+      "level": "A2",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "datos"
+      ],
+      "es": "turno de noche",
+      "def": "a work period during the night, often from late evening to early morning",
+      "note": "Se dice *work the night shift* o *work nights*.",
+      "ex": [
+        {
+          "en": "Can you work the [night shift] on weekends?",
+          "es": "¿Puedes trabajar el turno de noche los fines de semana?"
+        },
+        {
+          "en": "The [night shift] starts at ten.",
+          "es": "El turno de noche empieza a las diez."
+        }
+      ]
+    },
+    {
+      "id": "col-cycle-count",
+      "type": "collocation",
+      "term": "cycle count",
+      "level": "B1",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos"
+      ],
+      "es": "conteo cíclico (conteo parcial y frecuente de inventario)",
+      "def": "counting a small part of the stock often, instead of everything once a year",
+      "ex": [
+        {
+          "en": "We do a [cycle count] of one aisle every day.",
+          "es": "Hacemos un conteo cíclico de un pasillo cada día."
+        },
+        {
+          "en": "The [cycle count] showed six missing cases.",
+          "es": "El conteo cíclico mostró seis cajas faltantes."
+        }
+      ]
+    },
+    {
+      "id": "col-packing-slip",
+      "type": "collocation",
+      "term": "packing slip",
+      "level": "B1",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos"
+      ],
+      "es": "lista de empaque; remisión",
+      "def": "the paper inside a delivery that lists what is in the box",
+      "ex": [
+        {
+          "en": "Check the [packing slip] before you sign for the delivery.",
+          "es": "Revisa la lista de empaque antes de firmar la entrega."
+        },
+        {
+          "en": "The [packing slip] said twelve, but there were ten.",
+          "es": "La remisión decía doce, pero había diez."
+        }
+      ]
+    },
+    {
+      "id": "col-purchase-order",
+      "type": "collocation",
+      "term": "purchase order",
+      "level": "B1",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "datos"
+      ],
+      "es": "orden de compra",
+      "def": "an official document a company sends to a supplier to order goods",
+      "note": "Se abrevia PO (pi-ou): *What's the PO number?*",
+      "ex": [
+        {
+          "en": "Compare the delivery with the [purchase order].",
+          "es": "Compara la entrega con la orden de compra."
+        },
+        {
+          "en": "I created a [purchase order] for more gloves.",
+          "es": "Hice una orden de compra de más guantes."
+        }
+      ]
+    },
+    {
+      "id": "voc-shrinkage",
+      "type": "vocab",
+      "term": "shrinkage",
+      "ipa": "/ˈʃrɪŋkɪdʒ/",
+      "level": "C1",
+      "topic": "work",
+      "freq": 2,
+      "areas": [
+        "datos"
+      ],
+      "es": "merma (pérdida de inventario)",
+      "def": "the loss of stock from errors, damage or theft",
+      "note": "Término de retail y almacenes. No culpa a nadie: incluye errores de registro.",
+      "ex": [
+        {
+          "en": "Our [shrinkage] dropped after we fixed the returns process.",
+          "es": "Nuestra merma bajó cuando arreglamos el proceso de devoluciones."
+        },
+        {
+          "en": "High [shrinkage] isn't always theft.",
+          "es": "Una merma alta no siempre es robo."
+        }
+      ]
+    }
+  ]
+}

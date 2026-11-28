@@ -1,0 +1,98 @@
+{
+  "id": "lectura-ia-y-trabajo",
+  "level": "C1",
+  "title": "AI at Work: Speed, Judgment and Honesty",
+  "title_es": "La IA en el trabajo: rapidez, criterio y honestidad",
+  "topic": "trabajo",
+  "minutes": 7,
+  "intro_es": "La IA puede impulsar tu carrera o dañar tu credibilidad: todo depende de cómo la uses.",
+  "paragraphs": [
+    "Not long ago, artificial intelligence at work sounded like science fiction. Today, many professionals in Canada use AI assistants every day: to draft emails, summarize long documents, translate messages, write code or brainstorm ideas for a presentation. For a newcomer working in a second language, these tools can feel like a lifeline. Used wisely, they save time and boost confidence. Used carelessly, they can damage your credibility faster than any grammar mistake.",
+    "The productivity gains are real, but they depend on how you frame the task. AI is at its best when you treat it as a capable but inexperienced assistant: give it context, specify the audience and the tone, and ask for options rather than a single answer. “Rewrite this message for a client who is frustrated about a delay; keep it under 120 words and avoid making promises” will produce something far more useful than “fix my email.” Crucially, the final judgment remains yours.",
+    "That judgment matters because these systems can be confidently wrong. They may invent sources, misread a figure or produce text that sounds polished but subtly misrepresents what you meant. In a regulated field such as health care, engineering or finance, an unverified detail can have serious consequences. A sensible rule of thumb is never to send, submit or publish anything you couldn't explain and defend line by line.",
+    "Confidentiality is the next consideration. Before pasting anything into an AI tool, ask yourself whether you would be comfortable pinning it to a public noticeboard. Client names, contracts, health information and internal financial data are often covered by privacy legislation and company policy. Many organizations now have guidelines specifying which tools are approved and what kind of information can be shared with them. If your employer hasn't mentioned one, ask; it signals professionalism, not ignorance.",
+    "Perhaps the subtlest issue is honesty about authorship. Canadian workplaces generally prize transparency, and there is a meaningful difference between using AI to polish your wording and presenting machine-generated analysis as your own expertise. If a colleague praises a report, it's entirely appropriate to say, “Thanks — I used an AI tool to tighten the structure, but the analysis and recommendations are mine.” Being upfront protects your reputation if questions arise later, and it models a healthy norm for your team.",
+    "Job interviews and assessments deserve particular care. Some employers welcome AI-assisted preparation but expect live answers to reflect your own thinking; others explicitly prohibit AI in tests or written assignments. Overstating your skills with the help of a tool might get you through one stage, but the gap will surface once you're doing the actual work. Recruiters increasingly ask candidates how they use AI, so prepare an honest, articulate answer in advance.",
+    "There is also a language-learning paradox here. If an assistant writes every sentence for you, your English may stagnate precisely when you need it to grow. Consider a middle path: write your own first draft, ask the tool to point out errors and explain them, then compare the versions before deciding what to keep. That way, the technology becomes a tutor rather than a crutch.",
+    "Ultimately, AI doesn't replace the qualities employers value most: sound judgment, accountability and the ability to build trust with people. Treat these tools as amplifiers of your skills, be clear about what you did yourself, and you'll be well positioned in a workplace that is changing faster than ever."
+  ],
+  "glossary": [
+    { "term": "lifeline", "es": "salvavidas, tabla de salvación", "def": "something that helps you a lot in a difficult situation" },
+    { "term": "credibility", "es": "credibilidad", "def": "the quality of being trusted and believed by others" },
+    { "term": "confidently wrong", "es": "equivocado pero con total seguridad", "def": "giving an incorrect answer while sounding completely sure", "note": "Por eso las respuestas de la IA siempre se verifican." },
+    { "term": "polished", "es": "pulido, refinado", "def": "well written and professional in appearance" },
+    { "term": "misrepresents", "es": "tergiversa", "def": "gives a false or inaccurate description of something" },
+    { "term": "rule of thumb", "es": "regla práctica", "def": "a simple, practical principle based on experience rather than exact rules" },
+    { "term": "noticeboard", "es": "tablón de anuncios", "def": "a board on a wall where public messages and notices are posted" },
+    { "term": "privacy legislation", "es": "legislación de privacidad", "def": "laws that control how personal information is collected, used and shared" },
+    { "term": "prize", "es": "valorar mucho", "def": "(verb) to consider something extremely important or valuable", "note": "Ojo: aquí es verbo, no el sustantivo premio." },
+    { "term": "upfront", "es": "franco, claro desde el inicio", "def": "honest and open about something from the beginning" },
+    { "term": "overstating", "es": "exagerar", "def": "describing something as bigger, better or more important than it really is" },
+    { "term": "stagnate", "es": "estancarse", "def": "to stop developing or improving" },
+    { "term": "crutch", "es": "muleta (dependencia)", "def": "something you depend on too much, which stops you from developing your own ability" },
+    { "term": "accountability", "es": "responsabilidad (rendir cuentas)", "def": "being responsible for your decisions and actions and willing to explain them" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "AI tools should be avoided at work because they make too many mistakes.",
+      "AI can boost productivity, but it requires judgment, confidentiality and honesty about your own contribution.",
+      "Newcomers should rely on AI for all their written communication."
+    ],
+    "answer": 1,
+    "why_es": "El texto reconoce los beneficios de la IA, pero insiste en verificar, proteger datos y ser honesto sobre lo que hiciste tú."
+  },
+  "questions": [
+    {
+      "q": "According to the author, how should you treat an AI assistant?",
+      "options": [
+        "As a capable but inexperienced assistant",
+        "As an expert whose answers are final",
+        "As a replacement for your manager's feedback"
+      ],
+      "answer": 0,
+      "why_es": "El autor sugiere darle contexto y pedir opciones, como a un asistente capaz pero sin experiencia."
+    },
+    {
+      "q": "What rule of thumb does the author suggest?",
+      "options": [
+        "Always use the longest AI answer available.",
+        "Only use AI tools outside working hours.",
+        "Never send anything you couldn't explain and defend line by line."
+      ],
+      "answer": 2,
+      "why_es": "Si no puedes explicar y defender cada línea, no deberías enviarlo ni publicarlo."
+    },
+    {
+      "q": "What does the author recommend about authorship?",
+      "options": [
+        "Never mention AI, so you don't look less capable.",
+        "Be transparent about how you used AI and what is your own work.",
+        "Let colleagues assume the whole report is yours."
+      ],
+      "answer": 1,
+      "why_es": "Ser transparente sobre el uso de la IA protege tu reputación y crea una norma sana en el equipo."
+    },
+    {
+      "q": "What is the “language-learning paradox”?",
+      "options": [
+        "Relying on AI for every sentence can stop your English from improving.",
+        "AI tools only produce very formal English.",
+        "The better your English is, the less useful AI becomes."
+      ],
+      "answer": 0,
+      "why_es": "Si la IA escribe todo por ti, tu inglés puede estancarse justo cuando más necesita crecer."
+    },
+    {
+      "q": "What should you do if your employer has not mentioned any AI guidelines?",
+      "options": [
+        "Assume every tool is allowed.",
+        "Ask about them.",
+        "Use only free tools."
+      ],
+      "answer": 1,
+      "why_es": "El texto recomienda preguntar: demuestra profesionalismo y evita compartir datos indebidos."
+    }
+  ],
+  "club": false
+}

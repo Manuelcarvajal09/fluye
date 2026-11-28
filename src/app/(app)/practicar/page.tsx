@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { eq } from "drizzle-orm";
-import { ClipboardCheck, MessagesSquare, PenLine, BookMarked, Tv, Quote } from "lucide-react";
+import { Briefcase, ClipboardCheck, MessagesSquare, PenLine, BookMarked, Tv, Quote, GraduationCap } from "lucide-react";
 import { db, schema } from "@/db";
 import { requireProfile, settingsOf } from "@/lib/user";
-import { ITEMS, ROLEPLAYS, TENSES, ERRORS, PLACEMENT } from "@/lib/content";
+import { ITEMS, ROLEPLAYS, ROUTES, TENSES, ERRORS, PLACEMENT } from "@/lib/content";
 import { AREA_LABEL } from "@/lib/areas";
 
 export const metadata = { title: "Practicar" };
@@ -16,6 +16,7 @@ export default async function Practice() {
   const roleplays = [...ROLEPLAYS].sort((a, b) => Number(mine.has(b.area)) - Number(mine.has(a.area)) || a.level.localeCompare(b.level));
   const tvCount = ITEMS.filter((i) => i.tags?.includes("tv")).length;
   const conCount = ITEMS.filter((i) => i.type === "contraction").length;
+  const interviewRoutes = ROUTES.filter((r) => r.id.startsWith("entrevista-")).length;
 
   return (
     <div className="flex flex-col gap-6">
@@ -25,9 +26,11 @@ export default async function Practice() {
       </header>
 
       <div className="stagger grid gap-4 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-5">
+        <Tile href="/practicar/entrevistas" icon={<Briefcase size={24} aria-hidden />} title="Entrevistas de trabajo" text={`${interviewRoutes} puestos (soporte TI, implementación, desarrollo, marketing, clientes, laboratorio, inventarios) en 3 dificultades`} highlight />
         <Tile href="/practicar/test" icon={<ClipboardCheck size={24} aria-hidden />} title="Test de nivel completo" text={placement ? `Último: ${placement.level} (${Math.round((placement.score / placement.total) * 100)}%). Repítelo cuando quieras.` : `${PLACEMENT.length} preguntas · ≈30 min · A1–C1`} highlight={!placement} />
         <Tile href="/practicar/corrige" icon={<PenLine size={24} aria-hidden />} title="Corrige la frase" text={`${ERRORS.length} errores típicos de hispanohablantes`} />
-        <Tile href="/practicar/gramatica" icon={<BookMarked size={24} aria-hidden />} title="Gramática" text={`${TENSES.length} tiempos y estructuras`} />
+        <Tile href="/practicar/gramatica" icon={<BookMarked size={24} aria-hidden />} title="Gramática" text={`${TENSES.length} unidades: tiempos, estructuras, escritura y conversación`} />
+        <Tile href="/practicar/ielts" icon={<GraduationCap size={24} aria-hidden />} title="Guía del IELTS" text="Cómo es el examen, cómo se califica y qué practicar para cada parte" />
         <Tile href="/biblioteca?type=contraction" icon={<Quote size={24} aria-hidden />} title="Contracciones" text={`${conCount} formas como wanna, gonna, gotta: qué significan y cuándo usarlas`} />
         <Tile href="/biblioteca?tag=tv" icon={<Tv size={24} aria-hidden />} title="Phrasal verbs de series" text={`${tvCount} de los más frecuentes en series y películas`} />
       </div>

@@ -9,6 +9,7 @@ import { TYPE_LABEL } from "@/lib/types";
 import { maskExplicit } from "@/lib/realtalk";
 import { LibraryGrid } from "@/components/LibraryGrid";
 import { CollectionActions } from "@/components/CollectionTools";
+import { EmptyArt } from "@/components/ux/EmptyArt";
 
 export const metadata = { title: "Colección" };
 
@@ -53,6 +54,7 @@ export default async function CollectionPage({ params }: PageProps<"/biblioteca/
         />
       ) : (
         <div className="empty-state">
+          <EmptyArt kind="vacio-colecciones" mood="think" />
           <h2 className="font-display text-2xl font-extrabold">Colección vacía</h2>
           <p className="max-w-sm text-muted">Busca palabras o expresiones y añádelas desde su ficha, o selecciona varias en la biblioteca.</p>
           <Link href="/biblioteca" className="btn btn-primary">

@@ -1,0 +1,1337 @@
+{
+  "id": "entrevista-implementacion",
+  "title_es": "Entrevista: implementación y CRM",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas",
+    "canada",
+    "analisis",
+    "crm"
+  ],
+  "season": null,
+  "objective_es": "Prepararte para entrevistas de especialista de implementación, administrador de CRM, analista de sistemas o analista de negocio junior: requisitos, procesos, migración de datos, UAT y negociación.",
+  "tracks": [
+    {
+      "id": "entrevista-implementacion-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hablar de tu experiencia con datos, hojas de cálculo y reportes en una entrevista sencilla, y explicar con honestidad tu situación para trabajar.",
+      "items": [
+        "col-data-entry",
+        "voc-spreadsheet",
+        "col-duplicate-records",
+        "voc-dashboard",
+        "phr-my-biggest-strength-is",
+        "col-fast-learner",
+        "col-work-permit",
+        "phr-im-available-to-start"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-implementacion-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 973,
+        "title": "Interview for a CRM data assistant",
+        "title_es": "Entrevista para asistente de datos de CRM",
+        "intro_es": "Sofía tiene una entrevista para un puesto de asistente de datos. Jordan, el gerente, le pregunta por su trabajo anterior en México.",
+        "lines": [
+          {
+            "who": "Jordan",
+            "en": "Hi, Sofía. Thanks for coming. What did you do in your last job?",
+            "es": "Hola, Sofía. Gracias por venir. ¿Qué hacías en tu trabajo anterior?"
+          },
+          {
+            "who": "Sofía",
+            "en": "I worked in an office in Puebla. I did [data entry] every day.",
+            "es": "Trabajé en una oficina en Puebla. Capturaba datos todos los días.",
+            "item": "col-data-entry"
+          },
+          {
+            "who": "Sofía",
+            "en": "I used a [spreadsheet] to track clients and sales.",
+            "es": "Usaba una hoja de cálculo para llevar el control de clientes y ventas.",
+            "item": "voc-spreadsheet"
+          },
+          {
+            "who": "Jordan",
+            "en": "Did you find mistakes in the data?",
+            "es": "¿Encontrabas errores en los datos?"
+          },
+          {
+            "who": "Sofía",
+            "en": "Yes. I found many [duplicate records], and I cleaned them.",
+            "es": "Sí. Encontré muchos registros duplicados y los limpié.",
+            "item": "col-duplicate-records"
+          },
+          {
+            "who": "Jordan",
+            "en": "Good. Can you make simple reports?",
+            "es": "Bien. ¿Puedes hacer reportes sencillos?"
+          },
+          {
+            "who": "Sofía",
+            "en": "Yes. I made a weekly [dashboard] for my manager.",
+            "es": "Sí. Hacía un tablero semanal para mi gerente.",
+            "item": "voc-dashboard"
+          },
+          {
+            "who": "Jordan",
+            "en": "What is your biggest strength?",
+            "es": "¿Cuál es tu mayor fortaleza?"
+          },
+          {
+            "who": "Sofía",
+            "en": "[My biggest strength is] attention to detail.",
+            "es": "Mi mayor fortaleza es la atención al detalle.",
+            "item": "phr-my-biggest-strength-is"
+          },
+          {
+            "who": "Jordan",
+            "en": "That's very important here.",
+            "es": "Eso es muy importante aquí."
+          },
+          {
+            "who": "Sofía",
+            "en": "I'm also a [fast learner]. I learned our CRM in one week.",
+            "es": "También aprendo rápido. Aprendí a usar nuestro CRM en una semana.",
+            "item": "col-fast-learner"
+          },
+          {
+            "who": "Jordan",
+            "en": "Can you work in Canada now?",
+            "es": "¿Puedes trabajar en Canadá ahora?"
+          },
+          {
+            "who": "Sofía",
+            "en": "Not yet. I'll need a [work permit]. I can tell you more about my situation.",
+            "es": "Todavía no. Voy a necesitar un permiso de trabajo. Le puedo contar más sobre mi situación.",
+            "item": "col-work-permit"
+          },
+          {
+            "who": "Jordan",
+            "en": "Thanks for being clear. When could you start?",
+            "es": "Gracias por ser clara. ¿Cuándo podrías empezar?"
+          },
+          {
+            "who": "Sofía",
+            "en": "[I'm available to start] as soon as I have the permit.",
+            "es": "Puedo empezar en cuanto tenga el permiso.",
+            "item": "phr-im-available-to-start"
+          },
+          {
+            "who": "Jordan",
+            "en": "Okay. We'll be in touch.",
+            "es": "Está bien. Estaremos en contacto."
+          }
+        ],
+        "items": [
+          "col-data-entry",
+          "voc-spreadsheet",
+          "col-duplicate-records",
+          "voc-dashboard",
+          "phr-my-biggest-strength-is",
+          "col-fast-learner",
+          "col-work-permit",
+          "phr-im-available-to-start"
+        ],
+        "questions": [
+          {
+            "q": "What did Sofía use to track clients?",
+            "options": [
+              "A spreadsheet",
+              "A notebook",
+              "A phone app"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'I used a spreadsheet to track clients and sales'."
+          },
+          {
+            "q": "What problem did she find in the data?",
+            "options": [
+              "Missing phone numbers",
+              "Duplicate records",
+              "Wrong prices"
+            ],
+            "answer": 1,
+            "why_es": "Encontró 'many duplicate records'."
+          },
+          {
+            "q": "What is Sofía's situation for working in Canada?",
+            "options": [
+              "She is a citizen",
+              "She already has a permit",
+              "She will need a work permit"
+            ],
+            "answer": 2,
+            "why_es": "Responde con honestidad: 'I'll need a work permit'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di que capturabas datos y usabas una hoja de cálculo.",
+          "model": [
+            "I did data entry and I used a spreadsheet every day.",
+            "In my last job, I did data entry in a spreadsheet."
+          ],
+          "expect": [
+            [
+              "data entry",
+              "data"
+            ],
+            [
+              "spreadsheet",
+              "sheet"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di con honestidad que vas a necesitar un permiso de trabajo.",
+          "model": [
+            "I'll need a work permit to work in Canada.",
+            "I don't have a work permit yet. I'll need one."
+          ],
+          "expect": [
+            [
+              "permit"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di tu mayor fortaleza: la atención al detalle.",
+          "model": [
+            "My biggest strength is attention to detail.",
+            "I'm very detail-oriented. That's my biggest strength."
+          ],
+          "expect": [
+            [
+              "detail"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No sabes qué significa una sigla.",
+          "en": "Sorry, what does CRM mean?",
+          "es": "Perdón, ¿qué significa CRM?"
+        },
+        {
+          "situation_es": "Hablan muy rápido.",
+          "en": "Could you speak a little more slowly, please?",
+          "es": "¿Podría hablar un poco más despacio, por favor?"
+        },
+        {
+          "situation_es": "No sabes la respuesta.",
+          "en": "I'm not sure, but I can learn it quickly.",
+          "es": "No estoy segura, pero lo puedo aprender rápido."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-implementacion-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "Interview: CRM data assistant",
+        "title_es": "Entrevista: asistente de datos de CRM",
+        "setting_es": "Entrevista corta para un puesto de asistente de datos en una oficina de Edmonton. La gerente quiere saber qué hacías con datos y reportes.",
+        "npc": "Office manager",
+        "turns": [
+          {
+            "npc": "Hi {name}, nice to meet you. What did you do in your last job?",
+            "npc_es": "Hola {name}, mucho gusto. ¿Qué hacías en tu trabajo anterior?",
+            "task_es": "Di que capturabas datos y hacías reportes.",
+            "expect": [
+              [
+                "data",
+                "entry",
+                "reports",
+                "report",
+                "spreadsheet",
+                "spreadsheets"
+              ]
+            ],
+            "model": [
+              "I did data entry and made weekly reports.",
+              "I worked with spreadsheets and customer data."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi made data entry\\b",
+                "fix": "I did data entry",
+                "why_es": "Con *data entry* se usa *do*, no *make*."
+              }
+            ]
+          },
+          {
+            "npc": "Have you used a CRM before?",
+            "npc_es": "¿Has usado un CRM antes?",
+            "task_es": "Di que sí, un poco, y que aprendes rápido.",
+            "expect": [
+              [
+                "yes",
+                "a little",
+                "some",
+                "yeah"
+              ],
+              [
+                "learn",
+                "learner",
+                "quick",
+                "fast"
+              ]
+            ],
+            "model": [
+              "Yes, a little. I'm a fast learner.",
+              "Yes, I used one for a year, and I learn fast."
+            ]
+          },
+          {
+            "npc": "What do you do if you see two records for the same client?",
+            "npc_es": "¿Qué haces si ves dos registros del mismo cliente?",
+            "task_es": "Di que revisas los datos y combinas los duplicados.",
+            "expect": [
+              [
+                "check",
+                "review",
+                "compare",
+                "look"
+              ],
+              [
+                "merge",
+                "combine",
+                "delete",
+                "duplicate",
+                "duplicates",
+                "one"
+              ]
+            ],
+            "model": [
+              "I check the data and merge the duplicate records.",
+              "I compare them, and then I combine them into one record."
+            ]
+          },
+          {
+            "npc": "Are you able to work in Canada?",
+            "npc_es": "¿Puedes trabajar en Canadá?",
+            "task_es": "Responde con honestidad según tu caso: tienes autorización o vas a necesitar un permiso.",
+            "expect": [
+              [
+                "permit",
+                "eligible",
+                "yes",
+                "citizen",
+                "resident"
+              ]
+            ],
+            "model": [
+              "Yes, I'm eligible to work in Canada.",
+              "Not yet. I'll need a work permit."
+            ]
+          },
+          {
+            "npc": "Okay. When could you start, and do you have any questions?",
+            "npc_es": "Está bien. ¿Cuándo podrías empezar y tienes alguna pregunta?",
+            "task_es": "Di cuándo puedes empezar y pregunta algo sobre la capacitación.",
+            "expect": [
+              [
+                "start",
+                "available"
+              ],
+              [
+                "training",
+                "learn",
+                "team",
+                "hours"
+              ]
+            ],
+            "model": [
+              "I'm available to start next month. Is there training for the CRM?",
+              "I can start in two weeks. What does the training look like?"
+            ]
+          }
+        ],
+        "useful": [
+          "I did data entry.",
+          "I'm a fast learner.",
+          "I'll need a work permit.",
+          "I'm eligible to work in Canada.",
+          "I'm available to start…"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-implementacion-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Contar con el método STAR un proyecto de implementación: levantar requisitos, mapear procesos, migrar datos, hacer UAT y manejar a las partes interesadas.",
+      "items": [
+        "phr-can-you-walk-me-through-it",
+        "col-gather-requirements",
+        "col-map-out-a-process",
+        "voc-workflow",
+        "col-data-migration",
+        "voc-uat",
+        "voc-stakeholder",
+        "col-meet-a-deadline",
+        "col-follow-up-email",
+        "col-change-request",
+        "col-custom-field"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-implementacion-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 974,
+        "title": "Interview for an implementation specialist",
+        "title_es": "Entrevista para especialista de implementación",
+        "intro_es": "Camila tiene una entrevista con Elise, líder de implementación, y Ravi, analista de sistemas. Les cuenta cómo implementó un sistema de citas para un grupo de clínicas.",
+        "lines": [
+          {
+            "who": "Elise",
+            "en": "Camila, tell us about an implementation you're proud of.",
+            "es": "Camila, cuéntanos de una implementación de la que estés orgullosa."
+          },
+          {
+            "who": "Camila",
+            "en": "Sure. A group of clinics moved from paper forms and spreadsheets to a new booking system.",
+            "es": "Claro. Un grupo de clínicas pasó de formularios en papel y hojas de cálculo a un nuevo sistema de citas."
+          },
+          {
+            "who": "Ravi",
+            "en": "That sounds complex. [Can you walk me through it]?",
+            "es": "Suena complejo. ¿Me lo puedes explicar paso a paso?",
+            "item": "phr-can-you-walk-me-through-it"
+          },
+          {
+            "who": "Camila",
+            "en": "First, I [gathered requirements] from the front desk, the nurses and the billing team.",
+            "es": "Primero levanté los requisitos con recepción, enfermería y el equipo de facturación.",
+            "item": "col-gather-requirements"
+          },
+          {
+            "who": "Camila",
+            "en": "Then I [mapped out the process] on a whiteboard, step by step.",
+            "es": "Luego mapeé el proceso en un pizarrón, paso a paso.",
+            "item": "col-map-out-a-process"
+          },
+          {
+            "who": "Camila",
+            "en": "We saw that the old [workflow] had three approval steps for one appointment.",
+            "es": "Vimos que el flujo de trabajo anterior tenía tres pasos de aprobación para una sola cita.",
+            "item": "voc-workflow"
+          },
+          {
+            "who": "Elise",
+            "en": "What was the hardest part?",
+            "es": "¿Qué fue lo más difícil?"
+          },
+          {
+            "who": "Camila",
+            "en": "The [data migration]. We had eight years of client records, full of duplicates.",
+            "es": "La migración de datos. Teníamos ocho años de registros de clientes, llenos de duplicados.",
+            "item": "col-data-migration"
+          },
+          {
+            "who": "Camila",
+            "en": "I cleaned the data in batches and tested each import before moving on.",
+            "es": "Limpié los datos por lotes y probé cada importación antes de seguir."
+          },
+          {
+            "who": "Ravi",
+            "en": "How did you get the staff on board?",
+            "es": "¿Cómo lograste que el personal se sumara?"
+          },
+          {
+            "who": "Camila",
+            "en": "We ran [UAT] with two people from each team, so they tested real cases.",
+            "es": "Hicimos pruebas de aceptación con dos personas de cada equipo, así probaron casos reales.",
+            "item": "voc-uat"
+          },
+          {
+            "who": "Camila",
+            "en": "One [stakeholder] was nervous about the change, so I met with her every week.",
+            "es": "Una de las partes interesadas estaba nerviosa por el cambio, así que me reunía con ella cada semana.",
+            "item": "voc-stakeholder"
+          },
+          {
+            "who": "Elise",
+            "en": "And the outcome?",
+            "es": "¿Y el resultado?"
+          },
+          {
+            "who": "Camila",
+            "en": "We went live on time, so we [met the deadline], and missed appointments dropped about fifteen percent.",
+            "es": "Salimos a producción a tiempo, cumplimos la fecha límite, y las citas perdidas bajaron alrededor de un quince por ciento.",
+            "item": "col-meet-a-deadline"
+          },
+          {
+            "who": "Ravi",
+            "en": "Impressive. We'll send the next steps by email this week.",
+            "es": "Impresionante. Te mandamos los siguientes pasos por correo esta semana."
+          },
+          {
+            "who": "Camila",
+            "en": "Thank you. I'll send a short [follow-up email] today as well.",
+            "es": "Gracias. Yo también le mando hoy un breve correo de seguimiento.",
+            "item": "col-follow-up-email"
+          }
+        ],
+        "items": [
+          "phr-can-you-walk-me-through-it",
+          "col-gather-requirements",
+          "col-map-out-a-process",
+          "voc-workflow",
+          "col-data-migration",
+          "voc-uat",
+          "voc-stakeholder",
+          "col-meet-a-deadline",
+          "col-follow-up-email"
+        ],
+        "questions": [
+          {
+            "q": "What did the clinics move to?",
+            "options": [
+              "A new booking system",
+              "A payroll system",
+              "A new website"
+            ],
+            "answer": 0,
+            "why_es": "Pasaron 'to a new booking system'."
+          },
+          {
+            "q": "Who tested the system during UAT?",
+            "options": [
+              "Only the IT team",
+              "An outside company",
+              "Two people from each team"
+            ],
+            "answer": 2,
+            "why_es": "Camila dice: 'We ran UAT with two people from each team'."
+          },
+          {
+            "q": "How did Camila handle the nervous stakeholder?",
+            "options": [
+              "She ignored her",
+              "She met with her every week",
+              "She complained to the director"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'I met with her every week'."
+          },
+          {
+            "q": "What was one result of the project?",
+            "options": [
+              "Missed appointments dropped about 15%",
+              "The project was cancelled",
+              "Costs doubled"
+            ],
+            "answer": 0,
+            "why_es": "Las citas perdidas bajaron 'about fifteen percent'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica cómo levantaste requisitos: hablaste con recepción, enfermería y facturación.",
+          "model": [
+            "I gathered requirements from the front desk, the nurses and the billing team.",
+            "First, I met with the front desk, nursing and billing to gather requirements."
+          ],
+          "expect": [
+            [
+              "requirements",
+              "needs"
+            ],
+            [
+              "front desk",
+              "nurses",
+              "nursing",
+              "billing"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Describe la migración de datos: limpiaste por lotes y probaste cada importación.",
+          "model": [
+            "I cleaned the data in batches and tested each import.",
+            "For the data migration, I cleaned records in batches and tested every import."
+          ],
+          "expect": [
+            [
+              "batch",
+              "batches"
+            ],
+            [
+              "test",
+              "tested",
+              "testing"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di cómo manejaste a una parte interesada que tenía dudas sobre el cambio.",
+          "model": [
+            "One stakeholder was nervous, so I met with her every week.",
+            "A manager was worried about the change, so we had weekly check-ins."
+          ],
+          "expect": [
+            [
+              "stakeholder",
+              "manager",
+              "worried",
+              "nervous"
+            ],
+            [
+              "week",
+              "weekly",
+              "met",
+              "meeting"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No recuerdas un número exacto.",
+          "en": "I don't remember the exact number, but it was around ten thousand records.",
+          "es": "No recuerdo el número exacto, pero eran como diez mil registros."
+        },
+        {
+          "situation_es": "No entiendes una sigla.",
+          "en": "Sorry, by 'SOW' do you mean statement of work?",
+          "es": "Perdón, ¿con 'SOW' se refiere al documento de alcance (statement of work)?"
+        },
+        {
+          "situation_es": "Quieres volver a un punto anterior.",
+          "en": "If I may, I'd like to add one thing about the testing.",
+          "es": "Si me permite, quisiera agregar algo sobre las pruebas."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-implementacion-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Interview: implementation specialist",
+        "title_es": "Entrevista: especialista de implementación",
+        "setting_es": "Entrevista por competencias para especialista de implementación de software en Edmonton. La líder del equipo quiere ejemplos concretos con el método STAR.",
+        "npc": "Implementation lead",
+        "turns": [
+          {
+            "npc": "Hi {name}. Tell me about a time when you gathered requirements from people who disagreed.",
+            "npc_es": "Hola {name}. Cuéntame de una vez en que levantaste requisitos con personas que no estaban de acuerdo.",
+            "task_es": "Situación: dos equipos querían cosas distintas del nuevo CRM.",
+            "expect": [
+              [
+                "sales",
+                "marketing",
+                "team",
+                "teams",
+                "departments"
+              ],
+              [
+                "disagreed",
+                "different",
+                "wanted",
+                "conflict"
+              ]
+            ],
+            "model": [
+              "Sales and marketing wanted different things from the new CRM.",
+              "Two teams disagreed about which fields the CRM should have."
+            ]
+          },
+          {
+            "npc": "How did you handle it?",
+            "npc_es": "¿Cómo lo manejaste?",
+            "task_es": "Acción: reuniste a ambos equipos, mapearon el proceso y acordaron prioridades.",
+            "expect": [
+              [
+                "meeting",
+                "met",
+                "together",
+                "workshop"
+              ],
+              [
+                "process",
+                "priorities",
+                "map",
+                "mapped"
+              ]
+            ],
+            "model": [
+              "I brought both teams together and we mapped out the process.",
+              "I ran a workshop, mapped the process, and we agreed on priorities."
+            ]
+          },
+          {
+            "npc": "What happened in the end?",
+            "npc_es": "¿Qué pasó al final?",
+            "task_es": "Resultado: salieron a tiempo y bajaron los registros duplicados.",
+            "expect": [
+              [
+                "time",
+                "launched",
+                "went live",
+                "live",
+                "schedule"
+              ],
+              [
+                "duplicate",
+                "duplicates",
+                "errors",
+                "fewer"
+              ]
+            ],
+            "model": [
+              "We went live on time and had fewer duplicate records.",
+              "As a result, we launched on schedule and duplicates dropped by half."
+            ]
+          },
+          {
+            "npc": "How do you test before go-live?",
+            "npc_es": "¿Cómo haces pruebas antes de salir a producción?",
+            "task_es": "Explica las pruebas de aceptación con usuarios reales y casos reales.",
+            "expect": [
+              [
+                "uat",
+                "user acceptance",
+                "testing",
+                "test"
+              ],
+              [
+                "users",
+                "real",
+                "cases",
+                "scenarios",
+                "staff"
+              ]
+            ],
+            "model": [
+              "We run UAT with real users and real scenarios.",
+              "I set up user acceptance testing where staff try their daily cases."
+            ]
+          },
+          {
+            "npc": "What if a client asks for a big change two weeks before launch?",
+            "npc_es": "¿Y si un cliente pide un cambio grande dos semanas antes del lanzamiento?",
+            "task_es": "Di que lo registras como solicitud de cambio y evalúas el impacto.",
+            "expect": [
+              [
+                "change request",
+                "request",
+                "log",
+                "document"
+              ],
+              [
+                "impact",
+                "timeline",
+                "priority",
+                "risk",
+                "deadline"
+              ]
+            ],
+            "model": [
+              "I'd log it as a change request and check the impact on the timeline.",
+              "I'd document the change request and discuss the risk to the deadline with the client."
+            ]
+          },
+          {
+            "npc": "Great. Last thing: what are your salary expectations?",
+            "npc_es": "Muy bien. Lo último: ¿cuáles son tus expectativas salariales?",
+            "task_es": "Da un rango investigado para Edmonton.",
+            "expect": [
+              [
+                "range",
+                "between",
+                "research"
+              ],
+              [
+                "thousand",
+                "000",
+                "k"
+              ]
+            ],
+            "model": [
+              "Based on my research for Edmonton, I'm looking for between 60 and 68 thousand.",
+              "I'm thinking in the range of sixty to sixty-eight thousand, depending on benefits."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi want to win\\b",
+                "fix": "I'm looking for… / I'd like to earn…",
+                "why_es": "*Ganar* dinero es *earn* o *make*; *win* es ganar un premio o un juego."
+              }
+            ]
+          }
+        ],
+        "useful": [
+          "Let me give you a concrete example.",
+          "I gathered requirements from…",
+          "We mapped out the process.",
+          "I'd log it as a change request.",
+          "Based on my research,…"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-implementacion-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Defender tu enfoque como analista de sistemas ante objeciones (alcance, riesgo, experiencia) y negociar salario y fecha de inicio con argumentos.",
+      "items": [
+        "voc-legacy",
+        "voc-pain-point",
+        "col-streamline-a-process",
+        "voc-automation",
+        "voc-acceptance-criteria",
+        "col-scope-creep",
+        "col-sign-off",
+        "phr-is-there-any-flexibility-on",
+        "idi-bring-to-the-table",
+        "voc-counteroffer"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-implementacion-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 975,
+        "title": "Final round: systems analyst",
+        "title_es": "Ronda final: analista de sistemas",
+        "intro_es": "Lucía está en la última entrevista para administrar el CRM de ventas. Marguerite, directora de sistemas de negocio, y Dan, de finanzas, la cuestionan y luego hablan de números.",
+        "lines": [
+          {
+            "who": "Marguerite",
+            "en": "Lucía, our sales team lives in a [legacy] CRM held together with spreadsheets. Where would you start?",
+            "es": "Lucía, nuestro equipo de ventas vive en un CRM antiguo que se sostiene con hojas de cálculo. ¿Por dónde empezarías?",
+            "item": "voc-legacy"
+          },
+          {
+            "who": "Lucía",
+            "en": "With people, not tools. I'd shadow a few reps to find the real [pain points] before touching any settings.",
+            "es": "Con las personas, no con las herramientas. Acompañaría a algunos vendedores para encontrar los verdaderos puntos de dolor antes de tocar cualquier configuración.",
+            "item": "voc-pain-point"
+          },
+          {
+            "who": "Dan",
+            "en": "We already know the pain points. Wouldn't that just slow us down?",
+            "es": "Ya conocemos los puntos de dolor. ¿Eso no nos frenaría?"
+          },
+          {
+            "who": "Lucía",
+            "en": "Maybe by a week, but it saves months of rework. Teams often describe the process they wish they had, not the one they follow.",
+            "es": "Quizá una semana, pero ahorra meses de retrabajo. Los equipos suelen describir el proceso que quisieran tener, no el que siguen."
+          },
+          {
+            "who": "Marguerite",
+            "en": "Fair. Say the reps enter the same lead in three places.",
+            "es": "Es justo. Supón que los vendedores capturan el mismo prospecto en tres lugares."
+          },
+          {
+            "who": "Lucía",
+            "en": "Then I'd [streamline the process] so each lead is entered once, in one place.",
+            "es": "Entonces simplificaría el proceso para que cada prospecto se capture una sola vez, en un solo lugar.",
+            "item": "col-streamline-a-process"
+          },
+          {
+            "who": "Lucía",
+            "en": "After that, a simple [automation] could assign leads by region and notify the rep.",
+            "es": "Después, una automatización sencilla podría asignar los prospectos por región y avisarle al vendedor.",
+            "item": "voc-automation"
+          },
+          {
+            "who": "Dan",
+            "en": "How do you stop a project like that from ballooning?",
+            "es": "¿Cómo evitas que un proyecto así se infle?"
+          },
+          {
+            "who": "Lucía",
+            "en": "I write [acceptance criteria] with the business up front, so 'done' means the same thing to everyone.",
+            "es": "Escribo los criterios de aceptación con el negocio desde el inicio, para que «terminado» signifique lo mismo para todos.",
+            "item": "voc-acceptance-criteria"
+          },
+          {
+            "who": "Lucía",
+            "en": "Anything new goes through a change request; that keeps [scope creep] visible instead of pretending it isn't happening.",
+            "es": "Todo lo nuevo pasa por una solicitud de cambio; así el crecimiento descontrolado del alcance queda a la vista en lugar de fingir que no ocurre.",
+            "item": "col-scope-creep"
+          },
+          {
+            "who": "Marguerite",
+            "en": "And who has the final say?",
+            "es": "¿Y quién tiene la última palabra?"
+          },
+          {
+            "who": "Lucía",
+            "en": "The process owner gives formal [sign-off] after UAT. Without it, we don't go live.",
+            "es": "El dueño del proceso da la aprobación formal después de las pruebas de aceptación. Sin ella, no salimos a producción.",
+            "item": "col-sign-off"
+          },
+          {
+            "who": "Dan",
+            "en": "Let's talk numbers. We've budgeted seventy-five for this role.",
+            "es": "Hablemos de números. Tenemos presupuestados 75 mil para este puesto."
+          },
+          {
+            "who": "Lucía",
+            "en": "Thanks for being upfront. Given the scope, I'd been targeting eighty to eighty-four. [Is there any flexibility on] the base?",
+            "es": "Gracias por ser directo. Por el alcance, yo apuntaba a entre 80 y 84. ¿Hay alguna flexibilidad en el salario base?",
+            "item": "phr-is-there-any-flexibility-on"
+          },
+          {
+            "who": "Marguerite",
+            "en": "Maybe a little, if you can start before our spring rollout.",
+            "es": "Quizá un poco, si puedes empezar antes de nuestro lanzamiento de primavera."
+          },
+          {
+            "who": "Lucía",
+            "en": "I can be flexible on timing, and the migration experience I [bring to the table] makes that realistic.",
+            "es": "Puedo ser flexible con las fechas, y la experiencia en migraciones que aporto lo hace realista.",
+            "item": "idi-bring-to-the-table"
+          }
+        ],
+        "items": [
+          "voc-legacy",
+          "voc-pain-point",
+          "col-streamline-a-process",
+          "voc-automation",
+          "voc-acceptance-criteria",
+          "col-scope-creep",
+          "col-sign-off",
+          "phr-is-there-any-flexibility-on",
+          "idi-bring-to-the-table"
+        ],
+        "questions": [
+          {
+            "q": "Why does Lucía want to shadow sales reps first?",
+            "options": [
+              "To see how they really work",
+              "To check their sales numbers",
+              "To train them on the CRM"
+            ],
+            "answer": 0,
+            "why_es": "Quiere encontrar 'the real pain points': cómo trabajan de verdad."
+          },
+          {
+            "q": "How does she keep scope creep visible?",
+            "options": [
+              "By refusing all changes",
+              "By using change requests",
+              "By adding more developers"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'Anything new goes through a change request'."
+          },
+          {
+            "q": "What is required before going live?",
+            "options": [
+              "A press release",
+              "A new budget",
+              "Formal sign-off from the process owner"
+            ],
+            "answer": 2,
+            "why_es": "'The process owner gives formal sign-off after UAT'."
+          },
+          {
+            "q": "What condition does Marguerite mention for more flexibility?",
+            "options": [
+              "An earlier start",
+              "A longer contract",
+              "Working weekends"
+            ],
+            "answer": 0,
+            "why_es": "Habría flexibilidad 'if you can start before our spring rollout'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Responde a la objeción «eso nos va a frenar» defendiendo observar primero.",
+          "model": [
+            "It might add a week, but it saves months of rework.",
+            "Possibly a little at first, but it prevents costly rework later."
+          ],
+          "expect": [
+            [
+              "week",
+              "little",
+              "short"
+            ],
+            [
+              "rework",
+              "later",
+              "save",
+              "saves",
+              "prevent",
+              "prevents"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica cómo controlas el crecimiento del alcance (scope creep).",
+          "model": [
+            "Anything new goes through a change request, so scope creep stays visible.",
+            "I keep scope creep under control with clear acceptance criteria and change requests."
+          ],
+          "expect": [
+            [
+              "change request",
+              "acceptance criteria"
+            ],
+            [
+              "scope"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Contraoferta: agradece la transparencia, da tu rango y pregunta por flexibilidad.",
+          "model": [
+            "Thanks for being upfront. I was targeting 80 to 84 thousand. Is there any flexibility on the base?",
+            "I appreciate the transparency. Given the scope, I'd hoped for the low eighties, so is there any flexibility?"
+          ],
+          "expect": [
+            [
+              "thanks",
+              "thank",
+              "appreciate"
+            ],
+            [
+              "flexibility",
+              "flexible",
+              "room"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te presionan con una objeción.",
+          "en": "I see where you're coming from. Can I explain my reasoning?",
+          "es": "Entiendo su punto. ¿Puedo explicar mi razonamiento?"
+        },
+        {
+          "situation_es": "Quieres tiempo para pensar la oferta.",
+          "en": "Could I take a day to review the full package?",
+          "es": "¿Podría tomarme un día para revisar el paquete completo?"
+        },
+        {
+          "situation_es": "No te entendieron bien.",
+          "en": "Sorry, I may not have been clear. What I meant was that we test first.",
+          "es": "Perdón, quizá no fui clara. Lo que quise decir es que primero probamos."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-implementacion-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Final round: systems analyst",
+        "title_es": "Ronda final: analista de sistemas",
+        "setting_es": "Última entrevista para analista de sistemas en una empresa de Edmonton. La directora pone a prueba tu criterio con objeciones y después negocian la oferta.",
+        "npc": "Director of Business Systems",
+        "turns": [
+          {
+            "npc": "Thanks for coming back, {name}. Our operations team says the new system is 'too slow'. How would you get to the real problem?",
+            "npc_es": "Gracias por volver, {name}. Nuestro equipo de operaciones dice que el sistema nuevo es «muy lento». ¿Cómo llegarías al problema real?",
+            "task_es": "Explica que observarías el trabajo real y harías preguntas concretas antes de proponer algo.",
+            "expect": [
+              [
+                "observe",
+                "shadow",
+                "watch",
+                "sit with"
+              ],
+              [
+                "questions",
+                "ask",
+                "pain points",
+                "process",
+                "workflow"
+              ]
+            ],
+            "model": [
+              "I'd shadow a few users and ask specific questions before proposing anything.",
+              "First I'd sit with the team, watch the actual workflow, and identify the pain points."
+            ]
+          },
+          {
+            "npc": "Suppose the 'slowness' is really six extra clicks per order. Now what?",
+            "npc_es": "Supón que la «lentitud» en realidad son seis clics de más por pedido. ¿Y ahora?",
+            "task_es": "Propón simplificar o automatizar un paso, y medir el antes y el después.",
+            "expect": [
+              [
+                "streamline",
+                "automate",
+                "automation",
+                "simplify",
+                "remove"
+              ],
+              [
+                "measure",
+                "time",
+                "clicks",
+                "before"
+              ]
+            ],
+            "model": [
+              "I'd streamline the screen or automate that step, and measure the time before and after.",
+              "We could remove unnecessary fields and automate the rest, then compare clicks before and after."
+            ]
+          },
+          {
+            "npc": "Honestly, your background is more CRM than ERP. Why should we take the risk?",
+            "npc_es": "Sinceramente, tu experiencia es más de CRM que de ERP. ¿Por qué deberíamos arriesgarnos?",
+            "task_es": "Responde a la objeción con habilidades transferibles y un ejemplo.",
+            "expect": [
+              [
+                "fair",
+                "understand",
+                "true",
+                "valid"
+              ],
+              [
+                "requirements",
+                "process",
+                "migration",
+                "same",
+                "transfer",
+                "skills"
+              ]
+            ],
+            "model": [
+              "That's fair. The tools differ, but gathering requirements and running migrations are the same skills.",
+              "I understand the concern. I've led a full data migration, and those skills transfer directly."
+            ]
+          },
+          {
+            "npc": "Two department heads want opposite things, and both say it's urgent. What do you do?",
+            "npc_es": "Dos jefes de departamento quieren cosas opuestas y ambos dicen que es urgente. ¿Qué haces?",
+            "task_es": "Explica cómo priorizas: impacto, criterios acordados y quién da la aprobación.",
+            "expect": [
+              [
+                "impact",
+                "priority",
+                "prioritize",
+                "prioritise",
+                "criteria"
+              ],
+              [
+                "sign-off",
+                "sign off",
+                "sponsor",
+                "owner",
+                "decide",
+                "decision"
+              ]
+            ],
+            "model": [
+              "I'd compare the business impact against our agreed criteria and let the sponsor make the final decision.",
+              "I'd lay out the impact of each option and ask the process owner for sign-off."
+            ]
+          },
+          {
+            "npc": "We can offer seventy-eight, with a review after six months. Thoughts?",
+            "npc_es": "Podemos ofrecer 78 mil, con una revisión a los seis meses. ¿Qué opinas?",
+            "task_es": "Agradece y pide un poco más, o que la revisión quede por escrito.",
+            "expect": [
+              [
+                "appreciate",
+                "thank",
+                "thanks"
+              ],
+              [
+                "writing",
+                "written",
+                "flexibility",
+                "review",
+                "eighty",
+                "80"
+              ]
+            ],
+            "model": [
+              "I appreciate it. Could we put the six-month review in writing, with a clear target?",
+              "Thank you. If there's flexibility to reach eighty, I'd be ready to accept."
+            ]
+          },
+          {
+            "npc": "One last thing: references. Who would you suggest?",
+            "npc_es": "Una última cosa: referencias. ¿A quién sugerirías?",
+            "task_es": "Ofrece dos referencias profesionales y di que enviarás sus datos hoy.",
+            "expect": [
+              [
+                "reference",
+                "references",
+                "manager",
+                "supervisor",
+                "client",
+                "sponsor"
+              ],
+              [
+                "send",
+                "email",
+                "today",
+                "share",
+                "afternoon"
+              ]
+            ],
+            "model": [
+              "I can provide two references, a former manager and a client, and I'll email their details today.",
+              "My previous manager and a project sponsor are happy to be references. I'll send their contacts this afternoon."
+            ]
+          }
+        ],
+        "useful": [
+          "I see where you're coming from.",
+          "Before proposing anything, I'd…",
+          "That keeps scope creep visible.",
+          "Is there any flexibility on…?",
+          "Could we put that in writing?"
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "col-duplicate-records",
+      "type": "collocation",
+      "term": "duplicate records",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "crm",
+        "datos"
+      ],
+      "es": "registros duplicados",
+      "def": "two or more entries in a system for the same person or thing",
+      "ex": [
+        {
+          "en": "I merged hundreds of [duplicate records] in the client list.",
+          "es": "Combiné cientos de registros duplicados en la lista de clientes."
+        },
+        {
+          "en": "[Duplicate records] make the sales reports wrong.",
+          "es": "Los registros duplicados hacen que los reportes de ventas estén mal."
+        }
+      ]
+    },
+    {
+      "id": "col-data-migration",
+      "type": "collocation",
+      "term": "data migration",
+      "level": "B2",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "analisis",
+        "datos"
+      ],
+      "es": "migración de datos",
+      "def": "moving information from an old system to a new one",
+      "ex": [
+        {
+          "en": "The [data migration] took three weekends.",
+          "es": "La migración de datos tomó tres fines de semana."
+        },
+        {
+          "en": "We tested every step of the [data migration] in a copy first.",
+          "es": "Primero probamos cada paso de la migración de datos en una copia."
+        }
+      ]
+    },
+    {
+      "id": "voc-uat",
+      "type": "vocab",
+      "term": "UAT",
+      "ipa": "/ˌjuː eɪ ˈtiː/",
+      "level": "B2",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "analisis",
+        "software"
+      ],
+      "es": "pruebas de aceptación del usuario",
+      "def": "user acceptance testing: real users check that a system does what they need",
+      "note": "Se pronuncia letra por letra: U-A-T. Suele ser el último paso antes de salir a producción.",
+      "ex": [
+        {
+          "en": "We ran [UAT] with two people from each team.",
+          "es": "Hicimos UAT con dos personas de cada equipo."
+        },
+        {
+          "en": "The launch waits until [UAT] is signed off.",
+          "es": "El lanzamiento espera hasta que se aprueben las pruebas de aceptación."
+        }
+      ]
+    },
+    {
+      "id": "col-change-request",
+      "type": "collocation",
+      "term": "change request",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "proyectos",
+        "analisis"
+      ],
+      "es": "solicitud de cambio",
+      "def": "a formal request to change what a project will deliver",
+      "note": "Sirve para controlar el *scope creep*: todo cambio se registra, se evalúa y se aprueba.",
+      "ex": [
+        {
+          "en": "Please submit a [change request] so we can check the impact.",
+          "es": "Por favor envía una solicitud de cambio para revisar el impacto."
+        },
+        {
+          "en": "The client approved the [change request] on Friday.",
+          "es": "El cliente aprobó la solicitud de cambio el viernes."
+        }
+      ]
+    },
+    {
+      "id": "col-custom-field",
+      "type": "collocation",
+      "term": "custom field",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "crm"
+      ],
+      "es": "campo personalizado",
+      "def": "an extra field you add to a system to store information it doesn't include by default",
+      "ex": [
+        {
+          "en": "I added a [custom field] for the customer's preferred language.",
+          "es": "Agregué un campo personalizado para el idioma preferido del cliente."
+        },
+        {
+          "en": "Too many [custom fields] make the form slow to fill in.",
+          "es": "Demasiados campos personalizados hacen lento el formulario."
+        }
+      ]
+    }
+  ]
+}

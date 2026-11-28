@@ -1,0 +1,1358 @@
+{
+  "id": "entrevista-desarrollo",
+  "title_es": "Entrevista: desarrollo de software",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas",
+    "canada",
+    "software"
+  ],
+  "season": null,
+  "objective_es": "Prepararte para entrevistas de desarrollador de software en Edmonton: proyectos, depuración, pruebas, APIs, revisiones de código, trabajo en equipo y defensa de decisiones técnicas.",
+  "tracks": [
+    {
+      "id": "entrevista-desarrollo-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Hablar de forma sencilla de tus proyectos, de cómo corriges errores y haces pruebas, y preguntar por los siguientes pasos.",
+      "items": [
+        "col-write-code",
+        "col-side-project",
+        "col-fix-a-bug",
+        "col-run-tests",
+        "idi-team-player",
+        "phr-im-a-quick-learner",
+        "phr-im-eligible-to-work-in-canada",
+        "phr-what-are-the-next-steps"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-desarrollo-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 976,
+        "title": "First interview: junior developer",
+        "title_es": "Primera entrevista: desarrolladora junior",
+        "intro_es": "Marisol busca su primer trabajo como desarrolladora en Canadá. Tom, líder del equipo, le hace preguntas sencillas sobre su código.",
+        "lines": [
+          {
+            "who": "Tom",
+            "en": "Hi, Marisol. Welcome. What languages do you use?",
+            "es": "Hola, Marisol. Bienvenida. ¿Qué lenguajes usas?"
+          },
+          {
+            "who": "Marisol",
+            "en": "Mostly JavaScript and Python. I [write code] almost every day.",
+            "es": "Sobre todo JavaScript y Python. Escribo código casi todos los días.",
+            "item": "col-write-code"
+          },
+          {
+            "who": "Tom",
+            "en": "Do you have a project you can show me?",
+            "es": "¿Tienes algún proyecto que me puedas enseñar?"
+          },
+          {
+            "who": "Marisol",
+            "en": "Yes. I have a [side project]: an app for bus times in my city.",
+            "es": "Sí. Tengo un proyecto personal: una app de horarios de autobús en mi ciudad.",
+            "item": "col-side-project"
+          },
+          {
+            "who": "Tom",
+            "en": "Nice. Did it have any problems?",
+            "es": "Qué bien. ¿Tuvo algún problema?"
+          },
+          {
+            "who": "Marisol",
+            "en": "Yes! Last month I [fixed a bug] with the Sunday times.",
+            "es": "¡Sí! El mes pasado corregí un error con los horarios del domingo.",
+            "item": "col-fix-a-bug"
+          },
+          {
+            "who": "Tom",
+            "en": "How do you check your work?",
+            "es": "¿Cómo revisas tu trabajo?"
+          },
+          {
+            "who": "Marisol",
+            "en": "I [run tests] before I share my code.",
+            "es": "Corro pruebas antes de compartir mi código.",
+            "item": "col-run-tests"
+          },
+          {
+            "who": "Tom",
+            "en": "Do you like working alone or with a team?",
+            "es": "¿Te gusta trabajar sola o en equipo?"
+          },
+          {
+            "who": "Marisol",
+            "en": "Both, but I'm a [team player]. I like to ask questions.",
+            "es": "Las dos cosas, pero me gusta trabajar en equipo. Me gusta hacer preguntas.",
+            "item": "idi-team-player"
+          },
+          {
+            "who": "Tom",
+            "en": "This job uses some tools you don't know.",
+            "es": "En este trabajo se usan herramientas que no conoces."
+          },
+          {
+            "who": "Marisol",
+            "en": "That's okay. [I'm a quick learner].",
+            "es": "No hay problema. Aprendo rápido.",
+            "item": "phr-im-a-quick-learner"
+          },
+          {
+            "who": "Tom",
+            "en": "Can you work in Canada?",
+            "es": "¿Puedes trabajar en Canadá?"
+          },
+          {
+            "who": "Marisol",
+            "en": "Yes, [I'm eligible to work in Canada].",
+            "es": "Sí, tengo autorización para trabajar en Canadá.",
+            "item": "phr-im-eligible-to-work-in-canada"
+          },
+          {
+            "who": "Marisol",
+            "en": "Thank you for meeting me. [What are the next steps]?",
+            "es": "Gracias por recibirme. ¿Cuáles son los siguientes pasos?",
+            "item": "phr-what-are-the-next-steps"
+          },
+          {
+            "who": "Tom",
+            "en": "A short coding exercise next week. We'll email you.",
+            "es": "Un ejercicio corto de programación la próxima semana. Te escribimos."
+          }
+        ],
+        "items": [
+          "col-write-code",
+          "col-side-project",
+          "col-fix-a-bug",
+          "col-run-tests",
+          "idi-team-player",
+          "phr-im-a-quick-learner",
+          "phr-im-eligible-to-work-in-canada",
+          "phr-what-are-the-next-steps"
+        ],
+        "questions": [
+          {
+            "q": "What is Marisol's side project?",
+            "options": [
+              "A game",
+              "An app for bus times",
+              "A shopping website"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'an app for bus times in my city'."
+          },
+          {
+            "q": "What does she do before she shares her code?",
+            "options": [
+              "She runs tests",
+              "She deletes it",
+              "She sends it to a friend"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'I run tests before I share my code'."
+          },
+          {
+            "q": "What is the next step?",
+            "options": [
+              "A phone call",
+              "A job offer",
+              "A short coding exercise"
+            ],
+            "answer": 2,
+            "why_es": "Tom dice: 'A short coding exercise next week'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Describe tu proyecto personal en una frase.",
+          "model": [
+            "I have a side project: an app for bus times.",
+            "My side project is a small app that shows bus times."
+          ],
+          "expect": [
+            [
+              "side project",
+              "project"
+            ],
+            [
+              "app",
+              "website",
+              "tool"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que corriges errores y corres pruebas antes de compartir tu código.",
+          "model": [
+            "I fix bugs and I run tests before I share my code.",
+            "Before I share my code, I run tests and fix bugs."
+          ],
+          "expect": [
+            [
+              "bug",
+              "bugs"
+            ],
+            [
+              "test",
+              "tests"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Pregunta cuáles son los siguientes pasos.",
+          "model": [
+            "What are the next steps?",
+            "What's the next step in the process?"
+          ],
+          "expect": [
+            [
+              "next step",
+              "next steps"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entiendes una palabra técnica.",
+          "en": "Sorry, what do you mean by 'deploy'?",
+          "es": "Perdón, ¿a qué se refiere con 'deploy'?"
+        },
+        {
+          "situation_es": "Hablan muy rápido.",
+          "en": "Sorry, could you say that again more slowly?",
+          "es": "Perdón, ¿podría repetirlo más despacio?"
+        },
+        {
+          "situation_es": "No conoces una herramienta.",
+          "en": "I haven't used that tool, but I'd like to learn it.",
+          "es": "No he usado esa herramienta, pero me gustaría aprenderla."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-desarrollo-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "First interview: junior developer",
+        "title_es": "Primera entrevista: desarrollador junior",
+        "setting_es": "Entrevista corta para un puesto de desarrollador junior en una empresa de software de Edmonton. El líder del equipo quiere conocer tus proyectos.",
+        "npc": "Team lead",
+        "turns": [
+          {
+            "npc": "Hi {name}, thanks for coming. What do you like to code?",
+            "npc_es": "Hola {name}, gracias por venir. ¿Qué te gusta programar?",
+            "task_es": "Di qué lenguaje usas y qué tipo de proyectos haces.",
+            "expect": [
+              [
+                "javascript",
+                "python",
+                "java",
+                "php",
+                "code",
+                "coding",
+                "web",
+                "apps",
+                "websites",
+                "tools"
+              ]
+            ],
+            "model": [
+              "I like JavaScript. I build small web apps.",
+              "Mostly Python. I make simple tools and websites."
+            ]
+          },
+          {
+            "npc": "Tell me about one project.",
+            "npc_es": "Cuéntame de un proyecto.",
+            "task_es": "Describe un proyecto personal sencillo.",
+            "expect": [
+              [
+                "project",
+                "app",
+                "website",
+                "tool"
+              ]
+            ],
+            "model": [
+              "I made an app for bus times in my city.",
+              "My side project is a website for a local bakery."
+            ]
+          },
+          {
+            "npc": "What do you do when your code doesn't work?",
+            "npc_es": "¿Qué haces cuando tu código no funciona?",
+            "task_es": "Di que lees el error, buscas el problema y haces pruebas.",
+            "expect": [
+              [
+                "error",
+                "bug",
+                "bugs",
+                "problem"
+              ],
+              [
+                "test",
+                "tests",
+                "check",
+                "debug",
+                "look",
+                "read"
+              ]
+            ],
+            "model": [
+              "I read the error message and look for the bug.",
+              "I check the logs, find the bug and run the tests again."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi search the bug\\b",
+                "fix": "I look for the bug",
+                "why_es": "*Buscar algo* es *look for*; *search* necesita *for*: search for the bug."
+              }
+            ]
+          },
+          {
+            "npc": "Can you work in Canada?",
+            "npc_es": "¿Puedes trabajar en Canadá?",
+            "task_es": "Responde con honestidad según tu caso.",
+            "expect": [
+              [
+                "eligible",
+                "permit",
+                "yes",
+                "citizen",
+                "resident"
+              ]
+            ],
+            "model": [
+              "Yes, I'm eligible to work in Canada.",
+              "I'll need a work permit, but I'm happy to talk about it."
+            ]
+          },
+          {
+            "npc": "Great. Any questions for me?",
+            "npc_es": "Muy bien. ¿Alguna pregunta para mí?",
+            "task_es": "Pregunta por los siguientes pasos o por el equipo.",
+            "expect": [
+              [
+                "next",
+                "team",
+                "steps",
+                "tools"
+              ]
+            ],
+            "model": [
+              "What are the next steps?",
+              "How big is the team?"
+            ]
+          }
+        ],
+        "useful": [
+          "I write code every day.",
+          "I have a side project.",
+          "I fixed a bug in…",
+          "I'm a quick learner.",
+          "What are the next steps?"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-desarrollo-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 16,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Contar con el método STAR cómo depuraste un error difícil, cómo probaste la solución y cómo manejas las revisiones de código.",
+      "items": [
+        "phr-it-works-on-my-machine-but-i-cant-reproduce-it-here",
+        "voc-debug",
+        "col-call-an-api",
+        "col-unit-test",
+        "col-edge-case",
+        "voc-pull-request",
+        "col-code-review",
+        "phr-as-a-result",
+        "col-tight-deadline"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-desarrollo-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 977,
+        "title": "Behavioural interview: software developer",
+        "title_es": "Entrevista por competencias: desarrolladora de software",
+        "intro_es": "Elena habla con Kai, gerente de ingeniería, e Imani, desarrolladora senior. Le piden un ejemplo de un error difícil de encontrar.",
+        "lines": [
+          {
+            "who": "Kai",
+            "en": "Elena, give us an example of a bug that was hard to find.",
+            "es": "Elena, danos un ejemplo de un error que fue difícil de encontrar."
+          },
+          {
+            "who": "Elena",
+            "en": "Sure. Our mobile app crashed for some users when they paid, but only on older phones.",
+            "es": "Claro. Nuestra app móvil se cerraba a algunos usuarios al pagar, pero solo en teléfonos viejos."
+          },
+          {
+            "who": "Imani",
+            "en": "Classic. It never happens on the developer's phone.",
+            "es": "Clásico. Nunca pasa en el teléfono del desarrollador."
+          },
+          {
+            "who": "Elena",
+            "en": "Exactly. At first I told the tester, '[It works on my machine, but I can't reproduce it here].'",
+            "es": "Exacto. Al principio le dije al tester: «En mi máquina funciona, pero aquí no lo puedo reproducir».",
+            "item": "phr-it-works-on-my-machine-but-i-cant-reproduce-it-here"
+          },
+          {
+            "who": "Elena",
+            "en": "So I asked for logs and the phone model, and I started to [debug] on an old device.",
+            "es": "Así que pedí los registros y el modelo del teléfono, y empecé a depurar en un dispositivo viejo.",
+            "item": "voc-debug"
+          },
+          {
+            "who": "Elena",
+            "en": "The problem was how we [called the API]: old phones timed out before the payment response arrived.",
+            "es": "El problema era cómo llamábamos a la API: los teléfonos viejos agotaban el tiempo de espera antes de que llegara la respuesta del pago.",
+            "item": "col-call-an-api"
+          },
+          {
+            "who": "Kai",
+            "en": "What did you change?",
+            "es": "¿Qué cambiaste?"
+          },
+          {
+            "who": "Elena",
+            "en": "I added a retry and a clear message, and I wrote a [unit test] for the timeout.",
+            "es": "Agregué un reintento y un mensaje claro, y escribí una prueba unitaria para el tiempo de espera.",
+            "item": "col-unit-test"
+          },
+          {
+            "who": "Elena",
+            "en": "I also tested an [edge case]: a payment of zero dollars after a coupon.",
+            "es": "También probé un caso límite: un pago de cero dólares después de un cupón.",
+            "item": "col-edge-case"
+          },
+          {
+            "who": "Imani",
+            "en": "How did the team review your fix?",
+            "es": "¿Cómo revisó el equipo tu corrección?"
+          },
+          {
+            "who": "Elena",
+            "en": "I opened a small [pull request] and explained the problem in two lines.",
+            "es": "Abrí un pull request pequeño y expliqué el problema en dos líneas.",
+            "item": "voc-pull-request"
+          },
+          {
+            "who": "Elena",
+            "en": "In the [code review], a senior dev suggested a cleaner solution, and I used it.",
+            "es": "En la revisión de código, un dev senior sugirió una solución más limpia, y la usé.",
+            "item": "col-code-review"
+          },
+          {
+            "who": "Kai",
+            "en": "And the result?",
+            "es": "¿Y el resultado?"
+          },
+          {
+            "who": "Elena",
+            "en": "[As a result], payment errors dropped by almost ninety percent in a week.",
+            "es": "Como resultado, los errores de pago bajaron casi un noventa por ciento en una semana.",
+            "item": "phr-as-a-result"
+          },
+          {
+            "who": "Imani",
+            "en": "What if you disagree with a reviewer?",
+            "es": "¿Y si no estás de acuerdo con quien revisa?"
+          },
+          {
+            "who": "Elena",
+            "en": "I ask questions and share data. If we still disagree, we try both quickly or ask the tech lead.",
+            "es": "Hago preguntas y comparto datos. Si seguimos sin estar de acuerdo, probamos ambas rápido o le preguntamos al líder técnico."
+          }
+        ],
+        "items": [
+          "phr-it-works-on-my-machine-but-i-cant-reproduce-it-here",
+          "voc-debug",
+          "col-call-an-api",
+          "col-unit-test",
+          "col-edge-case",
+          "voc-pull-request",
+          "col-code-review",
+          "phr-as-a-result"
+        ],
+        "questions": [
+          {
+            "q": "Which users had the crash?",
+            "options": [
+              "All users",
+              "Some users on older phones",
+              "Only new users"
+            ],
+            "answer": 1,
+            "why_es": "Elena dice: 'only on older phones'."
+          },
+          {
+            "q": "What did Elena write for the timeout?",
+            "options": [
+              "A unit test",
+              "A blog post",
+              "A new app"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'I wrote a unit test for the timeout'."
+          },
+          {
+            "q": "What happened in the code review?",
+            "options": [
+              "Her fix was rejected",
+              "Nobody reviewed it",
+              "A senior dev suggested a cleaner solution"
+            ],
+            "answer": 2,
+            "why_es": "'A senior dev suggested a cleaner solution, and I used it'."
+          },
+          {
+            "q": "What does Elena do if she disagrees with a reviewer?",
+            "options": [
+              "She merges anyway",
+              "She asks questions and shares data",
+              "She stays quiet"
+            ],
+            "answer": 1,
+            "why_es": "'I ask questions and share data'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "STAR – Situación: la app fallaba al pagar en teléfonos viejos.",
+          "model": [
+            "The app crashed for some users when they paid, but only on older phones.",
+            "Some users on older phones had a crash during payment."
+          ],
+          "expect": [
+            [
+              "crash",
+              "crashed",
+              "crashes",
+              "failed"
+            ],
+            [
+              "older",
+              "old"
+            ],
+            [
+              "pay",
+              "paid",
+              "payment"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "STAR – Acción: agregaste un reintento y una prueba unitaria.",
+          "model": [
+            "I added a retry and wrote a unit test for the timeout.",
+            "I fixed it with a retry, and I added a unit test so it doesn't come back."
+          ],
+          "expect": [
+            [
+              "retry"
+            ],
+            [
+              "unit test",
+              "test"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di cómo manejas un desacuerdo en una revisión de código.",
+          "model": [
+            "I ask questions and share data, and if we still disagree, I ask the tech lead.",
+            "I listen, explain my reasoning with data, and we try both options if needed."
+          ],
+          "expect": [
+            [
+              "question",
+              "questions",
+              "listen",
+              "explain"
+            ],
+            [
+              "data",
+              "lead",
+              "both",
+              "options"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "La pregunta técnica es ambigua.",
+          "en": "Do you mean in production or in testing?",
+          "es": "¿Se refiere a producción o a pruebas?"
+        },
+        {
+          "situation_es": "Necesitas pensar en voz alta.",
+          "en": "Let me think out loud for a second.",
+          "es": "Déjeme pensar en voz alta un momento."
+        },
+        {
+          "situation_es": "No conoces un término.",
+          "en": "I'm not familiar with that term. Could you explain it?",
+          "es": "No conozco ese término. ¿Me lo podría explicar?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-desarrollo-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Behavioural interview: developer",
+        "title_es": "Entrevista por competencias: desarrollador",
+        "setting_es": "Entrevista con el gerente de ingeniería de una empresa de software de Edmonton. Quiere ejemplos concretos (STAR) y saber por qué elegiste esta ciudad y esta empresa.",
+        "npc": "Engineering manager",
+        "turns": [
+          {
+            "npc": "Hi {name}. Tell me about a time when you had a tight deadline.",
+            "npc_es": "Hola {name}. Cuéntame de una vez en que tuviste una fecha límite muy ajustada.",
+            "task_es": "Situación y tarea: una función que tenía que salir en una semana.",
+            "expect": [
+              [
+                "deadline",
+                "week",
+                "days"
+              ],
+              [
+                "feature",
+                "release",
+                "launch",
+                "project"
+              ]
+            ],
+            "model": [
+              "We had one week to release a new search feature.",
+              "Our client needed a payment feature in five days, so the deadline was tight."
+            ]
+          },
+          {
+            "npc": "What did you do to deliver?",
+            "npc_es": "¿Qué hiciste para entregar?",
+            "task_es": "Acción: dividiste el trabajo, priorizaste y avisaste de los riesgos a tiempo.",
+            "expect": [
+              [
+                "split",
+                "broke",
+                "divided",
+                "prioritized",
+                "prioritised",
+                "focused"
+              ],
+              [
+                "risk",
+                "risks",
+                "early",
+                "updates",
+                "team"
+              ]
+            ],
+            "model": [
+              "I split the work into small tasks, prioritized the core feature, and flagged risks early.",
+              "We broke it down, focused on the must-haves, and I gave daily updates to the team."
+            ]
+          },
+          {
+            "npc": "Did you cut any corners on testing?",
+            "npc_es": "¿Te saltaste algo en las pruebas?",
+            "task_es": "Di que no: probaste lo más importante y dejaste mejoras menores para después.",
+            "expect": [
+              [
+                "no",
+                "didn't",
+                "not"
+              ],
+              [
+                "test",
+                "tests",
+                "testing"
+              ]
+            ],
+            "model": [
+              "No. I wrote tests for the critical paths and left small improvements for later.",
+              "I didn't skip testing; we covered the main cases and logged the rest as tickets."
+            ]
+          },
+          {
+            "npc": "Tell me about a code review where you disagreed with someone.",
+            "npc_es": "Cuéntame de una revisión de código en la que no estuviste de acuerdo con alguien.",
+            "task_es": "Explica cómo resolviste el desacuerdo con respeto y con datos.",
+            "expect": [
+              [
+                "disagreed",
+                "disagree",
+                "different"
+              ],
+              [
+                "data",
+                "explained",
+                "asked",
+                "discussed",
+                "test",
+                "compare"
+              ]
+            ],
+            "model": [
+              "I disagreed with a reviewer, so I explained my reasoning and we ran a quick test to compare.",
+              "A senior dev and I had different ideas. We discussed it and used data to decide."
+            ]
+          },
+          {
+            "npc": "How do you explain a technical problem to someone who isn't technical?",
+            "npc_es": "¿Cómo le explicas un problema técnico a alguien que no es técnico?",
+            "task_es": "Usa un ejemplo sencillo y evita la jerga.",
+            "expect": [
+              [
+                "simple",
+                "example",
+                "compare",
+                "analogy",
+                "familiar"
+              ],
+              [
+                "jargon",
+                "technical",
+                "words",
+                "terms"
+              ]
+            ],
+            "model": [
+              "I use a simple example and avoid technical words.",
+              "I compare it to something familiar and skip the jargon."
+            ]
+          },
+          {
+            "npc": "Last one: why Edmonton, and why this company?",
+            "npc_es": "La última: ¿por qué Edmonton y por qué esta empresa?",
+            "task_es": "Da una razón sobre Edmonton y otra sobre la empresa (producto, equipo o aprendizaje).",
+            "expect": [
+              [
+                "edmonton",
+                "city",
+                "alberta"
+              ],
+              [
+                "product",
+                "team",
+                "learn",
+                "mission",
+                "growth",
+                "company"
+              ]
+            ],
+            "model": [
+              "I like the growing tech community in Edmonton, and your product solves real problems.",
+              "My family is settling in Edmonton, and I want to learn from a team that takes code reviews seriously."
+            ]
+          }
+        ],
+        "useful": [
+          "Tell me about a time when…",
+          "I split the work into small tasks.",
+          "I flagged the risk early.",
+          "In the code review,…",
+          "As a result,…"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-desarrollo-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Defender una decisión técnica ante objeciones, reconocer lo que harías distinto y negociar la compensación total y la fecha de inicio.",
+      "items": [
+        "phr-to-be-candid",
+        "col-technical-debt",
+        "voc-refactor",
+        "voc-regression",
+        "voc-scalability",
+        "col-total-compensation",
+        "col-benefits-package",
+        "voc-counteroffer",
+        "idi-up-to-speed",
+        "idi-hit-the-ground-running"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-desarrollo-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 978,
+        "title": "Final round: defending a technical decision",
+        "title_es": "Ronda final: defender una decisión técnica",
+        "intro_es": "Diego llega a la entrevista final para desarrollador. Haddad, ingeniero principal, cuestiona una reescritura que Diego lideró; luego Zoe, de recursos humanos, habla de la oferta.",
+        "lines": [
+          {
+            "who": "Haddad",
+            "en": "Diego, you chose to rewrite a reporting service instead of patching it. Defend that.",
+            "es": "Diego, elegiste reescribir un servicio de reportes en lugar de parcharlo. Defiende esa decisión."
+          },
+          {
+            "who": "Diego",
+            "en": "[To be candid], it was a judgment call, not an obvious win.",
+            "es": "Para ser franco, fue una decisión de criterio, no una victoria obvia.",
+            "item": "phr-to-be-candid"
+          },
+          {
+            "who": "Diego",
+            "en": "Each quick patch added [technical debt], and our releases kept slipping.",
+            "es": "Cada parche rápido agregaba deuda técnica, y nuestras entregas se seguían retrasando.",
+            "item": "col-technical-debt"
+          },
+          {
+            "who": "Haddad",
+            "en": "Rewrites are notorious for blowing up. How did you reduce the risk?",
+            "es": "Las reescrituras tienen fama de salirse de control. ¿Cómo redujiste el riesgo?"
+          },
+          {
+            "who": "Diego",
+            "en": "We didn't rewrite everything at once; we [refactored] one module at a time behind a feature flag.",
+            "es": "No lo reescribimos todo de golpe; refactorizamos un módulo a la vez detrás de un feature flag.",
+            "item": "voc-refactor"
+          },
+          {
+            "who": "Diego",
+            "en": "Every change ran against the old outputs, so any [regression] showed up within minutes.",
+            "es": "Cada cambio se comparaba con los resultados anteriores, así que cualquier regresión aparecía en minutos.",
+            "item": "voc-regression"
+          },
+          {
+            "who": "Haddad",
+            "en": "And performance?",
+            "es": "¿Y el rendimiento?"
+          },
+          {
+            "who": "Diego",
+            "en": "The old design couldn't handle month-end loads. [Scalability] was the real business case, not elegance.",
+            "es": "El diseño anterior no aguantaba las cargas de fin de mes. La escalabilidad era el verdadero argumento de negocio, no la elegancia.",
+            "item": "voc-scalability"
+          },
+          {
+            "who": "Haddad",
+            "en": "Some would say you over-engineered it. What would you do differently?",
+            "es": "Algunos dirían que lo complicaste de más. ¿Qué harías diferente?"
+          },
+          {
+            "who": "Diego",
+            "en": "I'd involve the finance users sooner. We built one report nobody needed, and that cost us two weeks.",
+            "es": "Involucraría antes a los usuarios de finanzas. Construimos un reporte que nadie necesitaba y eso nos costó dos semanas."
+          },
+          {
+            "who": "Zoe",
+            "en": "Thanks. Let's switch to the offer. We're at ninety-two base.",
+            "es": "Gracias. Pasemos a la oferta. Estamos en 92 mil de base."
+          },
+          {
+            "who": "Diego",
+            "en": "I appreciate it. I'm looking at [total compensation], so the bonus and RRSP matching matter to me.",
+            "es": "Lo agradezco. Estoy viendo la compensación total, así que el bono y la aportación al RRSP me importan.",
+            "item": "col-total-compensation"
+          },
+          {
+            "who": "Zoe",
+            "en": "Understood. Our [benefits package] is strong, but the base has a ceiling.",
+            "es": "Entendido. Nuestro paquete de prestaciones es sólido, pero el salario base tiene un tope.",
+            "item": "col-benefits-package"
+          },
+          {
+            "who": "Diego",
+            "en": "That's fair. I do have a [counteroffer] from my current employer, but this role is my first choice.",
+            "es": "Es justo. Sí tengo una contraoferta de mi empleador actual, pero este puesto es mi primera opción.",
+            "item": "voc-counteroffer"
+          },
+          {
+            "who": "Zoe",
+            "en": "If we close the gap with a signing bonus, how soon could you start?",
+            "es": "Si cerramos la diferencia con un bono de contratación, ¿qué tan pronto podrías empezar?"
+          },
+          {
+            "who": "Diego",
+            "en": "After two weeks' notice. I'd spend the first month getting [up to speed] on your stack.",
+            "es": "Después de avisar con dos semanas. Pasaría el primer mes poniéndome al día con su stack.",
+            "item": "idi-up-to-speed"
+          }
+        ],
+        "items": [
+          "phr-to-be-candid",
+          "col-technical-debt",
+          "voc-refactor",
+          "voc-regression",
+          "voc-scalability",
+          "col-total-compensation",
+          "col-benefits-package",
+          "voc-counteroffer",
+          "idi-up-to-speed"
+        ],
+        "questions": [
+          {
+            "q": "How did Diego reduce the risk of the rewrite?",
+            "options": [
+              "He rewrote everything in one weekend",
+              "He refactored one module at a time",
+              "He hired an outside vendor"
+            ],
+            "answer": 1,
+            "why_es": "'We refactored one module at a time behind a feature flag'."
+          },
+          {
+            "q": "What was the real business case for the change?",
+            "options": [
+              "Scalability at month-end",
+              "Nicer-looking code",
+              "A new manager's request"
+            ],
+            "answer": 0,
+            "why_es": "'Scalability was the real business case, not elegance'."
+          },
+          {
+            "q": "What would Diego do differently?",
+            "options": [
+              "Skip testing",
+              "Work longer hours",
+              "Involve the finance users sooner"
+            ],
+            "answer": 2,
+            "why_es": "'I'd involve the finance users sooner'."
+          },
+          {
+            "q": "Why does Diego mention his counteroffer?",
+            "options": [
+              "To threaten to leave",
+              "To be transparent while saying this role is his first choice",
+              "To ask for less money"
+            ],
+            "answer": 1,
+            "why_es": "Lo menciona con tacto: 'but this role is my first choice'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Defiende una decisión técnica: reescribiste por partes por la deuda técnica.",
+          "model": [
+            "Every quick patch added technical debt, so we refactored one module at a time.",
+            "The technical debt was slowing every release, so we rebuilt it gradually, one module at a time."
+          ],
+          "expect": [
+            [
+              "technical debt",
+              "debt"
+            ],
+            [
+              "module",
+              "gradually",
+              "step by step",
+              "one at a time"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Admite un error y di qué harías distinto.",
+          "model": [
+            "I'd involve the users sooner; we built one report nobody needed.",
+            "In hindsight, I'd bring the finance team in earlier, because we wasted two weeks."
+          ],
+          "expect": [
+            [
+              "sooner",
+              "earlier",
+              "hindsight",
+              "differently"
+            ],
+            [
+              "users",
+              "team",
+              "finance"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Negocia mirando la compensación total, no solo el salario base.",
+          "model": [
+            "I'm looking at total compensation, so the bonus and benefits matter to me.",
+            "Beyond the base, I'd like to understand the bonus, RRSP matching and vacation."
+          ],
+          "expect": [
+            [
+              "total compensation",
+              "bonus",
+              "benefits",
+              "rrsp",
+              "vacation"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te acusan de complicar de más.",
+          "en": "I can see why it looks that way. Here's what we were optimizing for.",
+          "es": "Entiendo por qué lo parece. Esto es lo que buscábamos optimizar."
+        },
+        {
+          "situation_es": "No escuchaste bien la cifra.",
+          "en": "Sorry, did you say ninety-two or ninety-five?",
+          "es": "Perdón, ¿dijo 92 o 95?"
+        },
+        {
+          "situation_es": "Tu respuesta salió confusa.",
+          "en": "Let me put that more clearly.",
+          "es": "Déjeme decirlo de forma más clara."
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-desarrollo-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Final round: senior developer",
+        "title_es": "Ronda final: desarrollador senior",
+        "setting_es": "Última entrevista para desarrollador en Edmonton. El ingeniero principal pone a prueba una decisión técnica tuya y después hablan de la oferta y la fecha de inicio.",
+        "npc": "Principal engineer",
+        "turns": [
+          {
+            "npc": "Welcome back, {name}. Pick a technical decision you made that others questioned, and defend it.",
+            "npc_es": "Bienvenido de nuevo, {name}. Elige una decisión técnica tuya que otros cuestionaron y defiéndela.",
+            "task_es": "Presenta la decisión y por qué la tomaste (contexto y restricción).",
+            "expect": [
+              [
+                "chose",
+                "decided",
+                "decision",
+                "picked"
+              ],
+              [
+                "because",
+                "since",
+                "debt",
+                "performance",
+                "scalability",
+                "deadline",
+                "scale"
+              ]
+            ],
+            "model": [
+              "I decided to rewrite a reporting service because patching it kept adding technical debt.",
+              "We chose a message queue instead of direct calls, because the old setup couldn't scale at month-end."
+            ]
+          },
+          {
+            "npc": "What alternatives did you reject, and why?",
+            "npc_es": "¿Qué alternativas descartaste y por qué?",
+            "task_es": "Menciona una alternativa y el costo de elegirla (trade-off).",
+            "expect": [
+              [
+                "alternative",
+                "option",
+                "instead",
+                "considered"
+              ],
+              [
+                "trade-off",
+                "trade off",
+                "cost",
+                "risk",
+                "slower",
+                "faster",
+                "cheaper"
+              ]
+            ],
+            "model": [
+              "The alternative was more patches, but the trade-off was slower releases every month.",
+              "We considered adding bigger servers instead, but it would cost more and not fix the root cause."
+            ]
+          },
+          {
+            "npc": "Frankly, it sounds over-engineered for a team of five.",
+            "npc_es": "Francamente, suena demasiado complejo para un equipo de cinco.",
+            "task_es": "Responde a la objeción sin ponerte a la defensiva: reconoce el punto y da datos.",
+            "expect": [
+              [
+                "fair",
+                "understand",
+                "see why",
+                "point"
+              ],
+              [
+                "data",
+                "numbers",
+                "load",
+                "users",
+                "errors",
+                "percent",
+                "limits"
+              ]
+            ],
+            "model": [
+              "That's a fair challenge. But the month-end load had tripled, and errors dropped by eighty percent after the change.",
+              "I can see why it looks that way. The data showed we'd hit our limits within a year."
+            ]
+          },
+          {
+            "npc": "How do you make sure a change like that doesn't break production?",
+            "npc_es": "¿Cómo te aseguras de que un cambio así no rompa producción?",
+            "task_es": "Explica pruebas, revisión de código y un despliegue gradual.",
+            "expect": [
+              [
+                "test",
+                "tests",
+                "testing",
+                "review"
+              ],
+              [
+                "gradual",
+                "feature flag",
+                "rollout",
+                "rollback",
+                "roll back",
+                "staging"
+              ]
+            ],
+            "model": [
+              "We had automated tests, code reviews, and a gradual rollout behind a feature flag.",
+              "Everything went through code review and staging, and we could roll back in minutes."
+            ]
+          },
+          {
+            "npc": "Let's talk about the offer. We're at ninety-two base, plus standard benefits.",
+            "npc_es": "Hablemos de la oferta. Estamos en 92 mil de base, más las prestaciones estándar.",
+            "task_es": "Agradece y negocia mirando la compensación total.",
+            "expect": [
+              [
+                "appreciate",
+                "thank",
+                "thanks"
+              ],
+              [
+                "total compensation",
+                "bonus",
+                "benefits",
+                "flexibility",
+                "base",
+                "signing"
+              ]
+            ],
+            "model": [
+              "I appreciate the offer. I'm looking at total compensation, so could we discuss a signing bonus?",
+              "Thank you. Is there flexibility on the base, or could a bonus close the gap?"
+            ],
+            "tips": [
+              {
+                "wrong": "\\bi want more money\\b",
+                "fix": "I was hoping for… / Is there any flexibility…?",
+                "why_es": "Demasiado directo para una negociación en Canadá; suaviza con *I was hoping for…*."
+              }
+            ]
+          },
+          {
+            "npc": "I'll be straight with you: we're also talking to other candidates.",
+            "npc_es": "Te seré franco: también estamos hablando con otros candidatos.",
+            "task_es": "Responde con calma: reafirma tu interés y lo que aportas.",
+            "expect": [
+              [
+                "understand",
+                "of course",
+                "makes sense",
+                "appreciate"
+              ],
+              [
+                "interested",
+                "excited",
+                "first choice",
+                "bring",
+                "fit",
+                "experience"
+              ]
+            ],
+            "model": [
+              "I understand. This role is my first choice, and my experience with legacy systems is a strong fit.",
+              "Of course. I'm genuinely interested, and I bring hands-on experience with exactly this kind of migration."
+            ]
+          },
+          {
+            "npc": "Good. When could you realistically start?",
+            "npc_es": "Bien. ¿Cuándo podrías empezar, siendo realistas?",
+            "task_es": "Di que necesitas avisar con dos semanas y propón una fecha.",
+            "expect": [
+              [
+                "notice",
+                "two weeks",
+                "weeks"
+              ],
+              [
+                "start",
+                "monday",
+                "date",
+                "first"
+              ]
+            ],
+            "model": [
+              "I'd need to give two weeks' notice, so I could start on the first Monday of next month.",
+              "After two weeks' notice, I could start on March 3."
+            ]
+          }
+        ],
+        "useful": [
+          "To be candid,…",
+          "The trade-off was…",
+          "That's a fair challenge, but the data showed…",
+          "I'm looking at total compensation.",
+          "I'd need to give two weeks' notice."
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "col-side-project",
+      "type": "collocation",
+      "term": "side project",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "software",
+        "entrevistas"
+      ],
+      "es": "proyecto personal (aparte del trabajo o la escuela)",
+      "def": "something you build in your free time, outside your main job or studies",
+      "note": "En entrevistas de desarrollo sirve para mostrar lo que sabes hacer aunque no tengas experiencia en Canadá.",
+      "ex": [
+        {
+          "en": "My [side project] is an app for bus times.",
+          "es": "Mi proyecto personal es una app de horarios de autobús."
+        },
+        {
+          "en": "She learned the framework through a [side project].",
+          "es": "Aprendió el framework con un proyecto personal."
+        }
+      ]
+    },
+    {
+      "id": "voc-debug",
+      "type": "vocab",
+      "term": "debug",
+      "ipa": "/diːˈbʌɡ/",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 4,
+      "areas": [
+        "software"
+      ],
+      "es": "depurar; buscar y corregir errores en el código",
+      "def": "to find and fix the problems in a program",
+      "note": "Sustantivo: *debugging*. *I spent the morning debugging* = me pasé la mañana depurando.",
+      "ex": [
+        {
+          "en": "I had to [debug] the app on an old phone.",
+          "es": "Tuve que depurar la app en un teléfono viejo."
+        },
+        {
+          "en": "She [debugged] the payment error in one afternoon.",
+          "es": "Depuró el error de pagos en una tarde."
+        }
+      ]
+    },
+    {
+      "id": "col-unit-test",
+      "type": "collocation",
+      "term": "unit test",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 4,
+      "areas": [
+        "software"
+      ],
+      "es": "prueba unitaria",
+      "def": "a small automated check for one function or piece of code",
+      "ex": [
+        {
+          "en": "I wrote a [unit test] for the timeout.",
+          "es": "Escribí una prueba unitaria para el tiempo de espera."
+        },
+        {
+          "en": "The build failed because one [unit test] broke.",
+          "es": "La compilación falló porque se rompió una prueba unitaria."
+        }
+      ]
+    },
+    {
+      "id": "col-edge-case",
+      "type": "collocation",
+      "term": "edge case",
+      "level": "B2",
+      "topic": "tech",
+      "freq": 3,
+      "areas": [
+        "software"
+      ],
+      "es": "caso límite (situación rara que puede romper el código)",
+      "def": "an unusual situation at the limits of what a program expects",
+      "ex": [
+        {
+          "en": "We missed an [edge case]: an order with zero items.",
+          "es": "Se nos pasó un caso límite: un pedido con cero artículos."
+        },
+        {
+          "en": "Good tests cover the main path and the [edge cases].",
+          "es": "Las buenas pruebas cubren el flujo principal y los casos límite."
+        }
+      ]
+    },
+    {
+      "id": "col-code-review",
+      "type": "collocation",
+      "term": "code review",
+      "level": "B1",
+      "topic": "tech",
+      "freq": 4,
+      "areas": [
+        "software"
+      ],
+      "es": "revisión de código",
+      "def": "when other developers read your changes before they are added to the project",
+      "note": "Verbo relacionado: *review code*. *In the code review, she suggested…*",
+      "ex": [
+        {
+          "en": "In the [code review], a senior dev found a missing check.",
+          "es": "En la revisión de código, una dev senior encontró una validación faltante."
+        },
+        {
+          "en": "Every change needs a [code review] before we merge it.",
+          "es": "Todo cambio necesita una revisión de código antes de integrarlo."
+        }
+      ]
+    }
+  ]
+}

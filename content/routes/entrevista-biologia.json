@@ -1,0 +1,1569 @@
+{
+  "id": "entrevista-biologia",
+  "title_es": "Entrevista: laboratorio y campo",
+  "icon": "briefcase",
+  "scene": null,
+  "areas": [
+    "entrevistas",
+    "canada",
+    "biologia"
+  ],
+  "season": null,
+  "objective_es": "Prepararte para entrevistas de asistente de laboratorio y técnico ambiental de campo: muestras, cadena de custodia, seguridad y EPP, frío, registro de datos, calibración, sueldo y disponibilidad.",
+  "tracks": [
+    {
+      "id": "entrevista-biologia-a",
+      "band": "A1-A2",
+      "level": "A2",
+      "minutes": 12,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Presentarte para un puesto de asistente de laboratorio: seguridad, etiquetar muestras, registrar datos, trabajar con frío y decir que puedes trabajar en Canadá.",
+      "items": [
+        "col-lab-safety",
+        "col-wear-gloves",
+        "voc-safety-goggles",
+        "voc-sample",
+        "col-label-a-sample",
+        "col-record-data",
+        "voc-logbook",
+        "col-cold-weather-gear",
+        "phr-im-eligible-to-work-in-canada",
+        "phr-do-you-have-any-questions-for-us",
+        "col-follow-the-protocol"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-biologia-a",
+        "level": "A2",
+        "topic": "interview",
+        "order": 988,
+        "title": "Lab assistant interview",
+        "title_es": "Entrevista para asistente de laboratorio",
+        "intro_es": "Ana tiene una entrevista para asistente en un laboratorio ambiental de Edmonton. Dave, el supervisor, le pregunta por seguridad, muestras y el frío.",
+        "lines": [
+          {
+            "who": "Dave",
+            "en": "Hi, Ana. Thanks for coming. This is a lab assistant job, with some field days.",
+            "es": "Hola, Ana. Gracias por venir. Es un trabajo de asistente de laboratorio, con algunos días de campo."
+          },
+          {
+            "who": "Ana",
+            "en": "Thank you. I studied biology in Puebla, and I worked in a university lab.",
+            "es": "Gracias. Estudié biología en Puebla y trabajé en un laboratorio universitario."
+          },
+          {
+            "who": "Dave",
+            "en": "Good. What do you know about [lab safety]?",
+            "es": "Bien. ¿Qué sabes de seguridad en el laboratorio?",
+            "item": "col-lab-safety"
+          },
+          {
+            "who": "Ana",
+            "en": "Safety comes first. I always [wear gloves] and a lab coat.",
+            "es": "La seguridad es primero. Siempre uso guantes y bata.",
+            "item": "col-wear-gloves"
+          },
+          {
+            "who": "Ana",
+            "en": "I also wear [safety goggles] when I use chemicals.",
+            "es": "También uso gafas de seguridad cuando uso químicos.",
+            "item": "voc-safety-goggles"
+          },
+          {
+            "who": "Dave",
+            "en": "Great. What do you do after you collect a [sample]?",
+            "es": "Muy bien. ¿Qué haces después de tomar una muestra?",
+            "item": "voc-sample"
+          },
+          {
+            "who": "Ana",
+            "en": "I [label the sample] right away, with the date and the place.",
+            "es": "Etiqueto la muestra de inmediato, con la fecha y el lugar.",
+            "item": "col-label-a-sample"
+          },
+          {
+            "who": "Dave",
+            "en": "And where do you write your results?",
+            "es": "¿Y dónde escribes tus resultados?"
+          },
+          {
+            "who": "Ana",
+            "en": "I [record data] on a tablet, and I check it twice.",
+            "es": "Registro los datos en una tableta y los reviso dos veces.",
+            "item": "col-record-data"
+          },
+          {
+            "who": "Ana",
+            "en": "In the field, I also keep a paper [logbook].",
+            "es": "En el campo, también llevo una bitácora en papel.",
+            "item": "voc-logbook"
+          },
+          {
+            "who": "Dave",
+            "en": "Some field days are minus twenty. Are you okay with that?",
+            "es": "Algunos días de campo hace menos veinte. ¿Te parece bien?"
+          },
+          {
+            "who": "Ana",
+            "en": "Yes. I have good [cold-weather gear]: boots, gloves and a warm parka.",
+            "es": "Sí. Tengo buena ropa para el frío: botas, guantes y una parka caliente.",
+            "item": "col-cold-weather-gear"
+          },
+          {
+            "who": "Dave",
+            "en": "Perfect. Are you able to work in Canada?",
+            "es": "Perfecto. ¿Puedes trabajar en Canadá?"
+          },
+          {
+            "who": "Ana",
+            "en": "Yes, [I'm eligible to work in Canada].",
+            "es": "Sí, tengo autorización para trabajar en Canadá.",
+            "item": "phr-im-eligible-to-work-in-canada"
+          },
+          {
+            "who": "Dave",
+            "en": "Good. [Do you have any questions for us]?",
+            "es": "Bien. ¿Tienes alguna pregunta para nosotros?",
+            "item": "phr-do-you-have-any-questions-for-us"
+          },
+          {
+            "who": "Ana",
+            "en": "Yes. What time does the work day start?",
+            "es": "Sí. ¿A qué hora empieza el día de trabajo?"
+          }
+        ],
+        "items": [
+          "col-lab-safety",
+          "col-wear-gloves",
+          "voc-safety-goggles",
+          "voc-sample",
+          "col-label-a-sample",
+          "col-record-data",
+          "voc-logbook",
+          "col-cold-weather-gear",
+          "phr-im-eligible-to-work-in-canada",
+          "phr-do-you-have-any-questions-for-us"
+        ],
+        "questions": [
+          {
+            "q": "What does Ana wear when she uses chemicals?",
+            "options": [
+              "A hat",
+              "Safety goggles",
+              "Only a mask"
+            ],
+            "answer": 1,
+            "why_es": "Dice: 'I also wear safety goggles when I use chemicals'."
+          },
+          {
+            "q": "What does she write on a sample label?",
+            "options": [
+              "The date and the place",
+              "Her phone number",
+              "The price"
+            ],
+            "answer": 0,
+            "why_es": "Etiqueta la muestra 'with the date and the place'."
+          },
+          {
+            "q": "What is the weather like on some field days?",
+            "options": [
+              "Very hot",
+              "Rainy",
+              "Minus twenty"
+            ],
+            "answer": 2,
+            "why_es": "Dave dice: 'Some field days are minus twenty'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Di que siempre usas guantes y gafas de seguridad.",
+          "model": [
+            "I always wear gloves and safety goggles.",
+            "I always use gloves and safety glasses."
+          ],
+          "expect": [
+            [
+              "gloves"
+            ],
+            [
+              "goggles",
+              "glasses"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que etiquetas cada muestra con la fecha y el lugar.",
+          "model": [
+            "I label every sample with the date and the place.",
+            "I label each sample with the date and location."
+          ],
+          "expect": [
+            [
+              "label"
+            ],
+            [
+              "date"
+            ],
+            [
+              "place",
+              "location",
+              "site"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que tienes ropa para el frío y que no te molesta trabajar afuera.",
+          "model": [
+            "I have cold-weather gear, and I don't mind working outside.",
+            "I have warm winter clothes, and I like working outdoors."
+          ],
+          "expect": [
+            [
+              "cold",
+              "winter",
+              "warm"
+            ],
+            [
+              "outside",
+              "outdoors",
+              "field"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No entendiste una palabra técnica.",
+          "en": "Sorry, what does 'calibrate' mean?",
+          "es": "Perdón, ¿qué significa 'calibrate'?"
+        },
+        {
+          "situation_es": "No escuchaste bien un número.",
+          "en": "Sorry, minus twenty or minus twelve?",
+          "es": "Perdón, ¿menos veinte o menos doce?"
+        },
+        {
+          "situation_es": "Necesitas un momento para responder.",
+          "en": "Can I think for a moment, please?",
+          "es": "¿Puedo pensarlo un momento, por favor?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-biologia-a",
+        "area": "entrevistas",
+        "level": "A2",
+        "title": "Lab assistant interview",
+        "title_es": "Entrevista para asistente de laboratorio",
+        "setting_es": "Entrevista para asistente de un laboratorio ambiental en Edmonton, con algunos días de trabajo de campo. Te recibe la supervisora del laboratorio.",
+        "npc": "Lab supervisor",
+        "turns": [
+          {
+            "npc": "Hi {name}! Tell me a little about your studies.",
+            "npc_es": "¡Hola {name}! Cuéntame un poco de tus estudios.",
+            "task_es": "Di que estudiaste biología y que trabajaste en un laboratorio.",
+            "expect": [
+              [
+                "biology",
+                "biologist"
+              ],
+              [
+                "lab",
+                "laboratory"
+              ]
+            ],
+            "model": [
+              "I studied biology, and I worked in a university lab.",
+              "I'm a biologist. I worked in a lab for two years."
+            ]
+          },
+          {
+            "npc": "What do you wear in the lab?",
+            "npc_es": "¿Qué usas en el laboratorio?",
+            "task_es": "Di que usas bata, guantes y gafas de seguridad.",
+            "expect": [
+              [
+                "gloves"
+              ],
+              [
+                "goggles",
+                "glasses",
+                "coat"
+              ]
+            ],
+            "model": [
+              "I wear a lab coat, gloves and safety goggles.",
+              "Gloves, a lab coat and safety glasses."
+            ],
+            "tips": [
+              {
+                "wrong": "\\bsafety lenses\\b",
+                "fix": "safety goggles / safety glasses",
+                "why_es": "Las gafas de seguridad son *safety goggles* o *safety glasses*, no *lenses*."
+              }
+            ]
+          },
+          {
+            "npc": "You collect a water sample. What do you do next?",
+            "npc_es": "Tomas una muestra de agua. ¿Qué haces después?",
+            "task_es": "Di que etiquetas la muestra con la fecha y el lugar.",
+            "expect": [
+              [
+                "label",
+                "write"
+              ],
+              [
+                "date",
+                "place",
+                "location",
+                "site",
+                "time"
+              ]
+            ],
+            "model": [
+              "I label the sample with the date and the place.",
+              "I write the date and the site on the label."
+            ]
+          },
+          {
+            "npc": "Field days can be really cold here. Is that okay?",
+            "npc_es": "Los días de campo pueden ser muy fríos aquí. ¿Está bien?",
+            "task_es": "Di que sí y que tienes ropa adecuada para el frío.",
+            "expect": [
+              [
+                "yes",
+                "sure",
+                "okay",
+                "fine",
+                "no problem"
+              ],
+              [
+                "cold",
+                "winter",
+                "warm",
+                "boots",
+                "parka",
+                "gear"
+              ]
+            ],
+            "model": [
+              "Yes, no problem. I have good winter boots and a warm parka.",
+              "Sure. I have cold-weather gear."
+            ]
+          },
+          {
+            "npc": "Are you eligible to work in Canada?",
+            "npc_es": "¿Tienes autorización para trabajar en Canadá?",
+            "task_es": "Responde que sí, con permiso de trabajo.",
+            "expect": [
+              [
+                "yes",
+                "yeah"
+              ],
+              [
+                "eligible",
+                "permit",
+                "authorized",
+                "allowed",
+                "can work"
+              ]
+            ],
+            "model": [
+              "Yes, I'm eligible to work in Canada.",
+              "Yes, I have an open work permit."
+            ]
+          },
+          {
+            "npc": "Great. When can you start?",
+            "npc_es": "Muy bien. ¿Cuándo puedes empezar?",
+            "task_es": "Di que puedes empezar el próximo lunes.",
+            "expect": [
+              [
+                "start",
+                "begin",
+                "available"
+              ],
+              [
+                "monday",
+                "next week"
+              ]
+            ],
+            "model": [
+              "I'm available to start next Monday.",
+              "I can start next Monday."
+            ]
+          }
+        ],
+        "useful": [
+          "I always wear gloves and safety goggles.",
+          "I label the sample right away.",
+          "I record data in a logbook.",
+          "I have cold-weather gear."
+        ]
+      }
+    },
+    {
+      "id": "entrevista-biologia-b",
+      "band": "B1-B2",
+      "level": "B1",
+      "minutes": 15,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Contar con STAR un problema con muestras (cadena de custodia, contaminación) y explicar cómo calibras, mides y trabajas seguro en el campo.",
+      "items": [
+        "col-field-work",
+        "phr-tell-me-about-a-time-when",
+        "col-water-quality",
+        "col-chain-of-custody",
+        "col-follow-the-protocol",
+        "voc-contamination",
+        "phr-as-a-result",
+        "voc-calibrate",
+        "col-take-measurements",
+        "voc-ppe",
+        "voc-detail-oriented",
+        "col-field-notes"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-biologia-b",
+        "level": "B1",
+        "topic": "interview",
+        "order": 989,
+        "title": "Field technician: a STAR answer",
+        "title_es": "Técnico de campo: una respuesta STAR",
+        "intro_es": "Sofía tiene una entrevista para técnica ambiental de campo: muestreo de ríos de primavera a otoño y trabajo de laboratorio en invierno. Haddad, el supervisor, le pide un ejemplo real.",
+        "lines": [
+          {
+            "who": "Haddad",
+            "en": "Sofía, this is a field technician role: river sampling from spring to fall, lab work in winter.",
+            "es": "Sofía, es un puesto de técnico de campo: muestreo de ríos de primavera a otoño y laboratorio en invierno."
+          },
+          {
+            "who": "Sofía",
+            "en": "That sounds ideal. I did two seasons of [field work] in Mexico.",
+            "es": "Suena ideal. Hice dos temporadas de trabajo de campo en México.",
+            "item": "col-field-work"
+          },
+          {
+            "who": "Haddad",
+            "en": "[Tell me about a time when] something went wrong with samples.",
+            "es": "Cuéntame de una vez en que algo salió mal con las muestras.",
+            "item": "phr-tell-me-about-a-time-when"
+          },
+          {
+            "who": "Sofía",
+            "en": "Sure. We were testing [water quality] at six sites along a river.",
+            "es": "Claro. Estábamos analizando la calidad del agua en seis sitios a lo largo de un río.",
+            "item": "col-water-quality"
+          },
+          {
+            "who": "Sofía",
+            "en": "A cooler arrived at the lab with a broken seal, so the [chain of custody] was in doubt.",
+            "es": "Una hielera llegó al laboratorio con el sello roto, así que la cadena de custodia quedó en duda.",
+            "item": "col-chain-of-custody"
+          },
+          {
+            "who": "Sofía",
+            "en": "My task was to decide quickly if the samples were still usable.",
+            "es": "Mi tarea era decidir rápido si las muestras todavía servían."
+          },
+          {
+            "who": "Sofía",
+            "en": "I [followed the protocol], flagged the samples and called my supervisor.",
+            "es": "Seguí el protocolo, marqué las muestras y llamé a mi supervisora.",
+            "item": "col-follow-the-protocol"
+          },
+          {
+            "who": "Sofía",
+            "en": "We couldn't rule out [contamination], so we resampled the next morning.",
+            "es": "No podíamos descartar contaminación, así que volvimos a muestrear a la mañana siguiente.",
+            "item": "voc-contamination"
+          },
+          {
+            "who": "Sofía",
+            "en": "[As a result], we lost one day, but the data stayed defensible.",
+            "es": "Como resultado, perdimos un día, pero los datos siguieron siendo defendibles.",
+            "item": "phr-as-a-result"
+          },
+          {
+            "who": "Haddad",
+            "en": "Good call. How do you make sure your readings are accurate?",
+            "es": "Buena decisión. ¿Cómo te aseguras de que tus lecturas sean exactas?"
+          },
+          {
+            "who": "Sofía",
+            "en": "I [calibrate] the pH meter every morning and write it in the log.",
+            "es": "Calibro el medidor de pH cada mañana y lo anoto en la bitácora.",
+            "item": "voc-calibrate"
+          },
+          {
+            "who": "Sofía",
+            "en": "And I [take measurements] twice at each site to compare them.",
+            "es": "Y tomo las medidas dos veces en cada sitio para compararlas.",
+            "item": "col-take-measurements"
+          },
+          {
+            "who": "Haddad",
+            "en": "What about safety on the river?",
+            "es": "¿Y la seguridad en el río?"
+          },
+          {
+            "who": "Sofía",
+            "en": "Full [PPE]: waders, a life jacket and nitrile gloves. No exceptions.",
+            "es": "EPP completo: botas de pescador, chaleco salvavidas y guantes de nitrilo. Sin excepciones.",
+            "item": "voc-ppe"
+          },
+          {
+            "who": "Haddad",
+            "en": "We need someone very [detail-oriented]. Would your old team say that's you?",
+            "es": "Necesitamos a alguien muy detallista. ¿Tu equipo anterior diría que eres tú?",
+            "item": "voc-detail-oriented"
+          },
+          {
+            "who": "Sofía",
+            "en": "Definitely. My [field notes] were the ones everyone borrowed.",
+            "es": "Definitivamente. Mis notas de campo eran las que todos pedían prestadas.",
+            "item": "col-field-notes"
+          }
+        ],
+        "items": [
+          "col-field-work",
+          "phr-tell-me-about-a-time-when",
+          "col-water-quality",
+          "col-chain-of-custody",
+          "col-follow-the-protocol",
+          "voc-contamination",
+          "phr-as-a-result",
+          "voc-calibrate",
+          "col-take-measurements",
+          "voc-ppe",
+          "voc-detail-oriented",
+          "col-field-notes"
+        ],
+        "questions": [
+          {
+            "q": "What was wrong with the cooler?",
+            "options": [
+              "It was too warm",
+              "It had a broken seal",
+              "It was empty"
+            ],
+            "answer": 1,
+            "why_es": "Llegó 'with a broken seal'."
+          },
+          {
+            "q": "What did the team do because of possible contamination?",
+            "options": [
+              "They resampled the next morning",
+              "They used the samples anyway",
+              "They stopped the project"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'we resampled the next morning'."
+          },
+          {
+            "q": "How often does Sofía calibrate the pH meter?",
+            "options": [
+              "Once a month",
+              "Only when it breaks",
+              "Every morning"
+            ],
+            "answer": 2,
+            "why_es": "Lo calibra 'every morning'."
+          },
+          {
+            "q": "Why did people borrow Sofía's field notes?",
+            "options": [
+              "They were in Spanish",
+              "They were careful and complete",
+              "They had drawings"
+            ],
+            "answer": 1,
+            "why_es": "Ella se presenta como detallista: sus notas eran las más completas."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Explica que seguiste el protocolo y marcaste las muestras dudosas.",
+          "model": [
+            "I followed the protocol and flagged the samples.",
+            "I followed the protocol and flagged the doubtful samples."
+          ],
+          "expect": [
+            [
+              "protocol",
+              "procedure",
+              "sop"
+            ],
+            [
+              "flagged",
+              "flag",
+              "marked",
+              "labelled",
+              "labeled"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Di que calibras el equipo cada mañana y lo registras.",
+          "model": [
+            "I calibrate the equipment every morning and log it.",
+            "Every morning I calibrate the meter and record it."
+          ],
+          "expect": [
+            [
+              "calibrate",
+              "calibrated",
+              "calibration"
+            ],
+            [
+              "morning",
+              "every day",
+              "daily"
+            ],
+            [
+              "log",
+              "record",
+              "write"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Describe tu EPP para trabajar en un río.",
+          "model": [
+            "I always wear full PPE: waders, a life jacket and gloves.",
+            "On the river I wear a life jacket, waders and gloves."
+          ],
+          "expect": [
+            [
+              "ppe",
+              "life jacket",
+              "waders",
+              "gloves",
+              "protective"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "No sabes si preguntan por el campo o el laboratorio.",
+          "en": "Do you mean in the field or in the lab?",
+          "es": "¿Se refiere al campo o al laboratorio?"
+        },
+        {
+          "situation_es": "Usaste el término equivocado.",
+          "en": "Sorry, I mean 'chain of custody', not 'chain of command'.",
+          "es": "Perdón, quise decir 'cadena de custodia', no 'cadena de mando'."
+        },
+        {
+          "situation_es": "Quieres que repitan un dato.",
+          "en": "Could you repeat how many sites there are?",
+          "es": "¿Podría repetir cuántos sitios hay?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-biologia-b",
+        "area": "entrevistas",
+        "level": "B1",
+        "title": "Field technician interview",
+        "title_es": "Entrevista para técnico de campo",
+        "setting_es": "Entrevista para técnico/a ambiental de campo: muestreo de ríos y suelos alrededor de Edmonton. Responde con ejemplos STAR.",
+        "npc": "Field supervisor",
+        "turns": [
+          {
+            "npc": "Tell me about a time when something went wrong in the field. What was the situation?",
+            "npc_es": "Cuéntame de una vez en que algo salió mal en el campo. ¿Cuál era la situación?",
+            "task_es": "Describe la situación: una hielera llegó al laboratorio con el sello roto.",
+            "expect": [
+              [
+                "cooler",
+                "samples",
+                "sample",
+                "box"
+              ],
+              [
+                "broken",
+                "open",
+                "damaged",
+                "seal"
+              ]
+            ],
+            "model": [
+              "A cooler of water samples arrived at the lab with a broken seal.",
+              "Once our sample box got to the lab with the seal damaged."
+            ]
+          },
+          {
+            "npc": "What did you do?",
+            "npc_es": "¿Qué hiciste?",
+            "task_es": "Di que seguiste el protocolo, marcaste las muestras y avisaste a tu supervisor.",
+            "expect": [
+              [
+                "protocol",
+                "procedure"
+              ],
+              [
+                "flagged",
+                "told",
+                "called",
+                "informed",
+                "supervisor",
+                "reported"
+              ]
+            ],
+            "model": [
+              "I followed the protocol, flagged the samples and called my supervisor.",
+              "I followed our procedure and reported it to my supervisor right away."
+            ]
+          },
+          {
+            "npc": "And the result?",
+            "npc_es": "¿Y el resultado?",
+            "task_es": "Da el resultado: repetiste el muestreo y los datos fueron confiables.",
+            "expect": [
+              [
+                "resampled",
+                "resample",
+                "again",
+                "repeated",
+                "new samples"
+              ],
+              [
+                "reliable",
+                "defensible",
+                "good",
+                "valid",
+                "accurate"
+              ]
+            ],
+            "model": [
+              "As a result, we resampled the next day, and the data stayed reliable.",
+              "We repeated the sampling, so the results were valid."
+            ]
+          },
+          {
+            "npc": "How do you keep your readings accurate?",
+            "npc_es": "¿Cómo mantienes exactas tus lecturas?",
+            "task_es": "Di que calibras el equipo cada mañana y tomas dos medidas.",
+            "expect": [
+              [
+                "calibrate",
+                "calibrated",
+                "calibration"
+              ],
+              [
+                "twice",
+                "two",
+                "duplicate",
+                "every morning",
+                "daily"
+              ]
+            ],
+            "model": [
+              "I calibrate the meter every morning and take each measurement twice.",
+              "Daily calibration, and I take two readings at every site."
+            ]
+          },
+          {
+            "npc": "Some winter days we sample at minus twenty-five. How do you stay safe?",
+            "npc_es": "Algunos días de invierno muestreamos a menos veinticinco. ¿Cómo te mantienes seguro?",
+            "task_es": "Menciona ropa en capas o EPP y que nunca trabajas solo.",
+            "expect": [
+              [
+                "layers",
+                "gear",
+                "ppe",
+                "parka",
+                "boots"
+              ],
+              [
+                "alone",
+                "partner",
+                "buddy",
+                "team",
+                "check in"
+              ]
+            ],
+            "model": [
+              "I wear layers and proper PPE, and I never work alone.",
+              "Good cold-weather gear, and I always go with a partner."
+            ]
+          },
+          {
+            "npc": "Last thing: availability. The job starts in April, and some weekends are required.",
+            "npc_es": "Por último, disponibilidad. El trabajo empieza en abril y se piden algunos fines de semana.",
+            "task_es": "Di que puedes empezar en abril y trabajar algunos fines de semana.",
+            "expect": [
+              [
+                "april"
+              ],
+              [
+                "weekend",
+                "weekends"
+              ]
+            ],
+            "model": [
+              "I can start in April, and occasional weekends are fine.",
+              "April works for me, and I'm okay with some weekends."
+            ]
+          }
+        ],
+        "useful": [
+          "chain of custody",
+          "I followed the protocol.",
+          "I calibrate the meter every morning.",
+          "full PPE",
+          "As a result, …"
+        ]
+      }
+    },
+    {
+      "id": "entrevista-biologia-c",
+      "band": "C1",
+      "level": "C1",
+      "minutes": 18,
+      "skills": [
+        "listen",
+        "read",
+        "speak",
+        "write"
+      ],
+      "objective_es": "Defender tu perfil ante un panel técnico: responder a «sobrecalificada», hablar de controles, reproducibilidad y resultados no concluyentes, ética de datos y negociar sueldo.",
+      "items": [
+        "voc-overqualified",
+        "col-environmental-monitoring",
+        "voc-reproducibility",
+        "phr-can-you-back-that-up",
+        "col-run-a-control",
+        "phr-the-data-show-that",
+        "col-turnaround-time",
+        "voc-inconclusive",
+        "idi-a-steep-learning-curve",
+        "phr-id-appreciate-any-flexibility",
+        "col-total-compensation",
+        "col-chain-of-custody"
+      ],
+      "lesson": {
+        "id": "ls-entrevista-biologia-c",
+        "level": "C1",
+        "topic": "interview",
+        "order": 990,
+        "title": "Overqualified? A technical panel",
+        "title_es": "¿Sobrecalificada? Un panel técnico",
+        "intro_es": "Rosa, con maestría en ecología, está en el panel final para técnica de laboratorio y monitoreo ambiental. Marguerite y Kai dudan de que se quede y ponen a prueba su criterio.",
+        "lines": [
+          {
+            "who": "Marguerite",
+            "en": "Rosa, you have a master's degree. Honestly, you look [overqualified] for this job.",
+            "es": "Rosa, tienes maestría. Sinceramente, pareces sobrecalificada para este trabajo.",
+            "item": "voc-overqualified"
+          },
+          {
+            "who": "Rosa",
+            "en": "I can see why it reads that way. But I want hands-on bench and field time, not a title.",
+            "es": "Entiendo por qué lo parece. Pero quiero trabajo práctico en laboratorio y campo, no un título."
+          },
+          {
+            "who": "Kai",
+            "en": "Most of our [environmental monitoring] contracts are routine. Won't you get bored?",
+            "es": "La mayoría de nuestros contratos de monitoreo ambiental son rutinarios. ¿No te aburrirás?",
+            "item": "col-environmental-monitoring"
+          },
+          {
+            "who": "Rosa",
+            "en": "Routine is where errors hide. Consistent methods are what make [reproducibility] possible.",
+            "es": "En la rutina se esconden los errores. Los métodos constantes son los que hacen posible la reproducibilidad.",
+            "item": "voc-reproducibility"
+          },
+          {
+            "who": "Kai",
+            "en": "[Can you back that up] with an example?",
+            "es": "¿Puedes respaldar eso con un ejemplo?",
+            "item": "phr-can-you-back-that-up"
+          },
+          {
+            "who": "Rosa",
+            "en": "In my last lab, a technician skipped a blank, so I insisted we [run a control] on every batch.",
+            "es": "En mi último laboratorio, un técnico se saltó un blanco, así que insistí en correr un control en cada lote.",
+            "item": "col-run-a-control"
+          },
+          {
+            "who": "Rosa",
+            "en": "Within a month, false positives dropped. [The data show that] the extra step paid off.",
+            "es": "En un mes bajaron los falsos positivos. Los datos muestran que el paso extra valió la pena.",
+            "item": "phr-the-data-show-that"
+          },
+          {
+            "who": "Marguerite",
+            "en": "Our clients care about [turnaround time] more than elegance.",
+            "es": "A nuestros clientes les importa más el tiempo de entrega que la elegancia.",
+            "item": "col-turnaround-time"
+          },
+          {
+            "who": "Rosa",
+            "en": "Understood. Still, I'd rather report a result late than report the wrong one.",
+            "es": "Entendido. Aun así, prefiero entregar un resultado tarde que entregar uno equivocado."
+          },
+          {
+            "who": "Kai",
+            "en": "And if a result comes back [inconclusive] the day before a client deadline?",
+            "es": "¿Y si un resultado sale no concluyente un día antes de la fecha límite del cliente?",
+            "item": "voc-inconclusive"
+          },
+          {
+            "who": "Rosa",
+            "en": "I'd say so plainly, explain why, and give the earliest realistic retest date.",
+            "es": "Lo diría claramente, explicaría por qué y daría la fecha realista más cercana para repetir la prueba."
+          },
+          {
+            "who": "Marguerite",
+            "en": "Our equipment is older than you're used to. Expect [a steep learning curve].",
+            "es": "Nuestro equipo es más viejo de lo que acostumbras. Espera una curva de aprendizaje empinada.",
+            "item": "idi-a-steep-learning-curve"
+          },
+          {
+            "who": "Rosa",
+            "en": "That's fine. I'd shadow the senior tech for the first two weeks.",
+            "es": "Está bien. Acompañaría al técnico senior las primeras dos semanas."
+          },
+          {
+            "who": "Kai",
+            "en": "On pay, the posting says fifty-two thousand, and that's fairly firm.",
+            "es": "En cuanto al sueldo, la vacante dice cincuenta y dos mil, y es bastante fijo."
+          },
+          {
+            "who": "Rosa",
+            "en": "Given my training, [I'd appreciate any flexibility] on the base or on the training budget.",
+            "es": "Considerando mi formación, agradecería cualquier flexibilidad en el sueldo base o en el presupuesto de capacitación.",
+            "item": "phr-id-appreciate-any-flexibility"
+          },
+          {
+            "who": "Marguerite",
+            "en": "Then let's look at the [total compensation]; the benefits here are strong.",
+            "es": "Entonces veamos la compensación total; aquí las prestaciones son muy buenas.",
+            "item": "col-total-compensation"
+          }
+        ],
+        "items": [
+          "voc-overqualified",
+          "col-environmental-monitoring",
+          "voc-reproducibility",
+          "phr-can-you-back-that-up",
+          "col-run-a-control",
+          "phr-the-data-show-that",
+          "col-turnaround-time",
+          "voc-inconclusive",
+          "idi-a-steep-learning-curve",
+          "phr-id-appreciate-any-flexibility",
+          "col-total-compensation"
+        ],
+        "questions": [
+          {
+            "q": "Why does Marguerite think Rosa may be overqualified?",
+            "options": [
+              "She has a master's degree",
+              "She has no lab experience",
+              "She wants a manager title"
+            ],
+            "answer": 0,
+            "why_es": "Dice: 'you have a master's degree… you look overqualified'."
+          },
+          {
+            "q": "What change did Rosa insist on in her last lab?",
+            "options": [
+              "Buying new equipment",
+              "Working weekends",
+              "Running a control on every batch"
+            ],
+            "answer": 2,
+            "why_es": "Insistió en 'run a control on every batch'."
+          },
+          {
+            "q": "What would Rosa do if a result is inconclusive before a deadline?",
+            "options": [
+              "Hide it until the deadline",
+              "Say so plainly and give a realistic retest date",
+              "Send an old result"
+            ],
+            "answer": 1,
+            "why_es": "Lo diría claramente y daría una fecha realista para repetir."
+          },
+          {
+            "q": "What does Marguerite suggest looking at, instead of only the base salary?",
+            "options": [
+              "The job title",
+              "The total compensation",
+              "The office hours"
+            ],
+            "answer": 1,
+            "why_es": "Propone ver 'the total compensation'."
+          }
+        ]
+      },
+      "production": [
+        {
+          "prompt_es": "Responde a «estás sobrecalificada»: reconoce la duda y di qué buscas realmente.",
+          "model": [
+            "I can see why it reads that way, but I'm looking for hands-on lab and field work, not a title."
+          ],
+          "expect": [
+            [
+              "see why",
+              "understand",
+              "fair",
+              "appreciate"
+            ],
+            [
+              "hands-on",
+              "not a title",
+              "field",
+              "bench",
+              "looking for"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Explica con tacto a un cliente que un resultado no fue concluyente y da una fecha para repetir la prueba.",
+          "model": [
+            "The result was inconclusive, so we'll retest and have a reliable answer by Thursday."
+          ],
+          "expect": [
+            [
+              "inconclusive",
+              "not conclusive",
+              "unclear"
+            ],
+            [
+              "retest",
+              "rerun",
+              "re-run",
+              "repeat",
+              "again"
+            ],
+            [
+              "by",
+              "date",
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ]
+          ]
+        },
+        {
+          "prompt_es": "Negocia con tacto: agradecerías flexibilidad en el sueldo base o en el presupuesto de capacitación.",
+          "model": [
+            "I'd appreciate any flexibility on the base or on the training budget."
+          ],
+          "expect": [
+            [
+              "appreciate",
+              "grateful",
+              "hoping"
+            ],
+            [
+              "flexibility",
+              "flexible",
+              "room"
+            ],
+            [
+              "base",
+              "training",
+              "salary"
+            ]
+          ]
+        }
+      ],
+      "repair": [
+        {
+          "situation_es": "Te interrumpen con otra pregunta.",
+          "en": "Happy to get to that. Can I finish the example first?",
+          "es": "Con gusto llego a eso. ¿Puedo terminar primero el ejemplo?"
+        },
+        {
+          "situation_es": "No sabes si la cifra es anual o por hora.",
+          "en": "Just to confirm, is that annual or hourly?",
+          "es": "Solo para confirmar, ¿es anual o por hora?"
+        },
+        {
+          "situation_es": "La pregunta es ambigua.",
+          "en": "When you say 'routine', do you mean the sampling or the reporting?",
+          "es": "Cuando dice 'rutinario', ¿se refiere al muestreo o a los reportes?"
+        }
+      ],
+      "roleplay": {
+        "id": "rp-entrevista-biologia-c",
+        "area": "entrevistas",
+        "level": "C1",
+        "title": "Final panel: lab and field",
+        "title_es": "Panel final: laboratorio y campo",
+        "setting_es": "Panel final para técnico/a de laboratorio y monitoreo ambiental. Te ponen a prueba con objeciones, ética de datos, cadena de custodia y sueldo.",
+        "npc": "Lab manager",
+        "turns": [
+          {
+            "npc": "Your CV is impressive, but you may be overqualified. Why should we believe you'll stay?",
+            "npc_es": "Tu CV es impresionante, pero podrías estar sobrecalificado/a. ¿Por qué deberíamos creer que te quedarás?",
+            "task_es": "Responde con tacto a la objeción y da una razón concreta para quedarte.",
+            "expect": [
+              [
+                "see why",
+                "understand",
+                "fair",
+                "appreciate"
+              ],
+              [
+                "hands-on",
+                "stay",
+                "long-term",
+                "grow",
+                "commit",
+                "committed",
+                "field"
+              ]
+            ],
+            "model": [
+              "I see why you'd ask. I want hands-on field work, and I plan to grow here long-term.",
+              "That's fair. I'm committed to this kind of work, and I'd rather grow with one team."
+            ]
+          },
+          {
+            "npc": "A client wants results in 24 hours, but the method needs 48. What do you say?",
+            "npc_es": "Un cliente quiere resultados en 24 horas, pero el método necesita 48. ¿Qué le dices?",
+            "task_es": "Explica con tacto que el método requiere 48 horas y ofrece un resultado preliminar con advertencias.",
+            "expect": [
+              [
+                "48",
+                "forty-eight",
+                "two days"
+              ],
+              [
+                "preliminary",
+                "partial",
+                "early",
+                "initial",
+                "caveat",
+                "caveats"
+              ]
+            ],
+            "model": [
+              "The method needs 48 hours, but I can share a preliminary result with clear caveats.",
+              "I'd explain it takes forty-eight hours and offer an initial reading, clearly labelled as early."
+            ]
+          },
+          {
+            "npc": "Follow-up: your manager suggests reporting the preliminary number as final. What do you do?",
+            "npc_es": "Pregunta de seguimiento: tu jefe sugiere reportar el número preliminar como final. ¿Qué haces?",
+            "task_es": "Di que no lo harías, explica el riesgo y propón una alternativa.",
+            "expect": [
+              [
+                "wouldn't",
+                "would not",
+                "can't",
+                "cannot",
+                "not comfortable"
+              ],
+              [
+                "risk",
+                "defensible",
+                "accurate",
+                "wrong",
+                "integrity",
+                "reliable",
+                "credibility"
+              ]
+            ],
+            "model": [
+              "I wouldn't be comfortable with that. If it's wrong, the data isn't defensible, so I'd label it preliminary instead.",
+              "I can't report it as final. The risk to our credibility is too high, so I'd propose a clearly marked preliminary report."
+            ]
+          },
+          {
+            "npc": "Our log shows a gap in the chain of custody for one batch. How would you handle it?",
+            "npc_es": "Nuestra bitácora muestra un hueco en la cadena de custodia de un lote. ¿Cómo lo manejarías?",
+            "task_es": "Di que lo documentarías, avisarías al cliente y evaluarías si hay que volver a muestrear.",
+            "expect": [
+              [
+                "document",
+                "record",
+                "log",
+                "note"
+              ],
+              [
+                "client",
+                "resample",
+                "re-sample",
+                "flag",
+                "notify",
+                "tell"
+              ]
+            ],
+            "model": [
+              "I'd document the gap, notify the client and decide with them whether we need to resample.",
+              "First I'd record exactly what happened, then flag it to the client and plan a resample if needed."
+            ]
+          },
+          {
+            "npc": "Let's talk salary. The range is fifty to fifty-four thousand.",
+            "npc_es": "Hablemos de sueldo. El rango es de cincuenta a cincuenta y cuatro mil.",
+            "task_es": "Agradece y pide con tacto el extremo alto, justificándolo con tu formación.",
+            "expect": [
+              [
+                "thank",
+                "thanks",
+                "appreciate"
+              ],
+              [
+                "54",
+                "fifty-four",
+                "top",
+                "upper",
+                "higher end",
+                "high end"
+              ],
+              [
+                "background",
+                "degree",
+                "master's",
+                "masters",
+                "experience",
+                "training"
+              ]
+            ],
+            "model": [
+              "Thank you. Given my master's degree, I'd appreciate an offer at the top of that range.",
+              "I appreciate the transparency. With my training, I was hoping for fifty-four."
+            ]
+          },
+          {
+            "npc": "And availability? We'd like you to start before the spring field season.",
+            "npc_es": "¿Y la disponibilidad? Nos gustaría que empezaras antes de la temporada de campo de primavera.",
+            "task_es": "Di que debes dar dos semanas de aviso, propón empezar a mediados de marzo y ofrece referencias.",
+            "expect": [
+              [
+                "notice",
+                "two weeks",
+                "2 weeks"
+              ],
+              [
+                "march"
+              ],
+              [
+                "reference",
+                "references"
+              ]
+            ],
+            "model": [
+              "I'd need to give two weeks' notice, so mid-March works, and I can send references today.",
+              "After two weeks' notice I could start in mid-March. I'm happy to provide references."
+            ]
+          }
+        ],
+        "useful": [
+          "I can see why it reads that way.",
+          "a preliminary result with clear caveats",
+          "The data isn't defensible.",
+          "I'd appreciate an offer at the top of that range.",
+          "I'd need to give two weeks' notice."
+        ]
+      }
+    }
+  ],
+  "new_items": [
+    {
+      "id": "col-lab-safety",
+      "type": "collocation",
+      "term": "lab safety",
+      "level": "A2",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "biologia",
+        "ciencia"
+      ],
+      "es": "seguridad en el laboratorio",
+      "def": "the rules and habits that protect people working in a lab",
+      "note": "Pregunta frecuente en entrevistas de laboratorio: 'What do you know about lab safety?'.",
+      "ex": [
+        {
+          "en": "[Lab safety] is the first thing we teach new staff.",
+          "es": "La seguridad en el laboratorio es lo primero que enseñamos al personal nuevo."
+        },
+        {
+          "en": "She took a [lab safety] course last spring.",
+          "es": "Ella tomó un curso de seguridad en el laboratorio la primavera pasada."
+        }
+      ]
+    },
+    {
+      "id": "col-record-data",
+      "type": "collocation",
+      "term": "record data",
+      "level": "A2",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "biologia",
+        "datos"
+      ],
+      "es": "registrar datos",
+      "def": "to write down or save measurements and results",
+      "note": "Aquí 'record' es verbo y se pronuncia 'ri-KORD'; el sustantivo es 'REK-ord'.",
+      "ex": [
+        {
+          "en": "I [record data] on a tablet at every site.",
+          "es": "Registro datos en una tableta en cada sitio."
+        },
+        {
+          "en": "We [recorded data] every hour during the test.",
+          "es": "Registramos datos cada hora durante la prueba."
+        }
+      ]
+    },
+    {
+      "id": "voc-logbook",
+      "type": "vocab",
+      "term": "logbook",
+      "ipa": "/ˈlɔːɡbʊk/",
+      "level": "A2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "biologia"
+      ],
+      "es": "bitácora",
+      "def": "a book where you write what happened, when and who did it",
+      "note": "En laboratorios se firma y se fecha cada entrada; también 'field log' en trabajo de campo.",
+      "ex": [
+        {
+          "en": "Write the time and your initials in the [logbook].",
+          "es": "Escribe la hora y tus iniciales en la bitácora."
+        },
+        {
+          "en": "The old [logbook] showed when the freezer was last cleaned.",
+          "es": "La bitácora vieja mostraba cuándo se limpió el congelador por última vez."
+        }
+      ]
+    },
+    {
+      "id": "col-cold-weather-gear",
+      "type": "collocation",
+      "term": "cold-weather gear",
+      "level": "B1",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "biologia",
+        "transporte",
+        "canada"
+      ],
+      "es": "ropa y equipo para el frío",
+      "def": "warm clothes and equipment for working or being outside in winter",
+      "note": "Muy útil en Edmonton: parka, botas aislantes, guantes y capas. 'Do you have cold-weather gear?'",
+      "ex": [
+        {
+          "en": "The company gives you [cold-weather gear] for field days.",
+          "es": "La empresa te da ropa para el frío para los días de campo."
+        },
+        {
+          "en": "Pack your [cold-weather gear]; it's minus thirty tomorrow.",
+          "es": "Empaca tu ropa para el frío; mañana estaremos a menos treinta."
+        }
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-im-eligible-to-work-in-canada",
+      "type": "phrase",
+      "term": "I'm eligible to work in Canada",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas",
+        "canada"
+      ],
+      "es": "tengo autorización para trabajar en Canadá",
+      "def": "a clear way to say you are legally allowed to work in the country",
+      "note": "Di solo lo que aplica a tu caso y con precisión (p. ej. 'with an open work permit'). Es lenguaje para comunicarte, no asesoría migratoria.",
+      "ex": [
+        {
+          "en": "Yes, [I'm eligible to work in Canada] full-time.",
+          "es": "Sí, tengo autorización para trabajar en Canadá tiempo completo."
+        },
+        {
+          "en": "[I'm eligible to work in Canada], and I can share the details.",
+          "es": "Tengo autorización para trabajar en Canadá y puedo dar los detalles."
+        }
+      ],
+      "tags": [
+        "ca"
+      ]
+    },
+    {
+      "id": "phr-do-you-have-any-questions-for-us",
+      "type": "phrase",
+      "term": "do you have any questions for us?",
+      "level": "A2",
+      "topic": "interview",
+      "freq": 5,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "¿tienes alguna pregunta para nosotros?",
+      "def": "a question interviewers ask near the end of an interview",
+      "note": "Casi siempre llega al final. Ten dos preguntas listas; responder solo 'No' deja mala impresión.",
+      "ex": [
+        {
+          "en": "Before we finish, [do you have any questions for us]?",
+          "es": "Antes de terminar, ¿tienes alguna pregunta para nosotros?"
+        },
+        {
+          "en": "She smiled and asked, '[Do you have any questions for us]?'",
+          "es": "Sonrió y preguntó: '¿Tienes alguna pregunta para nosotros?'"
+        }
+      ]
+    },
+    {
+      "id": "col-chain-of-custody",
+      "type": "collocation",
+      "term": "chain of custody",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "biologia",
+        "ciencia"
+      ],
+      "es": "cadena de custodia",
+      "def": "the signed record of who handled a sample, and when",
+      "note": "Clave en laboratorios ambientales: cada persona que entrega o recibe una muestra firma el formulario.",
+      "ex": [
+        {
+          "en": "Sign the [chain of custody] form before you hand over the cooler.",
+          "es": "Firma el formulario de cadena de custodia antes de entregar la hielera."
+        },
+        {
+          "en": "A gap in the [chain of custody] can make results useless.",
+          "es": "Un hueco en la cadena de custodia puede volver inútiles los resultados."
+        }
+      ]
+    },
+    {
+      "id": "voc-calibrate",
+      "type": "vocab",
+      "term": "calibrate",
+      "ipa": "/ˈkæləˌbreɪt/",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "biologia",
+        "ciencia"
+      ],
+      "es": "calibrar",
+      "def": "to adjust a tool so its readings are correct",
+      "note": "Sustantivo: calibration. 'I calibrate the pH meter every morning.'",
+      "ex": [
+        {
+          "en": "Please [calibrate] the scale before you weigh the samples.",
+          "es": "Por favor calibra la báscula antes de pesar las muestras."
+        },
+        {
+          "en": "We [calibrated] the meters with fresh buffer solution.",
+          "es": "Calibramos los medidores con solución amortiguadora nueva."
+        }
+      ]
+    },
+    {
+      "id": "voc-ppe",
+      "type": "vocab",
+      "term": "PPE",
+      "ipa": "/ˌpiː piː ˈiː/",
+      "level": "B1",
+      "topic": "work",
+      "freq": 4,
+      "areas": [
+        "biologia",
+        "ciencia"
+      ],
+      "es": "equipo de protección personal (EPP)",
+      "def": "personal protective equipment, like gloves, goggles and vests",
+      "note": "Se dice letra por letra: 'pi-pi-i'. Es incontable: 'wear PPE', no 'a PPE'.",
+      "ex": [
+        {
+          "en": "You can't enter the site without [PPE].",
+          "es": "No puedes entrar al sitio sin equipo de protección."
+        },
+        {
+          "en": "Check your [PPE] before every field day.",
+          "es": "Revisa tu equipo de protección antes de cada día de campo."
+        }
+      ]
+    },
+    {
+      "id": "voc-detail-oriented",
+      "type": "vocab",
+      "term": "detail-oriented",
+      "ipa": "/ˈdiːteɪl ˌɔːriɛntɪd/",
+      "level": "B1",
+      "topic": "interview",
+      "freq": 4,
+      "areas": [
+        "entrevistas"
+      ],
+      "es": "detallista; cuidadoso con los detalles",
+      "def": "careful to notice small things and avoid mistakes",
+      "note": "Muy común en ofertas de trabajo. Mejor que 'perfectionist', que puede sonar a defecto.",
+      "ex": [
+        {
+          "en": "The job needs someone very [detail-oriented].",
+          "es": "El puesto necesita a alguien muy detallista."
+        },
+        {
+          "en": "I'm [detail-oriented], so I always double-check my reports.",
+          "es": "Soy detallista, así que siempre reviso dos veces mis reportes."
+        }
+      ]
+    },
+    {
+      "id": "col-environmental-monitoring",
+      "type": "collocation",
+      "term": "environmental monitoring",
+      "level": "B2",
+      "topic": "work",
+      "freq": 3,
+      "areas": [
+        "biologia",
+        "ciencia"
+      ],
+      "es": "monitoreo ambiental",
+      "def": "regular checks of air, water or soil to see if they change",
+      "note": "Común en Alberta (ríos, suelos, sitios industriales). Un puesto típico: 'environmental monitoring technician'.",
+      "ex": [
+        {
+          "en": "Our lab does [environmental monitoring] for three rivers.",
+          "es": "Nuestro laboratorio hace monitoreo ambiental de tres ríos."
+        },
+        {
+          "en": "She has five years in [environmental monitoring].",
+          "es": "Ella tiene cinco años en monitoreo ambiental."
+        }
+      ]
+    }
+  ]
+}

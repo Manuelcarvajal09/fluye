@@ -1,0 +1,83 @@
+{
+  "id": "lectura-edmonton-invierno",
+  "level": "A2",
+  "title": "Your First Winter in Edmonton",
+  "title_es": "Tu primer invierno en Edmonton",
+  "topic": "vida",
+  "minutes": 4,
+  "intro_es": "El frío de Edmonton se vence con preparación: aquí tienes lo básico para disfrutarlo.",
+  "paragraphs": [
+    "Welcome to Edmonton! If you come from Mexico, your first winter here will be a big change. Winter in Edmonton is long and cold. Snow can arrive in October or November, and it often stays on the ground until March or April. Some days are very cold, especially in January. But don't worry: many newcomers survive their first winter, and some of them learn to love it.",
+    "The secret is layers. Instead of one big jacket, wear several pieces of clothing. Start with a thin shirt, add a warm sweater and finish with a winter coat that stops the wind. Cover your head, your hands and your ears. A good toque, warm mittens and waterproof boots are not fashion; they are survival tools. When you go inside, take off one layer and you will feel comfortable again.",
+    "If you have a car, you will hear people talk about plugging in. Many cars here have a block heater, a small heater for the engine. On very cold nights, you connect it to an outlet with an extension cord. This helps the car start in the morning. For this reason, many parking spots at apartments and offices have outlets. Also keep a scraper, a blanket and a small shovel in your car.",
+    "In December, the days are short. The sun comes up late and goes down early, sometimes before five in the afternoon. Some people feel tired or a little sad. Go outside when the sun is shining, even for a short walk. Open your curtains, keep a routine and see your friends.",
+    "Finally, enjoy the season! Try skating, go for a walk in the river valley or drink hot chocolate with new friends. Winter is easier when you are prepared."
+  ],
+  "glossary": [
+    { "term": "layers", "es": "capas (de ropa)", "def": "several pieces of clothing worn one over another" },
+    { "term": "toque", "es": "gorro de invierno", "def": "a warm knitted hat for cold weather", "note": "Palabra muy canadiense; en otros países dicen beanie." },
+    { "term": "mittens", "es": "manoplas", "def": "gloves that cover the four fingers together and the thumb separately", "note": "Abrigan más que los guantes normales." },
+    { "term": "waterproof", "es": "impermeable", "def": "that does not let water in" },
+    { "term": "plugging in", "es": "conectar (el coche) a la corriente", "def": "connecting something to electricity with a cable" },
+    { "term": "block heater", "es": "calentador del motor", "def": "a small electric heater that keeps a car engine warm in very cold weather" },
+    { "term": "outlet", "es": "enchufe, toma de corriente", "def": "the place in a wall where you connect a cable to get electricity" },
+    { "term": "extension cord", "es": "extensión eléctrica", "def": "a long cable that brings electricity from an outlet to something far away" },
+    { "term": "scraper", "es": "raspador (de hielo)", "def": "a tool to remove ice and snow from car windows" },
+    { "term": "shovel", "es": "pala", "def": "a tool with a long handle used to move snow or soil" },
+    { "term": "curtains", "es": "cortinas", "def": "pieces of cloth that cover a window" },
+    { "term": "river valley", "es": "valle del río", "def": "the low land along a river; in Edmonton, a big area of parks and trails" }
+  ],
+  "main_idea": {
+    "q": "What is the main idea?",
+    "options": [
+      "With good preparation, you can stay safe and even enjoy your first Edmonton winter.",
+      "Edmonton winters are too cold for people from warm countries.",
+      "The best way to survive winter is to stay inside your apartment."
+    ],
+    "answer": 0,
+    "why_es": "El texto da consejos prácticos (ropa, coche, luz del sol) y termina invitando a disfrutar el invierno."
+  },
+  "questions": [
+    {
+      "q": "Why do people plug in their cars?",
+      "options": [
+        "To charge the battery for long trips",
+        "To keep the engine warm so the car starts in the cold",
+        "To turn on the lights in the parking lot"
+      ],
+      "answer": 1,
+      "why_es": "El block heater calienta el motor para que el coche arranque en la mañana después de una noche muy fría."
+    },
+    {
+      "q": "What does the text say about clothes?",
+      "options": [
+        "Wear one very big jacket.",
+        "Buy fashionable boots.",
+        "Wear several layers and cover your head and hands."
+      ],
+      "answer": 2,
+      "why_es": "El secreto son las capas: varias prendas en lugar de una sola chamarra, y cubrir cabeza, manos y orejas."
+    },
+    {
+      "q": "What can help when the days are short?",
+      "options": [
+        "Going outside when the sun is shining",
+        "Sleeping more during the day",
+        "Closing the curtains to stay warm"
+      ],
+      "answer": 0,
+      "why_es": "El texto recomienda salir cuando hay sol, abrir las cortinas y mantener una rutina."
+    },
+    {
+      "q": "When can the first snow arrive?",
+      "options": [
+        "Only in January",
+        "In October or November",
+        "In March or April"
+      ],
+      "answer": 1,
+      "why_es": "La nieve puede llegar en octubre o noviembre; marzo y abril es cuando suele irse."
+    }
+  ],
+  "club": true
+}

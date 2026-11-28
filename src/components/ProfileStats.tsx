@@ -50,7 +50,7 @@ export function LanguageBar({ levels }: { levels: LevelBar[] }) {
           <h2 id="lang-title" className="font-display text-2xl font-black">
             Tu recorrido en inglés
           </h2>
-          <p className="text-xs text-muted">Avanza con cada expresión que estudias y consolidas en cada nivel. Es una guía, no una certificación.</p>
+          <p className="mt-1 text-sm leading-relaxed text-muted">Avanza con cada expresión que estudias y consolidas en cada nivel. Es una guía, no una certificación.</p>
         </div>
         <p className="font-display text-3xl font-black text-brand-ink">
           <Count to={Math.round(overall * 100)} suffix="%" />
@@ -64,7 +64,7 @@ export function LanguageBar({ levels }: { levels: LevelBar[] }) {
               <span className="lang-mastered" style={{ width: `${l.total ? (l.mastered / l.total) * 100 : 0}%`, animationDelay: `${i * 120 + 200}ms` }} />
             </div>
             <p className="text-center text-xs font-black">{l.level}</p>
-            <p className="text-center text-[10px] font-bold text-muted">
+            <p className="text-center text-xs font-bold text-muted">
               {l.studied}/{l.total}
             </p>
           </div>
@@ -142,8 +142,9 @@ export function StudyStats({ days, today, streak, bestStreak, totalXp }: { days:
       <div>
         <p className="mb-2 text-sm font-bold text-muted">XP por día</p>
         <div className="flex h-28 items-end gap-[3px]" role="img" aria-label="XP por día en el periodo elegido">
+          {bars.length < 4 && <span className="self-center text-xs text-muted">Con más días de estudio aquí verás tu evolución.</span>}
           {bars.map((d, i) => (
-            <span key={d.day} className="day-bar flex-1 rounded-t-md bg-[var(--brand)]" title={`${d.day}: ${d.xp} XP`} style={{ height: `${Math.max(3, (d.xp / maxBar) * 100)}%`, opacity: d.xp ? 1 : 0.18, animationDelay: `${i * 18}ms` }} />
+            <span key={d.day} className="day-bar max-w-6 flex-1 rounded-t-md bg-[var(--brand)]" title={`${d.day}: ${d.xp} XP`} style={{ height: `${Math.max(3, (d.xp / maxBar) * 100)}%`, opacity: d.xp ? 1 : 0.18, animationDelay: `${i * 18}ms` }} />
           ))}
         </div>
       </div>
